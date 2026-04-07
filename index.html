@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MeuFII</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <h1>MeuFII</h1>
+      <div class="header-right">
+        <span id="ultima-atualizacao"></span>
+        <button id="btn-atualizar" onclick="atualizarDados()" title="Roda o script e atualiza os dados">
+          &#x21bb; Atualizar Dados
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <input type="text" id="busca" placeholder="Buscar FII..." oninput="filtrarTabela()" />
+      <select id="filtro-setor" onchange="filtrarTabela()">
+        <option value="">Todos os setores</option>
+      </select>
+    </div>
+
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="tabela-wrapper" style="display:none">
+      <table id="tabela-fiis">
+        <thead>
+          <tr>
+            <th onclick="ordenar('Ticker')">Ticker <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Nome')">Nome <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Setor')">Setor <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Preço Atual')" class="num">Preço <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('P/VP')" class="num">P/VP <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('DY a.a.')" class="num">DY a.a. <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Retorno - MTD')" class="num">Retorno MTD <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Retorno - 12M')" class="num">Retorno 12M <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Último Dividendo Pago')" class="num">Último Div. <span class="sort-icon">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="tabela-body"></tbody>
+      </table>
+      <div id="contagem-fiis"></div>
+    </div>
+  </main>
+
+  <div id="modal-atualizar" class="modal" style="display:none">
+    <div class="modal-box">
+      <h2>Atualizar Dados</h2>
+      <p>Certifique-se de que o Excel está aberto e o Economatica está logado com os dados carregados.</p>
+      <div id="modal-status" class="modal-status"></div>
+      <div class="modal-actions">
+        <button onclick="confirmarAtualizacao()" id="btn-confirmar">Confirmar e Atualizar</button>
+        <button onclick="fecharModal()" class="btn-secundario">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
