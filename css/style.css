@@ -268,6 +268,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .fii-preco-box { text-align: right; }
 .fii-preco { font-size: 36px; font-weight: 700; color: var(--azul-escuro); }
 .fii-preco-label { font-size: 12px; color: var(--texto-suave); margin-top: 4px; }
+.fii-variacao { font-size: 16px; font-weight: 600; margin-top: 2px; }
 
 /* CARDS */
 .cards {

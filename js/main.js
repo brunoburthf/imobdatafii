@@ -3,14 +3,29 @@ let colunaOrdem = null;
 let ordemAsc = true;
 
 const COLUNAS_NUMERICAS = ["Preço Atual", "P/VP", "DY a.a.", "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"];
+const PRICES_URL = "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json";
 
 async function carregarDados() {
   try {
-    const resp = await fetch("data/index.json");
-    if (!resp.ok) throw new Error("Arquivo de dados não encontrado. Rode o script de atualização primeiro.");
-    const data = await resp.json();
+    const [respIndex, respPrecos] = await Promise.all([
+      fetch("data/index.json"),
+      fetch(PRICES_URL).catch(() => null)
+    ]);
+
+    if (!respIndex.ok) throw new Error("Arquivo de dados não encontrado. Rode o script de atualização primeiro.");
+    const data = await respIndex.json();
 
     todosFiis = data.fiis || [];
+
+    // Sobrescreve preço e variação com dados em tempo real do GitHub
+    if (respPrecos && respPrecos.ok) {
+      const precos = await respPrecos.json();
+      todosFiis.forEach(fii => {
+        const ticker = fii["Ticker"];
+        if (precos.precos?.[ticker] != null) fii["Preço Atual"] = precos.precos[ticker];
+        if (precos.variacoes?.[ticker] != null) fii["Variação Dia"] = precos.variacoes[ticker];
+      });
+    }
 
     if (data.atualizado_em) {
       document.getElementById("ultima-atualizacao").textContent = "Atualizado em " + data.atualizado_em;

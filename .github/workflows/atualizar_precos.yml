@@ -1,0 +1,74 @@
+name: Atualizar Preços
+
+on:
+  schedule:
+    # Cada 5 minutos das 13h às 20h UTC = 10h às 17h BRT (dias úteis)
+    - cron: '*/5 13-20 * * 1-5'
+  workflow_dispatch: # permite rodar manualmente pelo GitHub
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install yfinance pandas
+
+      - name: Buscar preços e variação do dia
+        run: |
+          python -c "
+          import yfinance as yf
+          import json
+          from datetime import datetime
+
+          with open('data/index.json', encoding='utf-8') as f:
+              data = json.load(f)
+
+          tickers = [fii['Ticker'] for fii in data['fiis'] if fii.get('Ticker')]
+          symbols = [t + '.SA' for t in tickers]
+
+          print(f'Buscando {len(tickers)} FIIs...')
+          dados = yf.download(symbols, period='5d', auto_adjust=True, progress=False)
+          close = dados['Close']
+
+          precos = {}
+          variacoes = {}
+
+          for ticker, symbol in zip(tickers, symbols):
+              try:
+                  serie = close[symbol].dropna()
+                  if len(serie) >= 2:
+                      preco_atual = round(float(serie.iloc[-1]), 2)
+                      preco_anterior = round(float(serie.iloc[-2]), 2)
+                      variacao = round((preco_atual - preco_anterior) / preco_anterior * 100, 2)
+                      precos[ticker] = preco_atual
+                      variacoes[ticker] = variacao
+                  elif len(serie) == 1:
+                      precos[ticker] = round(float(serie.iloc[-1]), 2)
+              except Exception as e:
+                  print(f'  Erro {ticker}: {e}')
+
+          output = {
+              'atualizado_em': datetime.utcnow().strftime('%d/%m/%Y %H:%M') + ' UTC',
+              'precos': precos,
+              'variacoes': variacoes
+          }
+
+          with open('prices.json', 'w', encoding='utf-8') as f:
+              json.dump(output, f, ensure_ascii=False)
+
+          print(f'{len(precos)}/{len(tickers)} precos atualizados')
+          "
+
+      - name: Commit e push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add prices.json
+          git diff --quiet --cached || git commit -m "precos $(date -u +%H:%M)"
+          git push

@@ -6,6 +6,8 @@ let chartPvp = null;
 let dadosPrecoCompleto = [];
 let dadosPvpCompleto = [];
 
+const PRICES_URL = "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json";
+
 if (!ticker) {
   window.location.href = "index.html";
 }
@@ -14,9 +16,20 @@ document.title = ticker + " — MeuFII";
 
 async function carregarFii() {
   try {
-    const resp = await fetch("data/fiis/" + encodeURIComponent(ticker) + ".json");
+    const [resp, respPrecos] = await Promise.all([
+      fetch("data/fiis/" + encodeURIComponent(ticker) + ".json"),
+      fetch(PRICES_URL).catch(() => null)
+    ]);
+
     if (!resp.ok) throw new Error("Dados não encontrados para " + ticker);
     const data = await resp.json();
+
+    // Sobrescreve preço e variação com dados em tempo real
+    if (respPrecos && respPrecos.ok) {
+      const precos = await respPrecos.json();
+      if (precos.precos?.[ticker] != null) data.dados["Preço Atual"] = precos.precos[ticker];
+      if (precos.variacoes?.[ticker] != null) data.dados["Variação Dia"] = precos.variacoes[ticker];
+    }
 
     renderizarFii(data);
 
@@ -54,6 +67,14 @@ function renderizarFii(data) {
   document.getElementById("fii-nome").textContent = d["Nome"] || "";
   document.getElementById("fii-setor").textContent = d["Setor"] || "";
   document.getElementById("fii-preco").textContent = fmt(d["Preço Atual"], "preco");
+
+  const varEl = document.getElementById("fii-variacao");
+  const variacao = d["Variação Dia"];
+  if (variacao != null) {
+    const sinal = variacao >= 0 ? "+" : "";
+    varEl.textContent = sinal + variacao.toFixed(2) + "%";
+    varEl.className = "fii-variacao " + (variacao >= 0 ? "positivo" : "negativo");
+  }
 
   document.getElementById("card-pvp").textContent = fmt(d["P/VP"], "pvp");
   document.getElementById("card-dy").textContent = fmt(d["DY a.a."], "pct");
