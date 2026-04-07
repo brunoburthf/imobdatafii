@@ -2,7 +2,7 @@ let todosFiis = [];
 let colunaOrdem = null;
 let ordemAsc = true;
 
-const COLUNAS_NUMERICAS = ["Preço Atual", "P/VP", "DY a.a.", "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"];
+const COLUNAS_NUMERICAS = ["Preço Atual", "Variação Dia", "P/VP", "DY a.a.", "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"];
 const PRICES_URL = "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json";
 
 async function carregarDados() {
@@ -104,6 +104,10 @@ function formatarValor(coluna, valor) {
 
   if (coluna === "Preço Atual") return "R$ " + num.toFixed(2);
   if (coluna === "P/VP") return num.toFixed(2) + "x";
+  if (coluna === "Variação Dia") {
+    const sinal = num >= 0 ? "+" : "";
+    return sinal + num.toFixed(2) + "%";
+  }
   if (coluna === "DY a.a." || coluna === "Retorno - MTD" || coluna === "Retorno - 12M") {
     return (num * 100).toFixed(2) + "%";
   }
@@ -112,7 +116,7 @@ function formatarValor(coluna, valor) {
 }
 
 function classeValor(coluna, valor) {
-  if (!["Retorno - MTD", "Retorno - 12M"].includes(coluna)) return "";
+  if (!["Retorno - MTD", "Retorno - 12M", "Variação Dia"].includes(coluna)) return "";
   const num = parseFloat(valor);
   if (isNaN(num)) return "";
   return num >= 0 ? "positivo" : "negativo";
@@ -124,7 +128,7 @@ function renderizarTabela(lista) {
 
   const colunas = [
     "Ticker", "Nome", "Setor",
-    "Preço Atual", "P/VP", "DY a.a.",
+    "Preço Atual", "Variação Dia", "P/VP", "DY a.a.",
     "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"
   ];
 
