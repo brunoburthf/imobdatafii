@@ -250,6 +250,12 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   padding: 24px 28px;
   margin-bottom: 20px;
   box-shadow: var(--sombra);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.fii-hero:hover {
+  background: #f0f2f5;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
 }
 
 .fii-hero h1 { font-size: 32px; font-weight: 700; color: var(--azul-escuro); }
@@ -302,6 +308,12 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   padding: 24px 28px;
   margin-bottom: 20px;
   box-shadow: var(--sombra);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.secao:hover {
+  background: #f0f2f5;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
 }
 
 .secao h2 { font-size: 16px; margin-bottom: 14px; color: var(--azul-escuro); }
@@ -326,6 +338,12 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   border-radius: 10px;
   padding: 24px 28px;
   box-shadow: var(--sombra);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.grafico-box:hover {
+  background: #f0f2f5;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
 }
 
 .grafico-box h2 { font-size: 16px; margin-bottom: 14px; color: var(--azul-escuro); }
