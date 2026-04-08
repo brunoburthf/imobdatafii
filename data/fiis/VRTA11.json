@@ -2,16 +2,16 @@
   "ticker": "VRTA11",
   "dados": {
     "Ticker": "VRTA11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 77.25,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Fator Verita FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": 0.0062524423593,
+    "Retorno - 12M": 0.10778813210999999,
+    "P/VP": 0.90872823701,
+    "Último Dividendo Pago": 0.85,
+    "DY a.a.": 0.1320388349514563,
+    "Visão Geral": "FII de papel que investe em CRIs, LCIs, LHs, cotas de FII, FIDC, renda fixa e debêntures imobiliárias. É gerido pela FAR Fator e tem benchmark de IPCA mais 6% ao ano. A estratégia combina crédito imobiliário e instrumentos complementares para gerar renda recorrente com diversificação entre emissores e estruturas. ([Fator FAR][4])",
+    "Comentário": null,
+    "Preço Atual": 77.14
   },
   "historico_preco": [
     [
@@ -13977,6 +13977,10 @@
     [
       "2026-04-02",
       77.4
+    ],
+    [
+      "2026-04-06",
+      77.09
     ]
   ],
   "historico_pvp": [
@@ -28863,6 +28867,10 @@
     [
       "2026-04-03",
       0.91049275786
+    ],
+    [
+      "2026-04-06",
+      0.90684608144
     ]
   ]
 }
