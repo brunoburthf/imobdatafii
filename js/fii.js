@@ -12,7 +12,7 @@ if (!ticker) {
   window.location.href = "index.html";
 }
 
-document.title = ticker + " — MeuFII";
+document.title = ticker + " — ImobData";
 
 async function carregarFii() {
   try {
@@ -50,7 +50,7 @@ function fmt(valor, tipo) {
   if (tipo === "preco") return "R$ " + num.toFixed(2);
   if (tipo === "pvp") return num.toFixed(2) + "x";
   if (tipo === "pct") return (num * 100).toFixed(2) + "%";
-  if (tipo === "div") return "R$ " + num.toFixed(4);
+  if (tipo === "div") return "R$ " + num.toFixed(2);
   return num.toFixed(2);
 }
 

@@ -111,7 +111,7 @@ function formatarValor(coluna, valor) {
   if (coluna === "DY a.a." || coluna === "Retorno - MTD" || coluna === "Retorno - 12M") {
     return (num * 100).toFixed(2) + "%";
   }
-  if (coluna === "Último Dividendo Pago") return "R$ " + num.toFixed(4);
+  if (coluna === "Último Dividendo Pago") return "R$ " + num.toFixed(2);
   return num.toFixed(2);
 }
 
@@ -127,7 +127,7 @@ function renderizarTabela(lista) {
   tbody.innerHTML = "";
 
   const colunas = [
-    "Ticker", "Nome", "Setor",
+    "Ticker", "Setor",
     "Preço Atual", "Variação Dia", "P/VP", "DY a.a.",
     "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"
   ];
