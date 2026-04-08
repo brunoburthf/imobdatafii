@@ -284,6 +284,12 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   border-radius: 10px;
   padding: 16px 20px;
   box-shadow: var(--sombra);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  background: #f0f2f5;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
 }
 
 .card-label { font-size: 12px; color: var(--texto-suave); margin-bottom: 6px; }
