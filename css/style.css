@@ -159,8 +159,8 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   font-size: 13px;
 }
 
-.positivo { color: var(--verde); }
-.negativo { color: var(--vermelho); }
+.positivo { color: var(--verde) !important; }
+.negativo { color: var(--vermelho) !important; }
 
 #contagem-fiis {
   padding: 10px 14px;
