@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Setores — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="fiis.html" class="nav-link">Informações por FII</a>
+          <a href="setor.html" class="nav-link ativo">Informações por Setor</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <!-- Topo: tabela de setores + gráfico combo -->
+      <div class="setor-grid">
+
+        <div class="setor-card setor-card-destaque">
+          <h2 class="setor-card-titulo">Selecione o setor para mais informações</h2>
+          <div class="setor-tabela-wrapper">
+            <table>
+              <thead id="tabela-setores-head"></thead>
+              <tbody id="tabela-setores-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="setor-card">
+          <h2 class="setor-card-titulo">P/VP e DY por Setor</h2>
+          <div style="position:relative">
+            <canvas id="grafico-combo"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Inferior: históricos + tabela de FIIs do setor -->
+      <div id="setor-detalhe" style="display:none">
+
+        <div class="setor-detalhe-header">
+          <h2 id="setor-detalhe-titulo"></h2>
+        </div>
+
+        <div class="setor-grid">
+
+          <div class="setor-card">
+            <div class="setor-hist-bloco">
+              <h3 class="setor-hist-titulo">Histórico de P/VP</h3>
+              <div class="grafico-controles">
+                <button onclick="filtrarHistorico('pvp','1A')" class="btn-periodo ativo" data-chart="pvp" data-periodo="1A">1A</button>
+                <button onclick="filtrarHistorico('pvp','3A')" class="btn-periodo" data-chart="pvp" data-periodo="3A">3A</button>
+                <button onclick="filtrarHistorico('pvp','5A')" class="btn-periodo" data-chart="pvp" data-periodo="5A">5A</button>
+                <button onclick="filtrarHistorico('pvp','MAX')" class="btn-periodo" data-chart="pvp" data-periodo="MAX">MAX</button>
+              </div>
+              <canvas id="grafico-pvp-setor"></canvas>
+            </div>
+            <div class="setor-hist-bloco" style="margin-top:24px">
+              <h3 class="setor-hist-titulo">Histórico de DY</h3>
+              <div class="grafico-controles">
+                <button onclick="filtrarHistorico('dy','1A')" class="btn-periodo ativo" data-chart="dy" data-periodo="1A">1A</button>
+                <button onclick="filtrarHistorico('dy','3A')" class="btn-periodo" data-chart="dy" data-periodo="3A">3A</button>
+                <button onclick="filtrarHistorico('dy','5A')" class="btn-periodo" data-chart="dy" data-periodo="5A">5A</button>
+                <button onclick="filtrarHistorico('dy','MAX')" class="btn-periodo" data-chart="dy" data-periodo="MAX">MAX</button>
+              </div>
+              <canvas id="grafico-dy-setor"></canvas>
+            </div>
+          </div>
+
+          <div class="setor-card">
+            <h3 class="setor-card-titulo" id="tabela-fiis-setor-titulo"></h3>
+            <div class="setor-tabela-wrapper setor-fiis-wrapper">
+              <table id="tabela-fiis-setor">
+                <thead>
+                  <tr>
+                    <th>Ticker</th>
+                    <th class="num">Preço</th>
+                    <th class="num">Var. Dia</th>
+                    <th class="num">P/VP</th>
+                    <th class="num">DY a.a.</th>
+                    <th class="num">Ret. MTD</th>
+                    <th class="num">Ret. 12M</th>
+                    <th class="num">Último Div.</th>
+                  </tr>
+                </thead>
+                <tbody id="tabela-fiis-setor-body"></tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/setor.js"></script>
+</body>
+</html>

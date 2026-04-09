@@ -10,60 +10,41 @@
 
   <header>
     <div class="header-content">
-      <h1>ImobData</h1>
-      <div class="header-right">
-        <span id="ultima-atualizacao"></span>
-        <button id="btn-atualizar" onclick="atualizarDados()" title="Roda o script e atualiza os dados">
-          &#x21bb; Atualizar Dados
-        </button>
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="fiis.html" class="nav-link">Informações por FII</a>
+          <a href="setor.html" class="nav-link">Informações por Setor</a>
+        </nav>
       </div>
     </div>
   </header>
 
-  <main>
-    <div class="toolbar">
-      <input type="text" id="busca" placeholder="Buscar FII..." oninput="filtrarTabela()" />
-      <select id="filtro-setor" onchange="filtrarTabela()">
-        <option value="">Todos os setores</option>
-      </select>
-    </div>
+  <main class="menu-main">
+    <p class="menu-titulo">Escolha uma categoria para começar</p>
 
-    <div id="loading" class="loading">Carregando dados...</div>
-    <div id="erro" class="erro" style="display:none"></div>
+    <div class="menu-cards">
 
-    <div id="tabela-wrapper" style="display:none">
-      <table id="tabela-fiis">
-        <thead>
-          <tr>
-            <th onclick="ordenar('Ticker')">Ticker <span class="sort-icon">↕</span></th>
-            <th onclick="ordenar('Setor')">Setor <span class="sort-icon">↕</span></th>
-            <th onclick="ordenar('Preço Atual')" class="num">Preço <span class="sort-icon">↕</span></th>
-            <th onclick="ordenar('Variação Dia')" class="num">Var. Dia <span class="sort-icon">↕</span></th>
-            <th onclick="ordenar('P/VP')" class="num">P/VP <span class="sort-icon">↕</span></th>
-            <th onclick="ordenar('DY a.a.')" class="num">DY a.a. <span class="sort-icon">↕</span></th>
-            <th onclick="ordenar('Retorno - MTD')" class="num">Retorno MTD <span class="sort-icon">↕</span></th>
-            <th onclick="ordenar('Retorno - 12M')" class="num">Retorno 12M <span class="sort-icon">↕</span></th>
-            <th onclick="ordenar('Último Dividendo Pago')" class="num">Último Div. <span class="sort-icon">↕</span></th>
-          </tr>
-        </thead>
-        <tbody id="tabela-body"></tbody>
-      </table>
-      <div id="contagem-fiis"></div>
+      <a class="menu-card" href="setor.html">
+        <div class="menu-card-icon">🏢</div>
+        <div>
+          <div class="menu-card-titulo">Informações Por Setor</div>
+        </div>
+        <p class="menu-card-desc">Comparativos e indicadores agregados por segmento: Lajes, Logística, Shoppings, CRIs e mais.</p>
+        <div class="menu-card-seta">→</div>
+      </a>
+
+      <a class="menu-card" href="fiis.html">
+        <div class="menu-card-icon">📊</div>
+        <div>
+          <div class="menu-card-titulo">Informações por FII</div>
+        </div>
+        <p class="menu-card-desc">Cobertura completa dos 119 FIIs com preço, P/VP, DY, retornos e históricos individuais.</p>
+        <div class="menu-card-seta">→</div>
+      </a>
+
     </div>
   </main>
 
-  <div id="modal-atualizar" class="modal" style="display:none">
-    <div class="modal-box">
-      <h2>Atualizar Dados</h2>
-      <p>Certifique-se de que o Excel está aberto e o Economatica está logado com os dados carregados.</p>
-      <div id="modal-status" class="modal-status"></div>
-      <div class="modal-actions">
-        <button onclick="confirmarAtualizacao()" id="btn-confirmar">Confirmar e Atualizar</button>
-        <button onclick="fecharModal()" class="btn-secundario">Cancelar</button>
-      </div>
-    </div>
-  </div>
-
-  <script src="js/main.js?v=3"></script>
 </body>
 </html>

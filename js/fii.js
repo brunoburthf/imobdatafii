@@ -9,7 +9,7 @@ let dadosPvpCompleto = [];
 const PRICES_URL = "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json";
 
 if (!ticker) {
-  window.location.href = "index.html";
+  window.location.href = "fiis.html";
 }
 
 document.title = ticker + " — ImobData";
