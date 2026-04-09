@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Comparar Setores — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="fiis.html" class="nav-link">Informações por FII</a>
+          <a href="setor.html" class="nav-link">Informações por Setor</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span id="ultima-atualizacao"></span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <div class="comparar-layout">
+
+        <!-- Coluna esquerda: tabela com checkboxes -->
+        <div class="comparar-sidebar">
+          <h2 class="comparar-titulo">Selecionar Setores</h2>
+          <div class="setor-tabela-wrapper">
+            <table id="tabela-comparar">
+              <thead id="comparar-thead"></thead>
+              <tbody id="comparar-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Coluna direita: gráficos -->
+        <div class="comparar-graficos">
+
+          <div class="comparar-grafico-bloco">
+            <div class="comparar-grafico-header">
+              <h3>Histórico de P/VP por Setor</h3>
+              <div class="grafico-controles">
+                <button onclick="filtrarComparar('pvp','1A')" class="btn-periodo ativo" data-chart="cpvp" data-periodo="1A">1A</button>
+                <button onclick="filtrarComparar('pvp','3A')" class="btn-periodo" data-chart="cpvp" data-periodo="3A">3A</button>
+                <button onclick="filtrarComparar('pvp','5A')" class="btn-periodo" data-chart="cpvp" data-periodo="5A">5A</button>
+                <button onclick="filtrarComparar('pvp','MAX')" class="btn-periodo" data-chart="cpvp" data-periodo="MAX">MAX</button>
+              </div>
+            </div>
+            <canvas id="grafico-comparar-pvp"></canvas>
+          </div>
+
+          <div class="comparar-grafico-bloco">
+            <div class="comparar-grafico-header">
+              <h3>Histórico de DY por Setor</h3>
+              <div class="grafico-controles">
+                <button onclick="filtrarComparar('dy','1A')" class="btn-periodo ativo" data-chart="cdy" data-periodo="1A">1A</button>
+                <button onclick="filtrarComparar('dy','3A')" class="btn-periodo" data-chart="cdy" data-periodo="3A">3A</button>
+                <button onclick="filtrarComparar('dy','5A')" class="btn-periodo" data-chart="cdy" data-periodo="5A">5A</button>
+                <button onclick="filtrarComparar('dy','MAX')" class="btn-periodo" data-chart="cdy" data-periodo="MAX">MAX</button>
+              </div>
+            </div>
+            <canvas id="grafico-comparar-dy"></canvas>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/comparar.js"></script>
+</body>
+</html>

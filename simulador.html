@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de Carteira — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="fiis.html" class="nav-link">Informações por FII</a>
+          <a href="setor.html" class="nav-link">Informações por Setor</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <div class="sim-layout">
+
+        <!-- Busca e tabela -->
+        <div class="sim-card">
+          <h2 class="sim-titulo">Simulador de Carteira</h2>
+
+          <!-- Campo de busca -->
+          <div class="sim-busca-wrapper">
+            <div class="sim-busca-container">
+              <input
+                type="text"
+                id="sim-busca"
+                class="sim-busca-input"
+                placeholder="Buscar FII... (ex: KNCR11 ou KN)"
+                autocomplete="off"
+                oninput="filtrarSugestoes()"
+                onkeydown="navegarSugestoes(event)"
+              />
+              <div id="sim-sugestoes" class="sim-sugestoes" style="display:none"></div>
+            </div>
+            <span id="sim-contador" class="sim-contador">0 / 15 fundos</span>
+          </div>
+
+          <!-- Tabela da carteira -->
+          <div class="sim-tabela-wrapper">
+            <table id="sim-tabela">
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Nome</th>
+                  <th>Setor</th>
+                  <th class="num">Peso (%)</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="sim-tbody">
+                <tr id="sim-vazio">
+                  <td colspan="5" class="sim-vazio-msg">Busque e adicione FIIs acima para montar sua carteira.</td>
+                </tr>
+              </tbody>
+              <tfoot id="sim-tfoot" style="display:none">
+                <tr>
+                  <td colspan="3" class="sim-total-label">Total</td>
+                  <td class="num" id="sim-total-valor">0,00%</td>
+                  <td></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+
+          <!-- Aviso de soma -->
+          <div id="sim-aviso" class="sim-aviso" style="display:none"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/simulador.js"></script>
+</body>
+</html>
