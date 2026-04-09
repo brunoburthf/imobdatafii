@@ -36,10 +36,18 @@ async function carregarDados() {
     }
 
     document.getElementById("loading").style.display = "none";
-    document.getElementById("conteudo").style.display = "block";
 
-    renderizarTabelaSetores(dadosSetores.tabela || []);
-    renderizarGraficoCombo(dadosSetores.tabela || []);
+    const tabela = dadosSetores.tabela || [];
+    if (!tabela.length || tabela.every(s => s["Setor"] == null)) {
+      const el = document.getElementById("erro");
+      el.style.display = "block";
+      el.textContent = "Dados de setores não disponíveis. Abra o Excel com o Economatica logado e clique em \"Atualizar Dados\" na página principal.";
+      return;
+    }
+
+    document.getElementById("conteudo").style.display = "block";
+    renderizarTabelaSetores(tabela);
+    renderizarGraficoCombo(tabela);
 
   } catch (e) {
     document.getElementById("loading").style.display = "none";
