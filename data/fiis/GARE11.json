@@ -2,16 +2,16 @@
   "ticker": "GARE11",
   "dados": {
     "Ticker": "GARE11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 8.25,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Guardian Real Estate FII",
+    "Setor": "Tijolo Multissetorial",
+    "Retorno - MTD": "-0,91%",
+    "Retorno - 12M": "11,07%",
+    "P/VP": 0.89,
+    "Último Dividendo Pago": 0.083,
+    "DY a.a.": "11,9%",
+    "Visão Geral": "FII de renda urbana e logística que investe em imóveis comerciais locados, com diversificação entre tipologias e inquilinos. É gerido pela Guardian e se apresenta como solução para investir em diferentes imóveis com estabilidade e previsibilidade de resultados. A estratégia prioriza contratos longos, renda recorrente e gestão ativa do portfólio. ([guardian-asset.com][2])",
+    "Comentário": null,
+    "Preço Atual": 8.26
   },
   "historico_preco": [
     [
@@ -5241,6 +5241,14 @@
     [
       "2026-04-02",
       8.52
+    ],
+    [
+      "2026-04-06",
+      8.48
+    ],
+    [
+      "2026-04-07",
+      8.45
     ]
   ],
   "historico_pvp": [
@@ -10715,6 +10723,14 @@
     [
       "2026-04-03",
       0.89905346102
+    ],
+    [
+      "2026-04-06",
+      0.89483255275
+    ],
+    [
+      "2026-04-07",
+      0.89166687155
     ]
   ]
 }

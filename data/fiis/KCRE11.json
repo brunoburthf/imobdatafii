@@ -2,16 +2,16 @@
   "ticker": "KCRE11",
   "dados": {
     "Ticker": "KCRE11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 9.07,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Kinea Creditas FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "1,92%",
+    "Retorno - 12M": "20,81%",
+    "P/VP": 0.94,
+    "Último Dividendo Pago": 0.1,
+    "DY a.a.": "13,3%",
+    "Visão Geral": "FII de papel que investe em CRIs com lastro pulverizado, desenvolvido em parceria com a fintech Creditas. É gerido pela Kinea, iniciou em 21 de janeiro de 2022 e tinha patrimônio líquido de R$ 341,1 milhões em 1º de abril de 2026. A estratégia prioriza crédito imobiliário pulverizado e renda recorrente. ([KINEA][6])",
+    "Comentário": null,
+    "Preço Atual": 9.06
   },
   "historico_preco": [
     [
@@ -3797,6 +3797,14 @@
     [
       "2026-04-02",
       8.99
+    ],
+    [
+      "2026-04-06",
+      8.98
+    ],
+    [
+      "2026-04-07",
+      9.0
     ]
   ],
   "historico_pvp": [
@@ -7755,6 +7763,14 @@
     [
       "2026-04-03",
       0.93772643504
+    ],
+    [
+      "2026-04-06",
+      0.9366833578
+    ],
+    [
+      "2026-04-07",
+      0.93876951227
     ]
   ]
 }

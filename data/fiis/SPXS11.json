@@ -2,16 +2,16 @@
   "ticker": "SPXS11",
   "dados": {
     "Ticker": "SPXS11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 8.36,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Spx Real Estate Multiestratégia FII",
+    "Setor": "FOFs/Hedge Funds",
+    "Retorno - MTD": "-1,16%",
+    "Retorno - 12M": "16,66%",
+    "P/VP": 0.9,
+    "Último Dividendo Pago": 0.092,
+    "DY a.a.": "13,0%",
+    "Visão Geral": "FII multiestratégia que investe em ativos imobiliários de renda, crédito, ações, desenvolvimento e outras frentes do setor. É gerido pela SPX Real Estate e busca geração de valor ancorada em ativos geradores de renda, complementada por ganho de capital. A estratégia combina gestão ativa, mandato flexível e diversificação setorial. ([SPX Real Estate][9])",
+    "Comentário": null,
+    "Preço Atual": 8.35
   },
   "historico_preco": [
     [
@@ -3661,6 +3661,14 @@
     [
       "2026-04-02",
       8.63
+    ],
+    [
+      "2026-04-06",
+      8.49
+    ],
+    [
+      "2026-04-07",
+      8.47
     ]
   ],
   "historico_pvp": [
@@ -7415,6 +7423,14 @@
     [
       "2026-04-03",
       0.91028266566
+    ],
+    [
+      "2026-04-06",
+      0.89551562358
+    ],
+    [
+      "2026-04-07",
+      0.89340604614
     ]
   ]
 }

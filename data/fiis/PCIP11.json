@@ -2,16 +2,16 @@
   "ticker": "PCIP11",
   "dados": {
     "Ticker": "PCIP11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 83.94,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Patria Crédito Imobiliário Índice de Preços FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "-1,42%",
+    "Retorno - 12M": "15,62%",
+    "P/VP": 0.9,
+    "Último Dividendo Pago": 0.8,
+    "DY a.a.": "11,4%",
+    "Visão Geral": "FII de papel que investe em CRIs indexados ao IPCA, atuando em um espectro amplo de crédito imobiliário. É gerido pelo Patria, tem patrimônio líquido de R$ 1,023 bilhão e 83.720 cotistas na base de agosto de 2025. A estratégia prioriza renda recorrente com carteira preponderantemente exposta a inflação. ([Real Estate][7])",
+    "Comentário": null,
+    "Preço Atual": 83.84
   },
   "historico_preco": [
     [
@@ -6461,6 +6461,14 @@
     [
       "2026-04-02",
       83.5
+    ],
+    [
+      "2026-04-06",
+      84.29
+    ],
+    [
+      "2026-04-07",
+      83.8
     ]
   ],
   "historico_pvp": [
@@ -13275,6 +13283,14 @@
     [
       "2026-04-03",
       0.89488551817
+    ],
+    [
+      "2026-04-06",
+      0.90335209972
+    ],
+    [
+      "2026-04-07",
+      0.89810067572
     ]
   ]
 }

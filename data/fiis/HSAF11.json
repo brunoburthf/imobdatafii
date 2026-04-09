@@ -2,16 +2,16 @@
   "ticker": "HSAF11",
   "dados": {
     "Ticker": "HSAF11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 79.15,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Hsi Ativos Financeiros FII",
+    "Setor": "FOFs/Hedge Funds",
+    "Retorno - MTD": "-1,55%",
+    "Retorno - 12M": "17,83%",
+    "P/VP": 0.88,
+    "Último Dividendo Pago": 0.95,
+    "DY a.a.": "14,5%",
+    "Visão Geral": "FII multiestratégia que investe em CRIs, cotas de FIIs, letras hipotecárias, LCIs, LIGs e outros valores mobiliários imobiliários. É gerido pela HSI e enquadrado pela ANBIMA como multiestratégia de gestão ativa. A estratégia busca renda e ganho de capital com mandato flexível e diversificação entre crédito e fundos. ([HSI ATIVOS FINANCEIROS – HSAF][6])",
+    "Comentário": null,
+    "Preço Atual": 79.68
   },
   "historico_preco": [
     [
@@ -5533,6 +5533,14 @@
     [
       "2026-04-02",
       79.04
+    ],
+    [
+      "2026-04-06",
+      79.03
+    ],
+    [
+      "2026-04-07",
+      78.77
     ]
   ],
   "historico_pvp": [
@@ -11287,6 +11295,14 @@
     [
       "2026-04-03",
       0.88398479181
+    ],
+    [
+      "2026-04-06",
+      0.88387295163
+    ],
+    [
+      "2026-04-07",
+      0.88096510692
     ]
   ]
 }

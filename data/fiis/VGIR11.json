@@ -2,16 +2,16 @@
   "ticker": "VGIR11",
   "dados": {
     "Ticker": "VGIR11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 9.83,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Valora Cri CDI FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "0,41%",
+    "Retorno - 12M": "20,55%",
+    "P/VP": 1.0,
+    "Último Dividendo Pago": 0.12,
+    "DY a.a.": "14,6%",
+    "Visão Geral": "FII de papel que investe em CRIs, com objetivo de alocação preponderante nesses títulos e benchmark atrelado ao CDI. É gerido pela Valora e busca renda recorrente por meio de crédito imobiliário. A estratégia concentra recebíveis elegíveis definidos em política própria, com foco em instrumentos financeiros do setor imobiliário. ([valorainvest.com.br][6])",
+    "Comentário": null,
+    "Preço Atual": 9.83
   },
   "historico_preco": [
     [
@@ -7501,6 +7501,14 @@
     [
       "2026-04-02",
       9.83
+    ],
+    [
+      "2026-04-06",
+      9.79
+    ],
+    [
+      "2026-04-07",
+      9.81
     ]
   ],
   "historico_pvp": [
@@ -15519,6 +15527,14 @@
     [
       "2026-04-03",
       1.0043594564
+    ],
+    [
+      "2026-04-06",
+      1.000272541
+    ],
+    [
+      "2026-04-07",
+      1.0023159987
     ]
   ]
 }

@@ -2,16 +2,16 @@
   "ticker": "IBBP11",
   "dados": {
     "Ticker": "IBBP11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 8.25,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Invista Brazilian Business Park FII",
+    "Setor": "Tijolo Multissetorial",
+    "Retorno - MTD": "-0,25%",
+    "Retorno - 12M": "7,34%",
+    "P/VP": 0.81,
+    "Último Dividendo Pago": 0.0736,
+    "DY a.a.": "10,9%",
+    "Visão Geral": "FII de desenvolvimento industrial e logístico que investe em galpões industriais e logísticos para locação no Brazilian Business Park, ao longo de rodovias paulistas. Possui 80 mil m² construídos, 39 mil m² em construção e 163 mil m² de platôs, com inquilinos multinacionais e estratégia de renda recorrente com ganho de capital.",
+    "Comentário": null,
+    "Preço Atual": 8.25
   },
   "historico_preco": [
     [
@@ -1097,6 +1097,14 @@
     [
       "2026-04-02",
       7.5
+    ],
+    [
+      "2026-04-06",
+      7.8
+    ],
+    [
+      "2026-04-07",
+      8.0
     ]
   ],
   "historico_pvp": [
@@ -2455,6 +2463,14 @@
     [
       "2026-04-03",
       0.75509025259
+    ],
+    [
+      "2026-04-06",
+      0.78529386269
+    ],
+    [
+      "2026-04-07",
+      0.80542960276
     ]
   ]
 }

@@ -2,16 +2,16 @@
   "ticker": "DEVA11",
   "dados": {
     "Ticker": "DEVA11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 23.58,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Devant Recebíveis Imobiliários FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "1,42%",
+    "Retorno - 12M": "-2,39%",
+    "P/VP": 0.25,
+    "Último Dividendo Pago": 0.3,
+    "DY a.a.": "14,9%",
+    "Visão Geral": "FII de papel que investe em recebíveis imobiliários, com foco em CRIs e geração de renda recorrente por meio de crédito imobiliário. Teve IPO em 2020, é gerido pela Devant e apresentava patrimônio líquido de R$ 1,379 bilhão na página oficial consultada. A estratégia prioriza carteira pulverizada e gestão ativa do portfólio. ([Devant Asset][9])",
+    "Comentário": null,
+    "Preço Atual": 23.52
   },
   "historico_preco": [
     [
@@ -5349,6 +5349,14 @@
     [
       "2026-04-02",
       24.17
+    ],
+    [
+      "2026-04-06",
+      23.99
+    ],
+    [
+      "2026-04-07",
+      23.85
     ]
   ],
   "historico_pvp": [
@@ -10947,6 +10955,14 @@
     [
       "2026-04-03",
       0.24643349138
+    ],
+    [
+      "2026-04-06",
+      0.24459823989
+    ],
+    [
+      "2026-04-07",
+      0.24317082207
     ]
   ]
 }

@@ -2,16 +2,16 @@
   "ticker": "CLIN11",
   "dados": {
     "Ticker": "CLIN11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 93.3,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Clave Índices de Preços FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "2,48%",
+    "Retorno - 12M": "23,66%",
+    "P/VP": 0.94,
+    "Último Dividendo Pago": 0.95,
+    "DY a.a.": "12,3%",
+    "Visão Geral": "FII de papel que investe em CRIs, majoritariamente com benchmark em juros reais, destinados ao financiamento imobiliário e crédito corporativo do setor. Iniciado em julho de 2023, é gerido pela Clave e concentra maior foco na região Sudeste, nos segmentos residencial, logístico e comercial. A estratégia prioriza renda indexada à inflação. ([Clave Capital][7])",
+    "Comentário": null,
+    "Preço Atual": 93.26
   },
   "historico_preco": [
     [
@@ -2429,6 +2429,14 @@
     [
       "2026-04-02",
       92.7
+    ],
+    [
+      "2026-04-06",
+      93.01
+    ],
+    [
+      "2026-04-07",
+      93.12
     ]
   ],
   "historico_pvp": [
@@ -4967,6 +4975,14 @@
     [
       "2026-04-03",
       0.94210060041
+    ],
+    [
+      "2026-04-06",
+      0.94525109864
+    ],
+    [
+      "2026-04-07",
+      0.94636901737
     ]
   ]
 }

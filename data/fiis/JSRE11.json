@@ -2,16 +2,16 @@
   "ticker": "JSRE11",
   "dados": {
     "Ticker": "JSRE11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 65.53,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Js Real Estate Multigestão FII",
+    "Setor": "Escritórios",
+    "Retorno - MTD": "-1,53%",
+    "Retorno - 12M": "19,98%",
+    "P/VP": 0.63,
+    "Último Dividendo Pago": 0.48,
+    "DY a.a.": "8,8%",
+    "Visão Geral": "FII híbrido que investe em imóveis, cotas de FIIs, CRIs e outros ativos imobiliários, com gestão ativa e mandato amplo. É gerido pelo Safra Asset e busca distribuir renda mensal por meio de aluguéis, rendimentos e ganho de capital. A estratégia combina exposição a ativos reais e financeiros do setor. ([Banco Safra][8])",
+    "Comentário": null,
+    "Preço Atual": 65.48
   },
   "historico_preco": [
     [
@@ -13617,9 +13617,21 @@
     [
       "2026-04-02",
       65.64
+    ],
+    [
+      "2026-04-06",
+      65.89
+    ],
+    [
+      "2026-04-07",
+      65.3
     ]
   ],
   "historico_pvp": [
+    [
+      "2011-12-30",
+      0.96665667312
+    ],
     [
       "2012-01-02",
       0.9631121931
@@ -28499,6 +28511,14 @@
     [
       "2026-04-03",
       0.63296574052
+    ],
+    [
+      "2026-04-06",
+      0.63537648755
+    ],
+    [
+      "2026-04-07",
+      0.62968712455
     ]
   ]
 }

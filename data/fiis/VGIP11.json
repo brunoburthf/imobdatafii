@@ -2,16 +2,16 @@
   "ticker": "VGIP11",
   "dados": {
     "Ticker": "VGIP11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 79.91,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Valora Cri Índice de Preço FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "-0,44%",
+    "Retorno - 12M": "14,90%",
+    "P/VP": 0.87,
+    "Último Dividendo Pago": 0.74,
+    "DY a.a.": "11,1%",
+    "Visão Geral": "FII de papel que investe em CRIs, com carteira preponderantemente indexada a índices de inflação e foco em renda recorrente. É gerido pela Valora, iniciou em março de 2020 e se enquadra como FII de títulos e valores mobiliários de gestão ativa. A estratégia prioriza crédito imobiliário indexado ao IPCA. ([Valora Investimentos][2])",
+    "Comentário": null,
+    "Preço Atual": 79.95
   },
   "historico_preco": [
     [
@@ -6033,6 +6033,14 @@
     [
       "2026-04-02",
       80.97
+    ],
+    [
+      "2026-04-06",
+      79.29
+    ],
+    [
+      "2026-04-07",
+      79.84
     ]
   ],
   "historico_pvp": [
@@ -12311,6 +12319,14 @@
     [
       "2026-04-03",
       0.88487887269
+    ],
+    [
+      "2026-04-06",
+      0.86651902947
+    ],
+    [
+      "2026-04-07",
+      0.87252969243
     ]
   ]
 }

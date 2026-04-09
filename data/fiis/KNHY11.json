@@ -2,16 +2,16 @@
   "ticker": "KNHY11",
   "dados": {
     "Ticker": "KNHY11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 99.79,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Kinea High Yield Cri FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "1,33%",
+    "Retorno - 12M": "15,18%",
+    "P/VP": 1.0,
+    "Último Dividendo Pago": 1.1,
+    "DY a.a.": "13,2%",
+    "Visão Geral": "FII de papel que investe em CRIs de perfil high yield, buscando retorno superior dentro do crédito imobiliário. Tem gestão da Kinea, início em 2018 e patrimônio líquido de cerca de R$ 3,1 bilhões. A carteira concentra operações com predominância de indexação ao IPCA e estratégia de renda recorrente em crédito privado.",
+    "Comentário": null,
+    "Preço Atual": 99.78
   },
   "historico_preco": [
     [
@@ -7617,6 +7617,14 @@
     [
       "2026-04-02",
       99.35
+    ],
+    [
+      "2026-04-06",
+      99.65
+    ],
+    [
+      "2026-04-07",
+      99.96
     ]
   ],
   "historico_pvp": [
@@ -15607,6 +15615,14 @@
     [
       "2026-04-03",
       0.99925787284
+    ],
+    [
+      "2026-04-06",
+      1.0022752595
+    ],
+    [
+      "2026-04-07",
+      1.0053932257
     ]
   ]
 }

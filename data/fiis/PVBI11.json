@@ -2,16 +2,16 @@
   "ticker": "PVBI11",
   "dados": {
     "Ticker": "PVBI11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 76.47,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "FII Vbi Prime Properties",
+    "Setor": "Escritórios",
+    "Retorno - MTD": "1,03%",
+    "Retorno - 12M": "7,92%",
+    "P/VP": 0.71,
+    "Último Dividendo Pago": 0.4,
+    "DY a.a.": "6,3%",
+    "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios prontos, com portfólio concentrado em regiões prime de São Paulo. Iniciado em julho de 2020, é gerido pelo Pátria VBI e reúne ativos como Park Tower Jardins, FL 4440, Union Faria Lima e Vila Olímpia Corporate. A estratégia prioriza renda locatícia em imóveis corporativos de alta qualidade. ([Real Estate][8])",
+    "Comentário": null,
+    "Preço Atual": 76.43
   },
   "historico_preco": [
     [
@@ -5677,6 +5677,14 @@
     [
       "2026-04-02",
       76.82
+    ],
+    [
+      "2026-04-06",
+      76.97
+    ],
+    [
+      "2026-04-07",
+      76.32
     ]
   ],
   "historico_pvp": [
@@ -11603,6 +11611,14 @@
     [
       "2026-04-03",
       0.71229956551
+    ],
+    [
+      "2026-04-06",
+      0.7136904134
+    ],
+    [
+      "2026-04-07",
+      0.70766340588
     ]
   ]
 }

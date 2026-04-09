@@ -2,16 +2,16 @@
   "ticker": "JSCR11",
   "dados": {
     "Ticker": "JSCR11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 8.35,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Js Recebíveis Imobiliários FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "0,54%",
+    "Retorno - 12M": "14,26%",
+    "P/VP": 0.88,
+    "Último Dividendo Pago": 0.095,
+    "DY a.a.": "13,7%",
+    "Visão Geral": "FII de papel que investe em CRIs, cotas de FIIs de CRI e outros ativos de crédito do mercado imobiliário. É gerido pelo Safra com gestão ativa e foco em rendimentos ou ganhos de capital. A estratégia prioriza geração frequente de renda por meio de carteira voltada a crédito imobiliário. ([Banco Safra][8])",
+    "Comentário": null,
+    "Preço Atual": 8.35
   },
   "historico_preco": [
     [
@@ -1669,6 +1669,14 @@
     [
       "2026-04-02",
       8.31
+    ],
+    [
+      "2026-04-06",
+      8.43
+    ],
+    [
+      "2026-04-07",
+      8.27
     ]
   ],
   "historico_pvp": [
@@ -3415,6 +3423,14 @@
     [
       "2026-04-03",
       0.87454694578
+    ],
+    [
+      "2026-04-06",
+      0.88717578255
+    ],
+    [
+      "2026-04-07",
+      0.87033733353
     ]
   ]
 }

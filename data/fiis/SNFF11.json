@@ -2,16 +2,16 @@
   "ticker": "SNFF11",
   "dados": {
     "Ticker": "SNFF11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 74.11,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Suno Fundo de FII",
+    "Setor": "FOFs/Hedge Funds",
+    "Retorno - MTD": "2,10%",
+    "Retorno - 12M": "23,15%",
+    "P/VP": 0.85,
+    "Último Dividendo Pago": 0.72,
+    "DY a.a.": "11,6%",
+    "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, com política de investimentos imobiliários de longo prazo. É gerido pela Suno Asset, foi lançado ao mercado geral em maio de 2021 e busca retornos por rendimentos mensais e valorização das cotas. A estratégia prioriza alocação ativa e diversificação. ([Suno][9])",
+    "Comentário": null,
+    "Preço Atual": 74.03
   },
   "historico_preco": [
     [
@@ -4917,6 +4917,14 @@
     [
       "2026-04-02",
       73.75
+    ],
+    [
+      "2026-04-06",
+      73.6
+    ],
+    [
+      "2026-04-07",
+      74.15
     ]
   ],
   "historico_pvp": [
@@ -9979,6 +9987,14 @@
     [
       "2026-04-03",
       0.84102503169
+    ],
+    [
+      "2026-04-06",
+      0.8393144723
+    ],
+    [
+      "2026-04-07",
+      0.84558652338
     ]
   ]
 }

@@ -2,16 +2,16 @@
   "ticker": "KFOF11",
   "dados": {
     "Ticker": "KFOF11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 83.61,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Fundo de Fundos de Investimento Imobiliário Kinea FII",
+    "Setor": "FOFs/Hedge Funds",
+    "Retorno - MTD": "1,45%",
+    "Retorno - 12M": "28,70%",
+    "P/VP": 0.89,
+    "Último Dividendo Pago": 0.8,
+    "DY a.a.": "11,4%",
+    "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, com gestão ativa e objetivo de capturar renda e valorização no mercado imobiliário listado. É gerido pela Kinea e teve início em março de 2018. A estratégia combina diversificação entre fundos e reciclagem tática de portfólio. ([KINEA][7])",
+    "Comentário": null,
+    "Preço Atual": 83.6
   },
   "historico_preco": [
     [
@@ -7085,6 +7085,14 @@
     [
       "2026-04-02",
       83.36
+    ],
+    [
+      "2026-04-06",
+      83.85
+    ],
+    [
+      "2026-04-07",
+      83.04
     ]
   ],
   "historico_pvp": [
@@ -14507,6 +14515,14 @@
     [
       "2026-04-03",
       0.88508847951
+    ],
+    [
+      "2026-04-06",
+      0.89029113492
+    ],
+    [
+      "2026-04-07",
+      0.881690827
     ]
   ]
 }

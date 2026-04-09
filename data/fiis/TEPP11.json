@@ -2,16 +2,16 @@
   "ticker": "TEPP11",
   "dados": {
     "Ticker": "TEPP11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 9.01,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Tellus Properties FII",
+    "Setor": "Escritórios",
+    "Retorno - MTD": "0,46%",
+    "Retorno - 12M": "24,53%",
+    "P/VP": 0.94,
+    "Último Dividendo Pago": 0.131,
+    "DY a.a.": "17,4%",
+    "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em obtenção de renda e agregação de valor por meio de gestão ativa. É gerido pela Tellus e direcionado ao segmento corporativo. A estratégia prioriza locação recorrente, melhorias operacionais e captura de valor em ativos urbanos relevantes. ([Tellus Gestora][2])",
+    "Comentário": null,
+    "Preço Atual": 9.01
   },
   "historico_preco": [
     [
@@ -6505,6 +6505,14 @@
     [
       "2026-04-02",
       8.96
+    ],
+    [
+      "2026-04-06",
+      8.98
+    ],
+    [
+      "2026-04-07",
+      8.99
     ]
   ],
   "historico_pvp": [
@@ -13307,6 +13315,14 @@
     [
       "2026-04-03",
       0.9367838245
+    ],
+    [
+      "2026-04-06",
+      0.93887485982
+    ],
+    [
+      "2026-04-07",
+      0.93992037748
     ]
   ]
 }

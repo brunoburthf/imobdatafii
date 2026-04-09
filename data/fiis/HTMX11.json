@@ -2,16 +2,16 @@
   "ticker": "HTMX11",
   "dados": {
     "Ticker": "HTMX11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 136.91,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Hotel Maxinvest FII",
+    "Setor": "Tijolo Multissetorial",
+    "Retorno - MTD": "0,91%",
+    "Retorno - 12M": "10,33%",
+    "P/VP": 0.93,
+    "Último Dividendo Pago": 1.2,
+    "DY a.a.": "10,5%",
+    "Visão Geral": "FII de hotéis que investe em unidades hoteleiras, com foco em renda ligada à exploração do mercado de hospedagem em São Paulo. Criado em 2007, é administrado pelo BTG Pactual e negociado na B3. A estratégia concentra exposição em ativo do segmento hoteleiro urbano, com geração de renda vinculada à operação. ([Clube FII][9])",
+    "Comentário": null,
+    "Preço Atual": 137.11
   },
   "historico_preco": [
     [
@@ -14149,9 +14149,21 @@
     [
       "2026-04-02",
       136.6
+    ],
+    [
+      "2026-04-06",
+      136.6
+    ],
+    [
+      "2026-04-07",
+      136.32
     ]
   ],
   "historico_pvp": [
+    [
+      "2011-12-30",
+      2.824074235
+    ],
     [
       "2012-01-02",
       2.9872326267
@@ -29031,6 +29043,14 @@
     [
       "2026-04-03",
       0.92263587736
+    ],
+    [
+      "2026-04-06",
+      0.92263587736
+    ],
+    [
+      "2026-04-07",
+      0.92074467644
     ]
   ]
 }

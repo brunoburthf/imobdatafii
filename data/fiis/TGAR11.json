@@ -2,16 +2,16 @@
   "ticker": "TGAR11",
   "dados": {
     "Ticker": "TGAR11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 70.63,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "FII Tg Ativo Real",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "1,31%",
+    "Retorno - 12M": "-5,74%",
+    "P/VP": 0.65,
+    "Último Dividendo Pago": 0.72,
+    "DY a.a.": "12,1%",
+    "Visão Geral": "FII híbrido que investe em ativos imobiliários e ativos financeiros imobiliários, com foco em desenvolvimento e valorização patrimonial. Iniciado em dezembro de 2016, é descrito pela gestora como o maior fundo de desenvolvimento imobiliário listado do Brasil. A estratégia combina distribuição de lucros e ganho de capital com gestão ativa. ([Tgar11][7])",
+    "Comentário": null,
+    "Preço Atual": 70.65
   },
   "historico_preco": [
     [
@@ -8493,6 +8493,14 @@
     [
       "2026-04-02",
       70.4
+    ],
+    [
+      "2026-04-06",
+      71.39
+    ],
+    [
+      "2026-04-07",
+      70.35
     ]
   ],
   "historico_pvp": [
@@ -17575,6 +17583,14 @@
     [
       "2026-04-03",
       0.63908115795
+    ],
+    [
+      "2026-04-06",
+      0.64806823673
+    ],
+    [
+      "2026-04-07",
+      0.63862726508
     ]
   ]
 }

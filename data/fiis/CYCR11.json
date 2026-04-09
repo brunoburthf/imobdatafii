@@ -2,16 +2,16 @@
   "ticker": "CYCR11",
   "dados": {
     "Ticker": "CYCR11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 9.03,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Cyrela Crédito FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "0,51%",
+    "Retorno - 12M": "21,94%",
+    "P/VP": 0.96,
+    "Último Dividendo Pago": 0.106,
+    "DY a.a.": "14,1%",
+    "Visão Geral": "FII de papel que investe em CRIs, debêntures e outros ativos financeiros com lastro imobiliário, buscando renda recorrente e valorização patrimonial. É gerido pela Cy Capital e atua no segmento de recebíveis imobiliários. Porte, concentração por indexador, perfil dos devedores e diversificação detalhada aparecem como N/A nas fontes consultadas. ([cy.capital][3])",
+    "Comentário": null,
+    "Preço Atual": 9.04
   },
   "historico_preco": [
     [
@@ -4361,6 +4361,14 @@
     [
       "2026-04-02",
       9.0
+    ],
+    [
+      "2026-04-06",
+      9.02
+    ],
+    [
+      "2026-04-07",
+      9.01
     ]
   ],
   "historico_pvp": [
@@ -8919,6 +8927,14 @@
     [
       "2026-04-03",
       0.95455277676
+    ],
+    [
+      "2026-04-06",
+      0.95667400515
+    ],
+    [
+      "2026-04-07",
+      0.95561339095
     ]
   ]
 }

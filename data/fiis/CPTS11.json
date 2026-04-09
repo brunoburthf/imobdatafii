@@ -2,16 +2,16 @@
   "ticker": "CPTS11",
   "dados": {
     "Ticker": "CPTS11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 8.05,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Capitânia Securities II FII",
+    "Setor": "FOFs/Hedge Funds",
+    "Retorno - MTD": "0,63%",
+    "Retorno - 12M": "28,29%",
+    "P/VP": 0.87,
+    "Último Dividendo Pago": 0.09,
+    "DY a.a.": "13,4%",
+    "Visão Geral": "FII de papel que investe em CRIs, cotas de FII, cotas de FIDC, debêntures, LCI, LIG e outros valores mobiliários de origem imobiliária. Tem gestão da Capitânia e mandato amplo, podendo ainda alocar parte do patrimônio em ações imobiliárias. A estratégia busca rentabilidade com diversificação de crédito e instrumentos listados. ([Capitânia Investimentos][4])",
+    "Comentário": null,
+    "Preço Atual": 8.05
   },
   "historico_preco": [
     [
@@ -11077,6 +11077,14 @@
     [
       "2026-04-02",
       8.02
+    ],
+    [
+      "2026-04-06",
+      8.02
+    ],
+    [
+      "2026-04-07",
+      8.01
     ]
   ],
   "historico_pvp": [
@@ -23179,6 +23187,14 @@
     [
       "2026-04-03",
       0.87380859662
+    ],
+    [
+      "2026-04-06",
+      0.87380859662
+    ],
+    [
+      "2026-04-07",
+      0.87271905971
     ]
   ]
 }

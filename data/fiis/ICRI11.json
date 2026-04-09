@@ -2,16 +2,16 @@
   "ticker": "ICRI11",
   "dados": {
     "Ticker": "ICRI11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 99.86,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Itaú Crédito Imobiliário IPCA FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "3,01%",
+    "Retorno - 12M": "20,00%",
+    "P/VP": 0.97,
+    "Último Dividendo Pago": 1.05,
+    "DY a.a.": "12,7%",
+    "Visão Geral": "FII de papel que investe em CRIs e outros títulos e valores mobiliários lastreados em recebíveis imobiliários, com foco em distribuição de rendimentos. É gerido pelo Itaú Asset e busca diversificação entre segmentos com boas garantias. A estratégia prioriza crédito indexado à inflação e geração recorrente de renda imobiliária. ([Itaú Asset Management][4])",
+    "Comentário": null,
+    "Preço Atual": 99.86
   },
   "historico_preco": [
     [
@@ -2145,6 +2145,14 @@
     [
       "2026-04-02",
       96.26
+    ],
+    [
+      "2026-04-06",
+      96.7
+    ],
+    [
+      "2026-04-07",
+      97.18
     ]
   ],
   "historico_pvp": [
@@ -4371,6 +4379,14 @@
     [
       "2026-04-03",
       0.94111852799
+    ],
+    [
+      "2026-04-06",
+      0.94542033717
+    ],
+    [
+      "2026-04-07",
+      0.95011321992
     ]
   ]
 }

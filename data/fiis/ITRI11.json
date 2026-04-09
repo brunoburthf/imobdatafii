@@ -2,16 +2,16 @@
   "ticker": "ITRI11",
   "dados": {
     "Ticker": "ITRI11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 86.66,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Itaú Total Return FII",
+    "Setor": "FOFs/Hedge Funds",
+    "Retorno - MTD": "-1,35%",
+    "Retorno - 12M": "32,13%",
+    "P/VP": 0.87,
+    "Último Dividendo Pago": 0.85,
+    "DY a.a.": "11,9%",
+    "Visão Geral": "FII híbrido que investe em múltiplas classes de ativos imobiliários, com foco em geração de renda complementada por ganho de capital. É gerido pelo Itaú Asset e atua com alocação diversificada no setor. A estratégia prioriza ativos resilientes e flexibilidade para navegar diferentes ciclos do mercado imobiliário. ([Itaú Asset Management][8])",
+    "Comentário": null,
+    "Preço Atual": 86.76
   },
   "historico_preco": [
     [
@@ -2021,6 +2021,14 @@
     [
       "2026-04-02",
       86.12
+    ],
+    [
+      "2026-04-06",
+      86.2
+    ],
+    [
+      "2026-04-07",
+      85.73
     ]
   ],
   "historico_pvp": [
@@ -4119,6 +4127,14 @@
     [
       "2026-04-03",
       0.87500043571
+    ],
+    [
+      "2026-04-06",
+      0.87581325544
+    ],
+    [
+      "2026-04-07",
+      0.87103793954
     ]
   ]
 }

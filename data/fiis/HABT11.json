@@ -2,16 +2,16 @@
   "ticker": "HABT11",
   "dados": {
     "Ticker": "HABT11",
-    "Nome": null,
-    "Setor": null,
-    "Preço Atual": 75.96,
-    "Retorno - MTD": null,
-    "Retorno - 12M": null,
-    "P/VP": null,
-    "Último Dividendo Pago": null,
-    "DY a.a.": null,
-    "Visão Geral": null,
-    "Comentário": null
+    "Nome": "Habitat Recebíveis Pulverizados FII",
+    "Setor": "Crédito Imobiliário",
+    "Retorno - MTD": "-0,33%",
+    "Retorno - 12M": "14,90%",
+    "P/VP": 0.8,
+    "Último Dividendo Pago": 0.95,
+    "DY a.a.": "15,0%",
+    "Visão Geral": "FII de papel que investe em títulos de dívida imobiliária e outros valores mobiliários com lastro em devedores pulverizados, buscando renda e ganho de capital. É gerido pela XP Asset e adota estratégia de crédito imobiliário pulverizado. A carteira prioriza diversificação entre operações para geração recorrente de rendimentos. ([XP Asset][2])",
+    "Comentário": null,
+    "Preço Atual": 76.0
   },
   "historico_preco": [
     [
@@ -6657,6 +6657,14 @@
     [
       "2026-04-02",
       75.94
+    ],
+    [
+      "2026-04-06",
+      75.59
+    ],
+    [
+      "2026-04-07",
+      75.76
     ]
   ],
   "historico_pvp": [
@@ -13623,6 +13631,14 @@
     [
       "2026-04-03",
       0.79606199275
+    ],
+    [
+      "2026-04-06",
+      0.79239302122
+    ],
+    [
+      "2026-04-07",
+      0.79417509311
     ]
   ]
 }
