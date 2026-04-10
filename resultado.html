@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resultado da Carteira — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="fiis.html" class="nav-link">Informações por FII</a>
+          <a href="setor.html" class="nav-link">Informações por Setor</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Nome da carteira + botão PDF -->
+    <div class="res-nome-wrapper">
+      <input
+        type="text"
+        id="res-nome-carteira"
+        class="res-nome-input"
+        placeholder="Nome da carteira..."
+        maxlength="60"
+        oninput="salvarNomeCarteira()"
+      />
+      <button class="btn-gerar-pdf" onclick="gerarPDF()">⬇ Gerar PDF</button>
+    </div>
+
+    <div id="pdf-content">
+    <div class="resultado-layout">
+
+      <!-- Painel esquerdo: carteira editável -->
+      <div class="resultado-mini-card">
+
+        <!-- Valor da carteira -->
+        <div class="resultado-mini-header">
+          <span class="resultado-mini-titulo">Carteira</span>
+          <div class="sim-valor-carteira-wrapper">
+            <label class="sim-valor-label" for="res-valor-total">Valor da carteira</label>
+            <div class="sim-valor-input-wrap">
+              <span class="sim-valor-prefix">R$</span>
+              <input
+                type="text"
+                id="res-valor-total"
+                class="sim-valor-input res-valor-input"
+                inputmode="decimal"
+                placeholder="0,00"
+                oninput="atualizarTotal()"
+                onblur="formatarInputCarteira()"
+                onfocus="desformatarInputCarteira()"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Busca -->
+        <div class="res-busca-container sim-busca-container" style="margin-bottom:12px">
+          <input
+            type="text"
+            id="res-busca"
+            class="sim-busca-input"
+            placeholder='Buscar FII... Ex: "KNCR11"'
+            autocomplete="off"
+            oninput="resFiltrarSugestoes()"
+            onkeydown="resNavegarSugestoes(event)"
+          />
+          <div id="res-sugestoes" class="sim-sugestoes" style="display:none"></div>
+        </div>
+
+        <!-- Tabela editável -->
+        <div class="resultado-mini-tabela-wrapper sim-tabela-wrapper">
+          <table id="res-tabela">
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>Nome</th>
+                <th>Setor</th>
+                <th class="num">Peso (%)</th>
+                <th class="num">Valor da Posição</th>
+              </tr>
+            </thead>
+            <tbody id="res-tbody">
+              <tr id="res-vazio">
+                <td colspan="5" class="sim-vazio-msg">Nenhum fundo na carteira.</td>
+              </tr>
+            </tbody>
+            <tfoot id="res-tfoot" style="display:none">
+              <tr>
+                <td colspan="3" class="sim-total-label">Total</td>
+                <td class="num" id="res-total-peso">0,00%</td>
+                <td class="num" id="res-total-posicao">—</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+        <!-- Aviso de soma -->
+        <div id="res-aviso" class="sim-aviso" style="display:none"></div>
+
+        <!-- Botão modificar -->
+        <div id="res-btn-wrapper" style="display:none">
+          <button class="btn-simular" onclick="modificarCarteira()">Modificar Carteira</button>
+        </div>
+
+      </div>
+
+      <!-- Área principal -->
+      <div class="resultado-conteudo">
+
+        <div class="res-grafico-card">
+          <h3 class="res-grafico-titulo">Composição por Setor</h3>
+          <div class="res-pizza-wrapper">
+            <canvas id="grafico-setores"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Cards de indicadores -->
+    <div class="res-indicadores">
+
+      <div class="res-ind-card">
+        <div class="res-ind-label">DY Médio da Carteira</div>
+        <div class="res-ind-valor" id="ind-dy">—</div>
+      </div>
+
+      <div class="res-ind-card">
+        <div class="res-ind-label">Renda Mensal Atual</div>
+        <div class="res-ind-valor" id="ind-renda">—</div>
+        <div class="res-ind-sub">Baseado no último dividendo de cada FII</div>
+      </div>
+
+      <div class="res-ind-card">
+        <div class="res-ind-label">P/VP Médio da Carteira</div>
+        <div class="res-ind-valor" id="ind-pvp">—</div>
+      </div>
+
+      <div class="res-ind-card">
+        <div class="res-ind-label">Retorno Total — Últimos 12M</div>
+        <div class="res-ind-valor" id="ind-retorno">—</div>
+      </div>
+
+    </div>
+
+    <!-- Cards grandes -->
+    <div class="res-cards-grandes">
+
+      <div class="res-card-grande">
+        <h3 class="res-card-grande-titulo">Visão Geral dos Fundos</h3>
+        <div id="res-visao-geral"></div>
+      </div>
+
+      <div class="res-card-grande">
+        <h3 class="res-card-grande-titulo">Retorno Acumulado da Carteira — Últimos 12M</h3>
+        <div class="res-retorno-wrapper">
+          <canvas id="grafico-retorno"></canvas>
+        </div>
+
+        <h3 class="res-card-grande-titulo" style="margin-top:28px">Renda Mensal Estimada — Últimos 12M</h3>
+        <div class="res-retorno-wrapper">
+          <canvas id="grafico-renda"></canvas>
+        </div>
+      </div>
+
+    </div>
+    </div><!-- fim #pdf-content -->
+
+  </main>
+
+  <!-- Template oculto para geração do PDF -->
+  <div id="pdf-template" style="position:absolute;left:-9999px;top:0;width:794px;background:#f4f6f9;">
+
+    <!-- Cabeçalho -->
+    <div class="pdf-header">
+      <span class="pdf-logo">ImobData</span>
+      <span class="pdf-data" id="pdf-data-gerado"></span>
+    </div>
+
+    <!-- Título -->
+    <div class="pdf-titulo-wrapper">
+      <div class="pdf-titulo" id="pdf-nome"></div>
+      <div class="pdf-subtitulo" id="pdf-valor-titulo"></div>
+    </div>
+
+    <!-- 4 indicadores -->
+    <div class="pdf-indicadores">
+      <div class="pdf-ind-card">
+        <div class="pdf-ind-label">DY Médio</div>
+        <div class="pdf-ind-valor" id="pdf-ind-dy"></div>
+      </div>
+      <div class="pdf-ind-card">
+        <div class="pdf-ind-label">Renda Mensal Atual</div>
+        <div class="pdf-ind-valor" id="pdf-ind-renda"></div>
+        <div class="pdf-ind-sub">Baseado no último dividendo de cada FII</div>
+      </div>
+      <div class="pdf-ind-card">
+        <div class="pdf-ind-label">P/VP Médio</div>
+        <div class="pdf-ind-valor" id="pdf-ind-pvp"></div>
+      </div>
+      <div class="pdf-ind-card">
+        <div class="pdf-ind-label">Retorno — Últimos 12M</div>
+        <div class="pdf-ind-valor" id="pdf-ind-retorno"></div>
+      </div>
+    </div>
+
+    <!-- Tabela completa -->
+    <div class="pdf-section">
+      <div class="pdf-secao-titulo">Composição da Carteira</div>
+      <table class="pdf-tabela">
+        <colgroup>
+          <col style="width:70px">
+          <col style="width:190px">
+          <col style="width:130px">
+          <col style="width:55px">
+          <col style="width:95px">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Ticker</th>
+            <th>Nome</th>
+            <th>Setor</th>
+            <th class="num">Peso</th>
+            <th class="num">Posição</th>
+          </tr>
+        </thead>
+        <tbody id="pdf-tbody"></tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3" class="pdf-total-label">Total</td>
+            <td class="num" id="pdf-total-peso"></td>
+            <td class="num" id="pdf-total-pos"></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <!-- Pizza + Visão Geral -->
+    <div class="pdf-meio">
+      <div class="pdf-pizza-wrapper">
+        <div class="pdf-secao-titulo">Composição por Setor</div>
+        <img id="pdf-pizza-img" style="display:block;width:100%;height:auto;" />
+      </div>
+      <div class="pdf-visao-wrapper">
+        <div class="pdf-secao-titulo">Visão Geral dos Fundos</div>
+        <div id="pdf-visao-geral"></div>
+      </div>
+    </div>
+
+    <!-- Retorno + Renda lado a lado -->
+    <div class="pdf-graficos-row">
+      <div class="pdf-section" style="flex:1;min-width:0;">
+        <div class="pdf-secao-titulo">Retorno Acumulado vs CDI — Últimos 12M</div>
+        <img id="pdf-retorno-img" style="display:block;width:100%;height:auto;" />
+      </div>
+      <div class="pdf-section" style="flex:1;min-width:0;">
+        <div class="pdf-secao-titulo">Renda Mensal Estimada — Últimos 12M</div>
+        <img id="pdf-renda-img" style="display:block;width:100%;height:auto;" />
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="pdf-footer">
+      Gerado por ImobData — Os dados são meramente informativos e não constituem recomendação de investimento.
+    </div>
+
+  </div>
+
+  <script src="js/resultado.js"></script>
+</body>
+</html>

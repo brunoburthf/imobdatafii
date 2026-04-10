@@ -3,10 +3,12 @@ const MAX_FUNDOS = 15;
 let todosFiis = [];
 let carteira  = []; // [{ticker, nome, setor}]
 let sugestaoIdx = -1;
+let vazioEl = null; // referência persistente ao <tr id="sim-vazio">
 
 // ─── CARREGAMENTO ────────────────────────────────────────────────────────────
 
 async function carregarDados() {
+  vazioEl = document.getElementById("sim-vazio");
   try {
     const resp = await fetch("data/index.json");
     if (!resp.ok) throw new Error("Dados não encontrados. Rode o script de atualização primeiro.");
@@ -112,8 +114,8 @@ function removerFii(ticker) {
 function renderizarTabela() {
   const tbody  = document.getElementById("sim-tbody");
   const tfoot  = document.getElementById("sim-tfoot");
-  const vazio  = document.getElementById("sim-vazio");
   const aviso  = document.getElementById("sim-aviso");
+  const vazio  = vazioEl;
 
   document.getElementById("sim-contador").textContent =
     `${carteira.length} / ${MAX_FUNDOS} fundos`;
@@ -155,6 +157,7 @@ function renderizarTabela() {
           oninput="atualizarTotal()" />
         <span class="sim-peso-pct">%</span>
       </td>
+      <td class="num sim-posicao-valor">—</td>
       <td>
         <button class="sim-remover" onclick="removerFii('${f.ticker}')" title="Remover">✕</button>
       </td>
@@ -165,30 +168,95 @@ function renderizarTabela() {
   atualizarTotal();
 }
 
+function formatarBRL(valor) {
+  return valor.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+}
+
+function parseValorCarteira(str) {
+  if (!str) return 0;
+  // Remove separadores de milhar (pontos) e troca vírgula decimal por ponto
+  return parseFloat(str.replace(/\./g, "").replace(",", ".")) || 0;
+}
+
+function formatarInputCarteira() {
+  const inp = document.getElementById("sim-valor-total");
+  const val = parseValorCarteira(inp.value);
+  inp.value = val > 0
+    ? val.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+    : "";
+  atualizarTotal();
+}
+
+function desformatarInputCarteira() {
+  const inp = document.getElementById("sim-valor-total");
+  const val = parseValorCarteira(inp.value);
+  inp.value = val > 0 ? String(val).replace(".", ",") : "";
+}
+
 function atualizarTotal() {
-  const inputs = document.querySelectorAll(".sim-peso-input");
+  const inputs   = document.querySelectorAll(".sim-peso-input");
+  const totalEl  = document.getElementById("sim-total-valor");
+  const totalPos = document.getElementById("sim-total-posicao");
+  const aviso    = document.getElementById("sim-aviso");
+  const valorCarteira = parseValorCarteira(document.getElementById("sim-valor-total")?.value);
+
   let soma = 0;
   inputs.forEach(inp => { soma += parseFloat(inp.value) || 0; });
 
-  const totalEl = document.getElementById("sim-total-valor");
-  const aviso   = document.getElementById("sim-aviso");
+  // Atualiza valor de posição em cada linha
+  document.querySelectorAll("tr[data-ticker]").forEach(tr => {
+    const inp     = tr.querySelector(".sim-peso-input");
+    const posCell = tr.querySelector(".sim-posicao-valor");
+    if (!inp || !posCell) return;
+    const peso = parseFloat(inp.value) || 0;
+    posCell.textContent = valorCarteira > 0
+      ? formatarBRL((peso / 100) * valorCarteira)
+      : "—";
+  });
+
+  // Atualiza total de posição no tfoot
+  if (totalPos) {
+    totalPos.textContent = valorCarteira > 0
+      ? formatarBRL((soma / 100) * valorCarteira)
+      : "—";
+  }
 
   totalEl.textContent = soma.toFixed(2) + "%";
 
+  const btnWrapper = document.getElementById("sim-btn-wrapper");
   const diff = Math.abs(soma - 100);
   if (!carteira.length) {
     aviso.style.display = "none";
     totalEl.className = "num";
+    btnWrapper.style.display = "none";
   } else if (diff < 0.01) {
     totalEl.className = "num sim-total-ok";
     aviso.style.display = "none";
+    btnWrapper.style.display = "flex";
   } else {
     totalEl.className = "num sim-total-erro";
     aviso.style.display = "block";
     aviso.textContent = soma < 100
       ? `A soma dos pesos é ${soma.toFixed(2)}% — faltam ${(100 - soma).toFixed(2)}% para chegar a 100%.`
       : `A soma dos pesos é ${soma.toFixed(2)}% — reduza ${(soma - 100).toFixed(2)}% para chegar a 100%.`;
+    btnWrapper.style.display = "none";
   }
+}
+
+function simularCarteira() {
+  const pesos = {};
+  document.querySelectorAll("tr[data-ticker]").forEach(tr => {
+    const inp = tr.querySelector(".sim-peso-input");
+    if (inp) pesos[tr.dataset.ticker] = parseFloat(inp.value) || 0;
+  });
+
+  const valorTotal = parseValorCarteira(document.getElementById("sim-valor-total")?.value);
+
+  localStorage.setItem("sim_carteira",   JSON.stringify(carteira));
+  localStorage.setItem("sim_pesos",      JSON.stringify(pesos));
+  localStorage.setItem("sim_valor_total", String(valorTotal));
+
+  window.location.href = "resultado.html";
 }
 
 carregarDados();

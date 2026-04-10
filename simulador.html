@@ -35,21 +35,39 @@
         <div class="sim-card">
           <h2 class="sim-titulo">Simulador de Carteira</h2>
 
-          <!-- Campo de busca -->
-          <div class="sim-busca-wrapper">
-            <div class="sim-busca-container">
-              <input
-                type="text"
-                id="sim-busca"
-                class="sim-busca-input"
-                placeholder="Buscar FII... (ex: KNCR11 ou KN)"
-                autocomplete="off"
-                oninput="filtrarSugestoes()"
-                onkeydown="navegarSugestoes(event)"
-              />
-              <div id="sim-sugestoes" class="sim-sugestoes" style="display:none"></div>
+          <!-- Linha superior: busca + valor total -->
+          <div class="sim-topbar">
+            <div class="sim-busca-wrapper">
+              <div class="sim-busca-container">
+                <input
+                  type="text"
+                  id="sim-busca"
+                  class="sim-busca-input"
+                  placeholder='Buscar FII... Ex: "KNCR11"'
+                  autocomplete="off"
+                  oninput="filtrarSugestoes()"
+                  onkeydown="navegarSugestoes(event)"
+                />
+                <div id="sim-sugestoes" class="sim-sugestoes" style="display:none"></div>
+              </div>
+              <span id="sim-contador" class="sim-contador">0 / 15 fundos</span>
             </div>
-            <span id="sim-contador" class="sim-contador">0 / 15 fundos</span>
+            <div class="sim-valor-carteira-wrapper">
+              <label class="sim-valor-label" for="sim-valor-total">Valor da carteira</label>
+              <div class="sim-valor-input-wrap">
+                <span class="sim-valor-prefix">R$</span>
+                <input
+                  type="text"
+                  id="sim-valor-total"
+                  class="sim-valor-input"
+                  inputmode="decimal"
+                  placeholder="0,00"
+                  oninput="atualizarTotal()"
+                  onblur="formatarInputCarteira()"
+                  onfocus="desformatarInputCarteira()"
+                />
+              </div>
+            </div>
           </div>
 
           <!-- Tabela da carteira -->
@@ -61,18 +79,20 @@
                   <th>Nome</th>
                   <th>Setor</th>
                   <th class="num">Peso (%)</th>
+                  <th class="num">Valor da Posição</th>
                   <th></th>
                 </tr>
               </thead>
               <tbody id="sim-tbody">
                 <tr id="sim-vazio">
-                  <td colspan="5" class="sim-vazio-msg">Busque e adicione FIIs acima para montar sua carteira.</td>
+                  <td colspan="6" class="sim-vazio-msg">Busque e adicione FIIs acima para montar sua carteira.</td>
                 </tr>
               </tbody>
               <tfoot id="sim-tfoot" style="display:none">
                 <tr>
                   <td colspan="3" class="sim-total-label">Total</td>
                   <td class="num" id="sim-total-valor">0,00%</td>
+                  <td class="num" id="sim-total-posicao">—</td>
                   <td></td>
                 </tr>
               </tfoot>
@@ -81,6 +101,11 @@
 
           <!-- Aviso de soma -->
           <div id="sim-aviso" class="sim-aviso" style="display:none"></div>
+
+          <!-- Botão simular -->
+          <div id="sim-btn-wrapper" style="display:none">
+            <button class="btn-simular" onclick="simularCarteira()">Simular Carteira</button>
+          </div>
 
         </div>
 
