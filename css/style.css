@@ -530,47 +530,35 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .menu-card {
   background: var(--branco);
   border-radius: 12px;
-  padding: 20px 22px;
+  overflow: hidden;
   box-shadow: var(--sombra);
   text-decoration: none;
   color: var(--texto);
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  border-top: 3px solid var(--azul);
   transition: box-shadow 0.2s, transform 0.15s;
   cursor: pointer;
 }
 
 .menu-card:hover {
-  box-shadow: 0 8px 28px rgba(236,112,0,0.15);
+  box-shadow: 0 8px 28px rgba(236,112,0,0.2);
   transform: translateY(-4px);
 }
 
-.menu-card-icon-box {
-  width: 44px;
-  height: 44px;
-  border-radius: 10px;
+.menu-card-titulo {
   background: var(--azul);
   color: #fff;
-  font-size: 20px;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.menu-card-titulo {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
-  color: var(--azul-escuro);
+  padding: 14px 22px;
+  letter-spacing: 0.2px;
 }
 
 .menu-card-desc {
   font-size: 13px;
   color: var(--texto-suave);
   line-height: 1.65;
+  padding: 16px 22px;
 }
 
 .menu-card.em-breve {

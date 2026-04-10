@@ -174,6 +174,9 @@ function renderizarTabela() {
         <span class="sim-peso-pct">%</span>
       </td>
       <td class="num res-posicao-valor">—</td>
+      <td>
+        <button class="sim-remover" onclick="resRemoverFii('${f.ticker}')" title="Remover">✕</button>
+      </td>
     `;
     tbody.appendChild(tr);
   });
@@ -720,6 +723,21 @@ function resAdicionarFii(ticker) {
 
   document.getElementById("res-busca").value = "";
   document.getElementById("res-sugestoes").style.display = "none";
+
+  localStorage.setItem("sim_carteira", JSON.stringify(carteira));
+  localStorage.setItem("sim_pesos",    JSON.stringify(pesos));
+
+  renderizarTabela();
+  renderizarPizza(pesos);
+  atualizarIndicadores(pesos);
+  atualizarVisaoGeral();
+  renderizarRetornoAcumulado(pesos);
+  renderizarRendaMensal(pesos);
+}
+
+function resRemoverFii(ticker) {
+  carteira = carteira.filter(f => f.ticker !== ticker);
+  delete pesos[ticker];
 
   localStorage.setItem("sim_carteira", JSON.stringify(carteira));
   localStorage.setItem("sim_pesos",    JSON.stringify(pesos));
