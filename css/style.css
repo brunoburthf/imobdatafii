@@ -496,13 +496,13 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px 24px;
-  gap: 16px;
+  padding: 2vh 4vw;
+  gap: 2vh;
   overflow: hidden;
 }
 
 .menu-hero-titulo {
-  font-size: 26px;
+  font-size: clamp(22px, 2.2vw, 40px);
   font-weight: 800;
   color: var(--azul-escuro);
   letter-spacing: -0.5px;
@@ -510,7 +510,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .menu-imagem {
   width: 100%;
-  max-width: 900px;
+  max-width: 88vw;
   flex: 1;
   min-height: 0;
   object-fit: contain;
@@ -521,9 +521,9 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .menu-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: clamp(12px, 1.2vw, 24px);
   width: 100%;
-  max-width: 900px;
+  max-width: 88vw;
   flex-shrink: 0;
 }
 
@@ -548,17 +548,17 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .menu-card-titulo {
   background: var(--azul);
   color: #fff;
-  font-size: 15px;
+  font-size: clamp(14px, 1.2vw, 20px);
   font-weight: 700;
-  padding: 14px 22px;
+  padding: clamp(14px, 1.4vh, 22px) clamp(18px, 1.6vw, 30px);
   letter-spacing: 0.2px;
 }
 
 .menu-card-desc {
-  font-size: 13px;
+  font-size: clamp(12px, 1vw, 16px);
   color: var(--texto-suave);
   line-height: 1.65;
-  padding: 16px 22px;
+  padding: clamp(14px, 1.4vh, 22px) clamp(18px, 1.6vw, 30px);
 }
 
 .menu-card.em-breve {
