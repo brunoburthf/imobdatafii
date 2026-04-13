@@ -423,7 +423,7 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
         {
           label: "CDI",
           data: valoresCDI,
-          borderColor: "#2563EB",
+          borderColor: "rgb(0,9,60)",
           backgroundColor: "transparent",
           borderWidth: 1.5,
           borderDash: [5, 4],
@@ -556,7 +556,7 @@ async function renderizarRendaMensal(pesosAtivos) {
       datasets: [{
         label: "Renda Mensal (R$)",
         data: rendas,
-        backgroundColor: "rgba(239,99,0,0.75)",
+        backgroundColor: "rgba(239,99,0,0.9)",
         borderColor: "rgba(239,99,0,1)",
         borderWidth: 1,
         borderRadius: 4

@@ -1,6 +1,6 @@
 :root {
   --azul: rgba(239,99,0,1);
-  --azul-escuro: rgba(180,70,0,1);
+  --azul-escuro: rgba(239,99,0,1);
   --navy: rgb(0,9,60);
   --cinza-fundo: #f4f6f9;
   --cinza-borda: #dde3ed;
@@ -335,18 +335,33 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .card {
   background: var(--branco);
   border-radius: 10px;
-  padding: 16px 20px;
+  overflow: hidden;
   box-shadow: var(--sombra);
-  transition: background 0.2s, box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
-  background: #f0f2f5;
   box-shadow: 0 4px 16px rgba(0,0,0,0.13);
 }
 
-.card-label { font-size: 12px; color: var(--texto-suave); margin-bottom: 6px; }
-.card-value { font-size: 22px; font-weight: 600; color: var(--texto); }
+.card-label {
+  background: var(--azul);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 8px 14px;
+}
+
+.card-value {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--texto);
+  padding: 12px 14px;
+}
 
 /* SEÇÃO TEXTO */
 .secao {
@@ -434,8 +449,8 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .setor-card-destaque {
-  background: #fff8f0;
-  border: 2px solid rgba(239,99,0,0.25);
+  background: #e2e6ec;
+  border: 2px solid #c8d0db;
 }
 
 .setor-card-titulo {
@@ -458,13 +473,38 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .setor-fiis-wrapper { max-height: 540px; }
 
-#tabela-setores-body tr:hover { background: rgba(239,99,0,0.04); }
+#tabela-setores-body tr:hover { background: rgba(0,9,60,0.05); }
 
 #tabela-setores-body tr.selecionado {
-  background: rgba(239,99,0,0.14) !important;
+  background: rgba(0,9,60,0.12) !important;
 }
 
 #tabela-setores-body tr.selecionado td { font-weight: 600; }
+
+.setor-card-destaque thead th {
+  background: var(--navy);
+  border-bottom: none;
+}
+
+.setor-card-destaque thead th:hover {
+  background: rgba(0,9,60,0.8);
+}
+
+.setor-card-destaque .setor-tabela-wrapper {
+  border: 1.5px solid rgba(0,9,60,0.15);
+}
+
+.setor-card-destaque .setor-card-titulo {
+  color: var(--navy);
+}
+
+.setor-card-destaque .btn-comparar {
+  background: var(--navy);
+}
+
+.setor-card-destaque .btn-comparar:hover {
+  background: rgba(0,9,60,0.8);
+}
 
 .setor-detalhe-header {
   margin-bottom: 16px;

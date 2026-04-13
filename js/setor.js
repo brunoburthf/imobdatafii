@@ -137,7 +137,7 @@ function renderizarGraficoCombo(tabela) {
           type: "bar",
           label: "DY a.a. (%)",
           data: dyData,
-          backgroundColor: "rgba(239,99,0,0.65)",
+          backgroundColor: "rgba(239,99,0,0.85)",
           borderColor: "rgba(239,99,0,1)",
           borderWidth: 1,
           yAxisID: "yDY",
@@ -151,8 +151,8 @@ function renderizarGraficoCombo(tabela) {
           pointStyle: "rect",
           pointRadius: 7,
           pointHoverRadius: 9,
-          backgroundColor: "rgba(28,43,58,0.85)",
-          borderColor: "rgba(28,43,58,0)",
+          backgroundColor: "rgb(0,9,60)",
+          borderColor: "rgba(0,9,60,0)",
           yAxisID: "yPVP",
           order: 1
         }
@@ -161,7 +161,7 @@ function renderizarGraficoCombo(tabela) {
     options: {
       responsive: true,
       plugins: {
-        legend: { position: "top", labels: { font: { size: 12 } } },
+        legend: { position: "top", labels: { font: { size: 12 }, color: "rgb(0,9,60)" } },
         tooltip: {
           callbacks: {
             label: ctx => {
@@ -173,19 +173,19 @@ function renderizarGraficoCombo(tabela) {
       },
       scales: {
         x: {
-          ticks: { maxRotation: 40, font: { size: 11 } }
+          ticks: { maxRotation: 40, font: { size: 11 }, color: "rgb(0,9,60)" }
         },
         yDY: {
           type: "linear",
           position: "left",
-          title: { display: true, text: "DY a.a. (%)", font: { size: 11 } },
-          ticks: { callback: v => v + "%" }
+          title: { display: true, text: "DY a.a. (%)", font: { size: 11 }, color: "rgb(0,9,60)" },
+          ticks: { callback: v => v + "%", color: "rgb(0,9,60)" }
         },
         yPVP: {
           type: "linear",
           position: "right",
-          title: { display: true, text: "P/VP", font: { size: 11 } },
-          ticks: { callback: v => v + "x" },
+          title: { display: true, text: "P/VP", font: { size: 11 }, color: "rgb(0,9,60)" },
+          ticks: { callback: v => v + "x", color: "rgb(0,9,60)" },
           grid: { drawOnChartArea: false }
         }
       }
@@ -260,8 +260,8 @@ function renderizarHistoricoSetor(tipo, periodo) {
   const valores   = filtrado.map(([, v]) => v);
   const medias    = calcularMedia(filtrado).map(([, v]) => v);
 
-  const cor      = isPvp ? "rgba(239,99,0,1)"     : "rgba(14,159,110,1)";
-  const corFundo = isPvp ? "rgba(239,99,0,0.08)"  : "rgba(14,159,110,0.08)";
+  const cor      = "rgba(239,99,0,1)";
+  const corFundo = "rgba(239,99,0,0.08)";
   const canvasId = isPvp ? "grafico-pvp-setor"      : "grafico-dy-setor";
   const labelSerie = isPvp ? "P/VP" : "DY a.a.";
 
@@ -297,9 +297,9 @@ function renderizarHistoricoSetor(tipo, periodo) {
         {
           label: "Média",
           data: medias,
-          borderColor: "rgba(107,122,141,0.65)",
-          borderWidth: 1.5,
-          borderDash: [6, 3],
+          borderColor: "rgb(0,9,60)",
+          borderWidth: 2,
+          borderDash: [],
           pointRadius: 0,
           fill: false
         }
