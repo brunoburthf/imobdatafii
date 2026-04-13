@@ -6,7 +6,7 @@ let periodoPvp = "1A";
 let periodoDy  = "1A";
 
 const CORES = [
-  "#ec7000", "#1c6bbd", "#0e9f6e", "#9333ea",
+  "#ef6300", "#1c6bbd", "#0e9f6e", "#9333ea",
   "#e02424", "#ca8a04", "#0891b2", "#be185d",
   "#16a34a", "#7c3aed", "#b45309", "#0f766e"
 ];

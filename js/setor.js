@@ -137,8 +137,8 @@ function renderizarGraficoCombo(tabela) {
           type: "bar",
           label: "DY a.a. (%)",
           data: dyData,
-          backgroundColor: "rgba(236,112,0,0.65)",
-          borderColor: "rgba(236,112,0,1)",
+          backgroundColor: "rgba(239,99,0,0.65)",
+          borderColor: "rgba(239,99,0,1)",
           borderWidth: 1,
           yAxisID: "yDY",
           order: 2
@@ -260,8 +260,8 @@ function renderizarHistoricoSetor(tipo, periodo) {
   const valores   = filtrado.map(([, v]) => v);
   const medias    = calcularMedia(filtrado).map(([, v]) => v);
 
-  const cor      = isPvp ? "rgba(236,112,0,1)"     : "rgba(14,159,110,1)";
-  const corFundo = isPvp ? "rgba(236,112,0,0.08)"  : "rgba(14,159,110,0.08)";
+  const cor      = isPvp ? "rgba(239,99,0,1)"     : "rgba(14,159,110,1)";
+  const corFundo = isPvp ? "rgba(239,99,0,0.08)"  : "rgba(14,159,110,0.08)";
   const canvasId = isPvp ? "grafico-pvp-setor"      : "grafico-dy-setor";
   const labelSerie = isPvp ? "P/VP" : "DY a.a.";
 

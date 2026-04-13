@@ -130,7 +130,7 @@ function renderizarGrafico(tipo, dados, periodo) {
   const valores = filtrado.map(([, v]) => v);
 
   const canvasId = tipo === "preco" ? "grafico-preco" : "grafico-pvp";
-  const cor = tipo === "preco" ? "rgba(236,112,0,1)" : "#0e9f6e";
+  const cor = tipo === "preco" ? "rgba(239,99,0,1)" : "#0e9f6e";
   const label = tipo === "preco" ? "Preço (R$)" : "P/VP";
 
   const ctx = document.getElementById(canvasId).getContext("2d");

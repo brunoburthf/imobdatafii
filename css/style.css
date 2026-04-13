@@ -1,6 +1,7 @@
 :root {
-  --azul: rgba(236,112,0,1);
-  --azul-escuro: rgba(180,80,0,1);
+  --azul: rgba(239,99,0,1);
+  --azul-escuro: rgba(180,70,0,1);
+  --navy: rgb(0,9,60);
   --cinza-fundo: #f4f6f9;
   --cinza-borda: #dde3ed;
   --texto: #1c2b3a;
@@ -22,13 +23,13 @@ body {
 
 /* HEADER */
 header {
-  background: var(--azul);
+  background: var(--navy);
   color: var(--branco);
   padding: 0 24px;
   height: 56px;
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 8px rgba(180,80,0,0.3);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -156,7 +157,7 @@ main {
   border-radius: 10px;
   box-shadow: var(--sombra);
   overflow: hidden;
-  border: 1.5px solid rgba(236,112,0,0.25);
+  border: 1.5px solid rgba(239,99,0,0.25);
 }
 
 table {
@@ -184,13 +185,13 @@ thead th.num { text-align: right; }
 .sort-icon { opacity: 0.6; font-size: 11px; }
 
 tbody tr {
-  border-bottom: 1px solid rgba(236,112,0,0.15);
+  border-bottom: 1px solid rgba(239,99,0,0.15);
   cursor: pointer;
   transition: background 0.15s;
 }
 
 tbody tr:last-child { border-bottom: none; }
-tbody tr:hover { background: rgba(236,112,0,0.04); }
+tbody tr:hover { background: rgba(239,99,0,0.04); }
 
 tbody td {
   padding: 10px 14px;
@@ -434,7 +435,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .setor-card-destaque {
   background: #fff8f0;
-  border: 2px solid rgba(236,112,0,0.25);
+  border: 2px solid rgba(239,99,0,0.25);
 }
 
 .setor-card-titulo {
@@ -449,7 +450,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   overflow-y: auto;
   max-height: 360px;
   border-radius: 10px;
-  border: 1.5px solid rgba(236,112,0,0.25);
+  border: 1.5px solid rgba(239,99,0,0.25);
   overflow: hidden;
 }
 
@@ -457,10 +458,10 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .setor-fiis-wrapper { max-height: 540px; }
 
-#tabela-setores-body tr:hover { background: rgba(236,112,0,0.04); }
+#tabela-setores-body tr:hover { background: rgba(239,99,0,0.04); }
 
 #tabela-setores-body tr.selecionado {
-  background: rgba(236,112,0,0.14) !important;
+  background: rgba(239,99,0,0.14) !important;
 }
 
 #tabela-setores-body tr.selecionado td { font-weight: 600; }
@@ -541,7 +542,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .menu-card:hover {
-  box-shadow: 0 8px 28px rgba(236,112,0,0.2);
+  box-shadow: 0 8px 28px rgba(239,99,0,0.2);
   transform: translateY(-4px);
 }
 
@@ -743,12 +744,12 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   white-space: nowrap;
   flex-shrink: 0;
   transition: background 0.18s, box-shadow 0.18s;
-  box-shadow: 0 2px 8px rgba(236,112,0,0.25);
+  box-shadow: 0 2px 8px rgba(239,99,0,0.25);
 }
 
 .btn-gerar-pdf:hover {
   background: var(--azul-escuro);
-  box-shadow: 0 4px 14px rgba(236,112,0,0.4);
+  box-shadow: 0 4px 14px rgba(239,99,0,0.4);
 }
 
 .btn-gerar-pdf:disabled {
@@ -791,7 +792,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .pdf-titulo-wrapper {
   padding: 14px 24px 10px;
-  border-bottom: 2px solid rgba(236,112,0,0.2);
+  border-bottom: 2px solid rgba(239,99,0,0.2);
   margin-bottom: 14px;
 }
 
@@ -867,7 +868,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .pdf-tabela th {
-  background: rgba(236,112,0,0.12);
+  background: rgba(239,99,0,0.12);
   color: #EC7000;
   font-weight: 700;
   font-size: 8px;
@@ -875,12 +876,12 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   letter-spacing: 0.03em;
   padding: 6px 8px;
   text-align: left;
-  border-bottom: 1.5px solid rgba(236,112,0,0.25);
+  border-bottom: 1.5px solid rgba(239,99,0,0.25);
 }
 
 .pdf-tabela td {
   padding: 5px 8px;
-  border-bottom: 1px solid rgba(236,112,0,0.1);
+  border-bottom: 1px solid rgba(239,99,0,0.1);
   color: #1c2b3a;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -888,8 +889,8 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .pdf-tabela tfoot td {
-  border-top: 1.5px solid rgba(236,112,0,0.3);
-  background: rgba(236,112,0,0.06);
+  border-top: 1.5px solid rgba(239,99,0,0.3);
+  background: rgba(239,99,0,0.06);
   font-weight: 700;
   border-bottom: none;
 }
@@ -924,7 +925,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .pdf-visao-bloco {
   padding: 5px 10px;
-  border-bottom: 1px solid rgba(236,112,0,0.1);
+  border-bottom: 1px solid rgba(239,99,0,0.1);
   font-size: 8px;
   color: #4a5568;
   line-height: 1.5;
@@ -1324,7 +1325,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .sim-busca-input:focus {
   border-color: var(--azul-escuro);
-  box-shadow: 0 0 0 3px rgba(236,112,0,0.15);
+  box-shadow: 0 0 0 3px rgba(239,99,0,0.15);
 }
 
 .sim-sugestoes {
@@ -1379,7 +1380,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   overflow-x: auto;
   margin-bottom: 14px;
   border-radius: 10px;
-  border: 1.5px solid rgba(236,112,0,0.25);
+  border: 1.5px solid rgba(239,99,0,0.25);
   overflow: hidden;
 }
 
@@ -1402,7 +1403,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .sim-tabela-wrapper td {
   padding: 10px 14px;
-  border-bottom: 1px solid rgba(236,112,0,0.15);
+  border-bottom: 1px solid rgba(239,99,0,0.15);
   text-align: left;
   color: var(--texto);
 }
@@ -1412,12 +1413,12 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .sim-tabela-wrapper tbody tr:hover td {
-  background: rgba(236,112,0,0.04);
+  background: rgba(239,99,0,0.04);
 }
 
 .sim-tabela-wrapper tfoot td {
-  border-top: 1.5px solid rgba(236,112,0,0.3);
-  background: rgba(236,112,0,0.05);
+  border-top: 1.5px solid rgba(239,99,0,0.3);
+  background: rgba(239,99,0,0.05);
   font-weight: 600;
 }
 
@@ -1512,18 +1513,18 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   cursor: pointer;
   letter-spacing: 0.03em;
   transition: background 0.18s, transform 0.1s, box-shadow 0.18s;
-  box-shadow: 0 3px 12px rgba(236,112,0,0.3);
+  box-shadow: 0 3px 12px rgba(239,99,0,0.3);
 }
 
 .btn-simular:hover {
   background: var(--azul-escuro);
-  box-shadow: 0 4px 18px rgba(236,112,0,0.45);
+  box-shadow: 0 4px 18px rgba(239,99,0,0.45);
   transform: translateY(-1px);
 }
 
 .btn-simular:active {
   transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(236,112,0,0.25);
+  box-shadow: 0 2px 8px rgba(239,99,0,0.25);
 }
 
 @media (max-width: 600px) {

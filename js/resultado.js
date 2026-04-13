@@ -10,7 +10,7 @@ let graficoRetorno  = null;
 let graficoRenda    = null;
 
 const CORES_PIZZA = [
-  "#EC7000","#2563EB","#16A34A","#DC2626","#9333EA",
+  "#EF6300","#2563EB","#16A34A","#DC2626","#9333EA",
   "#0891B2","#D97706","#059669","#7C3AED","#DB2777",
   "#0284C7","#65A30D"
 ];
@@ -403,7 +403,7 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
 
   if (graficoRetorno) graficoRetorno.destroy();
 
-  const corCarteira = valoresCarteira.at(-1) >= 0 ? "#EC7000" : "#DC2626";
+  const corCarteira = valoresCarteira.at(-1) >= 0 ? "#EF6300" : "#DC2626";
 
   graficoRetorno = new Chart(ctx, {
     type: "line",
@@ -556,8 +556,8 @@ async function renderizarRendaMensal(pesosAtivos) {
       datasets: [{
         label: "Renda Mensal (R$)",
         data: rendas,
-        backgroundColor: "rgba(236,112,0,0.75)",
-        borderColor: "rgba(236,112,0,1)",
+        backgroundColor: "rgba(239,99,0,0.75)",
+        borderColor: "rgba(239,99,0,1)",
         borderWidth: 1,
         borderRadius: 4
       }]
