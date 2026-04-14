@@ -37,20 +37,47 @@
 
         <!-- Controles -->
         <div class="spread-controles-card">
-          <h2 class="spread-titulo">Spread NTN-B — Duration Constante</h2>
-          <p class="spread-desc">Informe o duration desejado (em anos) para interpolar a taxa da NTN-B diariamente.</p>
+          <div class="spread-controles-header">
 
-          <div class="spread-inputs">
-            <div class="spread-input-group">
-              <label class="spread-label" for="input-duration">Duration (anos)</label>
-              <input type="number" id="input-duration" class="spread-input" value="5" min="0.5" max="30" step="0.5" />
+            <!-- Busca de FII (esquerda) -->
+            <div class="spread-fii-busca-wrapper">
+              <div class="spread-fii-busca-group">
+                <input type="text" id="spread-fii-input" class="spread-fii-input"
+                  placeholder='Buscar FII... Ex: "MXRF11"'
+                  autocomplete="off"
+                  oninput="filtrarFiiSugestoes()"
+                  onkeydown="navegarSugestoes(event)" />
+                <div id="spread-fii-sugestoes" class="spread-fii-sugestoes" style="display:none"></div>
+              </div>
+              <div id="spread-fii-tag" class="spread-fii-tag" style="display:none">
+                <span id="spread-fii-tag-nome"></span>
+                <button onclick="removerFii()" class="spread-fii-tag-remover">✕</button>
+              </div>
             </div>
-            <button class="btn-simular" onclick="calcularSpread()">Calcular</button>
+
+            <!-- Botões de duration (direita) -->
+            <div class="spread-duration-btns">
+              <button class="btn-duration" data-anos="3" onclick="selecionarDuration(3)">3 anos</button>
+              <button class="btn-duration" data-anos="5" onclick="selecionarDuration(5)">5 anos</button>
+              <button class="btn-duration" data-anos="8" onclick="selecionarDuration(8)">8 anos</button>
+              <button class="btn-duration" data-anos="10" onclick="selecionarDuration(10)">10 anos</button>
+            </div>
+
           </div>
 
-          <div id="spread-atual-wrapper" style="display:none">
-            <div class="spread-atual-label">Valor atual interpolado</div>
-            <div class="spread-atual-valor" id="spread-atual-valor">—</div>
+          <div id="spread-atual-wrapper" style="display:none" class="spread-atual-grid">
+            <div>
+              <div class="spread-atual-label" id="spread-ntnb-label">NTN-B atual</div>
+              <div class="spread-atual-valor" id="spread-atual-valor">—</div>
+            </div>
+            <div id="spread-fii-atual-bloco" style="display:none">
+              <div class="spread-atual-label" id="spread-fii-dy-label">DY atual</div>
+              <div class="spread-atual-valor spread-fii-cor" id="spread-fii-atual-valor">—</div>
+            </div>
+            <div id="spread-diferenca-bloco" style="display:none">
+              <div class="spread-atual-label">Spread (DY − NTN-B)</div>
+              <div class="spread-atual-valor" id="spread-diferenca-valor">—</div>
+            </div>
           </div>
         </div>
 
