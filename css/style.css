@@ -841,6 +841,17 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   color: rgba(255,255,255,0.85);
 }
 
+.pdf-uso-interno {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  color: #fff;
+  background: #cc1111;
+  padding: 6px 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
 .pdf-titulo-wrapper {
   padding: 14px 24px 10px;
   border-bottom: 2px solid rgba(239,99,0,0.2);
