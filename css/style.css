@@ -1585,6 +1585,9 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   .sim-valor-input { width: 100%; }
 }
 
+/* Restrito a localhost */
+.val-restrito { display: none !important; }
+
 /* ===================== SPREAD NTN-B ===================== */
 
 .spread-layout {
@@ -1775,6 +1778,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  width: 100%;
 }
 
 @media (max-width: 900px) {
@@ -1810,6 +1814,17 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   padding: 16px 16px 20px;
   height: 320px;
   position: relative;
+}
+
+.spread-diff-placeholder {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--texto-suave);
+  font-size: 13px;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 /* ===================== DCF ===================== */

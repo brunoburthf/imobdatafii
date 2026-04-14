@@ -101,12 +101,15 @@
           </div>
 
           <!-- Gráfico 2: Spread diário -->
-          <div class="spread-grafico-card" id="spread-diff-card" style="display:none">
+          <div class="spread-grafico-card" id="spread-diff-card">
             <div class="spread-grafico-header">
               <h3 class="spread-grafico-titulo" id="spread-diff-titulo">Spread — DY vs NTN-B</h3>
             </div>
-            <div class="spread-canvas-wrapper">
+            <div class="spread-canvas-wrapper" id="spread-diff-canvas-wrapper" style="display:none">
               <canvas id="grafico-spread-diff"></canvas>
+            </div>
+            <div class="spread-diff-placeholder" id="spread-diff-placeholder">
+              Selecione um FII para visualizar o spread diário
             </div>
           </div>
 
@@ -118,5 +121,6 @@
   </main>
 
   <script src="js/spread.js"></script>
+  <script src="js/local.js"></script>
 </body>
 </html>

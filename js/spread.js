@@ -383,12 +383,17 @@ function renderizarGrafico(serieNtnb, serieFii) {
 function renderizarGraficoDiff(serieNtnb, serieFii) {
   const diffCard = document.getElementById("spread-diff-card");
 
+  const wrapper = document.getElementById("spread-diff-canvas-wrapper");
+  const placeholder = document.getElementById("spread-diff-placeholder");
+
   if (!fiiSelecionado || !serieFii.length) {
-    diffCard.style.display = "none";
+    wrapper.style.display = "none";
+    placeholder.style.display = "flex";
     return;
   }
 
-  diffCard.style.display = "flex";
+  wrapper.style.display = "block";
+  placeholder.style.display = "none";
   document.getElementById("spread-diff-titulo").textContent =
     `Spread — ${fiiSelecionado} DY − NTN-B ${targetDuration}a`;
 
