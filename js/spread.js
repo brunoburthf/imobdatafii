@@ -120,7 +120,7 @@ function calcularNtnb(target) {
     fiiSelecionado
       ? `${fiiSelecionado} vs NTN-B ${target} anos`
       : `NTN-B — Duration ${target} anos`;
-  document.getElementById("spread-grafico-card").style.display = "block";
+  document.getElementById("spread-grafico-card").style.display = "grid";
 
   atualizarSpreadAtual();
 
