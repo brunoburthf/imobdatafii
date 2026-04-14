@@ -103,13 +103,13 @@ header {
 }
 
 .uso-interno {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 800;
   letter-spacing: 0.18em;
   color: #fff;
   text-transform: uppercase;
-  background: var(--azul);
-  padding: 5px 13px;
+  background: #cc1111;
+  padding: 7px 16px;
   border-radius: 4px;
 }
 
