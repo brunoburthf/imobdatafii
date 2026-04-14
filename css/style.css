@@ -1632,9 +1632,9 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .spread-controles-card {
-  background: var(--branco);
+  background: var(--navy);
   border-radius: 12px;
-  box-shadow: var(--sombra);
+  box-shadow: 0 4px 20px rgba(0,9,60,0.35);
   overflow: hidden;
   align-self: flex-start;
   width: 420px;
@@ -1644,7 +1644,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 16px 12px 22px;
+  padding: 14px 16px 14px 22px;
   flex-wrap: wrap;
   gap: 12px;
 }
@@ -1662,19 +1662,22 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .spread-fii-input {
-  border: 1.5px solid var(--cinza-borda);
+  border: 1.5px solid rgba(255,255,255,0.2);
   border-radius: 8px;
   padding: 7px 14px;
   font-size: 13px;
-  width: 220px;
-  color: var(--texto);
-  background: var(--cinza-fundo);
+  width: 200px;
+  color: #fff;
+  background: rgba(255,255,255,0.1);
   transition: border-color 0.2s;
 }
+
+.spread-fii-input::placeholder { color: rgba(255,255,255,0.45); }
 
 .spread-fii-input:focus {
   outline: none;
   border-color: var(--azul);
+  background: rgba(255,255,255,0.15);
 }
 
 .spread-fii-sugestoes {
@@ -1749,22 +1752,22 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   gap: 24px;
   padding: 12px 22px;
   flex-wrap: wrap;
-  border-top: 1px solid var(--cinza-borda);
+  border-top: 1px solid rgba(255,255,255,0.1);
 }
 
 .spread-atual-grid-segunda {
-  border-top: 1px solid var(--cinza-borda);
+  border-top: 1px solid rgba(255,255,255,0.1);
   padding-bottom: 16px;
 }
 
 .spread-fii-cor {
-  color: var(--navy) !important;
+  color: rgba(150,200,255,1) !important;
 }
 
 .spread-titulo-inline {
   font-size: 15px;
   font-weight: 700;
-  color: var(--navy);
+  color: #fff;
 }
 
 .spread-duration-btns {
@@ -1774,19 +1777,19 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .btn-duration {
   background: none;
-  border: 1.5px solid var(--cinza-borda);
+  border: 1.5px solid rgba(255,255,255,0.25);
   border-radius: 6px;
   padding: 6px 14px;
   font-size: 13px;
   font-weight: 600;
-  color: var(--texto-suave);
+  color: rgba(255,255,255,0.65);
   cursor: pointer;
   transition: all 0.15s;
 }
 
 .btn-duration:hover {
   border-color: var(--azul);
-  color: var(--azul);
+  color: #fff;
 }
 
 .btn-duration.ativo {
@@ -1804,14 +1807,14 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  color: var(--texto-suave);
+  color: rgba(255,255,255,0.55);
   margin-bottom: 4px;
 }
 
 .spread-atual-valor {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
-  color: var(--azul);
+  color: #fff;
 }
 
 .spread-graficos-row {
