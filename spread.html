@@ -35,6 +35,9 @@
 
       <div class="spread-layout">
 
+        <!-- Topo: Controles + Preço Alvo lado a lado -->
+        <div class="spread-top-row">
+
         <!-- Controles -->
         <div class="spread-controles-card">
           <div class="spread-controles-header">
@@ -89,7 +92,54 @@
               </div>
             </div>
           </div>
+        </div><!-- fim controles-card -->
+
+        <!-- Card Preço Alvo -->
+        <div class="spread-preco-alvo-card" id="spread-preco-alvo-card" style="display:none">
+          <div class="spa-titulo">Cálculo de Preço Alvo</div>
+
+          <div class="spa-input-row">
+            <label class="spa-label" for="spa-spread-adicional">Spread sobre a média histórica (pp)</label>
+            <div class="spa-input-wrap">
+              <input type="number" id="spa-spread-adicional" class="spa-input"
+                value="0" step="0.1"
+                oninput="calcularPrecoAlvo()" />
+              <span class="spa-suffix">pp</span>
+            </div>
+          </div>
+
+          <table class="spa-tabela">
+            <tbody>
+              <tr>
+                <td class="spa-td-label">NTN-B atual</td>
+                <td class="spa-td-valor" id="spa-ntnb">—</td>
+              </tr>
+              <tr>
+                <td class="spa-td-label">Spread médio histórico</td>
+                <td class="spa-td-valor" id="spa-media">—</td>
+              </tr>
+              <tr>
+                <td class="spa-td-label">Spread adicional</td>
+                <td class="spa-td-valor" id="spa-adicional">—</td>
+              </tr>
+              <tr class="spa-tr-destaque">
+                <td class="spa-td-label">DY alvo</td>
+                <td class="spa-td-valor" id="spa-dy-alvo">—</td>
+              </tr>
+              <tr>
+                <td class="spa-td-label">Último dividendo (mensal)</td>
+                <td class="spa-td-valor" id="spa-dividendo">—</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="spa-resultado">
+            <div class="spa-resultado-label">Preço Alvo</div>
+            <div class="spa-resultado-valor" id="spa-preco-alvo">—</div>
+          </div>
         </div>
+
+        </div><!-- fim spread-top-row -->
 
         <!-- Gráficos -->
         <div class="spread-graficos-row" id="spread-grafico-card" style="display:none">

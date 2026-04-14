@@ -1631,13 +1631,134 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   gap: 20px;
 }
 
+.spread-top-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
 .spread-controles-card {
   background: var(--navy);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,9,60,0.35);
   overflow: hidden;
-  align-self: flex-start;
+  flex-shrink: 0;
   width: 420px;
+}
+
+/* Card Preço Alvo */
+.spread-preco-alvo-card {
+  background: var(--branco);
+  border-radius: 12px;
+  box-shadow: var(--sombra);
+  overflow: hidden;
+  flex-shrink: 0;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.spa-titulo {
+  background: var(--navy);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 12px 18px;
+}
+
+.spa-input-row {
+  padding: 14px 18px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-bottom: 1px solid var(--cinza-borda);
+}
+
+.spa-label {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--texto-suave);
+}
+
+.spa-input-wrap {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid var(--cinza-borda);
+  border-radius: 7px;
+  overflow: hidden;
+  background: var(--cinza-fundo);
+  transition: border-color 0.2s;
+}
+
+.spa-input-wrap:focus-within { border-color: var(--azul); }
+
+.spa-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 7px 10px;
+  font-size: 14px;
+  color: var(--texto);
+  min-width: 0;
+}
+
+.spa-input:focus { outline: none; }
+
+.spa-suffix {
+  padding: 7px 10px;
+  font-size: 12px;
+  color: var(--texto-suave);
+  background: #eaecf0;
+  font-weight: 600;
+}
+
+.spa-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.spa-td-label {
+  padding: 8px 18px;
+  color: var(--texto-suave);
+  border-bottom: 1px solid var(--cinza-borda);
+}
+
+.spa-td-valor {
+  padding: 8px 18px;
+  font-weight: 700;
+  color: var(--navy);
+  text-align: right;
+  border-bottom: 1px solid var(--cinza-borda);
+  white-space: nowrap;
+}
+
+.spa-tr-destaque td {
+  background: #f0f4ff;
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.spa-resultado {
+  padding: 14px 18px 16px;
+  background: var(--navy);
+}
+
+.spa-resultado-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 4px;
+}
+
+.spa-resultado-valor {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--azul);
 }
 
 .spread-controles-header {

@@ -5,13 +5,15 @@ const COR_FUNDO = "rgba(239,99,0,0.07)";
 const COR_FII   = "rgb(0,9,60)";
 const COR_NAVY  = "rgb(0,9,60)";
 
-let dadosNtnb    = [];   // [{date, ytm}] completo
-let dadosFii     = [];   // [{date, dy}] completo do FII selecionado
+let dadosNtnb      = [];   // [{date, ytm}] completo
+let dadosFii       = [];   // [{date, dy}] completo do FII selecionado
 let fiiSelecionado = null;
-let grafico      = null;
-let graficoDiff  = null;
-let periodoAtivo = "1A";
+let grafico        = null;
+let graficoDiff    = null;
+let periodoAtivo   = "1A";
 let targetDuration = 5;
+let mediaHistorica = null;  // média histórica do spread (pp)
+let ultimoDividendo = null; // último dividendo mensal do FII
 
 let todosOsFiis  = [];   // [{ticker, nome}] para busca
 let indiceSugestao = -1;
@@ -212,13 +214,17 @@ async function selecionarFii(ticker, nome) {
   document.getElementById("spread-fii-tag-nome").textContent = ticker;
   document.getElementById("spread-fii-tag").style.display    = "flex";
 
-  // Carregar historico_dy do FII
+  // Carregar dados do FII
   try {
     const resp = await fetch(`data/fiis/${ticker}.json`);
     const fiiJson = await resp.json();
     dadosFii = (fiiJson.historico_dy || []).map(([dt, dy]) => ({ date: dt, dy }));
+    // Último dividendo mensal
+    const divRaw = fiiJson.dados?.["Último Dividendo Pago"] ?? fiiJson.dados?.["ltimo Dividendo Pago"] ?? null;
+    ultimoDividendo = divRaw !== null ? parseFloat(divRaw) : null;
   } catch {
     dadosFii = [];
+    ultimoDividendo = null;
   }
 
   document.getElementById("spread-grafico-titulo").textContent =
@@ -232,8 +238,11 @@ async function selecionarFii(ticker, nome) {
 }
 
 function removerFii() {
-  fiiSelecionado = null;
-  dadosFii = [];
+  fiiSelecionado  = null;
+  dadosFii        = [];
+  mediaHistorica  = null;
+  ultimoDividendo = null;
+  document.getElementById("spread-preco-alvo-card").style.display = "none";
   document.getElementById("spread-fii-tag").style.display = "none";
   document.getElementById("spread-fii-input").value = "";
   document.getElementById("spread-fii-atual-bloco").style.display   = "none";
@@ -419,20 +428,25 @@ function renderizarGraficoDiff(serieNtnb, serieFii) {
     const n = ntnbMapFull[dt], dy2 = dyMapFull[dt];
     if (n != null && dy2 != null) valoresFull.push(dy2 - n);
   }
-  const mediaHistorica = valoresFull.length
+  const mediaHistoricaLocal = valoresFull.length
     ? parseFloat((valoresFull.reduce((a, b) => a + b, 0) / valoresFull.length).toFixed(2))
     : null;
 
-  // Exibir média histórica no card
+  // Salvar como variável de módulo
+  mediaHistorica = mediaHistoricaLocal;
+
+  // Exibir média histórica no card de controles
   const mediaBloco = document.getElementById("spread-media-bloco");
   const mediaEl    = document.getElementById("spread-media-valor");
-  if (mediaHistorica !== null) {
-    mediaEl.textContent = (mediaHistorica >= 0 ? "+" : "") + mediaHistorica.toFixed(2) + "pp";
-    mediaEl.style.color = mediaHistorica >= 0 ? "var(--verde)" : "var(--vermelho)";
+  if (mediaHistoricaLocal !== null) {
+    mediaEl.textContent = (mediaHistoricaLocal >= 0 ? "+" : "") + mediaHistoricaLocal.toFixed(2) + "pp";
+    mediaEl.style.color = mediaHistoricaLocal >= 0 ? "var(--verde)" : "var(--vermelho)";
     mediaBloco.style.display = "block";
   } else {
     mediaBloco.style.display = "none";
   }
+
+  calcularPrecoAlvo();
 
   // Média do período visível (para a linha no gráfico)
   const media = valores.length
@@ -505,6 +519,38 @@ function renderizarGraficoDiff(serieNtnb, serieFii) {
       }
     });
   }
+}
+
+// ─── Preço Alvo ───────────────────────────────────────────────────────────────
+
+function calcularPrecoAlvo() {
+  const card = document.getElementById("spread-preco-alvo-card");
+
+  const ntnbAtual = dadosNtnb.length ? dadosNtnb[dadosNtnb.length - 1].ytm : null;
+  if (!fiiSelecionado || ntnbAtual === null || mediaHistorica === null || ultimoDividendo === null) {
+    card.style.display = "none";
+    return;
+  }
+
+  card.style.display = "flex";
+
+  const spreadAdicional = parseFloat(document.getElementById("spa-spread-adicional").value) || 0;
+  const dyAlvo = ntnbAtual + mediaHistorica + spreadAdicional;
+  const precoAlvo = dyAlvo > 0 ? (12 * ultimoDividendo) / (dyAlvo / 100) : null;
+
+  const fmt  = v => v !== null ? (v >= 0 ? "+" : "") + v.toFixed(2) + "pp" : "—";
+  const fmtP = v => v !== null ? v.toFixed(2) + "%" : "—";
+
+  document.getElementById("spa-ntnb").textContent      = ntnbAtual.toFixed(2) + "%";
+  document.getElementById("spa-media").textContent     = fmt(mediaHistorica);
+  document.getElementById("spa-adicional").textContent = fmt(spreadAdicional);
+  document.getElementById("spa-dy-alvo").textContent   = fmtP(dyAlvo);
+  document.getElementById("spa-dividendo").textContent = ultimoDividendo !== null
+    ? "R$ " + ultimoDividendo.toLocaleString("pt-BR", { minimumFractionDigits: 4 })
+    : "—";
+  document.getElementById("spa-preco-alvo").textContent = precoAlvo !== null
+    ? "R$ " + precoAlvo.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
+    : "—";
 }
 
 inicializar();
