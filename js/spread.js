@@ -238,6 +238,7 @@ function removerFii() {
   document.getElementById("spread-fii-input").value = "";
   document.getElementById("spread-fii-atual-bloco").style.display   = "none";
   document.getElementById("spread-diferenca-bloco").style.display   = "none";
+  document.getElementById("spread-media-bloco").style.display       = "none";
   document.getElementById("spread-grafico-titulo").textContent =
     `NTN-B — Duration ${targetDuration} anos`;
 
@@ -411,7 +412,30 @@ function renderizarGraficoDiff(serieNtnb, serieFii) {
     valores.push(parseFloat((dy - ntnb).toFixed(4)));
   }
 
-  // Média
+  // Média histórica (sobre todo o período disponível, não só o filtrado)
+  const ntnbMapFull = Object.fromEntries(dadosNtnb.map(d => [d.date, d.ytm]));
+  const dyMapFull   = Object.fromEntries(dadosFii.map(d  => [d.date, d.dy]));
+  const valoresFull = [];
+  for (const dt of dadosNtnb.map(d => d.date)) {
+    const n = ntnbMapFull[dt], dy2 = dyMapFull[dt];
+    if (n != null && dy2 != null) valoresFull.push(dy2 - n);
+  }
+  const mediaHistorica = valoresFull.length
+    ? parseFloat((valoresFull.reduce((a, b) => a + b, 0) / valoresFull.length).toFixed(2))
+    : null;
+
+  // Exibir média histórica no card
+  const mediaBloco = document.getElementById("spread-media-bloco");
+  const mediaEl    = document.getElementById("spread-media-valor");
+  if (mediaHistorica !== null) {
+    mediaEl.textContent = (mediaHistorica >= 0 ? "+" : "") + mediaHistorica.toFixed(2) + "pp";
+    mediaEl.style.color = mediaHistorica >= 0 ? "var(--verde)" : "var(--vermelho)";
+    mediaBloco.style.display = "block";
+  } else {
+    mediaBloco.style.display = "none";
+  }
+
+  // Média do período visível (para a linha no gráfico)
   const media = valores.length
     ? parseFloat((valores.reduce((a, b) => a + b, 0) / valores.length).toFixed(4))
     : 0;
