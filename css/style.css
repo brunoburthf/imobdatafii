@@ -1637,7 +1637,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   box-shadow: var(--sombra);
   overflow: hidden;
   align-self: flex-start;
-  min-width: 520px;
+  width: 420px;
 }
 
 .spread-controles-header {
@@ -1746,9 +1746,15 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 /* Grid de valores atuais */
 .spread-atual-grid {
   display: flex;
-  gap: 32px;
-  padding: 0 22px 16px;
+  gap: 24px;
+  padding: 12px 22px;
   flex-wrap: wrap;
+  border-top: 1px solid var(--cinza-borda);
+}
+
+.spread-atual-grid-segunda {
+  border-top: 1px solid var(--cinza-borda);
+  padding-bottom: 16px;
 }
 
 .spread-fii-cor {

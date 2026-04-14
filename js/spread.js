@@ -237,8 +237,7 @@ function removerFii() {
   document.getElementById("spread-fii-tag").style.display = "none";
   document.getElementById("spread-fii-input").value = "";
   document.getElementById("spread-fii-atual-bloco").style.display   = "none";
-  document.getElementById("spread-diferenca-bloco").style.display   = "none";
-  document.getElementById("spread-media-bloco").style.display       = "none";
+  document.getElementById("spread-linha2").style.display            = "none";
   document.getElementById("spread-grafico-titulo").textContent =
     `NTN-B — Duration ${targetDuration} anos`;
 
@@ -248,8 +247,8 @@ function removerFii() {
 
 function atualizarSpreadAtual() {
   if (!fiiSelecionado || !dadosFii.length) {
-    document.getElementById("spread-fii-atual-bloco").style.display   = "none";
-    document.getElementById("spread-diferenca-bloco").style.display   = "none";
+    document.getElementById("spread-fii-atual-bloco").style.display = "none";
+    document.getElementById("spread-linha2").style.display          = "none";
     return;
   }
   const ultimoDy   = dadosFii[dadosFii.length - 1].dy;
@@ -263,7 +262,7 @@ function atualizarSpreadAtual() {
     const el = document.getElementById("spread-diferenca-valor");
     el.textContent = (spread >= 0 ? "+" : "") + spread.toFixed(2) + "pp";
     el.style.color = spread >= 0 ? "var(--verde)" : "var(--vermelho)";
-    document.getElementById("spread-diferenca-bloco").style.display = "block";
+    document.getElementById("spread-linha2").style.display = "flex";
   }
 }
 
