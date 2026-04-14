@@ -9,6 +9,7 @@ let dadosNtnb    = [];   // [{date, ytm}] completo
 let dadosFii     = [];   // [{date, dy}] completo do FII selecionado
 let fiiSelecionado = null;
 let grafico      = null;
+let graficoDiff  = null;
 let periodoAtivo = "1A";
 let targetDuration = 5;
 
@@ -63,30 +64,44 @@ function calcularNtnb(target) {
   const dados = window._ntnbDados;
   if (!dados) return;
 
+  // Índice YTM por data
   const ytmPorData = {};
-  const durPorData = {};
-
   for (const bond of Object.keys(dados.ytm)) {
     for (const [dt, val] of dados.ytm[bond]) {
       if (!ytmPorData[dt]) ytmPorData[dt] = {};
       ytmPorData[dt][bond] = val;
     }
   }
+
+  // Duration: forward-fill por bond para cobrir datas diárias
+  // Para cada bond, guarda série ordenada e usa o valor mais recente disponível
+  const durSeries = {};
   for (const bond of Object.keys(dados.duration)) {
-    for (const [dt, val] of dados.duration[bond]) {
-      if (!durPorData[dt]) durPorData[dt] = {};
-      durPorData[dt][bond] = val;
-    }
+    durSeries[bond] = dados.duration[bond].slice().sort((a, b) => a[0] < b[0] ? -1 : 1);
   }
 
-  const todasDatas = new Set([
-    ...Object.keys(ytmPorData),
-    ...Object.keys(durPorData)
-  ]);
+  function getDur(bond, dt) {
+    const serie = durSeries[bond];
+    if (!serie || !serie.length) return null;
+    let val = null;
+    for (const [d, v] of serie) {
+      if (d <= dt) val = v;
+      else break;
+    }
+    return val;
+  }
 
+  // Para cada data com YTM, monta mapa {bond: durDias} via forward-fill
+  const todasDatas = Object.keys(ytmPorData).sort();
   const serie = [];
-  for (const dt of [...todasDatas].sort()) {
-    const ytmInterp = interpolarDia(ytmPorData[dt] || {}, durPorData[dt] || {}, target);
+  for (const dt of todasDatas) {
+    const ytmMap = ytmPorData[dt];
+    const durMap = {};
+    for (const bond of Object.keys(ytmMap)) {
+      const d = getDur(bond, dt);
+      if (d !== null) durMap[bond] = d;
+    }
+    const ytmInterp = interpolarDia(ytmMap, durMap, target);
     if (ytmInterp !== null) serie.push({ date: dt, ytm: ytmInterp });
   }
 
@@ -114,10 +129,8 @@ function calcularNtnb(target) {
   document.querySelector('[data-periodo="1A"]').classList.add("ativo");
   periodoAtivo = "1A";
 
-  renderizarGrafico(
-    filtrarPorPeriodo(dadosNtnb, periodoAtivo),
-    filtrarPorPeriodo(dadosFii,  periodoAtivo)
-  );
+  const { ntnb: ntnbC, fii: fiiC } = prepararSeries(periodoAtivo);
+  renderizarGrafico(ntnbC, fiiC);
 }
 
 // ─── Interpolação ─────────────────────────────────────────────────────────────
@@ -214,10 +227,8 @@ async function selecionarFii(ticker, nome) {
   document.getElementById("spread-fii-dy-label").textContent = `${ticker} DY atual`;
   atualizarSpreadAtual();
 
-  renderizarGrafico(
-    filtrarPorPeriodo(dadosNtnb, periodoAtivo),
-    filtrarPorPeriodo(dadosFii,  periodoAtivo)
-  );
+  const { ntnb: ntnbS, fii: fiiS } = prepararSeries(periodoAtivo);
+  renderizarGrafico(ntnbS, fiiS);
 }
 
 function removerFii() {
@@ -230,10 +241,8 @@ function removerFii() {
   document.getElementById("spread-grafico-titulo").textContent =
     `NTN-B — Duration ${targetDuration} anos`;
 
-  renderizarGrafico(
-    filtrarPorPeriodo(dadosNtnb, periodoAtivo),
-    []
-  );
+  const { ntnb: ntnbR, fii: fiiR } = prepararSeries(periodoAtivo);
+  renderizarGrafico(ntnbR, fiiR);
 }
 
 function atualizarSpreadAtual() {
@@ -267,15 +276,27 @@ function filtrarPorPeriodo(serie, periodo) {
   return serie.filter(d => new Date(d.date) >= corte);
 }
 
+// Restringe ntnb ao intervalo de datas do FII quando ele está selecionado
+function clampNtnbAoFii(serieNtnb, serieFii) {
+  if (!serieFii.length) return serieNtnb;
+  const minFii = serieFii[0].date;
+  const maxFii = serieFii[serieFii.length - 1].date;
+  return serieNtnb.filter(d => d.date >= minFii && d.date <= maxFii);
+}
+
+function prepararSeries(periodo) {
+  const fiiPeriodo  = filtrarPorPeriodo(dadosFii,  periodo);
+  const ntnbPeriodo = clampNtnbAoFii(filtrarPorPeriodo(dadosNtnb, periodo), fiiPeriodo);
+  return { ntnb: ntnbPeriodo, fii: fiiPeriodo };
+}
+
 function filtrarPeriodoSpread(periodo) {
   periodoAtivo = periodo;
   document.querySelectorAll(".btn-periodo").forEach(b => {
     b.classList.toggle("ativo", b.dataset.periodo === periodo);
   });
-  renderizarGrafico(
-    filtrarPorPeriodo(dadosNtnb, periodo),
-    filtrarPorPeriodo(dadosFii,  periodo)
-  );
+  const { ntnb, fii } = prepararSeries(periodo);
+  renderizarGrafico(ntnb, fii);
 }
 
 // ─── Gráfico ──────────────────────────────────────────────────────────────────
@@ -323,11 +344,108 @@ function renderizarGrafico(serieNtnb, serieFii) {
     grid: { color: "rgba(0,0,0,0.05)" }
   };
 
-  if (!grafico) {
-    const ctx = document.getElementById("grafico-spread").getContext("2d");
-    grafico = new Chart(ctx, {
+  if (grafico) { grafico.destroy(); grafico = null; }
+
+  const ctx = document.getElementById("grafico-spread").getContext("2d");
+  grafico = new Chart(ctx, {
+    type: "line",
+    data: { labels: labelsNtnb, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: {
+          display: true,
+          labels: { color: COR_NAVY, boxWidth: 14, font: { size: 12 } }
+        },
+        tooltip: {
+          callbacks: {
+            label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y !== null ? ctx.parsed.y.toFixed(2) + "%" : "—"}`
+          }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: COR_NAVY, maxTicksLimit: 8, maxRotation: 0 },
+          grid:  { color: "rgba(0,0,0,0.05)" }
+        },
+        y: escalaY
+      }
+    }
+  });
+
+  // Gráfico 2: spread diário
+  renderizarGraficoDiff(serieNtnb, serieFii);
+}
+
+function renderizarGraficoDiff(serieNtnb, serieFii) {
+  const diffCard = document.getElementById("spread-diff-card");
+
+  if (!fiiSelecionado || !serieFii.length) {
+    diffCard.style.display = "none";
+    return;
+  }
+
+  diffCard.style.display = "flex";
+  document.getElementById("spread-diff-titulo").textContent =
+    `Spread — ${fiiSelecionado} DY − NTN-B ${targetDuration}a`;
+
+  // Calcular spread por data (apenas datas com os dois valores)
+  const ntnbMap = Object.fromEntries(serieNtnb.map(d => [d.date, d.ytm]));
+  const dyMap   = Object.fromEntries(serieFii.map(d  => [d.date, d.dy]));
+
+  const labels = [];
+  const valores = [];
+  for (const dt of serieNtnb.map(d => d.date)) {
+    const ntnb = ntnbMap[dt];
+    const dy   = dyMap[dt];
+    if (ntnb == null || dy == null) continue;
+    labels.push(dt);
+    valores.push(parseFloat((dy - ntnb).toFixed(4)));
+  }
+
+  // Média
+  const media = valores.length
+    ? parseFloat((valores.reduce((a, b) => a + b, 0) / valores.length).toFixed(4))
+    : 0;
+  const linhaMedia = new Array(valores.length).fill(media);
+
+  // Cor da área: positivo = verde, negativo = vermelho
+  const corArea = media >= 0 ? "rgba(14,159,110,0.1)" : "rgba(224,36,36,0.1)";
+  const corLinha = media >= 0 ? "var(--verde)" : "var(--vermelho)";
+
+  const datasets = [
+    {
+      label: "Spread (pp)",
+      data: valores,
+      borderColor: COR_NAVY,
+      backgroundColor: corArea,
+      borderWidth: 1.5,
+      pointRadius: 0,
+      fill: true,
+      tension: 0.2,
+    },
+    {
+      label: `Média (${media >= 0 ? "+" : ""}${media.toFixed(2)}pp)`,
+      data: linhaMedia,
+      borderColor: COR_NTNB,
+      backgroundColor: "transparent",
+      borderWidth: 1.5,
+      borderDash: [5, 4],
+      pointRadius: 0,
+      fill: false,
+    }
+  ];
+
+  if (graficoDiff) { graficoDiff.destroy(); graficoDiff = null; }
+  {
+    const ctx = document.getElementById("grafico-spread-diff").getContext("2d");
+    graficoDiff = new Chart(ctx, {
       type: "line",
-      data: { labels: labelsNtnb, datasets },
+      data: { labels, datasets },
+      animation: false,
       options: {
         responsive: true,
         maintainAspectRatio: false,
@@ -339,7 +457,7 @@ function renderizarGrafico(serieNtnb, serieFii) {
           },
           tooltip: {
             callbacks: {
-              label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y !== null ? ctx.parsed.y.toFixed(2) + "%" : "—"}`
+              label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y !== null ? (ctx.parsed.y >= 0 ? "+" : "") + ctx.parsed.y.toFixed(2) + "pp" : "—"}`
             }
           }
         },
@@ -348,14 +466,16 @@ function renderizarGrafico(serieNtnb, serieFii) {
             ticks: { color: COR_NAVY, maxTicksLimit: 8, maxRotation: 0 },
             grid:  { color: "rgba(0,0,0,0.05)" }
           },
-          y: escalaY
+          y: {
+            ticks: {
+              color: COR_NAVY,
+              callback: v => (v >= 0 ? "+" : "") + v.toFixed(2) + "pp"
+            },
+            grid: { color: "rgba(0,0,0,0.05)" }
+          }
         }
       }
     });
-  } else {
-    grafico.data.labels = labelsNtnb;
-    grafico.data.datasets = datasets;
-    grafico.update();
   }
 }
 

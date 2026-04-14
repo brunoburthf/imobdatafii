@@ -1771,11 +1771,23 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   color: var(--azul);
 }
 
+.spread-graficos-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .spread-graficos-row { grid-template-columns: 1fr; }
+}
+
 .spread-grafico-card {
   background: var(--branco);
   border-radius: 12px;
   box-shadow: var(--sombra);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .spread-grafico-header {

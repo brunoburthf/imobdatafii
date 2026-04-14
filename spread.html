@@ -81,20 +81,35 @@
           </div>
         </div>
 
-        <!-- Gráfico -->
-        <div class="spread-grafico-card" id="spread-grafico-card" style="display:none">
-          <div class="spread-grafico-header">
-            <h3 class="spread-grafico-titulo" id="spread-grafico-titulo">NTN-B — Duration X anos</h3>
-            <div class="grafico-controles">
-              <button onclick="filtrarPeriodoSpread('1A')" class="btn-periodo ativo" data-periodo="1A">1A</button>
-              <button onclick="filtrarPeriodoSpread('3A')" class="btn-periodo" data-periodo="3A">3A</button>
-              <button onclick="filtrarPeriodoSpread('5A')" class="btn-periodo" data-periodo="5A">5A</button>
-              <button onclick="filtrarPeriodoSpread('MAX')" class="btn-periodo" data-periodo="MAX">MAX</button>
+        <!-- Gráficos -->
+        <div class="spread-graficos-row" id="spread-grafico-card" style="display:none">
+
+          <!-- Gráfico 1: DY vs NTN-B -->
+          <div class="spread-grafico-card">
+            <div class="spread-grafico-header">
+              <h3 class="spread-grafico-titulo" id="spread-grafico-titulo">NTN-B — Duration X anos</h3>
+              <div class="grafico-controles">
+                <button onclick="filtrarPeriodoSpread('1A')" class="btn-periodo ativo" data-periodo="1A">1A</button>
+                <button onclick="filtrarPeriodoSpread('3A')" class="btn-periodo" data-periodo="3A">3A</button>
+                <button onclick="filtrarPeriodoSpread('5A')" class="btn-periodo" data-periodo="5A">5A</button>
+                <button onclick="filtrarPeriodoSpread('MAX')" class="btn-periodo" data-periodo="MAX">MAX</button>
+              </div>
+            </div>
+            <div class="spread-canvas-wrapper">
+              <canvas id="grafico-spread"></canvas>
             </div>
           </div>
-          <div class="spread-canvas-wrapper">
-            <canvas id="grafico-spread"></canvas>
+
+          <!-- Gráfico 2: Spread diário -->
+          <div class="spread-grafico-card" id="spread-diff-card" style="display:none">
+            <div class="spread-grafico-header">
+              <h3 class="spread-grafico-titulo" id="spread-diff-titulo">Spread — DY vs NTN-B</h3>
+            </div>
+            <div class="spread-canvas-wrapper">
+              <canvas id="grafico-spread-diff"></canvas>
+            </div>
           </div>
+
         </div>
 
       </div>
