@@ -103,6 +103,7 @@ function formatarCelulaSetor(col, val) {
   if (typeof val !== "number") return val;
   const c = col.toLowerCase();
   if (c.includes("dy") || c.includes("retorno") || c.includes("ret")) return (val * 100).toFixed(2) + "%";
+  if (c.includes("ifix")) return (val * 100).toFixed(2) + "%";
   if (c.includes("p/vp") || c.includes("pvp")) return val.toFixed(2) + "x";
   if (c.includes("preço") || c.includes("preco")) return "R$ " + val.toFixed(2);
   if (Number.isInteger(val)) return val.toString();
