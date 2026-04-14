@@ -1591,7 +1591,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 /* ===================== SPREAD NTN-B ===================== */
 
 .spread-layout {
-  max-width: 900px;
+  max-width: 1400px;
   margin: 32px auto;
   padding: 0 20px;
   display: flex;
@@ -1812,7 +1812,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .spread-canvas-wrapper {
   padding: 16px 16px 20px;
-  height: 520px;
+  height: 260px;
   position: relative;
 }
 
