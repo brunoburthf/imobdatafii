@@ -1636,6 +1636,8 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   border-radius: 12px;
   box-shadow: var(--sombra);
   overflow: hidden;
+  align-self: flex-start;
+  min-width: 520px;
 }
 
 .spread-controles-header {
