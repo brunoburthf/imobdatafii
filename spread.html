@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spread NTN-B — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="valuation.html" class="nav-link ativo">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <div class="spread-layout">
+
+        <!-- Controles -->
+        <div class="spread-controles-card">
+          <h2 class="spread-titulo">Spread NTN-B — Duration Constante</h2>
+          <p class="spread-desc">Informe o duration desejado (em anos) para interpolar a taxa da NTN-B diariamente.</p>
+
+          <div class="spread-inputs">
+            <div class="spread-input-group">
+              <label class="spread-label" for="input-duration">Duration (anos)</label>
+              <input type="number" id="input-duration" class="spread-input" value="5" min="0.5" max="30" step="0.5" />
+            </div>
+            <button class="btn-simular" onclick="calcularSpread()">Calcular</button>
+          </div>
+
+          <div id="spread-atual-wrapper" style="display:none">
+            <div class="spread-atual-label">Valor atual interpolado</div>
+            <div class="spread-atual-valor" id="spread-atual-valor">—</div>
+          </div>
+        </div>
+
+        <!-- Gráfico -->
+        <div class="spread-grafico-card" id="spread-grafico-card" style="display:none">
+          <div class="spread-grafico-header">
+            <h3 class="spread-grafico-titulo" id="spread-grafico-titulo">NTN-B — Duration X anos</h3>
+            <div class="grafico-controles">
+              <button onclick="filtrarPeriodoSpread('1A')" class="btn-periodo ativo" data-periodo="1A">1A</button>
+              <button onclick="filtrarPeriodoSpread('3A')" class="btn-periodo" data-periodo="3A">3A</button>
+              <button onclick="filtrarPeriodoSpread('5A')" class="btn-periodo" data-periodo="5A">5A</button>
+              <button onclick="filtrarPeriodoSpread('MAX')" class="btn-periodo" data-periodo="MAX">MAX</button>
+            </div>
+          </div>
+          <div class="spread-canvas-wrapper">
+            <canvas id="grafico-spread"></canvas>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/spread.js"></script>
+</body>
+</html>

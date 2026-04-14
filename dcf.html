@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DCF — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="valuation.html" class="nav-link ativo">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="dcf-layout">
+
+      <!-- Formulário -->
+      <div class="dcf-card">
+        <h2 class="dcf-titulo">Calculadora DCF — FII</h2>
+        <p class="dcf-desc">Estime o preço justo de um FII pelo método do Fluxo de Caixa Descontado com crescimento de dividendos.</p>
+
+        <div class="dcf-form">
+
+          <div class="dcf-input-group">
+            <label class="dcf-label" for="dcf-dividendo">Dividendo mensal atual (R$)</label>
+            <div class="dcf-input-wrap">
+              <span class="dcf-prefix">R$</span>
+              <input type="number" id="dcf-dividendo" class="dcf-input" placeholder="0,00" min="0" step="0.01" />
+            </div>
+          </div>
+
+          <div class="dcf-input-group">
+            <label class="dcf-label" for="dcf-crescimento">Crescimento anual dos dividendos (%)</label>
+            <div class="dcf-input-wrap">
+              <input type="number" id="dcf-crescimento" class="dcf-input" placeholder="0,00" min="-20" max="50" step="0.1" />
+              <span class="dcf-suffix">%</span>
+            </div>
+          </div>
+
+          <div class="dcf-input-group">
+            <label class="dcf-label" for="dcf-desconto">Taxa de desconto anual (%)</label>
+            <div class="dcf-input-wrap">
+              <input type="number" id="dcf-desconto" class="dcf-input" placeholder="0,00" min="0" max="100" step="0.1" />
+              <span class="dcf-suffix">%</span>
+            </div>
+          </div>
+
+          <div class="dcf-input-group">
+            <label class="dcf-label" for="dcf-horizonte">Horizonte de análise (anos)</label>
+            <div class="dcf-input-wrap">
+              <input type="number" id="dcf-horizonte" class="dcf-input" placeholder="10" min="1" max="50" step="1" value="10" />
+              <span class="dcf-suffix">anos</span>
+            </div>
+          </div>
+
+          <div class="dcf-input-group">
+            <label class="dcf-label" for="dcf-preco-atual">Preço atual de mercado (R$) <span class="dcf-opcional">(opcional)</span></label>
+            <div class="dcf-input-wrap">
+              <span class="dcf-prefix">R$</span>
+              <input type="number" id="dcf-preco-atual" class="dcf-input" placeholder="0,00" min="0" step="0.01" />
+            </div>
+          </div>
+
+          <button class="btn-simular" onclick="calcularDCF()">Calcular Preço Justo</button>
+
+        </div>
+      </div>
+
+      <!-- Resultado -->
+      <div class="dcf-resultado-card" id="dcf-resultado" style="display:none">
+        <h3 class="dcf-resultado-titulo">Resultado</h3>
+
+        <div class="dcf-resultado-grid">
+          <div class="dcf-res-bloco destaque">
+            <div class="dcf-res-label">Preço Justo (DCF)</div>
+            <div class="dcf-res-valor" id="dcf-preco-justo">—</div>
+          </div>
+          <div class="dcf-res-bloco" id="dcf-upside-bloco" style="display:none">
+            <div class="dcf-res-label">Upside / Downside</div>
+            <div class="dcf-res-valor" id="dcf-upside">—</div>
+          </div>
+          <div class="dcf-res-bloco">
+            <div class="dcf-res-label">Valor presente dos dividendos</div>
+            <div class="dcf-res-valor" id="dcf-vp-dividendos">—</div>
+          </div>
+          <div class="dcf-res-bloco">
+            <div class="dcf-res-label">Valor terminal (VP)</div>
+            <div class="dcf-res-valor" id="dcf-vp-terminal">—</div>
+          </div>
+        </div>
+
+        <div class="dcf-aviso">
+          Os valores são estimativas baseadas nos parâmetros inseridos e não constituem recomendação de investimento.
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/dcf.js"></script>
+</body>
+</html>
