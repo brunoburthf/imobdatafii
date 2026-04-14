@@ -920,6 +920,20 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   color: #fff;
   background: #EC7000;
   padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pdf-secao-titulo::after {
+  content: "USO INTERNO";
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  color: #fff;
+  background: #cc1111;
+  padding: 2px 8px;
+  border-radius: 3px;
 }
 
 .pdf-tabela {
