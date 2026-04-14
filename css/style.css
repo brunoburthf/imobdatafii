@@ -162,6 +162,13 @@ main {
 .toolbar input { width: 280px; }
 .toolbar select { min-width: 180px; }
 
+.toolbar-aviso {
+  font-size: 12px;
+  color: var(--texto-suave);
+  align-self: center;
+  margin-left: 4px;
+}
+
 /* TABELA */
 #tabela-wrapper {
   background: var(--branco);
