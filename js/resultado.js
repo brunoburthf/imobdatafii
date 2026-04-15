@@ -337,7 +337,7 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
   const [resultados, cdiMapa] = await Promise.all([
     Promise.all(carteira.map(async f => {
       try {
-        const resp = await fetch(`data/fiis/${f.ticker}.json`);
+        const resp = await fetch(`data/fiis/${f.ticker}.json?v=${Date.now()}`);
         if (!resp.ok) return { ticker: f.ticker, precos: {} };
         const data = await resp.json();
         const serie = (data.historico_preco_adj && data.historico_preco_adj.length)
