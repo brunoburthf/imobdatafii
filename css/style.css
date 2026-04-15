@@ -849,9 +849,9 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .pdf-uso-interno {
-  font-size: 20px;
+  font-size: 11px;
   font-weight: 900;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.05em;
   color: #fff;
   background: #cc1111;
   padding: 6px 20px;
@@ -933,13 +933,13 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .pdf-secao-titulo::after {
-  content: "USO INTERNO";
-  font-size: 9px;
+  content: "Não Compartilhar com clientes - Uso Interno";
+  font-size: 7px;
   font-weight: 900;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.03em;
   color: #fff;
   background: #cc1111;
-  padding: 2px 8px;
+  padding: 2px 6px;
   border-radius: 3px;
 }
 

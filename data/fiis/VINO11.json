@@ -4,14 +4,14 @@
     "Ticker": "VINO11",
     "Nome": "Vinci Offices FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.0099,
-    "Retorno - 12M": 0.1036,
-    "P/VP": 0.5,
+    "Retorno - MTD": -0.008,
+    "Retorno - 12M": 0.0972,
+    "P/VP": 0.51,
     "Último Dividendo Pago": 0.04,
     "DY a.a.": 0.096,
     "Visão Geral": "FII de lajes corporativas que investe em participações de controle em edifícios corporativos, majoritariamente locados, com foco em renda e ganho de capital. É gerido pela Vinci e classificado pela ANBIMA no segmento de lajes corporativas. A estratégia prioriza escritórios com vetores claros de geração de valor e renda recorrente. ([Vinci Fundos Listados][5])",
     "Comentário": null,
-    "Preço Atual": 5.0
+    "Preço Atual": 5.04
   },
   "historico_preco": [
     [
@@ -6353,8 +6353,13 @@
     [
       "2026-04-10",
       5.01
+    ],
+    [
+      "2026-04-13",
+      4.98
     ]
   ],
+  "historico_preco_adj": [],
   "historico_pvp": [
     [
       "2019-11-27",
@@ -12974,39 +12979,43 @@
     ],
     [
       "2026-03-31",
-      0.5128762643
+      0.51428160685
     ],
     [
       "2026-04-01",
-      0.5098414935
+      0.51123852042
     ],
     [
       "2026-04-02",
-      0.50377195192
+      0.50515234756
     ],
     [
       "2026-04-03",
-      0.50377195192
+      0.50515234756
     ],
     [
       "2026-04-06",
-      0.50579513245
+      0.50718107185
     ],
     [
       "2026-04-07",
-      0.50377195192
+      0.50515234756
     ],
     [
       "2026-04-08",
-      0.50579513245
+      0.50718107185
     ],
     [
       "2026-04-09",
-      0.50478354218
+      0.5061667097
     ],
     [
       "2026-04-10",
-      0.50680672271
+      0.50819543399
+    ],
+    [
+      "2026-04-13",
+      0.50515234756
     ]
   ],
   "historico_dy": [
@@ -19261,6 +19270,10 @@
     [
       "2026-04-10",
       9.5808
+    ],
+    [
+      "2026-04-13",
+      9.6386
     ]
   ]
 }

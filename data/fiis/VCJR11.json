@@ -4,14 +4,14 @@
     "Ticker": "VCJR11",
     "Nome": "Vectis Juros Real FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0138,
-    "Retorno - 12M": 0.0897,
+    "Retorno - MTD": 0.0091,
+    "Retorno - 12M": 0.083,
     "P/VP": 0.83,
     "Último Dividendo Pago": 0.9,
-    "DY a.a.": 0.136,
+    "DY a.a.": 0.137,
     "Visão Geral": "FII de papel que investe em CRIs, LCIs, LHs e outros ativos financeiros imobiliários, com foco em proteção patrimonial contra a inflação. É gerido pela Vectis e busca acompanhar NTN-B mais 1% a 3% ao ano. A estratégia prioriza renda recorrente indexada ao IPCA com carteira de crédito imobiliário diversificada. ([Vectis Gestão][7])",
     "Comentário": null,
-    "Preço Atual": 79.09
+    "Preço Atual": 79.69
   },
   "historico_preco": [
     [
@@ -6197,8 +6197,13 @@
     [
       "2026-04-10",
       78.89
+    ],
+    [
+      "2026-04-13",
+      79.17
     ]
   ],
+  "historico_preco_adj": [],
   "historico_pvp": [
     [
       "2020-01-27",
@@ -12679,6 +12684,10 @@
     [
       "2026-04-10",
       0.83113279074
+    ],
+    [
+      "2026-04-13",
+      0.8340826853
     ]
   ],
   "historico_dy": [
@@ -18845,6 +18854,10 @@
     [
       "2026-04-10",
       13.6899
+    ],
+    [
+      "2026-04-13",
+      13.6415
     ]
   ]
 }

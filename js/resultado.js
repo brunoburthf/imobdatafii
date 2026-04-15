@@ -340,8 +340,11 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
         const resp = await fetch(`data/fiis/${f.ticker}.json`);
         if (!resp.ok) return { ticker: f.ticker, precos: {} };
         const data = await resp.json();
+        const serie = (data.historico_preco_adj && data.historico_preco_adj.length)
+          ? data.historico_preco_adj
+          : (data.historico_preco || []);
         const mapa = {};
-        for (const [d, p] of (data.historico_preco || [])) mapa[d] = p;
+        for (const [d, p] of serie) mapa[d] = p;
         return { ticker: f.ticker, precos: mapa };
       } catch { return { ticker: f.ticker, precos: {} }; }
     })),

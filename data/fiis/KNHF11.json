@@ -4,14 +4,14 @@
     "Ticker": "KNHF11",
     "Nome": "Kinea Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0103,
-    "Retorno - 12M": 0.2999,
+    "Retorno - MTD": 0.0146,
+    "Retorno - 12M": 0.3005,
     "P/VP": 0.98,
     "Último Dividendo Pago": 1.0,
     "DY a.a.": 0.121,
     "Visão Geral": "FII híbrido que investe em CRIs, FIIs, imóveis, ações e projetos de desenvolvimento, com gestão ativa e mandato multiestratégia. É gerido pela Kinea e busca oportunidades em diferentes subsegmentos do mercado imobiliário. A estratégia combina renda recorrente e ganho de capital por meio de alocação flexível entre ativos listados e reais. ([KINEA][1])",
     "Comentário": null,
-    "Preço Atual": 99.25
+    "Preço Atual": 99.15
   },
   "historico_preco": [
     [
@@ -2641,8 +2641,13 @@
     [
       "2026-04-10",
       99.02
+    ],
+    [
+      "2026-04-13",
+      98.98
     ]
   ],
+  "historico_preco_adj": [],
   "historico_pvp": [
     [
       "2023-08-22",
@@ -5366,39 +5371,43 @@
     ],
     [
       "2026-03-31",
-      0.9761315795
+      0.97969462778
     ],
     [
       "2026-04-01",
-      0.97070698246
+      0.97425023003
     ],
     [
       "2026-04-02",
-      0.96981932113
+      0.97335932858
     ],
     [
       "2026-04-03",
-      0.96981932113
+      0.97335932858
     ],
     [
       "2026-04-06",
-      0.97662472469
+      0.98018957303
     ],
     [
       "2026-04-07",
-      0.9700165792
+      0.97355730668
     ],
     [
       "2026-04-08",
-      0.9734685955
+      0.97702192343
     ],
     [
       "2026-04-09",
-      0.97632883757
+      0.97989260588
     ],
     [
       "2026-04-10",
-      0.97662472469
+      0.98018957303
+    ],
+    [
+      "2026-04-13",
+      0.97979361683
     ]
   ],
   "historico_dy": [
@@ -7997,6 +8006,10 @@
     [
       "2026-04-10",
       12.1188
+    ],
+    [
+      "2026-04-13",
+      12.1237
     ]
   ]
 }

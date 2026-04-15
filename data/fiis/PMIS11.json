@@ -4,14 +4,14 @@
     "Ticker": "PMIS11",
     "Nome": "Paramis Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0115,
-    "Retorno - 12M": 0.2044,
-    "P/VP": 0.86,
+    "Retorno - MTD": 0.0028,
+    "Retorno - 12M": 0.1893,
+    "P/VP": 0.85,
     "Último Dividendo Pago": 0.092,
-    "DY a.a.": 0.136,
+    "DY a.a.": 0.138,
     "Visão Geral": "FII híbrido que investe em CRI, debêntures, LCI, LH e cotas de FII, com mandato multiestratégia voltado à renda mensal. É gerido pela Paramis e tinha 83,5% do patrimônio alocado em ativos-alvo no relatório de outubro de 2025. A estratégia combina crédito e fundos imobiliários com gestão ativa. ([Paramis Capital][3])",
     "Comentário": null,
-    "Preço Atual": 8.1
+    "Preço Atual": 8.05
   },
   "historico_preco": [
     [
@@ -2197,8 +2197,13 @@
     [
       "2026-04-10",
       8.19
+    ],
+    [
+      "2026-04-13",
+      8.09
     ]
   ],
+  "historico_preco_adj": [],
   "historico_pvp": [
     [
       "2024-02-02",
@@ -4483,6 +4488,10 @@
     [
       "2026-04-10",
       0.86694805079
+    ],
+    [
+      "2026-04-13",
+      0.85636260451
     ]
   ],
   "historico_dy": [
@@ -6597,6 +6606,10 @@
     [
       "2026-04-10",
       13.4799
+    ],
+    [
+      "2026-04-13",
+      13.6465
     ]
   ]
 }

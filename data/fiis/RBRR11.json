@@ -4,14 +4,14 @@
     "Ticker": "RBRR11",
     "Nome": "FII RBR Rendimento High Grade",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.0174,
-    "Retorno - 12M": 0.1305,
-    "P/VP": 0.89,
+    "Retorno - MTD": -0.0198,
+    "Retorno - 12M": 0.1303,
+    "P/VP": 0.85,
     "Último Dividendo Pago": 0.7,
     "DY a.a.": 0.101,
     "Visão Geral": "FII de papel que investe em CRIs de risco high grade, majoritariamente indexados ao IPCA, com foco em rendimentos e ganho de capital. É gerido pela RBR, iniciou em maio de 2018 e busca geração recorrente de renda via crédito imobiliário. A estratégia concentra operações com perfil mais conservador dentro do segmento.",
     "Comentário": null,
-    "Preço Atual": 82.82
+    "Preço Atual": 82.87
   },
   "historico_preco": [
     [
@@ -7909,8 +7909,13 @@
     [
       "2026-04-10",
       84.97
+    ],
+    [
+      "2026-04-13",
+      83.3
     ]
   ],
+  "historico_preco_adj": [],
   "historico_pvp": [
     [
       "2018-05-31",
@@ -16086,39 +16091,43 @@
     ],
     [
       "2026-03-31",
-      0.91592327586
+      0.87695048574
     ],
     [
       "2026-04-01",
-      0.90242230104
+      0.86402398116
     ],
     [
       "2026-04-02",
-      0.90863703548
+      0.86997427692
     ],
     [
       "2026-04-03",
-      0.90863703548
+      0.86997427692
     ],
     [
       "2026-04-06",
-      0.90177939748
+      0.86340843332
     ],
     [
       "2026-04-07",
-      0.90210084926
+      0.86371620724
     ],
     [
       "2026-04-08",
-      0.90167224688
+      0.86330584201
     ],
     [
       "2026-04-09",
-      0.89899348204
+      0.86074105936
     ],
     [
       "2026-04-10",
-      0.91045859557
+      0.87171832912
+    ],
+    [
+      "2026-04-13",
+      0.85458558098
     ]
   ],
   "historico_dy": [
@@ -23937,6 +23946,10 @@
     [
       "2026-04-10",
       9.8858
+    ],
+    [
+      "2026-04-13",
+      10.084
     ]
   ]
 }

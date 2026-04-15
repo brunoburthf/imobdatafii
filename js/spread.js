@@ -14,6 +14,7 @@ let periodoAtivo   = "1A";
 let targetDuration = 5;
 let mediaHistorica = null;  // média histórica do spread (pp)
 let ultimoDividendo = null; // último dividendo mensal do FII
+let precoAtual = null;      // preço atual do FII
 
 let todosOsFiis  = [];   // [{ticker, nome}] para busca
 let indiceSugestao = -1;
@@ -222,9 +223,13 @@ async function selecionarFii(ticker, nome) {
     // Último dividendo mensal
     const divRaw = fiiJson.dados?.["Último Dividendo Pago"] ?? fiiJson.dados?.["ltimo Dividendo Pago"] ?? null;
     ultimoDividendo = divRaw !== null ? parseFloat(divRaw) : null;
+    // Preço atual
+    const precoRaw = fiiJson.dados?.["Preço Atual"] ?? fiiJson.dados?.["Pre\u00e7o Atual"] ?? null;
+    precoAtual = precoRaw !== null ? parseFloat(precoRaw) : null;
   } catch {
     dadosFii = [];
     ultimoDividendo = null;
+    precoAtual = null;
   }
 
   document.getElementById("spread-grafico-titulo").textContent =
@@ -242,6 +247,7 @@ function removerFii() {
   dadosFii        = [];
   mediaHistorica  = null;
   ultimoDividendo = null;
+  precoAtual      = null;
   document.getElementById("spread-preco-alvo-card").style.display = "none";
   document.getElementById("spread-fii-tag").style.display = "none";
   document.getElementById("spread-fii-input").value = "";
@@ -551,6 +557,24 @@ function calcularPrecoAlvo() {
   document.getElementById("spa-preco-alvo").textContent = precoAlvo !== null
     ? "R$ " + precoAlvo.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })
     : "—";
+
+  const precoAtualEl = document.getElementById("spa-preco-atual");
+  const upsideEl     = document.getElementById("spa-upside");
+
+  if (precoAtual !== null) {
+    precoAtualEl.textContent = "R$ " + precoAtual.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  } else {
+    precoAtualEl.textContent = "—";
+  }
+
+  if (precoAlvo !== null && precoAtual !== null && precoAtual > 0) {
+    const upside = (precoAlvo / precoAtual - 1) * 100;
+    upsideEl.textContent = (upside >= 0 ? "+" : "") + upside.toFixed(1) + "%";
+    upsideEl.className   = "spa-resultado-valor spa-upside-valor " + (upside >= 0 ? "upside-pos" : "upside-neg");
+  } else {
+    upsideEl.textContent = "—";
+    upsideEl.className   = "spa-resultado-valor spa-upside-valor";
+  }
 }
 
 inicializar();
