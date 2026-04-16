@@ -43,6 +43,8 @@ async function gerarPDF() {
   document.getElementById("pdf-ind-renda").textContent   = document.getElementById("ind-renda").textContent;
   document.getElementById("pdf-ind-pvp").textContent     = document.getElementById("ind-pvp").textContent;
   document.getElementById("pdf-ind-retorno").textContent = document.getElementById("ind-retorno").textContent;
+  document.getElementById("pdf-ind-vol").textContent     = document.getElementById("ind-vol").textContent;
+  document.getElementById("pdf-ind-vol-ifix").textContent = document.getElementById("ind-vol-ifix").textContent;
 
   // ── Tabela ──
   const tbody = document.getElementById("pdf-tbody");
@@ -333,8 +335,8 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
     return d.toISOString().slice(0, 10);
   })();
 
-  // Busca histórico de preços + CDI em paralelo
-  const [resultados, cdiMapa] = await Promise.all([
+  // Busca histórico de preços + CDI + IFIX em paralelo
+  const [resultados, cdiMapa, ifixSerie] = await Promise.all([
     Promise.all(carteira.map(async f => {
       try {
         const resp = await fetch(`data/fiis/${f.ticker}.json?v=${Date.now()}`);
@@ -348,7 +350,8 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
         return { ticker: f.ticker, precos: mapa };
       } catch { return { ticker: f.ticker, precos: {} }; }
     })),
-    buscarCDI(dataMin)
+    buscarCDI(dataMin),
+    fetch(`data/ifix.json?v=${Date.now()}`).then(r => r.ok ? r.json() : null).then(j => j?.historico || []).catch(() => [])
   ]);
 
   const precosPor = {};
@@ -371,6 +374,7 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
   const labels          = [];
   const valoresCarteira = [];
   const valoresCDI      = [];
+  const retornosDiarios = [];
 
   for (let i = 1; i < datesJanela.length; i++) {
     const d  = datesJanela[i];
@@ -389,7 +393,11 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
         somaPeso += peso;
       }
     }
-    if (somaPeso > 0) acumCarteira *= (1 + retPond / somaPeso);
+    if (somaPeso > 0) {
+      const retDiario = retPond / somaPeso;
+      acumCarteira *= (1 + retDiario);
+      retornosDiarios.push(retDiario);
+    }
 
     // CDI acumulado (usa taxa do dia ou do dia anterior se não houver)
     const taxaCDI = cdiMapa[d] ?? cdiMapa[d0] ?? 0;
@@ -400,6 +408,31 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
     valoresCarteira.push(parseFloat((acumCarteira - 100).toFixed(4)));
     valoresCDI.push(parseFloat((acumCDI - 100).toFixed(4)));
   }
+
+  // Volatilidade anualizada = std_dev(retornos diários) × √252
+  const calcVolAnual = rets => {
+    if (rets.length < 2) return null;
+    const n = rets.length;
+    const media = rets.reduce((a, b) => a + b, 0) / n;
+    const variancia = rets.reduce((a, r) => a + (r - media) ** 2, 0) / (n - 1);
+    return Math.sqrt(variancia) * Math.sqrt(252);
+  };
+
+  const volCart = calcVolAnual(retornosDiarios);
+  const volEl = document.getElementById("ind-vol");
+  if (volEl) volEl.textContent = volCart != null ? (volCart * 100).toFixed(2) + "%" : "—";
+
+  // IFIX: mesmo cálculo usando a série reconstituída (apenas últimos 12M)
+  const ifixJanela = (ifixSerie || []).filter(([d]) => d >= dataMin);
+  const retornosIfix = [];
+  for (let i = 1; i < ifixJanela.length; i++) {
+    const p0 = ifixJanela[i - 1][1];
+    const p1 = ifixJanela[i][1];
+    if (p0 > 0 && p1 > 0) retornosIfix.push(p1 / p0 - 1);
+  }
+  const volIfix = calcVolAnual(retornosIfix);
+  const volIfixEl = document.getElementById("ind-vol-ifix");
+  if (volIfixEl) volIfixEl.textContent = volIfix != null ? (volIfix * 100).toFixed(2) + "%" : "—";
 
   const ctx = document.getElementById("grafico-retorno")?.getContext("2d");
   if (!ctx) return;

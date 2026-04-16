@@ -67,9 +67,15 @@
       </div>
     </div>
 
-    <div class="secao">
-      <h2>Visão Geral</h2>
-      <div id="fii-visao-geral" class="texto-analitico"></div>
+    <div class="secao-dupla">
+      <div class="secao secao-visao">
+        <h2>Visão Geral</h2>
+        <div id="fii-visao-geral" class="texto-analitico"></div>
+      </div>
+      <div class="secao secao-comentario">
+        <h2>Comentário <span id="fii-mes-ref" class="mes-ref-badge" style="display:none"></span></h2>
+        <div id="fii-comentario" class="texto-analitico"></div>
+      </div>
     </div>
 
     <div class="graficos">
@@ -84,6 +90,22 @@
         <canvas id="grafico-preco"></canvas>
       </div>
       <div class="grafico-box">
+        <div class="grafico-header">
+          <h2>Retorno Acumulado vs CDI</h2>
+          <div id="retorno-vs-cdi-badge" class="retorno-badge" style="display:none">
+            <span class="retorno-badge-valor" id="retorno-vs-cdi-valor">—</span>
+            <span class="retorno-badge-label">do CDI no período</span>
+          </div>
+        </div>
+        <div class="grafico-controles">
+          <button onclick="filtrarGrafico('retorno', '1A')" class="btn-periodo ativo" data-chart="retorno" data-periodo="1A">1A</button>
+          <button onclick="filtrarGrafico('retorno', '3A')" class="btn-periodo" data-chart="retorno" data-periodo="3A">3A</button>
+          <button onclick="filtrarGrafico('retorno', '5A')" class="btn-periodo" data-chart="retorno" data-periodo="5A">5A</button>
+          <button onclick="filtrarGrafico('retorno', 'MAX')" class="btn-periodo" data-chart="retorno" data-periodo="MAX">MAX</button>
+        </div>
+        <canvas id="grafico-retorno"></canvas>
+      </div>
+      <div class="grafico-box">
         <h2>Histórico de P/VP</h2>
         <div class="grafico-controles">
           <button onclick="filtrarGrafico('pvp', '1A')" class="btn-periodo ativo" data-chart="pvp" data-periodo="1A">1A</button>
@@ -93,11 +115,16 @@
         </div>
         <canvas id="grafico-pvp"></canvas>
       </div>
-    </div>
-
-    <div class="secao">
-      <h2>Comentário</h2>
-      <div id="fii-comentario" class="texto-analitico"></div>
+      <div class="grafico-box">
+        <h2>Spread sobre NTN-B 5a</h2>
+        <div class="grafico-controles">
+          <button onclick="filtrarGrafico('spread', '1A')" class="btn-periodo ativo" data-chart="spread" data-periodo="1A">1A</button>
+          <button onclick="filtrarGrafico('spread', '3A')" class="btn-periodo" data-chart="spread" data-periodo="3A">3A</button>
+          <button onclick="filtrarGrafico('spread', '5A')" class="btn-periodo" data-chart="spread" data-periodo="5A">5A</button>
+          <button onclick="filtrarGrafico('spread', 'MAX')" class="btn-periodo" data-chart="spread" data-periodo="MAX">MAX</button>
+        </div>
+        <canvas id="grafico-spread"></canvas>
+      </div>
     </div>
 
   </main>

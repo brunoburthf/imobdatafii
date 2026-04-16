@@ -36,10 +36,39 @@
         <option value="">Todos os setores</option>
       </select>
       <span class="toolbar-aviso">Preços possuem defasagem e não são em tempo real.</span>
+      <button id="btn-filtro-avancado" onclick="toggleFiltroAvancado()" title="Abrir filtros avançados">
+        &#x2261; Filtro Avançado
+      </button>
     </div>
 
     <div id="loading" class="loading">Carregando dados...</div>
     <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="filtro-avancado-card" class="filtro-av-card" style="display:none">
+      <div class="filtro-av-header">
+        <h3>Filtro Avançado</h3>
+        <button class="filtro-av-fechar" onclick="toggleFiltroAvancado()" title="Fechar">&times;</button>
+      </div>
+      <div class="filtro-av-grupo">
+        <label class="filtro-av-label">P/VP entre</label>
+        <div class="filtro-av-range">
+          <input type="number" step="0.01" id="fav-pvp-min" placeholder="mín" oninput="filtrarTabela()">
+          <span>e</span>
+          <input type="number" step="0.01" id="fav-pvp-max" placeholder="máx" oninput="filtrarTabela()">
+        </div>
+      </div>
+      <div class="filtro-av-grupo">
+        <label class="filtro-av-label">DY a.a. maior que (%)</label>
+        <input type="number" step="0.01" id="fav-dy-min" placeholder="ex.: 8" oninput="filtrarTabela()">
+      </div>
+      <div class="filtro-av-grupo">
+        <label class="filtro-av-label">DY a.a. menor que (%)</label>
+        <input type="number" step="0.01" id="fav-dy-max" placeholder="ex.: 15" oninput="filtrarTabela()">
+      </div>
+      <div class="filtro-av-acoes">
+        <button class="filtro-av-limpar" onclick="limparFiltroAvancado()">Limpar</button>
+      </div>
+    </div>
 
     <div id="tabela-wrapper" style="display:none">
       <table id="tabela-fiis">

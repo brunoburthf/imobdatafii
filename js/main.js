@@ -59,16 +59,52 @@ function filtrarTabela() {
   const busca = document.getElementById("busca").value.toLowerCase();
   const setor = document.getElementById("filtro-setor").value;
 
+  const parseNum = id => {
+    const v = document.getElementById(id)?.value;
+    const n = v === "" || v == null ? null : parseFloat(v);
+    return Number.isFinite(n) ? n : null;
+  };
+  const pvpMin = parseNum("fav-pvp-min");
+  const pvpMax = parseNum("fav-pvp-max");
+  const dyMin  = parseNum("fav-dy-min");   // em %
+  const dyMax  = parseNum("fav-dy-max");   // em %
+
   let lista = todosFiis.filter(f => {
     const matchBusca = !busca ||
       (f["Ticker"] || "").toLowerCase().includes(busca) ||
       (f["Nome"] || "").toLowerCase().includes(busca);
     const matchSetor = !setor || f["Setor"] === setor;
-    return matchBusca && matchSetor;
+
+    const pvp = typeof f["P/VP"] === "number" ? f["P/VP"] : null;
+    const matchPvpMin = pvpMin == null || (pvp != null && pvp >= pvpMin);
+    const matchPvpMax = pvpMax == null || (pvp != null && pvp <= pvpMax);
+
+    // DY no JSON está em decimal (0.095 = 9.5%). Inputs em %.
+    const dy = typeof f["DY a.a."] === "number" ? f["DY a.a."] * 100 : null;
+    const matchDyMin = dyMin == null || (dy != null && dy > dyMin);
+    const matchDyMax = dyMax == null || (dy != null && dy < dyMax);
+
+    return matchBusca && matchSetor && matchPvpMin && matchPvpMax && matchDyMin && matchDyMax;
   });
 
   if (colunaOrdem) lista = ordenarLista(lista, colunaOrdem);
   renderizarTabela(lista);
+}
+
+function toggleFiltroAvancado() {
+  const card = document.getElementById("filtro-avancado-card");
+  const btn  = document.getElementById("btn-filtro-avancado");
+  const aberto = card.style.display !== "none";
+  card.style.display = aberto ? "none" : "flex";
+  btn.classList.toggle("ativo", !aberto);
+}
+
+function limparFiltroAvancado() {
+  ["fav-pvp-min", "fav-pvp-max", "fav-dy-min", "fav-dy-max"].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.value = "";
+  });
+  filtrarTabela();
 }
 
 function ordenar(coluna) {
