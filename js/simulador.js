@@ -10,10 +10,22 @@ let vazioEl = null; // referência persistente ao <tr id="sim-vazio">
 async function carregarDados() {
   vazioEl = document.getElementById("sim-vazio");
   try {
-    const resp = await fetch("data/index.json");
+    const [resp, respInfra, respAgro] = await Promise.all([
+      fetch("data/index.json"),
+      fetch("data/infra_index.json").catch(() => null),
+      fetch("data/agro_index.json").catch(() => null)
+    ]);
     if (!resp.ok) throw new Error("Dados não encontrados. Rode o script de atualização primeiro.");
     const data = await resp.json();
     todosFiis = data.fiis || [];
+    if (respInfra && respInfra.ok) {
+      const infra = await respInfra.json();
+      todosFiis = todosFiis.concat(infra.fundos || []);
+    }
+    if (respAgro && respAgro.ok) {
+      const agro = await respAgro.json();
+      todosFiis = todosFiis.concat(agro.fundos || []);
+    }
     document.getElementById("loading").style.display = "none";
     document.getElementById("conteudo").style.display = "block";
   } catch (e) {

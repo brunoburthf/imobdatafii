@@ -3,6 +3,7 @@ let pesos      = JSON.parse(localStorage.getItem("sim_pesos")      || "{}");
 let valorTotal = parseFloat(localStorage.getItem("sim_valor_total") || "0");
 
 let todosFiis       = [];
+let tickerDir       = {};  // ticker → "fiis" | "infra" | "agro"
 let sugestaoIdx     = -1;
 let vazioEl         = null;
 let graficoPizza    = null;
@@ -339,7 +340,7 @@ async function renderizarRetornoAcumulado(pesosAtivos) {
   const [resultados, cdiMapa, ifixSerie] = await Promise.all([
     Promise.all(carteira.map(async f => {
       try {
-        const resp = await fetch(`data/fiis/${f.ticker}.json?v=${Date.now()}`);
+        const resp = await fetch(`data/${tickerDir[f.ticker] || "fiis"}/${f.ticker}.json?v=${Date.now()}`);
         if (!resp.ok) return { ticker: f.ticker, precos: {} };
         const data = await resp.json();
         const serie = (data.historico_preco_adj && data.historico_preco_adj.length)
@@ -508,7 +509,7 @@ async function renderizarRendaMensal(pesosAtivos) {
   // Busca histórico de preços de cada fundo
   const resultados = await Promise.all(carteira.map(async f => {
     try {
-      const resp = await fetch(`data/fiis/${f.ticker}.json`);
+      const resp = await fetch(`data/${tickerDir[f.ticker] || "fiis"}/${f.ticker}.json`);
       if (!resp.ok) return { ticker: f.ticker, precos: {} };
       const data = await resp.json();
       const mapa = {};
@@ -821,12 +822,28 @@ function modificarCarteira() {
 async function init() {
   vazioEl = document.getElementById("res-vazio");
 
-  // Carrega lista de FIIs para busca
+  // Carrega lista de FIIs + Infra para busca
   try {
-    const resp = await fetch("data/index.json");
+    const [resp, respInfra, respAgro] = await Promise.all([
+      fetch("data/index.json"),
+      fetch("data/infra_index.json").catch(() => null),
+      fetch("data/agro_index.json").catch(() => null)
+    ]);
     if (resp.ok) {
       const data = await resp.json();
       todosFiis = data.fiis || [];
+    }
+    if (respInfra && respInfra.ok) {
+      const infra = await respInfra.json();
+      const fundosInfra = infra.fundos || [];
+      fundosInfra.forEach(f => tickerDir[f["Ticker"]] = "infra");
+      todosFiis = todosFiis.concat(fundosInfra);
+    }
+    if (respAgro && respAgro.ok) {
+      const agro = await respAgro.json();
+      const fundosAgro = agro.fundos || [];
+      fundosAgro.forEach(f => tickerDir[f["Ticker"]] = "agro");
+      todosFiis = todosFiis.concat(fundosAgro);
     }
   } catch (_) {}
 

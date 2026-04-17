@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="agro.html" class="nav-link ativo">FI-Agros</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right"><span class="uso-interno">USO INTERNO</span>
+        <span id="ultima-atualizacao"></span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="fii-main" style="display:none">
+
+    <div class="fii-hero">
+      <div>
+        <h1 id="fii-ticker"></h1>
+        <p id="fii-nome" class="fii-nome"></p>
+        <span id="fii-setor" class="badge"></span>
+      </div>
+      <div class="fii-preco-box">
+        <div class="fii-preco-linha">
+          <div class="fii-preco" id="fii-preco"></div>
+          <div id="fii-variacao" class="fii-variacao"></div>
+        </div>
+        <div class="fii-preco-label">Preço Atual</div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-label">P/VP</div>
+        <div class="card-value" id="card-pvp"></div>
+      </div>
+      <div class="card">
+        <div class="card-label">DY a.a.</div>
+        <div class="card-value" id="card-dy"></div>
+      </div>
+      <div class="card">
+        <div class="card-label">Último Dividendo</div>
+        <div class="card-value" id="card-div"></div>
+      </div>
+      <div class="card">
+        <div class="card-label">Retorno MTD</div>
+        <div class="card-value" id="card-mtd"></div>
+      </div>
+      <div class="card">
+        <div class="card-label">Retorno 12M</div>
+        <div class="card-value" id="card-12m"></div>
+      </div>
+    </div>
+
+    <div class="secao-dupla">
+      <div class="secao secao-visao">
+        <h2>Visão Geral</h2>
+        <div id="fii-visao-geral" class="texto-analitico"></div>
+      </div>
+      <div class="secao secao-comentario">
+        <h2>Atualizações do último relatório gerencial <span id="fii-mes-ref" class="mes-ref-badge" style="display:none"></span></h2>
+        <div id="fii-comentario" class="texto-analitico"></div>
+      </div>
+    </div>
+
+    <div class="graficos">
+      <div class="grafico-box">
+        <h2>Histórico de Preço</h2>
+        <div class="grafico-controles">
+          <button onclick="filtrarGrafico('preco', '1A')" class="btn-periodo ativo" data-chart="preco" data-periodo="1A">1A</button>
+          <button onclick="filtrarGrafico('preco', '3A')" class="btn-periodo" data-chart="preco" data-periodo="3A">3A</button>
+          <button onclick="filtrarGrafico('preco', '5A')" class="btn-periodo" data-chart="preco" data-periodo="5A">5A</button>
+          <button onclick="filtrarGrafico('preco', 'MAX')" class="btn-periodo" data-chart="preco" data-periodo="MAX">MAX</button>
+        </div>
+        <canvas id="grafico-preco"></canvas>
+      </div>
+      <div class="grafico-box">
+        <div class="grafico-header">
+          <h2>Retorno Acumulado vs CDI</h2>
+          <div id="retorno-vs-cdi-badge" class="retorno-badge" style="display:none">
+            <span class="retorno-badge-valor" id="retorno-vs-cdi-valor">—</span>
+            <span class="retorno-badge-label">do CDI no período</span>
+          </div>
+        </div>
+        <div class="grafico-controles">
+          <button onclick="filtrarGrafico('retorno', '1A')" class="btn-periodo ativo" data-chart="retorno" data-periodo="1A">1A</button>
+          <button onclick="filtrarGrafico('retorno', '3A')" class="btn-periodo" data-chart="retorno" data-periodo="3A">3A</button>
+          <button onclick="filtrarGrafico('retorno', '5A')" class="btn-periodo" data-chart="retorno" data-periodo="5A">5A</button>
+          <button onclick="filtrarGrafico('retorno', 'MAX')" class="btn-periodo" data-chart="retorno" data-periodo="MAX">MAX</button>
+        </div>
+        <canvas id="grafico-retorno"></canvas>
+      </div>
+      <div class="grafico-box">
+        <h2>Histórico de P/VP</h2>
+        <div class="grafico-controles">
+          <button onclick="filtrarGrafico('pvp', '1A')" class="btn-periodo ativo" data-chart="pvp" data-periodo="1A">1A</button>
+          <button onclick="filtrarGrafico('pvp', '3A')" class="btn-periodo" data-chart="pvp" data-periodo="3A">3A</button>
+          <button onclick="filtrarGrafico('pvp', '5A')" class="btn-periodo" data-chart="pvp" data-periodo="5A">5A</button>
+          <button onclick="filtrarGrafico('pvp', 'MAX')" class="btn-periodo" data-chart="pvp" data-periodo="MAX">MAX</button>
+        </div>
+        <canvas id="grafico-pvp"></canvas>
+      </div>
+      <div class="grafico-box">
+        <h2>Spread sobre NTN-B 5a</h2>
+        <div class="grafico-controles">
+          <button onclick="filtrarGrafico('spread', '1A')" class="btn-periodo ativo" data-chart="spread" data-periodo="1A">1A</button>
+          <button onclick="filtrarGrafico('spread', '3A')" class="btn-periodo" data-chart="spread" data-periodo="3A">3A</button>
+          <button onclick="filtrarGrafico('spread', '5A')" class="btn-periodo" data-chart="spread" data-periodo="5A">5A</button>
+          <button onclick="filtrarGrafico('spread', 'MAX')" class="btn-periodo" data-chart="spread" data-periodo="MAX">MAX</button>
+        </div>
+        <canvas id="grafico-spread"></canvas>
+      </div>
+    </div>
+
+  </main>
+
+  <div id="loading" class="loading">Carregando...</div>
+  <div id="erro" class="erro" style="display:none"></div>
+
+  <script src="js/agro_fundo.js?v=2"></script>
+  <script src="js/local.js"></script>
+</body>
+</html>

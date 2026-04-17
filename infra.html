@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infraestrutura — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link ativo">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right"><span class="uso-interno">USO INTERNO</span>
+        <span id="ultima-atualizacao"></span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <input type="text" id="busca" placeholder="Buscar fundo..." oninput="filtrarTabela()" />
+      <select id="filtro-tipo" onchange="filtrarTabela()">
+        <option value="">Todos os tipos</option>
+      </select>
+      <button id="btn-filtro-avancado" onclick="toggleFiltroAvancado()" title="Abrir filtros avançados">
+        &#x2261; Filtro Avançado
+      </button>
+    </div>
+
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="filtro-avancado-card" class="filtro-av-card" style="display:none">
+      <div class="filtro-av-header">
+        <h3>Filtro Avançado</h3>
+        <button class="filtro-av-fechar" onclick="toggleFiltroAvancado()" title="Fechar">&times;</button>
+      </div>
+      <div class="filtro-av-grupo">
+        <label class="filtro-av-label">P/VP entre</label>
+        <div class="filtro-av-range">
+          <input type="number" step="0.01" id="fav-pvp-min" placeholder="mín" oninput="filtrarTabela()">
+          <span>e</span>
+          <input type="number" step="0.01" id="fav-pvp-max" placeholder="máx" oninput="filtrarTabela()">
+        </div>
+      </div>
+      <div class="filtro-av-grupo">
+        <label class="filtro-av-label">DY a.a. maior que (%)</label>
+        <input type="number" step="0.01" id="fav-dy-min" placeholder="ex.: 8" oninput="filtrarTabela()">
+      </div>
+      <div class="filtro-av-grupo">
+        <label class="filtro-av-label">DY a.a. menor que (%)</label>
+        <input type="number" step="0.01" id="fav-dy-max" placeholder="ex.: 15" oninput="filtrarTabela()">
+      </div>
+      <div class="filtro-av-acoes">
+        <button class="filtro-av-limpar" onclick="limparFiltroAvancado()">Limpar</button>
+      </div>
+    </div>
+
+    <div id="tabela-wrapper" style="display:none">
+      <table id="tabela-infra">
+        <thead>
+          <tr>
+            <th onclick="ordenar('Ticker')">Ticker <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Tipo')">Tipo <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Preço Atual')" class="num">Preço <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Variação Dia')" class="num">Var. Dia <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('P/VP')" class="num">P/VP <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('DY a.a.')" class="num">DY a.a. <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Retorno - MTD')" class="num">Retorno MTD <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Retorno - 12M')" class="num">Retorno 12M <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('Último Dividendo Pago')" class="num">Último Div. <span class="sort-icon">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="tabela-body"></tbody>
+      </table>
+      <div id="contagem"></div>
+    </div>
+  </main>
+
+  <script src="js/infra.js?v=2"></script>
+  <script src="js/local.js"></script>
+</body>
+</html>

@@ -15,6 +15,8 @@
         <nav class="header-nav">
           <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
           <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
           <a href="setor.html" class="nav-link">Análise Setorial</a>
           <a href="valuation.html" class="nav-link ativo">Ferramentas de Valuation</a>
         </nav>
@@ -27,10 +29,27 @@
   </header>
 
   <main>
-    <div class="dcf-layout">
+    <!-- Tela de escolha -->
+    <div id="dcf-escolha" class="menu-main" style="padding-top:40px">
+      <h1 class="menu-hero-titulo">Fluxo de Caixa Descontado</h1>
+      <div class="menu-cards">
+        <a class="menu-card" href="#" onclick="abrirModo('preco-alvo'); return false;">
+          <div class="menu-card-titulo">Determinar Preço-Alvo</div>
+          <p class="menu-card-desc">Insira dividendo, crescimento e taxa de desconto para estimar o preço justo de um FII ou FI-Infra.</p>
+        </a>
+        <a class="menu-card" href="#" onclick="abrirModo('premissas'); return false;">
+          <div class="menu-card-titulo">Analisar premissas embutidas no preço atual</div>
+          <p class="menu-card-desc">Dado o preço de mercado, descubra qual crescimento ou taxa de desconto o mercado está precificando.</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Calculadora DCF (oculta até escolher modo) -->
+    <div class="dcf-layout" id="dcf-conteudo" style="display:none">
 
       <!-- Formulário -->
       <div class="dcf-card">
+        <button class="btn-voltar" onclick="voltarEscolha()" style="margin-bottom:12px;color:var(--azul-escuro);border-color:var(--cinza-borda)">&#8592; Voltar</button>
         <h2 class="dcf-titulo">Calculadora DCF — FII</h2>
         <p class="dcf-desc">Estime o preço justo de um FII pelo método do Fluxo de Caixa Descontado com crescimento de dividendos.</p>
 
@@ -112,7 +131,99 @@
     </div>
   </main>
 
-  <script src="js/dcf.js"></script>
+    <!-- Premissas embutidas (oculto até escolher modo) -->
+    <div class="dcf-layout" id="dcf-premissas" style="display:none">
+      <div class="dcf-card">
+        <button class="btn-voltar" onclick="voltarEscolha()" style="margin-bottom:12px;color:var(--azul-escuro);border-color:var(--cinza-borda)">&#8592; Voltar</button>
+        <h2 class="dcf-titulo">Premissas Embutidas no Preço Atual</h2>
+        <p class="dcf-desc">Selecione um fundo. Preencha <strong>2 das 3 variáveis</strong> abaixo e o modelo calcula a terceira que justifica o preço de mercado atual.</p>
+
+        <div class="dcf-form">
+
+          <!-- Busca FII -->
+          <div class="dcf-input-group">
+            <label class="dcf-label">Fundo</label>
+            <div class="sim-busca-container" style="position:relative">
+              <input type="text" id="prem-busca" class="dcf-input" placeholder='Buscar FII ou Infra... Ex: "KNCR11"' autocomplete="off" oninput="premFiltrar()" onkeydown="premNavegar(event)" />
+              <div id="prem-sugestoes" class="sim-sugestoes" style="display:none"></div>
+            </div>
+          </div>
+
+          <!-- Dados auto-preenchidos -->
+          <div id="prem-dados-fundo" style="display:none">
+            <div class="dcf-input-group" style="display:flex;gap:16px;flex-wrap:wrap">
+              <div style="flex:1;min-width:120px">
+                <label class="dcf-label">Preço Atual</label>
+                <div class="dcf-res-valor" id="prem-preco" style="font-size:16px">—</div>
+              </div>
+              <div style="flex:1;min-width:120px">
+                <label class="dcf-label">Dividendo Mensal</label>
+                <div class="dcf-res-valor" id="prem-dividendo" style="font-size:16px">—</div>
+              </div>
+              <div style="flex:1;min-width:120px">
+                <label class="dcf-label">DY a.a.</label>
+                <div class="dcf-res-valor" id="prem-dy" style="font-size:16px">—</div>
+              </div>
+            </div>
+
+            <div class="dcf-input-group" style="margin-top:20px">
+              <label class="dcf-label">Preencha exatamente 2 das 3 variáveis:</label>
+            </div>
+
+            <div class="dcf-input-group">
+              <label class="dcf-label" for="prem-horizonte">Prazo (anos)</label>
+              <div class="dcf-input-wrap">
+                <input type="number" id="prem-horizonte" class="dcf-input" placeholder="deixe vazio para calcular" min="1" max="100" step="1" />
+                <span class="dcf-suffix">anos</span>
+              </div>
+            </div>
+
+            <div class="dcf-input-group">
+              <label class="dcf-label" for="prem-desconto">Taxa de desconto anual (%)</label>
+              <div class="dcf-input-wrap">
+                <input type="number" id="prem-desconto" class="dcf-input" placeholder="deixe vazio para calcular" min="0" max="100" step="0.1" />
+                <span class="dcf-suffix">%</span>
+              </div>
+            </div>
+
+            <div class="dcf-input-group">
+              <label class="dcf-label" for="prem-crescimento">Crescimento anual dos dividendos (%)</label>
+              <div class="dcf-input-wrap">
+                <input type="number" id="prem-crescimento" class="dcf-input" placeholder="deixe vazio para calcular" min="-30" max="50" step="0.1" />
+                <span class="dcf-suffix">%</span>
+              </div>
+            </div>
+
+            <button class="btn-simular" onclick="calcularPremissas()">Calcular Premissa Embutida</button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Resultado premissas -->
+      <div class="dcf-resultado-card" id="prem-resultado" style="display:none">
+        <h3 class="dcf-resultado-titulo">Premissa Embutida</h3>
+        <div class="dcf-resultado-grid">
+          <div class="dcf-res-bloco destaque">
+            <div class="dcf-res-label" id="prem-res-label">—</div>
+            <div class="dcf-res-valor" id="prem-res-valor">—</div>
+          </div>
+          <div class="dcf-res-bloco">
+            <div class="dcf-res-label">Preço de Mercado</div>
+            <div class="dcf-res-valor" id="prem-res-preco">—</div>
+          </div>
+          <div class="dcf-res-bloco">
+            <div class="dcf-res-label">Dividendo Mensal</div>
+            <div class="dcf-res-valor" id="prem-res-div">—</div>
+          </div>
+        </div>
+        <div class="dcf-aviso">
+          Resultado obtido por solver numérico (bisseção). Os valores são estimativas e não constituem recomendação de investimento.
+        </div>
+      </div>
+    </div>
+
+  <script src="js/dcf.js?v=3"></script>
   <script src="js/local.js"></script>
 </body>
 </html>
