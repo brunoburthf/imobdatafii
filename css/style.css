@@ -2347,3 +2347,112 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   color: #fff;
 }
 
+/* ═══════════════════════════════════════════════════════════════════════════
+   RESPONSIVO — MOBILE
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Tablet (≤ 768px) ──────────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* Header: esconde nav, mostra menu hamburguer via JS (fallback: scroll horizontal) */
+  header { height: auto; min-height: 56px; padding: 10px 16px; }
+  .header-content { flex-wrap: wrap; gap: 8px; }
+  .header-left { gap: 12px; width: 100%; }
+  .header-nav {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 2px;
+    padding-bottom: 4px;
+  }
+  .nav-link { font-size: 12px; padding: 4px 8px; flex-shrink: 0; }
+  .header-right { width: 100%; justify-content: flex-end; gap: 8px; flex-wrap: wrap; }
+  .uso-interno { font-size: 9px; padding: 3px 8px; }
+
+  /* Main */
+  main { padding: 16px 12px; }
+
+  /* Toolbar */
+  .toolbar { flex-wrap: wrap; gap: 8px; }
+  .toolbar input { width: 100%; }
+  .toolbar select { width: 100%; min-width: 0; }
+  #btn-filtro-avancado { width: 100%; text-align: center; margin-left: 0; }
+
+  /* Filtro avançado: empilha vertical */
+  .filtro-av-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 100%;
+  }
+  .filtro-av-header { grid-column: auto; }
+
+  /* Tabela: font menor, scroll horizontal */
+  #tabela-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { font-size: 12px; min-width: 700px; }
+  th, td { padding: 8px 6px; }
+
+  /* Cards indicadores: 2 colunas */
+  .cards { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .card { padding: 14px; }
+  .card-value { font-size: 18px; }
+
+  /* Visão Geral + Comentário: empilha */
+  .secao-dupla { grid-template-columns: 1fr; }
+
+  /* Gráficos: 1 coluna */
+  .graficos { grid-template-columns: 1fr; gap: 14px; }
+  .grafico-box { padding: 16px 14px; }
+  .grafico-controles { gap: 4px; }
+  .btn-periodo { font-size: 11px; padding: 4px 8px; }
+
+  /* Hero do fundo */
+  .fii-hero { flex-direction: column; gap: 12px; padding: 20px 16px; }
+  .fii-preco { font-size: 24px; }
+
+  /* Resultado carteira */
+  .resultado-layout { grid-template-columns: 1fr; }
+  .res-indicadores { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+
+  /* Menu cards */
+  .menu-cards { grid-template-columns: 1fr; }
+  .menu-hero-titulo { font-size: 20px; }
+
+  /* DCF */
+  .dcf-layout { flex-direction: column; }
+  .dcf-resultado-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Retorno badge no header do gráfico */
+  .grafico-header { flex-direction: column; align-items: flex-start; gap: 4px; }
+  .retorno-badge { align-items: flex-start; }
+}
+
+/* ── Celular pequeno (�� 480px) ──���──────────────────────────────────────── */
+@media (max-width: 480px) {
+  .logo { font-size: 16px; }
+  .nav-link { font-size: 11px; padding: 3px 6px; }
+  header { padding: 8px 10px; }
+
+  main { padding: 10px 8px; }
+
+  .cards { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .card { padding: 10px; }
+  .card-label { font-size: 10px; }
+  .card-value { font-size: 16px; }
+
+  .fii-hero h1 { font-size: 22px; }
+  .fii-preco { font-size: 20px; }
+  .fii-nome { font-size: 13px; }
+
+  .secao { padding: 16px 14px; }
+  .secao h2 { font-size: 14px; }
+  .texto-analitico { font-size: 13px; }
+
+  .grafico-box h2 { font-size: 14px; }
+
+  .res-indicadores { grid-template-columns: 1fr; }
+  .res-ind-valor { font-size: 20px; }
+
+  .dcf-resultado-grid { grid-template-columns: 1fr; }
+
+  table { font-size: 11px; min-width: 600px; }
+}
+
