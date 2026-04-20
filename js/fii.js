@@ -5,11 +5,13 @@ let chartPreco = null;
 let chartPvp = null;
 let chartRetorno = null;
 let chartSpread = null;
+let chartPortfolio = null;
 let dadosPrecoCompleto = [];
 let dadosPvpCompleto = [];
 let dadosPrecoAdjCompleto = [];
 let dadosDyCompleto = [];
-let dadosSpreadCompleto = [];  // [[data, spread_pp]]
+let dadosSpreadCompleto = [];
+let dadosPortfolio = {};
 let cdiMapa = {};
 
 const SPREAD_NTNB_ANOS = 5;
@@ -124,6 +126,7 @@ function renderizarFii(data) {
     ? data.historico_preco_adj
     : (data.historico_preco || []);
   dadosDyCompleto = data.historico_dy || [];
+  dadosPortfolio = data.portfolio || {};
 
   renderizarGrafico("preco", dadosPrecoCompleto, "1A");
   renderizarGrafico("pvp", dadosPvpCompleto, "1A");
@@ -517,6 +520,84 @@ function filtrarGrafico(tipo, periodo) {
   }
   const dados = tipo === "preco" ? dadosPrecoCompleto : dadosPvpCompleto;
   renderizarGrafico(tipo, dados, periodo);
+}
+
+// ─── ABAS ────────────────────────────────────────────────────────────────────
+
+function trocarAba(aba) {
+  document.querySelectorAll(".aba-btn").forEach(b => {
+    b.classList.toggle("ativo", b.dataset.aba === aba);
+  });
+  document.getElementById("aba-mercado").style.display     = aba === "mercado" ? "block" : "none";
+  document.getElementById("aba-operacional").style.display  = aba === "operacional" ? "block" : "none";
+
+  if (aba === "operacional" && !chartPortfolio) {
+    renderizarPortfolio();
+  }
+}
+
+// ─── GRÁFICO DE PIZZA — COMPOSIÇÃO DO PORTFOLIO ──────────────────────────────
+
+const CORES_PORTFOLIO = [
+  "#EF6300","#2563EB","#16A34A","#DC2626","#9333EA",
+  "#0891B2","#D97706","#059669","#7C3AED","#DB2777",
+  "#0284C7","#65A30D"
+];
+
+function renderizarPortfolio() {
+  const canvas = document.getElementById("grafico-portfolio");
+  const vazio  = document.getElementById("portfolio-vazio");
+  if (!canvas) return;
+
+  const entries = Object.entries(dadosPortfolio).filter(([, v]) => v > 0);
+  if (!entries.length) {
+    canvas.style.display = "none";
+    vazio.style.display = "block";
+    return;
+  }
+  canvas.style.display = "block";
+  vazio.style.display = "none";
+
+  const total = entries.reduce((s, [, v]) => s + v, 0);
+  const labels = entries.map(([k]) => k);
+  const dados  = entries.map(([, v]) => parseFloat((v / total * 100).toFixed(2)));
+  const cores  = labels.map((_, i) => CORES_PORTFOLIO[i % CORES_PORTFOLIO.length]);
+
+  if (chartPortfolio) chartPortfolio.destroy();
+
+  chartPortfolio = new Chart(canvas.getContext("2d"), {
+    type: "pie",
+    plugins: [ChartDataLabels],
+    data: {
+      labels,
+      datasets: [{
+        data: dados,
+        backgroundColor: cores,
+        borderColor: "#fff",
+        borderWidth: 2,
+        hoverOffset: 8
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: {
+        legend: { display: true, position: "bottom", labels: { font: { size: 12 }, padding: 16 } },
+        tooltip: {
+          callbacks: {
+            label: ctx => ` ${ctx.label}: ${ctx.parsed.toFixed(1)}%`
+          }
+        },
+        datalabels: {
+          color: "#fff",
+          font: { size: 11, weight: "700" },
+          textAlign: "center",
+          formatter: (value) => value >= 3 ? value.toFixed(1) + "%" : "",
+          display: ctx => ctx.dataset.data[ctx.dataIndex] >= 3
+        }
+      }
+    }
+  });
 }
 
 carregarFii();

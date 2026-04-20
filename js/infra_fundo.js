@@ -80,6 +80,20 @@ function renderizar(data) {
   m12El.textContent = fmt(d["Retorno - 12M"], "pct");
   m12El.className = "card-value " + classeRet(d["Retorno - 12M"]);
 
+  document.getElementById("fii-visao-geral").textContent = d["Visão Geral"] || "Sem informação disponível.";
+  document.getElementById("fii-comentario").textContent = d["Comentário"] || "Sem comentário disponível.";
+
+  const mesRefEl = document.getElementById("fii-mes-ref");
+  const mesRef = d["Mês Ref. Comentário"];
+  if (mesRefEl) {
+    if (mesRef) {
+      mesRefEl.textContent = "Mês de Referência: " + mesRef;
+      mesRefEl.style.display = "inline-block";
+    } else {
+      mesRefEl.style.display = "none";
+    }
+  }
+
   fetch("data/infra_index.json?v=" + Date.now())
     .then(r => r.ok ? r.json() : null)
     .then(j => {

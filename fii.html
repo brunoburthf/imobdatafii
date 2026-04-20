@@ -80,6 +80,14 @@
       </div>
     </div>
 
+    <!-- Barra de abas -->
+    <div class="abas-bar">
+      <button class="aba-btn ativo" data-aba="mercado" onclick="trocarAba('mercado')">Dados de Mercado</button>
+      <button class="aba-btn" data-aba="operacional" onclick="trocarAba('operacional')">Informações Operacionais</button>
+    </div>
+
+    <!-- Aba: Dados de Mercado -->
+    <div id="aba-mercado" class="aba-conteudo">
     <div class="graficos">
       <div class="grafico-box">
         <h2>Histórico de Preço</h2>
@@ -128,13 +136,30 @@
         <canvas id="grafico-spread"></canvas>
       </div>
     </div>
+    </div>
+
+    <!-- Aba: Informações Operacionais -->
+    <div id="aba-operacional" class="aba-conteudo" style="display:none">
+      <div class="graficos">
+        <div class="grafico-box" style="grid-column: 1 / -1">
+          <h2>Composição do Portfolio</h2>
+          <div style="max-width:500px;margin:0 auto">
+            <canvas id="grafico-portfolio"></canvas>
+          </div>
+          <div id="portfolio-vazio" style="display:none;text-align:center;color:var(--texto-suave);padding:40px 0">
+            Dados de composição não disponíveis para este fundo.
+          </div>
+        </div>
+      </div>
+    </div>
 
   </main>
 
   <div id="loading" class="loading">Carregando...</div>
   <div id="erro" class="erro" style="display:none"></div>
 
-  <script src="js/fii.js?v=2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+  <script src="js/fii.js?v=3"></script>
   <script src="js/local.js"></script>
 </body>
 </html>

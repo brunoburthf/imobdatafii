@@ -2347,6 +2347,31 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   color: #fff;
 }
 
+/* ── ABAS (Dados de Mercado / Informações Operacionais) ── */
+.abas-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--cinza-borda);
+}
+.aba-btn {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--texto-suave);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.aba-btn:hover { color: var(--texto); }
+.aba-btn.ativo {
+  color: var(--azul);
+  border-bottom-color: var(--azul);
+}
+
 /* ═══════════════════════════════════════════════════════════════════════════
    RESPONSIVO — MOBILE
    ═══════════════════════════════════════════════════════════════════════════ */
