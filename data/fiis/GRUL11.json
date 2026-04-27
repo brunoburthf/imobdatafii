@@ -4,14 +4,18 @@
     "Ticker": "GRUL11",
     "Nome": "Icatu Vanguarda Gru Logístico FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0681,
-    "Retorno - 12M": 0.2419,
-    "P/VP": 0.93,
+    "Retorno - MTD": 0.0514,
+    "Retorno - 12M": 0.2091,
+    "P/VP": 0.91,
     "Último Dividendo Pago": 0.08,
-    "DY a.a.": 0.107,
+    "DY a.a.": 0.109,
     "Visão Geral": "FII de logística que investe em direitos de exploração de galpões logísticos localizados dentro do Aeroporto Internacional de Guarulhos. O fundo detém três galpões com 43.274 m² de ABL e concessão válida até fevereiro de 2062. A estratégia prioriza renda de locação e potencial de ganho de capital em renovações.",
     "Comentário": "Em março, GRUL11 formalizou novo contrato de subcessão para Módulo 17 (1.988 m²) no Parque Logístico Aero I, mantendo portfólio sem vacância com ocupação 100% consolidada. Distribuição estável em R$ 0,08/cota reflete operação sólida com certificação LEED em todos os galpões, embora negociação ocorra a desconto significativo frente aos pares do setor logístico.",
-    "Preço Atual": 8.95
+    "Preço Atual": 8.78,
+    "% Dias Acima CDI 1A": 0.7481,
+    "% Dias Acima CDI 3A": 0.7481,
+    "% Dias Acima CDI 5A": 0.7481,
+    "% Dias Acima CDI MAX": 0.7481
   },
   "historico_preco": [
     [
@@ -1517,6 +1521,22 @@
     [
       "2026-04-16",
       9.0
+    ],
+    [
+      "2026-04-17",
+      8.94
+    ],
+    [
+      "2026-04-20",
+      8.99
+    ],
+    [
+      "2026-04-22",
+      8.9
+    ],
+    [
+      "2026-04-23",
+      8.91
     ]
   ],
   "historico_preco_adj": [
@@ -3023,6 +3043,22 @@
     [
       "2026-04-16",
       9.0
+    ],
+    [
+      "2026-04-17",
+      8.94
+    ],
+    [
+      "2026-04-20",
+      8.99
+    ],
+    [
+      "2026-04-22",
+      8.9
+    ],
+    [
+      "2026-04-23",
+      8.91
     ]
   ],
   "historico_pvp": [
@@ -4609,6 +4645,26 @@
     [
       "2026-04-16",
       0.93345646257
+    ],
+    [
+      "2026-04-17",
+      0.92723341949
+    ],
+    [
+      "2026-04-20",
+      0.93241928872
+    ],
+    [
+      "2026-04-21",
+      0.93241928872
+    ],
+    [
+      "2026-04-22",
+      0.9230847241
+    ],
+    [
+      "2026-04-23",
+      0.92412189795
     ]
   ],
   "historico_dy": [
@@ -6051,12 +6107,203 @@
     [
       "2026-04-16",
       10.6667
+    ],
+    [
+      "2026-04-17",
+      10.7383
+    ],
+    [
+      "2026-04-20",
+      10.6785
+    ],
+    [
+      "2026-04-22",
+      10.7865
+    ],
+    [
+      "2026-04-23",
+      10.7744
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-11-30",
+      0.11
+    ],
+    [
+      "2024-12-31",
+      0.11
+    ],
+    [
+      "2025-01-31",
+      0.12
+    ],
+    [
+      "2025-02-28",
+      0.11
+    ],
+    [
+      "2025-03-31",
+      0.11
+    ],
+    [
+      "2025-04-30",
+      0.11
+    ],
+    [
+      "2025-05-31",
+      0.11
+    ],
+    [
+      "2025-06-30",
+      0.11
+    ],
+    [
+      "2025-07-31",
+      0.11
+    ],
+    [
+      "2025-08-31",
+      0.11
+    ],
+    [
+      "2025-09-30",
+      0.08
+    ],
+    [
+      "2025-10-31",
+      0.08
+    ],
+    [
+      "2025-11-30",
+      0.08
+    ],
+    [
+      "2025-12-31",
+      0.08
+    ],
+    [
+      "2026-01-31",
+      0.08
+    ],
+    [
+      "2026-02-28",
+      0.08
+    ],
+    [
+      "2026-03-31",
+      0.08
+    ],
+    [
+      "2026-04-30",
+      0.08
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 5803399.9399999995,
     "Imóveis": 237100000.0,
     "CRI/CRA": 2129322.95,
     "Outros": 9.350486607218045e-09
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. 21L0694148",
+        "nome": "",
+        "emissao": "1",
+        "serie": "455",
+        "vencimento": "",
+        "quantidade": 425.0,
+        "valor": 459217.49,
+        "nome_cri": "CRI Brookfield | Edifício JK 1455"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. 21L0666609",
+        "nome": "",
+        "emissao": "1",
+        "serie": "400",
+        "vencimento": "",
+        "quantidade": 709.0,
+        "valor": 767131.32,
+        "nome_cri": "CRI Brookfield | Edifício Condomínio Miss Silvia Morizono"
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "BANCO INTER SA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-07-20",
+        "quantidade": 171.0,
+        "valor": 2053507.29
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "DAYCOVAL TITULOS PÚBLICOS II FIRF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1081.47606331,
+        "valor": 1867969.73
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. 21L0668295",
+        "nome": "",
+        "emissao": "1",
+        "serie": "453",
+        "vencimento": "",
+        "quantidade": 605.0,
+        "valor": 654679.87,
+        "nome_cri": "CRI Brookfield | Edifício Faria Lima Financial Center"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. 21L0668716",
+        "nome": "",
+        "emissao": "1",
+        "serie": "454",
+        "vencimento": "",
+        "quantidade": 236.0,
+        "valor": 255379.49,
+        "nome_cri": "CRI Brookfield | Edifício Faria Lima Square"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "SECRETARIA TESOURO NACIONAL",
+        "nome": "LFT00002DE05",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 19.0,
+        "valor": 339720.82
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "DAYCOVAL TÍTULOS PÚBLICOS I FIRF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1044.28419028,
+        "valor": 1806091.51
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "AERO I GRU",
+        "endereco": "Pista aeroporto internacional de guarulhos",
+        "area": 59818.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

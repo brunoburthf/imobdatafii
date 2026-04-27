@@ -4,14 +4,18 @@
     "Ticker": "CACR11",
     "Nome": "Cartesia Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0004,
-    "Retorno - 12M": 0.0182,
-    "P/VP": 0.85,
+    "Retorno - MTD": 0.0204,
+    "Retorno - 12M": 0.0203,
+    "P/VP": 0.86,
     "Último Dividendo Pago": 1.2,
-    "DY a.a.": 0.179,
+    "DY a.a.": 0.176,
     "Visão Geral": "FII de papel que investe em CRIs, LHs, LCIs, LIGs e FIIs, com foco em retornos consistentes por meio de carteira diversificada de investimentos imobiliários. O fundo prioriza a aquisição de ativos financeiros de natureza imobiliária, especialmente CRIs. A estratégia combina diversificação de crédito e geração recorrente de renda.",
     "Comentário": "Distribuiu R$ 1,21/cota equivalente a 19,40% de dividend yield anualizado nos últimos 12 meses. Mantém posição vendida de 4,82% das cotas. Portfólio permanece 100% adimplente com TIR média dos CRIs de 12,3% a.a. versus 7,6% do IMA-B. Realizou amortizações em Helvetia, Station e operações estruturadas, consolidando performance consistente desde aquisições.",
-    "Preço Atual": 81.04
+    "Preço Atual": 81.49,
+    "% Dias Acima CDI 1A": 0.2016,
+    "% Dias Acima CDI 3A": 0.6013,
+    "% Dias Acima CDI 5A": 0.7229,
+    "% Dias Acima CDI MAX": 0.736
   },
   "historico_preco": [
     [
@@ -5925,6 +5929,22 @@
     [
       "2026-04-16",
       80.98
+    ],
+    [
+      "2026-04-17",
+      80.38
+    ],
+    [
+      "2026-04-20",
+      81.24
+    ],
+    [
+      "2026-04-22",
+      81.39
+    ],
+    [
+      "2026-04-23",
+      81.29
     ]
   ],
   "historico_preco_adj": [
@@ -11839,6 +11859,22 @@
     [
       "2026-04-16",
       80.98
+    ],
+    [
+      "2026-04-17",
+      80.38
+    ],
+    [
+      "2026-04-20",
+      81.24
+    ],
+    [
+      "2026-04-22",
+      81.39
+    ],
+    [
+      "2026-04-23",
+      81.29
     ]
   ],
   "historico_pvp": [
@@ -18341,6 +18377,26 @@
     [
       "2026-04-16",
       0.85371766723
+    ],
+    [
+      "2026-04-17",
+      0.84739227084
+    ],
+    [
+      "2026-04-20",
+      0.85645867234
+    ],
+    [
+      "2026-04-21",
+      0.85645867234
+    ],
+    [
+      "2026-04-22",
+      0.85804002144
+    ],
+    [
+      "2026-04-23",
+      0.85698578871
     ]
   ],
   "historico_dy": [
@@ -24155,10 +24211,2072 @@
     [
       "2026-04-16",
       17.7822
+    ],
+    [
+      "2026-04-17",
+      17.9149
+    ],
+    [
+      "2026-04-20",
+      17.7253
+    ],
+    [
+      "2026-04-22",
+      17.6926
+    ],
+    [
+      "2026-04-23",
+      17.7144
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-02-29",
+      0.3
+    ],
+    [
+      "2020-03-31",
+      0.23
+    ],
+    [
+      "2020-04-30",
+      0.05
+    ],
+    [
+      "2020-05-31",
+      0.0
+    ],
+    [
+      "2020-06-30",
+      0.0
+    ],
+    [
+      "2020-07-31",
+      0.3
+    ],
+    [
+      "2020-08-31",
+      0.6
+    ],
+    [
+      "2020-09-30",
+      0.8
+    ],
+    [
+      "2020-10-31",
+      0.87
+    ],
+    [
+      "2020-11-30",
+      0.88
+    ],
+    [
+      "2020-12-31",
+      0.88
+    ],
+    [
+      "2021-01-31",
+      0.93
+    ],
+    [
+      "2021-02-28",
+      0.96
+    ],
+    [
+      "2021-03-31",
+      1.03
+    ],
+    [
+      "2021-04-30",
+      1.07
+    ],
+    [
+      "2021-05-31",
+      1.07
+    ],
+    [
+      "2021-06-30",
+      1.08
+    ],
+    [
+      "2021-07-31",
+      1.55
+    ],
+    [
+      "2021-08-31",
+      1.1
+    ],
+    [
+      "2021-09-30",
+      1.08
+    ],
+    [
+      "2021-10-31",
+      1.18
+    ],
+    [
+      "2021-11-30",
+      1.3
+    ],
+    [
+      "2021-12-31",
+      1.51
+    ],
+    [
+      "2022-01-31",
+      1.59
+    ],
+    [
+      "2022-02-28",
+      1.5
+    ],
+    [
+      "2022-03-31",
+      1.5
+    ],
+    [
+      "2022-04-30",
+      1.44
+    ],
+    [
+      "2022-05-31",
+      1.5
+    ],
+    [
+      "2022-06-30",
+      1.41
+    ],
+    [
+      "2022-07-31",
+      1.38
+    ],
+    [
+      "2022-08-31",
+      1.52
+    ],
+    [
+      "2022-09-30",
+      1.54
+    ],
+    [
+      "2022-10-31",
+      1.56
+    ],
+    [
+      "2022-11-30",
+      1.44
+    ],
+    [
+      "2022-12-31",
+      1.42
+    ],
+    [
+      "2023-01-31",
+      1.47
+    ],
+    [
+      "2023-02-28",
+      1.4
+    ],
+    [
+      "2023-03-31",
+      1.42
+    ],
+    [
+      "2023-04-30",
+      1.44
+    ],
+    [
+      "2023-05-31",
+      1.51
+    ],
+    [
+      "2023-06-30",
+      1.52
+    ],
+    [
+      "2023-07-31",
+      1.61
+    ],
+    [
+      "2023-08-31",
+      1.42
+    ],
+    [
+      "2023-09-30",
+      1.43
+    ],
+    [
+      "2023-10-31",
+      1.42
+    ],
+    [
+      "2023-11-30",
+      1.4
+    ],
+    [
+      "2023-12-31",
+      1.42
+    ],
+    [
+      "2024-01-31",
+      1.48
+    ],
+    [
+      "2024-02-29",
+      1.35
+    ],
+    [
+      "2024-03-31",
+      1.35
+    ],
+    [
+      "2024-04-30",
+      1.37
+    ],
+    [
+      "2024-05-31",
+      1.39
+    ],
+    [
+      "2024-06-30",
+      1.41
+    ],
+    [
+      "2024-07-31",
+      1.46
+    ],
+    [
+      "2024-08-31",
+      1.3
+    ],
+    [
+      "2024-09-30",
+      1.31
+    ],
+    [
+      "2024-10-31",
+      1.32
+    ],
+    [
+      "2024-11-30",
+      1.32
+    ],
+    [
+      "2024-12-31",
+      1.32
+    ],
+    [
+      "2025-01-31",
+      1.34
+    ],
+    [
+      "2025-02-28",
+      1.3
+    ],
+    [
+      "2025-03-31",
+      1.31
+    ],
+    [
+      "2025-04-30",
+      1.33
+    ],
+    [
+      "2025-05-31",
+      1.37
+    ],
+    [
+      "2025-06-30",
+      1.41
+    ],
+    [
+      "2025-07-31",
+      1.45
+    ],
+    [
+      "2025-08-31",
+      1.35
+    ],
+    [
+      "2025-09-30",
+      1.35
+    ],
+    [
+      "2025-10-31",
+      1.33
+    ],
+    [
+      "2025-11-30",
+      1.32
+    ],
+    [
+      "2025-12-31",
+      1.31
+    ],
+    [
+      "2026-01-31",
+      1.35
+    ],
+    [
+      "2026-02-28",
+      1.2
+    ],
+    [
+      "2026-03-31",
+      1.21
+    ],
+    [
+      "2026-04-30",
+      1.2
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 2817505.99,
     "CRI/CRA": 485512323.55
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1529129 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 880.0,
+        "valor": 524830.68
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0000201 - OPEASEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 800.0,
+        "valor": 735637.53,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1215653 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 5182161.05
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FICFI ITAU SOBERANO RENDA FIXA SIMPLES LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 58117.85001,
+        "valor": 4739474.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0000201 - OPEASEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 952.0,
+        "valor": 875408.67,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24B1465719 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 9212.0,
+        "valor": 5984408.05
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1226990 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 1420.0,
+        "valor": 1239616.48
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 31.0,
+        "valor": 19136.84
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 270.0,
+        "valor": 166675.77
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 188.0,
+        "valor": 139520.35
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24K2314391 - TRAVESSIA SEC",
+        "nome": "",
+        "emissao": "57",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 4962593.71
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1226561 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2935.0,
+        "valor": 2442511.98
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 756.0,
+        "valor": 687193.92,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 88.0,
+        "valor": 54323.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A1777655 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 5126519.52
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 890.0,
+        "valor": 660495.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 255.0,
+        "valor": 157416.01
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 46.0,
+        "valor": 28974.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 42.0,
+        "valor": 26454.94
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23I2111365 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "61",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 13700.0,
+        "valor": 12040030.23
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 697.0,
+        "valor": 633563.7,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1528956 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 746.0,
+        "valor": 439899.14
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A1777868 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 486.0,
+        "valor": 308261.79
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 331.0,
+        "valor": 319261.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 465.0,
+        "valor": 345090.23
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25H5085933 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 918.0,
+        "valor": 549946.23
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L1599076 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 15492435.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1226990 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 750.0,
+        "valor": 654727.01
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1057.0,
+        "valor": 784430.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425363 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5969.0,
+        "valor": 5667652.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A1777605 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5500.0,
+        "valor": 4018919.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 62.0,
+        "valor": 38273.69
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 301.0,
+        "valor": 290325.34
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425363 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1460.0,
+        "valor": 1386291.16
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 518.0,
+        "valor": 499629.66
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1215952 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2685.0,
+        "valor": 1752719.22
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24K2433556 - TRAVESSIA SEC",
+        "nome": "",
+        "emissao": "57",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 322.0,
+        "valor": 321232.89
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0162216 - OPEASEC",
+        "nome": "",
+        "emissao": "211",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 501.0,
+        "valor": 177003.03,
+        "nome_cri": "CRI Visconde"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1216116 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 188.0,
+        "valor": 136154.06
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 9.0,
+        "valor": 5668.91
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FIF RENDA FIXA BRL SOBERANO REFERENCIADO DI LONGO PRAZO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3854.38227464,
+        "valor": 6115607.72
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 1024.0,
+        "valor": 644996.77
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0000201 - OPEASEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 808.0,
+        "valor": 742993.91,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25H5085933 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 1260.0,
+        "valor": 754828.16
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 176.0,
+        "valor": 130614.79
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 1024.0,
+        "valor": 987684.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0162404 - OPEASEC",
+        "nome": "",
+        "emissao": "211",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1084307.47,
+        "nome_cri": "CRI Visconde"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425363 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 8302.0,
+        "valor": 7882869.36
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2532795 - LEVERAGE CIA SEC",
+        "nome": "",
+        "emissao": "19",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9012.0,
+        "valor": 8848667.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0000201 - OPEASEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 919.54,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1216116 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 115.0,
+        "valor": 83285.73
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24K2432454 - OPEASEC",
+        "nome": "",
+        "emissao": "57",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 8400.0,
+        "valor": 5180616.11,
+        "nome_cri": "CRI Cemara"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 710.0,
+        "valor": 645380.53,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 284.0,
+        "valor": 175318.22
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 25.0,
+        "valor": 15432.94
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1528390 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 17800.0,
+        "valor": 10490938.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24K2433556 - TRAVESSIA SEC",
+        "nome": "",
+        "emissao": "57",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 350.0,
+        "valor": 349166.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 851.0,
+        "valor": 820820.15
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 35.0,
+        "valor": 22045.78
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 506.0,
+        "valor": 488055.22
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0000201 - OPEASEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 771.0,
+        "valor": 708970.67,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 29.0,
+        "valor": 26360.61,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A1777868 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 7074.0,
+        "valor": 4486921.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 52.0,
+        "valor": 38590.73
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 30.0,
+        "valor": 22263.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0000201 - OPEASEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2386.0,
+        "valor": 2194038.95,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0162216 - OPEASEC",
+        "nome": "",
+        "emissao": "211",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 529949.21,
+        "nome_cri": "CRI Visconde"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1530964 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1812.0,
+        "valor": 1124149.15
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25H5085933 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 1082.0,
+        "valor": 648193.7
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L1603403 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 18800.0,
+        "valor": 15034345.01
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 30.0,
+        "valor": 18896.38
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 860.0,
+        "valor": 638231.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1215952 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1300.0,
+        "valor": 848616.38
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 59.0,
+        "valor": 43785.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 360.0,
+        "valor": 222234.37
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1215952 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1715.0,
+        "valor": 1119520.84
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 20.0,
+        "valor": 12597.59
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 177.0,
+        "valor": 131356.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0000201 - OPEASEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 788.0,
+        "valor": 724602.97,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 300.0,
+        "valor": 289360.8
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1594.0,
+        "valor": 1182954.48
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1226561 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2955.0,
+        "valor": 2459156.01
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 182.0,
+        "valor": 135067.57
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 205.0,
+        "valor": 197729.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25H5085933 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 928.0,
+        "valor": 555936.93
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425363 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 2848543.49
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 570.0,
+        "valor": 359031.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 237.0,
+        "valor": 175884.7
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A1777868 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 440.0,
+        "valor": 279084.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 1995.0,
+        "valor": 1231548.8
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 15.0,
+        "valor": 11131.94
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 24.0,
+        "valor": 14815.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L1599076 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9000.0,
+        "valor": 6971595.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1529129 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 3906.0,
+        "valor": 2329532.58
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1359.0,
+        "valor": 1008554.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 1726.0,
+        "valor": 1664789.17
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 335.0,
+        "valor": 206801.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0000201 - OPEASEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 160.0,
+        "valor": 147127.5,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25H5085933 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 53.0,
+        "valor": 31750.7
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24B1465697 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 9500.0,
+        "valor": 6183193.66
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A1777749 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 5097220.67
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1226990 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 100.0,
+        "valor": 87296.93
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1226561 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1110.0,
+        "valor": 923743.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425363 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 949514.49
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1215952 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 1305563.67
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1528956 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1433.0,
+        "valor": 845007.34
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 650.0,
+        "valor": 590841.33,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 592.0,
+        "valor": 372888.76
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1529129 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 100.0,
+        "valor": 59639.85
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 35.0,
+        "valor": 21606.11
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 710.0,
+        "valor": 684820.57
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0162216 - OPEASEC",
+        "nome": "",
+        "emissao": "211",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 999.0,
+        "valor": 352946.17,
+        "nome_cri": "CRI Visconde"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 338.0,
+        "valor": 250839.78
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1424510 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 27541.0,
+        "valor": 25969336.77
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 40.0,
+        "valor": 36359.46,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24B1465631 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 35500.0,
+        "valor": 23028971.15
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22G1000969 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 19300.0,
+        "valor": 17721450.74,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 21.0,
+        "valor": 13227.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 23.0,
+        "valor": 14487.23
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 535.0,
+        "valor": 336985.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A1777605 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 13000.0,
+        "valor": 9499265.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 532.0,
+        "valor": 513133.16
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1529129 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 367.0,
+        "valor": 218878.25
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 403.0,
+        "valor": 388708.01
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1226990 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 1700.0,
+        "valor": 1484047.9
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 536.0,
+        "valor": 516991.3
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 22.0,
+        "valor": 13857.35
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1226990 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 230.0,
+        "valor": 200782.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 8.0,
+        "valor": 5937.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 19.0,
+        "valor": 11729.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 107.0,
+        "valor": 66052.99
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24B1465589 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 28000.0,
+        "valor": 18214828.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L1603110 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 9200.0,
+        "valor": 7129833.96
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 406.0,
+        "valor": 391601.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22G1000969 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4450.0,
+        "valor": 4086033.98,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1529129 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 747.0,
+        "valor": 445509.68
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 502.0,
+        "valor": 309893.48
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 742129.53
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23I2111373 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "61",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 9000.0,
+        "valor": 8036212.54
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L1603403 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 9200.0,
+        "valor": 7357232.66
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 593.0,
+        "valor": 373518.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 700.0,
+        "valor": 636290.66,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 7781.0,
+        "valor": 7072825.27,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22L0001401 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 12000.0,
+        "valor": 11120081.93,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425363 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 815.0,
+        "valor": 773854.31
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2010.0,
+        "valor": 1491680.37
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 975.0,
+        "valor": 940422.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1216116 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "62",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 425.0,
+        "valor": 307795.09
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425363 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 6900.0,
+        "valor": 6551650.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24B1465589 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7500.0,
+        "valor": 4878971.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J0162156 - OPEASEC",
+        "nome": "",
+        "emissao": "211",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20500.0,
+        "valor": 7200312.78,
+        "nome_cri": "CRI EPSA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 504.0,
+        "valor": 311128.11
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25H5085933 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "84",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 295.0,
+        "valor": 176725.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23E0002201 - BARI SEC",
+        "nome": "",
+        "emissao": "7",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 637.0,
+        "valor": 579024.5,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 160.0,
+        "valor": 118740.72
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 55.0,
+        "valor": 34643.38
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 272.0,
+        "valor": 201859.23
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C1528956 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2821.0,
+        "valor": 1663479.21
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425552 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 498.0,
+        "valor": 480338.94
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A1777605 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6500.0,
+        "valor": 4749632.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 28.0,
+        "valor": 20779.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 379.0,
+        "valor": 238724.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 41.0,
+        "valor": 30427.31
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G5231291 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "79",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 483.0,
+        "valor": 298164.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 290.0,
+        "valor": 215217.56
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1265.0,
+        "valor": 938793.86
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 1985.0,
+        "valor": 1473127.13
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F1869744 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 689.0,
+        "valor": 511327.25
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25G0707498 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "78",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 767.0,
+        "valor": 483117.7
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1425363 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "129",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1254.0,
+        "valor": 1190691.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L1603110 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "71",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 18800.0,
+        "valor": 14569660.7
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

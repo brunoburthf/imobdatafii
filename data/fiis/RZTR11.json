@@ -4,14 +4,18 @@
     "Ticker": "RZTR11",
     "Nome": "FII Riza Terrax",
     "Setor": "Terras agrícolas",
-    "Retorno - MTD": 0.0128,
-    "Retorno - 12M": 0.1995,
+    "Retorno - MTD": 0.013,
+    "Retorno - 12M": 0.1905,
     "P/VP": 1.04,
     "Último Dividendo Pago": 1.0,
     "DY a.a.": 0.126,
     "Visão Geral": "FII de agronegócio que investe em imóveis rurais, com foco em aquisição, arrendamento e eventual alienação de propriedades agrícolas. A estratégia busca retorno de longo prazo por meio da exploração econômica das fazendas e da valorização dos ativos. O fundo atua no segmento agro com mandato direcionado a terras produtivas.",
     "Comentário": "Em janeiro distribuiu R$ 1,00/cota com dividend yield de 1,01% mensal (12,88% a.a.). Portfólio de 24 ativos em 84.075 hectares com prazo médio de 10 anos. Completou recebimento das duas primeiras parcelas da venda de Fazenda Clarão da Lua (R$ 43,2 milhões), reconhecendo R$ 23,1 milhões em ganhos.",
-    "Preço Atual": 94.7
+    "Preço Atual": 94.78,
+    "% Dias Acima CDI 1A": 0.7258,
+    "% Dias Acima CDI 3A": 0.4738,
+    "% Dias Acima CDI 5A": 0.5748,
+    "% Dias Acima CDI MAX": 0.5748
   },
   "historico_preco": [
     [
@@ -5501,6 +5505,22 @@
     [
       "2026-04-16",
       94.09
+    ],
+    [
+      "2026-04-17",
+      95.18
+    ],
+    [
+      "2026-04-20",
+      94.98
+    ],
+    [
+      "2026-04-22",
+      95.76
+    ],
+    [
+      "2026-04-23",
+      95.1
     ]
   ],
   "historico_preco_adj": [
@@ -10991,6 +11011,22 @@
     [
       "2026-04-16",
       94.09
+    ],
+    [
+      "2026-04-17",
+      95.18
+    ],
+    [
+      "2026-04-20",
+      94.98
+    ],
+    [
+      "2026-04-22",
+      95.76
+    ],
+    [
+      "2026-04-23",
+      95.1
     ]
   ],
   "historico_pvp": [
@@ -16689,6 +16725,26 @@
     [
       "2026-04-16",
       1.0255893457
+    ],
+    [
+      "2026-04-17",
+      1.0374704424
+    ],
+    [
+      "2026-04-20",
+      1.0352904247
+    ],
+    [
+      "2026-04-21",
+      1.0352904247
+    ],
+    [
+      "2026-04-22",
+      1.0437924939
+    ],
+    [
+      "2026-04-23",
+      1.0365984353
     ]
   ],
   "historico_dy": [
@@ -22047,11 +22103,520 @@
     [
       "2026-04-16",
       12.7537
+    ],
+    [
+      "2026-04-17",
+      12.6077
+    ],
+    [
+      "2026-04-20",
+      12.6342
+    ],
+    [
+      "2026-04-22",
+      12.5313
+    ],
+    [
+      "2026-04-23",
+      12.6183
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-11-30",
+      0.65
+    ],
+    [
+      "2020-12-31",
+      0.91
+    ],
+    [
+      "2021-01-31",
+      0.0
+    ],
+    [
+      "2021-02-28",
+      0.8
+    ],
+    [
+      "2021-03-31",
+      0.85
+    ],
+    [
+      "2021-04-30",
+      0.8
+    ],
+    [
+      "2021-05-31",
+      0.7
+    ],
+    [
+      "2021-06-30",
+      0.5
+    ],
+    [
+      "2021-07-31",
+      0.77
+    ],
+    [
+      "2021-08-31",
+      0.9
+    ],
+    [
+      "2021-09-30",
+      0.9
+    ],
+    [
+      "2021-10-31",
+      0.95
+    ],
+    [
+      "2021-11-30",
+      0.95
+    ],
+    [
+      "2021-12-31",
+      1.25
+    ],
+    [
+      "2022-01-31",
+      1.25
+    ],
+    [
+      "2022-02-28",
+      1.25
+    ],
+    [
+      "2022-03-31",
+      1.25
+    ],
+    [
+      "2022-04-30",
+      1.25
+    ],
+    [
+      "2022-05-31",
+      1.25
+    ],
+    [
+      "2022-06-30",
+      1.25
+    ],
+    [
+      "2022-07-31",
+      1.25
+    ],
+    [
+      "2022-08-31",
+      1.25
+    ],
+    [
+      "2022-09-30",
+      1.25
+    ],
+    [
+      "2022-10-31",
+      1.25
+    ],
+    [
+      "2022-11-30",
+      1.25
+    ],
+    [
+      "2022-12-31",
+      1.25
+    ],
+    [
+      "2023-01-31",
+      0.86
+    ],
+    [
+      "2023-02-28",
+      0.85
+    ],
+    [
+      "2023-03-31",
+      0.85
+    ],
+    [
+      "2023-04-30",
+      0.85
+    ],
+    [
+      "2023-05-31",
+      0.85
+    ],
+    [
+      "2023-06-30",
+      0.85
+    ],
+    [
+      "2023-07-31",
+      0.85
+    ],
+    [
+      "2023-08-31",
+      0.85
+    ],
+    [
+      "2023-09-30",
+      0.85
+    ],
+    [
+      "2023-10-31",
+      1.1
+    ],
+    [
+      "2023-11-30",
+      1.4
+    ],
+    [
+      "2023-12-31",
+      1.4
+    ],
+    [
+      "2024-01-31",
+      1.1
+    ],
+    [
+      "2024-02-29",
+      0.85
+    ],
+    [
+      "2024-03-31",
+      0.85
+    ],
+    [
+      "2024-04-30",
+      0.9
+    ],
+    [
+      "2024-05-31",
+      0.9
+    ],
+    [
+      "2024-06-30",
+      0.9
+    ],
+    [
+      "2024-07-31",
+      0.9
+    ],
+    [
+      "2024-08-31",
+      0.9
+    ],
+    [
+      "2024-09-30",
+      0.9
+    ],
+    [
+      "2024-10-31",
+      0.9
+    ],
+    [
+      "2024-11-30",
+      0.9
+    ],
+    [
+      "2024-12-31",
+      1.15
+    ],
+    [
+      "2025-01-31",
+      1.1
+    ],
+    [
+      "2025-02-28",
+      1.05
+    ],
+    [
+      "2025-03-31",
+      1.05
+    ],
+    [
+      "2025-04-30",
+      1.05
+    ],
+    [
+      "2025-05-31",
+      1.05
+    ],
+    [
+      "2025-06-30",
+      1.05
+    ],
+    [
+      "2025-07-31",
+      1.05
+    ],
+    [
+      "2025-08-31",
+      1.0
+    ],
+    [
+      "2025-09-30",
+      1.0
+    ],
+    [
+      "2025-10-31",
+      1.0
+    ],
+    [
+      "2025-11-30",
+      1.0
+    ],
+    [
+      "2025-12-31",
+      1.0
+    ],
+    [
+      "2026-01-31",
+      1.0
+    ],
+    [
+      "2026-02-28",
+      1.0
+    ],
+    [
+      "2026-03-31",
+      1.0
+    ],
+    [
+      "2026-04-30",
+      1.0
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 36595356.51,
     "Imóveis": 2318618566.8,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 167346595.22
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "15L0652383 - OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "129",
+        "vencimento": "",
+        "quantidade": 50.0,
+        "valor": 69901000.66,
+        "nome_cri": "CRI SYN | Ed. JK E"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAÚ SOBERANO RF FIC",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 151680.42,
+        "valor": 11542217.65
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "FAZ. SAN FRANCISCO - GLEBA COSME NORTE",
+        "endereco": "Canarana - MT",
+        "area": 37818272.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZENDA JORDÃOZINHO - PR",
+        "endereco": "Guarapuava - PR",
+        "area": 873462.4,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. STO ANTÔNIO DO OURO - BA",
+        "endereco": "Zona rural de Formosa do Rio Preto/BA",
+        "area": 72230000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. SAN FRANCISCO - GLEBA SAN PEDRO",
+        "endereco": "Canarana - MT",
+        "area": 22687777.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZENDA NASARÉ SUL - MA",
+        "endereco": "Riachão - MA",
+        "area": 2353019.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZENDA ENGENHO/FLORESTA - TO",
+        "endereco": "Santa Rosa do Tocantins - TO",
+        "area": 997608.4,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. SAN FRANCISCO - GLEBA RECREIO DO NORTE",
+        "endereco": "Canarana - MT",
+        "area": 53463248.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. RIO BONITO - MT",
+        "endereco": "Zona rural de Canarana/MT",
+        "area": 49029791.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. SÃO TOMAZ CACHOEIRINHA - GO",
+        "endereco": "Zona rural de Rio Verde/GO",
+        "area": 7750000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZENDA CHAPADAO DA SERRA - MA",
+        "endereco": "Sambaíba - MA",
+        "area": 3763747.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZENDAS SAN PEDRO (GLEBAS: SP, CN, BO E RN) - MT",
+        "endereco": "Canarana - MT",
+        "area": 12939909.8,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. SAN FRANCISCO - GLEBA BOAZUDA",
+        "endereco": "Canarana - MT",
+        "area": 15420000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZENDA FLORIDA - TO",
+        "endereco": "Chapada da Natividade - TO",
+        "area": 2015439.3,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. VALE DO RIO CELESTE - MT",
+        "endereco": "Zona rural de Nova Ubiratã/MT",
+        "area": 20840000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. SÃO MARTINHO 1, 2, 3 e 4 - MT",
+        "endereco": "Zona rural de Sorriso/MT",
+        "area": 33740000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. BURITI - MT",
+        "endereco": "Zona rural de São Jose do Xingú/MT",
+        "area": 33540000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. SANTA CLARA - PI",
+        "endereco": "Zona rural de Bom Jesus/PI",
+        "area": 122720000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZENDA BOM JARDIM - GO",
+        "endereco": "Montividiu - GO",
+        "area": 969681.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. CRISTALINA - MT",
+        "endereco": "Zona rural de Campo Verde/MT",
+        "area": 13630000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. PONTE DE PEDRAS - GO",
+        "endereco": "Zona rural de Serranópolis/GO",
+        "area": 6568300.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZENDA MIRAI - MA",
+        "endereco": "Alto Parnaíba - MA",
+        "area": 544883.3,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. ROMA",
+        "endereco": "Tupiratins - TO",
+        "area": 76760970.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. RIO BALSAS - MA",
+        "endereco": "Balsas - MA",
+        "area": 5596873.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. NOSSA SENHORA DA APARECIDA - MA",
+        "endereco": "Zona rural de Sambaíba /MA",
+        "area": 14939127.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. PARANATINGA 1 - MT",
+        "endereco": "Zona rural de Sorriso/MT",
+        "area": 82350000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. BONITO - GO",
+        "endereco": "Zona rural de Serranópolis/GO",
+        "area": 16472800.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. SÃO FRANCISCO - MA",
+        "endereco": "Zona rural de Buriticupu/MA",
+        "area": 15270000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "FAZ. PORANGA II - MT",
+        "endereco": "Zona rural de Sorriso/MT",
+        "area": 25220000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

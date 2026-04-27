@@ -4,14 +4,18 @@
     "Ticker": "HFOF11",
     "Nome": "Hedge Top Fofii 3 FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0044,
-    "Retorno - 12M": 0.3738,
+    "Retorno - MTD": 0.0015,
+    "Retorno - 12M": 0.3417,
     "P/VP": 0.86,
     "Último Dividendo Pago": 0.06,
-    "DY a.a.": 0.105,
+    "DY a.a.": 0.106,
     "Visão Geral": "FII de fundo de fundos que investe preponderantemente em cotas de outros FIIs, com foco em rendimentos e ganho de capital. Iniciado em fevereiro de 2018, é gerido pela Hedge Investments. A estratégia combina alocação ativa entre fundos imobiliários listados e desinvestimentos oportunísticos para geração recorrente de resultados.",
     "Comentário": "Distribuição mantida em R$ 0,060/cota refletindo FFO sustentável da carteira de fundos imobiliários. Fundo recomprou e cancelou 331 mil cotas com desconto médio de -14,7%, investindo R$ 2,2 milhões com retorno de R$ 2,6 milhões. Desde início do programa, 5 milhões de cotas canceladas com desconto médio de -18,8%, gerando valor aos cotistas remanescentes.",
-    "Preço Atual": 6.82
+    "Preço Atual": 6.84,
+    "% Dias Acima CDI 1A": 0.4194,
+    "% Dias Acima CDI 3A": 0.4121,
+    "% Dias Acima CDI 5A": 0.2594,
+    "% Dias Acima CDI MAX": 0.4446
   },
   "historico_preco": [
     [
@@ -8101,6 +8105,22 @@
     [
       "2026-04-16",
       6.82
+    ],
+    [
+      "2026-04-17",
+      6.83
+    ],
+    [
+      "2026-04-20",
+      6.83
+    ],
+    [
+      "2026-04-22",
+      6.84
+    ],
+    [
+      "2026-04-23",
+      6.81
     ]
   ],
   "historico_preco_adj": [
@@ -16191,6 +16211,22 @@
     [
       "2026-04-16",
       6.82
+    ],
+    [
+      "2026-04-17",
+      6.83
+    ],
+    [
+      "2026-04-20",
+      6.83
+    ],
+    [
+      "2026-04-22",
+      6.84
+    ],
+    [
+      "2026-04-23",
+      6.81
     ]
   ],
   "historico_pvp": [
@@ -24681,6 +24717,26 @@
     [
       "2026-04-16",
       0.860991166
+    ],
+    [
+      "2026-04-17",
+      0.86225361639
+    ],
+    [
+      "2026-04-20",
+      0.86225361639
+    ],
+    [
+      "2026-04-21",
+      0.86225361639
+    ],
+    [
+      "2026-04-22",
+      0.86351606678
+    ],
+    [
+      "2026-04-23",
+      0.85972871561
     ]
   ],
   "historico_dy": [
@@ -32683,10 +32739,848 @@
     [
       "2026-04-16",
       10.5572
+    ],
+    [
+      "2026-04-17",
+      10.5417
+    ],
+    [
+      "2026-04-20",
+      10.5417
+    ],
+    [
+      "2026-04-22",
+      10.5263
+    ],
+    [
+      "2026-04-23",
+      10.5727
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2018-03-31",
+      0.0
+    ],
+    [
+      "2018-04-30",
+      0.05
+    ],
+    [
+      "2018-05-31",
+      0.055
+    ],
+    [
+      "2018-06-30",
+      0.085
+    ],
+    [
+      "2018-07-31",
+      0.087
+    ],
+    [
+      "2018-08-31",
+      0.054
+    ],
+    [
+      "2018-09-30",
+      0.054
+    ],
+    [
+      "2018-10-31",
+      0.054
+    ],
+    [
+      "2018-11-30",
+      0.054
+    ],
+    [
+      "2018-12-31",
+      0.054
+    ],
+    [
+      "2019-01-31",
+      0.054
+    ],
+    [
+      "2019-02-28",
+      0.075
+    ],
+    [
+      "2019-03-31",
+      0.095
+    ],
+    [
+      "2019-04-30",
+      0.1
+    ],
+    [
+      "2019-05-31",
+      0.125
+    ],
+    [
+      "2019-06-30",
+      0.13
+    ],
+    [
+      "2019-07-31",
+      0.14
+    ],
+    [
+      "2019-08-31",
+      0.057
+    ],
+    [
+      "2019-09-30",
+      0.058
+    ],
+    [
+      "2019-10-31",
+      0.06
+    ],
+    [
+      "2019-11-30",
+      0.065
+    ],
+    [
+      "2019-12-31",
+      0.085
+    ],
+    [
+      "2020-01-31",
+      0.14
+    ],
+    [
+      "2020-02-29",
+      0.067
+    ],
+    [
+      "2020-03-31",
+      0.07
+    ],
+    [
+      "2020-04-30",
+      0.07
+    ],
+    [
+      "2020-05-31",
+      0.076
+    ],
+    [
+      "2020-06-30",
+      0.09
+    ],
+    [
+      "2020-07-31",
+      0.108
+    ],
+    [
+      "2020-08-31",
+      0.05
+    ],
+    [
+      "2020-09-30",
+      0.05
+    ],
+    [
+      "2020-10-31",
+      0.05
+    ],
+    [
+      "2020-11-30",
+      0.055
+    ],
+    [
+      "2020-12-31",
+      0.055
+    ],
+    [
+      "2021-01-31",
+      0.075
+    ],
+    [
+      "2021-02-28",
+      0.055
+    ],
+    [
+      "2021-03-31",
+      0.055
+    ],
+    [
+      "2021-04-30",
+      0.056
+    ],
+    [
+      "2021-05-31",
+      0.06
+    ],
+    [
+      "2021-06-30",
+      0.06
+    ],
+    [
+      "2021-07-31",
+      0.06
+    ],
+    [
+      "2021-08-31",
+      0.06
+    ],
+    [
+      "2021-09-30",
+      0.06
+    ],
+    [
+      "2021-10-31",
+      0.06
+    ],
+    [
+      "2021-11-30",
+      0.06
+    ],
+    [
+      "2021-12-31",
+      0.06
+    ],
+    [
+      "2022-01-31",
+      0.06
+    ],
+    [
+      "2022-02-28",
+      0.06
+    ],
+    [
+      "2022-03-31",
+      0.06
+    ],
+    [
+      "2022-04-30",
+      0.06
+    ],
+    [
+      "2022-05-31",
+      0.06
+    ],
+    [
+      "2022-06-30",
+      0.06
+    ],
+    [
+      "2022-07-31",
+      0.06
+    ],
+    [
+      "2022-08-31",
+      0.062
+    ],
+    [
+      "2022-09-30",
+      0.062
+    ],
+    [
+      "2022-10-31",
+      0.062
+    ],
+    [
+      "2022-11-30",
+      0.062
+    ],
+    [
+      "2022-12-31",
+      0.062
+    ],
+    [
+      "2023-01-31",
+      0.062
+    ],
+    [
+      "2023-02-28",
+      0.063
+    ],
+    [
+      "2023-03-31",
+      0.063
+    ],
+    [
+      "2023-04-30",
+      0.063
+    ],
+    [
+      "2023-05-31",
+      0.063
+    ],
+    [
+      "2023-06-30",
+      0.063
+    ],
+    [
+      "2023-07-31",
+      0.063
+    ],
+    [
+      "2023-08-31",
+      0.063
+    ],
+    [
+      "2023-09-30",
+      0.063
+    ],
+    [
+      "2023-10-31",
+      0.063
+    ],
+    [
+      "2023-11-30",
+      0.063
+    ],
+    [
+      "2023-12-31",
+      0.063
+    ],
+    [
+      "2024-01-31",
+      0.063
+    ],
+    [
+      "2024-02-29",
+      0.063
+    ],
+    [
+      "2024-03-31",
+      0.063
+    ],
+    [
+      "2024-04-30",
+      0.063
+    ],
+    [
+      "2024-05-31",
+      0.063
+    ],
+    [
+      "2024-06-30",
+      0.063
+    ],
+    [
+      "2024-07-31",
+      0.063
+    ],
+    [
+      "2024-08-31",
+      0.063
+    ],
+    [
+      "2024-09-30",
+      0.063
+    ],
+    [
+      "2024-10-31",
+      0.06
+    ],
+    [
+      "2024-11-30",
+      0.058
+    ],
+    [
+      "2024-12-31",
+      0.056
+    ],
+    [
+      "2025-01-31",
+      0.056
+    ],
+    [
+      "2025-02-28",
+      0.056
+    ],
+    [
+      "2025-03-31",
+      0.056
+    ],
+    [
+      "2025-04-30",
+      0.056
+    ],
+    [
+      "2025-05-31",
+      0.056
+    ],
+    [
+      "2025-06-30",
+      0.056
+    ],
+    [
+      "2025-07-31",
+      0.056
+    ],
+    [
+      "2025-08-31",
+      0.056
+    ],
+    [
+      "2025-09-30",
+      0.056
+    ],
+    [
+      "2025-10-31",
+      0.056
+    ],
+    [
+      "2025-11-30",
+      0.056
+    ],
+    [
+      "2025-12-31",
+      0.056
+    ],
+    [
+      "2026-01-31",
+      0.056
+    ],
+    [
+      "2026-02-28",
+      0.06
+    ],
+    [
+      "2026-03-31",
+      0.06
+    ],
+    [
+      "2026-04-30",
+      0.06
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 45046518.17,
     "Cotas de FIIs": 1744487992.1
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "ARX DOVER RECEBÍVEIS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 224720.0,
+        "valor": 1741580.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE PALADIN DESIGN OFFICES FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 804355.0,
+        "valor": 75609370.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PLUS MULTIESTRATÉGIA REAL ESTATE FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 971332.0,
+        "valor": 8110622.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VIA PARQUE SHOPPING FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 358090.0,
+        "valor": 25245345.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA HEDGE FUND FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2068339.0,
+        "valor": 14954090.97
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIO NEGRO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 28222.0,
+        "valor": 1445813.06
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE RECEBÍVEIS IMOBILIÁRIOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 19590606.0,
+        "valor": 160447063.14
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL CRÉDITO IMOBILIÁRIO - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5513993.0,
+        "valor": 51500694.62
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CASTELLO BRANCO OFFICE PARK - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 859300.0,
+        "valor": 28502981.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII TORRE NORTE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 52420.0,
+        "valor": 4979900.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ITAÚ TOTAL RETURN FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 29677.0,
+        "valor": 2447462.19
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA ESCRITÓRIOS - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16544.0,
+        "valor": 2051621.44
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE OPPORTUNITIES FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 521500.0,
+        "valor": 55117174.62
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CLAVE ÍNDICES DE PREÇOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 14605.0,
+        "valor": 1285240.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA HEDGE FUND FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 65000.0,
+        "valor": 6247150.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII MAUÁ CAPITAL RECEBÍVEIS IMOBILIÁRIOS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 312105.0,
+        "valor": 28570091.7
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA SECURITIES FII - RESP LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 90410.0,
+        "valor": 5835965.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PRESIDENTE VARGAS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 167268.0,
+        "valor": 5687112.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII GREEN TOWERS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1476804.0,
+        "valor": 122574732.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA PRIME OFFICES - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2046.0,
+        "valor": 298716.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI MALLS FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 439198.0,
+        "valor": 40643382.92
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE LOGÍSTICA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 26569450.0,
+        "valor": 245767412.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "V2 EDIFÍCIOS CORPORATIVOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 32562.0,
+        "valor": 488104.38
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE BRASIL SHOPPING FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7560020.0,
+        "valor": 151200400.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PÁTRIA RECEBÍVEIS IMOBILIÁRIOS - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 651703.0,
+        "valor": 63873411.03
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE DESENVOLVIMENTO LOGÍSTICO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 192233.0,
+        "valor": 19227144.66
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL REAL ESTATE HEDGE FUND FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1122513.0,
+        "valor": 10136292.39
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ARCH EDIFÍCIOS CORPORATIVOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 21000.0,
+        "valor": 1112790.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE AAA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1767087.0,
+        "valor": 97172114.13
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TRX REAL ESTATE FII RESP LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 190743.0,
+        "valor": 18687091.71
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VECTIS JUROS REAL FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 118063.0,
+        "valor": 9598521.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BB RENDA CORPORATIVA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9295.0,
+        "valor": 957385.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITÂNIA SECURITIES II FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3534403.0,
+        "valor": 27391623.25
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE BRASIL LOGÍSTICO INDUSTRIAL FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7487681.0,
+        "valor": 70683708.64
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GALAPAGOS RECEBÍVEIS IMOBILIÁRIOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6720.0,
+        "valor": 442646.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TIVIO RENDA IMOBILIÁRIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1804470.0,
+        "valor": 181313145.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIO BRAVO RENDA VAREJO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9357440.0,
+        "valor": 97036652.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII VBI PRIME PROPERTIES",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 441486.0,
+        "valor": 36201852.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII TORRE ALMIRANTE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1075.0,
+        "valor": 634260.75
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE JHSF CAP PRIME OFFICES FII DE RESP LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 439237.0,
+        "valor": 43923700.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII CEO CYRELA COMMERCIAL PROPERTIES",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 737187.0,
+        "valor": 33947461.35
+      },
+      {
+        "tipo": "FII",
+        "emissor": "V2 PRIME PROPERTIES FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7746.0,
+        "valor": 125097.9
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

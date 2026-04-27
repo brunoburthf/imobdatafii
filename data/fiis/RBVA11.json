@@ -4,14 +4,18 @@
     "Ticker": "RBVA11",
     "Nome": "Rio Bravo Renda Varejo FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0143,
-    "Retorno - 12M": 0.3206,
+    "Retorno - MTD": 0.0183,
+    "Retorno - 12M": 0.2801,
     "P/VP": 0.93,
     "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.109,
+    "DY a.a.": 0.108,
     "Visão Geral": "FII de renda urbana que investe em lojas de rua e imóveis voltados ao varejo, com gestão ativa e foco em renda recorrente. Tem 13 anos de histórico segundo a Rio Bravo e tese centrada em varejo AAA, com portfólio diversificado e estratégia de reciclagem de ativos para capturar locação e valorização imobiliária.",
     "Comentário": "Em março, resultado de R$ 0,10/cota com distribuição linear de R$ 0,09/cota. Fundo vendeu imóvel Via Anchieta por R$ 7,3 milhões gerando lucro de R$ 3,86 milhões (TIR 18,3% ao ano). Assinada locação com Grupo Panvel em Curitiba por 10 anos, reduzindo vacância física e diversificando portfólio.",
-    "Preço Atual": 9.95
+    "Preço Atual": 9.97,
+    "% Dias Acima CDI 1A": 0.4355,
+    "% Dias Acima CDI 3A": 0.5302,
+    "% Dias Acima CDI 5A": 0.3325,
+    "% Dias Acima CDI MAX": 0.3812
   },
   "historico_preco": [
     [
@@ -13313,6 +13317,22 @@
     [
       "2026-04-16",
       9.9
+    ],
+    [
+      "2026-04-17",
+      9.95
+    ],
+    [
+      "2026-04-20",
+      9.92
+    ],
+    [
+      "2026-04-22",
+      9.96
+    ],
+    [
+      "2026-04-23",
+      9.92
     ]
   ],
   "historico_preco_adj": [
@@ -23535,6 +23555,22 @@
     [
       "2026-04-16",
       9.9
+    ],
+    [
+      "2026-04-17",
+      9.95
+    ],
+    [
+      "2026-04-20",
+      9.92
+    ],
+    [
+      "2026-04-22",
+      9.96
+    ],
+    [
+      "2026-04-23",
+      9.92
     ]
   ],
   "historico_pvp": [
@@ -37497,6 +37533,26 @@
     [
       "2026-04-16",
       0.92649488034
+    ],
+    [
+      "2026-04-17",
+      0.93117414741
+    ],
+    [
+      "2026-04-20",
+      0.92836658717
+    ],
+    [
+      "2026-04-21",
+      0.92836658717
+    ],
+    [
+      "2026-04-22",
+      0.93211000083
+    ],
+    [
+      "2026-04-23",
+      0.92836658717
     ]
   ],
   "historico_dy": [
@@ -47719,13 +47775,1138 @@
     [
       "2026-04-16",
       10.9091
+    ],
+    [
+      "2026-04-17",
+      10.8543
+    ],
+    [
+      "2026-04-20",
+      10.8871
+    ],
+    [
+      "2026-04-22",
+      10.8434
+    ],
+    [
+      "2026-04-23",
+      10.8871
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2016-01-31",
+      0.084
+    ],
+    [
+      "2016-02-29",
+      0.084
+    ],
+    [
+      "2016-03-31",
+      0.084
+    ],
+    [
+      "2016-04-30",
+      0.084
+    ],
+    [
+      "2016-05-31",
+      0.084
+    ],
+    [
+      "2016-06-30",
+      0.084
+    ],
+    [
+      "2016-07-31",
+      0.084
+    ],
+    [
+      "2016-08-31",
+      0.088
+    ],
+    [
+      "2016-09-30",
+      0.088
+    ],
+    [
+      "2016-10-31",
+      0.088
+    ],
+    [
+      "2016-11-30",
+      0.088
+    ],
+    [
+      "2016-12-31",
+      0.0873
+    ],
+    [
+      "2017-01-31",
+      0.0866
+    ],
+    [
+      "2017-02-28",
+      0.0883
+    ],
+    [
+      "2017-03-31",
+      0.0883
+    ],
+    [
+      "2017-04-30",
+      0.088
+    ],
+    [
+      "2017-05-31",
+      0.0854
+    ],
+    [
+      "2017-06-30",
+      0.0854
+    ],
+    [
+      "2017-07-31",
+      0.0854
+    ],
+    [
+      "2017-08-31",
+      0.0826
+    ],
+    [
+      "2017-09-30",
+      0.0798
+    ],
+    [
+      "2017-10-31",
+      0.077
+    ],
+    [
+      "2017-11-30",
+      0.077
+    ],
+    [
+      "2017-12-31",
+      0.0744
+    ],
+    [
+      "2018-01-31",
+      0.0844
+    ],
+    [
+      "2018-02-28",
+      0.0728
+    ],
+    [
+      "2018-03-31",
+      0.0721
+    ],
+    [
+      "2018-04-30",
+      0.0725
+    ],
+    [
+      "2018-05-31",
+      0.0725
+    ],
+    [
+      "2018-06-30",
+      0.0725
+    ],
+    [
+      "2018-07-31",
+      0.0725
+    ],
+    [
+      "2018-08-31",
+      0.0725
+    ],
+    [
+      "2018-09-30",
+      0.0725
+    ],
+    [
+      "2018-10-31",
+      0.07
+    ],
+    [
+      "2018-11-30",
+      0.07
+    ],
+    [
+      "2018-12-31",
+      0.07
+    ],
+    [
+      "2019-01-31",
+      0.07
+    ],
+    [
+      "2019-02-28",
+      0.075
+    ],
+    [
+      "2019-03-31",
+      0.085
+    ],
+    [
+      "2019-04-30",
+      0.085
+    ],
+    [
+      "2019-05-31",
+      0.085
+    ],
+    [
+      "2019-06-30",
+      0.09
+    ],
+    [
+      "2019-07-31",
+      0.149
+    ],
+    [
+      "2019-08-31",
+      0.09
+    ],
+    [
+      "2019-09-30",
+      0.09
+    ],
+    [
+      "2019-10-31",
+      0.09
+    ],
+    [
+      "2019-11-30",
+      0.09
+    ],
+    [
+      "2019-12-31",
+      0.09
+    ],
+    [
+      "2020-01-31",
+      0.141
+    ],
+    [
+      "2020-02-29",
+      0.09
+    ],
+    [
+      "2020-03-31",
+      0.09
+    ],
+    [
+      "2020-04-30",
+      0.08
+    ],
+    [
+      "2020-05-31",
+      0.085
+    ],
+    [
+      "2020-06-30",
+      0.085
+    ],
+    [
+      "2020-07-31",
+      0.085
+    ],
+    [
+      "2020-08-31",
+      0.085
+    ],
+    [
+      "2020-09-30",
+      0.085
+    ],
+    [
+      "2020-10-31",
+      0.085
+    ],
+    [
+      "2020-11-30",
+      0.085
+    ],
+    [
+      "2020-12-31",
+      0.095
+    ],
+    [
+      "2021-01-31",
+      0.095
+    ],
+    [
+      "2021-02-28",
+      0.095
+    ],
+    [
+      "2021-03-31",
+      0.085
+    ],
+    [
+      "2021-04-30",
+      0.085
+    ],
+    [
+      "2021-05-31",
+      0.085
+    ],
+    [
+      "2021-06-30",
+      0.085
+    ],
+    [
+      "2021-07-31",
+      0.124
+    ],
+    [
+      "2021-08-31",
+      0.085
+    ],
+    [
+      "2021-09-30",
+      0.085
+    ],
+    [
+      "2021-10-31",
+      0.087
+    ],
+    [
+      "2021-11-30",
+      0.099
+    ],
+    [
+      "2021-12-31",
+      0.091
+    ],
+    [
+      "2022-01-31",
+      0.091
+    ],
+    [
+      "2022-02-28",
+      0.092
+    ],
+    [
+      "2022-03-31",
+      0.092
+    ],
+    [
+      "2022-04-30",
+      0.092
+    ],
+    [
+      "2022-05-31",
+      0.092
+    ],
+    [
+      "2022-06-30",
+      0.092
+    ],
+    [
+      "2022-07-31",
+      0.11
+    ],
+    [
+      "2022-08-31",
+      0.1
+    ],
+    [
+      "2022-09-30",
+      0.102
+    ],
+    [
+      "2022-10-31",
+      0.107
+    ],
+    [
+      "2022-11-30",
+      0.107
+    ],
+    [
+      "2022-12-31",
+      0.107
+    ],
+    [
+      "2023-01-31",
+      0.107
+    ],
+    [
+      "2023-02-28",
+      0.095
+    ],
+    [
+      "2023-03-31",
+      0.095
+    ],
+    [
+      "2023-04-30",
+      0.095
+    ],
+    [
+      "2023-05-31",
+      0.095
+    ],
+    [
+      "2023-06-30",
+      0.095
+    ],
+    [
+      "2023-07-31",
+      0.1
+    ],
+    [
+      "2023-08-31",
+      0.1
+    ],
+    [
+      "2023-09-30",
+      0.1
+    ],
+    [
+      "2023-10-31",
+      0.1
+    ],
+    [
+      "2023-11-30",
+      0.1
+    ],
+    [
+      "2023-12-31",
+      0.1
+    ],
+    [
+      "2024-01-31",
+      0.1
+    ],
+    [
+      "2024-02-29",
+      0.1
+    ],
+    [
+      "2024-03-31",
+      0.1
+    ],
+    [
+      "2024-04-30",
+      0.1
+    ],
+    [
+      "2024-05-31",
+      0.1
+    ],
+    [
+      "2024-06-30",
+      0.1
+    ],
+    [
+      "2024-07-31",
+      0.1
+    ],
+    [
+      "2024-08-31",
+      0.1
+    ],
+    [
+      "2024-09-30",
+      0.1
+    ],
+    [
+      "2024-10-31",
+      0.1
+    ],
+    [
+      "2024-11-30",
+      0.1
+    ],
+    [
+      "2024-12-31",
+      0.09
+    ],
+    [
+      "2025-01-31",
+      0.09
+    ],
+    [
+      "2025-02-28",
+      0.09
+    ],
+    [
+      "2025-03-31",
+      0.09
+    ],
+    [
+      "2025-04-30",
+      0.09
+    ],
+    [
+      "2025-05-31",
+      0.09
+    ],
+    [
+      "2025-06-30",
+      0.09
+    ],
+    [
+      "2025-07-31",
+      0.09
+    ],
+    [
+      "2025-08-31",
+      0.09
+    ],
+    [
+      "2025-09-30",
+      0.09
+    ],
+    [
+      "2025-10-31",
+      0.09
+    ],
+    [
+      "2025-11-30",
+      0.09
+    ],
+    [
+      "2025-12-31",
+      0.09
+    ],
+    [
+      "2026-01-31",
+      0.09
+    ],
+    [
+      "2026-02-28",
+      0.09
+    ],
+    [
+      "2026-03-31",
+      0.09
+    ],
+    [
+      "2026-04-30",
+      0.09
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 40992133.25,
     "Imóveis": 1467100000.0,
     "Cotas de FIIs": 65185331.95,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 195698097.94,
     "Outros": 80070868.19
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "FII SPGM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3693405.0,
+        "valor": 47607990.45
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII LASC (Legatus)",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 40455.0,
+        "valor": 4409595.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBFF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 94997.0,
+        "valor": 5142187.61
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBHG",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2800.0,
+        "valor": 185864.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII TRBL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 45994.0,
+        "valor": 3178185.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII SHPH",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1652.0,
+        "valor": 1559471.48
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII XP Exeter (XPEX11)",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3943.0,
+        "valor": 244584.29
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "Itaú Soberano RF Simples LP FICFI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 345079.01434,
+        "valor": 28220438.21
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RCRB",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10529.0,
+        "valor": 1483536.1
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Santander - Centro - Jundiaí/SP",
+        "endereco": "R. Barao de Jundiai, 884",
+        "area": 6438.52,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Kroton - Cuiaba",
+        "endereco": "Avenida Manoel José de Arruda, 3100",
+        "area": 15659.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santo Antônio - Recife/PE",
+        "endereco": "Rua Imperador Dom Pedro II, 255",
+        "area": 2356.94,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GPA - Brooklin - São Paulo/SP",
+        "endereco": "Av. Padre Antônio Jose Dos Santos, 872",
+        "area": 3793.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Kroton - Betim",
+        "endereco": "Avenida Presidente Kubitschek, 227, Centro",
+        "area": 24483.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Itaú - Leblon - Rio de Janeiro/RJ",
+        "endereco": "Av. Afrânio de Melo Franco, 131",
+        "area": 917.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Centro - Nova Iguaçu/RJ",
+        "endereco": "Av. Marechal Floriano Peixoto, nº 2.370",
+        "area": 3256.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas - Santa Fé do Sul",
+        "endereco": "Rua Sete, 825, Loja, Centro",
+        "area": 1019.67,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Kroton - São Bernardo do Campo",
+        "endereco": "Avenida Doutor Rudge Ramos, 1501, Rudge Ramos",
+        "area": 23771.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ouvidor - Rio de Janeiro/RJ",
+        "endereco": "Av. Rio Branco, 115",
+        "area": 1240.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ânima - Consolação",
+        "endereco": "Rua da Consolação, 2320",
+        "area": 587.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas - Franca",
+        "endereco": "Rua Major Claudiano, 1800, Loja, Centro",
+        "area": 4359.67,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GPA - Vila Rossi e Borchi - Campinas/SP",
+        "endereco": "Av. Barão de Itapura, 2233",
+        "area": 3167.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Kroton - Belo Horizonte",
+        "endereco": "Rua dos Timbiras, 1375, Boa Viagem",
+        "area": 5940.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Cipo Guaçu - Embu Guaçu/SP",
+        "endereco": "Rua Sesefredo Klein Doll, 12",
+        "area": 667.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GPA - Parnamirim - Recife/PE",
+        "endereco": "Rua Desembargador Góes Cavalcante, 261",
+        "area": 4583.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Senador Queiroz nº 85 a 111 - Lj 1 a 3",
+        "endereco": "Av. Senador Queiroz, nº 85 a 111 - Lj 1 a 3",
+        "area": 1136.96,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Assaí - Guarulhos - Guarulhos/SP",
+        "endereco": "Avenida Salgado Filho, 1301 - Centro",
+        "area": 20952.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Pedro Vicente - São Paulo/SP",
+        "endereco": "R. Pedro Vicente, 222",
+        "area": 814.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Candelária - Rio de Janeiro/RJ",
+        "endereco": "Rua Buenos Aires, 48",
+        "area": 1040.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas - Fábrica",
+        "endereco": "Rua Silva Bueno, 2374, Loja, Ipiranga",
+        "area": 999.52,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GPA - Centro - Guarujá/SP",
+        "endereco": "Estrada do Pernambuco, 500",
+        "area": 2780.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Centro Histórico - Porto Alegre/RS",
+        "endereco": "Rua 7 de Setembro, 1100",
+        "area": 2106.79,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santander - São Mateus - São Paulo/SP",
+        "endereco": "Av. Mateo Bei, 3286",
+        "area": 2059.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Assaí - Jardim Apolo - São José dos Campos/SP",
+        "endereco": "Avenida Jorge Zarur, 100",
+        "area": 34749.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ed. Olivetti Paulista - São Paulo/SP",
+        "endereco": "Av Paulista 447 Loja",
+        "area": 1010.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Comercial Dahana - Belo Horizonte",
+        "endereco": "Av. João Pinheiro, 500",
+        "area": 4193.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Imperador - São Paulo/SP",
+        "endereco": "Av. do Imperador, 3892",
+        "area": 1024.8,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GPA - Tatuapé - São Paulo/SP",
+        "endereco": "Rua Serra do Japi, 647",
+        "area": 5083.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santander - Centro - Fortaleza/CE",
+        "endereco": "Rua Floriano Peixoto, 915",
+        "area": 2220.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Praça Pio X - Rio de Janeiro/RJ",
+        "endereco": "Praça Pio X, 78",
+        "area": 1964.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Páteo do Colégio - São Paulo/SP",
+        "endereco": "Lg. Páteo do Colégio, 1",
+        "area": 676.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santander - Centro - Santos/SP",
+        "endereco": "Praça Visconde de Mauá, 20",
+        "area": 4505.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santander - Centro - Santo André/SP",
+        "endereco": "Rua. Senador Flaquer, 305",
+        "area": 6242.43,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas - Assis",
+        "endereco": "Avenida Rui Barbosa, 205, Loja, Centro",
+        "area": 2226.77,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Rio do A - Campo Grande/RJ",
+        "endereco": "Est. Rio do A, 1131",
+        "area": 571.41,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Centauro - Paulista  - São Paulo/SP",
+        "endereco": "Av. Paulista, 1.227",
+        "area": 2550.89,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Leme - Rio de Janeiro/RJ",
+        "endereco": "Rua Antônio Vieira, 24 - Loja A",
+        "area": 696.8,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Taipas - São Paulo/SP",
+        "endereco": "Estrada de Taipas, 355",
+        "area": 1335.1,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Renner - Oscar Freire - São Paulo/SP",
+        "endereco": "Rua Oscar Freire, 585, Jardins",
+        "area": 2082.94,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Parque Maria Helena - Suzano/SP",
+        "endereco": "Avenida Vereador João Batista Fitipaldi, 115",
+        "area": 581.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santander - Alcântara - São Gonçalo/RJ",
+        "endereco": "Rua João de Almeida, 72",
+        "area": 1089.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Presidente Wilson - Rio de Janeiro/RJ",
+        "endereco": "Av. Rio Branco, 311-B",
+        "area": 735.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Via Anchieta - São Paulo/SP",
+        "endereco": "Via Anchieta, 1.558",
+        "area": 1785.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Duque de Caxias - São Paulo/SP",
+        "endereco": "Av. Duque de Caxias, 200 - Sta. Ifigênia",
+        "area": 2107.31,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Mutinga - Osasco/SP",
+        "endereco": "Avenida das Esmeraldas, 512",
+        "area": 804.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Recreio dos Bandeirantes - Rio de Janeiro/RJ",
+        "endereco": "Av. das Américas, 15.545",
+        "area": 919.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Avenida Chile - Rio de Janeiro/RJ",
+        "endereco": "Av. República do Chile, nº 230",
+        "area": 1139.67,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas - Novo Mundo",
+        "endereco": "Avenida República Argentina, 4044, Loja",
+        "area": 1930.31,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GPA - Pinheiros  - São Paulo/SP",
+        "endereco": "Rua Alves Guimarães, 50",
+        "area": 2935.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Plano e Plano",
+        "endereco": "R. Marechal Deodoro, 460",
+        "area": 1524.32,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santander - Liberdade - São Paulo/SP",
+        "endereco": "Av. Liberdade, 151",
+        "area": 5001.7,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Senador Queiroz nº 85 a 111 - Lj 4 e 5",
+        "endereco": "Av. Senador Queiroz, 85 a 111 - Lj 4 e 5",
+        "area": 310.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Centro - Rio de Janeiro/RJ",
+        "endereco": "Rua da Quitanda, 70",
+        "area": 2034.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Vila Mascote - São Paulo/SP",
+        "endereco": "Av. Santa Catarina, 287",
+        "area": 500.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "- - Berrini - São Paulo/SP",
+        "endereco": "Av Eng. Luiz Carlos Berrini, 1307",
+        "area": 1873.73,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Jardim da Saúde - São Paulo/SP",
+        "endereco": "Av. do Cursino, 1348",
+        "area": 1833.14,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Bandeira - Rio de Janeiro/RJ",
+        "endereco": "Rua Mariz e Barros, 79",
+        "area": 1339.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Pinheiros - São Paulo/SP",
+        "endereco": "Rua Paes Leme, 250/258",
+        "area": 909.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - 14 bis - Rio de Janeiro/RJ",
+        "endereco": "Av. Marechal Câmara, nº 160",
+        "area": 1900.31,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santander - Monsenhor Celso - Curitiba/PR",
+        "endereco": "Rua Marechal Deodoro, 195",
+        "area": 2183.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GPA - Asa Sul  - Brasilia/DF",
+        "endereco": "EQ 406/407-SUL - Lote 1 - Brasília - DF",
+        "area": 2601.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Centro - Fortaleza/CE",
+        "endereco": "Rua Pedro I, 373",
+        "area": 2511.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Kroton Santo André",
+        "endereco": "Rua Coronel Abílio Soares, 163, Centro",
+        "area": 7722.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Kroton - São Luis",
+        "endereco": "Avenida São Luís Rei de França, 32, Turu",
+        "area": 24286.83,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Meier - Rio de Janeiro/RJ",
+        "endereco": "Rua Dias da Cruz, 28-A",
+        "area": 1483.53,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GPA - Centro - São Bernardo do Campo/SP",
+        "endereco": "Rua Santa Filomena, nºs 677, 687 e 697, Centro",
+        "area": 2365.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "- - Monções - São Paulo/SP",
+        "endereco": "Av. Sto. Amaro, 3332",
+        "area": 930.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Paulista  - São Paulo/SP",
+        "endereco": "Av. Paulista, 436",
+        "area": 2857.24,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "M3Storage - Nova Paulista - São Paulo/SP",
+        "endereco": "Av. Paulista, 726 - L1",
+        "area": 693.32,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Ipanema - Rio de Janeiro/RJ",
+        "endereco": "Rua Visconde de Pirajá, 127",
+        "area": 510.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Guarapiranga - São Paulo/SP",
+        "endereco": "Av. de Pinedo, 228",
+        "area": 1312.18,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Caixa - Italianos - São Paulo/SP",
+        "endereco": "Rua dos Italianos, 609",
+        "area": 520.5,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

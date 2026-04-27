@@ -5,13 +5,17 @@
     "Nome": "Js Ativos Financeiros FII",
     "Setor": "FOFs/Hedge Funds",
     "Retorno - MTD": 0.0142,
-    "Retorno - 12M": 0.1594,
+    "Retorno - 12M": 0.1534,
     "P/VP": 0.84,
     "Último Dividendo Pago": 0.08,
     "DY a.a.": 0.122,
     "Visão Geral": "FII híbrido que investe em cotas de FIIs, CRIs e ações de empresas do segmento imobiliário, com mandato amplo e gestão ativa. É gerido pelo Safra Asset. A estratégia busca aproveitar oportunidades ao longo dos ciclos do setor, combinando ativos listados e crédito para gerar renda recorrente e ganho de capital.",
     "Comentário": "Em fevereiro, JSAF11 registrou valorização consolidada de 1,04%, superando índice IFIX em 0,32 p.p. Distribuição anunciada de R$0,080/cota corresponde a yield mensal de 0,99% ou 11,84% a.a., mantendo patamar iniciado em novembro. Resultado auferido foi superior ao distribuído, impulsionado por destravas de valor, permitindo recomposição de reservas para positiva em R$0,022/cota.",
-    "Preço Atual": 7.92
+    "Preço Atual": 7.87,
+    "% Dias Acima CDI 1A": 0.3589,
+    "% Dias Acima CDI 3A": 0.557,
+    "% Dias Acima CDI 5A": 0.5018,
+    "% Dias Acima CDI MAX": 0.5018
   },
   "historico_preco": [
     [
@@ -4401,6 +4405,22 @@
     [
       "2026-04-16",
       7.8
+    ],
+    [
+      "2026-04-17",
+      7.86
+    ],
+    [
+      "2026-04-20",
+      7.83
+    ],
+    [
+      "2026-04-22",
+      7.86
+    ],
+    [
+      "2026-04-23",
+      7.84
     ]
   ],
   "historico_preco_adj": [
@@ -8791,6 +8811,22 @@
     [
       "2026-04-16",
       7.8
+    ],
+    [
+      "2026-04-17",
+      7.86
+    ],
+    [
+      "2026-04-20",
+      7.83
+    ],
+    [
+      "2026-04-22",
+      7.86
+    ],
+    [
+      "2026-04-23",
+      7.84
     ]
   ],
   "historico_pvp": [
@@ -13381,6 +13417,26 @@
     [
       "2026-04-16",
       0.83326967907
+    ],
+    [
+      "2026-04-17",
+      0.83967944583
+    ],
+    [
+      "2026-04-20",
+      0.83647456245
+    ],
+    [
+      "2026-04-21",
+      0.83647456245
+    ],
+    [
+      "2026-04-22",
+      0.83967944583
+    ],
+    [
+      "2026-04-23",
+      0.83754285691
     ]
   ],
   "historico_dy": [
@@ -17751,12 +17807,845 @@
     [
       "2026-04-16",
       12.3077
+    ],
+    [
+      "2026-04-17",
+      12.2137
+    ],
+    [
+      "2026-04-20",
+      12.2605
+    ],
+    [
+      "2026-04-22",
+      12.2137
+    ],
+    [
+      "2026-04-23",
+      12.2449
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2021-12-31",
+      0.062
+    ],
+    [
+      "2022-01-31",
+      0.079
+    ],
+    [
+      "2022-02-28",
+      0.09
+    ],
+    [
+      "2022-03-31",
+      0.09
+    ],
+    [
+      "2022-04-30",
+      0.093
+    ],
+    [
+      "2022-05-31",
+      0.093
+    ],
+    [
+      "2022-06-30",
+      0.093
+    ],
+    [
+      "2022-07-31",
+      0.093
+    ],
+    [
+      "2022-08-31",
+      0.093
+    ],
+    [
+      "2022-09-30",
+      0.093
+    ],
+    [
+      "2022-10-31",
+      0.093
+    ],
+    [
+      "2022-11-30",
+      0.093
+    ],
+    [
+      "2022-12-31",
+      0.093
+    ],
+    [
+      "2023-01-31",
+      0.093
+    ],
+    [
+      "2023-02-28",
+      0.093
+    ],
+    [
+      "2023-03-31",
+      0.093
+    ],
+    [
+      "2023-04-30",
+      0.093
+    ],
+    [
+      "2023-05-31",
+      0.093
+    ],
+    [
+      "2023-06-30",
+      0.093
+    ],
+    [
+      "2023-07-31",
+      0.093
+    ],
+    [
+      "2023-08-31",
+      0.093
+    ],
+    [
+      "2023-09-30",
+      0.093
+    ],
+    [
+      "2023-10-31",
+      0.1
+    ],
+    [
+      "2023-11-30",
+      0.1
+    ],
+    [
+      "2023-12-31",
+      0.1
+    ],
+    [
+      "2024-01-31",
+      0.1
+    ],
+    [
+      "2024-02-29",
+      0.1
+    ],
+    [
+      "2024-03-31",
+      0.1
+    ],
+    [
+      "2024-04-30",
+      0.1
+    ],
+    [
+      "2024-05-31",
+      0.1
+    ],
+    [
+      "2024-06-30",
+      0.1
+    ],
+    [
+      "2024-07-31",
+      0.1
+    ],
+    [
+      "2024-08-31",
+      0.1
+    ],
+    [
+      "2024-09-30",
+      0.091
+    ],
+    [
+      "2024-10-31",
+      0.091
+    ],
+    [
+      "2024-11-30",
+      0.091
+    ],
+    [
+      "2024-12-31",
+      0.091
+    ],
+    [
+      "2025-01-31",
+      0.091
+    ],
+    [
+      "2025-02-28",
+      0.091
+    ],
+    [
+      "2025-03-31",
+      0.091
+    ],
+    [
+      "2025-04-30",
+      0.091
+    ],
+    [
+      "2025-05-31",
+      0.091
+    ],
+    [
+      "2025-06-30",
+      0.091
+    ],
+    [
+      "2025-07-31",
+      0.091
+    ],
+    [
+      "2025-08-31",
+      0.091
+    ],
+    [
+      "2025-09-30",
+      0.085
+    ],
+    [
+      "2025-10-31",
+      0.085
+    ],
+    [
+      "2025-11-30",
+      0.085
+    ],
+    [
+      "2025-12-31",
+      0.08
+    ],
+    [
+      "2026-01-31",
+      0.08
+    ],
+    [
+      "2026-02-28",
+      0.08
+    ],
+    [
+      "2026-03-31",
+      0.08
+    ],
+    [
+      "2026-04-30",
+      0.08
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 87396923.93,
     "Cotas de FIIs": 610047896.3,
     "CRI/CRA": 28343620.67,
     "Outros": 4172844.899999998
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "CSHG Prime Offices-HGPO11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10964.0,
+        "valor": 1600744.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VBI PRIME PROPERTIES RESP LIM - PVBI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4945.0,
+        "valor": 405490.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Rendimentos Imobiliários FII -KNCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": -1881.0,
+        "valor": -202226.31
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII FATOR VERITA - VRTA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 92888.0,
+        "valor": 7672548.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VBI Reits Multiestratégia - RVBI12",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 895880.0,
+        "valor": 0.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BB Fundo de Fundos - BBFO11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 63197.0,
+        "valor": 4067990.89
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BANCO CENTRAL",
+        "nome": "Compromissada",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10917.0,
+        "valor": 49753500.16
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Rendimentos Imobiliários FII -KNCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": -88.0,
+        "valor": -9460.88
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR Plus Multiestratégia Real Estate - RBRX11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2302340.0,
+        "valor": 19224539.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JS Real Estate Multigestão-JSRE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 208041.0,
+        "valor": 13830565.68
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIO BRAVO CREDITO IMOB HIGH GRAD - RBHG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16705.0,
+        "valor": 1108877.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EDIFÍCIO GALERIA - EDGA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2627.0,
+        "valor": 35937.36
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Patria Securities - PSEC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 787399.0,
+        "valor": 50826605.45
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Itaú Crédito Imobiliário IPCA - ICRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9482.0,
+        "valor": 861913.8
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "Virgo Companhia de Securitização",
+        "nome": "",
+        "emissao": "55",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 280.0,
+        "valor": 268950.46,
+        "nome_cri": "CRI CORP HSI BEMOL"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR Log-RBRL11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 236045.0,
+        "valor": 21831802.05
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CYRELA CREDITO - CYCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 246672.0,
+        "valor": 2183047.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR Rendimento High Grade-RBRR12",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3339.0,
+        "valor": 367.29
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR Rendimento High Grade-RBRR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20560.0,
+        "valor": 1800439.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Pátria Crédito Imobiliário Índice de Preços - PCIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 312823.0,
+        "valor": 26477338.72
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBR Properties - RBRP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 73517.0,
+        "valor": 4105924.45
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI MALLS FII - HSML11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 348351.0,
+        "valor": 32236401.54
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ALIANZA TRUST RENDA IMOBILIARIA - ALZR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 107700.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Hedge Recebíveis Imobiliários - HREC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3887765.0,
+        "valor": 31840795.35
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TELLUS RIO BRAVO RENDA LOGISTICA - TRBL11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 377880.0,
+        "valor": 26111508.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Índices de Preços - KNIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 149544.0,
+        "valor": 13539713.76
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Securities - KNSC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2114025.0,
+        "valor": 18624560.25
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Vectis Juros Real - VCJR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 139220.0,
+        "valor": 11318586.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRADESCO CARTEIRA IMOBILIÁRIA ATIVA - BCIA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 22805.0,
+        "valor": 2025084.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FDO INV IMOB RIO BRAVO RENDA CORPORATIVA - RCRB11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 356876.0,
+        "valor": 50283828.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG Pactual Logística - BTLG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 348275.0,
+        "valor": 35750428.75
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CSHG Recebíveis Imobiliários-HGCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 168693.0,
+        "valor": 16533600.93
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Rio Bravo Fundo de Fundos de Investimento Imob - RBFF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 130812.0,
+        "valor": 7080853.56
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI Ativos Financeiros - HSAF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 47671.0,
+        "valor": 3832748.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Guardian Real Estate - GARE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2530521.0,
+        "valor": 22926520.26
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HCO OPPS AERO 2",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9.605387,
+        "valor": 959999.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA HEDGE FUND - VGHF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 271061.0,
+        "valor": 1959771.03
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TIVIO RENDA IMOBILIÁRIA - TVRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 131623.0,
+        "valor": 13225479.04
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR Crédito Imob High Yield-RBRY11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 386607.0,
+        "valor": 37810164.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Fundo de Fundos - KFOF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 57406.0,
+        "valor": 5000062.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Rendimentos Imobiliários FII -KNCR12",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 603.0,
+        "valor": 144.72
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "Virgo Companhia de Securitização",
+        "nome": "",
+        "emissao": "55",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15676.0,
+        "valor": 15057384.14,
+        "nome_cri": "CRI CORP HSI BEMOL"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "Virgo Companhia de Securitização",
+        "nome": "",
+        "emissao": "186",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 398.0,
+        "valor": 417473.61,
+        "nome_cri": "CRI CORP EINSTEIN"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "General Shopping Ativo E Renda - FIGS11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 34902.0,
+        "valor": 1641092.04
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AUTONOMY EDIFÍCIOS CORPORATIVOS - AIEC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 17090.0,
+        "valor": 905599.1
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "Virgo Companhia de Securitização",
+        "nome": "",
+        "emissao": "55",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8575.0,
+        "valor": 8236608.12,
+        "nome_cri": "CRI CORP HSI BEMOL"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VBI CRI-CVBI12",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 223826.0,
+        "valor": 0.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII PROJETO AGUA BRANCA - FPAB11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 305727.0,
+        "valor": 64395278.01
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Hedge Fund - KNHF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 170473.0,
+        "valor": 16384160.03
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG Pactual Real Estate Hedge Fund - BTHF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1288080.0,
+        "valor": 11631362.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SANTANDER PAPÉIS IMOBILIÁRIOS FDO DE INV IMOB - SAPI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 557380.0,
+        "valor": 5127896.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BANCO CENTRAL",
+        "nome": "LFT",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 52.0,
+        "valor": 940435.05
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR Premium Recebíveis Imobiliários - RPRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16960.0,
+        "valor": 1448214.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Maua Capital Recebiveis-MCCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 70056.0,
+        "valor": 6412926.24
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Valora CRI CDI - VGIR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1876009.0,
+        "valor": 18441168.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "Virgo Companhia de Securitização",
+        "nome": "",
+        "emissao": "55",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4560.0,
+        "valor": 4380050.5,
+        "nome_cri": "CRI CORP HSI BEMOL"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Capitania Securities II-CPTS11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 251170.0,
+        "valor": 1946567.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SANTANDER PAPÉIS IMOBILIÁRIOS FDO DE INV IMOB - SAPI12",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 517589.0,
+        "valor": 0.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRPR CORPORATE OFFICES FDO DE INV IMOB - BROF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 433513.0,
+        "valor": 24450133.2
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

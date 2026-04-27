@@ -4,14 +4,18 @@
     "Ticker": "KFOF11",
     "Nome": "Fundo de Fundos de Investimento Imobiliário Kinea FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0144,
-    "Retorno - 12M": 0.2178,
+    "Retorno - MTD": 0.0157,
+    "Retorno - 12M": 0.217,
     "P/VP": 0.9,
     "Último Dividendo Pago": 0.8,
     "DY a.a.": 0.114,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, com gestão ativa e objetivo de capturar renda e valorização no mercado imobiliário listado. É gerido pela Kinea e teve início em março de 2018. A estratégia combina diversificação entre fundos e reciclagem tática de portfólio.",
     "Comentário": "Em março, cota patrimonial do KFOF caiu 0,14%, desempenho 0,92% superior à queda de 1,06% do IFIX, refletindo conflito geopolítico elevando expectativas de inflação e reduzindo espaço para cortes de juros. Distribuição anunciada de R$0,80/cota mantém patamar de R$0,75 a R$0,85 para primeiro semestre. Gestão reduziu posições em CRI e Multiestratégia, encerrando posições short em Shoppings com lucro.",
-    "Preço Atual": 84.51
+    "Preço Atual": 84.22,
+    "% Dias Acima CDI 1A": 0.5081,
+    "% Dias Acima CDI 3A": 0.5503,
+    "% Dias Acima CDI 5A": 0.4321,
+    "% Dias Acima CDI MAX": 0.4218
   },
   "historico_preco": [
     [
@@ -7121,6 +7125,22 @@
     [
       "2026-04-16",
       84.48
+    ],
+    [
+      "2026-04-17",
+      83.99
+    ],
+    [
+      "2026-04-20",
+      84.8
+    ],
+    [
+      "2026-04-22",
+      84.5
+    ],
+    [
+      "2026-04-23",
+      84.0
     ]
   ],
   "historico_preco_adj": [
@@ -14231,6 +14251,22 @@
     [
       "2026-04-16",
       84.48
+    ],
+    [
+      "2026-04-17",
+      83.99
+    ],
+    [
+      "2026-04-20",
+      84.8
+    ],
+    [
+      "2026-04-22",
+      84.5
+    ],
+    [
+      "2026-04-23",
+      84.0
     ]
   ],
   "historico_pvp": [
@@ -21689,6 +21725,26 @@
     [
       "2026-04-16",
       0.90596015449
+    ],
+    [
+      "2026-04-17",
+      0.90070541401
+    ],
+    [
+      "2026-04-20",
+      0.90939182174
+    ],
+    [
+      "2026-04-21",
+      0.90939182174
+    ],
+    [
+      "2026-04-22",
+      0.90617463369
+    ],
+    [
+      "2026-04-23",
+      0.90081265361
     ]
   ],
   "historico_dy": [
@@ -28787,11 +28843,722 @@
     [
       "2026-04-16",
       11.3636
+    ],
+    [
+      "2026-04-17",
+      11.4299
+    ],
+    [
+      "2026-04-20",
+      11.3208
+    ],
+    [
+      "2026-04-22",
+      11.3609
+    ],
+    [
+      "2026-04-23",
+      11.4286
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2019-03-31",
+      0.58
+    ],
+    [
+      "2019-04-30",
+      0.46
+    ],
+    [
+      "2019-05-31",
+      0.52
+    ],
+    [
+      "2019-06-30",
+      0.56
+    ],
+    [
+      "2019-07-31",
+      0.68
+    ],
+    [
+      "2019-08-31",
+      0.54
+    ],
+    [
+      "2019-09-30",
+      0.54
+    ],
+    [
+      "2019-10-31",
+      0.54
+    ],
+    [
+      "2019-11-30",
+      0.54
+    ],
+    [
+      "2019-12-31",
+      0.54
+    ],
+    [
+      "2020-01-31",
+      0.54
+    ],
+    [
+      "2020-02-29",
+      0.54
+    ],
+    [
+      "2020-03-31",
+      0.54
+    ],
+    [
+      "2020-04-30",
+      0.45
+    ],
+    [
+      "2020-05-31",
+      0.45
+    ],
+    [
+      "2020-06-30",
+      0.45
+    ],
+    [
+      "2020-07-31",
+      0.91
+    ],
+    [
+      "2020-08-31",
+      0.46
+    ],
+    [
+      "2020-09-30",
+      0.46
+    ],
+    [
+      "2020-10-31",
+      0.46
+    ],
+    [
+      "2020-11-30",
+      0.46
+    ],
+    [
+      "2020-12-31",
+      0.5
+    ],
+    [
+      "2021-01-31",
+      0.5
+    ],
+    [
+      "2021-02-28",
+      0.5
+    ],
+    [
+      "2021-03-31",
+      0.55
+    ],
+    [
+      "2021-04-30",
+      0.55
+    ],
+    [
+      "2021-05-31",
+      0.55
+    ],
+    [
+      "2021-06-30",
+      0.55
+    ],
+    [
+      "2021-07-31",
+      0.88
+    ],
+    [
+      "2021-08-31",
+      0.57
+    ],
+    [
+      "2021-09-30",
+      0.58
+    ],
+    [
+      "2021-10-31",
+      0.58
+    ],
+    [
+      "2021-11-30",
+      0.58
+    ],
+    [
+      "2021-12-31",
+      0.48
+    ],
+    [
+      "2022-01-31",
+      0.61
+    ],
+    [
+      "2022-02-28",
+      0.63
+    ],
+    [
+      "2022-03-31",
+      0.65
+    ],
+    [
+      "2022-04-30",
+      0.68
+    ],
+    [
+      "2022-05-31",
+      0.68
+    ],
+    [
+      "2022-06-30",
+      0.68
+    ],
+    [
+      "2022-07-31",
+      0.7
+    ],
+    [
+      "2022-08-31",
+      0.7
+    ],
+    [
+      "2022-09-30",
+      0.7
+    ],
+    [
+      "2022-10-31",
+      0.72
+    ],
+    [
+      "2022-11-30",
+      0.72
+    ],
+    [
+      "2022-12-31",
+      0.72
+    ],
+    [
+      "2023-01-31",
+      0.72
+    ],
+    [
+      "2023-02-28",
+      0.72
+    ],
+    [
+      "2023-03-31",
+      0.72
+    ],
+    [
+      "2023-04-30",
+      0.72
+    ],
+    [
+      "2023-05-31",
+      0.75
+    ],
+    [
+      "2023-06-30",
+      0.75
+    ],
+    [
+      "2023-07-31",
+      1.0
+    ],
+    [
+      "2023-08-31",
+      0.75
+    ],
+    [
+      "2023-09-30",
+      0.75
+    ],
+    [
+      "2023-10-31",
+      0.8
+    ],
+    [
+      "2023-11-30",
+      0.8
+    ],
+    [
+      "2023-12-31",
+      0.8
+    ],
+    [
+      "2024-01-31",
+      1.03
+    ],
+    [
+      "2024-02-29",
+      0.8
+    ],
+    [
+      "2024-03-31",
+      0.8
+    ],
+    [
+      "2024-04-30",
+      0.8
+    ],
+    [
+      "2024-05-31",
+      0.8
+    ],
+    [
+      "2024-06-30",
+      0.8
+    ],
+    [
+      "2024-07-31",
+      0.75
+    ],
+    [
+      "2024-08-31",
+      0.75
+    ],
+    [
+      "2024-09-30",
+      0.75
+    ],
+    [
+      "2024-10-31",
+      0.75
+    ],
+    [
+      "2024-11-30",
+      0.75
+    ],
+    [
+      "2024-12-31",
+      0.75
+    ],
+    [
+      "2025-01-31",
+      0.75
+    ],
+    [
+      "2025-02-28",
+      0.75
+    ],
+    [
+      "2025-03-31",
+      0.75
+    ],
+    [
+      "2025-04-30",
+      0.75
+    ],
+    [
+      "2025-05-31",
+      0.75
+    ],
+    [
+      "2025-06-30",
+      0.75
+    ],
+    [
+      "2025-07-31",
+      0.75
+    ],
+    [
+      "2025-08-31",
+      0.75
+    ],
+    [
+      "2025-09-30",
+      0.8
+    ],
+    [
+      "2025-10-31",
+      0.8
+    ],
+    [
+      "2025-11-30",
+      0.8
+    ],
+    [
+      "2025-12-31",
+      0.8
+    ],
+    [
+      "2026-01-31",
+      0.8
+    ],
+    [
+      "2026-02-28",
+      0.8
+    ],
+    [
+      "2026-03-31",
+      0.8
+    ],
+    [
+      "2026-04-30",
+      0.8
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 81901459.63,
     "Cotas de FIIs": 504957327.15,
     "CRI/CRA": 80185785.7
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "FII VBI LOGISTICO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 525936.0,
+        "valor": 59031056.64
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CLAVE ÍNDICES DE PREÇOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 169505.0,
+        "valor": 14916440.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "IRIDIUM FUNDO DE INVESTIMENTO IMOBILIÁRI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 53744.0,
+        "valor": 3654592.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TIVIO RENDA IMOBILIÁRIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 67176.0,
+        "valor": 6749844.48
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE AAA FUNDO DE INVESTIMENTO IMOBIL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 100000.0,
+        "valor": 5499000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP LOG FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 200820.0,
+        "valor": 21250772.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA MALLS FUNDO DE INVESTIMENTO IMOBI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 29592.0,
+        "valor": 3114262.08
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI MALLS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 596351.0,
+        "valor": 55186321.54
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ARCH EDIFÍCIOS CORPORATIVOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 200077.0,
+        "valor": 10602080.23
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI ATIVOS FINANCEIROS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 79578.0,
+        "valor": 6398071.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA HEDGE FUND FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 243342.0,
+        "valor": 23387599.62
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII VIA PARQUE SHOPPING",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 126484.0,
+        "valor": 8917122.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA HIGH YIELD CRI FUNDO DE INVESTIMEN",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 230431.0,
+        "valor": 23169837.05
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SBCLB RIZA VISEU FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 12694059.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JS REAL ESTATE MULTIGESTAO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 238260.0,
+        "valor": 15839524.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII BTG PACTUAL CORPORATE OFFICE FUND",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 461974.0,
+        "valor": 21227705.3
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VINCI SHOPPING CENTERS FUNDO INVESTIMENT",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 358282.0,
+        "valor": 39067069.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII SUCESSPAR VAREJO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 92192.0,
+        "valor": 2188268.46
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PLUS MULTIESTRATÉGIA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 365887.0,
+        "valor": 3055156.45
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA CRÉDITO IMOBILIÁRIO ÍNDICE DE PRE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 256990.0,
+        "valor": 21751633.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE BRASIL SHOPPING FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 493790.0,
+        "valor": 9875800.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBR RENDIMENTO HIGH GRADE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 197440.0,
+        "valor": 17289820.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO INVESTIMENTO IMOBILIARIO TG ATIVO REAL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 113554.0,
+        "valor": 10560522.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA CRI CDI FUNDO DE INVESTIMENTO IMOB",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4200360.0,
+        "valor": 41289538.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RIO BRAVO RENDA CORPORATIVA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 75301.0,
+        "valor": 10609910.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SANTANDER PAPÉIS IMOBILIÁRIOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 836871.0,
+        "valor": 7699213.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA LOGÍSTICA AGRO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 14869.0,
+        "valor": 765753.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SBCLB RIZA VISEU FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 12746813.73
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITÂNIA SECURITIES II FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3525630.0,
+        "valor": 27323632.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIO BRAVO RENDA VAREJO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2625590.0,
+        "valor": 27227368.3
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PRIVATE CREDITO IMOB FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 176502.0,
+        "valor": 17261895.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FDO INV IMOB  FII CENESP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 462053.0,
+        "valor": 817833.81
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA AS",
+        "nome": "",
+        "emissao": "240",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 30191373.88,
+        "nome_cri": "CRI SBC"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRESCO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 206243.0,
+        "valor": 24313987.27
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

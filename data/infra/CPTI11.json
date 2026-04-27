@@ -6,14 +6,14 @@
     "Tipo": "FI-Infra",
     "Setor": "FI-Infra",
     "CNPJ": "38065012000177",
-    "Preço Atual": 89.87,
-    "Variação Dia": 0.55,
-    "P/VP": 0.953175482962202,
-    "VP/cota": 94.2848422,
-    "DY a.a.": 0.13853343718704797,
+    "Preço Atual": 90.0,
+    "Variação Dia": -0.39,
+    "P/VP": 0.9606257018858387,
+    "VP/cota": 93.6889361,
+    "DY a.a.": 0.13833333333333334,
     "Último Dividendo Pago": 1.15,
-    "Retorno - MTD": 0.012847965738758127,
-    "Retorno - 12M": 0.2490660929522761,
+    "Retorno - MTD": 0.014313084638791773,
+    "Retorno - 12M": 0.23515544512742292,
     "Visão Geral": "FI-Infra de renda fixa gerido pela Capitânia Investimentos, casa tradicional de crédito privado no Brasil, com administração do BTG Pactual. O mandato abrange predominantemente debêntures incentivadas ligadas à Lei 12.431, com indexação típica ao IPCA e carteira pulverizada entre os setores de infraestrutura — energia, rodovias, saneamento, telecom e transporte. A filosofia é de gestão ativa e diversificada, com exposição média reduzida por ativo, foco em preservação de capital, disciplina de preço e geração consistente de renda real. Como característica estrutural, os rendimentos e ganhos de capital são isentos de IR para pessoa física, atributo permanente do veículo.",
     "Comentário": "A distribuição foi mantida em R$ 1,15/cota, no topo do guidance, equivalente a DY anualizado de 16,48%. Os spreads de crédito infraestrutura abriram no mês, com carrego da carteira subindo para IPCA+9,16%, spread over B ampliado de 194 para 167 bps e duration alongada de 4,63 para 4,69 anos. Foram incluídas duas novas debêntures: Unifique Telecom a IPCA+8,0% e EPR Litoral Pioneiro a IPCA+8,2%, reforçando diversificação setorial.",
     "Mês Ref. Comentário": "mar/26"
@@ -4918,6 +4918,22 @@
     [
       "2026-04-16",
       88.65
+    ],
+    [
+      "2026-04-17",
+      89.38
+    ],
+    [
+      "2026-04-20",
+      89.55
+    ],
+    [
+      "2026-04-22",
+      89.96
+    ],
+    [
+      "2026-04-23",
+      90.01
     ]
   ],
   "historico_preco_adj": [
@@ -9820,6 +9836,22 @@
     [
       "2026-04-16",
       88.65
+    ],
+    [
+      "2026-04-17",
+      89.38
+    ],
+    [
+      "2026-04-20",
+      89.55
+    ],
+    [
+      "2026-04-22",
+      89.96
+    ],
+    [
+      "2026-04-23",
+      90.01
     ]
   ],
   "historico_dy": [
@@ -14506,6 +14538,22 @@
     [
       "2026-04-16",
       15.5668
+    ],
+    [
+      "2026-04-17",
+      15.4397
+    ],
+    [
+      "2026-04-20",
+      15.4104
+    ],
+    [
+      "2026-04-22",
+      15.3402
+    ],
+    [
+      "2026-04-23",
+      15.3316
     ]
   ],
   "historico_pvp": [
@@ -19367,47 +19415,63 @@
     ],
     [
       "2026-04-01",
-      0.9368
+      0.937
     ],
     [
       "2026-04-02",
-      0.936
+      0.9365
     ],
     [
       "2026-04-06",
-      0.9402
+      0.9416
     ],
     [
       "2026-04-07",
-      0.9388
+      0.9404
     ],
     [
       "2026-04-08",
-      0.9373
+      0.9391
     ],
     [
       "2026-04-09",
-      0.938
-    ],
-    [
-      "2026-04-10",
-      0.9368
-    ],
-    [
-      "2026-04-13",
-      0.9378
-    ],
-    [
-      "2026-04-14",
-      0.9405
-    ],
-    [
-      "2026-04-15",
       0.9401
     ],
     [
+      "2026-04-10",
+      0.9391
+    ],
+    [
+      "2026-04-13",
+      0.9408
+    ],
+    [
+      "2026-04-14",
+      0.9437
+    ],
+    [
+      "2026-04-15",
+      0.9436
+    ],
+    [
       "2026-04-16",
-      0.9402
+      0.9439
+    ],
+    [
+      "2026-04-17",
+      0.952
+    ],
+    [
+      "2026-04-20",
+      0.9548
+    ],
+    [
+      "2026-04-22",
+      0.9599
+    ],
+    [
+      "2026-04-23",
+      0.9607
     ]
   ],
   "historico_vp": [
@@ -19664,8 +19728,8 @@
       94.4293094
     ],
     [
-      "2026-04-16",
-      94.2848422
+      "2026-04-23",
+      93.6889361
     ]
   ],
   "historico_dpc": [

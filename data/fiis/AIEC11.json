@@ -4,14 +4,18 @@
     "Ticker": "AIEC11",
     "Nome": "Arch Edifícios Corporativos FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.019,
-    "Retorno - 12M": 0.4691,
+    "Retorno - MTD": 0.0185,
+    "Retorno - 12M": 0.4814,
     "P/VP": 0.81,
     "Último Dividendo Pago": 0.34,
     "DY a.a.": 0.066,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em locação e geração de renda mensal. O fundo atua no segmento corporativo e mantém gestão voltada à comercialização e ocupação dos ativos. Porte, número de imóveis, localização consolidada e perfil contratual completo aparecem como N/A nas fontes consultadas.",
     "Comentário": "O AIEC11 avançou significativamente em ocupação com a conclusão de locação 100% do Standard Building para Rede D'Or, gerando receita 13,3% superior ao laudo de avaliação e adicionando R$3,94/cota de valor. No Rochaverá Torre D, negociações avançadas com volume 3x superior à área vaga sinalizaram caminho para ocupação plena. A liquidez do fundo disparou 425,6% em março, refletindo maior confiança dos investidores.",
-    "Preço Atual": 61.52
+    "Preço Atual": 61.51,
+    "% Dias Acima CDI 1A": 0.5323,
+    "% Dias Acima CDI 3A": 0.1772,
+    "% Dias Acima CDI 5A": 0.173,
+    "% Dias Acima CDI MAX": 0.173
   },
   "historico_preco": [
     [
@@ -5493,6 +5497,22 @@
     [
       "2026-04-16",
       61.5
+    ],
+    [
+      "2026-04-17",
+      61.81
+    ],
+    [
+      "2026-04-20",
+      62.0
+    ],
+    [
+      "2026-04-22",
+      61.88
+    ],
+    [
+      "2026-04-23",
+      61.56
     ]
   ],
   "historico_preco_adj": [
@@ -10975,6 +10995,22 @@
     [
       "2026-04-16",
       61.5
+    ],
+    [
+      "2026-04-17",
+      61.81
+    ],
+    [
+      "2026-04-20",
+      62.0
+    ],
+    [
+      "2026-04-22",
+      61.88
+    ],
+    [
+      "2026-04-23",
+      61.56
     ]
   ],
   "historico_pvp": [
@@ -16721,6 +16757,26 @@
     [
       "2026-04-16",
       0.81019705783
+    ],
+    [
+      "2026-04-17",
+      0.81428097796
+    ],
+    [
+      "2026-04-20",
+      0.81678402578
+    ],
+    [
+      "2026-04-21",
+      0.81678402578
+    ],
+    [
+      "2026-04-22",
+      0.81520315347
+    ],
+    [
+      "2026-04-23",
+      0.81098749399
     ]
   ],
   "historico_dy": [
@@ -22155,10 +22211,336 @@
     [
       "2026-04-16",
       6.6341
+    ],
+    [
+      "2026-04-17",
+      6.6009
+    ],
+    [
+      "2026-04-20",
+      6.5806
+    ],
+    [
+      "2026-04-22",
+      6.5934
+    ],
+    [
+      "2026-04-23",
+      6.6277
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-11-30",
+      0.54
+    ],
+    [
+      "2020-12-31",
+      0.57
+    ],
+    [
+      "2021-01-31",
+      0.57
+    ],
+    [
+      "2021-02-28",
+      0.56
+    ],
+    [
+      "2021-03-31",
+      0.57
+    ],
+    [
+      "2021-04-30",
+      0.57
+    ],
+    [
+      "2021-05-31",
+      0.57
+    ],
+    [
+      "2021-06-30",
+      0.57
+    ],
+    [
+      "2021-07-31",
+      0.57
+    ],
+    [
+      "2021-08-31",
+      0.61
+    ],
+    [
+      "2021-09-30",
+      0.61
+    ],
+    [
+      "2021-10-31",
+      0.61
+    ],
+    [
+      "2021-11-30",
+      0.61
+    ],
+    [
+      "2021-12-31",
+      0.61
+    ],
+    [
+      "2022-01-31",
+      0.61
+    ],
+    [
+      "2022-02-28",
+      0.61
+    ],
+    [
+      "2022-03-31",
+      0.68
+    ],
+    [
+      "2022-04-30",
+      1.31
+    ],
+    [
+      "2022-05-31",
+      0.72
+    ],
+    [
+      "2022-06-30",
+      0.72
+    ],
+    [
+      "2022-07-31",
+      0.8
+    ],
+    [
+      "2022-08-31",
+      0.72
+    ],
+    [
+      "2022-09-30",
+      0.73
+    ],
+    [
+      "2022-10-31",
+      0.73
+    ],
+    [
+      "2022-11-30",
+      0.74
+    ],
+    [
+      "2022-12-31",
+      0.75
+    ],
+    [
+      "2023-01-31",
+      1.32
+    ],
+    [
+      "2023-02-28",
+      0.18
+    ],
+    [
+      "2023-03-31",
+      0.75
+    ],
+    [
+      "2023-04-30",
+      0.76
+    ],
+    [
+      "2023-05-31",
+      0.77
+    ],
+    [
+      "2023-06-30",
+      0.78
+    ],
+    [
+      "2023-07-31",
+      0.78
+    ],
+    [
+      "2023-08-31",
+      0.76
+    ],
+    [
+      "2023-09-30",
+      0.76
+    ],
+    [
+      "2023-10-31",
+      0.76
+    ],
+    [
+      "2023-11-30",
+      0.76
+    ],
+    [
+      "2023-12-31",
+      0.78
+    ],
+    [
+      "2024-01-31",
+      1.33
+    ],
+    [
+      "2024-02-29",
+      0.17
+    ],
+    [
+      "2024-03-31",
+      0.71
+    ],
+    [
+      "2024-04-30",
+      0.71
+    ],
+    [
+      "2024-05-31",
+      0.71
+    ],
+    [
+      "2024-06-30",
+      0.73
+    ],
+    [
+      "2024-07-31",
+      0.73
+    ],
+    [
+      "2024-08-31",
+      0.73
+    ],
+    [
+      "2024-09-30",
+      0.73
+    ],
+    [
+      "2024-10-31",
+      0.73
+    ],
+    [
+      "2024-11-30",
+      0.62
+    ],
+    [
+      "2024-12-31",
+      0.62
+    ],
+    [
+      "2025-01-31",
+      1.22
+    ],
+    [
+      "2025-02-28",
+      0.17
+    ],
+    [
+      "2025-03-31",
+      0.32
+    ],
+    [
+      "2025-04-30",
+      0.32
+    ],
+    [
+      "2025-05-31",
+      0.32
+    ],
+    [
+      "2025-06-30",
+      0.32
+    ],
+    [
+      "2025-07-31",
+      0.32
+    ],
+    [
+      "2025-08-31",
+      0.34
+    ],
+    [
+      "2025-09-30",
+      0.34
+    ],
+    [
+      "2025-10-31",
+      0.34
+    ],
+    [
+      "2025-11-30",
+      0.34
+    ],
+    [
+      "2025-12-31",
+      0.34
+    ],
+    [
+      "2026-01-31",
+      0.34
+    ],
+    [
+      "2026-02-28",
+      0.34
+    ],
+    [
+      "2026-03-31",
+      0.34
+    ],
+    [
+      "2026-04-30",
+      0.34
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 33082842.92,
     "Imóveis": 334489507.37
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FICFI ITAU SOBERANO RENDA FIXA SIMPLES LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 266981.80818,
+        "valor": 21708590.63
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAU RF REFERENCIADO DI GRAU DE INVESTIMENTO FC",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2768580.9629,
+        "valor": 3864892.18
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Standard Building",
+        "endereco": "Avenida Presidente Wilson, 118 - Centro - Rio de Janeiro - RJ",
+        "area": 8341.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Rochavera - Torre D",
+        "endereco": "Avenida das Nações Unidas, 14.171 - Chucri Zaidan - São Paulo - SP",
+        "area": 14648.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

@@ -4,14 +4,18 @@
     "Ticker": "VIUR11",
     "Nome": "Vinci Imoveis Urbanos FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": -0.5971,
-    "Retorno - 12M": -0.5244,
+    "Retorno - MTD": -0.5895,
+    "Retorno - 12M": -0.5146,
     "P/VP": 0.28,
     "Último Dividendo Pago": 0.0,
     "DY a.a.": 0.0,
     "Visão Geral": "FII de renda urbana que investe em imóveis comerciais urbanos, com foco em ativos de varejo e serviços geradores de aluguel. É gerido pela Vinci e contava com 43.783 cotistas em dezembro de 2025. A estratégia combina renda recorrente, reciclagem patrimonial e alocação em imóveis localizados em centros urbanos relevantes.",
     "Comentário": "Resultado negativo de R$-0,102/cota sem distribuição mensal. Fundo declarou primeira amortização parcial de R$102,2 mi (R$3,528/cota) via TRXF11. Inadimplência FACAMP em dois meses reclama providências legais com cobertura via seguro fiança, redefinindo posicionamento e sinalizando possível exit estratégico via TRX.",
-    "Preço Atual": 2.23
+    "Preço Atual": 2.38,
+    "% Dias Acima CDI 1A": 0.4153,
+    "% Dias Acima CDI 3A": 0.3973,
+    "% Dias Acima CDI 5A": 0.3529,
+    "% Dias Acima CDI MAX": 0.3529
   },
   "historico_preco": [
     [
@@ -4873,6 +4877,22 @@
     [
       "2026-04-16",
       2.05
+    ],
+    [
+      "2026-04-17",
+      2.14
+    ],
+    [
+      "2026-04-20",
+      2.19
+    ],
+    [
+      "2026-04-22",
+      2.26
+    ],
+    [
+      "2026-04-23",
+      2.21
     ]
   ],
   "historico_preco_adj": [
@@ -9735,6 +9755,22 @@
     [
       "2026-04-16",
       2.05
+    ],
+    [
+      "2026-04-17",
+      2.14
+    ],
+    [
+      "2026-04-20",
+      2.19
+    ],
+    [
+      "2026-04-22",
+      2.26
+    ],
+    [
+      "2026-04-23",
+      2.21
     ]
   ],
   "historico_pvp": [
@@ -14817,6 +14853,26 @@
     [
       "2026-04-16",
       0.26782682735
+    ],
+    [
+      "2026-04-17",
+      0.27958507831
+    ],
+    [
+      "2026-04-20",
+      0.28611743995
+    ],
+    [
+      "2026-04-21",
+      0.28611743995
+    ],
+    [
+      "2026-04-22",
+      0.29526274625
+    ],
+    [
+      "2026-04-23",
+      0.28873038461
     ]
   ],
   "historico_dy": [
@@ -19473,10 +19529,291 @@
       17.451
     ]
   ],
+  "historico_dpc": [
+    [
+      "2021-07-31",
+      0.065
+    ],
+    [
+      "2021-08-31",
+      0.067
+    ],
+    [
+      "2021-09-30",
+      0.067
+    ],
+    [
+      "2021-10-31",
+      0.067
+    ],
+    [
+      "2021-11-30",
+      0.067
+    ],
+    [
+      "2021-12-31",
+      0.068
+    ],
+    [
+      "2022-01-31",
+      0.071
+    ],
+    [
+      "2022-02-28",
+      0.07
+    ],
+    [
+      "2022-03-31",
+      0.07
+    ],
+    [
+      "2022-04-30",
+      0.07
+    ],
+    [
+      "2022-05-31",
+      0.076
+    ],
+    [
+      "2022-06-30",
+      0.072
+    ],
+    [
+      "2022-07-31",
+      0.072
+    ],
+    [
+      "2022-08-31",
+      0.072
+    ],
+    [
+      "2022-09-30",
+      0.072
+    ],
+    [
+      "2022-10-31",
+      0.072
+    ],
+    [
+      "2022-11-30",
+      0.072
+    ],
+    [
+      "2022-12-31",
+      0.072
+    ],
+    [
+      "2023-01-31",
+      0.072
+    ],
+    [
+      "2023-02-28",
+      0.072
+    ],
+    [
+      "2023-03-31",
+      0.072
+    ],
+    [
+      "2023-04-30",
+      0.072
+    ],
+    [
+      "2023-05-31",
+      0.072
+    ],
+    [
+      "2023-06-30",
+      0.072
+    ],
+    [
+      "2023-07-31",
+      0.072
+    ],
+    [
+      "2023-08-31",
+      0.072
+    ],
+    [
+      "2023-09-30",
+      0.072
+    ],
+    [
+      "2023-10-31",
+      0.072
+    ],
+    [
+      "2023-11-30",
+      0.072
+    ],
+    [
+      "2023-12-31",
+      0.072
+    ],
+    [
+      "2024-01-31",
+      0.072
+    ],
+    [
+      "2024-02-29",
+      0.072
+    ],
+    [
+      "2024-03-31",
+      0.067
+    ],
+    [
+      "2024-04-30",
+      0.067
+    ],
+    [
+      "2024-05-31",
+      0.067
+    ],
+    [
+      "2024-06-30",
+      0.067
+    ],
+    [
+      "2024-07-31",
+      0.067
+    ],
+    [
+      "2024-08-31",
+      0.067
+    ],
+    [
+      "2024-09-30",
+      0.067
+    ],
+    [
+      "2024-10-31",
+      0.067
+    ],
+    [
+      "2024-11-30",
+      0.067
+    ],
+    [
+      "2024-12-31",
+      0.067
+    ],
+    [
+      "2025-01-31",
+      0.067
+    ],
+    [
+      "2025-02-28",
+      0.067
+    ],
+    [
+      "2025-03-31",
+      0.067
+    ],
+    [
+      "2025-04-30",
+      0.067
+    ],
+    [
+      "2025-05-31",
+      0.067
+    ],
+    [
+      "2025-06-30",
+      0.067
+    ],
+    [
+      "2025-07-31",
+      0.067
+    ],
+    [
+      "2025-08-31",
+      0.067
+    ],
+    [
+      "2025-09-30",
+      0.067
+    ],
+    [
+      "2025-10-31",
+      0.067
+    ],
+    [
+      "2025-11-30",
+      0.067
+    ],
+    [
+      "2025-12-31",
+      0.067
+    ],
+    [
+      "2026-01-31",
+      0.089
+    ],
+    [
+      "2026-02-28",
+      0.2067
+    ],
+    [
+      "2026-03-31",
+      0.0
+    ],
+    [
+      "2026-04-30",
+      0.0
+    ]
+  ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 53307049.81,
     "Imóveis": 48000000.0,
     "Cotas de FIIs": 107087566.05,
     "Outros": 8.847564458847046e-09
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "DAYCOVAL TÍTULOS PÚBLICOS IV FIRF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16718548.1529367,
+        "valor": 28126141.18
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TRX REAL ESTATE FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1571474.0,
+        "valor": 153957307.78
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EQI RECEBÍVEIS  IMOBILIÁRIOS FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 76.0,
+        "valor": 627.0
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "FACAMP",
+        "endereco": "Rua Candido Benício, 1671, Jacarepaguá, Rio de Janeiro - RJ",
+        "area": 402.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

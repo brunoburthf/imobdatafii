@@ -4,14 +4,18 @@
     "Ticker": "ARRI11",
     "Nome": "FII Atrio Reit Recebiveis Imobiliarios",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.0956,
-    "Retorno - 12M": -0.0286,
-    "P/VP": 0.73,
+    "Retorno - MTD": -0.1074,
+    "Retorno - 12M": -0.0451,
+    "P/VP": 0.72,
     "Último Dividendo Pago": 0.07,
-    "DY a.a.": 0.137,
+    "DY a.a.": 0.138,
     "Visão Geral": "FII de papel que investe em CRIs, LCIs, LHs e outros ativos financeiros imobiliários, com foco em crédito e renda recorrente. É gerido pela Atrio e iniciou atividades em outubro de 2019. A estratégia prioriza originação própria, gestão ativa e carteira voltada ao mercado de recebíveis imobiliários.",
     "Comentário": "O ARRI11 distribuiu R$0,09/cota em fevereiro, mantendo consistência em rendimentos, com dividend yield mensal de 1,28% e anualizado de 16,47%. A carteira de crédito imobiliário permaneceu estável com taxa média de IPCA+11,64% e CDI+5,02%, diversificada entre 20 ativos em 8 estados. O gestor prosseguiu com foco em operações high-yield com garantias estruturadas, preservando o padrão de risco.",
-    "Preço Atual": 6.13
+    "Preço Atual": 6.09,
+    "% Dias Acima CDI 1A": 0.0,
+    "% Dias Acima CDI 3A": 0.3302,
+    "% Dias Acima CDI 5A": 0.4843,
+    "% Dias Acima CDI MAX": 0.4853
   },
   "historico_preco": [
     [
@@ -6413,6 +6417,22 @@
     [
       "2026-04-16",
       6.06
+    ],
+    [
+      "2026-04-17",
+      6.15
+    ],
+    [
+      "2026-04-20",
+      6.07
+    ],
+    [
+      "2026-04-22",
+      6.18
+    ],
+    [
+      "2026-04-23",
+      6.11
     ]
   ],
   "historico_preco_adj": [
@@ -12815,6 +12835,22 @@
     [
       "2026-04-16",
       6.06
+    ],
+    [
+      "2026-04-17",
+      6.15
+    ],
+    [
+      "2026-04-20",
+      6.07
+    ],
+    [
+      "2026-04-22",
+      6.18
+    ],
+    [
+      "2026-04-23",
+      6.11
     ]
   ],
   "historico_pvp": [
@@ -19537,6 +19573,26 @@
     [
       "2026-04-16",
       0.72334019482
+    ],
+    [
+      "2026-04-17",
+      0.73408287098
+    ],
+    [
+      "2026-04-20",
+      0.72453382551
+    ],
+    [
+      "2026-04-21",
+      0.72453382551
+    ],
+    [
+      "2026-04-22",
+      0.73766376304
+    ],
+    [
+      "2026-04-23",
+      0.72930834825
     ]
   ],
   "historico_dy": [
@@ -25807,13 +25863,617 @@
     [
       "2026-04-16",
       13.8614
+    ],
+    [
+      "2026-04-17",
+      13.6585
+    ],
+    [
+      "2026-04-20",
+      13.8386
+    ],
+    [
+      "2026-04-22",
+      13.5922
+    ],
+    [
+      "2026-04-23",
+      13.748
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2019-12-31",
+      0.0
+    ],
+    [
+      "2020-01-31",
+      0.05500037974
+    ],
+    [
+      "2020-02-29",
+      0.03955574783
+    ],
+    [
+      "2020-03-31",
+      0.02818154965
+    ],
+    [
+      "2020-04-30",
+      0.06312009298
+    ],
+    [
+      "2020-05-31",
+      0.04362327617
+    ],
+    [
+      "2020-06-30",
+      0.03246553636
+    ],
+    [
+      "2020-07-31",
+      0.03684072687
+    ],
+    [
+      "2020-08-31",
+      0.04926214113
+    ],
+    [
+      "2020-09-30",
+      0.058873492
+    ],
+    [
+      "2020-10-31",
+      0.053089867
+    ],
+    [
+      "2020-11-30",
+      0.081199749
+    ],
+    [
+      "2020-12-31",
+      0.07991808164
+    ],
+    [
+      "2021-01-31",
+      0.08018867041
+    ],
+    [
+      "2021-02-28",
+      0.11936459114
+    ],
+    [
+      "2021-03-31",
+      0.11032352675
+    ],
+    [
+      "2021-04-30",
+      0.114613507
+    ],
+    [
+      "2021-05-31",
+      0.10453657406
+    ],
+    [
+      "2021-06-30",
+      0.111586896
+    ],
+    [
+      "2021-07-31",
+      0.17666956785
+    ],
+    [
+      "2021-08-31",
+      0.086888232
+    ],
+    [
+      "2021-09-30",
+      0.09116437097
+    ],
+    [
+      "2021-10-31",
+      0.111
+    ],
+    [
+      "2021-11-30",
+      0.141
+    ],
+    [
+      "2021-12-31",
+      0.147
+    ],
+    [
+      "2022-01-31",
+      0.175
+    ],
+    [
+      "2022-02-28",
+      0.131
+    ],
+    [
+      "2022-03-31",
+      0.13
+    ],
+    [
+      "2022-04-30",
+      0.134
+    ],
+    [
+      "2022-05-31",
+      0.128235133
+    ],
+    [
+      "2022-06-30",
+      0.141
+    ],
+    [
+      "2022-07-31",
+      0.118
+    ],
+    [
+      "2022-08-31",
+      0.131
+    ],
+    [
+      "2022-09-30",
+      0.11
+    ],
+    [
+      "2022-10-31",
+      0.14
+    ],
+    [
+      "2022-11-30",
+      0.11
+    ],
+    [
+      "2022-12-31",
+      0.13
+    ],
+    [
+      "2023-01-31",
+      0.13
+    ],
+    [
+      "2023-02-28",
+      0.13
+    ],
+    [
+      "2023-03-31",
+      0.07
+    ],
+    [
+      "2023-04-30",
+      0.1101
+    ],
+    [
+      "2023-05-31",
+      0.11
+    ],
+    [
+      "2023-06-30",
+      0.11
+    ],
+    [
+      "2023-07-31",
+      0.11
+    ],
+    [
+      "2023-08-31",
+      0.1
+    ],
+    [
+      "2023-09-30",
+      0.1
+    ],
+    [
+      "2023-10-31",
+      0.1
+    ],
+    [
+      "2023-11-30",
+      0.09
+    ],
+    [
+      "2023-12-31",
+      0.1
+    ],
+    [
+      "2024-01-31",
+      0.1
+    ],
+    [
+      "2024-02-29",
+      0.1
+    ],
+    [
+      "2024-03-31",
+      0.1
+    ],
+    [
+      "2024-04-30",
+      0.1
+    ],
+    [
+      "2024-05-31",
+      0.1
+    ],
+    [
+      "2024-06-30",
+      0.105
+    ],
+    [
+      "2024-07-31",
+      0.105
+    ],
+    [
+      "2024-08-31",
+      0.1
+    ],
+    [
+      "2024-09-30",
+      0.1
+    ],
+    [
+      "2024-10-31",
+      0.09
+    ],
+    [
+      "2024-11-30",
+      0.09
+    ],
+    [
+      "2024-12-31",
+      0.09
+    ],
+    [
+      "2025-01-31",
+      0.09
+    ],
+    [
+      "2025-02-28",
+      0.09
+    ],
+    [
+      "2025-03-31",
+      0.09
+    ],
+    [
+      "2025-04-30",
+      0.09
+    ],
+    [
+      "2025-05-31",
+      0.09
+    ],
+    [
+      "2025-06-30",
+      0.09
+    ],
+    [
+      "2025-07-31",
+      0.09
+    ],
+    [
+      "2025-08-31",
+      0.09
+    ],
+    [
+      "2025-09-30",
+      0.09
+    ],
+    [
+      "2025-10-31",
+      0.09
+    ],
+    [
+      "2025-11-30",
+      0.09
+    ],
+    [
+      "2025-12-31",
+      0.09
+    ],
+    [
+      "2026-01-31",
+      0.09
+    ],
+    [
+      "2026-02-28",
+      0.09
+    ],
+    [
+      "2026-03-31",
+      0.09
+    ],
+    [
+      "2026-04-30",
+      0.07
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 4641639.03,
     "Cotas de FIIs": 24825727.71,
     "CRI/CRA": 133176101.85,
     "Debêntures": 5186796.02,
     "FIDCs": 5888060.6
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "18I0295355",
+        "nome": "",
+        "emissao": "2",
+        "serie": "16",
+        "vencimento": "",
+        "quantidade": 153.0,
+        "valor": 3783982.49
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "23J1263511",
+        "nome": "",
+        "emissao": "34",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10087.0,
+        "valor": 10363350.57
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RECD11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 297144.0,
+        "valor": 2481152.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EDGA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 41040.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "21K0146621",
+        "nome": "",
+        "emissao": "2",
+        "serie": "23",
+        "vencimento": "",
+        "quantidade": 13395.0,
+        "valor": 8636981.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "24L1532447",
+        "nome": "",
+        "emissao": "1",
+        "serie": "21",
+        "vencimento": "",
+        "quantidade": 9645.0,
+        "valor": 11310344.55
+      },
+      {
+        "tipo": "FII",
+        "emissor": "LIFE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 84829.0,
+        "valor": 723591.37
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AROK",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2100000.0,
+        "valor": 20594638.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "21L0848411",
+        "nome": "",
+        "emissao": "1",
+        "serie": "93",
+        "vencimento": "",
+        "quantidade": 12678.0,
+        "valor": 13049511.15
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "23J2255808",
+        "nome": "",
+        "emissao": "1",
+        "serie": "19",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 1825254.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "24C1733665",
+        "nome": "",
+        "emissao": "6",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 11459.0,
+        "valor": 11516989.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "20I0851693",
+        "nome": "",
+        "emissao": "1",
+        "serie": "260",
+        "vencimento": "",
+        "quantidade": 3125.0,
+        "valor": 3922544.36
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "21G0707741",
+        "nome": "",
+        "emissao": "2",
+        "serie": "22",
+        "vencimento": "",
+        "quantidade": 3194.0,
+        "valor": 2217734.71
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "25B2384188",
+        "nome": "",
+        "emissao": "6",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 2917.0,
+        "valor": 2931454.78
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TSSA18",
+        "nome": "",
+        "emissao": "8",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 5127045.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "22D0891481",
+        "nome": "",
+        "emissao": "2",
+        "serie": "27",
+        "vencimento": "",
+        "quantidade": 10400.0,
+        "valor": 10516453.26
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "21I0776612",
+        "nome": "",
+        "emissao": "1",
+        "serie": "15",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 8978279.15
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PSEC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 18885.0,
+        "valor": 1219026.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "19B0177968",
+        "nome": "",
+        "emissao": "1",
+        "serie": "31",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 530678.89
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "23J1263572",
+        "nome": "",
+        "emissao": "34",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1778.0,
+        "valor": 1779347.6
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "21F0968888",
+        "nome": "",
+        "emissao": "4",
+        "serie": "277",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 4350127.53
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "22E1284967",
+        "nome": "",
+        "emissao": "1",
+        "serie": "76",
+        "vencimento": "",
+        "quantidade": 6900000.0,
+        "valor": 6626788.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "20J0720654",
+        "nome": "",
+        "emissao": "1",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 3649.0,
+        "valor": 6471946.16
+      },
+      {
+        "tipo": "FIDC",
+        "emissor": "Diamante",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8780.41628604,
+        "valor": 5980104.79
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ALZC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 140010.0,
+        "valor": 1085077.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "24I2113183",
+        "nome": "",
+        "emissao": "55",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 11325.0,
+        "valor": 11378288.98
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "23B2365601",
+        "nome": "",
+        "emissao": "1",
+        "serie": "105",
+        "vencimento": "",
+        "quantidade": 18000.0,
+        "valor": 12927352.41
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

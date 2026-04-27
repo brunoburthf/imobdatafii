@@ -5,13 +5,17 @@
     "Nome": "Hotel Maxinvest FII",
     "Setor": "Tijolo Multissetorial",
     "Retorno - MTD": 0.008,
-    "Retorno - 12M": 0.103,
+    "Retorno - 12M": 0.0941,
     "P/VP": 0.91,
     "Último Dividendo Pago": 1.2,
     "DY a.a.": 0.105,
     "Visão Geral": "FII de hotéis que investe em unidades hoteleiras, com foco em renda ligada à exploração do mercado de hospedagem em São Paulo. Criado em 2007, é administrado pelo BTG Pactual e negociado na B3. A estratégia concentra exposição em ativo do segmento hoteleiro urbano, com geração de renda vinculada à operação.",
     "Comentário": "Março marcou retomada mais consistente da atividade hoteleira com calendário robusto de feiras e eventos corporativos ampliando demanda. Fundo vendeu seis unidades hoteleiras em fevereiro, acumulando 608 unidades desde início de desinvestimento com carteira operando 740 unidades em 19 hotéis. RevPAR da carteira alcançou R$202 em janeiro, aumento de 6% versus mesmo período anterior.",
-    "Preço Atual": 137.32
+    "Preço Atual": 137.71,
+    "% Dias Acima CDI 1A": 0.0,
+    "% Dias Acima CDI 3A": 0.6,
+    "% Dias Acima CDI 5A": 0.4924,
+    "% Dias Acima CDI MAX": 0.522
   },
   "historico_preco": [
     [
@@ -14185,6 +14189,22 @@
     [
       "2026-04-16",
       137.7
+    ],
+    [
+      "2026-04-17",
+      136.85
+    ],
+    [
+      "2026-04-20",
+      137.41
+    ],
+    [
+      "2026-04-22",
+      137.51
+    ],
+    [
+      "2026-04-23",
+      137.4
     ]
   ],
   "historico_preco_adj": [
@@ -24407,6 +24427,22 @@
     [
       "2026-04-16",
       137.7
+    ],
+    [
+      "2026-04-17",
+      136.85
+    ],
+    [
+      "2026-04-20",
+      137.41
+    ],
+    [
+      "2026-04-22",
+      137.51
+    ],
+    [
+      "2026-04-23",
+      137.4
     ]
   ],
   "historico_pvp": [
@@ -39329,6 +39365,26 @@
     [
       "2026-04-16",
       0.91957279142
+    ],
+    [
+      "2026-04-17",
+      0.91389641616
+    ],
+    [
+      "2026-04-20",
+      0.91763614574
+    ],
+    [
+      "2026-04-21",
+      0.91763614574
+    ],
+    [
+      "2026-04-22",
+      0.91830395459
+    ],
+    [
+      "2026-04-23",
+      0.91756936485
     ]
   ],
   "historico_dy": [
@@ -47143,10 +47199,694 @@
     [
       "2026-04-16",
       10.4575
+    ],
+    [
+      "2026-04-17",
+      10.5225
+    ],
+    [
+      "2026-04-20",
+      10.4796
+    ],
+    [
+      "2026-04-22",
+      10.472
+    ],
+    [
+      "2026-04-23",
+      10.4803
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2016-01-31",
+      1.549390035
+    ],
+    [
+      "2016-02-29",
+      0.417293734
+    ],
+    [
+      "2016-03-31",
+      1.118118321
+    ],
+    [
+      "2016-04-30",
+      0.419290135
+    ],
+    [
+      "2016-05-31",
+      0.500182599
+    ],
+    [
+      "2016-06-30",
+      0.407448035
+    ],
+    [
+      "2016-07-31",
+      0.511912959
+    ],
+    [
+      "2016-08-31",
+      1.157885492
+    ],
+    [
+      "2016-09-30",
+      0.687693963
+    ],
+    [
+      "2016-10-31",
+      0.472594436
+    ],
+    [
+      "2016-11-30",
+      0.380876716
+    ],
+    [
+      "2016-12-31",
+      0.388598869
+    ],
+    [
+      "2017-01-31",
+      0.48500996461
+    ],
+    [
+      "2017-02-28",
+      0.30169144563
+    ],
+    [
+      "2017-03-31",
+      0.17192304461
+    ],
+    [
+      "2017-04-30",
+      0.26583892186
+    ],
+    [
+      "2017-05-31",
+      0.74900919603
+    ],
+    [
+      "2017-06-30",
+      1.0572537535
+    ],
+    [
+      "2017-07-31",
+      0.73741755737
+    ],
+    [
+      "2017-08-31",
+      0.7027905287
+    ],
+    [
+      "2017-09-30",
+      0.50219880067
+    ],
+    [
+      "2017-10-31",
+      0.4835206531
+    ],
+    [
+      "2017-11-30",
+      0.39448040144
+    ],
+    [
+      "2017-12-31",
+      0.89005144956
+    ],
+    [
+      "2018-01-31",
+      0.95926683706
+    ],
+    [
+      "2018-02-28",
+      0.71096718381
+    ],
+    [
+      "2018-03-31",
+      0.32770813076
+    ],
+    [
+      "2018-04-30",
+      0.42536020948
+    ],
+    [
+      "2018-05-31",
+      0.62714523307
+    ],
+    [
+      "2018-06-30",
+      0.50783796561
+    ],
+    [
+      "2018-07-31",
+      0.5733724083
+    ],
+    [
+      "2018-08-31",
+      0.49699630013
+    ],
+    [
+      "2018-09-30",
+      0.9450550958
+    ],
+    [
+      "2018-10-31",
+      0.78782903767
+    ],
+    [
+      "2018-11-30",
+      1.2288566615
+    ],
+    [
+      "2018-12-31",
+      0.98844816615
+    ],
+    [
+      "2019-01-31",
+      1.3106519
+    ],
+    [
+      "2019-02-28",
+      1.078076348
+    ],
+    [
+      "2019-03-31",
+      0.58064630549
+    ],
+    [
+      "2019-04-30",
+      0.77060620576
+    ],
+    [
+      "2019-05-31",
+      1.0693746
+    ],
+    [
+      "2019-06-30",
+      1.60085137
+    ],
+    [
+      "2019-07-31",
+      0.635117296
+    ],
+    [
+      "2019-08-31",
+      0.619847724
+    ],
+    [
+      "2019-09-30",
+      0.552604105
+    ],
+    [
+      "2019-10-31",
+      0.932071754
+    ],
+    [
+      "2019-11-30",
+      1.042402614
+    ],
+    [
+      "2019-12-31",
+      0.981430615
+    ],
+    [
+      "2020-01-31",
+      0.46699298
+    ],
+    [
+      "2020-02-29",
+      0.582714025
+    ],
+    [
+      "2020-03-31",
+      0.712391413
+    ],
+    [
+      "2020-04-30",
+      0.0
+    ],
+    [
+      "2020-05-31",
+      0.0
+    ],
+    [
+      "2020-06-30",
+      0.0
+    ],
+    [
+      "2020-07-31",
+      0.0
+    ],
+    [
+      "2020-08-31",
+      0.0
+    ],
+    [
+      "2020-09-30",
+      0.0
+    ],
+    [
+      "2020-10-31",
+      0.0
+    ],
+    [
+      "2020-11-30",
+      0.0
+    ],
+    [
+      "2020-12-31",
+      0.0
+    ],
+    [
+      "2021-01-31",
+      0.0
+    ],
+    [
+      "2021-02-28",
+      0.0
+    ],
+    [
+      "2021-03-31",
+      0.0
+    ],
+    [
+      "2021-04-30",
+      0.0
+    ],
+    [
+      "2021-05-31",
+      0.0
+    ],
+    [
+      "2021-06-30",
+      0.0
+    ],
+    [
+      "2021-07-31",
+      0.0
+    ],
+    [
+      "2021-08-31",
+      0.0
+    ],
+    [
+      "2021-09-30",
+      0.0
+    ],
+    [
+      "2021-10-31",
+      0.0
+    ],
+    [
+      "2021-11-30",
+      0.0
+    ],
+    [
+      "2021-12-31",
+      0.0
+    ],
+    [
+      "2022-01-31",
+      0.0
+    ],
+    [
+      "2022-02-28",
+      0.0
+    ],
+    [
+      "2022-03-31",
+      0.0
+    ],
+    [
+      "2022-04-30",
+      0.0
+    ],
+    [
+      "2022-05-31",
+      0.0
+    ],
+    [
+      "2022-06-30",
+      0.0
+    ],
+    [
+      "2022-07-31",
+      0.0
+    ],
+    [
+      "2022-08-31",
+      0.0
+    ],
+    [
+      "2022-09-30",
+      0.864501
+    ],
+    [
+      "2022-10-31",
+      0.901719638
+    ],
+    [
+      "2022-11-30",
+      0.906856097
+    ],
+    [
+      "2022-12-31",
+      1.271605767
+    ],
+    [
+      "2023-01-31",
+      1.263511048
+    ],
+    [
+      "2023-02-28",
+      0.739078369
+    ],
+    [
+      "2023-03-31",
+      0.62669814
+    ],
+    [
+      "2023-04-30",
+      0.632441625
+    ],
+    [
+      "2023-05-31",
+      1.896027158
+    ],
+    [
+      "2023-06-30",
+      1.738132449
+    ],
+    [
+      "2023-07-31",
+      1.884931571
+    ],
+    [
+      "2023-08-31",
+      1.872320661
+    ],
+    [
+      "2023-09-30",
+      2.018526105
+    ],
+    [
+      "2023-10-31",
+      2.85
+    ],
+    [
+      "2023-11-30",
+      3.7
+    ],
+    [
+      "2023-12-31",
+      3.7
+    ],
+    [
+      "2024-01-31",
+      3.254261753
+    ],
+    [
+      "2024-02-29",
+      0.862560933
+    ],
+    [
+      "2024-03-31",
+      2.6
+    ],
+    [
+      "2024-04-30",
+      1.66171075
+    ],
+    [
+      "2024-05-31",
+      2.186518873
+    ],
+    [
+      "2024-06-30",
+      1.975858772
+    ],
+    [
+      "2024-07-31",
+      1.411006857
+    ],
+    [
+      "2024-08-31",
+      2.3
+    ],
+    [
+      "2024-09-30",
+      2.132836396
+    ],
+    [
+      "2024-10-31",
+      2.15
+    ],
+    [
+      "2024-11-30",
+      2.365658204
+    ],
+    [
+      "2024-12-31",
+      3.415537905
+    ],
+    [
+      "2025-01-31",
+      3.937249632
+    ],
+    [
+      "2025-02-28",
+      1.230200152
+    ],
+    [
+      "2025-03-31",
+      0.9817
+    ],
+    [
+      "2025-04-30",
+      0.798211367
+    ],
+    [
+      "2025-05-31",
+      0.8
+    ],
+    [
+      "2025-06-30",
+      1.54
+    ],
+    [
+      "2025-07-31",
+      1.5
+    ],
+    [
+      "2025-08-31",
+      1.22
+    ],
+    [
+      "2025-09-30",
+      1.05
+    ],
+    [
+      "2025-10-31",
+      1.56
+    ],
+    [
+      "2025-11-30",
+      1.56
+    ],
+    [
+      "2025-12-31",
+      1.8
+    ],
+    [
+      "2026-01-31",
+      1.25
+    ],
+    [
+      "2026-02-28",
+      1.0
+    ],
+    [
+      "2026-03-31",
+      1.2
+    ],
+    [
+      "2026-04-30",
+      1.2
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 32438722.85,
     "Imóveis": 411730902.96
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAU SOBERANO RF SIMPLES LP FICFI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 0.0,
+        "valor": 0.02
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 458524.09,
+        "valor": 24461353.2
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Estanplaza Funchal",
+        "endereco": "Rua Funchal, 281, Sem Complemento, Vila Olimpia, Sao Paulo/SP, Brasil, 04551-060",
+        "area": 860.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Intercity Paulista",
+        "endereco": "Rua Haddock Lobo, 294, Sem Complemento, Cerqueira Cesar, Sao Paulo/SP, Brasil, 01414-000",
+        "area": 632.7,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Blue Tree Faria Lima",
+        "endereco": "Avenida Brigadeiro Faria Lima, 3989, Sem Complemento, Itaim Bibi, São Paulo/SP, Brasil, 00004-538",
+        "area": 354.26,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ibis Congonhas",
+        "endereco": "Rua Baronesa De Bela Vista, 801, Sem Complemento, Vila Congonhas, Sao Paulo/SP, Brasil, 04612-002",
+        "area": 20000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Gran Estanplaza",
+        "endereco": "Rua Doutor Nelson Libero, 1517, Sem Complemento, Cidade Moncoes, Sao Paulo/SP, Brasil, 04567-010",
+        "area": 10000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Estanplaza Berrini",
+        "endereco": "Avenida Engenheiro Luiz Carlos Berrini, 853, Sem Complemento, Cidade Moncoes, Sao Paulo/SP, Brasil, 04571-000",
+        "area": 900.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Estanplaza Nacoes Unidas",
+        "endereco": "Avenida Jandira, 1293, , Indianopolis, Sao Paulo/SP, Brasil, 04080-001",
+        "area": 200.1,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Estanplaza International",
+        "endereco": "Rua Fernandes Moreira, 1293, Sem Complemento, Chacara Santo Antonio Zona Sul, Sao Paulo/SP, Brasil, 04716-003",
+        "area": 1115.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Intercity Premium Ibirapuera",
+        "endereco": "Avenida Ibirapuera, 2577, Sem Complemento, Indianopolis, Sao Paulo/SP, Brasil, 04029-200",
+        "area": 106.4,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ibis Budget Paulista",
+        "endereco": "Rua Da Consolacao, 2303, Sem Complemento, Consolacao, Sao Paulo/SP, Brasil, 01301-100",
+        "area": 203.52,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Novotel Sao Paulo Morumbi",
+        "endereco": "Rua Ministro Nelson Hungria, 577, Sem Complemento, Vila Tramontano, São Paulo/SP, Brasil, 05690-050",
+        "area": 100.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ibis Sao Paulo Morumbi",
+        "endereco": "Avenida Roque Petroni Junior, 800, Sem Complemento, Jardim Das Acacias, Sao Paulo/SP, Brasil, 04707-000",
+        "area": 13234.8,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ibis Budget Jardins",
+        "endereco": "Avenida Nove De Julho, 3957, Sem Complemento, Jardim Paulista, Sao Paulo/SP, Brasil, 01407-000",
+        "area": 127.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ibis Ibirapuera",
+        "endereco": "Avenida Santo Amaro, 1411, Sem Complemento, Vila Nova Conceição, São Paulo/SP, Brasil, 04506-000",
+        "area": 796.34,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ibis Budget Morumbi",
+        "endereco": "Avenida Roque Petroni Junior, 800, Sem Complemento, Jardim Das Acácias, São Paulo/SP, Brasil, 04707-000",
+        "area": 1491.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Innside by Melia Sao Paulo Iguatemi",
+        "endereco": "Rua Iguatemi, 150, Sem Complemento, Itaim Bibi, Sao Paulo/SP, Brasil, 01451-010",
+        "area": 259.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Estanplaza Ibirapuera",
+        "endereco": "Avenida Jandira, 501, Sem Complemento, Indianopolis, Sao Paulo/SP, Brasil, 04080-001",
+        "area": 399.9,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ibis Sao Paulo Paulista",
+        "endereco": "Avenida Paulista, 2355, Sem Complemento, Bela Vista, Sao Paulo/SP, Brasil, 01311-300",
+        "area": 106.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Intercity Nacoes Unidas",
+        "endereco": "Rua Fernandes Moreira, 1371, Sem Complemento, Chacara Santo Antonio Zona Sul, Sao Paulo/SP, Brasil, 04716-003",
+        "area": 359.07,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ibis Styles Faria Lima",
+        "endereco": "Rua Tavares Cabral, 61, , Pinheiros, Sao Paulo/SP, Brasil, 05423-030",
+        "area": 1360.86,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

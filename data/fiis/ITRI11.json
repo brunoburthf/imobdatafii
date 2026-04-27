@@ -4,14 +4,18 @@
     "Ticker": "ITRI11",
     "Nome": "Itaú Total Return FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.0028,
-    "Retorno - 12M": 0.3072,
-    "P/VP": 0.91,
+    "Retorno - MTD": 0.0099,
+    "Retorno - 12M": 0.2801,
+    "P/VP": 0.92,
     "Último Dividendo Pago": 0.85,
-    "DY a.a.": 0.117,
+    "DY a.a.": 0.116,
     "Visão Geral": "FII híbrido que investe em múltiplas classes de ativos imobiliários, com foco em geração de renda complementada por ganho de capital. É gerido pelo Itaú Asset e atua com alocação diversificada no setor. A estratégia prioriza ativos resilientes e flexibilidade para navegar diferentes ciclos do mercado imobiliário.",
     "Comentário": "Fevereiro foi positivo com Ibovespa subindo 4% e recebimento de parcela adicional do ganho do RDLI11 elevando receita acima do recorrente para R$1,02/cota. Distribuição mantida em R$0,85/cota no topo do guidance do semestre, representando dividend yield de 12,5% sobre cota de mercado. Cota patrimonial valorizou 2,37% versus alta de 1,32% do IFIX, acumulando desconto de 12,5% em relação ao preço de mercado.",
-    "Preço Atual": 87.21
+    "Preço Atual": 88.15,
+    "% Dias Acima CDI 1A": 0.3831,
+    "% Dias Acima CDI 3A": 0.3598,
+    "% Dias Acima CDI 5A": 0.3598,
+    "% Dias Acima CDI MAX": 0.3598
   },
   "historico_preco": [
     [
@@ -2057,6 +2061,22 @@
     [
       "2026-04-16",
       87.3
+    ],
+    [
+      "2026-04-17",
+      86.94
+    ],
+    [
+      "2026-04-20",
+      87.02
+    ],
+    [
+      "2026-04-22",
+      87.23
+    ],
+    [
+      "2026-04-23",
+      87.67
     ]
   ],
   "historico_preco_adj": [
@@ -4103,6 +4123,22 @@
     [
       "2026-04-16",
       87.3
+    ],
+    [
+      "2026-04-17",
+      86.94
+    ],
+    [
+      "2026-04-20",
+      87.02
+    ],
+    [
+      "2026-04-22",
+      87.23
+    ],
+    [
+      "2026-04-23",
+      87.67
     ]
   ],
   "historico_pvp": [
@@ -6237,6 +6273,26 @@
     [
       "2026-04-16",
       0.91093842767
+    ],
+    [
+      "2026-04-17",
+      0.90718198054
+    ],
+    [
+      "2026-04-20",
+      0.90801674657
+    ],
+    [
+      "2026-04-21",
+      0.90801674657
+    ],
+    [
+      "2026-04-22",
+      0.91020800739
+    ],
+    [
+      "2026-04-23",
+      0.91479922054
     ]
   ],
   "historico_dy": [
@@ -8199,12 +8255,599 @@
     [
       "2026-04-16",
       11.6838
+    ],
+    [
+      "2026-04-17",
+      11.7322
+    ],
+    [
+      "2026-04-20",
+      11.7214
+    ],
+    [
+      "2026-04-22",
+      11.6932
+    ],
+    [
+      "2026-04-23",
+      11.6345
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-05-31",
+      0.54
+    ],
+    [
+      "2024-06-30",
+      0.7
+    ],
+    [
+      "2024-07-31",
+      0.81
+    ],
+    [
+      "2024-08-31",
+      0.85
+    ],
+    [
+      "2024-09-30",
+      0.88
+    ],
+    [
+      "2024-10-31",
+      0.9
+    ],
+    [
+      "2024-11-30",
+      0.85
+    ],
+    [
+      "2024-12-31",
+      0.8
+    ],
+    [
+      "2025-01-31",
+      0.7
+    ],
+    [
+      "2025-02-28",
+      0.75
+    ],
+    [
+      "2025-03-31",
+      0.72
+    ],
+    [
+      "2025-04-30",
+      0.75
+    ],
+    [
+      "2025-05-31",
+      0.8
+    ],
+    [
+      "2025-06-30",
+      0.82
+    ],
+    [
+      "2025-07-31",
+      0.87
+    ],
+    [
+      "2025-08-31",
+      0.82
+    ],
+    [
+      "2025-09-30",
+      0.82
+    ],
+    [
+      "2025-10-31",
+      0.82
+    ],
+    [
+      "2025-11-30",
+      0.82
+    ],
+    [
+      "2025-12-31",
+      0.82
+    ],
+    [
+      "2026-01-31",
+      1.3
+    ],
+    [
+      "2026-02-28",
+      0.85
+    ],
+    [
+      "2026-03-31",
+      0.85
+    ],
+    [
+      "2026-04-30",
+      0.85
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 16646989.25,
     "Cotas de FIIs": 486894315.76,
     "CRI/CRA": 57914334.88,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 25002647.81
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "VINCI CORPORATE FUNDO DE INVESTIMENTO IM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 708822.0,
+        "valor": 3643345.08
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MAUÁ CAPITAL FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 136063.0,
+        "valor": 12455207.02
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACT SER FI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1554.0,
+        "valor": 1675776.2
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "52",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 10013954.65,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "307",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 1003922.24,
+        "nome_cri": "CRI Zarvos"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "122",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 3009753.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ALLOS S.A.",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 175300.0,
+        "valor": 4973261.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VINCI IMOVEIS URBANOS FUNDO DE INVESTIME",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 265018.0,
+        "valor": 1637811.24
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI MALLS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 33311.0,
+        "valor": 3082599.94
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO DE INVESTIMENTO IMOBILIÁRIO VBI PR",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 148426.0,
+        "valor": 12170932.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO DE INVESTIMENTO IMOBILIÁRIO TELLUS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 130189.0,
+        "valor": 8996059.9
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "122",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 25000.0,
+        "valor": 25730318.89,
+        "nome_cri": "CRI Tenda II"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VINCI SHOPPING CENTERS FUNDO INVESTIMENT",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 288554.0,
+        "valor": 31463928.16
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MULTIPLAN EMPREENDIMENTO IMOBILIARIOS SA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 117137.0,
+        "valor": 3191983.25
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PREMIUM RECEBIVEIS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9741.0,
+        "valor": 831783.99
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JS REAL ESTATE MULTIGESTAO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 189024.0,
+        "valor": 12566315.52
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BANCO DAYCOVAL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 500.0,
+        "valor": 330270.04
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CSHG REAL ESTATE FDO INV IMOB",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3350.0,
+        "valor": 415433.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP INV CTVM - 9",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7500.0,
+        "valor": 745231.39
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP MALLS FUNDO INVESTIMENTOS IMOBILIARIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 414765.0,
+        "valor": 44819505.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA RENDA IMOBILIARIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2175000.0,
+        "valor": 18161250.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA RENDIMENTOS IMOBILIARIOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 111475.0,
+        "valor": 11984677.25
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VINCI LOGISTICA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 127759.0,
+        "valor": 12712020.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA UNIQUE HY CDI FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 87016.0,
+        "valor": 9158434.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "112",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9807.0,
+        "valor": 5918623.05,
+        "nome_cri": "CRI PULV BRAVO LOG"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO INVESTIMENTO IMOBILIARIO TG ATIVO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 32973.0,
+        "valor": 3066489.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GENIAL INVESTIM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 205572.9947,
+        "valor": 20550835.81
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIO BRAVO RENDA VAREJO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2117301.0,
+        "valor": 21956411.37
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA HIGH YIELD CRI FUNDO DE INVESTIMEN",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 211395.0,
+        "valor": 21255767.25
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA INDICES PRECOS FUNDO INVESTIMENTO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 249026.0,
+        "valor": 22546814.04
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA RE III FUNDO DE INVESTIMENTO IMOB",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 605045.0,
+        "valor": 5947592.35
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CURY CONSTRUTORA E INCORPORADORA LTDA.",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 171700.0,
+        "valor": 5533891.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MAXI RENDA FUNDO INVEST IMOBILIARIO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2063392.0,
+        "valor": 19684759.68
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SPX SYN FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2058576.0,
+        "valor": 18980070.72
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "KANASTRA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 27179.0,
+        "valor": 12992075.99
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBR PROPERTIES",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 54571.0,
+        "valor": 3047790.35
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRL TRUST DTVM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 27500.0,
+        "valor": 3366963.14
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CONCEPTUS INC",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1163048.0,
+        "valor": 9013622.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII VBI LOGISTICO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 198205.0,
+        "valor": 22246529.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBR RENDIMENTO HIGH GRADE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 318675.0,
+        "valor": 27906369.75
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP LOG FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 113837.0,
+        "valor": 12046231.34
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CYRELA CRÉDITO - FUNDO DE INVESTIMENTO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1727099.0,
+        "valor": 15284826.15
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "290",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1887.0,
+        "valor": 907898.27,
+        "nome_cri": "CRI CONX PADRE CHICO"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PLUS MULTIESTRATÉGIA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 385278.0,
+        "valor": 3217071.3
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PRIVATE CREDITO IMOB FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 308059.0,
+        "valor": 30128170.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRESCO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 216727.0,
+        "valor": 25549946.03
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

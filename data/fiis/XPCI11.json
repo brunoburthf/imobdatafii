@@ -4,14 +4,18 @@
     "Ticker": "XPCI11",
     "Nome": "Xp Crédito Imobiliário FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.0038,
-    "Retorno - 12M": 0.211,
+    "Retorno - MTD": -0.0009,
+    "Retorno - 12M": 0.2109,
     "P/VP": 0.95,
     "Último Dividendo Pago": 0.85,
     "DY a.a.": 0.121,
     "Visão Geral": "FII de papel que investe em CRIs, debêntures, LCIs, LHs e cotas de FIIs, com foco em ativos financeiros com lastro imobiliário. Lançado em 2019, é gerido pela XP Asset e busca carteira com CRIs de boa qualidade de crédito. A estratégia prioriza renda recorrente com diversificação de instrumentos.",
     "Comentário": "Distribuição de R$0,85/cota (12,89% a.a., 15,32% com grossup). Receitas totais R$7,6 mi com R$6,8 mi de CRI. Aquisição de R$10 mi CRI Amy II (CDI+2,35%, IPCA+) e redução R$2 mi Arena MRV. Carteira 88,2% IPCA+, 11,8% CDI+, LTV médio 50%, yield médio 10,27% (IPCA+5,58%), posicionando-se defensivamente.",
-    "Preço Atual": 84.2
+    "Preço Atual": 83.93,
+    "% Dias Acima CDI 1A": 0.5484,
+    "% Dias Acima CDI 3A": 0.4725,
+    "% Dias Acima CDI 5A": 0.5004,
+    "% Dias Acima CDI MAX": 0.4977
   },
   "historico_preco": [
     [
@@ -6317,6 +6321,22 @@
     [
       "2026-04-16",
       83.54
+    ],
+    [
+      "2026-04-17",
+      84.12
+    ],
+    [
+      "2026-04-20",
+      84.49
+    ],
+    [
+      "2026-04-22",
+      84.87
+    ],
+    [
+      "2026-04-23",
+      84.19
     ]
   ],
   "historico_preco_adj": [
@@ -12623,6 +12643,22 @@
     [
       "2026-04-16",
       83.54
+    ],
+    [
+      "2026-04-17",
+      84.12
+    ],
+    [
+      "2026-04-20",
+      84.49
+    ],
+    [
+      "2026-04-22",
+      84.87
+    ],
+    [
+      "2026-04-23",
+      84.19
     ]
   ],
   "historico_pvp": [
@@ -19241,6 +19277,26 @@
     [
       "2026-04-16",
       0.94236616053
+    ],
+    [
+      "2026-04-17",
+      0.94890880325
+    ],
+    [
+      "2026-04-20",
+      0.95308255809
+    ],
+    [
+      "2026-04-21",
+      0.95308255809
+    ],
+    [
+      "2026-04-22",
+      0.95736911712
+    ],
+    [
+      "2026-04-23",
+      0.94969843255
     ]
   ],
   "historico_dy": [
@@ -25511,13 +25567,946 @@
     [
       "2026-04-16",
       12.2097
+    ],
+    [
+      "2026-04-17",
+      12.1255
+    ],
+    [
+      "2026-04-20",
+      12.0724
+    ],
+    [
+      "2026-04-22",
+      12.0184
+    ],
+    [
+      "2026-04-23",
+      12.1155
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-01-31",
+      0.64
+    ],
+    [
+      "2020-02-29",
+      0.62
+    ],
+    [
+      "2020-03-31",
+      0.65
+    ],
+    [
+      "2020-04-30",
+      0.61
+    ],
+    [
+      "2020-05-31",
+      0.57
+    ],
+    [
+      "2020-06-30",
+      0.54
+    ],
+    [
+      "2020-07-31",
+      0.54
+    ],
+    [
+      "2020-08-31",
+      0.57
+    ],
+    [
+      "2020-09-30",
+      0.6
+    ],
+    [
+      "2020-10-31",
+      0.58
+    ],
+    [
+      "2020-11-30",
+      0.63
+    ],
+    [
+      "2020-12-31",
+      0.63
+    ],
+    [
+      "2021-01-31",
+      0.75
+    ],
+    [
+      "2021-02-28",
+      0.8
+    ],
+    [
+      "2021-03-31",
+      0.85
+    ],
+    [
+      "2021-04-30",
+      0.9
+    ],
+    [
+      "2021-05-31",
+      0.9
+    ],
+    [
+      "2021-06-30",
+      1.0
+    ],
+    [
+      "2021-07-31",
+      1.0
+    ],
+    [
+      "2021-08-31",
+      0.93
+    ],
+    [
+      "2021-09-30",
+      0.87
+    ],
+    [
+      "2021-10-31",
+      1.0
+    ],
+    [
+      "2021-11-30",
+      1.0
+    ],
+    [
+      "2021-12-31",
+      0.92
+    ],
+    [
+      "2022-01-31",
+      0.97
+    ],
+    [
+      "2022-02-28",
+      1.1
+    ],
+    [
+      "2022-03-31",
+      1.1
+    ],
+    [
+      "2022-04-30",
+      1.13
+    ],
+    [
+      "2022-05-31",
+      1.18
+    ],
+    [
+      "2022-06-30",
+      1.22
+    ],
+    [
+      "2022-07-31",
+      1.05
+    ],
+    [
+      "2022-08-31",
+      1.02
+    ],
+    [
+      "2022-09-30",
+      0.96
+    ],
+    [
+      "2022-10-31",
+      0.88
+    ],
+    [
+      "2022-11-30",
+      0.67
+    ],
+    [
+      "2022-12-31",
+      0.6
+    ],
+    [
+      "2023-01-31",
+      0.72
+    ],
+    [
+      "2023-02-28",
+      0.96
+    ],
+    [
+      "2023-03-31",
+      1.0
+    ],
+    [
+      "2023-04-30",
+      0.95
+    ],
+    [
+      "2023-05-31",
+      0.87
+    ],
+    [
+      "2023-06-30",
+      0.93
+    ],
+    [
+      "2023-07-31",
+      0.91
+    ],
+    [
+      "2023-08-31",
+      1.0
+    ],
+    [
+      "2023-09-30",
+      0.9
+    ],
+    [
+      "2023-10-31",
+      0.95
+    ],
+    [
+      "2023-11-30",
+      0.95
+    ],
+    [
+      "2023-12-31",
+      0.8
+    ],
+    [
+      "2024-01-31",
+      0.76
+    ],
+    [
+      "2024-02-29",
+      0.9
+    ],
+    [
+      "2024-03-31",
+      0.9
+    ],
+    [
+      "2024-04-30",
+      0.9
+    ],
+    [
+      "2024-05-31",
+      0.9
+    ],
+    [
+      "2024-06-30",
+      0.87
+    ],
+    [
+      "2024-07-31",
+      1.0
+    ],
+    [
+      "2024-08-31",
+      0.87
+    ],
+    [
+      "2024-09-30",
+      0.8
+    ],
+    [
+      "2024-10-31",
+      0.8
+    ],
+    [
+      "2024-11-30",
+      0.8
+    ],
+    [
+      "2024-12-31",
+      0.81
+    ],
+    [
+      "2025-01-31",
+      0.83
+    ],
+    [
+      "2025-02-28",
+      0.83
+    ],
+    [
+      "2025-03-31",
+      0.84
+    ],
+    [
+      "2025-04-30",
+      0.85
+    ],
+    [
+      "2025-05-31",
+      0.9
+    ],
+    [
+      "2025-06-30",
+      0.95
+    ],
+    [
+      "2025-07-31",
+      1.0
+    ],
+    [
+      "2025-08-31",
+      0.96
+    ],
+    [
+      "2025-09-30",
+      0.95
+    ],
+    [
+      "2025-10-31",
+      0.92
+    ],
+    [
+      "2025-11-30",
+      0.9
+    ],
+    [
+      "2025-12-31",
+      0.9
+    ],
+    [
+      "2026-01-31",
+      0.88
+    ],
+    [
+      "2026-02-28",
+      0.88
+    ],
+    [
+      "2026-03-31",
+      0.85
+    ],
+    [
+      "2026-04-30",
+      0.85
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 10046304.28,
     "Cotas de FIIs": 56250558.45,
     "CRI/CRA": 709241805.31,
     "Debêntures": 3181028.6,
     "Outros": 3.818422555923462e-08
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "168",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 38018.0,
+        "valor": 38175448.3332191
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PSEC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 79068.0,
+        "valor": 5103839.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "459",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 40000.0,
+        "valor": 40159232.7184693
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MCCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 180403.0,
+        "valor": 16514090.62
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "OT SOBERANO FIRF REF DI LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2919.998860028,
+        "valor": 9270515.9
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "106",
+        "vencimento": "",
+        "quantidade": 9104.0,
+        "valor": 7311081.71415826,
+        "nome_cri": "CRI Pirelli"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "51",
+        "vencimento": "",
+        "quantidade": 33110.0,
+        "valor": 30740211.0539507,
+        "nome_cri": "CRI CANOPUS"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "21",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5063.0,
+        "valor": 4632942.28544001,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "ECO SECURITIZADORA DIREITOS CRED AGRONEG",
+        "nome": "",
+        "emissao": "2",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8206.0,
+        "valor": 7460099.15825908
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GARE15",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3551609.0,
+        "valor": 32177577.54
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "23",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 614.0,
+        "valor": 157641.043585892,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "49",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5002.0,
+        "valor": 4831699.5915738,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KORE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 593.0,
+        "valor": 44148.85
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "30",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9032.0,
+        "valor": 9489816.7089821,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "484",
+        "vencimento": "",
+        "quantidade": 39298.0,
+        "valor": 4074034.0896892,
+        "nome_cri": "CRI AXS Energia"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "22",
+        "vencimento": "",
+        "quantidade": 40.0,
+        "valor": 1737750.34070018,
+        "nome_cri": "CRI CRAL"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "32",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 4044883.50379774,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "236",
+        "vencimento": "",
+        "quantidade": 58975742.0,
+        "valor": 52178382.5228513,
+        "nome_cri": "CRI Lavvi"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "47",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20165.0,
+        "valor": 21168370.3994846,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "115",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 13886.0,
+        "valor": 13115496.1929209
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "162",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7596.0,
+        "valor": 8523295.17121976,
+        "nome_cri": "CRI OPI"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GARE14",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 888000.0,
+        "valor": 8045280.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "27",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10667.0,
+        "valor": 11013615.3510611,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO II COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "2",
+        "serie": "303",
+        "vencimento": "",
+        "quantidade": 820.0,
+        "valor": 3806900.36782329,
+        "nome_cri": "CRI CAN1018"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "19",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 66169.0,
+        "valor": 14407249.7906239,
+        "nome_cri": "CRI Canopus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A",
+        "nome": "",
+        "emissao": "1",
+        "serie": "44",
+        "vencimento": "",
+        "quantidade": 550.0,
+        "valor": 529713.721618544
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "24",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 70129.0,
+        "valor": 57340669.1192781,
+        "nome_cri": "CRI Assaí"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PLANETA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "136",
+        "vencimento": "",
+        "quantidade": 66879.0,
+        "valor": 69152392.9153111
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "286",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 27828.0,
+        "valor": 29021853.0363023,
+        "nome_cri": "CRI Construtora Dez"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "19",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 9085582.01042395,
+        "nome_cri": "CRI Canopus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "85",
+        "vencimento": "",
+        "quantidade": 8791.0,
+        "valor": 6330380.07903142,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "82",
+        "vencimento": "",
+        "quantidade": 22728.0,
+        "valor": 13853243.2460247,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "507",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7358.0,
+        "valor": 7563963.79839542
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "136",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 32000.0,
+        "valor": 33100409.0523023,
+        "nome_cri": "CRI CSN"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "100",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2542.0,
+        "valor": 2538653.67894621
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "345",
+        "vencimento": "",
+        "quantidade": 7301510.0,
+        "valor": 5036284.90550745,
+        "nome_cri": "CRI ABDO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "282",
+        "vencimento": "",
+        "quantidade": 120.0,
+        "valor": 10229373.1095662,
+        "nome_cri": "CRI Ascenty Paulinia"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GARE13",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10.0,
+        "valor": 90.6
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "19",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 13693.0,
+        "valor": 2148621.50680504,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "507",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 18642.0,
+        "valor": 19140434.6330702
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SNCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20.0,
+        "valor": 1699.2
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "148",
+        "vencimento": "",
+        "quantidade": 39433.0,
+        "valor": 20203190.0122984,
+        "nome_cri": "CRI HBR"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "118",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 50000.0,
+        "valor": 50389475.15,
+        "nome_cri": "CRI Yuny II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "86",
+        "vencimento": "",
+        "quantidade": 23964.0,
+        "valor": 15622563.5536403,
+        "nome_cri": "CRI MINT"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "2GRUPO CASAS BAHIA S.A",
+        "nome": "DEBENTURE",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10597307.0,
+        "valor": 3455082.29
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "447",
+        "vencimento": "",
+        "quantidade": 25500.0,
+        "valor": 13924624.4486003,
+        "nome_cri": "CRI Reserva Luiza"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "372",
+        "vencimento": "",
+        "quantidade": 31.0,
+        "valor": 1529550.4213812,
+        "nome_cri": "CRI Cogna"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "128",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 3653385.5245
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA",
+        "nome": "",
+        "emissao": "38",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7027.0,
+        "valor": 7075843.686193,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "161",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4434.0,
+        "valor": 3699954.95000504,
+        "nome_cri": "CRI MRV XX (Flex)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BRAZILIAN SECURITIES CIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "304",
+        "vencimento": "",
+        "quantidade": 11.0,
+        "valor": 3481957.8335892
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 372763.0,
+        "valor": 3481606.42
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GCRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 79471.0,
+        "valor": 5234754.77
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "479",
+        "vencimento": "",
+        "quantidade": 10863.0,
+        "valor": 3415416.3015849,
+        "nome_cri": "CRI Amy Faria Lima"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "349",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 8900.0,
+        "valor": 6237337.03985
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "36",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 23607.0,
+        "valor": 23008945.2544704,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "567",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6000.0,
+        "valor": 6131809.23
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

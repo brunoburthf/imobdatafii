@@ -23,12 +23,16 @@
           <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
           <a href="infra.html" class="nav-link">Infraestrutura</a>
           <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="imoveis.html" class="nav-link val-restrito">Imóveis</a>
           <a href="setor.html" class="nav-link">Análise Setorial</a>
           <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
         </nav>
       </div>
       <div class="header-right">
         <span class="uso-interno">USO INTERNO</span>
+        <button id="btn-atualizar" onclick="atualizarDados()" title="Roda o script e atualiza os dados">
+          &#x21bb; Atualizar Dados
+        </button>
       </div>
     </div>
   </header>
@@ -61,6 +65,11 @@
         <p class="menu-card-desc">Fundos de investimento em cadeias agroindustriais com preço, P/VP, DY, retornos e spread sobre NTN-B.</p>
       </a>
 
+      <a class="menu-card val-restrito" href="imoveis.html">
+        <div class="menu-card-titulo">Imóveis</div>
+        <p class="menu-card-desc">Base com 8.700+ imóveis de FIIs: busca por nome, endereço ou fundo, histórico de propriedade e vacância.</p>
+      </a>
+
       <a class="menu-card" href="setor.html">
         <div class="menu-card-titulo">Análise Setorial</div>
         <p class="menu-card-desc">Comparativos e indicadores agregados por segmento: Lajes, Logística, Shoppings, CRIs e mais.</p>
@@ -74,6 +83,52 @@
     </div>
   </main>
 
+  <div id="modal-atualizar" class="modal" style="display:none">
+    <div class="modal-box">
+      <h2>Atualizar Dados</h2>
+      <p>Certifique-se de que o Excel está aberto e o Economatica está logado com os dados carregados.</p>
+      <div id="modal-status" class="modal-status"></div>
+      <div class="modal-actions">
+        <button onclick="confirmarAtualizacao()" id="btn-confirmar">Confirmar e Atualizar</button>
+        <button onclick="fecharModal()" class="btn-secundario">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  function atualizarDados() {
+    document.getElementById("modal-atualizar").style.display = "flex";
+    document.getElementById("modal-status").textContent = "";
+    document.getElementById("btn-confirmar").disabled = false;
+  }
+  function fecharModal() {
+    document.getElementById("modal-atualizar").style.display = "none";
+  }
+  async function confirmarAtualizacao() {
+    const btn = document.getElementById("btn-confirmar");
+    const status = document.getElementById("modal-status");
+    btn.disabled = true;
+    status.textContent = "Rodando script... aguarde.";
+    try {
+      const resp = await fetch("http://localhost:8080/atualizar", { method: "POST" });
+      const data = await resp.json();
+      if (data.ok) {
+        status.textContent = "Dados atualizados com sucesso!";
+        setTimeout(() => { fecharModal(); location.reload(); }, 1500);
+      } else {
+        status.textContent = "Erro: " + (data.erro || "desconhecido");
+        btn.disabled = false;
+      }
+    } catch (e) {
+      status.textContent = "Não foi possível conectar ao servidor local.";
+      btn.disabled = false;
+    }
+  }
+  if (!["localhost", "127.0.0.1"].includes(window.location.hostname)) {
+    const btn = document.getElementById("btn-atualizar");
+    if (btn) btn.style.display = "none";
+  }
+  </script>
   <script src="js/local.js"></script>
 </body>
 </html>

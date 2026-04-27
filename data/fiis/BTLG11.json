@@ -4,14 +4,18 @@
     "Ticker": "BTLG11",
     "Nome": "BTG Pactual Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.015,
-    "Retorno - 12M": 0.1419,
-    "P/VP": 1.02,
+    "Retorno - MTD": 0.0062,
+    "Retorno - 12M": 0.1249,
+    "P/VP": 1.01,
     "Último Dividendo Pago": 0.81,
-    "DY a.a.": 0.093,
+    "DY a.a.": 0.094,
     "Visão Geral": "FII de logística que investe em galpões logísticos, com portfólio relevante em São Paulo e outros estados. O fundo reúne ativos em polos como Cajamar, Louveira, Campinas, Jundiaí e Extrema, locados a inquilinos como Amazon, Mercado Livre, DHL e Nestlé. A estratégia combina renda locatícia recorrente e gestão ativa setorial.",
     "Comentário": "Distribuiu R$ 0,80/cota com dividend yield de 9,3% a.a. Vacância consolidada em 2,9% reforça resiliência. Concluiu locação em Ribeirão Preto com 43% de ganho real; renovação em Mauá gerou 25% de aumento com extensão até 2027. Revisão em Louveira IV produziu 17% de ganho. Portfólio com 34 imóveis e 1,4 mm m² mantém qualidade através de renegociações ativas.",
-    "Preço Atual": 103.87
+    "Preço Atual": 103.02,
+    "% Dias Acima CDI 1A": 0.5968,
+    "% Dias Acima CDI 3A": 0.3973,
+    "% Dias Acima CDI 5A": 0.3582,
+    "% Dias Acima CDI MAX": 0.5807
   },
   "historico_preco": [
     [
@@ -14177,6 +14181,22 @@
     [
       "2026-04-16",
       104.02
+    ],
+    [
+      "2026-04-17",
+      104.08
+    ],
+    [
+      "2026-04-20",
+      104.0
+    ],
+    [
+      "2026-04-22",
+      104.0
+    ],
+    [
+      "2026-04-23",
+      103.45
     ]
   ],
   "historico_preco_adj": [
@@ -24395,6 +24415,22 @@
     [
       "2026-04-16",
       104.02
+    ],
+    [
+      "2026-04-17",
+      104.08
+    ],
+    [
+      "2026-04-20",
+      104.0
+    ],
+    [
+      "2026-04-22",
+      104.0
+    ],
+    [
+      "2026-04-23",
+      103.45
     ]
   ],
   "historico_pvp": [
@@ -39317,6 +39353,26 @@
     [
       "2026-04-16",
       1.0147307178
+    ],
+    [
+      "2026-04-17",
+      1.0153160269
+    ],
+    [
+      "2026-04-20",
+      1.0145356148
+    ],
+    [
+      "2026-04-21",
+      1.0145356148
+    ],
+    [
+      "2026-04-22",
+      1.0145356148
+    ],
+    [
+      "2026-04-23",
+      1.0091702823
     ]
   ],
   "historico_dy": [
@@ -49535,14 +49591,1009 @@
     [
       "2026-04-16",
       9.3444
+    ],
+    [
+      "2026-04-17",
+      9.339
+    ],
+    [
+      "2026-04-20",
+      9.3462
+    ],
+    [
+      "2026-04-22",
+      9.3462
+    ],
+    [
+      "2026-04-23",
+      9.3958
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2016-01-31",
+      1.05157932
+    ],
+    [
+      "2016-02-29",
+      0.8418663
+    ],
+    [
+      "2016-03-31",
+      0.37649461
+    ],
+    [
+      "2016-04-30",
+      0.51247327
+    ],
+    [
+      "2016-05-31",
+      0.88563645
+    ],
+    [
+      "2016-06-30",
+      1.46118959
+    ],
+    [
+      "2016-07-31",
+      0.25337213
+    ],
+    [
+      "2016-08-31",
+      1.23729983
+    ],
+    [
+      "2016-09-30",
+      0.30109179
+    ],
+    [
+      "2016-10-31",
+      0.23687877
+    ],
+    [
+      "2016-11-30",
+      0.49635579
+    ],
+    [
+      "2016-12-31",
+      0.53908626
+    ],
+    [
+      "2017-01-31",
+      0.5275449726
+    ],
+    [
+      "2017-02-28",
+      0.29654466
+    ],
+    [
+      "2017-03-31",
+      0.27494519
+    ],
+    [
+      "2017-04-30",
+      0.24447136
+    ],
+    [
+      "2017-05-31",
+      0.27198909
+    ],
+    [
+      "2017-06-30",
+      0.2422395
+    ],
+    [
+      "2017-07-31",
+      0.36089512
+    ],
+    [
+      "2017-08-31",
+      0.36423647
+    ],
+    [
+      "2017-09-30",
+      0.33743881
+    ],
+    [
+      "2017-10-31",
+      0.33525472
+    ],
+    [
+      "2017-11-30",
+      0.32036204
+    ],
+    [
+      "2017-12-31",
+      0.35254993
+    ],
+    [
+      "2018-01-31",
+      0.33724607
+    ],
+    [
+      "2018-02-28",
+      0.33567909
+    ],
+    [
+      "2018-03-31",
+      0.33492124
+    ],
+    [
+      "2018-04-30",
+      0.33762354
+    ],
+    [
+      "2018-05-31",
+      0.35068827
+    ],
+    [
+      "2018-06-30",
+      0.348877908
+    ],
+    [
+      "2018-07-31",
+      0.29360941
+    ],
+    [
+      "2018-08-31",
+      0.34118117
+    ],
+    [
+      "2018-09-30",
+      0.30864063
+    ],
+    [
+      "2018-10-31",
+      0.31267287
+    ],
+    [
+      "2018-11-30",
+      0.34646915
+    ],
+    [
+      "2018-12-31",
+      0.36565537
+    ],
+    [
+      "2019-01-31",
+      0.36548651
+    ],
+    [
+      "2019-02-28",
+      0.38127845
+    ],
+    [
+      "2019-03-31",
+      0.38029859
+    ],
+    [
+      "2019-04-30",
+      0.43010053
+    ],
+    [
+      "2019-05-31",
+      0.4307928
+    ],
+    [
+      "2019-06-30",
+      0.4109436808
+    ],
+    [
+      "2019-07-31",
+      0.3731050641
+    ],
+    [
+      "2019-08-31",
+      0.4131473211
+    ],
+    [
+      "2019-09-30",
+      0.4076945925
+    ],
+    [
+      "2019-10-31",
+      0.36
+    ],
+    [
+      "2019-11-30",
+      0.4
+    ],
+    [
+      "2019-12-31",
+      0.4
+    ],
+    [
+      "2020-01-31",
+      0.738164812
+    ],
+    [
+      "2020-02-29",
+      0.6
+    ],
+    [
+      "2020-03-31",
+      0.6
+    ],
+    [
+      "2020-04-30",
+      0.5
+    ],
+    [
+      "2020-05-31",
+      0.5
+    ],
+    [
+      "2020-06-30",
+      0.5
+    ],
+    [
+      "2020-07-31",
+      0.5
+    ],
+    [
+      "2020-08-31",
+      0.5
+    ],
+    [
+      "2020-09-30",
+      0.33
+    ],
+    [
+      "2020-10-31",
+      0.6
+    ],
+    [
+      "2020-11-30",
+      0.6
+    ],
+    [
+      "2020-12-31",
+      0.6
+    ],
+    [
+      "2021-01-31",
+      0.6
+    ],
+    [
+      "2021-02-28",
+      0.6
+    ],
+    [
+      "2021-03-31",
+      0.6
+    ],
+    [
+      "2021-04-30",
+      0.63
+    ],
+    [
+      "2021-05-31",
+      0.7
+    ],
+    [
+      "2021-06-30",
+      0.7
+    ],
+    [
+      "2021-07-31",
+      0.7
+    ],
+    [
+      "2021-08-31",
+      0.74
+    ],
+    [
+      "2021-09-30",
+      0.72
+    ],
+    [
+      "2021-10-31",
+      0.72
+    ],
+    [
+      "2021-11-30",
+      0.72
+    ],
+    [
+      "2021-12-31",
+      0.72
+    ],
+    [
+      "2022-01-31",
+      0.72
+    ],
+    [
+      "2022-02-28",
+      0.72
+    ],
+    [
+      "2022-03-31",
+      0.72
+    ],
+    [
+      "2022-04-30",
+      0.72
+    ],
+    [
+      "2022-05-31",
+      0.72
+    ],
+    [
+      "2022-06-30",
+      0.72
+    ],
+    [
+      "2022-07-31",
+      0.82
+    ],
+    [
+      "2022-08-31",
+      1.48
+    ],
+    [
+      "2022-09-30",
+      0.74
+    ],
+    [
+      "2022-10-31",
+      0.74
+    ],
+    [
+      "2022-11-30",
+      0.74
+    ],
+    [
+      "2022-12-31",
+      0.74
+    ],
+    [
+      "2023-01-31",
+      0.74
+    ],
+    [
+      "2023-02-28",
+      0.74
+    ],
+    [
+      "2023-03-31",
+      0.74
+    ],
+    [
+      "2023-04-30",
+      0.74
+    ],
+    [
+      "2023-05-31",
+      0.74
+    ],
+    [
+      "2023-06-30",
+      0.74
+    ],
+    [
+      "2023-07-31",
+      0.76
+    ],
+    [
+      "2023-08-31",
+      0.76
+    ],
+    [
+      "2023-09-30",
+      0.76
+    ],
+    [
+      "2023-10-31",
+      0.76
+    ],
+    [
+      "2023-11-30",
+      0.76
+    ],
+    [
+      "2023-12-31",
+      0.76
+    ],
+    [
+      "2024-01-31",
+      0.81
+    ],
+    [
+      "2024-02-29",
+      0.78
+    ],
+    [
+      "2024-03-31",
+      0.76
+    ],
+    [
+      "2024-04-30",
+      0.76
+    ],
+    [
+      "2024-05-31",
+      0.76
+    ],
+    [
+      "2024-06-30",
+      0.76
+    ],
+    [
+      "2024-07-31",
+      0.76
+    ],
+    [
+      "2024-08-31",
+      0.76
+    ],
+    [
+      "2024-09-30",
+      0.78
+    ],
+    [
+      "2024-10-31",
+      0.78
+    ],
+    [
+      "2024-11-30",
+      0.78
+    ],
+    [
+      "2024-12-31",
+      0.78
+    ],
+    [
+      "2025-01-31",
+      0.868191017
+    ],
+    [
+      "2025-02-28",
+      0.78
+    ],
+    [
+      "2025-03-31",
+      0.78
+    ],
+    [
+      "2025-04-30",
+      0.78
+    ],
+    [
+      "2025-05-31",
+      0.78
+    ],
+    [
+      "2025-06-30",
+      0.78
+    ],
+    [
+      "2025-07-31",
+      0.7801
+    ],
+    [
+      "2025-08-31",
+      0.78
+    ],
+    [
+      "2025-09-30",
+      0.79
+    ],
+    [
+      "2025-10-31",
+      0.79
+    ],
+    [
+      "2025-11-30",
+      0.79
+    ],
+    [
+      "2025-12-31",
+      0.79
+    ],
+    [
+      "2026-01-31",
+      0.79
+    ],
+    [
+      "2026-02-28",
+      0.8
+    ],
+    [
+      "2026-03-31",
+      0.8
+    ],
+    [
+      "2026-04-30",
+      0.81
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 709762396.03,
     "Imóveis": 4945236187.0,
     "Cotas de FIIs": 363150302.8,
     "CRI/CRA": 978461.49,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 262291895.71,
     "Outros": 0.010000228881835938
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "FII MAUA CAPITAL RECEBIVEIS IMOBILIARIOS  FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 46984.0,
+        "valor": 4300915.36
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG LOG AAA CAJAMAR FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4000000.0,
+        "valor": 10606640.0
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL CDB PLUS FUNDO DE INVESTIMENTO RENDA FIXA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8009077.11,
+        "valor": 27383115.57
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI ATIVOS FINANCEIROS FII DE RESP LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 296559.0,
+        "valor": 23843343.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL LOGISTICA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 12182.0,
+        "valor": 1250482.3
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TELLUS RIO BRAVO RENDA LOGISTICA FII RL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 744544.0,
+        "valor": 51447990.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "24",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1178.0,
+        "valor": 987384.89,
+        "nome_cri": "CRI Assaí"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "LOG DOMINIUM FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 379620.38,
+        "valor": 38057742.54
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL LOGCP FII  FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3803739.0,
+        "valor": 41844335.55
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAU SOBERANO RF SIMPLES LP FICFI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 88562.53,
+        "valor": 7229031.89
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA INDICES DE PRECOS FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 370055.0,
+        "valor": 33504779.7
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BANCO BTG PACTUAL S A",
+        "nome": "20G0800227",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 92628185.0,
+        "valor": 100248335.1
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SUNO LOG FII - RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 64000.0,
+        "valor": 101120.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL LOG ESTRATEGIAS LIQUIDAS FII FII RL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10850000.0,
+        "valor": 56073461.85
+      },
+      {
+        "tipo": "FII",
+        "emissor": "INTER OPP FII SR",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 764604.0,
+        "valor": 76800072.26
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP HOTEIS - FII - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 226406.0,
+        "valor": 9780739.2
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BANCO BTG PACTUAL S A",
+        "nome": "15L0652383",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 1508648.05
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PARQUE ANHANGUERA FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1578226.0,
+        "valor": 88838341.54
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII - BTG PACTUAL CREDITO IMOBILIARIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1082630.0,
+        "valor": 10111764.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL PRIME LOGISTICA FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 743774.0,
+        "valor": 7437740.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL REAL ESTATE HEDGE FUND FII - FII RL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1393644.0,
+        "valor": 12584605.32
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL TESOURO SELIC FUNDO DE INVESTIMENTO RENDA FIXA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1365658.71,
+        "valor": 7032691.59
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA SECURITIES FII - RESPONSABILIDADE  LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1206558.0,
+        "valor": 77883318.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "IRIDIUM FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 275834.0,
+        "valor": 18756712.0
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FUNDO DE INVESTIMENTO RENDA FIXA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5160978.84,
+        "valor": 276131536.8
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL CDB I FUNDO DE INVESTIMENTO EM COTAS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 320008.35,
+        "valor": 1086713.93
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "BTLG Cajamar II",
+        "endereco": "Avenida Doutor Antonio Joao Abdalla, 3945, Sem Complemento, Empresarial Colina, Cajamar/SP, Brasil, 07750-020",
+        "area": 78639.38,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Maua",
+        "endereco": "Avenida Alberto Soares Sampaio, S/n, Sem Complemento, Capuava, Maua/SP, Brasil, 09380-000",
+        "area": 88774.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Louveira V VI e VII",
+        "endereco": "Estrada Cruz Grande, 1700, Sem Complemento, Santo Antônio, Louveira/SP, Brasil, 13294-004",
+        "area": 87003.47,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Extrema",
+        "endereco": "Estrada Municipal Thereza Thomazella, 432, Sem Complemento, Bairro Dos Pires, Extrema/MG, Brasil, 37640-000",
+        "area": 38000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Itapevi II",
+        "endereco": "Avenida Portugal, 1100, Sem Complemento, Itaqui, Itapevi/SP, Brasil, 06696-060",
+        "area": 73242.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Louveira III",
+        "endereco": "Estrada Cruz Grande, 1700, Sem Complemento, Santo Antônio, Louveira/SP, Brasil, 13294-900",
+        "area": 31632.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG -  Aracatuba",
+        "endereco": "Rodovia Marechal Rondon, Km 536, 21500, Sem Complemento, Avenida, Aracatuba/SP, Brasil, 16027-231",
+        "area": 26783.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Cotia",
+        "endereco": "Estrada Do Capuava, 1000, Sem Complemento, Chacara Ondas Verdes, Cotia/SP, Brasil, 06715-725",
+        "area": 7538.31,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG  - Ribeirao Preto",
+        "endereco": "Rodovia Anhanguera, S/n, Km 308, Parque Residencial Candido Portinari, Ribeirao Preto/SP, Brasil, 14093-500",
+        "area": 57210.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG Cajamar I",
+        "endereco": "Avenida Doutor Antonio Joao Abdalla, 2010, Sem Complemento, Empresarial Colina, Cajamar/SP, Brasil, 07750-020",
+        "area": 57153.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Suape II",
+        "endereco": "Rodovia Pe- 60 - Km 22, S/n, , Distrito Industrial De Ipojuca - Suape, Ipojuca/PE, Brasil, 55598-078",
+        "area": 35962.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Jundiai",
+        "endereco": "Avenida Francisco Roveri, S/n, Sem Complemento, Parque Almerinda Pereira Chaves, Jundiai/SP, Brasil, 13212-541",
+        "area": 88894.76,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Queimados",
+        "endereco": "Rua Minas Gerais - Quadra 10, Lote 0007, 000007, Quadra 10, Lote 0007, Distrito Industrial, Queimados/RJ, Brasil, 26373-280",
+        "area": 22783.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Cajamar III",
+        "endereco": "Rua Adamo Zambelli, 190, Sem Complemento, Calcárea, Caieiras/SP, Brasil, 07723-000",
+        "area": 51109.8,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Regis",
+        "endereco": "Estrada Ferreira Guedes, 784, Sem Complemento, Potuvera, Itapecerica Da Serra/SP, Brasil, 06885-150",
+        "area": 30592.23,
+        "vacancia": 0.32,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Hortolandia",
+        "endereco": "Rua Perola, 350, N/a, Jardim Santa Esmeralda, Hortolandia/SP, Brasil, 13186-546",
+        "area": 36024.37,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Louveira IV",
+        "endereco": "Estrada Cruz Grande, 1500, Sem Complemento, Santo Antônio, Louveira/SP, Brasil, 13294-004",
+        "area": 18702.16,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Louveira VIII",
+        "endereco": "Rua Wagner Luis Bevilaqua, 525, 525, Sem Complemento, Parque Dos Estados, Louveira/SP, Brasil, 13290-901",
+        "area": 73020.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Navegantes",
+        "endereco": "Rodovia Br470, 04, Sem Complemento, Machados, Navegantes/SC, Brasil, 88373-330",
+        "area": 9793.66,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Mauá II",
+        "endereco": "Avenida Papa Joao Xxiii, 3740, Sem Complemento, Sitio Sertão, Mauá/SP, Brasil, 09370-800",
+        "area": 48417.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Santo Andre",
+        "endereco": "Avenida Joao Pessoa, 500, Sem Complemento, Jardim Utinga, Santo André/SP, Brasil, 09230-650",
+        "area": 40474.0,
+        "vacancia": 0.44,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Louveira IX",
+        "endereco": "Rua Wagner Luis Bevilaqua, 525, Sem Complemento, Parque Dos Estados, Louveira/SP, Brasil, 13290-901",
+        "area": 7870.22,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Cabreuva",
+        "endereco": "Rodovia  Dom Gabriel Paulino Bueno Couto, Km 80,2, Esquina Com Via Dos Ipes, Bairro Do Jacaré, Cabreuva/SP, Brasil, 13315-000",
+        "area": 38214.0,
+        "vacancia": 0.36,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Louveira I",
+        "endereco": "Avenida Jose Luiz Mazzali, 450, Sem Complemento, Santo Antônio, Louveira/SP, Brasil, 13294-002",
+        "area": 137255.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG Campinas - Dom Pedro",
+        "endereco": "Estrada Municipal Jose Sedano, 854, Sem Complemento, Residencial Quilombo Ii, Campinas/SP, Brasil, 13069-387",
+        "area": 99592.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Louveira II",
+        "endereco": "Avenida Jose Luiz Mazzali, 480, Sem Complemento, Santo Antônio, Louveira/SP, Brasil, 13294-002",
+        "area": 6503.19,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Castelo Branco",
+        "endereco": "Avenida Charles Goodyear, S/n, Sem Complemento, Cururuquara, Santana De Parnaiba/SP, Brasil, 06524-115",
+        "area": 18940.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Loja Dengo",
+        "endereco": "Avenida Brigadeiro Faria Lima, 186, Sem Complemento, Pinheiros, Sao Paulo/SP, Brasil, 05426-200",
+        "area": 1499.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Osasco",
+        "endereco": "Avenida Doutor Alberto Jackson Byington, 2990, Sem Complemento, Industrial Anhangüera, Osasco/SP, Brasil, 06276-000",
+        "area": 35011.07,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BTLG - Fortaleza",
+        "endereco": "Br 116, 2271, Sem Complemento, Verife, Itaitinga/CE, Brasil, 61880-000",
+        "area": 23274.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

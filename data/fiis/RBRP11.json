@@ -4,14 +4,18 @@
     "Ticker": "RBRP11",
     "Nome": "FII Rbr Properties",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0173,
-    "Retorno - 12M": 0.2548,
-    "P/VP": 0.65,
+    "Retorno - MTD": 0.0105,
+    "Retorno - 12M": 0.2125,
+    "P/VP": 0.64,
     "Último Dividendo Pago": 0.4,
-    "DY a.a.": 0.091,
+    "DY a.a.": 0.092,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com gestão ativa e foco em renda locatícia e valorização patrimonial. É gerido pela RBR e integra sua estratégia de renda e properties. O portfólio é concentrado em imóveis corporativos, com atuação voltada à locação, reciclagem de ativos e geração recorrente.",
     "Comentário": "A Patria assumiu gestão em fevereiro, apresentando resultado de R$ 0,46/cota com distribuição de R$ 0,40/cota. Vacância permaneceu em 23,8%, com esforços em negociações para Venezuela e Jacks Rabinovich. Reajustes contratuais foram realizados em 9.751 m² de ABL do portfólio corporativo.",
-    "Preço Atual": 52.65
+    "Preço Atual": 51.84,
+    "% Dias Acima CDI 1A": 0.3952,
+    "% Dias Acima CDI 3A": 0.3557,
+    "% Dias Acima CDI 5A": 0.2506,
+    "% Dias Acima CDI MAX": 0.3768
   },
   "historico_preco": [
     [
@@ -6613,6 +6617,22 @@
     [
       "2026-04-16",
       52.22
+    ],
+    [
+      "2026-04-17",
+      52.7
+    ],
+    [
+      "2026-04-20",
+      52.7
+    ],
+    [
+      "2026-04-22",
+      52.9
+    ],
+    [
+      "2026-04-23",
+      52.55
     ]
   ],
   "historico_preco_adj": [
@@ -13215,6 +13235,22 @@
     [
       "2026-04-16",
       52.22
+    ],
+    [
+      "2026-04-17",
+      52.7
+    ],
+    [
+      "2026-04-20",
+      52.7
+    ],
+    [
+      "2026-04-22",
+      52.9
+    ],
+    [
+      "2026-04-23",
+      52.55
     ]
   ],
   "historico_pvp": [
@@ -21125,6 +21161,26 @@
     [
       "2026-04-16",
       0.63959231884
+    ],
+    [
+      "2026-04-17",
+      0.64547137501
+    ],
+    [
+      "2026-04-20",
+      0.64547137501
+    ],
+    [
+      "2026-04-21",
+      0.64547137501
+    ],
+    [
+      "2026-04-22",
+      0.64792098175
+    ],
+    [
+      "2026-04-23",
+      0.64363416996
     ]
   ],
   "historico_dy": [
@@ -27715,13 +27771,636 @@
     [
       "2026-04-16",
       9.1919
+    ],
+    [
+      "2026-04-17",
+      9.1082
+    ],
+    [
+      "2026-04-20",
+      9.1082
+    ],
+    [
+      "2026-04-22",
+      9.0737
+    ],
+    [
+      "2026-04-23",
+      9.1342
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2018-09-30",
+      1.393448898
+    ],
+    [
+      "2018-10-31",
+      0.4758029047
+    ],
+    [
+      "2018-11-30",
+      0.47064152832
+    ],
+    [
+      "2018-12-31",
+      0.482001841
+    ],
+    [
+      "2019-01-31",
+      0.5024914
+    ],
+    [
+      "2019-02-28",
+      0.387769
+    ],
+    [
+      "2019-03-31",
+      0.419842
+    ],
+    [
+      "2019-04-30",
+      0.48267245321
+    ],
+    [
+      "2019-05-31",
+      0.465334365
+    ],
+    [
+      "2019-06-30",
+      0.460169
+    ],
+    [
+      "2019-07-31",
+      0.4050317
+    ],
+    [
+      "2019-08-31",
+      0.378753291
+    ],
+    [
+      "2019-09-30",
+      0.55578546
+    ],
+    [
+      "2019-10-31",
+      0.32835
+    ],
+    [
+      "2019-11-30",
+      0.269
+    ],
+    [
+      "2019-12-31",
+      0.2607
+    ],
+    [
+      "2020-01-31",
+      0.259
+    ],
+    [
+      "2020-02-29",
+      0.5014
+    ],
+    [
+      "2020-03-31",
+      0.5014
+    ],
+    [
+      "2020-04-30",
+      0.365
+    ],
+    [
+      "2020-05-31",
+      0.4
+    ],
+    [
+      "2020-06-30",
+      0.42
+    ],
+    [
+      "2020-07-31",
+      0.48
+    ],
+    [
+      "2020-08-31",
+      0.53
+    ],
+    [
+      "2020-09-30",
+      0.56
+    ],
+    [
+      "2020-10-31",
+      0.58
+    ],
+    [
+      "2020-11-30",
+      0.58
+    ],
+    [
+      "2020-12-31",
+      0.55
+    ],
+    [
+      "2021-01-31",
+      0.55
+    ],
+    [
+      "2021-02-28",
+      0.52
+    ],
+    [
+      "2021-03-31",
+      0.52
+    ],
+    [
+      "2021-04-30",
+      0.5
+    ],
+    [
+      "2021-05-31",
+      0.3
+    ],
+    [
+      "2021-06-30",
+      0.32
+    ],
+    [
+      "2021-07-31",
+      0.35
+    ],
+    [
+      "2021-08-31",
+      0.42
+    ],
+    [
+      "2021-09-30",
+      0.43
+    ],
+    [
+      "2021-10-31",
+      0.45
+    ],
+    [
+      "2021-11-30",
+      0.46
+    ],
+    [
+      "2021-12-31",
+      0.46
+    ],
+    [
+      "2022-01-31",
+      0.46
+    ],
+    [
+      "2022-02-28",
+      0.46
+    ],
+    [
+      "2022-03-31",
+      0.42
+    ],
+    [
+      "2022-04-30",
+      0.5
+    ],
+    [
+      "2022-05-31",
+      0.45
+    ],
+    [
+      "2022-06-30",
+      0.45
+    ],
+    [
+      "2022-07-31",
+      0.45
+    ],
+    [
+      "2022-08-31",
+      0.45
+    ],
+    [
+      "2022-09-30",
+      0.45
+    ],
+    [
+      "2022-10-31",
+      0.45
+    ],
+    [
+      "2022-11-30",
+      0.28
+    ],
+    [
+      "2022-12-31",
+      0.27
+    ],
+    [
+      "2023-01-31",
+      0.27
+    ],
+    [
+      "2023-02-28",
+      0.27
+    ],
+    [
+      "2023-03-31",
+      0.27
+    ],
+    [
+      "2023-04-30",
+      0.27
+    ],
+    [
+      "2023-05-31",
+      0.27
+    ],
+    [
+      "2023-06-30",
+      0.27
+    ],
+    [
+      "2023-07-31",
+      0.27
+    ],
+    [
+      "2023-08-31",
+      0.27
+    ],
+    [
+      "2023-09-30",
+      0.25
+    ],
+    [
+      "2023-10-31",
+      0.25
+    ],
+    [
+      "2023-11-30",
+      0.28
+    ],
+    [
+      "2023-12-31",
+      0.28
+    ],
+    [
+      "2024-01-31",
+      0.28
+    ],
+    [
+      "2024-02-29",
+      0.33
+    ],
+    [
+      "2024-03-31",
+      0.35
+    ],
+    [
+      "2024-04-30",
+      0.35
+    ],
+    [
+      "2024-05-31",
+      0.66
+    ],
+    [
+      "2024-06-30",
+      0.66
+    ],
+    [
+      "2024-07-31",
+      0.67
+    ],
+    [
+      "2024-08-31",
+      0.55
+    ],
+    [
+      "2024-09-30",
+      0.54
+    ],
+    [
+      "2024-10-31",
+      0.52
+    ],
+    [
+      "2024-11-30",
+      0.54
+    ],
+    [
+      "2024-12-31",
+      0.54
+    ],
+    [
+      "2025-01-31",
+      0.54
+    ],
+    [
+      "2025-02-28",
+      0.41
+    ],
+    [
+      "2025-03-31",
+      0.41
+    ],
+    [
+      "2025-04-30",
+      0.4
+    ],
+    [
+      "2025-05-31",
+      0.4
+    ],
+    [
+      "2025-06-30",
+      0.4
+    ],
+    [
+      "2025-07-31",
+      0.4
+    ],
+    [
+      "2025-08-31",
+      0.4
+    ],
+    [
+      "2025-09-30",
+      0.4
+    ],
+    [
+      "2025-10-31",
+      0.4
+    ],
+    [
+      "2025-11-30",
+      0.4
+    ],
+    [
+      "2025-12-31",
+      0.4
+    ],
+    [
+      "2026-01-31",
+      0.4
+    ],
+    [
+      "2026-02-28",
+      0.4
+    ],
+    [
+      "2026-03-31",
+      0.4
+    ],
+    [
+      "2026-04-30",
+      0.4
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 32568045.59,
     "Imóveis": 644054188.72,
     "Cotas de FIIs": 197750216.91,
     "CRI/CRA": 34158758.64,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 85536053.29
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23B0430541 - OPEA SEC",
+        "nome": "",
+        "emissao": "123",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7685.0,
+        "valor": 4447661.59,
+        "nome_cri": "CRI Paes & Gregori"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RCFF11 - RBR DESENVOLVIMENTO COMERCIAL FEEDER FOF FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 94.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TOPP11 - FII TOPP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 15150.0,
+        "valor": 1164883.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CENU11 - CENU FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 38526.0,
+        "valor": 3852600.0
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FICFI ITAU SOBERANO RENDA FIXA SIMPLES LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 40995.1034,
+        "valor": 3348795.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21K0915478 - OPEA SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "428",
+        "vencimento": "",
+        "quantidade": 3860.0,
+        "valor": 3237341.91,
+        "nome_cri": "CRI JK Financial Center"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1189880 - VIRGO SEC",
+        "nome": "",
+        "emissao": "201",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8200.0,
+        "valor": 7421118.29,
+        "nome_cri": "CRI ESTR RBR CURY"
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "LCI_24B01408261 - CEF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-01-29",
+        "quantidade": 3.0,
+        "valor": 3725446.58
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TRNT11 - FII TORRE NO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 56649.0,
+        "valor": 5381655.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FVPQ11 - FII V PARQUE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9457.0,
+        "valor": 666718.5
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "LCI_24F01524489 - CEF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-06-08",
+        "quantidade": 1.0,
+        "valor": 1198608.17
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24E1296964 - VERTICIA SEC",
+        "nome": "",
+        "emissao": "132",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 18045.0,
+        "valor": 15025488.55,
+        "nome_cri": "CRI CREDIBLUE SOLUCOES FINANCEIRAS E IMOBILIARIAS LTDA QI TECH"
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "LCI_24C01152711 - CEF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-02-23",
+        "quantidade": 10.0,
+        "valor": 12320959.29
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HGPO11 - FII CSHGJHSF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 13101.0,
+        "valor": 1912746.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XPML11 - FII XP MALLS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 81645.0,
+        "valor": 8822558.7
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L1279637 - OPEA SEC",
+        "nome": "",
+        "emissao": "200",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9877.0,
+        "valor": 8013889.85,
+        "nome_cri": "CRI FGR"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PSEC11 - FII PSEC PAX",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 12881.0,
+        "valor": 831468.55
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBRL11 - RBR LOG FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1924086.0,
+        "valor": 177958714.14
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "24° Andar do Edifício Castello Branco",
+        "endereco": "Av. República do Chile, 230 - Centro, Rio de Janeiro - RJ",
+        "area": 1065.15,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edíficio River One",
+        "endereco": "Rua Gerivatiba, esquina com a Rua Pirajussara, nºs 71, 87 e 95, com frente também para a Rua Desembargador Armando Fairbanks, nº 32, Pinheiros, São Paulo - SP.",
+        "area": 23625.14,
+        "vacancia": 0.0911,
+        "pct_total": null
+      },
+      {
+        "nome": "Edíficio Mario Garneiro Torre Sul",
+        "endereco": "Av. Brigadeiro Faria Lima nº 1.461,  Pinheiros, São Paulo/SP",
+        "area": 2722.35,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Delta Plaza",
+        "endereco": "Rua Cincinato Braga, 340 - Bela Vista - São Paulo - SP",
+        "area": 4058.7,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Cerp - Venezuela",
+        "endereco": "Avenida Venezuela, 43 - Saúde - Rio de Janeiro - RJ",
+        "area": 4488.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edíficio Celebration",
+        "endereco": "Rua Casa do Ator, 1.155 - Vila Olímpia - São Paulo - SP",
+        "area": 6458.29,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

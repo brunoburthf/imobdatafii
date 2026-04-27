@@ -4,14 +4,18 @@
     "Ticker": "AJFI11",
     "Nome": "Aj Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0048,
-    "Retorno - 12M": 0.2243,
+    "Retorno - MTD": 0.0109,
+    "Retorno - 12M": 0.2317,
     "P/VP": 0.75,
     "Último Dividendo Pago": 0.05,
     "DY a.a.": 0.072,
     "Visão Geral": "FII de shopping que investe em shopping centers originados e administrados pela Almeida Junior, podendo também participar de projetos greenfield do segmento. É gerido pela Capitânia e busca renda imobiliária e ganho de capital com exploração comercial dos ativos. A estratégia prioriza shoppings consolidados e gestão especializada no varejo regional.",
     "Comentário": "O portfólio de shoppings da Almeida Junior apresentou desempenho operacional robusto em dezembro, com NOI caixa crescendo entre 7,2% e 22,1% na comparação anual entre seus seis ativos. A vacância consolidada fechou em 7%, mantendo-se controlada, enquanto as vendas totais cresceram consistentemente. O fundo distribuiu R$0,047/cota, acompanhando a trajetória dos períodos anteriores.",
-    "Preço Atual": 8.29
+    "Preço Atual": 8.33,
+    "% Dias Acima CDI 1A": 0.5685,
+    "% Dias Acima CDI 3A": 0.3917,
+    "% Dias Acima CDI 5A": 0.3917,
+    "% Dias Acima CDI MAX": 0.3917
   },
   "historico_preco": [
     [
@@ -2445,6 +2449,22 @@
     [
       "2026-04-16",
       8.28
+    ],
+    [
+      "2026-04-17",
+      8.29
+    ],
+    [
+      "2026-04-20",
+      8.34
+    ],
+    [
+      "2026-04-22",
+      8.34
+    ],
+    [
+      "2026-04-23",
+      8.33
     ]
   ],
   "historico_preco_adj": [
@@ -4879,6 +4899,22 @@
     [
       "2026-04-16",
       8.28
+    ],
+    [
+      "2026-04-17",
+      8.29
+    ],
+    [
+      "2026-04-20",
+      8.34
+    ],
+    [
+      "2026-04-22",
+      8.34
+    ],
+    [
+      "2026-04-23",
+      8.33
     ]
   ],
   "historico_pvp": [
@@ -7365,6 +7401,26 @@
     [
       "2026-04-16",
       0.74804236663
+    ],
+    [
+      "2026-04-17",
+      0.74894579944
+    ],
+    [
+      "2026-04-20",
+      0.75346296349
+    ],
+    [
+      "2026-04-21",
+      0.75346296349
+    ],
+    [
+      "2026-04-22",
+      0.75346296349
+    ],
+    [
+      "2026-04-23",
+      0.75255953068
     ]
   ],
   "historico_dy": [
@@ -9735,11 +9791,207 @@
     [
       "2026-04-16",
       7.2464
+    ],
+    [
+      "2026-04-17",
+      7.2376
+    ],
+    [
+      "2026-04-20",
+      7.1942
+    ],
+    [
+      "2026-04-22",
+      7.1942
+    ],
+    [
+      "2026-04-23",
+      7.2029
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2023-12-31",
+      0.07
+    ],
+    [
+      "2024-01-31",
+      0.07
+    ],
+    [
+      "2024-02-29",
+      0.082
+    ],
+    [
+      "2024-03-31",
+      0.08
+    ],
+    [
+      "2024-04-30",
+      0.0715
+    ],
+    [
+      "2024-05-31",
+      0.07
+    ],
+    [
+      "2024-06-30",
+      0.06
+    ],
+    [
+      "2024-07-31",
+      0.06
+    ],
+    [
+      "2024-08-31",
+      0.06811
+    ],
+    [
+      "2024-09-30",
+      0.06827
+    ],
+    [
+      "2024-10-31",
+      0.07
+    ],
+    [
+      "2024-11-30",
+      0.07
+    ],
+    [
+      "2024-12-31",
+      0.07
+    ],
+    [
+      "2025-01-31",
+      0.07
+    ],
+    [
+      "2025-02-28",
+      0.07
+    ],
+    [
+      "2025-03-31",
+      0.07
+    ],
+    [
+      "2025-04-30",
+      0.07
+    ],
+    [
+      "2025-05-31",
+      0.07
+    ],
+    [
+      "2025-06-30",
+      0.06
+    ],
+    [
+      "2025-07-31",
+      0.06
+    ],
+    [
+      "2025-08-31",
+      0.06
+    ],
+    [
+      "2025-09-30",
+      0.06
+    ],
+    [
+      "2025-10-31",
+      0.03
+    ],
+    [
+      "2025-11-30",
+      0.045
+    ],
+    [
+      "2025-12-31",
+      0.047
+    ],
+    [
+      "2026-01-31",
+      0.05
+    ],
+    [
+      "2026-02-28",
+      0.05
+    ],
+    [
+      "2026-03-31",
+      0.05
+    ],
+    [
+      "2026-04-30",
+      0.05
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 23107803.78,
     "Imóveis": 357998078.43,
     "Outros": 1.6763806343078613e-08
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "OT SOBERANO FIRF REF DI LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 777.9668161365,
+        "valor": 2469916.63
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Continente Shopping",
+        "endereco": "Esquina Rod. SC 281, Distrito Industrial - 88104-801, Grande Florianópolis - SC",
+        "area": 36032.7,
+        "vacancia": 0.0984,
+        "pct_total": null
+      },
+      {
+        "nome": "Garten Shopping",
+        "endereco": "Av. Rolf Wiest, n° 333 , Bom Retiro - 89223-005, Joinville - SC,",
+        "area": 41969.3299333191,
+        "vacancia": 0.0298,
+        "pct_total": null
+      },
+      {
+        "nome": "Balneário Shopping",
+        "endereco": "Av. Santa Catarina, nº 1, Estados - 88339-005, Balneário Camboriú - SC",
+        "area": 35901.91,
+        "vacancia": 0.0918,
+        "pct_total": null
+      },
+      {
+        "nome": "Norte Shopping",
+        "endereco": "Rodovia BR-470, nº  3000, Salto Norte - 89065-800, Blumenau - SC",
+        "area": 35324.5,
+        "vacancia": 0.0369,
+        "pct_total": null
+      },
+      {
+        "nome": "Nações Shopping",
+        "endereco": "Av. Jorge Elias de Lucca, nº 765, Nossa Senhora da Salete - 88813-901, Criciúma - SC",
+        "area": 44574.9999482727,
+        "vacancia": 0.0989,
+        "pct_total": null
+      },
+      {
+        "nome": "Neumarkt Shopping",
+        "endereco": "R. Sete de Setembro, n° 1213 , Centro - 89010-911, Blumenau - SC,",
+        "area": 30436.24,
+        "vacancia": 0.0333,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

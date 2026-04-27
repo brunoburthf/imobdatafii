@@ -4,14 +4,18 @@
     "Ticker": "KNHF11",
     "Nome": "Kinea Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0206,
-    "Retorno - 12M": 0.2618,
+    "Retorno - MTD": 0.0166,
+    "Retorno - 12M": 0.2548,
     "P/VP": 0.99,
     "Último Dividendo Pago": 1.0,
     "DY a.a.": 0.12,
     "Visão Geral": "FII híbrido que investe em CRIs, FIIs, imóveis, ações e projetos de desenvolvimento, com gestão ativa e mandato multiestratégia. É gerido pela Kinea e busca oportunidades em diferentes subsegmentos do mercado imobiliário. A estratégia combina renda recorrente e ganho de capital por meio de alocação flexível entre ativos listados e reais.",
     "Comentário": "O fundo encerrou março com cota negociando a R$98,97, deságio de 2,0% ante patrimonial, completando a quarta parcela da aquisição do Edifício São Luiz com desembolso financeiro total. Houve movimentação locatícia com substituição de inquilino, evidenciando o dinamismo da gestão em contexto de escalada geopolítica impactando perspectivas de corte de juros no Brasil.",
-    "Preço Atual": 99.49
+    "Preço Atual": 99.22,
+    "% Dias Acima CDI 1A": 0.5524,
+    "% Dias Acima CDI 3A": 0.3293,
+    "% Dias Acima CDI 5A": 0.3293,
+    "% Dias Acima CDI MAX": 0.3293
   },
   "historico_preco": [
     [
@@ -2657,6 +2661,22 @@
     [
       "2026-04-16",
       99.49
+    ],
+    [
+      "2026-04-17",
+      99.99
+    ],
+    [
+      "2026-04-20",
+      99.5
+    ],
+    [
+      "2026-04-22",
+      99.8
+    ],
+    [
+      "2026-04-23",
+      99.29
     ]
   ],
   "historico_preco_adj": [
@@ -5303,6 +5323,22 @@
     [
       "2026-04-16",
       99.49
+    ],
+    [
+      "2026-04-17",
+      99.99
+    ],
+    [
+      "2026-04-20",
+      99.5
+    ],
+    [
+      "2026-04-22",
+      99.8
+    ],
+    [
+      "2026-04-23",
+      99.29
     ]
   ],
   "historico_pvp": [
@@ -8077,6 +8113,26 @@
     [
       "2026-04-16",
       0.98484205838
+    ],
+    [
+      "2026-04-17",
+      0.98979151088
+    ],
+    [
+      "2026-04-20",
+      0.98494104743
+    ],
+    [
+      "2026-04-21",
+      0.98494104743
+    ],
+    [
+      "2026-04-22",
+      0.98791071893
+    ],
+    [
+      "2026-04-23",
+      0.98286227738
     ]
   ],
   "historico_dy": [
@@ -10691,13 +10747,1342 @@
     [
       "2026-04-16",
       12.0615
+    ],
+    [
+      "2026-04-17",
+      12.0012
+    ],
+    [
+      "2026-04-20",
+      12.0603
+    ],
+    [
+      "2026-04-22",
+      12.024
+    ],
+    [
+      "2026-04-23",
+      12.0858
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2023-09-30",
+      1.0
+    ],
+    [
+      "2023-10-31",
+      0.84
+    ],
+    [
+      "2023-11-30",
+      1.05
+    ],
+    [
+      "2023-12-31",
+      1.05
+    ],
+    [
+      "2024-01-31",
+      1.0
+    ],
+    [
+      "2024-02-29",
+      0.85
+    ],
+    [
+      "2024-03-31",
+      0.86
+    ],
+    [
+      "2024-04-30",
+      0.9
+    ],
+    [
+      "2024-05-31",
+      0.9
+    ],
+    [
+      "2024-06-30",
+      0.9
+    ],
+    [
+      "2024-07-31",
+      0.9
+    ],
+    [
+      "2024-08-31",
+      0.9
+    ],
+    [
+      "2024-09-30",
+      0.9
+    ],
+    [
+      "2024-10-31",
+      0.9
+    ],
+    [
+      "2024-11-30",
+      0.9
+    ],
+    [
+      "2024-12-31",
+      0.9
+    ],
+    [
+      "2025-01-31",
+      0.9
+    ],
+    [
+      "2025-02-28",
+      0.9
+    ],
+    [
+      "2025-03-31",
+      0.9
+    ],
+    [
+      "2025-04-30",
+      0.9
+    ],
+    [
+      "2025-05-31",
+      0.95
+    ],
+    [
+      "2025-06-30",
+      1.0
+    ],
+    [
+      "2025-07-31",
+      1.0
+    ],
+    [
+      "2025-08-31",
+      1.0
+    ],
+    [
+      "2025-09-30",
+      1.0
+    ],
+    [
+      "2025-10-31",
+      1.0
+    ],
+    [
+      "2025-11-30",
+      1.0
+    ],
+    [
+      "2025-12-31",
+      1.0
+    ],
+    [
+      "2026-01-31",
+      1.0
+    ],
+    [
+      "2026-02-28",
+      1.0
+    ],
+    [
+      "2026-03-31",
+      1.0
+    ],
+    [
+      "2026-04-30",
+      1.0
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 262114235.01,
     "Imóveis": 612693047.79,
     "Cotas de FIIs": 300484822.49,
     "CRI/CRA": 1088413458.4,
     "Outros": 23978676.13000004
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "181",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 60000.0,
+        "valor": 56763763.34,
+        "nome_cri": "CRI E-Tower BR"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VINCI SHOPPING CENTERS FUNDO INVESTIMENT",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 168297.0,
+        "valor": 18351104.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "130",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 9791.0,
+        "valor": 5692530.15,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "154",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 20538.0,
+        "valor": 5392078.25,
+        "nome_cri": "CRI MRV XIX (Pró Soluto)"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RIOB VA CI  ER",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4416.0,
+        "valor": -45793.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "448",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 25000.0,
+        "valor": 23413418.64,
+        "nome_cri": "CRI Tenda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 14720057.0,
+        "valor": 14072453.39,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP CREDITO IMOBILIARIO FUNDO DE INVESTIM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4710.0,
+        "valor": 390835.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII BTLG    CI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 28007.0,
+        "valor": -2874918.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "108",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10851.0,
+        "valor": 5363105.49,
+        "nome_cri": "CRI MRV II"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PREMIUM RECEBIVEIS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 38741.0,
+        "valor": 3308093.99
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI MALLS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 237567.0,
+        "valor": 21984450.18
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FDO INV IMOB - FII CENESP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 220763.0,
+        "valor": 390750.51
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PRIVATE CREDITO IMOB FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8553.0,
+        "valor": 836483.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII REC LOGISTICA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20427.0,
+        "valor": 1346139.3
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "153",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 14571.0,
+        "valor": 3928557.53,
+        "nome_cri": "CRI Patriani II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "237",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 24611.0,
+        "valor": 25438586.15,
+        "nome_cri": "CRI WTorre PNU III"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 4774142.0,
+        "valor": 4723079.88,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA PRIME OFFICES FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 364733.0,
+        "valor": 53251018.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EVEN II KINEA FUNDO DE INVESTIMENTO IMOB",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 11687.0,
+        "valor": 5531453.24
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO DE INVESTIMENTO IMOBILIARIO RIO BR",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 79338.0,
+        "valor": 11178724.2
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "258",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 50000.0,
+        "valor": 52142495.92,
+        "nome_cri": "CRI VGRI"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA CREDITAS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 421795.0,
+        "valor": 3707578.05
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA RENDIMENTOS IMOBILIARIOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 68567.0,
+        "valor": 7371638.17
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VECTIS JUROS REAL FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 223649.0,
+        "valor": 18182663.7
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "CAIXA ECONOMICA FEDERAL - CEF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-08-20",
+        "quantidade": 4.0,
+        "valor": 47146223.7
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBR PROPERTIES",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 188970.0,
+        "valor": 10553974.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "111",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 11175.0,
+        "valor": 13228167.93,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA SECURITIES FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1196843.0,
+        "valor": 10544186.83
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 2754584.0,
+        "valor": 3562190.35,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 4802730.0,
+        "valor": 6303605.65,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA MALLS FUNDO DE INVESTIMENTO IMOBI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 175004.0,
+        "valor": 18417420.96
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JS RECEBIVEIS IMOBILIARIOS FUNDO DE INVE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 213072.0,
+        "valor": 1766366.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "153",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7125.0,
+        "valor": 1921005.59,
+        "nome_cri": "CRI Patriani II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 12763710.0,
+        "valor": 13772646.94,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "142",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 12164363.07,
+        "nome_cri": "CRI LF Itaú"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII XP LOG  CI  ER",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10015.0,
+        "valor": -1059787.3
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO INVESTIMENTO IMOBILIARIO TG ATIVO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 121416.0,
+        "valor": 11291688.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "88",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 35000.0,
+        "valor": 22170503.23,
+        "nome_cri": "CRI ESTR SAN REMO"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII KINEA RICI  ER",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 56169.0,
+        "valor": -6038729.19
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 5440987.0,
+        "valor": 8003704.45,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "429",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 21403637.86,
+        "nome_cri": "CRI MRV ProSoluto"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 6496711.0,
+        "valor": 8401457.79,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "122",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 40000.0,
+        "valor": 16251989.35,
+        "nome_cri": "CRI Tenda II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "99",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 24195393.73,
+        "nome_cri": "CRI Pernambucanas II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000000.0,
+        "valor": 4781168.6,
+        "nome_cri": "CRI Eldorado"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "350",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 38000.0,
+        "valor": 38345208.37,
+        "nome_cri": "CRI GS Souto"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "112",
+        "serie": "11",
+        "vencimento": "",
+        "quantidade": 638123.0,
+        "valor": 824686.51,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 61492.0,
+        "valor": 34926295.41,
+        "nome_cri": "CRI Marahu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "154",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 37305.0,
+        "valor": 9794112.33,
+        "nome_cri": "CRI MRV XIX (Pró Soluto)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1720000.0,
+        "valor": 2265925.45,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "214",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 9369977.51,
+        "nome_cri": "CRI JFL V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 2226720.0,
+        "valor": 3275510.26,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRESCO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 45852.0,
+        "valor": 5405492.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "110",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 11282.0,
+        "valor": 12220251.81,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SBCLB RIZA VISEU FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 38082177.83
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "16",
+        "vencimento": "",
+        "quantidade": 4619.0,
+        "valor": 4457854.72,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "340",
+        "vencimento": "",
+        "quantidade": 15713.0,
+        "valor": 16640692.49,
+        "nome_cri": "CRI Fashion Mall"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SANTANDER PAPÉIS IMOBILIÁRIOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3570.0,
+        "valor": 32844.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "191",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 25000.0,
+        "valor": 23747431.55,
+        "nome_cri": "CRI ESTR BURITI II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 234111.0,
+        "valor": 302749.14,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "109",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 11023.0,
+        "valor": 10101604.65,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "448",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 11001.0,
+        "valor": 10302840.74,
+        "nome_cri": "CRI Tenda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "109",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 62466.0,
+        "valor": 29433630.4,
+        "nome_cri": "CRI Helbor II"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ICONE FUNDO DE INVEST IMOBILIARIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 23750.0,
+        "valor": 15462196.24
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA HIGH YIELD CRI FUNDO DE INVESTIMEN",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 85078.0,
+        "valor": 8554592.9
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1986247.0,
+        "valor": 2750339.7,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4246416.0,
+        "valor": 5594222.15,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CLAVE ÍNDICES DE PREÇOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8060.0,
+        "valor": 709280.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "214",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 12844.0,
+        "valor": 6017399.55,
+        "nome_cri": "CRI JFL V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "448",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10828.0,
+        "valor": 10140819.88,
+        "nome_cri": "CRI Tenda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 23819061.0,
+        "valor": 25600913.98,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "153",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 39522.0,
+        "valor": 10655716.88,
+        "nome_cri": "CRI Patriani II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "110",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 63934.0,
+        "valor": 29641722.63,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "15",
+        "vencimento": "",
+        "quantidade": 10779.0,
+        "valor": 9360472.18,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "114",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4438.0,
+        "valor": 2365229.53,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JHSF CAPITAL MALLS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 43292.0,
+        "valor": 6645322.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "55",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15000000.0,
+        "valor": 11032994.25
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "141",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 60000.0,
+        "valor": 60448150.32,
+        "nome_cri": "CRI TRISUL TAGETE EMPREENDIMENTOS IMOBILIÁRIOS LTDA."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "214",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 30521.0,
+        "valor": 14299054.17,
+        "nome_cri": "CRI JFL V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "112",
+        "serie": "8",
+        "vencimento": "",
+        "quantidade": 50000000.0,
+        "valor": 46494945.5,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "130",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 55486.0,
+        "valor": 31102044.78,
+        "nome_cri": "CRI Rogga"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "224",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 12758.0,
+        "valor": 6046839.37,
+        "nome_cri": "CRI Bernoulli"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA SA",
+        "nome": "",
+        "emissao": "29",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 534.0,
+        "valor": 486014.38,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "283",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 40000.0,
+        "valor": 38612818.07,
+        "nome_cri": "CRI GS Souto V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 3471605.0,
+        "valor": 3434474.24,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "265",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 54130.0,
+        "valor": 24120419.38,
+        "nome_cri": "CRI HBR"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SBCLB RIZA VISEU FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 38240441.18
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA CRÉDITO IMOBILIÁRIO ÍNDICE DE PRE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 197902.0,
+        "valor": 16750425.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "IRIDIUM FUNDO DE INVESTIMENTO IMOBILIÁRI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 150128.0,
+        "valor": 10208704.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2441752.0,
+        "valor": 3216760.47,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2338000.0,
+        "valor": 2352879.41,
+        "nome_cri": "CRI Mitre Raízes"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "170",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 35000.0,
+        "valor": 35490188.81
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 3374567.0,
+        "valor": 3338474.12,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "114",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 65149.0,
+        "valor": 37673506.3,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "111",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 63327.0,
+        "valor": 27868859.52,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4853390.0,
+        "valor": 6720448.75,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JS REAL ESTATE MULTIGESTAO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 311661.0,
+        "valor": 20719223.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI ATIVOS FINANCEIROS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1796.0,
+        "valor": 144398.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "104",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 11735463.0,
+        "valor": 15402850.23,
+        "nome_cri": "CRI Plaenge Empreendimentos LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7278250.0,
+        "valor": 11245714.69,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "14",
+        "vencimento": "",
+        "quantidade": 15399.0,
+        "valor": 13075705.3,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE BRASIL SHOPPING FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 369120.0,
+        "valor": 7382400.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "187",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 60000.0,
+        "valor": 33362376.72,
+        "nome_cri": "CRI JSL"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA SA",
+        "nome": "",
+        "emissao": "29",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 33016.0,
+        "valor": 30049158.95,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Edifício HL Faria Lima",
+        "endereco": "Avenida Horácio Lafer, 160, São Paulo - SP",
+        "area": 3162.918,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Uberaba",
+        "endereco": "Avenida Santa Beatriz da Silva, 1501 - São Benedito Uberaba MG",
+        "area": 7919.5,
+        "vacancia": 0.021,
+        "pct_total": null
+      },
+      {
+        "nome": "Suíte nº: 835 Cidade Matarazzo",
+        "endereco": "Alameda Rio Claro, 190, Bela Vista, São Paulo/SP",
+        "area": 123.89,
+        "vacancia": null,
+        "pct_total": 0.171878468446893
+      },
+      {
+        "nome": "Suíte nº: 854 Cidade Matarazzo",
+        "endereco": "Alameda Rio Claro, 190, Bela Vista, São Paulo/SP",
+        "area": 146.76,
+        "vacancia": null,
+        "pct_total": 0.21649556047974
+      },
+      {
+        "nome": "Suíte nº: 1348 Cidade Matarazzo",
+        "endereco": "Alameda Rio Claro, 190, Bela Vista, São Paulo/SP",
+        "area": 125.85,
+        "vacancia": null,
+        "pct_total": 0.184239733747204
+      },
+      {
+        "nome": "Suíte nº: 1048 Cidade Matarazzo",
+        "endereco": "Alameda Rio Claro, 190, Bela Vista, São Paulo/SP",
+        "area": 125.38,
+        "vacancia": null,
+        "pct_total": 0.20215038842241
+      },
+      {
+        "nome": "Suíte nº: 740 Cidade Matarazzo",
+        "endereco": "Alameda Rio Claro, 190, Bela Vista, São Paulo/SP",
+        "area": 162.35,
+        "vacancia": null,
+        "pct_total": 0.225235848903753
+      },
+      {
+        "nome": "Edifício Condomínio São Luiz, Torre I, II e III",
+        "endereco": "Avenida Presidente Juscelino Kubitschek, 1.830, São Paulo - SP",
+        "area": 15083.02,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

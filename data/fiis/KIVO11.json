@@ -4,14 +4,18 @@
     "Ticker": "KIVO11",
     "Nome": "Kilima Volkano Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.016,
-    "Retorno - 12M": 0.2014,
+    "Retorno - MTD": 0.0193,
+    "Retorno - 12M": 0.2085,
     "P/VP": 0.76,
     "Último Dividendo Pago": 0.88,
-    "DY a.a.": 0.163,
+    "DY a.a.": 0.162,
     "Visão Geral": "FII de papel que investe em CRIs e outros títulos de crédito imobiliário, com foco em renda mensal recorrente. É gerido pela Kilima, tem perfil de gestão ativa e se posiciona no segmento de recebíveis imobiliários. Porte, diversificação detalhada, indexadores predominantes e perfil dos devedores aparecem como N/A nas fontes consultadas.",
     "Comentário": "O fundo anunciou divisor de R$0,86/cota em fevereiro, impactado pela liquidação antecipada do CRI Costa Hirota e integralização da posição em CRI Braspark no recém-criado FII Alianza Renda Mais. A mudança reflete uma realocação estratégica para operações de crédito imobiliário com potencial de IPC-A+13% a.a., reposicionando a carteira em direção a ativos com melhor relação risco-retorno.",
-    "Preço Atual": 64.97
+    "Preço Atual": 65.0,
+    "% Dias Acima CDI 1A": 0.3185,
+    "% Dias Acima CDI 3A": 0.3034,
+    "% Dias Acima CDI 5A": 0.2909,
+    "% Dias Acima CDI MAX": 0.2909
   },
   "historico_preco": [
     [
@@ -3901,6 +3905,22 @@
     [
       "2026-04-16",
       64.7
+    ],
+    [
+      "2026-04-17",
+      64.84
+    ],
+    [
+      "2026-04-20",
+      65.11
+    ],
+    [
+      "2026-04-22",
+      65.25
+    ],
+    [
+      "2026-04-23",
+      64.95
     ]
   ],
   "historico_preco_adj": [
@@ -7791,6 +7811,22 @@
     [
       "2026-04-16",
       64.7
+    ],
+    [
+      "2026-04-17",
+      64.84
+    ],
+    [
+      "2026-04-20",
+      65.11
+    ],
+    [
+      "2026-04-22",
+      65.25
+    ],
+    [
+      "2026-04-23",
+      64.95
     ]
   ],
   "historico_pvp": [
@@ -12073,6 +12109,26 @@
     [
       "2026-04-16",
       0.75604127302
+    ],
+    [
+      "2026-04-17",
+      0.75767722014
+    ],
+    [
+      "2026-04-20",
+      0.760832261
+    ],
+    [
+      "2026-04-21",
+      0.760832261
+    ],
+    [
+      "2026-04-22",
+      0.76246820811
+    ],
+    [
+      "2026-04-23",
+      0.75896260715
     ]
   ],
   "historico_dy": [
@@ -15927,11 +15983,952 @@
     [
       "2026-04-16",
       16.3215
+    ],
+    [
+      "2026-04-17",
+      16.2862
+    ],
+    [
+      "2026-04-20",
+      16.2187
+    ],
+    [
+      "2026-04-22",
+      16.1839
+    ],
+    [
+      "2026-04-23",
+      16.2587
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2022-04-30",
+      1.15
+    ],
+    [
+      "2022-05-31",
+      1.35
+    ],
+    [
+      "2022-06-30",
+      1.55
+    ],
+    [
+      "2022-07-31",
+      1.65
+    ],
+    [
+      "2022-08-31",
+      1.25
+    ],
+    [
+      "2022-09-30",
+      1.25
+    ],
+    [
+      "2022-10-31",
+      1.15
+    ],
+    [
+      "2022-11-30",
+      1.3
+    ],
+    [
+      "2022-12-31",
+      1.3
+    ],
+    [
+      "2023-01-31",
+      1.4
+    ],
+    [
+      "2023-02-28",
+      1.25
+    ],
+    [
+      "2023-03-31",
+      1.2
+    ],
+    [
+      "2023-04-30",
+      1.25
+    ],
+    [
+      "2023-05-31",
+      1.5
+    ],
+    [
+      "2023-06-30",
+      1.8
+    ],
+    [
+      "2023-07-31",
+      1.5
+    ],
+    [
+      "2023-08-31",
+      1.2
+    ],
+    [
+      "2023-09-30",
+      1.15
+    ],
+    [
+      "2023-10-31",
+      1.02
+    ],
+    [
+      "2023-11-30",
+      1.18
+    ],
+    [
+      "2023-12-31",
+      1.25
+    ],
+    [
+      "2024-01-31",
+      1.25
+    ],
+    [
+      "2024-02-29",
+      1.05
+    ],
+    [
+      "2024-03-31",
+      1.05
+    ],
+    [
+      "2024-04-30",
+      1.05
+    ],
+    [
+      "2024-05-31",
+      1.05
+    ],
+    [
+      "2024-06-30",
+      0.95
+    ],
+    [
+      "2024-07-31",
+      1.1
+    ],
+    [
+      "2024-08-31",
+      0.95
+    ],
+    [
+      "2024-09-30",
+      0.95
+    ],
+    [
+      "2024-10-31",
+      0.82
+    ],
+    [
+      "2024-11-30",
+      0.9
+    ],
+    [
+      "2024-12-31",
+      0.9
+    ],
+    [
+      "2025-01-31",
+      0.95
+    ],
+    [
+      "2025-02-28",
+      0.9
+    ],
+    [
+      "2025-03-31",
+      0.9
+    ],
+    [
+      "2025-04-30",
+      0.9
+    ],
+    [
+      "2025-05-31",
+      1.0
+    ],
+    [
+      "2025-06-30",
+      1.0
+    ],
+    [
+      "2025-07-31",
+      1.2
+    ],
+    [
+      "2025-08-31",
+      0.95
+    ],
+    [
+      "2025-09-30",
+      0.71
+    ],
+    [
+      "2025-10-31",
+      1.1
+    ],
+    [
+      "2025-11-30",
+      0.85
+    ],
+    [
+      "2025-12-31",
+      0.85
+    ],
+    [
+      "2026-01-31",
+      0.87
+    ],
+    [
+      "2026-02-28",
+      1.14
+    ],
+    [
+      "2026-03-31",
+      0.86
+    ],
+    [
+      "2026-04-30",
+      0.88
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 52104218.83,
     "Cotas de FIIs": 41361213.43,
     "CRI/CRA": 97044755.62
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25H4845788 - KAHAKAI BEACH HOUSE SPE LTDA",
+        "nome": "",
+        "emissao": "93",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 206.0,
+        "valor": 207293.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0950048 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "575",
+        "vencimento": "",
+        "quantidade": 1597.0,
+        "valor": 1242823.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2111545 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "51",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 971.0,
+        "valor": 1035958.16
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21G0759091_DU2 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "436",
+        "vencimento": "",
+        "quantidade": 1957344.0,
+        "valor": 2029666.74,
+        "nome_cri": "CRI Leal Moreira Evidence"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21K0914380 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "462",
+        "vencimento": "",
+        "quantidade": 1855.0,
+        "valor": 1649135.81,
+        "nome_cri": "CRI Parque dos Poderes"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII KINEA IP - KNIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8903.0,
+        "valor": 806077.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24B1573243 - VORTX DTVM",
+        "nome": "",
+        "emissao": "4",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2200.0,
+        "valor": 1688622.72
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G1627395 - PLAYBANCO SEC",
+        "nome": "",
+        "emissao": "5",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 519.0,
+        "valor": 523290.7
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25K2714334 - OPEASEC",
+        "nome": "",
+        "emissao": "458",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 500.0,
+        "valor": 501415.59,
+        "nome_cri": "CRI POLLO SKYLINE"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24H2277797 - OPEASEC",
+        "nome": "",
+        "emissao": "276",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 8468314.61,
+        "nome_cri": "CRI Neo Garden"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBRHGRAD - RBRR12",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1538.0,
+        "valor": 0.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2477.0,
+        "valor": 2725857.51
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25K2729143 - OPEASEC",
+        "nome": "",
+        "emissao": "549",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 500.0,
+        "valor": 501415.58,
+        "nome_cri": "CRI POLLO NATIVE"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 178.0,
+        "valor": 195883.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22F1135958 - HABITASEC",
+        "nome": "",
+        "emissao": "3",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8200.0,
+        "valor": 3551669.77,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21L0329279 - VERTCIASEC",
+        "nome": "",
+        "emissao": "60",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 1053998.05,
+        "nome_cri": "CRI You Inc Incorporadora e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2268708_DU - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "115",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 814.0,
+        "valor": 833826.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21H0926710 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "347",
+        "vencimento": "",
+        "quantidade": 4944.0,
+        "valor": 3510690.28,
+        "nome_cri": "CRI BRASPARK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G1627395 - PLAYBANCO SEC",
+        "nome": "",
+        "emissao": "5",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 612.0,
+        "valor": 617059.56
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21L0329279 - VERTCIASEC",
+        "nome": "",
+        "emissao": "60",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 2634995.13,
+        "nome_cri": "CRI You Inc Incorporadora e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 690.0,
+        "valor": 759322.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23B1690001 - VIRGOSEC",
+        "nome": "",
+        "emissao": "75",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 1913590.77,
+        "nome_cri": "CRI ESTR PHV HUB"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24K3211803 - VIRGOSEC",
+        "nome": "",
+        "emissao": "213",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 4820049.02,
+        "nome_cri": "CRI PULV OVER URBANISMO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21G0511750 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "586",
+        "vencimento": "",
+        "quantidade": 2887.0,
+        "valor": 2487042.12
+      },
+      {
+        "tipo": "FII",
+        "emissor": "INVISTA BRAZILIAN BUSINESS PARK FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1246105.0,
+        "valor": 12910192.75
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FICFI ITAU SOBERANO RENDA FIXA SIMPLES LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 586905.19851,
+        "valor": 47898237.13
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0950048 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "575",
+        "vencimento": "",
+        "quantidade": 1320.0,
+        "valor": 1027255.69
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2268708_DU - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "115",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1619.0,
+        "valor": 1658433.89
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J2272828 - TRUE SEC",
+        "nome": "",
+        "emissao": "244",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 2083363.04,
+        "nome_cri": "CRI PHV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2268708_DU - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "115",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1215.0,
+        "valor": 1244593.69
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2111545 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "51",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1262.0,
+        "valor": 1346425.54
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2111545 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "51",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 291.0,
+        "valor": 310467.37
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21H0176508 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "325",
+        "vencimento": "",
+        "quantidade": 3274.0,
+        "valor": 127785.6,
+        "nome_cri": "CRI STARBUCKS"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24F2009551 - HABITASEC",
+        "nome": "",
+        "emissao": "59",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3063.0,
+        "valor": 3072138.51,
+        "nome_cri": "CRI Trinity"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G1627395 - PLAYBANCO SEC",
+        "nome": "",
+        "emissao": "5",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 625.0,
+        "valor": 630167.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24F1278543 - VIRGOSEC",
+        "nome": "",
+        "emissao": "96",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7852.0,
+        "valor": 5646192.76,
+        "nome_cri": "CRI PULV KEYCASH"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 600.0,
+        "valor": 660280.38
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 590.0,
+        "valor": 649275.71
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21L0329279 - VERTCIASEC",
+        "nome": "",
+        "emissao": "60",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1580997.07,
+        "nome_cri": "CRI You Inc Incorporadora e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24D3314338 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "93",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 959799.66
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII CSHG CRI - HGCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9285.0,
+        "valor": 910022.85
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24D3314465 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "93",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 1439597.17
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII TG ATIVO - TGAR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 32800.0,
+        "valor": 3050400.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2111545 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "51",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 297.0,
+        "valor": 316868.76
+      },
+      {
+        "tipo": "FII",
+        "emissor": "REC MASTER FUNDO DE CRI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 131072.0,
+        "valor": 990447.93
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 561.0,
+        "valor": 617362.15
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G1627395 - PLAYBANCO SEC",
+        "nome": "",
+        "emissao": "5",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 443.0,
+        "valor": 446662.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23D1333883 - VIRGOSEC",
+        "nome": "",
+        "emissao": "101",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10500.0,
+        "valor": 7635784.32,
+        "nome_cri": "CRI ESTR PHV KERALTY"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24D3314338 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "93",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 1439699.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 454.0,
+        "valor": 499612.15
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24D3314338 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "93",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 2399499.17
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII SUNO ENERGIAS LIMPAS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1668469.0,
+        "valor": 12342272.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24F2007358 - HABITASEC",
+        "nome": "",
+        "emissao": "59",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7123.0,
+        "valor": 7095982.16,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24A2579147 - VORTX DTVM",
+        "nome": "",
+        "emissao": "2",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3800.0,
+        "valor": 3482269.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22B0555800_DU2 - OURINVESTSEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "48",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 1570764.31
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBRHGRAD - RBRR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9472.0,
+        "valor": 829463.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24D3314465 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "93",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 959731.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22C1024589_DU2 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 767989.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J2272828 - TRUE SEC",
+        "nome": "",
+        "emissao": "244",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 1562522.28,
+        "nome_cri": "CRI PHV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2111545 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "51",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1178.0,
+        "valor": 1256806.09
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I2268708_DU - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "115",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2084.0,
+        "valor": 2134759.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22B0555782_DU2 - OURINVESTSEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "47",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 1440003.73
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII VALREIII - VGIR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 90058.0,
+        "valor": 885270.14
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G1627395 - PLAYBANCO SEC",
+        "nome": "",
+        "emissao": "5",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1595.0,
+        "valor": 1608186.27
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 687.0,
+        "valor": 756021.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G1627395 - PLAYBANCO SEC",
+        "nome": "",
+        "emissao": "5",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 350.0,
+        "valor": 352893.53
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2517577 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 620.0,
+        "valor": 682289.72
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII MANATI - MANA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 297926.0,
+        "valor": 2758794.76
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24D3314465 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "93",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 2399328.61
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ZAVIT CREDITO IMOBILIARIO - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 150000.0,
+        "valor": 1519698.51
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

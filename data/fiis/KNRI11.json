@@ -4,14 +4,18 @@
     "Ticker": "KNRI11",
     "Nome": "Kinea Renda Imobiliária FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0253,
-    "Retorno - 12M": 0.3046,
-    "P/VP": 1.05,
+    "Retorno - MTD": 0.0014,
+    "Retorno - 12M": 0.2334,
+    "P/VP": 1.02,
     "Último Dividendo Pago": 1.1,
-    "DY a.a.": 0.077,
+    "DY a.a.": 0.079,
     "Visão Geral": "FII de renda urbana que investe em edifícios corporativos e galpões logísticos, com foco em locação. Tem gestão da Kinea e portfólio diversificado concentrado nas principais regiões do país para o mercado locatício. A estratégia é ativa, buscando menor vacância, estabilidade de aluguel e geração recorrente de renda mensal imobiliária.",
     "Comentário": "O fundo apresentou vacância física em 4,20% em março, estável ante fevereiro, após registrar entradas do Banco Votorantim em torres do Rochaverá e saídas como Blue Health. A vacância financeira ajustada por carências caiu de 5,88% para 5,85%, evidenciando progresso gradual no preenchimento de áreas e confirmando R$1,10/cota distribuído para abril.",
-    "Preço Atual": 170.85
+    "Preço Atual": 166.24,
+    "% Dias Acima CDI 1A": 0.5685,
+    "% Dias Acima CDI 3A": 0.549,
+    "% Dias Acima CDI 5A": 0.4096,
+    "% Dias Acima CDI MAX": 0.5112
   },
   "historico_preco": [
     [
@@ -14185,6 +14189,22 @@
     [
       "2026-04-16",
       169.34
+    ],
+    [
+      "2026-04-17",
+      171.1
+    ],
+    [
+      "2026-04-20",
+      170.72
+    ],
+    [
+      "2026-04-22",
+      169.63
+    ],
+    [
+      "2026-04-23",
+      167.57
     ]
   ],
   "historico_preco_adj": [
@@ -24407,6 +24427,22 @@
     [
       "2026-04-16",
       169.34
+    ],
+    [
+      "2026-04-17",
+      171.1
+    ],
+    [
+      "2026-04-20",
+      170.72
+    ],
+    [
+      "2026-04-22",
+      169.63
+    ],
+    [
+      "2026-04-23",
+      167.57
     ]
   ],
   "historico_pvp": [
@@ -39329,6 +39365,26 @@
     [
       "2026-04-16",
       1.035516735
+    ],
+    [
+      "2026-04-17",
+      1.0462791624
+    ],
+    [
+      "2026-04-20",
+      1.0439554565
+    ],
+    [
+      "2026-04-21",
+      1.0439554565
+    ],
+    [
+      "2026-04-22",
+      1.0372900896
+    ],
+    [
+      "2026-04-23",
+      1.0246931575
     ]
   ],
   "historico_dy": [
@@ -49551,13 +49607,1429 @@
     [
       "2026-04-16",
       7.795
+    ],
+    [
+      "2026-04-17",
+      7.7148
+    ],
+    [
+      "2026-04-20",
+      7.732
+    ],
+    [
+      "2026-04-22",
+      7.7816
+    ],
+    [
+      "2026-04-23",
+      7.8773
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2016-01-31",
+      0.92
+    ],
+    [
+      "2016-02-29",
+      0.92
+    ],
+    [
+      "2016-03-31",
+      0.92
+    ],
+    [
+      "2016-04-30",
+      0.92
+    ],
+    [
+      "2016-05-31",
+      0.92
+    ],
+    [
+      "2016-06-30",
+      0.92
+    ],
+    [
+      "2016-07-31",
+      0.92
+    ],
+    [
+      "2016-08-31",
+      0.92
+    ],
+    [
+      "2016-09-30",
+      0.92
+    ],
+    [
+      "2016-10-31",
+      0.92
+    ],
+    [
+      "2016-11-30",
+      0.92
+    ],
+    [
+      "2016-12-31",
+      0.92
+    ],
+    [
+      "2017-01-31",
+      0.92
+    ],
+    [
+      "2017-02-28",
+      0.92
+    ],
+    [
+      "2017-03-31",
+      0.92
+    ],
+    [
+      "2017-04-30",
+      0.92
+    ],
+    [
+      "2017-05-31",
+      0.92
+    ],
+    [
+      "2017-06-30",
+      0.92
+    ],
+    [
+      "2017-07-31",
+      0.92
+    ],
+    [
+      "2017-08-31",
+      0.92
+    ],
+    [
+      "2017-09-30",
+      0.92
+    ],
+    [
+      "2017-10-31",
+      0.92
+    ],
+    [
+      "2017-11-30",
+      0.92
+    ],
+    [
+      "2017-12-31",
+      0.92
+    ],
+    [
+      "2018-01-31",
+      0.92
+    ],
+    [
+      "2018-02-28",
+      0.62
+    ],
+    [
+      "2018-03-31",
+      0.82
+    ],
+    [
+      "2018-04-30",
+      1.72
+    ],
+    [
+      "2018-05-31",
+      0.82
+    ],
+    [
+      "2018-06-30",
+      0.82
+    ],
+    [
+      "2018-07-31",
+      0.92
+    ],
+    [
+      "2018-08-31",
+      0.82
+    ],
+    [
+      "2018-09-30",
+      0.82
+    ],
+    [
+      "2018-10-31",
+      0.82
+    ],
+    [
+      "2018-11-30",
+      0.82
+    ],
+    [
+      "2018-12-31",
+      0.74
+    ],
+    [
+      "2019-01-31",
+      0.74
+    ],
+    [
+      "2019-02-28",
+      0.74
+    ],
+    [
+      "2019-03-31",
+      0.74
+    ],
+    [
+      "2019-04-30",
+      0.74
+    ],
+    [
+      "2019-05-31",
+      0.74
+    ],
+    [
+      "2019-06-30",
+      0.74
+    ],
+    [
+      "2019-07-31",
+      0.74
+    ],
+    [
+      "2019-08-31",
+      0.74
+    ],
+    [
+      "2019-09-30",
+      0.74
+    ],
+    [
+      "2019-10-31",
+      0.74
+    ],
+    [
+      "2019-11-30",
+      0.74
+    ],
+    [
+      "2019-12-31",
+      0.74
+    ],
+    [
+      "2020-01-31",
+      0.74
+    ],
+    [
+      "2020-02-29",
+      0.74
+    ],
+    [
+      "2020-03-31",
+      0.74
+    ],
+    [
+      "2020-04-30",
+      0.65
+    ],
+    [
+      "2020-05-31",
+      0.65
+    ],
+    [
+      "2020-06-30",
+      0.65
+    ],
+    [
+      "2020-07-31",
+      0.65
+    ],
+    [
+      "2020-08-31",
+      0.65
+    ],
+    [
+      "2020-09-30",
+      0.65
+    ],
+    [
+      "2020-10-31",
+      0.65
+    ],
+    [
+      "2020-11-30",
+      0.65
+    ],
+    [
+      "2020-12-31",
+      0.65
+    ],
+    [
+      "2021-01-31",
+      0.65
+    ],
+    [
+      "2021-02-28",
+      0.69
+    ],
+    [
+      "2021-03-31",
+      0.69
+    ],
+    [
+      "2021-04-30",
+      0.69
+    ],
+    [
+      "2021-05-31",
+      0.69
+    ],
+    [
+      "2021-06-30",
+      0.69
+    ],
+    [
+      "2021-07-31",
+      0.69
+    ],
+    [
+      "2021-08-31",
+      0.69
+    ],
+    [
+      "2021-09-30",
+      0.73
+    ],
+    [
+      "2021-10-31",
+      0.77
+    ],
+    [
+      "2021-11-30",
+      0.77
+    ],
+    [
+      "2021-12-31",
+      0.77
+    ],
+    [
+      "2022-01-31",
+      0.88
+    ],
+    [
+      "2022-02-28",
+      0.81
+    ],
+    [
+      "2022-03-31",
+      0.81
+    ],
+    [
+      "2022-04-30",
+      0.81
+    ],
+    [
+      "2022-05-31",
+      0.84
+    ],
+    [
+      "2022-06-30",
+      0.84
+    ],
+    [
+      "2022-07-31",
+      0.84
+    ],
+    [
+      "2022-08-31",
+      0.91
+    ],
+    [
+      "2022-09-30",
+      0.91
+    ],
+    [
+      "2022-10-31",
+      0.91
+    ],
+    [
+      "2022-11-30",
+      0.91
+    ],
+    [
+      "2022-12-31",
+      0.91
+    ],
+    [
+      "2023-01-31",
+      1.0
+    ],
+    [
+      "2023-02-28",
+      0.91
+    ],
+    [
+      "2023-03-31",
+      0.95
+    ],
+    [
+      "2023-04-30",
+      0.95
+    ],
+    [
+      "2023-05-31",
+      0.95
+    ],
+    [
+      "2023-06-30",
+      0.95
+    ],
+    [
+      "2023-07-31",
+      1.51
+    ],
+    [
+      "2023-08-31",
+      0.95
+    ],
+    [
+      "2023-09-30",
+      0.95
+    ],
+    [
+      "2023-10-31",
+      1.0
+    ],
+    [
+      "2023-11-30",
+      1.0
+    ],
+    [
+      "2023-12-31",
+      1.0
+    ],
+    [
+      "2024-01-31",
+      1.0
+    ],
+    [
+      "2024-02-29",
+      1.0
+    ],
+    [
+      "2024-03-31",
+      1.0
+    ],
+    [
+      "2024-04-30",
+      1.0
+    ],
+    [
+      "2024-05-31",
+      1.0
+    ],
+    [
+      "2024-06-30",
+      1.0
+    ],
+    [
+      "2024-07-31",
+      1.0
+    ],
+    [
+      "2024-08-31",
+      1.0
+    ],
+    [
+      "2024-09-30",
+      1.0
+    ],
+    [
+      "2024-10-31",
+      1.0
+    ],
+    [
+      "2024-11-30",
+      1.0
+    ],
+    [
+      "2024-12-31",
+      1.0
+    ],
+    [
+      "2025-01-31",
+      1.0
+    ],
+    [
+      "2025-02-28",
+      1.0
+    ],
+    [
+      "2025-03-31",
+      1.0
+    ],
+    [
+      "2025-04-30",
+      1.0
+    ],
+    [
+      "2025-05-31",
+      1.0
+    ],
+    [
+      "2025-06-30",
+      1.0
+    ],
+    [
+      "2025-07-31",
+      1.0
+    ],
+    [
+      "2025-08-31",
+      1.0
+    ],
+    [
+      "2025-09-30",
+      1.0
+    ],
+    [
+      "2025-10-31",
+      1.0
+    ],
+    [
+      "2025-11-30",
+      1.0
+    ],
+    [
+      "2025-12-31",
+      1.0
+    ],
+    [
+      "2026-01-31",
+      1.25
+    ],
+    [
+      "2026-02-28",
+      0.88
+    ],
+    [
+      "2026-03-31",
+      1.1
+    ],
+    [
+      "2026-04-30",
+      1.1
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 160702777.42,
     "Imóveis": 4189397557.3,
     "CRI/CRA": 302820443.09,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 59124865.5,
     "Outros": 0.019999563694000244
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3337.0,
+        "valor": 2983947.24,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2884.0,
+        "valor": 2578874.39,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1334.0,
+        "valor": 1192863.53,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4717.0,
+        "valor": 3604463.75,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5270.0,
+        "valor": 4712436.9,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 953.0,
+        "valor": 852173.12,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 4340.0,
+        "valor": 3316380.25,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2454.0,
+        "valor": 2194368.15,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1960.0,
+        "valor": 1752633.08,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4248.0,
+        "valor": 3246080.56,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 460.0,
+        "valor": 351505.74,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 5016.0,
+        "valor": 3832940.86,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 792.0,
+        "valor": 708206.84,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2484.0,
+        "valor": 2221194.17,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3699.0,
+        "valor": 3307647.83,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 183.0,
+        "valor": 139838.22,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 2136.0,
+        "valor": 1632210.0,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 4559.0,
+        "valor": 3483727.55,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1276.0,
+        "valor": 1140999.9,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 18409.0,
+        "valor": 16461337.92,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 4249.0,
+        "valor": 3246843.24,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 2210.0,
+        "valor": 1688756.6,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3257.0,
+        "valor": 2912411.19,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 5245.0,
+        "valor": 4007929.58,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1752.0,
+        "valor": 1566639.36,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1175.0,
+        "valor": 1050685.65,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2609.0,
+        "valor": 1993648.86,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 3438.0,
+        "valor": 2627124.52,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5122.0,
+        "valor": 4580095.22,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 460.0,
+        "valor": 351505.9,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6770.0,
+        "valor": 6053737.72,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2209.0,
+        "valor": 1687991.7,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1166.0,
+        "valor": 1042637.84,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1382.0,
+        "valor": 1235785.16,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 63752.0,
+        "valor": 57007073.46,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7304.0,
+        "valor": 6531240.82,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 4717.0,
+        "valor": 3604462.13,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4602.0,
+        "valor": 4115110.93,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2961.0,
+        "valor": 2647727.83,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 184.0,
+        "valor": 140602.3,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 4720.0,
+        "valor": 3606754.55,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10503.0,
+        "valor": 9391788.38,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4805.0,
+        "valor": 4296633.64,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4104.0,
+        "valor": 3669799.06,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4721.0,
+        "valor": 3607520.33,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2728.0,
+        "valor": 2439379.1,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 2609.0,
+        "valor": 1993649.76,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1124.0,
+        "valor": 1005081.42,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 784.0,
+        "valor": 701053.23,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2135.0,
+        "valor": 1631445.12,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1263.0,
+        "valor": 1129375.29,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 6120.0,
+        "valor": 4676554.63,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4339.0,
+        "valor": 3315617.6,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4559.0,
+        "valor": 3483729.12,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3582.0,
+        "valor": 3203026.37,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4630.0,
+        "valor": 4140148.55,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4077.0,
+        "valor": 3645655.64,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 5015.0,
+        "valor": 3832178.44,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 575.0,
+        "valor": 514165.32,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 6120.0,
+        "valor": 4676556.75,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 3437.0,
+        "valor": 2626359.2,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1470.0,
+        "valor": 1314474.81,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1445.0,
+        "valor": 1292119.79,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 5245.0,
+        "valor": 4007931.39,
+        "nome_cri": "CRI N.L.P.S.P.E. Empreendimentos e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 37179.0,
+        "valor": 33245482.25,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2010.0,
+        "valor": 1797343.11,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3525.0,
+        "valor": 3152056.94,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3765.0,
+        "valor": 3366665.07,
+        "nome_cri": "CRI Norsk"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "43",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2578.0,
+        "valor": 2305249.02,
+        "nome_cri": "CRI Norsk"
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Global Jundiaí",
+        "endereco": "Avenida Caminho de Goiás, 100, Rodovia Anhanguera, km 66, Jundiaí - SP",
+        "area": 41468.12,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Lagoa Corporate",
+        "endereco": "Rua Humaitá, 275, Humaitá, Rio de Janeiro - RJ",
+        "area": 11686.77,
+        "vacancia": 0.017915,
+        "pct_total": null
+      },
+      {
+        "nome": "CD Cabreúva",
+        "endereco": "Rod. Dom Gabriel Paulino Bueno Couto, km 82 - Cabreúva - SP28,42",
+        "area": 178730.339959225,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "CD Mogi das Cruzes",
+        "endereco": "Rodovia Mogi-Dutra (SP-088), 11.100 (km 41,4), Mogi das Cruzes - SP",
+        "area": 69113.25,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Rochaverá - Torre Crystal",
+        "endereco": "Av. Nações Unidas, 14.171 , São Paulo - SP",
+        "area": 53400.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Rochaverá - Torres Ebony e Marble",
+        "endereco": "Av. Nações Unidas, 14.171 , São Paulo - SP",
+        "area": 56790.8928390368,
+        "vacancia": 0.002668,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Condomínio São Luiz, Torre IV",
+        "endereco": "Avenida Presidente Juscelino Kubitschek, 1.830, São Paulo - SP",
+        "area": 11354.46,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Joaquim Floriano",
+        "endereco": "Rua Joaquim Floriano, 913, Itaim Bibi, São Paulo - SP",
+        "area": 3898.64,
+        "vacancia": 0.002574,
+        "pct_total": null
+      },
+      {
+        "nome": "CD Santa Cruz",
+        "endereco": "Estrada da Lama Preta, 2.805, Santa Cruz, Rio de Janeiro - RJ",
+        "area": 64860.17,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "CD Itaqua",
+        "endereco": "Rua do Níquel, 205, Parque Industrial, Itaquaquecetuba - SP",
+        "area": 30698.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Boulevard Corporate Tower",
+        "endereco": "Avenida dos Andradas, 3000, Santa Efigênia, Belo Horizonte - MG",
+        "area": 20426.18,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Jundiaí Industrial Park",
+        "endereco": "Rodovia Vice Prefeito Hermenegildo Tonolli, km 2, Jundiaí - SP",
+        "area": 75975.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Botafogo Trade Center",
+        "endereco": "Rua Voluntários da Pátria, 113, Botafogo, Rio de Janeiro - RJ",
+        "area": 8083.0,
+        "vacancia": 0.010368,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Bela Paulista",
+        "endereco": "Avenida Paulista, 2.421, Bela Vista, São Paulo - SP",
+        "area": 6520.56,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "CD Pouso Alegre",
+        "endereco": "Rodovia Fernão Dias, km 863, Algodão, Pouso Alegre - MG",
+        "area": 87750.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Buenos Aires Corporate",
+        "endereco": "Rua Buenos Aires, 15, Centro, Rio de Janeiro - RJ",
+        "area": 6886.875,
+        "vacancia": 0.018338,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Diogo Moreira",
+        "endereco": "Rua Diogo Moreira, 184, São Paulo - SP",
+        "area": 12104.57,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Madison",
+        "endereco": "Rua Gomes de Carvalho, 1.195, Vila Olimpia, São Paulo - SP",
+        "area": 8329.32,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pib Sumaré",
+        "endereco": "Avenida Parque Industrial, 580, Sumaré - SP",
+        "area": 13835.56,
+        "vacancia": 0.007992,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

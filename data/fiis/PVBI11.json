@@ -4,14 +4,18 @@
     "Ticker": "PVBI11",
     "Nome": "FII Vbi Prime Properties",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0317,
-    "Retorno - 12M": 0.0758,
-    "P/VP": 0.72,
+    "Retorno - MTD": 0.045,
+    "Retorno - 12M": 0.0946,
+    "P/VP": 0.73,
     "Último Dividendo Pago": 0.4,
-    "DY a.a.": 0.062,
+    "DY a.a.": 0.061,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios prontos, com portfólio concentrado em regiões prime de São Paulo. Iniciado em julho de 2020, é gerido pelo Pátria VBI e reúne ativos como Park Tower Jardins, FL 4440, Union Faria Lima e Vila Olímpia Corporate. A estratégia prioriza renda locatícia em imóveis corporativos de alta qualidade.",
     "Comentário": "Resultado de R$ 0,47/cota com distribuição anunciada de R$ 0,45/cota em fevereiro. Fundo com vacância projetada de 25,5% em julho/26 considerando movimentações (saída Banco ABC, UBS reduz ocupação). Expectativa de ajuste de distribuição para R$ 0,40/cota até final semestre.",
-    "Preço Atual": 77.85
+    "Preço Atual": 78.48,
+    "% Dias Acima CDI 1A": 0.1976,
+    "% Dias Acima CDI 3A": 0.3584,
+    "% Dias Acima CDI 5A": 0.2986,
+    "% Dias Acima CDI MAX": 0.2986
   },
   "historico_preco": [
     [
@@ -5713,6 +5717,22 @@
     [
       "2026-04-16",
       77.49
+    ],
+    [
+      "2026-04-17",
+      78.0
+    ],
+    [
+      "2026-04-20",
+      77.78
+    ],
+    [
+      "2026-04-22",
+      79.14
+    ],
+    [
+      "2026-04-23",
+      78.15
     ]
   ],
   "historico_preco_adj": [
@@ -11415,6 +11435,22 @@
     [
       "2026-04-16",
       77.49
+    ],
+    [
+      "2026-04-17",
+      78.0
+    ],
+    [
+      "2026-04-20",
+      77.78
+    ],
+    [
+      "2026-04-22",
+      79.14
+    ],
+    [
+      "2026-04-23",
+      78.15
     ]
   ],
   "historico_pvp": [
@@ -17377,6 +17413,26 @@
     [
       "2026-04-16",
       0.7185950094
+    ],
+    [
+      "2026-04-17",
+      0.72332443842
+    ],
+    [
+      "2026-04-20",
+      0.72128429256
+    ],
+    [
+      "2026-04-21",
+      0.72128429256
+    ],
+    [
+      "2026-04-22",
+      0.73389610328
+    ],
+    [
+      "2026-04-23",
+      0.72471544695
     ]
   ],
   "historico_dy": [
@@ -22895,12 +22951,425 @@
     [
       "2026-04-16",
       6.1943
+    ],
+    [
+      "2026-04-17",
+      6.1538
+    ],
+    [
+      "2026-04-20",
+      6.1713
+    ],
+    [
+      "2026-04-22",
+      6.0652
+    ],
+    [
+      "2026-04-23",
+      6.142
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-08-31",
+      0.0
+    ],
+    [
+      "2020-09-30",
+      0.0
+    ],
+    [
+      "2020-10-31",
+      0.45
+    ],
+    [
+      "2020-11-30",
+      0.48
+    ],
+    [
+      "2020-12-31",
+      0.47
+    ],
+    [
+      "2021-01-31",
+      0.47
+    ],
+    [
+      "2021-02-28",
+      0.491035666
+    ],
+    [
+      "2021-03-31",
+      0.5
+    ],
+    [
+      "2021-04-30",
+      0.5
+    ],
+    [
+      "2021-05-31",
+      0.5
+    ],
+    [
+      "2021-06-30",
+      0.54
+    ],
+    [
+      "2021-07-31",
+      0.56
+    ],
+    [
+      "2021-08-31",
+      0.59
+    ],
+    [
+      "2021-09-30",
+      0.56
+    ],
+    [
+      "2021-10-31",
+      0.56
+    ],
+    [
+      "2021-11-30",
+      0.56
+    ],
+    [
+      "2021-12-31",
+      0.56
+    ],
+    [
+      "2022-01-31",
+      0.56
+    ],
+    [
+      "2022-02-28",
+      0.56
+    ],
+    [
+      "2022-03-31",
+      0.56
+    ],
+    [
+      "2022-04-30",
+      0.56
+    ],
+    [
+      "2022-05-31",
+      0.56
+    ],
+    [
+      "2022-06-30",
+      0.56
+    ],
+    [
+      "2022-07-31",
+      0.56
+    ],
+    [
+      "2022-08-31",
+      0.56
+    ],
+    [
+      "2022-09-30",
+      0.56
+    ],
+    [
+      "2022-10-31",
+      0.57
+    ],
+    [
+      "2022-11-30",
+      0.57
+    ],
+    [
+      "2022-12-31",
+      0.57
+    ],
+    [
+      "2023-01-31",
+      0.57
+    ],
+    [
+      "2023-02-28",
+      0.61
+    ],
+    [
+      "2023-03-31",
+      0.61
+    ],
+    [
+      "2023-04-30",
+      0.61
+    ],
+    [
+      "2023-05-31",
+      0.61
+    ],
+    [
+      "2023-06-30",
+      0.61
+    ],
+    [
+      "2023-07-31",
+      0.61
+    ],
+    [
+      "2023-08-31",
+      0.72
+    ],
+    [
+      "2023-09-30",
+      0.67
+    ],
+    [
+      "2023-10-31",
+      0.7
+    ],
+    [
+      "2023-11-30",
+      0.7
+    ],
+    [
+      "2023-12-31",
+      0.7
+    ],
+    [
+      "2024-01-31",
+      0.7
+    ],
+    [
+      "2024-02-29",
+      0.7
+    ],
+    [
+      "2024-03-31",
+      0.65
+    ],
+    [
+      "2024-04-30",
+      0.65
+    ],
+    [
+      "2024-05-31",
+      0.65
+    ],
+    [
+      "2024-06-30",
+      0.65
+    ],
+    [
+      "2024-07-31",
+      0.65
+    ],
+    [
+      "2024-08-31",
+      0.65
+    ],
+    [
+      "2024-09-30",
+      0.65
+    ],
+    [
+      "2024-10-31",
+      0.55
+    ],
+    [
+      "2024-11-30",
+      0.55
+    ],
+    [
+      "2024-12-31",
+      0.55
+    ],
+    [
+      "2025-01-31",
+      0.55
+    ],
+    [
+      "2025-02-28",
+      0.55
+    ],
+    [
+      "2025-03-31",
+      0.5
+    ],
+    [
+      "2025-04-30",
+      0.5
+    ],
+    [
+      "2025-05-31",
+      0.5
+    ],
+    [
+      "2025-06-30",
+      0.5
+    ],
+    [
+      "2025-07-31",
+      0.5
+    ],
+    [
+      "2025-08-31",
+      0.5
+    ],
+    [
+      "2025-09-30",
+      0.45
+    ],
+    [
+      "2025-10-31",
+      0.45
+    ],
+    [
+      "2025-11-30",
+      0.45
+    ],
+    [
+      "2025-12-31",
+      0.45
+    ],
+    [
+      "2026-01-31",
+      0.45
+    ],
+    [
+      "2026-02-28",
+      0.45
+    ],
+    [
+      "2026-03-31",
+      0.45
+    ],
+    [
+      "2026-04-30",
+      0.4
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 34182348.38,
     "Imóveis": 2379537340.6,
     "Cotas de FIIs": 513170297.12,
     "Outros": 35242.050000071526
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAU RENDA FIXA REFERENCIADO DI VIP FUNDO DE INVES",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 22779.86,
+        "valor": 240486.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE AAA FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 297766.0,
+        "valor": 16374152.34
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL TESOURO SELIC FUNDO DE INVESTIMENTO RF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6236037.37,
+        "valor": 32097644.48
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PRIME OFFICES - FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 176273.0,
+        "valor": 17210764.08
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FUNDO DE INVESTIMENTO RF REF CP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 101217.92,
+        "valor": 5411503.37
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VBI TR FARIA LIMA 4440 FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3454262.0,
+        "valor": 475550329.73
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Condominio Edificio Vera Cruz II",
+        "endereco": "Rua Elvira Ferraz, 68, Sem Complemento, Vila Olímpia, São Paulo/SP, Brasil, 04552-040",
+        "area": 7202.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Vila Olimpia Corporate",
+        "endereco": "Rua Fidencio Ramos, 302, Sem Complemento, Vila Olimpia, Sao Paulo/SP, Brasil, 04551-010",
+        "area": 11874.0,
+        "vacancia": 0.0668202764977,
+        "pct_total": null
+      },
+      {
+        "nome": "Edificio Cidade Jardim",
+        "endereco": "Avenida Cidade Jardim, 803, Sem Complemento, Itaim Bibi, Sao Paulo/SP, Brasil, 01453-000",
+        "area": 6852.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edificio Park Tower",
+        "endereco": "Avenida Brigadeiro Luis Antonio, 3521, Sem Complemento, Jardim Paulista, Sao Paulo/SP, Brasil, 01401-001",
+        "area": 22340.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Empreendimento The One",
+        "endereco": "Rua Ministro Jesuino Cardoso, 454, Sem Complemento, Vila Nova Conceicao, Sao Paulo/SP, Brasil, 04544-051",
+        "area": 1610.0,
+        "vacancia": 0.169,
+        "pct_total": null
+      },
+      {
+        "nome": "Edificio Faria Lima 4440  (VBI FL 4440)",
+        "endereco": "Avenida Brigadeiro Faria Lima, 4440, Sem Complemento, Itaim Bibi, São Paulo/SP, Brasil, 04538-132",
+        "area": 22111.73,
+        "vacancia": 0.282,
+        "pct_total": null
+      },
+      {
+        "nome": "Union Faria Lima",
+        "endereco": "Rua Leopoldo Couto Magalhaes Junior, 822, Sem Complemento, Itaim Bibi, Sao Paulo/SP, Brasil, 04542-000",
+        "area": 1808.0,
+        "vacancia": 0.658,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

@@ -4,14 +4,18 @@
     "Ticker": "PMIS11",
     "Nome": "Paramis Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0103,
-    "Retorno - 12M": 0.1982,
+    "Retorno - MTD": 0.0153,
+    "Retorno - 12M": 0.1965,
     "P/VP": 0.86,
     "Último Dividendo Pago": 0.092,
-    "DY a.a.": 0.137,
+    "DY a.a.": 0.136,
     "Visão Geral": "FII híbrido que investe em CRI, debêntures, LCI, LH e cotas de FII, com mandato multiestratégia voltado à renda mensal. É gerido pela Paramis e tinha 83,5% do patrimônio alocado em ativos-alvo no relatório de outubro de 2025. A estratégia combina crédito e fundos imobiliários com gestão ativa.",
     "Comentário": "Resultado de R$ 0,097/cota com distribuição de R$ 0,092/cota em março, gerando yield mensal de 1,13% (129,03% do CDI). Fundo mantém 79% alocado em ativos alvo com 51,4% em CRI carrego IPCA (taxa MtM 10,1% a.a.) e 10% em FII carrego.",
-    "Preço Atual": 8.05
+    "Preço Atual": 8.14,
+    "% Dias Acima CDI 1A": 0.375,
+    "% Dias Acima CDI 3A": 0.3059,
+    "% Dias Acima CDI 5A": 0.3059,
+    "% Dias Acima CDI MAX": 0.3059
   },
   "historico_preco": [
     [
@@ -2213,6 +2217,22 @@
     [
       "2026-04-16",
       8.06
+    ],
+    [
+      "2026-04-17",
+      8.08
+    ],
+    [
+      "2026-04-20",
+      8.07
+    ],
+    [
+      "2026-04-22",
+      8.11
+    ],
+    [
+      "2026-04-23",
+      8.11
     ]
   ],
   "historico_preco_adj": [
@@ -4415,6 +4435,22 @@
     [
       "2026-04-16",
       8.06
+    ],
+    [
+      "2026-04-17",
+      8.08
+    ],
+    [
+      "2026-04-20",
+      8.07
+    ],
+    [
+      "2026-04-22",
+      8.11
+    ],
+    [
+      "2026-04-23",
+      8.11
     ]
   ],
   "historico_pvp": [
@@ -6717,6 +6753,26 @@
     [
       "2026-04-16",
       0.85655587531
+    ],
+    [
+      "2026-04-17",
+      0.85868132414
+    ],
+    [
+      "2026-04-20",
+      0.85761859972
+    ],
+    [
+      "2026-04-21",
+      0.85761859972
+    ],
+    [
+      "2026-04-22",
+      0.86186949737
+    ],
+    [
+      "2026-04-23",
+      0.86186949737
     ]
   ],
   "historico_dy": [
@@ -8847,11 +8903,805 @@
     [
       "2026-04-16",
       13.6973
+    ],
+    [
+      "2026-04-17",
+      13.6634
+    ],
+    [
+      "2026-04-20",
+      13.6803
+    ],
+    [
+      "2026-04-22",
+      13.6128
+    ],
+    [
+      "2026-04-23",
+      13.6128
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-03-31",
+      0.1
+    ],
+    [
+      "2024-04-30",
+      0.1
+    ],
+    [
+      "2024-05-31",
+      0.1
+    ],
+    [
+      "2024-06-30",
+      0.1
+    ],
+    [
+      "2024-07-31",
+      0.1
+    ],
+    [
+      "2024-08-31",
+      0.1
+    ],
+    [
+      "2024-09-30",
+      0.1
+    ],
+    [
+      "2024-10-31",
+      0.1
+    ],
+    [
+      "2024-11-30",
+      0.1
+    ],
+    [
+      "2024-12-31",
+      0.1
+    ],
+    [
+      "2025-01-31",
+      0.09
+    ],
+    [
+      "2025-02-28",
+      0.09
+    ],
+    [
+      "2025-03-31",
+      0.09
+    ],
+    [
+      "2025-04-30",
+      0.09
+    ],
+    [
+      "2025-05-31",
+      0.09
+    ],
+    [
+      "2025-06-30",
+      0.09
+    ],
+    [
+      "2025-07-31",
+      0.11
+    ],
+    [
+      "2025-08-31",
+      0.092
+    ],
+    [
+      "2025-09-30",
+      0.092
+    ],
+    [
+      "2025-10-31",
+      0.092
+    ],
+    [
+      "2025-11-30",
+      0.092
+    ],
+    [
+      "2025-12-31",
+      0.092
+    ],
+    [
+      "2026-01-31",
+      0.115
+    ],
+    [
+      "2026-02-28",
+      0.092
+    ],
+    [
+      "2026-03-31",
+      0.092
+    ],
+    [
+      "2026-04-30",
+      0.092
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 26689168.92,
     "Cotas de FIIs": 15886748.32,
     "CRI/CRA": 98346568.38
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "70",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3115.0,
+        "valor": 2905692.69308491
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CYCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20118.0,
+        "valor": 178044.3
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "42",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4084.0,
+        "valor": 4003396.8511504,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "REIT SECURITIZADORA",
+        "nome": "",
+        "emissao": "3",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4224.0,
+        "valor": 3582949.61132157
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "56",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3914540.0,
+        "valor": 2366806.7517154
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "24",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3123.0,
+        "valor": 2688705.25143903,
+        "nome_cri": "CRI Assaí"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KNHF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2071.0,
+        "valor": 199043.81
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Secretaria do Tesouro Nacional",
+        "nome": "LFT20290901",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 12.0,
+        "valor": 216373.17
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "422",
+        "vencimento": "",
+        "quantidade": 3009924.0,
+        "valor": 2553432.9695806,
+        "nome_cri": "CRI Makro"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "1",
+        "serie": "165",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 362.34415453512
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBRR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 17242.0,
+        "valor": 1509881.94
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "100",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 3994734.3492466
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "126",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3.0,
+        "valor": 3078.22511022569,
+        "nome_cri": "CRI Automob"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "411",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1045.0,
+        "valor": 1047218.54336
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "115",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2847.0,
+        "valor": 2689026.18905702
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "387",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 2208242.1595
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "63",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 59.0,
+        "valor": 63652.68490049
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "45",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3963672.0,
+        "valor": 1771374.9843094
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "108",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5339.0,
+        "valor": 1725740.3174894,
+        "nome_cri": "CRI MRV II"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TGAR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16448.0,
+        "valor": 1529664.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SAO BENEDITO FII RESP LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 1093468.68
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "89",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2155.0,
+        "valor": 2331454.8214504,
+        "nome_cri": "CRI CORP LOCALIZA II"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "NAVT11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1057.0,
+        "valor": 76769.91
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "91",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3009.0,
+        "valor": 2873454.00550336,
+        "nome_cri": "CRI Fazenda da Grama"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "268",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 6637.0,
+        "valor": 3305566.62876941,
+        "nome_cri": "CRI Patriani IV"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "LEGATO LIQUIDEZ DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 443246.0607115,
+        "valor": 546122.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "62",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 540.0,
+        "valor": 554907.7514124,
+        "nome_cri": "CRI CORP HAPVIDA II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "162",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3825.0,
+        "valor": 4291943.65849336,
+        "nome_cri": "CRI OPI"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BCIA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5333.0,
+        "valor": 473570.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "179",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 2665911.27233854,
+        "nome_cri": "CRI Elleven"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CPTS11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 494916.0,
+        "valor": 3835599.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "102",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2100.0,
+        "valor": 2136153.813528
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Secretaria do Tesouro Nacional",
+        "nome": "LFT20300301",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 63.0,
+        "valor": 1134809.46
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MCRE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 31020.0,
+        "valor": 285384.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "LEVERAGE COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "2",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4370.0,
+        "valor": 4000869.56624208
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "136",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2902.0,
+        "valor": 3001793.34593066,
+        "nome_cri": "CRI CSN"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "491",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2410.0,
+        "valor": 2420519.36321
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBRX11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 52727.0,
+        "valor": 440270.45
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "132",
+        "vencimento": "",
+        "quantidade": 3984.0,
+        "valor": 2321019.31100786,
+        "nome_cri": "CRI Vilg"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "47",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4005.0,
+        "valor": 3471203.66407572,
+        "nome_cri": "CRI Shopping Roraima"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "45",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 687552.0,
+        "valor": 309537.248861604
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "63",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 727600.0,
+        "valor": 438088.656474727
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "39",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 1690156.10983884
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TRXF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 13842.0,
+        "valor": 1356100.74
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ASRF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 120.0,
+        "valor": 1316880.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "429",
+        "vencimento": "",
+        "quantidade": 31.0,
+        "valor": 33956.91666474,
+        "nome_cri": "CRI Vinci Logística"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "286",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6953.0,
+        "valor": 7251291.65449941,
+        "nome_cri": "CRI Construtora Dez"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Secretaria do Tesouro Nacional",
+        "nome": "LFT20290301",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 51.0,
+        "valor": 920408.71
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ITRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4526.0,
+        "valor": 373259.22
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "OT SOBERANO FIRF REF DI LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5586.1963559981,
+        "valor": 17735254.24
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "39",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 386831.863555646
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "29",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4070.0,
+        "valor": 3531960.41936234,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "13",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 3390.0,
+        "valor": 3766890.50105465,
+        "nome_cri": "CRI BR12"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO DE INVESTIMENTO IMOBILIÁRIO DE UNIDADES AUTONOMAS III",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 49450.0,
+        "valor": 2980661.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MCCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3193.0,
+        "valor": 292287.22
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "317",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 2531868.494,
+        "nome_cri": "CRI Planova"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RZTR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 19635.0,
+        "valor": 1924033.65
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "223",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2950.0,
+        "valor": 1989463.25605962,
+        "nome_cri": "CRI MRV XXIV (FLEX)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "158",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3839.0,
+        "valor": 3341593.18898531,
+        "nome_cri": "CRI CORP ALDO"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ICRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5525.0,
+        "valor": 502222.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "84",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 2461197.6795,
+        "nome_cri": "CRI Casa Shopping"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "32",
+        "vencimento": "",
+        "quantidade": 6866.0,
+        "valor": 3283178.14082869,
+        "nome_cri": "CRI Shop Jaraguá"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA",
+        "nome": "",
+        "emissao": "75",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 5005905.87,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Secretaria do Tesouro Nacional",
+        "nome": "LFT20300301",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 50.0,
+        "valor": 900642.43
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

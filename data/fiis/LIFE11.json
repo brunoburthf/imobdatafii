@@ -4,14 +4,18 @@
     "Ticker": "LIFE11",
     "Nome": "Life Capital Partners FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.008,
-    "Retorno - 12M": 0.1592,
+    "Retorno - MTD": -0.0046,
+    "Retorno - 12M": 0.1645,
     "P/VP": 0.94,
     "Último Dividendo Pago": 0.12,
-    "DY a.a.": 0.166,
+    "DY a.a.": 0.165,
     "Visão Geral": "FII de papel que investe em recebíveis do setor de desenvolvimento urbano, balanceando valorização de carteira e geração de renda mensal recorrente. É gerido pela Life Capital Partners e tinha patrimônio líquido de cerca de R$ 396 milhões na página oficial consultada. A estratégia prioriza crédito imobiliário com foco em retorno de longo prazo.",
     "Comentário": "O fundo distribuiu R$0,12/cota em fevereiro com dividend yield mensal de 1,26%, mantendo constância após 12 meses neste patamar. Houve um distrato em contrato inadimplente vendido em outubro anterior com necessidade de realocação, enquanto portfólio de loteamentos no Sul registrou 5 vendas e diversos distratos, demonstrando dinamismo comercial e reavaliacação de premissas no FIDC Residence.",
-    "Preço Atual": 8.67
+    "Preço Atual": 8.77,
+    "% Dias Acima CDI 1A": 0.3105,
+    "% Dias Acima CDI 3A": 0.496,
+    "% Dias Acima CDI 5A": 0.496,
+    "% Dias Acima CDI MAX": 0.496
   },
   "historico_preco": [
     [
@@ -3489,6 +3493,22 @@
     [
       "2026-04-16",
       8.67
+    ],
+    [
+      "2026-04-17",
+      8.7
+    ],
+    [
+      "2026-04-20",
+      8.71
+    ],
+    [
+      "2026-04-22",
+      8.7
+    ],
+    [
+      "2026-04-23",
+      8.69
     ]
   ],
   "historico_preco_adj": [
@@ -6967,6 +6987,22 @@
     [
       "2026-04-16",
       8.67
+    ],
+    [
+      "2026-04-17",
+      8.7
+    ],
+    [
+      "2026-04-20",
+      8.71
+    ],
+    [
+      "2026-04-22",
+      8.7
+    ],
+    [
+      "2026-04-23",
+      8.69
     ]
   ],
   "historico_pvp": [
@@ -10609,6 +10645,26 @@
     [
       "2026-04-16",
       0.93649501635
+    ],
+    [
+      "2026-04-17",
+      0.93973548353
+    ],
+    [
+      "2026-04-20",
+      0.94081563926
+    ],
+    [
+      "2026-04-21",
+      0.94081563926
+    ],
+    [
+      "2026-04-22",
+      0.93973548353
+    ],
+    [
+      "2026-04-23",
+      0.9386553278
     ]
   ],
   "historico_dy": [
@@ -14059,13 +14115,444 @@
     [
       "2026-04-16",
       16.609
+    ],
+    [
+      "2026-04-17",
+      16.5517
+    ],
+    [
+      "2026-04-20",
+      16.5327
+    ],
+    [
+      "2026-04-22",
+      16.5517
+    ],
+    [
+      "2026-04-23",
+      16.5708
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2022-11-30",
+      0.135
+    ],
+    [
+      "2022-12-31",
+      0.13
+    ],
+    [
+      "2023-01-31",
+      0.132
+    ],
+    [
+      "2023-02-28",
+      0.13
+    ],
+    [
+      "2023-03-31",
+      0.135
+    ],
+    [
+      "2023-04-30",
+      0.15
+    ],
+    [
+      "2023-05-31",
+      0.15
+    ],
+    [
+      "2023-06-30",
+      0.15
+    ],
+    [
+      "2023-07-31",
+      0.14
+    ],
+    [
+      "2023-08-31",
+      0.12
+    ],
+    [
+      "2023-09-30",
+      0.122
+    ],
+    [
+      "2023-10-31",
+      0.12
+    ],
+    [
+      "2023-11-30",
+      0.125
+    ],
+    [
+      "2023-12-31",
+      0.125
+    ],
+    [
+      "2024-01-31",
+      0.125
+    ],
+    [
+      "2024-02-29",
+      0.12
+    ],
+    [
+      "2024-03-31",
+      0.12
+    ],
+    [
+      "2024-04-30",
+      0.12
+    ],
+    [
+      "2024-05-31",
+      0.12
+    ],
+    [
+      "2024-06-30",
+      0.12
+    ],
+    [
+      "2024-07-31",
+      0.18
+    ],
+    [
+      "2024-08-31",
+      0.135
+    ],
+    [
+      "2024-09-30",
+      0.135
+    ],
+    [
+      "2024-10-31",
+      0.135
+    ],
+    [
+      "2024-11-30",
+      0.135
+    ],
+    [
+      "2024-12-31",
+      0.135
+    ],
+    [
+      "2025-01-31",
+      0.14
+    ],
+    [
+      "2025-02-28",
+      0.12
+    ],
+    [
+      "2025-03-31",
+      0.12
+    ],
+    [
+      "2025-04-30",
+      0.12
+    ],
+    [
+      "2025-05-31",
+      0.12
+    ],
+    [
+      "2025-06-30",
+      0.12
+    ],
+    [
+      "2025-07-31",
+      0.12
+    ],
+    [
+      "2025-08-31",
+      0.12
+    ],
+    [
+      "2025-09-30",
+      0.12
+    ],
+    [
+      "2025-10-31",
+      0.12
+    ],
+    [
+      "2025-11-30",
+      0.12
+    ],
+    [
+      "2025-12-31",
+      0.12
+    ],
+    [
+      "2026-01-31",
+      0.12
+    ],
+    [
+      "2026-02-28",
+      0.12
+    ],
+    [
+      "2026-03-31",
+      0.12
+    ],
+    [
+      "2026-04-30",
+      0.12
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 17972799.9,
     "Cotas de FIIs": 2292553.35,
     "CRI/CRA": 130221237.48,
     "FIDCs": 37229168.54,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 187020999.62
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1667508",
+        "nome": "",
+        "emissao": "4",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 1800.0,
+        "valor": 1491551.71,
+        "nome_cri": "CRI VCA KAHAKAI"
+      },
+      {
+        "tipo": "FIDC",
+        "emissor": "RESIDENCE CLUB FIDC",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 28000.0,
+        "valor": 48027692.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A. - 21K0120254",
+        "nome": "",
+        "emissao": "4",
+        "serie": "344",
+        "vencimento": "",
+        "quantidade": 29500.0,
+        "valor": 25942681.97,
+        "nome_cri": "CRI ESTR EMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1667507",
+        "nome": "",
+        "emissao": "4",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 7000.0,
+        "valor": 5686454.45,
+        "nome_cri": "CRI Ares das Brás"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 25A1801229",
+        "nome": "",
+        "emissao": "406",
+        "serie": "10",
+        "vencimento": "",
+        "quantidade": 15861.0,
+        "valor": 16684265.62,
+        "nome_cri": "CRI Mirante"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1667511",
+        "nome": "",
+        "emissao": "4",
+        "serie": "9",
+        "vencimento": "",
+        "quantidade": 4480.0,
+        "valor": 4053699.33,
+        "nome_cri": "CRI QSJRN"
+      },
+      {
+        "tipo": "FIDC",
+        "emissor": "FIDC LIFE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 56232.99999321,
+        "valor": 6102982.74
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0822102",
+        "nome": "",
+        "emissao": "44",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6000.0,
+        "valor": 5571647.69,
+        "nome_cri": "CRI Gafisa Sorocaba"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 21D0736598",
+        "nome": "",
+        "emissao": "1",
+        "serie": "47",
+        "vencimento": "",
+        "quantidade": 10965.0,
+        "valor": 5103558.77
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO - 24K1806410",
+        "nome": "",
+        "emissao": "114",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2623.0,
+        "valor": 2407670.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0822159",
+        "nome": "",
+        "emissao": "44",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 6000.0,
+        "valor": 5872087.95,
+        "nome_cri": "CRI Mirante"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1667479",
+        "nome": "",
+        "emissao": "4",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 4010630.27,
+        "nome_cri": "CRI Ares das Brás"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0822490",
+        "nome": "",
+        "emissao": "44",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 4386.0,
+        "valor": 4447143.66,
+        "nome_cri": "CRI Mirante"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0822128",
+        "nome": "",
+        "emissao": "44",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 2804808.92,
+        "nome_cri": "CRI Mirante"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1667509",
+        "nome": "",
+        "emissao": "4",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 6500.0,
+        "valor": 5445869.79,
+        "nome_cri": "CRI QSJRN"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A. - 24I2603907",
+        "nome": "",
+        "emissao": "21",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 16020.0,
+        "valor": 11329757.01,
+        "nome_cri": "CRI ESTRUT VECTRA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1519129",
+        "nome": "",
+        "emissao": "4",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 3653870.23,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0822669",
+        "nome": "",
+        "emissao": "44",
+        "serie": "9",
+        "vencimento": "",
+        "quantidade": 10010.0,
+        "valor": 9497315.77,
+        "nome_cri": "CRI Mirante"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1663827",
+        "nome": "",
+        "emissao": "4",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4500.0,
+        "valor": 3326082.04,
+        "nome_cri": "CRI Trinity"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1663473",
+        "nome": "",
+        "emissao": "4",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 3167496.08,
+        "nome_cri": "CRI Ares das Brás"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ARRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 333705.0,
+        "valor": 2285879.25
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22H1667510",
+        "nome": "",
+        "emissao": "4",
+        "serie": "8",
+        "vencimento": "",
+        "quantidade": 7600.0,
+        "valor": 6485944.68,
+        "nome_cri": "CRI QSJRN"
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

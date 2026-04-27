@@ -18,6 +18,7 @@
           <a href="fiis.html" class="nav-link ativo">Fundos Imobiliários</a>
           <a href="infra.html" class="nav-link">Infraestrutura</a>
           <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="imoveis.html" class="nav-link val-restrito">Imóveis</a>
           <a href="setor.html" class="nav-link">Análise Setorial</a>
           <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
         </nav>
@@ -83,7 +84,7 @@
     <!-- Barra de abas -->
     <div class="abas-bar">
       <button class="aba-btn ativo" data-aba="mercado" onclick="trocarAba('mercado')">Dados de Mercado</button>
-      <button class="aba-btn" data-aba="operacional" onclick="trocarAba('operacional')">Informações Operacionais</button>
+      <button class="aba-btn val-restrito" data-aba="operacional" onclick="trocarAba('operacional')">Informações Operacionais</button>
     </div>
 
     <!-- Aba: Dados de Mercado -->
@@ -141,7 +142,7 @@
     <!-- Aba: Informações Operacionais -->
     <div id="aba-operacional" class="aba-conteudo" style="display:none">
       <div class="graficos">
-        <div class="grafico-box" style="grid-column: 1 / -1">
+        <div class="grafico-box">
           <h2>Composição do Portfolio</h2>
           <div style="max-width:500px;margin:0 auto">
             <canvas id="grafico-portfolio"></canvas>
@@ -149,6 +150,21 @@
           <div id="portfolio-vazio" style="display:none;text-align:center;color:var(--texto-suave);padding:40px 0">
             Dados de composição não disponíveis para este fundo.
           </div>
+        </div>
+        <div class="grafico-box">
+          <h2>Dividendos por Cota — Últimos 12 Meses</h2>
+          <canvas id="grafico-dpc"></canvas>
+          <div id="dpc-vazio" style="display:none;text-align:center;color:var(--texto-suave);padding:40px 0">
+            Dados de dividendos não disponíveis para este fundo.
+          </div>
+        </div>
+      </div>
+
+      <!-- Carteira trimestral CVM — abas expansíveis -->
+      <div id="carteira-cvm-section" style="display:none">
+        <div id="carteira-cvm-container" class="grafico-box" style="padding:20px 24px">
+          <h2 id="carteira-cvm-titulo"></h2>
+          <div id="carteira-cvm-accordions"></div>
         </div>
       </div>
     </div>

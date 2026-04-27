@@ -4,14 +4,18 @@
     "Ticker": "ALZR11",
     "Nome": "Alianza Trust Renda Imobiliária FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0156,
-    "Retorno - 12M": 0.2006,
+    "Retorno - MTD": 0.0137,
+    "Retorno - 12M": 0.1951,
     "P/VP": 1.0,
-    "Último Dividendo Pago": 0.1671,
-    "DY a.a.": 0.189,
+    "Último Dividendo Pago": 0.08355,
+    "DY a.a.": 0.095,
     "Visão Geral": "FII híbrido que investe em propriedades para renda, com foco em contratos atípicos e geração recorrente de aluguel. É listado na B3 sob o ticker ALZR11 e atua com imóveis locados em estratégia voltada à previsibilidade de receita. A gestão prioriza ativos imobiliários de renda com perfil contratual mais longo e estruturado.",
     "Comentário": "O ALZR expandiu sua base de cotistas em 3,1% em fevereiro, adicionando mais 5 mil investidores no período e alcançando 188,6 mil cotistas totais. Realizou aquisição estratégica de R$30,8 milhões em cotas de fundos expostos ao ativo Natura de altíssima qualidade, com contrato até 2034. O fundo manteve cota praticamente estável, negociada ligeiramente acima do valor patrimonial, sinalizando solidez operacional.",
-    "Preço Atual": 10.6
+    "Preço Atual": 10.58,
+    "% Dias Acima CDI 1A": 0.4839,
+    "% Dias Acima CDI 3A": 0.3987,
+    "% Dias Acima CDI 5A": 0.3984,
+    "% Dias Acima CDI MAX": 0.533
   },
   "historico_preco": [
     [
@@ -8249,6 +8253,22 @@
     [
       "2026-04-16",
       10.64
+    ],
+    [
+      "2026-04-17",
+      10.61
+    ],
+    [
+      "2026-04-20",
+      10.62
+    ],
+    [
+      "2026-04-22",
+      10.61
+    ],
+    [
+      "2026-04-23",
+      10.62
     ]
   ],
   "historico_preco_adj": [
@@ -16487,6 +16507,22 @@
     [
       "2026-04-16",
       10.55645
+    ],
+    [
+      "2026-04-17",
+      10.61
+    ],
+    [
+      "2026-04-20",
+      10.62
+    ],
+    [
+      "2026-04-22",
+      10.61
+    ],
+    [
+      "2026-04-23",
+      10.62
     ]
   ],
   "historico_pvp": [
@@ -25137,6 +25173,26 @@
     [
       "2026-04-16",
       1.0045276525
+    ],
+    [
+      "2026-04-17",
+      1.0016953377
+    ],
+    [
+      "2026-04-20",
+      1.0026394426
+    ],
+    [
+      "2026-04-21",
+      1.0026394426
+    ],
+    [
+      "2026-04-22",
+      1.0016953377
+    ],
+    [
+      "2026-04-23",
+      1.0026394426
     ]
   ],
   "historico_dy": [
@@ -33295,13 +33351,826 @@
     [
       "2026-04-16",
       9.4229
+    ],
+    [
+      "2026-04-17",
+      9.4496
+    ],
+    [
+      "2026-04-20",
+      9.4407
+    ],
+    [
+      "2026-04-22",
+      9.4496
+    ],
+    [
+      "2026-04-23",
+      9.4407
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2018-02-28",
+      0.0352053645
+    ],
+    [
+      "2018-03-31",
+      0.078090952
+    ],
+    [
+      "2018-04-30",
+      0.0517545269
+    ],
+    [
+      "2018-05-31",
+      0.064208866828
+    ],
+    [
+      "2018-06-30",
+      0.064002720045
+    ],
+    [
+      "2018-07-31",
+      0.064000318943
+    ],
+    [
+      "2018-08-31",
+      0.064029999739
+    ],
+    [
+      "2018-09-30",
+      0.064190474423
+    ],
+    [
+      "2018-10-31",
+      0.064660264061
+    ],
+    [
+      "2018-11-30",
+      0.064660264061
+    ],
+    [
+      "2018-12-31",
+      0.06511334026
+    ],
+    [
+      "2019-01-31",
+      0.06554944225
+    ],
+    [
+      "2019-02-28",
+      0.065812051046
+    ],
+    [
+      "2019-03-31",
+      0.065952520555
+    ],
+    [
+      "2019-04-30",
+      0.065952520555
+    ],
+    [
+      "2019-05-31",
+      0.0659525205
+    ],
+    [
+      "2019-06-30",
+      0.0659525205
+    ],
+    [
+      "2019-07-31",
+      0.0438669241
+    ],
+    [
+      "2019-08-31",
+      0.0465254662
+    ],
+    [
+      "2019-09-30",
+      0.0482042182
+    ],
+    [
+      "2019-10-31",
+      0.0466299405
+    ],
+    [
+      "2019-11-30",
+      0.0547685433
+    ],
+    [
+      "2019-12-31",
+      0.0559259875
+    ],
+    [
+      "2020-01-31",
+      0.0567432923
+    ],
+    [
+      "2020-02-29",
+      0.0594586682
+    ],
+    [
+      "2020-03-31",
+      0.0586495918
+    ],
+    [
+      "2020-04-30",
+      0.0586388124
+    ],
+    [
+      "2020-05-31",
+      0.0596226044
+    ],
+    [
+      "2020-06-30",
+      0.0596399998
+    ],
+    [
+      "2020-07-31",
+      0.0619143759
+    ],
+    [
+      "2020-08-31",
+      0.0591474929
+    ],
+    [
+      "2020-09-30",
+      0.0572238123
+    ],
+    [
+      "2020-10-31",
+      0.0364805392
+    ],
+    [
+      "2020-11-30",
+      0.03705
+    ],
+    [
+      "2020-12-31",
+      0.0376
+    ],
+    [
+      "2021-01-31",
+      0.039066594
+    ],
+    [
+      "2021-02-28",
+      0.0493304061
+    ],
+    [
+      "2021-03-31",
+      0.0592997943
+    ],
+    [
+      "2021-04-30",
+      0.0608603341
+    ],
+    [
+      "2021-05-31",
+      0.0675307084
+    ],
+    [
+      "2021-06-30",
+      0.0672362586
+    ],
+    [
+      "2021-07-31",
+      0.0623788253
+    ],
+    [
+      "2021-08-31",
+      0.0716978629
+    ],
+    [
+      "2021-09-30",
+      0.0673174674
+    ],
+    [
+      "2021-10-31",
+      0.0619714184
+    ],
+    [
+      "2021-11-30",
+      0.0637742293
+    ],
+    [
+      "2021-12-31",
+      0.0652553809
+    ],
+    [
+      "2022-01-31",
+      0.0748615716
+    ],
+    [
+      "2022-02-28",
+      0.0725452975
+    ],
+    [
+      "2022-03-31",
+      0.0763397862
+    ],
+    [
+      "2022-04-30",
+      0.0771556
+    ],
+    [
+      "2022-05-31",
+      0.077561
+    ],
+    [
+      "2022-06-30",
+      0.0780681704
+    ],
+    [
+      "2022-07-31",
+      0.0784729351
+    ],
+    [
+      "2022-08-31",
+      0.0781922895
+    ],
+    [
+      "2022-09-30",
+      0.5650696594
+    ],
+    [
+      "2022-10-31",
+      0.07955
+    ],
+    [
+      "2022-11-30",
+      0.0775095924
+    ],
+    [
+      "2022-12-31",
+      0.0725451934
+    ],
+    [
+      "2023-01-31",
+      0.0783681738
+    ],
+    [
+      "2023-02-28",
+      0.080556
+    ],
+    [
+      "2023-03-31",
+      0.0815755
+    ],
+    [
+      "2023-04-30",
+      0.0815755
+    ],
+    [
+      "2023-05-31",
+      0.0815755
+    ],
+    [
+      "2023-06-30",
+      0.0815755
+    ],
+    [
+      "2023-07-31",
+      0.0825
+    ],
+    [
+      "2023-08-31",
+      0.0825
+    ],
+    [
+      "2023-09-30",
+      0.0825
+    ],
+    [
+      "2023-10-31",
+      0.0825
+    ],
+    [
+      "2023-11-30",
+      0.0825
+    ],
+    [
+      "2023-12-31",
+      0.0825
+    ],
+    [
+      "2024-01-31",
+      0.07975550000000001
+    ],
+    [
+      "2024-02-29",
+      0.07975550000000001
+    ],
+    [
+      "2024-03-31",
+      0.07975550000000001
+    ],
+    [
+      "2024-04-30",
+      0.0770979
+    ],
+    [
+      "2024-05-31",
+      0.0733986988
+    ],
+    [
+      "2024-06-30",
+      0.0732367657
+    ],
+    [
+      "2024-07-31",
+      0.0710784942
+    ],
+    [
+      "2024-08-31",
+      0.07575
+    ],
+    [
+      "2024-09-30",
+      0.074571
+    ],
+    [
+      "2024-10-31",
+      0.0731998546
+    ],
+    [
+      "2024-11-30",
+      0.0775
+    ],
+    [
+      "2024-12-31",
+      0.08055
+    ],
+    [
+      "2025-01-31",
+      0.08055
+    ],
+    [
+      "2025-02-28",
+      0.08055
+    ],
+    [
+      "2025-03-31",
+      0.08055
+    ],
+    [
+      "2025-04-30",
+      0.08155
+    ],
+    [
+      "2025-05-31",
+      0.08155
+    ],
+    [
+      "2025-06-30",
+      0.08155
+    ],
+    [
+      "2025-07-31",
+      0.0937
+    ],
+    [
+      "2025-08-31",
+      0.08255
+    ],
+    [
+      "2025-09-30",
+      0.08355
+    ],
+    [
+      "2025-10-31",
+      0.08355
+    ],
+    [
+      "2025-11-30",
+      0.08355
+    ],
+    [
+      "2025-12-31",
+      0.08355
+    ],
+    [
+      "2026-01-31",
+      0.0851
+    ],
+    [
+      "2026-02-28",
+      0.08355
+    ],
+    [
+      "2026-03-31",
+      0.08355
+    ],
+    [
+      "2026-04-30",
+      0.08355
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 185301761.08,
     "Imóveis": 1153532028.3,
     "Cotas de FIIs": 433798665.34,
     "CRI/CRA": 9539544.72,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 36995306.76
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "TISHMAN SPEYER RENDA CORPORATIVA FII - RL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1484641.0,
+        "valor": 144116375.08
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "357",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 4982007.67,
+        "nome_cri": "CRI Faz Sol"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAU INSTITUCIONAL DI FIF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 102.66,
+        "valor": 561144.27
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PARQUE ANHANGUERA FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 370000.0,
+        "valor": 20827300.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "DEVANT PROPERTIES FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1520170.0,
+        "valor": 9683482.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "INTER LOGISTICO FII FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 81310.0,
+        "valor": 6382835.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "205",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1524028.62,
+        "nome_cri": "CRI Quasar Copagril"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "219",
+        "vencimento": "",
+        "quantidade": 16197.0,
+        "valor": 4498393.15,
+        "nome_cri": "CRI Balaroti"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "100",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 3053911.67
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAU SOBERANO RF SIMPLES LP FICFI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 109289.36,
+        "valor": 8920886.91
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MAUA CAPITAL LOGISTICA FII - RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 801002.0,
+        "valor": 7969969.9
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "206",
+        "vencimento": "",
+        "quantidade": 2029.0,
+        "valor": 861803.33,
+        "nome_cri": "CRI Quasar Copagril"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "24",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5241.0,
+        "valor": 4438248.79,
+        "nome_cri": "CRI Assaí"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "347",
+        "vencimento": "",
+        "quantidade": 3359.0,
+        "valor": 2387694.86,
+        "nome_cri": "CRI BRASPARK"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FUNDO DE INVESTIMENTO RF REF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8527.14,
+        "valor": 454893.16
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GGR COVEPI RENDA FII - RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2704185.0,
+        "valor": 26771431.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "207",
+        "vencimento": "",
+        "quantidade": 7655.0,
+        "valor": 4355992.65,
+        "nome_cri": "CRI Quasar Copagril"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FATOR VERITA MULTIESTRATEGIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4998139.0,
+        "valor": 36936247.21
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "CRI 15L0648916",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20.0,
+        "valor": 30114725.22
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "204",
+        "vencimento": "",
+        "quantidade": 2255.0,
+        "valor": 1375240.79,
+        "nome_cri": "CRI Quasar Copagril"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "42",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 16600.0,
+        "valor": 18369342.85
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "115",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 908.0,
+        "valor": 875854.27
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ALIANZA DIGITAL REALTY FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1309074.18,
+        "valor": 127362542.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "335",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 578144.9,
+        "nome_cri": "CRI HBR II"
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Assai - Bangu RJ",
+        "endereco": "Avenida Brasil, 33809, Sem Complemento, Bangu, Rio De Janeiro/RJ, Brasil, 21852-002",
+        "area": 34520.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "CDB - Ana Rosa",
+        "endereco": "Avenida Conselheiro Rodrigues Alves, 300, Sem Complemento, Vila Mariana, São Paulo/SP, Brasil, 04014-000",
+        "area": 1597.95,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "OBA Hortifruti - CD Sumare",
+        "endereco": "Avenida Americo Ribeiro Dos Santos, 385, Sem Complemento, Parque Bandeirantes I (nova Veneza), Sumaré/SP, Brasil, 13181-715",
+        "area": 33795.13,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Editora Moderna Santillana - Belenzinho",
+        "endereco": "Rua Padre Adelino, 758, Sem Complemento, Quarta Parada, Sao Paulo/SP, Brasil, 03303-000",
+        "area": 9260.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpao Femsa",
+        "endereco": "Avenida Dos Estados, S/n, Sem Complemento, Vila Metalurgica, Santo Andre/SP, Brasil, 09220-570",
+        "area": 36740.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "OBA Hortifruti - SBC",
+        "endereco": "Avenida Francisco Prestes Maia, 1497, Sem Complemento, Centro, São Bernardo Do Campo/SP, Brasil, 09770-000",
+        "area": 4428.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "CDB - Morumbi",
+        "endereco": "Rua Pasquale Gallupi, 7, Sem Complemento, Paraisópolis, São Paulo/SP, Brasil, 05660-000",
+        "area": 5741.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpao Cravinhos",
+        "endereco": "Avenida Marginal  Armando Zampini, 28, Sem Complemento, Cravinhos, Cravinhos/SP, Brasil, 14140-000",
+        "area": 33383.26,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Imovel Globo - Jardim Botanico",
+        "endereco": "Rua Pacheco Leao, 70, Sem Complemento, Jardim Botanico, Rio De Janeiro/RJ, Brasil, 22460-030",
+        "area": 3815.52,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Air Liquide - Galpao Vila Carioca",
+        "endereco": "Avenida Carioca, 798, Antigo Numero 70, Lote 30, Vila Carioca, Sao Paulo/SP, Brasil, 04225-002",
+        "area": 5008.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "OBA Hortifruti - SJRP",
+        "endereco": "Avenida Presidente Juscelino Kubitschek De Oliveira, 3530, Sem Complemento, Jardim Moysés Miguel Haddad, São José Do Rio Preto/SP, Brasil, 15093-215",
+        "area": 3150.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "CD Mercado Livre",
+        "endereco": "Rod. Anhanguera, 28, Sem Complemento, Cravinhos, Cravinhos/SP, Brasil, 14140-000",
+        "area": 38383.26,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Dasa - Sumare",
+        "endereco": "Avenida Sumare, 1500, Sem Complemento, Perdizes, Sao Paulo/SP, Brasil, 05016-110",
+        "area": 5227.43,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BRF Guarulhos",
+        "endereco": "Rua Barao De Penedo, 435, Sem Complemento, Cidade Industrial Satelite De Sao Paulo, Guarulhos/SP, Brasil, 07222-015",
+        "area": 3459.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Emprendimento Pueri Domus",
+        "endereco": "Rua Ministro Godoi, 1697, Sem Complemento, Perdizes, Sao Paulo/SP, Brasil, 05015-001",
+        "area": 8016.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Dasa - Ascendino Reis",
+        "endereco": "Avenida Professor Ascendino Reis, 549, Sem Complemento, Vila Clementino, Sao Paulo/SP, Brasil, 04027-000",
+        "area": 2283.66,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Bauducco - Guarulhos",
+        "endereco": "Rua Fritz Reimann, 500, Sem Complemento, Vila Sao Joao, Guarulhos/SP, Brasil, 07044-020",
+        "area": 11832.59,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Decathlon - Morumbi",
+        "endereco": "Avenida Duquesa De Goias, 381, Sem Complemento, Real Parque, Sao Paulo/SP, Brasil, 05686-001",
+        "area": 28500.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BRF Bauru",
+        "endereco": "Avenida Nacoes Unidas, 51, 51 - 15, Jardim Godoy, Bauru/SP, Brasil, 17021-365",
+        "area": 3627.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atento Del Castilho",
+        "endereco": "Avenida Dom Helder Camara, 3.203, Sem Complemento, Del Castilho, Rio De Janeiro/RJ, Brasil, 21050-624",
+        "area": 8178.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

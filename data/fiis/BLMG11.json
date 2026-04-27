@@ -4,14 +4,18 @@
     "Ticker": "BLMG11",
     "Nome": "Bluemacaw Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0034,
-    "Retorno - 12M": 0.1429,
-    "P/VP": 0.7,
+    "Retorno - MTD": -0.0073,
+    "Retorno - 12M": 0.1023,
+    "P/VP": 0.69,
     "Último Dividendo Pago": 0.4,
-    "DY a.a.": 0.145,
+    "DY a.a.": 0.147,
     "Visão Geral": "FII de logística que investe em galpões logísticos e industriais, com foco principal na região Sudeste e em ativos expostos ao mercado de e-commerce. É gerido pela BlueMacaw e prioriza ativos resilientes com alto potencial de geração de renda. A estratégia combina locação recorrente e diversificação geográfica no território nacional.",
     "Comentário": "O BlueMacaw distribuiu R$0,42/cota em dezembro, com dividend yield anualizado de 14,4% na cota de mercado, refletindo recuperação operacional após reestruturação de 67% de alavancagem em outubro de 2022 para atual posição de zero alavancagem. A composição do patrimônio totaliza R$219 milhões, com 82% em cotas FIIs e ativos imobiliários diretos, sinalizando transição para modelo de menor risco.",
-    "Preço Atual": 32.9
+    "Preço Atual": 32.56,
+    "% Dias Acima CDI 1A": 0.5766,
+    "% Dias Acima CDI 3A": 0.1919,
+    "% Dias Acima CDI 5A": 0.1363,
+    "% Dias Acima CDI MAX": 0.1363
   },
   "historico_preco": [
     [
@@ -5169,6 +5173,22 @@
     [
       "2026-04-16",
       32.96
+    ],
+    [
+      "2026-04-17",
+      33.0
+    ],
+    [
+      "2026-04-20",
+      33.0
+    ],
+    [
+      "2026-04-22",
+      32.93
+    ],
+    [
+      "2026-04-23",
+      32.79
     ]
   ],
   "historico_preco_adj": [
@@ -10327,6 +10347,22 @@
     [
       "2026-04-16",
       32.96
+    ],
+    [
+      "2026-04-17",
+      33.0
+    ],
+    [
+      "2026-04-20",
+      33.0
+    ],
+    [
+      "2026-04-22",
+      32.93
+    ],
+    [
+      "2026-04-23",
+      32.79
     ]
   ],
   "historico_pvp": [
@@ -15745,6 +15781,26 @@
     [
       "2026-04-16",
       0.69792176158
+    ],
+    [
+      "2026-04-17",
+      0.69876875401
+    ],
+    [
+      "2026-04-20",
+      0.69876875401
+    ],
+    [
+      "2026-04-21",
+      0.69876875401
+    ],
+    [
+      "2026-04-22",
+      0.69728651726
+    ],
+    [
+      "2026-04-23",
+      0.69432204376
     ]
   ],
   "historico_dy": [
@@ -20603,13 +20659,326 @@
     [
       "2026-04-16",
       14.5631
+    ],
+    [
+      "2026-04-17",
+      14.5455
+    ],
+    [
+      "2026-04-20",
+      14.5455
+    ],
+    [
+      "2026-04-22",
+      14.5764
+    ],
+    [
+      "2026-04-23",
+      14.6386
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2021-03-31",
+      0.725
+    ],
+    [
+      "2021-04-30",
+      0.725
+    ],
+    [
+      "2021-05-31",
+      0.725
+    ],
+    [
+      "2021-06-30",
+      1.1
+    ],
+    [
+      "2021-07-31",
+      0.9
+    ],
+    [
+      "2021-08-31",
+      0.9
+    ],
+    [
+      "2021-09-30",
+      0.9
+    ],
+    [
+      "2021-10-31",
+      0.9
+    ],
+    [
+      "2021-11-30",
+      0.9
+    ],
+    [
+      "2021-12-31",
+      0.9
+    ],
+    [
+      "2022-01-31",
+      0.9
+    ],
+    [
+      "2022-02-28",
+      0.8
+    ],
+    [
+      "2022-03-31",
+      0.8
+    ],
+    [
+      "2022-04-30",
+      0.8
+    ],
+    [
+      "2022-05-31",
+      0.8
+    ],
+    [
+      "2022-06-30",
+      0.8
+    ],
+    [
+      "2022-07-31",
+      0.8
+    ],
+    [
+      "2022-08-31",
+      0.8
+    ],
+    [
+      "2022-09-30",
+      0.8
+    ],
+    [
+      "2022-10-31",
+      0.8
+    ],
+    [
+      "2022-11-30",
+      0.8
+    ],
+    [
+      "2022-12-31",
+      0.8
+    ],
+    [
+      "2023-01-31",
+      0.8
+    ],
+    [
+      "2023-02-28",
+      0.79
+    ],
+    [
+      "2023-03-31",
+      0.78
+    ],
+    [
+      "2023-04-30",
+      0.76
+    ],
+    [
+      "2023-05-31",
+      0.74
+    ],
+    [
+      "2023-06-30",
+      0.72
+    ],
+    [
+      "2023-07-31",
+      0.71
+    ],
+    [
+      "2023-08-31",
+      0.7
+    ],
+    [
+      "2023-09-30",
+      0.7
+    ],
+    [
+      "2023-10-31",
+      0.68
+    ],
+    [
+      "2023-11-30",
+      0.66
+    ],
+    [
+      "2023-12-31",
+      0.3
+    ],
+    [
+      "2024-01-31",
+      0.44
+    ],
+    [
+      "2024-02-29",
+      0.44
+    ],
+    [
+      "2024-03-31",
+      0.44
+    ],
+    [
+      "2024-04-30",
+      0.44
+    ],
+    [
+      "2024-05-31",
+      0.45
+    ],
+    [
+      "2024-06-30",
+      0.45
+    ],
+    [
+      "2024-07-31",
+      0.0
+    ],
+    [
+      "2024-08-31",
+      0.5
+    ],
+    [
+      "2024-09-30",
+      0.5
+    ],
+    [
+      "2024-10-31",
+      0.5
+    ],
+    [
+      "2024-11-30",
+      0.5
+    ],
+    [
+      "2024-12-31",
+      0.0
+    ],
+    [
+      "2025-01-31",
+      0.0
+    ],
+    [
+      "2025-02-28",
+      0.35
+    ],
+    [
+      "2025-03-31",
+      0.35
+    ],
+    [
+      "2025-04-30",
+      0.35
+    ],
+    [
+      "2025-05-31",
+      0.35
+    ],
+    [
+      "2025-06-30",
+      0.35
+    ],
+    [
+      "2025-07-31",
+      0.35
+    ],
+    [
+      "2025-08-31",
+      0.36
+    ],
+    [
+      "2025-09-30",
+      0.36
+    ],
+    [
+      "2025-10-31",
+      0.36
+    ],
+    [
+      "2025-11-30",
+      0.36
+    ],
+    [
+      "2025-12-31",
+      0.4
+    ],
+    [
+      "2026-01-31",
+      0.4159
+    ],
+    [
+      "2026-02-28",
+      0.4
+    ],
+    [
+      "2026-03-31",
+      0.4
+    ],
+    [
+      "2026-04-30",
+      0.4
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 1943674.92,
     "Imóveis": 38086367.39,
     "Cotas de FIIs": 105690010.47,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 74465850.28,
     "Outros": 2.9802322387695312e-08
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "Bradesco Empresas FIC Referenciado DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6882.45373599999,
+        "valor": 63449.75
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Onda Invest Multiestrategia FII Resp Limitada Closed Fund",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 627682.0,
+        "valor": 7594952.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GGR COVEPI RENDA FII RESP LIM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9621196.0,
+        "valor": 95249840.4
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "22164-_3",
+        "endereco": "Rua do Uruguai, nº 43, 55 a 59, 47, 06, 382, sub-distrito dos Mares, Salvador, Bahia",
+        "area": 11136.41,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

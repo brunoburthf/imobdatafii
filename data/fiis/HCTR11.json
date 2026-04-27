@@ -4,14 +4,18 @@
     "Ticker": "HCTR11",
     "Nome": "Hectare Ce FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.0289,
-    "Retorno - 12M": 0.1013,
-    "P/VP": 0.19,
+    "Retorno - MTD": -0.0565,
+    "Retorno - 12M": 0.0542,
+    "P/VP": 0.18,
     "Último Dividendo Pago": 0.23,
-    "DY a.a.": 0.138,
+    "DY a.a.": 0.142,
     "Visão Geral": "FII de papel que investe em CRIs e outros valores mobiliários de natureza imobiliária, com foco em geração de renda e valorização no longo prazo. Iniciado em 2018, é gerido pela Hectare Capital. Porte, diversificação detalhada, localização e perfil dos devedores aparecem como N/A nas fontes consultadas com segurança.",
     "Comentário": "Fundo distribuiu R$ 0,40/cota com dividend yield de 1,90% ao mês, refletindo resultado do semestre com alavancagem adequada. Portfolio composto por 42 CRIs pulverizados com exposição de 87,38% do PL, complementado por 10,08% em FIIs e 2,37% em caixa. Gestão focada na cobrança de inadimplentes e no monitoramento de operações com waivers.",
-    "Preço Atual": 19.98
+    "Preço Atual": 19.5,
+    "% Dias Acima CDI 1A": 0.3105,
+    "% Dias Acima CDI 3A": 0.1154,
+    "% Dias Acima CDI 5A": 0.2337,
+    "% Dias Acima CDI MAX": 0.338
   },
   "historico_preco": [
     [
@@ -6749,6 +6753,22 @@
     [
       "2026-04-16",
       19.98
+    ],
+    [
+      "2026-04-17",
+      20.0
+    ],
+    [
+      "2026-04-20",
+      19.99
+    ],
+    [
+      "2026-04-22",
+      19.82
+    ],
+    [
+      "2026-04-23",
+      19.57
     ]
   ],
   "historico_preco_adj": [
@@ -13487,6 +13507,22 @@
     [
       "2026-04-16",
       19.98
+    ],
+    [
+      "2026-04-17",
+      20.0
+    ],
+    [
+      "2026-04-20",
+      19.99
+    ],
+    [
+      "2026-04-22",
+      19.82
+    ],
+    [
+      "2026-04-23",
+      19.57
     ]
   ],
   "historico_pvp": [
@@ -20553,6 +20589,26 @@
     [
       "2026-04-16",
       0.18885171941
+    ],
+    [
+      "2026-04-17",
+      0.18904076017
+    ],
+    [
+      "2026-04-20",
+      0.18894623979
+    ],
+    [
+      "2026-04-21",
+      0.18894623979
+    ],
+    [
+      "2026-04-22",
+      0.18733939333
+    ],
+    [
+      "2026-04-23",
+      0.18497638383
     ]
   ],
   "historico_dy": [
@@ -27159,11 +27215,1343 @@
     [
       "2026-04-16",
       13.8138
+    ],
+    [
+      "2026-04-17",
+      13.8
+    ],
+    [
+      "2026-04-20",
+      13.8069
+    ],
+    [
+      "2026-04-22",
+      13.9253
+    ],
+    [
+      "2026-04-23",
+      14.1032
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2019-08-31",
+      1.371
+    ],
+    [
+      "2019-09-30",
+      1.58
+    ],
+    [
+      "2019-10-31",
+      1.2
+    ],
+    [
+      "2019-11-30",
+      1.1
+    ],
+    [
+      "2019-12-31",
+      1.05
+    ],
+    [
+      "2020-01-31",
+      1.34
+    ],
+    [
+      "2020-02-29",
+      1.56
+    ],
+    [
+      "2020-03-31",
+      1.92
+    ],
+    [
+      "2020-04-30",
+      1.43
+    ],
+    [
+      "2020-05-31",
+      0.94
+    ],
+    [
+      "2020-06-30",
+      1.11
+    ],
+    [
+      "2020-07-31",
+      1.03
+    ],
+    [
+      "2020-08-31",
+      1.17
+    ],
+    [
+      "2020-09-30",
+      2.12
+    ],
+    [
+      "2020-10-31",
+      2.25
+    ],
+    [
+      "2020-11-30",
+      2.38
+    ],
+    [
+      "2020-12-31",
+      2.51
+    ],
+    [
+      "2021-01-31",
+      2.47
+    ],
+    [
+      "2021-02-28",
+      2.22
+    ],
+    [
+      "2021-03-31",
+      2.0
+    ],
+    [
+      "2021-04-30",
+      2.0
+    ],
+    [
+      "2021-05-31",
+      2.0
+    ],
+    [
+      "2021-06-30",
+      1.9
+    ],
+    [
+      "2021-07-31",
+      1.7
+    ],
+    [
+      "2021-08-31",
+      1.5
+    ],
+    [
+      "2021-09-30",
+      1.5
+    ],
+    [
+      "2021-10-31",
+      1.6
+    ],
+    [
+      "2021-11-30",
+      1.6
+    ],
+    [
+      "2021-12-31",
+      1.6
+    ],
+    [
+      "2022-01-31",
+      1.6
+    ],
+    [
+      "2022-02-28",
+      1.6
+    ],
+    [
+      "2022-03-31",
+      1.4
+    ],
+    [
+      "2022-04-30",
+      1.4
+    ],
+    [
+      "2022-05-31",
+      1.75
+    ],
+    [
+      "2022-06-30",
+      1.77
+    ],
+    [
+      "2022-07-31",
+      1.5
+    ],
+    [
+      "2022-08-31",
+      1.25
+    ],
+    [
+      "2022-09-30",
+      1.1
+    ],
+    [
+      "2022-10-31",
+      1.1
+    ],
+    [
+      "2022-11-30",
+      1.1
+    ],
+    [
+      "2022-12-31",
+      1.1
+    ],
+    [
+      "2023-01-31",
+      1.1
+    ],
+    [
+      "2023-02-28",
+      1.0
+    ],
+    [
+      "2023-03-31",
+      0.7
+    ],
+    [
+      "2023-04-30",
+      0.5
+    ],
+    [
+      "2023-05-31",
+      0.5
+    ],
+    [
+      "2023-06-30",
+      0.5
+    ],
+    [
+      "2023-07-31",
+      0.5
+    ],
+    [
+      "2023-08-31",
+      0.5
+    ],
+    [
+      "2023-09-30",
+      0.1705
+    ],
+    [
+      "2023-10-31",
+      0.27
+    ],
+    [
+      "2023-11-30",
+      0.34
+    ],
+    [
+      "2023-12-31",
+      0.34
+    ],
+    [
+      "2024-01-31",
+      0.35
+    ],
+    [
+      "2024-02-29",
+      0.34
+    ],
+    [
+      "2024-03-31",
+      0.388
+    ],
+    [
+      "2024-04-30",
+      0.32
+    ],
+    [
+      "2024-05-31",
+      0.38
+    ],
+    [
+      "2024-06-30",
+      0.32
+    ],
+    [
+      "2024-07-31",
+      0.53
+    ],
+    [
+      "2024-08-31",
+      0.36
+    ],
+    [
+      "2024-09-30",
+      0.39
+    ],
+    [
+      "2024-10-31",
+      0.39
+    ],
+    [
+      "2024-11-30",
+      0.37
+    ],
+    [
+      "2024-12-31",
+      0.0
+    ],
+    [
+      "2025-01-31",
+      0.69
+    ],
+    [
+      "2025-02-28",
+      0.32
+    ],
+    [
+      "2025-03-31",
+      0.32
+    ],
+    [
+      "2025-04-30",
+      0.3
+    ],
+    [
+      "2025-05-31",
+      0.32
+    ],
+    [
+      "2025-06-30",
+      0.28
+    ],
+    [
+      "2025-07-31",
+      0.3759
+    ],
+    [
+      "2025-08-31",
+      0.3
+    ],
+    [
+      "2025-09-30",
+      0.3
+    ],
+    [
+      "2025-10-31",
+      0.29
+    ],
+    [
+      "2025-11-30",
+      0.29
+    ],
+    [
+      "2025-12-31",
+      0.29
+    ],
+    [
+      "2026-01-31",
+      0.4
+    ],
+    [
+      "2026-02-28",
+      0.27
+    ],
+    [
+      "2026-03-31",
+      0.26
+    ],
+    [
+      "2026-04-30",
+      0.23
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 20862391.62,
     "Cotas de FIIs": 164762423.01,
     "CRI/CRA": 2069754549.8
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H1029309",
+        "nome": "",
+        "emissao": "1",
+        "serie": "624",
+        "vencimento": "",
+        "quantidade": 10683.0,
+        "valor": 14664381.06
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20H0225977",
+        "nome": "",
+        "emissao": "1",
+        "serie": "451",
+        "vencimento": "",
+        "quantidade": 14525.0,
+        "valor": 15688537.49
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21I0663728",
+        "nome": "",
+        "emissao": "1",
+        "serie": "631",
+        "vencimento": "",
+        "quantidade": 2381.0,
+        "valor": 2364423.6
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0921850",
+        "nome": "",
+        "emissao": "1",
+        "serie": "609",
+        "vencimento": "",
+        "quantidade": 3300.0,
+        "valor": 3821765.6
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20H0225983",
+        "nome": "",
+        "emissao": "1",
+        "serie": "456",
+        "vencimento": "",
+        "quantidade": 13512.0,
+        "valor": 15080052.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BASE SECURITIZADORA DE CREDITOS- 21J0989842",
+        "nome": "",
+        "emissao": "1",
+        "serie": "20",
+        "vencimento": "",
+        "quantidade": 35791.0,
+        "valor": 44369918.37
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20G0684779",
+        "nome": "",
+        "emissao": "1",
+        "serie": "447",
+        "vencimento": "",
+        "quantidade": 26758.0,
+        "valor": 27703507.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20L0592423",
+        "nome": "",
+        "emissao": "1",
+        "serie": "488",
+        "vencimento": "",
+        "quantidade": 2380.0,
+        "valor": 1857212.65
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21C0529641",
+        "nome": "",
+        "emissao": "1",
+        "serie": "520",
+        "vencimento": "",
+        "quantidade": 2140.0,
+        "valor": 1549305.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0042097",
+        "nome": "",
+        "emissao": "1",
+        "serie": "607",
+        "vencimento": "",
+        "quantidade": 25635.0,
+        "valor": 24137213.44
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HECTARE RECEBÍVEIS HIGH GRADE FII - HCHG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 971783.0,
+        "valor": 77859253.96
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20H0225981",
+        "nome": "",
+        "emissao": "1",
+        "serie": "452",
+        "vencimento": "",
+        "quantidade": 14525.0,
+        "valor": 16757974.66
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20F0736267",
+        "nome": "",
+        "emissao": "1",
+        "serie": "421",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 6453492.58
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21F0190223",
+        "nome": "",
+        "emissao": "1",
+        "serie": "559",
+        "vencimento": "",
+        "quantidade": 2730.0,
+        "valor": 2909413.51
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20L0504499",
+        "nome": "",
+        "emissao": "1",
+        "serie": "491",
+        "vencimento": "",
+        "quantidade": 101400.0,
+        "valor": 159675107.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0921852",
+        "nome": "",
+        "emissao": "1",
+        "serie": "611",
+        "vencimento": "",
+        "quantidade": 601.0,
+        "valor": 740866.13
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H1029303",
+        "nome": "",
+        "emissao": "1",
+        "serie": "618",
+        "vencimento": "",
+        "quantidade": 32627.0,
+        "valor": 41092399.17
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII IC LOTEAMENTOS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 200000.0,
+        "valor": 18104712.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0769217",
+        "nome": "",
+        "emissao": "1",
+        "serie": "600",
+        "vencimento": "",
+        "quantidade": 41773.0,
+        "valor": 44220443.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20F0736289",
+        "nome": "",
+        "emissao": "1",
+        "serie": "422",
+        "vencimento": "",
+        "quantidade": 22600.0,
+        "valor": 24811037.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0921855",
+        "nome": "",
+        "emissao": "1",
+        "serie": "614",
+        "vencimento": "",
+        "quantidade": 800.0,
+        "valor": 847894.68
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21F0950049",
+        "nome": "",
+        "emissao": "1",
+        "serie": "576",
+        "vencimento": "",
+        "quantidade": 5664.0,
+        "valor": 5774430.29
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 19L0882537",
+        "nome": "",
+        "emissao": "1",
+        "serie": "347",
+        "vencimento": "",
+        "quantidade": 9860.0,
+        "valor": 16322966.15
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21F0953755",
+        "nome": "",
+        "emissao": "1",
+        "serie": "571",
+        "vencimento": "",
+        "quantidade": 9100.0,
+        "valor": 9040329.77
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21G0511751",
+        "nome": "",
+        "emissao": "1",
+        "serie": "587",
+        "vencimento": "",
+        "quantidade": 1181.0,
+        "valor": 1020211.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 19H0167424",
+        "nome": "",
+        "emissao": "1",
+        "serie": "274",
+        "vencimento": "",
+        "quantidade": 10500.0,
+        "valor": 5771670.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20G0684775",
+        "nome": "",
+        "emissao": "1",
+        "serie": "441",
+        "vencimento": "",
+        "quantidade": 35903.0,
+        "valor": 39083403.06
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21B0656297",
+        "nome": "",
+        "emissao": "1",
+        "serie": "503",
+        "vencimento": "",
+        "quantidade": 14910.0,
+        "valor": 15683534.94
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21I0663727",
+        "nome": "",
+        "emissao": "1",
+        "serie": "630",
+        "vencimento": "",
+        "quantidade": 3578.0,
+        "valor": 3560320.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20H0225982",
+        "nome": "",
+        "emissao": "1",
+        "serie": "454",
+        "vencimento": "",
+        "quantidade": 7105.0,
+        "valor": 7995145.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0042096",
+        "nome": "",
+        "emissao": "1",
+        "serie": "606",
+        "vencimento": "",
+        "quantidade": 6963.0,
+        "valor": 6228970.75
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BRADESCO CORPORATE FC FIF RENDA FIXA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 132.319,
+        "valor": 1219.86
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21D0805847",
+        "nome": "",
+        "emissao": "1",
+        "serie": "535",
+        "vencimento": "",
+        "quantidade": 20800.0,
+        "valor": 23932708.49
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20G0684776",
+        "nome": "",
+        "emissao": "1",
+        "serie": "443",
+        "vencimento": "",
+        "quantidade": 16593.0,
+        "valor": 17020967.59
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BASE SECURITIZADORA DE CREDITOS- 24B2057932",
+        "nome": "",
+        "emissao": "8",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 41254.0,
+        "valor": 41146136.14
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20G0684778",
+        "nome": "",
+        "emissao": "1",
+        "serie": "445",
+        "vencimento": "",
+        "quantidade": 31433.0,
+        "valor": 32005181.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20H0225979",
+        "nome": "",
+        "emissao": "1",
+        "serie": "455",
+        "vencimento": "",
+        "quantidade": 13513.0,
+        "valor": 14118739.43
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0921856",
+        "nome": "",
+        "emissao": "1",
+        "serie": "615",
+        "vencimento": "",
+        "quantidade": 200.0,
+        "valor": 239022.09
+      },
+      {
+        "tipo": "FII",
+        "emissor": "R CAP 1810 FOF FII - XBXO11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2310000.0,
+        "valor": 19661635.76
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 19L0853159",
+        "nome": "",
+        "emissao": "1",
+        "serie": "243",
+        "vencimento": "",
+        "quantidade": 51200.0,
+        "valor": 39401993.21,
+        "nome_cri": "CRI GJP"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20L0505193",
+        "nome": "",
+        "emissao": "1",
+        "serie": "496",
+        "vencimento": "",
+        "quantidade": 22949.0,
+        "valor": 28195706.57
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21D0805849",
+        "nome": "",
+        "emissao": "1",
+        "serie": "536",
+        "vencimento": "",
+        "quantidade": 3500.0,
+        "valor": 4295821.73
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 19L0882495",
+        "nome": "",
+        "emissao": "1",
+        "serie": "345",
+        "vencimento": "",
+        "quantidade": 10640.0,
+        "valor": 17658073.77
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 19J0713614",
+        "nome": "",
+        "emissao": "1",
+        "serie": "301",
+        "vencimento": "",
+        "quantidade": 14000.0,
+        "valor": 27411627.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H1029306",
+        "nome": "",
+        "emissao": "1",
+        "serie": "621",
+        "vencimento": "",
+        "quantidade": 77599.0,
+        "valor": 111215246.41
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 19D1329451",
+        "nome": "",
+        "emissao": "1",
+        "serie": "219",
+        "vencimento": "",
+        "quantidade": 1200.0,
+        "valor": 567448.29
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII SERRA VERDE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 19015374.0,
+        "valor": 3141484.87
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21G0064620",
+        "nome": "",
+        "emissao": "1",
+        "serie": "584",
+        "vencimento": "",
+        "quantidade": 32858.0,
+        "valor": 34974391.83
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20L0592421",
+        "nome": "",
+        "emissao": "1",
+        "serie": "487",
+        "vencimento": "",
+        "quantidade": 2100.0,
+        "valor": 1519269.78
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H1029305",
+        "nome": "",
+        "emissao": "1",
+        "serie": "620",
+        "vencimento": "",
+        "quantidade": 181061.0,
+        "valor": 243759262.07
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H1029304",
+        "nome": "",
+        "emissao": "1",
+        "serie": "619",
+        "vencimento": "",
+        "quantidade": 13906.0,
+        "valor": 18618244.87
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21B0656306",
+        "nome": "",
+        "emissao": "1",
+        "serie": "504",
+        "vencimento": "",
+        "quantidade": 3195.0,
+        "valor": 3348440.63
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21F0953757",
+        "nome": "",
+        "emissao": "1",
+        "serie": "572",
+        "vencimento": "",
+        "quantidade": 3900.0,
+        "valor": 2790303.99
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20F0736290",
+        "nome": "",
+        "emissao": "1",
+        "serie": "425",
+        "vencimento": "",
+        "quantidade": 3400.0,
+        "valor": 3739122.51
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21F0950051",
+        "nome": "",
+        "emissao": "1",
+        "serie": "578",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 3045759.01
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20F0638988",
+        "nome": "",
+        "emissao": "1",
+        "serie": "417",
+        "vencimento": "",
+        "quantidade": 1968.0,
+        "valor": 1503589.33
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20L0504500",
+        "nome": "",
+        "emissao": "1",
+        "serie": "493",
+        "vencimento": "",
+        "quantidade": 35000.0,
+        "valor": 54568881.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0769219",
+        "nome": "",
+        "emissao": "1",
+        "serie": "602",
+        "vencimento": "",
+        "quantidade": 1107.0,
+        "valor": 1031305.76
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21L1228734",
+        "nome": "",
+        "emissao": "1",
+        "serie": "700",
+        "vencimento": "",
+        "quantidade": 50.0,
+        "valor": 38584.05
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20L0504501",
+        "nome": "",
+        "emissao": "1",
+        "serie": "495",
+        "vencimento": "",
+        "quantidade": 23030.0,
+        "valor": 32265553.98
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20F0638993",
+        "nome": "",
+        "emissao": "1",
+        "serie": "418",
+        "vencimento": "",
+        "quantidade": 1312.0,
+        "valor": 1057354.12
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BASE SECURITIZADORA DE CREDITOS- 21J0989453",
+        "nome": "",
+        "emissao": "1",
+        "serie": "19",
+        "vencimento": "",
+        "quantidade": 40251.0,
+        "valor": 48105039.61
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21I0663726",
+        "nome": "",
+        "emissao": "1",
+        "serie": "629",
+        "vencimento": "",
+        "quantidade": 189.0,
+        "valor": 194831.52
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0769214",
+        "nome": "",
+        "emissao": "1",
+        "serie": "598",
+        "vencimento": "",
+        "quantidade": 3846.0,
+        "valor": 4001711.6
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21G0511750",
+        "nome": "",
+        "emissao": "1",
+        "serie": "586",
+        "vencimento": "",
+        "quantidade": 18332.0,
+        "valor": 15757981.82
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII HECTARE STUDENT HOUSING - HCST11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 852094.0,
+        "valor": 44794581.58
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20H0225978",
+        "nome": "",
+        "emissao": "1",
+        "serie": "453",
+        "vencimento": "",
+        "quantidade": 6820.0,
+        "valor": 7184682.84
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H1029315",
+        "nome": "",
+        "emissao": "1",
+        "serie": "627",
+        "vencimento": "",
+        "quantidade": 10500.0,
+        "valor": 15343376.37
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20L0505084",
+        "nome": "",
+        "emissao": "1",
+        "serie": "492",
+        "vencimento": "",
+        "quantidade": 90000.0,
+        "valor": 133410204.36
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BASE SECURITIZADORA DE CREDITOS- 21E0823441",
+        "nome": "",
+        "emissao": "1",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 5931068.98
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21H0850177",
+        "nome": "",
+        "emissao": "1",
+        "serie": "381",
+        "vencimento": "",
+        "quantidade": 1973.0,
+        "valor": 1850801.88,
+        "nome_cri": "CRI Bewiki"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20L0505190",
+        "nome": "",
+        "emissao": "1",
+        "serie": "494",
+        "vencimento": "",
+        "quantidade": 25000.0,
+        "valor": 36332065.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21L1228732",
+        "nome": "",
+        "emissao": "1",
+        "serie": "699",
+        "vencimento": "",
+        "quantidade": 4898.0,
+        "valor": 5119640.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21C0529621",
+        "nome": "",
+        "emissao": "1",
+        "serie": "519",
+        "vencimento": "",
+        "quantidade": 1205.0,
+        "valor": 851722.79
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21G0064621",
+        "nome": "",
+        "emissao": "1",
+        "serie": "585",
+        "vencimento": "",
+        "quantidade": 45000.0,
+        "valor": 46613084.22
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BEYOND SOBERANO FIC FI RF DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 15713869.9234672,
+        "valor": 20861170.74
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 22A0933881",
+        "nome": "",
+        "emissao": "1",
+        "serie": "685",
+        "vencimento": "",
+        "quantidade": 19557.0,
+        "valor": 22046801.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21F0190224",
+        "nome": "",
+        "emissao": "1",
+        "serie": "560",
+        "vencimento": "",
+        "quantidade": 1170.0,
+        "valor": 1275278.35
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21C0678189",
+        "nome": "",
+        "emissao": "1",
+        "serie": "516",
+        "vencimento": "",
+        "quantidade": 1560.0,
+        "valor": 1077052.37
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H1029310",
+        "nome": "",
+        "emissao": "1",
+        "serie": "625",
+        "vencimento": "",
+        "quantidade": 10846.0,
+        "valor": 15803465.17
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21I0663725",
+        "nome": "",
+        "emissao": "1",
+        "serie": "628",
+        "vencimento": "",
+        "quantidade": 32400.0,
+        "valor": 33507512.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21F0950048",
+        "nome": "",
+        "emissao": "1",
+        "serie": "575",
+        "vencimento": "",
+        "quantidade": 29774.0,
+        "valor": 30354499.9
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20H0225980",
+        "nome": "",
+        "emissao": "1",
+        "serie": "450",
+        "vencimento": "",
+        "quantidade": 19775.0,
+        "valor": 23228866.7
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20G0661483",
+        "nome": "",
+        "emissao": "1",
+        "serie": "459",
+        "vencimento": "",
+        "quantidade": 253.0,
+        "valor": 90400.79
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H1029311",
+        "nome": "",
+        "emissao": "1",
+        "serie": "626",
+        "vencimento": "",
+        "quantidade": 24500.0,
+        "valor": 33533483.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20G0684774",
+        "nome": "",
+        "emissao": "1",
+        "serie": "438",
+        "vencimento": "",
+        "quantidade": 47646.0,
+        "valor": 54007545.8
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0921854",
+        "nome": "",
+        "emissao": "1",
+        "serie": "613",
+        "vencimento": "",
+        "quantidade": 398.0,
+        "valor": 461545.17
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21F0953750",
+        "nome": "",
+        "emissao": "1",
+        "serie": "563",
+        "vencimento": "",
+        "quantidade": 11375.0,
+        "valor": 11552550.61
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21C0678164",
+        "nome": "",
+        "emissao": "1",
+        "serie": "515",
+        "vencimento": "",
+        "quantidade": 582.0,
+        "valor": 318166.23
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20H0225976",
+        "nome": "",
+        "emissao": "1",
+        "serie": "449",
+        "vencimento": "",
+        "quantidade": 42241.0,
+        "valor": 46436345.07
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0769218",
+        "nome": "",
+        "emissao": "1",
+        "serie": "601",
+        "vencimento": "",
+        "quantidade": 73293.0,
+        "valor": 79984288.76
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 19J0713616",
+        "nome": "",
+        "emissao": "1",
+        "serie": "303",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 6120624.86
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0769216",
+        "nome": "",
+        "emissao": "1",
+        "serie": "599",
+        "vencimento": "",
+        "quantidade": 17470.0,
+        "valor": 18735440.3
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20G0684823",
+        "nome": "",
+        "emissao": "1",
+        "serie": "439",
+        "vencimento": "",
+        "quantidade": 9119.0,
+        "valor": 11384250.99
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20G0684828",
+        "nome": "",
+        "emissao": "1",
+        "serie": "448",
+        "vencimento": "",
+        "quantidade": 11078.0,
+        "valor": 13229340.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 20F0736292",
+        "nome": "",
+        "emissao": "1",
+        "serie": "423",
+        "vencimento": "",
+        "quantidade": 15050.0,
+        "valor": 24931086.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0769220",
+        "nome": "",
+        "emissao": "1",
+        "serie": "603",
+        "vencimento": "",
+        "quantidade": 1547.0,
+        "valor": 1482798.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 21H0921853",
+        "nome": "",
+        "emissao": "1",
+        "serie": "612",
+        "vencimento": "",
+        "quantidade": 763.0,
+        "valor": 802330.02
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

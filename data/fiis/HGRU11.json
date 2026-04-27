@@ -4,14 +4,18 @@
     "Ticker": "HGRU11",
     "Nome": "Pátria Renda Urbana FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0143,
-    "Retorno - 12M": 0.2099,
-    "P/VP": 1.02,
+    "Retorno - MTD": 0.0242,
+    "Retorno - 12M": 0.1985,
+    "P/VP": 1.03,
     "Último Dividendo Pago": 0.95,
-    "DY a.a.": 0.087,
+    "DY a.a.": 0.086,
     "Visão Geral": "FII de renda urbana que investe em imóveis voltados a varejo, educação e serviços, com contratos de locação e foco em renda recorrente. Iniciado em 2018, é gerido pelo Pátria e reúne ativos como Pernambucanas, Ibmec, Assaí e Sam’s Club. A estratégia prioriza imóveis operacionais em regiões urbanas relevantes.",
     "Comentário": "Em fevereiro, o fundo manteve trajetória de valorização com o IFIX avançando 1,3%, renovando máxima histórica em cenário de expectativa de flexibilização monetária. A distribuição manteve-se em R$0,95/cota, com resultado distribuível impactado por alteração não recorrente na data de repasse de CRI. A vacância física permaneceu estável em 0,8% e a alavancagem financeira em 5,7%, com time de gestão executando vendas do portfólio de Pernambucanas acima do valor patrimonial.",
-    "Preço Atual": 132.58
+    "Preço Atual": 131.76,
+    "% Dias Acima CDI 1A": 0.5806,
+    "% Dias Acima CDI 3A": 0.5436,
+    "% Dias Acima CDI 5A": 0.4739,
+    "% Dias Acima CDI MAX": 0.5998
   },
   "historico_preco": [
     [
@@ -7657,6 +7661,22 @@
     [
       "2026-04-16",
       129.82
+    ],
+    [
+      "2026-04-17",
+      130.89
+    ],
+    [
+      "2026-04-20",
+      132.9
+    ],
+    [
+      "2026-04-22",
+      133.5
+    ],
+    [
+      "2026-04-23",
+      132.7
     ]
   ],
   "historico_preco_adj": [
@@ -15303,6 +15323,22 @@
     [
       "2026-04-16",
       129.82
+    ],
+    [
+      "2026-04-17",
+      130.89
+    ],
+    [
+      "2026-04-20",
+      132.9
+    ],
+    [
+      "2026-04-22",
+      133.5
+    ],
+    [
+      "2026-04-23",
+      132.7
     ]
   ],
   "historico_pvp": [
@@ -23369,6 +23405,26 @@
     [
       "2026-04-16",
       1.0070791875
+    ],
+    [
+      "2026-04-17",
+      1.0153797169
+    ],
+    [
+      "2026-04-20",
+      1.0309723003
+    ],
+    [
+      "2026-04-21",
+      1.0309723003
+    ],
+    [
+      "2026-04-22",
+      1.0356268027
+    ],
+    [
+      "2026-04-23",
+      1.0294207994
     ]
   ],
   "historico_dy": [
@@ -30999,14 +31055,1218 @@
     [
       "2026-04-16",
       8.7814
+    ],
+    [
+      "2026-04-17",
+      8.7096
+    ],
+    [
+      "2026-04-20",
+      8.5779
+    ],
+    [
+      "2026-04-22",
+      8.5393
+    ],
+    [
+      "2026-04-23",
+      8.5908
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2018-08-31",
+      0.68
+    ],
+    [
+      "2018-09-30",
+      0.68
+    ],
+    [
+      "2018-10-31",
+      0.68
+    ],
+    [
+      "2018-11-30",
+      0.68
+    ],
+    [
+      "2018-12-31",
+      0.68
+    ],
+    [
+      "2019-01-31",
+      0.78
+    ],
+    [
+      "2019-02-28",
+      0.68
+    ],
+    [
+      "2019-03-31",
+      0.68
+    ],
+    [
+      "2019-04-30",
+      0.68
+    ],
+    [
+      "2019-05-31",
+      0.68
+    ],
+    [
+      "2019-06-30",
+      0.68
+    ],
+    [
+      "2019-07-31",
+      0.68
+    ],
+    [
+      "2019-08-31",
+      0.68
+    ],
+    [
+      "2019-09-30",
+      0.68
+    ],
+    [
+      "2019-10-31",
+      0.68
+    ],
+    [
+      "2019-11-30",
+      0.68
+    ],
+    [
+      "2019-12-31",
+      0.68
+    ],
+    [
+      "2020-01-31",
+      0.74
+    ],
+    [
+      "2020-02-29",
+      0.68
+    ],
+    [
+      "2020-03-31",
+      0.68
+    ],
+    [
+      "2020-04-30",
+      0.68
+    ],
+    [
+      "2020-05-31",
+      0.68
+    ],
+    [
+      "2020-06-30",
+      0.68
+    ],
+    [
+      "2020-07-31",
+      0.68
+    ],
+    [
+      "2020-08-31",
+      0.68
+    ],
+    [
+      "2020-09-30",
+      0.68
+    ],
+    [
+      "2020-10-31",
+      0.68
+    ],
+    [
+      "2020-11-30",
+      0.68
+    ],
+    [
+      "2020-12-31",
+      0.68
+    ],
+    [
+      "2021-01-31",
+      0.72
+    ],
+    [
+      "2021-02-28",
+      0.68
+    ],
+    [
+      "2021-03-31",
+      0.68
+    ],
+    [
+      "2021-04-30",
+      0.68
+    ],
+    [
+      "2021-05-31",
+      0.68
+    ],
+    [
+      "2021-06-30",
+      0.7
+    ],
+    [
+      "2021-07-31",
+      0.9
+    ],
+    [
+      "2021-08-31",
+      0.72
+    ],
+    [
+      "2021-09-30",
+      0.72
+    ],
+    [
+      "2021-10-31",
+      0.72
+    ],
+    [
+      "2021-11-30",
+      0.72
+    ],
+    [
+      "2021-12-31",
+      0.72
+    ],
+    [
+      "2022-01-31",
+      0.76
+    ],
+    [
+      "2022-02-28",
+      0.76
+    ],
+    [
+      "2022-03-31",
+      0.76
+    ],
+    [
+      "2022-04-30",
+      0.82
+    ],
+    [
+      "2022-05-31",
+      0.82
+    ],
+    [
+      "2022-06-30",
+      0.82
+    ],
+    [
+      "2022-07-31",
+      1.2
+    ],
+    [
+      "2022-08-31",
+      0.82
+    ],
+    [
+      "2022-09-30",
+      0.82
+    ],
+    [
+      "2022-10-31",
+      0.82
+    ],
+    [
+      "2022-11-30",
+      0.82
+    ],
+    [
+      "2022-12-31",
+      0.82
+    ],
+    [
+      "2023-01-31",
+      2.0
+    ],
+    [
+      "2023-02-28",
+      0.82
+    ],
+    [
+      "2023-03-31",
+      0.85
+    ],
+    [
+      "2023-04-30",
+      0.85
+    ],
+    [
+      "2023-05-31",
+      0.85
+    ],
+    [
+      "2023-06-30",
+      0.85
+    ],
+    [
+      "2023-07-31",
+      1.4
+    ],
+    [
+      "2023-08-31",
+      0.85
+    ],
+    [
+      "2023-09-30",
+      0.85
+    ],
+    [
+      "2023-10-31",
+      0.85
+    ],
+    [
+      "2023-11-30",
+      0.85
+    ],
+    [
+      "2023-12-31",
+      0.85
+    ],
+    [
+      "2024-01-31",
+      2.3
+    ],
+    [
+      "2024-02-29",
+      0.85
+    ],
+    [
+      "2024-03-31",
+      0.85
+    ],
+    [
+      "2024-04-30",
+      0.85
+    ],
+    [
+      "2024-05-31",
+      0.85
+    ],
+    [
+      "2024-06-30",
+      0.85
+    ],
+    [
+      "2024-07-31",
+      1.25
+    ],
+    [
+      "2024-08-31",
+      0.85
+    ],
+    [
+      "2024-09-30",
+      0.85
+    ],
+    [
+      "2024-10-31",
+      0.85
+    ],
+    [
+      "2024-11-30",
+      0.9
+    ],
+    [
+      "2024-12-31",
+      0.9
+    ],
+    [
+      "2025-01-31",
+      1.9
+    ],
+    [
+      "2025-02-28",
+      0.9
+    ],
+    [
+      "2025-03-31",
+      0.9
+    ],
+    [
+      "2025-04-30",
+      0.9
+    ],
+    [
+      "2025-05-31",
+      0.9
+    ],
+    [
+      "2025-06-30",
+      0.9
+    ],
+    [
+      "2025-07-31",
+      1.55
+    ],
+    [
+      "2025-08-31",
+      0.95
+    ],
+    [
+      "2025-09-30",
+      0.95
+    ],
+    [
+      "2025-10-31",
+      0.95
+    ],
+    [
+      "2025-11-30",
+      0.95
+    ],
+    [
+      "2025-12-31",
+      0.95
+    ],
+    [
+      "2026-01-31",
+      1.45
+    ],
+    [
+      "2026-02-28",
+      0.95
+    ],
+    [
+      "2026-03-31",
+      0.95
+    ],
+    [
+      "2026-04-30",
+      0.95
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 22905802.95,
     "Imóveis": 2803532245.7,
     "Cotas de FIIs": 261486185.86,
     "CRI/CRA": 92805588.37,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 3999.65,
     "Outros": 0.02000025510778869
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA SA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "423",
+        "vencimento": "",
+        "quantidade": 8327.0,
+        "valor": 8037810.53,
+        "nome_cri": "CRI Leo Madeiras"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA SA",
+        "nome": "",
+        "emissao": "91",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 18600.0,
+        "valor": 17868814.88,
+        "nome_cri": "CRI Fazenda da Grama"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GARE19 - FII GUARDIAN",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8879024.0,
+        "valor": 80355167.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FCFL11 - FII CAMPUS FARIA LIMA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 846133.0,
+        "valor": 106612758.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SPVJ11 - FUNDO DE INVESTIMENTO IMOBILIÁRIO SUCCESPAR VAREJO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2581183.0,
+        "valor": 62884733.12
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KNIP11 - KINEA ÍNDICES DE PREÇOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 58328.0,
+        "valor": 5281017.12
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA SA",
+        "nome": "",
+        "emissao": "24",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 46230.0,
+        "valor": 42273781.75,
+        "nome_cri": "CRI Assaí"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TVRI11 - TIVIO RENDA IMOBILIARIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 140080.0,
+        "valor": 14075238.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA SA",
+        "nome": "",
+        "emissao": "58",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 39900.0,
+        "valor": 33071755.85,
+        "nome_cri": "CRI SG Natal"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JFLL11 - JFL LIVING FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 250000.0,
+        "valor": 17000000.0
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Pernambucanas Jaboticabal",
+        "endereco": "Rua Barão do Rio Branco, 665 - Centro",
+        "area": 1560.95,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Palmas",
+        "endereco": "Praça Bom Jesus, 154, Palmas, PR",
+        "area": 892.62,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Colégio POP",
+        "endereco": "Praça Padre Aleixo Monteiro Mafra, 18",
+        "area": 4225.76,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Sam's Club Morumbi",
+        "endereco": "Av. Professor Francisco Morato, 2585, Butantã, SP",
+        "area": 24291.79,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Palmas",
+        "endereco": "Av. Joaquim Teotônio Segurado, s/n",
+        "area": 15789.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Pirassununga",
+        "endereco": "Rua Duque de Caxias, 1.412 - Centro",
+        "area": 1445.12,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas São Paulo - Teodoro Sampaio",
+        "endereco": "Rua Teodoro Sampaio, 2.160 - Pinheiros",
+        "area": 4887.67,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Guanambi",
+        "endereco": "Estrada Lagoa Patos (BR 030), km 6",
+        "area": 10806.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Mineirão Natal",
+        "endereco": "Rua Lúcia Viveiros, 4511, Neópolis, Natal, RN",
+        "area": 8613.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Sam's Club Atuba",
+        "endereco": "Estrada do Ribeira, 144, Atuba, PR",
+        "area": 10131.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Itú",
+        "endereco": "R. Floriano Peixoto, 963, 967, 971 e 975, Itu, SP",
+        "area": 1552.11,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Capão Bonito",
+        "endereco": "R. Floriano Peixoto, 575, Capão Bonito, SP",
+        "area": 718.94,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Barretos",
+        "endereco": "R. Vinte, 776, Barretos, SP",
+        "area": 1516.87,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atacadão São Carlos",
+        "endereco": "Rua Miguel Petroni, 5.170, D.F. Embare Cabeceira do Can Can, São Carlos, SP",
+        "area": 8336.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Mineirão Uberaba",
+        "endereco": "Av. Coronel Cacildo Arantes, 50, Parque Hiléia, Uberaba, MG",
+        "area": 7972.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Pereira Barreto",
+        "endereco": "Av. Brasil, 1168, Pereira Barreto, SP",
+        "area": 783.46,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Ribeirão Preto",
+        "endereco": "R. General Osório, 323, Ribeirão Preto, SP",
+        "area": 6305.13,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Estácio Salvador",
+        "endereco": "Rua Xingu, 179, Stiep, BA",
+        "area": 32808.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Paranaguá",
+        "endereco": "R. Xv De Novembro, 0352, Paranaguá, PR",
+        "area": 2409.94,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Itanhaém",
+        "endereco": "Av. Condessa D'Vimieiros, 17, Itanhaém, SP",
+        "area": 1462.41,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Carlos De Campos",
+        "endereco": "Rua Sete de Setembro, 608 e 617, Piraju, SP",
+        "area": 1058.68,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Itapecerica Da Serra",
+        "endereco": "Ladeira Capitão Moraes, 49, Itapecerica da Serra, SP",
+        "area": 1450.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Adamantina",
+        "endereco": "Av. Rio Branco, 511, Adamantina, SP",
+        "area": 771.23,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Jundiaí",
+        "endereco": "R. Barão De Jundiai, 736, 740 e 744, Jundiaí, SP",
+        "area": 1505.08,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Carapicuíba",
+        "endereco": "Av. Rui Barbosa, 447, Carapicuíba, SP",
+        "area": 1564.16,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Arapiraca",
+        "endereco": "Rua Maria Genusir Soares, nº 308",
+        "area": 11503.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Jardim",
+        "endereco": "Av. Duque de Caxias, 436 - Centro",
+        "area": 867.28,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Itapeva",
+        "endereco": "R. Dr. Pinheiro, 294/312, Itapeva, SP",
+        "area": 1958.78,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Castanhal",
+        "endereco": "Av. Presidente Vargas, 5600",
+        "area": 11070.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Mineirão João Pessoa",
+        "endereco": "Rod. BR 230 - Km. 27, s/nº , Esplanada, João Pessoa, PB",
+        "area": 8508.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Mirandópolis",
+        "endereco": "R. Nove De Julho, 1223, Mirandópolis, SP",
+        "area": 641.05,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Paranaíba",
+        "endereco": "Rua Coronel Carlos, 1.595 - Centro",
+        "area": 1823.51,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Taquaritinga",
+        "endereco": "Rua Prudente de Moraes, 485 - Centro",
+        "area": 1160.54,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Araguari",
+        "endereco": "R. Rui Barbosa, 0226, Araguari, MG",
+        "area": 1414.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Universidade de Mogi das Cruzes",
+        "endereco": "Av. Imperatriz Leopoldina, 550, Vila Leopoldina, São Paulo, SP",
+        "area": 23298.34,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Loja Taubaté",
+        "endereco": "Av. Dom Pedro I, E-630",
+        "area": 12950.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Bandeirantes",
+        "endereco": "Av. Bandeirantes, 892, Bandeirantes, PR",
+        "area": 1068.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Camaçari",
+        "endereco": "Av. Jorge Amado, s/n",
+        "area": 12732.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Walmart Indianópolis",
+        "endereco": "Av. Jabaquara, 2979, Mirandópolis, SP",
+        "area": 24345.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Amparo",
+        "endereco": "R. Treze De Maio, 0186, Amparo, SP",
+        "area": 829.51,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Sam's Club Radial Leste",
+        "endereco": "Rua Padre Adelino, 685, Belém, SP",
+        "area": 14050.62,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Caraguatatuba",
+        "endereco": "Praça Dr. Cândido Mota, 145 - Centro",
+        "area": 2549.59,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Una Aimorés",
+        "endereco": "Rua dos Aimorés, 1451",
+        "area": 9738.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas São Paulo - Rua Direita",
+        "endereco": "Rua Direita, 226 - Centro",
+        "area": 2611.29,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Olímpia",
+        "endereco": "Praça Rui Barbosa, 157, Olímpia, SP",
+        "area": 1209.95,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Taquarituba",
+        "endereco": "R. Dr. Ataliba Leonel, 671, Taquarituba, SP",
+        "area": 510.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Dutra 107",
+        "endereco": "Av. Dom Pedro I, 1100, Taubaté, SP",
+        "area": 21481.825,
+        "vacancia": 0.226965300442281,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Ituverava",
+        "endereco": "Av. Dr. Soares De Oliveira, 280 e 272, 282 e 284 e Rua Dr. Getúlio Vargas, 305, Ituverava, SP",
+        "area": 1098.62,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Dracena",
+        "endereco": "Av. Presidente Roosevelt, 902, Dracena, SP",
+        "area": 1216.19,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Passos",
+        "endereco": "R. Presidente Antonio Carlos, 160, Passos, MG",
+        "area": 985.15,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Aquidauana",
+        "endereco": "Rua Sete de Setembro, 585 - Centro",
+        "area": 1836.52,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Mauá",
+        "endereco": "Av. Barão De Mauá, 74, Mauá, SP",
+        "area": 1354.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Guarapuava",
+        "endereco": "Rua XV de Novembro, 7.795 - Centro",
+        "area": 3802.42,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Escola Parque",
+        "endereco": "Rua Pedra de Itauna, 111",
+        "area": 5588.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Guaíra",
+        "endereco": "R. Dez, 482, Guaíra, SP",
+        "area": 908.65,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Itapira",
+        "endereco": "R. José Bonifácio, 48, Itapira, SP",
+        "area": 992.09,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Ituiutaba",
+        "endereco": "Rua Vinte e Dois, 798 - Centro",
+        "area": 806.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Sam's Club Granja Viana",
+        "endereco": "Rod. Raposo Tavares, 23.033, Granja Viana, SP",
+        "area": 24235.14,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Iguatú",
+        "endereco": "Av. Carlos Roberto Costa, 180",
+        "area": 11257.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Mineirão Uberlândia",
+        "endereco": "Rod. BR 050 Km 73, nº 7085, Fazenda Buriti, Uberlândia, MG",
+        "area": 6698.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Itararé",
+        "endereco": "Rua Amazonas Ribas, 402 e R. São Pedro, 1213, Itararé, SP",
+        "area": 1161.17,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "São Luis",
+        "endereco": "Av. Jerônimo de Albuquerque, 260",
+        "area": 7867.87,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Sam's Club Campinas",
+        "endereco": "Rod. Dom Pedro I, km 132, Parque Imperador, SP",
+        "area": 15776.24,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Apiaí",
+        "endereco": "R. Dr. Gabriel Rib. Dos Santos, 40, Apiaí, SP",
+        "area": 790.98,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Barra Bonita",
+        "endereco": "R. Um De Março, 129, Barra Bonita, SP",
+        "area": 990.23,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas São  Paulo - Brooklin",
+        "endereco": "Rua Joaquim Nabuco, 112/126 - Brooklin",
+        "area": 1056.82,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ed. Angelica",
+        "endereco": "Av. Angélica, 2563, Bela Vista, SP",
+        "area": 4849.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Walmart Joaquina Ramalho",
+        "endereco": "Av. Joaquina Ramalho, 340, Vila Guilherme, SP",
+        "area": 29639.55,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atacadão Londrina Cambé",
+        "endereco": "Rod. Melo Peixoto, 1314 - BR 369 - Km.159, Pq.Maracanã, Cambé, PR",
+        "area": 6585.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Presidente Epitácio",
+        "endereco": "Av. Presidente Vargas, 670, Presidente Epitácio, SP",
+        "area": 871.62,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Muzambinho",
+        "endereco": "Av. Dr. Américo Luz, 172 - Centro",
+        "area": 790.7,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Foz do Iguaçu",
+        "endereco": "Av. Brasil, 1.015 - Centro",
+        "area": 3524.82,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Sendas Foz do Iguaçu",
+        "endereco": "Av. Paraná, 4195, Conjunto A, Foz do Iguaçu, PR",
+        "area": 6983.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Ribeirão Preto - Campos Elíseos",
+        "endereco": "Av. da Saudade, 1.119/1.129 - Centro",
+        "area": 2330.62,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Marechal Cândido Rondon",
+        "endereco": "Av. Rio Grande Do Sul, 671, Marechal Cândido Rondon, PR",
+        "area": 873.84,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Concórdia",
+        "endereco": "Rua do Comércio, 173 - Centro",
+        "area": 656.86,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Bh - Centro",
+        "endereco": "R. São Paulo, 540/546/552 e 566, Belo Horizonte, MG",
+        "area": 4908.68,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "IBMEC - RJ",
+        "endereco": "Av. Armando Lombardi, 940, Barra da Tijuca, RJ",
+        "area": 8040.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Jacarezinho",
+        "endereco": "R. Paraná, 889 - Centro",
+        "area": 1218.24,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Lins",
+        "endereco": "R. Vinte E Um De Abril, 162, Lins, SP",
+        "area": 1196.76,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Tatuí",
+        "endereco": "Praça Da Matriz, 106, Tatuí, SP",
+        "area": 2027.76,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Curitiba",
+        "endereco": "Av. Juscelino Kubitschek de Oliveira, 2511",
+        "area": 12880.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Registro",
+        "endereco": "Av. Prof. Jonas Banks Leite, 497 - Centro",
+        "area": 3020.96,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Sam's Club São José dos Campos",
+        "endereco": "Av. Cassiano Ricardo, 1993, Jardim Alvorada, SP",
+        "area": 7549.23,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Itapetininga",
+        "endereco": "R. Campos Sales, 703, Itapetininga, SP",
+        "area": 1826.11,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Rondonópolis",
+        "endereco": "Av. Bandeirantes, nº 4.335",
+        "area": 14415.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Rio Branco",
+        "endereco": "Rua São João, 2500, Floresta",
+        "area": 7710.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Marília",
+        "endereco": "R. São Luiz, 693, Marília, SP",
+        "area": 760.5,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Sam's Club Barigui",
+        "endereco": "Rod. Curitiba Ponta Grossa, km 65, Barigui, PR",
+        "area": 13565.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Petrópolis",
+        "endereco": "Estrada União e Indústria, 870",
+        "area": 14196.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Jales",
+        "endereco": "Av. Francisco Jales, 2.367 - Centro",
+        "area": 1310.35,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Mineirão Contagem",
+        "endereco": "Rod. Fernão Dias, 3700 - Km 3,5, Riacho Pedras, Contagem, MG",
+        "area": 15740.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Mineirão Juiz de fora",
+        "endereco": "Av.Garcia Rodrigues Paes(Acesso Norte),s/n-Área C4, Joquei Clube II, Juiz de Fora, MG",
+        "area": 7692.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Pindamonhangaba",
+        "endereco": "R. Deputado Claro César, 200, Pindamonhangaba, SP",
+        "area": 1999.87,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Cruzeiro",
+        "endereco": "Av. Dr. Jorge Tibiriça, 565, Cruzeiro, SP",
+        "area": 1724.11,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Paulista 2.000",
+        "endereco": "Avenida Paulista, 1.998/2.000, São Paulo, SP",
+        "area": 6089.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Botucatu",
+        "endereco": "Rua Amando de Barros, 470 - Centro",
+        "area": 2422.42,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas São Paulo - Tucuruvi",
+        "endereco": "Av. Tucuruvi, 400 - Tucuruvi",
+        "area": 2750.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Telêmaco Borba",
+        "endereco": "Av. Horácio Klabin, 205 e 215, Telêmaco Borba , PR",
+        "area": 1193.8,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Pernambucanas Sete Quedas",
+        "endereco": "Av. Mate Laranjeiras, 496, Guaíra - PR, PR",
+        "area": 1335.17,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

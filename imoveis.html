@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imóveis — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="imoveis.html" class="nav-link ativo val-restrito">Imóveis</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right"><span class="uso-interno">USO INTERNO</span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="toolbar">
+      <input type="text" id="busca" placeholder="Buscar imóvel por nome, endereço ou fundo..." oninput="filtrarImoveis()" />
+      <select id="filtro-fundo" onchange="filtrarImoveis()">
+        <option value="">Todos os fundos</option>
+      </select>
+    </div>
+
+    <div id="loading" class="loading">Carregando base de imóveis...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="stats" style="display:none" class="imoveis-stats"></div>
+
+    <div id="tabela-wrapper" style="display:none;overflow-x:auto">
+      <table id="tabela-imoveis">
+        <thead>
+          <tr>
+            <th onclick="ordenar('nome')" style="cursor:pointer">Nome <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('endereco')" style="cursor:pointer">Endereço <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('fundo')" style="cursor:pointer">Fundo Atual <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('area')" class="num" style="cursor:pointer">Área (m²) <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('vacancia')" class="num" style="cursor:pointer">Vacância <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('n_donos')" class="num" style="cursor:pointer">Donos <span class="sort-icon">↕</span></th>
+            <th onclick="ordenar('desde')" class="num" style="cursor:pointer">Desde <span class="sort-icon">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="tabela-body"></tbody>
+      </table>
+      <div id="contagem" style="font-size:12px;color:var(--texto-suave);margin-top:8px"></div>
+    </div>
+
+    <!-- Detalhe do imóvel (aparece ao clicar) -->
+    <div id="imovel-detalhe" style="display:none">
+      <div class="secao" style="margin-top:20px">
+        <button class="btn-voltar" onclick="fecharDetalhe()" style="margin-bottom:12px;color:var(--azul-escuro);border-color:var(--cinza-borda)">&#8592; Voltar à lista</button>
+        <h2 id="detalhe-nome"></h2>
+        <p id="detalhe-endereco" style="color:var(--texto-suave);margin-bottom:16px"></p>
+
+        <h3 style="font-size:14px;color:var(--navy);margin-bottom:10px">Histórico de Propriedade</h3>
+        <table id="detalhe-tabela" style="width:100%;border-collapse:collapse;font-size:13px">
+          <thead>
+            <tr style="background:#f5f6f8">
+              <th style="text-align:left;padding:8px">Data Ref.</th>
+              <th style="text-align:left;padding:8px">Fundo</th>
+              <th style="text-align:right;padding:8px">Área (m²)</th>
+              <th style="text-align:right;padding:8px">Vacância</th>
+              <th style="text-align:right;padding:8px">% do Total</th>
+            </tr>
+          </thead>
+          <tbody id="detalhe-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/imoveis.js?v=1"></script>
+  <script src="js/local.js"></script>
+</body>
+</html>

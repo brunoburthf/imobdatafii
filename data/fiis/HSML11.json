@@ -4,14 +4,18 @@
     "Ticker": "HSML11",
     "Nome": "Hsi Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0129,
-    "Retorno - 12M": 0.27,
+    "Retorno - MTD": 0.015,
+    "Retorno - 12M": 0.2492,
     "P/VP": 0.92,
     "Último Dividendo Pago": 0.7,
     "DY a.a.": 0.088,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers, com portfólio de oito ativos administrados pela Alqia. A carteira inclui empreendimentos em Maceió, Cotia, Osasco, Rio Branco, Tucuruvi, Salvador, Uberaba e Sorocaba. A estratégia combina diversificação regional, gestão operacional especializada e geração recorrente de renda imobiliária.",
     "Comentário": "Em fevereiro, NOI do portfólio cresceu 4% com oito shoppings apresentando movimento positivo, destaque para Via Verde (+16%) e SuperShopping Osasco (+15%). Distribuição de março atingiu R$0,70/cota com dividend yield de 8,8% a.a., mantendo taxa de ocupação em 96,7%. Guidance 1º semestre mantém projeção entre R$0,70 e R$0,75/cota com avanço físico da expansão do Uberaba em linha com cronograma.",
-    "Preço Atual": 95.85
+    "Preço Atual": 95.5,
+    "% Dias Acima CDI 1A": 0.3952,
+    "% Dias Acima CDI 3A": 0.506,
+    "% Dias Acima CDI 5A": 0.4594,
+    "% Dias Acima CDI MAX": 0.4237
   },
   "historico_preco": [
     [
@@ -6657,6 +6661,22 @@
     [
       "2026-04-16",
       95.22
+    ],
+    [
+      "2026-04-17",
+      95.59
+    ],
+    [
+      "2026-04-20",
+      95.9
+    ],
+    [
+      "2026-04-22",
+      95.7
+    ],
+    [
+      "2026-04-23",
+      95.45
     ]
   ],
   "historico_preco_adj": [
@@ -13303,6 +13323,22 @@
     [
       "2026-04-16",
       95.22
+    ],
+    [
+      "2026-04-17",
+      95.59
+    ],
+    [
+      "2026-04-20",
+      95.9
+    ],
+    [
+      "2026-04-22",
+      95.7
+    ],
+    [
+      "2026-04-23",
+      95.45
     ]
   ],
   "historico_pvp": [
@@ -20269,6 +20305,26 @@
     [
       "2026-04-16",
       0.91636574481
+    ],
+    [
+      "2026-04-17",
+      0.91992650227
+    ],
+    [
+      "2026-04-20",
+      0.9229098396
+    ],
+    [
+      "2026-04-21",
+      0.9229098396
+    ],
+    [
+      "2026-04-22",
+      0.92098510584
+    ],
+    [
+      "2026-04-23",
+      0.91857918864
     ]
   ],
   "historico_dy": [
@@ -26867,14 +26923,465 @@
     [
       "2026-04-16",
       8.8217
+    ],
+    [
+      "2026-04-17",
+      8.7875
+    ],
+    [
+      "2026-04-20",
+      8.7591
+    ],
+    [
+      "2026-04-22",
+      8.7774
+    ],
+    [
+      "2026-04-23",
+      8.8004
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2019-09-30",
+      0.6
+    ],
+    [
+      "2019-10-31",
+      0.61
+    ],
+    [
+      "2019-11-30",
+      0.62
+    ],
+    [
+      "2019-12-31",
+      0.62
+    ],
+    [
+      "2020-01-31",
+      0.66
+    ],
+    [
+      "2020-02-29",
+      0.6
+    ],
+    [
+      "2020-03-31",
+      0.6
+    ],
+    [
+      "2020-04-30",
+      0.22
+    ],
+    [
+      "2020-05-31",
+      0.22
+    ],
+    [
+      "2020-06-30",
+      0.18
+    ],
+    [
+      "2020-07-31",
+      0.18
+    ],
+    [
+      "2020-08-31",
+      0.18
+    ],
+    [
+      "2020-09-30",
+      0.26
+    ],
+    [
+      "2020-10-31",
+      0.4
+    ],
+    [
+      "2020-11-30",
+      0.45
+    ],
+    [
+      "2020-12-31",
+      0.47
+    ],
+    [
+      "2021-01-31",
+      0.5
+    ],
+    [
+      "2021-02-28",
+      0.5
+    ],
+    [
+      "2021-03-31",
+      0.4
+    ],
+    [
+      "2021-04-30",
+      0.16
+    ],
+    [
+      "2021-05-31",
+      0.22
+    ],
+    [
+      "2021-06-30",
+      0.35
+    ],
+    [
+      "2021-07-31",
+      0.4
+    ],
+    [
+      "2021-08-31",
+      0.5
+    ],
+    [
+      "2021-09-30",
+      0.5
+    ],
+    [
+      "2021-10-31",
+      0.52
+    ],
+    [
+      "2021-11-30",
+      0.52
+    ],
+    [
+      "2021-12-31",
+      0.52
+    ],
+    [
+      "2022-01-31",
+      0.52
+    ],
+    [
+      "2022-02-28",
+      0.55
+    ],
+    [
+      "2022-03-31",
+      0.6
+    ],
+    [
+      "2022-04-30",
+      0.6
+    ],
+    [
+      "2022-05-31",
+      0.6
+    ],
+    [
+      "2022-06-30",
+      0.62
+    ],
+    [
+      "2022-07-31",
+      0.65
+    ],
+    [
+      "2022-08-31",
+      0.65
+    ],
+    [
+      "2022-09-30",
+      0.67
+    ],
+    [
+      "2022-10-31",
+      0.68
+    ],
+    [
+      "2022-11-30",
+      0.68
+    ],
+    [
+      "2022-12-31",
+      0.68
+    ],
+    [
+      "2023-01-31",
+      0.7
+    ],
+    [
+      "2023-02-28",
+      0.7
+    ],
+    [
+      "2023-03-31",
+      0.74
+    ],
+    [
+      "2023-04-30",
+      0.74
+    ],
+    [
+      "2023-05-31",
+      0.74
+    ],
+    [
+      "2023-06-30",
+      0.74
+    ],
+    [
+      "2023-07-31",
+      0.74
+    ],
+    [
+      "2023-08-31",
+      0.74
+    ],
+    [
+      "2023-09-30",
+      0.74
+    ],
+    [
+      "2023-10-31",
+      0.74
+    ],
+    [
+      "2023-11-30",
+      0.74
+    ],
+    [
+      "2023-12-31",
+      0.74
+    ],
+    [
+      "2024-01-31",
+      0.76
+    ],
+    [
+      "2024-02-29",
+      0.76
+    ],
+    [
+      "2024-03-31",
+      0.8
+    ],
+    [
+      "2024-04-30",
+      0.8
+    ],
+    [
+      "2024-05-31",
+      0.8
+    ],
+    [
+      "2024-06-30",
+      0.8
+    ],
+    [
+      "2024-07-31",
+      0.8
+    ],
+    [
+      "2024-08-31",
+      0.8
+    ],
+    [
+      "2024-09-30",
+      0.8
+    ],
+    [
+      "2024-10-31",
+      0.8
+    ],
+    [
+      "2024-11-30",
+      0.8
+    ],
+    [
+      "2024-12-31",
+      0.8
+    ],
+    [
+      "2025-01-31",
+      0.8
+    ],
+    [
+      "2025-02-28",
+      0.65
+    ],
+    [
+      "2025-03-31",
+      0.65
+    ],
+    [
+      "2025-04-30",
+      0.65
+    ],
+    [
+      "2025-05-31",
+      0.65
+    ],
+    [
+      "2025-06-30",
+      0.65
+    ],
+    [
+      "2025-07-31",
+      0.65
+    ],
+    [
+      "2025-08-31",
+      0.66
+    ],
+    [
+      "2025-09-30",
+      0.67
+    ],
+    [
+      "2025-10-31",
+      0.68
+    ],
+    [
+      "2025-11-30",
+      0.7
+    ],
+    [
+      "2025-12-31",
+      0.7
+    ],
+    [
+      "2026-01-31",
+      0.7
+    ],
+    [
+      "2026-02-28",
+      0.7
+    ],
+    [
+      "2026-03-31",
+      0.7
+    ],
+    [
+      "2026-04-30",
+      0.7
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 114496811.42,
     "Imóveis": 2525617487.3,
     "Terrenos": 6510000.0,
     "CRI/CRA": 4058599.26,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 19202002.26,
     "Outros": 0.009999919682741165
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "45916",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4082.0,
+        "valor": 4126127.08
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BANCO SANTANDER",
+        "nome": "CDB",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 50000.0,
+        "valor": 55207082.85
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "SANTANDER CASH BLUE FI RF REFERENCIADO DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 13078970.7631176,
+        "valor": 56042140.23
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP MALLS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 54083.0,
+        "valor": 5844208.98
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "SUPER SHOPPING OSASCO",
+        "endereco": "Av. dos Autonomistas, 1828 - Industrial Autonomistas, Osasco - SP, 06020-010",
+        "area": 17531.92,
+        "vacancia": 0.98173,
+        "pct_total": null
+      },
+      {
+        "nome": "SHOPPING PARALELA",
+        "endereco": "Avenida Luiz Viana, nº 8544, CEP 41730-101 - Alphaville - Salvador, BA",
+        "area": 56286.16,
+        "vacancia": 0.987607,
+        "pct_total": null
+      },
+      {
+        "nome": "DECK PARKING UBERABA",
+        "endereco": "Av. Barão do Rio Branco c/ Rua Varginha",
+        "area": 15009.38,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "SHOPPING METRO TUCURUVI",
+        "endereco": "Rua Paranabi, 218-224, CEP: 02307120, Tucuruvi, São Paulo-SP",
+        "area": 31777.67,
+        "vacancia": 0.928411,
+        "pct_total": null
+      },
+      {
+        "nome": "SHOPPING VIA VERDE",
+        "endereco": "Estrada da Floresta, 2320, CEP: 69912900, Floresta Sul, Rio Branco - AC",
+        "area": 28128.69,
+        "vacancia": 0.978011,
+        "pct_total": null
+      },
+      {
+        "nome": "SHOPPING UBERABA",
+        "endereco": "Av. Santa Beatriz da Silva, 1501 - São Benedito Uberaba MG",
+        "area": 31575.0,
+        "vacancia": 0.984805,
+        "pct_total": null
+      },
+      {
+        "nome": "SHOPPING PATIO MACEIO",
+        "endereco": "Av. Menino Marcelo, 3800 - Cidade Universitária, Maceió - AL, 57073-900",
+        "area": 43616.26,
+        "vacancia": 0.982198,
+        "pct_total": null
+      },
+      {
+        "nome": "SHOPPING GRANJA VIANNA",
+        "endereco": "Rodovia Raposo Tavares, Km 23, CEP: 06709-015 Lageadinho - Cotia/SP",
+        "area": 30614.02,
+        "vacancia": 0.958625,
+        "pct_total": null
+      },
+      {
+        "nome": "SHOPPING PÁTIO CIANÊ",
+        "endereco": "Avenida Dr. Afonso Vergueiro, 823 - Sorocaba SP",
+        "area": 26716.39,
+        "vacancia": 0.893347,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

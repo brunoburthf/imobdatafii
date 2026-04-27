@@ -4,14 +4,18 @@
     "Ticker": "XPSF11",
     "Nome": "Xp Selection Fundo de FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0045,
-    "Retorno - 12M": 0.2882,
+    "Retorno - MTD": 0.0074,
+    "Retorno - 12M": 0.2813,
     "P/VP": 0.84,
     "Último Dividendo Pago": 0.07,
     "DY a.a.": 0.124,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, além de LCIs, CRIs e outros títulos do mercado imobiliário. Lançado em 2019, tem gestão da XP Asset e mandato de alocação diversificada no mercado listado. A estratégia busca renda recorrente e ganho de capital com gestão ativa de portfólio.",
     "Comentário": "Distribuição R$0,07/cota (15,25% DY anualizado, 12,61% patrimonial). Alienação parcial TEPP com ganho de capital e alocação em BBIG (shopping descontado). Carteira de CRI ampliada para 12,5% do PL incluindo novos CDI+. P/VP em 0,83x e desconto adicional ao patrimonial FII: oportunidade de arbitragem em FoF defensivo diversificado.",
-    "Preço Atual": 6.74
+    "Preço Atual": 6.76,
+    "% Dias Acima CDI 1A": 0.375,
+    "% Dias Acima CDI 3A": 0.4899,
+    "% Dias Acima CDI 5A": 0.3751,
+    "% Dias Acima CDI MAX": 0.3983
   },
   "historico_preco": [
     [
@@ -6157,6 +6161,22 @@
     [
       "2026-04-16",
       6.72
+    ],
+    [
+      "2026-04-17",
+      6.76
+    ],
+    [
+      "2026-04-20",
+      6.75
+    ],
+    [
+      "2026-04-22",
+      6.77
+    ],
+    [
+      "2026-04-23",
+      6.75
     ]
   ],
   "historico_preco_adj": [
@@ -12303,6 +12323,22 @@
     [
       "2026-04-16",
       6.72
+    ],
+    [
+      "2026-04-17",
+      6.76
+    ],
+    [
+      "2026-04-20",
+      6.75
+    ],
+    [
+      "2026-04-22",
+      6.77
+    ],
+    [
+      "2026-04-23",
+      6.75
     ]
   ],
   "historico_pvp": [
@@ -18745,6 +18781,26 @@
     [
       "2026-04-16",
       0.83493987383
+    ],
+    [
+      "2026-04-17",
+      0.83990975403
+    ],
+    [
+      "2026-04-20",
+      0.83866728398
+    ],
+    [
+      "2026-04-21",
+      0.83866728398
+    ],
+    [
+      "2026-04-22",
+      0.84115222408
+    ],
+    [
+      "2026-04-23",
+      0.83866728398
     ]
   ],
   "historico_dy": [
@@ -24855,11 +24911,816 @@
     [
       "2026-04-16",
       12.5
+    ],
+    [
+      "2026-04-17",
+      12.426
+    ],
+    [
+      "2026-04-20",
+      12.4444
+    ],
+    [
+      "2026-04-22",
+      12.4077
+    ],
+    [
+      "2026-04-23",
+      12.4444
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-03-31",
+      0.07
+    ],
+    [
+      "2020-04-30",
+      0.065
+    ],
+    [
+      "2020-05-31",
+      0.065
+    ],
+    [
+      "2020-06-30",
+      0.0675
+    ],
+    [
+      "2020-07-31",
+      0.08
+    ],
+    [
+      "2020-08-31",
+      0.07
+    ],
+    [
+      "2020-09-30",
+      0.07
+    ],
+    [
+      "2020-10-31",
+      0.07
+    ],
+    [
+      "2020-11-30",
+      0.07
+    ],
+    [
+      "2020-12-31",
+      0.08
+    ],
+    [
+      "2021-01-31",
+      0.07
+    ],
+    [
+      "2021-02-28",
+      0.073
+    ],
+    [
+      "2021-03-31",
+      0.077
+    ],
+    [
+      "2021-04-30",
+      0.073
+    ],
+    [
+      "2021-05-31",
+      0.08
+    ],
+    [
+      "2021-06-30",
+      0.087
+    ],
+    [
+      "2021-07-31",
+      0.075
+    ],
+    [
+      "2021-08-31",
+      0.07
+    ],
+    [
+      "2021-09-30",
+      0.07
+    ],
+    [
+      "2021-10-31",
+      0.07
+    ],
+    [
+      "2021-11-30",
+      0.07
+    ],
+    [
+      "2021-12-31",
+      0.07
+    ],
+    [
+      "2022-01-31",
+      0.07
+    ],
+    [
+      "2022-02-28",
+      0.065
+    ],
+    [
+      "2022-03-31",
+      0.066
+    ],
+    [
+      "2022-04-30",
+      0.067
+    ],
+    [
+      "2022-05-31",
+      0.068
+    ],
+    [
+      "2022-06-30",
+      0.069
+    ],
+    [
+      "2022-07-31",
+      0.07
+    ],
+    [
+      "2022-08-31",
+      0.071
+    ],
+    [
+      "2022-09-30",
+      0.075
+    ],
+    [
+      "2022-10-31",
+      0.076
+    ],
+    [
+      "2022-11-30",
+      0.077
+    ],
+    [
+      "2022-12-31",
+      0.077
+    ],
+    [
+      "2023-01-31",
+      0.077
+    ],
+    [
+      "2023-02-28",
+      0.075
+    ],
+    [
+      "2023-03-31",
+      0.076
+    ],
+    [
+      "2023-04-30",
+      0.076
+    ],
+    [
+      "2023-05-31",
+      0.076
+    ],
+    [
+      "2023-06-30",
+      0.076
+    ],
+    [
+      "2023-07-31",
+      0.08
+    ],
+    [
+      "2023-08-31",
+      0.075
+    ],
+    [
+      "2023-09-30",
+      0.075
+    ],
+    [
+      "2023-10-31",
+      0.075
+    ],
+    [
+      "2023-11-30",
+      0.075
+    ],
+    [
+      "2023-12-31",
+      0.075
+    ],
+    [
+      "2024-01-31",
+      0.075
+    ],
+    [
+      "2024-02-29",
+      0.075
+    ],
+    [
+      "2024-03-31",
+      0.075
+    ],
+    [
+      "2024-04-30",
+      0.075
+    ],
+    [
+      "2024-05-31",
+      0.075
+    ],
+    [
+      "2024-06-30",
+      0.075
+    ],
+    [
+      "2024-07-31",
+      0.07
+    ],
+    [
+      "2024-08-31",
+      0.07
+    ],
+    [
+      "2024-09-30",
+      0.07
+    ],
+    [
+      "2024-10-31",
+      0.07
+    ],
+    [
+      "2024-11-30",
+      0.07
+    ],
+    [
+      "2024-12-31",
+      0.07
+    ],
+    [
+      "2025-01-31",
+      0.076
+    ],
+    [
+      "2025-02-28",
+      0.06
+    ],
+    [
+      "2025-03-31",
+      0.06
+    ],
+    [
+      "2025-04-30",
+      0.06
+    ],
+    [
+      "2025-05-31",
+      0.06
+    ],
+    [
+      "2025-06-30",
+      0.06
+    ],
+    [
+      "2025-07-31",
+      0.06
+    ],
+    [
+      "2025-08-31",
+      0.065
+    ],
+    [
+      "2025-09-30",
+      0.065
+    ],
+    [
+      "2025-10-31",
+      0.065
+    ],
+    [
+      "2025-11-30",
+      0.065
+    ],
+    [
+      "2025-12-31",
+      0.07
+    ],
+    [
+      "2026-01-31",
+      0.07
+    ],
+    [
+      "2026-02-28",
+      0.07
+    ],
+    [
+      "2026-03-31",
+      0.07
+    ],
+    [
+      "2026-04-30",
+      0.07
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 12083402.82,
     "Cotas de FIIs": 301704083.04,
     "CRI/CRA": 37488798.52
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "XPML11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 154023.0,
+        "valor": 16643725.38
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CPTS11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2767972.0,
+        "valor": 21451783.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBVA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 765484.0,
+        "valor": 7938069.08
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "51",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5018.0,
+        "valor": 4867881.9204652,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VILG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 100358.0,
+        "valor": 9985621.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AIEC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 78193.0,
+        "valor": 4143447.07
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XPLG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 148215.0,
+        "valor": 15684111.3
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GARE14",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 666000.0,
+        "valor": 6033960.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XPCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 129350.0,
+        "valor": 10733463.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JFLL11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 26067.0,
+        "valor": 1772556.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PCIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 122686.0,
+        "valor": 10384143.04
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VINO11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 996897.0,
+        "valor": 5124050.58
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "XP CASH O1 FIRF SIMPLES RESP LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 14132012.3348389,
+        "valor": 16400578.06
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SPVJ11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 75117.0,
+        "valor": 1830057.19
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSAF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 14196.0,
+        "valor": 1141358.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PVBI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 112396.0,
+        "valor": 9216472.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GARE13",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10.0,
+        "valor": 90.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "LPLP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 33769.0,
+        "valor": 7737869.33
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TGAR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 170330.0,
+        "valor": 15840690.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARIGUI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "49",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2072.0,
+        "valor": 2001455.7284568,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "LPLP15",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2540.0,
+        "valor": 2006501.15
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBRY11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 32830.0,
+        "valor": 3210774.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JSRE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 18382.0,
+        "valor": 1222035.36
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TRXF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 57009.0,
+        "valor": 5585171.73
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BROF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 63184.0,
+        "valor": 3563577.6
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "265",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 3806295.0028
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HGRE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 36062.0,
+        "valor": 4472048.62
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HGBS11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 339290.0,
+        "valor": 6785800.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA",
+        "nome": "",
+        "emissao": "38",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 999.0,
+        "valor": 1005943.908141,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MXRF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1843880.0,
+        "valor": 17590615.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBRL11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 225968.0,
+        "valor": 20899780.32
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "128",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 1826692.76225
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MCCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 205084.0,
+        "valor": 18773389.36
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBRP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 163168.0,
+        "valor": 9112932.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GTWR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 58409.0,
+        "valor": 4847947.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBRR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 199812.0,
+        "valor": 17497536.84
+      },
+      {
+        "tipo": "FII",
+        "emissor": "IRIM11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 23950.0,
+        "valor": 1628600.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTLG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 164316.0,
+        "valor": 16867037.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSML11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 134656.0,
+        "valor": 12461066.24
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VVMR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 125706.0,
+        "valor": 10683752.94
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATL11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 42663.0,
+        "valor": 2829410.16
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PSEC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 19170.0,
+        "valor": 1237423.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VPPR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 107404.0,
+        "valor": 1734574.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ALZR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 128106.0,
+        "valor": 1379701.62
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CBOP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 53944.0,
+        "valor": 1789322.48
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TEPP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 402636.0,
+        "valor": 3494880.48
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XPIN11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8707.0,
+        "valor": 720765.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RBCAPITALRES",
+        "nome": "",
+        "emissao": "509",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5948.0,
+        "valor": 5952574.196388
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

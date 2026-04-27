@@ -4,14 +4,18 @@
     "Ticker": "MCCI11",
     "Nome": "FII Mauá Capital Recebíveis Imobiliários",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0281,
-    "Retorno - 12M": 0.3079,
-    "P/VP": 1.0,
+    "Retorno - MTD": 0.0377,
+    "Retorno - 12M": 0.292,
+    "P/VP": 1.01,
     "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.126,
+    "DY a.a.": 0.125,
     "Visão Geral": "FII de papel que investe em CRIs e outros valores mobiliários de natureza imobiliária, com foco em rendimento e ganho de capital. Iniciado em dezembro de 2019, é gerido pela Mauá Capital Real Estate. A estratégia prioriza crédito imobiliário como principal fonte de renda recorrente, com gestão ativa da carteira.",
     "Comentário": "Distribuição mantida em R$ 1,00/cota com dividend yield de 13,3% a.a. Não houve movimentações relevantes em fevereiro, mantendo carteira diversificada em ativos resilientes com 100% dos CRIs adimplentes. Gestão projeta distribuição entre R$ 0,90 e R$ 1,00/cota para o primeiro semestre 2026.",
-    "Preço Atual": 96.12
+    "Preço Atual": 95.92,
+    "% Dias Acima CDI 1A": 0.6331,
+    "% Dias Acima CDI 3A": 0.3772,
+    "% Dias Acima CDI 5A": 0.4458,
+    "% Dias Acima CDI MAX": 0.4652
   },
   "historico_preco": [
     [
@@ -6337,6 +6341,22 @@
     [
       "2026-04-16",
       94.86
+    ],
+    [
+      "2026-04-17",
+      95.46
+    ],
+    [
+      "2026-04-20",
+      96.05
+    ],
+    [
+      "2026-04-22",
+      96.18
+    ],
+    [
+      "2026-04-23",
+      96.21
     ]
   ],
   "historico_preco_adj": [
@@ -12663,6 +12683,22 @@
     [
       "2026-04-16",
       94.86
+    ],
+    [
+      "2026-04-17",
+      95.46
+    ],
+    [
+      "2026-04-20",
+      96.05
+    ],
+    [
+      "2026-04-22",
+      96.18
+    ],
+    [
+      "2026-04-23",
+      96.21
     ]
   ],
   "historico_pvp": [
@@ -19301,6 +19337,26 @@
     [
       "2026-04-16",
       0.99710874335
+    ],
+    [
+      "2026-04-17",
+      1.0034155665
+    ],
+    [
+      "2026-04-20",
+      1.009617276
+    ],
+    [
+      "2026-04-21",
+      1.009617276
+    ],
+    [
+      "2026-04-22",
+      1.0109837543
+    ],
+    [
+      "2026-04-23",
+      1.0112990955
     ]
   ],
   "historico_dy": [
@@ -25571,12 +25627,930 @@
     [
       "2026-04-16",
       12.6502
+    ],
+    [
+      "2026-04-17",
+      12.5707
+    ],
+    [
+      "2026-04-20",
+      12.4935
+    ],
+    [
+      "2026-04-22",
+      12.4766
+    ],
+    [
+      "2026-04-23",
+      12.4727
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-01-31",
+      0.3843958
+    ],
+    [
+      "2020-02-29",
+      0.614907431
+    ],
+    [
+      "2020-03-31",
+      0.85087036
+    ],
+    [
+      "2020-04-30",
+      0.5
+    ],
+    [
+      "2020-05-31",
+      0.6
+    ],
+    [
+      "2020-06-30",
+      0.6
+    ],
+    [
+      "2020-07-31",
+      0.55
+    ],
+    [
+      "2020-08-31",
+      0.6
+    ],
+    [
+      "2020-09-30",
+      0.6
+    ],
+    [
+      "2020-10-31",
+      0.6
+    ],
+    [
+      "2020-11-30",
+      0.6
+    ],
+    [
+      "2020-12-31",
+      0.6
+    ],
+    [
+      "2021-01-31",
+      0.6
+    ],
+    [
+      "2021-02-28",
+      0.7
+    ],
+    [
+      "2021-03-31",
+      0.7
+    ],
+    [
+      "2021-04-30",
+      0.7
+    ],
+    [
+      "2021-05-31",
+      0.7
+    ],
+    [
+      "2021-06-30",
+      0.9
+    ],
+    [
+      "2021-07-31",
+      1.0
+    ],
+    [
+      "2021-08-31",
+      1.0
+    ],
+    [
+      "2021-09-30",
+      1.0
+    ],
+    [
+      "2021-10-31",
+      1.0
+    ],
+    [
+      "2021-11-30",
+      1.0
+    ],
+    [
+      "2021-12-31",
+      1.0
+    ],
+    [
+      "2022-01-31",
+      1.0
+    ],
+    [
+      "2022-02-28",
+      1.0
+    ],
+    [
+      "2022-03-31",
+      1.0
+    ],
+    [
+      "2022-04-30",
+      1.0
+    ],
+    [
+      "2022-05-31",
+      1.0
+    ],
+    [
+      "2022-06-30",
+      1.1
+    ],
+    [
+      "2022-07-31",
+      1.1
+    ],
+    [
+      "2022-08-31",
+      1.1
+    ],
+    [
+      "2022-09-30",
+      1.1
+    ],
+    [
+      "2022-10-31",
+      1.1
+    ],
+    [
+      "2022-11-30",
+      1.1
+    ],
+    [
+      "2022-12-31",
+      1.1
+    ],
+    [
+      "2023-01-31",
+      1.15
+    ],
+    [
+      "2023-02-28",
+      0.95
+    ],
+    [
+      "2023-03-31",
+      0.95
+    ],
+    [
+      "2023-04-30",
+      0.95
+    ],
+    [
+      "2023-05-31",
+      0.95
+    ],
+    [
+      "2023-06-30",
+      0.95
+    ],
+    [
+      "2023-07-31",
+      0.95
+    ],
+    [
+      "2023-08-31",
+      0.9
+    ],
+    [
+      "2023-09-30",
+      0.9
+    ],
+    [
+      "2023-10-31",
+      0.9
+    ],
+    [
+      "2023-11-30",
+      0.9
+    ],
+    [
+      "2023-12-31",
+      0.9
+    ],
+    [
+      "2024-01-31",
+      0.9
+    ],
+    [
+      "2024-02-29",
+      0.8
+    ],
+    [
+      "2024-03-31",
+      0.8
+    ],
+    [
+      "2024-04-30",
+      0.8
+    ],
+    [
+      "2024-05-31",
+      0.8
+    ],
+    [
+      "2024-06-30",
+      0.8
+    ],
+    [
+      "2024-07-31",
+      0.8
+    ],
+    [
+      "2024-08-31",
+      0.8
+    ],
+    [
+      "2024-09-30",
+      0.8
+    ],
+    [
+      "2024-10-31",
+      0.8
+    ],
+    [
+      "2024-11-30",
+      0.8
+    ],
+    [
+      "2024-12-31",
+      0.8
+    ],
+    [
+      "2025-01-31",
+      0.8
+    ],
+    [
+      "2025-02-28",
+      0.9
+    ],
+    [
+      "2025-03-31",
+      0.9
+    ],
+    [
+      "2025-04-30",
+      0.9
+    ],
+    [
+      "2025-05-31",
+      0.9
+    ],
+    [
+      "2025-06-30",
+      0.9
+    ],
+    [
+      "2025-07-31",
+      0.9
+    ],
+    [
+      "2025-08-31",
+      1.0
+    ],
+    [
+      "2025-09-30",
+      1.0
+    ],
+    [
+      "2025-10-31",
+      1.0
+    ],
+    [
+      "2025-11-30",
+      1.0
+    ],
+    [
+      "2025-12-31",
+      1.0
+    ],
+    [
+      "2026-01-31",
+      1.0
+    ],
+    [
+      "2026-02-28",
+      1.0
+    ],
+    [
+      "2026-03-31",
+      1.0
+    ],
+    [
+      "2026-04-30",
+      1.0
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 117753221.8,
     "Cotas de FIIs": 267644540.17,
     "CRI/CRA": 1229398518.1,
     "Outros": 6.675691111013293e-08
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "195",
+        "vencimento": "",
+        "quantidade": 31465.0,
+        "valor": 37127959.37,
+        "nome_cri": "CRI Bread III"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "392",
+        "vencimento": "",
+        "quantidade": 129390.0,
+        "valor": 144670856.98,
+        "nome_cri": "CRI NewPort"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "54",
+        "vencimento": "",
+        "quantidade": 12135.0,
+        "valor": 9305822.93,
+        "nome_cri": "CRI LOCALFRIO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "447",
+        "vencimento": "",
+        "quantidade": 47275.0,
+        "valor": 49332092.12,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 110000.0,
+        "valor": 110053625.84
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "16",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 54689.0,
+        "valor": 51918009.51,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "179",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 28885.0,
+        "valor": 28393139.89,
+        "nome_cri": "CRI Elleven"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "45",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 86709.0,
+        "valor": 75244300.04,
+        "nome_cri": "CRI CORP YORK"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EXES FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 350000.0,
+        "valor": 3311000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MANATI CAPITAL HEDGE FUND FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1112921.0,
+        "valor": 10305648.46
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EQI RECEBIVEIS IMOBILIARIOS FUNDO DE INVESTIMENTO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 924739.0,
+        "valor": 7629096.75
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Banco BTG Pactual S.A.",
+        "nome": "Operações Compromissadas - Lastro: LFT REF",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2055.0,
+        "valor": 37138956.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "239",
+        "vencimento": "",
+        "quantidade": 32764.0,
+        "valor": 38251164.48,
+        "nome_cri": "CRI Green Towers"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MAUA CAPITAL REAL ESTATE FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6010510.0,
+        "valor": 55296692.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITANIA SECURITIES II FII - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6869307.0,
+        "valor": 53237129.25
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "374",
+        "vencimento": "",
+        "quantidade": 34414.0,
+        "valor": 4139064.6,
+        "nome_cri": "CRI Bewiki"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE RECEBIVEIS IMOBILIARIOS FII DE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 656901.0,
+        "valor": 5380019.19
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FRONTEIRA MULTI FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 35000.0,
+        "valor": 296013.16
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FATOR VERITA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7418.0,
+        "valor": 612726.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "OPORTUNIDADES IMOBILIARIAS I FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 114.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "185",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 55000.0,
+        "valor": 53593774.1,
+        "nome_cri": "CRI Arqos"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "325",
+        "vencimento": "",
+        "quantidade": 0.0,
+        "valor": 0.0,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "WHG REAL ESTATE FII - FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 813287.0,
+        "valor": 7604233.45
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI ATIVOS FINANCEIROS FII DE RESP LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 99560.0,
+        "valor": 8004624.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "311",
+        "vencimento": "",
+        "quantidade": 37442.0,
+        "valor": 5882467.41,
+        "nome_cri": "CRI Mauá"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "NAVI CREDITO IMOBILIARIO FII - RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 300000.0,
+        "valor": 2999230.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "246",
+        "vencimento": "",
+        "quantidade": 0.0,
+        "valor": 0.0,
+        "nome_cri": "CRI Aura Vila Mariana"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "456",
+        "vencimento": "",
+        "quantidade": 65529.0,
+        "valor": 59598510.31,
+        "nome_cri": "CRI Seed"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL TESOURO SELIC FUNDO DE INVESTIMENTO RENDA FIXA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1193003.45,
+        "valor": 6157057.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 49424.0,
+        "valor": 48716302.92,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "69",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 70746.0,
+        "valor": 85195391.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "326",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 85537.0,
+        "valor": 80213115.11,
+        "nome_cri": "CRI Voltxs"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBR CREDITO IMOBILIARIO HIGH YIELD",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 11143.0,
+        "valor": 1089785.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "245",
+        "vencimento": "",
+        "quantidade": 0.0,
+        "valor": 0.0,
+        "nome_cri": "CRI Aura Vila Mariana"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "130",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 86883.0,
+        "valor": 88138230.4,
+        "nome_cri": "CRI ESTR TELLUS RIVER SOUTH"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP CREDITO IMOBILIARIO - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 65521.0,
+        "valor": 5436932.58
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "313",
+        "vencimento": "",
+        "quantidade": 37442.0,
+        "valor": 3752544.48,
+        "nome_cri": "CRI Ascenty Vinhedo"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "181",
+        "vencimento": "",
+        "quantidade": 37441.0,
+        "valor": 37110668.87,
+        "nome_cri": "CRI Evolution"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "257",
+        "vencimento": "",
+        "quantidade": 0.0,
+        "valor": -0.01,
+        "nome_cri": "CRI Aura Vila Mascote"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITANIA OFFICE FII - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1533531.0,
+        "valor": 122302084.74
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII - FII RBR RENDIMENTO HIGH GRADE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 27084.0,
+        "valor": 2371745.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 30532.0,
+        "valor": 30545478.04
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CVPAR FII EM HOTEIS RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 680000.0,
+        "valor": 68946607.99
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRIO MULTIESTRATEGIA - FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1000000.0,
+        "valor": 6120000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KILIMA VOLKANO RECEBIVEIS IMOBILIARIOS FII -",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 75644.0,
+        "valor": 4912321.36
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GUARDIAN MULTIESTRATEGIA IMOBILIARIA I",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 830957.0,
+        "valor": 7370588.59
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "376",
+        "vencimento": "",
+        "quantidade": 13516.0,
+        "valor": 7351956.68,
+        "nome_cri": "CRI Golani"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FARIA LIMA CAPITAL RECEBIVEIS IMOBILIARIOS I -",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 114992.0,
+        "valor": 10846414.56
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "27",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 27220527.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "345",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 26250.0,
+        "valor": 21974730.59,
+        "nome_cri": "CRI Diálogo VII"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "221",
+        "vencimento": "",
+        "quantidade": 0.0,
+        "valor": 0.0,
+        "nome_cri": "CRI Aura Rebouças"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA SECURITIES FII - RESPONSABILIDADE  LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 28409.0,
+        "valor": 1833800.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "435",
+        "vencimento": "",
+        "quantidade": 27611.0,
+        "valor": 28245898.85,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "203",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 20783150.91,
+        "nome_cri": "CRI Bioma"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "178",
+        "vencimento": "",
+        "quantidade": 28912.0,
+        "valor": 21579988.96,
+        "nome_cri": "CRI Project Bread"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "183",
+        "vencimento": "",
+        "quantidade": 15929.0,
+        "valor": 15369015.78,
+        "nome_cri": "CRI Calçada"
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

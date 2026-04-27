@@ -4,14 +4,18 @@
     "Ticker": "BPML11",
     "Nome": "BTG Pactual Shoppings FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0411,
-    "Retorno - 12M": 0.4222,
-    "P/VP": 0.76,
-    "Último Dividendo Pago": 1.84,
-    "DY a.a.": 0.234,
+    "Retorno - MTD": 0.0488,
+    "Retorno - 12M": 0.4129,
+    "P/VP": 0.77,
+    "Último Dividendo Pago": 0.92,
+    "DY a.a.": 0.116,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers no Brasil, buscando renda imobiliária e ganho de capital com gestão ativa. Foi lançado em julho de 2019 e figura no segmento de shopping centers da plataforma BTG. A estratégia combina exploração dos ativos, reciclagem de portfólio e geração recorrente de caixa.",
     "Comentário": "O BTG Pactual Shoppings avançou comercialmente em março com reinauguração de âncora de esportes no Ilha Plaza e assinatura de novo restaurante no Capim Dourado, qualificando o mix de lojistas. As vendas seguiram em expansão no consolidado versus ano anterior, com Plaza Macaé registrando crescimento consistente de fluxo desde segundo semestre 2025. Distribuição mantida em R$0,92/cota com dividend yield de 12,08%.",
-    "Preço Atual": 94.35
+    "Preço Atual": 94.17,
+    "% Dias Acima CDI 1A": 0.5524,
+    "% Dias Acima CDI 3A": 0.5611,
+    "% Dias Acima CDI 5A": 0.3368,
+    "% Dias Acima CDI MAX": 0.3079
   },
   "historico_preco": [
     [
@@ -6389,6 +6393,22 @@
     [
       "2026-04-16",
       94.72
+    ],
+    [
+      "2026-04-17",
+      94.25
+    ],
+    [
+      "2026-04-20",
+      94.87
+    ],
+    [
+      "2026-04-22",
+      94.5
+    ],
+    [
+      "2026-04-23",
+      94.6
     ]
   ],
   "historico_preco_adj": [
@@ -12767,6 +12787,22 @@
     [
       "2026-04-16",
       93.8
+    ],
+    [
+      "2026-04-17",
+      94.25
+    ],
+    [
+      "2026-04-20",
+      94.87
+    ],
+    [
+      "2026-04-22",
+      94.5
+    ],
+    [
+      "2026-04-23",
+      94.6
     ]
   ],
   "historico_pvp": [
@@ -19505,6 +19541,26 @@
     [
       "2026-04-16",
       0.76404715281
+    ],
+    [
+      "2026-04-17",
+      0.760255956
+    ],
+    [
+      "2026-04-20",
+      0.76525710923
+    ],
+    [
+      "2026-04-21",
+      0.76525710923
+    ],
+    [
+      "2026-04-22",
+      0.76227255004
+    ],
+    [
+      "2026-04-23",
+      0.76307918766
     ]
   ],
   "historico_dy": [
@@ -23747,12 +23803,396 @@
     [
       "2026-04-16",
       11.6554
+    ],
+    [
+      "2026-04-17",
+      11.7135
+    ],
+    [
+      "2026-04-20",
+      11.637
+    ],
+    [
+      "2026-04-22",
+      11.6825
+    ],
+    [
+      "2026-04-23",
+      11.6702
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2019-12-31",
+      0.0
+    ],
+    [
+      "2020-01-31",
+      0.218671046
+    ],
+    [
+      "2020-02-29",
+      0.598464471
+    ],
+    [
+      "2020-03-31",
+      0.6
+    ],
+    [
+      "2020-04-30",
+      0.28
+    ],
+    [
+      "2020-05-31",
+      0.0
+    ],
+    [
+      "2020-06-30",
+      0.0
+    ],
+    [
+      "2020-07-31",
+      0.0
+    ],
+    [
+      "2020-08-31",
+      0.0
+    ],
+    [
+      "2020-09-30",
+      0.0
+    ],
+    [
+      "2020-10-31",
+      0.0
+    ],
+    [
+      "2020-11-30",
+      0.0
+    ],
+    [
+      "2020-12-31",
+      0.0
+    ],
+    [
+      "2021-01-31",
+      0.2
+    ],
+    [
+      "2021-02-28",
+      0.605556743
+    ],
+    [
+      "2021-03-31",
+      0.0
+    ],
+    [
+      "2021-04-30",
+      0.0
+    ],
+    [
+      "2021-05-31",
+      0.0
+    ],
+    [
+      "2021-06-30",
+      0.0
+    ],
+    [
+      "2021-07-31",
+      0.38
+    ],
+    [
+      "2021-08-31",
+      0.380883739
+    ],
+    [
+      "2021-09-30",
+      0.38
+    ],
+    [
+      "2021-10-31",
+      0.38
+    ],
+    [
+      "2021-11-30",
+      0.3
+    ],
+    [
+      "2021-12-31",
+      0.3
+    ],
+    [
+      "2022-01-31",
+      0.354124616
+    ],
+    [
+      "2022-02-28",
+      0.404383042
+    ],
+    [
+      "2022-03-31",
+      0.35
+    ],
+    [
+      "2022-04-30",
+      0.3
+    ],
+    [
+      "2022-05-31",
+      0.2
+    ],
+    [
+      "2022-06-30",
+      0.15
+    ],
+    [
+      "2022-07-31",
+      0.0
+    ],
+    [
+      "2022-08-31",
+      0.0
+    ],
+    [
+      "2022-09-30",
+      0.3
+    ],
+    [
+      "2022-10-31",
+      0.3
+    ],
+    [
+      "2022-11-30",
+      0.3
+    ],
+    [
+      "2022-12-31",
+      0.3
+    ],
+    [
+      "2023-01-31",
+      0.270464544
+    ],
+    [
+      "2023-02-28",
+      0.270464543
+    ],
+    [
+      "2023-03-31",
+      0.0
+    ],
+    [
+      "2023-04-30",
+      0.0
+    ],
+    [
+      "2023-05-31",
+      0.0
+    ],
+    [
+      "2023-06-30",
+      0.0
+    ],
+    [
+      "2023-07-31",
+      0.0
+    ],
+    [
+      "2023-08-31",
+      0.0
+    ],
+    [
+      "2023-09-30",
+      0.0
+    ],
+    [
+      "2023-10-31",
+      0.0
+    ],
+    [
+      "2023-11-30",
+      0.0
+    ],
+    [
+      "2023-12-31",
+      0.0
+    ],
+    [
+      "2024-01-31",
+      0.87
+    ],
+    [
+      "2024-02-29",
+      0.91
+    ],
+    [
+      "2024-03-31",
+      1.02
+    ],
+    [
+      "2024-04-30",
+      1.02
+    ],
+    [
+      "2024-05-31",
+      1.0
+    ],
+    [
+      "2024-06-30",
+      1.07
+    ],
+    [
+      "2024-07-31",
+      1.07
+    ],
+    [
+      "2024-08-31",
+      1.07
+    ],
+    [
+      "2024-09-30",
+      1.07
+    ],
+    [
+      "2024-10-31",
+      1.07
+    ],
+    [
+      "2024-11-30",
+      1.07
+    ],
+    [
+      "2024-12-31",
+      1.07
+    ],
+    [
+      "2025-01-31",
+      1.07
+    ],
+    [
+      "2025-02-28",
+      1.07
+    ],
+    [
+      "2025-03-31",
+      1.07
+    ],
+    [
+      "2025-04-30",
+      1.07
+    ],
+    [
+      "2025-05-31",
+      1.07
+    ],
+    [
+      "2025-06-30",
+      1.98
+    ],
+    [
+      "2025-07-31",
+      1.98
+    ],
+    [
+      "2025-08-31",
+      1.98
+    ],
+    [
+      "2025-09-30",
+      0.92
+    ],
+    [
+      "2025-10-31",
+      0.92
+    ],
+    [
+      "2025-11-30",
+      0.92
+    ],
+    [
+      "2025-12-31",
+      0.92
+    ],
+    [
+      "2026-01-31",
+      0.92
+    ],
+    [
+      "2026-02-28",
+      0.92
+    ],
+    [
+      "2026-03-31",
+      0.92
+    ],
+    [
+      "2026-04-30",
+      0.92
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 99846805.86,
     "Imóveis": 638326729.19,
     "Cotas de FIIs": 80726881.19,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 259841307.72
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3154279.99,
+        "valor": 167885977.91
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITANIA SHOPPINGS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1322002.0,
+        "valor": 14647782.16
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Londrina Norte Shopping",
+        "endereco": "Rua América Deolindo Garla, 224, Shopping, Londrina, PR, 86079-225",
+        "area": 32992.0,
+        "vacancia": 0.089,
+        "pct_total": null
+      },
+      {
+        "nome": "Ilha Plaza Shopping",
+        "endereco": "Av. Maestro Paulo e Silva, 400, Shopping, Rio de Janeiro, RJ, 21920-445",
+        "area": 14172.0,
+        "vacancia": 0.071,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Contagem",
+        "endereco": "Av. Severino Ballesteros, 850 - Cabral, Contagem - MG, 32110-005",
+        "area": 29701.0,
+        "vacancia": 0.098,
+        "pct_total": null
+      },
+      {
+        "nome": "Capim Dourado Shopping",
+        "endereco": "Q. 107, Norte Avenida, NS 5, s/n, Shopping, Palmas, TO, 77001-098",
+        "area": 14630.0,
+        "vacancia": 0.046,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

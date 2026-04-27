@@ -4,14 +4,18 @@
     "Ticker": "HGLG11",
     "Nome": "Pátria Log FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0161,
-    "Retorno - 12M": 0.099,
+    "Retorno - MTD": 0.0192,
+    "Retorno - 12M": 0.0749,
     "P/VP": 0.95,
     "Último Dividendo Pago": 1.1,
     "DY a.a.": 0.084,
     "Visão Geral": "FII de logística que investe em galpões logísticos e industriais, com receita de locação e gestão ativa do portfólio. O fundo atua primordialmente em operações logísticas e industriais e também recicla ativos. A estratégia busca renda recorrente com imóveis operacionais relevantes em mercados logísticos brasileiros diversificados.",
     "Comentário": "Receita total de R$ 1,42/cota com resultado de R$ 1,17/cota impactado por ganho extraordinário de R$ 0,15/cota na venda de FIIB11 e GARE11. Distribuição mantida em R$ 1,10/cota conforme projeção. Entrada da ABC Internacional em Guarulhos reduziu vacância para 3,0%, com projeção de 4,0% em maio. Alavancagem em 9,5%, desenvolvimentos BTS avançando.",
-    "Preço Atual": 157.87
+    "Preço Atual": 157.54,
+    "% Dias Acima CDI 1A": 0.1129,
+    "% Dias Acima CDI 3A": 0.1208,
+    "% Dias Acima CDI 5A": 0.249,
+    "% Dias Acima CDI MAX": 0.5529
   },
   "historico_preco": [
     [
@@ -14017,6 +14021,22 @@
     [
       "2026-04-16",
       157.0
+    ],
+    [
+      "2026-04-17",
+      157.54
+    ],
+    [
+      "2026-04-20",
+      157.9
+    ],
+    [
+      "2026-04-22",
+      157.0
+    ],
+    [
+      "2026-04-23",
+      156.89
     ]
   ],
   "historico_preco_adj": [
@@ -24239,6 +24259,22 @@
     [
       "2026-04-16",
       157.0
+    ],
+    [
+      "2026-04-17",
+      157.54
+    ],
+    [
+      "2026-04-20",
+      157.9
+    ],
+    [
+      "2026-04-22",
+      157.0
+    ],
+    [
+      "2026-04-23",
+      156.89
     ]
   ],
   "historico_pvp": [
@@ -39161,6 +39197,26 @@
     [
       "2026-04-16",
       0.94742336902
+    ],
+    [
+      "2026-04-17",
+      0.95068202265
+    ],
+    [
+      "2026-04-20",
+      0.9528544584
+    ],
+    [
+      "2026-04-21",
+      0.9528544584
+    ],
+    [
+      "2026-04-22",
+      0.94742336902
+    ],
+    [
+      "2026-04-23",
+      0.94675956921
     ]
   ],
   "historico_dy": [
@@ -49383,14 +49439,847 @@
     [
       "2026-04-16",
       8.4076
+    ],
+    [
+      "2026-04-17",
+      8.3788
+    ],
+    [
+      "2026-04-20",
+      8.3597
+    ],
+    [
+      "2026-04-22",
+      8.4076
+    ],
+    [
+      "2026-04-23",
+      8.4135
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2016-01-31",
+      0.87
+    ],
+    [
+      "2016-02-29",
+      0.87
+    ],
+    [
+      "2016-03-31",
+      0.87
+    ],
+    [
+      "2016-04-30",
+      0.87
+    ],
+    [
+      "2016-05-31",
+      0.87
+    ],
+    [
+      "2016-06-30",
+      0.87
+    ],
+    [
+      "2016-07-31",
+      0.87
+    ],
+    [
+      "2016-08-31",
+      0.87
+    ],
+    [
+      "2016-09-30",
+      0.87
+    ],
+    [
+      "2016-10-31",
+      0.87
+    ],
+    [
+      "2016-11-30",
+      0.87
+    ],
+    [
+      "2016-12-31",
+      0.87
+    ],
+    [
+      "2017-01-31",
+      0.87
+    ],
+    [
+      "2017-02-28",
+      0.87
+    ],
+    [
+      "2017-03-31",
+      0.87
+    ],
+    [
+      "2017-04-30",
+      0.87
+    ],
+    [
+      "2017-05-31",
+      0.87
+    ],
+    [
+      "2017-06-30",
+      0.87
+    ],
+    [
+      "2017-07-31",
+      0.87
+    ],
+    [
+      "2017-08-31",
+      0.87
+    ],
+    [
+      "2017-09-30",
+      0.87
+    ],
+    [
+      "2017-10-31",
+      0.87
+    ],
+    [
+      "2017-11-30",
+      0.87
+    ],
+    [
+      "2017-12-31",
+      0.87
+    ],
+    [
+      "2018-01-31",
+      0.87
+    ],
+    [
+      "2018-02-28",
+      0.87
+    ],
+    [
+      "2018-03-31",
+      0.87
+    ],
+    [
+      "2018-04-30",
+      0.87
+    ],
+    [
+      "2018-05-31",
+      0.87
+    ],
+    [
+      "2018-06-30",
+      0.87
+    ],
+    [
+      "2018-07-31",
+      0.75
+    ],
+    [
+      "2018-08-31",
+      0.75
+    ],
+    [
+      "2018-09-30",
+      0.75
+    ],
+    [
+      "2018-10-31",
+      0.75
+    ],
+    [
+      "2018-11-30",
+      0.75
+    ],
+    [
+      "2018-12-31",
+      0.75
+    ],
+    [
+      "2019-01-31",
+      0.75
+    ],
+    [
+      "2019-02-28",
+      0.75
+    ],
+    [
+      "2019-03-31",
+      0.75
+    ],
+    [
+      "2019-04-30",
+      0.75
+    ],
+    [
+      "2019-05-31",
+      0.75
+    ],
+    [
+      "2019-06-30",
+      0.75
+    ],
+    [
+      "2019-07-31",
+      0.75
+    ],
+    [
+      "2019-08-31",
+      0.75
+    ],
+    [
+      "2019-09-30",
+      0.75
+    ],
+    [
+      "2019-10-31",
+      0.78
+    ],
+    [
+      "2019-11-30",
+      0.78
+    ],
+    [
+      "2019-12-31",
+      0.78
+    ],
+    [
+      "2020-01-31",
+      0.78
+    ],
+    [
+      "2020-02-29",
+      0.78
+    ],
+    [
+      "2020-03-31",
+      0.78
+    ],
+    [
+      "2020-04-30",
+      0.78
+    ],
+    [
+      "2020-05-31",
+      0.78
+    ],
+    [
+      "2020-06-30",
+      0.78
+    ],
+    [
+      "2020-07-31",
+      0.78
+    ],
+    [
+      "2020-08-31",
+      0.78
+    ],
+    [
+      "2020-09-30",
+      0.78
+    ],
+    [
+      "2020-10-31",
+      0.6
+    ],
+    [
+      "2020-11-30",
+      0.78
+    ],
+    [
+      "2020-12-31",
+      0.78
+    ],
+    [
+      "2021-01-31",
+      2.63
+    ],
+    [
+      "2021-02-28",
+      0.78
+    ],
+    [
+      "2021-03-31",
+      0.78
+    ],
+    [
+      "2021-04-30",
+      0.78
+    ],
+    [
+      "2021-05-31",
+      0.78
+    ],
+    [
+      "2021-06-30",
+      1.0
+    ],
+    [
+      "2021-07-31",
+      2.2
+    ],
+    [
+      "2021-08-31",
+      1.1
+    ],
+    [
+      "2021-09-30",
+      1.1
+    ],
+    [
+      "2021-10-31",
+      1.1
+    ],
+    [
+      "2021-11-30",
+      1.1
+    ],
+    [
+      "2021-12-31",
+      1.1
+    ],
+    [
+      "2022-01-31",
+      1.75
+    ],
+    [
+      "2022-02-28",
+      1.1
+    ],
+    [
+      "2022-03-31",
+      1.1
+    ],
+    [
+      "2022-04-30",
+      1.1
+    ],
+    [
+      "2022-05-31",
+      1.1
+    ],
+    [
+      "2022-06-30",
+      1.1
+    ],
+    [
+      "2022-07-31",
+      3.3
+    ],
+    [
+      "2022-08-31",
+      1.1
+    ],
+    [
+      "2022-09-30",
+      1.1
+    ],
+    [
+      "2022-10-31",
+      1.1
+    ],
+    [
+      "2022-11-30",
+      1.1
+    ],
+    [
+      "2022-12-31",
+      1.1
+    ],
+    [
+      "2023-01-31",
+      2.2
+    ],
+    [
+      "2023-02-28",
+      1.1
+    ],
+    [
+      "2023-03-31",
+      1.1
+    ],
+    [
+      "2023-04-30",
+      1.1
+    ],
+    [
+      "2023-05-31",
+      1.1
+    ],
+    [
+      "2023-06-30",
+      1.1
+    ],
+    [
+      "2023-07-31",
+      1.5
+    ],
+    [
+      "2023-08-31",
+      1.1
+    ],
+    [
+      "2023-09-30",
+      1.1
+    ],
+    [
+      "2023-10-31",
+      1.1
+    ],
+    [
+      "2023-11-30",
+      1.1
+    ],
+    [
+      "2023-12-31",
+      1.1
+    ],
+    [
+      "2024-01-31",
+      1.1
+    ],
+    [
+      "2024-02-29",
+      1.1
+    ],
+    [
+      "2024-03-31",
+      1.1
+    ],
+    [
+      "2024-04-30",
+      1.1
+    ],
+    [
+      "2024-05-31",
+      1.1
+    ],
+    [
+      "2024-06-30",
+      1.1
+    ],
+    [
+      "2024-07-31",
+      1.1
+    ],
+    [
+      "2024-08-31",
+      1.1
+    ],
+    [
+      "2024-09-30",
+      1.1
+    ],
+    [
+      "2024-10-31",
+      1.1
+    ],
+    [
+      "2024-11-30",
+      1.1
+    ],
+    [
+      "2024-12-31",
+      1.1
+    ],
+    [
+      "2025-01-31",
+      1.1
+    ],
+    [
+      "2025-02-28",
+      1.1
+    ],
+    [
+      "2025-03-31",
+      1.1
+    ],
+    [
+      "2025-04-30",
+      1.1
+    ],
+    [
+      "2025-05-31",
+      1.1
+    ],
+    [
+      "2025-06-30",
+      1.1
+    ],
+    [
+      "2025-07-31",
+      1.1
+    ],
+    [
+      "2025-08-31",
+      1.1
+    ],
+    [
+      "2025-09-30",
+      1.1
+    ],
+    [
+      "2025-10-31",
+      1.1
+    ],
+    [
+      "2025-11-30",
+      1.1
+    ],
+    [
+      "2025-12-31",
+      1.1
+    ],
+    [
+      "2026-01-31",
+      1.1
+    ],
+    [
+      "2026-02-28",
+      1.1
+    ],
+    [
+      "2026-03-31",
+      1.1
+    ],
+    [
+      "2026-04-30",
+      1.1
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 39534321.7,
     "Imóveis": 6747376534.1,
     "Cotas de FIIs": 232510084.54,
     "CRI/CRA": 106876.54,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 1023428089.5,
     "Outros": 0.09999966621398926
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "GARE20 - FII GUARDIAN",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 11154274.0,
+        "valor": 101057722.44
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATL11 - PÁTRIA LOGÍSTICA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 155721.0,
+        "valor": 10327416.72
+      },
+      {
+        "tipo": "FII",
+        "emissor": "INLG11 - INTER LOGÍSTICO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1030377.0,
+        "valor": 80884594.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PNDL11 - PANORAMA DESENVOLVIMENTO LOGÍSTICO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2393.0,
+        "valor": 2537236.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "124",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 106559.71,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XPIN11 - XP Industrial Fundo de Investimento Imobiliário",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 733697.0,
+        "valor": 60735437.66
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HLOG11 - HEDGE LOGÍSTICA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2281930.0,
+        "valor": 21107852.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SPVJ11 - FUNDO DE INVESTIMENTO IMOBILIÁRIO SUCCESPAR VAREJO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 319914.0,
+        "valor": 7793986.91
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "91",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3791.0,
+        "valor": 3641971.89,
+        "nome_cri": "CRI Fazenda da Grama"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "447",
+        "vencimento": "",
+        "quantidade": 12318.0,
+        "valor": 6755279.66,
+        "nome_cri": "CRI Reserva Luiza"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FIIB11 - FII INDUSTRIAL DO BRASIL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 82334.0,
+        "valor": 39437986.0
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "DCB - Distribuition Center Barueri",
+        "endereco": "Avenida Piracema, nº 155, quadra 5, lotes 9 a 16 e 17 (parte), Tamboré, Barueri",
+        "area": 90484.02,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Rio Claro",
+        "endereco": "Avenida Brasil, 3.464, Rio Claro, SP",
+        "area": 11491.64,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Cone MM2",
+        "endereco": "Rodovia BR 101, 5225, Cabo de Santo Agostinho, PE",
+        "area": 58932.35712,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "DCC - Distribuition Center Cajamar",
+        "endereco": "Rodovia Anhanguera, km 31.775, Cidade de Cajamar",
+        "area": 102708.28,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Washington Luiz",
+        "endereco": "Avenida SN 1, 280, Parque Duque, Duque de Caxias - RJ",
+        "area": 24501.55,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Vinhedo",
+        "endereco": "Avenida das Indústrias, s/n, CPI 5000, Vinhedo, SP",
+        "area": 132352.72,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Itupeva G300",
+        "endereco": "Estrada Joaquim Bueno Neto, 9835, Itupeva, SP",
+        "area": 69743.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Blumenau",
+        "endereco": "Rua Iguaçu, 291/383, Blumenau, SC",
+        "area": 65824.77,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Betim BTS - Meli",
+        "endereco": "Rua da Harmonia - Parque Industrial de Betim, Betim - MG",
+        "area": 95730.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Itupeva G200",
+        "endereco": "Estrada Joaquim Bueno Neto, 9835, Itupeva, SP",
+        "area": 89976.04,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Betim",
+        "endereco": "Avenida Parque B, 347, Betim, MG",
+        "area": 62587.38,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Itupeva G100",
+        "endereco": "Estrada Joaquim Bueno Neto, 9835, Itupeva, SP",
+        "area": 58671.52,
+        "vacancia": 0.0725905856879113,
+        "pct_total": null
+      },
+      {
+        "nome": "DCR - Distribuition Center Rodoanel",
+        "endereco": "Av. Hélio Ossamu Daikuara, nº 1.445, Jardim Vista Alegre, Embu das Artes",
+        "area": 77587.2,
+        "vacancia": 0.135305823641013,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Extrema",
+        "endereco": "Estrada Municipal José Geraldo Aparecido e Rua Josepha Gomes de Souza, Extrema, MG",
+        "area": 34100.63,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG CONE 06",
+        "endereco": "Rodovia BR 101, 5225, Cabo de Santo Agostinho, PE",
+        "area": 15790.46,
+        "vacancia": 0.0905847753939924,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Campo Grande",
+        "endereco": "Estrada do Pedregoso, 900, Freguesia de Campo Grande, RJ",
+        "area": 16532.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "CLE - Centro Logístico Embu",
+        "endereco": "Rua José Semião Rodrigues Agostinho, nº 1.370, Água Espraiada, Embu das Artes",
+        "area": 66520.0,
+        "vacancia": 0.06666040288635,
+        "pct_total": null
+      },
+      {
+        "nome": "Master Labs",
+        "endereco": "Av. Guido Caloi, 1.935,  São Paulo, SP",
+        "area": 14337.0,
+        "vacancia": 0.181971821162028,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Goiânia",
+        "endereco": "Rodovia BR 153, Fazenda Retiro, Goiânia - GO, 74620-430",
+        "area": 78222.73,
+        "vacancia": 0.018129897032395,
+        "pct_total": null
+      },
+      {
+        "nome": "Tech Town",
+        "endereco": "Rodovia SP 101, Km 9,5, Hortolândia , SP",
+        "area": 8760.4,
+        "vacancia": 0.171012739144331,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Louveira",
+        "endereco": "Rua Atílio Biscuola, 1831, Louveira , SP",
+        "area": 55201.51,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG São Carlos",
+        "endereco": "Rodovia Eng. Thales de Lorena Peixoto Júnio, Km 9.5, São Carlos, SP",
+        "area": 79642.19,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Syslog",
+        "endereco": "Parque Duque, Duque de Caxias - RJ, 25085-009",
+        "area": 27946.44,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Itapevi",
+        "endereco": "Rod. Pres. Castello Branco, altura do Km 34,5 - Ingahi, Cidade de Itapevi",
+        "area": 34286.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Torino",
+        "endereco": "Rodovia BR-381, s/n, km 483, Pista Norte, Jardim Piemonte, Betim, MG",
+        "area": 66396.87,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Condomínio SJC",
+        "endereco": "Rua Ambrósio Molina, 1090/1100, São José dos Campos, SP",
+        "area": 72487.36,
+        "vacancia": 0.279488175593648,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Ribeirão Preto",
+        "endereco": "Rodovia Anhanguera, km 317.5, Ribeirão Preto - SP",
+        "area": 59871.86,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "HGLG Monte Mor",
+        "endereco": "Rua Tobias Bueno de Oliveira, 701, Monte Mor, SP",
+        "area": 24696.38,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

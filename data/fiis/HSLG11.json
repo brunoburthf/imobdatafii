@@ -4,14 +4,18 @@
     "Ticker": "HSLG11",
     "Nome": "Hsi Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0179,
-    "Retorno - 12M": 0.2553,
+    "Retorno - MTD": 0.0088,
+    "Retorno - 12M": 0.229,
     "P/VP": 0.84,
     "Último Dividendo Pago": 0.72,
-    "DY a.a.": 0.093,
+    "DY a.a.": 0.094,
     "Visão Geral": "FII de logística que investe em galpões AAA, localizados em parques logísticos próximos às capitais. É gerido pela HSI e possui 508 mil m² de ABL própria, com 100% do portfólio classificado como AAA. A estratégia prioriza renda locatícia recorrente em ativos logísticos de alto padrão e localização relevante nacional.",
     "Comentário": "Março marcou retomada consistente da atividade hoteleira com calendário robusto de eventos corporativos impulsionando demanda. Distribuição chegou a R$0,72/cota com dividend yield de 9,4% a.a., mantendo 100% de ocupação desde novembro de 2024. Guidance para 1º semestre de 2026 projetado entre R$0,72 e R$0,76/cota. Aluguel médio do portfólio mantém-se em R$26,20/m² com cap rate implícito de 10,5%.",
-    "Preço Atual": 92.1
+    "Preço Atual": 92.17,
+    "% Dias Acima CDI 1A": 0.5806,
+    "% Dias Acima CDI 3A": 0.4389,
+    "% Dias Acima CDI 5A": 0.3632,
+    "% Dias Acima CDI MAX": 0.3632
   },
   "historico_preco": [
     [
@@ -5309,6 +5313,22 @@
     [
       "2026-04-16",
       92.23
+    ],
+    [
+      "2026-04-17",
+      92.46
+    ],
+    [
+      "2026-04-20",
+      92.14
+    ],
+    [
+      "2026-04-22",
+      91.0
+    ],
+    [
+      "2026-04-23",
+      91.92
     ]
   ],
   "historico_preco_adj": [
@@ -10607,6 +10627,22 @@
     [
       "2026-04-16",
       92.23
+    ],
+    [
+      "2026-04-17",
+      92.46
+    ],
+    [
+      "2026-04-20",
+      92.14
+    ],
+    [
+      "2026-04-22",
+      91.0
+    ],
+    [
+      "2026-04-23",
+      91.92
     ]
   ],
   "historico_pvp": [
@@ -16165,6 +16201,26 @@
     [
       "2026-04-16",
       0.8405096009
+    ],
+    [
+      "2026-04-17",
+      0.84260563482
+    ],
+    [
+      "2026-04-20",
+      0.83968941372
+    ],
+    [
+      "2026-04-21",
+      0.83968941372
+    ],
+    [
+      "2026-04-22",
+      0.82930037604
+    ],
+    [
+      "2026-04-23",
+      0.83768451171
     ]
   ],
   "historico_dy": [
@@ -21439,12 +21495,358 @@
     [
       "2026-04-16",
       9.3679
+    ],
+    [
+      "2026-04-17",
+      9.3446
+    ],
+    [
+      "2026-04-20",
+      9.377
+    ],
+    [
+      "2026-04-22",
+      9.4945
+    ],
+    [
+      "2026-04-23",
+      9.3995
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2021-01-31",
+      0.31
+    ],
+    [
+      "2021-02-28",
+      0.58
+    ],
+    [
+      "2021-03-31",
+      0.58
+    ],
+    [
+      "2021-04-30",
+      0.58
+    ],
+    [
+      "2021-05-31",
+      0.58
+    ],
+    [
+      "2021-06-30",
+      0.58
+    ],
+    [
+      "2021-07-31",
+      0.58
+    ],
+    [
+      "2021-08-31",
+      0.58
+    ],
+    [
+      "2021-09-30",
+      0.58
+    ],
+    [
+      "2021-10-31",
+      0.58
+    ],
+    [
+      "2021-11-30",
+      0.58
+    ],
+    [
+      "2021-12-31",
+      0.58
+    ],
+    [
+      "2022-01-31",
+      0.58
+    ],
+    [
+      "2022-02-28",
+      0.63
+    ],
+    [
+      "2022-03-31",
+      0.63
+    ],
+    [
+      "2022-04-30",
+      0.63
+    ],
+    [
+      "2022-05-31",
+      0.63
+    ],
+    [
+      "2022-06-30",
+      0.65
+    ],
+    [
+      "2022-07-31",
+      0.65
+    ],
+    [
+      "2022-08-31",
+      0.68
+    ],
+    [
+      "2022-09-30",
+      0.69
+    ],
+    [
+      "2022-10-31",
+      0.7
+    ],
+    [
+      "2022-11-30",
+      0.7
+    ],
+    [
+      "2022-12-31",
+      0.7
+    ],
+    [
+      "2023-01-31",
+      0.7
+    ],
+    [
+      "2023-02-28",
+      0.7
+    ],
+    [
+      "2023-03-31",
+      0.72
+    ],
+    [
+      "2023-04-30",
+      0.72
+    ],
+    [
+      "2023-05-31",
+      0.73
+    ],
+    [
+      "2023-06-30",
+      0.73
+    ],
+    [
+      "2023-07-31",
+      0.73
+    ],
+    [
+      "2023-08-31",
+      0.73
+    ],
+    [
+      "2023-09-30",
+      0.73
+    ],
+    [
+      "2023-10-31",
+      0.74
+    ],
+    [
+      "2023-11-30",
+      0.74
+    ],
+    [
+      "2023-12-31",
+      0.74
+    ],
+    [
+      "2024-01-31",
+      0.74
+    ],
+    [
+      "2024-02-29",
+      0.74
+    ],
+    [
+      "2024-03-31",
+      0.74
+    ],
+    [
+      "2024-04-30",
+      0.74
+    ],
+    [
+      "2024-05-31",
+      0.74
+    ],
+    [
+      "2024-06-30",
+      0.74
+    ],
+    [
+      "2024-07-31",
+      0.74
+    ],
+    [
+      "2024-08-31",
+      0.74
+    ],
+    [
+      "2024-09-30",
+      0.74
+    ],
+    [
+      "2024-10-31",
+      0.74
+    ],
+    [
+      "2024-11-30",
+      0.74
+    ],
+    [
+      "2024-12-31",
+      0.74
+    ],
+    [
+      "2025-01-31",
+      0.74
+    ],
+    [
+      "2025-02-28",
+      0.65
+    ],
+    [
+      "2025-03-31",
+      0.65
+    ],
+    [
+      "2025-04-30",
+      0.65
+    ],
+    [
+      "2025-05-31",
+      0.65
+    ],
+    [
+      "2025-06-30",
+      0.65
+    ],
+    [
+      "2025-07-31",
+      0.65
+    ],
+    [
+      "2025-08-31",
+      0.66
+    ],
+    [
+      "2025-09-30",
+      0.67
+    ],
+    [
+      "2025-10-31",
+      0.68
+    ],
+    [
+      "2025-11-30",
+      0.7
+    ],
+    [
+      "2025-12-31",
+      0.72
+    ],
+    [
+      "2026-01-31",
+      0.72
+    ],
+    [
+      "2026-02-28",
+      0.72
+    ],
+    [
+      "2026-03-31",
+      0.72
+    ],
+    [
+      "2026-04-30",
+      0.72
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 64016644.93,
     "Imóveis": 1729192233.0,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 80605.96,
     "Outros": 0.01999993338540662
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FICFI ITAU SOBERANO RENDA FIXA SIMPLES LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 726255.08,
+        "valor": 59247553.65
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII BTLG - BTLG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5516.0,
+        "valor": 566217.4
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Galpão Logístico Itapevi - SP",
+        "endereco": "Rodovia Coronel PM Nelson Tranchesi, números 740 e 990, no município de Itapevi, Estado de São Paulo",
+        "area": 84800.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpão Logístico Manaus - AM",
+        "endereco": "Avenida Torquato Tapajós, 5709 - Novo Israel, Manaus - AM",
+        "area": 66200.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpão Logístico São José dos Pinhais - PR",
+        "endereco": "Rod. BR 116 (Contorno Leste), nº 7000, no município de São José dos Pinhais, Estado do Paraná,",
+        "area": 74200.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpão Logístico Contagem - MG",
+        "endereco": "Rodovia Municipal Vereador Joaquim Costa, nº 2000, no município de Contagem, Estado de Minas Gerais",
+        "area": 92000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpão Logístico Arujá - SP",
+        "endereco": "Avenida Comendador Masatoshi Shinmyo, nº 300, no município de Arujá, estado de São Paulo",
+        "area": 139600.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpão Logístico BTS Meli Araucária",
+        "endereco": "Rodovia PR-423, 3301, Bairro Boqueirão, Cidade de Araucária, Estado do Paraná",
+        "area": 327120.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

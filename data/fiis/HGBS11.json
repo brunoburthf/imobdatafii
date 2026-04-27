@@ -4,14 +4,18 @@
     "Ticker": "HGBS11",
     "Nome": "Hedge Brasil Shopping FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0355,
-    "Retorno - 12M": 0.1907,
+    "Retorno - MTD": 0.0296,
+    "Retorno - 12M": 0.1768,
     "P/VP": 1.01,
     "Último Dividendo Pago": 0.17,
-    "DY a.a.": 0.097,
+    "DY a.a.": 0.098,
     "Visão Geral": "FII de shopping que investe em shopping centers construídos, com área bruta locável mínima de 15 mil m² e gestão ativa da carteira. Iniciado em novembro de 2006, é gerido pela Hedge Investments. A estratégia concentra renda imobiliária recorrente em ativos de varejo consolidados, com administração focada em performance operacional.",
     "Comentário": "Iniciou 11ª emissão com estimativa de R$ 664,6 milhões. Anunciou alienação de 19% do Shopping Jardim Sul por R$ 128 milhões (cap rate 7,7%, 16,9% acima da avaliação), gerando ganho de R$ 0,12/cota para cotistas. Alienação de 18,375% do I Fashion Outlet representa lucro de R$ 48 milhões e TIR de 24,8% desde 2012 para o fundo.",
-    "Preço Atual": 20.98
+    "Preço Atual": 20.78,
+    "% Dias Acima CDI 1A": 0.3831,
+    "% Dias Acima CDI 3A": 0.5047,
+    "% Dias Acima CDI 5A": 0.4369,
+    "% Dias Acima CDI MAX": 0.4969
   },
   "historico_preco": [
     [
@@ -14165,6 +14169,22 @@
     [
       "2026-04-16",
       20.98
+    ],
+    [
+      "2026-04-17",
+      20.99
+    ],
+    [
+      "2026-04-20",
+      21.02
+    ],
+    [
+      "2026-04-22",
+      21.04
+    ],
+    [
+      "2026-04-23",
+      20.94
     ]
   ],
   "historico_preco_adj": [
@@ -24387,6 +24407,22 @@
     [
       "2026-04-16",
       20.98
+    ],
+    [
+      "2026-04-17",
+      20.99
+    ],
+    [
+      "2026-04-20",
+      21.02
+    ],
+    [
+      "2026-04-22",
+      21.04
+    ],
+    [
+      "2026-04-23",
+      20.94
     ]
   ],
   "historico_pvp": [
@@ -39309,6 +39345,26 @@
     [
       "2026-04-16",
       1.0140638953
+    ],
+    [
+      "2026-04-17",
+      1.0145472432
+    ],
+    [
+      "2026-04-20",
+      1.0159972869
+    ],
+    [
+      "2026-04-21",
+      1.0159972869
+    ],
+    [
+      "2026-04-22",
+      1.0169639827
+    ],
+    [
+      "2026-04-23",
+      1.0121305037
     ]
   ],
   "historico_dy": [
@@ -49531,13 +49587,817 @@
     [
       "2026-04-16",
       9.7235
+    ],
+    [
+      "2026-04-17",
+      9.7189
+    ],
+    [
+      "2026-04-20",
+      9.705
+    ],
+    [
+      "2026-04-22",
+      9.6958
+    ],
+    [
+      "2026-04-23",
+      9.7421
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2016-01-31",
+      0.138
+    ],
+    [
+      "2016-02-29",
+      0.138
+    ],
+    [
+      "2016-03-31",
+      0.138
+    ],
+    [
+      "2016-04-30",
+      0.138
+    ],
+    [
+      "2016-05-31",
+      0.138
+    ],
+    [
+      "2016-06-30",
+      0.138
+    ],
+    [
+      "2016-07-31",
+      0.138
+    ],
+    [
+      "2016-08-31",
+      0.138
+    ],
+    [
+      "2016-09-30",
+      0.138
+    ],
+    [
+      "2016-10-31",
+      0.138
+    ],
+    [
+      "2016-11-30",
+      0.138
+    ],
+    [
+      "2016-12-31",
+      0.138
+    ],
+    [
+      "2017-01-31",
+      0.138
+    ],
+    [
+      "2017-02-28",
+      0.138
+    ],
+    [
+      "2017-03-31",
+      0.138
+    ],
+    [
+      "2017-04-30",
+      0.124
+    ],
+    [
+      "2017-05-31",
+      0.124
+    ],
+    [
+      "2017-06-30",
+      0.124
+    ],
+    [
+      "2017-07-31",
+      0.124
+    ],
+    [
+      "2017-08-31",
+      0.124
+    ],
+    [
+      "2017-09-30",
+      0.124
+    ],
+    [
+      "2017-10-31",
+      0.124
+    ],
+    [
+      "2017-11-30",
+      0.1
+    ],
+    [
+      "2017-12-31",
+      0.103
+    ],
+    [
+      "2018-01-31",
+      0.115
+    ],
+    [
+      "2018-02-28",
+      0.12
+    ],
+    [
+      "2018-03-31",
+      0.12
+    ],
+    [
+      "2018-04-30",
+      0.12
+    ],
+    [
+      "2018-05-31",
+      0.12
+    ],
+    [
+      "2018-06-30",
+      0.12
+    ],
+    [
+      "2018-07-31",
+      0.12
+    ],
+    [
+      "2018-08-31",
+      0.115
+    ],
+    [
+      "2018-09-30",
+      0.115
+    ],
+    [
+      "2018-10-31",
+      0.115
+    ],
+    [
+      "2018-11-30",
+      0.115
+    ],
+    [
+      "2018-12-31",
+      0.135
+    ],
+    [
+      "2019-01-31",
+      0.152
+    ],
+    [
+      "2019-02-28",
+      0.14
+    ],
+    [
+      "2019-03-31",
+      0.14
+    ],
+    [
+      "2019-04-30",
+      0.14
+    ],
+    [
+      "2019-05-31",
+      0.14
+    ],
+    [
+      "2019-06-30",
+      0.14
+    ],
+    [
+      "2019-07-31",
+      0.2
+    ],
+    [
+      "2019-08-31",
+      0.14
+    ],
+    [
+      "2019-09-30",
+      0.14
+    ],
+    [
+      "2019-10-31",
+      0.14
+    ],
+    [
+      "2019-11-30",
+      0.14
+    ],
+    [
+      "2019-12-31",
+      0.14
+    ],
+    [
+      "2020-01-31",
+      0.14
+    ],
+    [
+      "2020-02-29",
+      0.14
+    ],
+    [
+      "2020-03-31",
+      0.14
+    ],
+    [
+      "2020-04-30",
+      0.09
+    ],
+    [
+      "2020-05-31",
+      0.035
+    ],
+    [
+      "2020-06-30",
+      0.035
+    ],
+    [
+      "2020-07-31",
+      0.035
+    ],
+    [
+      "2020-08-31",
+      0.025
+    ],
+    [
+      "2020-09-30",
+      0.025
+    ],
+    [
+      "2020-10-31",
+      0.03
+    ],
+    [
+      "2020-11-30",
+      0.04
+    ],
+    [
+      "2020-12-31",
+      0.06
+    ],
+    [
+      "2021-01-31",
+      0.066
+    ],
+    [
+      "2021-02-28",
+      0.08
+    ],
+    [
+      "2021-03-31",
+      0.08
+    ],
+    [
+      "2021-04-30",
+      0.04
+    ],
+    [
+      "2021-05-31",
+      0.04
+    ],
+    [
+      "2021-06-30",
+      0.035
+    ],
+    [
+      "2021-07-31",
+      0.05
+    ],
+    [
+      "2021-08-31",
+      0.065
+    ],
+    [
+      "2021-09-30",
+      0.075
+    ],
+    [
+      "2021-10-31",
+      0.085
+    ],
+    [
+      "2021-11-30",
+      0.09
+    ],
+    [
+      "2021-12-31",
+      0.105
+    ],
+    [
+      "2022-01-31",
+      0.11
+    ],
+    [
+      "2022-02-28",
+      0.115
+    ],
+    [
+      "2022-03-31",
+      0.115
+    ],
+    [
+      "2022-04-30",
+      0.115
+    ],
+    [
+      "2022-05-31",
+      0.12
+    ],
+    [
+      "2022-06-30",
+      0.125
+    ],
+    [
+      "2022-07-31",
+      0.14
+    ],
+    [
+      "2022-08-31",
+      0.13
+    ],
+    [
+      "2022-09-30",
+      0.13
+    ],
+    [
+      "2022-10-31",
+      0.135
+    ],
+    [
+      "2022-11-30",
+      0.135
+    ],
+    [
+      "2022-12-31",
+      0.14
+    ],
+    [
+      "2023-01-31",
+      0.14
+    ],
+    [
+      "2023-02-28",
+      0.14
+    ],
+    [
+      "2023-03-31",
+      0.14
+    ],
+    [
+      "2023-04-30",
+      0.14
+    ],
+    [
+      "2023-05-31",
+      0.145
+    ],
+    [
+      "2023-06-30",
+      0.145
+    ],
+    [
+      "2023-07-31",
+      0.145
+    ],
+    [
+      "2023-08-31",
+      0.155
+    ],
+    [
+      "2023-09-30",
+      0.2
+    ],
+    [
+      "2023-10-31",
+      0.2
+    ],
+    [
+      "2023-11-30",
+      0.2
+    ],
+    [
+      "2023-12-31",
+      0.2
+    ],
+    [
+      "2024-01-31",
+      0.2
+    ],
+    [
+      "2024-02-29",
+      0.175
+    ],
+    [
+      "2024-03-31",
+      0.175
+    ],
+    [
+      "2024-04-30",
+      0.175
+    ],
+    [
+      "2024-05-31",
+      0.175
+    ],
+    [
+      "2024-06-30",
+      0.175
+    ],
+    [
+      "2024-07-31",
+      0.175
+    ],
+    [
+      "2024-08-31",
+      0.16
+    ],
+    [
+      "2024-09-30",
+      0.16
+    ],
+    [
+      "2024-10-31",
+      0.16
+    ],
+    [
+      "2024-11-30",
+      0.16
+    ],
+    [
+      "2024-12-31",
+      0.16
+    ],
+    [
+      "2025-01-31",
+      0.16
+    ],
+    [
+      "2025-02-28",
+      0.16
+    ],
+    [
+      "2025-03-31",
+      0.16
+    ],
+    [
+      "2025-04-30",
+      0.16
+    ],
+    [
+      "2025-05-31",
+      0.16
+    ],
+    [
+      "2025-06-30",
+      0.16
+    ],
+    [
+      "2025-07-31",
+      0.16
+    ],
+    [
+      "2025-08-31",
+      0.15
+    ],
+    [
+      "2025-09-30",
+      0.15
+    ],
+    [
+      "2025-10-31",
+      0.15
+    ],
+    [
+      "2025-11-30",
+      0.15
+    ],
+    [
+      "2025-12-31",
+      0.15
+    ],
+    [
+      "2026-01-31",
+      0.15
+    ],
+    [
+      "2026-02-28",
+      0.16
+    ],
+    [
+      "2026-03-31",
+      0.17
+    ],
+    [
+      "2026-04-30",
+      0.17
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 4748034.31,
     "Imóveis": 2324392609.5,
     "Cotas de FIIs": 618909035.51,
     "CRI/CRA": 82299390.71,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 268218400.64
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "VIA PARQUE SHOPPING FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 347208.0,
+        "valor": 24478164.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GENERAL SHOPPING ATIVO E RENDA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 157593.0,
+        "valor": 7410022.86
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "262",
+        "vencimento": "",
+        "quantidade": 60100.0,
+        "valor": 76195984.72,
+        "nome_cri": "CRI Shopping Sinop"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE ATRIUM SHOPPING SANTO ANDRÉ FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2719.0,
+        "valor": 158952.74
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE SHOPPING PARQUE DOM PEDRO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2618663.0,
+        "valor": 242226327.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SHOPPING WEST PLAZA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 785571.0,
+        "valor": 43206405.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE FLORIPA SHOPPING FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5501763.0,
+        "valor": 118177869.24
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GRAND PLAZA SHOPPING FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 922982.0,
+        "valor": 74180063.34
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE RECEBÍVEIS IMOBILIÁRIOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 15575.0,
+        "valor": 127559.25
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "GAIA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "33",
+        "vencimento": "",
+        "quantidade": 25.0,
+        "valor": 4854562.21601675
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII MAUÁ CAPITAL RECEBÍVEIS IMOBILIÁRIOS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 428577.0,
+        "valor": 39231938.58
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL CRÉDITO IMOBILIÁRIO - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1463541.0,
+        "valor": 13669472.94
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EQI RECEBÍVEIS IMOBILIÁRIOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 298754.0,
+        "valor": 2464720.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "GAIA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "55",
+        "vencimento": "",
+        "quantidade": 25.0,
+        "valor": 3634282.78398325
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HABITAT RECEBÍVEIS PULVERIZADOS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1852.0,
+        "valor": 141492.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII PARQUE DOM PEDRO SHOPPING CENTER",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1545.0,
+        "valor": 3629205.0
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "São Bernardo Plaza Shopping - 35%",
+        "endereco": "Av. Rotary, 624 - Centro, São Bernardo do Campo - SP",
+        "area": 42954.19,
+        "vacancia": 0.039488,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Center Penha - 87,5628%",
+        "endereco": "R Dr. João Ribeiro, 304 - Penha de França, São Paulo - SP",
+        "area": 29778.51,
+        "vacancia": 0.038125,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Jaraguá Araraquara - 25%",
+        "endereco": "Avenida Alberto Benassi, 2.270, Jardim dos Manacas, Araraquara, SP",
+        "area": 21098.8,
+        "vacancia": 0.044971,
+        "pct_total": null
+      },
+      {
+        "nome": "Suzano Shopping - 15%",
+        "endereco": "Rua Sete de Setembro, 555 - Suzano - SP",
+        "area": 25055.0,
+        "vacancia": 0.022243,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Villa Lobos - 15%",
+        "endereco": "Av. das Nações Unidas, 4777, São Paulo - SP",
+        "area": 28393.66,
+        "vacancia": 0.030593,
+        "pct_total": null
+      },
+      {
+        "nome": "I Fashion Outlet - 18,375%",
+        "endereco": "BR-116, 236 - Rio Branco, Novo Hamburgo - RS",
+        "area": 20046.85,
+        "vacancia": 0.022398,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Praça da Moça - 23,06%",
+        "endereco": "Rua Manoel da Nobrega, 712, Centro, Diadema - SP",
+        "area": 31367.77,
+        "vacancia": 0.013737,
+        "pct_total": null
+      },
+      {
+        "nome": "ParkShopping São Caetano - 20%",
+        "endereco": "Alameda Terracota, 545 - São Caetano do Sul - SP",
+        "area": 39251.7,
+        "vacancia": 0.031952246654285,
+        "pct_total": null
+      },
+      {
+        "nome": "Boulevard Shopping Bauru - 65%",
+        "endereco": "Rua Marcondes Salgado, Quadra 11, Bauru - SP",
+        "area": 34550.03,
+        "vacancia": 0.027619,
+        "pct_total": null
+      },
+      {
+        "nome": "Goiabeiras Shopping - 53,99%",
+        "endereco": "Av. José Monteiro Figueiredo, 500 - Duque de Caxias, Cuiabá - MT",
+        "area": 25830.88,
+        "vacancia": 0.172741,
+        "pct_total": null
+      },
+      {
+        "nome": "Mooca Plaza Shopping - 20%",
+        "endereco": "Rua Cap. Pacheco e Chaves, 313 - Mooca, São Paulo - SP",
+        "area": 42066.51,
+        "vacancia": 0.001191,
+        "pct_total": null
+      },
+      {
+        "nome": "Capim Dourado Shopping - 60%",
+        "endereco": "Q. 107 Norte Avenida NS 5, s/n - Plano Diretor Norte, Palmas - TO",
+        "area": 38730.8,
+        "vacancia": 0.044016,
+        "pct_total": null
+      },
+      {
+        "nome": "Tivoli Shopping - 59%",
+        "endereco": "Av. Santa Barbara, 777 - Vila Mollon IV, Santa Bárbara D'Oeste - SP",
+        "area": 25779.0,
+        "vacancia": 0.008977,
+        "pct_total": null
+      },
+      {
+        "nome": "Franca Shopping - 0,3673897836%",
+        "endereco": "Av. Rio Negro, 1.100, Franca - SP",
+        "area": 18955.1,
+        "vacancia": 0.002221,
+        "pct_total": null
+      },
+      {
+        "nome": "Santana Parque Shopping - 15%",
+        "endereco": "Rua Conselheiro Moreira de Barros, 2.780, São Paulo - SP",
+        "area": 25884.31,
+        "vacancia": 0.057813,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Jardim Sul - 80%",
+        "endereco": "Av. Giovanni Gronchi, 5819, Morumbi, São Paulo/SP",
+        "area": 28709.99,
+        "vacancia": 0.022467,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping West Plaza - 70%",
+        "endereco": "Av. Francisco Matarazzo s/n, Bloco B, São Paulo, SP",
+        "area": 35059.48,
+        "vacancia": 0.086721,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

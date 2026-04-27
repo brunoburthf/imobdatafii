@@ -4,14 +4,18 @@
     "Ticker": "VRTM11",
     "Nome": "Fator Veritá Multiestratégia FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0082,
-    "Retorno - 12M": 0.2475,
+    "Retorno - MTD": 0.0109,
+    "Retorno - 12M": 0.2259,
     "P/VP": 0.78,
     "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.147,
+    "DY a.a.": 0.146,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de FIIs e, complementarmente, pode alocar em CRIs, LCIs, LHs e debêntures imobiliárias. É o Fator Verità Multiestratégia, com mandato amplo no mercado imobiliário listado. A estratégia combina diversificação entre fundos e crédito para geração recorrente de renda e valor.",
     "Comentário": "Distribuição mantida em R$0,09/cota com reserva de R$0,031/cota. Recompra de 10 unidades (You Inc. Madalena R$6 mi, Tumiaru R$3,5 mi) e aquisição R$3,6 mi CRI Terrassa (IPCA+12,25% a.a.). Caixa final R$23,2 mi para alocações e pagamentos. Carteira equilibrada: 23,7% imóveis diretos, 28% FII, 45,9% CRI com DY mensal 1,21% (143% CDI).",
-    "Preço Atual": 7.35
+    "Preço Atual": 7.38,
+    "% Dias Acima CDI 1A": 0.375,
+    "% Dias Acima CDI 3A": 0.2642,
+    "% Dias Acima CDI 5A": 0.2642,
+    "% Dias Acima CDI MAX": 0.2642
   },
   "historico_preco": [
     [
@@ -2373,6 +2377,22 @@
     [
       "2026-04-16",
       7.34
+    ],
+    [
+      "2026-04-17",
+      7.37
+    ],
+    [
+      "2026-04-20",
+      7.38
+    ],
+    [
+      "2026-04-22",
+      7.37
+    ],
+    [
+      "2026-04-23",
+      7.35
     ]
   ],
   "historico_preco_adj": [
@@ -4735,6 +4755,22 @@
     [
       "2026-04-16",
       7.34
+    ],
+    [
+      "2026-04-17",
+      7.37
+    ],
+    [
+      "2026-04-20",
+      7.38
+    ],
+    [
+      "2026-04-22",
+      7.37
+    ],
+    [
+      "2026-04-23",
+      7.35
     ]
   ],
   "historico_pvp": [
@@ -7221,6 +7257,26 @@
     [
       "2026-04-16",
       0.77407725264
+    ],
+    [
+      "2026-04-17",
+      0.77724105613
+    ],
+    [
+      "2026-04-20",
+      0.77829565729
+    ],
+    [
+      "2026-04-21",
+      0.77829565729
+    ],
+    [
+      "2026-04-22",
+      0.77724105613
+    ],
+    [
+      "2026-04-23",
+      0.7751318538
     ]
   ],
   "historico_dy": [
@@ -9555,13 +9611,1004 @@
     [
       "2026-04-16",
       14.7139
+    ],
+    [
+      "2026-04-17",
+      14.654
+    ],
+    [
+      "2026-04-20",
+      14.6341
+    ],
+    [
+      "2026-04-22",
+      14.654
+    ],
+    [
+      "2026-04-23",
+      14.6939
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2023-12-31",
+      0.03
+    ],
+    [
+      "2024-01-31",
+      0.09
+    ],
+    [
+      "2024-02-29",
+      0.08
+    ],
+    [
+      "2024-03-31",
+      0.08
+    ],
+    [
+      "2024-04-30",
+      0.08
+    ],
+    [
+      "2024-05-31",
+      0.1
+    ],
+    [
+      "2024-06-30",
+      0.1
+    ],
+    [
+      "2024-07-31",
+      0.1
+    ],
+    [
+      "2024-08-31",
+      0.1
+    ],
+    [
+      "2024-09-30",
+      0.09
+    ],
+    [
+      "2024-10-31",
+      0.08
+    ],
+    [
+      "2024-11-30",
+      0.085
+    ],
+    [
+      "2024-12-31",
+      0.09
+    ],
+    [
+      "2025-01-31",
+      0.09
+    ],
+    [
+      "2025-02-28",
+      0.09
+    ],
+    [
+      "2025-03-31",
+      0.09
+    ],
+    [
+      "2025-04-30",
+      0.09
+    ],
+    [
+      "2025-05-31",
+      0.09
+    ],
+    [
+      "2025-06-30",
+      0.09
+    ],
+    [
+      "2025-07-31",
+      0.09
+    ],
+    [
+      "2025-08-31",
+      0.09
+    ],
+    [
+      "2025-09-30",
+      0.09
+    ],
+    [
+      "2025-10-31",
+      0.09
+    ],
+    [
+      "2025-11-30",
+      0.09
+    ],
+    [
+      "2025-12-31",
+      0.09
+    ],
+    [
+      "2026-01-31",
+      0.09
+    ],
+    [
+      "2026-02-28",
+      0.09
+    ],
+    [
+      "2026-03-31",
+      0.09
+    ],
+    [
+      "2026-04-30",
+      0.09
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 31668619.41,
     "Imóveis": 20684006.31,
     "Desenvolvimento": 188772453.37,
     "Cotas de FIIs": 103969186.39,
     "CRI/CRA": 104300642.84
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OURINVEST SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "17",
+        "vencimento": "",
+        "quantidade": 371.0,
+        "valor": 421605.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Newport Logística FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 67289.0,
+        "valor": 7734870.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "14",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1674.0,
+        "valor": 161309.76
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Autonomy Edifícios Corporativos",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 92337.0,
+        "valor": 4892937.63
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "14",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4904.0,
+        "valor": 472558.58
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "8",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2064.0,
+        "valor": 189062.59,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2162.0,
+        "valor": 700089.71,
+        "nome_cri": "CRI Marahu"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Patria Crédito Imobiliário Índice De Preços FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30197.0,
+        "valor": 2555874.08
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "223",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 2580732.89,
+        "nome_cri": "CRI Lote 5"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3889.0,
+        "valor": 1259319.55,
+        "nome_cri": "CRI Marahu"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Mauá Capital Recebíveis Imobiliários",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 47795.0,
+        "valor": 4375154.3
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Patria Securities FII - Responsabilidade Limitada",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 33590.0,
+        "valor": 2168234.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OURINVEST SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "46",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1542317.72
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Galapagos Recebíveis Imobiliários",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 24781.0,
+        "valor": 1632324.47
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Ourinvest RE I",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 160000.0,
+        "valor": 8320000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "276",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3559.0,
+        "valor": 3773519.7,
+        "nome_cri": "CRI Neo Garden"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "8",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8518.0,
+        "valor": 780249.58,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PROVINCIA",
+        "nome": "",
+        "emissao": "79",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 1464668.35
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Securities",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 92354.0,
+        "valor": 813638.74
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "8",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6154.0,
+        "valor": 563706.96,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "14",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 596.0,
+        "valor": 57431.67
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "6",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5079.0,
+        "valor": 916200.81,
+        "nome_cri": "CRI Trinity"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JPP Capital Recebíveis Imobiliários",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 21331.0,
+        "valor": 1758740.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9368.0,
+        "valor": 3033506.18,
+        "nome_cri": "CRI Marahu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "2",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 8210.0,
+        "valor": 8811107.68,
+        "nome_cri": "CRI VICUNHA AÇOS S.A."
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Sucesspar Varejo",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 55315.0,
+        "valor": 1312956.33
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Devant Recebíveis Imobiliários",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 35332.0,
+        "valor": 918278.68
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "244",
+        "vencimento": "",
+        "quantidade": 333.0,
+        "valor": 1722472.18,
+        "nome_cri": "CRI Estácio"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "98",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9297.0,
+        "valor": 4628468.32,
+        "nome_cri": "CRI Agua da Serra"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG Pactual Crédito Imobiliário",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 484326.0,
+        "valor": 4523604.84
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Open K Ativos e Recebiveis Imobiliarios",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 117201.0,
+        "valor": 802826.85
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Real Investor FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5056.0,
+        "valor": 544935.68
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Valora CRI Índice de Preço",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 37623.0,
+        "valor": 3018493.29
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "314",
+        "vencimento": "",
+        "quantidade": 5050.0,
+        "valor": 4378317.82,
+        "nome_cri": "CRI COTEMINAS"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OURINVEST SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "18",
+        "vencimento": "",
+        "quantidade": 830.0,
+        "valor": 1961482.91
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PROVINCIA",
+        "nome": "",
+        "emissao": "106",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 28893198.43
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "221",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 4970074.21,
+        "nome_cri": "CRI CORP DAL POZZO"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Vinci Imóveis Urbanos",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 300000.0,
+        "valor": 1854000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VBI Logístico",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 38103.0,
+        "valor": 4276680.72
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Zagros Multiestratégia",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 477160.0,
+        "valor": 4867032.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Navi Residencial",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 352663.0,
+        "valor": 2987055.61
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 3500.0,
+        "valor": 7802444.1,
+        "nome_cri": "CRI Aracaju"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "14",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 556514.93
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Green Towers",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 55859.0,
+        "valor": 4636297.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "223",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 11000.0,
+        "valor": 5677612.36,
+        "nome_cri": "CRI Lote 5"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "REC Multiestratégia",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 804869.0,
+        "valor": 6921873.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Hedge Brasil Shopping",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 108660.0,
+        "valor": 2173200.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Vênus",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 63652.0,
+        "valor": 6027848.95
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VBI Prime Properties",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 22607.0,
+        "valor": 1853774.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PROVINCIA",
+        "nome": "",
+        "emissao": "79",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2730.0,
+        "valor": 2665696.41
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OURINVEST SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "28",
+        "vencimento": "",
+        "quantidade": 4931.0,
+        "valor": 1454703.25
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CSHG Recebíveis Imobiliários",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30653.0,
+        "valor": 3004300.53
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Guardian Real Estate",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 78654.0,
+        "valor": 712605.24
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ORIZ RE Crédito Privado",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 50000.0,
+        "valor": 4884000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Brio Crédito Estruturado",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5586.0,
+        "valor": 4961932.08
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Valora Renda Imobiliária FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 650000.0,
+        "valor": 5427500.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "LEVERAGE COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "4",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 8034226.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4920.0,
+        "valor": 1593173.61,
+        "nome_cri": "CRI Marahu"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "V2 Renda Imobiliária",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 98602.0,
+        "valor": 8967851.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Índices de Preços",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 57066.0,
+        "valor": 5166755.64
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Alianza Crédito Imobiliário",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 557150.0,
+        "valor": 4317912.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG Pactual Corporate Office Fund",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 77233.0,
+        "valor": 3548856.35
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Residencial Aquarela Habitat",
+        "endereco": "Rua Antônio Brochado, nº 1.005, Nova Divinéia - Unaí / MG.",
+        "area": 1086.11,
+        "vacancia": null,
+        "pct_total": 0.077164
+      },
+      {
+        "nome": "Haia Boa Vista - GRM",
+        "endereco": "Av. Boa Vista B, 140 - Boa Vista - Sorocaba - SP",
+        "area": 2256.91,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Longitude - Vibe Itaim",
+        "endereco": "Rua Salvador Balbino de Matos, 280 - Vila Itaim - SP",
+        "area": 36812.0,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Green View - Patrimônio",
+        "endereco": "Rua São Sebastião, 318, Brooklin - São Paulo / SP.",
+        "area": 951.28,
+        "vacancia": null,
+        "pct_total": 0.161615
+      },
+      {
+        "nome": "Daxo - Res. Rhodes",
+        "endereco": "Rua Otto lehmann, SN - Balneário Piçarras - SC, 88380-000",
+        "area": 1313.79,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "CK - Artefacto",
+        "endereco": "Av. Osvaldo Reis, 3334 - Praia Brava - Itajaí",
+        "area": 1427.4,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Coral Gables - Vetter",
+        "endereco": "Av. Antônio Joaquim Tavares, nº 824, Bairro Centro, Penha, SC, CEP 88.838-000.",
+        "area": 206.17,
+        "vacancia": null,
+        "pct_total": 0.02943
+      },
+      {
+        "nome": "Imóveis Barra da Tijuca",
+        "endereco": "Rua Helios Seelinger, 155 - Barra da Tijuca - RJ",
+        "area": 4414.44,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Duo Living Complex - Catamarã",
+        "endereco": "Rua Pioneiro Domingos Salgueiro, nº 264 e Avenida Joaquim Moleirinho, nº 2225 - Maringá / PR.",
+        "area": 1871.05,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Vista Madalena By You, Inc",
+        "endereco": "Rua Paulistânia, 80 - Vila Madalena, São Paulo - SP, 05440-000",
+        "area": 1128.37,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Residencial Habitat Zoe",
+        "endereco": "R. Oito, Qd: 10, Lts. 184 a 190, remembrados, CEP 75.907-274, Parque Solar do Agreste \"A\" - Rio Verde / GO.",
+        "area": 918.0,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Habitat - Casa Laguna",
+        "endereco": "Alameda Paulo Roberto Cunha, 113 - Rio Verde - GO",
+        "area": 1104.37,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Gafisa - Evolve Vila Mariana",
+        "endereco": "R. Manuel de Paiva, 129 - Vila Mariana, São Paulo - SP, 04106-020",
+        "area": 1335.6,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Unlimited - Oscar Freire - Youi, Inc",
+        "endereco": "R. Oscar Freire, 1597 -Cerqueira César  - São Paulo - SP",
+        "area": 1540.84,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Habitat - Liberta",
+        "endereco": "Rua Joaquim Caetano, 875, Lotes 05/08 - Qd 61-A - Jataí - GO",
+        "area": 610.04,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Longitude - Icon",
+        "endereco": "Rua Odete Jones Gigo, 380 - Sumaré - SP",
+        "area": 2363.5,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Stillo Barra - AGER",
+        "endereco": "Rua Via Projetada 2, 111 - Rio de Janeiro",
+        "area": 168.78,
+        "vacancia": null,
+        "pct_total": 0.013519
+      },
+      {
+        "nome": "Tumiaru 120",
+        "endereco": "R. Tumiaru, 120 - Vila Mariana, São Paulo - SP, 04008-050",
+        "area": 555.81,
+        "vacancia": null,
+        "pct_total": 0.226383
+      },
+      {
+        "nome": "Edifício Gibran",
+        "endereco": "Rua Alberto Neder 424 - Campo Grande",
+        "area": 1682.17,
+        "vacancia": null,
+        "pct_total": 0.117723
+      },
+      {
+        "nome": "Residencial Vida Habitat",
+        "endereco": "R. Paranaíba, 581 - St. Planalto, Jataí - GO, 75805-045",
+        "area": 520.19,
+        "vacancia": null,
+        "pct_total": 0.042779
+      },
+      {
+        "nome": "Varandas Joy - Realiza",
+        "endereco": "Vila Formosa, Anápolis - GO, 75115-490",
+        "area": 1643.19,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Lisboa 142",
+        "endereco": "R. Lisboa, 142 - Pinheiros, São Paulo - SP, 05413-000",
+        "area": 209.4,
+        "vacancia": null,
+        "pct_total": 0.065552
+      },
+      {
+        "nome": "Derby Central - Max Plural",
+        "endereco": "Rua Carlos Porto Carreiro, n° 61, bairro de Boa Vista - Recife / PE.",
+        "area": 811.47,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Aldana Jardim - Maximo Aldana",
+        "endereco": "R. Kara, 140 - Jardim do Mar, São Bernardo do Campo - SP, 09750-300",
+        "area": 1290.55,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Condomínio Wish 675 - EBM",
+        "endereco": "R. Prof. Aprígio Gonzaga, N° 675 - Vila da Saúde, São Paulo - SP",
+        "area": 967.96,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Sky Pinheiros - AAM",
+        "endereco": "Rua Cardeal Arco Verde, nº 137, CEP 05407-000, Pinheiros - São Paulo / SP.",
+        "area": 473.66,
+        "vacancia": null,
+        "pct_total": 0.107056
+      },
+      {
+        "nome": "Seven Living - Maximo Aldana",
+        "endereco": "Avenida General San Martin, nº 132, bairro de Ponta da Praia - Santos / SP.",
+        "area": 1106.4,
+        "vacancia": null,
+        "pct_total": null
+      },
+      {
+        "nome": "Patriani Mirai Suzano",
+        "endereco": "R. Nove de Julho, 1400 - Jardim Santa Helena, Suzano - SP, 08674-230",
+        "area": 1139.32,
+        "vacancia": null,
+        "pct_total": 0.11931
+      },
+      {
+        "nome": "Alpha Houses I",
+        "endereco": "Estrada Lula Chaves, 386 - Santana do Parnaíba",
+        "area": 583.83,
+        "vacancia": null,
+        "pct_total": 0.039465
+      },
+      {
+        "nome": "José Antonio Bortolotto - MGB",
+        "endereco": "R. JOSÉ RUSSI ESQ.C/R.RAFAEL DE CARVALHO N° 11 -SANTO ANTONIO DE POSSE",
+        "area": 2481.24,
+        "vacancia": null,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

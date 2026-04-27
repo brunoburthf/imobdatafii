@@ -4,14 +4,18 @@
     "Ticker": "HSAF11",
     "Nome": "Hsi Ativos Financeiros FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0007,
-    "Retorno - 12M": 0.1704,
-    "P/VP": 0.9,
+    "Retorno - MTD": 0.0114,
+    "Retorno - 12M": 0.1601,
+    "P/VP": 0.91,
     "Último Dividendo Pago": 0.95,
-    "DY a.a.": 0.142,
+    "DY a.a.": 0.141,
     "Visão Geral": "FII multiestratégia que investe em CRIs, cotas de FIIs, letras hipotecárias, LCIs, LIGs e outros valores mobiliários imobiliários. É gerido pela HSI e enquadrado pela ANBIMA como multiestratégia de gestão ativa. A estratégia busca renda e ganho de capital com mandato flexível e diversificação entre crédito e fundos.",
     "Comentário": "Em março, HSAF11 manteve distribuição em R$0,95/cota (15º mês consecutivo), atingindo dividend yield de 15,02% a.a. na cota de mercado. Concluída integralização de R$6 milhões em CRI Salto com spreads competitivos. Gestão concorda duas novas alocações em CRI shopping e residencial, reduzindo caixa de 14% para aproximadamente 4% do patrimônio. Carteira permanece 100% adimplente com spread ponderado de 8,64% em IPCA+ e 4,66% em CDI+.",
-    "Preço Atual": 80.15
+    "Preço Atual": 81.31,
+    "% Dias Acima CDI 1A": 0.4718,
+    "% Dias Acima CDI 3A": 0.4242,
+    "% Dias Acima CDI 5A": 0.4407,
+    "% Dias Acima CDI MAX": 0.4407
   },
   "historico_preco": [
     [
@@ -5569,6 +5573,22 @@
     [
       "2026-04-16",
       80.08
+    ],
+    [
+      "2026-04-17",
+      80.1
+    ],
+    [
+      "2026-04-20",
+      80.35
+    ],
+    [
+      "2026-04-22",
+      80.67
+    ],
+    [
+      "2026-04-23",
+      80.36
     ]
   ],
   "historico_preco_adj": [
@@ -11127,6 +11147,22 @@
     [
       "2026-04-16",
       80.08
+    ],
+    [
+      "2026-04-17",
+      80.1
+    ],
+    [
+      "2026-04-20",
+      80.35
+    ],
+    [
+      "2026-04-22",
+      80.67
+    ],
+    [
+      "2026-04-23",
+      80.36
     ]
   ],
   "historico_pvp": [
@@ -16917,6 +16953,26 @@
     [
       "2026-04-16",
       0.89908451356
+    ],
+    [
+      "2026-04-17",
+      0.89930906014
+    ],
+    [
+      "2026-04-20",
+      0.90211589241
+    ],
+    [
+      "2026-04-21",
+      0.90211589241
+    ],
+    [
+      "2026-04-22",
+      0.90570863772
+    ],
+    [
+      "2026-04-23",
+      0.9022281657
     ]
   ],
   "historico_dy": [
@@ -22435,12 +22491,881 @@
     [
       "2026-04-16",
       14.2358
+    ],
+    [
+      "2026-04-17",
+      14.2322
+    ],
+    [
+      "2026-04-20",
+      14.1879
+    ],
+    [
+      "2026-04-22",
+      14.1316
+    ],
+    [
+      "2026-04-23",
+      14.1862
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-10-31",
+      0.04
+    ],
+    [
+      "2020-11-30",
+      0.22
+    ],
+    [
+      "2020-12-31",
+      0.4
+    ],
+    [
+      "2021-01-31",
+      0.7
+    ],
+    [
+      "2021-02-28",
+      0.8
+    ],
+    [
+      "2021-03-31",
+      1.0
+    ],
+    [
+      "2021-04-30",
+      1.1
+    ],
+    [
+      "2021-05-31",
+      1.1
+    ],
+    [
+      "2021-06-30",
+      1.1
+    ],
+    [
+      "2021-07-31",
+      1.0
+    ],
+    [
+      "2021-08-31",
+      0.85
+    ],
+    [
+      "2021-09-30",
+      0.82
+    ],
+    [
+      "2021-10-31",
+      1.0
+    ],
+    [
+      "2021-11-30",
+      1.05
+    ],
+    [
+      "2021-12-31",
+      1.05
+    ],
+    [
+      "2022-01-31",
+      1.0
+    ],
+    [
+      "2022-02-28",
+      1.1
+    ],
+    [
+      "2022-03-31",
+      1.15
+    ],
+    [
+      "2022-04-30",
+      1.15
+    ],
+    [
+      "2022-05-31",
+      1.15
+    ],
+    [
+      "2022-06-30",
+      1.25
+    ],
+    [
+      "2022-07-31",
+      1.25
+    ],
+    [
+      "2022-08-31",
+      1.0
+    ],
+    [
+      "2022-09-30",
+      1.0
+    ],
+    [
+      "2022-10-31",
+      1.0
+    ],
+    [
+      "2022-11-30",
+      1.0
+    ],
+    [
+      "2022-12-31",
+      0.6
+    ],
+    [
+      "2023-01-31",
+      0.8
+    ],
+    [
+      "2023-02-28",
+      0.9
+    ],
+    [
+      "2023-03-31",
+      0.9
+    ],
+    [
+      "2023-04-30",
+      0.95
+    ],
+    [
+      "2023-05-31",
+      1.1
+    ],
+    [
+      "2023-06-30",
+      1.1
+    ],
+    [
+      "2023-07-31",
+      1.1
+    ],
+    [
+      "2023-08-31",
+      0.8
+    ],
+    [
+      "2023-09-30",
+      0.75
+    ],
+    [
+      "2023-10-31",
+      0.7
+    ],
+    [
+      "2023-11-30",
+      0.8
+    ],
+    [
+      "2023-12-31",
+      0.8
+    ],
+    [
+      "2024-01-31",
+      0.75
+    ],
+    [
+      "2024-02-29",
+      0.85
+    ],
+    [
+      "2024-03-31",
+      0.9
+    ],
+    [
+      "2024-04-30",
+      1.0
+    ],
+    [
+      "2024-05-31",
+      1.05
+    ],
+    [
+      "2024-06-30",
+      1.0
+    ],
+    [
+      "2024-07-31",
+      0.9
+    ],
+    [
+      "2024-08-31",
+      0.8
+    ],
+    [
+      "2024-09-30",
+      0.8
+    ],
+    [
+      "2024-10-31",
+      0.8
+    ],
+    [
+      "2024-11-30",
+      0.8
+    ],
+    [
+      "2024-12-31",
+      0.8
+    ],
+    [
+      "2025-01-31",
+      1.2
+    ],
+    [
+      "2025-02-28",
+      0.95
+    ],
+    [
+      "2025-03-31",
+      0.95
+    ],
+    [
+      "2025-04-30",
+      0.95
+    ],
+    [
+      "2025-05-31",
+      0.95
+    ],
+    [
+      "2025-06-30",
+      0.95
+    ],
+    [
+      "2025-07-31",
+      0.95
+    ],
+    [
+      "2025-08-31",
+      0.95
+    ],
+    [
+      "2025-09-30",
+      0.95
+    ],
+    [
+      "2025-10-31",
+      0.95
+    ],
+    [
+      "2025-11-30",
+      0.95
+    ],
+    [
+      "2025-12-31",
+      0.95
+    ],
+    [
+      "2026-01-31",
+      0.95
+    ],
+    [
+      "2026-02-28",
+      0.95
+    ],
+    [
+      "2026-03-31",
+      0.95
+    ],
+    [
+      "2026-04-30",
+      0.95
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 31437354.13,
     "Cotas de FIIs": 53940736.62,
     "CRI/CRA": 142244930.81,
     "Outros": 3.576133167371154e-09
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0906525 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "291",
+        "vencimento": "",
+        "quantidade": 2364.0,
+        "valor": 1995452.01,
+        "nome_cri": "CRI PROJETO OSCAR - EMILIANO"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII HECT CRI - HCHG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9183.0,
+        "valor": 735741.96
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22H1737532 - HABITASEC SEC",
+        "nome": "",
+        "emissao": "14",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 17865027.07,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII VALORAIP - VGIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3817.0,
+        "valor": 306237.91
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI LOGISTICA - FII BRL1832 - HSLG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 26788.0,
+        "valor": 2471193.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0906758 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "293",
+        "vencimento": "",
+        "quantidade": 3966.0,
+        "valor": 3363032.69,
+        "nome_cri": "CRI PROJETO OSCAR - EMILIANO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20H0695880 - BARI SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "85",
+        "vencimento": "",
+        "quantidade": 1437.0,
+        "valor": 1012113.26,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII PSEC PAX - PSEC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9831.0,
+        "valor": 634591.05
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22H1737558 - HABITASEC SEC",
+        "nome": "",
+        "emissao": "15",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3663.0,
+        "valor": 2849260.48,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21D0779652 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "252",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 609115.82,
+        "nome_cri": "CRI WIMO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0906758 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "293",
+        "vencimento": "",
+        "quantidade": 7615.0,
+        "valor": 6457260.21,
+        "nome_cri": "CRI PROJETO OSCAR - EMILIANO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22I0246580 - VIRGOSEC",
+        "nome": "",
+        "emissao": "47",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7030.0,
+        "valor": 4372097.84,
+        "nome_cri": "CRI ESTR ARENA MRV II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21K0914380 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "462",
+        "vencimento": "",
+        "quantidade": 5372.0,
+        "valor": 4775826.2,
+        "nome_cri": "CRI Parque dos Poderes"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1581821 - VERTCIASEC",
+        "nome": "",
+        "emissao": "135",
+        "serie": "9",
+        "vencimento": "",
+        "quantidade": 6182.0,
+        "valor": 4343155.51,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RIOB RC - RCRB11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2754.0,
+        "valor": 388038.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII GLPG CRI - GCRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30118.0,
+        "valor": 1983872.66
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24F1596770 - OPEA SEC",
+        "nome": "",
+        "emissao": "269",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 14629451.52,
+        "nome_cri": "CRI Heritage"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24H1554974 - VERTCIASEC",
+        "nome": "",
+        "emissao": "135",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 5420.0,
+        "valor": 3052595.23,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F7021405 - TRAVESSIA SEC",
+        "nome": "",
+        "emissao": "66",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 558.0,
+        "valor": 560625.57
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24F1587407 - SECURITIZADORA VERT S/A",
+        "nome": "",
+        "emissao": "135",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5361.0,
+        "valor": 2531918.53,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FICFI ITAU SOBERANO RF SIMP LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 344662.47827,
+        "valor": 28069722.06
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0906786 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "294",
+        "vencimento": "",
+        "quantidade": 1946.0,
+        "valor": 1649196.04,
+        "nome_cri": "CRI PROJETO OSCAR - EMILIANO"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII XP LOG - XPLG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 27041.0,
+        "valor": 2861478.62
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII XP CRED - XPCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 52533.0,
+        "valor": 4359188.34
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21K0914380 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "462",
+        "vencimento": "",
+        "quantidade": 5110.0,
+        "valor": 4542902.43,
+        "nome_cri": "CRI Parque dos Poderes"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "24L0001001 - OPEA SEC",
+        "nome": "",
+        "emissao": "269",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7336.0,
+        "valor": 7301338.16,
+        "nome_cri": "CRI Heritage"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII EXCELLEN - BTCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 103706.0,
+        "valor": 968614.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "25I2039269 - OPEA SEC",
+        "nome": "",
+        "emissao": "478",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 17851.0,
+        "valor": 18034031.71,
+        "nome_cri": "CRI Shopping Itapê"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII PCIP PAX - PCIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 29020.0,
+        "valor": 2456252.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII BC FUND - BRCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 17919.0,
+        "valor": 823378.05
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19G0228153 - HABITASEC SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "148",
+        "vencimento": "",
+        "quantidade": 1662.0,
+        "valor": 846063.85,
+        "nome_cri": "CRI HBR"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII KINEA CR - KCRE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 183355.0,
+        "valor": 1611690.45
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G1667911 - VERTCIASEC",
+        "nome": "",
+        "emissao": "135",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 7957.0,
+        "valor": 3684177.21,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "25I2039269 - OPEA SEC",
+        "nome": "",
+        "emissao": "478",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4131.0,
+        "valor": 4173356.39,
+        "nome_cri": "CRI Shopping Itapê"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F7021405 - TRAVESSIA SEC",
+        "nome": "",
+        "emissao": "66",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1802.0,
+        "valor": 1810479.01
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII CENESP - CNES11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 17919.0,
+        "valor": 31716.63
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24L1567363 - CANAL COMPANHIA DE SEC",
+        "nome": "",
+        "emissao": "133",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4500.0,
+        "valor": 2992730.85
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20L0653519 - GAIA SECURIT",
+        "nome": "",
+        "emissao": "4",
+        "serie": "169",
+        "vencimento": "",
+        "quantidade": 274.0,
+        "valor": 260069.69
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0906695 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "292",
+        "vencimento": "",
+        "quantidade": 11580.0,
+        "valor": 9824540.18,
+        "nome_cri": "CRI PROJETO OSCAR - EMILIANO"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII KINEA IP - KNIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 114013.0,
+        "valor": 10322737.02
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBRHGRAD - RBRR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8944.0,
+        "valor": 783226.08
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII KINEA UNIQUE HY CDI - KNUQ11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 21310.0,
+        "valor": 2242877.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0906786 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "294",
+        "vencimento": "",
+        "quantidade": 4749.0,
+        "valor": 4024682.44,
+        "nome_cri": "CRI PROJETO OSCAR - EMILIANO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25D4482026 - VERTCIASEC",
+        "nome": "",
+        "emissao": "155",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 3611795.22,
+        "nome_cri": "CRI CRILIMOVEIS EMPREENDIMENTOS IMOBILIARIOS S/A"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII KINEA RI - KNCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 52925.0,
+        "valor": 5689966.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20C0936929 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "86",
+        "vencimento": "",
+        "quantidade": 6091.0,
+        "valor": 3849382.79,
+        "nome_cri": "CRI MINT"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII KINEA SC - KNSC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 554339.0,
+        "valor": 4883726.59
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0906786 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "294",
+        "vencimento": "",
+        "quantidade": 4886.0,
+        "valor": 4140787.2,
+        "nome_cri": "CRI PROJETO OSCAR - EMILIANO"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII XP INDL - XPIN11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16343.0,
+        "valor": 1352873.54
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII HSI MALL - HSML11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1607.0,
+        "valor": 148711.78
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25F7021405 - TRAVESSIA SEC",
+        "nome": "",
+        "emissao": "66",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5996.0,
+        "valor": 6024213.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII VINCI UB - VIUR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 85004.0,
+        "valor": 525324.72
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII V2 PROP - VPPR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1300.0,
+        "valor": 20995.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII MAUA - MCCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 54519.0,
+        "valor": 4990669.26
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII VALREIII - VGIR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 332692.0,
+        "valor": 3270362.36
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

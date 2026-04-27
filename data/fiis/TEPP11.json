@@ -5,13 +5,17 @@
     "Nome": "Tellus Properties FII",
     "Setor": "Escritórios",
     "Retorno - MTD": 0.0101,
-    "Retorno - 12M": 0.2362,
+    "Retorno - 12M": 0.2079,
     "P/VP": 0.94,
     "Último Dividendo Pago": 0.131,
     "DY a.a.": 0.173,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em obtenção de renda e agregação de valor por meio de gestão ativa. É gerido pela Tellus e direcionado ao segmento corporativo. A estratégia prioriza locação recorrente, melhorias operacionais e captura de valor em ativos urbanos relevantes.",
     "Comentário": "O fundo distribuiu R$ 0,08/cota, correspondendo a dividend yield de 0,86% mensal ou 10,85% anualizado. Recebeu a última parcela da venda do Ed. Condomínio São Luiz (R$ 77,7MM), concluindo operação com ganho de capital de R$ 39,8MM. A gestão segue ativa na prospecção de novos ativos aderentes à estratégia de lajes corporativas com foco em transformação de valor.",
-    "Preço Atual": 9.06
+    "Preço Atual": 9.07,
+    "% Dias Acima CDI 1A": 0.3911,
+    "% Dias Acima CDI 3A": 0.5664,
+    "% Dias Acima CDI 5A": 0.4048,
+    "% Dias Acima CDI MAX": 0.371
   },
   "historico_preco": [
     [
@@ -6541,6 +6545,22 @@
     [
       "2026-04-16",
       9.05
+    ],
+    [
+      "2026-04-17",
+      9.07
+    ],
+    [
+      "2026-04-20",
+      9.08
+    ],
+    [
+      "2026-04-22",
+      9.1
+    ],
+    [
+      "2026-04-23",
+      9.08
     ]
   ],
   "historico_preco_adj": [
@@ -13071,6 +13091,22 @@
     [
       "2026-04-16",
       9.05
+    ],
+    [
+      "2026-04-17",
+      9.07
+    ],
+    [
+      "2026-04-20",
+      9.08
+    ],
+    [
+      "2026-04-22",
+      9.1
+    ],
+    [
+      "2026-04-23",
+      9.08
     ]
   ],
   "historico_pvp": [
@@ -19860,55 +19896,75 @@
     ],
     [
       "2026-03-31",
-      0.94115057563
+      0.94029939931
     ],
     [
       "2026-04-01",
-      0.92875342206
+      0.92791345772
     ],
     [
       "2026-04-02",
-      0.92565413366
+      0.92481697232
     ],
     [
       "2026-04-03",
-      0.92565413366
+      0.92481697232
     ],
     [
       "2026-04-06",
-      0.92772032592
+      0.92688129592
     ],
     [
       "2026-04-07",
-      0.92875342206
+      0.92791345772
     ],
     [
       "2026-04-08",
-      0.93185271045
+      0.93100994312
     ],
     [
       "2026-04-09",
-      0.92875342206
+      0.92791345772
     ],
     [
       "2026-04-10",
-      0.93185271045
+      0.93100994312
     ],
     [
       "2026-04-13",
-      0.93185271045
+      0.93100994312
     ],
     [
       "2026-04-14",
-      0.93495199884
+      0.93410642851
     ],
     [
       "2026-04-15",
-      0.93288580658
+      0.93204210492
     ],
     [
       "2026-04-16",
-      0.93495199884
+      0.93410642851
+    ],
+    [
+      "2026-04-17",
+      0.93617075211
+    ],
+    [
+      "2026-04-20",
+      0.93720291391
+    ],
+    [
+      "2026-04-21",
+      0.93720291391
+    ],
+    [
+      "2026-04-22",
+      0.93926723751
+    ],
+    [
+      "2026-04-23",
+      0.93720291391
     ]
   ],
   "historico_dy": [
@@ -26331,12 +26387,471 @@
     [
       "2026-04-16",
       17.3702
+    ],
+    [
+      "2026-04-17",
+      17.3319
+    ],
+    [
+      "2026-04-20",
+      17.3128
+    ],
+    [
+      "2026-04-22",
+      17.2747
+    ],
+    [
+      "2026-04-23",
+      17.3128
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2019-10-31",
+      0.0
+    ],
+    [
+      "2019-11-30",
+      0.027
+    ],
+    [
+      "2019-12-31",
+      0.034
+    ],
+    [
+      "2020-01-31",
+      0.055
+    ],
+    [
+      "2020-02-29",
+      0.055
+    ],
+    [
+      "2020-03-31",
+      0.056
+    ],
+    [
+      "2020-04-30",
+      0.049
+    ],
+    [
+      "2020-05-31",
+      0.049
+    ],
+    [
+      "2020-06-30",
+      0.05
+    ],
+    [
+      "2020-07-31",
+      0.05
+    ],
+    [
+      "2020-08-31",
+      0.052
+    ],
+    [
+      "2020-09-30",
+      0.05
+    ],
+    [
+      "2020-10-31",
+      0.05
+    ],
+    [
+      "2020-11-30",
+      0.047
+    ],
+    [
+      "2020-12-31",
+      0.05
+    ],
+    [
+      "2021-01-31",
+      0.052
+    ],
+    [
+      "2021-02-28",
+      0.05
+    ],
+    [
+      "2021-03-31",
+      0.045
+    ],
+    [
+      "2021-04-30",
+      0.045
+    ],
+    [
+      "2021-05-31",
+      0.045
+    ],
+    [
+      "2021-06-30",
+      0.045
+    ],
+    [
+      "2021-07-31",
+      0.042
+    ],
+    [
+      "2021-08-31",
+      0.038
+    ],
+    [
+      "2021-09-30",
+      0.045
+    ],
+    [
+      "2021-10-31",
+      0.048
+    ],
+    [
+      "2021-11-30",
+      0.048
+    ],
+    [
+      "2021-12-31",
+      0.048
+    ],
+    [
+      "2022-01-31",
+      0.051
+    ],
+    [
+      "2022-02-28",
+      0.047
+    ],
+    [
+      "2022-03-31",
+      0.047
+    ],
+    [
+      "2022-04-30",
+      0.049
+    ],
+    [
+      "2022-05-31",
+      0.049
+    ],
+    [
+      "2022-06-30",
+      0.05
+    ],
+    [
+      "2022-07-31",
+      0.05
+    ],
+    [
+      "2022-08-31",
+      0.049
+    ],
+    [
+      "2022-09-30",
+      0.049
+    ],
+    [
+      "2022-10-31",
+      0.049
+    ],
+    [
+      "2022-11-30",
+      0.05
+    ],
+    [
+      "2022-12-31",
+      0.05
+    ],
+    [
+      "2023-01-31",
+      0.051
+    ],
+    [
+      "2023-02-28",
+      0.049
+    ],
+    [
+      "2023-03-31",
+      0.05
+    ],
+    [
+      "2023-04-30",
+      0.051
+    ],
+    [
+      "2023-05-31",
+      0.052
+    ],
+    [
+      "2023-06-30",
+      0.055
+    ],
+    [
+      "2023-07-31",
+      0.081
+    ],
+    [
+      "2023-08-31",
+      0.058
+    ],
+    [
+      "2023-09-30",
+      0.058
+    ],
+    [
+      "2023-10-31",
+      0.058
+    ],
+    [
+      "2023-11-30",
+      0.064
+    ],
+    [
+      "2023-12-31",
+      0.064
+    ],
+    [
+      "2024-01-31",
+      0.09
+    ],
+    [
+      "2024-02-29",
+      0.064
+    ],
+    [
+      "2024-03-31",
+      0.064
+    ],
+    [
+      "2024-04-30",
+      0.1
+    ],
+    [
+      "2024-05-31",
+      0.105
+    ],
+    [
+      "2024-06-30",
+      0.118
+    ],
+    [
+      "2024-07-31",
+      0.118
+    ],
+    [
+      "2024-08-31",
+      0.078
+    ],
+    [
+      "2024-09-30",
+      0.078
+    ],
+    [
+      "2024-10-31",
+      0.078
+    ],
+    [
+      "2024-11-30",
+      0.078
+    ],
+    [
+      "2024-12-31",
+      0.078
+    ],
+    [
+      "2025-01-31",
+      0.078
+    ],
+    [
+      "2025-02-28",
+      0.08
+    ],
+    [
+      "2025-03-31",
+      0.095
+    ],
+    [
+      "2025-04-30",
+      0.095
+    ],
+    [
+      "2025-05-31",
+      0.095
+    ],
+    [
+      "2025-06-30",
+      0.095
+    ],
+    [
+      "2025-07-31",
+      0.11
+    ],
+    [
+      "2025-08-31",
+      0.0911547338
+    ],
+    [
+      "2025-09-30",
+      0.074
+    ],
+    [
+      "2025-10-31",
+      0.074
+    ],
+    [
+      "2025-11-30",
+      0.074
+    ],
+    [
+      "2025-12-31",
+      0.074
+    ],
+    [
+      "2026-01-31",
+      0.075
+    ],
+    [
+      "2026-02-28",
+      0.075
+    ],
+    [
+      "2026-03-31",
+      0.08
+    ],
+    [
+      "2026-04-30",
+      0.131
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 34459895.62,
     "Imóveis": 652113504.42,
     "Cotas de FIIs": 687917.68,
-    "Outros": 9.685754776000977e-08
+    "Outros": 7.450580596923828e-09
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FI RF REF CRED PRIV",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 46773.61,
+        "valor": 2489390.13
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BB RENDA CORPORATIVA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 103000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITANIA SECURITIES II FII - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 25000.0,
+        "valor": 193750.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO DE INVESTIMENTO IMOBILIARIO G",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 450.0,
+        "valor": 37350.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "WHG REAL ESTATE FUNDO DE INVESTIME",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 21486.0,
+        "valor": 200894.1
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TIVIO RENDA IMOBILIARIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2750.0,
+        "valor": 276320.0
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTGP TESOURO SELIC FI RF REFERENCIADO DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1004595.37,
+        "valor": 5191457.92
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PLUS MULTIESTRATEGIA REAL ESTAT",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 49553.0,
+        "valor": 413767.55
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Edificio Passarelli",
+        "endereco": "Rua Pais Leme, 524, Sem Complemento, Pinheiros, São Paulo/SP, Brasil, 05424-010",
+        "area": 22964.14,
+        "vacancia": 0.066,
+        "pct_total": null
+      },
+      {
+        "nome": "Ed Faria Lima 1355",
+        "endereco": "Avenida Brigadeiro Faria Lima, 1355, Sem Complemento, Jardim Paulistano, São Paulo/SP, Brasil, 01452-002",
+        "area": 50000.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Imovel GPA - Brigadeiro Luis Antonio",
+        "endereco": "Avenida Brigadeiro Luis Antonio, 3142, Sem Complemento, Jardim Paulista, São Paulo/SP, Brasil, 01402-000",
+        "area": 17644.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edificio Fujitsu",
+        "endereco": "Rua Treze De Maio, 1633, Sem Complemento, Bela Vista, São Paulo/SP, Brasil, 01327-001",
+        "area": 4107.47,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edificio Torre Sul",
+        "endereco": "Rua James Joule, 65, Sem Complemento, Cidade Monções, São Paulo/SP, Brasil, 04576-080",
+        "area": 32447.23,
+        "vacancia": 0.0194,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

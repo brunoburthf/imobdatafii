@@ -4,14 +4,18 @@
     "Ticker": "TOPP11",
     "Nome": "Rbr Top Offices FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.0044,
-    "Retorno - 12M": 0.1631,
+    "Retorno - MTD": -0.0132,
+    "Retorno - 12M": 0.131,
     "P/VP": 0.67,
     "Último Dividendo Pago": 0.84,
-    "DY a.a.": 0.141,
+    "DY a.a.": 0.142,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em renda locatícia e valorização patrimonial. É gerido pela RBR e integra sua vertical de renda e properties. Porte, localização detalhada, diversificação do portfólio e perfil contratual aparecem como N/A nas fontes consultadas com segurança.",
     "Comentário": "O Patria Real Estate passou a controlar a RBR Gestão desde 3 de fevereiro, assumindo gestão do TOPP11. O fundo distribuiu R$ 0,84/cota com dividend yield de 9,5% ao ano sobre valor patrimonial. Com apenas 2 ativos (Metropolitan e Platinum), mantém vacância zerada, mas enfrenta desafio de pagamento de R$ 273,8MM em abril, estruturando captação de CRI como alternativa financeira.",
-    "Preço Atual": 71.35
+    "Preço Atual": 71.26,
+    "% Dias Acima CDI 1A": 0.5407,
+    "% Dias Acima CDI 3A": 0.5407,
+    "% Dias Acima CDI 5A": 0.5407,
+    "% Dias Acima CDI MAX": 0.5407
   },
   "historico_preco": [
     [
@@ -1533,6 +1537,22 @@
     [
       "2026-04-16",
       71.49
+    ],
+    [
+      "2026-04-17",
+      71.55
+    ],
+    [
+      "2026-04-20",
+      71.48
+    ],
+    [
+      "2026-04-22",
+      71.49
+    ],
+    [
+      "2026-04-23",
+      71.18
     ]
   ],
   "historico_preco_adj": [
@@ -3055,6 +3075,22 @@
     [
       "2026-04-16",
       71.49
+    ],
+    [
+      "2026-04-17",
+      71.55
+    ],
+    [
+      "2026-04-20",
+      71.48
+    ],
+    [
+      "2026-04-22",
+      71.49
+    ],
+    [
+      "2026-04-23",
+      71.18
     ]
   ],
   "historico_pvp": [
@@ -4657,6 +4693,26 @@
     [
       "2026-04-16",
       0.67278319532
+    ],
+    [
+      "2026-04-17",
+      0.67334784761
+    ],
+    [
+      "2026-04-20",
+      0.67268908661
+    ],
+    [
+      "2026-04-21",
+      0.67268908661
+    ],
+    [
+      "2026-04-22",
+      0.67278319532
+    ],
+    [
+      "2026-04-23",
+      0.66986582519
     ]
   ],
   "historico_dy": [
@@ -6099,10 +6155,225 @@
     [
       "2026-04-16",
       14.0999
+    ],
+    [
+      "2026-04-17",
+      14.0881
+    ],
+    [
+      "2026-04-20",
+      14.1018
+    ],
+    [
+      "2026-04-22",
+      14.0999
+    ],
+    [
+      "2026-04-23",
+      14.1613
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-11-30",
+      0.68
+    ],
+    [
+      "2024-12-31",
+      0.84
+    ],
+    [
+      "2025-01-31",
+      0.84
+    ],
+    [
+      "2025-02-28",
+      0.84
+    ],
+    [
+      "2025-03-31",
+      0.84
+    ],
+    [
+      "2025-04-30",
+      0.84
+    ],
+    [
+      "2025-05-31",
+      0.84
+    ],
+    [
+      "2025-06-30",
+      0.84
+    ],
+    [
+      "2025-07-31",
+      0.84
+    ],
+    [
+      "2025-08-31",
+      0.84
+    ],
+    [
+      "2025-09-30",
+      0.84
+    ],
+    [
+      "2025-10-31",
+      0.84
+    ],
+    [
+      "2025-11-30",
+      0.84
+    ],
+    [
+      "2025-12-31",
+      0.84
+    ],
+    [
+      "2026-01-31",
+      0.84
+    ],
+    [
+      "2026-02-28",
+      0.84
+    ],
+    [
+      "2026-03-31",
+      0.84
+    ],
+    [
+      "2026-04-30",
+      0.84
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 80388341.68,
     "Imóveis": 675517556.5
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "CAIXA ECONOMICA FEDERAL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-04-06",
+        "quantidade": 1.0,
+        "valor": 6128966.0
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "CAIXA ECONOMICA FEDERAL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-09-21",
+        "quantidade": 3.0,
+        "valor": 17492738.39
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "CAIXA ECONOMICA FEDERAL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-06-08",
+        "quantidade": 1.0,
+        "valor": 1198539.07
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "238",
+        "vencimento": "",
+        "quantidade": 26366.0,
+        "valor": 26500433.76,
+        "nome_cri": "CRI FLBC"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Banco BTG Pactual S.A.",
+        "nome": "Operações Compromissadas - Lastro: NTNB IPCA",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 398.0,
+        "valor": 1725889.97
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL CDB I FIC FI RF CP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 91301.78,
+        "valor": 310365.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 17000.0,
+        "valor": 17106050.7
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6995.44,
+        "valor": 372761.57
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL CAPITAL MARKETS FI RF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 18997.86,
+        "valor": 297630.83
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTGP TESOURO SELIC FI RF REFERENCIADO DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 398749.84,
+        "valor": 2051490.71
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Edificio Platinum",
+        "endereco": "Rua Jeronimo Da Veiga, 384, Sem Complemento, Jardim Europa, São Paulo/SP, Brasil, 04536-001",
+        "area": 2520.48,
+        "vacancia": 0.08649146194376,
+        "pct_total": null
+      },
+      {
+        "nome": "Edificio Metropolitan",
+        "endereco": "Rua Amauri, 225, Sem Complemento, Jardim Europa, São Paulo/SP, Brasil, 01448-000",
+        "area": 10155.55,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

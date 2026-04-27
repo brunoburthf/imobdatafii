@@ -4,14 +4,18 @@
     "Ticker": "JSCR11",
     "Nome": "Js Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.003,
-    "Retorno - 12M": 0.1565,
+    "Retorno - MTD": 0.0115,
+    "Retorno - 12M": 0.1454,
     "P/VP": 0.88,
     "Último Dividendo Pago": 0.095,
-    "DY a.a.": 0.137,
+    "DY a.a.": 0.136,
     "Visão Geral": "FII de papel que investe em CRIs, cotas de FIIs de CRI e outros ativos de crédito do mercado imobiliário. É gerido pelo Safra com gestão ativa e foco em rendimentos ou ganhos de capital. A estratégia prioriza geração frequente de renda por meio de carteira voltada a crédito imobiliário.",
     "Comentário": "Em fevereiro, JSCR11 permaneceu rigorosamente em linha com guidance, distribuindo R$0,095/cota com dividend yield mensal de 1,10% ou 13,24% a.a. Resultado apurado foi R$0,0895/cota, acumulando saldo positivo de R$0,028/cota. CRI Rochaverá foi pré-pago gerando prêmio de 2%, enquanto CRI Alfa Realty avançou nas obras mas com ritmo de vendas abaixo do esperado impactando fluxo de repasses.",
-    "Preço Atual": 8.33
+    "Preço Atual": 8.38,
+    "% Dias Acima CDI 1A": 0.4222,
+    "% Dias Acima CDI 3A": 0.4222,
+    "% Dias Acima CDI 5A": 0.4222,
+    "% Dias Acima CDI MAX": 0.4222
   },
   "historico_preco": [
     [
@@ -1705,6 +1709,22 @@
     [
       "2026-04-16",
       8.33
+    ],
+    [
+      "2026-04-17",
+      8.3
+    ],
+    [
+      "2026-04-20",
+      8.36
+    ],
+    [
+      "2026-04-22",
+      8.41
+    ],
+    [
+      "2026-04-23",
+      8.64
     ]
   ],
   "historico_preco_adj": [
@@ -3399,6 +3419,22 @@
     [
       "2026-04-16",
       8.33
+    ],
+    [
+      "2026-04-17",
+      8.3
+    ],
+    [
+      "2026-04-20",
+      8.36
+    ],
+    [
+      "2026-04-22",
+      8.41
+    ],
+    [
+      "2026-04-23",
+      8.64
     ]
   ],
   "historico_pvp": [
@@ -5181,6 +5217,26 @@
     [
       "2026-04-16",
       0.87879283351
+    ],
+    [
+      "2026-04-17",
+      0.87562791334
+    ],
+    [
+      "2026-04-20",
+      0.88195775368
+    ],
+    [
+      "2026-04-21",
+      0.88195775368
+    ],
+    [
+      "2026-04-22",
+      0.88723262063
+    ],
+    [
+      "2026-04-23",
+      0.91149700859
     ]
   ],
   "historico_dy": [
@@ -6795,11 +6851,452 @@
     [
       "2026-04-16",
       13.6855
+    ],
+    [
+      "2026-04-17",
+      13.7349
+    ],
+    [
+      "2026-04-20",
+      13.6364
+    ],
+    [
+      "2026-04-22",
+      13.5553
+    ],
+    [
+      "2026-04-23",
+      13.1944
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-09-30",
+      0.083
+    ],
+    [
+      "2024-10-31",
+      0.085
+    ],
+    [
+      "2024-11-30",
+      0.092
+    ],
+    [
+      "2024-12-31",
+      0.1
+    ],
+    [
+      "2025-01-31",
+      0.1
+    ],
+    [
+      "2025-02-28",
+      0.095
+    ],
+    [
+      "2025-03-31",
+      0.095
+    ],
+    [
+      "2025-04-30",
+      0.095
+    ],
+    [
+      "2025-05-31",
+      0.095
+    ],
+    [
+      "2025-06-30",
+      0.095
+    ],
+    [
+      "2025-07-31",
+      0.095
+    ],
+    [
+      "2025-08-31",
+      0.095
+    ],
+    [
+      "2025-09-30",
+      0.095
+    ],
+    [
+      "2025-10-31",
+      0.095
+    ],
+    [
+      "2025-11-30",
+      0.095
+    ],
+    [
+      "2025-12-31",
+      0.095
+    ],
+    [
+      "2026-01-31",
+      0.095
+    ],
+    [
+      "2026-02-28",
+      0.095
+    ],
+    [
+      "2026-03-31",
+      0.095
+    ],
+    [
+      "2026-04-30",
+      0.095
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 5778482.46,
     "Cotas de FIIs": 19102243.58,
     "CRI/CRA": 187131764.72
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "254",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10762.0,
+        "valor": 10842783.48,
+        "nome_cri": "CRI Alfa Realty"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "439",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2600.0,
+        "valor": 2676094.73,
+        "nome_cri": "CRI Log"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Fundo de Investimento Imobiliario - VBI CRI  - CVBI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6417.0,
+        "valor": 531199.26
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BANCO CENTRAL",
+        "nome": "Compromissada",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3784.0,
+        "valor": 17242811.91
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASECSA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 11599.0,
+        "valor": 11478424.34,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AF Invest Cri FII Recebiveis Imobiliarios - AFHI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 25726.0,
+        "valor": 2464293.54
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANALSEC",
+        "nome": "",
+        "emissao": "115",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10332.0,
+        "valor": 10538945.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "439",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7822.0,
+        "valor": 8050928.08,
+        "nome_cri": "CRI Log"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "254",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3995.0,
+        "valor": 4024987.92,
+        "nome_cri": "CRI Alfa Realty"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZASEC",
+        "nome": "",
+        "emissao": "280",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 17869811.84,
+        "nome_cri": "CRI ESTR ROJEMAC"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Patria Cred Imob Precos FII RL - PCIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6417.0,
+        "valor": 543134.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PROVINCIASECURIT",
+        "nome": "",
+        "emissao": "102",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1125.0,
+        "valor": 1147326.98
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI Ativos Financeiros FII - HSAF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7005.0,
+        "valor": 563202.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Cyrela Credito - FII - Classe Unica - CYCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 38231.0,
+        "valor": 338344.35
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "281",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20737.0,
+        "valor": 18404647.62,
+        "nome_cri": "CRI Venâncio"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZASEC",
+        "nome": "",
+        "emissao": "55",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 19840.0,
+        "valor": 19057061.83,
+        "nome_cri": "CRI CORP HSI BEMOL"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "163",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9958.0,
+        "valor": 8992069.76,
+        "nome_cri": "CRI Comporte"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Fdo Inv Imob Rbr Private Credito Imob Cef - RBRY11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 27219.0,
+        "valor": 2662018.2
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "470",
+        "vencimento": "",
+        "quantidade": 22277.0,
+        "valor": 13607592.14,
+        "nome_cri": "CRI Malls BRPP"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERTSEC",
+        "nome": "",
+        "emissao": "126",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4454.0,
+        "valor": 4543646.25,
+        "nome_cri": "CRI Automob"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Indices de Precos FII - Unica - KNIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 112604.0,
+        "valor": 10195166.16
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Patria Recebiveis Imobiliarios FII RL - HGCR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 14275.0,
+        "valor": 1399092.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "330",
+        "vencimento": "",
+        "quantidade": 12971.0,
+        "valor": 5312842.33,
+        "nome_cri": "CRI Core Metropolis FII"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA",
+        "nome": "",
+        "emissao": "163",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1984.0,
+        "valor": 1757070.49,
+        "nome_cri": "CRI Comporte"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Itau Credito Imobiliario IPCA FII - Unica - ICRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5975.0,
+        "valor": 543127.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Hedge Recebiveis Imobiliarios FII - Un - HREC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1067581.0,
+        "valor": 8743488.39
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Fator Verita Fundo Investimento Imobiliario - FII - VRTA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5137.0,
+        "valor": 424316.2
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARISEC",
+        "nome": "",
+        "emissao": "42",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 9957403.97,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANALSEC",
+        "nome": "",
+        "emissao": "46",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4140.0,
+        "valor": 4404723.12
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANALSEC",
+        "nome": "",
+        "emissao": "46",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7133.0,
+        "valor": 7613263.66
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZASEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "442",
+        "vencimento": "",
+        "quantidade": 4162.0,
+        "valor": 4775131.75,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Securities FI Imobiliario FII - KNSC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 114465.0,
+        "valor": 1008436.65
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

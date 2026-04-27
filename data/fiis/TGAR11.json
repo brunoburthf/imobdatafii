@@ -4,14 +4,18 @@
     "Ticker": "TGAR11",
     "Nome": "FII Tg Ativo Real",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0007,
-    "Retorno - 12M": -0.092,
-    "P/VP": 0.64,
+    "Retorno - MTD": -0.0068,
+    "Retorno - 12M": -0.1055,
+    "P/VP": 0.63,
     "Último Dividendo Pago": 0.72,
     "DY a.a.": 0.123,
     "Visão Geral": "FII híbrido que investe em ativos imobiliários e ativos financeiros imobiliários, com foco em desenvolvimento e valorização patrimonial. Iniciado em dezembro de 2016, é descrito pela gestora como o maior fundo de desenvolvimento imobiliário listado do Brasil. A estratégia combina distribuição de lucros e ganho de capital com gestão ativa.",
     "Comentário": "O fundo distribuiu R$ 0,72/cota, correspondendo a 11,33% anualizado. Completou 72% das vendas (79 unidades) e R$ 30,16MM em VGV do segmento incorporação em fevereiro, melhor desempenho em 17 meses. No segmento urbanismo, comercializou 282 unidades gerando R$ 34,84MM de VGV, consolidando estratégia de recuperação do portfólio de desenvolvimento imobiliário.",
-    "Preço Atual": 71.04
+    "Preço Atual": 69.46,
+    "% Dias Acima CDI 1A": 0.1895,
+    "% Dias Acima CDI 3A": 0.4403,
+    "% Dias Acima CDI 5A": 0.4867,
+    "% Dias Acima CDI MAX": 0.6374
   },
   "historico_preco": [
     [
@@ -8529,6 +8533,22 @@
     [
       "2026-04-16",
       70.94
+    ],
+    [
+      "2026-04-17",
+      70.53
+    ],
+    [
+      "2026-04-20",
+      70.95
+    ],
+    [
+      "2026-04-22",
+      70.5
+    ],
+    [
+      "2026-04-23",
+      70.1
     ]
   ],
   "historico_preco_adj": [
@@ -17047,6 +17067,22 @@
     [
       "2026-04-16",
       70.94
+    ],
+    [
+      "2026-04-17",
+      70.53
+    ],
+    [
+      "2026-04-20",
+      70.95
+    ],
+    [
+      "2026-04-22",
+      70.5
+    ],
+    [
+      "2026-04-23",
+      70.1
     ]
   ],
   "historico_pvp": [
@@ -26165,6 +26201,26 @@
     [
       "2026-04-16",
       0.64174750281
+    ],
+    [
+      "2026-04-17",
+      0.63803850258
+    ],
+    [
+      "2026-04-20",
+      0.64183796623
+    ],
+    [
+      "2026-04-21",
+      0.64183796623
+    ],
+    [
+      "2026-04-22",
+      0.63776711232
+    ],
+    [
+      "2026-04-23",
+      0.63414857551
     ]
   ],
   "historico_dy": [
@@ -34679,14 +34735,706 @@
     [
       "2026-04-16",
       12.1793
+    ],
+    [
+      "2026-04-17",
+      12.2501
+    ],
+    [
+      "2026-04-20",
+      12.1776
+    ],
+    [
+      "2026-04-22",
+      12.2553
+    ],
+    [
+      "2026-04-23",
+      12.3252
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2017-08-31",
+      1.0
+    ],
+    [
+      "2017-09-30",
+      1.1
+    ],
+    [
+      "2017-10-31",
+      0.9
+    ],
+    [
+      "2017-11-30",
+      0.9
+    ],
+    [
+      "2017-12-31",
+      0.78
+    ],
+    [
+      "2018-01-31",
+      0.78
+    ],
+    [
+      "2018-02-28",
+      0.88
+    ],
+    [
+      "2018-03-31",
+      0.75
+    ],
+    [
+      "2018-04-30",
+      0.83
+    ],
+    [
+      "2018-05-31",
+      0.82
+    ],
+    [
+      "2018-06-30",
+      0.8
+    ],
+    [
+      "2018-07-31",
+      0.83
+    ],
+    [
+      "2018-08-31",
+      0.75
+    ],
+    [
+      "2018-09-30",
+      0.49
+    ],
+    [
+      "2018-10-31",
+      0.75
+    ],
+    [
+      "2018-11-30",
+      0.65
+    ],
+    [
+      "2018-12-31",
+      1.01
+    ],
+    [
+      "2019-01-31",
+      1.13
+    ],
+    [
+      "2019-02-28",
+      0.75
+    ],
+    [
+      "2019-03-31",
+      0.84
+    ],
+    [
+      "2019-04-30",
+      0.8
+    ],
+    [
+      "2019-05-31",
+      0.83
+    ],
+    [
+      "2019-06-30",
+      0.85
+    ],
+    [
+      "2019-07-31",
+      1.01
+    ],
+    [
+      "2019-08-31",
+      0.8
+    ],
+    [
+      "2019-09-30",
+      0.86
+    ],
+    [
+      "2019-10-31",
+      0.9
+    ],
+    [
+      "2019-11-30",
+      0.93
+    ],
+    [
+      "2019-12-31",
+      0.99
+    ],
+    [
+      "2020-01-31",
+      1.35
+    ],
+    [
+      "2020-02-29",
+      0.57
+    ],
+    [
+      "2020-03-31",
+      0.7
+    ],
+    [
+      "2020-04-30",
+      0.82
+    ],
+    [
+      "2020-05-31",
+      0.8
+    ],
+    [
+      "2020-06-30",
+      1.25
+    ],
+    [
+      "2020-07-31",
+      1.23
+    ],
+    [
+      "2020-08-31",
+      1.14
+    ],
+    [
+      "2020-09-30",
+      1.09
+    ],
+    [
+      "2020-10-31",
+      1.0
+    ],
+    [
+      "2020-11-30",
+      1.1
+    ],
+    [
+      "2020-12-31",
+      1.12
+    ],
+    [
+      "2021-01-31",
+      1.36
+    ],
+    [
+      "2021-02-28",
+      1.2
+    ],
+    [
+      "2021-03-31",
+      1.15
+    ],
+    [
+      "2021-04-30",
+      1.3
+    ],
+    [
+      "2021-05-31",
+      1.26
+    ],
+    [
+      "2021-06-30",
+      1.16
+    ],
+    [
+      "2021-07-31",
+      1.11
+    ],
+    [
+      "2021-08-31",
+      1.08
+    ],
+    [
+      "2021-09-30",
+      1.1
+    ],
+    [
+      "2021-10-31",
+      1.11
+    ],
+    [
+      "2021-11-30",
+      1.2
+    ],
+    [
+      "2021-12-31",
+      1.22
+    ],
+    [
+      "2022-01-31",
+      1.23
+    ],
+    [
+      "2022-02-28",
+      1.16
+    ],
+    [
+      "2022-03-31",
+      1.22
+    ],
+    [
+      "2022-04-30",
+      1.27
+    ],
+    [
+      "2022-05-31",
+      1.44
+    ],
+    [
+      "2022-06-30",
+      1.53
+    ],
+    [
+      "2022-07-31",
+      1.57
+    ],
+    [
+      "2022-08-31",
+      1.58
+    ],
+    [
+      "2022-09-30",
+      1.59
+    ],
+    [
+      "2022-10-31",
+      1.59
+    ],
+    [
+      "2022-11-30",
+      1.55
+    ],
+    [
+      "2022-12-31",
+      1.5
+    ],
+    [
+      "2023-01-31",
+      1.3
+    ],
+    [
+      "2023-02-28",
+      1.3
+    ],
+    [
+      "2023-03-31",
+      1.31
+    ],
+    [
+      "2023-04-30",
+      1.34
+    ],
+    [
+      "2023-05-31",
+      1.35
+    ],
+    [
+      "2023-06-30",
+      1.36
+    ],
+    [
+      "2023-07-31",
+      1.38
+    ],
+    [
+      "2023-08-31",
+      1.4
+    ],
+    [
+      "2023-09-30",
+      1.42
+    ],
+    [
+      "2023-10-31",
+      1.43
+    ],
+    [
+      "2023-11-30",
+      1.45
+    ],
+    [
+      "2023-12-31",
+      1.43
+    ],
+    [
+      "2024-01-31",
+      1.32
+    ],
+    [
+      "2024-02-29",
+      1.32
+    ],
+    [
+      "2024-03-31",
+      1.33
+    ],
+    [
+      "2024-04-30",
+      1.33
+    ],
+    [
+      "2024-05-31",
+      1.34
+    ],
+    [
+      "2024-06-30",
+      1.35
+    ],
+    [
+      "2024-07-31",
+      1.33
+    ],
+    [
+      "2024-08-31",
+      1.22
+    ],
+    [
+      "2024-09-30",
+      1.12
+    ],
+    [
+      "2024-10-31",
+      1.14
+    ],
+    [
+      "2024-11-30",
+      1.15
+    ],
+    [
+      "2024-12-31",
+      1.15
+    ],
+    [
+      "2025-01-31",
+      1.1
+    ],
+    [
+      "2025-02-28",
+      1.0
+    ],
+    [
+      "2025-03-31",
+      1.0
+    ],
+    [
+      "2025-04-30",
+      1.0
+    ],
+    [
+      "2025-05-31",
+      1.0
+    ],
+    [
+      "2025-06-30",
+      1.0
+    ],
+    [
+      "2025-07-31",
+      1.0
+    ],
+    [
+      "2025-08-31",
+      1.0
+    ],
+    [
+      "2025-09-30",
+      1.0
+    ],
+    [
+      "2025-10-31",
+      1.0
+    ],
+    [
+      "2025-11-30",
+      1.0
+    ],
+    [
+      "2025-12-31",
+      1.0
+    ],
+    [
+      "2026-01-31",
+      1.0
+    ],
+    [
+      "2026-02-28",
+      0.71
+    ],
+    [
+      "2026-03-31",
+      0.72
+    ],
+    [
+      "2026-04-30",
+      0.72
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 43572326.23,
     "Imóveis": 4031741.27,
     "Cotas de FIIs": 53643455.11,
     "CRI/CRA": 42943095.79,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 2310138584.0,
     "Outros": 92218278.88999987
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGOSEC - 22I0351915",
+        "nome": "",
+        "emissao": "61",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 464.0,
+        "valor": 507798.57,
+        "nome_cri": "CRI ESTR G2 INCORPORAÇÕES"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "REC MULTIESTRATÉGIA - RECM11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 446053.0,
+        "valor": 3836055.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "OPEN K ATIVOS E RECEBIVEIS IMOBILIARIOS - ARRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 222470.0,
+        "valor": 1523919.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA - 23G1149794",
+        "nome": "",
+        "emissao": "161",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 620.0,
+        "valor": 489030.3,
+        "nome_cri": "CRI GR Group"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "Fundo de Investimento Multimercado Deck",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 74532.58997117,
+        "valor": 110057917.27
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTESEC - 21F0950049",
+        "nome": "",
+        "emissao": "1",
+        "serie": "576",
+        "vencimento": "",
+        "quantidade": 358.0,
+        "valor": 364979.88
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGOSEC - 21C0482259",
+        "nome": "",
+        "emissao": "4",
+        "serie": "177",
+        "vencimento": "",
+        "quantidade": 5534.0,
+        "valor": 1655903.24,
+        "nome_cri": "CRI TOCANTINS"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "LVCPSEC - 24I1656558",
+        "nome": "",
+        "emissao": "18",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 11946.0,
+        "valor": 9958415.07
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRIO CRÉDITO ESTRUTURADO - FII - BICE11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1140.0,
+        "valor": 1012639.2
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEASECURITIZADORA - 25G3880147",
+        "nome": "",
+        "emissao": "123",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 1064498.2,
+        "nome_cri": "CRI TECNISA S.A"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASECSA - 24C1630587",
+        "nome": "",
+        "emissao": "1",
+        "serie": "353",
+        "vencimento": "",
+        "quantidade": 6000.0,
+        "valor": 7073057.48,
+        "nome_cri": "CRI Manhattan NY"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "LVCPSEC - 24I1715165",
+        "nome": "",
+        "emissao": "18",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 5510.0,
+        "valor": 5491702.76
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITÂNIA SHOPPINGS - CPSH11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4481045.0,
+        "valor": 49649978.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MAXI RENDA - MXRF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 680049.0,
+        "valor": 6487667.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "LVCPSEC - 24I1715107",
+        "nome": "",
+        "emissao": "18",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 5510.0,
+        "valor": 5474663.56
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "LVCPSEC - 24I1582503",
+        "nome": "",
+        "emissao": "18",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8810.0,
+        "valor": 7332706.73
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "LVCPSEC - 24D3676679",
+        "nome": "",
+        "emissao": "6",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9000.0,
+        "valor": 6394056.87
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "Bradesco Corp FIRF Ref DI FEDERAL EXTRA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 40.5644,
+        "valor": 372.24
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGOSEC - 21F0929701",
+        "nome": "",
+        "emissao": "4",
+        "serie": "309",
+        "vencimento": "",
+        "quantidade": 12069.0,
+        "valor": 6176117.73,
+        "nome_cri": "CRI PARQVILLE PINHEIROS"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTESEC - 21F0950048",
+        "nome": "",
+        "emissao": "1",
+        "serie": "575",
+        "vencimento": "",
+        "quantidade": 3887.0,
+        "valor": 3962784.35
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PARAMIS HEDGE  - PMIS11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 526871.0,
+        "valor": 4641733.51
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "PORTAL DO LAGO",
+        "endereco": "Portal do Lago I e II, Catalão - GO",
+        "area": 1280.33,
+        "vacancia": null,
+        "pct_total": 0.0186
+      },
+      {
+        "nome": "MARIA MADALENA",
+        "endereco": "Rodovia GO-060, s/n, Turvânia- GO",
+        "area": 402.08,
+        "vacancia": null,
+        "pct_total": 0.0166
+      },
+      {
+        "nome": "SOLANGE",
+        "endereco": "Rodovia dos Romeiros, s/n, Trindade - GO",
+        "area": 25979.42,
+        "vacancia": null,
+        "pct_total": 0.9379
+      },
+      {
+        "nome": "NOVA CANAA",
+        "endereco": "Ruas NC-07 e NC-08, s/n, Trindade - GO",
+        "area": 1560.0,
+        "vacancia": null,
+        "pct_total": 0.0269
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

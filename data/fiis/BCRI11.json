@@ -4,14 +4,18 @@
     "Ticker": "BCRI11",
     "Nome": "Banestes Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0108,
-    "Retorno - 12M": 0.1403,
-    "P/VP": 0.75,
+    "Retorno - MTD": 0.0179,
+    "Retorno - 12M": 0.1184,
+    "P/VP": 0.76,
     "Último Dividendo Pago": 0.74,
-    "DY a.a.": 0.139,
+    "DY a.a.": 0.138,
     "Visão Geral": "FII de papel que investe em CRIs e outros ativos de crédito imobiliário, com foco em geração de renda recorrente. Iniciado em 2015, conta com mais de 44 mil cotistas segundo divulgações do Banestes. A estratégia prioriza recebíveis imobiliários e carteira financeira, enquanto diversificação detalhada e perfil dos devedores aparecem como N/A.",
     "Comentário": "O BCRI11 distribuiu R$0,66/cota em fevereiro, com dividend yield de 0,99% líquido, refletindo composição de carteira ponderada por CRIs em IPCA e fundos financeiros. A duration média da carteira permaneceu em 3,22 anos com LTV médio de 56,73%, demonstrando exposição equilibrada. Rendimentos acumulados de R$10,01/cota em 12 meses totalizaram 14,94% de dividend yield anualizado no período.",
-    "Preço Atual": 64.3
+    "Preço Atual": 63.86,
+    "% Dias Acima CDI 1A": 0.6169,
+    "% Dias Acima CDI 3A": 0.2443,
+    "% Dias Acima CDI 5A": 0.396,
+    "% Dias Acima CDI MAX": 0.5027
   },
   "historico_preco": [
     [
@@ -10653,6 +10657,22 @@
     [
       "2026-04-16",
       64.02
+    ],
+    [
+      "2026-04-17",
+      63.93
+    ],
+    [
+      "2026-04-20",
+      64.3
+    ],
+    [
+      "2026-04-22",
+      64.62
+    ],
+    [
+      "2026-04-23",
+      64.5
     ]
   ],
   "historico_preco_adj": [
@@ -20795,6 +20815,22 @@
     [
       "2026-04-16",
       64.02
+    ],
+    [
+      "2026-04-17",
+      63.93
+    ],
+    [
+      "2026-04-20",
+      64.3
+    ],
+    [
+      "2026-04-22",
+      64.62
+    ],
+    [
+      "2026-04-23",
+      64.5
     ]
   ],
   "historico_pvp": [
@@ -31977,6 +32013,26 @@
     [
       "2026-04-16",
       0.75088538844
+    ],
+    [
+      "2026-04-17",
+      0.74982978574
+    ],
+    [
+      "2026-04-20",
+      0.75416948574
+    ],
+    [
+      "2026-04-21",
+      0.75416948574
+    ],
+    [
+      "2026-04-22",
+      0.75792273979
+    ],
+    [
+      "2026-04-23",
+      0.75651526952
     ]
   ],
   "historico_dy": [
@@ -42039,12 +42095,1388 @@
     [
       "2026-04-16",
       13.8707
+    ],
+    [
+      "2026-04-17",
+      13.8902
+    ],
+    [
+      "2026-04-20",
+      13.8103
+    ],
+    [
+      "2026-04-22",
+      13.7419
+    ],
+    [
+      "2026-04-23",
+      13.7674
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2016-01-31",
+      0.90503
+    ],
+    [
+      "2016-02-29",
+      1.105918
+    ],
+    [
+      "2016-03-31",
+      1.04452
+    ],
+    [
+      "2016-04-30",
+      1.21
+    ],
+    [
+      "2016-05-31",
+      1.14
+    ],
+    [
+      "2016-06-30",
+      1.19
+    ],
+    [
+      "2016-07-31",
+      1.28
+    ],
+    [
+      "2016-08-31",
+      1.32
+    ],
+    [
+      "2016-09-30",
+      1.32
+    ],
+    [
+      "2016-10-31",
+      1.3
+    ],
+    [
+      "2016-11-30",
+      0.0
+    ],
+    [
+      "2016-12-31",
+      1.17
+    ],
+    [
+      "2017-01-31",
+      1.12
+    ],
+    [
+      "2017-02-28",
+      1.12
+    ],
+    [
+      "2017-03-31",
+      1.1
+    ],
+    [
+      "2017-04-30",
+      1.1
+    ],
+    [
+      "2017-05-31",
+      1.08
+    ],
+    [
+      "2017-06-30",
+      0.92
+    ],
+    [
+      "2017-07-31",
+      0.88
+    ],
+    [
+      "2017-08-31",
+      0.8
+    ],
+    [
+      "2017-09-30",
+      0.75
+    ],
+    [
+      "2017-10-31",
+      0.6
+    ],
+    [
+      "2017-11-30",
+      0.65
+    ],
+    [
+      "2017-12-31",
+      0.65
+    ],
+    [
+      "2018-01-31",
+      0.65
+    ],
+    [
+      "2018-02-28",
+      0.65
+    ],
+    [
+      "2018-03-31",
+      0.56
+    ],
+    [
+      "2018-04-30",
+      0.66
+    ],
+    [
+      "2018-05-31",
+      0.65
+    ],
+    [
+      "2018-06-30",
+      0.72
+    ],
+    [
+      "2018-07-31",
+      0.75
+    ],
+    [
+      "2018-08-31",
+      0.8
+    ],
+    [
+      "2018-09-30",
+      0.9
+    ],
+    [
+      "2018-10-31",
+      0.87
+    ],
+    [
+      "2018-11-30",
+      1.16
+    ],
+    [
+      "2018-12-31",
+      1.23
+    ],
+    [
+      "2019-01-31",
+      0.95
+    ],
+    [
+      "2019-02-28",
+      1.0
+    ],
+    [
+      "2019-03-31",
+      0.88
+    ],
+    [
+      "2019-04-30",
+      0.92
+    ],
+    [
+      "2019-05-31",
+      0.91
+    ],
+    [
+      "2019-06-30",
+      0.96
+    ],
+    [
+      "2019-07-31",
+      0.87
+    ],
+    [
+      "2019-08-31",
+      0.89
+    ],
+    [
+      "2019-09-30",
+      0.83
+    ],
+    [
+      "2019-10-31",
+      0.72
+    ],
+    [
+      "2019-11-30",
+      0.64
+    ],
+    [
+      "2019-12-31",
+      0.59
+    ],
+    [
+      "2020-01-31",
+      0.7
+    ],
+    [
+      "2020-02-29",
+      1.15
+    ],
+    [
+      "2020-03-31",
+      1.04
+    ],
+    [
+      "2020-04-30",
+      0.72
+    ],
+    [
+      "2020-05-31",
+      0.73
+    ],
+    [
+      "2020-06-30",
+      0.67
+    ],
+    [
+      "2020-07-31",
+      0.85
+    ],
+    [
+      "2020-08-31",
+      0.76
+    ],
+    [
+      "2020-09-30",
+      0.73
+    ],
+    [
+      "2020-10-31",
+      0.8
+    ],
+    [
+      "2020-11-30",
+      0.96
+    ],
+    [
+      "2020-12-31",
+      1.19
+    ],
+    [
+      "2021-01-31",
+      1.14
+    ],
+    [
+      "2021-02-28",
+      0.9
+    ],
+    [
+      "2021-03-31",
+      1.01
+    ],
+    [
+      "2021-04-30",
+      1.15
+    ],
+    [
+      "2021-05-31",
+      1.51
+    ],
+    [
+      "2021-06-30",
+      1.59
+    ],
+    [
+      "2021-07-31",
+      1.31
+    ],
+    [
+      "2021-08-31",
+      1.02
+    ],
+    [
+      "2021-09-30",
+      1.13
+    ],
+    [
+      "2021-10-31",
+      1.11
+    ],
+    [
+      "2021-11-30",
+      1.13
+    ],
+    [
+      "2021-12-31",
+      1.15
+    ],
+    [
+      "2022-01-31",
+      1.35
+    ],
+    [
+      "2022-02-28",
+      1.25
+    ],
+    [
+      "2022-03-31",
+      1.2
+    ],
+    [
+      "2022-04-30",
+      1.35
+    ],
+    [
+      "2022-05-31",
+      1.3
+    ],
+    [
+      "2022-06-30",
+      1.45
+    ],
+    [
+      "2022-07-31",
+      1.47
+    ],
+    [
+      "2022-08-31",
+      1.35
+    ],
+    [
+      "2022-09-30",
+      1.29
+    ],
+    [
+      "2022-10-31",
+      1.1
+    ],
+    [
+      "2022-11-30",
+      1.0
+    ],
+    [
+      "2022-12-31",
+      1.0
+    ],
+    [
+      "2023-01-31",
+      1.04
+    ],
+    [
+      "2023-02-28",
+      1.0
+    ],
+    [
+      "2023-03-31",
+      0.8
+    ],
+    [
+      "2023-04-30",
+      0.86
+    ],
+    [
+      "2023-05-31",
+      0.7
+    ],
+    [
+      "2023-06-30",
+      0.8
+    ],
+    [
+      "2023-07-31",
+      0.73
+    ],
+    [
+      "2023-08-31",
+      0.69
+    ],
+    [
+      "2023-09-30",
+      0.8
+    ],
+    [
+      "2023-10-31",
+      0.7
+    ],
+    [
+      "2023-11-30",
+      0.75
+    ],
+    [
+      "2023-12-31",
+      0.75
+    ],
+    [
+      "2024-01-31",
+      0.78
+    ],
+    [
+      "2024-02-29",
+      0.79
+    ],
+    [
+      "2024-03-31",
+      0.72
+    ],
+    [
+      "2024-04-30",
+      0.72
+    ],
+    [
+      "2024-05-31",
+      0.8
+    ],
+    [
+      "2024-06-30",
+      0.76
+    ],
+    [
+      "2024-07-31",
+      0.75
+    ],
+    [
+      "2024-08-31",
+      0.81
+    ],
+    [
+      "2024-09-30",
+      0.81
+    ],
+    [
+      "2024-10-31",
+      0.76
+    ],
+    [
+      "2024-11-30",
+      0.84
+    ],
+    [
+      "2024-12-31",
+      0.75
+    ],
+    [
+      "2025-01-31",
+      0.78
+    ],
+    [
+      "2025-02-28",
+      0.84
+    ],
+    [
+      "2025-03-31",
+      0.77
+    ],
+    [
+      "2025-04-30",
+      0.76
+    ],
+    [
+      "2025-05-31",
+      0.81
+    ],
+    [
+      "2025-06-30",
+      0.88
+    ],
+    [
+      "2025-07-31",
+      0.85
+    ],
+    [
+      "2025-08-31",
+      0.91
+    ],
+    [
+      "2025-09-30",
+      0.83
+    ],
+    [
+      "2025-10-31",
+      0.88
+    ],
+    [
+      "2025-11-30",
+      0.92
+    ],
+    [
+      "2025-12-31",
+      0.85
+    ],
+    [
+      "2026-01-31",
+      0.91
+    ],
+    [
+      "2026-02-28",
+      0.75
+    ],
+    [
+      "2026-03-31",
+      0.66
+    ],
+    [
+      "2026-04-30",
+      0.74
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 22366967.83,
     "Cotas de FIIs": 13674518.57,
     "CRI/CRA": 502941364.21,
     "Outros": 8.335337042808533e-08
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19B0177968_DU - NOVA SECURIT",
+        "nome": "",
+        "emissao": "1",
+        "serie": "31",
+        "vencimento": "",
+        "quantidade": 500.0,
+        "valor": 179497.23
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19G0801197_DU2 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "45",
+        "vencimento": "",
+        "quantidade": 9000.0,
+        "valor": 4249047.84,
+        "nome_cri": "CRI ARTENGE"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G2828590 - TRUE SEC",
+        "nome": "",
+        "emissao": "262",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 197.0,
+        "valor": 200852.48,
+        "nome_cri": "CRI Allos IV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20F0755566 - VERT COMPANHIA  SEC",
+        "nome": "",
+        "emissao": "23",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5423.0,
+        "valor": 1814265.0,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25J2605770 - LEVERAGE CIA SEC",
+        "nome": "",
+        "emissao": "48",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 1002139.63
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_13L0034539 - BARI SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9.0,
+        "valor": 2745631.84,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21H0042096 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "606",
+        "vencimento": "",
+        "quantidade": 18813.0,
+        "valor": 17119019.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G2828592 - TRUE SEC",
+        "nome": "",
+        "emissao": "262",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 198.0,
+        "valor": 199567.77,
+        "nome_cri": "CRI Allos IV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_13F0056986 - HABITASEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "32",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 922057.96,
+        "nome_cri": "CRI Shop Jaraguá"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0950048 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "575",
+        "vencimento": "",
+        "quantidade": 12164.0,
+        "valor": 9466316.91
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C2248334 - OPEA SEC",
+        "nome": "",
+        "emissao": "300",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5470.0,
+        "valor": 5494669.8,
+        "nome_cri": "CRI Felicità"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21K0637078 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "390",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 766133.54,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25J2605770 - LEVERAGE CIA SEC",
+        "nome": "",
+        "emissao": "48",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1600.0,
+        "valor": 1603423.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19J0133907 - RBCAPITALSEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "219",
+        "vencimento": "",
+        "quantidade": 9021.0,
+        "valor": 2455150.35
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII VERS CRI - VSLH11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1825496.0,
+        "valor": 3924816.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_16L0152594 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "83",
+        "vencimento": "",
+        "quantidade": 5.0,
+        "valor": 6271853.9,
+        "nome_cri": "CRI OAS"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_15L0542353 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "22",
+        "vencimento": "",
+        "quantidade": 47.0,
+        "valor": 2053325.12,
+        "nome_cri": "CRI CRAL"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23F1447606 - OPEA SEC",
+        "nome": "",
+        "emissao": "65",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 16330375.24,
+        "nome_cri": "CRI Zavit"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C2248334 - OPEA SEC",
+        "nome": "",
+        "emissao": "300",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3091.0,
+        "valor": 3104940.47,
+        "nome_cri": "CRI Felicità"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G2828594 - TRUE SEC",
+        "nome": "",
+        "emissao": "262",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 2981864.3
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C2248334 - OPEA SEC",
+        "nome": "",
+        "emissao": "300",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1040.0,
+        "valor": 1044690.42,
+        "nome_cri": "CRI Felicità"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19I0739706 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "47",
+        "vencimento": "",
+        "quantidade": 5049.0,
+        "valor": 1330225.61,
+        "nome_cri": "CRI VITACON II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19K1003755 - GAIA SECURIT",
+        "nome": "",
+        "emissao": "4",
+        "serie": "130",
+        "vencimento": "",
+        "quantidade": 181.0,
+        "valor": 10323825.06
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20L0504499 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "491",
+        "vencimento": "",
+        "quantidade": 200.0,
+        "valor": 106757.43
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19J0713613 - HABITASEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "162",
+        "vencimento": "",
+        "quantidade": 9826.0,
+        "valor": 6573939.93,
+        "nome_cri": "CRI Codepe"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII HECTARE - HCTR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 199411.0,
+        "valor": 4187631.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G1674104 - OPEA SEC",
+        "nome": "",
+        "emissao": "295",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 9603337.27,
+        "nome_cri": "CRI JHSF"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0569265 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "302",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 2544087.21,
+        "nome_cri": "CRI AIZ"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19B0177968_DU - NOVA SECURIT",
+        "nome": "",
+        "emissao": "1",
+        "serie": "31",
+        "vencimento": "",
+        "quantidade": 4500.0,
+        "valor": 1615475.1
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G2828592 - TRUE SEC",
+        "nome": "",
+        "emissao": "262",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 4031672.16,
+        "nome_cri": "CRI Allos IV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20L0504499 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "491",
+        "vencimento": "",
+        "quantidade": 17200.0,
+        "valor": 9181139.74
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24K2582816 - VIRGOSEC",
+        "nome": "",
+        "emissao": "230",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 14589382.52,
+        "nome_cri": "CRI ESTR GUARDIAN"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_22J0000802 - TRUE SEC",
+        "nome": "",
+        "emissao": "85",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 17684326.48,
+        "nome_cri": "CRI Trisul"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21K0637078 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "390",
+        "vencimento": "",
+        "quantidade": 1264.0,
+        "valor": 968392.8,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20L0504499 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "491",
+        "vencimento": "",
+        "quantidade": 7000.0,
+        "valor": 3736510.35
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25D0262185 - CANAL CIA DE SEC",
+        "nome": "",
+        "emissao": "139",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 15013196.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19G0228153 - HABITASEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "148",
+        "vencimento": "",
+        "quantidade": 6950.0,
+        "valor": 3537992.66,
+        "nome_cri": "CRI HBR"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F1035597_DU2 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "362",
+        "vencimento": "",
+        "quantidade": 14819.0,
+        "valor": 12139924.72,
+        "nome_cri": "CRI Cyrela"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0568504 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "301",
+        "vencimento": "",
+        "quantidade": 17901.0,
+        "valor": 16794751.46,
+        "nome_cri": "CRI AIZ"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23L2343460 - OPEA SEC",
+        "nome": "",
+        "emissao": "232",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 10858297.1,
+        "nome_cri": "CRI Espaço Y"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23K3191210 - TRAVESSIA SEC",
+        "nome": "",
+        "emissao": "41",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12000.0,
+        "valor": 10886904.14
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_17B0174140 - BARI SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "52",
+        "vencimento": "",
+        "quantidade": 39.0,
+        "valor": 3873669.46,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24C2248334 - OPEA SEC",
+        "nome": "",
+        "emissao": "300",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3117.0,
+        "valor": 3131057.73,
+        "nome_cri": "CRI Felicità"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20K0866670 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "152",
+        "vencimento": "",
+        "quantidade": 17962.0,
+        "valor": 15761928.11,
+        "nome_cri": "CRI SINAL II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20G0684774 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "438",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 9214043.69
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21H0001405 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "331",
+        "vencimento": "",
+        "quantidade": 7000.0,
+        "valor": 4310570.45,
+        "nome_cri": "CRI C&V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21I0140051 - RBCAPITALSEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "378",
+        "vencimento": "",
+        "quantidade": 3200.0,
+        "valor": 956185.21
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_18F0879525 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "149",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 380825.44,
+        "nome_cri": "CRI Creditas Sênior"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23F2910405 - TRUE SEC",
+        "nome": "",
+        "emissao": "183",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12948.0,
+        "valor": 13812001.7,
+        "nome_cri": "CRI WTorre"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21K0001807 - RBCAPITALSEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "397",
+        "vencimento": "",
+        "quantidade": 25000.0,
+        "valor": 27682235.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21G0856704 - RBCAPITALSEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "371",
+        "vencimento": "",
+        "quantidade": 16000.0,
+        "valor": 5256530.02
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20F0834225 - OPEA SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "275",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 8006516.12,
+        "nome_cri": "CRI Gafisa"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII DEVANT - DEVA11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 254000.0,
+        "valor": 6601460.0
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FICFI ITAU SOBERANO RENDA FIXA SIMPLES LP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 350638.29665,
+        "valor": 28673670.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20I0873273 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "118",
+        "vencimento": "",
+        "quantidade": 2150.0,
+        "valor": 1250431.61,
+        "nome_cri": "CRI SKANIX"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19G0228153 - HABITASEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "148",
+        "vencimento": "",
+        "quantidade": 50.0,
+        "valor": 25453.18,
+        "nome_cri": "CRI HBR"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_13F0056986 - HABITASEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "32",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 6915434.74,
+        "nome_cri": "CRI Shop Jaraguá"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24B1573243 - VORTX DTVM",
+        "nome": "",
+        "emissao": "4",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 7675557.84
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20F0755573 - VERT COMPANHIA  SEC",
+        "nome": "",
+        "emissao": "23",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 448.0,
+        "valor": 108469.77,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21K0637078 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "390",
+        "vencimento": "",
+        "quantidade": 2200.0,
+        "valor": 1685493.79,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20F0755573 - VERT COMPANHIA  SEC",
+        "nome": "",
+        "emissao": "23",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4975.0,
+        "valor": 1204547.11,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_18F0879525 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "149",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 571238.16,
+        "nome_cri": "CRI Creditas Sênior"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24K1883726 - OPEA SEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "548",
+        "vencimento": "",
+        "quantidade": 8500.0,
+        "valor": 7834155.24,
+        "nome_cri": "CRI PHV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19I0739560 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "47",
+        "vencimento": "",
+        "quantidade": 7495.0,
+        "valor": 1995108.06,
+        "nome_cri": "CRI VITACON II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_13L0034539 - BARI SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 305070.2,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G2828593 - TRUE SEC",
+        "nome": "",
+        "emissao": "262",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 4002746.27,
+        "nome_cri": "CRI Allos IV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21F0950049 - FORTE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "576",
+        "vencimento": "",
+        "quantidade": 1121.0,
+        "valor": 824762.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21D0737500 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "371",
+        "vencimento": "",
+        "quantidade": 28765.0,
+        "valor": 35964544.25,
+        "nome_cri": "CRI Alphaville II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_25L0159688 - OPEA SEC",
+        "nome": "",
+        "emissao": "539",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 14995977.69,
+        "nome_cri": "CRI Almeida Júnior II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23J1255114 - CIA PROVINCIA DE SEC",
+        "nome": "",
+        "emissao": "39",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 4020816.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20I0873600 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "120",
+        "vencimento": "",
+        "quantidade": 1792.0,
+        "valor": 1042220.21,
+        "nome_cri": "CRI SKANIX"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_20I0871906 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "116",
+        "vencimento": "",
+        "quantidade": 7525.0,
+        "valor": 4376510.66,
+        "nome_cri": "CRI SKANIX"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21D0456641 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "203",
+        "vencimento": "",
+        "quantidade": 18000.0,
+        "valor": 18812537.69,
+        "nome_cri": "CRI Bioma"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_21I0140051 - RBCAPITALSEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "378",
+        "vencimento": "",
+        "quantidade": 2085.0,
+        "valor": 623014.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19I0739560 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "47",
+        "vencimento": "",
+        "quantidade": 2200.0,
+        "valor": 585622.11,
+        "nome_cri": "CRI VITACON II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19L0882479 - TRUE SEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "282",
+        "vencimento": "",
+        "quantidade": 343.0,
+        "valor": 32190857.74,
+        "nome_cri": "CRI Ascenty Paulinia"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24G2828590 - TRUE SEC",
+        "nome": "",
+        "emissao": "262",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 4078223.04,
+        "nome_cri": "CRI Allos IV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19I0739560 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "47",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 2129534.96,
+        "nome_cri": "CRI VITACON II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19I0739560 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "47",
+        "vencimento": "",
+        "quantidade": 23246.0,
+        "valor": 6187896.22,
+        "nome_cri": "CRI VITACON II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_15K0592011 - HABITASEC",
+        "nome": "",
+        "emissao": "1",
+        "serie": "62",
+        "vencimento": "",
+        "quantidade": 25.0,
+        "valor": 6866414.25,
+        "nome_cri": "CRI Campos do Jordão"
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

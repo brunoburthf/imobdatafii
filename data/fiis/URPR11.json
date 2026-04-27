@@ -4,14 +4,18 @@
     "Ticker": "URPR11",
     "Nome": "Urca Prime Renda FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0026,
-    "Retorno - 12M": -0.291,
-    "P/VP": 0.33,
+    "Retorno - MTD": -0.066,
+    "Retorno - 12M": -0.3413,
+    "P/VP": 0.31,
     "Último Dividendo Pago": 0.35,
-    "DY a.a.": 0.122,
+    "DY a.a.": 0.131,
     "Visão Geral": "FII de papel que investe em CRIs pulverizados de empreendimentos imobiliários, com foco em geração de renda recorrente por meio de crédito imobiliário. Constituído em dezembro de 2019, é negociado na B3 sob gestão da Urca. A estratégia prioriza carteira pulverizada e exposição a recebíveis do setor imobiliário.",
     "Comentário": "O fundo distribuiu R$ 0,35/cota com dividend yield mensal de 0,34% ou anual de 4,07%, equivalendo a 32,69% do CDI. Mantém aproximadamente R$ 5MM em reserva de caixa para aportes em obras em andamento, com foco em recuperação de ativos de desenvolvimento. A gestão segue acompanhando Maravista, Barbosa e Riacho Doce conforme cronogramas planejados, buscando maximizar rentabilidade em ambiente de juros elevados.",
-    "Preço Atual": 33.86
+    "Preço Atual": 31.7,
+    "% Dias Acima CDI 1A": 0.0,
+    "% Dias Acima CDI 3A": 0.0067,
+    "% Dias Acima CDI 5A": 0.2205,
+    "% Dias Acima CDI MAX": 0.2205
   },
   "historico_preco": [
     [
@@ -5629,6 +5633,22 @@
     [
       "2026-04-16",
       33.72
+    ],
+    [
+      "2026-04-17",
+      34.34
+    ],
+    [
+      "2026-04-20",
+      33.78
+    ],
+    [
+      "2026-04-22",
+      32.92
+    ],
+    [
+      "2026-04-23",
+      32.17
     ]
   ],
   "historico_preco_adj": [
@@ -11247,6 +11267,22 @@
     [
       "2026-04-16",
       33.72
+    ],
+    [
+      "2026-04-17",
+      34.34
+    ],
+    [
+      "2026-04-20",
+      33.78
+    ],
+    [
+      "2026-04-22",
+      32.92
+    ],
+    [
+      "2026-04-23",
+      32.17
     ]
   ],
   "historico_pvp": [
@@ -17137,6 +17173,26 @@
     [
       "2026-04-16",
       0.32656781594
+    ],
+    [
+      "2026-04-17",
+      0.33257232502
+    ],
+    [
+      "2026-04-20",
+      0.32714889747
+    ],
+    [
+      "2026-04-21",
+      0.32714889747
+    ],
+    [
+      "2026-04-22",
+      0.3188200623
+    ],
+    [
+      "2026-04-23",
+      0.31155654327
     ]
   ],
   "historico_dy": [
@@ -22739,14 +22795,598 @@
     [
       "2026-04-16",
       12.4555
+    ],
+    [
+      "2026-04-17",
+      12.2306
+    ],
+    [
+      "2026-04-20",
+      12.4334
+    ],
+    [
+      "2026-04-22",
+      12.7582
+    ],
+    [
+      "2026-04-23",
+      13.0556
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-09-30",
+      1.35
+    ],
+    [
+      "2020-10-31",
+      2.15
+    ],
+    [
+      "2020-11-30",
+      3.24
+    ],
+    [
+      "2020-12-31",
+      2.0366826
+    ],
+    [
+      "2021-01-31",
+      2.01
+    ],
+    [
+      "2021-02-28",
+      2.25
+    ],
+    [
+      "2021-03-31",
+      2.09
+    ],
+    [
+      "2021-04-30",
+      2.87
+    ],
+    [
+      "2021-05-31",
+      1.185
+    ],
+    [
+      "2021-06-30",
+      2.06
+    ],
+    [
+      "2021-07-31",
+      2.4
+    ],
+    [
+      "2021-08-31",
+      1.48
+    ],
+    [
+      "2021-09-30",
+      2.01
+    ],
+    [
+      "2021-10-31",
+      2.17
+    ],
+    [
+      "2021-11-30",
+      1.37
+    ],
+    [
+      "2021-12-31",
+      1.869
+    ],
+    [
+      "2022-01-31",
+      1.67
+    ],
+    [
+      "2022-02-28",
+      1.63
+    ],
+    [
+      "2022-03-31",
+      1.635
+    ],
+    [
+      "2022-04-30",
+      1.65
+    ],
+    [
+      "2022-05-31",
+      1.84
+    ],
+    [
+      "2022-06-30",
+      2.01
+    ],
+    [
+      "2022-07-31",
+      1.85
+    ],
+    [
+      "2022-08-31",
+      1.2
+    ],
+    [
+      "2022-09-30",
+      1.62
+    ],
+    [
+      "2022-10-31",
+      1.31
+    ],
+    [
+      "2022-11-30",
+      1.13
+    ],
+    [
+      "2022-12-31",
+      1.11
+    ],
+    [
+      "2023-01-31",
+      1.21
+    ],
+    [
+      "2023-02-28",
+      1.25
+    ],
+    [
+      "2023-03-31",
+      1.3
+    ],
+    [
+      "2023-04-30",
+      1.33
+    ],
+    [
+      "2023-05-31",
+      1.32
+    ],
+    [
+      "2023-06-30",
+      1.33
+    ],
+    [
+      "2023-07-31",
+      1.34
+    ],
+    [
+      "2023-08-31",
+      1.13
+    ],
+    [
+      "2023-09-30",
+      1.16
+    ],
+    [
+      "2023-10-31",
+      1.17
+    ],
+    [
+      "2023-11-30",
+      1.18
+    ],
+    [
+      "2023-12-31",
+      1.1
+    ],
+    [
+      "2024-01-31",
+      1.11
+    ],
+    [
+      "2024-02-29",
+      1.1
+    ],
+    [
+      "2024-03-31",
+      1.13
+    ],
+    [
+      "2024-04-30",
+      1.05
+    ],
+    [
+      "2024-05-31",
+      1.1
+    ],
+    [
+      "2024-06-30",
+      1.02
+    ],
+    [
+      "2024-07-31",
+      1.03
+    ],
+    [
+      "2024-08-31",
+      1.0
+    ],
+    [
+      "2024-09-30",
+      1.0
+    ],
+    [
+      "2024-10-31",
+      0.95
+    ],
+    [
+      "2024-11-30",
+      0.87
+    ],
+    [
+      "2024-12-31",
+      0.88
+    ],
+    [
+      "2025-01-31",
+      0.88
+    ],
+    [
+      "2025-02-28",
+      0.81
+    ],
+    [
+      "2025-03-31",
+      0.82
+    ],
+    [
+      "2025-04-30",
+      0.8
+    ],
+    [
+      "2025-05-31",
+      0.69
+    ],
+    [
+      "2025-06-30",
+      0.45
+    ],
+    [
+      "2025-07-31",
+      0.45
+    ],
+    [
+      "2025-08-31",
+      0.4
+    ],
+    [
+      "2025-09-30",
+      0.4
+    ],
+    [
+      "2025-10-31",
+      0.4
+    ],
+    [
+      "2025-11-30",
+      0.35
+    ],
+    [
+      "2025-12-31",
+      0.35
+    ],
+    [
+      "2026-01-31",
+      0.35
+    ],
+    [
+      "2026-02-28",
+      0.35
+    ],
+    [
+      "2026-03-31",
+      0.35
+    ],
+    [
+      "2026-04-30",
+      0.35
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 10183452.23,
     "Cotas de FIIs": 2123663.86,
     "CRI/CRA": 441456562.5,
     "Debêntures": 227142628.98,
     "FIDCs": 188680220.39,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 158264440.93
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 21K0591458",
+        "nome": "",
+        "emissao": "1",
+        "serie": "92",
+        "vencimento": "",
+        "quantidade": 56000.0,
+        "valor": 27842111.87
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22D0844981",
+        "nome": "",
+        "emissao": "1",
+        "serie": "341",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 8572098.28,
+        "nome_cri": "CRI Riacho Doce"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 22B0448635",
+        "nome": "",
+        "emissao": "1",
+        "serie": "67",
+        "vencimento": "",
+        "quantidade": 28938.0,
+        "valor": 24727209.45
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22D0845162",
+        "nome": "",
+        "emissao": "1",
+        "serie": "343",
+        "vencimento": "",
+        "quantidade": 2241.0,
+        "valor": 2034297.65,
+        "nome_cri": "CRI Riacho Doce"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 21K0002028",
+        "nome": "",
+        "emissao": "1",
+        "serie": "87",
+        "vencimento": "",
+        "quantidade": 26672.0,
+        "valor": 17775916.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21H1035009",
+        "nome": "",
+        "emissao": "1",
+        "serie": "398",
+        "vencimento": "",
+        "quantidade": 60000.0,
+        "valor": 18405371.58,
+        "nome_cri": "CRI Hot Beach"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CVPAR FUNDO DE INVESTIMENTO IMOBILIÁRIO - CVPR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 54617.0,
+        "valor": 2123663.86
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 22A0731741",
+        "nome": "",
+        "emissao": "1",
+        "serie": "78",
+        "vencimento": "",
+        "quantidade": 18641.0,
+        "valor": 3606340.6
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 23J1263572",
+        "nome": "",
+        "emissao": "34",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 28398.0,
+        "valor": 29579875.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 22F0756676",
+        "nome": "",
+        "emissao": "4",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15500.0,
+        "valor": 8017454.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 20A1044659",
+        "nome": "",
+        "emissao": "1",
+        "serie": "29",
+        "vencimento": "",
+        "quantidade": 3366.0,
+        "valor": 3608666.21
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMP DE SECURIT - 22I1049939",
+        "nome": "",
+        "emissao": "10",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 34620.0,
+        "valor": 28107798.36
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 25I4858680",
+        "nome": "",
+        "emissao": "72",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2194.0,
+        "valor": 2211036.97
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 21K0002027",
+        "nome": "",
+        "emissao": "1",
+        "serie": "86",
+        "vencimento": "",
+        "quantidade": 62666.0,
+        "valor": 41827321.63
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMP DE SECURIT - 22G1162067",
+        "nome": "",
+        "emissao": "6",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 14976.0,
+        "valor": 12318290.12
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "URPR11 INVESTIMENTOS EM DESENVOLVIMENTO IMOBILIARIO LTDA.",
+        "nome": "AFAC URPR11",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 14243000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21H1035558",
+        "nome": "",
+        "emissao": "1",
+        "serie": "399",
+        "vencimento": "",
+        "quantidade": 14720.0,
+        "valor": 4513010.44,
+        "nome_cri": "CRI Hot Beach"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 23G2256484",
+        "nome": "",
+        "emissao": "33",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 643715739.0,
+        "valor": 6486079.79
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 23K2107866",
+        "nome": "",
+        "emissao": "36",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 82140.0,
+        "valor": 84013041.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 20H0874600",
+        "nome": "",
+        "emissao": "1",
+        "serie": "38",
+        "vencimento": "",
+        "quantidade": 19212.0,
+        "valor": 10271775.07
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 23J1263511",
+        "nome": "",
+        "emissao": "34",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 33882.0,
+        "valor": 34932531.89
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMP DE SECURIT - 22I1050562",
+        "nome": "",
+        "emissao": "10",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 23080.0,
+        "valor": 18733665.8
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21H1035398",
+        "nome": "",
+        "emissao": "1",
+        "serie": "361",
+        "vencimento": "",
+        "quantidade": 100.0,
+        "valor": 30640.05,
+        "nome_cri": "CRI Hot Beach"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 21J0989122",
+        "nome": "",
+        "emissao": "1",
+        "serie": "54",
+        "vencimento": "",
+        "quantidade": 29837.0,
+        "valor": 15940629.86
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22D0845146",
+        "nome": "",
+        "emissao": "1",
+        "serie": "342",
+        "vencimento": "",
+        "quantidade": 7500.0,
+        "valor": 6508580.84,
+        "nome_cri": "CRI Riacho Doce"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 21C0818353",
+        "nome": "",
+        "emissao": "1",
+        "serie": "46",
+        "vencimento": "",
+        "quantidade": 5600.0,
+        "valor": 4504213.64
+      },
+      {
+        "tipo": "FIDC",
+        "emissor": "RESIDENCE CLUB FUNDO DE INVESTIMENTO EM DIREITOS CREDITÓRIOS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 110000.0,
+        "valor": 188680220.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRAVESSIA SECURITIZADORA S.A. - 21E0823289",
+        "nome": "",
+        "emissao": "1",
+        "serie": "56",
+        "vencimento": "",
+        "quantidade": 20607.0,
+        "valor": 26888604.63
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

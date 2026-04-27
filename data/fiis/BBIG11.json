@@ -4,14 +4,18 @@
     "Ticker": "BBIG11",
     "Nome": "BB Premium Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0114,
-    "Retorno - 12M": 0.1589,
+    "Retorno - MTD": 0.0086,
+    "Retorno - 12M": 0.1441,
     "P/VP": 0.74,
     "Último Dividendo Pago": 0.07,
     "DY a.a.": 0.119,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers de alto padrão, com foco em públicos das classes A e B. É gerido pela BB Asset em parceria com a Iguatemi e busca renda recorrente e ganho de capital. A estratégia prioriza ativos consolidados, com relevância regional e geração operacional estável.",
     "Comentário": "O BB Premium Malls realizou duas operações estratégicas de venda parcial em seus shopping centers em fevereiro, gerando ganho total de R$0,10/cota aos cotistas. A redução de participação no Pátio Higienópolis de 14,65% para 5,65% foi estruturada com recebimento em dinheiro, cotas XPML11 e parcelamentos corrigidos por CDI. Distribuição mantida em R$0,07/cota reflete posição de fortalecimento da estrutura de capital.",
-    "Preço Atual": 7.05
+    "Preço Atual": 7.04,
+    "% Dias Acima CDI 1A": 0.2939,
+    "% Dias Acima CDI 3A": 0.2939,
+    "% Dias Acima CDI 5A": 0.2939,
+    "% Dias Acima CDI MAX": 0.2939
   },
   "historico_preco": [
     [
@@ -1973,6 +1977,22 @@
     [
       "2026-04-16",
       7.04
+    ],
+    [
+      "2026-04-17",
+      7.07
+    ],
+    [
+      "2026-04-20",
+      7.06
+    ],
+    [
+      "2026-04-22",
+      7.07
+    ],
+    [
+      "2026-04-23",
+      7.05
     ]
   ],
   "historico_preco_adj": [
@@ -3935,6 +3955,22 @@
     [
       "2026-04-16",
       7.04
+    ],
+    [
+      "2026-04-17",
+      7.07
+    ],
+    [
+      "2026-04-20",
+      7.06
+    ],
+    [
+      "2026-04-22",
+      7.07
+    ],
+    [
+      "2026-04-23",
+      7.05
     ]
   ],
   "historico_pvp": [
@@ -5981,6 +6017,26 @@
     [
       "2026-04-16",
       0.73724069341
+    ],
+    [
+      "2026-04-17",
+      0.74038234409
+    ],
+    [
+      "2026-04-20",
+      0.7393351272
+    ],
+    [
+      "2026-04-21",
+      0.7393351272
+    ],
+    [
+      "2026-04-22",
+      0.74038234409
+    ],
+    [
+      "2026-04-23",
+      0.7382879103
     ]
   ],
   "historico_dy": [
@@ -7859,11 +7915,162 @@
     [
       "2026-04-16",
       11.9318
+    ],
+    [
+      "2026-04-17",
+      11.8812
+    ],
+    [
+      "2026-04-20",
+      11.898
+    ],
+    [
+      "2026-04-22",
+      11.8812
+    ],
+    [
+      "2026-04-23",
+      11.9149
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-06-30",
+      0.08
+    ],
+    [
+      "2024-07-31",
+      0.08
+    ],
+    [
+      "2024-08-31",
+      0.08
+    ],
+    [
+      "2024-09-30",
+      0.08
+    ],
+    [
+      "2024-10-31",
+      0.08
+    ],
+    [
+      "2024-11-30",
+      0.085
+    ],
+    [
+      "2024-12-31",
+      0.09
+    ],
+    [
+      "2025-01-31",
+      0.099
+    ],
+    [
+      "2025-02-28",
+      0.085
+    ],
+    [
+      "2025-03-31",
+      0.08
+    ],
+    [
+      "2025-04-30",
+      0.08
+    ],
+    [
+      "2025-05-31",
+      0.083
+    ],
+    [
+      "2025-06-30",
+      0.08
+    ],
+    [
+      "2025-07-31",
+      0.08
+    ],
+    [
+      "2025-08-31",
+      0.08
+    ],
+    [
+      "2025-09-30",
+      0.08
+    ],
+    [
+      "2025-10-31",
+      0.08
+    ],
+    [
+      "2025-11-30",
+      0.08
+    ],
+    [
+      "2025-12-31",
+      0.08
+    ],
+    [
+      "2026-01-31",
+      0.085
+    ],
+    [
+      "2026-02-28",
+      0.085
+    ],
+    [
+      "2026-03-31",
+      0.07
+    ],
+    [
+      "2026-04-30",
+      0.07
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 39448399.65,
     "Imóveis": 1451512387.9,
     "Cotas de FIIs": 116059151.43
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BB TOP PRINCIPAL REFERENCIADO DI LP FI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 57050.46,
+        "valor": 1119212.19
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Shopping Pátio Higienópolis",
+        "endereco": "Rua Dr. Veiga Filho, 133, Higienópolis, São Paulo - 01229-001",
+        "area": 34101.0,
+        "vacancia": 0.00575,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping RioSul",
+        "endereco": "Rua Lauro Müller, 116 - Botafogo, Rio de Janeiro - RJ, 22290-070",
+        "area": 51870.0,
+        "vacancia": 0.028415,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Pátio Paulista",
+        "endereco": "Rua Treze de Maio, 1947 - Bela Vista, São Paulo - 01327-900",
+        "area": 38140.0,
+        "vacancia": 0.008168,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

@@ -4,14 +4,18 @@
     "Ticker": "VGRI11",
     "Nome": "Valora Renda Imobiliária FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.2012,
-    "Retorno - 12M": -0.01,
+    "Retorno - MTD": -0.2048,
+    "Retorno - 12M": -0.0267,
     "P/VP": 0.76,
     "Último Dividendo Pago": 0.075,
-    "DY a.a.": 0.135,
+    "DY a.a.": 0.136,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com portfólio formado por ativos como BM336, Burity e Cidade Jardim. O fundo estreou em 2024 e tinha 25,7 mil investidores no relatório de fevereiro de 2026. A estratégia prioriza renda locatícia recorrente, gestão ativa e reciclagem patrimonial.",
     "Comentário": "Distribuição caiu para R$0,12/cota (20,91% ao ano), com 100% de ocupação mantida nos cinco imóveis. Patriônio líquido atingiu R$306 mi após distribuição extraordinária em janeiro. Guidance reduzido para R$0,075/cota até dezembro, alinhado com prospecto, refletindo normalização pós-receitas extraordinárias de venda do Cidade Jardim.",
-    "Preço Atual": 6.92
+    "Preço Atual": 6.59,
+    "% Dias Acima CDI 1A": 0.6774,
+    "% Dias Acima CDI 3A": 0.664,
+    "% Dias Acima CDI 5A": 0.664,
+    "% Dias Acima CDI MAX": 0.664
   },
   "historico_preco": [
     [
@@ -2013,6 +2017,22 @@
     [
       "2026-04-16",
       6.4
+    ],
+    [
+      "2026-04-17",
+      6.65
+    ],
+    [
+      "2026-04-20",
+      6.93
+    ],
+    [
+      "2026-04-22",
+      6.86
+    ],
+    [
+      "2026-04-23",
+      6.75
     ]
   ],
   "historico_preco_adj": [
@@ -4015,6 +4035,22 @@
     [
       "2026-04-16",
       6.4
+    ],
+    [
+      "2026-04-17",
+      6.65
+    ],
+    [
+      "2026-04-20",
+      6.93
+    ],
+    [
+      "2026-04-22",
+      6.86
+    ],
+    [
+      "2026-04-23",
+      6.75
     ]
   ],
   "historico_pvp": [
@@ -6105,6 +6141,26 @@
     [
       "2026-04-16",
       0.73107626339
+    ],
+    [
+      "2026-04-17",
+      0.75963392993
+    ],
+    [
+      "2026-04-20",
+      0.79161851645
+    ],
+    [
+      "2026-04-21",
+      0.79161851645
+    ],
+    [
+      "2026-04-22",
+      0.78362236982
+    ],
+    [
+      "2026-04-23",
+      0.77105699654
     ]
   ],
   "historico_dy": [
@@ -8067,9 +8123,124 @@
     [
       "2026-04-16",
       14.0625
+    ],
+    [
+      "2026-04-17",
+      13.5338
+    ],
+    [
+      "2026-04-20",
+      12.987
+    ],
+    [
+      "2026-04-22",
+      13.1195
+    ],
+    [
+      "2026-04-23",
+      13.3333
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-05-31",
+      0.15
+    ],
+    [
+      "2024-06-30",
+      0.15
+    ],
+    [
+      "2024-07-31",
+      0.15
+    ],
+    [
+      "2024-08-31",
+      0.15
+    ],
+    [
+      "2024-09-30",
+      0.15
+    ],
+    [
+      "2024-10-31",
+      0.15
+    ],
+    [
+      "2024-11-30",
+      0.15
+    ],
+    [
+      "2024-12-31",
+      0.15
+    ],
+    [
+      "2025-01-31",
+      0.15
+    ],
+    [
+      "2025-02-28",
+      0.15
+    ],
+    [
+      "2025-03-31",
+      0.15
+    ],
+    [
+      "2025-04-30",
+      0.12
+    ],
+    [
+      "2025-05-31",
+      0.12
+    ],
+    [
+      "2025-06-30",
+      0.12
+    ],
+    [
+      "2025-07-31",
+      0.12
+    ],
+    [
+      "2025-08-31",
+      0.12
+    ],
+    [
+      "2025-09-30",
+      0.12
+    ],
+    [
+      "2025-10-31",
+      0.12
+    ],
+    [
+      "2025-11-30",
+      0.12
+    ],
+    [
+      "2025-12-31",
+      0.12
+    ],
+    [
+      "2026-01-31",
+      0.12
+    ],
+    [
+      "2026-02-28",
+      0.12
+    ],
+    [
+      "2026-03-31",
+      0.12
+    ],
+    [
+      "2026-04-30",
+      0.075
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 10957795.57,
     "Imóveis": 175713576.19,
     "Desenvolvimento": 93000000.0,
@@ -8077,5 +8248,139 @@
     "CRI/CRA": 19377712.76,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 138027180.35,
     "Outros": 5.960464477539063e-08
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BCO DAYCOVAL SA",
+        "nome": "CDB8251P2UQ",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 68472.0,
+        "valor": 71633.61
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BM FII REPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 540500.0,
+        "valor": 57629485.57
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FIF RF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 51185.977926,
+        "valor": 2742089.12
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BM FII REPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 540500.0,
+        "valor": 57629485.57
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VGRI SPE S.A.",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 15000.0
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "SAFRA SOB INSTITU FIF Classe Inv EM COTAS RF SIMP Resp. LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 265.82694725,
+        "valor": 70419.29
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VGRI SPE S.A.",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1793000.0,
+        "valor": 1793000.0
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "DAYCOVAL TÍTULOS PÚBLICOS I FIRF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2965.49810823,
+        "valor": 5132876.85
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAÚ SOBERANO RF SIMPLES FIF DA CIC Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 44239.26648,
+        "valor": 3617871.38
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "BURITY",
+        "endereco": "Av. Indianópolis, 3096, São Paulo - SP",
+        "area": 10550.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "PAULISTA",
+        "endereco": "Av. Paulista, 1374",
+        "area": 10879.0,
+        "vacancia": 0.147,
+        "pct_total": null
+      },
+      {
+        "nome": "CID JARDIM",
+        "endereco": "Av. Cidade Jardim, 803, São Paulo - SP",
+        "area": 7458.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "TRANSATLANT",
+        "endereco": "Rua Verbo Divino, 1488, São Paulo - SP",
+        "area": 4241.11,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "VOLKSWAGEN",
+        "endereco": "Rua Volkswagens, 291, São Paulo - SP",
+        "area": 12560.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

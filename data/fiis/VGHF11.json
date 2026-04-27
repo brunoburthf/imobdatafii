@@ -4,14 +4,18 @@
     "Ticker": "VGHF11",
     "Nome": "Valora Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.0029,
-    "Retorno - 12M": 0.0597,
-    "P/VP": 0.81,
+    "Retorno - MTD": -0.0086,
+    "Retorno - 12M": 0.0439,
+    "P/VP": 0.8,
     "Último Dividendo Pago": 0.07,
-    "DY a.a.": 0.12,
+    "DY a.a.": 0.121,
     "Visão Geral": "FII híbrido que investe em ações imobiliárias, debêntures, SPEs, FIPs, FIAs, FIIs, CRIs, FIDCs e outros títulos imobiliários. É gerido pela Valora e adota mandato multiestratégia. A estratégia combina crédito, ativos listados e participações para diversificar a carteira e gerar renda recorrente com flexibilidade de alocação setorial e regional imobiliária.",
     "Comentário": "O fundo atingiu 103,2% de alocação em Ativos-Alvo, distribuindo R$ 0,07/cota mensalmente, equivalente a IPCA+6,8% anualizados sobre cota patrimonial. Na carteira VALOR houve vendas líquidas de R$ 2,9MM em ações e fundos imobiliários. Na carteira RENDA, compras de R$ 421 mil em CRIs mantiveram alocação balanceada entre as estratégias de valor (52,7%) e renda (47,3%).",
-    "Preço Atual": 6.97
+    "Preço Atual": 6.94,
+    "% Dias Acima CDI 1A": 0.1573,
+    "% Dias Acima CDI 3A": 0.2564,
+    "% Dias Acima CDI 5A": 0.3579,
+    "% Dias Acima CDI MAX": 0.3579
   },
   "historico_preco": [
     [
@@ -5117,6 +5121,22 @@
     [
       "2026-04-16",
       6.9
+    ],
+    [
+      "2026-04-17",
+      6.98
+    ],
+    [
+      "2026-04-20",
+      6.97
+    ],
+    [
+      "2026-04-22",
+      6.91
+    ],
+    [
+      "2026-04-23",
+      6.92
     ]
   ],
   "historico_preco_adj": [
@@ -10223,6 +10243,22 @@
     [
       "2026-04-16",
       6.9
+    ],
+    [
+      "2026-04-17",
+      6.98
+    ],
+    [
+      "2026-04-20",
+      6.97
+    ],
+    [
+      "2026-04-22",
+      6.91
+    ],
+    [
+      "2026-04-23",
+      6.92
     ]
   ],
   "historico_pvp": [
@@ -15561,6 +15597,26 @@
     [
       "2026-04-16",
       0.79783346062
+    ],
+    [
+      "2026-04-17",
+      0.80708370364
+    ],
+    [
+      "2026-04-20",
+      0.80592742326
+    ],
+    [
+      "2026-04-21",
+      0.80592742326
+    ],
+    [
+      "2026-04-22",
+      0.79898974099
+    ],
+    [
+      "2026-04-23",
+      0.80014602137
     ]
   ],
   "historico_dy": [
@@ -20595,14 +20651,2224 @@
     [
       "2026-04-16",
       12.1739
+    ],
+    [
+      "2026-04-17",
+      12.0344
+    ],
+    [
+      "2026-04-20",
+      12.0516
+    ],
+    [
+      "2026-04-22",
+      12.1563
+    ],
+    [
+      "2026-04-23",
+      12.1387
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2021-04-30",
+      0.07
+    ],
+    [
+      "2021-05-31",
+      0.08
+    ],
+    [
+      "2021-06-30",
+      0.1
+    ],
+    [
+      "2021-07-31",
+      0.13
+    ],
+    [
+      "2021-08-31",
+      0.12
+    ],
+    [
+      "2021-09-30",
+      0.12
+    ],
+    [
+      "2021-10-31",
+      0.13
+    ],
+    [
+      "2021-11-30",
+      0.15
+    ],
+    [
+      "2021-12-31",
+      0.15
+    ],
+    [
+      "2022-01-31",
+      0.18
+    ],
+    [
+      "2022-02-28",
+      0.16
+    ],
+    [
+      "2022-03-31",
+      0.16
+    ],
+    [
+      "2022-04-30",
+      0.14
+    ],
+    [
+      "2022-05-31",
+      0.13
+    ],
+    [
+      "2022-06-30",
+      0.14
+    ],
+    [
+      "2022-07-31",
+      0.13
+    ],
+    [
+      "2022-08-31",
+      0.12
+    ],
+    [
+      "2022-09-30",
+      0.12
+    ],
+    [
+      "2022-10-31",
+      0.09
+    ],
+    [
+      "2022-11-30",
+      0.09
+    ],
+    [
+      "2022-12-31",
+      0.1
+    ],
+    [
+      "2023-01-31",
+      0.09
+    ],
+    [
+      "2023-02-28",
+      0.1
+    ],
+    [
+      "2023-03-31",
+      0.1
+    ],
+    [
+      "2023-04-30",
+      0.1
+    ],
+    [
+      "2023-05-31",
+      0.12
+    ],
+    [
+      "2023-06-30",
+      0.11
+    ],
+    [
+      "2023-07-31",
+      0.12
+    ],
+    [
+      "2023-08-31",
+      0.12
+    ],
+    [
+      "2023-09-30",
+      0.12
+    ],
+    [
+      "2023-10-31",
+      0.1
+    ],
+    [
+      "2023-11-30",
+      0.1
+    ],
+    [
+      "2023-12-31",
+      0.11
+    ],
+    [
+      "2024-01-31",
+      0.1
+    ],
+    [
+      "2024-02-29",
+      0.1
+    ],
+    [
+      "2024-03-31",
+      0.1
+    ],
+    [
+      "2024-04-30",
+      0.08
+    ],
+    [
+      "2024-05-31",
+      0.09
+    ],
+    [
+      "2024-06-30",
+      0.09
+    ],
+    [
+      "2024-07-31",
+      0.09
+    ],
+    [
+      "2024-08-31",
+      0.09
+    ],
+    [
+      "2024-09-30",
+      0.09
+    ],
+    [
+      "2024-10-31",
+      0.08
+    ],
+    [
+      "2024-11-30",
+      0.09
+    ],
+    [
+      "2024-12-31",
+      0.09
+    ],
+    [
+      "2025-01-31",
+      0.09
+    ],
+    [
+      "2025-02-28",
+      0.09
+    ],
+    [
+      "2025-03-31",
+      0.09
+    ],
+    [
+      "2025-04-30",
+      0.09
+    ],
+    [
+      "2025-05-31",
+      0.09
+    ],
+    [
+      "2025-06-30",
+      0.09
+    ],
+    [
+      "2025-07-31",
+      0.1
+    ],
+    [
+      "2025-08-31",
+      0.09
+    ],
+    [
+      "2025-09-30",
+      0.09
+    ],
+    [
+      "2025-10-31",
+      0.08
+    ],
+    [
+      "2025-11-30",
+      0.07
+    ],
+    [
+      "2025-12-31",
+      0.07
+    ],
+    [
+      "2026-01-31",
+      0.07
+    ],
+    [
+      "2026-02-28",
+      0.07
+    ],
+    [
+      "2026-03-31",
+      0.07
+    ],
+    [
+      "2026-04-30",
+      0.07
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 20835384.5,
     "Cotas de FIIs": 825868863.69,
     "CRI/CRA": 380177228.94,
     "FIDCs": 14532134.0,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 262508105.11,
     "Outros": 4763886.179999948
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2582690.0,
+        "valor": 2582690.0
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "DAYCOVAL TÍTULOS PÚB VI FI RF CURTO PRAZ",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 628658.273101689,
+        "valor": 1057584.22
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVÍNCIA DE SECURITIZAÇÃO - 23F2408637",
+        "nome": "",
+        "emissao": "31",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8500.0,
+        "valor": 3443502.83
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BGO 326 SPE LTDA",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20500.0,
+        "valor": 20500.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 21J0705142",
+        "nome": "",
+        "emissao": "1",
+        "serie": "402",
+        "vencimento": "",
+        "quantidade": 10400.0,
+        "valor": 6721777.26,
+        "nome_cri": "CRI Mabu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 697.0,
+        "valor": 704392.3
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 14820.0,
+        "valor": 14820.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. - 21G0568394",
+        "nome": "",
+        "emissao": "1",
+        "serie": "397",
+        "vencimento": "",
+        "quantidade": 6500.0,
+        "valor": 6081838.13,
+        "nome_cri": "CRI Rede D'or VII"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2365000.0,
+        "valor": 2365000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 21F0968888",
+        "nome": "",
+        "emissao": "4",
+        "serie": "277",
+        "vencimento": "",
+        "quantidade": 4596.0,
+        "valor": 3988248.73,
+        "nome_cri": "CRI COPAGRILL"
+      },
+      {
+        "tipo": "FIDC",
+        "emissor": "KEYCASH HOME EQUITY FIDC",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 94074.582141,
+        "valor": 3940853.48
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4000000.0,
+        "valor": 4000000.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 02 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 84000.0,
+        "valor": 84000.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3749000.0,
+        "valor": 3749000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 22E0120569",
+        "nome": "",
+        "emissao": "2",
+        "serie": "14",
+        "vencimento": "",
+        "quantidade": 9800.0,
+        "valor": 3740674.78,
+        "nome_cri": "CRI ESSER 2"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 02 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 94500.0,
+        "valor": 94500.0
+      },
+      {
+        "tipo": "FIDC",
+        "emissor": "VALYOS FIDC IMOBILIÁRIOS DE Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6436.37345677,
+        "valor": 10892122.64
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 02 SPE",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 14820.0,
+        "valor": 14820.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "GUAICURUS 445 SPE LTDA.",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 75000.0,
+        "valor": 75000.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "GUAICURUS 445 SPE LTDA.",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 70000.0,
+        "valor": 70000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 25G0686794",
+        "nome": "",
+        "emissao": "466",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 33000.0,
+        "valor": 33243090.31,
+        "nome_cri": "CRI Alianza SLB"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. - 21G0864339",
+        "nome": "",
+        "emissao": "1",
+        "serie": "399",
+        "vencimento": "",
+        "quantidade": 5351.0,
+        "valor": 4477798.88,
+        "nome_cri": "CRI Hot Beach"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVÍNCIA DE SECURITIZAÇÃO - 23F2408637",
+        "nome": "",
+        "emissao": "31",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 44000.0,
+        "valor": 17825191.12
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA AS - 22E1211649",
+        "nome": "",
+        "emissao": "7",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 13400.0,
+        "valor": 13585164.09,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2516000.0,
+        "valor": 2516000.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 500000.0,
+        "valor": 500000.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 02 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 300000.0,
+        "valor": 300000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUESEC  - 21I0855537",
+        "nome": "",
+        "emissao": "1",
+        "serie": "443",
+        "vencimento": "",
+        "quantidade": 973.0,
+        "valor": 700818.51,
+        "nome_cri": "CRI Rede Duque"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1321000.0,
+        "valor": 1321000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVÍNCIA DE SECURITIZAÇÃO - 25F2931000",
+        "nome": "",
+        "emissao": "111",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5056.0,
+        "valor": 5523259.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 366.0,
+        "valor": 369881.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 360.0,
+        "valor": 363818.12
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1150000.0,
+        "valor": 1150000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 343.0,
+        "valor": 346637.82
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PLANETASECURITIZADORA SA  - 20L0522095",
+        "nome": "",
+        "emissao": "4",
+        "serie": "162",
+        "vencimento": "",
+        "quantidade": 4611.0,
+        "valor": 0.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SENDAS DISTRIBUIDORA S.A. - 20H0695880",
+        "nome": "",
+        "emissao": "1",
+        "serie": "85",
+        "vencimento": "",
+        "quantidade": 5448.0,
+        "valor": 3668863.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BM VAREJO EMPEENDIMENTOS S/A - 23J2162618",
+        "nome": "",
+        "emissao": "1",
+        "serie": "545",
+        "vencimento": "",
+        "quantidade": 17322.0,
+        "valor": 16430294.48
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3000000.0,
+        "valor": 3000000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 21J0705142",
+        "nome": "",
+        "emissao": "1",
+        "serie": "402",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 3231623.69,
+        "nome_cri": "CRI Mabu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "YOU INC INCORPORADORA PARTICIPACOES S.A  - 22D0847833",
+        "nome": "",
+        "emissao": "73",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7170.0,
+        "valor": 8098574.82
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 22G0282296",
+        "nome": "",
+        "emissao": "14",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 58.0,
+        "valor": 57516.97,
+        "nome_cri": "CRI BR12"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 352.0,
+        "valor": 355733.27
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 19L0928585",
+        "nome": "",
+        "emissao": "4",
+        "serie": "64",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 2040468.76,
+        "nome_cri": "CRI GSR"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1500000.0,
+        "valor": 1500000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. - 21G0568394",
+        "nome": "",
+        "emissao": "1",
+        "serie": "397",
+        "vencimento": "",
+        "quantidade": 1597.0,
+        "valor": 1494260.84,
+        "nome_cri": "CRI Rede D'or VII"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 22C0509668",
+        "nome": "",
+        "emissao": "1",
+        "serie": "451",
+        "vencimento": "",
+        "quantidade": 36147.0,
+        "valor": 27395741.75,
+        "nome_cri": "CRI Cidade Matarazzo"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3482000.0,
+        "valor": 3482000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 24A1828538",
+        "nome": "",
+        "emissao": "152",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 5033515.29,
+        "nome_cri": "CRI JSTX"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 231000.0,
+        "valor": 231000.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1300000.0,
+        "valor": 1300000.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VALYOS EQUITY I S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 247067.0,
+        "valor": 247067.34
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5344000.0,
+        "valor": 5344000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 21F0950009",
+        "nome": "",
+        "emissao": "4",
+        "serie": "279",
+        "vencimento": "",
+        "quantidade": 3400.0,
+        "valor": 3093127.01,
+        "nome_cri": "CRI ARAÚJO FONTES OBA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 21L0666509",
+        "nome": "",
+        "emissao": "1",
+        "serie": "422",
+        "vencimento": "",
+        "quantidade": 5280019.0,
+        "valor": 4351886.7,
+        "nome_cri": "CRI Makro"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3500000.0,
+        "valor": 3500000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "Potenza Energias LTDA.  - 22F1020478",
+        "nome": "",
+        "emissao": "11",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7355.0,
+        "valor": 8061118.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "MANHATTAN SPRING PARK - EMPREENDIMENTO I - 20L0870667",
+        "nome": "",
+        "emissao": "1",
+        "serie": "196",
+        "vencimento": "",
+        "quantidade": 15138.0,
+        "valor": 12706831.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUESEC  - 21I0855537",
+        "nome": "",
+        "emissao": "1",
+        "serie": "443",
+        "vencimento": "",
+        "quantidade": 1948.0,
+        "valor": 1403077.55,
+        "nome_cri": "CRI Rede Duque"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 21E0611276",
+        "nome": "",
+        "emissao": "1",
+        "serie": "339",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 3985522.76,
+        "nome_cri": "CRI Fashion Mall"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 02 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7741500.0,
+        "valor": 7741500.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "RLV 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16999000.0,
+        "valor": 16999000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 21H0926710",
+        "nome": "",
+        "emissao": "4",
+        "serie": "347",
+        "vencimento": "",
+        "quantidade": 2550.0,
+        "valor": 1796052.32,
+        "nome_cri": "CRI BRASPARK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "Landsol Serviços e Participações S.A.  - 22H1582777",
+        "nome": "",
+        "emissao": "56",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10075.0,
+        "valor": 9919578.07
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "YOU INC INCORPORADORA PARTICIPACOES S.A  - 22D0847835",
+        "nome": "",
+        "emissao": "73",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 199.0,
+        "valor": 225513.47
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUESEC  - 21I0855623",
+        "nome": "",
+        "emissao": "1",
+        "serie": "444",
+        "vencimento": "",
+        "quantidade": 14383.0,
+        "valor": 10359581.33,
+        "nome_cri": "CRI Rede Duque"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 259.0,
+        "valor": 261746.92
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 02 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 603000.0,
+        "valor": 603000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 253.0,
+        "valor": 255683.29
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 02 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20250.0,
+        "valor": 20250.0
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "GUAICURUS 445 SPE LTDA.",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 26000.0,
+        "valor": 26000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. - 21G0568394",
+        "nome": "",
+        "emissao": "1",
+        "serie": "397",
+        "vencimento": "",
+        "quantidade": 9368.0,
+        "valor": 8765332.24,
+        "nome_cri": "CRI Rede D'or VII"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1622000.0,
+        "valor": 1622000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 173.0,
+        "valor": 174834.82
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PLANTAS VILA BUARQUE S.A. - 22G1110098",
+        "nome": "",
+        "emissao": "13",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1298.0,
+        "valor": 354702.73
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 25G0675225",
+        "nome": "",
+        "emissao": "466",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3785.0,
+        "valor": 4018564.6,
+        "nome_cri": "CRI Alianza SLB"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 25B2167192",
+        "nome": "",
+        "emissao": "400",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 4157525.13,
+        "nome_cri": "CRI VFDL Infinity"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "INCORPORADORA E CONSTRUTORA PIBB S.A - 19J0327167",
+        "nome": "",
+        "emissao": "1",
+        "serie": "161",
+        "vencimento": "",
+        "quantidade": 37250.0,
+        "valor": 3111467.73
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 641.0,
+        "valor": 647798.37
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA SA - 24L2814870",
+        "nome": "",
+        "emissao": "79",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9405.0,
+        "valor": 11082114.92,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL TESOURO SELIC FI RF REF DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 487.732565,
+        "valor": 2526.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA SA - 23K1512153",
+        "nome": "",
+        "emissao": "37",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9200.0,
+        "valor": 7881677.39,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1569000.0,
+        "valor": 1569000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 722.0,
+        "valor": 729657.45
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 02 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 75750.0,
+        "valor": 75750.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 113.0,
+        "valor": 114198.46
+      },
+      {
+        "tipo": "FIDC",
+        "emissor": "VALYOS FIDC IMOBILIÁRIOS DE Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 174.33752,
+        "valor": 175989.29
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PLANETASECURITIZADORA SA  - 19K1145398",
+        "nome": "",
+        "emissao": "4",
+        "serie": "128",
+        "vencimento": "",
+        "quantidade": 3873.0,
+        "valor": 0.03
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "VLR 01 SPE S.A",
+        "nome": "AFAC",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 387000.0,
+        "valor": 387000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 21J0705142",
+        "nome": "",
+        "emissao": "1",
+        "serie": "402",
+        "vencimento": "",
+        "quantidade": 23912.0,
+        "valor": 15454917.11,
+        "nome_cri": "CRI Mabu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA SA - 24L2814870",
+        "nome": "",
+        "emissao": "79",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 600.0,
+        "valor": 706992.98,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVÍNCIA DE SECURITIZAÇÃO - 25J2627136",
+        "nome": "",
+        "emissao": "121",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 9544.0,
+        "valor": 10497196.55
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRC RENDA CORPORATIVA FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 29297.0,
+        "valor": 2507530.23
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR GESTAO DE RECURSOS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 37480.0,
+        "valor": 3223280.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "W601 FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 73000.0,
+        "valor": 6851809.77
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII - FII EDIFÍCIO GALERIA RESPONSABILIADADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 49986.0,
+        "valor": 683808.48
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA RENDA IMOBILIÁRIA FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4813420.0,
+        "valor": 40192057.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 637.0,
+        "valor": 643755.95
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BGR GALPÕES LOGÍSTICOS MASTER I FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 63863.0,
+        "valor": 6386300.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "DAYCOVAL REAL ESTATE MULTIESTRATÉGIA FII DE Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1463640.0,
+        "valor": 6118015.2
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA SA - 25C5641737",
+        "nome": "",
+        "emissao": "80",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 20179027.44,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "IRIDIUM FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 43309.0,
+        "valor": 2945012.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TREND COMMODITIES FIM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1125000.0,
+        "valor": 11250000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SELINA BRAZIL HOSPITALIDADE S.A. - 20L0522964",
+        "nome": "",
+        "emissao": "4",
+        "serie": "164",
+        "vencimento": "",
+        "quantidade": 9473.0,
+        "valor": 0.09
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VINCI CREDIT SECURITIES FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 11265.0,
+        "valor": 83361.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITÂNIA SECURITIES II FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 259348.0,
+        "valor": 2009947.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 20A0978038",
+        "nome": "",
+        "emissao": "1",
+        "serie": "268",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 2699592.57,
+        "nome_cri": "CRI Ribeira II"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA CRI INFRA FUNDO DE INVESTIMENTO IMOBILIARIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 316123.0,
+        "valor": 24369525.02
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MAUÁ CAPITAL REAL ESTATE FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 719383.0,
+        "valor": 6618323.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PRIME OFFICES - FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 123390.998411,
+        "valor": 12047524.94
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JS ATIVOS FINANCEIROS FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 87040.0,
+        "valor": 676300.8
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 653.0,
+        "valor": 659925.64
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VINCI FULWOOD DESENV. LOGÍSTICO FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 47000.0,
+        "valor": 5785602.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RB CAPITAL I FUNDO DE FUNDOS - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3503.0,
+        "valor": 225908.47
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII - VBI PRIME PROPERTIES - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 95850.0,
+        "valor": 7859700.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RB CAPITAL DESENV. RESIDENCIAL III FII - FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 12313.0,
+        "valor": 10798501.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "YOU INC INCORPORADORA PARTICIPACOES S.A  - 22D0847835",
+        "nome": "",
+        "emissao": "73",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 997.0,
+        "valor": 1129833.81
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRIO REAL ESTATE III - FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1022.0,
+        "valor": 556990.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII TORRE ALMIRANTE Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8100.0,
+        "valor": 4779081.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII BRC-IV DESENV.",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16493.0,
+        "valor": 1540967.64
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EQI RECEBÍVEIS  IMOBILIÁRIOS FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 434212.0,
+        "valor": 3582249.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "YOU INC INCORPORADORA PARTICIPACOES S.A  - 22D0847835",
+        "nome": "",
+        "emissao": "73",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 207.0,
+        "valor": 234579.34
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "PLANETASECURITIZADORA SA  - 19K1145398",
+        "nome": "",
+        "emissao": "4",
+        "serie": "128",
+        "vencimento": "",
+        "quantidade": 6770.0,
+        "valor": 0.06
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA ÍNDICES DE PREÇOS FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 130732.0,
+        "valor": 11836475.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA RENDIMENTOS IMOBILIÁRIOS FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 33763.0,
+        "valor": 3629860.13
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA ESCRITÓRIOS FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 170625.0,
+        "valor": 21159206.25
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MAUA CAPITAL LOG FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1500000.0,
+        "valor": 14925000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA CRÉDITO IMOBILIÁRIO ÍNDICE DE PREÇOS FII - Resp. LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 224266.0,
+        "valor": 18981874.24
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII - FII REC RENDA IMOBILIÁRIA - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 75404.0,
+        "valor": 2896267.64
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JS REAL ESTATE MULTIGESTÃO FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 436055.0,
+        "valor": 28988936.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA HIGH YIELD CRI FII  Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 26040.0,
+        "valor": 2618322.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII - FII REC RECEBÍVEIS IMOBILIÁRIOS - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 59995.0,
+        "valor": 4918990.05
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 22A0788605",
+        "nome": "",
+        "emissao": "440",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 200.0,
+        "valor": 109163.89
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 187.0,
+        "valor": 188983.3
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA CRI INFRA FUNDO DE INVESTIMENTO IMOBILIARIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 993750.0,
+        "valor": 99416443.35
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 21B0544455",
+        "nome": "",
+        "emissao": "4",
+        "serie": "175",
+        "vencimento": "",
+        "quantidade": 7928.0,
+        "valor": 2082003.66,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBR CRÉDITO IMOBILIÁRIO ESTRUTURADO Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 180845.0,
+        "valor": 17686641.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII TG ATIVO REAL -  Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 86088.0,
+        "valor": 8006184.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FATOR VERITÁ MULTIESTRATÉGIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 631949.0,
+        "valor": 4670103.11
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BLUEMACAW FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1917.0,
+        "valor": 66519.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AQUISIÇÃO DE UNIDADES FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1635142.0,
+        "valor": 105411050.36
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SELINA BRAZIL HOSPITALIDADE S.A. - 20L0522230",
+        "nome": "",
+        "emissao": "4",
+        "serie": "163",
+        "vencimento": "",
+        "quantidade": 1804.0,
+        "valor": 0.02
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA UNIQUE HY CDI FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 99179.0,
+        "valor": 10438589.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 20K0010253",
+        "nome": "",
+        "emissao": "1",
+        "serie": "296",
+        "vencimento": "",
+        "quantidade": 1990.0,
+        "valor": 1915098.03,
+        "nome_cri": "CRI GPA"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GENERAL SHOPPING ATIVO E RENDA FII DE Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 191344.0,
+        "valor": 8996994.88
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR DESENV. COMERCIAL I - FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 173293.130239,
+        "valor": 14329056.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUESEC  - 21I0855537",
+        "nome": "",
+        "emissao": "1",
+        "serie": "443",
+        "vencimento": "",
+        "quantidade": 11401.0,
+        "valor": 8211749.06,
+        "nome_cri": "CRI Rede Duque"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 21F0950228",
+        "nome": "",
+        "emissao": "4",
+        "serie": "315",
+        "vencimento": "",
+        "quantidade": 6000.0,
+        "valor": 4091846.53,
+        "nome_cri": "CRI ARAÚJO FONTES OBA"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL SHOPPINGS FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 206451.0,
+        "valor": 17579302.65
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BALTIMORE FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 219000.0,
+        "valor": 21888310.59
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 825.0,
+        "valor": 833749.85
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TRX REAL ESTATE FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 31684.0,
+        "valor": 3104081.48
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA SA - 22L1013767",
+        "nome": "",
+        "emissao": "22",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 5003343.23,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO - 22A0788605",
+        "nome": "",
+        "emissao": "440",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 5458194.71
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVÍNCIA DE SECURITIZAÇÃO - 25J5480731",
+        "nome": "",
+        "emissao": "54",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 7595.0,
+        "valor": 7715714.82
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVÍNCIA DE SECURITIZAÇÃO - 21L0002653",
+        "nome": "",
+        "emissao": "3",
+        "serie": "50",
+        "vencimento": "",
+        "quantidade": 12525.0,
+        "valor": 9459565.93
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. - 19H0235501",
+        "nome": "",
+        "emissao": "1",
+        "serie": "214",
+        "vencimento": "",
+        "quantidade": 10226.0,
+        "valor": 7099817.41,
+        "nome_cri": "CRI Construtora Sao José"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "REC FUNDO DE CRI COTAS AMORTIZÁVEIS - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 499803.0,
+        "valor": 4173355.05
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 20A0977906",
+        "nome": "",
+        "emissao": "1",
+        "serie": "26",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 2699592.57,
+        "nome_cri": "CRI Petrobras Vitoria II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 300.0,
+        "valor": 303181.77
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PREMIUM RECEBÍVEIS IMOBILIÁRIOS FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 65052.0,
+        "valor": 5554790.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE TOP FOFII 3 FII DE Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 97525.0,
+        "valor": 646590.75
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR LOG - FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 87119.0,
+        "valor": 8057636.31
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA SA - 24L2814870",
+        "nome": "",
+        "emissao": "79",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1700.0,
+        "valor": 2003146.77,
+        "nome_cri": "CRI Artis"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL CORPORATE OFFICE FUND - FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 634817.0,
+        "valor": 29169841.15
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA SECURITIES FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 219740.0,
+        "valor": 14184217.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PLANTA DESENV FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 41680.792,
+        "valor": 48728544.92
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA FOF FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 562500.0395,
+        "valor": 61851675.78
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VECTIS JUROS REAL FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 33585.0,
+        "valor": 2730460.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 234.0,
+        "valor": 236481.78
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "SW20 ITATUPÃ EMPREENDIMENTO IMOBILIÁRIO  - 24A2073830",
+        "nome": "",
+        "emissao": "54",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 429.0,
+        "valor": 433549.92
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA OPORTUNIDADES REAL ESTATE FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 83537.0,
+        "valor": 6219329.65
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CYRELA CRÉDITO - FII - RESPONSABILIDADE  LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 886743.0,
+        "valor": 7847675.55
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII - FII BTG PACTUAL FUNDO DE FUNDOS Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 591772.0,
+        "valor": 5343701.16
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI ATIVOS FINANCEIROS FII DE RESP LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 832.0,
+        "valor": 66892.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TELLUS PROPERTIES - FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 787380.0,
+        "valor": 6834458.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII - FII RBR DESENV. III Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 952.0,
+        "valor": 467603.36
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "YOU INC INCORPORADORA PARTICIPACOES S.A  - 22D0847835",
+        "nome": "",
+        "emissao": "73",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1556.0,
+        "valor": 1763311.34
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA CRI CDI FII - FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1575255.0,
+        "valor": 15484756.65
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRPR CORPORATE OFFICES FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 862.0,
+        "valor": 48616.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "NAVI RESIDENCIAL FII - RESPONSABILIDADE  LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 439664.0,
+        "valor": 3723954.08
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII OURINVEST LOGÍSTICA - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 944.0,
+        "valor": 22693.76
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 21J0705142",
+        "nome": "",
+        "emissao": "1",
+        "serie": "402",
+        "vencimento": "",
+        "quantidade": 19626.0,
+        "valor": 12684769.29,
+        "nome_cri": "CRI Mabu"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CENESP FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2339.0,
+        "valor": 4140.03
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TJK RENDA IMOBILIÁRIA FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 28438.0,
+        "valor": 7110068.76
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA CRI ÍNDICE DE PREÇO FII - FII Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 98201.0,
+        "valor": 7878666.23
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA PRIME OFFICES - FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 12258.0,
+        "valor": 1789668.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII XP EXETER DESENV. LOGÍSTICO - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3076.0,
+        "valor": 1560133.32
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 21J0705142",
+        "nome": "",
+        "emissao": "1",
+        "serie": "402",
+        "vencimento": "",
+        "quantidade": 6238.0,
+        "valor": 4031773.71,
+        "nome_cri": "CRI Mabu"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITÂNIA SHOPPINGS FII - Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 84321.0,
+        "valor": 934276.68
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. - 21E0611378",
+        "nome": "",
+        "emissao": "1",
+        "serie": "340",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 3985522.76,
+        "nome_cri": "CRI Fashion Mall"
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

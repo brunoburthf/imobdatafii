@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Screening Consolidado — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="imoveis.html" class="nav-link val-restrito">Imóveis</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="valuation.html" class="nav-link ativo">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Esfera de análise -->
+    <div class="screening-esfera">
+      <div class="screening-esfera-left">
+        <div class="screening-esfera-titulo-principal">Screening Consolidado</div>
+        <span class="screening-esfera-subtitulo">Esfera de análise</span>
+      </div>
+      <div class="screening-esfera-opcoes">
+        <button class="screening-esfera-btn ativo" data-esfera="fii" onclick="trocarEsfera('fii')">Por FII</button>
+        <button class="screening-esfera-btn" data-esfera="setor" onclick="trocarEsfera('setor')">Por Setor</button>
+      </div>
+    </div>
+
+    <!-- Barra de filtros -->
+    <div class="screening-filtros">
+
+      <!-- Ativos -->
+      <div class="screening-filtro-grupo screening-filtro-ativos">
+        <label class="screening-filtro-label">Ativos</label>
+        <div class="screening-ativos-container">
+          <input type="text" id="scr-busca" class="screening-busca-input-solo"
+            placeholder="Buscar ticker..."
+            autocomplete="off"
+            oninput="scrFiltrarSugestoes()"
+            onkeydown="scrNavegarSugestoes(event)" />
+          <div id="scr-sugestoes" class="sim-sugestoes" style="display:none"></div>
+        </div>
+      </div>
+
+      <!-- Critério de análise -->
+      <div class="screening-filtro-grupo">
+        <label class="screening-filtro-label">Critério de análise</label>
+        <select id="scr-criterio" class="screening-select">
+          <option value="retorno">% Dias Retorno 12M acima do CDI</option>
+        </select>
+      </div>
+
+      <!-- Janela de tempo -->
+      <div class="screening-filtro-grupo">
+        <label class="screening-filtro-label">Janela de tempo</label>
+        <div class="screening-periodo-opcoes">
+          <button class="screening-periodo-btn ativo" data-periodo="1A" onclick="scrTrocarPeriodo('1A')">1A</button>
+          <button class="screening-periodo-btn" data-periodo="3A" onclick="scrTrocarPeriodo('3A')">3A</button>
+          <button class="screening-periodo-btn" data-periodo="5A" onclick="scrTrocarPeriodo('5A')">5A</button>
+          <button class="screening-periodo-btn" data-periodo="MAX" onclick="scrTrocarPeriodo('MAX')">MAX</button>
+        </div>
+      </div>
+
+      <!-- Botão analisar -->
+      <div class="screening-filtro-grupo" style="justify-content:flex-end">
+        <label class="screening-filtro-label">&nbsp;</label>
+        <button class="screening-analisar-btn" onclick="scrAnalisar()">Analisar</button>
+      </div>
+
+    </div>
+
+    <!-- Tags dos ativos selecionados -->
+    <div id="scr-tags" class="screening-tags-bar" style="display:none"></div>
+
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <!-- Resultado: gráfico -->
+    <div id="scr-resultado-grafico" style="display:none">
+      <div class="grafico-box" style="padding:24px">
+        <h2 id="scr-grafico-titulo"></h2>
+        <div style="position:relative;height:450px">
+          <canvas id="scr-grafico"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resultado: tabela -->
+    <div id="scr-resultado-tabela" style="display:none;overflow-x:auto">
+      <table id="scr-tabela">
+        <thead id="scr-thead"></thead>
+        <tbody id="scr-tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- Placeholder (antes de analisar) -->
+    <div id="scr-placeholder">
+      <div class="screening-placeholder">
+        <div class="screening-placeholder-icon">&#x1F50D;</div>
+        <div class="screening-placeholder-titulo">Adicione ativos e clique em Analisar</div>
+        <div class="screening-placeholder-desc">Selecione fundos na barra acima, escolha o critério e a janela de tempo para gerar o ranking.</div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/screening.js?v=1"></script>
+  <script src="js/local.js"></script>
+</body>
+</html>

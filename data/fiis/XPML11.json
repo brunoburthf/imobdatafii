@@ -4,14 +4,18 @@
     "Ticker": "XPML11",
     "Nome": "Xp Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0364,
-    "Retorno - 12M": 0.1775,
-    "P/VP": 1.01,
-    "Último Dividendo Pago": 1.84,
-    "DY a.a.": 0.199,
+    "Retorno - MTD": 0.0355,
+    "Retorno - 12M": 0.1635,
+    "P/VP": 1.0,
+    "Último Dividendo Pago": 0.92,
+    "DY a.a.": 0.099,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers, com gestão ativa e foco em renda locatícia e ganho de capital. Lançado em 2017, é descrito pela XP Asset como o maior fundo de gestão ativa de shoppings do Brasil. Atua em empreendimentos urbanos com escala e consumo consolidado.",
     "Comentário": "Distribuição de R$0,92/cota com vendas/m² crescendo 11,8% vs fevereiro 2025 e NOI/m² subindo 12,1%. Aquisição iminente de 5 participações Iguatemi (Shopping Pátio Higienópolis, Alphaville, Ribeirão Preto, Rio Preto e Praia de Belas) por R$608 mi com yield estimado 11,3%. Consolidação de 28 ativos sob 12 gestores, potencializando qualidade operacional.",
-    "Preço Atual": 110.86
+    "Preço Atual": 110.71,
+    "% Dias Acima CDI 1A": 0.4597,
+    "% Dias Acima CDI 3A": 0.6013,
+    "% Dias Acima CDI 5A": 0.4964,
+    "% Dias Acima CDI MAX": 0.5217
   },
   "historico_preco": [
     [
@@ -8261,6 +8265,22 @@
     [
       "2026-04-16",
       111.6
+    ],
+    [
+      "2026-04-17",
+      111.1
+    ],
+    [
+      "2026-04-20",
+      110.8
+    ],
+    [
+      "2026-04-22",
+      110.26
+    ],
+    [
+      "2026-04-23",
+      110.26
     ]
   ],
   "historico_preco_adj": [
@@ -16511,6 +16531,22 @@
     [
       "2026-04-16",
       110.68
+    ],
+    [
+      "2026-04-17",
+      111.1
+    ],
+    [
+      "2026-04-20",
+      110.8
+    ],
+    [
+      "2026-04-22",
+      110.26
+    ],
+    [
+      "2026-04-23",
+      110.26
     ]
   ],
   "historico_pvp": [
@@ -25169,6 +25205,26 @@
     [
       "2026-04-16",
       1.010324312
+    ],
+    [
+      "2026-04-17",
+      1.0057977694
+    ],
+    [
+      "2026-04-20",
+      1.0030818438
+    ],
+    [
+      "2026-04-21",
+      1.0030818438
+    ],
+    [
+      "2026-04-22",
+      0.99819317779
+    ],
+    [
+      "2026-04-23",
+      0.99819317779
     ]
   ],
   "historico_dy": [
@@ -33079,13 +33135,655 @@
     [
       "2026-04-16",
       9.8925
+    ],
+    [
+      "2026-04-17",
+      9.937
+    ],
+    [
+      "2026-04-20",
+      9.9639
+    ],
+    [
+      "2026-04-22",
+      10.0127
+    ],
+    [
+      "2026-04-23",
+      10.0127
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2018-01-31",
+      0.0
+    ],
+    [
+      "2018-02-28",
+      0.56021260662
+    ],
+    [
+      "2018-03-31",
+      0.495126121
+    ],
+    [
+      "2018-04-30",
+      0.502849536
+    ],
+    [
+      "2018-05-31",
+      0.52689515258
+    ],
+    [
+      "2018-06-30",
+      0.49551099115
+    ],
+    [
+      "2018-07-31",
+      0.29031902972
+    ],
+    [
+      "2018-08-31",
+      0.43474995312
+    ],
+    [
+      "2018-09-30",
+      0.50008439644
+    ],
+    [
+      "2018-10-31",
+      0.5
+    ],
+    [
+      "2018-11-30",
+      0.6
+    ],
+    [
+      "2018-12-31",
+      0.65
+    ],
+    [
+      "2019-01-31",
+      0.884077585
+    ],
+    [
+      "2019-02-28",
+      0.6
+    ],
+    [
+      "2019-03-31",
+      0.6
+    ],
+    [
+      "2019-04-30",
+      0.54
+    ],
+    [
+      "2019-05-31",
+      0.51
+    ],
+    [
+      "2019-06-30",
+      0.54
+    ],
+    [
+      "2019-07-31",
+      0.56
+    ],
+    [
+      "2019-08-31",
+      0.57
+    ],
+    [
+      "2019-09-30",
+      0.57
+    ],
+    [
+      "2019-10-31",
+      0.59
+    ],
+    [
+      "2019-11-30",
+      0.59
+    ],
+    [
+      "2019-12-31",
+      0.52
+    ],
+    [
+      "2020-01-31",
+      0.61
+    ],
+    [
+      "2020-02-29",
+      0.5
+    ],
+    [
+      "2020-03-31",
+      0.0
+    ],
+    [
+      "2020-04-30",
+      0.0
+    ],
+    [
+      "2020-05-31",
+      0.0
+    ],
+    [
+      "2020-06-30",
+      0.27
+    ],
+    [
+      "2020-07-31",
+      0.415052592
+    ],
+    [
+      "2020-08-31",
+      0.03
+    ],
+    [
+      "2020-09-30",
+      0.18
+    ],
+    [
+      "2020-10-31",
+      0.26
+    ],
+    [
+      "2020-11-30",
+      0.42
+    ],
+    [
+      "2020-12-31",
+      0.45
+    ],
+    [
+      "2021-01-31",
+      0.678304235
+    ],
+    [
+      "2021-02-28",
+      0.35
+    ],
+    [
+      "2021-03-31",
+      0.25
+    ],
+    [
+      "2021-04-30",
+      0.15
+    ],
+    [
+      "2021-05-31",
+      0.3
+    ],
+    [
+      "2021-06-30",
+      0.4
+    ],
+    [
+      "2021-07-31",
+      0.52
+    ],
+    [
+      "2021-08-31",
+      0.6
+    ],
+    [
+      "2021-09-30",
+      0.57
+    ],
+    [
+      "2021-10-31",
+      0.57
+    ],
+    [
+      "2021-11-30",
+      0.5
+    ],
+    [
+      "2021-12-31",
+      0.55
+    ],
+    [
+      "2022-01-31",
+      0.85
+    ],
+    [
+      "2022-02-28",
+      0.6
+    ],
+    [
+      "2022-03-31",
+      0.64
+    ],
+    [
+      "2022-04-30",
+      0.66
+    ],
+    [
+      "2022-05-31",
+      0.68
+    ],
+    [
+      "2022-06-30",
+      0.68
+    ],
+    [
+      "2022-07-31",
+      0.69
+    ],
+    [
+      "2022-08-31",
+      0.7
+    ],
+    [
+      "2022-09-30",
+      0.73
+    ],
+    [
+      "2022-10-31",
+      0.75
+    ],
+    [
+      "2022-11-30",
+      0.75
+    ],
+    [
+      "2022-12-31",
+      0.77
+    ],
+    [
+      "2023-01-31",
+      0.9
+    ],
+    [
+      "2023-02-28",
+      0.77
+    ],
+    [
+      "2023-03-31",
+      0.78
+    ],
+    [
+      "2023-04-30",
+      0.8
+    ],
+    [
+      "2023-05-31",
+      0.81
+    ],
+    [
+      "2023-06-30",
+      0.81
+    ],
+    [
+      "2023-07-31",
+      0.83
+    ],
+    [
+      "2023-08-31",
+      0.84
+    ],
+    [
+      "2023-09-30",
+      0.85
+    ],
+    [
+      "2023-10-31",
+      0.85
+    ],
+    [
+      "2023-11-30",
+      0.85
+    ],
+    [
+      "2023-12-31",
+      0.9
+    ],
+    [
+      "2024-01-31",
+      0.92
+    ],
+    [
+      "2024-02-29",
+      0.9
+    ],
+    [
+      "2024-03-31",
+      0.9
+    ],
+    [
+      "2024-04-30",
+      0.91
+    ],
+    [
+      "2024-05-31",
+      0.92
+    ],
+    [
+      "2024-06-30",
+      0.92
+    ],
+    [
+      "2024-07-31",
+      0.92
+    ],
+    [
+      "2024-08-31",
+      0.92
+    ],
+    [
+      "2024-09-30",
+      0.92
+    ],
+    [
+      "2024-10-31",
+      0.92
+    ],
+    [
+      "2024-11-30",
+      0.92
+    ],
+    [
+      "2024-12-31",
+      0.92
+    ],
+    [
+      "2025-01-31",
+      0.92
+    ],
+    [
+      "2025-02-28",
+      0.92
+    ],
+    [
+      "2025-03-31",
+      0.92
+    ],
+    [
+      "2025-04-30",
+      0.92
+    ],
+    [
+      "2025-05-31",
+      0.92
+    ],
+    [
+      "2025-06-30",
+      0.92
+    ],
+    [
+      "2025-07-31",
+      0.92
+    ],
+    [
+      "2025-08-31",
+      0.92
+    ],
+    [
+      "2025-09-30",
+      0.92
+    ],
+    [
+      "2025-10-31",
+      0.92
+    ],
+    [
+      "2025-11-30",
+      0.92
+    ],
+    [
+      "2025-12-31",
+      0.92
+    ],
+    [
+      "2026-01-31",
+      0.92
+    ],
+    [
+      "2026-02-28",
+      0.92
+    ],
+    [
+      "2026-03-31",
+      0.92
+    ],
+    [
+      "2026-04-30",
+      0.92
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 193396461.8,
     "Imóveis": 3483828214.9,
     "Cotas de FIIs": 2257308297.3,
     "CRI/CRA": 120663215.64,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 875961500.33
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "264",
+        "vencimento": "",
+        "quantidade": 48000.0,
+        "valor": 48345157.87,
+        "nome_cri": "CRI JHSF"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "XP CASH P1 FUNDO DE INVESTIMENTO RENDA FIXA REFERENCIADA DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 40990653.79,
+        "valor": 48331869.93
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITANIA SHOPPINGS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3061992.0,
+        "valor": 33926871.36
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VIA PARQUE SHOPPING FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 773588.0,
+        "valor": 54544853.27
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "265",
+        "vencimento": "",
+        "quantidade": 72000.0,
+        "valor": 72517736.8,
+        "nome_cri": "CRI Phiren Mikar"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GUARDIAN REAL ESTATE FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10.0,
+        "valor": 90.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "OMNI MALLS FII - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2898306.0,
+        "valor": 523523270.56
+      },
+      {
+        "tipo": "FII",
+        "emissor": "NEOMALL FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9707037.0,
+        "valor": 1003552585.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PATRIA MALLS FII - RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 510862.0,
+        "valor": 53763116.88
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RIZA MALLS MASTER RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1914710.0,
+        "valor": 193780899.84
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Shopping Bahia",
+        "endereco": "Avenida Tancredo Neves, 148 Shopping Da Bahia Loja 8w, 148, Sem Complemento, Caminho Das Árvores, Salvador/BA, Brasil, 41820-975",
+        "area": 68738.0,
+        "vacancia": 0.05,
+        "pct_total": null
+      },
+      {
+        "nome": "Praia de Belas Shopping Center",
+        "endereco": "Avenida Praia De Belas, 1181 Loja 123c, 1181, Sem Complemento, Praia De Belas, Porto Alegre/RS, Brasil, 90110-970",
+        "area": 119699.0,
+        "vacancia": 0.07,
+        "pct_total": null
+      },
+      {
+        "nome": "Jundiai Shopping",
+        "endereco": "Avenida Nove De Julho, 33333, Sem Complemento, Anhangabaú, Jundiaí/SP, Brasil, 13208-056",
+        "area": 36473.0,
+        "vacancia": 0.06,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Bela Vista",
+        "endereco": "Alameda Euvaldo Luz, 92, Sem Complemento, Horto Bela Vista, Salvador/BA, Brasil, 41098-020",
+        "area": 51143.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Metropolitano Barra",
+        "endereco": "Avenida Embaixador Abelardo Bueno, 1300, Sem Complemento, Barra Olímpica, Rio De Janeiro/RJ, Brasil, 22775-023",
+        "area": 43275.0,
+        "vacancia": 0.08,
+        "pct_total": null
+      },
+      {
+        "nome": "CAMPINAS SHOPPING CENTER",
+        "endereco": "Rua Jacy Teixeira Camargo, 940, 940, Sem Complemento, Jardim Do Lago, Campinas/SP, Brasil, 13050-913",
+        "area": 57000.0,
+        "vacancia": 0.03,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Ponta Negra",
+        "endereco": "Avenida Coronel Teixeira, 5705, Sem Complemento, Ponta Negra, Manaus/AM, Brasil, 69037-000",
+        "area": 35029.0,
+        "vacancia": 0.08,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Plaza Sul",
+        "endereco": "Praca Leonor Kaupa, 100, Sem Complemento, Bosque Da Saude, Sao Paulo/SP, Brasil, 04151-100",
+        "area": 24039.0,
+        "vacancia": 0.035,
+        "pct_total": null
+      },
+      {
+        "nome": "SHOPPING CIDADE SAO PAULO",
+        "endereco": "Avenida Paulista, 1230, Sem Complemento, Bela Vista, Sao Paulo/SP, Brasil, 01310-000",
+        "area": 16661.0,
+        "vacancia": 0.065,
+        "pct_total": null
+      },
+      {
+        "nome": "Catarina Fashion Outlet",
+        "endereco": "Rodovia Castelo Branco, 0, Sem Complemento, Dona Catarina, Sao Roque/SP, Brasil, 18132-900",
+        "area": 29529.0,
+        "vacancia": 0.01,
+        "pct_total": null
+      },
+      {
+        "nome": "Caxias Shopping",
+        "endereco": "Rodovia Washington Luiz, 2895, Sem Complemento, Parque Duque, Duque De Caxias/RJ, Brasil, 25085-008",
+        "area": 28074.0,
+        "vacancia": 0.041,
+        "pct_total": null
+      },
+      {
+        "nome": "Partage Santana Shopping",
+        "endereco": "Rua Conselheiro Moreira De Barros, 2780, , Lauzane Paulista, Sao Paulo/SP, Brasil, 02430-001",
+        "area": 26496.0,
+        "vacancia": 0.06,
+        "pct_total": null
+      },
+      {
+        "nome": "Natal Shopping",
+        "endereco": "Av Sen Salgado Filho 2234 Natal. RN, 59064-900",
+        "area": 46000.0,
+        "vacancia": 0.04,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Estacao",
+        "endereco": "Avenida Sete De Setembro, 2775, Sem Complemento, Rebouças, Curitiba/PR, Brasil, 80230-010",
+        "area": 130329.0,
+        "vacancia": 0.01,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Cidade Jardim",
+        "endereco": "Avenida Magalhaes De Castro 12000, 12000, Sem Complemento, Cidade Jardim, Sao Paulo/SP, Brasil, 05676-900",
+        "area": 39012.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Tijuca",
+        "endereco": "Avenida Maracana, 987, Sem Complemento, Tijuca, Rio De Janeiro/RJ, Brasil, 20511-000",
+        "area": 0.0,
+        "vacancia": 0.02,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

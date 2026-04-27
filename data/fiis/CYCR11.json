@@ -4,14 +4,18 @@
     "Ticker": "CYCR11",
     "Nome": "Cyrela Crédito FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0062,
-    "Retorno - 12M": 0.2165,
+    "Retorno - MTD": 0.0073,
+    "Retorno - 12M": 0.208,
     "P/VP": 0.96,
     "Último Dividendo Pago": 0.106,
-    "DY a.a.": 0.141,
+    "DY a.a.": 0.14,
     "Visão Geral": "FII de papel que investe em CRIs, debêntures e outros ativos financeiros com lastro imobiliário, buscando renda recorrente e valorização patrimonial. É gerido pela Cy Capital e atua no segmento de recebíveis imobiliários. Porte, concentração por indexador, perfil dos devedores e diversificação detalhada aparecem como N/A nas fontes consultadas.",
     "Comentário": "Distribuiu R$ 0,11/cota com dividend yield anualizado de 14,86% em fevereiro. Taxa média ponderada da carteira de IPCA+10,45% (indexação IPCA) e CDI+4,20% (indexação CDI). Desde início da negociação em novembro/2021, distribuição média atingiu R$ 1,08/cota com yield anualizado de 15,16%. Portfólio 100% adimplente com 29 CRIs, período sem operações estressadas.",
-    "Preço Atual": 9.05
+    "Preço Atual": 9.04,
+    "% Dias Acima CDI 1A": 0.4315,
+    "% Dias Acima CDI 3A": 0.5369,
+    "% Dias Acima CDI 5A": 0.4695,
+    "% Dias Acima CDI MAX": 0.4695
   },
   "historico_preco": [
     [
@@ -4397,6 +4401,22 @@
     [
       "2026-04-16",
       9.05
+    ],
+    [
+      "2026-04-17",
+      9.05
+    ],
+    [
+      "2026-04-20",
+      9.05
+    ],
+    [
+      "2026-04-22",
+      9.04
+    ],
+    [
+      "2026-04-23",
+      9.07
     ]
   ],
   "historico_preco_adj": [
@@ -8783,6 +8803,22 @@
     [
       "2026-04-16",
       9.05
+    ],
+    [
+      "2026-04-17",
+      9.05
+    ],
+    [
+      "2026-04-20",
+      9.05
+    ],
+    [
+      "2026-04-22",
+      9.04
+    ],
+    [
+      "2026-04-23",
+      9.07
     ]
   ],
   "historico_pvp": [
@@ -13377,6 +13413,26 @@
     [
       "2026-04-16",
       0.96301948822
+    ],
+    [
+      "2026-04-17",
+      0.96301948822
+    ],
+    [
+      "2026-04-20",
+      0.96301948822
+    ],
+    [
+      "2026-04-21",
+      0.96301948822
+    ],
+    [
+      "2026-04-22",
+      0.96195537829
+    ],
+    [
+      "2026-04-23",
+      0.96514770809
     ]
   ],
   "historico_dy": [
@@ -17739,13 +17795,321 @@
     [
       "2026-04-16",
       14.0552
+    ],
+    [
+      "2026-04-17",
+      14.0552
+    ],
+    [
+      "2026-04-20",
+      14.0552
+    ],
+    [
+      "2026-04-22",
+      14.0708
+    ],
+    [
+      "2026-04-23",
+      14.0243
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2021-12-31",
+      0.15
+    ],
+    [
+      "2022-01-31",
+      0.17402775
+    ],
+    [
+      "2022-02-28",
+      0.115000001
+    ],
+    [
+      "2022-03-31",
+      0.115
+    ],
+    [
+      "2022-04-30",
+      0.115
+    ],
+    [
+      "2022-05-31",
+      0.135
+    ],
+    [
+      "2022-06-30",
+      0.135
+    ],
+    [
+      "2022-07-31",
+      0.115
+    ],
+    [
+      "2022-08-31",
+      0.1
+    ],
+    [
+      "2022-09-30",
+      0.1
+    ],
+    [
+      "2022-10-31",
+      0.1
+    ],
+    [
+      "2022-11-30",
+      0.1
+    ],
+    [
+      "2022-12-31",
+      0.1
+    ],
+    [
+      "2023-01-31",
+      0.11681447
+    ],
+    [
+      "2023-02-28",
+      0.095
+    ],
+    [
+      "2023-03-31",
+      0.1
+    ],
+    [
+      "2023-04-30",
+      0.1
+    ],
+    [
+      "2023-05-31",
+      0.1
+    ],
+    [
+      "2023-06-30",
+      0.105
+    ],
+    [
+      "2023-07-31",
+      0.11
+    ],
+    [
+      "2023-08-31",
+      0.1
+    ],
+    [
+      "2023-09-30",
+      0.1
+    ],
+    [
+      "2023-10-31",
+      0.1
+    ],
+    [
+      "2023-11-30",
+      0.1
+    ],
+    [
+      "2023-12-31",
+      0.1
+    ],
+    [
+      "2024-01-31",
+      0.11
+    ],
+    [
+      "2024-02-29",
+      0.1
+    ],
+    [
+      "2024-03-31",
+      0.1
+    ],
+    [
+      "2024-04-30",
+      0.11
+    ],
+    [
+      "2024-05-31",
+      0.11
+    ],
+    [
+      "2024-06-30",
+      0.11
+    ],
+    [
+      "2024-07-31",
+      0.12
+    ],
+    [
+      "2024-08-31",
+      0.12
+    ],
+    [
+      "2024-09-30",
+      0.1
+    ],
+    [
+      "2024-10-31",
+      0.08
+    ],
+    [
+      "2024-11-30",
+      0.09
+    ],
+    [
+      "2024-12-31",
+      0.095
+    ],
+    [
+      "2025-01-31",
+      0.095
+    ],
+    [
+      "2025-02-28",
+      0.1
+    ],
+    [
+      "2025-03-31",
+      0.1
+    ],
+    [
+      "2025-04-30",
+      0.106
+    ],
+    [
+      "2025-05-31",
+      0.11
+    ],
+    [
+      "2025-06-30",
+      0.115
+    ],
+    [
+      "2025-07-31",
+      0.116
+    ],
+    [
+      "2025-08-31",
+      0.106
+    ],
+    [
+      "2025-09-30",
+      0.106
+    ],
+    [
+      "2025-10-31",
+      0.106
+    ],
+    [
+      "2025-11-30",
+      0.106
+    ],
+    [
+      "2025-12-31",
+      0.106
+    ],
+    [
+      "2026-01-31",
+      0.106
+    ],
+    [
+      "2026-02-28",
+      0.106
+    ],
+    [
+      "2026-03-31",
+      0.106
+    ],
+    [
+      "2026-04-30",
+      0.106
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 7306630.84,
     "Cotas de FIIs": 11627090.33,
     "CRI/CRA": 295350917.6,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 12299599.0,
     "Outros": 1.1175870895385742e-08
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "FII",
+        "emissor": "Valora CRI CDI - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 693116.0,
+        "valor": 6813330.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Mauá Capital Real Estate - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 129853.0,
+        "valor": 1194647.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Paramis Hedge Fund - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 204401.0,
+        "valor": 1800772.81
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Kinea Unique HY CDI - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1768.0,
+        "valor": 186082.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP Crédito Imobiliário - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10643.0,
+        "valor": 883156.14
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BRACYR FI RENDA FIXA CREDITO PRIVADO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 729827.89652999,
+        "valor": 33921059.64
+      },
+      {
+        "tipo": "FII",
+        "emissor": "Capitânia Securities II - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 109180.0,
+        "valor": 846145.0
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

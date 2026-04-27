@@ -4,14 +4,18 @@
     "Ticker": "PORD11",
     "Nome": "Polo Crédito Imobiliário FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0178,
-    "Retorno - 12M": 0.2012,
+    "Retorno - MTD": 0.0166,
+    "Retorno - 12M": 0.1925,
     "P/VP": 0.89,
     "Último Dividendo Pago": 0.098,
     "DY a.a.": 0.139,
     "Visão Geral": "FII de papel que investe em CRIs e outros ativos financeiros de natureza imobiliária, com foco em geração de renda recorrente. É gerido pela Polo Capital, iniciou em 4 de janeiro de 2013 e tinha 46.634 cotistas nas informações consultadas. A estratégia prioriza crédito imobiliário com carteira financeira dedicada.",
     "Comentário": "Distribuição de R$ 0,10/cota em fevereiro com dividend yield de 13,72% a.a. (IPCA + 9,07%). Fundo realizou aquisição oportunística no mercado secundário, aumentando exposição ao CRI Patrimar (CDI + 2,9%), totalizando 1,15% do patrimônio.",
-    "Preço Atual": 8.44
+    "Preço Atual": 8.45,
+    "% Dias Acima CDI 1A": 0.4798,
+    "% Dias Acima CDI 3A": 0.3919,
+    "% Dias Acima CDI 5A": 0.4635,
+    "% Dias Acima CDI MAX": 0.5342
   },
   "historico_preco": [
     [
@@ -11209,6 +11213,22 @@
     [
       "2026-04-16",
       8.5
+    ],
+    [
+      "2026-04-17",
+      8.48
+    ],
+    [
+      "2026-04-20",
+      8.42
+    ],
+    [
+      "2026-04-22",
+      8.45
+    ],
+    [
+      "2026-04-23",
+      8.44
     ]
   ],
   "historico_preco_adj": [
@@ -20959,6 +20979,22 @@
     [
       "2026-04-16",
       8.5
+    ],
+    [
+      "2026-04-17",
+      8.48
+    ],
+    [
+      "2026-04-20",
+      8.42
+    ],
+    [
+      "2026-04-22",
+      8.45
+    ],
+    [
+      "2026-04-23",
+      8.44
     ]
   ],
   "historico_pvp": [
@@ -34633,6 +34669,26 @@
     [
       "2026-04-16",
       0.89122198437
+    ],
+    [
+      "2026-04-17",
+      0.88912499146
+    ],
+    [
+      "2026-04-20",
+      0.88283401275
+    ],
+    [
+      "2026-04-21",
+      0.88283401275
+    ],
+    [
+      "2026-04-22",
+      0.88597950211
+    ],
+    [
+      "2026-04-23",
+      0.88493100566
     ]
   ],
   "historico_dy": [
@@ -41503,13 +41559,887 @@
     [
       "2026-04-16",
       13.8353
+    ],
+    [
+      "2026-04-17",
+      13.8679
+    ],
+    [
+      "2026-04-20",
+      13.9667
+    ],
+    [
+      "2026-04-22",
+      13.9172
+    ],
+    [
+      "2026-04-23",
+      13.9336
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2016-01-31",
+      0.622
+    ],
+    [
+      "2016-02-29",
+      0.0
+    ],
+    [
+      "2016-03-31",
+      0.0
+    ],
+    [
+      "2016-04-30",
+      0.0
+    ],
+    [
+      "2016-05-31",
+      0.0
+    ],
+    [
+      "2016-06-30",
+      0.0
+    ],
+    [
+      "2016-07-31",
+      0.9
+    ],
+    [
+      "2016-08-31",
+      0.0
+    ],
+    [
+      "2016-09-30",
+      0.0
+    ],
+    [
+      "2016-10-31",
+      0.0
+    ],
+    [
+      "2016-11-30",
+      0.0
+    ],
+    [
+      "2016-12-31",
+      0.0
+    ],
+    [
+      "2017-01-31",
+      0.66
+    ],
+    [
+      "2017-02-28",
+      0.0
+    ],
+    [
+      "2017-03-31",
+      0.0
+    ],
+    [
+      "2017-04-30",
+      0.0
+    ],
+    [
+      "2017-05-31",
+      0.0
+    ],
+    [
+      "2017-06-30",
+      0.0
+    ],
+    [
+      "2017-07-31",
+      0.58
+    ],
+    [
+      "2017-08-31",
+      0.0
+    ],
+    [
+      "2017-09-30",
+      0.0
+    ],
+    [
+      "2017-10-31",
+      0.0
+    ],
+    [
+      "2017-11-30",
+      0.0
+    ],
+    [
+      "2017-12-31",
+      0.0
+    ],
+    [
+      "2018-01-31",
+      0.334
+    ],
+    [
+      "2018-02-28",
+      0.0
+    ],
+    [
+      "2018-03-31",
+      0.0
+    ],
+    [
+      "2018-04-30",
+      0.0
+    ],
+    [
+      "2018-05-31",
+      0.0
+    ],
+    [
+      "2018-06-30",
+      0.0
+    ],
+    [
+      "2018-07-31",
+      0.5
+    ],
+    [
+      "2018-08-31",
+      0.0
+    ],
+    [
+      "2018-09-30",
+      0.0
+    ],
+    [
+      "2018-10-31",
+      0.0
+    ],
+    [
+      "2018-11-30",
+      0.0
+    ],
+    [
+      "2018-12-31",
+      0.0
+    ],
+    [
+      "2019-01-31",
+      0.7105196
+    ],
+    [
+      "2019-02-28",
+      0.0
+    ],
+    [
+      "2019-03-31",
+      0.0
+    ],
+    [
+      "2019-04-30",
+      0.0
+    ],
+    [
+      "2019-05-31",
+      0.0
+    ],
+    [
+      "2019-06-30",
+      0.0
+    ],
+    [
+      "2019-07-31",
+      0.43538923351
+    ],
+    [
+      "2019-08-31",
+      0.0
+    ],
+    [
+      "2019-09-30",
+      0.0
+    ],
+    [
+      "2019-10-31",
+      0.0
+    ],
+    [
+      "2019-11-30",
+      0.0
+    ],
+    [
+      "2019-12-31",
+      0.0
+    ],
+    [
+      "2020-01-31",
+      0.305239566
+    ],
+    [
+      "2020-02-29",
+      0.08366981265
+    ],
+    [
+      "2020-03-31",
+      0.06063019703
+    ],
+    [
+      "2020-04-30",
+      0.05106596796
+    ],
+    [
+      "2020-05-31",
+      0.04416475473
+    ],
+    [
+      "2020-06-30",
+      0.05
+    ],
+    [
+      "2020-07-31",
+      0.10045383999
+    ],
+    [
+      "2020-08-31",
+      0.0724755371
+    ],
+    [
+      "2020-09-30",
+      0.06587145766
+    ],
+    [
+      "2020-10-31",
+      0.082
+    ],
+    [
+      "2020-11-30",
+      0.08
+    ],
+    [
+      "2020-12-31",
+      0.081
+    ],
+    [
+      "2021-01-31",
+      0.103
+    ],
+    [
+      "2021-02-28",
+      0.081
+    ],
+    [
+      "2021-03-31",
+      0.084
+    ],
+    [
+      "2021-04-30",
+      0.086
+    ],
+    [
+      "2021-05-31",
+      0.09
+    ],
+    [
+      "2021-06-30",
+      0.1
+    ],
+    [
+      "2021-07-31",
+      0.104
+    ],
+    [
+      "2021-08-31",
+      0.09
+    ],
+    [
+      "2021-09-30",
+      0.083
+    ],
+    [
+      "2021-10-31",
+      0.091
+    ],
+    [
+      "2021-11-30",
+      0.093
+    ],
+    [
+      "2021-12-31",
+      0.111
+    ],
+    [
+      "2022-01-31",
+      0.10784108
+    ],
+    [
+      "2022-02-28",
+      0.117
+    ],
+    [
+      "2022-03-31",
+      0.11
+    ],
+    [
+      "2022-04-30",
+      0.122
+    ],
+    [
+      "2022-05-31",
+      0.141
+    ],
+    [
+      "2022-06-30",
+      0.152
+    ],
+    [
+      "2022-07-31",
+      0.172
+    ],
+    [
+      "2022-08-31",
+      0.15
+    ],
+    [
+      "2022-09-30",
+      0.115
+    ],
+    [
+      "2022-10-31",
+      0.11
+    ],
+    [
+      "2022-11-30",
+      0.09
+    ],
+    [
+      "2022-12-31",
+      0.09
+    ],
+    [
+      "2023-01-31",
+      0.091
+    ],
+    [
+      "2023-02-28",
+      0.112
+    ],
+    [
+      "2023-03-31",
+      0.105
+    ],
+    [
+      "2023-04-30",
+      0.1
+    ],
+    [
+      "2023-05-31",
+      0.1
+    ],
+    [
+      "2023-06-30",
+      0.105
+    ],
+    [
+      "2023-07-31",
+      0.108
+    ],
+    [
+      "2023-08-31",
+      0.1
+    ],
+    [
+      "2023-09-30",
+      0.103
+    ],
+    [
+      "2023-10-31",
+      0.1
+    ],
+    [
+      "2023-11-30",
+      0.103
+    ],
+    [
+      "2023-12-31",
+      0.098
+    ],
+    [
+      "2024-01-31",
+      0.101
+    ],
+    [
+      "2024-02-29",
+      0.099
+    ],
+    [
+      "2024-03-31",
+      0.093
+    ],
+    [
+      "2024-04-30",
+      0.093
+    ],
+    [
+      "2024-05-31",
+      0.094
+    ],
+    [
+      "2024-06-30",
+      0.091
+    ],
+    [
+      "2024-07-31",
+      0.091
+    ],
+    [
+      "2024-08-31",
+      0.089
+    ],
+    [
+      "2024-09-30",
+      0.089
+    ],
+    [
+      "2024-10-31",
+      0.089
+    ],
+    [
+      "2024-11-30",
+      0.091
+    ],
+    [
+      "2024-12-31",
+      0.089
+    ],
+    [
+      "2025-01-31",
+      0.089
+    ],
+    [
+      "2025-02-28",
+      0.082
+    ],
+    [
+      "2025-03-31",
+      0.09
+    ],
+    [
+      "2025-04-30",
+      0.088
+    ],
+    [
+      "2025-05-31",
+      0.092
+    ],
+    [
+      "2025-06-30",
+      0.093
+    ],
+    [
+      "2025-07-31",
+      0.095
+    ],
+    [
+      "2025-08-31",
+      0.092
+    ],
+    [
+      "2025-09-30",
+      0.095
+    ],
+    [
+      "2025-10-31",
+      0.1
+    ],
+    [
+      "2025-11-30",
+      0.1
+    ],
+    [
+      "2025-12-31",
+      0.102
+    ],
+    [
+      "2026-01-31",
+      0.102
+    ],
+    [
+      "2026-02-28",
+      0.1
+    ],
+    [
+      "2026-03-31",
+      0.1
+    ],
+    [
+      "2026-04-30",
+      0.098
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 84426958.19,
     "Cotas de FIIs": 33495563.08,
     "CRI/CRA": 240768728.08,
     "Debêntures": 1611511.31,
     "Outros": 3.4458935260772705e-08
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "KANASTRA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5717.0,
+        "valor": 2886192.1
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "416",
+        "vencimento": "",
+        "quantidade": 210506.0,
+        "valor": 3291496.52,
+        "nome_cri": "CRI Maiojama"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "POLO SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "62",
+        "vencimento": "",
+        "quantidade": 274.0,
+        "valor": 1248053.45
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "94",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 142.0,
+        "valor": 139631.26,
+        "nome_cri": "CRI Diagnósticos da América S.A ."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO SEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "314",
+        "vencimento": "",
+        "quantidade": 28300.0,
+        "valor": 25632091.72,
+        "nome_cri": "CRI COTEMINAS"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "445",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 4638520.38,
+        "nome_cri": "CRI GPA III"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA",
+        "nome": "",
+        "emissao": "4",
+        "serie": "378",
+        "vencimento": "",
+        "quantidade": 4917.0,
+        "valor": 4832707.03,
+        "nome_cri": "CRI CORP HAPVIDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO SEC",
+        "nome": "",
+        "emissao": "56",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8400.0,
+        "valor": 8820144.53,
+        "nome_cri": "CRI CORP SMART FIT"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "60",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9905.0,
+        "valor": 5275807.59,
+        "nome_cri": "CRI You Inc Incorporadora e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO SEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "402",
+        "vencimento": "",
+        "quantidade": 28500.0,
+        "valor": 17767402.37,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "LEVERAGE COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "40",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 11276.0,
+        "valor": 10852112.86
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "JHSF PARTICIPACOES S.A.",
+        "nome": "JHSFA3",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 11772.0,
+        "valor": 11934036.96
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "350",
+        "vencimento": "",
+        "quantidade": 16000.0,
+        "valor": 2340653.39,
+        "nome_cri": "CRI BRZ Sr."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO SEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "329",
+        "vencimento": "",
+        "quantidade": 9200.0,
+        "valor": 8586210.68,
+        "nome_cri": "CRI ESTR BLUEMACAW CATUAI 3 PÁTIO MALZONI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA",
+        "nome": "",
+        "emissao": "4",
+        "serie": "319",
+        "vencimento": "",
+        "quantidade": 17073.0,
+        "valor": 18202384.22,
+        "nome_cri": "CRI ONM HEALTH (OPY)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "223",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 6486473.89,
+        "nome_cri": "CRI Lote 5"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OCTANTE SECURITIZADORA",
+        "nome": "",
+        "emissao": "5",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 18000.0,
+        "valor": 4923635.85
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "150",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10050.0,
+        "valor": 10065714.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "POLO SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "21",
+        "vencimento": "",
+        "quantidade": 41.0,
+        "valor": 296673.81
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA",
+        "nome": "",
+        "emissao": "56",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1050.0,
+        "valor": 1185535.74,
+        "nome_cri": "CRI CORP SMART FIT"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "349",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 8910.0,
+        "valor": 6244345.28,
+        "nome_cri": "CRI Tenda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "265",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 14108780.97,
+        "nome_cri": "CRI Tenda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "371",
+        "vencimento": "",
+        "quantidade": 17125.0,
+        "valor": 5536015.56,
+        "nome_cri": "CRI Alphaville II"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MOEMA FII RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 31000.0,
+        "valor": 32731559.65
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "414",
+        "vencimento": "",
+        "quantidade": 426105.0,
+        "valor": 6385905.42,
+        "nome_cri": "CRI SG Laguna 2"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "484",
+        "vencimento": "",
+        "quantidade": 11741.0,
+        "valor": 1217192.58,
+        "nome_cri": "CRI AXS Energia"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "415",
+        "vencimento": "",
+        "quantidade": 210506.0,
+        "valor": 2650453.01,
+        "nome_cri": "CRI Maiojama"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OCTANTE SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 12.0,
+        "valor": 477452.11
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 18000.0,
+        "valor": 16634933.91,
+        "nome_cri": "CRI ESTR CETILPARK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA",
+        "nome": "",
+        "emissao": "265",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 6699749.63,
+        "nome_cri": "CRI HBR"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "OULG11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30518.0,
+        "valor": 733652.72
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "ORE SECURITIZADORA",
+        "nome": "",
+        "emissao": "1",
+        "serie": "30",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1274929.58
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA",
+        "nome": "",
+        "emissao": "256",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12706.0,
+        "valor": 12502341.51,
+        "nome_cri": "CRI PULV PONTTE (WIMO VI)"
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

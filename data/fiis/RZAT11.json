@@ -4,14 +4,18 @@
     "Ticker": "RZAT11",
     "Nome": "Riza Arctium Real Estate FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0488,
-    "Retorno - 12M": 0.2258,
-    "P/VP": 0.75,
+    "Retorno - MTD": 0.0522,
+    "Retorno - 12M": 0.2276,
+    "P/VP": 0.93,
     "Último Dividendo Pago": 1.4,
-    "DY a.a.": 0.178,
+    "DY a.a.": 0.177,
     "Visão Geral": "FII de agronegócio que investe em imóveis rurais e ativos ligados à produção agrícola, com foco em aquisição, arrendamento e eventual alienação de propriedades. Tem gestão da Riza e atuação direcionada a terras produtivas. A estratégia prioriza renda recorrente e valorização patrimonial no ciclo de longo prazo do agro brasileiro.",
     "Comentário": "Em fevereiro distribuiu R$ 1,00/cota mantendo R$ 0,70/cota em caixa para futuras distribuições. Portfólio de 10 imóveis adquiridos por R$ 405 milhões avaliados em R$ 1,04 bilhão, gerando spread médio de IPCA+10,0% a.a. Completou negociação com Aliança Agrícola para reestruturação de operação em Porto dos Gaúchos.",
-    "Preço Atual": 95.28
+    "Preço Atual": 95.25,
+    "% Dias Acima CDI 1A": 0.4758,
+    "% Dias Acima CDI 3A": 0.4738,
+    "% Dias Acima CDI 5A": 0.5815,
+    "% Dias Acima CDI MAX": 0.6257
   },
   "historico_preco": [
     [
@@ -6153,6 +6157,22 @@
     [
       "2026-04-16",
       93.85
+    ],
+    [
+      "2026-04-17",
+      94.55
+    ],
+    [
+      "2026-04-20",
+      95.3
+    ],
+    [
+      "2026-04-22",
+      95.41
+    ],
+    [
+      "2026-04-23",
+      95.92
     ]
   ],
   "historico_preco_adj": [
@@ -12295,6 +12315,22 @@
     [
       "2026-04-16",
       93.85
+    ],
+    [
+      "2026-04-17",
+      94.55
+    ],
+    [
+      "2026-04-20",
+      95.3
+    ],
+    [
+      "2026-04-22",
+      95.41
+    ],
+    [
+      "2026-04-23",
+      95.92
     ]
   ],
   "historico_pvp": [
@@ -19144,55 +19180,75 @@
     ],
     [
       "2026-03-31",
-      0.72669163462
+      0.89985231524
     ],
     [
       "2026-04-01",
-      0.72947102564
+      0.90329399714
     ],
     [
       "2026-04-02",
-      0.72716810165
+      0.90044231785
     ],
     [
       "2026-04-03",
-      0.72716810165
+      0.90044231785
     ],
     [
       "2026-04-06",
-      0.72383283243
+      0.89631229958
     ],
     [
       "2026-04-07",
-      0.72796221337
+      0.90142565554
     ],
     [
       "2026-04-08",
-      0.74336798073
+      0.92050240662
     ],
     [
       "2026-04-09",
-      0.74368562542
+      0.92089574169
     ],
     [
       "2026-04-10",
-      0.75567671238
+      0.93574414073
     ],
     [
       "2026-04-13",
-      0.74606796058
+      0.92384575475
     ],
     [
       "2026-04-14",
-      0.74511502651
+      0.92266574952
     ],
     [
       "2026-04-15",
-      0.74646501644
+      0.92433742359
     ],
     [
       "2026-04-16",
-      0.74527384886
+      0.92286241706
+    ],
+    [
+      "2026-04-17",
+      0.92974578085
+    ],
+    [
+      "2026-04-20",
+      0.93712081349
+    ],
+    [
+      "2026-04-21",
+      0.93712081349
+    ],
+    [
+      "2026-04-22",
+      0.93820248494
+    ],
+    [
+      "2026-04-23",
+      0.94321750713
     ]
   ],
   "historico_dy": [
@@ -25215,11 +25271,465 @@
     [
       "2026-04-16",
       17.9009
+    ],
+    [
+      "2026-04-17",
+      17.7684
+    ],
+    [
+      "2026-04-20",
+      17.6285
+    ],
+    [
+      "2026-04-22",
+      17.6082
+    ],
+    [
+      "2026-04-23",
+      17.5146
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2019-10-31",
+      0.65
+    ],
+    [
+      "2019-11-30",
+      0.65
+    ],
+    [
+      "2019-12-31",
+      1.1
+    ],
+    [
+      "2020-01-31",
+      0.0
+    ],
+    [
+      "2020-02-29",
+      0.0
+    ],
+    [
+      "2020-03-31",
+      0.0
+    ],
+    [
+      "2020-04-30",
+      1.024
+    ],
+    [
+      "2020-05-31",
+      1.026
+    ],
+    [
+      "2020-06-30",
+      1.014
+    ],
+    [
+      "2020-07-31",
+      1.941
+    ],
+    [
+      "2020-08-31",
+      1.086
+    ],
+    [
+      "2020-09-30",
+      2.0
+    ],
+    [
+      "2020-10-31",
+      1.086
+    ],
+    [
+      "2020-11-30",
+      1.243
+    ],
+    [
+      "2020-12-31",
+      2.9147736467
+    ],
+    [
+      "2021-01-31",
+      0.8776183137
+    ],
+    [
+      "2021-02-28",
+      6.370306381
+    ],
+    [
+      "2021-03-31",
+      0.98184469
+    ],
+    [
+      "2021-04-30",
+      2.31
+    ],
+    [
+      "2021-05-31",
+      1.0
+    ],
+    [
+      "2021-06-30",
+      0.5
+    ],
+    [
+      "2021-07-31",
+      0.904098042
+    ],
+    [
+      "2021-08-31",
+      0.818191476
+    ],
+    [
+      "2021-09-30",
+      0.925184536
+    ],
+    [
+      "2021-10-31",
+      1.122874149
+    ],
+    [
+      "2021-11-30",
+      1.438239549
+    ],
+    [
+      "2021-12-31",
+      1.740862536
+    ],
+    [
+      "2022-01-31",
+      1.702153168
+    ],
+    [
+      "2022-02-28",
+      1.5
+    ],
+    [
+      "2022-03-31",
+      1.649639805
+    ],
+    [
+      "2022-04-30",
+      1.640514266
+    ],
+    [
+      "2022-05-31",
+      2.02
+    ],
+    [
+      "2022-06-30",
+      1.86
+    ],
+    [
+      "2022-07-31",
+      1.16759832
+    ],
+    [
+      "2022-08-31",
+      1.02
+    ],
+    [
+      "2022-09-30",
+      0.9
+    ],
+    [
+      "2022-10-31",
+      0.78
+    ],
+    [
+      "2022-11-30",
+      0.766028834
+    ],
+    [
+      "2022-12-31",
+      0.761006124
+    ],
+    [
+      "2023-01-31",
+      0.393310235
+    ],
+    [
+      "2023-02-28",
+      0.96
+    ],
+    [
+      "2023-03-31",
+      1.18
+    ],
+    [
+      "2023-04-30",
+      1.35
+    ],
+    [
+      "2023-05-31",
+      1.32
+    ],
+    [
+      "2023-06-30",
+      1.2
+    ],
+    [
+      "2023-07-31",
+      0.9
+    ],
+    [
+      "2023-08-31",
+      0.75
+    ],
+    [
+      "2023-09-30",
+      0.73
+    ],
+    [
+      "2023-10-31",
+      0.79
+    ],
+    [
+      "2023-11-30",
+      1.02
+    ],
+    [
+      "2023-12-31",
+      1.2
+    ],
+    [
+      "2024-01-31",
+      1.1
+    ],
+    [
+      "2024-02-29",
+      1.12
+    ],
+    [
+      "2024-03-31",
+      1.08
+    ],
+    [
+      "2024-04-30",
+      1.1
+    ],
+    [
+      "2024-05-31",
+      1.05
+    ],
+    [
+      "2024-06-30",
+      1.1
+    ],
+    [
+      "2024-07-31",
+      1.15
+    ],
+    [
+      "2024-08-31",
+      1.1
+    ],
+    [
+      "2024-09-30",
+      1.05
+    ],
+    [
+      "2024-10-31",
+      0.92
+    ],
+    [
+      "2024-11-30",
+      0.98
+    ],
+    [
+      "2024-12-31",
+      1.0
+    ],
+    [
+      "2025-01-31",
+      1.0
+    ],
+    [
+      "2025-02-28",
+      1.0
+    ],
+    [
+      "2025-03-31",
+      1.1
+    ],
+    [
+      "2025-04-30",
+      1.1
+    ],
+    [
+      "2025-05-31",
+      1.15
+    ],
+    [
+      "2025-06-30",
+      1.15
+    ],
+    [
+      "2025-07-31",
+      1.05
+    ],
+    [
+      "2025-08-31",
+      1.05
+    ],
+    [
+      "2025-09-30",
+      1.0
+    ],
+    [
+      "2025-10-31",
+      0.9
+    ],
+    [
+      "2025-11-30",
+      0.85
+    ],
+    [
+      "2025-12-31",
+      0.85
+    ],
+    [
+      "2026-01-31",
+      0.95
+    ],
+    [
+      "2026-02-28",
+      0.95
+    ],
+    [
+      "2026-03-31",
+      1.0
+    ],
+    [
+      "2026-04-30",
+      1.4
     ]
   ],
   "portfolio": {
-    "Caixa": 19228364.259999998,
+    "_data_ref": "31/03/2026",
+    "Caixa": 19274768.0,
     "Imóveis": 263558600.0,
-    "Cotas de FIIs": 133955770.52
+    "Cotas de FIIs": 31676001.11
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 38782.6,
+        "valor": 2067640.53
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIZA LECCI FII RESP LIMITADA - SENIOR",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 15686467.79
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Banco BTG Pactual S.A.",
+        "nome": "Operações Compromissadas - Lastro: LFT REF",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 857.0,
+        "valor": 15464667.77
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "CAIXA ECONOMICA FEDERAL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2027-01-18",
+        "quantidade": 17.0,
+        "valor": 19434185.27
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Imovel Porto dos Gauchos MT",
+        "endereco": "Lote 47 A, Sn, Sem Complemento, Porto Dos Gaúchos, Porto Dos Gaúchos/MT, Brasil, 78560-000",
+        "area": 87607.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Empreendimento Votorantim - Splice",
+        "endereco": "Avenida Juscelino Kubitschek De Oliveira, 154, Blocos A, B, C, Centro, Votorantim/SP, Brasil, 18110-901",
+        "area": 13719.34,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Imovel Rio Claro - Posto Monte Carlo",
+        "endereco": "Rodovia Washington Luis, Km.198, Sem Complemento, , Corumbatai/SP, Brasil, 13540-000",
+        "area": 320.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Imovel Andorinha - Sao Paulo",
+        "endereco": "Rua Professor Luciano Prata, 204, Sem Complemento, Vila Baruel, Sao Paulo/SP, Brasil, 02510-020",
+        "area": 4205.41,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Total Ville Planaltina",
+        "endereco": "Brasilia, Quadra 24, Módulo 1, Setor Habitacional Mestre D'armas (planaltina), Brasília/DF, Brasil, 00073-405",
+        "area": 7510.47,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpao Caucaia - Stock Teck",
+        "endereco": "Rodovia Br020, 527, Sem Complemento, Campo Grande, Caucaia/CE, Brasil, 61663-015",
+        "area": 5606.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Imovel Andorinha - Campo Grande",
+        "endereco": "Avenida Costa E Silva, 1275, Sem Complemento, Vila Progresso, Campo Grande/MS, Brasil, 79050-410",
+        "area": 10541.98,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Imovel Mirassol - Posto Monte Carlo",
+        "endereco": "Avenida Santos Dumont, 4235, Loteamento Jardim Marilu, Vila Aeroporto, Mirassol/SP, Brasil, 15135-160",
+        "area": 0.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Galpao Industrial - Imperio",
+        "endereco": "Rodovia Juscelino Kubitscheck De Oliveira - Br 364, S/n, Sem Complemento, Área Rural De Frutal, Frutal/MG, Brasil, 00038-207",
+        "area": 78600.83,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Fabrica - Goiania",
+        "endereco": "Alameda Das Mansoes, 414, Chacaras 414 415 441 442 412 413 443 E 444, Chacaras Mansoes Rosas De Ouro, Goiania/GO, Brasil, 74470-060",
+        "area": 8959.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

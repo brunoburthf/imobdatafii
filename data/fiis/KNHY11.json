@@ -4,14 +4,18 @@
     "Ticker": "KNHY11",
     "Nome": "Kinea High Yield Cri FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0231,
-    "Retorno - 12M": 0.1433,
+    "Retorno - MTD": 0.0278,
+    "Retorno - 12M": 0.1469,
     "P/VP": 1.02,
     "Último Dividendo Pago": 1.1,
-    "DY a.a.": 0.131,
+    "DY a.a.": 0.13,
     "Visão Geral": "FII de papel que investe em CRIs de perfil high yield, buscando retorno superior dentro do crédito imobiliário. Tem gestão da Kinea, início em 2018 e patrimônio líquido de cerca de R$ 3,1 bilhões. A carteira concentra operações com predominância de indexação ao IPCA e estratégia de renda recorrente em crédito privado.",
     "Comentário": "O fundo distribuiu R$1,10/cota em março, 127% superior ao gerado no mês anterior. Novos investimentos de R$74,8 milhões em CRI Home Equity de plataformas como Galleria Bank refletiram a mudança tática para capturar retornos prefixados elevados em ambiente de ciclo de cortes previsto, aproveitando estruturas de subordinação com risco de crédito adequado.",
-    "Preço Atual": 100.98
+    "Preço Atual": 101.32,
+    "% Dias Acima CDI 1A": 0.2823,
+    "% Dias Acima CDI 3A": 0.5624,
+    "% Dias Acima CDI 5A": 0.5124,
+    "% Dias Acima CDI MAX": 0.5279
   },
   "historico_preco": [
     [
@@ -7653,6 +7657,22 @@
     [
       "2026-04-16",
       99.94
+    ],
+    [
+      "2026-04-17",
+      100.69
+    ],
+    [
+      "2026-04-20",
+      100.95
+    ],
+    [
+      "2026-04-22",
+      101.26
+    ],
+    [
+      "2026-04-23",
+      101.35
     ]
   ],
   "historico_preco_adj": [
@@ -15295,6 +15315,22 @@
     [
       "2026-04-16",
       99.94
+    ],
+    [
+      "2026-04-17",
+      100.69
+    ],
+    [
+      "2026-04-20",
+      100.95
+    ],
+    [
+      "2026-04-22",
+      101.26
+    ],
+    [
+      "2026-04-23",
+      101.35
     ]
   ],
   "historico_pvp": [
@@ -23321,6 +23357,26 @@
     [
       "2026-04-16",
       1.0076636607
+    ],
+    [
+      "2026-04-17",
+      1.0152256754
+    ],
+    [
+      "2026-04-20",
+      1.0178471738
+    ],
+    [
+      "2026-04-21",
+      1.0178471738
+    ],
+    [
+      "2026-04-22",
+      1.0209728065
+    ],
+    [
+      "2026-04-23",
+      1.0218802483
     ]
   ],
   "historico_dy": [
@@ -30895,12 +30951,2907 @@
     [
       "2026-04-16",
       13.2079
+    ],
+    [
+      "2026-04-17",
+      13.1095
+    ],
+    [
+      "2026-04-20",
+      13.0758
+    ],
+    [
+      "2026-04-22",
+      13.0357
+    ],
+    [
+      "2026-04-23",
+      13.0242
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2018-09-30",
+      0.42
+    ],
+    [
+      "2018-10-31",
+      0.32
+    ],
+    [
+      "2018-11-30",
+      0.57
+    ],
+    [
+      "2018-12-31",
+      0.56
+    ],
+    [
+      "2019-01-31",
+      0.36
+    ],
+    [
+      "2019-02-28",
+      0.49
+    ],
+    [
+      "2019-03-31",
+      0.64
+    ],
+    [
+      "2019-04-30",
+      0.73
+    ],
+    [
+      "2019-05-31",
+      1.0
+    ],
+    [
+      "2019-06-30",
+      0.96
+    ],
+    [
+      "2019-07-31",
+      0.67
+    ],
+    [
+      "2019-08-31",
+      0.62
+    ],
+    [
+      "2019-09-30",
+      0.7
+    ],
+    [
+      "2019-10-31",
+      0.66
+    ],
+    [
+      "2019-11-30",
+      0.58
+    ],
+    [
+      "2019-12-31",
+      0.38
+    ],
+    [
+      "2020-01-31",
+      0.83
+    ],
+    [
+      "2020-02-29",
+      1.0
+    ],
+    [
+      "2020-03-31",
+      0.9
+    ],
+    [
+      "2020-04-30",
+      0.7
+    ],
+    [
+      "2020-05-31",
+      0.5
+    ],
+    [
+      "2020-06-30",
+      0.3
+    ],
+    [
+      "2020-07-31",
+      0.32
+    ],
+    [
+      "2020-08-31",
+      0.45
+    ],
+    [
+      "2020-09-30",
+      0.65
+    ],
+    [
+      "2020-10-31",
+      0.64
+    ],
+    [
+      "2020-11-30",
+      0.83
+    ],
+    [
+      "2020-12-31",
+      1.04
+    ],
+    [
+      "2021-01-31",
+      1.23
+    ],
+    [
+      "2021-02-28",
+      1.42
+    ],
+    [
+      "2021-03-31",
+      1.29
+    ],
+    [
+      "2021-04-30",
+      1.12
+    ],
+    [
+      "2021-05-31",
+      1.2
+    ],
+    [
+      "2021-06-30",
+      1.09
+    ],
+    [
+      "2021-07-31",
+      1.1
+    ],
+    [
+      "2021-08-31",
+      1.2
+    ],
+    [
+      "2021-09-30",
+      1.31
+    ],
+    [
+      "2021-10-31",
+      1.07
+    ],
+    [
+      "2021-11-30",
+      1.35
+    ],
+    [
+      "2021-12-31",
+      1.51
+    ],
+    [
+      "2022-01-31",
+      1.5
+    ],
+    [
+      "2022-02-28",
+      1.3
+    ],
+    [
+      "2022-03-31",
+      1.1
+    ],
+    [
+      "2022-04-30",
+      1.21
+    ],
+    [
+      "2022-05-31",
+      1.55
+    ],
+    [
+      "2022-06-30",
+      1.75
+    ],
+    [
+      "2022-07-31",
+      1.28
+    ],
+    [
+      "2022-08-31",
+      1.16
+    ],
+    [
+      "2022-09-30",
+      0.76
+    ],
+    [
+      "2022-10-31",
+      0.37
+    ],
+    [
+      "2022-11-30",
+      0.47
+    ],
+    [
+      "2022-12-31",
+      0.9
+    ],
+    [
+      "2023-01-31",
+      0.95
+    ],
+    [
+      "2023-02-28",
+      1.32
+    ],
+    [
+      "2023-03-31",
+      1.08
+    ],
+    [
+      "2023-04-30",
+      1.3
+    ],
+    [
+      "2023-05-31",
+      1.2
+    ],
+    [
+      "2023-06-30",
+      1.25
+    ],
+    [
+      "2023-07-31",
+      1.05
+    ],
+    [
+      "2023-08-31",
+      0.85
+    ],
+    [
+      "2023-09-30",
+      0.9
+    ],
+    [
+      "2023-10-31",
+      0.9
+    ],
+    [
+      "2023-11-30",
+      1.0
+    ],
+    [
+      "2023-12-31",
+      1.05
+    ],
+    [
+      "2024-01-31",
+      1.05
+    ],
+    [
+      "2024-02-29",
+      1.2
+    ],
+    [
+      "2024-03-31",
+      1.15
+    ],
+    [
+      "2024-04-30",
+      1.24
+    ],
+    [
+      "2024-05-31",
+      1.16
+    ],
+    [
+      "2024-06-30",
+      1.05
+    ],
+    [
+      "2024-07-31",
+      1.05
+    ],
+    [
+      "2024-08-31",
+      1.12
+    ],
+    [
+      "2024-09-30",
+      1.03
+    ],
+    [
+      "2024-10-31",
+      1.0
+    ],
+    [
+      "2024-11-30",
+      1.0
+    ],
+    [
+      "2024-12-31",
+      1.05
+    ],
+    [
+      "2025-01-31",
+      1.1
+    ],
+    [
+      "2025-02-28",
+      1.2
+    ],
+    [
+      "2025-03-31",
+      1.1
+    ],
+    [
+      "2025-04-30",
+      1.23
+    ],
+    [
+      "2025-05-31",
+      1.4
+    ],
+    [
+      "2025-06-30",
+      1.35
+    ],
+    [
+      "2025-07-31",
+      1.3
+    ],
+    [
+      "2025-08-31",
+      1.3
+    ],
+    [
+      "2025-09-30",
+      1.3
+    ],
+    [
+      "2025-10-31",
+      1.0
+    ],
+    [
+      "2025-11-30",
+      1.0
+    ],
+    [
+      "2025-12-31",
+      0.97
+    ],
+    [
+      "2026-01-31",
+      1.0
+    ],
+    [
+      "2026-02-28",
+      0.96
+    ],
+    [
+      "2026-03-31",
+      0.9
+    ],
+    [
+      "2026-04-30",
+      1.1
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 117040750.46,
     "Cotas de FIIs": 49394873.53,
     "CRI/CRA": 3165563308.8,
     "Outros": 0.039999370579607785
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "448",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 17314.0,
+        "valor": 16238028.08,
+        "nome_cri": "CRI Tenda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "155",
+        "vencimento": "",
+        "quantidade": 34.0,
+        "valor": 39716529.76,
+        "nome_cri": "CRI Sumaúma"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3173269.0,
+        "valor": 3111091.24,
+        "nome_cri": "CRI Eldorado"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12164.0,
+        "valor": 12868348.89,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "251",
+        "vencimento": "",
+        "quantidade": 32000.0,
+        "valor": 8053493.75,
+        "nome_cri": "CRI REC | Ed. Barra"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "320",
+        "vencimento": "",
+        "quantidade": 5353.0,
+        "valor": 3253418.68,
+        "nome_cri": "CRI Perini"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ICONE FUNDO DE INVEST IMOBILIARIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 36704.0,
+        "valor": 23895766.35
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5466.0,
+        "valor": 5782505.35,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "37",
+        "vencimento": "",
+        "quantidade": 7522.0,
+        "valor": 7795891.87,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2905414.0,
+        "valor": 1781120.59
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "100",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 22660963.0,
+        "valor": 22196420.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "24",
+        "vencimento": "",
+        "quantidade": 7981.0,
+        "valor": 7011910.82,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "205",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1258624.0,
+        "valor": 1635644.53,
+        "nome_cri": "CRI NK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 2870000.0,
+        "valor": 3711191.89,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "112",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 10000000.0,
+        "valor": 10075239.8,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "97",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 12065121.0,
+        "valor": 16656863.18,
+        "nome_cri": "CRI SPO BILD DESENVOLVIMENTO IMOBILIÁRIO 97 SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 6308596.0,
+        "valor": 6031051.59,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 15000000.0,
+        "valor": 14343505.8,
+        "nome_cri": "CRI Eldorado"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "13",
+        "vencimento": "",
+        "quantidade": 4542.0,
+        "valor": 4387985.34,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "52",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 7752413.0,
+        "valor": 5202497.3,
+        "nome_cri": "CRI Nova Maiorca Empreendimentos Imobiliários Ltda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 5579458.0,
+        "valor": 5635399.43,
+        "nome_cri": "CRI Mitre Raízes"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "61",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 11658875.0,
+        "valor": 14826643.8,
+        "nome_cri": "CRI TARJAB GUARUJA EMPREENDIMENTOS IMOBILIARIOS SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "448",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 40000.0,
+        "valor": 37514215.26,
+        "nome_cri": "CRI Tenda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4442651.0,
+        "valor": 2812379.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 18750.0,
+        "valor": 17087676.28,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "469",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 76050.0,
+        "valor": 61070858.08,
+        "nome_cri": "CRI MRV Soluto"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7273630.0,
+        "valor": 5957919.29
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2939141.0,
+        "valor": 1860596.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "100",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 9193388.0,
+        "valor": 9004926.4
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 8604306.0,
+        "valor": 7047892.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "21",
+        "vencimento": "",
+        "quantidade": 7742.0,
+        "valor": 6813551.46,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "248",
+        "vencimento": "",
+        "quantidade": 74578.0,
+        "valor": 36765683.38,
+        "nome_cri": "CRI Alianza I"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "112",
+        "serie": "11",
+        "vencimento": "",
+        "quantidade": 553120.0,
+        "valor": 714831.78,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6334014.0,
+        "valor": 6575447.04
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 1992.0,
+        "valor": 1815394.73,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3457500.0,
+        "valor": 2188739.02
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "320",
+        "vencimento": "",
+        "quantidade": 5352.0,
+        "valor": 3252810.9,
+        "nome_cri": "CRI Perini"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "360",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 27125.0,
+        "valor": 28026143.28,
+        "nome_cri": "CRI Setai"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "46",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 45000.0,
+        "valor": 46081977.91,
+        "nome_cri": "CRI AXS II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4905637.0,
+        "valor": 6343470.47,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 5470161.0,
+        "valor": 5902562.51,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "205",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12130000.0,
+        "valor": 15763538.71,
+        "nome_cri": "CRI NK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 2500000.0,
+        "valor": 2430343.28,
+        "nome_cri": "CRI Mitre Raízes"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "112",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 22500000.0,
+        "valor": 22669289.55,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 282.0,
+        "valor": 283572.63
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "320",
+        "vencimento": "",
+        "quantidade": 25148.0,
+        "valor": 15284321.49,
+        "nome_cri": "CRI Perini"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "37",
+        "vencimento": "",
+        "quantidade": 3670.0,
+        "valor": 3803632.43,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "301",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 13104.0,
+        "valor": 15272651.45,
+        "nome_cri": "CRI Almeida Junior"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "25",
+        "vencimento": "",
+        "quantidade": 4585.0,
+        "valor": 4377863.97,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8000000.0,
+        "valor": 8897597.92,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 6447.0,
+        "valor": 5875426.61,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 6448.0,
+        "valor": 5876337.95,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "36",
+        "vencimento": "",
+        "quantidade": 9806.0,
+        "valor": 10102782.31,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "37",
+        "vencimento": "",
+        "quantidade": 7588.0,
+        "valor": 7864295.07,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "11",
+        "vencimento": "",
+        "quantidade": 5141.0,
+        "valor": 4384353.58,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 12782700.0,
+        "valor": 19750708.91,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "99",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 733800.0,
+        "valor": 1075586.62,
+        "nome_cri": "CRI Pernambucanas II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 23893713.0,
+        "valor": 14647683.3
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "80",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 80000.0,
+        "valor": 78472732.68,
+        "nome_cri": "CRI GS Souto III"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "154",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 82070.0,
+        "valor": 21546784.57,
+        "nome_cri": "CRI MRV XIX (Pró Soluto)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5412719.0,
+        "valor": 5306660.94,
+        "nome_cri": "CRI Eldorado"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "112",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 2500000.0,
+        "valor": 2518809.95,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 12500.0,
+        "valor": 11391784.18,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "18",
+        "vencimento": "",
+        "quantidade": 7869.0,
+        "valor": 6902396.7,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "220",
+        "vencimento": "",
+        "quantidade": 35000.0,
+        "valor": 33478153.2,
+        "nome_cri": "CRI REC | Ed. Barra"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 293.0,
+        "valor": 294633.98
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 6460000.0,
+        "valor": 6333421.27,
+        "nome_cri": "CRI Eldorado"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 7500.0,
+        "valor": 6835070.51,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "360",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6250.0,
+        "valor": 6371687.95,
+        "nome_cri": "CRI BTS Panorama"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9930242.0,
+        "valor": 10308752.14
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "196",
+        "vencimento": "",
+        "quantidade": 1154.0,
+        "valor": 837184.91,
+        "nome_cri": "CRI Core | Ed. Flamengo"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "53",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9773522.0,
+        "valor": 4395112.48,
+        "nome_cri": "CRI Patriani"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "59",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 18981.0,
+        "valor": 6916230.84,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4729022.0,
+        "valor": 6115089.93,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "87",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10711522.0,
+        "valor": 10733821.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "355",
+        "vencimento": "",
+        "quantidade": 48701.0,
+        "valor": 40486612.28,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 6858998.0,
+        "valor": 7160852.83
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "143",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7750.0,
+        "valor": 6578215.73,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "196",
+        "vencimento": "",
+        "quantidade": 1153.0,
+        "valor": 836459.45,
+        "nome_cri": "CRI Core | Ed. Flamengo"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 13705128.0,
+        "valor": 11226037.96
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "19",
+        "vencimento": "",
+        "quantidade": 4565.0,
+        "valor": 4351576.37,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "350",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 60000.0,
+        "valor": 60545065.84,
+        "nome_cri": "CRI GS Souto"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "143",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 5153.0,
+        "valor": 4041142.3,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "97",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 3232913.0,
+        "valor": 512348.66,
+        "nome_cri": "CRI SPO BILD DESENVOLVIMENTO IMOBILIÁRIO 97 SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "53",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 4792275.0,
+        "valor": 663391.75,
+        "nome_cri": "CRI MDB"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "87",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7737920.0,
+        "valor": 7724823.57
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 6861.0,
+        "valor": 5937746.94,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "205",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5476538.0,
+        "valor": 7117033.7,
+        "nome_cri": "CRI NK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "87",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7737920.0,
+        "valor": 7754028.96
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "10",
+        "vencimento": "",
+        "quantidade": 4569.0,
+        "valor": 4439631.27,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 2583023.0,
+        "valor": 3340102.44,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7000000.0,
+        "valor": 6862840.39,
+        "nome_cri": "CRI Eldorado"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "143",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 6032.0,
+        "valor": 4730481.34,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 9763784.0,
+        "valor": 12625531.71,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4806199.0,
+        "valor": 3936816.38
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "71",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 3048886.41,
+        "nome_cri": "CRI CORP PATRIANI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "154",
+        "vencimento": "",
+        "quantidade": 34.0,
+        "valor": 39716529.76,
+        "nome_cri": "CRI Vale Amec"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7724053.0,
+        "valor": 6326866.28
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 14753000.0,
+        "valor": 9044105.95
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "150",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 60105128.0,
+        "valor": 67793828.27,
+        "nome_cri": "CRI Stone"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4791912.0,
+        "valor": 5320323.76,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "205",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10318429.0,
+        "valor": 13409312.03,
+        "nome_cri": "CRI NK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "205",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6010000.0,
+        "valor": 7810294.12,
+        "nome_cri": "CRI NK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "477",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 8571.0,
+        "valor": 8736391.27,
+        "nome_cri": "CRI VIC II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "29",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5735.0,
+        "valor": 1336411.1,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "99",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 12010288.52,
+        "nome_cri": "CRI ESTR XPEX"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "114",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 19500.0,
+        "valor": 11276203.36,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "61",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5315125.0,
+        "valor": 6759268.38,
+        "nome_cri": "CRI TARJAB GUARUJA EMPREENDIMENTOS IMOBILIARIOS SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4375000.0,
+        "valor": 4289275.24,
+        "nome_cri": "CRI Eldorado"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 9920995.0,
+        "valor": 10357604.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 13750.0,
+        "valor": 12530962.6,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "100",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 11463713.0,
+        "valor": 11228710.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "30",
+        "vencimento": "",
+        "quantidade": 7142.0,
+        "valor": 6574299.81,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "61",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 14434990.0,
+        "valor": 18357041.74,
+        "nome_cri": "CRI TARJAB GUARUJA EMPREENDIMENTOS IMOBILIARIOS SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "99",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 18015432.78,
+        "nome_cri": "CRI ESTR XPEX"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3711061.0,
+        "valor": 2349253.51
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4729023.0,
+        "valor": 6115091.22,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "36",
+        "vencimento": "",
+        "quantidade": 20169.0,
+        "valor": 20779422.44,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2512.0,
+        "valor": 2657455.81,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "301",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 24140.0,
+        "valor": 28135058.45,
+        "nome_cri": "CRI Almeida Junior"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "100",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 13305496.0,
+        "valor": 13032737.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "170",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 107500.0,
+        "valor": 109005579.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 1337.0,
+        "valor": 1218465.24,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "97",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6205000.0,
+        "valor": 3962864.7,
+        "nome_cri": "CRI HM Engenharia II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "7",
+        "vencimento": "",
+        "quantidade": 4573.0,
+        "valor": 4248469.73,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 3824896.0,
+        "valor": 4945966.21,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9596.0,
+        "valor": 10151650.44,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 21785416.0,
+        "valor": 22744161.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "448",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 17588.0,
+        "valor": 16495000.45,
+        "nome_cri": "CRI Tenda"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "205",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6000000.0,
+        "valor": 7797298.62,
+        "nome_cri": "CRI NK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "360",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 18398.0,
+        "valor": 18433987.21,
+        "nome_cri": "CRI Setai"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8372470.0,
+        "valor": 5132617.48
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "365",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 86400.0,
+        "valor": 69307891.41,
+        "nome_cri": "CRI MRV PRO SOUTO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2556925.0,
+        "valor": 2094408.54
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8720.0,
+        "valor": 9224926.2,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "61",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 14033492.0,
+        "valor": 16883945.42,
+        "nome_cri": "CRI Convisa"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "61",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1049875.0,
+        "valor": 1263123.41,
+        "nome_cri": "CRI Convisa"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "301",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 16814.0,
+        "valor": 19596639.3,
+        "nome_cri": "CRI Almeida Junior"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "97",
+        "serie": "8",
+        "vencimento": "",
+        "quantidade": 1763960.0,
+        "valor": 2239711.46,
+        "nome_cri": "CRI SPO BILD DESENVOLVIMENTO IMOBILIÁRIO 97 SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RB CAPITAL SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "215",
+        "vencimento": "",
+        "quantidade": 35000.0,
+        "valor": 33478173.0,
+        "nome_cri": "CRI REC | Ed. Barra"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 6805.0,
+        "valor": 5898383.69,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "99",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 11930623.0,
+        "valor": 17487623.96,
+        "nome_cri": "CRI Pernambucanas II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7752018.0,
+        "valor": 7600123.18,
+        "nome_cri": "CRI Eldorado"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 9554.0,
+        "valor": 10182266.39,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "283",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 52000.0,
+        "valor": 50196663.49,
+        "nome_cri": "CRI GS Souto V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "31",
+        "vencimento": "",
+        "quantidade": 4284.0,
+        "valor": 4180984.15,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3000000.0,
+        "valor": 3114350.73
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "99",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 11648610.0,
+        "valor": 17074256.0,
+        "nome_cri": "CRI Pernambucanas II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 12164.0,
+        "valor": 12963898.73,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "121",
+        "vencimento": "",
+        "quantidade": 17000.0,
+        "valor": 7518547.45,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1163313.0,
+        "valor": 736424.74
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 1005576.71
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 8694.0,
+        "valor": 9265713.21,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "99",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 3002514.34,
+        "nome_cri": "CRI ESTR XPEX"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "214",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 3130.0,
+        "valor": 1466401.48,
+        "nome_cri": "CRI JFL V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10848598.0,
+        "valor": 11326029.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA UNIQUE HY CDI FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 205000.0,
+        "valor": 21576250.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5969461.0,
+        "valor": 3778913.14
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "22",
+        "vencimento": "",
+        "quantidade": 4542.0,
+        "valor": 4356910.02,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "260",
+        "vencimento": "",
+        "quantidade": 111922.0,
+        "valor": 82448570.29,
+        "nome_cri": "CRI Alianza II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "214",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10505.0,
+        "valor": 4921580.68,
+        "nome_cri": "CRI JFL V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "484",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 17707.0,
+        "valor": 18426540.81,
+        "nome_cri": "CRI GS SOUTO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10303989.0,
+        "valor": 8440123.41
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 500.0,
+        "valor": 502788.35
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "143",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 9048.0,
+        "valor": 7679960.76,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "156",
+        "vencimento": "",
+        "quantidade": 34.0,
+        "valor": 39716529.76,
+        "nome_cri": "CRI Aliansce | Shopping Bangu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "143",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 5198.0,
+        "valor": 4076432.69,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "477",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 21429.0,
+        "valor": 21842507.11,
+        "nome_cri": "CRI VIC II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "71",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 37000.0,
+        "valor": 37602932.44,
+        "nome_cri": "CRI CORP PATRIANI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "32",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10000000.0,
+        "valor": 6806173.8,
+        "nome_cri": "CRI Rizobacter"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 600.0,
+        "valor": 603346.03
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "153",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 86947.0,
+        "valor": 23442199.68,
+        "nome_cri": "CRI Patriani II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 3350000.0,
+        "valor": 3383588.17,
+        "nome_cri": "CRI Mitre Raízes"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2495.0,
+        "valor": 2659069.99,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "143",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7806.0,
+        "valor": 6625748.64,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "100",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 13100060.0,
+        "valor": 12831512.83
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 5995.0,
+        "valor": 5463499.69,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 276.0,
+        "valor": 277539.17
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 2978.0,
+        "valor": 2713978.66,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "122",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 40000.0,
+        "valor": 14521990.63,
+        "nome_cri": "CRI Tenda II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "61",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 24550932.0,
+        "valor": 33863021.45,
+        "nome_cri": "CRI TARJAB GUARUJA EMPREENDIMENTOS IMOBILIARIOS SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6875238.0,
+        "valor": 7137300.83
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "205",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12439597.0,
+        "valor": 16165875.42,
+        "nome_cri": "CRI NK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 6310454.0,
+        "valor": 6588168.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "153",
+        "vencimento": "",
+        "quantidade": 34.0,
+        "valor": 39716529.76,
+        "nome_cri": "CRI VLI Guara"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8367958.0,
+        "valor": 9306840.71,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "157",
+        "vencimento": "",
+        "quantidade": 34.0,
+        "valor": 39716529.76,
+        "nome_cri": "CRI Rede Dor | Corporativo I"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "12",
+        "vencimento": "",
+        "quantidade": 10598.0,
+        "valor": 9216863.21,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 6594615.0,
+        "valor": 8527484.92,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "97",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 2387866.0,
+        "valor": 2456352.72,
+        "nome_cri": "CRI SPO BILD DESENVOLVIMENTO IMOBILIÁRIO 97 SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "279",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 4500000.0,
+        "valor": 4374617.9,
+        "nome_cri": "CRI Mitre Raízes"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4939857.0,
+        "valor": 4046297.28
+      },
+      {
+        "tipo": "FII",
+        "emissor": "ESTOQUE RESIDENCIAL E COMERCIAL RJ FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 149.0,
+        "valor": 2286926.76
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 1993.0,
+        "valor": 1816306.07,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "142",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 10849534.99,
+        "nome_cri": "CRI LF Itaú"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "460",
+        "vencimento": "",
+        "quantidade": 26911644.0,
+        "valor": 14732640.64,
+        "nome_cri": "CRI Parque dos Poderes"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "297",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 200000.0,
+        "valor": 116747742.89,
+        "nome_cri": "CRI MRV XXX"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "9",
+        "vencimento": "",
+        "quantidade": 10661.0,
+        "valor": 9289852.65,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "8",
+        "vencimento": "",
+        "quantidade": 5230.0,
+        "valor": 4468995.73,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "205",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8811990.0,
+        "valor": 11451619.58,
+        "nome_cri": "CRI NK"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "28",
+        "vencimento": "",
+        "quantidade": 4146.0,
+        "valor": 4053614.04,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "27",
+        "vencimento": "",
+        "quantidade": 6908.0,
+        "valor": 6382966.93,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "159",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5436.0,
+        "valor": 5793468.72,
+        "nome_cri": "CRI TRINUS SOCIEDADE DE CRÉDITO DIRETO S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "120",
+        "vencimento": "",
+        "quantidade": 33000.0,
+        "valor": 14594827.41,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "97",
+        "serie": "8",
+        "vencimento": "",
+        "quantidade": 4717500.0,
+        "valor": 5989840.37,
+        "nome_cri": "CRI SPO BILD DESENVOLVIMENTO IMOBILIÁRIO 97 SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "87",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10711522.0,
+        "valor": 10693392.75
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "114",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10500.0,
+        "valor": 5595968.92,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "143",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 5999.0,
+        "valor": 4704601.72,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 7483587.0,
+        "valor": 6129897.64
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "301",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 40000.0,
+        "valor": 46619815.16,
+        "nome_cri": "CRI Almeida Junior"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "99",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 52500.0,
+        "valor": 63052801.2,
+        "nome_cri": "CRI ESTR XPEX"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "330",
+        "vencimento": "",
+        "quantidade": 9650.0,
+        "valor": 5143124.32,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "125",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10868051.0,
+        "valor": 11282307.52
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5324074.0,
+        "valor": 5911168.11,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "17",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 14222600.0,
+        "valor": 21975516.33,
+        "nome_cri": "CRI Bluecap"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 2979.0,
+        "valor": 2714890.01,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 4536.0,
+        "valor": 4230322.98,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "87",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 11938909.0,
+        "valor": 11963763.66
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5000000.0,
+        "valor": 5551357.95,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "53",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 4792276.0,
+        "valor": 663391.89,
+        "nome_cri": "CRI MDB"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "112",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 4751980.0,
+        "valor": 2302195.65,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "360",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 6250.0,
+        "valor": 6236954.54,
+        "nome_cri": "CRI Setai"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "137",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 48000.0,
+        "valor": 52736506.39,
+        "nome_cri": "CRI GRAND QUARTIER 2 EMPREENDIMENTOS IMOBILIARIOS SPE LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "350",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 90000.0,
+        "valor": 91841746.65,
+        "nome_cri": "CRI GS Souto"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "78",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 12519734.0,
+        "valor": 10255067.24
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4791911.0,
+        "valor": 5320322.65,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "COMPANHIA PROVINCIA DE SECURITIZACA",
+        "nome": "",
+        "emissao": "63",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 4641153.0,
+        "valor": 2845189.42
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "135",
+        "vencimento": "",
+        "quantidade": 1336.0,
+        "valor": 1217553.89,
+        "nome_cri": "CRI Autonomy II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "260",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 10208169.0,
+        "valor": 10971820.28,
+        "nome_cri": "CRI Tecnisa XI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "154",
+        "serie": "36",
+        "vencimento": "",
+        "quantidade": 20236.0,
+        "valor": 20848450.22,
+        "nome_cri": "CRI Creditas Creditas Tempus"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "53",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 9773523.0,
+        "valor": 4395112.93,
+        "nome_cri": "CRI Patriani"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "112",
+        "serie": "9",
+        "vencimento": "",
+        "quantidade": 10000000.0,
+        "valor": 7009298.3,
+        "nome_cri": "CRI MRV Engenharia e Participações S.A."
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

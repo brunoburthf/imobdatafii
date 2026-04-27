@@ -4,14 +4,18 @@
     "Ticker": "FATN11",
     "Nome": "Brc Renda Corporativa FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.01,
-    "Retorno - 12M": 0.293,
+    "Retorno - MTD": 0.0031,
+    "Retorno - 12M": 0.277,
     "P/VP": 0.9,
     "Último Dividendo Pago": 0.8,
-    "DY a.a.": 0.11,
+    "DY a.a.": 0.111,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis comerciais, com foco na aquisição e geração de renda a partir da locação. O fundo é o BRC Renda Corporativa Fundo de Investimento Imobiliário, com documentos públicos recentes na B3. Porte, diversificação detalhada, localização e perfil contratual aparecem como N/A nas fontes consultadas.",
     "Comentário": "Receita de locação cresceu 9,27% em fevereiro com início de exigibilidade de novos contratos nos edifícios Atrium I, Brasif e Monterey, compensando vacâncias por transições de locatários. Portfólio expandiu-se para 144 lajes em 43.318 m² de ABL com aquisição do Edifício Arco do Triunfo, gerando expectativa de R$ 662 mil em receita mensal após retrofit.",
-    "Preço Atual": 86.68
+    "Preço Atual": 86.5,
+    "% Dias Acima CDI 1A": 0.3831,
+    "% Dias Acima CDI 3A": 0.1799,
+    "% Dias Acima CDI 5A": 0.2554,
+    "% Dias Acima CDI MAX": 0.2554
   },
   "historico_preco": [
     [
@@ -5297,6 +5301,22 @@
     [
       "2026-04-16",
       86.47
+    ],
+    [
+      "2026-04-17",
+      86.98
+    ],
+    [
+      "2026-04-20",
+      86.78
+    ],
+    [
+      "2026-04-22",
+      86.74
+    ],
+    [
+      "2026-04-23",
+      86.51
     ]
   ],
   "historico_preco_adj": [
@@ -10583,6 +10603,22 @@
     [
       "2026-04-16",
       86.47
+    ],
+    [
+      "2026-04-17",
+      86.98
+    ],
+    [
+      "2026-04-20",
+      86.78
+    ],
+    [
+      "2026-04-22",
+      86.74
+    ],
+    [
+      "2026-04-23",
+      86.51
     ]
   ],
   "historico_pvp": [
@@ -16557,6 +16593,26 @@
     [
       "2026-04-16",
       0.896182084
+    ],
+    [
+      "2026-04-17",
+      0.90146776531
+    ],
+    [
+      "2026-04-20",
+      0.89939494911
+    ],
+    [
+      "2026-04-21",
+      0.89939494911
+    ],
+    [
+      "2026-04-22",
+      0.89898038587
+    ],
+    [
+      "2026-04-23",
+      0.89659664724
     ]
   ],
   "historico_dy": [
@@ -21839,12 +21895,595 @@
     [
       "2026-04-16",
       11.1021
+    ],
+    [
+      "2026-04-17",
+      11.037
+    ],
+    [
+      "2026-04-20",
+      11.0625
+    ],
+    [
+      "2026-04-22",
+      11.0676
+    ],
+    [
+      "2026-04-23",
+      11.097
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2020-07-31",
+      0.4
+    ],
+    [
+      "2020-08-31",
+      0.53
+    ],
+    [
+      "2020-09-30",
+      0.54
+    ],
+    [
+      "2020-10-31",
+      0.61
+    ],
+    [
+      "2020-11-30",
+      0.57
+    ],
+    [
+      "2020-12-31",
+      0.57
+    ],
+    [
+      "2021-01-31",
+      0.59
+    ],
+    [
+      "2021-02-28",
+      0.62
+    ],
+    [
+      "2021-03-31",
+      0.66
+    ],
+    [
+      "2021-04-30",
+      0.66
+    ],
+    [
+      "2021-05-31",
+      0.67
+    ],
+    [
+      "2021-06-30",
+      0.67
+    ],
+    [
+      "2021-07-31",
+      0.67
+    ],
+    [
+      "2021-08-31",
+      0.67
+    ],
+    [
+      "2021-09-30",
+      0.67
+    ],
+    [
+      "2021-10-31",
+      0.75
+    ],
+    [
+      "2021-11-30",
+      0.74
+    ],
+    [
+      "2021-12-31",
+      0.71
+    ],
+    [
+      "2022-01-31",
+      0.79
+    ],
+    [
+      "2022-02-28",
+      0.76
+    ],
+    [
+      "2022-03-31",
+      0.76
+    ],
+    [
+      "2022-04-30",
+      0.78
+    ],
+    [
+      "2022-05-31",
+      0.8
+    ],
+    [
+      "2022-06-30",
+      0.83
+    ],
+    [
+      "2022-07-31",
+      0.84
+    ],
+    [
+      "2022-08-31",
+      0.86
+    ],
+    [
+      "2022-09-30",
+      0.86
+    ],
+    [
+      "2022-10-31",
+      0.89
+    ],
+    [
+      "2022-11-30",
+      0.9
+    ],
+    [
+      "2022-12-31",
+      0.8
+    ],
+    [
+      "2023-01-31",
+      0.92
+    ],
+    [
+      "2023-02-28",
+      0.9
+    ],
+    [
+      "2023-03-31",
+      0.74
+    ],
+    [
+      "2023-04-30",
+      0.83
+    ],
+    [
+      "2023-05-31",
+      0.82
+    ],
+    [
+      "2023-06-30",
+      0.83
+    ],
+    [
+      "2023-07-31",
+      0.84
+    ],
+    [
+      "2023-08-31",
+      0.84
+    ],
+    [
+      "2023-09-30",
+      0.85
+    ],
+    [
+      "2023-10-31",
+      0.85
+    ],
+    [
+      "2023-11-30",
+      0.85
+    ],
+    [
+      "2023-12-31",
+      0.85
+    ],
+    [
+      "2024-01-31",
+      0.85
+    ],
+    [
+      "2024-02-29",
+      0.85
+    ],
+    [
+      "2024-03-31",
+      0.85
+    ],
+    [
+      "2024-04-30",
+      0.85
+    ],
+    [
+      "2024-05-31",
+      0.85
+    ],
+    [
+      "2024-06-30",
+      0.85
+    ],
+    [
+      "2024-07-31",
+      0.85
+    ],
+    [
+      "2024-08-31",
+      0.85
+    ],
+    [
+      "2024-09-30",
+      0.85
+    ],
+    [
+      "2024-10-31",
+      0.85
+    ],
+    [
+      "2024-11-30",
+      0.85
+    ],
+    [
+      "2024-12-31",
+      0.85
+    ],
+    [
+      "2025-01-31",
+      0.85
+    ],
+    [
+      "2025-02-28",
+      0.8
+    ],
+    [
+      "2025-03-31",
+      0.8
+    ],
+    [
+      "2025-04-30",
+      0.8
+    ],
+    [
+      "2025-05-31",
+      0.8
+    ],
+    [
+      "2025-06-30",
+      0.8
+    ],
+    [
+      "2025-07-31",
+      0.8
+    ],
+    [
+      "2025-08-31",
+      0.8
+    ],
+    [
+      "2025-09-30",
+      0.8
+    ],
+    [
+      "2025-10-31",
+      0.8
+    ],
+    [
+      "2025-11-30",
+      0.8
+    ],
+    [
+      "2025-12-31",
+      0.8
+    ],
+    [
+      "2026-01-31",
+      0.8
+    ],
+    [
+      "2026-02-28",
+      0.8
+    ],
+    [
+      "2026-03-31",
+      0.8
+    ],
+    [
+      "2026-04-30",
+      0.8
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 6044614.62,
     "Imóveis": 642183909.31,
     "Cotas de FIIs": 30807332.16,
     "Outros": 9.12696123123169e-08
-  }
-}
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Aplicação Trust DI Banco Itaú",
+        "nome": "CDB",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 19737.91,
+        "valor": 8850373.91
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TJK RENDA IMOBILIÁRIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 43652.0,
+        "valor": 12535108.32
+      },
+      {
+        "tipo": "FII",
+        "emissor": "OXIGÊNIO 2 FII DE RESPONSABILIDADE LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 89132.0,
+        "valor": 11508723.84
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "MONTREAL",
+        "endereco": "Rua Funchal, 129",
+        "area": 214.1,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Arandu",
+        "endereco": "Rua Arizona, 1366",
+        "area": 253.65,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Tangram",
+        "endereco": "Rua Ibirajá, 244",
+        "area": 1186.37,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "THERA OFFICE",
+        "endereco": "Avenida Engenheiro Luís Carlos Berrini, 105",
+        "area": 149.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santa Filippa",
+        "endereco": "Avenida Paulista,  668",
+        "area": 187.12,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 198.17715,
+        "vacancia": 0.055556,
+        "pct_total": null
+      },
+      {
+        "nome": "Veranda Berrini",
+        "endereco": "Rua Ribeiro do Vale, 152",
+        "area": 184.19,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium Jardins",
+        "endereco": "Rua Cristiano Viana, 401",
+        "area": 989.13,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Gold Center",
+        "endereco": "Rua Arizona, 1426",
+        "area": 161.55,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Monterey - CJ. 151 A 155",
+        "endereco": "Rua Álvaro Rodrigues, 182",
+        "area": 341.8,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Spazio Centrale",
+        "endereco": "Alameda Itu, 852",
+        "area": 276.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium VIII",
+        "endereco": "Rua Fidêncio Ramos, 213",
+        "area": 291.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 221.342712,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Francisco Lopes",
+        "endereco": "Rua Dr. Cardoso de Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 206.796894,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 186.63285,
+        "vacancia": 0.055556,
+        "pct_total": null
+      },
+      {
+        "nome": "Érika",
+        "endereco": "Rua do Rócio, 351",
+        "area": 251.03,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 178.01,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 163.467288,
+        "vacancia": 0.822222,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium II",
+        "endereco": "Rua Helena. 235",
+        "area": 661.63,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Business Center",
+        "endereco": "Rua Gomes de Carvalho, 1306",
+        "area": 470.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Flórida",
+        "endereco": "Rua Florida, 1738",
+        "area": 350.06,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Bolsa de Imóveis",
+        "endereco": "Av. das Nações Unidas, 11.541",
+        "area": 513.1,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Dr. Naur Martins",
+        "endereco": "Rua Professor Artur Ramos, 96",
+        "area": 199.06,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1856",
+        "area": 57.7215,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 191.019684,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Francisco Lopes",
+        "endereco": "Rua Dr. Cardoso de Melo, 1855",
+        "area": 769.62,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GC SQUARE CORPORATE",
+        "endereco": "Rua Gomes de Carvalho, 1108",
+        "area": 213.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Francisco Lopes",
+        "endereco": "Rua Dr. Cardoso de Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Gold Center",
+        "endereco": "Rua Arizona, 1426",
+        "area": 161.55,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santa Filippa",
+        "endereco": "Avenida Paulista,  668",
+        "area": 280.68,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Luxor Center",
+        "endereco": "Rua Arizona, nº 1349",
+        "area": 141.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Lafayette",
+        "endereco": "Rua Tabapuã, 500",
+        "area": 152.08,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.666667

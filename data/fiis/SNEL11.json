@@ -4,14 +4,18 @@
     "Ticker": "SNEL11",
     "Nome": "Suno Energias Limpas FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0059,
-    "Retorno - 12M": 0.1388,
+    "Retorno - MTD": 0.0107,
+    "Retorno - 12M": 0.1442,
     "P/VP": 1.05,
     "Último Dividendo Pago": 0.1,
     "DY a.a.": 0.141,
     "Visão Geral": "FII de infraestrutura que investe em projetos de energias limpas e renováveis, especialmente usinas solares de geração distribuída. É gerido pela Suno Asset e se apresenta como o primeiro FII listado voltado a essa tese no mercado geral. A estratégia combina venda de energia, renda recorrente e eventual ganho de capital.",
     "Comentário": "A ANEEL manteve bandeira verde pelo segundo mês, sinalizando sem custos adicionais na energia. Encerrou a carência da UFV Petrolina com início do faturamento dos novos contratos de 50% do projeto junto à Setta. O portfólio em ramp-up apresentou ocupação ponderada de 28,6%, com os ativos São Bento Abade e Malbec avançando 5,1 e 19,5 p.p. respectivamente em ocupação comercial.",
-    "Preço Atual": 8.54
+    "Preço Atual": 8.55,
+    "% Dias Acima CDI 1A": 0.2258,
+    "% Dias Acima CDI 3A": 0.3757,
+    "% Dias Acima CDI 5A": 0.3757,
+    "% Dias Acima CDI MAX": 0.3757
   },
   "historico_preco": [
     [
@@ -2353,6 +2357,22 @@
     [
       "2026-04-16",
       8.47
+    ],
+    [
+      "2026-04-17",
+      8.5
+    ],
+    [
+      "2026-04-20",
+      8.54
+    ],
+    [
+      "2026-04-22",
+      8.52
+    ],
+    [
+      "2026-04-23",
+      8.54
     ]
   ],
   "historico_preco_adj": [
@@ -4695,6 +4715,22 @@
     [
       "2026-04-16",
       8.47
+    ],
+    [
+      "2026-04-17",
+      8.5
+    ],
+    [
+      "2026-04-20",
+      8.54
+    ],
+    [
+      "2026-04-22",
+      8.52
+    ],
+    [
+      "2026-04-23",
+      8.54
     ]
   ],
   "historico_pvp": [
@@ -7149,6 +7185,26 @@
     [
       "2026-04-16",
       1.04220536
+    ],
+    [
+      "2026-04-17",
+      1.0458967603
+    ],
+    [
+      "2026-04-20",
+      1.0508186274
+    ],
+    [
+      "2026-04-21",
+      1.0508186274
+    ],
+    [
+      "2026-04-22",
+      1.0483576938
+    ],
+    [
+      "2026-04-23",
+      1.0508186274
     ]
   ],
   "historico_dy": [
@@ -9443,13 +9499,202 @@
     [
       "2026-04-16",
       14.1677
+    ],
+    [
+      "2026-04-17",
+      14.1176
+    ],
+    [
+      "2026-04-20",
+      14.0515
+    ],
+    [
+      "2026-04-22",
+      14.0845
+    ],
+    [
+      "2026-04-23",
+      14.0515
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-01-31",
+      0.10333333333
+    ],
+    [
+      "2024-02-29",
+      0.10333333333
+    ],
+    [
+      "2024-03-31",
+      0.10333333333
+    ],
+    [
+      "2024-04-30",
+      0.10333333333
+    ],
+    [
+      "2024-05-31",
+      0.10333333333
+    ],
+    [
+      "2024-06-30",
+      0.10333333333
+    ],
+    [
+      "2024-07-31",
+      0.1
+    ],
+    [
+      "2024-08-31",
+      0.1
+    ],
+    [
+      "2024-09-30",
+      0.1
+    ],
+    [
+      "2024-10-31",
+      0.1
+    ],
+    [
+      "2024-11-30",
+      0.1
+    ],
+    [
+      "2024-12-31",
+      0.1
+    ],
+    [
+      "2025-01-31",
+      0.1
+    ],
+    [
+      "2025-02-28",
+      0.1
+    ],
+    [
+      "2025-03-31",
+      0.1
+    ],
+    [
+      "2025-04-30",
+      0.1
+    ],
+    [
+      "2025-05-31",
+      0.1
+    ],
+    [
+      "2025-06-30",
+      0.1
+    ],
+    [
+      "2025-07-31",
+      0.1
+    ],
+    [
+      "2025-08-31",
+      0.1
+    ],
+    [
+      "2025-09-30",
+      0.1
+    ],
+    [
+      "2025-10-31",
+      0.1
+    ],
+    [
+      "2025-11-30",
+      0.1
+    ],
+    [
+      "2025-12-31",
+      0.1
+    ],
+    [
+      "2026-01-31",
+      0.1
+    ],
+    [
+      "2026-02-28",
+      0.1
+    ],
+    [
+      "2026-03-31",
+      0.1
+    ],
+    [
+      "2026-04-30",
+      0.1
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 58320018.57,
     "Cotas de FIIs": 431959797.87,
     "CRI/CRA": 7965435.34,
     "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 343599202.41,
     "Outros": 81579476.06999993
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA SA - 449812 - IF 23H2516003",
+        "nome": "",
+        "emissao": "173",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 11224.0,
+        "valor": 13245647.08,
+        "nome_cri": "CRI Bradesco"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL CIA SEC 69E - 449439 - IF 23J0108650",
+        "nome": "",
+        "emissao": "59",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3750.0,
+        "valor": 3742977.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL CIA SEC 69E - 449441 - IF 23L1538459",
+        "nome": "",
+        "emissao": "69",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3350.0,
+        "valor": 3814942.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "LIQUIDEZ PROJETOS GD",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 228742505.2,
+        "valor": 226558128.65
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII HOLDING PROJETOS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 28453961.715,
+        "valor": 217818866.71
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

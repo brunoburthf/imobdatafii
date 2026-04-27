@@ -4,14 +4,18 @@
     "Ticker": "HABT11",
     "Nome": "Habitat Recebíveis Pulverizados FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0175,
-    "Retorno - 12M": 0.1433,
+    "Retorno - MTD": 0.0197,
+    "Retorno - 12M": 0.1225,
     "P/VP": 0.81,
     "Último Dividendo Pago": 0.95,
     "DY a.a.": 0.147,
     "Visão Geral": "FII de papel que investe em títulos de dívida imobiliária e outros valores mobiliários com lastro em devedores pulverizados, buscando renda e ganho de capital. É gerido pela XP Asset e adota estratégia de crédito imobiliário pulverizado. A carteira prioriza diversificação entre operações para geração recorrente de rendimentos.",
     "Comentário": "Distribuição de R$ 0,95/cota resultou em dividend yield de 15,79% ao ano ou 18,80% com gross-up de impostos. Carteira realocada com aquisição de R$ 10 MM em CRI Setai (CDI+4%), resgate antecipado de CRI Copacabana e venda de CRI Gran Paradiso. Inflação mais baixa impactou negativamente rendimentos, mantendo histórico de R$ 12,25/cota em 12 meses.",
-    "Preço Atual": 77.55
+    "Preço Atual": 77.71,
+    "% Dias Acima CDI 1A": 0.2742,
+    "% Dias Acima CDI 3A": 0.3154,
+    "% Dias Acima CDI 5A": 0.3679,
+    "% Dias Acima CDI MAX": 0.4477
   },
   "historico_preco": [
     [
@@ -6693,6 +6697,22 @@
     [
       "2026-04-16",
       77.51
+    ],
+    [
+      "2026-04-17",
+      77.53
+    ],
+    [
+      "2026-04-20",
+      77.57
+    ],
+    [
+      "2026-04-22",
+      77.41
+    ],
+    [
+      "2026-04-23",
+      77.3
     ]
   ],
   "historico_preco_adj": [
@@ -13375,6 +13395,22 @@
     [
       "2026-04-16",
       77.51
+    ],
+    [
+      "2026-04-17",
+      77.53
+    ],
+    [
+      "2026-04-20",
+      77.57
+    ],
+    [
+      "2026-04-22",
+      77.41
+    ],
+    [
+      "2026-04-23",
+      77.3
     ]
   ],
   "historico_pvp": [
@@ -20377,6 +20413,26 @@
     [
       "2026-04-16",
       0.8105747531
+    ],
+    [
+      "2026-04-17",
+      0.8107839067
+    ],
+    [
+      "2026-04-20",
+      0.81120221388
+    ],
+    [
+      "2026-04-21",
+      0.81120221388
+    ],
+    [
+      "2026-04-22",
+      0.80952898513
+    ],
+    [
+      "2026-04-23",
+      0.80837864037
     ]
   ],
   "historico_dy": [
@@ -26891,13 +26947,1643 @@
     [
       "2026-04-16",
       14.7078
+    ],
+    [
+      "2026-04-17",
+      14.704
+    ],
+    [
+      "2026-04-20",
+      14.6964
+    ],
+    [
+      "2026-04-22",
+      14.7268
+    ],
+    [
+      "2026-04-23",
+      14.7477
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2019-09-30",
+      0.0
+    ],
+    [
+      "2019-10-31",
+      1.1
+    ],
+    [
+      "2019-11-30",
+      0.78
+    ],
+    [
+      "2019-12-31",
+      0.78
+    ],
+    [
+      "2020-01-31",
+      0.93
+    ],
+    [
+      "2020-02-29",
+      1.29
+    ],
+    [
+      "2020-03-31",
+      0.8
+    ],
+    [
+      "2020-04-30",
+      0.83
+    ],
+    [
+      "2020-05-31",
+      0.71
+    ],
+    [
+      "2020-06-30",
+      0.7
+    ],
+    [
+      "2020-07-31",
+      0.6
+    ],
+    [
+      "2020-08-31",
+      0.92
+    ],
+    [
+      "2020-09-30",
+      0.97
+    ],
+    [
+      "2020-10-31",
+      1.0
+    ],
+    [
+      "2020-11-30",
+      1.31
+    ],
+    [
+      "2020-12-31",
+      1.85
+    ],
+    [
+      "2021-01-31",
+      1.5
+    ],
+    [
+      "2021-02-28",
+      1.25
+    ],
+    [
+      "2021-03-31",
+      1.25
+    ],
+    [
+      "2021-04-30",
+      1.5
+    ],
+    [
+      "2021-05-31",
+      1.8
+    ],
+    [
+      "2021-06-30",
+      1.8
+    ],
+    [
+      "2021-07-31",
+      2.0
+    ],
+    [
+      "2021-08-31",
+      1.6
+    ],
+    [
+      "2021-09-30",
+      1.5
+    ],
+    [
+      "2021-10-31",
+      1.5
+    ],
+    [
+      "2021-11-30",
+      1.5
+    ],
+    [
+      "2021-12-31",
+      1.5
+    ],
+    [
+      "2022-01-31",
+      1.3
+    ],
+    [
+      "2022-02-28",
+      1.2
+    ],
+    [
+      "2022-03-31",
+      1.3
+    ],
+    [
+      "2022-04-30",
+      1.2
+    ],
+    [
+      "2022-05-31",
+      1.25
+    ],
+    [
+      "2022-06-30",
+      1.4
+    ],
+    [
+      "2022-07-31",
+      1.3
+    ],
+    [
+      "2022-08-31",
+      1.3
+    ],
+    [
+      "2022-09-30",
+      1.03
+    ],
+    [
+      "2022-10-31",
+      1.0
+    ],
+    [
+      "2022-11-30",
+      0.9
+    ],
+    [
+      "2022-12-31",
+      0.92
+    ],
+    [
+      "2023-01-31",
+      1.17
+    ],
+    [
+      "2023-02-28",
+      1.18
+    ],
+    [
+      "2023-03-31",
+      1.2
+    ],
+    [
+      "2023-04-30",
+      1.25
+    ],
+    [
+      "2023-05-31",
+      1.27
+    ],
+    [
+      "2023-06-30",
+      1.3
+    ],
+    [
+      "2023-07-31",
+      1.2
+    ],
+    [
+      "2023-08-31",
+      1.2
+    ],
+    [
+      "2023-09-30",
+      1.0
+    ],
+    [
+      "2023-10-31",
+      1.0
+    ],
+    [
+      "2023-11-30",
+      1.0
+    ],
+    [
+      "2023-12-31",
+      1.0
+    ],
+    [
+      "2024-01-31",
+      0.98
+    ],
+    [
+      "2024-02-29",
+      1.0
+    ],
+    [
+      "2024-03-31",
+      1.05
+    ],
+    [
+      "2024-04-30",
+      1.1
+    ],
+    [
+      "2024-05-31",
+      1.13
+    ],
+    [
+      "2024-06-30",
+      1.05
+    ],
+    [
+      "2024-07-31",
+      1.0
+    ],
+    [
+      "2024-08-31",
+      1.0
+    ],
+    [
+      "2024-09-30",
+      0.95
+    ],
+    [
+      "2024-10-31",
+      1.0
+    ],
+    [
+      "2024-11-30",
+      0.9
+    ],
+    [
+      "2024-12-31",
+      1.02
+    ],
+    [
+      "2025-01-31",
+      1.05
+    ],
+    [
+      "2025-02-28",
+      1.1
+    ],
+    [
+      "2025-03-31",
+      1.08
+    ],
+    [
+      "2025-04-30",
+      1.0
+    ],
+    [
+      "2025-05-31",
+      1.15
+    ],
+    [
+      "2025-06-30",
+      1.15
+    ],
+    [
+      "2025-07-31",
+      1.15
+    ],
+    [
+      "2025-08-31",
+      1.05
+    ],
+    [
+      "2025-09-30",
+      1.05
+    ],
+    [
+      "2025-10-31",
+      0.95
+    ],
+    [
+      "2025-11-30",
+      0.95
+    ],
+    [
+      "2025-12-31",
+      0.95
+    ],
+    [
+      "2026-01-31",
+      0.95
+    ],
+    [
+      "2026-02-28",
+      0.95
+    ],
+    [
+      "2026-03-31",
+      0.95
+    ],
+    [
+      "2026-04-30",
+      0.95
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 23116074.27,
     "Imóveis": 0.02,
     "Cotas de FIIs": 77368594.47,
     "CRI/CRA": 683324865.65,
     "Outros": 9.313225746154785e-09
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 24D3410758",
+        "nome": "",
+        "emissao": "255",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12500.0,
+        "valor": 11466362.3,
+        "nome_cri": "CRI GR Loteamento"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMP DE SECURIT - 25H2528864",
+        "nome": "",
+        "emissao": "143",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10450.0,
+        "valor": 10481573.56
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21I0940475",
+        "nome": "",
+        "emissao": "1",
+        "serie": "280",
+        "vencimento": "",
+        "quantidade": 3500.0,
+        "valor": 1544860.53,
+        "nome_cri": "CRI Vila Madalena"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22I0248854",
+        "nome": "",
+        "emissao": "15",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 1031.0,
+        "valor": 979553.84,
+        "nome_cri": "CRI ESTR GRAN PARADISO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 25A2945527",
+        "nome": "",
+        "emissao": "249",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 49000.0,
+        "valor": 48912618.64,
+        "nome_cri": "CRI ESTR GAV II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0149863",
+        "nome": "",
+        "emissao": "56",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 3661.0,
+        "valor": 3534276.74,
+        "nome_cri": "CRI Alta Vista"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21J0300224",
+        "nome": "",
+        "emissao": "4",
+        "serie": "284",
+        "vencimento": "",
+        "quantidade": 12000.0,
+        "valor": 6976372.49,
+        "nome_cri": "CRI ESTR CAPIVARI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0653681",
+        "nome": "",
+        "emissao": "4",
+        "serie": "454",
+        "vencimento": "",
+        "quantidade": 43681.0,
+        "valor": 4455978.27,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21L0050460",
+        "nome": "",
+        "emissao": "4",
+        "serie": "150",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 1691168.03,
+        "nome_cri": "CRI HABITAT BRDU"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0826515",
+        "nome": "",
+        "emissao": "4",
+        "serie": "147",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 1613910.75,
+        "nome_cri": "CRI HABITAT BRDU"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21J0649503",
+        "nome": "",
+        "emissao": "4",
+        "serie": "352",
+        "vencimento": "",
+        "quantidade": 9000.0,
+        "valor": 6882855.1,
+        "nome_cri": "CRI ESTR OCEAN BARRA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0653556",
+        "nome": "",
+        "emissao": "4",
+        "serie": "449",
+        "vencimento": "",
+        "quantidade": 40491.0,
+        "valor": 3732008.54,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 25I2147042",
+        "nome": "",
+        "emissao": "480",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 25500.0,
+        "valor": 25163559.22,
+        "nome_cri": "CRI Por do Sol"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0653493",
+        "nome": "",
+        "emissao": "4",
+        "serie": "395",
+        "vencimento": "",
+        "quantidade": 49489.0,
+        "valor": 4802161.01,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21K0522538",
+        "nome": "",
+        "emissao": "4",
+        "serie": "200",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 4460364.48,
+        "nome_cri": "CRI Raia Drogasil S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22I0248848",
+        "nome": "",
+        "emissao": "15",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 1630.0,
+        "valor": 1579022.54,
+        "nome_cri": "CRI ESTR GRAN PARADISO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 20H0050651",
+        "nome": "",
+        "emissao": "4",
+        "serie": "81",
+        "vencimento": "",
+        "quantidade": 7850.0,
+        "valor": 4172822.48,
+        "nome_cri": "CRI WAM"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 24F1185811",
+        "nome": "",
+        "emissao": "165",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12000.0,
+        "valor": 5166564.44,
+        "nome_cri": "CRI ESTR BRAVA SIXTEEN"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0850298",
+        "nome": "",
+        "emissao": "4",
+        "serie": "185",
+        "vencimento": "",
+        "quantidade": 46500.0,
+        "valor": 2045453.95,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 18E0844461",
+        "nome": "",
+        "emissao": "1",
+        "serie": "168",
+        "vencimento": "",
+        "quantidade": 2950.0,
+        "valor": 2222310.91
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KINEA ÍNDICES DE PREÇOS FDO INV IMOB - FII - KNIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 905400.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22D1286983",
+        "nome": "",
+        "emissao": "1",
+        "serie": "339",
+        "vencimento": "",
+        "quantidade": 3880.0,
+        "valor": 1155903.28,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0149811",
+        "nome": "",
+        "emissao": "56",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 3803581.87,
+        "nome_cri": "CRI Alta Vista"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21B0591503",
+        "nome": "",
+        "emissao": "1",
+        "serie": "235",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 2077779.05,
+        "nome_cri": "CRI Guarapuava"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 18H0135364",
+        "nome": "",
+        "emissao": "1",
+        "serie": "175",
+        "vencimento": "",
+        "quantidade": 20.0,
+        "valor": 0.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0775592",
+        "nome": "",
+        "emissao": "4",
+        "serie": "182",
+        "vencimento": "",
+        "quantidade": 10575.0,
+        "valor": 539603.97,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21J0302094",
+        "nome": "",
+        "emissao": "4",
+        "serie": "286",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 1646786.96,
+        "nome_cri": "CRI ESTR CAPIVARI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21B0564516",
+        "nome": "",
+        "emissao": "1",
+        "serie": "219",
+        "vencimento": "",
+        "quantidade": 9500.0,
+        "valor": 6744437.89,
+        "nome_cri": "CRI Guarapuava"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 19D1329258",
+        "nome": "",
+        "emissao": "1",
+        "serie": "218",
+        "vencimento": "",
+        "quantidade": 3050.0,
+        "valor": 1052311.02
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0653645",
+        "nome": "",
+        "emissao": "4",
+        "serie": "450",
+        "vencimento": "",
+        "quantidade": 51761.0,
+        "valor": 5275787.23,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE RECEBIVEIS IMOB. FUNDO DE INVST. IMOB. - HREC11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 300330.0,
+        "valor": 2459702.7
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21L0729731",
+        "nome": "",
+        "emissao": "1",
+        "serie": "307",
+        "vencimento": "",
+        "quantidade": 12500.0,
+        "valor": 1118431.8,
+        "nome_cri": "CRI Gafisa V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 24D3411151",
+        "nome": "",
+        "emissao": "255",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 4961140.08,
+        "nome_cri": "CRI GR Loteamento"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 24F2316395",
+        "nome": "",
+        "emissao": "4",
+        "serie": "461",
+        "vencimento": "",
+        "quantidade": 75000.0,
+        "valor": 7642959.15,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 20H0620360",
+        "nome": "",
+        "emissao": "4",
+        "serie": "73",
+        "vencimento": "",
+        "quantidade": 16000.0,
+        "valor": 8153674.3,
+        "nome_cri": "CRI MORRO DA MATA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0859444",
+        "nome": "",
+        "emissao": "4",
+        "serie": "148",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 1614103.18,
+        "nome_cri": "CRI HABITAT BRDU"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21K0522795",
+        "nome": "",
+        "emissao": "4",
+        "serie": "201",
+        "vencimento": "",
+        "quantidade": 1000.0,
+        "valor": 713607.72,
+        "nome_cri": "CRI Raia Drogasil S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0850275",
+        "nome": "",
+        "emissao": "4",
+        "serie": "184",
+        "vencimento": "",
+        "quantidade": 13500.0,
+        "valor": 661737.87,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0653656",
+        "nome": "",
+        "emissao": "4",
+        "serie": "451",
+        "vencimento": "",
+        "quantidade": 42350.0,
+        "valor": 4285679.02,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22A0423267",
+        "nome": "",
+        "emissao": "4",
+        "serie": "381",
+        "vencimento": "",
+        "quantidade": 17700.0,
+        "valor": 16650289.32,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 23J2094862",
+        "nome": "",
+        "emissao": "124",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 54000.0,
+        "valor": 28473813.74,
+        "nome_cri": "CRI ESTR IPIOCA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21G0733018",
+        "nome": "",
+        "emissao": "1",
+        "serie": "261",
+        "vencimento": "",
+        "quantidade": 7000.0,
+        "valor": 8724645.01,
+        "nome_cri": "CRI Joaquim Távora"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21D0864252",
+        "nome": "",
+        "emissao": "1",
+        "serie": "251",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 1756811.68,
+        "nome_cri": "CRI Jardins Boulevard"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 20H0051754",
+        "nome": "",
+        "emissao": "4",
+        "serie": "83",
+        "vencimento": "",
+        "quantidade": 10200.0,
+        "valor": 6284066.09,
+        "nome_cri": "CRI WAM"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIZA ARCTIUM REAL ESTATE - ARCT11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 23553.0,
+        "valor": 2052172.89
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0149814",
+        "nome": "",
+        "emissao": "56",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 3984991.62,
+        "nome_cri": "CRI Alta Vista"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0149798",
+        "nome": "",
+        "emissao": "56",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5993.0,
+        "valor": 4746035.3,
+        "nome_cri": "CRI Alta Vista"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21L0729728",
+        "nome": "",
+        "emissao": "1",
+        "serie": "306",
+        "vencimento": "",
+        "quantidade": 12500.0,
+        "valor": 1118431.8,
+        "nome_cri": "CRI Gafisa V"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 24C1690313",
+        "nome": "",
+        "emissao": "148",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 40000.0,
+        "valor": 38097763.88,
+        "nome_cri": "CRI ESTR GAV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21I0802805",
+        "nome": "",
+        "emissao": "1",
+        "serie": "404",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 2855674.29,
+        "nome_cri": "CRI Recel"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 23G1149789",
+        "nome": "",
+        "emissao": "161",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 27724.0,
+        "valor": 22229372.12,
+        "nome_cri": "CRI GR Group"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0850462",
+        "nome": "",
+        "emissao": "4",
+        "serie": "188",
+        "vencimento": "",
+        "quantidade": 13500.0,
+        "valor": 436327.01,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21I0802801",
+        "nome": "",
+        "emissao": "1",
+        "serie": "375",
+        "vencimento": "",
+        "quantidade": 15000.0,
+        "valor": 11075114.12,
+        "nome_cri": "CRI Recel"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22F0636862",
+        "nome": "",
+        "emissao": "27",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 25358.0,
+        "valor": 10464958.56,
+        "nome_cri": "CRI Salinas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 25L3373552",
+        "nome": "",
+        "emissao": "567",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 22000.0,
+        "valor": 22023927.43,
+        "nome_cri": "CRI Direcional Quartiero"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "NAVI CRÉDITO IMOBILIÁRIO FII - NCRI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 500000.0,
+        "valor": 4600000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FDO INV IMOB - FII RBR RENDIMENTO HIGH GRADE - RBRR11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2188.0,
+        "valor": 191603.16
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 18H0134529",
+        "nome": "",
+        "emissao": "1",
+        "serie": "178",
+        "vencimento": "",
+        "quantidade": 544.0,
+        "valor": 0.05
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CVPAR FUNDO DE INVESTIMENTO IMOBILIÁRIO DE CRI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 340.0,
+        "valor": 31480.19
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0653675",
+        "nome": "",
+        "emissao": "4",
+        "serie": "452",
+        "vencimento": "",
+        "quantidade": 43681.0,
+        "valor": 4479211.8,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0775566",
+        "nome": "",
+        "emissao": "4",
+        "serie": "181",
+        "vencimento": "",
+        "quantidade": 36425.0,
+        "valor": 1666701.02,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A. - 25L2870634",
+        "nome": "",
+        "emissao": "148",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 10039955.61,
+        "nome_cri": "CRI ESTR GAV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0149823",
+        "nome": "",
+        "emissao": "56",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 5000.0,
+        "valor": 4098232.39,
+        "nome_cri": "CRI Alta Vista"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 18E0852030",
+        "nome": "",
+        "emissao": "1",
+        "serie": "172",
+        "vencimento": "",
+        "quantidade": 2750.0,
+        "valor": 1465359.17
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21I0600458",
+        "nome": "",
+        "emissao": "1",
+        "serie": "279",
+        "vencimento": "",
+        "quantidade": 9335.0,
+        "valor": 4535007.95,
+        "nome_cri": "CRI Vila Madalena"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "LAGO DA PEDRA - FUNDO DE INVESTIMENTO IMOBILIÁRIO - LPLP15",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20140.0,
+        "valor": 15881397.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21J0300975",
+        "nome": "",
+        "emissao": "4",
+        "serie": "285",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 1575787.87,
+        "nome_cri": "CRI ESTR CAPIVARI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22D1286980",
+        "nome": "",
+        "emissao": "1",
+        "serie": "336",
+        "vencimento": "",
+        "quantidade": 7289.0,
+        "valor": 1887688.75,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA CRI ÍNDICE DE PREÇOS FDO INVEST. - VGIP11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 50694.0,
+        "valor": 4067179.62
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 25I2146381",
+        "nome": "",
+        "emissao": "480",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 25000.0,
+        "valor": 24692245.38,
+        "nome_cri": "CRI Por do Sol"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21J0650047",
+        "nome": "",
+        "emissao": "4",
+        "serie": "392",
+        "vencimento": "",
+        "quantidade": 2384.0,
+        "valor": 1784027.57,
+        "nome_cri": "CRI ESTR OCEAN BARRA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21H1035398",
+        "nome": "",
+        "emissao": "1",
+        "serie": "361",
+        "vencimento": "",
+        "quantidade": 19900.0,
+        "valor": 6844414.88,
+        "nome_cri": "CRI Hot Beach"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "OPI FII Responsabilidade Limitada",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 301600.0,
+        "valor": 27925249.99
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CVPAR FUNDO DE INVESTIMENTO IMOBILIÁRIO DE CRI - CVPR14",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 3000000.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21E0379796",
+        "nome": "",
+        "emissao": "4",
+        "serie": "178",
+        "vencimento": "",
+        "quantidade": 8800.0,
+        "valor": 8375522.52,
+        "nome_cri": "CRI Raia Drogasil S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 20L0871093",
+        "nome": "",
+        "emissao": "4",
+        "serie": "146",
+        "vencimento": "",
+        "quantidade": 40000.0,
+        "valor": 28653142.96,
+        "nome_cri": "CRI HABITAT BRDU"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0652228",
+        "nome": "",
+        "emissao": "4",
+        "serie": "393",
+        "vencimento": "",
+        "quantidade": 72600.0,
+        "valor": 6756781.52,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SUNO RECEBÍVEIS IMOBILIÁRIOS FDO DE INV IMOB - SNCI11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 34526.0,
+        "valor": 2933328.96
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21D0864265",
+        "nome": "",
+        "emissao": "1",
+        "serie": "256",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1312243.1,
+        "nome_cri": "CRI Jardins Boulevard"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22D1286981",
+        "nome": "",
+        "emissao": "1",
+        "serie": "337",
+        "vencimento": "",
+        "quantidade": 4200.0,
+        "valor": 1240716.02,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BAMBOO SECURITIZADORA S.A - 24C1998253",
+        "nome": "",
+        "emissao": "1",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 16642.0,
+        "valor": 13151922.57
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21F1037235",
+        "nome": "",
+        "emissao": "1",
+        "serie": "247",
+        "vencimento": "",
+        "quantidade": 9000.0,
+        "valor": 6085895.31,
+        "nome_cri": "CRI Bussolaro"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 19K1139240",
+        "nome": "",
+        "emissao": "1",
+        "serie": "335",
+        "vencimento": "",
+        "quantidade": 19500.0,
+        "valor": 16926016.81
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 24D3462826",
+        "nome": "",
+        "emissao": "149",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 35149.0,
+        "valor": 16737703.43,
+        "nome_cri": "CRI ESTR LAREDO II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22I0149864",
+        "nome": "",
+        "emissao": "56",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 1546.0,
+        "valor": 1183163.24,
+        "nome_cri": "CRI Alta Vista"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0869388",
+        "nome": "",
+        "emissao": "4",
+        "serie": "149",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 1706575.0,
+        "nome_cri": "CRI HABITAT BRDU"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0653678",
+        "nome": "",
+        "emissao": "4",
+        "serie": "453",
+        "vencimento": "",
+        "quantidade": 35739.0,
+        "valor": 3591209.9,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 18H0134527",
+        "nome": "",
+        "emissao": "1",
+        "serie": "174",
+        "vencimento": "",
+        "quantidade": 23.0,
+        "valor": 0.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 24F2316349",
+        "nome": "",
+        "emissao": "4",
+        "serie": "460",
+        "vencimento": "",
+        "quantidade": 75000.0,
+        "valor": 7694312.85,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 23H1074707",
+        "nome": "",
+        "emissao": "107",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 82.0,
+        "valor": 62469.58,
+        "nome_cri": "CRI ESTR BURITI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 24C2208771",
+        "nome": "",
+        "emissao": "39",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 9000.0,
+        "valor": 3730108.49,
+        "nome_cri": "CRI Ares das Brás"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BEYOND SOBERANO FC FI RF REFERENCIADO DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 8205217.63110416,
+        "valor": 10867313.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22D1286982",
+        "nome": "",
+        "emissao": "1",
+        "serie": "338",
+        "vencimento": "",
+        "quantidade": 4336.0,
+        "valor": 1291755.23,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 24G1768866",
+        "nome": "",
+        "emissao": "291",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 71564.0,
+        "valor": 47810270.45,
+        "nome_cri": "CRI HOT BEACH YOU"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 20H0050614",
+        "nome": "",
+        "emissao": "4",
+        "serie": "77",
+        "vencimento": "",
+        "quantidade": 24750.0,
+        "valor": 12335950.79,
+        "nome_cri": "CRI WAM"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22I0248837",
+        "nome": "",
+        "emissao": "15",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 2652.0,
+        "valor": 2570939.45,
+        "nome_cri": "CRI ESTR GRAN PARADISO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 22D1286984",
+        "nome": "",
+        "emissao": "1",
+        "serie": "340",
+        "vencimento": "",
+        "quantidade": 3550.0,
+        "valor": 1062165.13,
+        "nome_cri": "CRI Campos do Jordão"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 23G1149794",
+        "nome": "",
+        "emissao": "161",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 18571.0,
+        "valor": 15168528.91,
+        "nome_cri": "CRI GR Group"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21D0864253",
+        "nome": "",
+        "emissao": "1",
+        "serie": "252",
+        "vencimento": "",
+        "quantidade": 4700.0,
+        "valor": 1160145.27,
+        "nome_cri": "CRI Jardins Boulevard"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22B0653348",
+        "nome": "",
+        "emissao": "4",
+        "serie": "394",
+        "vencimento": "",
+        "quantidade": 59400.0,
+        "valor": 5518463.8,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0850574",
+        "nome": "",
+        "emissao": "4",
+        "serie": "189",
+        "vencimento": "",
+        "quantidade": 38750.0,
+        "valor": 2034351.01,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21G0733026",
+        "nome": "",
+        "emissao": "1",
+        "serie": "262",
+        "vencimento": "",
+        "quantidade": 3600.0,
+        "valor": 4033773.6,
+        "nome_cri": "CRI Joaquim Távora"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 21H0284007",
+        "nome": "",
+        "emissao": "4",
+        "serie": "183",
+        "vencimento": "",
+        "quantidade": 2278.0,
+        "valor": 1441924.31,
+        "nome_cri": "CRI Raia Drogasil S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S/A - 22B0653652",
+        "nome": "",
+        "emissao": "4",
+        "serie": "170",
+        "vencimento": "",
+        "quantidade": 14750.0,
+        "valor": 11582271.72,
+        "nome_cri": "CRI Raia Drogasil S.A."
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 20H0051749",
+        "nome": "",
+        "emissao": "4",
+        "serie": "82",
+        "vencimento": "",
+        "quantidade": 12200.0,
+        "valor": 7260388.16,
+        "nome_cri": "CRI WAM"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21D0864264",
+        "nome": "",
+        "emissao": "1",
+        "serie": "255",
+        "vencimento": "",
+        "quantidade": 5800.0,
+        "valor": 2552519.55,
+        "nome_cri": "CRI Jardins Boulevard"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0775722",
+        "nome": "",
+        "emissao": "4",
+        "serie": "183",
+        "vencimento": "",
+        "quantidade": 46500.0,
+        "valor": 2044408.4,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "FORTE SECURITIZADORA S.A. - 18E0852434",
+        "nome": "",
+        "emissao": "1",
+        "serie": "170",
+        "vencimento": "",
+        "quantidade": 1500.0,
+        "valor": 807846.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22I0050260",
+        "nome": "",
+        "emissao": "15",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1600.0,
+        "valor": 1417448.06,
+        "nome_cri": "CRI ESTR GRAN PARADISO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0850592",
+        "nome": "",
+        "emissao": "4",
+        "serie": "190",
+        "vencimento": "",
+        "quantidade": 11250.0,
+        "valor": 215251.27,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21D0864263",
+        "nome": "",
+        "emissao": "1",
+        "serie": "254",
+        "vencimento": "",
+        "quantidade": 7400.0,
+        "valor": 2765042.65,
+        "nome_cri": "CRI Jardins Boulevard"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21B0000204",
+        "nome": "",
+        "emissao": "4",
+        "serie": "187",
+        "vencimento": "",
+        "quantidade": 46500.0,
+        "valor": 2369480.69,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMP DE SECURIT - 23B0790147",
+        "nome": "",
+        "emissao": "28",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 20000.0,
+        "valor": 14885208.2
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FDO INV IMOB RBR CREDITO IMOB ESTRUTURADO - RBRY11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 103110.0,
+        "valor": 10084158.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 21A0850418",
+        "nome": "",
+        "emissao": "4",
+        "serie": "186",
+        "vencimento": "",
+        "quantidade": 13500.0,
+        "valor": 657794.82,
+        "nome_cri": "CRI SKY DIADEMA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMP DE SECURIT - 22I0248791",
+        "nome": "",
+        "emissao": "15",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 1200.0,
+        "valor": 1097295.43,
+        "nome_cri": "CRI ESTR GRAN PARADISO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S/A - 21D0864254",
+        "nome": "",
+        "emissao": "1",
+        "serie": "253",
+        "vencimento": "",
+        "quantidade": 6100.0,
+        "valor": 1754674.49,
+        "nome_cri": "CRI Jardins Boulevard"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "RIZA SECURITIZADORA S.A. - 25L2880470",
+        "nome": "",
+        "emissao": "148",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 10042267.75,
+        "nome_cri": "CRI ESTR GAV"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA HEDGE - VGHF11",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 626300.0,
+        "valor": 4528149.0
+      }
+    ],
+    "imoveis": [],
+    "data_ref_ativos": "2025-12-31"
   }
 }

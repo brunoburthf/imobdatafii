@@ -4,14 +4,18 @@
     "Ticker": "AZPL11",
     "Nome": "Az Quest Panorama Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0006,
-    "Retorno - 12M": 0.2216,
-    "P/VP": 0.9,
+    "Retorno - MTD": -0.0045,
+    "Retorno - 12M": 0.1791,
+    "P/VP": 0.89,
     "Último Dividendo Pago": 0.075,
-    "DY a.a.": 0.116,
+    "DY a.a.": 0.117,
     "Visão Geral": "FII de logística que investe em galpões logísticos de alta qualidade, com foco em ativos last-mile na região metropolitana de São Paulo. É gerido pela AZ Quest Panorama, tinha ABL de 46.561 m² e dois imóveis nas informações consultadas. A estratégia prioriza gestão ativa e renda locatícia recorrente.",
     "Comentário": "O portfólio do AZPL11 manteve ocupação de 100% nos galpões próprios, com importante revisional negociado no Jandira representando leasing spread de 22,4%. A carteira de crédito, que representa 49,4% do patrimônio, segue contribuindo para resultados com rentabilidade de CDI+2,88% e IPCA+10,87%. Dividendos distribuídos de R$0,075/cota refletem desempenho estável e resultados consistentes.",
-    "Preço Atual": 7.67
+    "Preço Atual": 7.67,
+    "% Dias Acima CDI 1A": 0.8481,
+    "% Dias Acima CDI 3A": 0.8481,
+    "% Dias Acima CDI 5A": 0.8481,
+    "% Dias Acima CDI MAX": 0.8481
   },
   "historico_preco": [
     [
@@ -1624,6 +1628,22 @@
     ],
     [
       "2026-04-16",
+      7.7
+    ],
+    [
+      "2026-04-17",
+      7.73
+    ],
+    [
+      "2026-04-20",
+      7.7
+    ],
+    [
+      "2026-04-22",
+      7.6
+    ],
+    [
+      "2026-04-23",
       7.7
     ]
   ],
@@ -3238,6 +3258,22 @@
     ],
     [
       "2026-04-16",
+      7.7
+    ],
+    [
+      "2026-04-17",
+      7.73
+    ],
+    [
+      "2026-04-20",
+      7.7
+    ],
+    [
+      "2026-04-22",
+      7.6
+    ],
+    [
+      "2026-04-23",
       7.7
     ]
   ],
@@ -4933,6 +4969,26 @@
     [
       "2026-04-16",
       0.89584245984
+    ],
+    [
+      "2026-04-17",
+      0.89933275514
+    ],
+    [
+      "2026-04-20",
+      0.89584245984
+    ],
+    [
+      "2026-04-21",
+      0.89584245984
+    ],
+    [
+      "2026-04-22",
+      0.88420814218
+    ],
+    [
+      "2026-04-23",
+      0.89584245984
     ]
   ],
   "historico_dy": [
@@ -6467,12 +6523,273 @@
     [
       "2026-04-16",
       11.6883
+    ],
+    [
+      "2026-04-17",
+      11.6429
+    ],
+    [
+      "2026-04-20",
+      11.6883
+    ],
+    [
+      "2026-04-22",
+      11.8421
+    ],
+    [
+      "2026-04-23",
+      11.6883
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-10-31",
+      0.075
+    ],
+    [
+      "2024-11-30",
+      0.082
+    ],
+    [
+      "2024-12-31",
+      0.082
+    ],
+    [
+      "2025-01-31",
+      0.09
+    ],
+    [
+      "2025-02-28",
+      0.09
+    ],
+    [
+      "2025-03-31",
+      0.09
+    ],
+    [
+      "2025-04-30",
+      0.09
+    ],
+    [
+      "2025-05-31",
+      0.09
+    ],
+    [
+      "2025-06-30",
+      0.09
+    ],
+    [
+      "2025-07-31",
+      0.09
+    ],
+    [
+      "2025-08-31",
+      0.08
+    ],
+    [
+      "2025-09-30",
+      0.07
+    ],
+    [
+      "2025-10-31",
+      0.075
+    ],
+    [
+      "2025-11-30",
+      0.075
+    ],
+    [
+      "2025-12-31",
+      0.075
+    ],
+    [
+      "2026-01-31",
+      0.075
+    ],
+    [
+      "2026-02-28",
+      0.075
+    ],
+    [
+      "2026-03-31",
+      0.075
+    ],
+    [
+      "2026-04-30",
+      0.075
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 2945194.41,
     "Imóveis": 99300796.5,
     "Cotas de FIIs": 175371215.03,
     "CRI/CRA": 83397641.56
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. 24D0006601",
+        "nome": "",
+        "emissao": "262",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7085.0,
+        "valor": 7331857.0,
+        "nome_cri": "CRI Allos IV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. 24F1277566",
+        "nome": "",
+        "emissao": "331",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 96.0,
+        "valor": 103267.49,
+        "nome_cri": "CRI Axis III"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARI SECURITIZADORA S.A 24L0004424",
+        "nome": "",
+        "emissao": "46",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 14902.0,
+        "valor": 11765300.95,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. 24F1277566",
+        "nome": "",
+        "emissao": "331",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 48.0,
+        "valor": 51633.75,
+        "nome_cri": "CRI Axis III"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. 24F1277566",
+        "nome": "",
+        "emissao": "331",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12541.0,
+        "valor": 13490392.02,
+        "nome_cri": "CRI Axis III"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AZ QUEST PANORAMA CRÉDITO ESTRUTURADO FII DE Resp LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 12500000.0,
+        "valor": 125293512.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZAÇÃO 24K1685332",
+        "nome": "",
+        "emissao": "196",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 3009271.16
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. 24F1277566",
+        "nome": "",
+        "emissao": "331",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 128.0,
+        "valor": 137689.99,
+        "nome_cri": "CRI Axis III"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. 24D0006601",
+        "nome": "",
+        "emissao": "262",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6080.0,
+        "valor": 6291840.59,
+        "nome_cri": "CRI Allos IV"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "DAYCOVAL TÍTULOS PÚBLICOS I FIRF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7623.2331034,
+        "valor": 13172564.82
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AZ QUEST PANORAMA URDI JANDIRA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3650100.0,
+        "valor": 45835097.78
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A. 24D3313768",
+        "nome": "",
+        "emissao": "309",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7170.0,
+        "valor": 7290556.35,
+        "nome_cri": "CRI Edifica"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A. 24D0006601",
+        "nome": "",
+        "emissao": "262",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 16199.0,
+        "valor": 16763408.83,
+        "nome_cri": "CRI Allos IV"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA SA 24H1736123",
+        "nome": "",
+        "emissao": "58",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 8575166.72,
+        "nome_cri": "CRI Artis"
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "GALPAO",
+        "endereco": "Rodovia Presidente Tancredo de Almeida Neves, Km 45, s/nº. Franco da Rocha.",
+        "area": 56734.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

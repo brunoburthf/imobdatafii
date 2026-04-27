@@ -4,14 +4,18 @@
     "Ticker": "KORE11",
     "Nome": "Kinea Oportunidades Real Estate FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.0062,
-    "Retorno - 12M": 0.0431,
+    "Retorno - MTD": -0.0039,
+    "Retorno - 12M": 0.0318,
     "P/VP": 0.69,
     "Último Dividendo Pago": 0.6,
     "DY a.a.": 0.098,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com objetivo de gerar renda mensal de aluguel. É gerido pela Kinea e concentra ativos em regiões estratégicas como São Paulo e Rio de Janeiro. A estratégia prioriza portfólio corporativo com baixa vacância e gestão ativa voltada à locação recorrente.",
     "Comentário": "O fundo apregoou R$1,10/cota em março, refletindo a entrada da Terra Brasil no Edifício Corporate Plaza, reduzindo vacância física de 2,41% para 1,86% e financeira de 2,48% para 2,08%. A vacância financeira ajustada por carências caiu significativamente de 7,34% para 4,32%, evidenciando progresso material na reabsorção de espaços e maior previsibilidade de receitas futuras.",
-    "Preço Atual": 73.2
+    "Preço Atual": 73.39,
+    "% Dias Acima CDI 1A": 0.1452,
+    "% Dias Acima CDI 3A": 0.1056,
+    "% Dias Acima CDI 5A": 0.1056,
+    "% Dias Acima CDI MAX": 0.1056
   },
   "historico_preco": [
     [
@@ -2365,6 +2369,22 @@
     [
       "2026-04-16",
       73.14
+    ],
+    [
+      "2026-04-17",
+      73.54
+    ],
+    [
+      "2026-04-20",
+      73.03
+    ],
+    [
+      "2026-04-22",
+      73.65
+    ],
+    [
+      "2026-04-23",
+      73.16
     ]
   ],
   "historico_preco_adj": [
@@ -4719,6 +4739,22 @@
     [
       "2026-04-16",
       73.14
+    ],
+    [
+      "2026-04-17",
+      73.54
+    ],
+    [
+      "2026-04-20",
+      73.03
+    ],
+    [
+      "2026-04-22",
+      73.65
+    ],
+    [
+      "2026-04-23",
+      73.16
     ]
   ],
   "historico_pvp": [
@@ -7117,6 +7153,26 @@
     [
       "2026-04-16",
       0.68913983137
+    ],
+    [
+      "2026-04-17",
+      0.69290871204
+    ],
+    [
+      "2026-04-20",
+      0.68810338918
+    ],
+    [
+      "2026-04-21",
+      0.68810338918
+    ],
+    [
+      "2026-04-22",
+      0.69394515423
+    ],
+    [
+      "2026-04-23",
+      0.6893282754
     ]
   ],
   "historico_dy": [
@@ -9411,10 +9467,188 @@
     [
       "2026-04-16",
       9.8441
+    ],
+    [
+      "2026-04-17",
+      9.7906
+    ],
+    [
+      "2026-04-20",
+      9.859
+    ],
+    [
+      "2026-04-22",
+      9.776
+    ],
+    [
+      "2026-04-23",
+      9.8414
+    ]
+  ],
+  "historico_dpc": [
+    [
+      "2024-01-31",
+      0.69
+    ],
+    [
+      "2024-02-29",
+      1.25
+    ],
+    [
+      "2024-03-31",
+      1.25
+    ],
+    [
+      "2024-04-30",
+      1.25
+    ],
+    [
+      "2024-05-31",
+      1.25
+    ],
+    [
+      "2024-06-30",
+      1.25
+    ],
+    [
+      "2024-07-31",
+      1.25
+    ],
+    [
+      "2024-08-31",
+      1.25
+    ],
+    [
+      "2024-09-30",
+      1.25
+    ],
+    [
+      "2024-10-31",
+      1.25
+    ],
+    [
+      "2024-11-30",
+      1.25
+    ],
+    [
+      "2024-12-31",
+      1.25
+    ],
+    [
+      "2025-01-31",
+      1.25
+    ],
+    [
+      "2025-02-28",
+      1.25
+    ],
+    [
+      "2025-03-31",
+      1.25
+    ],
+    [
+      "2025-04-30",
+      1.25
+    ],
+    [
+      "2025-05-31",
+      1.25
+    ],
+    [
+      "2025-06-30",
+      1.25
+    ],
+    [
+      "2025-07-31",
+      1.25
+    ],
+    [
+      "2025-08-31",
+      1.25
+    ],
+    [
+      "2025-09-30",
+      1.25
+    ],
+    [
+      "2025-10-31",
+      1.25
+    ],
+    [
+      "2025-11-30",
+      1.25
+    ],
+    [
+      "2025-12-31",
+      1.25
+    ],
+    [
+      "2026-01-31",
+      1.25
+    ],
+    [
+      "2026-02-28",
+      0.6
+    ],
+    [
+      "2026-03-31",
+      0.6
+    ],
+    [
+      "2026-04-30",
+      0.6
     ]
   ],
   "portfolio": {
+    "_data_ref": "31/03/2026",
     "Caixa": 53477274.25,
     "Imóveis": 982685124.34
+  },
+  "carteira_trimestral": {
+    "data_ref": "2025-12-31",
+    "ativos": [
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "CAIXA ECONOMICA FEDERAL - CEF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-10-16",
+        "quantidade": 9.0,
+        "valor": 46229840.04
+      }
+    ],
+    "imoveis": [
+      {
+        "nome": "Centro Empresarial Botafogo",
+        "endereco": "Praia de Botafogo, 300, Botafogo, Rio de Janeiro - RJ",
+        "area": 23439.78,
+        "vacancia": 0.015072,
+        "pct_total": null
+      },
+      {
+        "nome": "Corporate Plaza",
+        "endereco": "Rua Alexandre Dumas, 2100, Santo Amaro, São Paulo - SP",
+        "area": 10489.07,
+        "vacancia": 0.002319,
+        "pct_total": null
+      },
+      {
+        "nome": "Morumbi Office Tower",
+        "endereco": "Avenida Roque Petroni Junior, 999, Jardim das Acacias, São Paulo - SP",
+        "area": 18478.993,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Alameda Santos",
+        "endereco": "Alameda Santos, 2477, Jardim Paulista, São Paulo - SP",
+        "area": 6467.71,
+        "vacancia": 0.004167,
+        "pct_total": null
+      }
+    ],
+    "data_ref_ativos": "2025-12-31",
+    "data_ref_imoveis": "2025-12-31"
   }
 }

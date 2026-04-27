@@ -6,12 +6,15 @@ let chartPvp = null;
 let chartRetorno = null;
 let chartSpread = null;
 let chartPortfolio = null;
+let chartDpc = null;
 let dadosPrecoCompleto = [];
 let dadosPvpCompleto = [];
 let dadosPrecoAdjCompleto = [];
 let dadosDyCompleto = [];
 let dadosSpreadCompleto = [];
 let dadosPortfolio = {};
+let dadosDpcCompleto = [];
+let dadosCarteiraCvm = {};
 let cdiMapa = {};
 
 const SPREAD_NTNB_ANOS = 5;
@@ -127,6 +130,8 @@ function renderizarFii(data) {
     : (data.historico_preco || []);
   dadosDyCompleto = data.historico_dy || [];
   dadosPortfolio = data.portfolio || {};
+  dadosDpcCompleto = data.historico_dpc || [];
+  dadosCarteiraCvm = data.carteira_trimestral || {};
 
   renderizarGrafico("preco", dadosPrecoCompleto, "1A");
   renderizarGrafico("pvp", dadosPvpCompleto, "1A");
@@ -531,8 +536,10 @@ function trocarAba(aba) {
   document.getElementById("aba-mercado").style.display     = aba === "mercado" ? "block" : "none";
   document.getElementById("aba-operacional").style.display  = aba === "operacional" ? "block" : "none";
 
-  if (aba === "operacional" && !chartPortfolio) {
-    renderizarPortfolio();
+  if (aba === "operacional") {
+    if (!chartPortfolio) renderizarPortfolio();
+    if (!chartDpc) renderizarDpc();
+    renderizarCarteiraCvm();
   }
 }
 
@@ -549,7 +556,8 @@ function renderizarPortfolio() {
   const vazio  = document.getElementById("portfolio-vazio");
   if (!canvas) return;
 
-  const entries = Object.entries(dadosPortfolio).filter(([, v]) => v > 0);
+  const dataRef = dadosPortfolio._data_ref || null;
+  const entries = Object.entries(dadosPortfolio).filter(([k, v]) => k !== "_data_ref" && v > 0);
   if (!entries.length) {
     canvas.style.display = "none";
     vazio.style.display = "block";
@@ -557,6 +565,12 @@ function renderizarPortfolio() {
   }
   canvas.style.display = "block";
   vazio.style.display = "none";
+
+  // Atualiza título com data de referência
+  const tituloEl = canvas.closest(".grafico-box")?.querySelector("h2");
+  if (tituloEl) {
+    tituloEl.textContent = "Composição do Portfolio" + (dataRef ? " — Ref. " + dataRef : "");
+  }
 
   const total = entries.reduce((s, [, v]) => s + v, 0);
   const labels = entries.map(([k]) => k);
@@ -598,6 +612,232 @@ function renderizarPortfolio() {
       }
     }
   });
+}
+
+// ─── GRÁFICO DE BARRAS — DIVIDENDOS POR COTA ────────────────────────────────
+
+const MESES_PT = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
+
+function renderizarDpc() {
+  const canvas = document.getElementById("grafico-dpc");
+  const vazio  = document.getElementById("dpc-vazio");
+  if (!canvas) return;
+
+  const ultimos = dadosDpcCompleto.slice(-12);
+  if (!ultimos.length) {
+    canvas.style.display = "none";
+    vazio.style.display = "block";
+    return;
+  }
+  canvas.style.display = "block";
+  vazio.style.display = "none";
+
+  const labels = ultimos.map(([d]) => {
+    const [a, m] = d.split("-");
+    return MESES_PT[parseInt(m) - 1] + "/" + a.slice(2);
+  });
+  const valores = ultimos.map(([, v]) => v);
+
+  if (chartDpc) chartDpc.destroy();
+
+  chartDpc = new Chart(canvas.getContext("2d"), {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [{
+        label: "Dividendo/cota (R$)",
+        data: valores,
+        backgroundColor: "rgba(239,99,0,0.85)",
+        borderColor: "rgba(239,99,0,1)",
+        borderWidth: 1,
+        borderRadius: 4
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        datalabels: {
+          anchor: "end",
+          align: "top",
+          color: "var(--texto)",
+          font: { size: 11, weight: "600" },
+          formatter: v => "R$ " + v.toFixed(2)
+        },
+        tooltip: {
+          callbacks: {
+            label: ctx => " R$ " + ctx.parsed.y.toFixed(4)
+          }
+        }
+      },
+      scales: {
+        x: { ticks: { font: { size: 11 } }, grid: { display: false } },
+        y: {
+          ticks: { font: { size: 11 }, callback: v => "R$ " + v.toFixed(2) },
+          grid: { color: "rgba(0,0,0,0.05)" },
+          min: Math.max(0, Math.min(...valores) * 0.85),
+          suggestedMax: Math.max(...valores) * 1.05
+        }
+      }
+    }
+  });
+}
+
+// ─── CARTEIRA TRIMESTRAL CVM — ACCORDIONS ────────────────────────────────────
+
+function renderizarCarteiraCvm() {
+  const section = document.getElementById("carteira-cvm-section");
+  const ativos = dadosCarteiraCvm.ativos || [];
+  const imoveis = dadosCarteiraCvm.imoveis || [];
+  const dataRefAt = dadosCarteiraCvm.data_ref_ativos || dadosCarteiraCvm.data_ref || "";
+  const dataRefIm = dadosCarteiraCvm.data_ref_imoveis || dadosCarteiraCvm.data_ref || "";
+
+  if (!ativos.length && !imoveis.length) {
+    section.style.display = "none";
+    return;
+  }
+  section.style.display = "block";
+
+  const fmtR = v => v != null ? "R$ " + v.toLocaleString("pt-BR", {minimumFractionDigits:0, maximumFractionDigits:0}) : "—";
+  const fmtPct = v => v != null ? (v * 100).toFixed(1) + "%" : "—";
+  const fmtData = d => {
+    if (!d) return "";
+    const [a,m,dd] = d.split("-");
+    return `${dd}/${m}/${a}`;
+  };
+
+  // Calcula valor total do portfolio (pizza)
+  const portfolioEntries = Object.entries(dadosPortfolio).filter(([k, v]) => k !== "_data_ref" && v > 0);
+  const totalPortfolio = portfolioEntries.reduce((s, [, v]) => s + v, 0);
+
+  // Agrupa ativos por tipo
+  const porTipo = {};
+  ativos.forEach(a => {
+    porTipo[a.tipo] = porTipo[a.tipo] || [];
+    porTipo[a.tipo].push(a);
+  });
+  for (const t in porTipo) porTipo[t].sort((a, b) => (b.valor || 0) - (a.valor || 0));
+
+  // Título
+  const dataRef = dataRefAt || dataRefIm;
+  document.getElementById("carteira-cvm-titulo").textContent = "Carteira Detalhada — Ref. " + fmtData(dataRef);
+
+  const container = document.getElementById("carteira-cvm-accordions");
+  let html = "";
+
+  // Função para mapear tipo CVM → categoria da pizza
+  function pctDoPortfolio(tipo) {
+    const mapa = {
+      "CRI/CRA": "CRI/CRA", "CRI": "CRI/CRA",
+      "FII": "Cotas de FIIs",
+      "Outras Cotas de FI": "Cotas de FIIs",
+      "FIP": "Cotas de FIIs",
+      "FIDC": "FIDCs",
+      "LCI/LCA": "CRI/CRA", "LCI": "CRI/CRA", "LCA": "CRI/CRA", "LIG": "CRI/CRA",
+      "Outros Ativos Financeiros": "Outros",
+      "Ações de Sociedades": "Ações/Cotas em Sociedades",
+      "Cotas de Sociedades": "Ações/Cotas em Sociedades",
+      "Ações": "Ações/Cotas em Sociedades",
+    };
+    const cat = mapa[tipo];
+    if (!cat || totalPortfolio <= 0) return null;
+    const val = dadosPortfolio[cat];
+    return val ? val / totalPortfolio : null;
+  }
+
+  // Accordion para cada tipo de ativo financeiro
+  for (const [tipo, lista] of Object.entries(porTipo)) {
+    const totalTipo = lista.reduce((s, a) => s + (a.valor || 0), 0);
+    const pct = pctDoPortfolio(tipo);
+    const id = "acc-" + tipo.replace(/[^\w]/g, "");
+
+    const isCRI = tipo.includes("CRI") || tipo.includes("CRA") || tipo.includes("LCI") || tipo.includes("LIG");
+
+    html += `<div class="carteira-accordion">
+      <div class="carteira-accordion-header" onclick="toggleAccordion('${id}')">
+        <div class="carteira-accordion-left">
+          <span class="carteira-accordion-seta">&#9654;</span>
+          <span class="carteira-accordion-tipo">${tipo}</span>
+          <span class="carteira-accordion-count">(${lista.length} ativos)</span>
+        </div>
+        <div class="carteira-accordion-right">
+          <span class="carteira-accordion-valor">${fmtR(totalTipo)}</span>
+          <span class="carteira-accordion-pct">${pct != null ? fmtPct(pct) : "—"}</span>
+        </div>
+      </div>
+      <div class="carteira-accordion-body" id="${id}">
+        <table>
+          <thead><tr>
+            ${isCRI ? '<th>Nome</th><th>Emissor</th><th>Série</th><th>Emissão</th>' : '<th>Emissor</th><th>Nome</th>'}
+            <th>Vencimento</th>
+            <th class="num">Valor (R$)</th>
+          </tr></thead>
+          <tbody>`;
+    lista.forEach(a => {
+      html += `<tr>
+        ${isCRI
+          ? `<td style="font-weight:600;color:var(--navy)">${a.nome_cri || "—"}</td><td>${a.emissor || "—"}</td><td>${a.serie || "—"}</td><td>${a.emissao || "—"}</td>`
+          : `<td>${a.emissor || "—"}</td><td>${a.nome || a.emissor || "—"}</td>`}
+        <td>${fmtData(a.vencimento)}</td>
+        <td class="num">${fmtR(a.valor)}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div></div>`;
+  }
+
+  // Accordion para imóveis
+  if (imoveis.length) {
+    const pctImoveis = totalPortfolio > 0 && dadosPortfolio["Imóveis"]
+      ? dadosPortfolio["Imóveis"] / totalPortfolio : null;
+    const totalImoveis = dadosPortfolio["Imóveis"] || null;
+    const id = "acc-imoveis";
+
+    html += `<div class="carteira-accordion">
+      <div class="carteira-accordion-header" onclick="toggleAccordion('${id}')">
+        <div class="carteira-accordion-left">
+          <span class="carteira-accordion-seta">&#9654;</span>
+          <span class="carteira-accordion-tipo">Imóveis</span>
+          <span class="carteira-accordion-count">(${imoveis.length} imóveis — Ref. ${fmtData(dataRefIm)})</span>
+        </div>
+        <div class="carteira-accordion-right">
+          <span class="carteira-accordion-valor">${totalImoveis ? fmtR(totalImoveis) : "—"}</span>
+          <span class="carteira-accordion-pct">${pctImoveis != null ? fmtPct(pctImoveis) : "—"}</span>
+        </div>
+      </div>
+      <div class="carteira-accordion-body" id="${id}">
+        <table>
+          <thead><tr>
+            <th>Nome</th>
+            <th>UF</th>
+            <th class="num">Participação</th>
+            <th class="num">ABL (m²)</th>
+            <th class="num">Vacância</th>
+          </tr></thead>
+          <tbody>`;
+    const UFS = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"];
+    imoveis.forEach(im => {
+      const end = (im.endereco || "").toUpperCase();
+      const uf = UFS.find(u => new RegExp("\\b" + u + "\\b").test(end)) || "—";
+      html += `<tr>
+        <td>${im.nome || "—"}</td>
+        <td>${uf}</td>
+        <td class="num">${fmtPct(im.pct_total)}</td>
+        <td class="num">${im.area != null ? im.area.toLocaleString("pt-BR") : "—"}</td>
+        <td class="num">${fmtPct(im.vacancia)}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div></div>`;
+  }
+
+  container.innerHTML = html;
+}
+
+function toggleAccordion(id) {
+  const body = document.getElementById(id);
+  const header = body?.previousElementSibling;
+  if (!body) return;
+  const aberto = body.classList.toggle("aberto");
+  if (header) header.classList.toggle("aberto", aberto);
 }
 
 carregarFii();
