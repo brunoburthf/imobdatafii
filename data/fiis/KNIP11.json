@@ -4,18 +4,19 @@
     "Ticker": "KNIP11",
     "Nome": "Kinea Indices de Preços FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0366,
-    "Retorno - 12M": 0.1495,
+    "Retorno - MTD": 0.0433,
+    "Retorno - 12M": 0.1532,
     "P/VP": 1.01,
     "Último Dividendo Pago": 1.05,
-    "DY a.a.": 0.134,
+    "DY a.a.": 0.133,
     "Visão Geral": "FII de papel que investe em CRIs e LCIs imobiliárias, com remuneração atrelada a juros reais de longo prazo. Tem gestão da Kinea e patrimônio líquido de cerca de R$ 7,6 bilhões. A carteira é diversificada em crédito privado imobiliário e a estratégia prioriza geração de renda indexada à inflação.",
     "Comentário": "O fundo alocou R$234,9 milhões em novos CRI durante março, incluindo operações em BH Shopping, Home Equity e ativos logísticos, elevando significativamente o patamar de investimentos. A mudança reflete uma aceleração na absorção de recursos captados, com novas alocações estruturadas em índices inflacionários mantendo duration média de 6,4 anos na carteira inflacionária.",
-    "Preço Atual": 93.93,
-    "% Dias Acima CDI 1A": 0.2339,
-    "% Dias Acima CDI 3A": 0.3517,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 94.8,
+    "% Dias Acima CDI 1A": 0.246,
+    "% Dias Acima CDI 3A": 0.3548,
     "% Dias Acima CDI 5A": 0.3711,
-    "% Dias Acima CDI MAX": 0.5023
+    "% Dias Acima CDI MAX": 0.5031
   },
   "historico_preco": [
     [
@@ -9509,6 +9510,18 @@
     [
       "2026-04-23",
       93.35
+    ],
+    [
+      "2026-04-24",
+      93.92
+    ],
+    [
+      "2026-04-27",
+      94.25
+    ],
+    [
+      "2026-04-28",
+      94.08
     ]
   ],
   "historico_preco_adj": [
@@ -19003,6 +19016,18 @@
     [
       "2026-04-23",
       93.35
+    ],
+    [
+      "2026-04-24",
+      93.92
+    ],
+    [
+      "2026-04-27",
+      94.25
+    ],
+    [
+      "2026-04-28",
+      94.08
     ]
   ],
   "historico_pvp": [
@@ -28985,6 +29010,18 @@
     [
       "2026-04-23",
       0.99901067394
+    ],
+    [
+      "2026-04-24",
+      1.0051106856
+    ],
+    [
+      "2026-04-27",
+      1.0086422712
+    ],
+    [
+      "2026-04-28",
+      1.0068229695
     ]
   ],
   "historico_dy": [
@@ -38455,6 +38492,18 @@
     [
       "2026-04-23",
       13.4976
+    ],
+    [
+      "2026-04-24",
+      13.4157
+    ],
+    [
+      "2026-04-27",
+      13.3687
+    ],
+    [
+      "2026-04-28",
+      13.3929
     ]
   ],
   "historico_dpc": [
@@ -38919,13 +38968,7 @@
       1.05
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 448386361.32,
-    "Cotas de FIIs": 3933350.08,
-    "CRI/CRA": 7883184812.5,
-    "Outros": 0.050000381423160434
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,18 +4,19 @@
     "Ticker": "XPSF11",
     "Nome": "Xp Selection Fundo de FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0074,
-    "Retorno - 12M": 0.2813,
+    "Retorno - MTD": 0.003,
+    "Retorno - 12M": 0.209,
     "P/VP": 0.84,
     "Último Dividendo Pago": 0.07,
     "DY a.a.": 0.124,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, além de LCIs, CRIs e outros títulos do mercado imobiliário. Lançado em 2019, tem gestão da XP Asset e mandato de alocação diversificada no mercado listado. A estratégia busca renda recorrente e ganho de capital com gestão ativa de portfólio.",
     "Comentário": "Distribuição R$0,07/cota (15,25% DY anualizado, 12,61% patrimonial). Alienação parcial TEPP com ganho de capital e alocação em BBIG (shopping descontado). Carteira de CRI ampliada para 12,5% do PL incluindo novos CDI+. P/VP em 0,83x e desconto adicional ao patrimonial FII: oportunidade de arbitragem em FoF defensivo diversificado.",
-    "Preço Atual": 6.79,
-    "% Dias Acima CDI 1A": 0.375,
-    "% Dias Acima CDI 3A": 0.4899,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 6.78,
+    "% Dias Acima CDI 1A": 0.3871,
+    "% Dias Acima CDI 3A": 0.4926,
     "% Dias Acima CDI 5A": 0.3751,
-    "% Dias Acima CDI MAX": 0.3983
+    "% Dias Acima CDI MAX": 0.3997
   },
   "historico_preco": [
     [
@@ -6177,6 +6178,18 @@
     [
       "2026-04-23",
       6.75
+    ],
+    [
+      "2026-04-24",
+      6.78
+    ],
+    [
+      "2026-04-27",
+      6.75
+    ],
+    [
+      "2026-04-28",
+      6.72
     ]
   ],
   "historico_preco_adj": [
@@ -12339,6 +12352,18 @@
     [
       "2026-04-23",
       6.75
+    ],
+    [
+      "2026-04-24",
+      6.78
+    ],
+    [
+      "2026-04-27",
+      6.75
+    ],
+    [
+      "2026-04-28",
+      6.72
     ]
   ],
   "historico_pvp": [
@@ -18801,6 +18826,18 @@
     [
       "2026-04-23",
       0.83866728398
+    ],
+    [
+      "2026-04-24",
+      0.84239469413
+    ],
+    [
+      "2026-04-27",
+      0.83866728398
+    ],
+    [
+      "2026-04-28",
+      0.83493987383
     ]
   ],
   "historico_dy": [
@@ -24927,6 +24964,18 @@
     [
       "2026-04-23",
       12.4444
+    ],
+    [
+      "2026-04-24",
+      12.3894
+    ],
+    [
+      "2026-04-27",
+      12.4444
+    ],
+    [
+      "2026-04-28",
+      12.5
     ]
   ],
   "historico_dpc": [
@@ -25227,12 +25276,7 @@
       0.07
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 12083402.82,
-    "Cotas de FIIs": 301704083.04,
-    "CRI/CRA": 37488798.52
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -25527,7 +25571,7 @@
         "vencimento": "",
         "quantidade": 999.0,
         "valor": 1005943.908141,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Econ II"
       },
       {
         "tipo": "FII",
@@ -25557,7 +25601,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 2500.0,
-        "valor": 1826692.76225
+        "valor": 1826692.76225,
+        "nome_cri": "CRI RTDR PARTICIPAÇÕES S.A."
       },
       {
         "tipo": "FII",

@@ -4,18 +4,19 @@
     "Ticker": "PMLL11",
     "Nome": "Genial Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0268,
-    "Retorno - 12M": 0.2018,
+    "Retorno - MTD": 0.0286,
+    "Retorno - 12M": 0.1936,
     "P/VP": 0.94,
     "Último Dividendo Pago": 1.0,
     "DY a.a.": 0.109,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers no Brasil, buscando renda imobiliária e ganho de capital. É gerido pelo Patria, tem patrimônio líquido de R$ 1,709 bilhão e 128.531 cotistas na base de agosto de 2025. A estratégia combina exploração dos ativos e compra e venda da carteira.",
     "Comentário": "Distribuição de R$ 1,00/cota em fevereiro, mantendo guidance de R$ 1,00/cota para primeiro semestre 2026. Portfolio registrou crescimento de 7% de Same Store Sales (YTD) e 10% nas vendas totais/m² com taxa de ocupação de 97% (máxima histórica).",
-    "Preço Atual": 110.61,
-    "% Dias Acima CDI 1A": 0.4315,
-    "% Dias Acima CDI 3A": 0.4926,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 110.51,
+    "% Dias Acima CDI 1A": 0.4435,
+    "% Dias Acima CDI 3A": 0.4953,
     "% Dias Acima CDI 5A": 0.592,
-    "% Dias Acima CDI MAX": 0.5868
+    "% Dias Acima CDI MAX": 0.5874
   },
   "historico_preco": [
     [
@@ -8309,6 +8310,18 @@
     [
       "2026-04-23",
       110.52
+    ],
+    [
+      "2026-04-24",
+      110.23
+    ],
+    [
+      "2026-04-27",
+      110.5
+    ],
+    [
+      "2026-04-28",
+      110.5
     ]
   ],
   "historico_preco_adj": [
@@ -16603,6 +16616,18 @@
     [
       "2026-04-23",
       110.52
+    ],
+    [
+      "2026-04-24",
+      110.23
+    ],
+    [
+      "2026-04-27",
+      110.5
+    ],
+    [
+      "2026-04-28",
+      110.5
     ]
   ],
   "historico_pvp": [
@@ -25281,6 +25306,18 @@
     [
       "2026-04-23",
       0.94274533886
+    ],
+    [
+      "2026-04-24",
+      0.94027161331
+    ],
+    [
+      "2026-04-27",
+      0.9425747371
+    ],
+    [
+      "2026-04-28",
+      0.9425747371
     ]
   ],
   "historico_dy": [
@@ -33455,6 +33492,18 @@
     [
       "2026-04-23",
       10.8578
+    ],
+    [
+      "2026-04-24",
+      10.8863
+    ],
+    [
+      "2026-04-27",
+      10.8597
+    ],
+    [
+      "2026-04-28",
+      10.8597
     ]
   ],
   "historico_dpc": [
@@ -33859,12 +33908,6 @@
       1.0
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 80954812.01,
-    "Imóveis": 1554099380.8,
-    "Cotas de FIIs": 159416285.95,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 5331883.57
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

@@ -4,18 +4,19 @@
     "Ticker": "MFII11",
     "Nome": "Mérito Desenvolvimento Imobiliário I FII",
     "Setor": "Desenvolvimento",
-    "Retorno - MTD": 0.0154,
-    "Retorno - 12M": -0.0622,
-    "P/VP": 0.75,
+    "Retorno - MTD": -0.0143,
+    "Retorno - 12M": -0.05,
+    "P/VP": 0.73,
     "Último Dividendo Pago": 1.06,
-    "DY a.a.": 0.177,
+    "DY a.a.": 0.183,
     "Visão Geral": "FII de desenvolvimento que investe em ativos imobiliários, com foco preponderante em incorporação residencial e posterior alienação dos empreendimentos beneficiados. Constituído em 2012, tinha patrimônio líquido de cerca de R$ 560,7 milhões em outubro de 2024. A estratégia combina desenvolvimento imobiliário e captura de valor no ciclo dos projetos.",
     "Comentário": "Primeiro trimestre 2026 distribuiu R$ 3,16/cota (R$ 1,05, R$ 1,05 e R$ 1,06 nos meses). Fundo lançou quatro projetos com mais de R$ 300 milhões em VGV focados em Minha Casa Minha Vida, sendo 61% das unidades residenciais enquadradas no programa.",
-    "Preço Atual": 71.6,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 65.44,
     "% Dias Acima CDI 1A": 0.0524,
-    "% Dias Acima CDI 3A": 0.3906,
-    "% Dias Acima CDI 5A": 0.3229,
-    "% Dias Acima CDI MAX": 0.5326
+    "% Dias Acima CDI 3A": 0.3896,
+    "% Dias Acima CDI 5A": 0.3205,
+    "% Dias Acima CDI MAX": 0.5316
   },
   "historico_preco": [
     [
@@ -11385,6 +11386,18 @@
     [
       "2026-04-23",
       71.36
+    ],
+    [
+      "2026-04-24",
+      71.73
+    ],
+    [
+      "2026-04-27",
+      70.72
+    ],
+    [
+      "2026-04-28",
+      69.7
     ]
   ],
   "historico_preco_adj": [
@@ -21311,6 +21324,18 @@
     [
       "2026-04-23",
       71.36
+    ],
+    [
+      "2026-04-24",
+      71.73
+    ],
+    [
+      "2026-04-27",
+      70.72
+    ],
+    [
+      "2026-04-28",
+      69.7
     ]
   ],
   "historico_pvp": [
@@ -34397,6 +34422,18 @@
     [
       "2026-04-23",
       0.7505281186
+    ],
+    [
+      "2026-04-24",
+      0.75441959006
+    ],
+    [
+      "2026-04-27",
+      0.74379692471
+    ],
+    [
+      "2026-04-28",
+      0.73306908445
     ]
   ],
   "historico_dy": [
@@ -44227,6 +44264,18 @@
     [
       "2026-04-23",
       17.8251
+    ],
+    [
+      "2026-04-24",
+      17.7332
+    ],
+    [
+      "2026-04-27",
+      17.9864
+    ],
+    [
+      "2026-04-28",
+      18.2496
     ]
   ],
   "historico_dpc": [
@@ -44727,15 +44776,7 @@
       1.06
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 7526090.14,
-    "Desenvolvimento": 32644484.75,
-    "Terrenos": 387000.0,
-    "Cotas de FIIs": 147091565.04,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 447828049.0,
-    "Outros": 5.960464477539063e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

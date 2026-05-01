@@ -4,18 +4,19 @@
     "Ticker": "RCRB11",
     "Nome": "Rio Bravo Renda Corporativa FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.0015,
-    "Retorno - 12M": 0.185,
+    "Retorno - MTD": 0.0017,
+    "Retorno - 12M": 0.1677,
     "P/VP": 0.71,
     "Último Dividendo Pago": 1.07,
     "DY a.a.": 0.091,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis comerciais, com foco em aquisição e gestão patrimonial de ativos em São Paulo e Rio de Janeiro. Iniciado em 2000, tinha patrimônio líquido de cerca de R$ 736 milhões em janeiro de 2026. A estratégia prioriza renda locatícia recorrente em escritórios urbanos relevantes.",
     "Comentário": "Em março, receita imobiliária de R$ 5,3 milhões (R$ 1,43/cota) gerou resultado de R$ 1,12/cota com distribuição de R$ 1,07/cota (dividend yield 9,0%). Revisionais em negociações avançadas com conclusão prevista para abril. Alienação de imóvel em diligência final com potencial ganho de R$ 10 milhões (R$ 2,90/cota).",
-    "Preço Atual": 140.63,
-    "% Dias Acima CDI 1A": 0.379,
-    "% Dias Acima CDI 3A": 0.4497,
-    "% Dias Acima CDI 5A": 0.2715,
-    "% Dias Acima CDI MAX": 0.3888
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 141.69,
+    "% Dias Acima CDI 1A": 0.3911,
+    "% Dias Acima CDI 3A": 0.4525,
+    "% Dias Acima CDI 5A": 0.2723,
+    "% Dias Acima CDI MAX": 0.3893
   },
   "historico_preco": [
     [
@@ -14205,6 +14206,18 @@
     [
       "2026-04-23",
       141.05
+    ],
+    [
+      "2026-04-24",
+      141.04
+    ],
+    [
+      "2026-04-27",
+      141.69
+    ],
+    [
+      "2026-04-28",
+      140.5
     ]
   ],
   "historico_preco_adj": [
@@ -24443,6 +24456,18 @@
     [
       "2026-04-23",
       141.05
+    ],
+    [
+      "2026-04-24",
+      141.04
+    ],
+    [
+      "2026-04-27",
+      141.69
+    ],
+    [
+      "2026-04-28",
+      140.5
     ]
   ],
   "historico_pvp": [
@@ -39385,6 +39410,18 @@
     [
       "2026-04-23",
       0.70771063651
+    ],
+    [
+      "2026-04-24",
+      0.70766046206
+    ],
+    [
+      "2026-04-27",
+      0.7109218014
+    ],
+    [
+      "2026-04-28",
+      0.70495104169
     ]
   ],
   "historico_dy": [
@@ -49623,6 +49660,18 @@
     [
       "2026-04-23",
       9.1032
+    ],
+    [
+      "2026-04-24",
+      9.1038
+    ],
+    [
+      "2026-04-27",
+      9.062
+    ],
+    [
+      "2026-04-28",
+      9.1388
     ]
   ],
   "historico_dpc": [
@@ -50123,13 +50172,7 @@
       1.07
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 1730923.26,
-    "Imóveis": 805127542.5,
-    "Cotas de FIIs": 8571858.56,
-    "Outros": 9.313225746154785e-09
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

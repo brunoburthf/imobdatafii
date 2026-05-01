@@ -4,13 +4,14 @@
     "Ticker": "BTHF11",
     "Nome": "BTG Pactual Real Estate Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0218,
-    "Retorno - 12M": 0.3449,
+    "Retorno - MTD": 0.0229,
+    "Retorno - 12M": 0.3164,
     "P/VP": 0.95,
     "Último Dividendo Pago": 0.101,
-    "DY a.a.": 0.13,
+    "DY a.a.": 0.129,
     "Visão Geral": "FII híbrido que investe em CRIs e ativos imobiliários diversificados, com política voltada à proteção e valorização de cotas. Tem gestão ativa do BTG Pactual e amplo mandato, combinando crédito e exposição imobiliária listada. A estratégia busca renda recorrente com carteira diversificada e flexibilidade de alocação entre diferentes segmentos.",
     "Comentário": "Distribuiu R$ 0,101/cota com dividend yield anualizado de 12,55%. Resultado do mês foi R$ 0,092/cota, mantendo guidance de distribuição no intervalo R$ 0,100-0,105/cota. Retorno em 12 meses de 31% superou IFIX em 5 p.p. Realizou operações significativas no mercado secundário de FIIs, gerando R$ 93 milhões de caixa com resultado superior a R$ 3 milhões.",
+    "Mês Ref. Comentário": "fev/26",
     "Preço Atual": 9.37,
     "% Dias Acima CDI 1A": 1.0,
     "% Dias Acima CDI 3A": 1.0,
@@ -1357,6 +1358,18 @@
     [
       "2026-04-23",
       9.34
+    ],
+    [
+      "2026-04-24",
+      9.35
+    ],
+    [
+      "2026-04-27",
+      9.34
+    ],
+    [
+      "2026-04-28",
+      9.35
     ]
   ],
   "historico_preco_adj": [
@@ -2699,6 +2712,18 @@
     [
       "2026-04-23",
       9.34
+    ],
+    [
+      "2026-04-24",
+      9.35
+    ],
+    [
+      "2026-04-27",
+      9.34
+    ],
+    [
+      "2026-04-28",
+      9.35
     ]
   ],
   "historico_pvp": [
@@ -4117,6 +4142,18 @@
     [
       "2026-04-23",
       0.94570117202
+    ],
+    [
+      "2026-04-24",
+      0.94671370005
+    ],
+    [
+      "2026-04-27",
+      0.94570117202
+    ],
+    [
+      "2026-04-28",
+      0.94671370005
     ]
   ],
   "historico_dy": [
@@ -5423,6 +5460,18 @@
     [
       "2026-04-23",
       12.9764
+    ],
+    [
+      "2026-04-24",
+      12.9626
+    ],
+    [
+      "2026-04-27",
+      12.9764
+    ],
+    [
+      "2026-04-28",
+      12.9626
     ]
   ],
   "historico_dpc": [
@@ -5491,13 +5540,6 @@
       0.101
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 326203142.06,
-    "Cotas de FIIs": 1310620763.0,
-    "CRI/CRA": 397971819.04,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 2915160.52,
-    "Outros": 34154076.79000008
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

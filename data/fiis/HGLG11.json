@@ -4,18 +4,19 @@
     "Ticker": "HGLG11",
     "Nome": "Pátria Log FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0192,
-    "Retorno - 12M": 0.0749,
-    "P/VP": 0.95,
+    "Retorno - MTD": 0.0068,
+    "Retorno - 12M": 0.0607,
+    "P/VP": 0.94,
     "Último Dividendo Pago": 1.1,
-    "DY a.a.": 0.084,
+    "DY a.a.": 0.085,
     "Visão Geral": "FII de logística que investe em galpões logísticos e industriais, com receita de locação e gestão ativa do portfólio. O fundo atua primordialmente em operações logísticas e industriais e também recicla ativos. A estratégia busca renda recorrente com imóveis operacionais relevantes em mercados logísticos brasileiros diversificados.",
     "Comentário": "Receita total de R$ 1,42/cota com resultado de R$ 1,17/cota impactado por ganho extraordinário de R$ 0,15/cota na venda de FIIB11 e GARE11. Distribuição mantida em R$ 1,10/cota conforme projeção. Entrada da ABC Internacional em Guarulhos reduziu vacância para 3,0%, com projeção de 4,0% em maio. Alavancagem em 9,5%, desenvolvimentos BTS avançando.",
-    "Preço Atual": 157.24,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 156.4,
     "% Dias Acima CDI 1A": 0.1129,
-    "% Dias Acima CDI 3A": 0.1208,
-    "% Dias Acima CDI 5A": 0.249,
-    "% Dias Acima CDI MAX": 0.5529
+    "% Dias Acima CDI 3A": 0.1205,
+    "% Dias Acima CDI 5A": 0.2466,
+    "% Dias Acima CDI MAX": 0.552
   },
   "historico_preco": [
     [
@@ -14037,6 +14038,18 @@
     [
       "2026-04-23",
       156.89
+    ],
+    [
+      "2026-04-24",
+      158.01
+    ],
+    [
+      "2026-04-27",
+      156.98
+    ],
+    [
+      "2026-04-28",
+      156.99
     ]
   ],
   "historico_preco_adj": [
@@ -24275,6 +24288,18 @@
     [
       "2026-04-23",
       156.89
+    ],
+    [
+      "2026-04-24",
+      158.01
+    ],
+    [
+      "2026-04-27",
+      156.98
+    ],
+    [
+      "2026-04-28",
+      156.99
     ]
   ],
   "historico_pvp": [
@@ -39217,6 +39242,18 @@
     [
       "2026-04-23",
       0.94675956921
+    ],
+    [
+      "2026-04-24",
+      0.95351825821
+    ],
+    [
+      "2026-04-27",
+      0.94730267815
+    ],
+    [
+      "2026-04-28",
+      0.94736302359
     ]
   ],
   "historico_dy": [
@@ -49455,6 +49492,18 @@
     [
       "2026-04-23",
       8.4135
+    ],
+    [
+      "2026-04-24",
+      8.3539
+    ],
+    [
+      "2026-04-27",
+      8.4087
+    ],
+    [
+      "2026-04-28",
+      8.4082
     ]
   ],
   "historico_dpc": [
@@ -49955,15 +50004,7 @@
       1.1
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 39534321.7,
-    "Imóveis": 6747376534.1,
-    "Cotas de FIIs": 232510084.54,
-    "CRI/CRA": 106876.54,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 1023428089.5,
-    "Outros": 0.09999966621398926
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

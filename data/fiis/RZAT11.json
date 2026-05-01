@@ -4,18 +4,19 @@
     "Ticker": "RZAT11",
     "Nome": "Riza Arctium Real Estate FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0522,
-    "Retorno - 12M": 0.2276,
-    "P/VP": 0.93,
+    "Retorno - MTD": 0.081,
+    "Retorno - 12M": 0.2557,
+    "P/VP": 0.96,
     "Último Dividendo Pago": 1.4,
-    "DY a.a.": 0.177,
+    "DY a.a.": 0.172,
     "Visão Geral": "FII de agronegócio que investe em imóveis rurais e ativos ligados à produção agrícola, com foco em aquisição, arrendamento e eventual alienação de propriedades. Tem gestão da Riza e atuação direcionada a terras produtivas. A estratégia prioriza renda recorrente e valorização patrimonial no ciclo de longo prazo do agro brasileiro.",
     "Comentário": "Em fevereiro distribuiu R$ 1,00/cota mantendo R$ 0,70/cota em caixa para futuras distribuições. Portfólio de 10 imóveis adquiridos por R$ 405 milhões avaliados em R$ 1,04 bilhão, gerando spread médio de IPCA+10,0% a.a. Completou negociação com Aliança Agrícola para reestruturação de operação em Porto dos Gaúchos.",
-    "Preço Atual": 94.92,
-    "% Dias Acima CDI 1A": 0.4758,
-    "% Dias Acima CDI 3A": 0.4738,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 97.95,
+    "% Dias Acima CDI 1A": 0.4879,
+    "% Dias Acima CDI 3A": 0.4766,
     "% Dias Acima CDI 5A": 0.5815,
-    "% Dias Acima CDI MAX": 0.6257
+    "% Dias Acima CDI MAX": 0.6265
   },
   "historico_preco": [
     [
@@ -6173,6 +6174,18 @@
     [
       "2026-04-23",
       95.92
+    ],
+    [
+      "2026-04-24",
+      94.85
+    ],
+    [
+      "2026-04-27",
+      94.81
+    ],
+    [
+      "2026-04-28",
+      96.98
     ]
   ],
   "historico_preco_adj": [
@@ -12331,6 +12344,18 @@
     [
       "2026-04-23",
       95.92
+    ],
+    [
+      "2026-04-24",
+      94.85
+    ],
+    [
+      "2026-04-27",
+      94.81
+    ],
+    [
+      "2026-04-28",
+      96.98
     ]
   ],
   "historico_pvp": [
@@ -19249,6 +19274,18 @@
     [
       "2026-04-23",
       0.94321750713
+    ],
+    [
+      "2026-04-24",
+      0.93269579391
+    ],
+    [
+      "2026-04-27",
+      0.93230245883
+    ],
+    [
+      "2026-04-28",
+      0.95364088659
     ]
   ],
   "historico_dy": [
@@ -25287,6 +25324,18 @@
     [
       "2026-04-23",
       17.5146
+    ],
+    [
+      "2026-04-24",
+      17.7122
+    ],
+    [
+      "2026-04-27",
+      17.7196
+    ],
+    [
+      "2026-04-28",
+      17.3232
     ]
   ],
   "historico_dpc": [
@@ -25607,12 +25656,7 @@
       1.4
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 19274768.0,
-    "Imóveis": 263558600.0,
-    "Cotas de FIIs": 31676001.11
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

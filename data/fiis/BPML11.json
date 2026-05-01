@@ -4,18 +4,19 @@
     "Ticker": "BPML11",
     "Nome": "BTG Pactual Shoppings FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0488,
-    "Retorno - 12M": 0.4129,
-    "P/VP": 0.77,
+    "Retorno - MTD": 0.0228,
+    "Retorno - 12M": 0.3766,
+    "P/VP": 0.75,
     "Último Dividendo Pago": 0.92,
-    "DY a.a.": 0.116,
+    "DY a.a.": 0.119,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers no Brasil, buscando renda imobiliária e ganho de capital com gestão ativa. Foi lançado em julho de 2019 e figura no segmento de shopping centers da plataforma BTG. A estratégia combina exploração dos ativos, reciclagem de portfólio e geração recorrente de caixa.",
     "Comentário": "O BTG Pactual Shoppings avançou comercialmente em março com reinauguração de âncora de esportes no Ilha Plaza e assinatura de novo restaurante no Capim Dourado, qualificando o mix de lojistas. As vendas seguiram em expansão no consolidado versus ano anterior, com Plaza Macaé registrando crescimento consistente de fluxo desde segundo semestre 2025. Distribuição mantida em R$0,92/cota com dividend yield de 12,08%.",
-    "Preço Atual": 94.3,
-    "% Dias Acima CDI 1A": 0.5524,
-    "% Dias Acima CDI 3A": 0.5611,
-    "% Dias Acima CDI 5A": 0.3368,
-    "% Dias Acima CDI MAX": 0.3079
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 92.99,
+    "% Dias Acima CDI 1A": 0.5645,
+    "% Dias Acima CDI 3A": 0.5636,
+    "% Dias Acima CDI 5A": 0.3384,
+    "% Dias Acima CDI MAX": 0.3094
   },
   "historico_preco": [
     [
@@ -6409,6 +6410,18 @@
     [
       "2026-04-23",
       94.6
+    ],
+    [
+      "2026-04-24",
+      94.95
+    ],
+    [
+      "2026-04-27",
+      94.93
+    ],
+    [
+      "2026-04-28",
+      94.9
     ]
   ],
   "historico_preco_adj": [
@@ -12803,6 +12816,18 @@
     [
       "2026-04-23",
       94.6
+    ],
+    [
+      "2026-04-24",
+      94.95
+    ],
+    [
+      "2026-04-27",
+      94.93
+    ],
+    [
+      "2026-04-28",
+      94.9
     ]
   ],
   "historico_pvp": [
@@ -19561,6 +19586,18 @@
     [
       "2026-04-23",
       0.76307918766
+    ],
+    [
+      "2026-04-24",
+      0.76590241933
+    ],
+    [
+      "2026-04-27",
+      0.76574109181
+    ],
+    [
+      "2026-04-28",
+      0.76549910052
     ]
   ],
   "historico_dy": [
@@ -23819,6 +23856,18 @@
     [
       "2026-04-23",
       11.6702
+    ],
+    [
+      "2026-04-24",
+      11.6272
+    ],
+    [
+      "2026-04-27",
+      11.6296
+    ],
+    [
+      "2026-04-28",
+      11.6333
     ]
   ],
   "historico_dpc": [
@@ -24131,13 +24180,7 @@
       0.92
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 99846805.86,
-    "Imóveis": 638326729.19,
-    "Cotas de FIIs": 80726881.19,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 259841307.72
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

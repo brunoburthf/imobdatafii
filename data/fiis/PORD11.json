@@ -5,17 +5,18 @@
     "Nome": "Polo Crédito Imobiliário FII",
     "Setor": "Crédito Imobiliário",
     "Retorno - MTD": 0.0166,
-    "Retorno - 12M": 0.1925,
+    "Retorno - 12M": 0.1654,
     "P/VP": 0.89,
     "Último Dividendo Pago": 0.098,
     "DY a.a.": 0.139,
     "Visão Geral": "FII de papel que investe em CRIs e outros ativos financeiros de natureza imobiliária, com foco em geração de renda recorrente. É gerido pela Polo Capital, iniciou em 4 de janeiro de 2013 e tinha 46.634 cotistas nas informações consultadas. A estratégia prioriza crédito imobiliário com carteira financeira dedicada.",
     "Comentário": "Distribuição de R$ 0,10/cota em fevereiro com dividend yield de 13,72% a.a. (IPCA + 9,07%). Fundo realizou aquisição oportunística no mercado secundário, aumentando exposição ao CRI Patrimar (CDI + 2,9%), totalizando 1,15% do patrimônio.",
-    "Preço Atual": 8.45,
-    "% Dias Acima CDI 1A": 0.4798,
-    "% Dias Acima CDI 3A": 0.3919,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 8.5,
+    "% Dias Acima CDI 1A": 0.4919,
+    "% Dias Acima CDI 3A": 0.3949,
     "% Dias Acima CDI 5A": 0.4635,
-    "% Dias Acima CDI MAX": 0.5342
+    "% Dias Acima CDI MAX": 0.5347
   },
   "historico_preco": [
     [
@@ -11229,6 +11230,18 @@
     [
       "2026-04-23",
       8.44
+    ],
+    [
+      "2026-04-24",
+      8.47
+    ],
+    [
+      "2026-04-27",
+      8.41
+    ],
+    [
+      "2026-04-28",
+      8.41
     ]
   ],
   "historico_preco_adj": [
@@ -20995,6 +21008,18 @@
     [
       "2026-04-23",
       8.44
+    ],
+    [
+      "2026-04-24",
+      8.47
+    ],
+    [
+      "2026-04-27",
+      8.41
+    ],
+    [
+      "2026-04-28",
+      8.41
     ]
   ],
   "historico_pvp": [
@@ -34689,6 +34714,18 @@
     [
       "2026-04-23",
       0.88493100566
+    ],
+    [
+      "2026-04-24",
+      0.88807649501
+    ],
+    [
+      "2026-04-27",
+      0.8817855163
+    ],
+    [
+      "2026-04-28",
+      0.8817855163
     ]
   ],
   "historico_dy": [
@@ -41575,6 +41612,18 @@
     [
       "2026-04-23",
       13.9336
+    ],
+    [
+      "2026-04-24",
+      13.8843
+    ],
+    [
+      "2026-04-27",
+      13.9834
+    ],
+    [
+      "2026-04-28",
+      13.9834
     ]
   ],
   "historico_dpc": [
@@ -42075,14 +42124,7 @@
       0.098
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 84426958.19,
-    "Cotas de FIIs": 33495563.08,
-    "CRI/CRA": 240768728.08,
-    "Debêntures": 1611511.31,
-    "Outros": 3.4458935260772705e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -42276,7 +42318,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 10050.0,
-        "valor": 10065714.55
+        "valor": 10065714.55,
+        "nome_cri": "CRI NTRS - SINART"
       },
       {
         "tipo": "CRI/CRA",

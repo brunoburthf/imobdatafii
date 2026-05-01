@@ -4,18 +4,19 @@
     "Ticker": "BCRI11",
     "Nome": "Banestes Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0179,
-    "Retorno - 12M": 0.1184,
-    "P/VP": 0.76,
+    "Retorno - MTD": 0.0126,
+    "Retorno - 12M": 0.0878,
+    "P/VP": 0.75,
     "Último Dividendo Pago": 0.74,
-    "DY a.a.": 0.138,
-    "Visão Geral": "FII de papel que investe em CRIs e outros ativos de crédito imobiliário, com foco em geração de renda recorrente. Iniciado em 2015, conta com mais de 44 mil cotistas segundo divulgações do Banestes. A estratégia prioriza recebíveis imobiliários e carteira financeira, enquanto diversificação detalhada e perfil dos devedores aparecem como N/A.",
+    "DY a.a.": 0.139,
+    "Visão Geral": "FII de papel que investe em CRIs e outros ativos de crédito imobiliário, com foco em geração de renda recorrente. Iniciado em 2015, conta com mais de 44 mil cotistas segundo divulgações do Banestes. A estratégia prioriza recebíveis imobiliários e carteira financeira.",
     "Comentário": "O BCRI11 distribuiu R$0,66/cota em fevereiro, com dividend yield de 0,99% líquido, refletindo composição de carteira ponderada por CRIs em IPCA e fundos financeiros. A duration média da carteira permaneceu em 3,22 anos com LTV médio de 56,73%, demonstrando exposição equilibrada. Rendimentos acumulados de R$10,01/cota em 12 meses totalizaram 14,94% de dividend yield anualizado no período.",
-    "Preço Atual": 63.81,
-    "% Dias Acima CDI 1A": 0.6169,
-    "% Dias Acima CDI 3A": 0.2443,
-    "% Dias Acima CDI 5A": 0.396,
-    "% Dias Acima CDI MAX": 0.5027
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 63.61,
+    "% Dias Acima CDI 1A": 0.6048,
+    "% Dias Acima CDI 3A": 0.2436,
+    "% Dias Acima CDI 5A": 0.3936,
+    "% Dias Acima CDI MAX": 0.5018
   },
   "historico_preco": [
     [
@@ -10673,6 +10674,18 @@
     [
       "2026-04-23",
       64.5
+    ],
+    [
+      "2026-04-24",
+      64.38
+    ],
+    [
+      "2026-04-27",
+      64.07
+    ],
+    [
+      "2026-04-28",
+      64.01
     ]
   ],
   "historico_preco_adj": [
@@ -20831,6 +20844,18 @@
     [
       "2026-04-23",
       64.5
+    ],
+    [
+      "2026-04-24",
+      64.38
+    ],
+    [
+      "2026-04-27",
+      64.07
+    ],
+    [
+      "2026-04-28",
+      64.01
     ]
   ],
   "historico_pvp": [
@@ -32033,6 +32058,18 @@
     [
       "2026-04-23",
       0.75651526952
+    ],
+    [
+      "2026-04-24",
+      0.75510779925
+    ],
+    [
+      "2026-04-27",
+      0.75147183439
+    ],
+    [
+      "2026-04-28",
+      0.75076809925
     ]
   ],
   "historico_dy": [
@@ -42111,6 +42148,18 @@
     [
       "2026-04-23",
       13.7674
+    ],
+    [
+      "2026-04-24",
+      13.7931
+    ],
+    [
+      "2026-04-27",
+      13.8598
+    ],
+    [
+      "2026-04-28",
+      13.8728
     ]
   ],
   "historico_dpc": [
@@ -42611,13 +42660,7 @@
       0.74
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 22366967.83,
-    "Cotas de FIIs": 13674518.57,
-    "CRI/CRA": 502941364.21,
-    "Outros": 8.335337042808533e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -43000,7 +43043,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 15000.0,
-        "valor": 15013196.42
+        "valor": 15013196.42,
+        "nome_cri": "CRI ZAVIT SPECIAL OPPORTUNITIES FII"
       },
       {
         "tipo": "CRI/CRA",
@@ -43473,7 +43517,7 @@
         "vencimento": "",
         "quantidade": 25.0,
         "valor": 6866414.25,
-        "nome_cri": "CRI Campos do Jordão"
+        "nome_cri": "CRI Buritis"
       }
     ],
     "imoveis": [],

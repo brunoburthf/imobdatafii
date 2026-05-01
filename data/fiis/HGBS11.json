@@ -4,18 +4,19 @@
     "Ticker": "HGBS11",
     "Nome": "Hedge Brasil Shopping FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0296,
-    "Retorno - 12M": 0.1768,
-    "P/VP": 1.01,
+    "Retorno - MTD": 0.0247,
+    "Retorno - 12M": 0.1645,
+    "P/VP": 1.0,
     "Último Dividendo Pago": 0.17,
     "DY a.a.": 0.098,
     "Visão Geral": "FII de shopping que investe em shopping centers construídos, com área bruta locável mínima de 15 mil m² e gestão ativa da carteira. Iniciado em novembro de 2006, é gerido pela Hedge Investments. A estratégia concentra renda imobiliária recorrente em ativos de varejo consolidados, com administração focada em performance operacional.",
     "Comentário": "Iniciou 11ª emissão com estimativa de R$ 664,6 milhões. Anunciou alienação de 19% do Shopping Jardim Sul por R$ 128 milhões (cap rate 7,7%, 16,9% acima da avaliação), gerando ganho de R$ 0,12/cota para cotistas. Alienação de 18,375% do I Fashion Outlet representa lucro de R$ 48 milhões e TIR de 24,8% desde 2012 para o fundo.",
-    "Preço Atual": 20.8,
-    "% Dias Acima CDI 1A": 0.3831,
-    "% Dias Acima CDI 3A": 0.5047,
-    "% Dias Acima CDI 5A": 0.4369,
-    "% Dias Acima CDI MAX": 0.4969
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 20.78,
+    "% Dias Acima CDI 1A": 0.3952,
+    "% Dias Acima CDI 3A": 0.506,
+    "% Dias Acima CDI 5A": 0.4394,
+    "% Dias Acima CDI MAX": 0.4973
   },
   "historico_preco": [
     [
@@ -14185,6 +14186,18 @@
     [
       "2026-04-23",
       20.94
+    ],
+    [
+      "2026-04-24",
+      20.87
+    ],
+    [
+      "2026-04-27",
+      20.86
+    ],
+    [
+      "2026-04-28",
+      20.8
     ]
   ],
   "historico_preco_adj": [
@@ -24423,6 +24436,18 @@
     [
       "2026-04-23",
       20.94
+    ],
+    [
+      "2026-04-24",
+      20.87
+    ],
+    [
+      "2026-04-27",
+      20.86
+    ],
+    [
+      "2026-04-28",
+      20.8
     ]
   ],
   "historico_pvp": [
@@ -39365,6 +39390,18 @@
     [
       "2026-04-23",
       1.0121305037
+    ],
+    [
+      "2026-04-24",
+      1.0087470684
+    ],
+    [
+      "2026-04-27",
+      1.0082637205
+    ],
+    [
+      "2026-04-28",
+      1.0053636331
     ]
   ],
   "historico_dy": [
@@ -49603,6 +49640,18 @@
     [
       "2026-04-23",
       9.7421
+    ],
+    [
+      "2026-04-24",
+      9.7748
+    ],
+    [
+      "2026-04-27",
+      9.7795
+    ],
+    [
+      "2026-04-28",
+      9.8077
     ]
   ],
   "historico_dpc": [
@@ -50103,14 +50152,7 @@
       0.17
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 4748034.31,
-    "Imóveis": 2324392609.5,
-    "Cotas de FIIs": 618909035.51,
-    "CRI/CRA": 82299390.71,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 268218400.64
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

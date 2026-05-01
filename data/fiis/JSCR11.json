@@ -4,18 +4,19 @@
     "Ticker": "JSCR11",
     "Nome": "Js Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0115,
-    "Retorno - 12M": 0.1454,
+    "Retorno - MTD": 0.0103,
+    "Retorno - 12M": 0.1467,
     "P/VP": 0.88,
     "Último Dividendo Pago": 0.095,
     "DY a.a.": 0.136,
     "Visão Geral": "FII de papel que investe em CRIs, cotas de FIIs de CRI e outros ativos de crédito do mercado imobiliário. É gerido pelo Safra com gestão ativa e foco em rendimentos ou ganhos de capital. A estratégia prioriza geração frequente de renda por meio de carteira voltada a crédito imobiliário.",
     "Comentário": "Em fevereiro, JSCR11 permaneceu rigorosamente em linha com guidance, distribuindo R$0,095/cota com dividend yield mensal de 1,10% ou 13,24% a.a. Resultado apurado foi R$0,0895/cota, acumulando saldo positivo de R$0,028/cota. CRI Rochaverá foi pré-pago gerando prêmio de 2%, enquanto CRI Alfa Realty avançou nas obras mas com ritmo de vendas abaixo do esperado impactando fluxo de repasses.",
-    "Preço Atual": 8.38,
-    "% Dias Acima CDI 1A": 0.4222,
-    "% Dias Acima CDI 3A": 0.4222,
-    "% Dias Acima CDI 5A": 0.4222,
-    "% Dias Acima CDI MAX": 0.4222
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 8.34,
+    "% Dias Acima CDI 1A": 0.4262,
+    "% Dias Acima CDI 3A": 0.4262,
+    "% Dias Acima CDI 5A": 0.4262,
+    "% Dias Acima CDI MAX": 0.4262
   },
   "historico_preco": [
     [
@@ -1725,6 +1726,18 @@
     [
       "2026-04-23",
       8.64
+    ],
+    [
+      "2026-04-24",
+      8.37
+    ],
+    [
+      "2026-04-27",
+      8.34
+    ],
+    [
+      "2026-04-28",
+      8.35
     ]
   ],
   "historico_preco_adj": [
@@ -3435,6 +3448,18 @@
     [
       "2026-04-23",
       8.64
+    ],
+    [
+      "2026-04-24",
+      8.37
+    ],
+    [
+      "2026-04-27",
+      8.34
+    ],
+    [
+      "2026-04-28",
+      8.35
     ]
   ],
   "historico_pvp": [
@@ -5237,6 +5262,18 @@
     [
       "2026-04-23",
       0.91149700859
+    ],
+    [
+      "2026-04-24",
+      0.88301272707
+    ],
+    [
+      "2026-04-27",
+      0.8798478069
+    ],
+    [
+      "2026-04-28",
+      0.88090278029
     ]
   ],
   "historico_dy": [
@@ -6867,6 +6904,18 @@
     [
       "2026-04-23",
       13.1944
+    ],
+    [
+      "2026-04-24",
+      13.6201
+    ],
+    [
+      "2026-04-27",
+      13.6691
+    ],
+    [
+      "2026-04-28",
+      13.6527
     ]
   ],
   "historico_dpc": [
@@ -6951,12 +7000,7 @@
       0.095
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 5778482.46,
-    "Cotas de FIIs": 19102243.58,
-    "CRI/CRA": 187131764.72
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -7011,7 +7055,7 @@
         "vencimento": "",
         "quantidade": 11599.0,
         "valor": 11478424.34,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Boa"
       },
       {
         "tipo": "FII",
@@ -7031,7 +7075,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 10332.0,
-        "valor": 10538945.95
+        "valor": 10538945.95,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -7262,7 +7307,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 4140.0,
-        "valor": 4404723.12
+        "valor": 4404723.12,
+        "nome_cri": "CRI GRU ELEMENTOS"
       },
       {
         "tipo": "CRI/CRA",
@@ -7272,7 +7318,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 7133.0,
-        "valor": 7613263.66
+        "valor": 7613263.66,
+        "nome_cri": "CRI GRU ELEMENTOS"
       },
       {
         "tipo": "CRI/CRA",

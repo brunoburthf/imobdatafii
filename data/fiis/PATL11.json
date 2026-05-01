@@ -4,18 +4,19 @@
     "Ticker": "PATL11",
     "Nome": "Pátria Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0041,
-    "Retorno - 12M": 0.5835,
-    "P/VP": 0.75,
+    "Retorno - MTD": -0.0035,
+    "Retorno - 12M": 0.5414,
+    "P/VP": 0.74,
     "Último Dividendo Pago": 0.57,
     "DY a.a.": 0.103,
     "Visão Geral": "FII de logística que investe em ativos logísticos e industriais, com foco em geração de renda por locação. É gerido pelo Pátria, tinha patrimônio líquido de R$ 481 milhões e 25.627 cotistas na base de 29 de agosto de 2025. A estratégia prioriza imóveis operacionais e gestão ativa para renda recorrente.",
     "Comentário": "Distribuição de R$ 0,57/cota em fevereiro com dividend yield de 7,7% a.a. (patrimonial). Ebeg ocupou 9.760 m² deixado pela Postall, reduzindo vacância para 2,7% (física) e 6,5% (financeira). Fundo projeta vacância de 12,8% em março com movimentações mapeadas em carteira.",
-    "Preço Atual": 66.5,
-    "% Dias Acima CDI 1A": 0.5847,
-    "% Dias Acima CDI 3A": 0.2779,
-    "% Dias Acima CDI 5A": 0.2487,
-    "% Dias Acima CDI MAX": 0.2487
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 66.3,
+    "% Dias Acima CDI 1A": 0.5968,
+    "% Dias Acima CDI 3A": 0.2811,
+    "% Dias Acima CDI 5A": 0.2506,
+    "% Dias Acima CDI MAX": 0.2506
   },
   "historico_preco": [
     [
@@ -5685,6 +5686,18 @@
     [
       "2026-04-23",
       66.56
+    ],
+    [
+      "2026-04-24",
+      66.7
+    ],
+    [
+      "2026-04-27",
+      66.38
+    ],
+    [
+      "2026-04-28",
+      66.25
     ]
   ],
   "historico_preco_adj": [
@@ -11355,6 +11368,18 @@
     [
       "2026-04-23",
       66.56
+    ],
+    [
+      "2026-04-24",
+      66.7
+    ],
+    [
+      "2026-04-27",
+      66.38
+    ],
+    [
+      "2026-04-28",
+      66.25
     ]
   ],
   "historico_pvp": [
@@ -17253,6 +17278,18 @@
     [
       "2026-04-23",
       0.74740986791
+    ],
+    [
+      "2026-04-24",
+      0.74898194396
+    ],
+    [
+      "2026-04-27",
+      0.74538862728
+    ],
+    [
+      "2026-04-28",
+      0.74392884238
     ]
   ],
   "historico_dy": [
@@ -22871,6 +22908,18 @@
     [
       "2026-04-23",
       10.2764
+    ],
+    [
+      "2026-04-24",
+      10.2549
+    ],
+    [
+      "2026-04-27",
+      10.3043
+    ],
+    [
+      "2026-04-28",
+      10.3245
     ]
   ],
   "historico_dpc": [
@@ -23147,13 +23196,7 @@
       0.57
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 4348942.31,
-    "Imóveis": 434154001.76,
-    "Cotas de FIIs": 6626398.9,
-    "Outros": 2.3283064365386963e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

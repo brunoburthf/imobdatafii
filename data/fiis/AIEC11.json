@@ -4,18 +4,19 @@
     "Ticker": "AIEC11",
     "Nome": "Arch Edifícios Corporativos FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0185,
-    "Retorno - 12M": 0.4814,
-    "P/VP": 0.81,
+    "Retorno - MTD": 0.0303,
+    "Retorno - 12M": 0.4674,
+    "P/VP": 0.82,
     "Último Dividendo Pago": 0.34,
-    "DY a.a.": 0.066,
-    "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em locação e geração de renda mensal. O fundo atua no segmento corporativo e mantém gestão voltada à comercialização e ocupação dos ativos. Porte, número de imóveis, localização consolidada e perfil contratual completo aparecem como N/A nas fontes consultadas.",
+    "DY a.a.": 0.065,
+    "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em locação e geração de renda mensal. O fundo atua no segmento corporativo e mantém gestão voltada à comercialização e ocupação dos ativos.",
     "Comentário": "O AIEC11 avançou significativamente em ocupação com a conclusão de locação 100% do Standard Building para Rede D'Or, gerando receita 13,3% superior ao laudo de avaliação e adicionando R$3,94/cota de valor. No Rochaverá Torre D, negociações avançadas com volume 3x superior à área vaga sinalizaram caminho para ocupação plena. A liquidez do fundo disparou 425,6% em março, refletindo maior confiança dos investidores.",
-    "Preço Atual": 61.5,
-    "% Dias Acima CDI 1A": 0.5323,
-    "% Dias Acima CDI 3A": 0.1772,
-    "% Dias Acima CDI 5A": 0.173,
-    "% Dias Acima CDI MAX": 0.173
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 62.8,
+    "% Dias Acima CDI 1A": 0.5444,
+    "% Dias Acima CDI 3A": 0.1807,
+    "% Dias Acima CDI 5A": 0.1752,
+    "% Dias Acima CDI MAX": 0.1752
   },
   "historico_preco": [
     [
@@ -5513,6 +5514,18 @@
     [
       "2026-04-23",
       61.56
+    ],
+    [
+      "2026-04-24",
+      61.78
+    ],
+    [
+      "2026-04-27",
+      61.51
+    ],
+    [
+      "2026-04-28",
+      62.89
     ]
   ],
   "historico_preco_adj": [
@@ -11011,6 +11024,18 @@
     [
       "2026-04-23",
       61.56
+    ],
+    [
+      "2026-04-24",
+      61.78
+    ],
+    [
+      "2026-04-27",
+      61.51
+    ],
+    [
+      "2026-04-28",
+      62.89
     ]
   ],
   "historico_pvp": [
@@ -16777,6 +16802,18 @@
     [
       "2026-04-23",
       0.81098749399
+    ],
+    [
+      "2026-04-24",
+      0.81388575988
+    ],
+    [
+      "2026-04-27",
+      0.81032879719
+    ],
+    [
+      "2026-04-28",
+      0.82850882873
     ]
   ],
   "historico_dy": [
@@ -22227,6 +22264,18 @@
     [
       "2026-04-23",
       6.6277
+    ],
+    [
+      "2026-04-24",
+      6.6041
+    ],
+    [
+      "2026-04-27",
+      6.6331
+    ],
+    [
+      "2026-04-28",
+      6.4875
     ]
   ],
   "historico_dpc": [
@@ -22495,11 +22544,7 @@
       0.34
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 33082842.92,
-    "Imóveis": 334489507.37
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

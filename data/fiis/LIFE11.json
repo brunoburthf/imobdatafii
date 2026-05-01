@@ -4,18 +4,19 @@
     "Ticker": "LIFE11",
     "Nome": "Life Capital Partners FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.0046,
-    "Retorno - 12M": 0.1645,
+    "Retorno - MTD": -0.008,
+    "Retorno - 12M": 0.1579,
     "P/VP": 0.94,
     "Último Dividendo Pago": 0.12,
-    "DY a.a.": 0.165,
+    "DY a.a.": 0.166,
     "Visão Geral": "FII de papel que investe em recebíveis do setor de desenvolvimento urbano, balanceando valorização de carteira e geração de renda mensal recorrente. É gerido pela Life Capital Partners e tinha patrimônio líquido de cerca de R$ 396 milhões na página oficial consultada. A estratégia prioriza crédito imobiliário com foco em retorno de longo prazo.",
     "Comentário": "O fundo distribuiu R$0,12/cota em fevereiro com dividend yield mensal de 1,26%, mantendo constância após 12 meses neste patamar. Houve um distrato em contrato inadimplente vendido em outubro anterior com necessidade de realocação, enquanto portfólio de loteamentos no Sul registrou 5 vendas e diversos distratos, demonstrando dinamismo comercial e reavaliacação de premissas no FIDC Residence.",
-    "Preço Atual": 8.78,
-    "% Dias Acima CDI 1A": 0.3105,
-    "% Dias Acima CDI 3A": 0.496,
-    "% Dias Acima CDI 5A": 0.496,
-    "% Dias Acima CDI MAX": 0.496
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 8.68,
+    "% Dias Acima CDI 1A": 0.3226,
+    "% Dias Acima CDI 3A": 0.4984,
+    "% Dias Acima CDI 5A": 0.4984,
+    "% Dias Acima CDI MAX": 0.4984
   },
   "historico_preco": [
     [
@@ -3509,6 +3510,18 @@
     [
       "2026-04-23",
       8.69
+    ],
+    [
+      "2026-04-24",
+      8.73
+    ],
+    [
+      "2026-04-27",
+      8.73
+    ],
+    [
+      "2026-04-28",
+      8.71
     ]
   ],
   "historico_preco_adj": [
@@ -7003,6 +7016,18 @@
     [
       "2026-04-23",
       8.69
+    ],
+    [
+      "2026-04-24",
+      8.73
+    ],
+    [
+      "2026-04-27",
+      8.73
+    ],
+    [
+      "2026-04-28",
+      8.71
     ]
   ],
   "historico_pvp": [
@@ -10665,6 +10690,18 @@
     [
       "2026-04-23",
       0.9386553278
+    ],
+    [
+      "2026-04-24",
+      0.94297595072
+    ],
+    [
+      "2026-04-27",
+      0.94297595072
+    ],
+    [
+      "2026-04-28",
+      0.94081563926
     ]
   ],
   "historico_dy": [
@@ -14131,6 +14168,18 @@
     [
       "2026-04-23",
       16.5708
+    ],
+    [
+      "2026-04-24",
+      16.4948
+    ],
+    [
+      "2026-04-27",
+      16.4948
+    ],
+    [
+      "2026-04-28",
+      16.5327
     ]
   ],
   "historico_dpc": [
@@ -14303,14 +14352,7 @@
       0.12
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 17972799.9,
-    "Cotas de FIIs": 2292553.35,
-    "CRI/CRA": 130221237.48,
-    "FIDCs": 37229168.54,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 187020999.62
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -14323,7 +14365,7 @@
         "vencimento": "",
         "quantidade": 1800.0,
         "valor": 1491551.71,
-        "nome_cri": "CRI VCA KAHAKAI"
+        "nome_cri": "CRI QSJRN"
       },
       {
         "tipo": "FIDC",
@@ -14355,7 +14397,7 @@
         "vencimento": "",
         "quantidade": 7000.0,
         "valor": 5686454.45,
-        "nome_cri": "CRI Ares das Brás"
+        "nome_cri": "CRI QSJRN"
       },
       {
         "tipo": "CRI/CRA",
@@ -14418,7 +14460,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 2623.0,
-        "valor": 2407670.88
+        "valor": 2407670.88,
+        "nome_cri": "CRI Abecker Empreendimentos Imobiliários Ltda."
       },
       {
         "tipo": "CRI/CRA",
@@ -14440,7 +14483,7 @@
         "vencimento": "",
         "quantidade": 5000.0,
         "valor": 4010630.27,
-        "nome_cri": "CRI Ares das Brás"
+        "nome_cri": "CRI QSJRN"
       },
       {
         "tipo": "CRI/CRA",
@@ -14495,7 +14538,7 @@
         "vencimento": "",
         "quantidade": 5000.0,
         "valor": 3653870.23,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI QSJRN"
       },
       {
         "tipo": "CRI/CRA",
@@ -14517,7 +14560,7 @@
         "vencimento": "",
         "quantidade": 4500.0,
         "valor": 3326082.04,
-        "nome_cri": "CRI Trinity"
+        "nome_cri": "CRI QSJRN"
       },
       {
         "tipo": "CRI/CRA",
@@ -14528,7 +14571,7 @@
         "vencimento": "",
         "quantidade": 4000.0,
         "valor": 3167496.08,
-        "nome_cri": "CRI Ares das Brás"
+        "nome_cri": "CRI QSJRN"
       },
       {
         "tipo": "FII",

@@ -4,18 +4,19 @@
     "Ticker": "GTWR11",
     "Nome": "FII Green Towers",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0025,
-    "Retorno - 12M": 0.4178,
-    "P/VP": 0.84,
+    "Retorno - MTD": 0.0193,
+    "Retorno - 12M": 0.4072,
+    "P/VP": 0.85,
     "Último Dividendo Pago": 0.9,
-    "DY a.a.": 0.127,
+    "DY a.a.": 0.125,
     "Visão Geral": "FII de lajes corporativas que investe no empreendimento Green Towers, em Brasília, destinado à sede administrativa do Banco do Brasil. O fundo adquiriu 85% do imóvel e tem foco em renda mensal de locação. A estratégia concentra receita em ativo corporativo único, com contrato voltado à ocupação bancária estável local.",
     "Comentário": "Distribuição mantida em R$ 0,90/cota com dividend yield de 12,58% ao ano em fevereiro. Fundo gerou resultado de R$ 0,86/cota no mês, utilizando reserva acumulada de R$ 0,15/cota para suavizar rendimentos aos cotistas. Rentabilidade de 1,0% no período superou IFIX em -1,1%, acumulando forte 38,6% em 12 meses versus 16,8% do índice de referência.",
-    "Preço Atual": 85.3,
-    "% Dias Acima CDI 1A": 0.5605,
-    "% Dias Acima CDI 3A": 0.5557,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 87.04,
+    "% Dias Acima CDI 1A": 0.5726,
+    "% Dias Acima CDI 3A": 0.5569,
     "% Dias Acima CDI 5A": 0.3783,
-    "% Dias Acima CDI MAX": 0.4357
+    "% Dias Acima CDI MAX": 0.4369
   },
   "historico_preco": [
     [
@@ -6829,6 +6830,18 @@
     [
       "2026-04-23",
       85.16
+    ],
+    [
+      "2026-04-24",
+      85.18
+    ],
+    [
+      "2026-04-27",
+      85.58
+    ],
+    [
+      "2026-04-28",
+      86.15
     ]
   ],
   "historico_preco_adj": [
@@ -13643,6 +13656,18 @@
     [
       "2026-04-23",
       85.16
+    ],
+    [
+      "2026-04-24",
+      85.18
+    ],
+    [
+      "2026-04-27",
+      85.58
+    ],
+    [
+      "2026-04-28",
+      86.15
     ]
   ],
   "historico_pvp": [
@@ -20785,6 +20810,18 @@
     [
       "2026-04-23",
       0.83983409461
+    ],
+    [
+      "2026-04-24",
+      0.84003133136
+    ],
+    [
+      "2026-04-27",
+      0.84397606642
+    ],
+    [
+      "2026-04-28",
+      0.84959731389
     ]
   ],
   "historico_dy": [
@@ -27575,6 +27612,18 @@
     [
       "2026-04-23",
       12.682
+    ],
+    [
+      "2026-04-24",
+      12.679
+    ],
+    [
+      "2026-04-27",
+      12.6198
+    ],
+    [
+      "2026-04-28",
+      12.5363
     ]
   ],
   "historico_dpc": [
@@ -27907,11 +27956,7 @@
       0.9
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 19440787.81,
-    "Imóveis": 1197741479.9
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

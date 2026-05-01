@@ -4,18 +4,19 @@
     "Ticker": "BTRA11",
     "Nome": "BTG Pactual Terras Agrícolas Fundo de Investimento Nas Cadeias Produtivas do Agr",
     "Setor": "Agro",
-    "Retorno - MTD": 0.0103,
-    "Retorno - 12M": 0.2456,
-    "P/VP": 0.59,
-    "Último Dividendo Pago": 1.8,
-    "DY a.a.": 0.324,
+    "Retorno - MTD": 0.001,
+    "Retorno - 12M": 0.263,
+    "P/VP": 0.58,
+    "Último Dividendo Pago": 0.9,
+    "DY a.a.": 0.164,
     "Visão Geral": "FII de agronegócio que investe em terras agrícolas, com foco em aquisição de propriedades rurais para exploração econômica e valorização patrimonial. É o BTG Pactual Terras Agrícolas e iniciou atividades em junho de 2021. A estratégia prioriza renda recorrente e apreciação de longo prazo por meio de fazendas produtivas.",
     "Comentário": "Distribuiu R$ 0,80/cota com dividend yield anualizado de 15,7%. Divulgou venda integral da Fazenda do Grupo Hendges (R$ 48 MM) em dezembro/2025. Criou reserva de lucros de R$ 56 milhões a distribuir de forma controlada ao longo do ano. Caixa encerrou em R$ 102 milhões, com gestão avaliando alternativas para rentabilização eficiente preservando valor aos cotistas.",
-    "Preço Atual": 66.37,
+    "Mês Ref. Comentário": "dez/25",
+    "Preço Atual": 65.5,
     "% Dias Acima CDI 1A": 0.8548,
-    "% Dias Acima CDI 3A": 0.3007,
-    "% Dias Acima CDI 5A": 0.2605,
-    "% Dias Acima CDI MAX": 0.2605
+    "% Dias Acima CDI 3A": 0.3039,
+    "% Dias Acima CDI 5A": 0.2628,
+    "% Dias Acima CDI MAX": 0.2628
   },
   "historico_preco": [
     [
@@ -4749,6 +4750,18 @@
     [
       "2026-04-23",
       67.67
+    ],
+    [
+      "2026-04-24",
+      66.6
+    ],
+    [
+      "2026-04-27",
+      66.57
+    ],
+    [
+      "2026-04-28",
+      66.47
     ]
   ],
   "historico_preco_adj": [
@@ -9483,6 +9496,18 @@
     [
       "2026-04-23",
       66.77
+    ],
+    [
+      "2026-04-24",
+      66.6
+    ],
+    [
+      "2026-04-27",
+      66.57
+    ],
+    [
+      "2026-04-28",
+      66.47
     ]
   ],
   "historico_pvp": [
@@ -14437,6 +14462,18 @@
     [
       "2026-04-23",
       0.59699092699
+    ],
+    [
+      "2026-04-24",
+      0.58755128916
+    ],
+    [
+      "2026-04-27",
+      0.58728662642
+    ],
+    [
+      "2026-04-28",
+      0.58640441727
     ]
   ],
   "historico_dy": [
@@ -19155,6 +19192,18 @@
     [
       "2026-04-23",
       15.9598
+    ],
+    [
+      "2026-04-24",
+      16.2162
+    ],
+    [
+      "2026-04-27",
+      16.2235
+    ],
+    [
+      "2026-04-28",
+      16.2479
     ]
   ],
   "historico_dpc": [
@@ -19387,13 +19436,7 @@
       0.9
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/12/2025",
-    "Caixa": 61992603.88,
-    "Imóveis": 184065629.0,
-    "FIDCs": 40188213.71,
-    "Outros": 23570298.54000003
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-09-30",
     "ativos": [

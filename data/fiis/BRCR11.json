@@ -4,18 +4,19 @@
     "Ticker": "BRCR11",
     "Nome": "BTG Pactual Corporate Office Fund FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0265,
-    "Retorno - 12M": 0.2581,
-    "P/VP": 0.56,
+    "Retorno - MTD": 0.0183,
+    "Retorno - 12M": 0.2349,
+    "P/VP": 0.55,
     "Último Dividendo Pago": 0.41,
-    "DY a.a.": 0.103,
+    "DY a.a.": 0.104,
     "Visão Geral": "FII de lajes corporativas que investe em escritórios AAA, com portfólio diversificado em São Paulo e Rio de Janeiro. É o BC Office Fund, listado pela BTG, e figura entre os maiores fundos do segmento, com patrimônio superior a R$ 2 bilhões. A estratégia prioriza renda locatícia recorrente e gestão ativa.",
     "Comentário": "O BC Fund registrou movimento comercial expressivo em março com locação de 5.800 m² consolidados entre São Paulo e Rio, destaque para dois andares no Torre Almirante totalizando 2.500 m². Pela primeira vez desde pandemia, Rio de Janeiro apresentou maior volume de procura que São Paulo no trimestre, evidenciando resiliência de ativos prime. A vacância financeira fechou em 9,4%, reduzindo de 10,6% anterior.",
-    "Preço Atual": 47.47,
-    "% Dias Acima CDI 1A": 0.3831,
-    "% Dias Acima CDI 3A": 0.2886,
-    "% Dias Acima CDI 5A": 0.1751,
-    "% Dias Acima CDI MAX": 0.2973
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 47.28,
+    "% Dias Acima CDI 1A": 0.3952,
+    "% Dias Acima CDI 3A": 0.2918,
+    "% Dias Acima CDI 5A": 0.1775,
+    "% Dias Acima CDI MAX": 0.2979
   },
   "historico_preco": [
     [
@@ -14205,6 +14206,18 @@
     [
       "2026-04-23",
       47.45
+    ],
+    [
+      "2026-04-24",
+      47.58
+    ],
+    [
+      "2026-04-27",
+      47.32
+    ],
+    [
+      "2026-04-28",
+      47.32
     ]
   ],
   "historico_preco_adj": [
@@ -24443,6 +24456,18 @@
     [
       "2026-04-23",
       47.45
+    ],
+    [
+      "2026-04-24",
+      47.58
+    ],
+    [
+      "2026-04-27",
+      47.32
+    ],
+    [
+      "2026-04-28",
+      47.32
     ]
   ],
   "historico_pvp": [
@@ -39385,6 +39410,18 @@
     [
       "2026-04-23",
       0.55369600409
+    ],
+    [
+      "2026-04-24",
+      0.55521297944
+    ],
+    [
+      "2026-04-27",
+      0.55217902874
+    ],
+    [
+      "2026-04-28",
+      0.55217902874
     ]
   ],
   "historico_dy": [
@@ -49623,6 +49660,18 @@
     [
       "2026-04-23",
       10.3688
+    ],
+    [
+      "2026-04-24",
+      10.3405
+    ],
+    [
+      "2026-04-27",
+      10.3973
+    ],
+    [
+      "2026-04-28",
+      10.3973
     ]
   ],
   "historico_dpc": [
@@ -50123,13 +50172,7 @@
       0.41
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 21433543.43,
-    "Imóveis": 2025408100.6,
-    "Cotas de FIIs": 333244395.31,
-    "Outros": 0.030000168830156326
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

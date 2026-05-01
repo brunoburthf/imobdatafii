@@ -4,18 +4,19 @@
     "Ticker": "ALZR11",
     "Nome": "Alianza Trust Renda Imobiliária FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0137,
-    "Retorno - 12M": 0.1951,
+    "Retorno - MTD": 0.0117,
+    "Retorno - 12M": 0.188,
     "P/VP": 1.0,
     "Último Dividendo Pago": 0.08355,
     "DY a.a.": 0.095,
     "Visão Geral": "FII híbrido que investe em propriedades para renda, com foco em contratos atípicos e geração recorrente de aluguel. É listado na B3 sob o ticker ALZR11 e atua com imóveis locados em estratégia voltada à previsibilidade de receita. A gestão prioriza ativos imobiliários de renda com perfil contratual mais longo e estruturado.",
     "Comentário": "O ALZR expandiu sua base de cotistas em 3,1% em fevereiro, adicionando mais 5 mil investidores no período e alcançando 188,6 mil cotistas totais. Realizou aquisição estratégica de R$30,8 milhões em cotas de fundos expostos ao ativo Natura de altíssima qualidade, com contrato até 2034. O fundo manteve cota praticamente estável, negociada ligeiramente acima do valor patrimonial, sinalizando solidez operacional.",
-    "Preço Atual": 10.6,
-    "% Dias Acima CDI 1A": 0.4839,
-    "% Dias Acima CDI 3A": 0.3987,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 10.57,
+    "% Dias Acima CDI 1A": 0.496,
+    "% Dias Acima CDI 3A": 0.4003,
     "% Dias Acima CDI 5A": 0.3984,
-    "% Dias Acima CDI MAX": 0.533
+    "% Dias Acima CDI MAX": 0.5338
   },
   "historico_preco": [
     [
@@ -8269,6 +8270,18 @@
     [
       "2026-04-23",
       10.62
+    ],
+    [
+      "2026-04-24",
+      10.59
+    ],
+    [
+      "2026-04-27",
+      10.57
+    ],
+    [
+      "2026-04-28",
+      10.6
     ]
   ],
   "historico_preco_adj": [
@@ -16523,6 +16536,18 @@
     [
       "2026-04-23",
       10.62
+    ],
+    [
+      "2026-04-24",
+      10.59
+    ],
+    [
+      "2026-04-27",
+      10.57
+    ],
+    [
+      "2026-04-28",
+      10.6
     ]
   ],
   "historico_pvp": [
@@ -25193,6 +25218,18 @@
     [
       "2026-04-23",
       1.0026394426
+    ],
+    [
+      "2026-04-24",
+      0.99980712781
+    ],
+    [
+      "2026-04-27",
+      0.99791891794
+    ],
+    [
+      "2026-04-28",
+      1.0007512328
     ]
   ],
   "historico_dy": [
@@ -33367,6 +33404,18 @@
     [
       "2026-04-23",
       9.4407
+    ],
+    [
+      "2026-04-24",
+      9.4674
+    ],
+    [
+      "2026-04-27",
+      9.4853
+    ],
+    [
+      "2026-04-28",
+      9.4585
     ]
   ],
   "historico_dpc": [
@@ -33767,14 +33816,7 @@
       0.08355
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 185301761.08,
-    "Imóveis": 1153532028.3,
-    "Cotas de FIIs": 433798665.34,
-    "CRI/CRA": 9539544.72,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 36995306.76
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -33869,7 +33911,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 3000.0,
-        "valor": 3053911.67
+        "valor": 3053911.67,
+        "nome_cri": "CRI FGR INCORPORAÇÕES S.A."
       },
       {
         "tipo": "Outras Cotas de FI",
@@ -34004,7 +34047,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 908.0,
-        "valor": 875854.27
+        "valor": 875854.27,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "FII",

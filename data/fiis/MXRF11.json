@@ -4,18 +4,19 @@
     "Ticker": "MXRF11",
     "Nome": "Maxi Renda FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0107,
-    "Retorno - 12M": 0.2147,
-    "P/VP": 1.06,
+    "Retorno - MTD": 0.0025,
+    "Retorno - 12M": 0.2023,
+    "P/VP": 1.05,
     "Último Dividendo Pago": 0.095,
-    "DY a.a.": 0.115,
+    "DY a.a.": 0.116,
     "Visão Geral": "FII de papel que investe em CRIs e operações de desenvolvimento residencial via permutas financeiras. Lançado em 2012, tem gestão ativa da XP Asset e atuação em diversos segmentos do mercado imobiliário. A estratégia combina renda de crédito com exposição estruturada ao desenvolvimento, buscando distribuição recorrente e diversificação da carteira.",
     "Comentário": "Distribuição de R$ 0,10/cota em fevereiro com yield mensal de 1,04% (118,12% do CDI com gross-up 15% de IR). Gestão adquiriu novo CRI JK Square (R$ 20 milhões, IPCA + 9,04% a.a.) e CRI Amy (R$ 7 milhões), mantendo estratégia de reciclagem de carteira.",
-    "Preço Atual": 9.9,
-    "% Dias Acima CDI 1A": 0.4637,
-    "% Dias Acima CDI 3A": 0.4966,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 9.92,
+    "% Dias Acima CDI 1A": 0.4758,
+    "% Dias Acima CDI 3A": 0.498,
     "% Dias Acima CDI 5A": 0.5759,
-    "% Dias Acima CDI MAX": 0.7175
+    "% Dias Acima CDI MAX": 0.7177
   },
   "historico_preco": [
     [
@@ -13833,6 +13834,18 @@
     [
       "2026-04-23",
       9.95
+    ],
+    [
+      "2026-04-24",
+      9.93
+    ],
+    [
+      "2026-04-27",
+      9.87
+    ],
+    [
+      "2026-04-28",
+      9.9
     ]
   ],
   "historico_preco_adj": [
@@ -24071,6 +24084,18 @@
     [
       "2026-04-23",
       9.95
+    ],
+    [
+      "2026-04-24",
+      9.93
+    ],
+    [
+      "2026-04-27",
+      9.87
+    ],
+    [
+      "2026-04-28",
+      9.9
     ]
   ],
   "historico_pvp": [
@@ -38617,6 +38642,18 @@
     [
       "2026-04-23",
       1.0609169361
+    ],
+    [
+      "2026-04-24",
+      1.0587844397
+    ],
+    [
+      "2026-04-27",
+      1.0523869507
+    ],
+    [
+      "2026-04-28",
+      1.0555856952
     ]
   ],
   "historico_dy": [
@@ -48855,6 +48892,18 @@
     [
       "2026-04-23",
       11.4573
+    ],
+    [
+      "2026-04-24",
+      11.4804
+    ],
+    [
+      "2026-04-27",
+      11.5502
+    ],
+    [
+      "2026-04-28",
+      11.5152
     ]
   ],
   "historico_dpc": [
@@ -49355,15 +49404,7 @@
       0.095
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 101704519.4,
-    "Imóveis": 156155270.0,
-    "Cotas de FIIs": 533949800.86,
-    "CRI/CRA": 3253400286.8,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 364365222.29,
-    "Outros": 0.05999964475631714
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -49450,7 +49491,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 82458.0,
-        "valor": 83939816.2
+        "valor": 83939816.2,
+        "nome_cri": "CRI FGR INCORPORAÇÕES S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -49524,7 +49566,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 80994.0,
-        "valor": 78126586.8
+        "valor": 78126586.8,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "FII",
@@ -49813,7 +49856,7 @@
         "vencimento": "",
         "quantidade": 96003.0,
         "valor": 91289390.06,
-        "nome_cri": "CRI Campos do Jordão"
+        "nome_cri": "CRI SCOPEL O.A"
       },
       {
         "tipo": "CRI/CRA",
@@ -50209,7 +50252,7 @@
         "vencimento": "",
         "quantidade": 19849.0,
         "valor": 19741582.3,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Econ II"
       },
       {
         "tipo": "CRI/CRA",

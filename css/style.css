@@ -967,6 +967,37 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   cursor: default;
 }
 
+.res-salvar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.btn-salvar-resultado {
+  background: var(--azul);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 22px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  transition: background 0.18s, box-shadow 0.18s;
+  box-shadow: 0 3px 10px rgba(239,99,0,0.25);
+}
+.btn-salvar-resultado:hover {
+  background: var(--azul-escuro);
+  box-shadow: 0 4px 14px rgba(239,99,0,0.4);
+}
+.btn-salvar-resultado:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.res-salvar-status { font-size: 13px; color: #888; }
+.res-salvar-ok { color: #0a7; font-weight: 600; }
+.res-salvar-erro { color: #c00; font-weight: 600; }
+
 /* ─── TEMPLATE PDF ──────────────────────────────────────────────────────────── */
 
 #pdf-template {
@@ -1387,6 +1418,377 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   margin-top: 2px;
 }
 
+.res-ind-valor.valor-positivo { color: #16a34a; }
+.res-ind-valor.valor-negativo { color: #dc2626; }
+
+.acomp-perf-tabela-wrapper {
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #ececef;
+}
+
+.acomp-perf-tabela {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.acomp-perf-tabela th,
+.acomp-perf-tabela td {
+  padding: 11px 14px;
+  border-bottom: 1px solid #f0f0f3;
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.acomp-perf-tabela tbody tr:last-child td { border-bottom: none; }
+
+.acomp-perf-tabela th.num,
+.acomp-perf-tabela td.num { text-align: right; }
+
+.acomp-perf-tabela th {
+  background: #fafafb;
+  color: #6b7280;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid #e7e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.acomp-perf-tabela th:first-child { border-top-left-radius: 8px; }
+.acomp-perf-tabela th:last-child  { border-top-right-radius: 8px; }
+
+.acomp-perf-tabela tbody tr {
+  transition: background-color 120ms ease;
+}
+.acomp-perf-tabela tbody tr:nth-child(even) { background: #fcfcfd; }
+.acomp-perf-tabela tbody tr:hover { background: #eef3fa; }
+
+.acomp-perf-tabela tbody td.ticker-cell {
+  font-weight: 700;
+  color: var(--navy);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.acomp-perf-tabela td.valor-positivo { color: #16a34a; font-weight: 600; }
+.acomp-perf-tabela td.valor-negativo { color: #dc2626; font-weight: 600; }
+
+.acomp-perf-tabela tfoot td {
+  background: rgba(0,9,60,0.05);
+  font-weight: 700;
+  color: var(--navy);
+  border-top: 2px solid var(--navy);
+  border-bottom: none;
+  padding: 14px 14px;
+}
+.acomp-perf-tabela tfoot td:first-child {
+  border-bottom-left-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 11.5px;
+}
+.acomp-perf-tabela tfoot td:last-child {
+  border-bottom-right-radius: 8px;
+}
+/* Linhas extras do tfoot quando há posições totalmente encerradas */
+.acomp-perf-tabela tfoot tr.tfoot-encerradas td {
+  background: rgba(0,9,60,0.03);
+  color: #6b7280;
+  border-top: 1px dashed #d8d8de;
+  font-weight: 600;
+}
+.acomp-perf-tabela tfoot tr.tfoot-consolidado td {
+  background: rgba(0,9,60,0.08);
+  color: var(--navy);
+  border-top: 1px solid var(--navy);
+  font-size: 13px;
+}
+
+/* Badges de status — Vendas & Posições Encerradas */
+.status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.status-encerrada { background: rgba(0,9,60,0.10);  color: var(--navy); }
+.status-parcial   { background: rgba(239,99,0,0.12); color: #B84A00; }
+
+/* === Realces específicos da "Situação atual da carteira" =================== */
+
+/* Cabeçalho navy (igual à tabela mensal) */
+#res-tabela-geral-acomp thead th {
+  background: var(--navy);
+  color: #ffffff;
+  border-bottom: none;
+}
+
+/* Coluna "Peso" com mini-barra horizontal sutil (background do próprio td) */
+#res-tabela-geral-acomp td.peso-cell {
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    rgba(0,9,60,0.10) 0%,
+    rgba(0,9,60,0.10) var(--peso, 0%),
+    transparent       var(--peso, 0%)
+  );
+  background-repeat: no-repeat;
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* Setor como chip discreto navy */
+.setor-chip {
+  display: inline-block;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(0,9,60,0.07);
+  color: var(--navy);
+  font-size: 11.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* % do CDI — três faixas em tons de navy (sem verde/âmbar/vermelho) */
+.pct-cdi-badge {
+  display: inline-block;
+  min-width: 52px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
+.pct-cdi-acima  { background: var(--navy);             color: #ffffff; }
+.pct-cdi-abaixo { background: rgba(0,9,60,0.12);       color: var(--navy); }
+.pct-cdi-neutro { background: #f0f0f3;                 color: #6b7280; }
+
+.res-tabela-geral-card {
+  background: var(--branco);
+  border-radius: 12px;
+  box-shadow: var(--sombra);
+  padding: 22px 24px;
+  max-width: 1200px;
+  margin: 0 auto 16px;
+}
+.res-tabela-geral-card .res-card-grande-titulo {
+  margin: 0 0 16px;
+  padding: 0 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--texto);
+  border-bottom: 1px solid #ececef;
+}
+
+/* Card Dividendos / Histórico — 2 gráficos lado a lado */
+.dividendos-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.dividendos-col { min-width: 0; }
+.dividendos-col .res-retorno-wrapper {
+  height: 300px;
+  min-height: 0;
+}
+.dividendos-subtitulo {
+  margin: 0 0 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--navy);
+}
+@media (max-width: 800px) {
+  .dividendos-grid { grid-template-columns: 1fr; gap: 18px; }
+}
+
+/* Tabela mês a mês — Carteira vs CDI (compacta, com coluna "Acumulado" destacada) */
+.tabela-mensal-wrapper { margin-top: 16px; }
+.tabela-mensal { font-size: 12px; }
+.tabela-mensal th,
+.tabela-mensal td { padding: 8px 6px; white-space: nowrap; }
+.tabela-mensal td.ticker-cell { font-weight: 700; color: var(--texto); }
+.tabela-mensal td:last-child {
+  border-left: 1px solid #ececef;
+  font-weight: 700;
+}
+
+/* Cabeçalho azul marinho */
+.tabela-mensal thead th {
+  background: var(--navy);
+  color: #ffffff;
+  border-bottom: none;
+}
+.tabela-mensal thead th:last-child {
+  border-left: 1px solid rgba(255,255,255,0.18);
+}
+
+.res-indicadores-topo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 1200px;
+  margin: 0 auto 16px;
+  padding: 0 16px;
+}
+@media (max-width: 900px) {
+  .res-indicadores-topo { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 500px) {
+  .res-indicadores-topo { grid-template-columns: 1fr; }
+}
+
+/* Tabela de operações + modal */
+.op-tipo-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.op-tipo-badge.compra { background: rgba(22,163,74,0.12); color: #16a34a; }
+.op-tipo-badge.venda  { background: rgba(220,38,38,0.12); color: #dc2626; }
+
+.acomp-nova-op-wrapper {
+  margin-top: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn-nova-operacao {
+  background: var(--azul);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-nova-operacao:hover { background: #001d4d; }
+
+.modal-operacao {
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+  width: 460px;
+  max-width: 92vw;
+}
+.modal-operacao::backdrop {
+  background: rgba(0,0,0,0.45);
+}
+
+.modal-operacao .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--cinza-borda);
+}
+.modal-operacao .modal-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: var(--texto);
+}
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--texto-suave);
+  padding: 0 4px;
+}
+
+.modal-operacao .modal-body { padding: 18px 20px; }
+
+.form-row { margin-bottom: 14px; }
+.form-row label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--azul);
+  margin-bottom: 6px;
+}
+.form-row input[type="text"],
+.form-row input[type="number"],
+.form-row input[type="date"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 6px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+.form-row-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.modal-busca-container { position: relative; }
+.modal-busca-container .sim-sugestoes {
+  left: 0; right: 0; top: 100%;
+}
+
+.op-tipo-grupo {
+  display: flex;
+  gap: 16px;
+}
+.op-tipo-opcao {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--texto);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.op-erro {
+  background: rgba(220,38,38,0.08);
+  color: #dc2626;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.modal-operacao .modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 14px 20px;
+  border-top: 1px solid var(--cinza-borda);
+  background: #fafafa;
+  border-radius: 0 0 12px 12px;
+}
+.btn-modal-cancelar,
+.btn-modal-confirmar {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-modal-cancelar { background: #eee; color: var(--texto); }
+.btn-modal-confirmar { background: #EF6300; color: #fff; }
+.btn-modal-confirmar:hover { background: #c95300; }
+
 @media (max-width: 900px) {
   .res-indicadores { grid-template-columns: repeat(2, 1fr); }
 }
@@ -1397,7 +1799,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 .res-cards-grandes {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 16px;
   max-width: 1200px;
   margin: 0 auto 30px;
@@ -1410,6 +1812,7 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   box-shadow: var(--sombra);
   padding: 24px;
   min-height: 200px;
+  min-width: 0;            /* permite que o grid honre `2fr 1fr` mesmo com tabelas largas dentro */
 }
 
 .res-card-grande-titulo {
@@ -1421,9 +1824,15 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   border-bottom: 1.5px solid var(--cinza-borda);
 }
 
+#res-visao-geral {
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
 .res-visao-bloco {
-  margin-bottom: 18px;
-  padding-bottom: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid var(--cinza-borda);
 }
 
@@ -1434,15 +1843,21 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 .res-visao-ticker {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
-  color: var(--azul);
+  color: var(--navy);
   margin-bottom: 6px;
+}
+.res-visao-mes {
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b7280;
+  margin-left: 4px;
 }
 
 .res-visao-texto {
-  font-size: 13px;
-  color: var(--texto-suave);
+  font-size: 14px;
+  color: var(--texto);
   line-height: 1.6;
 }
 
@@ -1451,6 +1866,46 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   min-height: 220px;
   position: relative;
 }
+
+/* Linha de controles do gráfico — botões à esquerda, resumo à direita */
+.grafico-controles-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.grafico-periodos { display: flex; gap: 6px; }
+
+/* Resumo do gráfico (Carteira / CDI / % do CDI) */
+.grafico-resumo {
+  display: flex;
+  gap: 14px;
+  background: #fafafb;
+  border: 1px solid #ececef;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 11px;
+}
+.grafico-resumo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.25;
+}
+.grafico-resumo-label {
+  color: #6b7280;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.grafico-resumo-valor {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--texto);
+}
+.grafico-resumo-valor.valor-positivo { color: #16a34a; }
+.grafico-resumo-valor.valor-negativo { color: #dc2626; }
 
 @media (max-width: 700px) {
   .res-cards-grandes { grid-template-columns: 1fr; }
@@ -1469,6 +1924,111 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   border-radius: 10px;
   box-shadow: var(--sombra);
   padding: 24px;
+}
+
+/* Tabs Simulação/Acompanhamento */
+.modo-tabs {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.modo-tab {
+  padding: 10px 22px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -1px;
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+  font-family: inherit;
+}
+.modo-tab:hover { color: var(--texto); }
+.modo-tab.active {
+  color: var(--laranja);
+  border-bottom-color: var(--laranja);
+}
+
+/* Quando bloqueado (carteira existente), só a tab ativa aparece e não é clicável */
+.modo-tabs[data-bloqueado="true"] .modo-tab:not(.active) {
+  display: none;
+}
+.modo-tabs[data-bloqueado="true"] .modo-tab.active {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* Badge tipo na lista de carteiras */
+.carteira-tipo-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 10px;
+  margin-right: 8px;
+  vertical-align: 1px;
+}
+.carteira-tipo-simulacao {
+  background: #fff3eb;
+  color: var(--laranja);
+}
+.carteira-tipo-acompanhamento {
+  background: #e8f1ff;
+  color: #2563EB;
+}
+
+/* Visibilidade por modo (data-modo no #tela-simulador) */
+#tela-simulador[data-modo="simulacao"] .modo-acomp-only { display: none !important; }
+#tela-simulador[data-modo="acompanhamento"] .modo-sim-only { display: none !important; }
+
+/* Visibilidade por tipo (data-tipo no <main> do resultado.html) */
+main[data-tipo="simulacao"] .modo-acomp-only { display: none !important; }
+main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
+
+/* Display do custo total (acompanhamento) - mesma "moldura" do input de valor */
+.sim-custo-display {
+  background: #f9fafb;
+}
+.sim-custo-valor {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--texto);
+  padding: 4px 0;
+  min-width: 80px;
+}
+
+/* Inputs do modo acompanhamento */
+.acomp-pm-input,
+.acomp-qtd-input {
+  width: 90px;
+  padding: 6px 8px;
+  font-size: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  text-align: right;
+  font-family: inherit;
+}
+.acomp-data-input {
+  padding: 6px 8px;
+  font-size: 13px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-family: inherit;
+}
+.acomp-pm-input:focus,
+.acomp-qtd-input:focus,
+.acomp-data-input:focus {
+  outline: none;
+  border-color: var(--laranja);
+}
+.acomp-custo-celula {
+  font-weight: 600;
+  color: var(--texto);
 }
 
 .sim-titulo {
@@ -1736,6 +2296,37 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   justify-content: center;
   margin-top: 20px;
 }
+
+.sim-salvar-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 18px 0 4px;
+  flex-wrap: wrap;
+}
+.btn-salvar-carteira {
+  background: #fff;
+  color: var(--azul);
+  border: 1.5px solid var(--azul);
+  border-radius: 8px;
+  padding: 10px 26px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+.btn-salvar-carteira:hover {
+  background: rgba(239,99,0,0.06);
+  box-shadow: 0 2px 8px rgba(239,99,0,0.15);
+}
+.btn-salvar-carteira:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.sim-salvar-status { font-size: 13px; color: #888; }
+.sim-salvar-ok { color: #0a7; font-weight: 600; }
+.sim-salvar-erro { color: #c00; font-weight: 600; }
 
 .btn-simular {
   background: var(--azul);
@@ -2347,6 +2938,31 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   color: #fff;
 }
 
+/* Toggle "Com / Sem reinvestimento" — segmented control ao lado dos períodos */
+.grafico-toggle-modo {
+  display: inline-flex;
+  border: 1.5px solid var(--cinza-borda);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-left: 8px;
+}
+.btn-toggle-modo {
+  background: none;
+  border: none;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--texto-suave);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-toggle-modo + .btn-toggle-modo { border-left: 1.5px solid var(--cinza-borda); }
+.btn-toggle-modo:hover:not(.ativo) { color: var(--azul); }
+.btn-toggle-modo.ativo {
+  background: var(--azul);
+  color: #fff;
+}
+
 /* ── ACCORDION — CARTEIRA CVM ── */
 .carteira-accordion {
   border: 1px solid #e5e7eb;
@@ -2847,4 +3463,142 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
   table { font-size: 11px; min-width: 600px; }
 }
+
+/* ── Auth Bar (faixa abaixo do header, alinhada à direita) ─────────────────── */
+.auth-bar {
+  background:#fff;
+  border-bottom:1px solid var(--cinza-borda);
+}
+.auth-bar-inner {
+  max-width:1400px; margin:0 auto;
+  display:flex; justify-content:flex-end; align-items:center; gap:12px;
+  padding:10px 24px; min-height:48px;
+}
+/* Sobre fundo claro: e-mail e botões logout/carteiras precisam de cor escura. */
+.auth-bar .auth-user-email { color:#444; }
+.auth-bar .auth-btn-logout,
+.auth-bar .auth-btn-carteiras {
+  background:#f0f1f3; color:#333; border:1px solid var(--cinza-borda);
+}
+.auth-bar .auth-btn-logout:hover,
+.auth-bar .auth-btn-carteiras:hover { background:#e6e7eb; }
+
+/* Mensagem ao lado do botão de login (apenas quando deslogado) */
+.auth-bar-msg {
+  color:#555; font-size:14px; font-weight:500;
+}
+
+/* Botão de login na auth-bar: maior e mais destacado que a versão do header */
+.auth-bar .auth-btn-login {
+  height:42px; padding:0 24px; font-size:14px; font-weight:700;
+  border-radius:8px; letter-spacing:0.02em;
+  box-shadow:0 2px 6px rgba(239,99,0,0.20);
+}
+.auth-bar .auth-btn-login:hover { box-shadow:0 3px 10px rgba(239,99,0,0.32); }
+
+@media (max-width: 600px) {
+  .auth-bar-msg { font-size:13px; }
+  .auth-bar-inner { padding:8px 16px; gap:8px; flex-wrap:wrap; }
+}
+
+/* ── Auth Header User (mini, no header) ───────────────────────────────────── */
+.auth-header-user { display:flex; align-items:center; gap:6px; margin-right:10px; }
+.auth-user-email { color:rgba(255,255,255,0.85); font-size:13px; max-width:180px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.auth-btn { height:28px; padding:0 10px; border:none; border-radius:4px; font-size:12px; cursor:pointer; white-space:nowrap; font-weight:600; }
+.auth-btn-logout { background:rgba(255,255,255,0.15); color:#fff; }
+.auth-btn-logout:hover { background:rgba(255,255,255,0.25); }
+.auth-btn-carteiras { background:rgba(255,255,255,0.15); color:#fff; }
+.auth-btn-carteiras:hover { background:rgba(255,255,255,0.25); }
+.auth-btn-login { background:var(--azul); color:#fff; }
+.auth-btn-login:hover { filter:brightness(1.1); }
+
+/* ── Tela Login (centralizada) ────────────────────────────────────────────── */
+.tela-login { display:flex; justify-content:center; align-items:center; min-height:60vh; }
+.login-card {
+  background:#fff; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.10);
+  padding:40px 44px; max-width:400px; width:100%; text-align:center;
+}
+.login-titulo { font-size:22px; font-weight:800; color:var(--navy); margin:0 0 6px; }
+.login-subtitulo { font-size:14px; color:#888; margin:0 0 24px; }
+.login-form { display:flex; flex-direction:column; gap:10px; }
+.login-input {
+  height:42px; padding:0 14px; border:1.5px solid var(--cinza-borda); border-radius:8px;
+  font-size:14px; width:100%; box-sizing:border-box;
+}
+.login-input:focus { border-color:var(--azul); outline:none; box-shadow:0 0 0 3px rgba(239,99,0,0.12); }
+.login-btn {
+  height:42px; border:none; border-radius:8px; font-size:14px; font-weight:600;
+  cursor:pointer; width:100%; transition:filter 0.15s;
+}
+.login-btn-primary { background:var(--azul); color:#fff; }
+.login-btn-primary:hover { filter:brightness(1.1); }
+.login-btn-google { background:#fff; color:#333; border:1.5px solid var(--cinza-borda); }
+.login-btn-google:hover { background:#f8f8f8; }
+.login-btn-signup { background:transparent; color:var(--azul); border:1.5px solid var(--azul); }
+.login-btn-signup:hover { background:rgba(239,99,0,0.06); }
+.login-esqueci {
+  background:none; border:none; color:#888; font-size:13px; cursor:pointer;
+  margin-top:-4px; padding:4px; align-self:flex-end; text-decoration:underline;
+}
+.login-esqueci:hover { color:var(--azul); }
+.login-divider {
+  display:flex; align-items:center; gap:12px; color:#bbb; font-size:12px; margin:4px 0;
+}
+.login-divider::before, .login-divider::after {
+  content:""; flex:1; height:1px; background:var(--cinza-borda);
+}
+
+/* ── Tela Escolha (2 cards) ───────────────────────────────────────────────── */
+.tela-escolha { display:flex; justify-content:center; align-items:flex-start; min-height:50vh; padding-top:60px; }
+.escolha-cards { display:flex; gap:24px; flex-wrap:wrap; justify-content:center; }
+.escolha-card {
+  background:#fff; border-radius:16px; box-shadow:0 4px 24px rgba(0,0,0,0.08);
+  padding:36px 32px; width:300px; text-align:center; cursor:pointer;
+  border:2px solid transparent; transition:border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+.escolha-card:hover {
+  border-color:var(--azul); box-shadow:0 8px 32px rgba(239,99,0,0.15); transform:translateY(-3px);
+}
+.escolha-card-icon { font-size:40px; margin-bottom:12px; }
+.escolha-card-titulo { font-size:18px; font-weight:700; color:var(--navy); margin-bottom:8px; }
+.escolha-card-desc { font-size:13px; color:#666; line-height:1.5; margin:0; }
+.escolha-card-count { display:block; margin-top:12px; font-size:12px; color:var(--azul); font-weight:600; }
+
+/* ── Tela Header (título + voltar) ────────────────────────────────────────── */
+.tela-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:8px; }
+.btn-voltar-tela {
+  background:none; border:1px solid var(--cinza-borda); border-radius:6px;
+  padding:6px 14px; font-size:13px; color:#555; cursor:pointer; white-space:nowrap;
+}
+.btn-voltar-tela:hover { background:var(--cinza-fundo); color:var(--navy); }
+
+/* ── Nome inline da carteira ──────────────────────────────────────────────── */
+.carteira-nome-inline {
+  border:none; border-bottom:2px solid transparent; background:none;
+  font-size:20px; font-weight:700; color:var(--navy); width:100%; padding:4px 0;
+  outline:none; font-family:inherit;
+}
+.carteira-nome-inline:focus { border-bottom-color:var(--azul); }
+.carteira-nome-inline::placeholder { color:#bbb; font-weight:400; }
+
+/* ── Lista de Carteiras ───────────────────────────────────────────────────── */
+.lista-carteiras { display:flex; flex-direction:column; gap:8px; }
+.lista-vazia { color:#888; text-align:center; padding:30px 0; }
+.carteira-item {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:14px 16px; border:1.5px solid var(--cinza-borda); border-radius:10px;
+  transition:border-color 0.15s, background 0.15s;
+}
+.carteira-item:hover { border-color:var(--azul); background:rgba(239,99,0,0.03); }
+.carteira-item-info { flex:1; min-width:0; }
+.carteira-item-nome { font-size:15px; font-weight:600; color:var(--navy); }
+.carteira-item-meta { font-size:12px; color:#888; margin-top:3px; }
+.carteira-item-acoes { display:flex; gap:6px; margin-left:12px; }
+
+/* ── Botões carteiras ─────────────────────────────────────────────────────── */
+.carteiras-btn { height:34px; padding:0 14px; border:none; border-radius:6px; font-size:12px; font-weight:600; cursor:pointer; white-space:nowrap; }
+.btn-carregar { background:var(--azul); color:#fff; }
+.btn-carregar:hover { filter:brightness(1.1); }
+.btn-deletar { background:#e02424; color:#fff; }
+.btn-deletar:hover { filter:brightness(1.1); }
 

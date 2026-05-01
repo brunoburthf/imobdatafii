@@ -4,18 +4,19 @@
     "Ticker": "VGIP11",
     "Nome": "Valora Cri Índice de Preço FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0309,
-    "Retorno - 12M": 0.1653,
+    "Retorno - MTD": 0.0327,
+    "Retorno - 12M": 0.1229,
     "P/VP": 0.9,
     "Último Dividendo Pago": 0.73,
     "DY a.a.": 0.107,
     "Visão Geral": "FII de papel que investe em CRIs, com carteira preponderantemente indexada a índices de inflação e foco em renda recorrente. É gerido pela Valora, iniciou em março de 2020 e se enquadra como FII de títulos e valores mobiliários de gestão ativa. A estratégia prioriza crédito imobiliário indexado ao IPCA.",
     "Comentário": "O fundo distribuiu R$0,74/cota (IPCA+7,1% ao ano), acumulando R$11,06 nos últimos 12 meses. Patrimônio líquido de R$1.070 milhões em 49 operações de CRI, com amortizações de R$9,4 mi no período. Cota patrimonial variou positivamente em R$0,48, refletindo a saúde contínua da carteira totalmente adimplente e 88.702 cotistas acompanhando o desempenho.",
-    "Preço Atual": 81.44,
-    "% Dias Acima CDI 1A": 0.3266,
-    "% Dias Acima CDI 3A": 0.3034,
-    "% Dias Acima CDI 5A": 0.4313,
-    "% Dias Acima CDI MAX": 0.443
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 82.33,
+    "% Dias Acima CDI 1A": 0.3306,
+    "% Dias Acima CDI 3A": 0.3039,
+    "% Dias Acima CDI 5A": 0.4297,
+    "% Dias Acima CDI MAX": 0.4427
   },
   "historico_preco": [
     [
@@ -6089,6 +6090,18 @@
     [
       "2026-04-23",
       80.47
+    ],
+    [
+      "2026-04-24",
+      81.98
+    ],
+    [
+      "2026-04-27",
+      81.95
+    ],
+    [
+      "2026-04-28",
+      81.8
     ]
   ],
   "historico_preco_adj": [
@@ -12163,6 +12176,18 @@
     [
       "2026-04-23",
       80.47
+    ],
+    [
+      "2026-04-24",
+      81.98
+    ],
+    [
+      "2026-04-27",
+      81.95
+    ],
+    [
+      "2026-04-28",
+      81.8
     ]
   ],
   "historico_pvp": [
@@ -18497,6 +18522,18 @@
     [
       "2026-04-23",
       0.88250051112
+    ],
+    [
+      "2026-04-24",
+      0.89906041881
+    ],
+    [
+      "2026-04-27",
+      0.89873141402
+    ],
+    [
+      "2026-04-28",
+      0.89708639007
     ]
   ],
   "historico_dy": [
@@ -24455,6 +24492,18 @@
     [
       "2026-04-23",
       10.886
+    ],
+    [
+      "2026-04-24",
+      10.6855
+    ],
+    [
+      "2026-04-27",
+      10.6894
+    ],
+    [
+      "2026-04-28",
+      10.709
     ]
   ],
   "historico_dpc": [
@@ -24751,12 +24800,7 @@
       0.73
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 54749553.81,
-    "CRI/CRA": 1020948501.1,
-    "Outros": 0.02999998569487161
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -25153,7 +25197,7 @@
         "vencimento": "",
         "quantidade": 5800.0,
         "valor": 4992201.02,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ditolvo VI"
       },
       {
         "tipo": "CRI/CRA",

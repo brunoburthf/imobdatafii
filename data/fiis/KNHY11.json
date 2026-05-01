@@ -4,18 +4,19 @@
     "Ticker": "KNHY11",
     "Nome": "Kinea High Yield Cri FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0278,
-    "Retorno - 12M": 0.1469,
+    "Retorno - MTD": 0.03,
+    "Retorno - 12M": 0.1374,
     "P/VP": 1.02,
     "Último Dividendo Pago": 1.1,
     "DY a.a.": 0.13,
     "Visão Geral": "FII de papel que investe em CRIs de perfil high yield, buscando retorno superior dentro do crédito imobiliário. Tem gestão da Kinea, início em 2018 e patrimônio líquido de cerca de R$ 3,1 bilhões. A carteira concentra operações com predominância de indexação ao IPCA e estratégia de renda recorrente em crédito privado.",
     "Comentário": "O fundo distribuiu R$1,10/cota em março, 127% superior ao gerado no mês anterior. Novos investimentos de R$74,8 milhões em CRI Home Equity de plataformas como Galleria Bank refletiram a mudança tática para capturar retornos prefixados elevados em ambiente de ciclo de cortes previsto, aproveitando estruturas de subordinação com risco de crédito adequado.",
-    "Preço Atual": 101.3,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 101.1,
     "% Dias Acima CDI 1A": 0.2823,
-    "% Dias Acima CDI 3A": 0.5624,
-    "% Dias Acima CDI 5A": 0.5124,
-    "% Dias Acima CDI MAX": 0.5279
+    "% Dias Acima CDI 3A": 0.5609,
+    "% Dias Acima CDI 5A": 0.51,
+    "% Dias Acima CDI MAX": 0.5269
   },
   "historico_preco": [
     [
@@ -7673,6 +7674,18 @@
     [
       "2026-04-23",
       101.35
+    ],
+    [
+      "2026-04-24",
+      101.16
+    ],
+    [
+      "2026-04-27",
+      101.1
+    ],
+    [
+      "2026-04-28",
+      101.08
     ]
   ],
   "historico_preco_adj": [
@@ -15331,6 +15344,18 @@
     [
       "2026-04-23",
       101.35
+    ],
+    [
+      "2026-04-24",
+      101.16
+    ],
+    [
+      "2026-04-27",
+      101.1
+    ],
+    [
+      "2026-04-28",
+      101.08
     ]
   ],
   "historico_pvp": [
@@ -23377,6 +23402,18 @@
     [
       "2026-04-23",
       1.0218802483
+    ],
+    [
+      "2026-04-24",
+      1.0199645379
+    ],
+    [
+      "2026-04-27",
+      1.0193595767
+    ],
+    [
+      "2026-04-28",
+      1.019157923
     ]
   ],
   "historico_dy": [
@@ -30967,6 +31004,18 @@
     [
       "2026-04-23",
       13.0242
+    ],
+    [
+      "2026-04-24",
+      13.0486
+    ],
+    [
+      "2026-04-27",
+      13.0564
+    ],
+    [
+      "2026-04-28",
+      13.059
     ]
   ],
   "historico_dpc": [
@@ -31339,13 +31388,7 @@
       1.1
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 117040750.46,
-    "Cotas de FIIs": 49394873.53,
-    "CRI/CRA": 3165563308.8,
-    "Outros": 0.039999370579607785
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -32966,7 +33009,7 @@
         "vencimento": "",
         "quantidade": 17000.0,
         "valor": 7518547.45,
-        "nome_cri": "CRI Campos do Jordão"
+        "nome_cri": "CRI SCOPEL O.A"
       },
       {
         "tipo": "CRI/CRA",
@@ -33546,7 +33589,7 @@
         "vencimento": "",
         "quantidade": 33000.0,
         "valor": 14594827.41,
-        "nome_cri": "CRI Campos do Jordão"
+        "nome_cri": "CRI SCOPEL O.A"
       },
       {
         "tipo": "CRI/CRA",
@@ -33632,7 +33675,7 @@
         "vencimento": "",
         "quantidade": 9650.0,
         "valor": 5143124.32,
-        "nome_cri": "CRI Campos do Jordão"
+        "nome_cri": "CRI SCOPEL O.A"
       },
       {
         "tipo": "CRI/CRA",

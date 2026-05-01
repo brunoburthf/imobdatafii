@@ -4,18 +4,19 @@
     "Ticker": "AZPL11",
     "Nome": "Az Quest Panorama Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": -0.0045,
-    "Retorno - 12M": 0.1791,
+    "Retorno - MTD": -0.0058,
+    "Retorno - 12M": 0.1824,
     "P/VP": 0.89,
     "Último Dividendo Pago": 0.075,
     "DY a.a.": 0.117,
     "Visão Geral": "FII de logística que investe em galpões logísticos de alta qualidade, com foco em ativos last-mile na região metropolitana de São Paulo. É gerido pela AZ Quest Panorama, tinha ABL de 46.561 m² e dois imóveis nas informações consultadas. A estratégia prioriza gestão ativa e renda locatícia recorrente.",
     "Comentário": "O portfólio do AZPL11 manteve ocupação de 100% nos galpões próprios, com importante revisional negociado no Jandira representando leasing spread de 22,4%. A carteira de crédito, que representa 49,4% do patrimônio, segue contribuindo para resultados com rentabilidade de CDI+2,88% e IPCA+10,87%. Dividendos distribuídos de R$0,075/cota refletem desempenho estável e resultados consistentes.",
-    "Preço Atual": 7.66,
-    "% Dias Acima CDI 1A": 0.8481,
-    "% Dias Acima CDI 3A": 0.8481,
-    "% Dias Acima CDI 5A": 0.8481,
-    "% Dias Acima CDI MAX": 0.8481
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 7.67,
+    "% Dias Acima CDI 1A": 0.8509,
+    "% Dias Acima CDI 3A": 0.8509,
+    "% Dias Acima CDI 5A": 0.8509,
+    "% Dias Acima CDI MAX": 0.8509
   },
   "historico_preco": [
     [
@@ -1645,6 +1646,18 @@
     [
       "2026-04-23",
       7.7
+    ],
+    [
+      "2026-04-24",
+      7.69
+    ],
+    [
+      "2026-04-27",
+      7.71
+    ],
+    [
+      "2026-04-28",
+      7.68
     ]
   ],
   "historico_preco_adj": [
@@ -3275,6 +3288,18 @@
     [
       "2026-04-23",
       7.7
+    ],
+    [
+      "2026-04-24",
+      7.69
+    ],
+    [
+      "2026-04-27",
+      7.71
+    ],
+    [
+      "2026-04-28",
+      7.68
     ]
   ],
   "historico_pvp": [
@@ -4989,6 +5014,18 @@
     [
       "2026-04-23",
       0.89584245984
+    ],
+    [
+      "2026-04-24",
+      0.89467902807
+    ],
+    [
+      "2026-04-27",
+      0.8970058916
+    ],
+    [
+      "2026-04-28",
+      0.8935155963
     ]
   ],
   "historico_dy": [
@@ -6539,6 +6576,18 @@
     [
       "2026-04-23",
       11.6883
+    ],
+    [
+      "2026-04-24",
+      11.7035
+    ],
+    [
+      "2026-04-27",
+      11.6732
+    ],
+    [
+      "2026-04-28",
+      11.7187
     ]
   ],
   "historico_dpc": [
@@ -6619,13 +6668,7 @@
       0.075
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 2945194.41,
-    "Imóveis": 99300796.5,
-    "Cotas de FIIs": 175371215.03,
-    "CRI/CRA": 83397641.56
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -6777,7 +6820,7 @@
         "vencimento": "",
         "quantidade": 10000.0,
         "valor": 8575166.72,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI PIVÔ"
       }
     ],
     "imoveis": [

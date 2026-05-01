@@ -4,18 +4,19 @@
     "Ticker": "ICRI11",
     "Nome": "Itaú Crédito Imobiliário IPCA FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0296,
-    "Retorno - 12M": 0.1832,
+    "Retorno - MTD": 0.0279,
+    "Retorno - 12M": 0.173,
     "P/VP": 0.97,
     "Último Dividendo Pago": 1.05,
     "DY a.a.": 0.127,
     "Visão Geral": "FII de papel que investe em CRIs e outros títulos e valores mobiliários lastreados em recebíveis imobiliários, com foco em distribuição de rendimentos. É gerido pelo Itaú Asset e busca diversificação entre segmentos com boas garantias. A estratégia prioriza crédito indexado à inflação e geração recorrente de renda imobiliária.",
     "Comentário": "Fevereiro foi positivo para FIIs com Ibovespa subindo 4% e fluxo estrangeiro acumulando R$41,8 bilhões em dois meses do ano. ICRI11 distribuiu R$0,95/cota com dividend yield de 12,38% sobre cota de mercado. Conclusão de alocação de 3,8% em CRI XPLG a IPCA+ 8,96% mantém carteira bem estruturada. Fundo encerrou com reserva de R$2,17 por cota em contexto de expectativa de cortes de juros.",
-    "Preço Atual": 99.15,
-    "% Dias Acima CDI 1A": 0.5726,
-    "% Dias Acima CDI 3A": 0.5136,
-    "% Dias Acima CDI 5A": 0.5136,
-    "% Dias Acima CDI MAX": 0.5136
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 100.05,
+    "% Dias Acima CDI 1A": 0.5766,
+    "% Dias Acima CDI 3A": 0.5185,
+    "% Dias Acima CDI 5A": 0.5185,
+    "% Dias Acima CDI MAX": 0.5185
   },
   "historico_preco": [
     [
@@ -2201,6 +2202,18 @@
     [
       "2026-04-23",
       99.35
+    ],
+    [
+      "2026-04-24",
+      99.14
+    ],
+    [
+      "2026-04-27",
+      99.27
+    ],
+    [
+      "2026-04-28",
+      99.13
     ]
   ],
   "historico_preco_adj": [
@@ -4387,6 +4400,18 @@
     [
       "2026-04-23",
       99.35
+    ],
+    [
+      "2026-04-24",
+      99.14
+    ],
+    [
+      "2026-04-27",
+      99.27
+    ],
+    [
+      "2026-04-28",
+      99.13
     ]
   ],
   "historico_pvp": [
@@ -6669,6 +6694,18 @@
     [
       "2026-04-23",
       0.97166839897
+    ],
+    [
+      "2026-04-24",
+      0.96961454528
+    ],
+    [
+      "2026-04-27",
+      0.97088597852
+    ],
+    [
+      "2026-04-28",
+      0.96951674272
     ]
   ],
   "historico_dy": [
@@ -8815,6 +8852,18 @@
     [
       "2026-04-23",
       12.6824
+    ],
+    [
+      "2026-04-24",
+      12.7093
+    ],
+    [
+      "2026-04-27",
+      12.6927
+    ],
+    [
+      "2026-04-28",
+      12.7106
     ]
   ],
   "historico_dpc": [
@@ -8923,12 +8972,7 @@
       1.05
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 16714119.88,
-    "Cotas de FIIs": 21158166.94,
-    "CRI/CRA": 360976162.0
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -9082,7 +9126,7 @@
         "vencimento": "",
         "quantidade": 20000.0,
         "valor": 20846656.94,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Salas"
       },
       {
         "tipo": "CRI/CRA",
@@ -9181,7 +9225,7 @@
         "vencimento": "",
         "quantidade": 20000.0,
         "valor": 20027909.29,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Econ IV"
       },
       {
         "tipo": "CRI/CRA",
@@ -9245,7 +9289,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 20000.0,
-        "valor": 20065019.99
+        "valor": 20065019.99,
+        "nome_cri": "CRI LOTISA INVESTIMENTOS E PARTICIPAÇÕES LTDA."
       },
       {
         "tipo": "CRI/CRA",

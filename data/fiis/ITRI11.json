@@ -4,18 +4,19 @@
     "Ticker": "ITRI11",
     "Nome": "Itaú Total Return FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0099,
-    "Retorno - 12M": 0.2801,
-    "P/VP": 0.92,
+    "Retorno - MTD": 0.0296,
+    "Retorno - 12M": 0.2656,
+    "P/VP": 0.94,
     "Último Dividendo Pago": 0.85,
-    "DY a.a.": 0.116,
+    "DY a.a.": 0.114,
     "Visão Geral": "FII híbrido que investe em múltiplas classes de ativos imobiliários, com foco em geração de renda complementada por ganho de capital. É gerido pelo Itaú Asset e atua com alocação diversificada no setor. A estratégia prioriza ativos resilientes e flexibilidade para navegar diferentes ciclos do mercado imobiliário.",
     "Comentário": "Fevereiro foi positivo com Ibovespa subindo 4% e recebimento de parcela adicional do ganho do RDLI11 elevando receita acima do recorrente para R$1,02/cota. Distribuição mantida em R$0,85/cota no topo do guidance do semestre, representando dividend yield de 12,5% sobre cota de mercado. Cota patrimonial valorizou 2,37% versus alta de 1,32% do IFIX, acumulando desconto de 12,5% em relação ao preço de mercado.",
-    "Preço Atual": 88.34,
-    "% Dias Acima CDI 1A": 0.3831,
-    "% Dias Acima CDI 3A": 0.3598,
-    "% Dias Acima CDI 5A": 0.3598,
-    "% Dias Acima CDI MAX": 0.3598
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 88.44,
+    "% Dias Acima CDI 1A": 0.3952,
+    "% Dias Acima CDI 3A": 0.367,
+    "% Dias Acima CDI 5A": 0.367,
+    "% Dias Acima CDI MAX": 0.367
   },
   "historico_preco": [
     [
@@ -2077,6 +2078,18 @@
     [
       "2026-04-23",
       87.67
+    ],
+    [
+      "2026-04-24",
+      88.04
+    ],
+    [
+      "2026-04-27",
+      89.49
+    ],
+    [
+      "2026-04-28",
+      89.03
     ]
   ],
   "historico_preco_adj": [
@@ -4139,6 +4152,18 @@
     [
       "2026-04-23",
       87.67
+    ],
+    [
+      "2026-04-24",
+      88.04
+    ],
+    [
+      "2026-04-27",
+      89.49
+    ],
+    [
+      "2026-04-28",
+      89.03
     ]
   ],
   "historico_pvp": [
@@ -6293,6 +6318,18 @@
     [
       "2026-04-23",
       0.91479922054
+    ],
+    [
+      "2026-04-24",
+      0.91866001342
+    ],
+    [
+      "2026-04-27",
+      0.93379014767
+    ],
+    [
+      "2026-04-28",
+      0.92899024301
     ]
   ],
   "historico_dy": [
@@ -8271,6 +8308,18 @@
     [
       "2026-04-23",
       11.6345
+    ],
+    [
+      "2026-04-24",
+      11.5856
+    ],
+    [
+      "2026-04-27",
+      11.3979
+    ],
+    [
+      "2026-04-28",
+      11.4568
     ]
   ],
   "historico_dpc": [
@@ -8371,13 +8420,7 @@
       0.85
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 16646989.25,
-    "Cotas de FIIs": 486894315.76,
-    "CRI/CRA": 57914334.88,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 25002647.81
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -8420,7 +8463,7 @@
         "vencimento": "",
         "quantidade": 10000.0,
         "valor": 10013954.65,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Econ IV"
       },
       {
         "tipo": "CRI/CRA",
@@ -8441,7 +8484,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 3000.0,
-        "valor": 3009753.0
+        "valor": 3009753.0,
+        "nome_cri": "CRI LOTISA INVESTIMENTOS E PARTICIPAÇÕES LTDA."
       },
       {
         "tipo": "FII",

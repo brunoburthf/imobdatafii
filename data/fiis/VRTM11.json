@@ -4,18 +4,19 @@
     "Ticker": "VRTM11",
     "Nome": "Fator Veritá Multiestratégia FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0109,
-    "Retorno - 12M": 0.2259,
+    "Retorno - MTD": 0.0123,
+    "Retorno - 12M": 0.2053,
     "P/VP": 0.78,
     "Último Dividendo Pago": 0.09,
     "DY a.a.": 0.146,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de FIIs e, complementarmente, pode alocar em CRIs, LCIs, LHs e debêntures imobiliárias. É o Fator Verità Multiestratégia, com mandato amplo no mercado imobiliário listado. A estratégia combina diversificação entre fundos e crédito para geração recorrente de renda e valor.",
     "Comentário": "Distribuição mantida em R$0,09/cota com reserva de R$0,031/cota. Recompra de 10 unidades (You Inc. Madalena R$6 mi, Tumiaru R$3,5 mi) e aquisição R$3,6 mi CRI Terrassa (IPCA+12,25% a.a.). Caixa final R$23,2 mi para alocações e pagamentos. Carteira equilibrada: 23,7% imóveis diretos, 28% FII, 45,9% CRI com DY mensal 1,21% (143% CDI).",
-    "Preço Atual": 7.39,
-    "% Dias Acima CDI 1A": 0.375,
-    "% Dias Acima CDI 3A": 0.2642,
-    "% Dias Acima CDI 5A": 0.2642,
-    "% Dias Acima CDI MAX": 0.2642
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 7.4,
+    "% Dias Acima CDI 1A": 0.3871,
+    "% Dias Acima CDI 3A": 0.2704,
+    "% Dias Acima CDI 5A": 0.2704,
+    "% Dias Acima CDI MAX": 0.2704
   },
   "historico_preco": [
     [
@@ -2393,6 +2394,18 @@
     [
       "2026-04-23",
       7.35
+    ],
+    [
+      "2026-04-24",
+      7.39
+    ],
+    [
+      "2026-04-27",
+      7.36
+    ],
+    [
+      "2026-04-28",
+      7.36
     ]
   ],
   "historico_preco_adj": [
@@ -4771,6 +4784,18 @@
     [
       "2026-04-23",
       7.35
+    ],
+    [
+      "2026-04-24",
+      7.39
+    ],
+    [
+      "2026-04-27",
+      7.36
+    ],
+    [
+      "2026-04-28",
+      7.36
     ]
   ],
   "historico_pvp": [
@@ -7277,6 +7302,18 @@
     [
       "2026-04-23",
       0.7751318538
+    ],
+    [
+      "2026-04-24",
+      0.77935025845
+    ],
+    [
+      "2026-04-27",
+      0.77618645497
+    ],
+    [
+      "2026-04-28",
+      0.77618645497
     ]
   ],
   "historico_dy": [
@@ -9627,6 +9664,18 @@
     [
       "2026-04-23",
       14.6939
+    ],
+    [
+      "2026-04-24",
+      14.6143
+    ],
+    [
+      "2026-04-27",
+      14.6739
+    ],
+    [
+      "2026-04-28",
+      14.6739
     ]
   ],
   "historico_dpc": [
@@ -9747,14 +9796,7 @@
       0.09
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 31668619.41,
-    "Imóveis": 20684006.31,
-    "Desenvolvimento": 188772453.37,
-    "Cotas de FIIs": 103969186.39,
-    "CRI/CRA": 104300642.84
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -9984,7 +10026,7 @@
         "vencimento": "",
         "quantidade": 5079.0,
         "valor": 916200.81,
-        "nome_cri": "CRI Trinity"
+        "nome_cri": "CRI Fragnani II"
       },
       {
         "tipo": "FII",

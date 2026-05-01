@@ -4,18 +4,19 @@
     "Ticker": "BLMG11",
     "Nome": "Bluemacaw Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": -0.0073,
-    "Retorno - 12M": 0.1023,
+    "Retorno - MTD": -0.0058,
+    "Retorno - 12M": 0.1391,
     "P/VP": 0.69,
     "Último Dividendo Pago": 0.4,
     "DY a.a.": 0.147,
     "Visão Geral": "FII de logística que investe em galpões logísticos e industriais, com foco principal na região Sudeste e em ativos expostos ao mercado de e-commerce. É gerido pela BlueMacaw e prioriza ativos resilientes com alto potencial de geração de renda. A estratégia combina locação recorrente e diversificação geográfica no território nacional.",
     "Comentário": "O BlueMacaw distribuiu R$0,42/cota em dezembro, com dividend yield anualizado de 14,4% na cota de mercado, refletindo recuperação operacional após reestruturação de 67% de alavancagem em outubro de 2022 para atual posição de zero alavancagem. A composição do patrimônio totaliza R$219 milhões, com 82% em cotas FIIs e ativos imobiliários diretos, sinalizando transição para modelo de menor risco.",
-    "Preço Atual": 32.51,
+    "Mês Ref. Comentário": "dez/25",
+    "Preço Atual": 32.99,
     "% Dias Acima CDI 1A": 0.5766,
-    "% Dias Acima CDI 3A": 0.1919,
-    "% Dias Acima CDI 5A": 0.1363,
-    "% Dias Acima CDI MAX": 0.1363
+    "% Dias Acima CDI 3A": 0.1914,
+    "% Dias Acima CDI 5A": 0.1359,
+    "% Dias Acima CDI MAX": 0.1359
   },
   "historico_preco": [
     [
@@ -5189,6 +5190,18 @@
     [
       "2026-04-23",
       32.79
+    ],
+    [
+      "2026-04-24",
+      32.65
+    ],
+    [
+      "2026-04-27",
+      32.65
+    ],
+    [
+      "2026-04-28",
+      32.89
     ]
   ],
   "historico_preco_adj": [
@@ -10363,6 +10376,18 @@
     [
       "2026-04-23",
       32.79
+    ],
+    [
+      "2026-04-24",
+      32.65
+    ],
+    [
+      "2026-04-27",
+      32.65
+    ],
+    [
+      "2026-04-28",
+      32.89
     ]
   ],
   "historico_pvp": [
@@ -15801,6 +15826,18 @@
     [
       "2026-04-23",
       0.69432204376
+    ],
+    [
+      "2026-04-24",
+      0.69135757026
+    ],
+    [
+      "2026-04-27",
+      0.69135757026
+    ],
+    [
+      "2026-04-28",
+      0.69643952483
     ]
   ],
   "historico_dy": [
@@ -20675,6 +20712,18 @@
     [
       "2026-04-23",
       14.6386
+    ],
+    [
+      "2026-04-24",
+      14.7014
+    ],
+    [
+      "2026-04-27",
+      14.7014
+    ],
+    [
+      "2026-04-28",
+      14.5941
     ]
   ],
   "historico_dpc": [
@@ -20927,14 +20976,7 @@
       0.4
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 1943674.92,
-    "Imóveis": 38086367.39,
-    "Cotas de FIIs": 105690010.47,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 74465850.28,
-    "Outros": 2.9802322387695312e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,18 +4,19 @@
     "Ticker": "BROF11",
     "Nome": "Brpr Corporate Offices FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0568,
-    "Retorno - 12M": 0.4891,
+    "Retorno - MTD": 0.0506,
+    "Retorno - 12M": 0.3986,
     "P/VP": 0.57,
     "Último Dividendo Pago": 0.58,
-    "DY a.a.": 0.111,
+    "DY a.a.": 0.112,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis de escritórios, com foco em gestão ativa e geração de renda por aluguel. Foi constituído em janeiro de 2023 e busca resultados por locação, renegociação contratual e reciclagem de ativos. A estratégia prioriza renda recorrente em portfólio corporativo com atuação ativa da gestão.",
     "Comentário": "O fundo distribuiu R$ 0,56/cota com dividend yield anualizado de 10,7%, em linha com projeções. A cota rendeu 5,16% em fevereiro, superando IFIX (1,32%) e CDI (1,00%). Notificado sobre rescisão antecipada de 1.176,73 m² pela Biogen no E-Tower, com detalhes a definir. Encerrou com 89,2% de ocupação, mantendo resiliência operacional apesar do desafio.",
-    "Preço Atual": 62.77,
-    "% Dias Acima CDI 1A": 0.8427,
-    "% Dias Acima CDI 3A": 0.4152,
-    "% Dias Acima CDI 5A": 0.4152,
-    "% Dias Acima CDI MAX": 0.4152
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 62.36,
+    "% Dias Acima CDI 1A": 0.8548,
+    "% Dias Acima CDI 3A": 0.4186,
+    "% Dias Acima CDI 5A": 0.4186,
+    "% Dias Acima CDI MAX": 0.4186
   },
   "historico_preco": [
     [
@@ -3057,6 +3058,18 @@
     [
       "2026-04-23",
       61.95
+    ],
+    [
+      "2026-04-24",
+      62.71
+    ],
+    [
+      "2026-04-27",
+      62.69
+    ],
+    [
+      "2026-04-28",
+      62.72
     ]
   ],
   "historico_preco_adj": [
@@ -6099,6 +6112,18 @@
     [
       "2026-04-23",
       61.95
+    ],
+    [
+      "2026-04-24",
+      62.71
+    ],
+    [
+      "2026-04-27",
+      62.69
+    ],
+    [
+      "2026-04-28",
+      62.72
     ]
   ],
   "historico_pvp": [
@@ -9289,6 +9314,18 @@
     [
       "2026-04-23",
       0.562857396
+    ],
+    [
+      "2026-04-24",
+      0.56976250691
+    ],
+    [
+      "2026-04-27",
+      0.56958079346
+    ],
+    [
+      "2026-04-28",
+      0.56985336363
     ]
   ],
   "historico_dy": [
@@ -12267,6 +12304,18 @@
     [
       "2026-04-23",
       11.2349
+    ],
+    [
+      "2026-04-24",
+      11.0987
+    ],
+    [
+      "2026-04-27",
+      11.1022
+    ],
+    [
+      "2026-04-28",
+      11.0969
     ]
   ],
   "historico_dpc": [
@@ -12415,13 +12464,7 @@
       0.58
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 53363035.1,
-    "Imóveis": 1196300000.0,
-    "Cotas de FIIs": 238098610.58,
-    "Outros": 0.02000008150935173
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

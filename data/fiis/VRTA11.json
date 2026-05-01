@@ -4,18 +4,19 @@
     "Ticker": "VRTA11",
     "Nome": "Fator Verita FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.029,
-    "Retorno - 12M": 0.085,
-    "P/VP": 0.94,
+    "Retorno - MTD": 0.0225,
+    "Retorno - 12M": 0.0726,
+    "P/VP": 0.93,
     "Último Dividendo Pago": 0.85,
-    "DY a.a.": 0.129,
+    "DY a.a.": 0.13,
     "Visão Geral": "FII de papel que investe em CRIs, LCIs, LHs, cotas de FII, FIDC, renda fixa e debêntures imobiliárias. É gerido pela FAR Fator e tem benchmark de IPCA mais 6% ao ano. A estratégia combina crédito imobiliário e instrumentos complementares para gerar renda recorrente com diversificação entre emissores e estruturas.",
     "Comentário": "Distribuição de R$0,85/cota com reserva de R$0,47/cota para obrigações futuras. Aquisição de R$1,1 mi CRI Guestier (IPCA+12% a.a., 10,1 anos). Caixa de R$34,9 mi (2,6% do PL) destinado a dividendos e alocações, com pipeline de R$40 mi em análise. Dividend yield mensal de 1,07% (126% CDI com grossup), indicando P/VP 0,94x descontado.",
-    "Preço Atual": 78.63,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 78.51,
     "% Dias Acima CDI 1A": 0.2298,
-    "% Dias Acima CDI 3A": 0.153,
-    "% Dias Acima CDI 5A": 0.2145,
-    "% Dias Acima CDI MAX": 0.3369
+    "% Dias Acima CDI 3A": 0.1526,
+    "% Dias Acima CDI 5A": 0.212,
+    "% Dias Acima CDI MAX": 0.3362
   },
   "historico_preco": [
     [
@@ -14033,6 +14034,18 @@
     [
       "2026-04-23",
       79.0
+    ],
+    [
+      "2026-04-24",
+      79.0
+    ],
+    [
+      "2026-04-27",
+      78.82
+    ],
+    [
+      "2026-04-28",
+      78.68
     ]
   ],
   "historico_preco_adj": [
@@ -24267,6 +24280,18 @@
     [
       "2026-04-23",
       79.0
+    ],
+    [
+      "2026-04-24",
+      79.0
+    ],
+    [
+      "2026-04-27",
+      78.82
+    ],
+    [
+      "2026-04-28",
+      78.68
     ]
   ],
   "historico_pvp": [
@@ -39209,6 +39234,18 @@
     [
       "2026-04-23",
       0.93556730387
+    ],
+    [
+      "2026-04-24",
+      0.93556730387
+    ],
+    [
+      "2026-04-27",
+      0.93343563153
+    ],
+    [
+      "2026-04-28",
+      0.93177766416
     ]
   ],
   "historico_dy": [
@@ -49443,6 +49480,18 @@
     [
       "2026-04-23",
       12.9114
+    ],
+    [
+      "2026-04-24",
+      12.9114
+    ],
+    [
+      "2026-04-27",
+      12.9409
+    ],
+    [
+      "2026-04-28",
+      12.9639
     ]
   ],
   "historico_dpc": [
@@ -49943,12 +49992,7 @@
       0.85
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 13319753.26,
-    "Cotas de FIIs": 126890025.07,
-    "CRI/CRA": 1240998205.4
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -50392,7 +50436,7 @@
         "vencimento": "",
         "quantidade": 19482.0,
         "valor": 22531899.76,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Fragnani II"
       },
       {
         "tipo": "CRI/CRA",
@@ -50554,7 +50598,7 @@
         "vencimento": "",
         "quantidade": 19483.0,
         "valor": 22533056.31,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Fragnani II"
       },
       {
         "tipo": "CRI/CRA",
@@ -50682,7 +50726,7 @@
         "vencimento": "",
         "quantidade": 35881.0,
         "valor": 36540576.31,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Lar"
       },
       {
         "tipo": "CRI/CRA",
@@ -51358,7 +51402,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 4670.0,
-        "valor": 4627547.65
+        "valor": 4627547.65,
+        "nome_cri": "CRI Torres de Icaraí Incorporação Imobiliária SPE Ltda."
       },
       {
         "tipo": "LCI/LCA",

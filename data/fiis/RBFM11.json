@@ -4,18 +4,19 @@
     "Ticker": "RBFM11",
     "Nome": "Rio Bravo Multiestratégia FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.013,
-    "Retorno - 12M": 0.2168,
-    "P/VP": 0.83,
+    "Retorno - MTD": -0.0194,
+    "Retorno - 12M": 0.1957,
+    "P/VP": 0.82,
     "Último Dividendo Pago": 0.108,
-    "DY a.a.": 0.12,
+    "DY a.a.": 0.121,
     "Visão Geral": "FII multiestratégia que investe em cotas de outros FIIs, crédito imobiliário e empresas de capital aberto do ramo imobiliário. É gerido pela Rio Bravo e busca diversificação, liquidez e geração de renda recorrente. A estratégia equilibra lajes, logística, varejo e recebíveis com gestão ativa e foco fundamentalista.",
     "Comentário": "Resultado de R$ 0,105/cota com distribuição de R$ 0,108/cota em março (dividend yield 11,73% a.a.). Gestão realizou investimento de R$ 1,6 milhões em Vinci Logística (VILG11) após queda de 3,3% no mês, elevando exposição para 5,25% do patrimônio líquido.",
-    "Preço Atual": 10.75,
-    "% Dias Acima CDI 1A": 0.375,
-    "% Dias Acima CDI 3A": 0.5315,
-    "% Dias Acima CDI 5A": 0.3904,
-    "% Dias Acima CDI MAX": 0.4483
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 10.77,
+    "% Dias Acima CDI 1A": 0.3871,
+    "% Dias Acima CDI 3A": 0.5341,
+    "% Dias Acima CDI 5A": 0.3928,
+    "% Dias Acima CDI MAX": 0.4488
   },
   "historico_preco": [
     [
@@ -12137,6 +12138,18 @@
     [
       "2026-04-23",
       10.86
+    ],
+    [
+      "2026-04-24",
+      10.8
+    ],
+    [
+      "2026-04-27",
+      10.79
+    ],
+    [
+      "2026-04-28",
+      10.74
     ]
   ],
   "historico_preco_adj": [
@@ -22187,6 +22200,18 @@
     [
       "2026-04-23",
       10.86
+    ],
+    [
+      "2026-04-24",
+      10.8
+    ],
+    [
+      "2026-04-27",
+      10.79
+    ],
+    [
+      "2026-04-28",
+      10.74
     ]
   ],
   "historico_pvp": [
@@ -35565,6 +35590,18 @@
     [
       "2026-04-23",
       0.83288800824
+    ],
+    [
+      "2026-04-24",
+      0.82828641704
+    ],
+    [
+      "2026-04-27",
+      0.82751948517
+    ],
+    [
+      "2026-04-28",
+      0.82368482583
     ]
   ],
   "historico_dy": [
@@ -45615,6 +45652,18 @@
     [
       "2026-04-23",
       11.9337
+    ],
+    [
+      "2026-04-24",
+      12.0
+    ],
+    [
+      "2026-04-27",
+      12.0111
+    ],
+    [
+      "2026-04-28",
+      12.067
     ]
   ],
   "historico_dpc": [
@@ -46115,11 +46164,6 @@
       0.108
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 16035820.92,
-    "Cotas de FIIs": 230594980.42,
-    "Outros": 2.3843313101679087e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

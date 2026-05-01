@@ -4,18 +4,19 @@
     "Ticker": "SNEL11",
     "Nome": "Suno Energias Limpas FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0107,
-    "Retorno - 12M": 0.1442,
+    "Retorno - MTD": 0.0071,
+    "Retorno - 12M": 0.1283,
     "P/VP": 1.05,
     "Último Dividendo Pago": 0.1,
     "DY a.a.": 0.141,
     "Visão Geral": "FII de infraestrutura que investe em projetos de energias limpas e renováveis, especialmente usinas solares de geração distribuída. É gerido pela Suno Asset e se apresenta como o primeiro FII listado voltado a essa tese no mercado geral. A estratégia combina venda de energia, renda recorrente e eventual ganho de capital.",
     "Comentário": "A ANEEL manteve bandeira verde pelo segundo mês, sinalizando sem custos adicionais na energia. Encerrou a carência da UFV Petrolina com início do faturamento dos novos contratos de 50% do projeto junto à Setta. O portfólio em ramp-up apresentou ocupação ponderada de 28,6%, com os ativos São Bento Abade e Malbec avançando 5,1 e 19,5 p.p. respectivamente em ocupação comercial.",
-    "Preço Atual": 8.54,
-    "% Dias Acima CDI 1A": 0.2258,
-    "% Dias Acima CDI 3A": 0.3757,
-    "% Dias Acima CDI 5A": 0.3757,
-    "% Dias Acima CDI MAX": 0.3757
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 8.56,
+    "% Dias Acima CDI 1A": 0.2137,
+    "% Dias Acima CDI 3A": 0.3724,
+    "% Dias Acima CDI 5A": 0.3724,
+    "% Dias Acima CDI MAX": 0.3724
   },
   "historico_preco": [
     [
@@ -2372,6 +2373,18 @@
     ],
     [
       "2026-04-23",
+      8.54
+    ],
+    [
+      "2026-04-24",
+      8.54
+    ],
+    [
+      "2026-04-27",
+      8.54
+    ],
+    [
+      "2026-04-28",
       8.54
     ]
   ],
@@ -4730,6 +4743,18 @@
     ],
     [
       "2026-04-23",
+      8.54
+    ],
+    [
+      "2026-04-24",
+      8.54
+    ],
+    [
+      "2026-04-27",
+      8.54
+    ],
+    [
+      "2026-04-28",
       8.54
     ]
   ],
@@ -7205,6 +7230,18 @@
     [
       "2026-04-23",
       1.0508186274
+    ],
+    [
+      "2026-04-24",
+      1.0508186274
+    ],
+    [
+      "2026-04-27",
+      1.0508186274
+    ],
+    [
+      "2026-04-28",
+      1.0508186274
     ]
   ],
   "historico_dy": [
@@ -9515,6 +9552,18 @@
     [
       "2026-04-23",
       14.0515
+    ],
+    [
+      "2026-04-24",
+      14.0515
+    ],
+    [
+      "2026-04-27",
+      14.0515
+    ],
+    [
+      "2026-04-28",
+      14.0515
     ]
   ],
   "historico_dpc": [
@@ -9631,14 +9680,7 @@
       0.1
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 58320018.57,
-    "Cotas de FIIs": 431959797.87,
-    "CRI/CRA": 7965435.34,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 343599202.41,
-    "Outros": 81579476.06999993
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -9661,7 +9703,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 3750.0,
-        "valor": 3742977.62
+        "valor": 3742977.62,
+        "nome_cri": "CRI IME – INSTITUTO METROPOLITANO DE ENSINO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -9671,7 +9714,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 3350.0,
-        "valor": 3814942.8
+        "valor": 3814942.8,
+        "nome_cri": "CRI TZI CITRINO EMPREENDIMENTOS"
       },
       {
         "tipo": "FII",

@@ -4,18 +4,19 @@
     "Ticker": "CACR11",
     "Nome": "Cartesia Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0204,
-    "Retorno - 12M": 0.0203,
+    "Retorno - MTD": 0.0102,
+    "Retorno - 12M": 0.0086,
     "P/VP": 0.86,
     "Último Dividendo Pago": 1.2,
-    "DY a.a.": 0.176,
+    "DY a.a.": 0.177,
     "Visão Geral": "FII de papel que investe em CRIs, LHs, LCIs, LIGs e FIIs, com foco em retornos consistentes por meio de carteira diversificada de investimentos imobiliários. O fundo prioriza a aquisição de ativos financeiros de natureza imobiliária, especialmente CRIs. A estratégia combina diversificação de crédito e geração recorrente de renda.",
     "Comentário": "Distribuiu R$ 1,21/cota equivalente a 19,40% de dividend yield anualizado nos últimos 12 meses. Mantém posição vendida de 4,82% das cotas. Portfólio permanece 100% adimplente com TIR média dos CRIs de 12,3% a.a. versus 7,6% do IMA-B. Realizou amortizações em Helvetia, Station e operações estruturadas, consolidando performance consistente desde aquisições.",
-    "Preço Atual": 81.49,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 81.33,
     "% Dias Acima CDI 1A": 0.2016,
-    "% Dias Acima CDI 3A": 0.6013,
-    "% Dias Acima CDI 5A": 0.7229,
-    "% Dias Acima CDI MAX": 0.736
+    "% Dias Acima CDI 3A": 0.5984,
+    "% Dias Acima CDI 5A": 0.7205,
+    "% Dias Acima CDI MAX": 0.7344
   },
   "historico_preco": [
     [
@@ -5945,6 +5946,18 @@
     [
       "2026-04-23",
       81.29
+    ],
+    [
+      "2026-04-24",
+      81.99
+    ],
+    [
+      "2026-04-27",
+      81.49
+    ],
+    [
+      "2026-04-28",
+      81.03
     ]
   ],
   "historico_preco_adj": [
@@ -11875,6 +11888,18 @@
     [
       "2026-04-23",
       81.29
+    ],
+    [
+      "2026-04-24",
+      81.99
+    ],
+    [
+      "2026-04-27",
+      81.49
+    ],
+    [
+      "2026-04-28",
+      81.03
     ]
   ],
   "historico_pvp": [
@@ -18397,6 +18422,18 @@
     [
       "2026-04-23",
       0.85698578871
+    ],
+    [
+      "2026-04-24",
+      0.86436541784
+    ],
+    [
+      "2026-04-27",
+      0.85909425417
+    ],
+    [
+      "2026-04-28",
+      0.8542447836
     ]
   ],
   "historico_dy": [
@@ -24227,6 +24264,18 @@
     [
       "2026-04-23",
       17.7144
+    ],
+    [
+      "2026-04-24",
+      17.5631
+    ],
+    [
+      "2026-04-27",
+      17.6709
+    ],
+    [
+      "2026-04-28",
+      17.7712
     ]
   ],
   "historico_dpc": [
@@ -24531,11 +24580,7 @@
       1.2
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 2817505.99,
-    "CRI/CRA": 485512323.55
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -24547,7 +24592,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 880.0,
-        "valor": 524830.68
+        "valor": 524830.68,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -24568,7 +24614,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 8000.0,
-        "valor": 5182161.05
+        "valor": 5182161.05,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "Outras Cotas de FI",
@@ -24599,7 +24646,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 9212.0,
-        "valor": 5984408.05
+        "valor": 5984408.05,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -24609,7 +24657,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 1420.0,
-        "valor": 1239616.48
+        "valor": 1239616.48,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24619,7 +24668,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 31.0,
-        "valor": 19136.84
+        "valor": 19136.84,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24629,7 +24679,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 270.0,
-        "valor": 166675.77
+        "valor": 166675.77,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24639,7 +24690,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 188.0,
-        "valor": 139520.35
+        "valor": 139520.35,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24659,7 +24711,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 2935.0,
-        "valor": 2442511.98
+        "valor": 2442511.98,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24680,7 +24733,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 88.0,
-        "valor": 54323.95
+        "valor": 54323.95,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24690,7 +24744,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 8000.0,
-        "valor": 5126519.52
+        "valor": 5126519.52,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -24700,7 +24755,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 890.0,
-        "valor": 660495.28
+        "valor": 660495.28,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24710,7 +24766,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 255.0,
-        "valor": 157416.01
+        "valor": 157416.01,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24720,7 +24777,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 46.0,
-        "valor": 28974.46
+        "valor": 28974.46,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -24730,7 +24788,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 42.0,
-        "valor": 26454.94
+        "valor": 26454.94,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -24740,7 +24799,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 13700.0,
-        "valor": 12040030.23
+        "valor": 12040030.23,
+        "nome_cri": "CRI COLMEIA PRIME MANAUS EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24761,7 +24821,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 746.0,
-        "valor": 439899.14
+        "valor": 439899.14,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -24771,7 +24832,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 486.0,
-        "valor": 308261.79
+        "valor": 308261.79,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -24781,7 +24843,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 331.0,
-        "valor": 319261.42
+        "valor": 319261.42,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -24791,7 +24854,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 465.0,
-        "valor": 345090.23
+        "valor": 345090.23,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24801,7 +24865,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 918.0,
-        "valor": 549946.23
+        "valor": 549946.23,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -24811,7 +24876,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 20000.0,
-        "valor": 15492435.39
+        "valor": 15492435.39,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -24821,7 +24887,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 750.0,
-        "valor": 654727.01
+        "valor": 654727.01,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24831,7 +24898,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 1057.0,
-        "valor": 784430.92
+        "valor": 784430.92,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24841,7 +24909,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 5969.0,
-        "valor": 5667652.04
+        "valor": 5667652.04,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -24851,7 +24920,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 5500.0,
-        "valor": 4018919.92
+        "valor": 4018919.92,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -24861,7 +24931,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 62.0,
-        "valor": 38273.69
+        "valor": 38273.69,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24871,7 +24942,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 301.0,
-        "valor": 290325.34
+        "valor": 290325.34,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -24881,7 +24953,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 1460.0,
-        "valor": 1386291.16
+        "valor": 1386291.16,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -24891,7 +24964,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 518.0,
-        "valor": 499629.66
+        "valor": 499629.66,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -24901,7 +24975,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 2685.0,
-        "valor": 1752719.22
+        "valor": 1752719.22,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24932,7 +25007,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 188.0,
-        "valor": 136154.06
+        "valor": 136154.06,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -24942,7 +25018,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 9.0,
-        "valor": 5668.91
+        "valor": 5668.91,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "Outras Cotas de FI",
@@ -24962,7 +25039,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 1024.0,
-        "valor": 644996.77
+        "valor": 644996.77,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -24983,7 +25061,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 1260.0,
-        "valor": 754828.16
+        "valor": 754828.16,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -24993,7 +25072,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 176.0,
-        "valor": 130614.79
+        "valor": 130614.79,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25003,7 +25083,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 1024.0,
-        "valor": 987684.88
+        "valor": 987684.88,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25024,7 +25105,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 8302.0,
-        "valor": 7882869.36
+        "valor": 7882869.36,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25055,7 +25137,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 115.0,
-        "valor": 83285.73
+        "valor": 83285.73,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25087,7 +25170,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 284.0,
-        "valor": 175318.22
+        "valor": 175318.22,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25097,7 +25181,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 25.0,
-        "valor": 15432.94
+        "valor": 15432.94,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25107,7 +25192,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 17800.0,
-        "valor": 10490938.5
+        "valor": 10490938.5,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25127,7 +25213,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 851.0,
-        "valor": 820820.15
+        "valor": 820820.15,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25137,7 +25224,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 35.0,
-        "valor": 22045.78
+        "valor": 22045.78,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25147,7 +25235,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 506.0,
-        "valor": 488055.22
+        "valor": 488055.22,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25179,7 +25268,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 7074.0,
-        "valor": 4486921.64
+        "valor": 4486921.64,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25189,7 +25279,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 52.0,
-        "valor": 38590.73
+        "valor": 38590.73,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25199,7 +25290,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 30.0,
-        "valor": 22263.88
+        "valor": 22263.88,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25231,7 +25323,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 1812.0,
-        "valor": 1124149.15
+        "valor": 1124149.15,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25241,7 +25334,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 1082.0,
-        "valor": 648193.7
+        "valor": 648193.7,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -25251,7 +25345,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 18800.0,
-        "valor": 15034345.01
+        "valor": 15034345.01,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25261,7 +25356,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 30.0,
-        "valor": 18896.38
+        "valor": 18896.38,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25271,7 +25367,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 860.0,
-        "valor": 638231.4
+        "valor": 638231.4,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25281,7 +25378,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 1300.0,
-        "valor": 848616.38
+        "valor": 848616.38,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25291,7 +25389,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 59.0,
-        "valor": 43785.64
+        "valor": 43785.64,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25301,7 +25400,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 360.0,
-        "valor": 222234.37
+        "valor": 222234.37,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25311,7 +25411,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 1715.0,
-        "valor": 1119520.84
+        "valor": 1119520.84,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25321,7 +25422,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 20.0,
-        "valor": 12597.59
+        "valor": 12597.59,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25331,7 +25433,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 177.0,
-        "valor": 131356.92
+        "valor": 131356.92,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25352,7 +25455,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 300.0,
-        "valor": 289360.8
+        "valor": 289360.8,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25362,7 +25466,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 1594.0,
-        "valor": 1182954.48
+        "valor": 1182954.48,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25372,7 +25477,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 2955.0,
-        "valor": 2459156.01
+        "valor": 2459156.01,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25382,7 +25488,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 182.0,
-        "valor": 135067.57
+        "valor": 135067.57,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25392,7 +25499,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 205.0,
-        "valor": 197729.88
+        "valor": 197729.88,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25402,7 +25510,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 928.0,
-        "valor": 555936.93
+        "valor": 555936.93,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -25412,7 +25521,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 3000.0,
-        "valor": 2848543.49
+        "valor": 2848543.49,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25422,7 +25532,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 570.0,
-        "valor": 359031.4
+        "valor": 359031.4,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25432,7 +25543,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 237.0,
-        "valor": 175884.7
+        "valor": 175884.7,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25442,7 +25554,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 440.0,
-        "valor": 279084.75
+        "valor": 279084.75,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25452,7 +25565,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 1995.0,
-        "valor": 1231548.8
+        "valor": 1231548.8,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25462,7 +25576,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 15.0,
-        "valor": 11131.94
+        "valor": 11131.94,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25472,7 +25587,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 24.0,
-        "valor": 14815.62
+        "valor": 14815.62,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25482,7 +25598,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 9000.0,
-        "valor": 6971595.92
+        "valor": 6971595.92,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25492,7 +25609,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 3906.0,
-        "valor": 2329532.58
+        "valor": 2329532.58,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25502,7 +25620,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 1359.0,
-        "valor": 1008554.04
+        "valor": 1008554.04,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25512,7 +25631,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 1726.0,
-        "valor": 1664789.17
+        "valor": 1664789.17,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25522,7 +25642,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 335.0,
-        "valor": 206801.42
+        "valor": 206801.42,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25543,7 +25664,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 53.0,
-        "valor": 31750.7
+        "valor": 31750.7,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -25553,7 +25675,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 9500.0,
-        "valor": 6183193.66
+        "valor": 6183193.66,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -25563,7 +25686,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 8000.0,
-        "valor": 5097220.67
+        "valor": 5097220.67,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25573,7 +25697,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 100.0,
-        "valor": 87296.93
+        "valor": 87296.93,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25583,7 +25708,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 1110.0,
-        "valor": 923743.88
+        "valor": 923743.88,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25593,7 +25719,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 1000.0,
-        "valor": 949514.49
+        "valor": 949514.49,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25603,7 +25730,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 2000.0,
-        "valor": 1305563.67
+        "valor": 1305563.67,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25613,7 +25741,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 1433.0,
-        "valor": 845007.34
+        "valor": 845007.34,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25634,7 +25763,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 592.0,
-        "valor": 372888.76
+        "valor": 372888.76,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25644,7 +25774,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 100.0,
-        "valor": 59639.85
+        "valor": 59639.85,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25654,7 +25785,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 35.0,
-        "valor": 21606.11
+        "valor": 21606.11,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25664,7 +25796,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 710.0,
-        "valor": 684820.57
+        "valor": 684820.57,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25685,7 +25818,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 338.0,
-        "valor": 250839.78
+        "valor": 250839.78,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25695,7 +25829,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 27541.0,
-        "valor": 25969336.77
+        "valor": 25969336.77,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25716,7 +25851,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 35500.0,
-        "valor": 23028971.15
+        "valor": 23028971.15,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -25737,7 +25873,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 21.0,
-        "valor": 13227.47
+        "valor": 13227.47,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25747,7 +25884,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 23.0,
-        "valor": 14487.23
+        "valor": 14487.23,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25757,7 +25895,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 535.0,
-        "valor": 336985.62
+        "valor": 336985.62,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25767,7 +25906,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 13000.0,
-        "valor": 9499265.28
+        "valor": 9499265.28,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25777,7 +25917,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 532.0,
-        "valor": 513133.16
+        "valor": 513133.16,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25787,7 +25928,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 367.0,
-        "valor": 218878.25
+        "valor": 218878.25,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25797,7 +25939,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 403.0,
-        "valor": 388708.01
+        "valor": 388708.01,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25807,7 +25950,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 1700.0,
-        "valor": 1484047.9
+        "valor": 1484047.9,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25817,7 +25961,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 536.0,
-        "valor": 516991.3
+        "valor": 516991.3,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25827,7 +25972,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 22.0,
-        "valor": 13857.35
+        "valor": 13857.35,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -25837,7 +25983,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 230.0,
-        "valor": 200782.95
+        "valor": 200782.95,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25847,7 +25994,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 8.0,
-        "valor": 5937.03
+        "valor": 5937.03,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25857,7 +26005,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 19.0,
-        "valor": 11729.03
+        "valor": 11729.03,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25867,7 +26016,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 107.0,
-        "valor": 66052.99
+        "valor": 66052.99,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25877,7 +26027,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 28000.0,
-        "valor": 18214828.62
+        "valor": 18214828.62,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -25887,7 +26038,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 9200.0,
-        "valor": 7129833.96
+        "valor": 7129833.96,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25897,7 +26049,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 406.0,
-        "valor": 391601.62
+        "valor": 391601.62,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25918,7 +26071,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 747.0,
-        "valor": 445509.68
+        "valor": 445509.68,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25928,7 +26082,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 502.0,
-        "valor": 309893.48
+        "valor": 309893.48,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25938,7 +26093,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 1000.0,
-        "valor": 742129.53
+        "valor": 742129.53,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25948,7 +26104,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 9000.0,
-        "valor": 8036212.54
+        "valor": 8036212.54,
+        "nome_cri": "CRI COLMEIA PRIME MANAUS EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -25958,7 +26115,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 9200.0,
-        "valor": 7357232.66
+        "valor": 7357232.66,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -25968,7 +26126,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 593.0,
-        "valor": 373518.64
+        "valor": 373518.64,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -26011,7 +26170,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 815.0,
-        "valor": 773854.31
+        "valor": 773854.31,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -26021,7 +26181,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 2010.0,
-        "valor": 1491680.37
+        "valor": 1491680.37,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26031,7 +26192,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 975.0,
-        "valor": 940422.62
+        "valor": 940422.62,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -26041,7 +26203,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 425.0,
-        "valor": 307795.09
+        "valor": 307795.09,
+        "nome_cri": "CRI VILA MADALENA EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26051,7 +26214,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 6900.0,
-        "valor": 6551650.04
+        "valor": 6551650.04,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -26061,7 +26225,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 7500.0,
-        "valor": 4878971.95
+        "valor": 4878971.95,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -26082,7 +26247,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 504.0,
-        "valor": 311128.11
+        "valor": 311128.11,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26092,7 +26258,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 295.0,
-        "valor": 176725.64
+        "valor": 176725.64,
+        "nome_cri": "CRI ITAPARICA RESORT EMPREENDIMENTO IMOBILIÁRIO S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -26113,7 +26280,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 160.0,
-        "valor": 118740.72
+        "valor": 118740.72,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26123,7 +26291,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 55.0,
-        "valor": 34643.38
+        "valor": 34643.38,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -26133,7 +26302,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 272.0,
-        "valor": 201859.23
+        "valor": 201859.23,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26143,7 +26313,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 2821.0,
-        "valor": 1663479.21
+        "valor": 1663479.21,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -26153,7 +26324,8 @@
         "serie": "3",
         "vencimento": "",
         "quantidade": 498.0,
-        "valor": 480338.94
+        "valor": 480338.94,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -26163,7 +26335,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 6500.0,
-        "valor": 4749632.64
+        "valor": 4749632.64,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -26173,7 +26346,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 28.0,
-        "valor": 20779.62
+        "valor": 20779.62,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26183,7 +26357,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 379.0,
-        "valor": 238724.39
+        "valor": 238724.39,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -26193,7 +26368,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 41.0,
-        "valor": 30427.31
+        "valor": 30427.31,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26203,7 +26379,8 @@
         "serie": "6",
         "vencimento": "",
         "quantidade": 483.0,
-        "valor": 298164.44
+        "valor": 298164.44,
+        "nome_cri": "CRI REAL PARK INVESTIMENTOS LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26213,7 +26390,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 290.0,
-        "valor": 215217.56
+        "valor": 215217.56,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26223,7 +26401,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 1265.0,
-        "valor": 938793.86
+        "valor": 938793.86,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26233,7 +26412,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 1985.0,
-        "valor": 1473127.13
+        "valor": 1473127.13,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26243,7 +26423,8 @@
         "serie": "4",
         "vencimento": "",
         "quantidade": 689.0,
-        "valor": 511327.25
+        "valor": 511327.25,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26253,7 +26434,8 @@
         "serie": "5",
         "vencimento": "",
         "quantidade": 767.0,
-        "valor": 483117.7
+        "valor": 483117.7,
+        "nome_cri": "CRI SAVOIE S.A. EMPREENDIMENTO IMOBILIÁRIO"
       },
       {
         "tipo": "CRI/CRA",
@@ -26263,7 +26445,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 1254.0,
-        "valor": 1190691.18
+        "valor": 1190691.18,
+        "nome_cri": "CRI FLORENÇA INCORPORADORA IMOBILIÁRIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -26273,7 +26456,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 18800.0,
-        "valor": 14569660.7
+        "valor": 14569660.7,
+        "nome_cri": "CRI SANTO ANDRÉ EMPREENDIMENTO IMOBILIÁRIO LTDA"
       }
     ],
     "imoveis": [],

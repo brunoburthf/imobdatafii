@@ -6,17 +6,17 @@
     "Tipo": "FI-Infra",
     "Setor": "FI-Infra",
     "CNPJ": "48973783000116",
-    "Preço Atual": 104.46,
-    "Variação Dia": -0.04,
-    "P/VP": 1.020022684988137,
-    "VP/cota": 102.4094871,
-    "DY a.a.": 0.1675282404748229,
+    "Preço Atual": 105.13,
+    "Variação Dia": 0.41,
+    "P/VP": 1.0269882930504852,
+    "VP/cota": 102.3672818,
+    "DY a.a.": 0.16646057262436983,
     "Último Dividendo Pago": 1.38,
-    "Retorno - MTD": 0.006261439167710048,
-    "Retorno - 12M": 0.19292745713615966,
-    "Visão Geral": "FI-Infra de renda fixa gerido pela Sparta, casa especializada em crédito privado, com mandato voltado a debêntures incentivadas (Lei 12.431) acessadas via fundos master da própria gestora. Diferencia-se pela indexação ao CDI, por meio de derivativos que convertem a exposição de IPCA dos ativos subjacentes, atendendo investidores que preferem retorno pós-fixado. A filosofia é de gestão ativa, com alta diversificação por emissor nos setores de energia, saneamento, rodovias, transporte e telecom, e postura contracíclica típica de veículo fechado. Traço estrutural é a isenção total de IR para pessoa física sobre rendimentos e ganho de capital.",
-    "Comentário": "A distribuição subiu de R$ 1,14 para R$ 1,38/cota, mantendo 110% do CDI conforme guidance semestral. O fundo iniciou exposição em 28 novos emissores, incluindo Aliança Geração, Sabesp, CPFL, Celesc, Urbia Cataratas e Coruripe. A duration alongou de 3,06 para 3,7 anos, o caixa recuou para 21% e o spread permaneceu em CDI+0,5%. Os spreads da classe abriram cerca de 0,35 p.p. pressionados por captação mais fraca.",
-    "Mês Ref. Comentário": "mar/26"
+    "Retorno - MTD": 0.004682721712538251,
+    "Retorno - 12M": 0.20208723091906466,
+    "Visão Geral": null,
+    "Comentário": null,
+    "Mês Ref. Comentário": null
   },
   "historico_preco": [
     [
@@ -2938,6 +2938,18 @@
     [
       "2026-04-23",
       104.5
+    ],
+    [
+      "2026-04-24",
+      104.5
+    ],
+    [
+      "2026-04-27",
+      103.79
+    ],
+    [
+      "2026-04-28",
+      104.64
     ]
   ],
   "historico_preco_adj": [
@@ -5860,6 +5872,18 @@
     [
       "2026-04-23",
       104.5
+    ],
+    [
+      "2026-04-24",
+      104.5
+    ],
+    [
+      "2026-04-27",
+      103.79
+    ],
+    [
+      "2026-04-28",
+      104.64
     ]
   ],
   "historico_dy": [
@@ -8750,6 +8774,18 @@
     [
       "2026-04-23",
       15.8469
+    ],
+    [
+      "2026-04-24",
+      15.8469
+    ],
+    [
+      "2026-04-27",
+      15.9553
+    ],
+    [
+      "2026-04-28",
+      15.8257
     ]
   ],
   "historico_pvp": [
@@ -11623,55 +11659,67 @@
     ],
     [
       "2026-04-06",
-      1.0167
+      1.0168
     ],
     [
       "2026-04-07",
-      1.0189
-    ],
-    [
-      "2026-04-08",
-      1.0188
-    ],
-    [
-      "2026-04-09",
-      1.0211
-    ],
-    [
-      "2026-04-10",
-      1.0213
-    ],
-    [
-      "2026-04-13",
       1.019
     ],
     [
-      "2026-04-14",
-      1.0175
+      "2026-04-08",
+      1.0189
     ],
     [
-      "2026-04-15",
-      1.0172
+      "2026-04-09",
+      1.0213
     ],
     [
-      "2026-04-16",
-      1.0231
-    ],
-    [
-      "2026-04-17",
+      "2026-04-10",
       1.0215
     ],
     [
+      "2026-04-13",
+      1.0192
+    ],
+    [
+      "2026-04-14",
+      1.0177
+    ],
+    [
+      "2026-04-15",
+      1.0174
+    ],
+    [
+      "2026-04-16",
+      1.0234
+    ],
+    [
+      "2026-04-17",
+      1.0217
+    ],
+    [
       "2026-04-20",
-      1.0281
+      1.0284
     ],
     [
       "2026-04-22",
-      1.0235
+      1.0238
     ],
     [
       "2026-04-23",
-      1.0204
+      1.0208
+    ],
+    [
+      "2026-04-24",
+      1.0208
+    ],
+    [
+      "2026-04-27",
+      1.0139
+    ],
+    [
+      "2026-04-28",
+      1.0222
     ]
   ],
   "historico_vp": [
@@ -11828,8 +11876,8 @@
       102.3860112
     ],
     [
-      "2026-04-23",
-      102.4094871
+      "2026-04-28",
+      102.3672818
     ]
   ],
   "historico_dpc": [

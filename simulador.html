@@ -22,11 +22,20 @@
           <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
         </nav>
       </div>
-      <div class="header-right"><span class="uso-interno">USO INTERNO</span>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
         <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
       </div>
     </div>
   </header>
+
+  <div class="auth-bar">
+    <div class="auth-bar-inner">
+      <span id="auth-header-user" class="auth-header-user" style="display:none"></span>
+      <span id="auth-header-login-msg" class="auth-bar-msg">Faça login para ver as suas carteiras salvas!</span>
+      <button id="auth-header-login" class="auth-btn auth-btn-login" onclick="mostrarTela('tela-login')">Login</button>
+    </div>
+  </div>
 
   <main>
     <div id="loading" class="loading">Carregando dados...</div>
@@ -34,13 +43,87 @@
 
     <div id="conteudo" style="display:none">
 
-      <div class="sim-layout">
+      <!-- TELA 1: Login (centralizado) -->
+      <div id="tela-login" class="tela-login">
+        <div class="login-card">
+          <h2 class="login-titulo">Simulador de Carteira</h2>
+          <p class="login-subtitulo">Faça login para criar e salvar suas carteiras</p>
+          <div class="login-form">
+            <input type="email" id="auth-email" class="login-input" placeholder="Email" />
+            <input type="password" id="auth-senha" class="login-input" placeholder="Senha"
+              onkeydown="if(event.key==='Enter')document.getElementById('auth-btn-entrar').click()" />
+            <button id="auth-btn-entrar" class="login-btn login-btn-primary"
+              onclick="loginEmail(document.getElementById('auth-email').value, document.getElementById('auth-senha').value)">
+              Entrar
+            </button>
+            <button type="button" class="login-esqueci"
+              onclick="resetSenha(document.getElementById('auth-email').value)">
+              Esqueci minha senha
+            </button>
+            <button class="login-btn login-btn-google" onclick="loginGoogle()">
+              Entrar com Google
+            </button>
+            <div class="login-divider"><span>ou</span></div>
+            <button class="login-btn login-btn-signup"
+              onclick="signupEmail(document.getElementById('auth-email').value, document.getElementById('auth-senha').value)">
+              Criar conta
+            </button>
+          </div>
+        </div>
+      </div>
 
-        <!-- Busca e tabela -->
+      <!-- TELA 2: Escolha (Minhas Carteiras / Criar Nova) -->
+      <div id="tela-escolha" class="tela-escolha" style="display:none">
+        <div class="escolha-cards">
+
+          <div class="escolha-card" onclick="mostrarMinhasCarteiras()">
+            <div class="escolha-card-icon">&#128196;</div>
+            <div class="escolha-card-titulo">Minhas Carteiras</div>
+            <p class="escolha-card-desc">Visualize, carregue ou exclua suas carteiras salvas.</p>
+            <span class="escolha-card-count" id="escolha-count"></span>
+          </div>
+
+          <div class="escolha-card" onclick="mostrarCriarNova()">
+            <div class="escolha-card-icon">&#10010;</div>
+            <div class="escolha-card-titulo">Criar Nova Carteira</div>
+            <p class="escolha-card-desc">Monte uma carteira com até 15 FIIs, defina os pesos e simule.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TELA 3: Minhas Carteiras -->
+      <div id="tela-carteiras" class="sim-layout" style="display:none">
         <div class="sim-card">
-          <h2 class="sim-titulo">Simulador de Carteira</h2>
+          <div class="tela-header">
+            <h2 class="sim-titulo">Minhas Carteiras</h2>
+            <button class="btn-voltar-tela" onclick="voltarEscolha()">&#8592; Voltar</button>
+          </div>
+          <div id="lista-carteiras" class="lista-carteiras">
+            <p style="color:#888">Carregando...</p>
+          </div>
+        </div>
+      </div>
 
-          <!-- Linha superior: busca + valor total -->
+      <!-- TELA 4: Criar / Editar Carteira (o simulador existente) -->
+      <div id="tela-simulador" class="sim-layout" style="display:none" data-modo="simulacao">
+
+        <div class="sim-card">
+          <div class="tela-header">
+            <h2 class="sim-titulo">
+              <input type="text" id="carteira-nome" class="carteira-nome-inline"
+                placeholder="Nome da carteira" maxlength="60" />
+            </h2>
+            <button class="btn-voltar-tela" onclick="voltarEscolha()">&#8592; Voltar</button>
+          </div>
+
+          <!-- Tabs de modo -->
+          <div class="modo-tabs">
+            <button type="button" class="modo-tab active" data-modo="simulacao" onclick="setModo('simulacao')">Simulação</button>
+            <button type="button" class="modo-tab" data-modo="acompanhamento" onclick="setModo('acompanhamento')">Acompanhamento</button>
+          </div>
+
+          <!-- Linha superior: busca + valor total / custo total -->
           <div class="sim-topbar">
             <div class="sim-busca-wrapper">
               <div class="sim-busca-container">
@@ -57,7 +140,7 @@
               </div>
               <span id="sim-contador" class="sim-contador">0 / 15 fundos</span>
             </div>
-            <div class="sim-valor-carteira-wrapper">
+            <div class="sim-valor-carteira-wrapper modo-sim-only">
               <label class="sim-valor-label" for="sim-valor-total">Valor da carteira</label>
               <div class="sim-valor-input-wrap">
                 <span class="sim-valor-prefix">R$</span>
@@ -73,10 +156,17 @@
                 />
               </div>
             </div>
+            <div class="sim-valor-carteira-wrapper modo-acomp-only">
+              <label class="sim-valor-label">Custo total da carteira</label>
+              <div class="sim-valor-input-wrap sim-custo-display">
+                <span class="sim-valor-prefix">R$</span>
+                <span id="acomp-custo-total" class="sim-custo-valor">0,00</span>
+              </div>
+            </div>
           </div>
 
-          <!-- Tabela da carteira -->
-          <div class="sim-tabela-wrapper">
+          <!-- Tabela da carteira (Simulação) -->
+          <div class="sim-tabela-wrapper modo-sim-only">
             <table id="sim-tabela">
               <thead>
                 <tr>
@@ -104,12 +194,55 @@
             </table>
           </div>
 
-          <!-- Aviso de soma -->
-          <div id="sim-aviso" class="sim-aviso" style="display:none"></div>
+          <!-- Tabela da carteira (Acompanhamento) -->
+          <div class="sim-tabela-wrapper modo-acomp-only">
+            <table id="acomp-tabela">
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>Nome</th>
+                  <th>Setor</th>
+                  <th class="num">Preço Médio</th>
+                  <th class="num">Quantidade</th>
+                  <th class="num">Data de Compra</th>
+                  <th class="num">Custo</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="acomp-tbody">
+                <tr id="acomp-vazio">
+                  <td colspan="8" class="sim-vazio-msg">Busque e adicione FIIs acima para montar sua carteira.</td>
+                </tr>
+              </tbody>
+              <tfoot id="acomp-tfoot" style="display:none">
+                <tr>
+                  <td colspan="6" class="sim-total-label">Custo total</td>
+                  <td class="num" id="acomp-total-custo">—</td>
+                  <td></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
 
-          <!-- Botão simular -->
-          <div id="sim-btn-wrapper" style="display:none">
+          <!-- Aviso de soma (Simulação) -->
+          <div id="sim-aviso" class="sim-aviso modo-sim-only" style="display:none"></div>
+
+          <!-- Salvar carteira (sempre disponível com fundos) -->
+          <div id="sim-salvar-wrapper" class="sim-salvar-wrapper" style="display:none">
+            <button class="btn-salvar-carteira" onclick="salvarCarteiraManual()">
+              Salvar carteira
+            </button>
+            <span id="sim-salvar-status" class="sim-salvar-status"></span>
+          </div>
+
+          <!-- Botão simular (Simulação) -->
+          <div id="sim-btn-wrapper" class="modo-sim-only" style="display:none">
             <button class="btn-simular" onclick="simularCarteira()">Simular Carteira</button>
+          </div>
+
+          <!-- Botão criar carteira (Acompanhamento) -->
+          <div id="acomp-btn-wrapper" class="modo-acomp-only" style="display:none">
+            <button class="btn-simular" onclick="criarCarteiraAcomp()">Criar Carteira</button>
           </div>
 
         </div>
@@ -119,6 +252,10 @@
     </div>
   </main>
 
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
   <script src="js/simulador.js"></script>
   <script src="js/local.js"></script>
 </body>

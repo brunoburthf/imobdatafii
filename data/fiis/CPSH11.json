@@ -4,18 +4,19 @@
     "Ticker": "CPSH11",
     "Nome": "Capitânia Shoppings FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0151,
-    "Retorno - 12M": 0.3141,
-    "P/VP": 0.92,
+    "Retorno - MTD": -0.003,
+    "Retorno - 12M": 0.2565,
+    "P/VP": 0.9,
     "Último Dividendo Pago": 0.11,
-    "DY a.a.": 0.124,
-    "Visão Geral": "FII de shopping que investe em participações em shopping centers, com gestão ativa e foco em renda imobiliária recorrente. Tem gestão da Capitânia e se posiciona no segmento de varejo com exposição direta a empreendimentos comerciais. Porte, diversificação detalhada e localização dos ativos aparecem como N/A nas fontes consultadas com segurança.",
+    "DY a.a.": 0.126,
+    "Visão Geral": "FII de shopping que investe em participações em shopping centers, com gestão ativa e foco em renda imobiliária recorrente. Tem gestão da Capitânia e se posiciona no segmento de varejo com exposição direta a empreendimentos comerciais.",
     "Comentário": "Distribuiu R$ 0,11/cota com dividend yield anualizado de 12,96%. Atingiu marco histórico de R$ 1,09 bilhão em patrimônio líquido e R$ 1,02 bilhão em valor de mercado. Portfolio de 30.413 m² de ABL própria mantém ocupação média de 96,88%. NOI cresceu 5,17% em LTM, com Iguatemi Alphaville registrando aumento de 10,94% em vendas por m².",
-    "Preço Atual": 10.64,
-    "% Dias Acima CDI 1A": 0.504,
-    "% Dias Acima CDI 3A": 0.292,
-    "% Dias Acima CDI 5A": 0.292,
-    "% Dias Acima CDI MAX": 0.292
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 10.51,
+    "% Dias Acima CDI 1A": 0.5161,
+    "% Dias Acima CDI 3A": 0.2967,
+    "% Dias Acima CDI 5A": 0.2967,
+    "% Dias Acima CDI MAX": 0.2967
   },
   "historico_preco": [
     [
@@ -2809,6 +2810,18 @@
     [
       "2026-04-23",
       10.62
+    ],
+    [
+      "2026-04-24",
+      10.64
+    ],
+    [
+      "2026-04-27",
+      10.59
+    ],
+    [
+      "2026-04-28",
+      10.48
     ]
   ],
   "historico_preco_adj": [
@@ -5603,6 +5616,18 @@
     [
       "2026-04-23",
       10.62
+    ],
+    [
+      "2026-04-24",
+      10.64
+    ],
+    [
+      "2026-04-27",
+      10.59
+    ],
+    [
+      "2026-04-28",
+      10.48
     ]
   ],
   "historico_pvp": [
@@ -8541,6 +8566,18 @@
     [
       "2026-04-23",
       0.91549646247
+    ],
+    [
+      "2026-04-24",
+      0.91722056127
+    ],
+    [
+      "2026-04-27",
+      0.91291031427
+    ],
+    [
+      "2026-04-28",
+      0.90342777087
     ]
   ],
   "historico_dy": [
@@ -11255,6 +11292,18 @@
     [
       "2026-04-23",
       12.4294
+    ],
+    [
+      "2026-04-24",
+      12.406
+    ],
+    [
+      "2026-04-27",
+      12.4646
+    ],
+    [
+      "2026-04-28",
+      12.5954
     ]
   ],
   "historico_dpc": [
@@ -11391,11 +11440,6 @@
       0.11
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 2099133.81,
-    "Imóveis": 417667947.83,
-    "Cotas de FIIs": 581747184.66
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

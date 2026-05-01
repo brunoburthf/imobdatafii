@@ -4,18 +4,19 @@
     "Ticker": "MANA11",
     "Nome": "Manatí Capital Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0306,
-    "Retorno - 12M": 0.2696,
-    "P/VP": 1.0,
+    "Retorno - MTD": 0.0405,
+    "Retorno - 12M": 0.2583,
+    "P/VP": 1.01,
     "Último Dividendo Pago": 0.11,
-    "DY a.a.": 0.14,
+    "DY a.a.": 0.139,
     "Visão Geral": "FII híbrido que investe em ativos de cunho imobiliário, como CRI, FII, FIDC imobiliário e outros instrumentos financeiros do setor, com mandato multiestratégia. É o Manatí Capital Hedge Fund. A estratégia combina alocação flexível, diversificação entre ativos listados e de crédito e geração recorrente de resultados imobiliários.",
     "Comentário": "O fundo distribuiu R$0,11/cota em fevereiro, equivalente a 15% a.a., mantendo consistência com guidance 1T26 entre R$0,10 e R$0,12. Base de cotistas expandiu 3,6% para recorde de 36.565 investidores, com gestão ativa gerando R$0,02/cota via ganho de capital. Repositório em CRI e renda fixa se intensificou aproveitando taxas prefixadas elevadas ante perspectiva de ciclo de cortes da Selic.",
-    "Preço Atual": 9.41,
-    "% Dias Acima CDI 1A": 0.5887,
-    "% Dias Acima CDI 3A": 0.348,
-    "% Dias Acima CDI 5A": 0.348,
-    "% Dias Acima CDI MAX": 0.348
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 9.51,
+    "% Dias Acima CDI 1A": 0.6008,
+    "% Dias Acima CDI 3A": 0.3509,
+    "% Dias Acima CDI 5A": 0.3509,
+    "% Dias Acima CDI MAX": 0.3509
   },
   "historico_preco": [
     [
@@ -3661,6 +3662,18 @@
     [
       "2026-04-23",
       9.38
+    ],
+    [
+      "2026-04-24",
+      9.42
+    ],
+    [
+      "2026-04-27",
+      9.44
+    ],
+    [
+      "2026-04-28",
+      9.42
     ]
   ],
   "historico_preco_adj": [
@@ -7307,6 +7320,18 @@
     [
       "2026-04-23",
       9.38
+    ],
+    [
+      "2026-04-24",
+      9.42
+    ],
+    [
+      "2026-04-27",
+      9.44
+    ],
+    [
+      "2026-04-28",
+      9.42
     ]
   ],
   "historico_pvp": [
@@ -11129,6 +11154,18 @@
     [
       "2026-04-23",
       0.99440585121
+    ],
+    [
+      "2026-04-24",
+      0.99864638789
+    ],
+    [
+      "2026-04-27",
+      1.0007666562
+    ],
+    [
+      "2026-04-28",
+      0.99864638789
     ]
   ],
   "historico_dy": [
@@ -14759,6 +14796,18 @@
     [
       "2026-04-23",
       14.0725
+    ],
+    [
+      "2026-04-24",
+      14.0127
+    ],
+    [
+      "2026-04-27",
+      13.9831
+    ],
+    [
+      "2026-04-28",
+      14.0127
     ]
   ],
   "historico_dpc": [
@@ -14939,14 +14988,7 @@
       0.11
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 8490212.91,
-    "Cotas de FIIs": 92581657.4,
-    "CRI/CRA": 229058667.21,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 17202246.23,
-    "Outros": 11924786.999999948
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -15201,7 +15243,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 10000.0,
-        "valor": 10124213.17
+        "valor": 10124213.17,
+        "nome_cri": "CRI VCA BELLATOR EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -15472,7 +15515,7 @@
         "vencimento": "",
         "quantidade": 6014.0,
         "valor": 2700522.39,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI VIC IV"
       },
       {
         "tipo": "CRI/CRA",
@@ -15829,7 +15872,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 15400.0,
-        "valor": 14577150.74
+        "valor": 14577150.74,
+        "nome_cri": "CRI GM SCHWANCK EMPREENDIMENTOS IMOBILIÁRIOS LTDA."
       },
       {
         "tipo": "CRI/CRA",

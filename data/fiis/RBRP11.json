@@ -4,18 +4,19 @@
     "Ticker": "RBRP11",
     "Nome": "FII Rbr Properties",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0105,
-    "Retorno - 12M": 0.2125,
+    "Retorno - MTD": 0.0057,
+    "Retorno - 12M": 0.1574,
     "P/VP": 0.64,
     "Último Dividendo Pago": 0.4,
     "DY a.a.": 0.092,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com gestão ativa e foco em renda locatícia e valorização patrimonial. É gerido pela RBR e integra sua estratégia de renda e properties. O portfólio é concentrado em imóveis corporativos, com atuação voltada à locação, reciclagem de ativos e geração recorrente.",
     "Comentário": "A Patria assumiu gestão em fevereiro, apresentando resultado de R$ 0,46/cota com distribuição de R$ 0,40/cota. Vacância permaneceu em 23,8%, com esforços em negociações para Venezuela e Jacks Rabinovich. Reajustes contratuais foram realizados em 9.751 m² de ABL do portfólio corporativo.",
-    "Preço Atual": 51.91,
-    "% Dias Acima CDI 1A": 0.3952,
-    "% Dias Acima CDI 3A": 0.3557,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 52.35,
+    "% Dias Acima CDI 1A": 0.4073,
+    "% Dias Acima CDI 3A": 0.3588,
     "% Dias Acima CDI 5A": 0.2506,
-    "% Dias Acima CDI MAX": 0.3768
+    "% Dias Acima CDI MAX": 0.3779
   },
   "historico_preco": [
     [
@@ -6633,6 +6634,18 @@
     [
       "2026-04-23",
       52.55
+    ],
+    [
+      "2026-04-24",
+      52.35
+    ],
+    [
+      "2026-04-27",
+      51.8
+    ],
+    [
+      "2026-04-28",
+      51.75
     ]
   ],
   "historico_preco_adj": [
@@ -13251,6 +13264,18 @@
     [
       "2026-04-23",
       52.55
+    ],
+    [
+      "2026-04-24",
+      52.35
+    ],
+    [
+      "2026-04-27",
+      51.8
+    ],
+    [
+      "2026-04-28",
+      51.75
     ]
   ],
   "historico_pvp": [
@@ -21181,6 +21206,18 @@
     [
       "2026-04-23",
       0.64363416996
+    ],
+    [
+      "2026-04-24",
+      0.64118456322
+    ],
+    [
+      "2026-04-27",
+      0.6344481447
+    ],
+    [
+      "2026-04-28",
+      0.63383574301
     ]
   ],
   "historico_dy": [
@@ -27787,6 +27824,18 @@
     [
       "2026-04-23",
       9.1342
+    ],
+    [
+      "2026-04-24",
+      9.1691
+    ],
+    [
+      "2026-04-27",
+      9.2664
+    ],
+    [
+      "2026-04-28",
+      9.2754
     ]
   ],
   "historico_dpc": [
@@ -28159,14 +28208,7 @@
       0.4
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 32568045.59,
-    "Imóveis": 644054188.72,
-    "Cotas de FIIs": 197750216.91,
-    "CRI/CRA": 34158758.64,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 85536053.29
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

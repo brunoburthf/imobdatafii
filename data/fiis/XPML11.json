@@ -4,18 +4,19 @@
     "Ticker": "XPML11",
     "Nome": "Xp Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0355,
-    "Retorno - 12M": 0.1635,
+    "Retorno - MTD": 0.03,
+    "Retorno - 12M": 0.1529,
     "P/VP": 1.0,
     "Último Dividendo Pago": 0.92,
-    "DY a.a.": 0.099,
+    "DY a.a.": 0.1,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers, com gestão ativa e foco em renda locatícia e ganho de capital. Lançado em 2017, é descrito pela XP Asset como o maior fundo de gestão ativa de shoppings do Brasil. Atua em empreendimentos urbanos com escala e consumo consolidado.",
     "Comentário": "Distribuição de R$0,92/cota com vendas/m² crescendo 11,8% vs fevereiro 2025 e NOI/m² subindo 12,1%. Aquisição iminente de 5 participações Iguatemi (Shopping Pátio Higienópolis, Alphaville, Ribeirão Preto, Rio Preto e Praia de Belas) por R$608 mi com yield estimado 11,3%. Consolidação de 28 ativos sob 12 gestores, potencializando qualidade operacional.",
-    "Preço Atual": 110.5,
-    "% Dias Acima CDI 1A": 0.4597,
-    "% Dias Acima CDI 3A": 0.6013,
-    "% Dias Acima CDI 5A": 0.4964,
-    "% Dias Acima CDI MAX": 0.5217
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 111.26,
+    "% Dias Acima CDI 1A": 0.4677,
+    "% Dias Acima CDI 3A": 0.6011,
+    "% Dias Acima CDI 5A": 0.4956,
+    "% Dias Acima CDI MAX": 0.5219
   },
   "historico_preco": [
     [
@@ -8281,6 +8282,18 @@
     [
       "2026-04-23",
       110.26
+    ],
+    [
+      "2026-04-24",
+      111.0
+    ],
+    [
+      "2026-04-27",
+      110.33
+    ],
+    [
+      "2026-04-28",
+      110.75
     ]
   ],
   "historico_preco_adj": [
@@ -16547,6 +16560,18 @@
     [
       "2026-04-23",
       110.26
+    ],
+    [
+      "2026-04-24",
+      111.0
+    ],
+    [
+      "2026-04-27",
+      110.33
+    ],
+    [
+      "2026-04-28",
+      110.75
     ]
   ],
   "historico_pvp": [
@@ -25156,75 +25181,87 @@
     ],
     [
       "2026-03-31",
-      0.97854798283
+      0.98035707107
     ],
     [
       "2026-04-01",
-      0.98769159892
+      0.98951759139
     ],
     [
       "2026-04-02",
-      0.98959274682
+      0.99142225403
     ],
     [
       "2026-04-03",
-      0.98959274682
+      0.99142225403
     ],
     [
       "2026-04-06",
-      0.99140336386
+      0.99323621845
     ],
     [
       "2026-04-07",
-      0.98651469784
+      0.98833851452
     ],
     [
       "2026-04-08",
-      0.99357610432
+      0.99541297576
     ],
     [
       "2026-04-09",
-      1.0000943257
+      1.0019432477
     ],
     [
       "2026-04-10",
-      1.009690596
+      1.0115572591
     ],
     [
       "2026-04-13",
-      1.0114106822
+      1.0132805253
     ],
     [
       "2026-04-14",
-      1.0057072385
+      1.0075665374
     ],
     [
       "2026-04-15",
-      1.0005469799
+      1.0023967388
     ],
     [
       "2026-04-16",
-      1.010324312
+      1.0121921466
     ],
     [
       "2026-04-17",
-      1.0057977694
+      1.0076572356
     ],
     [
       "2026-04-20",
-      1.0030818438
+      1.004936289
     ],
     [
       "2026-04-21",
-      1.0030818438
+      1.004936289
     ],
     [
       "2026-04-22",
-      0.99819317779
+      1.000038585
     ],
     [
       "2026-04-23",
-      0.99819317779
+      1.000038585
+    ],
+    [
+      "2026-04-24",
+      1.0067502534
+    ],
+    [
+      "2026-04-27",
+      1.0006734726
+    ],
+    [
+      "2026-04-28",
+      1.0044827979
     ]
   ],
   "historico_dy": [
@@ -33151,6 +33188,18 @@
     [
       "2026-04-23",
       10.0127
+    ],
+    [
+      "2026-04-24",
+      9.9459
+    ],
+    [
+      "2026-04-27",
+      10.0063
+    ],
+    [
+      "2026-04-28",
+      9.9684
     ]
   ],
   "historico_dpc": [
@@ -33555,14 +33604,7 @@
       0.92
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 193396461.8,
-    "Imóveis": 3483828214.9,
-    "Cotas de FIIs": 2257308297.3,
-    "CRI/CRA": 120663215.64,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 875961500.33
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

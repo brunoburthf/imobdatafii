@@ -4,18 +4,19 @@
     "Ticker": "BCIA11",
     "Nome": "Bradesco Carteira Imobiliária Ativa FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.032,
-    "Retorno - 12M": 0.2676,
+    "Retorno - MTD": 0.0406,
+    "Retorno - 12M": 0.2176,
     "P/VP": 0.93,
     "Último Dividendo Pago": 0.86,
-    "DY a.a.": 0.108,
+    "DY a.a.": 0.107,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de FIIs com exposição a escritórios, logística, shoppings, universidades, recebíveis e hotéis, entre outros segmentos. É gerido pela Bradesco Asset. A estratégia prioriza diversificação entre classes imobiliárias e geração de renda recorrente por meio de alocação ativa em fundos listados.",
     "Comentário": "Frente ao conflito no Oriente Médio e volatilidade cambial, o BCIA11 reposicionou carteira elevando exposição a CRIs de 34% para 41% do patrimônio, favorecendo ativos defensivos indexados ao IPCA. A cota patrimonial recuou 0,75% em março versus -0,31% do IFIX, demonstrando seleção ativa de ativos. Aumentou posição em BRCO11, fundo logístico de qualidade, aproveitando queda no mês.",
-    "Preço Atual": 95.76,
-    "% Dias Acima CDI 1A": 0.3952,
-    "% Dias Acima CDI 3A": 0.545,
-    "% Dias Acima CDI 5A": 0.3831,
-    "% Dias Acima CDI MAX": 0.4569
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 96.68,
+    "% Dias Acima CDI 1A": 0.4073,
+    "% Dias Acima CDI 3A": 0.5475,
+    "% Dias Acima CDI 5A": 0.3855,
+    "% Dias Acima CDI MAX": 0.4574
   },
   "historico_preco": [
     [
@@ -9693,6 +9694,18 @@
     [
       "2026-04-23",
       95.37
+    ],
+    [
+      "2026-04-24",
+      95.5
+    ],
+    [
+      "2026-04-27",
+      96.25
+    ],
+    [
+      "2026-04-28",
+      96.36
     ]
   ],
   "historico_preco_adj": [
@@ -19227,6 +19240,18 @@
     [
       "2026-04-23",
       95.37
+    ],
+    [
+      "2026-04-24",
+      95.5
+    ],
+    [
+      "2026-04-27",
+      96.25
+    ],
+    [
+      "2026-04-28",
+      96.36
     ]
   ],
   "historico_pvp": [
@@ -30565,6 +30590,18 @@
     [
       "2026-04-23",
       0.92398190353
+    ],
+    [
+      "2026-04-24",
+      0.92524139443
+    ],
+    [
+      "2026-04-27",
+      0.9325076881
+    ],
+    [
+      "2026-04-28",
+      0.93357341117
     ]
   ],
   "historico_dy": [
@@ -40099,6 +40136,18 @@
     [
       "2026-04-23",
       10.821
+    ],
+    [
+      "2026-04-24",
+      10.8063
+    ],
+    [
+      "2026-04-27",
+      10.7221
+    ],
+    [
+      "2026-04-28",
+      10.7098
     ]
   ],
   "historico_dpc": [
@@ -40599,12 +40648,7 @@
       0.86
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 6880640.41,
-    "Cotas de FIIs": 359726155.72,
-    "CRI/CRA": 14052613.89
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

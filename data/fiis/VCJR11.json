@@ -4,18 +4,19 @@
     "Ticker": "VCJR11",
     "Nome": "Vectis Juros Real FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0397,
-    "Retorno - 12M": 0.0998,
+    "Retorno - MTD": 0.0393,
+    "Retorno - 12M": 0.0975,
     "P/VP": 0.86,
     "Último Dividendo Pago": 0.9,
     "DY a.a.": 0.133,
     "Visão Geral": "FII de papel que investe em CRIs, LCIs, LHs e outros ativos financeiros imobiliários, com foco em proteção patrimonial contra a inflação. É gerido pela Vectis e busca acompanhar NTN-B mais 1% a 3% ao ano. A estratégia prioriza renda recorrente indexada ao IPCA com carteira de crédito imobiliário diversificada.",
     "Comentário": "O fundo apresentou resultado distribuível de R$ 0,68/cota, impactado negativamente pelo resgate total do CRI Pacaembu (CDI+5,0%, R$ 40MM). Encerrando fevereiro com 85,3% do PL alocado em CRI (16,4% de rentabilidade média anualizada, IPCA+10,6% ao ano) e 1,5% em FII. Montou três novas posições em CRI Subordinada Pacaembu II (R$ 17,6MM), Plano a Plano (R$ 20MM) e JFL Lorena (R$ 6,3MM).",
-    "Preço Atual": 81.11,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 80.79,
     "% Dias Acima CDI 1A": 0.246,
-    "% Dias Acima CDI 3A": 0.349,
-    "% Dias Acima CDI 5A": 0.4442,
-    "% Dias Acima CDI MAX": 0.4705
+    "% Dias Acima CDI 3A": 0.3481,
+    "% Dias Acima CDI 5A": 0.4418,
+    "% Dias Acima CDI MAX": 0.4695
   },
   "historico_preco": [
     [
@@ -6233,6 +6234,18 @@
     [
       "2026-04-23",
       80.83
+    ],
+    [
+      "2026-04-24",
+      81.19
+    ],
+    [
+      "2026-04-27",
+      81.24
+    ],
+    [
+      "2026-04-28",
+      81.17
     ]
   ],
   "historico_preco_adj": [
@@ -12451,6 +12464,18 @@
     [
       "2026-04-23",
       80.83
+    ],
+    [
+      "2026-04-24",
+      81.19
+    ],
+    [
+      "2026-04-27",
+      81.24
+    ],
+    [
+      "2026-04-28",
+      81.17
     ]
   ],
   "historico_pvp": [
@@ -18969,6 +18994,18 @@
     [
       "2026-04-23",
       0.85788360324
+    ],
+    [
+      "2026-04-24",
+      0.86170443829
+    ],
+    [
+      "2026-04-27",
+      0.86223510982
+    ],
+    [
+      "2026-04-28",
+      0.86149216968
     ]
   ],
   "historico_dy": [
@@ -25167,6 +25204,18 @@
     [
       "2026-04-23",
       13.3614
+    ],
+    [
+      "2026-04-24",
+      13.3021
+    ],
+    [
+      "2026-04-27",
+      13.2939
+    ],
+    [
+      "2026-04-28",
+      13.3054
     ]
   ],
   "historico_dpc": [
@@ -25471,11 +25520,6 @@
       0.9
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 112263969.55,
-    "Cotas de FIIs": 20864361.7,
-    "CRI/CRA": 1267237532.6
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

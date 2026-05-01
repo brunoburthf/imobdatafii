@@ -4,18 +4,19 @@
     "Ticker": "FATN11",
     "Nome": "Brc Renda Corporativa FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0031,
-    "Retorno - 12M": 0.277,
+    "Retorno - MTD": 0.0036,
+    "Retorno - 12M": 0.2575,
     "P/VP": 0.9,
     "Último Dividendo Pago": 0.8,
     "DY a.a.": 0.111,
-    "Visão Geral": "FII de lajes corporativas que investe em imóveis comerciais, com foco na aquisição e geração de renda a partir da locação. O fundo é o BRC Renda Corporativa Fundo de Investimento Imobiliário, com documentos públicos recentes na B3. Porte, diversificação detalhada, localização e perfil contratual aparecem como N/A nas fontes consultadas.",
+    "Visão Geral": "FII de lajes corporativas que investe em imóveis comerciais, com foco na aquisição e geração de renda a partir da locação. O fundo é o BRC Renda Corporativa Fundo de Investimento Imobiliário, com documentos públicos recentes na B3.",
     "Comentário": "Receita de locação cresceu 9,27% em fevereiro com início de exigibilidade de novos contratos nos edifícios Atrium I, Brasif e Monterey, compensando vacâncias por transições de locatários. Portfólio expandiu-se para 144 lajes em 43.318 m² de ABL com aquisição do Edifício Arco do Triunfo, gerando expectativa de R$ 662 mil em receita mensal após retrofit.",
-    "Preço Atual": 86.6,
-    "% Dias Acima CDI 1A": 0.3831,
-    "% Dias Acima CDI 3A": 0.1799,
-    "% Dias Acima CDI 5A": 0.2554,
-    "% Dias Acima CDI MAX": 0.2554
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 87.06,
+    "% Dias Acima CDI 1A": 0.3952,
+    "% Dias Acima CDI 3A": 0.1834,
+    "% Dias Acima CDI 5A": 0.2573,
+    "% Dias Acima CDI MAX": 0.2573
   },
   "historico_preco": [
     [
@@ -5317,6 +5318,18 @@
     [
       "2026-04-23",
       86.51
+    ],
+    [
+      "2026-04-24",
+      86.39
+    ],
+    [
+      "2026-04-27",
+      86.29
+    ],
+    [
+      "2026-04-28",
+      86.43
     ]
   ],
   "historico_preco_adj": [
@@ -10619,6 +10632,18 @@
     [
       "2026-04-23",
       86.51
+    ],
+    [
+      "2026-04-24",
+      86.39
+    ],
+    [
+      "2026-04-27",
+      86.29
+    ],
+    [
+      "2026-04-28",
+      86.43
     ]
   ],
   "historico_pvp": [
@@ -16613,6 +16638,18 @@
     [
       "2026-04-23",
       0.89659664724
+    ],
+    [
+      "2026-04-24",
+      0.89535295752
+    ],
+    [
+      "2026-04-27",
+      0.89431654942
+    ],
+    [
+      "2026-04-28",
+      0.89576752076
     ]
   ],
   "historico_dy": [
@@ -21911,6 +21948,18 @@
     [
       "2026-04-23",
       11.097
+    ],
+    [
+      "2026-04-24",
+      11.1124
+    ],
+    [
+      "2026-04-27",
+      11.1253
+    ],
+    [
+      "2026-04-28",
+      11.1073
     ]
   ],
   "historico_dpc": [
@@ -22195,13 +22244,7 @@
       0.8
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 6044614.62,
-    "Imóveis": 642183909.31,
-    "Cotas de FIIs": 30807332.16,
-    "Outros": 9.12696123123169e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

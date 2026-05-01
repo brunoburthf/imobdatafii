@@ -4,18 +4,19 @@
     "Ticker": "KNRI11",
     "Nome": "Kinea Renda Imobiliária FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0014,
-    "Retorno - 12M": 0.2334,
-    "P/VP": 1.02,
+    "Retorno - MTD": 0.0076,
+    "Retorno - 12M": 0.2434,
+    "P/VP": 1.03,
     "Último Dividendo Pago": 1.1,
     "DY a.a.": 0.079,
     "Visão Geral": "FII de renda urbana que investe em edifícios corporativos e galpões logísticos, com foco em locação. Tem gestão da Kinea e portfólio diversificado concentrado nas principais regiões do país para o mercado locatício. A estratégia é ativa, buscando menor vacância, estabilidade de aluguel e geração recorrente de renda mensal imobiliária.",
     "Comentário": "O fundo apresentou vacância física em 4,20% em março, estável ante fevereiro, após registrar entradas do Banco Votorantim em torres do Rochaverá e saídas como Blue Health. A vacância financeira ajustada por carências caiu de 5,88% para 5,85%, evidenciando progresso gradual no preenchimento de áreas e confirmando R$1,10/cota distribuído para abril.",
-    "Preço Atual": 165.92,
-    "% Dias Acima CDI 1A": 0.5685,
-    "% Dias Acima CDI 3A": 0.549,
-    "% Dias Acima CDI 5A": 0.4096,
-    "% Dias Acima CDI MAX": 0.5112
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 167.88,
+    "% Dias Acima CDI 1A": 0.5806,
+    "% Dias Acima CDI 3A": 0.5502,
+    "% Dias Acima CDI 5A": 0.4112,
+    "% Dias Acima CDI MAX": 0.5116
   },
   "historico_preco": [
     [
@@ -14205,6 +14206,18 @@
     [
       "2026-04-23",
       167.57
+    ],
+    [
+      "2026-04-24",
+      167.11
+    ],
+    [
+      "2026-04-27",
+      164.5
+    ],
+    [
+      "2026-04-28",
+      167.94
     ]
   ],
   "historico_preco_adj": [
@@ -24443,6 +24456,18 @@
     [
       "2026-04-23",
       167.57
+    ],
+    [
+      "2026-04-24",
+      167.11
+    ],
+    [
+      "2026-04-27",
+      164.5
+    ],
+    [
+      "2026-04-28",
+      167.94
     ]
   ],
   "historico_pvp": [
@@ -39385,6 +39410,18 @@
     [
       "2026-04-23",
       1.0246931575
+    ],
+    [
+      "2026-04-24",
+      1.0218802503
+    ],
+    [
+      "2026-04-27",
+      1.0059200597
+    ],
+    [
+      "2026-04-28",
+      1.0269557133
     ]
   ],
   "historico_dy": [
@@ -49623,6 +49660,18 @@
     [
       "2026-04-23",
       7.8773
+    ],
+    [
+      "2026-04-24",
+      7.899
+    ],
+    [
+      "2026-04-27",
+      8.0243
+    ],
+    [
+      "2026-04-28",
+      7.8599
     ]
   ],
   "historico_dpc": [
@@ -50123,14 +50172,7 @@
       1.1
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 160702777.42,
-    "Imóveis": 4189397557.3,
-    "CRI/CRA": 302820443.09,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 59124865.5,
-    "Outros": 0.019999563694000244
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,18 +4,19 @@
     "Ticker": "PMIS11",
     "Nome": "Paramis Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0153,
-    "Retorno - 12M": 0.1965,
+    "Retorno - MTD": 0.0165,
+    "Retorno - 12M": 0.1843,
     "P/VP": 0.86,
     "Último Dividendo Pago": 0.092,
     "DY a.a.": 0.136,
     "Visão Geral": "FII híbrido que investe em CRI, debêntures, LCI, LH e cotas de FII, com mandato multiestratégia voltado à renda mensal. É gerido pela Paramis e tinha 83,5% do patrimônio alocado em ativos-alvo no relatório de outubro de 2025. A estratégia combina crédito e fundos imobiliários com gestão ativa.",
     "Comentário": "Resultado de R$ 0,097/cota com distribuição de R$ 0,092/cota em março, gerando yield mensal de 1,13% (129,03% do CDI). Fundo mantém 79% alocado em ativos alvo com 51,4% em CRI carrego IPCA (taxa MtM 10,1% a.a.) e 10% em FII carrego.",
-    "Preço Atual": 8.14,
-    "% Dias Acima CDI 1A": 0.375,
-    "% Dias Acima CDI 3A": 0.3059,
-    "% Dias Acima CDI 5A": 0.3059,
-    "% Dias Acima CDI MAX": 0.3059
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 8.15,
+    "% Dias Acima CDI 1A": 0.3871,
+    "% Dias Acima CDI 3A": 0.3127,
+    "% Dias Acima CDI 5A": 0.3127,
+    "% Dias Acima CDI MAX": 0.3127
   },
   "historico_preco": [
     [
@@ -2233,6 +2234,18 @@
     [
       "2026-04-23",
       8.11
+    ],
+    [
+      "2026-04-24",
+      8.12
+    ],
+    [
+      "2026-04-27",
+      8.1
+    ],
+    [
+      "2026-04-28",
+      8.08
     ]
   ],
   "historico_preco_adj": [
@@ -4451,6 +4464,18 @@
     [
       "2026-04-23",
       8.11
+    ],
+    [
+      "2026-04-24",
+      8.12
+    ],
+    [
+      "2026-04-27",
+      8.1
+    ],
+    [
+      "2026-04-28",
+      8.08
     ]
   ],
   "historico_pvp": [
@@ -6773,6 +6798,18 @@
     [
       "2026-04-23",
       0.86186949737
+    ],
+    [
+      "2026-04-24",
+      0.86293222178
+    ],
+    [
+      "2026-04-27",
+      0.86080677296
+    ],
+    [
+      "2026-04-28",
+      0.85868132414
     ]
   ],
   "historico_dy": [
@@ -8919,6 +8956,18 @@
     [
       "2026-04-23",
       13.6128
+    ],
+    [
+      "2026-04-24",
+      13.5961
+    ],
+    [
+      "2026-04-27",
+      13.6296
+    ],
+    [
+      "2026-04-28",
+      13.6634
     ]
   ],
   "historico_dpc": [
@@ -9027,12 +9076,7 @@
       0.092
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 26689168.92,
-    "Cotas de FIIs": 15886748.32,
-    "CRI/CRA": 98346568.38
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -9044,7 +9088,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 3115.0,
-        "valor": 2905692.69308491
+        "valor": 2905692.69308491,
+        "nome_cri": "CRI BRASOL SISTEMAS DE ENERGIA SOLAR 10 LTDA"
       },
       {
         "tipo": "FII",
@@ -9157,7 +9202,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 4000.0,
-        "valor": 3994734.3492466
+        "valor": 3994734.3492466,
+        "nome_cri": "CRI FGR INCORPORAÇÕES S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -9188,7 +9234,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 2847.0,
-        "valor": 2689026.18905702
+        "valor": 2689026.18905702,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -9688,7 +9735,7 @@
         "vencimento": "",
         "quantidade": 5000.0,
         "valor": 5005905.87,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Umã Apeninos"
       },
       {
         "tipo": "Outros Ativos Financeiros",

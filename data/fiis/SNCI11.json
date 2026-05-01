@@ -4,18 +4,19 @@
     "Ticker": "SNCI11",
     "Nome": "Suno Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0117,
-    "Retorno - 12M": 0.1586,
+    "Retorno - MTD": 0.0153,
+    "Retorno - 12M": 0.1714,
     "P/VP": 0.93,
     "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.133,
+    "DY a.a.": 0.132,
     "Visão Geral": "FII de papel que investe em diferentes tipos de dívidas imobiliárias, majoritariamente CRIs, com gestão ativa e foco em renda recorrente. É gerido pela Suno Asset e atua no segmento de recebíveis imobiliários. A estratégia prioriza crédito diversificado com geração mensal de caixa por meio de instrumentos financeiros do setor.",
     "Comentário": "O fundo distribuiu R$ 1,00/cota, alinhado ao guidance de R$ 1,00-R$ 1,10 para o trimestre. O spread de crédito recuperou para 3,73%, impulsionado por novas alocações e ações de recuperação de crédito. A alavancagem líquida recuou para 8,09% após quitação de R$ 20MM em operações compromissadas, com expectativa de redução adicional no trimestre.",
-    "Preço Atual": 90.2,
-    "% Dias Acima CDI 1A": 0.3145,
-    "% Dias Acima CDI 3A": 0.2604,
-    "% Dias Acima CDI 5A": 0.2882,
-    "% Dias Acima CDI MAX": 0.2882
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 91.4,
+    "% Dias Acima CDI 1A": 0.3226,
+    "% Dias Acima CDI 3A": 0.2624,
+    "% Dias Acima CDI 5A": 0.2894,
+    "% Dias Acima CDI MAX": 0.2894
   },
   "historico_preco": [
     [
@@ -4529,6 +4530,18 @@
     [
       "2026-04-23",
       90.85
+    ],
+    [
+      "2026-04-24",
+      90.5
+    ],
+    [
+      "2026-04-27",
+      90.01
+    ],
+    [
+      "2026-04-28",
+      90.25
     ]
   ],
   "historico_preco_adj": [
@@ -9043,6 +9056,18 @@
     [
       "2026-04-23",
       90.85
+    ],
+    [
+      "2026-04-24",
+      90.5
+    ],
+    [
+      "2026-04-27",
+      90.01
+    ],
+    [
+      "2026-04-28",
+      90.25
     ]
   ],
   "historico_pvp": [
@@ -13769,6 +13794,18 @@
     [
       "2026-04-23",
       0.93199684332
+    ],
+    [
+      "2026-04-24",
+      0.92840632163
+    ],
+    [
+      "2026-04-27",
+      0.92337959127
+    ],
+    [
+      "2026-04-28",
+      0.92584166328
     ]
   ],
   "historico_dy": [
@@ -18235,6 +18272,18 @@
     [
       "2026-04-23",
       13.2086
+    ],
+    [
+      "2026-04-24",
+      13.2597
+    ],
+    [
+      "2026-04-27",
+      13.3319
+    ],
+    [
+      "2026-04-28",
+      13.2964
     ]
   ],
   "historico_dpc": [
@@ -18455,13 +18504,7 @@
       1.0
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 282689.11,
-    "Cotas de FIIs": 69963962.59,
-    "CRI/CRA": 339434350.89,
-    "Outros": 3.338209353387356e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -18668,7 +18711,7 @@
         "vencimento": "",
         "quantidade": 8606.0,
         "valor": 8632327.04,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Bit Barueri"
       },
       {
         "tipo": "CRI/CRA",
@@ -18700,7 +18743,7 @@
         "vencimento": "",
         "quantidade": 3750.0,
         "valor": 3761471.82,
-        "nome_cri": "CRI Trinity"
+        "nome_cri": "CRI Bit Barueri"
       },
       {
         "tipo": "CRI/CRA",

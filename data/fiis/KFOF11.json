@@ -4,18 +4,19 @@
     "Ticker": "KFOF11",
     "Nome": "Fundo de Fundos de Investimento Imobiliário Kinea FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0157,
-    "Retorno - 12M": 0.217,
+    "Retorno - MTD": 0.0115,
+    "Retorno - 12M": 0.1626,
     "P/VP": 0.9,
     "Último Dividendo Pago": 0.8,
-    "DY a.a.": 0.114,
+    "DY a.a.": 0.115,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, com gestão ativa e objetivo de capturar renda e valorização no mercado imobiliário listado. É gerido pela Kinea e teve início em março de 2018. A estratégia combina diversificação entre fundos e reciclagem tática de portfólio.",
     "Comentário": "Em março, cota patrimonial do KFOF caiu 0,14%, desempenho 0,92% superior à queda de 1,06% do IFIX, refletindo conflito geopolítico elevando expectativas de inflação e reduzindo espaço para cortes de juros. Distribuição anunciada de R$0,80/cota mantém patamar de R$0,75 a R$0,85 para primeiro semestre. Gestão reduziu posições em CRI e Multiestratégia, encerrando posições short em Shoppings com lucro.",
-    "Preço Atual": 84.2,
-    "% Dias Acima CDI 1A": 0.5081,
-    "% Dias Acima CDI 3A": 0.5503,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 83.67,
+    "% Dias Acima CDI 1A": 0.5202,
+    "% Dias Acima CDI 3A": 0.5529,
     "% Dias Acima CDI 5A": 0.4321,
-    "% Dias Acima CDI MAX": 0.4218
+    "% Dias Acima CDI MAX": 0.4229
   },
   "historico_preco": [
     [
@@ -7141,6 +7142,18 @@
     [
       "2026-04-23",
       84.0
+    ],
+    [
+      "2026-04-24",
+      84.1
+    ],
+    [
+      "2026-04-27",
+      84.4
+    ],
+    [
+      "2026-04-28",
+      83.81
     ]
   ],
   "historico_preco_adj": [
@@ -14267,6 +14280,18 @@
     [
       "2026-04-23",
       84.0
+    ],
+    [
+      "2026-04-24",
+      84.1
+    ],
+    [
+      "2026-04-27",
+      84.4
+    ],
+    [
+      "2026-04-28",
+      83.81
     ]
   ],
   "historico_pvp": [
@@ -21745,6 +21770,18 @@
     [
       "2026-04-23",
       0.90081265361
+    ],
+    [
+      "2026-04-24",
+      0.90188504963
+    ],
+    [
+      "2026-04-27",
+      0.90510223768
+    ],
+    [
+      "2026-04-28",
+      0.89877510118
     ]
   ],
   "historico_dy": [
@@ -28859,6 +28896,18 @@
     [
       "2026-04-23",
       11.4286
+    ],
+    [
+      "2026-04-24",
+      11.415
+    ],
+    [
+      "2026-04-27",
+      11.3744
+    ],
+    [
+      "2026-04-28",
+      11.4545
     ]
   ],
   "historico_dpc": [
@@ -29207,12 +29256,7 @@
       0.8
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 81901459.63,
-    "Cotas de FIIs": 504957327.15,
-    "CRI/CRA": 80185785.7
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

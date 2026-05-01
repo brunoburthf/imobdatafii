@@ -4,18 +4,19 @@
     "Ticker": "TRXF11",
     "Nome": "Trx Real Estate FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0096,
-    "Retorno - 12M": 0.0019,
+    "Retorno - MTD": 0.0099,
+    "Retorno - 12M": 0.0105,
     "P/VP": 0.92,
     "Último Dividendo Pago": 0.93,
     "DY a.a.": 0.122,
     "Visão Geral": "FII de renda urbana que investe em imóveis com vocação logística, varejista, industrial e corporativa, buscando locação e ganho de capital no longo prazo. A gestora TRX foca regiões metropolitanas das principais cidades do Brasil e contratos de longo prazo com grandes empresas. A estratégia combina desenvolvimento, aquisição e gestão ativa.",
     "Comentário": "O fundo celebrou CCV para aquisição de lajes do Hospital Sírio-Libanês por R$ 328,4MM, adicionando 10.051,27m² de ABL com cap rate de 8,0% em contrato de longo prazo. Distribuiu R$ 0,93/cota (12,15% anualizado) e mantém guidance entre R$ 0,90-R$ 0,93 até dezembro. Paulo Tilkian assumiu como portfolio manager da tese de shopping, reforçando expertise operacional.",
-    "Preço Atual": 91.8,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 91.69,
     "% Dias Acima CDI 1A": 0.1331,
-    "% Dias Acima CDI 3A": 0.3664,
-    "% Dias Acima CDI 5A": 0.5205,
-    "% Dias Acima CDI MAX": 0.5279
+    "% Dias Acima CDI 3A": 0.3641,
+    "% Dias Acima CDI 5A": 0.5181,
+    "% Dias Acima CDI MAX": 0.5267
   },
   "historico_preco": [
     [
@@ -6209,6 +6210,18 @@
     [
       "2026-04-23",
       91.73
+    ],
+    [
+      "2026-04-24",
+      91.77
+    ],
+    [
+      "2026-04-27",
+      91.78
+    ],
+    [
+      "2026-04-28",
+      91.8
     ]
   ],
   "historico_preco_adj": [
@@ -12403,6 +12416,18 @@
     [
       "2026-04-23",
       91.73
+    ],
+    [
+      "2026-04-24",
+      91.77
+    ],
+    [
+      "2026-04-27",
+      91.78
+    ],
+    [
+      "2026-04-28",
+      91.8
     ]
   ],
   "historico_pvp": [
@@ -18933,6 +18958,18 @@
     [
       "2026-04-23",
       0.91747576977
+    ],
+    [
+      "2026-04-24",
+      0.91787584641
+    ],
+    [
+      "2026-04-27",
+      0.91797586558
+    ],
+    [
+      "2026-04-28",
+      0.9181759039
     ]
   ],
   "historico_dy": [
@@ -25095,6 +25132,18 @@
     [
       "2026-04-23",
       12.1661
+    ],
+    [
+      "2026-04-24",
+      12.1608
+    ],
+    [
+      "2026-04-27",
+      12.1595
+    ],
+    [
+      "2026-04-28",
+      12.1569
     ]
   ],
   "historico_dpc": [
@@ -25399,16 +25448,7 @@
       0.93
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 112747044.22,
-    "Imóveis": 4439010227.89,
-    "Desenvolvimento": 1096463665.9,
-    "Terrenos": 101757336.87,
-    "Cotas de FIIs": 1924435420.1,
-    "CRI/CRA": 576169073.57,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 795780468.7
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -25442,7 +25482,7 @@
         "vencimento": "",
         "quantidade": 38000.0,
         "valor": 38888171.9,
-        "nome_cri": "CRI Campos do Jordão"
+        "nome_cri": "CRI Aura Campo Belo"
       },
       {
         "tipo": "FII",
@@ -25569,7 +25609,7 @@
         "vencimento": "",
         "quantidade": 23659.0,
         "valor": 20364703.51,
-        "nome_cri": "CRI Aura Vila Mariana"
+        "nome_cri": "CRI 0246S - Aura Vila Mariana"
       },
       {
         "tipo": "FII",

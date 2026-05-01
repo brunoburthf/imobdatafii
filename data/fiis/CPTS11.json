@@ -4,18 +4,19 @@
     "Ticker": "CPTS11",
     "Nome": "Capitânia Securities II FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0087,
-    "Retorno - 12M": 0.2221,
+    "Retorno - MTD": 0.0011,
+    "Retorno - 12M": 0.2001,
     "P/VP": 0.88,
     "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.136,
+    "DY a.a.": 0.137,
     "Visão Geral": "FII de papel que investe em CRIs, cotas de FII, cotas de FIDC, debêntures, LCI, LIG e outros valores mobiliários de origem imobiliária. Tem gestão da Capitânia e mandato amplo, podendo ainda alocar parte do patrimônio em ações imobiliárias. A estratégia busca rentabilidade com diversificação de crédito e instrumentos listados.",
     "Comentário": "Distribuiu R$ 0,090/cota com dividend yield mensal de 1,11%, equivalente a 13,02% ao ano em 12 meses. TIR média dos FIIs investidos de 20,0% a.a. superou IFIX em 4 p.p. Carteira com 85 FIIs representa 68,8% dos ativos com potencial de valorização de 10,4% sobre PL considerando marcação patrimonial. Desde 2014, distribuição anualizada foi de 12,3% contra 8,9% do CDI líquido.",
-    "Preço Atual": 7.94,
-    "% Dias Acima CDI 1A": 0.5161,
-    "% Dias Acima CDI 3A": 0.3369,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 7.93,
+    "% Dias Acima CDI 1A": 0.5282,
+    "% Dias Acima CDI 3A": 0.34,
     "% Dias Acima CDI 5A": 0.3944,
-    "% Dias Acima CDI MAX": 0.5406
+    "% Dias Acima CDI MAX": 0.541
   },
   "historico_preco": [
     [
@@ -11133,6 +11134,18 @@
     [
       "2026-04-23",
       7.95
+    ],
+    [
+      "2026-04-24",
+      7.96
+    ],
+    [
+      "2026-04-27",
+      7.96
+    ],
+    [
+      "2026-04-28",
+      7.94
     ]
   ],
   "historico_preco_adj": [
@@ -21283,6 +21296,18 @@
     [
       "2026-04-23",
       7.95
+    ],
+    [
+      "2026-04-24",
+      7.96
+    ],
+    [
+      "2026-04-27",
+      7.96
+    ],
+    [
+      "2026-04-28",
+      7.94
     ]
   ],
   "historico_pvp": [
@@ -33441,6 +33466,18 @@
     [
       "2026-04-23",
       0.88197130584
+    ],
+    [
+      "2026-04-24",
+      0.8830807037
+    ],
+    [
+      "2026-04-27",
+      0.8830807037
+    ],
+    [
+      "2026-04-28",
+      0.88086190797
     ]
   ],
   "historico_dy": [
@@ -43591,6 +43628,18 @@
     [
       "2026-04-23",
       13.5849
+    ],
+    [
+      "2026-04-24",
+      13.5678
+    ],
+    [
+      "2026-04-27",
+      13.5678
+    ],
+    [
+      "2026-04-28",
+      13.602
     ]
   ],
   "historico_dpc": [
@@ -44091,12 +44140,7 @@
       0.09
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 3053092.49,
-    "Cotas de FIIs": 2784070213.8,
-    "CRI/CRA": 907401613.15
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

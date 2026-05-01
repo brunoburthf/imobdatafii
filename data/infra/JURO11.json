@@ -6,17 +6,17 @@
     "Tipo": "FI-Infra",
     "Setor": "FI-Infra",
     "CNPJ": "42730834000100",
-    "Preço Atual": 103.2,
-    "Variação Dia": -0.42,
-    "P/VP": 1.0198362952256694,
-    "VP/cota": 101.1927115,
-    "DY a.a.": 0.11627906976744186,
+    "Preço Atual": 104.3,
+    "Variação Dia": -0.05,
+    "P/VP": 1.0332964975515664,
+    "VP/cota": 100.9390821,
+    "DY a.a.": 0.11505273250239693,
     "Último Dividendo Pago": 1.0,
-    "Retorno - MTD": 0.009488408490658351,
-    "Retorno - 12M": 0.1881887426981772,
-    "Visão Geral": "FI-Infra de renda fixa gerido pela Sparta, especializada em crédito privado, com mandato centrado em debêntures incentivadas (Lei 12.431) indexadas ao IPCA e benchmark atrelado ao IMA-B 5. A filosofia é de gestão ativa, com pulverização por emissor nos principais setores de infraestrutura — energia, saneamento, rodovias, telecom, gás e transporte — e uso tático de instrumentos de hedge para ajustar a duration do risco de mercado conforme o cenário de juros reais. A estrutura fechada do veículo permite postura contracíclica, sem pressão de resgates. Traço estrutural é a isenção total de IR para pessoa física sobre rendimentos e ganho de capital.",
-    "Comentário": "A distribuição foi mantida em R$ 1,00/cota, com DY de 12,3% em 12 meses. O gestor iniciou exposição em sete novos emissores (Claro, Compagas, TotalEnergies, Neoenergia, EDP, Coruripe e Paranaíba), elevando o spread da carteira para CDI+1,0%, reduzindo a duration para 4,7 anos e o caixa para 8%. A reserva acumulada para distribuição futura encerrou em R$ 1,21/cota.",
-    "Mês Ref. Comentário": "mar/26"
+    "Retorno - MTD": 0.0029810558707568102,
+    "Retorno - 12M": 0.2039279270269152,
+    "Visão Geral": null,
+    "Comentário": null,
+    "Mês Ref. Comentário": null
   },
   "historico_preco": [
     [
@@ -4350,6 +4350,18 @@
     [
       "2026-04-23",
       102.59
+    ],
+    [
+      "2026-04-24",
+      103.64
+    ],
+    [
+      "2026-04-27",
+      103.52
+    ],
+    [
+      "2026-04-28",
+      103.99
     ]
   ],
   "historico_preco_adj": [
@@ -8684,6 +8696,18 @@
     [
       "2026-04-23",
       102.59
+    ],
+    [
+      "2026-04-24",
+      103.64
+    ],
+    [
+      "2026-04-27",
+      103.52
+    ],
+    [
+      "2026-04-28",
+      103.99
     ]
   ],
   "historico_dy": [
@@ -12726,6 +12750,18 @@
     [
       "2026-04-23",
       11.697
+    ],
+    [
+      "2026-04-24",
+      11.5785
+    ],
+    [
+      "2026-04-27",
+      11.592
+    ],
+    [
+      "2026-04-28",
+      11.5396
     ]
   ],
   "historico_pvp": [
@@ -16971,63 +17007,75 @@
     ],
     [
       "2026-04-01",
-      1.0073
+      1.0074
     ],
     [
       "2026-04-02",
-      1.0134
+      1.0135
     ],
     [
       "2026-04-06",
-      1.0103
+      1.0109
     ],
     [
       "2026-04-07",
-      1.0088
+      1.0095
     ],
     [
       "2026-04-08",
-      1.0113
+      1.012
     ],
     [
       "2026-04-09",
-      1.0115
-    ],
-    [
-      "2026-04-10",
-      1.0127
-    ],
-    [
-      "2026-04-13",
       1.0123
     ],
     [
-      "2026-04-14",
-      1.0072
+      "2026-04-10",
+      1.0136
     ],
     [
-      "2026-04-15",
+      "2026-04-13",
+      1.0135
+    ],
+    [
+      "2026-04-14",
       1.0085
     ],
     [
+      "2026-04-15",
+      1.0098
+    ],
+    [
       "2026-04-16",
-      1.015
+      1.0165
     ],
     [
       "2026-04-17",
-      1.0178
+      1.0193
     ],
     [
       "2026-04-20",
-      1.0154
+      1.0172
     ],
     [
       "2026-04-22",
-      1.0167
+      1.0186
     ],
     [
       "2026-04-23",
-      1.0138
+      1.0159
+    ],
+    [
+      "2026-04-24",
+      1.0264
+    ],
+    [
+      "2026-04-27",
+      1.0255
+    ],
+    [
+      "2026-04-28",
+      1.0302
     ]
   ],
   "historico_vp": [
@@ -17240,8 +17288,8 @@
       101.20997474
     ],
     [
-      "2026-04-23",
-      101.1927115
+      "2026-04-28",
+      100.9390821
     ]
   ],
   "historico_dpc": [

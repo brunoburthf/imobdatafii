@@ -4,18 +4,19 @@
     "Ticker": "KIVO11",
     "Nome": "Kilima Volkano Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0193,
-    "Retorno - 12M": 0.2085,
+    "Retorno - MTD": 0.023,
+    "Retorno - 12M": 0.1831,
     "P/VP": 0.76,
     "Último Dividendo Pago": 0.88,
     "DY a.a.": 0.162,
-    "Visão Geral": "FII de papel que investe em CRIs e outros títulos de crédito imobiliário, com foco em renda mensal recorrente. É gerido pela Kilima, tem perfil de gestão ativa e se posiciona no segmento de recebíveis imobiliários. Porte, diversificação detalhada, indexadores predominantes e perfil dos devedores aparecem como N/A nas fontes consultadas.",
+    "Visão Geral": "FII de papel que investe em CRIs e outros títulos de crédito imobiliário, com foco em renda mensal recorrente. É gerido pela Kilima, tem perfil de gestão ativa e se posiciona no segmento de recebíveis imobiliários.",
     "Comentário": "O fundo anunciou divisor de R$0,86/cota em fevereiro, impactado pela liquidação antecipada do CRI Costa Hirota e integralização da posição em CRI Braspark no recém-criado FII Alianza Renda Mais. A mudança reflete uma realocação estratégica para operações de crédito imobiliário com potencial de IPC-A+13% a.a., reposicionando a carteira em direção a ativos com melhor relação risco-retorno.",
-    "Preço Atual": 65.02,
-    "% Dias Acima CDI 1A": 0.3185,
-    "% Dias Acima CDI 3A": 0.3034,
-    "% Dias Acima CDI 5A": 0.2909,
-    "% Dias Acima CDI MAX": 0.2909
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 64.92,
+    "% Dias Acima CDI 1A": 0.3306,
+    "% Dias Acima CDI 3A": 0.3066,
+    "% Dias Acima CDI 5A": 0.2936,
+    "% Dias Acima CDI MAX": 0.2936
   },
   "historico_preco": [
     [
@@ -3921,6 +3922,18 @@
     [
       "2026-04-23",
       64.95
+    ],
+    [
+      "2026-04-24",
+      65.05
+    ],
+    [
+      "2026-04-27",
+      64.99
+    ],
+    [
+      "2026-04-28",
+      65.01
     ]
   ],
   "historico_preco_adj": [
@@ -7827,6 +7840,18 @@
     [
       "2026-04-23",
       64.95
+    ],
+    [
+      "2026-04-24",
+      65.05
+    ],
+    [
+      "2026-04-27",
+      64.99
+    ],
+    [
+      "2026-04-28",
+      65.01
     ]
   ],
   "historico_pvp": [
@@ -12129,6 +12154,18 @@
     [
       "2026-04-23",
       0.75896260715
+    ],
+    [
+      "2026-04-24",
+      0.76013114081
+    ],
+    [
+      "2026-04-27",
+      0.75943002061
+    ],
+    [
+      "2026-04-28",
+      0.75966372735
     ]
   ],
   "historico_dy": [
@@ -15999,6 +16036,18 @@
     [
       "2026-04-23",
       16.2587
+    ],
+    [
+      "2026-04-24",
+      16.2337
+    ],
+    [
+      "2026-04-27",
+      16.2487
+    ],
+    [
+      "2026-04-28",
+      16.2437
     ]
   ],
   "historico_dpc": [
@@ -16199,12 +16248,7 @@
       0.88
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 52104218.83,
-    "Cotas de FIIs": 41361213.43,
-    "CRI/CRA": 97044755.62
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -16362,7 +16406,7 @@
         "vencimento": "",
         "quantidade": 8200.0,
         "valor": 3551669.77,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI VIC IV"
       },
       {
         "tipo": "CRI/CRA",
@@ -16383,7 +16427,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 814.0,
-        "valor": 833826.55
+        "valor": 833826.55,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -16497,7 +16542,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 1619.0,
-        "valor": 1658433.89
+        "valor": 1658433.89,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -16518,7 +16564,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 1215.0,
-        "valor": 1244593.69
+        "valor": 1244593.69,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -16560,7 +16607,7 @@
         "vencimento": "",
         "quantidade": 3063.0,
         "valor": 3072138.51,
-        "nome_cri": "CRI Trinity"
+        "nome_cri": "CRI Realiza V (Goiânia)"
       },
       {
         "tipo": "CRI/CRA",
@@ -16622,7 +16669,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 1000.0,
-        "valor": 959799.66
+        "valor": 959799.66,
+        "nome_cri": "CRI SPE Terraz Condomínio Clube Ltda."
       },
       {
         "tipo": "FII",
@@ -16642,7 +16690,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 1500.0,
-        "valor": 1439597.17
+        "valor": 1439597.17,
+        "nome_cri": "CRI SPE Terraz Condomínio Clube Ltda."
       },
       {
         "tipo": "FII",
@@ -16713,7 +16762,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 1500.0,
-        "valor": 1439699.5
+        "valor": 1439699.5,
+        "nome_cri": "CRI SPE Terraz Condomínio Clube Ltda."
       },
       {
         "tipo": "CRI/CRA",
@@ -16733,7 +16783,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 2500.0,
-        "valor": 2399499.17
+        "valor": 2399499.17,
+        "nome_cri": "CRI SPE Terraz Condomínio Clube Ltda."
       },
       {
         "tipo": "FII",
@@ -16754,7 +16805,7 @@
         "vencimento": "",
         "quantidade": 7123.0,
         "valor": 7095982.16,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Realiza V (Goiânia)"
       },
       {
         "tipo": "CRI/CRA",
@@ -16794,7 +16845,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 1000.0,
-        "valor": 959731.44
+        "valor": 959731.44,
+        "nome_cri": "CRI SPE Terraz Condomínio Clube Ltda."
       },
       {
         "tipo": "CRI/CRA",
@@ -16804,7 +16856,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 3000.0,
-        "valor": 767989.4
+        "valor": 767989.4,
+        "nome_cri": "CRI AR22 Incorporação e Construção"
       },
       {
         "tipo": "CRI/CRA",
@@ -16835,7 +16888,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 2084.0,
-        "valor": 2134759.88
+        "valor": 2134759.88,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -16915,7 +16969,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 2500.0,
-        "valor": 2399328.61
+        "valor": 2399328.61,
+        "nome_cri": "CRI SPE Terraz Condomínio Clube Ltda."
       },
       {
         "tipo": "FII",

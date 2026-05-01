@@ -4,18 +4,19 @@
     "Ticker": "ARRI11",
     "Nome": "FII Atrio Reit Recebiveis Imobiliarios",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.1074,
-    "Retorno - 12M": -0.0451,
-    "P/VP": 0.72,
+    "Retorno - MTD": -0.1044,
+    "Retorno - 12M": -0.0483,
+    "P/VP": 0.73,
     "Último Dividendo Pago": 0.07,
     "DY a.a.": 0.138,
     "Visão Geral": "FII de papel que investe em CRIs, LCIs, LHs e outros ativos financeiros imobiliários, com foco em crédito e renda recorrente. É gerido pela Atrio e iniciou atividades em outubro de 2019. A estratégia prioriza originação própria, gestão ativa e carteira voltada ao mercado de recebíveis imobiliários.",
     "Comentário": "O ARRI11 distribuiu R$0,09/cota em fevereiro, mantendo consistência em rendimentos, com dividend yield mensal de 1,28% e anualizado de 16,47%. A carteira de crédito imobiliário permaneceu estável com taxa média de IPCA+11,64% e CDI+5,02%, diversificada entre 20 ativos em 8 estados. O gestor prosseguiu com foco em operações high-yield com garantias estruturadas, preservando o padrão de risco.",
-    "Preço Atual": 6.08,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 6.13,
     "% Dias Acima CDI 1A": 0.0,
-    "% Dias Acima CDI 3A": 0.3302,
-    "% Dias Acima CDI 5A": 0.4843,
-    "% Dias Acima CDI MAX": 0.4853
+    "% Dias Acima CDI 3A": 0.3293,
+    "% Dias Acima CDI 5A": 0.4819,
+    "% Dias Acima CDI MAX": 0.4842
   },
   "historico_preco": [
     [
@@ -6433,6 +6434,18 @@
     [
       "2026-04-23",
       6.11
+    ],
+    [
+      "2026-04-24",
+      6.07
+    ],
+    [
+      "2026-04-27",
+      6.08
+    ],
+    [
+      "2026-04-28",
+      6.08
     ]
   ],
   "historico_preco_adj": [
@@ -12851,6 +12864,18 @@
     [
       "2026-04-23",
       6.11
+    ],
+    [
+      "2026-04-24",
+      6.07
+    ],
+    [
+      "2026-04-27",
+      6.08
+    ],
+    [
+      "2026-04-28",
+      6.08
     ]
   ],
   "historico_pvp": [
@@ -19593,6 +19618,18 @@
     [
       "2026-04-23",
       0.72930834825
+    ],
+    [
+      "2026-04-24",
+      0.72453382551
+    ],
+    [
+      "2026-04-27",
+      0.72572745619
+    ],
+    [
+      "2026-04-28",
+      0.72572745619
     ]
   ],
   "historico_dy": [
@@ -25879,6 +25916,18 @@
     [
       "2026-04-23",
       13.748
+    ],
+    [
+      "2026-04-24",
+      13.8386
+    ],
+    [
+      "2026-04-27",
+      13.8158
+    ],
+    [
+      "2026-04-28",
+      13.8158
     ]
   ],
   "historico_dpc": [
@@ -26191,14 +26240,7 @@
       0.07
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 4641639.03,
-    "Cotas de FIIs": 24825727.71,
-    "CRI/CRA": 133176101.85,
-    "Debêntures": 5186796.02,
-    "FIDCs": 5888060.6
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,18 +4,19 @@
     "Ticker": "JSAF11",
     "Nome": "Js Ativos Financeiros FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0142,
-    "Retorno - 12M": 0.1534,
+    "Retorno - MTD": 0.0194,
+    "Retorno - 12M": 0.1204,
     "P/VP": 0.84,
     "Último Dividendo Pago": 0.08,
     "DY a.a.": 0.122,
     "Visão Geral": "FII híbrido que investe em cotas de FIIs, CRIs e ações de empresas do segmento imobiliário, com mandato amplo e gestão ativa. É gerido pelo Safra Asset. A estratégia busca aproveitar oportunidades ao longo dos ciclos do setor, combinando ativos listados e crédito para gerar renda recorrente e ganho de capital.",
     "Comentário": "Em fevereiro, JSAF11 registrou valorização consolidada de 1,04%, superando índice IFIX em 0,32 p.p. Distribuição anunciada de R$0,080/cota corresponde a yield mensal de 0,99% ou 11,84% a.a., mantendo patamar iniciado em novembro. Resultado auferido foi superior ao distribuído, impulsionado por destravas de valor, permitindo recomposição de reservas para positiva em R$0,022/cota.",
-    "Preço Atual": 7.87,
-    "% Dias Acima CDI 1A": 0.3589,
-    "% Dias Acima CDI 3A": 0.557,
-    "% Dias Acima CDI 5A": 0.5018,
-    "% Dias Acima CDI MAX": 0.5018
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 7.9,
+    "% Dias Acima CDI 1A": 0.3629,
+    "% Dias Acima CDI 3A": 0.5556,
+    "% Dias Acima CDI 5A": 0.5012,
+    "% Dias Acima CDI MAX": 0.5012
   },
   "historico_preco": [
     [
@@ -4420,6 +4421,18 @@
     ],
     [
       "2026-04-23",
+      7.84
+    ],
+    [
+      "2026-04-24",
+      7.86
+    ],
+    [
+      "2026-04-27",
+      7.85
+    ],
+    [
+      "2026-04-28",
       7.84
     ]
   ],
@@ -8826,6 +8839,18 @@
     ],
     [
       "2026-04-23",
+      7.84
+    ],
+    [
+      "2026-04-24",
+      7.86
+    ],
+    [
+      "2026-04-27",
+      7.85
+    ],
+    [
+      "2026-04-28",
       7.84
     ]
   ],
@@ -13437,6 +13462,18 @@
     [
       "2026-04-23",
       0.83754285691
+    ],
+    [
+      "2026-04-24",
+      0.83967944583
+    ],
+    [
+      "2026-04-27",
+      0.83861115137
+    ],
+    [
+      "2026-04-28",
+      0.83754285691
     ]
   ],
   "historico_dy": [
@@ -17823,6 +17860,18 @@
     [
       "2026-04-23",
       12.2449
+    ],
+    [
+      "2026-04-24",
+      12.2137
+    ],
+    [
+      "2026-04-27",
+      12.2293
+    ],
+    [
+      "2026-04-28",
+      12.2449
     ]
   ],
   "historico_dpc": [
@@ -18039,13 +18088,7 @@
       0.08
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 87396923.93,
-    "Cotas de FIIs": 610047896.3,
-    "CRI/CRA": 28343620.67,
-    "Outros": 4172844.899999998
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

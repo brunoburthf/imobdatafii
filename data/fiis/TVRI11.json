@@ -4,18 +4,19 @@
     "Ticker": "TVRI11",
     "Nome": "Tivio Renda Imobiliária FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": -0.0096,
-    "Retorno - 12M": 0.3008,
+    "Retorno - MTD": -0.0085,
+    "Retorno - 12M": 0.2736,
     "P/VP": 0.94,
     "Último Dividendo Pago": 1.05,
     "DY a.a.": 0.128,
     "Visão Geral": "FII de renda urbana que investe em imóveis locados principalmente ao Banco do Brasil, com origem em agências bancárias e prédios comerciais. O fundo, antigo BB Progressivo II, foi estruturado para adquirir imóveis do banco e alugá-los em contratos atípicos de 10 anos. A estratégia busca renda recorrente com gestão ativa.",
     "Comentário": "O fundo distribuiu R$ 1,05/cota, refletindo resultado total de R$ 1,13/cota e dividend yield de 12,58% anualizado. Recebeu notificações de rescisão parcial de agências (Praça Rui Barbosa-Bauru e Belém-Centro), elevando vacância projetada para 2% em maio. Segue ativo na reciclagem do portfólio, com 8 vendas acumulando R$ 162,7MM desde início da gestão ativa, gerando R$ 2,89/cota em lucro.",
-    "Preço Atual": 97.82,
-    "% Dias Acima CDI 1A": 0.4516,
-    "% Dias Acima CDI 3A": 0.6376,
-    "% Dias Acima CDI 5A": 0.4129,
-    "% Dias Acima CDI MAX": 0.4883
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 97.55,
+    "% Dias Acima CDI 1A": 0.4637,
+    "% Dias Acima CDI 3A": 0.6386,
+    "% Dias Acima CDI 5A": 0.4153,
+    "% Dias Acima CDI MAX": 0.4888
   },
   "historico_preco": [
     [
@@ -13269,6 +13270,18 @@
     [
       "2026-04-23",
       98.18
+    ],
+    [
+      "2026-04-24",
+      98.16
+    ],
+    [
+      "2026-04-27",
+      97.97
+    ],
+    [
+      "2026-04-28",
+      97.62
     ]
   ],
   "historico_preco_adj": [
@@ -23507,6 +23520,18 @@
     [
       "2026-04-23",
       98.18
+    ],
+    [
+      "2026-04-24",
+      98.16
+    ],
+    [
+      "2026-04-27",
+      97.97
+    ],
+    [
+      "2026-04-28",
+      97.62
     ]
   ],
   "historico_pvp": [
@@ -37461,6 +37486,18 @@
     [
       "2026-04-23",
       0.94229131216
+    ],
+    [
+      "2026-04-24",
+      0.94209936038
+    ],
+    [
+      "2026-04-27",
+      0.94027581842
+    ],
+    [
+      "2026-04-28",
+      0.93691666218
     ]
   ],
   "historico_dy": [
@@ -47699,6 +47736,18 @@
     [
       "2026-04-23",
       12.8336
+    ],
+    [
+      "2026-04-24",
+      12.8362
+    ],
+    [
+      "2026-04-27",
+      12.8611
+    ],
+    [
+      "2026-04-28",
+      12.9072
     ]
   ],
   "historico_dpc": [
@@ -48199,12 +48248,6 @@
       1.05
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 40362530.2,
-    "Imóveis": 1544217362.8,
-    "Cotas de FIIs": 36375749.81,
-    "CRI/CRA": 3301047.79
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

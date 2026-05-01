@@ -4,18 +4,19 @@
     "Ticker": "RBRX11",
     "Nome": "Rbr Plus Multiestratégia Real Estate FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0376,
-    "Retorno - 12M": 0.2564,
-    "P/VP": 0.9,
+    "Retorno - MTD": 0.0246,
+    "Retorno - 12M": 0.2439,
+    "P/VP": 0.88,
     "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.122,
+    "DY a.a.": 0.124,
     "Visão Geral": "FII híbrido que investe em FIIs, CRIs e outros ativos líquidos ligados ao mercado imobiliário, com foco em rendimentos e ganho de capital. É gerido pela RBR e atua em estratégia multiestratégia imobiliária. A carteira combina exposição a fundos listados e crédito para diversificação e geração recorrente de resultados.",
     "Comentário": "A Patria passou à gestão em fevereiro, realizando ajustes estratégicos para reduzir exposição a tijolo performado. Portfólio retornou +1,0% patrimonial vs. +1,3% do IFIX, com distribuição mantida em R$ 0,09/cota. PMLL11 estrutura aquisição de RBR Malls com impacto positivo estimado em carrego acima de R$ 700 mil mensais.",
-    "Preço Atual": 8.78,
-    "% Dias Acima CDI 1A": 0.375,
-    "% Dias Acima CDI 3A": 0.4673,
-    "% Dias Acima CDI 5A": 0.4673,
-    "% Dias Acima CDI MAX": 0.4673
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 8.79,
+    "% Dias Acima CDI 1A": 0.3871,
+    "% Dias Acima CDI 3A": 0.4697,
+    "% Dias Acima CDI 5A": 0.4697,
+    "% Dias Acima CDI MAX": 0.4697
   },
   "historico_preco": [
     [
@@ -3645,6 +3646,18 @@
     [
       "2026-04-23",
       8.72
+    ],
+    [
+      "2026-04-24",
+      8.82
+    ],
+    [
+      "2026-04-27",
+      8.72
+    ],
+    [
+      "2026-04-28",
+      8.69
     ]
   ],
   "historico_preco_adj": [
@@ -7275,6 +7288,18 @@
     [
       "2026-04-23",
       8.72
+    ],
+    [
+      "2026-04-24",
+      8.82
+    ],
+    [
+      "2026-04-27",
+      8.72
+    ],
+    [
+      "2026-04-28",
+      8.69
     ]
   ],
   "historico_pvp": [
@@ -11081,6 +11106,18 @@
     [
       "2026-04-23",
       0.88582770245
+    ],
+    [
+      "2026-04-24",
+      0.89598627702
+    ],
+    [
+      "2026-04-27",
+      0.88582770245
+    ],
+    [
+      "2026-04-28",
+      0.88278013008
     ]
   ],
   "historico_dy": [
@@ -14627,6 +14664,18 @@
     [
       "2026-04-23",
       12.3853
+    ],
+    [
+      "2026-04-24",
+      12.2449
+    ],
+    [
+      "2026-04-27",
+      12.3853
+    ],
+    [
+      "2026-04-28",
+      12.4281
     ]
   ],
   "historico_dpc": [
@@ -14803,14 +14852,7 @@
       0.09
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 71440618.94,
-    "Imóveis": 15859059.52,
-    "Cotas de FIIs": 801983713.56,
-    "CRI/CRA": 520472819.47,
-    "Outros": 8.568167686462402e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -15292,7 +15334,7 @@
         "vencimento": "",
         "quantidade": 2193.0,
         "valor": 2199542.84,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pernambuco V"
       },
       {
         "tipo": "CRI/CRA",
@@ -15582,7 +15624,7 @@
         "vencimento": "",
         "quantidade": 10235.0,
         "valor": 10356058.64,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pernambuco Aurora Prince"
       },
       {
         "tipo": "FII",

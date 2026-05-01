@@ -4,18 +4,19 @@
     "Ticker": "PCIP11",
     "Nome": "Patria Crédito Imobiliário Índice de Preços FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0176,
-    "Retorno - 12M": 0.1608,
+    "Retorno - MTD": 0.0206,
+    "Retorno - 12M": 0.1646,
     "P/VP": 0.92,
     "Último Dividendo Pago": 0.85,
     "DY a.a.": 0.119,
     "Visão Geral": "FII de papel que investe em CRIs indexados ao IPCA, atuando em um espectro amplo de crédito imobiliário. É gerido pelo Patria, tem patrimônio líquido de R$ 1,023 bilhão e 83.720 cotistas na base de agosto de 2025. A estratégia prioriza renda recorrente com carteira preponderantemente exposta a inflação.",
     "Comentário": "Resultado distribuível de R$ 0,84/cota com distribuição de R$ 0,80/cota em fevereiro. Fundo encerrou com 87,2% em CRI e operações estruturadas (IPCA + 10,5% a.a.), 7,7% em FII, prazo médio de 3,4 anos. Gestão aumentou posição no CRI Edificatto (R$ 0,4 milhões).",
-    "Preço Atual": 85.82,
-    "% Dias Acima CDI 1A": 0.3468,
-    "% Dias Acima CDI 3A": 0.4322,
-    "% Dias Acima CDI 5A": 0.49,
-    "% Dias Acima CDI MAX": 0.5245
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 85.71,
+    "% Dias Acima CDI 1A": 0.3548,
+    "% Dias Acima CDI 3A": 0.4337,
+    "% Dias Acima CDI 5A": 0.4892,
+    "% Dias Acima CDI MAX": 0.5248
   },
   "historico_preco": [
     [
@@ -6517,6 +6518,18 @@
     [
       "2026-04-23",
       86.13
+    ],
+    [
+      "2026-04-24",
+      85.74
+    ],
+    [
+      "2026-04-27",
+      85.46
+    ],
+    [
+      "2026-04-28",
+      85.05
     ]
   ],
   "historico_preco_adj": [
@@ -13019,6 +13032,18 @@
     [
       "2026-04-23",
       86.13
+    ],
+    [
+      "2026-04-24",
+      85.74
+    ],
+    [
+      "2026-04-27",
+      85.46
+    ],
+    [
+      "2026-04-28",
+      85.05
     ]
   ],
   "historico_pvp": [
@@ -19889,6 +19914,18 @@
     [
       "2026-04-23",
       0.9245010797
+    ],
+    [
+      "2026-04-24",
+      0.92031490274
+    ],
+    [
+      "2026-04-27",
+      0.91730944237
+    ],
+    [
+      "2026-04-28",
+      0.91290858967
     ]
   ],
   "historico_dy": [
@@ -26383,6 +26420,18 @@
     [
       "2026-04-23",
       11.8426
+    ],
+    [
+      "2026-04-24",
+      11.8964
+    ],
+    [
+      "2026-04-27",
+      11.9354
+    ],
+    [
+      "2026-04-28",
+      11.9929
     ]
   ],
   "historico_dpc": [
@@ -26703,12 +26752,6 @@
       0.85
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 75277599.34,
-    "Cotas de FIIs": 267477429.31,
-    "CRI/CRA": 1257848864.9,
-    "Outros": 0.04000009538140148
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

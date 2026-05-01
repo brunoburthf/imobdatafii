@@ -4,18 +4,19 @@
     "Ticker": "JSRE11",
     "Nome": "Js Real Estate Multigestão FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.0113,
-    "Retorno - 12M": 0.1547,
-    "P/VP": 0.65,
+    "Retorno - MTD": -0.0275,
+    "Retorno - 12M": 0.1182,
+    "P/VP": 0.63,
     "Último Dividendo Pago": 0.48,
-    "DY a.a.": 0.087,
+    "DY a.a.": 0.089,
     "Visão Geral": "FII híbrido que investe em imóveis, cotas de FIIs, CRIs e outros ativos imobiliários, com gestão ativa e mandato amplo. É gerido pelo Safra Asset e busca distribuir renda mensal por meio de aluguéis, rendimentos e ganho de capital. A estratégia combina exposição a ativos reais e financeiros do setor.",
     "Comentário": "Fevereiro registrou resultado de R$0,86/cota com dividend yield de 0,72% no mês ou 8,60% a.a. Equipe de gestão realizou locação de 6.660 m² no WT Morumbi para Novartis e entrada do TRT no Ed. Paulista com ganho real de 50% versus contrato anterior. Pré-pagamento do CRI Rochaverá abateu R$135 milhões do passivo do fundo, gerando resultado adicional para o fundo.",
-    "Preço Atual": 65.66,
-    "% Dias Acima CDI 1A": 0.4677,
-    "% Dias Acima CDI 3A": 0.2966,
-    "% Dias Acima CDI 5A": 0.2305,
-    "% Dias Acima CDI MAX": 0.3852
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 64.8,
+    "% Dias Acima CDI 1A": 0.4718,
+    "% Dias Acima CDI 3A": 0.2972,
+    "% Dias Acima CDI 5A": 0.2313,
+    "% Dias Acima CDI MAX": 0.3849
   },
   "historico_preco": [
     [
@@ -13673,6 +13674,18 @@
     [
       "2026-04-23",
       65.95
+    ],
+    [
+      "2026-04-24",
+      65.89
+    ],
+    [
+      "2026-04-27",
+      65.58
+    ],
+    [
+      "2026-04-28",
+      65.61
     ]
   ],
   "historico_preco_adj": [
@@ -23911,6 +23924,18 @@
     [
       "2026-04-23",
       65.95
+    ],
+    [
+      "2026-04-24",
+      65.89
+    ],
+    [
+      "2026-04-27",
+      65.58
+    ],
+    [
+      "2026-04-28",
+      65.61
     ]
   ],
   "historico_pvp": [
@@ -38853,6 +38878,18 @@
     [
       "2026-04-23",
       0.64596684723
+    ],
+    [
+      "2026-04-24",
+      0.64537915943
+    ],
+    [
+      "2026-04-27",
+      0.64234277243
+    ],
+    [
+      "2026-04-28",
+      0.64263661633
     ]
   ],
   "historico_dy": [
@@ -49091,6 +49128,18 @@
     [
       "2026-04-23",
       8.7339
+    ],
+    [
+      "2026-04-24",
+      8.7418
+    ],
+    [
+      "2026-04-27",
+      8.7832
+    ],
+    [
+      "2026-04-28",
+      8.7791
     ]
   ],
   "historico_dpc": [
@@ -49591,14 +49640,7 @@
       0.48
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 27397291.48,
-    "Imóveis": 1617451306.3,
-    "Cotas de FIIs": 13326008.25,
-    "CRI/CRA": 60548811.95,
-    "Outros": 401811171.8999999
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

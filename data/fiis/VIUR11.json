@@ -4,18 +4,19 @@
     "Ticker": "VIUR11",
     "Nome": "Vinci Imoveis Urbanos FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": -0.5895,
-    "Retorno - 12M": -0.5146,
-    "P/VP": 0.28,
+    "Retorno - MTD": -0.5236,
+    "Retorno - 12M": -0.4625,
+    "P/VP": 0.33,
     "Último Dividendo Pago": 0.0,
     "DY a.a.": 0.0,
     "Visão Geral": "FII de renda urbana que investe em imóveis comerciais urbanos, com foco em ativos de varejo e serviços geradores de aluguel. É gerido pela Vinci e contava com 43.783 cotistas em dezembro de 2025. A estratégia combina renda recorrente, reciclagem patrimonial e alocação em imóveis localizados em centros urbanos relevantes.",
     "Comentário": "Resultado negativo de R$-0,102/cota sem distribuição mensal. Fundo declarou primeira amortização parcial de R$102,2 mi (R$3,528/cota) via TRXF11. Inadimplência FACAMP em dois meses reclama providências legais com cobertura via seguro fiança, redefinindo posicionamento e sinalizando possível exit estratégico via TRX.",
-    "Preço Atual": 2.42,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 2.61,
     "% Dias Acima CDI 1A": 0.4153,
-    "% Dias Acima CDI 3A": 0.3973,
-    "% Dias Acima CDI 5A": 0.3529,
-    "% Dias Acima CDI MAX": 0.3529
+    "% Dias Acima CDI 3A": 0.3963,
+    "% Dias Acima CDI 5A": 0.3519,
+    "% Dias Acima CDI MAX": 0.3519
   },
   "historico_preco": [
     [
@@ -4893,6 +4894,18 @@
     [
       "2026-04-23",
       2.21
+    ],
+    [
+      "2026-04-24",
+      2.18
+    ],
+    [
+      "2026-04-27",
+      2.59
+    ],
+    [
+      "2026-04-28",
+      2.52
     ]
   ],
   "historico_preco_adj": [
@@ -9771,6 +9784,18 @@
     [
       "2026-04-23",
       2.21
+    ],
+    [
+      "2026-04-24",
+      2.18
+    ],
+    [
+      "2026-04-27",
+      2.59
+    ],
+    [
+      "2026-04-28",
+      2.52
     ]
   ],
   "historico_pvp": [
@@ -14873,6 +14898,18 @@
     [
       "2026-04-23",
       0.28873038461
+    ],
+    [
+      "2026-04-24",
+      0.28481096762
+    ],
+    [
+      "2026-04-27",
+      0.33837633309
+    ],
+    [
+      "2026-04-28",
+      0.32923102679
     ]
   ],
   "historico_dy": [
@@ -19763,13 +19800,7 @@
       0.0
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 53307049.81,
-    "Imóveis": 48000000.0,
-    "Cotas de FIIs": 107087566.05,
-    "Outros": 8.847564458847046e-09
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

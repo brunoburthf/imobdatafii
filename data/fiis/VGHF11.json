@@ -4,18 +4,19 @@
     "Ticker": "VGHF11",
     "Nome": "Valora Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.0086,
-    "Retorno - 12M": 0.0439,
-    "P/VP": 0.8,
+    "Retorno - MTD": -0.02,
+    "Retorno - 12M": 0.0131,
+    "P/VP": 0.79,
     "Último Dividendo Pago": 0.07,
-    "DY a.a.": 0.121,
+    "DY a.a.": 0.122,
     "Visão Geral": "FII híbrido que investe em ações imobiliárias, debêntures, SPEs, FIPs, FIAs, FIIs, CRIs, FIDCs e outros títulos imobiliários. É gerido pela Valora e adota mandato multiestratégia. A estratégia combina crédito, ativos listados e participações para diversificar a carteira e gerar renda recorrente com flexibilidade de alocação setorial e regional imobiliária.",
     "Comentário": "O fundo atingiu 103,2% de alocação em Ativos-Alvo, distribuindo R$ 0,07/cota mensalmente, equivalente a IPCA+6,8% anualizados sobre cota patrimonial. Na carteira VALOR houve vendas líquidas de R$ 2,9MM em ações e fundos imobiliários. Na carteira RENDA, compras de R$ 421 mil em CRIs mantiveram alocação balanceada entre as estratégias de valor (52,7%) e renda (47,3%).",
-    "Preço Atual": 6.94,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 6.8,
     "% Dias Acima CDI 1A": 0.1573,
-    "% Dias Acima CDI 3A": 0.2564,
-    "% Dias Acima CDI 5A": 0.3579,
-    "% Dias Acima CDI MAX": 0.3579
+    "% Dias Acima CDI 3A": 0.2557,
+    "% Dias Acima CDI 5A": 0.3569,
+    "% Dias Acima CDI MAX": 0.3569
   },
   "historico_preco": [
     [
@@ -5137,6 +5138,18 @@
     [
       "2026-04-23",
       6.92
+    ],
+    [
+      "2026-04-24",
+      6.94
+    ],
+    [
+      "2026-04-27",
+      6.94
+    ],
+    [
+      "2026-04-28",
+      6.89
     ]
   ],
   "historico_preco_adj": [
@@ -10259,6 +10272,18 @@
     [
       "2026-04-23",
       6.92
+    ],
+    [
+      "2026-04-24",
+      6.94
+    ],
+    [
+      "2026-04-27",
+      6.94
+    ],
+    [
+      "2026-04-28",
+      6.89
     ]
   ],
   "historico_pvp": [
@@ -15617,6 +15642,18 @@
     [
       "2026-04-23",
       0.80014602137
+    ],
+    [
+      "2026-04-24",
+      0.80245858213
+    ],
+    [
+      "2026-04-27",
+      0.80245858213
+    ],
+    [
+      "2026-04-28",
+      0.79667718024
     ]
   ],
   "historico_dy": [
@@ -20667,6 +20704,18 @@
     [
       "2026-04-23",
       12.1387
+    ],
+    [
+      "2026-04-24",
+      12.1037
+    ],
+    [
+      "2026-04-27",
+      12.1037
+    ],
+    [
+      "2026-04-28",
+      12.1916
     ]
   ],
   "historico_dpc": [
@@ -20915,15 +20964,7 @@
       0.07
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 20835384.5,
-    "Cotas de FIIs": 825868863.69,
-    "CRI/CRA": 380177228.94,
-    "FIDCs": 14532134.0,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 262508105.11,
-    "Outros": 4763886.179999948
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -21172,7 +21213,7 @@
         "vencimento": "",
         "quantidade": 13400.0,
         "valor": 13585164.09,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor VIII"
       },
       {
         "tipo": "Outros Ativos Financeiros",
@@ -21739,7 +21780,7 @@
         "vencimento": "",
         "quantidade": 9405.0,
         "valor": 11082114.92,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor XV"
       },
       {
         "tipo": "Outras Cotas de FI",
@@ -21760,7 +21801,7 @@
         "vencimento": "",
         "quantidade": 9200.0,
         "valor": 7881677.39,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ditolvo VI"
       },
       {
         "tipo": "Outros Ativos Financeiros",
@@ -21852,7 +21893,7 @@
         "vencimento": "",
         "quantidade": 600.0,
         "valor": 706992.98,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor XV"
       },
       {
         "tipo": "CRI/CRA",
@@ -21953,7 +21994,7 @@
         "vencimento": "",
         "quantidade": 20000.0,
         "valor": 20179027.44,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Realiza 2025"
       },
       {
         "tipo": "FII",
@@ -22479,7 +22520,7 @@
         "vencimento": "",
         "quantidade": 5000.0,
         "valor": 5003343.23,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor IX"
       },
       {
         "tipo": "CRI/CRA",
@@ -22592,7 +22633,7 @@
         "vencimento": "",
         "quantidade": 1700.0,
         "valor": 2003146.77,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor XV"
       },
       {
         "tipo": "FII",

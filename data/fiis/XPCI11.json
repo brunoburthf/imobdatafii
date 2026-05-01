@@ -4,18 +4,19 @@
     "Ticker": "XPCI11",
     "Nome": "Xp Crédito Imobiliário FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.0009,
-    "Retorno - 12M": 0.2109,
+    "Retorno - MTD": -0.0044,
+    "Retorno - 12M": 0.2051,
     "P/VP": 0.95,
     "Último Dividendo Pago": 0.85,
     "DY a.a.": 0.121,
     "Visão Geral": "FII de papel que investe em CRIs, debêntures, LCIs, LHs e cotas de FIIs, com foco em ativos financeiros com lastro imobiliário. Lançado em 2019, é gerido pela XP Asset e busca carteira com CRIs de boa qualidade de crédito. A estratégia prioriza renda recorrente com diversificação de instrumentos.",
     "Comentário": "Distribuição de R$0,85/cota (12,89% a.a., 15,32% com grossup). Receitas totais R$7,6 mi com R$6,8 mi de CRI. Aquisição de R$10 mi CRI Amy II (CDI+2,35%, IPCA+) e redução R$2 mi Arena MRV. Carteira 88,2% IPCA+, 11,8% CDI+, LTV médio 50%, yield médio 10,27% (IPCA+5,58%), posicionando-se defensivamente.",
-    "Preço Atual": 83.93,
-    "% Dias Acima CDI 1A": 0.5484,
-    "% Dias Acima CDI 3A": 0.4725,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 84.72,
+    "% Dias Acima CDI 1A": 0.5605,
+    "% Dias Acima CDI 3A": 0.4752,
     "% Dias Acima CDI 5A": 0.5004,
-    "% Dias Acima CDI MAX": 0.4977
+    "% Dias Acima CDI MAX": 0.4989
   },
   "historico_preco": [
     [
@@ -6337,6 +6338,18 @@
     [
       "2026-04-23",
       84.19
+    ],
+    [
+      "2026-04-24",
+      84.36
+    ],
+    [
+      "2026-04-27",
+      84.28
+    ],
+    [
+      "2026-04-28",
+      83.9
     ]
   ],
   "historico_preco_adj": [
@@ -12659,6 +12672,18 @@
     [
       "2026-04-23",
       84.19
+    ],
+    [
+      "2026-04-24",
+      84.36
+    ],
+    [
+      "2026-04-27",
+      84.28
+    ],
+    [
+      "2026-04-28",
+      83.9
     ]
   ],
   "historico_pvp": [
@@ -19297,6 +19322,18 @@
     [
       "2026-04-23",
       0.94969843255
+    ],
+    [
+      "2026-04-24",
+      0.95161610369
+    ],
+    [
+      "2026-04-27",
+      0.95071367021
+    ],
+    [
+      "2026-04-28",
+      0.94642711119
     ]
   ],
   "historico_dy": [
@@ -25583,6 +25620,18 @@
     [
       "2026-04-23",
       12.1155
+    ],
+    [
+      "2026-04-24",
+      12.091
+    ],
+    [
+      "2026-04-27",
+      12.1025
+    ],
+    [
+      "2026-04-28",
+      12.1573
     ]
   ],
   "historico_dpc": [
@@ -25891,14 +25940,7 @@
       0.85
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 10046304.28,
-    "Cotas de FIIs": 56250558.45,
-    "CRI/CRA": 709241805.31,
-    "Debêntures": 3181028.6,
-    "Outros": 3.818422555923462e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -26111,7 +26153,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 13886.0,
-        "valor": 13115496.1929209
+        "valor": 13115496.1929209,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -26271,7 +26314,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 2542.0,
-        "valor": 2538653.67894621
+        "valor": 2538653.67894621,
+        "nome_cri": "CRI FGR INCORPORAÇÕES S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -26409,7 +26453,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 5000.0,
-        "valor": 3653385.5245
+        "valor": 3653385.5245,
+        "nome_cri": "CRI RTDR PARTICIPAÇÕES S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -26420,7 +26465,7 @@
         "vencimento": "",
         "quantidade": 7027.0,
         "valor": 7075843.686193,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Econ II"
       },
       {
         "tipo": "CRI/CRA",

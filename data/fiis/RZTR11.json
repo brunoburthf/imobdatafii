@@ -4,18 +4,19 @@
     "Ticker": "RZTR11",
     "Nome": "FII Riza Terrax",
     "Setor": "Terras agrícolas",
-    "Retorno - MTD": 0.013,
-    "Retorno - 12M": 0.1905,
-    "P/VP": 1.04,
+    "Retorno - MTD": 0.0015,
+    "Retorno - 12M": 0.1733,
+    "P/VP": 1.03,
     "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.126,
+    "DY a.a.": 0.127,
     "Visão Geral": "FII de agronegócio que investe em imóveis rurais, com foco em aquisição, arrendamento e eventual alienação de propriedades agrícolas. A estratégia busca retorno de longo prazo por meio da exploração econômica das fazendas e da valorização dos ativos. O fundo atua no segmento agro com mandato direcionado a terras produtivas.",
     "Comentário": "Em janeiro distribuiu R$ 1,00/cota com dividend yield de 1,01% mensal (12,88% a.a.). Portfólio de 24 ativos em 84.075 hectares com prazo médio de 10 anos. Completou recebimento das duas primeiras parcelas da venda de Fazenda Clarão da Lua (R$ 43,2 milhões), reconhecendo R$ 23,1 milhões em ganhos.",
-    "Preço Atual": 95.14,
-    "% Dias Acima CDI 1A": 0.7258,
-    "% Dias Acima CDI 3A": 0.4738,
-    "% Dias Acima CDI 5A": 0.5748,
-    "% Dias Acima CDI MAX": 0.5748
+    "Mês Ref. Comentário": "jan/26",
+    "Preço Atual": 90.08,
+    "% Dias Acima CDI 1A": 0.7379,
+    "% Dias Acima CDI 3A": 0.4766,
+    "% Dias Acima CDI 5A": 0.576,
+    "% Dias Acima CDI MAX": 0.576
   },
   "historico_preco": [
     [
@@ -5521,6 +5522,18 @@
     [
       "2026-04-23",
       95.1
+    ],
+    [
+      "2026-04-24",
+      95.2
+    ],
+    [
+      "2026-04-27",
+      95.13
+    ],
+    [
+      "2026-04-28",
+      94.23
     ]
   ],
   "historico_preco_adj": [
@@ -11027,6 +11040,18 @@
     [
       "2026-04-23",
       95.1
+    ],
+    [
+      "2026-04-24",
+      95.2
+    ],
+    [
+      "2026-04-27",
+      95.13
+    ],
+    [
+      "2026-04-28",
+      94.23
     ]
   ],
   "historico_pvp": [
@@ -16745,6 +16770,18 @@
     [
       "2026-04-23",
       1.0365984353
+    ],
+    [
+      "2026-04-24",
+      1.0376884442
+    ],
+    [
+      "2026-04-27",
+      1.036925438
+    ],
+    [
+      "2026-04-28",
+      1.0271153582
     ]
   ],
   "historico_dy": [
@@ -22119,6 +22156,18 @@
     [
       "2026-04-23",
       12.6183
+    ],
+    [
+      "2026-04-24",
+      12.605
+    ],
+    [
+      "2026-04-27",
+      12.6143
+    ],
+    [
+      "2026-04-28",
+      12.7348
     ]
   ],
   "historico_dpc": [
@@ -22387,12 +22436,7 @@
       1.0
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 36595356.51,
-    "Imóveis": 2318618566.8,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 167346595.22
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,18 +4,19 @@
     "Ticker": "GRUL11",
     "Nome": "Icatu Vanguarda Gru Logístico FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0514,
-    "Retorno - 12M": 0.2091,
-    "P/VP": 0.91,
+    "Retorno - MTD": 0.0562,
+    "Retorno - 12M": 0.168,
+    "P/VP": 0.92,
     "Último Dividendo Pago": 0.08,
     "DY a.a.": 0.109,
     "Visão Geral": "FII de logística que investe em direitos de exploração de galpões logísticos localizados dentro do Aeroporto Internacional de Guarulhos. O fundo detém três galpões com 43.274 m² de ABL e concessão válida até fevereiro de 2062. A estratégia prioriza renda de locação e potencial de ganho de capital em renovações.",
     "Comentário": "Em março, GRUL11 formalizou novo contrato de subcessão para Módulo 17 (1.988 m²) no Parque Logístico Aero I, mantendo portfólio sem vacância com ocupação 100% consolidada. Distribuição estável em R$ 0,08/cota reflete operação sólida com certificação LEED em todos os galpões, embora negociação ocorra a desconto significativo frente aos pares do setor logístico.",
-    "Preço Atual": 8.84,
-    "% Dias Acima CDI 1A": 0.7481,
-    "% Dias Acima CDI 3A": 0.7481,
-    "% Dias Acima CDI 5A": 0.7481,
-    "% Dias Acima CDI MAX": 0.7481
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 8.7,
+    "% Dias Acima CDI 1A": 0.7537,
+    "% Dias Acima CDI 3A": 0.7537,
+    "% Dias Acima CDI 5A": 0.7537,
+    "% Dias Acima CDI MAX": 0.7537
   },
   "historico_preco": [
     [
@@ -1537,6 +1538,18 @@
     [
       "2026-04-23",
       8.91
+    ],
+    [
+      "2026-04-24",
+      8.8
+    ],
+    [
+      "2026-04-27",
+      8.67
+    ],
+    [
+      "2026-04-28",
+      8.79
     ]
   ],
   "historico_preco_adj": [
@@ -3059,6 +3072,18 @@
     [
       "2026-04-23",
       8.91
+    ],
+    [
+      "2026-04-24",
+      8.8
+    ],
+    [
+      "2026-04-27",
+      8.67
+    ],
+    [
+      "2026-04-28",
+      8.79
     ]
   ],
   "historico_pvp": [
@@ -4665,6 +4690,18 @@
     [
       "2026-04-23",
       0.92412189795
+    ],
+    [
+      "2026-04-24",
+      0.91271298563
+    ],
+    [
+      "2026-04-27",
+      0.89922972561
+    ],
+    [
+      "2026-04-28",
+      0.91167581178
     ]
   ],
   "historico_dy": [
@@ -6123,6 +6160,18 @@
     [
       "2026-04-23",
       10.7744
+    ],
+    [
+      "2026-04-24",
+      10.9091
+    ],
+    [
+      "2026-04-27",
+      11.0727
+    ],
+    [
+      "2026-04-28",
+      10.9215
     ]
   ],
   "historico_dpc": [
@@ -6199,13 +6248,7 @@
       0.08
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 5803399.9399999995,
-    "Imóveis": 237100000.0,
-    "CRI/CRA": 2129322.95,
-    "Outros": 9.350486607218045e-09
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

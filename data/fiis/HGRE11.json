@@ -4,18 +4,19 @@
     "Ticker": "HGRE11",
     "Nome": "Pátria Escritórios FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0493,
-    "Retorno - 12M": 0.1995,
-    "P/VP": 0.85,
+    "Retorno - MTD": 0.0874,
+    "Retorno - 12M": 0.2147,
+    "P/VP": 0.88,
     "Último Dividendo Pago": 0.85,
-    "DY a.a.": 0.081,
+    "DY a.a.": 0.078,
     "Visão Geral": "FII de lajes corporativas que investe em empreendimentos de escritórios, prontos ou em construção, com potencial de geração de renda. É gerido pelo Patria, tem portfólio com mais de 10 imóveis e concentração na cidade de São Paulo. A estratégia prioriza renda locatícia recorrente em ativos corporativos com gestão ativa.",
     "Comentário": "Receita total de R$ 1,30/cota com resultado distribuível de R$ 1,06/cota em fevereiro, impactado por ganho extraordinário de R$ 0,33/cota na venda de Vivo Curitiba. Distribuição anunciada de R$ 0,85/cota mantém projeção para 1S26. Vacância caiu para 5,8% (física) e 4,0% (financeira) com entrada de restaurantes no Martiniano, ampliando WALE.",
-    "Preço Atual": 125.67,
-    "% Dias Acima CDI 1A": 0.6573,
-    "% Dias Acima CDI 3A": 0.3785,
-    "% Dias Acima CDI 5A": 0.3141,
-    "% Dias Acima CDI MAX": 0.4372
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 130.52,
+    "% Dias Acima CDI 1A": 0.6694,
+    "% Dias Acima CDI 3A": 0.3815,
+    "% Dias Acima CDI 5A": 0.3157,
+    "% Dias Acima CDI MAX": 0.4377
   },
   "historico_preco": [
     [
@@ -14173,6 +14174,18 @@
     [
       "2026-04-23",
       125.45
+    ],
+    [
+      "2026-04-24",
+      125.55
+    ],
+    [
+      "2026-04-27",
+      126.72
+    ],
+    [
+      "2026-04-28",
+      128.58
     ]
   ],
   "historico_preco_adj": [
@@ -24411,6 +24424,18 @@
     [
       "2026-04-23",
       125.45
+    ],
+    [
+      "2026-04-24",
+      125.55
+    ],
+    [
+      "2026-04-27",
+      126.72
+    ],
+    [
+      "2026-04-28",
+      128.58
     ]
   ],
   "historico_pvp": [
@@ -39353,6 +39378,18 @@
     [
       "2026-04-23",
       0.85006172775
+    ],
+    [
+      "2026-04-24",
+      0.85073933774
+    ],
+    [
+      "2026-04-27",
+      0.85866737457
+    ],
+    [
+      "2026-04-28",
+      0.87127092032
     ]
   ],
   "historico_dy": [
@@ -49591,6 +49628,18 @@
     [
       "2026-04-23",
       8.1307
+    ],
+    [
+      "2026-04-24",
+      8.1243
+    ],
+    [
+      "2026-04-27",
+      8.0492
+    ],
+    [
+      "2026-04-28",
+      7.9328
     ]
   ],
   "historico_dpc": [
@@ -50091,14 +50140,7 @@
       0.85
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 96203480.01,
-    "Imóveis": 1561927204.2,
-    "Cotas de FIIs": 60192208.09,
-    "CRI/CRA": 50579723.12,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 1503.44
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

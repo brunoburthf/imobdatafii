@@ -4,18 +4,19 @@
     "Ticker": "MCRE11",
     "Nome": "Mauá Capital Real Estate FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0492,
-    "Retorno - 12M": 0.2987,
-    "P/VP": 0.96,
+    "Retorno - MTD": 0.0449,
+    "Retorno - 12M": 0.2572,
+    "P/VP": 0.95,
     "Último Dividendo Pago": 0.11,
-    "DY a.a.": 0.135,
+    "DY a.a.": 0.136,
     "Visão Geral": "FII de papel que investe em CRIs e outros valores mobiliários imobiliários, com gestão ativa de crédito. É gerido pela Mauá Capital Real Estate e iniciou em junho de 2021. A estratégia prioriza renda recorrente com carteira diversificada, podendo alocar parcela tática em FIIs líquidos para complementar retornos imobiliários mensais.",
     "Comentário": "Distribuição de R$ 0,11/cota mantida em fevereiro com dividend yield de 14,7% a.a. Fundo realizou unificação de quatro CRIs pulverizados em novo CRI série única (R$ 62,8 milhões) a IPCA + 10%, gerando resultado extraordinário de R$ 19,1 milhões (R$ 0,17/cota) no mês.",
-    "Preço Atual": 9.73,
-    "% Dias Acima CDI 1A": 0.5847,
-    "% Dias Acima CDI 3A": 0.4846,
-    "% Dias Acima CDI 5A": 0.4836,
-    "% Dias Acima CDI MAX": 0.4836
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 9.71,
+    "% Dias Acima CDI 1A": 0.5927,
+    "% Dias Acima CDI 3A": 0.4859,
+    "% Dias Acima CDI 5A": 0.4853,
+    "% Dias Acima CDI MAX": 0.4853
   },
   "historico_preco": [
     [
@@ -4389,6 +4390,18 @@
     [
       "2026-04-23",
       9.68
+    ],
+    [
+      "2026-04-24",
+      9.76
+    ],
+    [
+      "2026-04-27",
+      9.66
+    ],
+    [
+      "2026-04-28",
+      9.6
     ]
   ],
   "historico_preco_adj": [
@@ -8763,6 +8776,18 @@
     [
       "2026-04-23",
       9.68
+    ],
+    [
+      "2026-04-24",
+      9.76
+    ],
+    [
+      "2026-04-27",
+      9.66
+    ],
+    [
+      "2026-04-28",
+      9.6
     ]
   ],
   "historico_pvp": [
@@ -13621,6 +13646,18 @@
     [
       "2026-04-23",
       0.94760002516
+    ],
+    [
+      "2026-04-24",
+      0.95543143032
+    ],
+    [
+      "2026-04-27",
+      0.94564217387
+    ],
+    [
+      "2026-04-28",
+      0.93976861999
     ]
   ],
   "historico_dy": [
@@ -17991,6 +18028,18 @@
     [
       "2026-04-23",
       13.6364
+    ],
+    [
+      "2026-04-24",
+      13.5246
+    ],
+    [
+      "2026-04-27",
+      13.6646
+    ],
+    [
+      "2026-04-28",
+      13.75
     ]
   ],
   "historico_dpc": [
@@ -18219,15 +18268,6 @@
       0.11
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 58544031.09,
-    "Imóveis": 171717500.0,
-    "Terrenos": 25500000.0,
-    "Cotas de FIIs": 386578928.46,
-    "CRI/CRA": 513965967.03,
-    "Debêntures": 1.29,
-    "Outros": 0.04000004012137648
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

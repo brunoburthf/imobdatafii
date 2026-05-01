@@ -4,18 +4,19 @@
     "Ticker": "TEPP11",
     "Nome": "Tellus Properties FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0101,
-    "Retorno - 12M": 0.2079,
-    "P/VP": 0.94,
+    "Retorno - MTD": 0.0046,
+    "Retorno - 12M": 0.1658,
+    "P/VP": 0.93,
     "Último Dividendo Pago": 0.131,
-    "DY a.a.": 0.173,
+    "DY a.a.": 0.174,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em obtenção de renda e agregação de valor por meio de gestão ativa. É gerido pela Tellus e direcionado ao segmento corporativo. A estratégia prioriza locação recorrente, melhorias operacionais e captura de valor em ativos urbanos relevantes.",
     "Comentário": "O fundo distribuiu R$ 0,08/cota, correspondendo a dividend yield de 0,86% mensal ou 10,85% anualizado. Recebeu a última parcela da venda do Ed. Condomínio São Luiz (R$ 77,7MM), concluindo operação com ganho de capital de R$ 39,8MM. A gestão segue ativa na prospecção de novos ativos aderentes à estratégia de lajes corporativas com foco em transformação de valor.",
-    "Preço Atual": 9.06,
-    "% Dias Acima CDI 1A": 0.3911,
-    "% Dias Acima CDI 3A": 0.5664,
-    "% Dias Acima CDI 5A": 0.4048,
-    "% Dias Acima CDI MAX": 0.371
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 9.04,
+    "% Dias Acima CDI 1A": 0.4032,
+    "% Dias Acima CDI 3A": 0.5689,
+    "% Dias Acima CDI 5A": 0.4072,
+    "% Dias Acima CDI MAX": 0.3724
   },
   "historico_preco": [
     [
@@ -6561,6 +6562,18 @@
     [
       "2026-04-23",
       9.08
+    ],
+    [
+      "2026-04-24",
+      9.07
+    ],
+    [
+      "2026-04-27",
+      9.06
+    ],
+    [
+      "2026-04-28",
+      9.04
     ]
   ],
   "historico_preco_adj": [
@@ -13107,6 +13120,18 @@
     [
       "2026-04-23",
       9.08
+    ],
+    [
+      "2026-04-24",
+      9.07
+    ],
+    [
+      "2026-04-27",
+      9.06
+    ],
+    [
+      "2026-04-28",
+      9.04
     ]
   ],
   "historico_pvp": [
@@ -19965,6 +19990,18 @@
     [
       "2026-04-23",
       0.93720291391
+    ],
+    [
+      "2026-04-24",
+      0.93617075211
+    ],
+    [
+      "2026-04-27",
+      0.93513859031
+    ],
+    [
+      "2026-04-28",
+      0.93307426671
     ]
   ],
   "historico_dy": [
@@ -26403,6 +26440,18 @@
     [
       "2026-04-23",
       17.3128
+    ],
+    [
+      "2026-04-24",
+      17.3319
+    ],
+    [
+      "2026-04-27",
+      17.351
+    ],
+    [
+      "2026-04-28",
+      17.3894
     ]
   ],
   "historico_dpc": [
@@ -26723,13 +26772,7 @@
       0.131
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 34459895.62,
-    "Imóveis": 652113504.42,
-    "Cotas de FIIs": 687917.68,
-    "Outros": 7.450580596923828e-09
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,18 +4,19 @@
     "Ticker": "AFHI11",
     "Nome": "Af Invest Cri FII Recebíveis Imobiliários",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0354,
-    "Retorno - 12M": 0.2016,
+    "Retorno - MTD": 0.0324,
+    "Retorno - 12M": 0.1883,
     "P/VP": 1.02,
     "Último Dividendo Pago": 0.98,
     "DY a.a.": 0.121,
     "Visão Geral": "FII de papel que investe em CRIs como principal ativo, podendo alocar também em instrumentos imobiliários complementares e cotas de FIIs. É gerido pela AF Invest e tinha patrimônio líquido de R$ 456,2 milhões na página oficial consultada. A estratégia prioriza renda recorrente com foco em crédito imobiliário.",
     "Comentário": "O fundo encerrou fevereiro com distribuição estável de R$0,97/cota, apesar de ter recebido resultado total de R$1,25/cota. A equipe de gestão manteve posição conservadora, acumulando reserva de R$0,28/cota para próximos períodos. A cota patrimonial valorizou 0,18% em relação a janeiro, refletindo marcação a mercado positiva dos CRIs. Destaca-se o pré-pagamento extraordinário do CRI Rochaverá, que gerou prêmio de R$0,07/cota.",
-    "Preço Atual": 97.22,
-    "% Dias Acima CDI 1A": 0.4839,
-    "% Dias Acima CDI 3A": 0.5289,
-    "% Dias Acima CDI 5A": 0.5884,
-    "% Dias Acima CDI MAX": 0.5884
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 97.4,
+    "% Dias Acima CDI 1A": 0.496,
+    "% Dias Acima CDI 3A": 0.5315,
+    "% Dias Acima CDI 5A": 0.5896,
+    "% Dias Acima CDI MAX": 0.5896
   },
   "historico_preco": [
     [
@@ -5065,6 +5066,18 @@
     [
       "2026-04-23",
       96.92
+    ],
+    [
+      "2026-04-24",
+      97.28
+    ],
+    [
+      "2026-04-27",
+      97.3
+    ],
+    [
+      "2026-04-28",
+      97.0
     ]
   ],
   "historico_preco_adj": [
@@ -10115,6 +10128,18 @@
     [
       "2026-04-23",
       96.92
+    ],
+    [
+      "2026-04-24",
+      97.28
+    ],
+    [
+      "2026-04-27",
+      97.3
+    ],
+    [
+      "2026-04-28",
+      97.0
     ]
   ],
   "historico_pvp": [
@@ -15401,6 +15426,18 @@
     [
       "2026-04-23",
       1.0190946491
+    ],
+    [
+      "2026-04-24",
+      1.022879978
+    ],
+    [
+      "2026-04-27",
+      1.0230902741
+    ],
+    [
+      "2026-04-28",
+      1.0199358333
     ]
   ],
   "historico_dy": [
@@ -20371,6 +20408,18 @@
     [
       "2026-04-23",
       12.1337
+    ],
+    [
+      "2026-04-24",
+      12.0888
+    ],
+    [
+      "2026-04-27",
+      12.0863
+    ],
+    [
+      "2026-04-28",
+      12.1237
     ]
   ],
   "historico_dpc": [
@@ -20615,11 +20664,7 @@
       0.98
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 19407717.35,
-    "CRI/CRA": 436509108.02
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -20697,7 +20742,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 5222.0,
-        "valor": 3262662.25
+        "valor": 3262662.25,
+        "nome_cri": "CRI RTDR PARTICIPAÇÕES S.A."
       },
       {
         "tipo": "CRI/CRA",

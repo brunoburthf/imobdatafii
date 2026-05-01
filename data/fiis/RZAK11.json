@@ -4,18 +4,19 @@
     "Ticker": "RZAK11",
     "Nome": "Riza Akin FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0222,
-    "Retorno - 12M": 0.2156,
-    "P/VP": 0.97,
+    "Retorno - MTD": 0.0172,
+    "Retorno - 12M": 0.2173,
+    "P/VP": 0.96,
     "Último Dividendo Pago": 1.1,
     "DY a.a.": 0.155,
-    "Visão Geral": "FII de papel que investe em CRIs e outros títulos de crédito imobiliário, com estratégia voltada à geração de renda recorrente. Tem gestão da Riza e atua no segmento de recebíveis com mandato de gestão ativa. Porte, composição detalhada da carteira, indexadores predominantes e perfil dos devedores aparecem como N/A nas fontes consultadas com segurança.",
+    "Visão Geral": "FII de papel que investe em CRIs e outros títulos de crédito imobiliário, com estratégia voltada à geração de renda recorrente. Tem gestão da Riza e atua no segmento de recebíveis com mandato de gestão ativa.",
     "Comentário": "Em fevereiro pagou R$ 1,05/cota (dividend yield 1,22% mensal, 16,05% a.a.). Portfólio com alocação bruta de 102,87% do patrimônio, destacando real estate com 42,92% e infraestrutura com 21,75%. Receita com CRI alcançou R$ 6,57 milhões com contribuições positivas da estrutura de hedge.",
-    "Preço Atual": 84.98,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 85.92,
     "% Dias Acima CDI 1A": 0.9516,
-    "% Dias Acima CDI 3A": 0.4161,
-    "% Dias Acima CDI 5A": 0.5464,
-    "% Dias Acima CDI MAX": 0.5464
+    "% Dias Acima CDI 3A": 0.4177,
+    "% Dias Acima CDI 5A": 0.5476,
+    "% Dias Acima CDI MAX": 0.5476
   },
   "historico_preco": [
     [
@@ -5317,6 +5318,18 @@
     [
       "2026-04-23",
       85.24
+    ],
+    [
+      "2026-04-24",
+      85.32
+    ],
+    [
+      "2026-04-27",
+      85.0
+    ],
+    [
+      "2026-04-28",
+      84.84
     ]
   ],
   "historico_preco_adj": [
@@ -10619,6 +10632,18 @@
     [
       "2026-04-23",
       85.24
+    ],
+    [
+      "2026-04-24",
+      85.32
+    ],
+    [
+      "2026-04-27",
+      85.0
+    ],
+    [
+      "2026-04-28",
+      84.84
     ]
   ],
   "historico_pvp": [
@@ -16165,6 +16190,18 @@
     [
       "2026-04-23",
       0.96464885623
+    ],
+    [
+      "2026-04-24",
+      0.96555420476
+    ],
+    [
+      "2026-04-27",
+      0.96193281065
+    ],
+    [
+      "2026-04-28",
+      0.96012211359
     ]
   ],
   "historico_dy": [
@@ -21303,6 +21340,18 @@
     [
       "2026-04-23",
       15.4857
+    ],
+    [
+      "2026-04-24",
+      15.4712
+    ],
+    [
+      "2026-04-27",
+      15.5294
+    ],
+    [
+      "2026-04-28",
+      15.5587
     ]
   ],
   "historico_dpc": [
@@ -21563,12 +21612,7 @@
       1.1
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 23095650.17,
-    "Cotas de FIIs": 174658863.09,
-    "CRI/CRA": 616391209.35
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -21792,7 +21836,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 1.0,
-        "valor": 964.59
+        "valor": 964.59,
+        "nome_cri": "CRI FGR INCORPORAÇÕES JARDINS BERLIM SPE LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -21961,7 +22006,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 20000.0,
-        "valor": 20359411.14
+        "valor": 20359411.14,
+        "nome_cri": "CRI FGR INCORPORAÇÕES S.A."
       },
       {
         "tipo": "CRI/CRA",

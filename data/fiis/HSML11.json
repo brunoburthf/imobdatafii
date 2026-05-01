@@ -4,18 +4,19 @@
     "Ticker": "HSML11",
     "Nome": "Hsi Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.015,
-    "Retorno - 12M": 0.2492,
+    "Retorno - MTD": 0.0138,
+    "Retorno - 12M": 0.2321,
     "P/VP": 0.92,
     "Último Dividendo Pago": 0.7,
     "DY a.a.": 0.088,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers, com portfólio de oito ativos administrados pela Alqia. A carteira inclui empreendimentos em Maceió, Cotia, Osasco, Rio Branco, Tucuruvi, Salvador, Uberaba e Sorocaba. A estratégia combina diversificação regional, gestão operacional especializada e geração recorrente de renda imobiliária.",
     "Comentário": "Em fevereiro, NOI do portfólio cresceu 4% com oito shoppings apresentando movimento positivo, destaque para Via Verde (+16%) e SuperShopping Osasco (+15%). Distribuição de março atingiu R$0,70/cota com dividend yield de 8,8% a.a., mantendo taxa de ocupação em 96,7%. Guidance 1º semestre mantém projeção entre R$0,70 e R$0,75/cota com avanço físico da expansão do Uberaba em linha com cronograma.",
-    "Preço Atual": 95.47,
-    "% Dias Acima CDI 1A": 0.3952,
-    "% Dias Acima CDI 3A": 0.506,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 95.77,
+    "% Dias Acima CDI 1A": 0.4073,
+    "% Dias Acima CDI 3A": 0.5074,
     "% Dias Acima CDI 5A": 0.4594,
-    "% Dias Acima CDI MAX": 0.4237
+    "% Dias Acima CDI MAX": 0.4249
   },
   "historico_preco": [
     [
@@ -6677,6 +6678,18 @@
     [
       "2026-04-23",
       95.45
+    ],
+    [
+      "2026-04-24",
+      95.79
+    ],
+    [
+      "2026-04-27",
+      95.26
+    ],
+    [
+      "2026-04-28",
+      95.55
     ]
   ],
   "historico_preco_adj": [
@@ -13339,6 +13352,18 @@
     [
       "2026-04-23",
       95.45
+    ],
+    [
+      "2026-04-24",
+      95.79
+    ],
+    [
+      "2026-04-27",
+      95.26
+    ],
+    [
+      "2026-04-28",
+      95.55
     ]
   ],
   "historico_pvp": [
@@ -20325,6 +20350,18 @@
     [
       "2026-04-23",
       0.91857918864
+    ],
+    [
+      "2026-04-24",
+      0.92185123603
+    ],
+    [
+      "2026-04-27",
+      0.91675069156
+    ],
+    [
+      "2026-04-28",
+      0.91954155552
     ]
   ],
   "historico_dy": [
@@ -26939,6 +26976,18 @@
     [
       "2026-04-23",
       8.8004
+    ],
+    [
+      "2026-04-24",
+      8.7692
+    ],
+    [
+      "2026-04-27",
+      8.818
+    ],
+    [
+      "2026-04-28",
+      8.7912
     ]
   ],
   "historico_dpc": [
@@ -27263,15 +27312,7 @@
       0.7
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 114496811.42,
-    "Imóveis": 2525617487.3,
-    "Terrenos": 6510000.0,
-    "CRI/CRA": 4058599.26,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 19202002.26,
-    "Outros": 0.009999919682741165
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

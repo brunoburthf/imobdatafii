@@ -4,18 +4,19 @@
     "Ticker": "RBRY11",
     "Nome": "FII Rbr Crédito Imobiliário Estruturado",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.0323,
-    "Retorno - 12M": 0.1696,
-    "P/VP": 0.94,
+    "Retorno - MTD": -0.044,
+    "Retorno - 12M": 0.1515,
+    "P/VP": 0.93,
     "Último Dividendo Pago": 1.06,
-    "DY a.a.": 0.136,
+    "DY a.a.": 0.138,
     "Visão Geral": "FII de papel que investe em CRIs estruturados, com foco em operações high yield e geração de renda recorrente. É gerido pela RBR e atua no segmento de crédito imobiliário com carteira diversificada. A estratégia combina originação própria, estruturação de operações e gestão ativa para capturar retorno em diferentes ciclos do mercado.",
     "Comentário": "Sob gestão Patria desde fevereiro, o fundo registrou resultado distribuível de R$ 0,59/cota com distribuição de R$ 1,09/cota utilizando reserva acumulada. Carteira de 56 CRIs com rentabilidade de 16,2% a.a. (CDI+2,8%), prazo médio de 2,1 anos. Alavancagem em redução conforme estratégia.",
-    "Preço Atual": 93.51,
-    "% Dias Acima CDI 1A": 0.621,
-    "% Dias Acima CDI 3A": 0.4926,
-    "% Dias Acima CDI 5A": 0.5984,
-    "% Dias Acima CDI MAX": 0.5532
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 92.5,
+    "% Dias Acima CDI 1A": 0.629,
+    "% Dias Acima CDI 3A": 0.494,
+    "% Dias Acima CDI 5A": 0.5976,
+    "% Dias Acima CDI MAX": 0.5535
   },
   "historico_preco": [
     [
@@ -6505,6 +6506,18 @@
     [
       "2026-04-23",
       92.49
+    ],
+    [
+      "2026-04-24",
+      93.48
+    ],
+    [
+      "2026-04-27",
+      93.45
+    ],
+    [
+      "2026-04-28",
+      92.4
     ]
   ],
   "historico_preco_adj": [
@@ -12995,6 +13008,18 @@
     [
       "2026-04-23",
       92.49
+    ],
+    [
+      "2026-04-24",
+      93.48
+    ],
+    [
+      "2026-04-27",
+      93.45
+    ],
+    [
+      "2026-04-28",
+      92.4
     ]
   ],
   "historico_pvp": [
@@ -20273,6 +20298,18 @@
     [
       "2026-04-23",
       0.92672259674
+    ],
+    [
+      "2026-04-24",
+      0.93664210556
+    ],
+    [
+      "2026-04-27",
+      0.93634151439
+    ],
+    [
+      "2026-04-28",
+      0.92582082321
     ]
   ],
   "historico_dy": [
@@ -26759,6 +26796,18 @@
     [
       "2026-04-23",
       13.7528
+    ],
+    [
+      "2026-04-24",
+      13.6072
+    ],
+    [
+      "2026-04-27",
+      13.6116
+    ],
+    [
+      "2026-04-28",
+      13.7662
     ]
   ],
   "historico_dpc": [
@@ -27099,12 +27148,7 @@
       1.06
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 29311494.67,
-    "Cotas de FIIs": 231158158.78,
-    "CRI/CRA": 1068917097.8
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-09-30",
     "ativos": [
@@ -27336,7 +27380,7 @@
         "vencimento": "",
         "quantidade": 27915.0,
         "valor": 27998284.85,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pernambuco V"
       },
       {
         "tipo": "CRI/CRA",
@@ -27686,7 +27730,7 @@
         "vencimento": "",
         "quantidade": 26699.0,
         "valor": 27015657.54,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pernambuco Aurora Prince"
       },
       {
         "tipo": "CRI/CRA",

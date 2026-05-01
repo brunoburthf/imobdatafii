@@ -4,18 +4,19 @@
     "Ticker": "RBRR11",
     "Nome": "FII RBR Rendimento High Grade",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.0033,
-    "Retorno - 12M": 0.1213,
-    "P/VP": 0.87,
+    "Retorno - MTD": -0.0145,
+    "Retorno - 12M": 0.1053,
+    "P/VP": 0.9,
     "Último Dividendo Pago": 0.7,
-    "DY a.a.": 0.099,
+    "DY a.a.": 0.101,
     "Visão Geral": "FII de papel que investe em CRIs de risco high grade, majoritariamente indexados ao IPCA, com foco em rendimentos e ganho de capital. É gerido pela RBR, iniciou em maio de 2018 e busca geração recorrente de renda via crédito imobiliário. A estratégia concentra operações com perfil mais conservador dentro do segmento.",
     "Comentário": "Sob nova gestão Patria desde fevereiro, o fundo apresentou resultado distribuível de R$ 0,59/cota com distribuição de R$ 0,70/cota. Carteira de CRI com rentabilidade ponderada de 14,9% a.a. (IPCA+9,2%), prazo médio de 4,1 anos e spread de 1,1% a.a. em 110 operações estruturadas.",
-    "Preço Atual": 84.62,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 83.63,
     "% Dias Acima CDI 1A": 0.4194,
-    "% Dias Acima CDI 3A": 0.3503,
-    "% Dias Acima CDI 5A": 0.4964,
-    "% Dias Acima CDI MAX": 0.5115
+    "% Dias Acima CDI 3A": 0.3494,
+    "% Dias Acima CDI 5A": 0.494,
+    "% Dias Acima CDI MAX": 0.5106
   },
   "historico_preco": [
     [
@@ -7945,6 +7946,18 @@
     [
       "2026-04-23",
       83.8
+    ],
+    [
+      "2026-04-24",
+      84.5
+    ],
+    [
+      "2026-04-27",
+      84.39
+    ],
+    [
+      "2026-04-28",
+      83.6
     ]
   ],
   "historico_preco_adj": [
@@ -15875,6 +15888,18 @@
     [
       "2026-04-23",
       83.8
+    ],
+    [
+      "2026-04-24",
+      84.5
+    ],
+    [
+      "2026-04-27",
+      84.39
+    ],
+    [
+      "2026-04-28",
+      83.6
     ]
   ],
   "historico_pvp": [
@@ -24052,75 +24077,87 @@
     ],
     [
       "2026-03-31",
-      0.87695048574
+      0.92163706987
     ],
     [
       "2026-04-01",
-      0.86402398116
+      0.90805187206
     ],
     [
       "2026-04-02",
-      0.86997427692
+      0.91430537581
     ],
     [
       "2026-04-03",
-      0.86997427692
+      0.91430537581
     ],
     [
       "2026-04-06",
-      0.86340843332
+      0.90740495788
     ],
     [
       "2026-04-07",
-      0.86371620724
+      0.90772841497
     ],
     [
       "2026-04-08",
-      0.86330584201
+      0.90729713885
     ],
     [
       "2026-04-09",
-      0.86074105936
+      0.9046016631
     ],
     [
       "2026-04-10",
-      0.87171832912
+      0.91613829933
     ],
     [
       "2026-04-13",
-      0.85458558098
+      0.89813252129
     ],
     [
       "2026-04-14",
-      0.85253375486
+      0.89597614068
     ],
     [
       "2026-04-15",
-      0.84791714608
+      0.89112428433
     ],
     [
       "2026-04-16",
-      0.84945601567
+      0.89274156978
     ],
     [
       "2026-04-17",
-      0.85304671139
+      0.89651523584
     ],
     [
       "2026-04-20",
-      0.86053587674
+      0.90438602504
     ],
     [
       "2026-04-21",
-      0.86053587674
+      0.90438602504
     ],
     [
       "2026-04-22",
-      0.86710172034
+      0.91128644297
     ],
     [
       "2026-04-23",
-      0.85971514629
+      0.9035234728
+    ],
+    [
+      "2026-04-24",
+      0.91107080491
+    ],
+    [
+      "2026-04-27",
+      0.90988479558
+    ],
+    [
+      "2026-04-28",
+      0.90136709219
     ]
   ],
   "historico_dy": [
@@ -31971,6 +32008,18 @@
     [
       "2026-04-23",
       10.0239
+    ],
+    [
+      "2026-04-24",
+      9.9408
+    ],
+    [
+      "2026-04-27",
+      9.9538
+    ],
+    [
+      "2026-04-28",
+      10.0478
     ]
   ],
   "historico_dpc": [
@@ -32355,13 +32404,7 @@
       0.7
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 35555266.75,
-    "Cotas de FIIs": 47588948.87,
-    "CRI/CRA": 1624012562.9,
-    "Outros": 0.030000019073668227
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -32437,7 +32480,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 12298.0,
-        "valor": 12663156.27
+        "valor": 12663156.27,
+        "nome_cri": "CRI COMPANHIA BRASILEIRA DE DISTRIBUIÇÃO"
       },
       {
         "tipo": "CRI/CRA",
@@ -32732,7 +32776,7 @@
         "vencimento": "",
         "quantidade": 4000.0,
         "valor": 3808389.94,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI BTS Varginha II"
       },
       {
         "tipo": "CRI/CRA",
@@ -32754,7 +32798,7 @@
         "vencimento": "",
         "quantidade": 5045.0,
         "valor": 4743591.48,
-        "nome_cri": "CRI Trinity"
+        "nome_cri": "CRI BTS Varginha"
       },
       {
         "tipo": "FII",
@@ -32968,7 +33012,7 @@
         "vencimento": "",
         "quantidade": 9618.0,
         "valor": 9130988.16,
-        "nome_cri": "CRI Trinity"
+        "nome_cri": "CRI BTS Varginha II"
       },
       {
         "tipo": "CRI/CRA",
@@ -33408,7 +33452,8 @@
         "serie": "2",
         "vencimento": "",
         "quantidade": 49298.0,
-        "valor": 50761366.89
+        "valor": 50761366.89,
+        "nome_cri": "CRI COMPANHIA BRASILEIRA DE DISTRIBUIÇÃO"
       },
       {
         "tipo": "CRI/CRA",
@@ -33440,7 +33485,7 @@
         "vencimento": "",
         "quantidade": 4000.0,
         "valor": 3785968.7,
-        "nome_cri": "CRI Trinity"
+        "nome_cri": "CRI BTS Varginha"
       },
       {
         "tipo": "CRI/CRA",

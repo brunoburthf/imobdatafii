@@ -4,18 +4,19 @@
     "Ticker": "HSLG11",
     "Nome": "Hsi Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0088,
-    "Retorno - 12M": 0.229,
-    "P/VP": 0.84,
+    "Retorno - MTD": 0.0079,
+    "Retorno - 12M": 0.2181,
+    "P/VP": 0.83,
     "Último Dividendo Pago": 0.72,
     "DY a.a.": 0.094,
     "Visão Geral": "FII de logística que investe em galpões AAA, localizados em parques logísticos próximos às capitais. É gerido pela HSI e possui 508 mil m² de ABL própria, com 100% do portfólio classificado como AAA. A estratégia prioriza renda locatícia recorrente em ativos logísticos de alto padrão e localização relevante nacional.",
     "Comentário": "Março marcou retomada consistente da atividade hoteleira com calendário robusto de eventos corporativos impulsionando demanda. Distribuição chegou a R$0,72/cota com dividend yield de 9,4% a.a., mantendo 100% de ocupação desde novembro de 2024. Guidance para 1º semestre de 2026 projetado entre R$0,72 e R$0,76/cota. Aluguel médio do portfólio mantém-se em R$26,20/m² com cap rate implícito de 10,5%.",
-    "Preço Atual": 92.25,
-    "% Dias Acima CDI 1A": 0.5806,
-    "% Dias Acima CDI 3A": 0.4389,
-    "% Dias Acima CDI 5A": 0.3632,
-    "% Dias Acima CDI MAX": 0.3632
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 93.11,
+    "% Dias Acima CDI 1A": 0.5927,
+    "% Dias Acima CDI 3A": 0.4418,
+    "% Dias Acima CDI 5A": 0.365,
+    "% Dias Acima CDI MAX": 0.365
   },
   "historico_preco": [
     [
@@ -5329,6 +5330,18 @@
     [
       "2026-04-23",
       91.92
+    ],
+    [
+      "2026-04-24",
+      91.63
+    ],
+    [
+      "2026-04-27",
+      90.71
+    ],
+    [
+      "2026-04-28",
+      90.42
     ]
   ],
   "historico_preco_adj": [
@@ -10643,6 +10656,18 @@
     [
       "2026-04-23",
       91.92
+    ],
+    [
+      "2026-04-24",
+      91.63
+    ],
+    [
+      "2026-04-27",
+      90.71
+    ],
+    [
+      "2026-04-28",
+      90.42
     ]
   ],
   "historico_pvp": [
@@ -16221,6 +16246,18 @@
     [
       "2026-04-23",
       0.83768451171
+    ],
+    [
+      "2026-04-24",
+      0.83504168634
+    ],
+    [
+      "2026-04-27",
+      0.82665755067
+    ],
+    [
+      "2026-04-28",
+      0.82401472529
     ]
   ],
   "historico_dy": [
@@ -21511,6 +21548,18 @@
     [
       "2026-04-23",
       9.3995
+    ],
+    [
+      "2026-04-24",
+      9.4292
+    ],
+    [
+      "2026-04-27",
+      9.5249
+    ],
+    [
+      "2026-04-28",
+      9.5554
     ]
   ],
   "historico_dpc": [
@@ -21771,13 +21820,7 @@
       0.72
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 64016644.93,
-    "Imóveis": 1729192233.0,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 80605.96,
-    "Outros": 0.01999993338540662
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

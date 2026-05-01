@@ -4,18 +4,19 @@
     "Ticker": "KISU11",
     "Nome": "Kilima Fundo de Investimento em Cotas de FII Suno 30",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0143,
-    "Retorno - 12M": 0.1224,
+    "Retorno - MTD": 0.0114,
+    "Retorno - 12M": 0.1192,
     "P/VP": 0.86,
     "Último Dividendo Pago": 0.07,
     "DY a.a.": 0.118,
-    "Visão Geral": "FII de fundo de fundos que investe em cotas de FIIs, com objetivo de seguir a carteira teórica do índice SUNO 30 FII. A estratégia prioriza diversificação entre fundos listados e geração de renda recorrente no longo prazo. Gestora, porte, localização e composição detalhada aparecem como N/A nas fontes consultadas.",
+    "Visão Geral": "FII de fundo de fundos que investe em cotas de FIIs, com objetivo de seguir a carteira teórica do índice SUNO 30 FII. A estratégia prioriza diversificação entre fundos listados e geração de renda recorrente no longo prazo.",
     "Comentário": "O fundo manteve divisor de R$0,07/cota em fevereiro, refletindo uma mudança na estratégia de distribuição. Com a desaceleração das oportunidades de ganho de capital no mercado de FIIs, a gestão adotou um modelo de distribuição mais conservador focado no carrego, alinhado aos fundamentos estruturais do índice SUNO 30 diante do cenário de abertura da curva de juros.",
-    "Preço Atual": 7.06,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 7.17,
     "% Dias Acima CDI 1A": 0.2339,
-    "% Dias Acima CDI 3A": 0.4161,
-    "% Dias Acima CDI 5A": 0.3846,
-    "% Dias Acima CDI MAX": 0.3846
+    "% Dias Acima CDI 3A": 0.4137,
+    "% Dias Acima CDI 5A": 0.3835,
+    "% Dias Acima CDI MAX": 0.3835
   },
   "historico_preco": [
     [
@@ -5273,6 +5274,18 @@
     [
       "2026-04-23",
       7.09
+    ],
+    [
+      "2026-04-24",
+      7.11
+    ],
+    [
+      "2026-04-27",
+      7.02
+    ],
+    [
+      "2026-04-28",
+      7.04
     ]
   ],
   "historico_preco_adj": [
@@ -10531,6 +10544,18 @@
     [
       "2026-04-23",
       7.09
+    ],
+    [
+      "2026-04-24",
+      7.11
+    ],
+    [
+      "2026-04-27",
+      7.02
+    ],
+    [
+      "2026-04-28",
+      7.04
     ]
   ],
   "historico_pvp": [
@@ -16037,6 +16062,18 @@
     [
       "2026-04-23",
       0.85565293544
+    ],
+    [
+      "2026-04-24",
+      0.85806662496
+    ],
+    [
+      "2026-04-27",
+      0.84720502211
+    ],
+    [
+      "2026-04-28",
+      0.84961871163
     ]
   ],
   "historico_dy": [
@@ -21251,6 +21288,18 @@
     [
       "2026-04-23",
       11.8477
+    ],
+    [
+      "2026-04-24",
+      11.8143
+    ],
+    [
+      "2026-04-27",
+      11.9658
+    ],
+    [
+      "2026-04-28",
+      11.9318
     ]
   ],
   "historico_dpc": [
@@ -21507,11 +21556,7 @@
       0.07
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 12343971.81,
-    "Cotas de FIIs": 358303471.1
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

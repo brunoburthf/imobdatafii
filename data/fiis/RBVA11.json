@@ -4,18 +4,19 @@
     "Ticker": "RBVA11",
     "Nome": "Rio Bravo Renda Varejo FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.0183,
-    "Retorno - 12M": 0.2801,
+    "Retorno - MTD": 0.0122,
+    "Retorno - 12M": 0.2646,
     "P/VP": 0.93,
     "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.108,
+    "DY a.a.": 0.109,
     "Visão Geral": "FII de renda urbana que investe em lojas de rua e imóveis voltados ao varejo, com gestão ativa e foco em renda recorrente. Tem 13 anos de histórico segundo a Rio Bravo e tese centrada em varejo AAA, com portfólio diversificado e estratégia de reciclagem de ativos para capturar locação e valorização imobiliária.",
     "Comentário": "Em março, resultado de R$ 0,10/cota com distribuição linear de R$ 0,09/cota. Fundo vendeu imóvel Via Anchieta por R$ 7,3 milhões gerando lucro de R$ 3,86 milhões (TIR 18,3% ao ano). Assinada locação com Grupo Panvel em Curitiba por 10 anos, reduzindo vacância física e diversificando portfólio.",
-    "Preço Atual": 9.97,
-    "% Dias Acima CDI 1A": 0.4355,
-    "% Dias Acima CDI 3A": 0.5302,
-    "% Dias Acima CDI 5A": 0.3325,
-    "% Dias Acima CDI MAX": 0.3812
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 9.95,
+    "% Dias Acima CDI 1A": 0.4476,
+    "% Dias Acima CDI 3A": 0.5328,
+    "% Dias Acima CDI 5A": 0.3349,
+    "% Dias Acima CDI MAX": 0.3817
   },
   "historico_preco": [
     [
@@ -13333,6 +13334,18 @@
     [
       "2026-04-23",
       9.92
+    ],
+    [
+      "2026-04-24",
+      9.99
+    ],
+    [
+      "2026-04-27",
+      9.98
+    ],
+    [
+      "2026-04-28",
+      9.94
     ]
   ],
   "historico_preco_adj": [
@@ -23571,6 +23584,18 @@
     [
       "2026-04-23",
       9.92
+    ],
+    [
+      "2026-04-24",
+      9.99
+    ],
+    [
+      "2026-04-27",
+      9.98
+    ],
+    [
+      "2026-04-28",
+      9.94
     ]
   ],
   "historico_pvp": [
@@ -37553,6 +37578,18 @@
     [
       "2026-04-23",
       0.92836658717
+    ],
+    [
+      "2026-04-24",
+      0.93491756107
+    ],
+    [
+      "2026-04-27",
+      0.93398170766
+    ],
+    [
+      "2026-04-28",
+      0.930238294
     ]
   ],
   "historico_dy": [
@@ -47791,6 +47828,18 @@
     [
       "2026-04-23",
       10.8871
+    ],
+    [
+      "2026-04-24",
+      10.8108
+    ],
+    [
+      "2026-04-27",
+      10.8216
+    ],
+    [
+      "2026-04-28",
+      10.8652
     ]
   ],
   "historico_dpc": [
@@ -48291,14 +48340,7 @@
       0.09
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 40992133.25,
-    "Imóveis": 1467100000.0,
-    "Cotas de FIIs": 65185331.95,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 195698097.94,
-    "Outros": 80070868.19
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

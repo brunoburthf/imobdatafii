@@ -4,18 +4,19 @@
     "Ticker": "RPRI11",
     "Nome": "Rbr Premium Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0131,
-    "Retorno - 12M": 0.1276,
+    "Retorno - MTD": 0.0096,
+    "Retorno - 12M": 0.0872,
     "P/VP": 0.85,
     "Último Dividendo Pago": 0.9,
     "DY a.a.": 0.126,
-    "Visão Geral": "FII de papel que investe em CRIs, com objetivo de auferir rendimentos e ganhos de capital no crédito imobiliário. É gerido pela RBR e se posiciona no segmento de recebíveis imobiliários. A estratégia prioriza geração recorrente de renda, enquanto porte, indexadores predominantes e perfil detalhado dos devedores aparecem como N/A.",
+    "Visão Geral": "FII de papel que investe em CRIs, com objetivo de auferir rendimentos e ganhos de capital no crédito imobiliário. É gerido pela RBR e se posiciona no segmento de recebíveis imobiliários do setor de incorporação, com foco em papéis atrelados ao IPCA.",
     "Comentário": "Patria assume gestão em fevereiro com resultado distribuível de R$ 1,10/cota e distribuição de R$ 0,86/cota. Carteira de 35 CRIs com rentabilidade de 16,4% a.a. (IPCA+10,9%), prazo médio de 3,3 anos e spread de 2,7% a.a. Sem alavancagem estruturada ao final do período.",
-    "Preço Atual": 85.84,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 85.93,
     "% Dias Acima CDI 1A": 0.3226,
-    "% Dias Acima CDI 3A": 0.395,
-    "% Dias Acima CDI 5A": 0.395,
-    "% Dias Acima CDI MAX": 0.395
+    "% Dias Acima CDI 3A": 0.3933,
+    "% Dias Acima CDI 5A": 0.3933,
+    "% Dias Acima CDI MAX": 0.3933
   },
   "historico_preco": [
     [
@@ -3737,6 +3738,18 @@
     [
       "2026-04-23",
       85.97
+    ],
+    [
+      "2026-04-24",
+      85.79
+    ],
+    [
+      "2026-04-27",
+      85.85
+    ],
+    [
+      "2026-04-28",
+      85.8
     ]
   ],
   "historico_preco_adj": [
@@ -7459,6 +7472,18 @@
     [
       "2026-04-23",
       85.97
+    ],
+    [
+      "2026-04-24",
+      85.79
+    ],
+    [
+      "2026-04-27",
+      85.85
+    ],
+    [
+      "2026-04-28",
+      85.8
     ]
   ],
   "historico_pvp": [
@@ -11361,6 +11386,18 @@
     [
       "2026-04-23",
       0.85233590002
+    ],
+    [
+      "2026-04-24",
+      0.85055131864
+    ],
+    [
+      "2026-04-27",
+      0.8511461791
+    ],
+    [
+      "2026-04-28",
+      0.85065046205
     ]
   ],
   "historico_dy": [
@@ -15079,6 +15116,18 @@
     [
       "2026-04-23",
       12.5625
+    ],
+    [
+      "2026-04-24",
+      12.5889
+    ],
+    [
+      "2026-04-27",
+      12.5801
+    ],
+    [
+      "2026-04-28",
+      12.5874
     ]
   ],
   "historico_dpc": [
@@ -15263,13 +15312,7 @@
       0.9
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 10301868.38,
-    "Cotas de FIIs": 24798429.94,
-    "CRI/CRA": 318636842.02,
-    "Outros": 5.483889253810048e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -15980,7 +16023,7 @@
         "vencimento": "",
         "quantidade": 23000.0,
         "valor": 23742243.93,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Intecom"
       },
       {
         "tipo": "CRI/CRA",

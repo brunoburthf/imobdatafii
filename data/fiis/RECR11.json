@@ -4,18 +4,19 @@
     "Ticker": "RECR11",
     "Nome": "FII REC Recebíveis Imobiliários",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0379,
-    "Retorno - 12M": 0.149,
-    "P/VP": 0.93,
+    "Retorno - MTD": 0.0483,
+    "Retorno - 12M": 0.1368,
+    "P/VP": 0.94,
     "Último Dividendo Pago": 1.0335,
-    "DY a.a.": 0.15,
+    "DY a.a.": 0.148,
     "Visão Geral": "FII de papel que investe em CRIs e outros ativos de renda fixa de natureza imobiliária, com gestão ativa de crédito. Iniciado em outubro de 2017, é gerido pela REC Gestão. A estratégia concentra a carteira preponderantemente em certificados de recebíveis imobiliários, buscando renda recorrente e diversificação entre operações do mercado imobiliário.",
     "Comentário": "Em março distribuiu R$ 1,0335/cota com dividend yield de 1,280% mensal (15,36% a.a.), equivalente a 136% do CDI líquido. Fundo encerrou com 94% alocado em 98 CRIs e 6 FIIs. Acumulou R$ 158,3% desde IPO em dezembro 2017, superando CDI líquido de 87,1%.",
-    "Preço Atual": 82.31,
-    "% Dias Acima CDI 1A": 0.6774,
-    "% Dias Acima CDI 3A": 0.353,
-    "% Dias Acima CDI 5A": 0.4506,
-    "% Dias Acima CDI MAX": 0.58
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 83.41,
+    "% Dias Acima CDI 1A": 0.6815,
+    "% Dias Acima CDI 3A": 0.3534,
+    "% Dias Acima CDI 5A": 0.449,
+    "% Dias Acima CDI MAX": 0.5796
   },
   "historico_preco": [
     [
@@ -8257,6 +8258,18 @@
     [
       "2026-04-23",
       82.95
+    ],
+    [
+      "2026-04-24",
+      82.76
+    ],
+    [
+      "2026-04-27",
+      82.26
+    ],
+    [
+      "2026-04-28",
+      82.5
     ]
   ],
   "historico_preco_adj": [
@@ -16499,6 +16512,18 @@
     [
       "2026-04-23",
       82.95
+    ],
+    [
+      "2026-04-24",
+      82.76
+    ],
+    [
+      "2026-04-27",
+      82.26
+    ],
+    [
+      "2026-04-28",
+      82.5
     ]
   ],
   "historico_pvp": [
@@ -25209,6 +25234,18 @@
     [
       "2026-04-23",
       0.93272383497
+    ],
+    [
+      "2026-04-24",
+      0.93058739701
+    ],
+    [
+      "2026-04-27",
+      0.92496519185
+    ],
+    [
+      "2026-04-28",
+      0.92766385033
     ]
   ],
   "historico_dy": [
@@ -33427,6 +33464,18 @@
     [
       "2026-04-23",
       14.9512
+    ],
+    [
+      "2026-04-24",
+      14.9855
+    ],
+    [
+      "2026-04-27",
+      15.0766
+    ],
+    [
+      "2026-04-28",
+      15.0327
     ]
   ],
   "historico_dpc": [
@@ -33831,13 +33880,7 @@
       1.0335
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 59568353.83,
-    "Imóveis": 75920000.03,
-    "Cotas de FIIs": 103190014.29,
-    "CRI/CRA": 2212530827.1
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -34008,7 +34051,7 @@
         "vencimento": "",
         "quantidade": 423.0,
         "valor": 422573.39,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Lançamentos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -34059,7 +34102,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 16466.0,
-        "valor": 14413836.84
+        "valor": 14413836.84,
+        "nome_cri": "CRI VCA CONSTRUTORA LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -34101,7 +34145,7 @@
         "vencimento": "",
         "quantidade": 2386.0,
         "valor": 2706833.02,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -34208,7 +34252,7 @@
         "vencimento": "",
         "quantidade": 1127.0,
         "valor": 1125863.39,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Lançamentos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -34314,7 +34358,7 @@
         "vencimento": "",
         "quantidade": 128000.0,
         "valor": 127509987.61,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Realiza 2025"
       },
       {
         "tipo": "CRI/CRA",
@@ -34324,7 +34368,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 6257.0,
-        "valor": 6055284.68
+        "valor": 6055284.68,
+        "nome_cri": "CRI COMTÉRMICA ENGENHARIA LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -34663,7 +34708,7 @@
         "vencimento": "",
         "quantidade": 23852.0,
         "valor": 27059254.57,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -34864,7 +34909,7 @@
         "vencimento": "",
         "quantidade": 5011.0,
         "valor": 3508527.32,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Projetos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -34916,7 +34961,7 @@
         "vencimento": "",
         "quantidade": 7335.0,
         "valor": 5135711.02,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Projetos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -34927,7 +34972,7 @@
         "vencimento": "",
         "quantidade": 7070.0,
         "valor": 4950167.27,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Projetos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -35022,7 +35067,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 19879.0,
-        "valor": 17401473.49
+        "valor": 17401473.49,
+        "nome_cri": "CRI VCA CONSTRUTORA LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -35133,7 +35179,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 5037.0,
-        "valor": 4409236.98
+        "valor": 4409236.98,
+        "nome_cri": "CRI VCA CONSTRUTORA LTDA."
       },
       {
         "tipo": "FII",
@@ -35153,7 +35200,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 26000.0,
-        "valor": 12391499.23
+        "valor": 12391499.23,
+        "nome_cri": "CRI VOKKAN PARTICIPAÇÕES S.A."
       },
       {
         "tipo": "CRI/CRA",
@@ -35186,7 +35234,7 @@
         "vencimento": "",
         "quantidade": 9494.0,
         "valor": 6647367.48,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Projetos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -35261,7 +35309,7 @@
         "vencimento": "",
         "quantidade": 247.0,
         "valor": 246750.89,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Lançamentos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -35377,7 +35425,7 @@
         "vencimento": "",
         "quantidade": 17793.0,
         "valor": 12458037.66,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Projetos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -35483,7 +35531,7 @@
         "vencimento": "",
         "quantidade": 717.0,
         "valor": 716276.88,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Lançamentos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -35567,7 +35615,7 @@
         "vencimento": "",
         "quantidade": 17414.0,
         "valor": 19755570.14,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -35621,7 +35669,7 @@
         "vencimento": "",
         "quantidade": 2567.0,
         "valor": 2912171.15,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -35705,7 +35753,7 @@
         "vencimento": "",
         "quantidade": 15964.0,
         "valor": 18110596.17,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -35820,7 +35868,7 @@
         "vencimento": "",
         "quantidade": 6115.0,
         "valor": 4281509.6,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Projetos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -35915,7 +35963,7 @@
         "vencimento": "",
         "quantidade": 5714.0,
         "valor": 6482331.9,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -35926,7 +35974,7 @@
         "vencimento": "",
         "quantidade": 3664.0,
         "valor": 2565404.93,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Projetos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -35937,7 +35985,7 @@
         "vencimento": "",
         "quantidade": 3516.0,
         "valor": 2461780.49,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Projetos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -36029,7 +36077,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 8687.0,
-        "valor": 7604336.24
+        "valor": 7604336.24,
+        "nome_cri": "CRI VCA CONSTRUTORA LTDA."
       },
       {
         "tipo": "CRI/CRA",
@@ -36404,7 +36453,7 @@
         "vencimento": "",
         "quantidade": 1484.0,
         "valor": 1482503.35,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Pulverizado Lançamentos Residenciais"
       },
       {
         "tipo": "CRI/CRA",
@@ -36522,7 +36571,7 @@
         "vencimento": "",
         "quantidade": 19523.0,
         "valor": 22148156.42,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -36756,7 +36805,7 @@
         "vencimento": "",
         "quantidade": 5335.0,
         "valor": 6052369.74,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -36787,7 +36836,7 @@
         "vencimento": "",
         "quantidade": 1000.0,
         "valor": 1134464.8,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",
@@ -37073,7 +37122,7 @@
         "vencimento": "",
         "quantidade": 2145.0,
         "valor": 2433427.01,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Ativos Residenciais Diversificados"
       },
       {
         "tipo": "CRI/CRA",

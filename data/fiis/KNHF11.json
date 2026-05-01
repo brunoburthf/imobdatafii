@@ -4,18 +4,19 @@
     "Ticker": "KNHF11",
     "Nome": "Kinea Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0166,
-    "Retorno - 12M": 0.2548,
+    "Retorno - MTD": 0.0163,
+    "Retorno - 12M": 0.2373,
     "P/VP": 0.99,
     "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.12,
+    "DY a.a.": 0.121,
     "Visão Geral": "FII híbrido que investe em CRIs, FIIs, imóveis, ações e projetos de desenvolvimento, com gestão ativa e mandato multiestratégia. É gerido pela Kinea e busca oportunidades em diferentes subsegmentos do mercado imobiliário. A estratégia combina renda recorrente e ganho de capital por meio de alocação flexível entre ativos listados e reais.",
     "Comentário": "O fundo encerrou março com cota negociando a R$98,97, deságio de 2,0% ante patrimonial, completando a quarta parcela da aquisição do Edifício São Luiz com desembolso financeiro total. Houve movimentação locatícia com substituição de inquilino, evidenciando o dinamismo da gestão em contexto de escalada geopolítica impactando perspectivas de corte de juros no Brasil.",
-    "Preço Atual": 99.26,
-    "% Dias Acima CDI 1A": 0.5524,
-    "% Dias Acima CDI 3A": 0.3293,
-    "% Dias Acima CDI 5A": 0.3293,
-    "% Dias Acima CDI MAX": 0.3293
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 99.94,
+    "% Dias Acima CDI 1A": 0.5645,
+    "% Dias Acima CDI 3A": 0.3341,
+    "% Dias Acima CDI 5A": 0.3341,
+    "% Dias Acima CDI MAX": 0.3341
   },
   "historico_preco": [
     [
@@ -2677,6 +2678,18 @@
     [
       "2026-04-23",
       99.29
+    ],
+    [
+      "2026-04-24",
+      99.6
+    ],
+    [
+      "2026-04-27",
+      99.46
+    ],
+    [
+      "2026-04-28",
+      99.46
     ]
   ],
   "historico_preco_adj": [
@@ -5339,6 +5352,18 @@
     [
       "2026-04-23",
       99.29
+    ],
+    [
+      "2026-04-24",
+      99.6
+    ],
+    [
+      "2026-04-27",
+      99.46
+    ],
+    [
+      "2026-04-28",
+      99.46
     ]
   ],
   "historico_pvp": [
@@ -8133,6 +8158,18 @@
     [
       "2026-04-23",
       0.98286227738
+    ],
+    [
+      "2026-04-24",
+      0.98593093793
+    ],
+    [
+      "2026-04-27",
+      0.98454509123
+    ],
+    [
+      "2026-04-28",
+      0.98454509123
     ]
   ],
   "historico_dy": [
@@ -10763,6 +10800,18 @@
     [
       "2026-04-23",
       12.0858
+    ],
+    [
+      "2026-04-24",
+      12.0482
+    ],
+    [
+      "2026-04-27",
+      12.0652
+    ],
+    [
+      "2026-04-28",
+      12.0652
     ]
   ],
   "historico_dpc": [
@@ -10895,14 +10944,7 @@
       1.0
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 262114235.01,
-    "Imóveis": 612693047.79,
-    "Cotas de FIIs": 300484822.49,
-    "CRI/CRA": 1088413458.4,
-    "Outros": 23978676.13000004
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,18 +4,19 @@
     "Ticker": "BRCO11",
     "Nome": "Bresco Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.0209,
-    "Retorno - 12M": 0.1775,
+    "Retorno - MTD": 0.0296,
+    "Retorno - 12M": 0.1519,
     "P/VP": 1.01,
     "Último Dividendo Pago": 0.92,
     "DY a.a.": 0.094,
     "Visão Geral": "FII de logística que investe em galpões logísticos com forte exposição a propriedades last mile, além de operações built to suit, sale leaseback e aquisições. O portfólio reúne 10 propriedades e cerca de 392 mil m² de ABL, com foco em ativos operacionais relevantes. A estratégia prioriza renda locatícia recorrente e gestão ativa.",
     "Comentário": "O Bresco Logística finalizou fevereiro com portfólio de 591 mil m² ocupado em 93,3% após término de carência do contrato M. Dias Branco em Canoas. A receita anual estabilizada superou R$214 milhões, com 71% proveniente de ativos last mile e 36% de contratos atípicos gerando previsibilidade. O fundo anunciou distribuição de R$0,92/cota, equivalente a dividend yield de 8,9% anualizado.",
-    "Preço Atual": 116.63,
-    "% Dias Acima CDI 1A": 0.5806,
-    "% Dias Acima CDI 3A": 0.5463,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 118.1,
+    "% Dias Acima CDI 1A": 0.5887,
+    "% Dias Acima CDI 3A": 0.5475,
     "% Dias Acima CDI 5A": 0.3904,
-    "% Dias Acima CDI MAX": 0.3903
+    "% Dias Acima CDI MAX": 0.3909
   },
   "historico_preco": [
     [
@@ -6369,6 +6370,18 @@
     [
       "2026-04-23",
       116.87
+    ],
+    [
+      "2026-04-24",
+      117.0
+    ],
+    [
+      "2026-04-27",
+      116.81
+    ],
+    [
+      "2026-04-28",
+      117.99
     ]
   ],
   "historico_preco_adj": [
@@ -12723,6 +12736,18 @@
     [
       "2026-04-23",
       116.87
+    ],
+    [
+      "2026-04-24",
+      117.0
+    ],
+    [
+      "2026-04-27",
+      116.81
+    ],
+    [
+      "2026-04-28",
+      117.99
     ]
   ],
   "historico_pvp": [
@@ -19393,6 +19418,18 @@
     [
       "2026-04-23",
       1.0048395179
+    ],
+    [
+      "2026-04-24",
+      1.0059572482
+    ],
+    [
+      "2026-04-27",
+      1.0043236424
+    ],
+    [
+      "2026-04-28",
+      1.0144691942
     ]
   ],
   "historico_dy": [
@@ -25591,6 +25628,18 @@
     [
       "2026-04-23",
       9.4464
+    ],
+    [
+      "2026-04-24",
+      9.4359
+    ],
+    [
+      "2026-04-27",
+      9.4512
+    ],
+    [
+      "2026-04-28",
+      9.3567
     ]
   ],
   "historico_dpc": [
@@ -25899,12 +25948,6 @@
       0.92
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 64752383.51,
-    "Imóveis": 2277989920.1,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 23242025.42,
-    "Outros": 0.010000064969062805
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

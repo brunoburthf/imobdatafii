@@ -4,18 +4,19 @@
     "Ticker": "HGCR11",
     "Nome": "Pátria Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0054,
-    "Retorno - 12M": 0.152,
-    "P/VP": 0.99,
+    "Retorno - MTD": 0.0165,
+    "Retorno - 12M": 0.1586,
+    "P/VP": 1.0,
     "Último Dividendo Pago": 0.95,
-    "DY a.a.": 0.117,
+    "DY a.a.": 0.116,
     "Visão Geral": "FII de papel que investe em CRIs, com carteira diversificada e garantia real como base da estratégia. É gerido pelo Patria e tinha patrimônio líquido de R$ 1,492 bilhão na base divulgada pela gestora. A alocação entre diferentes indexadores busca atuação anticíclica e geração recorrente de renda no crédito imobiliário.",
     "Comentário": "Fevereiro apresentou resultado distribuível de R$ 0,89/cota com distribuição anunciada de R$ 0,95/cota. Carteira sofreu realocação tática com venda de cotas GARE11 (prejuízo de R$ 14,6 mil) e alocações em CRI Union (R$ 32 MM a CDI+1,7%) e FII Core Residencial (R$ 15 MM a CDI+2,5%). Reserve acumulada cresceu para R$ 0,49/cota.",
-    "Preço Atual": 97.61,
-    "% Dias Acima CDI 1A": 0.3185,
-    "% Dias Acima CDI 3A": 0.4765,
-    "% Dias Acima CDI 5A": 0.5944,
-    "% Dias Acima CDI MAX": 0.6577
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 99.68,
+    "% Dias Acima CDI 1A": 0.3266,
+    "% Dias Acima CDI 3A": 0.4779,
+    "% Dias Acima CDI 5A": 0.5936,
+    "% Dias Acima CDI MAX": 0.6575
   },
   "historico_preco": [
     [
@@ -13837,6 +13838,18 @@
     [
       "2026-04-23",
       97.63
+    ],
+    [
+      "2026-04-24",
+      97.53
+    ],
+    [
+      "2026-04-27",
+      97.44
+    ],
+    [
+      "2026-04-28",
+      97.91
     ]
   ],
   "historico_preco_adj": [
@@ -23991,6 +24004,18 @@
     [
       "2026-04-23",
       97.63
+    ],
+    [
+      "2026-04-24",
+      97.53
+    ],
+    [
+      "2026-04-27",
+      97.44
+    ],
+    [
+      "2026-04-28",
+      97.91
     ]
   ],
   "historico_pvp": [
@@ -38933,6 +38958,18 @@
     [
       "2026-04-23",
       0.98964185015
+    ],
+    [
+      "2026-04-24",
+      0.98862818442
+    ],
+    [
+      "2026-04-27",
+      0.98771588527
+    ],
+    [
+      "2026-04-28",
+      0.99248011419
     ]
   ],
   "historico_dy": [
@@ -49087,6 +49124,18 @@
     [
       "2026-04-23",
       11.6767
+    ],
+    [
+      "2026-04-24",
+      11.6887
+    ],
+    [
+      "2026-04-27",
+      11.6995
+    ],
+    [
+      "2026-04-28",
+      11.6433
     ]
   ],
   "historico_dpc": [
@@ -49587,13 +49636,7 @@
       0.95
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 45414274.89,
-    "Cotas de FIIs": 231114214.86,
-    "CRI/CRA": 1259583783.1,
-    "Outros": 0.010000095353461802
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

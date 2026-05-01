@@ -4,18 +4,19 @@
     "Ticker": "VGIR11",
     "Nome": "Valora Cri CDI FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0133,
-    "Retorno - 12M": 0.251,
-    "P/VP": 1.0,
+    "Retorno - MTD": 0.0081,
+    "Retorno - 12M": 0.2193,
+    "P/VP": 0.99,
     "Último Dividendo Pago": 0.13,
-    "DY a.a.": 0.159,
+    "DY a.a.": 0.16,
     "Visão Geral": "FII de papel que investe em CRIs, com objetivo de alocação preponderante nesses títulos e benchmark atrelado ao CDI. É gerido pela Valora e busca renda recorrente por meio de crédito imobiliário. A estratégia concentra recebíveis elegíveis definidos em política própria, com foco em instrumentos financeiros do setor imobiliário.",
     "Comentário": "Distribuição de R$0,12/cota equivalente a CDI+3,4% ao ano, totalizando R$1,52 nos últimos 12 meses (CDI+2,16%). Fundo com 95,5% em CRIs distribuídos em 57 operações, patrimônio de R$1.412 bilhões. Amortizações somaram R$8,7 mi e 260 mil investidores participam da estrutura, mantendo posição saudável de recebíveis.",
-    "Preço Atual": 9.78,
-    "% Dias Acima CDI 1A": 0.5927,
-    "% Dias Acima CDI 3A": 0.604,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 9.75,
+    "% Dias Acima CDI 1A": 0.6048,
+    "% Dias Acima CDI 3A": 0.6064,
     "% Dias Acima CDI 5A": 0.7237,
-    "% Dias Acima CDI MAX": 0.6476
+    "% Dias Acima CDI MAX": 0.6482
   },
   "historico_preco": [
     [
@@ -7557,6 +7558,18 @@
     [
       "2026-04-23",
       9.8
+    ],
+    [
+      "2026-04-24",
+      9.79
+    ],
+    [
+      "2026-04-27",
+      9.77
+    ],
+    [
+      "2026-04-28",
+      9.72
     ]
   ],
   "historico_preco_adj": [
@@ -15099,6 +15112,18 @@
     [
       "2026-04-23",
       9.8
+    ],
+    [
+      "2026-04-24",
+      9.79
+    ],
+    [
+      "2026-04-27",
+      9.77
+    ],
+    [
+      "2026-04-28",
+      9.72
     ]
   ],
   "historico_pvp": [
@@ -23173,6 +23198,18 @@
     [
       "2026-04-23",
       0.9997634155
+    ],
+    [
+      "2026-04-24",
+      0.99874324875
+    ],
+    [
+      "2026-04-27",
+      0.99670291525
+    ],
+    [
+      "2026-04-28",
+      0.99160208149
     ]
   ],
   "historico_dy": [
@@ -30667,6 +30704,18 @@
     [
       "2026-04-23",
       15.9184
+    ],
+    [
+      "2026-04-24",
+      15.9346
+    ],
+    [
+      "2026-04-27",
+      15.9672
+    ],
+    [
+      "2026-04-28",
+      16.0494
     ]
   ],
   "historico_dpc": [
@@ -31043,14 +31092,7 @@
       0.13
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 86964138.79,
-    "Cotas de FIIs": 0.01,
-    "CRI/CRA": 1334509898.8,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 110000.0,
-    "Outros": 1.8998980522155762e-07
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -31084,7 +31126,7 @@
         "vencimento": "",
         "quantidade": 70000.0,
         "valor": 68015241.75,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI HBR Estacionamentos"
       },
       {
         "tipo": "CRI/CRA",
@@ -31291,7 +31333,7 @@
         "vencimento": "",
         "quantidade": 62000.0,
         "valor": 62025297.83,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor XII (AF Cotas)"
       },
       {
         "tipo": "CRI/CRA",
@@ -31385,7 +31427,7 @@
         "vencimento": "",
         "quantidade": 71600.0,
         "valor": 72589385.51,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor VIII"
       },
       {
         "tipo": "CRI/CRA",
@@ -31459,7 +31501,7 @@
         "vencimento": "",
         "quantidade": 37069.0,
         "valor": 37093787.43,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor IX"
       },
       {
         "tipo": "Outras Cotas de FI",
@@ -31594,7 +31636,7 @@
         "vencimento": "",
         "quantidade": 8439.0,
         "valor": 7471898.59,
-        "nome_cri": "CRI Trinity"
+        "nome_cri": "CRI Longitude II"
       },
       {
         "tipo": "CRI/CRA",
@@ -31636,7 +31678,7 @@
         "vencimento": "",
         "quantidade": 70995.0,
         "valor": 83654947.57,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Helbor XV"
       },
       {
         "tipo": "CRI/CRA",

@@ -768,17 +768,18 @@ function renderizarCarteiraCvm() {
       <div class="carteira-accordion-body" id="${id}">
         <table>
           <thead><tr>
-            ${isCRI ? '<th>Nome</th><th>Emissor</th><th>Série</th><th>Emissão</th>' : '<th>Emissor</th><th>Nome</th>'}
+            ${isCRI ? '<th>Nome</th><th>Emissor</th><th>Série</th><th>Emissão</th><th>Taxa</th>' : '<th>Emissor</th><th>Nome</th>'}
             <th>Vencimento</th>
             <th class="num">Valor (R$)</th>
           </tr></thead>
           <tbody>`;
+    const limpaSec = s => (s||"").replace(/^CRI_\S+\s*-\s*/, "").replace(/\s*-\s*\d{2}[A-Z]\d{5,}$/, "").replace(/\s+\d{2}[A-Z]\d{5,}$/, "").trim() || s;
     lista.forEach(a => {
       html += `<tr>
         ${isCRI
-          ? `<td style="font-weight:600;color:var(--navy)">${a.nome_cri || "—"}</td><td>${a.emissor || "—"}</td><td>${a.serie || "—"}</td><td>${a.emissao || "—"}</td>`
+          ? `<td style="font-weight:600;color:var(--navy)">${a.nome_cri || "—"}</td><td>${limpaSec(a.emissor)}</td><td>${a.serie || "—"}</td><td>${a.emissao || "—"}</td><td style="white-space:nowrap">${a.taxa || "—"}</td>`
           : `<td>${a.emissor || "—"}</td><td>${a.nome || a.emissor || "—"}</td>`}
-        <td>${fmtData(a.vencimento)}</td>
+        <td>${fmtData(a.vencimento_cri || a.vencimento)}</td>
         <td class="num">${fmtR(a.valor)}</td>
       </tr>`;
     });

@@ -4,18 +4,19 @@
     "Ticker": "MCCI11",
     "Nome": "FII Mauá Capital Recebíveis Imobiliários",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0377,
-    "Retorno - 12M": 0.292,
+    "Retorno - MTD": 0.0398,
+    "Retorno - 12M": 0.2944,
     "P/VP": 1.01,
     "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.125,
+    "DY a.a.": 0.124,
     "Visão Geral": "FII de papel que investe em CRIs e outros valores mobiliários de natureza imobiliária, com foco em rendimento e ganho de capital. Iniciado em dezembro de 2019, é gerido pela Mauá Capital Real Estate. A estratégia prioriza crédito imobiliário como principal fonte de renda recorrente, com gestão ativa da carteira.",
     "Comentário": "Distribuição mantida em R$ 1,00/cota com dividend yield de 13,3% a.a. Não houve movimentações relevantes em fevereiro, mantendo carteira diversificada em ativos resilientes com 100% dos CRIs adimplentes. Gestão projeta distribuição entre R$ 0,90 e R$ 1,00/cota para o primeiro semestre 2026.",
-    "Preço Atual": 95.85,
-    "% Dias Acima CDI 1A": 0.6331,
-    "% Dias Acima CDI 3A": 0.3772,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 96.69,
+    "% Dias Acima CDI 1A": 0.6452,
+    "% Dias Acima CDI 3A": 0.3802,
     "% Dias Acima CDI 5A": 0.4458,
-    "% Dias Acima CDI MAX": 0.4652
+    "% Dias Acima CDI MAX": 0.4664
   },
   "historico_preco": [
     [
@@ -6357,6 +6358,18 @@
     [
       "2026-04-23",
       96.21
+    ],
+    [
+      "2026-04-24",
+      96.35
+    ],
+    [
+      "2026-04-27",
+      96.08
+    ],
+    [
+      "2026-04-28",
+      96.0
     ]
   ],
   "historico_preco_adj": [
@@ -12699,6 +12712,18 @@
     [
       "2026-04-23",
       96.21
+    ],
+    [
+      "2026-04-24",
+      96.35
+    ],
+    [
+      "2026-04-27",
+      96.08
+    ],
+    [
+      "2026-04-28",
+      96.0
     ]
   ],
   "historico_pvp": [
@@ -19357,6 +19382,18 @@
     [
       "2026-04-23",
       1.0112990955
+    ],
+    [
+      "2026-04-24",
+      1.0127706876
+    ],
+    [
+      "2026-04-27",
+      1.0099326171
+    ],
+    [
+      "2026-04-28",
+      1.0090917074
     ]
   ],
   "historico_dy": [
@@ -25643,6 +25680,18 @@
     [
       "2026-04-23",
       12.4727
+    ],
+    [
+      "2026-04-24",
+      12.4546
+    ],
+    [
+      "2026-04-27",
+      12.4896
+    ],
+    [
+      "2026-04-28",
+      12.5
     ]
   ],
   "historico_dpc": [
@@ -25951,13 +26000,7 @@
       1.0
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 117753221.8,
-    "Cotas de FIIs": 267644540.17,
-    "CRI/CRA": 1229398518.1,
-    "Outros": 6.675691111013293e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -26024,7 +26067,7 @@
         "vencimento": "",
         "quantidade": 54689.0,
         "valor": 51918009.51,
-        "nome_cri": "CRI Artis"
+        "nome_cri": "CRI Bread III (V)"
       },
       {
         "tipo": "CRI/CRA",
@@ -26190,7 +26233,7 @@
         "vencimento": "",
         "quantidade": 0.0,
         "valor": 0.0,
-        "nome_cri": "CRI Campos do Jordão"
+        "nome_cri": "CRI Aura Campo Belo"
       },
       {
         "tipo": "FII",
@@ -26242,7 +26285,7 @@
         "vencimento": "",
         "quantidade": 0.0,
         "valor": 0.0,
-        "nome_cri": "CRI Aura Vila Mariana"
+        "nome_cri": "CRI 0246S - Aura Vila Mariana"
       },
       {
         "tipo": "CRI/CRA",
@@ -26284,7 +26327,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 70746.0,
-        "valor": 85195391.75
+        "valor": 85195391.75,
+        "nome_cri": "CRI TZI CITRINO EMPREENDIMENTOS"
       },
       {
         "tipo": "CRI/CRA",
@@ -26471,7 +26515,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 30000.0,
-        "valor": 27220527.4
+        "valor": 27220527.4,
+        "nome_cri": "CRI FDR INDEPENDÊNIA DESENVOLVIMENTO IMOBILIÁRIO LTDA."
       },
       {
         "tipo": "CRI/CRA",

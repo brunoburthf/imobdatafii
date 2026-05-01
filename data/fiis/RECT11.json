@@ -4,18 +4,19 @@
     "Ticker": "RECT11",
     "Nome": "FII Rec Renda Imobiliaria",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0028,
-    "Retorno - 12M": 0.457,
+    "Retorno - MTD": -0.0023,
+    "Retorno - 12M": 0.3452,
     "P/VP": 0.43,
     "Último Dividendo Pago": 0.45,
-    "DY a.a.": 0.138,
+    "DY a.a.": 0.139,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis com exploração comercial, preferencialmente prontos, incluindo escritórios e outros ativos urbanos de renda. É gerido pela REC Gestão e atua com gestão ativa no segmento corporativo. A estratégia prioriza locação recorrente, reciclagem patrimonial e captura de valor em imóveis comerciais relevantes.",
     "Comentário": "Em março distribuiu R$ 0,4500/cota, gerando dividend yield de 1,14% mensal (13,72% a.a.), equivalente a 122% do CDI após impostos. Portfólio de 7 imóveis com 91,75% de ocupação apresenta valor patrimonial de R$ 89,76/cota. Fundo alienou 4 imóveis para gerenciar passivos estrategicamente.",
-    "Preço Atual": 38.96,
-    "% Dias Acima CDI 1A": 0.6008,
-    "% Dias Acima CDI 3A": 0.2,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 38.99,
+    "% Dias Acima CDI 1A": 0.6129,
+    "% Dias Acima CDI 3A": 0.2035,
     "% Dias Acima CDI 5A": 0.1237,
-    "% Dias Acima CDI MAX": 0.2324
+    "% Dias Acima CDI MAX": 0.234
   },
   "historico_preco": [
     [
@@ -6973,6 +6974,18 @@
     [
       "2026-04-23",
       39.05
+    ],
+    [
+      "2026-04-24",
+      39.02
+    ],
+    [
+      "2026-04-27",
+      38.93
+    ],
+    [
+      "2026-04-28",
+      38.85
     ]
   ],
   "historico_preco_adj": [
@@ -13931,6 +13944,18 @@
     [
       "2026-04-23",
       39.05
+    ],
+    [
+      "2026-04-24",
+      39.02
+    ],
+    [
+      "2026-04-27",
+      38.93
+    ],
+    [
+      "2026-04-28",
+      38.85
     ]
   ],
   "historico_pvp": [
@@ -21225,6 +21250,18 @@
     [
       "2026-04-23",
       0.4350631791
+    ],
+    [
+      "2026-04-24",
+      0.43472894363
+    ],
+    [
+      "2026-04-27",
+      0.4337262372
+    ],
+    [
+      "2026-04-28",
+      0.43283494259
     ]
   ],
   "historico_dy": [
@@ -28087,6 +28124,18 @@
     [
       "2026-04-23",
       13.8284
+    ],
+    [
+      "2026-04-24",
+      13.8391
+    ],
+    [
+      "2026-04-27",
+      13.8711
+    ],
+    [
+      "2026-04-28",
+      13.8996
     ]
   ],
   "historico_dpc": [
@@ -28427,12 +28476,7 @@
       0.45
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 2874080.99,
-    "Imóveis": 789423484.7,
-    "CRI/CRA": 10885222.86
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

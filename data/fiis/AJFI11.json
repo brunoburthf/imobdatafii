@@ -4,18 +4,19 @@
     "Ticker": "AJFI11",
     "Nome": "Aj Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0109,
-    "Retorno - 12M": 0.2317,
+    "Retorno - MTD": 0.0121,
+    "Retorno - 12M": 0.2298,
     "P/VP": 0.75,
     "Último Dividendo Pago": 0.05,
     "DY a.a.": 0.072,
     "Visão Geral": "FII de shopping que investe em shopping centers originados e administrados pela Almeida Junior, podendo também participar de projetos greenfield do segmento. É gerido pela Capitânia e busca renda imobiliária e ganho de capital com exploração comercial dos ativos. A estratégia prioriza shoppings consolidados e gestão especializada no varejo regional.",
     "Comentário": "O portfólio de shoppings da Almeida Junior apresentou desempenho operacional robusto em dezembro, com NOI caixa crescendo entre 7,2% e 22,1% na comparação anual entre seus seis ativos. A vacância consolidada fechou em 7%, mantendo-se controlada, enquanto as vendas totais cresceram consistentemente. O fundo distribuiu R$0,047/cota, acompanhando a trajetória dos períodos anteriores.",
-    "Preço Atual": 8.29,
-    "% Dias Acima CDI 1A": 0.5685,
-    "% Dias Acima CDI 3A": 0.3917,
-    "% Dias Acima CDI 5A": 0.3917,
-    "% Dias Acima CDI MAX": 0.3917
+    "Mês Ref. Comentário": "dez/25",
+    "Preço Atual": 8.35,
+    "% Dias Acima CDI 1A": 0.5806,
+    "% Dias Acima CDI 3A": 0.3967,
+    "% Dias Acima CDI 5A": 0.3967,
+    "% Dias Acima CDI MAX": 0.3967
   },
   "historico_preco": [
     [
@@ -2465,6 +2466,18 @@
     [
       "2026-04-23",
       8.33
+    ],
+    [
+      "2026-04-24",
+      8.34
+    ],
+    [
+      "2026-04-27",
+      8.35
+    ],
+    [
+      "2026-04-28",
+      8.34
     ]
   ],
   "historico_preco_adj": [
@@ -4915,6 +4928,18 @@
     [
       "2026-04-23",
       8.33
+    ],
+    [
+      "2026-04-24",
+      8.34
+    ],
+    [
+      "2026-04-27",
+      8.35
+    ],
+    [
+      "2026-04-28",
+      8.34
     ]
   ],
   "historico_pvp": [
@@ -7421,6 +7446,18 @@
     [
       "2026-04-23",
       0.75255953068
+    ],
+    [
+      "2026-04-24",
+      0.75346296349
+    ],
+    [
+      "2026-04-27",
+      0.7543663963
+    ],
+    [
+      "2026-04-28",
+      0.75346296349
     ]
   ],
   "historico_dy": [
@@ -9807,6 +9844,18 @@
     [
       "2026-04-23",
       7.2029
+    ],
+    [
+      "2026-04-24",
+      7.1942
+    ],
+    [
+      "2026-04-27",
+      7.1856
+    ],
+    [
+      "2026-04-28",
+      7.1942
     ]
   ],
   "historico_dpc": [
@@ -9927,12 +9976,7 @@
       0.05
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 23107803.78,
-    "Imóveis": 357998078.43,
-    "Outros": 1.6763806343078613e-08
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

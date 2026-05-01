@@ -6,17 +6,17 @@
     "Tipo": "FI-Infra",
     "Setor": "FI-Infra",
     "CNPJ": "53556099000179",
-    "Preço Atual": 102.13,
-    "Variação Dia": 0.1,
-    "P/VP": 1.0018845573108681,
-    "VP/cota": 101.9378922,
-    "DY a.a.": 0.1439342015078821,
+    "Preço Atual": 103.2,
+    "Variação Dia": 0.93,
+    "P/VP": 1.018627721138726,
+    "VP/cota": 101.3127739,
+    "DY a.a.": 0.14244186046511625,
     "Último Dividendo Pago": 1.2,
-    "Retorno - MTD": -0.0179807692307693,
-    "Retorno - 12M": 0.22325473663920126,
-    "Visão Geral": "FI-Infra gerido pela Itaú Asset Management, com mandato em debêntures incentivadas e demais títulos privados ligados à Lei 12.431, porém com exposição convertida para o CDI via derivativos — estratégia que atende investidores que preferem retorno pós-fixado sem abrir mão da isenção fiscal. A filosofia é de gestão ativa, com diversificação entre os setores de energia, saneamento, rodovias, telecom e transporte, combinando originação no mercado primário e aproveitamento de oportunidades no secundário em momentos de abertura de spreads. Traço estrutural do veículo é a isenção de IR sobre rendimentos e ganho de capital para pessoa física.",
-    "Comentário": "A distribuição subiu de R$ 1,10 para R$ 1,20/cota, equivalente a 94,2% do CDI no mês. O gestor vendeu integralmente NTS por R$ 2,7 MM e alocou R$ 13 MM em Urbia Cataratas a IPCA+8,12% em 15 anos, aproveitando abertura média de 34 pontos-base nos spreads para adquirir Águas de Teresina a IPCA+7,98% e reforçar Litoral Sul a IPCA+8,3%.",
-    "Mês Ref. Comentário": "mar/26"
+    "Retorno - MTD": 0.01564806613522296,
+    "Retorno - 12M": 0.24496317889428698,
+    "Visão Geral": null,
+    "Comentário": null,
+    "Mês Ref. Comentário": null
   },
   "historico_preco": [
     [
@@ -1858,6 +1858,18 @@
     [
       "2026-04-23",
       102.56
+    ],
+    [
+      "2026-04-24",
+      102.03
+    ],
+    [
+      "2026-04-27",
+      101.7
+    ],
+    [
+      "2026-04-28",
+      101.61
     ]
   ],
   "historico_preco_adj": [
@@ -3700,6 +3712,18 @@
     [
       "2026-04-23",
       102.56
+    ],
+    [
+      "2026-04-24",
+      102.03
+    ],
+    [
+      "2026-04-27",
+      101.7
+    ],
+    [
+      "2026-04-28",
+      101.61
     ]
   ],
   "historico_dy": [
@@ -5430,6 +5454,18 @@
     [
       "2026-04-23",
       14.0406
+    ],
+    [
+      "2026-04-24",
+      14.1135
+    ],
+    [
+      "2026-04-27",
+      14.1593
+    ],
+    [
+      "2026-04-28",
+      14.1718
     ]
   ],
   "historico_pvp": [
@@ -7215,63 +7251,75 @@
     ],
     [
       "2026-04-01",
-      0.9935
+      0.9933
     ],
     [
       "2026-04-02",
-      1.0024
+      1.002
     ],
     [
       "2026-04-06",
-      1.0005
+      0.9993
     ],
     [
       "2026-04-07",
-      1.0015
+      1.0001
     ],
     [
       "2026-04-08",
-      1.0024
+      1.0009
     ],
     [
       "2026-04-09",
-      1.0056
+      1.0039
     ],
     [
       "2026-04-10",
-      1.0046
+      1.0026
     ],
     [
       "2026-04-13",
-      1.0049
+      1.0024
     ],
     [
       "2026-04-14",
-      0.9999
+      0.9972
     ],
     [
       "2026-04-15",
-      1.0043
-    ],
-    [
-      "2026-04-16",
-      1.0055
-    ],
-    [
-      "2026-04-17",
       1.0014
     ],
     [
+      "2026-04-16",
+      1.0024
+    ],
+    [
+      "2026-04-17",
+      0.999
+    ],
+    [
       "2026-04-20",
-      1.0025
+      1.0024
     ],
     [
       "2026-04-22",
-      1.0072
+      1.0087
     ],
     [
       "2026-04-23",
-      1.0061
+      1.0084
+    ],
+    [
+      "2026-04-24",
+      1.004
+    ],
+    [
+      "2026-04-27",
+      1.003
+    ],
+    [
+      "2026-04-28",
+      1.0029
     ]
   ],
   "historico_vp": [
@@ -7368,8 +7416,8 @@
       103.5206755
     ],
     [
-      "2026-04-16",
-      101.9378922
+      "2026-04-28",
+      101.3127739
     ]
   ],
   "historico_dpc": [

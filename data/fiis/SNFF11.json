@@ -4,18 +4,19 @@
     "Ticker": "SNFF11",
     "Nome": "Suno Fundo de FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0408,
-    "Retorno - 12M": 0.226,
-    "P/VP": 0.87,
+    "Retorno - MTD": 0.0309,
+    "Retorno - 12M": 0.1605,
+    "P/VP": 0.86,
     "Último Dividendo Pago": 0.72,
-    "DY a.a.": 0.115,
+    "DY a.a.": 0.116,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, com política de investimentos imobiliários de longo prazo. É gerido pela Suno Asset, foi lançado ao mercado geral em maio de 2021 e busca retornos por rendimentos mensais e valorização das cotas. A estratégia prioriza alocação ativa e diversificação.",
     "Comentário": "O fundo anunciou fusão/incorporação no SNME11, com previsão de concretização no primeiro semestre de 2026. Distribuiu R$ 0,72/cota em fevereiro, mantendo dividend yield anualizado de 12,18%. A estrutura de gestão multiestratégia busca potencializar performance através da consolidação operacional e maior flexibilidade de alocação.",
-    "Preço Atual": 75.08,
-    "% Dias Acima CDI 1A": 0.3024,
-    "% Dias Acima CDI 3A": 0.2886,
-    "% Dias Acima CDI 5A": 0.2354,
-    "% Dias Acima CDI MAX": 0.2354
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 75.71,
+    "% Dias Acima CDI 1A": 0.3145,
+    "% Dias Acima CDI 3A": 0.2918,
+    "% Dias Acima CDI 5A": 0.2377,
+    "% Dias Acima CDI MAX": 0.2377
   },
   "historico_preco": [
     [
@@ -4973,6 +4974,18 @@
     [
       "2026-04-23",
       75.35
+    ],
+    [
+      "2026-04-24",
+      75.22
+    ],
+    [
+      "2026-04-27",
+      74.98
+    ],
+    [
+      "2026-04-28",
+      74.9
     ]
   ],
   "historico_preco_adj": [
@@ -9931,6 +9944,18 @@
     [
       "2026-04-23",
       75.35
+    ],
+    [
+      "2026-04-24",
+      75.22
+    ],
+    [
+      "2026-04-27",
+      74.98
+    ],
+    [
+      "2026-04-28",
+      74.9
     ]
   ],
   "historico_pvp": [
@@ -15049,6 +15074,18 @@
     [
       "2026-04-23",
       0.86790164051
+    ],
+    [
+      "2026-04-24",
+      0.86640426541
+    ],
+    [
+      "2026-04-27",
+      0.86363988063
+    ],
+    [
+      "2026-04-28",
+      0.86271841903
     ]
   ],
   "historico_dy": [
@@ -19935,6 +19972,18 @@
     [
       "2026-04-23",
       11.4665
+    ],
+    [
+      "2026-04-24",
+      11.4863
+    ],
+    [
+      "2026-04-27",
+      11.5231
+    ],
+    [
+      "2026-04-28",
+      11.5354
     ]
   ],
   "historico_dpc": [
@@ -20175,13 +20224,7 @@
       0.72
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 14693384.37,
-    "Cotas de FIIs": 306929376.62,
-    "CRI/CRA": 26344294.51,
-    "Outros": 3343677.7799999937
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,18 +4,19 @@
     "Ticker": "VISC11",
     "Nome": "Vinci Shopping Centers FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0167,
-    "Retorno - 12M": 0.1816,
-    "P/VP": 0.95,
+    "Retorno - MTD": 0.0115,
+    "Retorno - 12M": 0.1334,
+    "P/VP": 0.94,
     "Último Dividendo Pago": 0.84,
-    "DY a.a.": 0.091,
+    "DY a.a.": 0.092,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers, com presença em ativos como Natal Shopping e Shopping Conjunto Nacional. O portfólio é diversificado por regiões e administradores, e a taxa de ocupação chegou a 94,4% em julho de 2025. A estratégia prioriza renda imobiliária recorrente e gestão ativa.",
     "Comentário": "Distribuiu R$0,84/cota com resultado gerado de R$0,71/cota, incrementando acumulado a R$1,47/cota (incluindo Paralela FII). Concluiu aquisição de 10% BH Shopping por R$285 mi (11,3% yield estimado). NOI/m² cresceu 7,2% vs 2025, refletindo benefício de qualificação de portfólio e shopping centers premium.",
-    "Preço Atual": 110.02,
-    "% Dias Acima CDI 1A": 0.5242,
-    "% Dias Acima CDI 3A": 0.5302,
-    "% Dias Acima CDI 5A": 0.4811,
-    "% Dias Acima CDI MAX": 0.5186
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 110.21,
+    "% Dias Acima CDI 1A": 0.5282,
+    "% Dias Acima CDI 3A": 0.5288,
+    "% Dias Acima CDI 5A": 0.4795,
+    "% Dias Acima CDI MAX": 0.5183
   },
   "historico_preco": [
     [
@@ -8429,6 +8430,18 @@
     [
       "2026-04-23",
       110.0
+    ],
+    [
+      "2026-04-24",
+      110.37
+    ],
+    [
+      "2026-04-27",
+      109.64
+    ],
+    [
+      "2026-04-28",
+      109.82
     ]
   ],
   "historico_preco_adj": [
@@ -16843,6 +16856,18 @@
     [
       "2026-04-23",
       110.0
+    ],
+    [
+      "2026-04-24",
+      110.37
+    ],
+    [
+      "2026-04-27",
+      109.64
+    ],
+    [
+      "2026-04-28",
+      109.82
     ]
   ],
   "historico_pvp": [
@@ -25697,6 +25722,18 @@
     [
       "2026-04-23",
       0.94311152048
+    ],
+    [
+      "2026-04-24",
+      0.94628380468
+    ],
+    [
+      "2026-04-27",
+      0.94002497368
+    ],
+    [
+      "2026-04-28",
+      0.94156824708
     ]
   ],
   "historico_dy": [
@@ -34031,6 +34068,18 @@
     [
       "2026-04-23",
       9.1636
+    ],
+    [
+      "2026-04-24",
+      9.1329
+    ],
+    [
+      "2026-04-27",
+      9.1937
+    ],
+    [
+      "2026-04-28",
+      9.1787
     ]
   ],
   "historico_dpc": [
@@ -34443,14 +34492,7 @@
       0.84
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 174904583.42,
-    "Imóveis": 3981058241.4,
-    "Cotas de FIIs": 117348716.72,
-    "CRI/CRA": 98610642.08,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 3040120.27
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

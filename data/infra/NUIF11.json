@@ -6,17 +6,17 @@
     "Tipo": "FI-Infra",
     "Setor": "FI-Infra",
     "CNPJ": "40963403000150",
-    "Preço Atual": 93.24,
+    "Preço Atual": 94.38,
     "Variação Dia": null,
-    "P/VP": 0.9512555961786981,
-    "VP/cota": 98.01782021,
-    "DY a.a.": 0.15122265122265124,
+    "P/VP": 0.9651617328556579,
+    "VP/cota": 97.78671987,
+    "DY a.a.": 0.1493960584869676,
     "Último Dividendo Pago": 1.0,
-    "Retorno - MTD": 0.019016393442622848,
-    "Retorno - 12M": 0.2105542405942935,
-    "Visão Geral": "Fundo de renda fixa gerido pela Nu Asset com alocação majoritária em títulos de crédito privado incentivados da Lei 12.431, relacionados a investimentos em infraestrutura. Constituído em abril de 2022 a partir de seed money proprietário e ampliado em oferta pública posterior, tem condomínio fechado e listagem em bolsa. Carteira diversificada por setores como distribuição, transmissão e geração de energia, saneamento, rodovias, telecom, óleo e gás e terminais portuários, com ativos de rating elevado. Veículo isento de IR em rendimentos e ganho de capital para pessoa física, com distribuição mensal esperada.",
-    "Comentário": "Distribuicao mantida em R$ 1,00/cota (105% do CDI gross-up). Performance negativa de -1,6% no mes, com spread&trading contribuindo -1,8% e curvas de juros -1,3%, parcialmente compensados pelo carrego de 1,6%. A gestao zerou posicao em Intervias por risco de credito e ampliou exposicao em Claro e Engie, aproveitando abertura de spreads. Carteira a IPCA+7,71% com duration de 6,3 anos.",
-    "Mês Ref. Comentário": "mar/26"
+    "Retorno - MTD": 0.014838709677419404,
+    "Retorno - 12M": 0.20215675674288835,
+    "Visão Geral": null,
+    "Comentário": null,
+    "Mês Ref. Comentário": null
   },
   "historico_preco": [
     [
@@ -2078,6 +2078,18 @@
     [
       "2026-04-23",
       92.85
+    ],
+    [
+      "2026-04-24",
+      92.82
+    ],
+    [
+      "2026-04-27",
+      92.67
+    ],
+    [
+      "2026-04-28",
+      93.0
     ]
   ],
   "historico_preco_adj": [
@@ -4140,6 +4152,18 @@
     [
       "2026-04-23",
       92.85
+    ],
+    [
+      "2026-04-24",
+      92.82
+    ],
+    [
+      "2026-04-27",
+      92.67
+    ],
+    [
+      "2026-04-28",
+      93.0
     ]
   ],
   "historico_dy": [
@@ -6014,6 +6038,18 @@
     [
       "2026-04-23",
       12.9241
+    ],
+    [
+      "2026-04-24",
+      12.9282
+    ],
+    [
+      "2026-04-27",
+      12.9492
+    ],
+    [
+      "2026-04-28",
+      12.9032
     ]
   ],
   "historico_pvp": [
@@ -8019,63 +8055,75 @@
     ],
     [
       "2026-04-01",
-      0.9348
+      0.9349
     ],
     [
       "2026-04-02",
-      0.9377
+      0.9378
     ],
     [
       "2026-04-06",
-      0.9345
+      0.9347
     ],
     [
       "2026-04-07",
-      0.9348
+      0.9351
     ],
     [
       "2026-04-08",
-      0.931
+      0.9313
     ],
     [
       "2026-04-09",
-      0.9479
+      0.9482
     ],
     [
       "2026-04-10",
-      0.9479
+      0.9483
     ],
     [
       "2026-04-13",
-      0.9403
+      0.9408
     ],
     [
       "2026-04-14",
-      0.9492
-    ],
-    [
-      "2026-04-15",
-      0.9419
-    ],
-    [
-      "2026-04-16",
-      0.9439
-    ],
-    [
-      "2026-04-17",
       0.9497
     ],
     [
+      "2026-04-15",
+      0.9424
+    ],
+    [
+      "2026-04-16",
+      0.9445
+    ],
+    [
+      "2026-04-17",
+      0.9503
+    ],
+    [
       "2026-04-20",
-      0.9505
+      0.9513
     ],
     [
       "2026-04-22",
-      0.9486
+      0.9494
     ],
     [
       "2026-04-23",
-      0.9473
+      0.9481
+    ],
+    [
+      "2026-04-24",
+      0.9481
+    ],
+    [
+      "2026-04-27",
+      0.9474
+    ],
+    [
+      "2026-04-28",
+      0.951
     ]
   ],
   "historico_vp": [
@@ -8264,8 +8312,8 @@
       98.58883609
     ],
     [
-      "2026-04-23",
-      98.01782021
+      "2026-04-28",
+      97.78671987
     ]
   ],
   "historico_dpc": [

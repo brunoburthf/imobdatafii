@@ -4,18 +4,19 @@
     "Ticker": "BTAL11",
     "Nome": "BTG Pactual Agro Logística Fundo de Investimento Nas Cadeias Produtivas do Agron",
     "Setor": "Agro",
-    "Retorno - MTD": 0.0269,
-    "Retorno - 12M": 0.3823,
-    "P/VP": 0.78,
+    "Retorno - MTD": 0.0082,
+    "Retorno - 12M": 0.3341,
+    "P/VP": 0.77,
     "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.133,
+    "DY a.a.": 0.135,
     "Visão Geral": "FII de agronegócio que investe em aquisição ou construção de unidades de armazenagem e ativos de logística distribuídos ao longo da cadeia agrícola. É gerido pelo BTG Pactual e atua próximo às principais rotas de escoamento. A estratégia prioriza renda recorrente e valorização com infraestrutura ligada ao agro.",
     "Comentário": "Fundo transformado em FIAGRO em janeiro, adotando regime contábil por competência. Distribuiu R$ 1,00/cota com dividend yield anualizado de 13,82%. Criou reserva de lucros de R$ 95 milhões, com distribuição de R$ 25 milhões (~R$ 4,18/cota) planejada para os próximos 18 meses. Caixa superou R$ 137 milhões, posicionando para desinvestimentos estratégicos.",
-    "Preço Atual": 89.84,
+    "Mês Ref. Comentário": "jan/26",
+    "Preço Atual": 89.35,
     "% Dias Acima CDI 1A": 0.9718,
-    "% Dias Acima CDI 3A": 0.3933,
-    "% Dias Acima CDI 5A": 0.3422,
-    "% Dias Acima CDI MAX": 0.3422
+    "% Dias Acima CDI 3A": 0.3963,
+    "% Dias Acima CDI 5A": 0.3441,
+    "% Dias Acima CDI MAX": 0.3441
   },
   "historico_preco": [
     [
@@ -5221,6 +5222,18 @@
     [
       "2026-04-23",
       89.76
+    ],
+    [
+      "2026-04-24",
+      90.5
+    ],
+    [
+      "2026-04-27",
+      89.7
+    ],
+    [
+      "2026-04-28",
+      88.8
     ]
   ],
   "historico_preco_adj": [
@@ -10427,6 +10440,18 @@
     [
       "2026-04-23",
       89.76
+    ],
+    [
+      "2026-04-24",
+      90.5
+    ],
+    [
+      "2026-04-27",
+      89.7
+    ],
+    [
+      "2026-04-28",
+      88.8
     ]
   ],
   "historico_pvp": [
@@ -15877,6 +15902,18 @@
     [
       "2026-04-23",
       0.77405225626
+    ],
+    [
+      "2026-04-24",
+      0.78043370312
+    ],
+    [
+      "2026-04-27",
+      0.77353484165
+    ],
+    [
+      "2026-04-28",
+      0.76577362251
     ]
   ],
   "historico_dy": [
@@ -21019,6 +21056,18 @@
     [
       "2026-04-23",
       13.369
+    ],
+    [
+      "2026-04-24",
+      13.2597
+    ],
+    [
+      "2026-04-27",
+      13.3779
+    ],
+    [
+      "2026-04-28",
+      13.5135
     ]
   ],
   "historico_dpc": [
@@ -21271,13 +21320,7 @@
       1.0
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/01/2026",
-    "Caixa": 137354325.29,
-    "Imóveis": 462800000.0,
-    "Ações/Cotas em Sociedades com atividade permitida aos FIIs": 119120375.48,
-    "Outros": 25532156.810000077
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

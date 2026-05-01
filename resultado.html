@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resultado da Carteira — ImobData</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=20260430d" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 </head>
@@ -24,14 +24,16 @@
           <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
         </nav>
       </div>
-      <div class="header-right"><span class="uso-interno">USO INTERNO</span>
+      <div class="header-right">
+        <div id="auth-bar" class="auth-bar"></div>
+        <span class="uso-interno">USO INTERNO</span>
         <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
       </div>
     </div>
   </header>
 
-  <main>
-    <!-- Nome da carteira + botão PDF -->
+  <main data-tipo="simulacao">
+    <!-- Nome da carteira + botão Salvar -->
     <div class="res-nome-wrapper">
       <input
         type="text"
@@ -41,7 +43,12 @@
         maxlength="60"
         oninput="salvarNomeCarteira()"
       />
-      <button class="btn-gerar-pdf" onclick="gerarPDF()">⬇ Gerar PDF</button>
+      <div class="res-salvar-wrapper">
+        <button id="btn-salvar-resultado" class="btn-salvar-resultado" onclick="salvarCarteiraResultado()" style="display:none">
+          Salvar mudanças
+        </button>
+        <span id="res-salvar-status" class="res-salvar-status"></span>
+      </div>
     </div>
 
     <div id="pdf-content">
@@ -50,8 +57,8 @@
       <!-- Painel esquerdo: carteira editável -->
       <div class="resultado-mini-card">
 
-        <!-- Valor da carteira -->
-        <div class="resultado-mini-header">
+        <!-- Valor da carteira (Simulação) -->
+        <div class="resultado-mini-header modo-sim-only">
           <span class="resultado-mini-titulo">Carteira</span>
           <div class="sim-valor-carteira-wrapper">
             <label class="sim-valor-label" for="res-valor-total">Valor da carteira</label>
@@ -71,8 +78,20 @@
           </div>
         </div>
 
-        <!-- Busca -->
-        <div class="res-busca-container sim-busca-container" style="margin-bottom:12px">
+        <!-- Custo total (Acompanhamento) -->
+        <div class="resultado-mini-header modo-acomp-only">
+          <span class="resultado-mini-titulo">Carteira</span>
+          <div class="sim-valor-carteira-wrapper">
+            <label class="sim-valor-label">Custo total</label>
+            <div class="sim-valor-input-wrap sim-custo-display">
+              <span class="sim-valor-prefix">R$</span>
+              <span id="acomp-res-custo-total" class="sim-custo-valor">0,00</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Busca (somente Simulação) -->
+        <div class="res-busca-container sim-busca-container modo-sim-only" style="margin-bottom:12px">
           <input
             type="text"
             id="res-busca"
@@ -85,8 +104,8 @@
           <div id="res-sugestoes" class="sim-sugestoes" style="display:none"></div>
         </div>
 
-        <!-- Tabela editável -->
-        <div class="resultado-mini-tabela-wrapper sim-tabela-wrapper">
+        <!-- Tabela editável (Simulação) -->
+        <div class="resultado-mini-tabela-wrapper sim-tabela-wrapper modo-sim-only">
           <table id="res-tabela">
             <thead>
               <tr>
@@ -114,8 +133,95 @@
           </table>
         </div>
 
-        <!-- Aviso de soma -->
-        <div id="res-aviso" class="sim-aviso" style="display:none"></div>
+        <!-- Tabela de operações (Acompanhamento) -->
+        <div class="resultado-mini-tabela-wrapper sim-tabela-wrapper modo-acomp-only">
+          <table id="res-acomp-tabela">
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>Tipo</th>
+                <th class="num">Preço</th>
+                <th class="num">Qtd</th>
+                <th class="num">Data</th>
+                <th class="num">Total</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="res-acomp-tbody">
+              <tr id="res-acomp-vazio">
+                <td colspan="7" class="sim-vazio-msg">Nenhuma operação registrada.</td>
+              </tr>
+            </tbody>
+            <tfoot id="res-acomp-tfoot" style="display:none">
+              <tr>
+                <td colspan="5" class="sim-total-label">Custo total da carteira</td>
+                <td class="num" id="res-acomp-total">—</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+          <div class="acomp-nova-op-wrapper">
+            <button type="button" class="btn-nova-operacao" onclick="abrirModalNovaOperacao()">+ Nova operação</button>
+          </div>
+        </div>
+
+        <!-- Modal: Nova Operação -->
+        <dialog id="modal-nova-operacao" class="modal-operacao">
+          <form id="form-nova-operacao" onsubmit="submeterOperacao(event)">
+            <div class="modal-header">
+              <h3>Nova operação</h3>
+              <button type="button" class="modal-close" onclick="fecharModalOperacao()" aria-label="Fechar">×</button>
+            </div>
+
+            <div class="modal-body">
+              <div class="form-row">
+                <label for="op-ticker">Fundo</label>
+                <div class="modal-busca-container">
+                  <input type="text" id="op-ticker" autocomplete="off" placeholder='Ex: "KNCR11"'
+                    oninput="opFiltrarSugestoes()" onkeydown="opNavegarSugestoes(event)" />
+                  <div id="op-sugestoes" class="sim-sugestoes" style="display:none"></div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <label>Tipo</label>
+                <div class="op-tipo-grupo">
+                  <label class="op-tipo-opcao">
+                    <input type="radio" name="op-tipo" value="compra" checked /> Compra
+                  </label>
+                  <label class="op-tipo-opcao">
+                    <input type="radio" name="op-tipo" value="venda" /> Venda
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-row form-row-grid">
+                <div>
+                  <label for="op-qtd">Quantidade</label>
+                  <input type="number" id="op-qtd" min="1" step="1" placeholder="0" />
+                </div>
+                <div>
+                  <label for="op-preco">Preço (R$)</label>
+                  <input type="number" id="op-preco" min="0.01" step="0.01" placeholder="0,00" />
+                </div>
+                <div>
+                  <label for="op-data">Data</label>
+                  <input type="date" id="op-data" />
+                </div>
+              </div>
+
+              <div id="op-erro" class="op-erro" style="display:none"></div>
+            </div>
+
+            <div class="modal-actions">
+              <button type="button" class="btn-modal-cancelar" onclick="fecharModalOperacao()">Cancelar</button>
+              <button type="submit" class="btn-modal-confirmar">Adicionar</button>
+            </div>
+          </form>
+        </dialog>
+
+        <!-- Aviso de soma (Simulação) -->
+        <div id="res-aviso" class="sim-aviso modo-sim-only" style="display:none"></div>
 
         <!-- Botão modificar -->
         <div id="res-btn-wrapper" style="display:none">
@@ -138,8 +244,8 @@
 
     </div>
 
-    <!-- Cards de indicadores -->
-    <div class="res-indicadores">
+    <!-- Cards de indicadores (Simulação) -->
+    <div class="res-indicadores modo-sim-only">
 
       <div class="res-ind-card">
         <div class="res-ind-label">DY Médio da Carteira</div>
@@ -172,15 +278,158 @@
 
     </div>
 
+    <!-- Cards-resumo (Acompanhamento) -->
+    <div class="res-indicadores-topo modo-acomp-only">
+      <div class="res-ind-card">
+        <div class="res-ind-label">Retorno da Carteira</div>
+        <div class="res-ind-valor" id="ac-topo-retorno-carteira">—</div>
+        <div class="res-ind-sub" id="ac-topo-retorno-carteira-sub">vs CDI: —</div>
+      </div>
+      <div class="res-ind-card">
+        <div class="res-ind-label">Retorno Total</div>
+        <div class="res-ind-valor" id="ac-topo-retorno-total">—</div>
+        <div class="res-ind-sub" id="ac-topo-retorno-total-sub">Cotas + Dividendos</div>
+      </div>
+      <div class="res-ind-card">
+        <div class="res-ind-label">Resultado nas Cotas</div>
+        <div class="res-ind-valor" id="ac-topo-resultado-cotas">—</div>
+        <div class="res-ind-sub">Ganho de capital realizado + não realizado</div>
+      </div>
+      <div class="res-ind-card">
+        <div class="res-ind-label">Dividendos Recebidos</div>
+        <div class="res-ind-valor" id="ac-topo-dividendos">—</div>
+        <div class="res-ind-sub">Total acumulado</div>
+      </div>
+    </div>
+
+    <!-- Tabela geral da carteira (Acompanhamento) -->
+    <div class="res-tabela-geral-card modo-acomp-only">
+      <h3 class="res-card-grande-titulo">Situação atual da carteira</h3>
+      <div class="acomp-perf-tabela-wrapper">
+        <table id="res-tabela-geral-acomp" class="acomp-perf-tabela">
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th>Setor</th>
+              <th class="num">Peso</th>
+              <th class="num">Valor Atual</th>
+              <th class="num">Ganho de Capital</th>
+              <th class="num">Dividendos</th>
+              <th class="num">Retorno Total</th>
+              <th class="num">Retorno %</th>
+              <th class="num">% do CDI</th>
+            </tr>
+          </thead>
+          <tbody id="res-tabela-geral-acomp-tbody">
+            <tr><td colspan="9" class="sim-vazio-msg">Adicione operações para ver a situação da carteira.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Histórico da Carteira (Acompanhamento) -->
+    <div class="res-tabela-geral-card modo-acomp-only">
+      <h3 class="res-card-grande-titulo">Histórico da Carteira</h3>
+      <div class="grafico-controles grafico-controles-row">
+        <div class="grafico-periodos">
+          <button onclick="filtrarRetornoCarteira('1M')"  class="btn-periodo" data-chart="retorno-carteira" data-periodo="1M">1M</button>
+          <button onclick="filtrarRetornoCarteira('3M')"  class="btn-periodo" data-chart="retorno-carteira" data-periodo="3M">3M</button>
+          <button onclick="filtrarRetornoCarteira('6M')"  class="btn-periodo" data-chart="retorno-carteira" data-periodo="6M">6M</button>
+          <button onclick="filtrarRetornoCarteira('1A')"  class="btn-periodo" data-chart="retorno-carteira" data-periodo="1A">1A</button>
+          <button onclick="filtrarRetornoCarteira('MAX')" class="btn-periodo ativo" data-chart="retorno-carteira" data-periodo="MAX">MAX</button>
+        </div>
+        <div class="grafico-toggle-modo">
+          <button onclick="setModoRetorno('com')" class="btn-toggle-modo ativo"
+            data-chart="retorno-carteira" data-modo="com"
+            title="Dividendos reinvestidos automaticamente ao preço ex-div (padrão TWR de fundos)">
+            Com reinvestimento
+          </button>
+          <button onclick="setModoRetorno('sem')" class="btn-toggle-modo"
+            data-chart="retorno-carteira" data-modo="sem"
+            title="Dividendos ficam em caixa — alinha com a tabela Situação atual">
+            Sem reinvestimento
+          </button>
+        </div>
+        <div id="retorno-carteira-resumo" class="grafico-resumo" style="display:none">
+          <div class="grafico-resumo-item">
+            <span class="grafico-resumo-label">Carteira</span>
+            <span class="grafico-resumo-valor" id="resumo-carteira">—</span>
+          </div>
+          <div class="grafico-resumo-item">
+            <span class="grafico-resumo-label">CDI</span>
+            <span class="grafico-resumo-valor" id="resumo-cdi">—</span>
+          </div>
+          <div class="grafico-resumo-item">
+            <span class="grafico-resumo-label">% do CDI</span>
+            <span class="grafico-resumo-valor" id="resumo-pct-cdi">—</span>
+          </div>
+        </div>
+      </div>
+      <div class="dividendos-grid">
+        <div class="dividendos-col">
+          <h4 class="dividendos-subtitulo">Retorno Acumulado vs CDI</h4>
+          <div class="res-retorno-wrapper">
+            <canvas id="grafico-retorno-carteira"></canvas>
+          </div>
+        </div>
+        <div class="dividendos-col">
+          <h4 class="dividendos-subtitulo">Evolução do Valor</h4>
+          <div class="res-retorno-wrapper">
+            <canvas id="grafico-evolucao-valor"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <div class="acomp-perf-tabela-wrapper tabela-mensal-wrapper">
+        <table id="tabela-mensal-carteira" class="acomp-perf-tabela tabela-mensal">
+          <thead>
+            <tr id="tabela-mensal-header">
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="tabela-mensal-tbody">
+            <tr><td class="sim-vazio-msg">Adicione operações para ver os retornos mensais.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Dividendos (Acompanhamento) -->
+    <div class="res-tabela-geral-card modo-acomp-only">
+      <h3 class="res-card-grande-titulo">Dividendos</h3>
+      <div class="grafico-controles grafico-controles-row">
+        <div class="grafico-periodos">
+          <button onclick="filtrarDividendos('3M')"  class="btn-periodo" data-chart="dividendos" data-periodo="3M">3M</button>
+          <button onclick="filtrarDividendos('6M')"  class="btn-periodo" data-chart="dividendos" data-periodo="6M">6M</button>
+          <button onclick="filtrarDividendos('1A')"  class="btn-periodo" data-chart="dividendos" data-periodo="1A">1A</button>
+          <button onclick="filtrarDividendos('MAX')" class="btn-periodo ativo" data-chart="dividendos" data-periodo="MAX">MAX</button>
+        </div>
+      </div>
+      <div class="dividendos-grid">
+        <div class="dividendos-col">
+          <h4 class="dividendos-subtitulo">Recebimento Mensal (R$)</h4>
+          <div class="res-retorno-wrapper">
+            <canvas id="grafico-divs-mes"></canvas>
+          </div>
+        </div>
+        <div class="dividendos-col">
+          <h4 class="dividendos-subtitulo">Dividend Yield Mensal vs CDI</h4>
+          <div class="res-retorno-wrapper">
+            <canvas id="grafico-dy-mensal"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Cards grandes -->
     <div class="res-cards-grandes">
 
       <div class="res-card-grande">
-        <h3 class="res-card-grande-titulo">Visão Geral dos Fundos</h3>
+        <h3 class="res-card-grande-titulo">Atualização dos Fundos</h3>
         <div id="res-visao-geral"></div>
       </div>
 
-      <div class="res-card-grande">
+      <div class="res-card-grande modo-sim-only">
         <h3 class="res-card-grande-titulo">Retorno Acumulado da Carteira — Últimos 12M</h3>
         <div class="res-retorno-wrapper">
           <canvas id="grafico-retorno"></canvas>
@@ -189,6 +438,27 @@
         <h3 class="res-card-grande-titulo" style="margin-top:28px">Renda Mensal Estimada — Últimos 12M</h3>
         <div class="res-retorno-wrapper">
           <canvas id="grafico-renda"></canvas>
+        </div>
+      </div>
+
+      <div class="res-card-grande modo-acomp-only">
+        <h3 class="res-card-grande-titulo">Vendas &amp; Posições Encerradas</h3>
+        <div class="acomp-perf-tabela-wrapper">
+          <table id="tabela-vendas-acomp" class="acomp-perf-tabela">
+            <thead>
+              <tr>
+                <th>Ticker</th>
+                <th>Status</th>
+                <th class="num">Custo Vendido</th>
+                <th class="num">Valor Vendido</th>
+                <th class="num">Lucro Realizado</th>
+                <th class="num">Retorno %</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-vendas-acomp-tbody">
+              <tr><td colspan="6" class="sim-vazio-msg">Nenhuma venda registrada ainda.</td></tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
@@ -301,7 +571,11 @@
 
   </div>
 
-  <script src="js/resultado.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/resultado.js?v=20260430d"></script>
   <script src="js/local.js"></script>
 </body>
 </html>

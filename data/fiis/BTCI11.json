@@ -4,18 +4,19 @@
     "Ticker": "BTCI11",
     "Nome": "BTG Pactual Crédito Imobiliário FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.032,
-    "Retorno - 12M": 0.1868,
-    "P/VP": 0.93,
+    "Retorno - MTD": 0.0408,
+    "Retorno - 12M": 0.1696,
+    "P/VP": 0.94,
     "Último Dividendo Pago": 0.093,
-    "DY a.a.": 0.119,
+    "DY a.a.": 0.118,
     "Visão Geral": "FII de papel que investe em ativos de renda fixa imobiliária, como LH, LCI, CRI e demais instrumentos de crédito do setor. É gerido pelo BTG Pactual e tem foco em geração de renda recorrente com carteira pulverizada. A estratégia prioriza exposição a recebíveis imobiliários e gestão ativa do portfólio.",
     "Comentário": "Distribuiu R$ 0,093/cota em fevereiro com dividend yield de 12,6% ao ano. Portfolio mantém 100% de conformidade, com 82,8% do PL alocado em 29 operações. Realizou alocações pontuais em CRI Portfolio Imobiliário para exposição de caixa, continuando seleção de ativos estratégicos. Categ residencial representa 41% do PL beneficiado pela expansão do programa MCMV.",
-    "Preço Atual": 9.48,
-    "% Dias Acima CDI 1A": 0.496,
-    "% Dias Acima CDI 3A": 0.5221,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 9.44,
+    "% Dias Acima CDI 1A": 0.5081,
+    "% Dias Acima CDI 3A": 0.5248,
     "% Dias Acima CDI 5A": 0.4506,
-    "% Dias Acima CDI MAX": 0.478
+    "% Dias Acima CDI MAX": 0.4789
   },
   "historico_preco": [
     [
@@ -14205,6 +14206,18 @@
     [
       "2026-04-23",
       9.37
+    ],
+    [
+      "2026-04-24",
+      9.4
+    ],
+    [
+      "2026-04-27",
+      9.48
+    ],
+    [
+      "2026-04-28",
+      9.44
     ]
   ],
   "historico_preco_adj": [
@@ -24443,6 +24456,18 @@
     [
       "2026-04-23",
       9.37
+    ],
+    [
+      "2026-04-24",
+      9.4
+    ],
+    [
+      "2026-04-27",
+      9.48
+    ],
+    [
+      "2026-04-28",
+      9.44
     ]
   ],
   "historico_pvp": [
@@ -39385,6 +39410,18 @@
     [
       "2026-04-23",
       0.92849446889
+    ],
+    [
+      "2026-04-24",
+      0.93146723667
+    ],
+    [
+      "2026-04-27",
+      0.93939461741
+    ],
+    [
+      "2026-04-28",
+      0.93543092704
     ]
   ],
   "historico_dy": [
@@ -49623,6 +49660,18 @@
     [
       "2026-04-23",
       11.9104
+    ],
+    [
+      "2026-04-24",
+      11.8723
+    ],
+    [
+      "2026-04-27",
+      11.7722
+    ],
+    [
+      "2026-04-28",
+      11.822
     ]
   ],
   "historico_dpc": [
@@ -50123,12 +50172,6 @@
       0.093
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 24542277.23,
-    "Cotas de FIIs": 155787887.8,
-    "CRI/CRA": 822248597.76,
-    "Outros": 1897.1199999903329
-  },
+  "portfolio": {},
   "carteira_trimestral": {}
 }

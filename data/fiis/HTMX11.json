@@ -4,18 +4,19 @@
     "Ticker": "HTMX11",
     "Nome": "Hotel Maxinvest FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.008,
-    "Retorno - 12M": 0.0941,
-    "P/VP": 0.91,
+    "Retorno - MTD": 0.0151,
+    "Retorno - 12M": 0.0895,
+    "P/VP": 0.92,
     "Último Dividendo Pago": 1.2,
-    "DY a.a.": 0.105,
+    "DY a.a.": 0.104,
     "Visão Geral": "FII de hotéis que investe em unidades hoteleiras, com foco em renda ligada à exploração do mercado de hospedagem em São Paulo. Criado em 2007, é administrado pelo BTG Pactual e negociado na B3. A estratégia concentra exposição em ativo do segmento hoteleiro urbano, com geração de renda vinculada à operação.",
     "Comentário": "Março marcou retomada mais consistente da atividade hoteleira com calendário robusto de feiras e eventos corporativos ampliando demanda. Fundo vendeu seis unidades hoteleiras em fevereiro, acumulando 608 unidades desde início de desinvestimento com carteira operando 740 unidades em 19 hotéis. RevPAR da carteira alcançou R$202 em janeiro, aumento de 6% versus mesmo período anterior.",
-    "Preço Atual": 137.73,
+    "Mês Ref. Comentário": "mar/26",
+    "Preço Atual": 138.0,
     "% Dias Acima CDI 1A": 0.0,
-    "% Dias Acima CDI 3A": 0.6,
+    "% Dias Acima CDI 3A": 0.5971,
     "% Dias Acima CDI 5A": 0.4924,
-    "% Dias Acima CDI MAX": 0.522
+    "% Dias Acima CDI MAX": 0.5211
   },
   "historico_preco": [
     [
@@ -14205,6 +14206,18 @@
     [
       "2026-04-23",
       137.4
+    ],
+    [
+      "2026-04-24",
+      136.86
+    ],
+    [
+      "2026-04-27",
+      136.93
+    ],
+    [
+      "2026-04-28",
+      137.35
     ]
   ],
   "historico_preco_adj": [
@@ -24443,6 +24456,18 @@
     [
       "2026-04-23",
       137.4
+    ],
+    [
+      "2026-04-24",
+      136.86
+    ],
+    [
+      "2026-04-27",
+      136.93
+    ],
+    [
+      "2026-04-28",
+      137.35
     ]
   ],
   "historico_pvp": [
@@ -39385,6 +39410,18 @@
     [
       "2026-04-23",
       0.91756936485
+    ],
+    [
+      "2026-04-24",
+      0.91396319705
+    ],
+    [
+      "2026-04-27",
+      0.91443066324
+    ],
+    [
+      "2026-04-28",
+      0.91723546043
     ]
   ],
   "historico_dy": [
@@ -47215,6 +47252,18 @@
     [
       "2026-04-23",
       10.4803
+    ],
+    [
+      "2026-04-24",
+      10.5217
+    ],
+    [
+      "2026-04-27",
+      10.5163
+    ],
+    [
+      "2026-04-28",
+      10.4842
     ]
   ],
   "historico_dpc": [
@@ -47715,11 +47764,7 @@
       1.2
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 32438722.85,
-    "Imóveis": 411730902.96
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

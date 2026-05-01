@@ -4,18 +4,19 @@
     "Ticker": "HABT11",
     "Nome": "Habitat Recebíveis Pulverizados FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.0197,
-    "Retorno - 12M": 0.1225,
+    "Retorno - MTD": 0.0217,
+    "Retorno - 12M": 0.0947,
     "P/VP": 0.81,
     "Último Dividendo Pago": 0.95,
-    "DY a.a.": 0.147,
+    "DY a.a.": 0.146,
     "Visão Geral": "FII de papel que investe em títulos de dívida imobiliária e outros valores mobiliários com lastro em devedores pulverizados, buscando renda e ganho de capital. É gerido pela XP Asset e adota estratégia de crédito imobiliário pulverizado. A carteira prioriza diversificação entre operações para geração recorrente de rendimentos.",
     "Comentário": "Distribuição de R$ 0,95/cota resultou em dividend yield de 15,79% ao ano ou 18,80% com gross-up de impostos. Carteira realocada com aquisição de R$ 10 MM em CRI Setai (CDI+4%), resgate antecipado de CRI Copacabana e venda de CRI Gran Paradiso. Inflação mais baixa impactou negativamente rendimentos, mantendo histórico de R$ 12,25/cota em 12 meses.",
-    "Preço Atual": 77.86,
+    "Mês Ref. Comentário": "fev/26",
+    "Preço Atual": 78.36,
     "% Dias Acima CDI 1A": 0.2742,
-    "% Dias Acima CDI 3A": 0.3154,
-    "% Dias Acima CDI 5A": 0.3679,
-    "% Dias Acima CDI MAX": 0.4477
+    "% Dias Acima CDI 3A": 0.3146,
+    "% Dias Acima CDI 5A": 0.3655,
+    "% Dias Acima CDI MAX": 0.4468
   },
   "historico_preco": [
     [
@@ -6713,6 +6714,18 @@
     [
       "2026-04-23",
       77.3
+    ],
+    [
+      "2026-04-24",
+      77.7
+    ],
+    [
+      "2026-04-27",
+      78.26
+    ],
+    [
+      "2026-04-28",
+      78.31
     ]
   ],
   "historico_preco_adj": [
@@ -13411,6 +13424,18 @@
     [
       "2026-04-23",
       77.3
+    ],
+    [
+      "2026-04-24",
+      77.7
+    ],
+    [
+      "2026-04-27",
+      78.26
+    ],
+    [
+      "2026-04-28",
+      78.31
     ]
   ],
   "historico_pvp": [
@@ -20433,6 +20458,18 @@
     [
       "2026-04-23",
       0.80837864037
+    ],
+    [
+      "2026-04-24",
+      0.81256171224
+    ],
+    [
+      "2026-04-27",
+      0.81841801287
+    ],
+    [
+      "2026-04-28",
+      0.81894089686
     ]
   ],
   "historico_dy": [
@@ -26963,6 +27000,18 @@
     [
       "2026-04-23",
       14.7477
+    ],
+    [
+      "2026-04-24",
+      14.6718
+    ],
+    [
+      "2026-04-27",
+      14.5668
+    ],
+    [
+      "2026-04-28",
+      14.5575
     ]
   ],
   "historico_dpc": [
@@ -27287,14 +27336,7 @@
       0.95
     ]
   ],
-  "portfolio": {
-    "_data_ref": "31/03/2026",
-    "Caixa": 23116074.27,
-    "Imóveis": 0.02,
-    "Cotas de FIIs": 77368594.47,
-    "CRI/CRA": 683324865.65,
-    "Outros": 9.313225746154785e-09
-  },
+  "portfolio": {},
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
@@ -27317,7 +27359,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 10450.0,
-        "valor": 10481573.56
+        "valor": 10481573.56,
+        "nome_cri": "CRI REALIZA EMPREENDIMENTO GOIÂNIA I – SPE LTDA"
       },
       {
         "tipo": "CRI/CRA",
@@ -28516,7 +28559,8 @@
         "serie": "1",
         "vencimento": "",
         "quantidade": 20000.0,
-        "valor": 14885208.2
+        "valor": 14885208.2,
+        "nome_cri": "CRI SPE OLÍMPIA"
       },
       {
         "tipo": "FII",
