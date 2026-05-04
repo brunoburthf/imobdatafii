@@ -4,19 +4,19 @@
     "Ticker": "BRCR11",
     "Nome": "BTG Pactual Corporate Office Fund FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0183,
-    "Retorno - 12M": 0.2349,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.2253,
     "P/VP": 0.55,
     "Último Dividendo Pago": 0.41,
     "DY a.a.": 0.104,
     "Visão Geral": "FII de lajes corporativas que investe em escritórios AAA, com portfólio diversificado em São Paulo e Rio de Janeiro. É o BC Office Fund, listado pela BTG, e figura entre os maiores fundos do segmento, com patrimônio superior a R$ 2 bilhões. A estratégia prioriza renda locatícia recorrente e gestão ativa.",
     "Comentário": "O BC Fund registrou movimento comercial expressivo em março com locação de 5.800 m² consolidados entre São Paulo e Rio, destaque para dois andares no Torre Almirante totalizando 2.500 m². Pela primeira vez desde pandemia, Rio de Janeiro apresentou maior volume de procura que São Paulo no trimestre, evidenciando resiliência de ativos prime. A vacância financeira fechou em 9,4%, reduzindo de 10,6% anterior.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 47.28,
-    "% Dias Acima CDI 1A": 0.3952,
-    "% Dias Acima CDI 3A": 0.2918,
-    "% Dias Acima CDI 5A": 0.1775,
-    "% Dias Acima CDI MAX": 0.2979
+    "Preço Atual": 46.47,
+    "% Dias Acima CDI 1A": 0.4016,
+    "% Dias Acima CDI 3A": 0.2949,
+    "% Dias Acima CDI 5A": 0.1791,
+    "% Dias Acima CDI MAX": 0.2976
   },
   "historico_preco": [
     [
@@ -14218,6 +14218,14 @@
     [
       "2026-04-28",
       47.32
+    ],
+    [
+      "2026-04-29",
+      47.2
+    ],
+    [
+      "2026-04-30",
+      47.28
     ]
   ],
   "historico_preco_adj": [
@@ -24468,6 +24476,14 @@
     [
       "2026-04-28",
       47.32
+    ],
+    [
+      "2026-04-29",
+      47.2
+    ],
+    [
+      "2026-04-30",
+      47.28
     ]
   ],
   "historico_pvp": [
@@ -39422,6 +39438,18 @@
     [
       "2026-04-28",
       0.55217902874
+    ],
+    [
+      "2026-04-29",
+      0.55077874379
+    ],
+    [
+      "2026-04-30",
+      0.55171226709
+    ],
+    [
+      "2026-05-01",
+      0.55171226709
     ]
   ],
   "historico_dy": [
@@ -49672,6 +49700,14 @@
     [
       "2026-04-28",
       10.3973
+    ],
+    [
+      "2026-04-29",
+      10.4237
+    ],
+    [
+      "2026-04-30",
+      10.4061
     ]
   ],
   "historico_dpc": [
@@ -50177,16 +50213,6 @@
     "data_ref": "2025-12-31",
     "ativos": [
       {
-        "tipo": "Outros Ativos Financeiros",
-        "emissor": "BANCO BTG PACTUAL S A",
-        "nome": "CDB",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 6908308.0,
-        "valor": 77272.53
-      },
-      {
         "tipo": "Outras Cotas de FI",
         "emissor": "BTG PACTUAL TESOURO SELIC FUNDO DE INVESTIMENTO RF REF DI",
         "nome": "",
@@ -50195,26 +50221,6 @@
         "vencimento": "",
         "quantidade": 3326000.6,
         "valor": 17276305.09
-      },
-      {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "BTG PACTUAL YIELD DI FUNDO DE INVESTIMENTO RF REF CP",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 136390.74,
-        "valor": 7259316.94
-      },
-      {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "ITAU SOBERANO RF SIMPLES LP FICFI",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 0.03,
-        "valor": 2.59
       },
       {
         "tipo": "FII",
@@ -50228,6 +50234,16 @@
       },
       {
         "tipo": "FII",
+        "emissor": "FII - FII PRIME PORTFOLIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 11294748.91,
+        "valor": 148067979.74
+      },
+      {
+        "tipo": "FII",
         "emissor": "FII MV9 - FII",
         "nome": "",
         "emissao": "",
@@ -50235,16 +50251,6 @@
         "vencimento": "",
         "quantidade": 78155673.0,
         "valor": 112650905.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FII PROJ AGUA BRANCA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 79682.0,
-        "valor": 16783419.66
       },
       {
         "tipo": "FII",
@@ -50257,14 +50263,44 @@
         "valor": 5568143.04
       },
       {
-        "tipo": "FII",
-        "emissor": "FII - FII PRIME PORTFOLIO",
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FUNDO DE INVESTIMENTO RF REF CP",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 11294748.91,
-        "valor": 148067979.74
+        "quantidade": 136390.74,
+        "valor": 7259316.94
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "BANCO BTG PACTUAL S A",
+        "nome": "CDB",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 6908308.0,
+        "valor": 77272.53
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "ITAU SOBERANO RF SIMPLES LP FICFI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 0.03,
+        "valor": 2.59
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII PROJ AGUA BRANCA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 79682.0,
+        "valor": 16783419.66
       }
     ],
     "imoveis": [
@@ -50290,6 +50326,13 @@
         "pct_total": null
       },
       {
+        "nome": "Centro Empresarial Senado",
+        "endereco": "Avenida Henrique Valadares, 28, Sem Complemento, Centro, Rio De Janeiro/RJ, Brasil, 00020-231",
+        "area": 95173.63,
+        "vacancia": 0.00901642979794,
+        "pct_total": null
+      },
+      {
         "nome": "Morumbi Corporate - Diamond Tower",
         "endereco": "Avenida Doutor Chucri Zaidan, 1240, Sem Complemento, Vila Sao Francisco Zona Sul, Sao Paulo/SP, Brasil, 04711-130",
         "area": 32889.24,
@@ -50301,13 +50344,6 @@
         "endereco": "Avenida Doutora Ruth Cardoso, 8501, Sem Complemento, Pinheiros, São Paulo/SP, Brasil, 05425-070",
         "area": 65797.0,
         "vacancia": 0.085,
-        "pct_total": null
-      },
-      {
-        "nome": "Centro Empresarial Senado",
-        "endereco": "Avenida Henrique Valadares, 28, Sem Complemento, Centro, Rio De Janeiro/RJ, Brasil, 00020-231",
-        "area": 95173.63,
-        "vacancia": 0.00901642979794,
         "pct_total": null
       }
     ],

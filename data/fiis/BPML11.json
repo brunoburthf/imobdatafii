@@ -4,19 +4,19 @@
     "Ticker": "BPML11",
     "Nome": "BTG Pactual Shoppings FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0228,
-    "Retorno - 12M": 0.3766,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.3834,
     "P/VP": 0.75,
     "Último Dividendo Pago": 0.92,
     "DY a.a.": 0.119,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers no Brasil, buscando renda imobiliária e ganho de capital com gestão ativa. Foi lançado em julho de 2019 e figura no segmento de shopping centers da plataforma BTG. A estratégia combina exploração dos ativos, reciclagem de portfólio e geração recorrente de caixa.",
     "Comentário": "O BTG Pactual Shoppings avançou comercialmente em março com reinauguração de âncora de esportes no Ilha Plaza e assinatura de novo restaurante no Capim Dourado, qualificando o mix de lojistas. As vendas seguiram em expansão no consolidado versus ano anterior, com Plaza Macaé registrando crescimento consistente de fluxo desde segundo semestre 2025. Distribuição mantida em R$0,92/cota com dividend yield de 12,08%.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 92.99,
-    "% Dias Acima CDI 1A": 0.5645,
-    "% Dias Acima CDI 3A": 0.5636,
-    "% Dias Acima CDI 5A": 0.3384,
-    "% Dias Acima CDI MAX": 0.3094
+    "Preço Atual": 92.95,
+    "% Dias Acima CDI 1A": 0.5703,
+    "% Dias Acima CDI 3A": 0.567,
+    "% Dias Acima CDI 5A": 0.34,
+    "% Dias Acima CDI MAX": 0.3104
   },
   "historico_preco": [
     [
@@ -6422,6 +6422,14 @@
     [
       "2026-04-28",
       94.9
+    ],
+    [
+      "2026-04-29",
+      92.6
+    ],
+    [
+      "2026-04-30",
+      92.99
     ]
   ],
   "historico_preco_adj": [
@@ -12828,6 +12836,14 @@
     [
       "2026-04-28",
       94.9
+    ],
+    [
+      "2026-04-29",
+      92.6
+    ],
+    [
+      "2026-04-30",
+      92.99
     ]
   ],
   "historico_pvp": [
@@ -19598,6 +19614,18 @@
     [
       "2026-04-28",
       0.76549910052
+    ],
+    [
+      "2026-04-29",
+      0.74694643528
+    ],
+    [
+      "2026-04-30",
+      0.750092322
+    ],
+    [
+      "2026-05-01",
+      0.750092322
     ]
   ],
   "historico_dy": [
@@ -23868,6 +23896,14 @@
     [
       "2026-04-28",
       11.6333
+    ],
+    [
+      "2026-04-29",
+      11.9222
+    ],
+    [
+      "2026-04-30",
+      11.8722
     ]
   ],
   "historico_dpc": [
@@ -24185,16 +24221,6 @@
     "data_ref": "2025-12-31",
     "ativos": [
       {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 3154279.99,
-        "valor": 167885977.91
-      },
-      {
         "tipo": "FII",
         "emissor": "CAPITANIA SHOPPINGS FII",
         "nome": "",
@@ -24203,6 +24229,16 @@
         "vencimento": "",
         "quantidade": 1322002.0,
         "valor": 14647782.16
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3154279.99,
+        "valor": 167885977.91
       }
     ],
     "imoveis": [
@@ -24221,17 +24257,17 @@
         "pct_total": null
       },
       {
-        "nome": "Shopping Contagem",
-        "endereco": "Av. Severino Ballesteros, 850 - Cabral, Contagem - MG, 32110-005",
-        "area": 29701.0,
-        "vacancia": 0.098,
-        "pct_total": null
-      },
-      {
         "nome": "Capim Dourado Shopping",
         "endereco": "Q. 107, Norte Avenida, NS 5, s/n, Shopping, Palmas, TO, 77001-098",
         "area": 14630.0,
         "vacancia": 0.046,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Contagem",
+        "endereco": "Av. Severino Ballesteros, 850 - Cabral, Contagem - MG, 32110-005",
+        "area": 29701.0,
+        "vacancia": 0.098,
         "pct_total": null
       }
     ],

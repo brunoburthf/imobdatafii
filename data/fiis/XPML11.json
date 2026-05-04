@@ -4,19 +4,19 @@
     "Ticker": "XPML11",
     "Nome": "Xp Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.03,
-    "Retorno - 12M": 0.1529,
-    "P/VP": 1.0,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.1551,
+    "P/VP": 1.01,
     "Último Dividendo Pago": 0.92,
-    "DY a.a.": 0.1,
+    "DY a.a.": 0.099,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers, com gestão ativa e foco em renda locatícia e ganho de capital. Lançado em 2017, é descrito pela XP Asset como o maior fundo de gestão ativa de shoppings do Brasil. Atua em empreendimentos urbanos com escala e consumo consolidado.",
     "Comentário": "Distribuição de R$0,92/cota com vendas/m² crescendo 11,8% vs fevereiro 2025 e NOI/m² subindo 12,1%. Aquisição iminente de 5 participações Iguatemi (Shopping Pátio Higienópolis, Alphaville, Ribeirão Preto, Rio Preto e Praia de Belas) por R$608 mi com yield estimado 11,3%. Consolidação de 28 ativos sob 12 gestores, potencializando qualidade operacional.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 111.26,
-    "% Dias Acima CDI 1A": 0.4677,
-    "% Dias Acima CDI 3A": 0.6011,
+    "Preço Atual": 111.2,
+    "% Dias Acima CDI 1A": 0.4739,
+    "% Dias Acima CDI 3A": 0.6032,
     "% Dias Acima CDI 5A": 0.4956,
-    "% Dias Acima CDI MAX": 0.5219
+    "% Dias Acima CDI MAX": 0.5225
   },
   "historico_preco": [
     [
@@ -8294,6 +8294,14 @@
     [
       "2026-04-28",
       110.75
+    ],
+    [
+      "2026-04-29",
+      110.42
+    ],
+    [
+      "2026-04-30",
+      111.26
     ]
   ],
   "historico_preco_adj": [
@@ -16572,6 +16580,14 @@
     [
       "2026-04-28",
       110.75
+    ],
+    [
+      "2026-04-29",
+      110.42
+    ],
+    [
+      "2026-04-30",
+      111.26
     ]
   ],
   "historico_pvp": [
@@ -25262,6 +25278,18 @@
     [
       "2026-04-28",
       1.0044827979
+    ],
+    [
+      "2026-04-29",
+      1.0014897566
+    ],
+    [
+      "2026-04-30",
+      1.0091084071
+    ],
+    [
+      "2026-05-01",
+      1.0091084071
     ]
   ],
   "historico_dy": [
@@ -33200,6 +33228,14 @@
     [
       "2026-04-28",
       9.9684
+    ],
+    [
+      "2026-04-29",
+      9.9982
+    ],
+    [
+      "2026-04-30",
+      9.9227
     ]
   ],
   "historico_dpc": [
@@ -33609,56 +33645,14 @@
     "data_ref": "2025-12-31",
     "ativos": [
       {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "264",
-        "vencimento": "",
-        "quantidade": 48000.0,
-        "valor": 48345157.87,
-        "nome_cri": "CRI JHSF"
-      },
-      {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "XP CASH P1 FUNDO DE INVESTIMENTO RENDA FIXA REFERENCIADA DI",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 40990653.79,
-        "valor": 48331869.93
-      },
-      {
         "tipo": "FII",
-        "emissor": "CAPITANIA SHOPPINGS FII",
+        "emissor": "FII RIZA MALLS MASTER RESPONSABILIDADE LIMITADA",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 3061992.0,
-        "valor": 33926871.36
-      },
-      {
-        "tipo": "FII",
-        "emissor": "VIA PARQUE SHOPPING FII DE RESPONSABILIDADE LIMITADA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 773588.0,
-        "valor": 54544853.27
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "265",
-        "vencimento": "",
-        "quantidade": 72000.0,
-        "valor": 72517736.8,
-        "nome_cri": "CRI Phiren Mikar"
+        "quantidade": 1914710.0,
+        "valor": 193780899.84
       },
       {
         "tipo": "FII",
@@ -33672,6 +33666,16 @@
       },
       {
         "tipo": "FII",
+        "emissor": "VIA PARQUE SHOPPING FII DE RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 773588.0,
+        "valor": 54544853.27
+      },
+      {
+        "tipo": "FII",
         "emissor": "OMNI MALLS FII - FII",
         "nome": "",
         "emissao": "",
@@ -33679,6 +33683,16 @@
         "vencimento": "",
         "quantidade": 2898306.0,
         "valor": 523523270.56
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITANIA SHOPPINGS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3061992.0,
+        "valor": 33926871.36
       },
       {
         "tipo": "FII",
@@ -33691,6 +33705,38 @@
         "valor": 1003552585.0
       },
       {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "264",
+        "vencimento": "",
+        "quantidade": 48000.0,
+        "valor": 48345157.87,
+        "nome_cri": "CRI JHSF"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "265",
+        "vencimento": "",
+        "quantidade": 72000.0,
+        "valor": 72517736.8,
+        "nome_cri": "CRI Phiren Mikar"
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "XP CASH P1 FUNDO DE INVESTIMENTO RENDA FIXA REFERENCIADA DI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 40990653.79,
+        "valor": 48331869.93
+      },
+      {
         "tipo": "FII",
         "emissor": "PATRIA MALLS FII - RESPONSABILIDADE LIMITADA",
         "nome": "",
@@ -33699,59 +33745,21 @@
         "vencimento": "",
         "quantidade": 510862.0,
         "valor": 53763116.88
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FII RIZA MALLS MASTER RESPONSABILIDADE LIMITADA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 1914710.0,
-        "valor": 193780899.84
       }
     ],
     "imoveis": [
       {
-        "nome": "Shopping Bahia",
-        "endereco": "Avenida Tancredo Neves, 148 Shopping Da Bahia Loja 8w, 148, Sem Complemento, Caminho Das Árvores, Salvador/BA, Brasil, 41820-975",
-        "area": 68738.0,
-        "vacancia": 0.05,
+        "nome": "Catarina Fashion Outlet",
+        "endereco": "Rodovia Castelo Branco, 0, Sem Complemento, Dona Catarina, Sao Roque/SP, Brasil, 18132-900",
+        "area": 29529.0,
+        "vacancia": 0.01,
         "pct_total": null
       },
       {
-        "nome": "Praia de Belas Shopping Center",
-        "endereco": "Avenida Praia De Belas, 1181 Loja 123c, 1181, Sem Complemento, Praia De Belas, Porto Alegre/RS, Brasil, 90110-970",
-        "area": 119699.0,
-        "vacancia": 0.07,
-        "pct_total": null
-      },
-      {
-        "nome": "Jundiai Shopping",
-        "endereco": "Avenida Nove De Julho, 33333, Sem Complemento, Anhangabaú, Jundiaí/SP, Brasil, 13208-056",
-        "area": 36473.0,
+        "nome": "Partage Santana Shopping",
+        "endereco": "Rua Conselheiro Moreira De Barros, 2780, , Lauzane Paulista, Sao Paulo/SP, Brasil, 02430-001",
+        "area": 26496.0,
         "vacancia": 0.06,
-        "pct_total": null
-      },
-      {
-        "nome": "Shopping Bela Vista",
-        "endereco": "Alameda Euvaldo Luz, 92, Sem Complemento, Horto Bela Vista, Salvador/BA, Brasil, 41098-020",
-        "area": 51143.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Shopping Metropolitano Barra",
-        "endereco": "Avenida Embaixador Abelardo Bueno, 1300, Sem Complemento, Barra Olímpica, Rio De Janeiro/RJ, Brasil, 22775-023",
-        "area": 43275.0,
-        "vacancia": 0.08,
-        "pct_total": null
-      },
-      {
-        "nome": "CAMPINAS SHOPPING CENTER",
-        "endereco": "Rua Jacy Teixeira Camargo, 940, 940, Sem Complemento, Jardim Do Lago, Campinas/SP, Brasil, 13050-913",
-        "area": 57000.0,
-        "vacancia": 0.03,
         "pct_total": null
       },
       {
@@ -33769,6 +33777,34 @@
         "pct_total": null
       },
       {
+        "nome": "Shopping Bela Vista",
+        "endereco": "Alameda Euvaldo Luz, 92, Sem Complemento, Horto Bela Vista, Salvador/BA, Brasil, 41098-020",
+        "area": 51143.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "CAMPINAS SHOPPING CENTER",
+        "endereco": "Rua Jacy Teixeira Camargo, 940, 940, Sem Complemento, Jardim Do Lago, Campinas/SP, Brasil, 13050-913",
+        "area": 57000.0,
+        "vacancia": 0.03,
+        "pct_total": null
+      },
+      {
+        "nome": "Jundiai Shopping",
+        "endereco": "Avenida Nove De Julho, 33333, Sem Complemento, Anhangabaú, Jundiaí/SP, Brasil, 13208-056",
+        "area": 36473.0,
+        "vacancia": 0.06,
+        "pct_total": null
+      },
+      {
+        "nome": "Shopping Metropolitano Barra",
+        "endereco": "Avenida Embaixador Abelardo Bueno, 1300, Sem Complemento, Barra Olímpica, Rio De Janeiro/RJ, Brasil, 22775-023",
+        "area": 43275.0,
+        "vacancia": 0.08,
+        "pct_total": null
+      },
+      {
         "nome": "SHOPPING CIDADE SAO PAULO",
         "endereco": "Avenida Paulista, 1230, Sem Complemento, Bela Vista, Sao Paulo/SP, Brasil, 01310-000",
         "area": 16661.0,
@@ -33776,24 +33812,17 @@
         "pct_total": null
       },
       {
-        "nome": "Catarina Fashion Outlet",
-        "endereco": "Rodovia Castelo Branco, 0, Sem Complemento, Dona Catarina, Sao Roque/SP, Brasil, 18132-900",
-        "area": 29529.0,
-        "vacancia": 0.01,
+        "nome": "Praia de Belas Shopping Center",
+        "endereco": "Avenida Praia De Belas, 1181 Loja 123c, 1181, Sem Complemento, Praia De Belas, Porto Alegre/RS, Brasil, 90110-970",
+        "area": 119699.0,
+        "vacancia": 0.07,
         "pct_total": null
       },
       {
-        "nome": "Caxias Shopping",
-        "endereco": "Rodovia Washington Luiz, 2895, Sem Complemento, Parque Duque, Duque De Caxias/RJ, Brasil, 25085-008",
-        "area": 28074.0,
-        "vacancia": 0.041,
-        "pct_total": null
-      },
-      {
-        "nome": "Partage Santana Shopping",
-        "endereco": "Rua Conselheiro Moreira De Barros, 2780, , Lauzane Paulista, Sao Paulo/SP, Brasil, 02430-001",
-        "area": 26496.0,
-        "vacancia": 0.06,
+        "nome": "Shopping Bahia",
+        "endereco": "Avenida Tancredo Neves, 148 Shopping Da Bahia Loja 8w, 148, Sem Complemento, Caminho Das Árvores, Salvador/BA, Brasil, 41820-975",
+        "area": 68738.0,
+        "vacancia": 0.05,
         "pct_total": null
       },
       {
@@ -33822,6 +33851,13 @@
         "endereco": "Avenida Maracana, 987, Sem Complemento, Tijuca, Rio De Janeiro/RJ, Brasil, 20511-000",
         "area": 0.0,
         "vacancia": 0.02,
+        "pct_total": null
+      },
+      {
+        "nome": "Caxias Shopping",
+        "endereco": "Rodovia Washington Luiz, 2895, Sem Complemento, Parque Duque, Duque De Caxias/RJ, Brasil, 25085-008",
+        "area": 28074.0,
+        "vacancia": 0.041,
         "pct_total": null
       }
     ],

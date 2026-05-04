@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fatos Relevantes e Comunicados — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link ativo">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='noticias.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main data-card="fatos">
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <p class="noticias-meta-topo">
+        Atualizado em <span id="atualizado-em">—</span> ·
+        Fonte: <a href="https://fnet.bmfbovespa.com.br" target="_blank" rel="noopener">fnet (B3)</a> ·
+        Janela: últimos <span id="janela-dias">30</span> dias
+        <button type="button" class="noticias-disclaimer"
+                title="FI-Infras (e FIP-IE) não publicam na fnet — são FIPs regulados pela CVM 175/578 e usam outras fontes (RAD/CVM, RIs das gestoras). Cobertura ainda não implementada.">
+          ⚠ Não inclui FI-Infras
+        </button>
+      </p>
+
+      <div class="setor-card setor-card-destaque">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Fatos Relevantes e Comunicados</h2>
+          <span class="noticias-count" id="fatos-count"></span>
+        </div>
+
+        <!-- Filtros -->
+        <div class="toolbar noticias-filtros">
+          <select id="fatos-filtro-setor" onchange="aplicarFiltrosFatos()">
+            <option value="">Todos os setores</option>
+          </select>
+          <input type="text" id="fatos-filtro-ticker" placeholder="Ticker (ex: KNCR)"
+                 oninput="aplicarFiltrosFatos()" />
+          <select id="fatos-filtro-categoria" onchange="aplicarFiltrosFatos()">
+            <option value="">Todas as categorias</option>
+            <option value="Fato Relevante">Fato Relevante</option>
+            <option value="Comunicado ao Mercado">Comunicado ao Mercado</option>
+          </select>
+          <div class="filtro-data-grupo">
+            <label>Anúncio</label>
+            <input type="date" id="fatos-filtro-anun-de"  onchange="aplicarFiltrosFatos()" />
+            <span class="filtro-sep">a</span>
+            <input type="date" id="fatos-filtro-anun-ate" onchange="aplicarFiltrosFatos()" />
+            <button class="btn-filtro-hoje" onclick="filtrarAnuncioFatosHoje()" title="Anúncios de hoje">Hoje</button>
+          </div>
+          <button class="btn-limpar-filtros" onclick="limparFiltrosFatos()">Limpar</button>
+          <button class="btn-baixar-planilha" onclick="baixarPlanilhaFatos()" title="Baixar a lista filtrada em CSV (abre no Excel)">⬇ Baixar planilha</button>
+          <button id="btn-atualizar-noticias" class="btn-atualizar-noticias val-restrito"
+                  onclick="atualizarNoticiasManual()"
+                  title="Roda o coletor da fnet agora e republica o JSON. Não interfere com a coleta agendada.">
+            🔄 Atualizar agora
+          </button>
+          <span id="atualizar-noticias-status" class="atualizar-noticias-status val-restrito"></span>
+        </div>
+
+        <div class="setor-tabela-wrapper noticias-scroll">
+          <table id="tabela-fatos">
+            <thead>
+              <tr>
+                <th class="sortable"     data-sort="ticker"       onclick="ordenarFatos('ticker')">Ticker <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="nome_fundo"   onclick="ordenarFatos('nome_fundo')">Fundo <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="setor"        onclick="ordenarFatos('setor')">Setor <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="categoria"    onclick="ordenarFatos('categoria')">Categoria <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="data_anuncio" onclick="ordenarFatos('data_anuncio')">Data Anúncio <span class="sort-icon">↕</span></th>
+              </tr>
+            </thead>
+            <tbody id="tabela-fatos-body">
+              <tr><td colspan="5" class="sim-vazio-msg">Carregando…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/noticias.js"></script>
+  <script src="js/local.js"></script>
+</body>
+</html>

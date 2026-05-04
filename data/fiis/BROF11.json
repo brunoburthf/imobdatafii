@@ -4,19 +4,19 @@
     "Ticker": "BROF11",
     "Nome": "Brpr Corporate Offices FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0506,
-    "Retorno - 12M": 0.3986,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.386,
     "P/VP": 0.57,
     "Último Dividendo Pago": 0.58,
     "DY a.a.": 0.112,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis de escritórios, com foco em gestão ativa e geração de renda por aluguel. Foi constituído em janeiro de 2023 e busca resultados por locação, renegociação contratual e reciclagem de ativos. A estratégia prioriza renda recorrente em portfólio corporativo com atuação ativa da gestão.",
     "Comentário": "O fundo distribuiu R$ 0,56/cota com dividend yield anualizado de 10,7%, em linha com projeções. A cota rendeu 5,16% em fevereiro, superando IFIX (1,32%) e CDI (1,00%). Notificado sobre rescisão antecipada de 1.176,73 m² pela Biogen no E-Tower, com detalhes a definir. Encerrou com 89,2% de ocupação, mantendo resiliência operacional apesar do desafio.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 62.36,
-    "% Dias Acima CDI 1A": 0.8548,
-    "% Dias Acima CDI 3A": 0.4186,
-    "% Dias Acima CDI 5A": 0.4186,
-    "% Dias Acima CDI MAX": 0.4186
+    "Preço Atual": 61.98,
+    "% Dias Acima CDI 1A": 0.8594,
+    "% Dias Acima CDI 3A": 0.4208,
+    "% Dias Acima CDI 5A": 0.4208,
+    "% Dias Acima CDI MAX": 0.4208
   },
   "historico_preco": [
     [
@@ -3070,6 +3070,14 @@
     [
       "2026-04-28",
       62.72
+    ],
+    [
+      "2026-04-29",
+      62.34
+    ],
+    [
+      "2026-04-30",
+      62.36
     ]
   ],
   "historico_preco_adj": [
@@ -6124,6 +6132,14 @@
     [
       "2026-04-28",
       62.72
+    ],
+    [
+      "2026-04-29",
+      62.34
+    ],
+    [
+      "2026-04-30",
+      62.36
     ]
   ],
   "historico_pvp": [
@@ -9326,6 +9342,18 @@
     [
       "2026-04-28",
       0.56985336363
+    ],
+    [
+      "2026-04-29",
+      0.56640080818
+    ],
+    [
+      "2026-04-30",
+      0.56658252162
+    ],
+    [
+      "2026-05-01",
+      0.56658252162
     ]
   ],
   "historico_dy": [
@@ -12316,6 +12344,14 @@
     [
       "2026-04-28",
       11.0969
+    ],
+    [
+      "2026-04-29",
+      11.1646
+    ],
+    [
+      "2026-04-30",
+      11.161
     ]
   ],
   "historico_dpc": [
@@ -12469,16 +12505,6 @@
     "data_ref": "2025-12-31",
     "ativos": [
       {
-        "tipo": "Outros Ativos Financeiros",
-        "emissor": "BANCO BTG PACTUAL S A",
-        "nome": "CDB",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 16377795.0,
-        "valor": 168872.1
-      },
-      {
         "tipo": "Outras Cotas de FI",
         "emissor": "BTGP TESOURO SELIC FI RF REFERENCIADO DI",
         "nome": "",
@@ -12490,13 +12516,13 @@
       },
       {
         "tipo": "Outros Ativos Financeiros",
-        "emissor": "Banco BTG Pactual S.A.",
-        "nome": "Operações Compromissadas - Lastro: LFT REF",
+        "emissor": "BANCO BTG PACTUAL S A",
+        "nome": "CDB",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 2673.0,
-        "valor": 48268760.54
+        "quantidade": 16377795.0,
+        "valor": 168872.1
       },
       {
         "tipo": "FII",
@@ -12507,6 +12533,16 @@
         "vencimento": "",
         "quantidade": 2160000.0,
         "valor": 237813020.99
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Banco BTG Pactual S.A.",
+        "nome": "Operações Compromissadas - Lastro: LFT REF",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2673.0,
+        "valor": 48268760.54
       }
     ],
     "imoveis": [

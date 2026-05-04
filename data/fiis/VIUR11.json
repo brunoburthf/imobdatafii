@@ -4,19 +4,19 @@
     "Ticker": "VIUR11",
     "Nome": "Vinci Imoveis Urbanos FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": -0.5236,
-    "Retorno - 12M": -0.4625,
-    "P/VP": 0.33,
+    "Retorno - MTD": null,
+    "Retorno - 12M": -0.451,
+    "P/VP": 0.34,
     "Último Dividendo Pago": 0.0,
     "DY a.a.": 0.0,
     "Visão Geral": "FII de renda urbana que investe em imóveis comerciais urbanos, com foco em ativos de varejo e serviços geradores de aluguel. É gerido pela Vinci e contava com 43.783 cotistas em dezembro de 2025. A estratégia combina renda recorrente, reciclagem patrimonial e alocação em imóveis localizados em centros urbanos relevantes.",
     "Comentário": "Resultado negativo de R$-0,102/cota sem distribuição mensal. Fundo declarou primeira amortização parcial de R$102,2 mi (R$3,528/cota) via TRXF11. Inadimplência FACAMP em dois meses reclama providências legais com cobertura via seguro fiança, redefinindo posicionamento e sinalizando possível exit estratégico via TRX.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 2.61,
-    "% Dias Acima CDI 1A": 0.4153,
-    "% Dias Acima CDI 3A": 0.3963,
-    "% Dias Acima CDI 5A": 0.3519,
-    "% Dias Acima CDI MAX": 0.3519
+    "Preço Atual": 2.6,
+    "% Dias Acima CDI 1A": 0.4137,
+    "% Dias Acima CDI 3A": 0.3968,
+    "% Dias Acima CDI 5A": 0.3511,
+    "% Dias Acima CDI MAX": 0.3511
   },
   "historico_preco": [
     [
@@ -4906,6 +4906,14 @@
     [
       "2026-04-28",
       2.52
+    ],
+    [
+      "2026-04-29",
+      2.53
+    ],
+    [
+      "2026-04-30",
+      2.61
     ]
   ],
   "historico_preco_adj": [
@@ -9796,6 +9804,14 @@
     [
       "2026-04-28",
       2.52
+    ],
+    [
+      "2026-04-29",
+      2.53
+    ],
+    [
+      "2026-04-30",
+      2.61
     ]
   ],
   "historico_pvp": [
@@ -14910,6 +14926,18 @@
     [
       "2026-04-28",
       0.32923102679
+    ],
+    [
+      "2026-04-29",
+      0.33053749912
+    ],
+    [
+      "2026-04-30",
+      0.34098927775
+    ],
+    [
+      "2026-05-01",
+      0.34098927775
     ]
   ],
   "historico_dy": [
@@ -19805,16 +19833,6 @@
     "data_ref": "2025-12-31",
     "ativos": [
       {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "DAYCOVAL TÍTULOS PÚBLICOS IV FIRF",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 16718548.1529367,
-        "valor": 28126141.18
-      },
-      {
         "tipo": "FII",
         "emissor": "TRX REAL ESTATE FII Resp LTDA",
         "nome": "",
@@ -19823,6 +19841,16 @@
         "vencimento": "",
         "quantidade": 1571474.0,
         "valor": 153957307.78
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "DAYCOVAL TÍTULOS PÚBLICOS IV FIRF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16718548.1529367,
+        "valor": 28126141.18
       },
       {
         "tipo": "FII",

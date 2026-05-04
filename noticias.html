@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Notícias — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link ativo">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="menu-main">
+
+    <h1 class="menu-hero-titulo">Notícias</h1>
+
+    <div class="menu-cards">
+
+      <a class="menu-card" href="noticias_dividendos.html">
+        <div class="menu-card-titulo">Dividendos Anunciados</div>
+        <p class="menu-card-desc">Últimos anúncios de proventos de FIIs publicados na fnet, com data com, data de pagamento e valor por cota.</p>
+      </a>
+
+      <a class="menu-card" href="noticias_fatos.html">
+        <div class="menu-card-titulo">Fatos Relevantes e Comunicados</div>
+        <p class="menu-card-desc">Comunicações oficiais dos administradores ao mercado nos últimos 30 dias, com link direto para o documento.</p>
+      </a>
+
+      <a class="menu-card" href="noticias_relatorios.html">
+        <div class="menu-card-titulo">Relatórios Gerenciais</div>
+        <p class="menu-card-desc">Relatórios mensais publicados por cada FII, ordenados pela data de divulgação na fnet.</p>
+      </a>
+
+    </div>
+  </main>
+
+  <script src="js/local.js"></script>
+</body>
+</html>

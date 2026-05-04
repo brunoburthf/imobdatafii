@@ -4,19 +4,19 @@
     "Ticker": "RBRP11",
     "Nome": "FII Rbr Properties",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0057,
-    "Retorno - 12M": 0.1574,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.1703,
     "P/VP": 0.64,
     "Último Dividendo Pago": 0.4,
     "DY a.a.": 0.092,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com gestão ativa e foco em renda locatícia e valorização patrimonial. É gerido pela RBR e integra sua estratégia de renda e properties. O portfólio é concentrado em imóveis corporativos, com atuação voltada à locação, reciclagem de ativos e geração recorrente.",
     "Comentário": "A Patria assumiu gestão em fevereiro, apresentando resultado de R$ 0,46/cota com distribuição de R$ 0,40/cota. Vacância permaneceu em 23,8%, com esforços em negociações para Venezuela e Jacks Rabinovich. Reajustes contratuais foram realizados em 9.751 m² de ABL do portfólio corporativo.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 52.35,
-    "% Dias Acima CDI 1A": 0.4073,
-    "% Dias Acima CDI 3A": 0.3588,
+    "Preço Atual": 52.36,
+    "% Dias Acima CDI 1A": 0.4137,
+    "% Dias Acima CDI 3A": 0.3619,
     "% Dias Acima CDI 5A": 0.2506,
-    "% Dias Acima CDI MAX": 0.3779
+    "% Dias Acima CDI MAX": 0.3787
   },
   "historico_preco": [
     [
@@ -6646,6 +6646,14 @@
     [
       "2026-04-28",
       51.75
+    ],
+    [
+      "2026-04-29",
+      52.1
+    ],
+    [
+      "2026-04-30",
+      52.35
     ]
   ],
   "historico_preco_adj": [
@@ -13276,6 +13284,14 @@
     [
       "2026-04-28",
       51.75
+    ],
+    [
+      "2026-04-29",
+      52.1
+    ],
+    [
+      "2026-04-30",
+      52.35
     ]
   ],
   "historico_pvp": [
@@ -21218,6 +21234,18 @@
     [
       "2026-04-28",
       0.63383574301
+    ],
+    [
+      "2026-04-29",
+      0.6381225548
+    ],
+    [
+      "2026-04-30",
+      0.64118456322
+    ],
+    [
+      "2026-05-01",
+      0.64118456322
     ]
   ],
   "historico_dy": [
@@ -27836,6 +27864,14 @@
     [
       "2026-04-28",
       9.2754
+    ],
+    [
+      "2026-04-29",
+      9.2131
+    ],
+    [
+      "2026-04-30",
+      9.1691
     ]
   ],
   "historico_dpc": [
@@ -28213,55 +28249,14 @@
     "data_ref": "2025-12-31",
     "ativos": [
       {
-        "tipo": "CRI/CRA",
-        "emissor": "CRI_23B0430541 - OPEA SEC",
-        "nome": "",
-        "emissao": "123",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 7685.0,
-        "valor": 4447661.59,
-        "nome_cri": "CRI Paes & Gregori"
-      },
-      {
         "tipo": "FII",
-        "emissor": "RCFF11 - RBR DESENVOLVIMENTO COMERCIAL FEEDER FOF FII",
+        "emissor": "XPML11 - FII XP MALLS",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 1.0,
-        "valor": 94.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "TOPP11 - FII TOPP",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 15150.0,
-        "valor": 1164883.5
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CENU11 - CENU FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 38526.0,
-        "valor": 3852600.0
-      },
-      {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "FICFI ITAU SOBERANO RENDA FIXA SIMPLES LP",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 40995.1034,
-        "valor": 3348795.44
+        "quantidade": 81645.0,
+        "valor": 8822558.7
       },
       {
         "tipo": "CRI/CRA",
@@ -28275,15 +28270,24 @@
         "nome_cri": "CRI JK Financial Center"
       },
       {
-        "tipo": "CRI/CRA",
-        "emissor": "CRI_24I1189880 - VIRGO SEC",
+        "tipo": "Outras Cotas de FI",
+        "emissor": "FICFI ITAU SOBERANO RENDA FIXA SIMPLES LP",
         "nome": "",
-        "emissao": "201",
-        "serie": "1",
+        "emissao": "",
+        "serie": "",
         "vencimento": "",
-        "quantidade": 8200.0,
-        "valor": 7421118.29,
-        "nome_cri": "CRI ESTR RBR CURY"
+        "quantidade": 40995.1034,
+        "valor": 3348795.44
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "LCI_24C01152711 - CEF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-02-23",
+        "quantidade": 10.0,
+        "valor": 12320959.29
       },
       {
         "tipo": "LCI/LCA",
@@ -28297,74 +28301,13 @@
       },
       {
         "tipo": "FII",
-        "emissor": "TRNT11 - FII TORRE NO",
+        "emissor": "CENU11 - CENU FII",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 56649.0,
-        "valor": 5381655.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FVPQ11 - FII V PARQUE",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 9457.0,
-        "valor": 666718.5
-      },
-      {
-        "tipo": "LCI/LCA",
-        "emissor": "LCI_24F01524489 - CEF",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "2026-06-08",
-        "quantidade": 1.0,
-        "valor": 1198608.17
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "CRI_24E1296964 - VERTICIA SEC",
-        "nome": "",
-        "emissao": "132",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 18045.0,
-        "valor": 15025488.55,
-        "nome_cri": "CRI CREDIBLUE SOLUCOES FINANCEIRAS E IMOBILIARIAS LTDA QI TECH"
-      },
-      {
-        "tipo": "LCI/LCA",
-        "emissor": "LCI_24C01152711 - CEF",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "2026-02-23",
-        "quantidade": 10.0,
-        "valor": 12320959.29
-      },
-      {
-        "tipo": "FII",
-        "emissor": "HGPO11 - FII CSHGJHSF",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 13101.0,
-        "valor": 1912746.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "XPML11 - FII XP MALLS",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 81645.0,
-        "valor": 8822558.7
+        "quantidade": 38526.0,
+        "valor": 3852600.0
       },
       {
         "tipo": "CRI/CRA",
@@ -28378,6 +28321,78 @@
         "nome_cri": "CRI FGR"
       },
       {
+        "tipo": "LCI/LCA",
+        "emissor": "LCI_24F01524489 - CEF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-06-08",
+        "quantidade": 1.0,
+        "valor": 1198608.17
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24I1189880 - VIRGO SEC",
+        "nome": "",
+        "emissao": "201",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8200.0,
+        "valor": 7421118.29,
+        "nome_cri": "CRI ESTR RBR CURY"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24E1296964 - VERTICIA SEC",
+        "nome": "",
+        "emissao": "132",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 18045.0,
+        "valor": 15025488.55,
+        "nome_cri": "CRI CREDIBLUE SOLUCOES FINANCEIRAS E IMOBILIARIAS LTDA QI TECH"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FVPQ11 - FII V PARQUE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9457.0,
+        "valor": 666718.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TRNT11 - FII TORRE NO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 56649.0,
+        "valor": 5381655.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HGPO11 - FII CSHGJHSF",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 13101.0,
+        "valor": 1912746.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RCFF11 - RBR DESENVOLVIMENTO COMERCIAL FEEDER FOF FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 94.0
+      },
+      {
         "tipo": "FII",
         "emissor": "PSEC11 - FII PSEC PAX",
         "nome": "",
@@ -28389,6 +28404,16 @@
       },
       {
         "tipo": "FII",
+        "emissor": "TOPP11 - FII TOPP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 15150.0,
+        "valor": 1164883.5
+      },
+      {
+        "tipo": "FII",
         "emissor": "RBRL11 - RBR LOG FII",
         "nome": "",
         "emissao": "",
@@ -28396,6 +28421,17 @@
         "vencimento": "",
         "quantidade": 1924086.0,
         "valor": 177958714.14
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_23B0430541 - OPEA SEC",
+        "nome": "",
+        "emissao": "123",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 7685.0,
+        "valor": 4447661.59,
+        "nome_cri": "CRI Paes & Gregori"
       }
     ],
     "imoveis": [
@@ -28407,20 +28443,6 @@
         "pct_total": null
       },
       {
-        "nome": "Edíficio River One",
-        "endereco": "Rua Gerivatiba, esquina com a Rua Pirajussara, nºs 71, 87 e 95, com frente também para a Rua Desembargador Armando Fairbanks, nº 32, Pinheiros, São Paulo - SP.",
-        "area": 23625.14,
-        "vacancia": 0.0911,
-        "pct_total": null
-      },
-      {
-        "nome": "Edíficio Mario Garneiro Torre Sul",
-        "endereco": "Av. Brigadeiro Faria Lima nº 1.461,  Pinheiros, São Paulo/SP",
-        "area": 2722.35,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "Edifício Delta Plaza",
         "endereco": "Rua Cincinato Braga, 340 - Bela Vista - São Paulo - SP",
         "area": 4058.7,
@@ -28428,10 +28450,24 @@
         "pct_total": null
       },
       {
+        "nome": "Edíficio River One",
+        "endereco": "Rua Gerivatiba, esquina com a Rua Pirajussara, nºs 71, 87 e 95, com frente também para a Rua Desembargador Armando Fairbanks, nº 32, Pinheiros, São Paulo - SP.",
+        "area": 23625.14,
+        "vacancia": 0.0911,
+        "pct_total": null
+      },
+      {
         "nome": "Edifício Cerp - Venezuela",
         "endereco": "Avenida Venezuela, 43 - Saúde - Rio de Janeiro - RJ",
         "area": 4488.0,
         "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edíficio Mario Garneiro Torre Sul",
+        "endereco": "Av. Brigadeiro Faria Lima nº 1.461,  Pinheiros, São Paulo/SP",
+        "area": 2722.35,
+        "vacancia": 0.0,
         "pct_total": null
       },
       {

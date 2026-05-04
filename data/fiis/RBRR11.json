@@ -4,19 +4,19 @@
     "Ticker": "RBRR11",
     "Nome": "FII RBR Rendimento High Grade",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.0145,
-    "Retorno - 12M": 0.1053,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.0945,
     "P/VP": 0.9,
     "Último Dividendo Pago": 0.7,
-    "DY a.a.": 0.101,
+    "DY a.a.": 0.1,
     "Visão Geral": "FII de papel que investe em CRIs de risco high grade, majoritariamente indexados ao IPCA, com foco em rendimentos e ganho de capital. É gerido pela RBR, iniciou em maio de 2018 e busca geração recorrente de renda via crédito imobiliário. A estratégia concentra operações com perfil mais conservador dentro do segmento.",
     "Comentário": "Sob nova gestão Patria desde fevereiro, o fundo apresentou resultado distribuível de R$ 0,59/cota com distribuição de R$ 0,70/cota. Carteira de CRI com rentabilidade ponderada de 14,9% a.a. (IPCA+9,2%), prazo médio de 4,1 anos e spread de 1,1% a.a. em 110 operações estruturadas.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 83.63,
-    "% Dias Acima CDI 1A": 0.4194,
-    "% Dias Acima CDI 3A": 0.3494,
-    "% Dias Acima CDI 5A": 0.494,
-    "% Dias Acima CDI MAX": 0.5106
+    "Preço Atual": 82.99,
+    "% Dias Acima CDI 1A": 0.4177,
+    "% Dias Acima CDI 3A": 0.3499,
+    "% Dias Acima CDI 5A": 0.4924,
+    "% Dias Acima CDI MAX": 0.51
   },
   "historico_preco": [
     [
@@ -7958,6 +7958,14 @@
     [
       "2026-04-28",
       83.6
+    ],
+    [
+      "2026-04-29",
+      83.55
+    ],
+    [
+      "2026-04-30",
+      83.63
     ]
   ],
   "historico_preco_adj": [
@@ -15900,6 +15908,14 @@
     [
       "2026-04-28",
       83.6
+    ],
+    [
+      "2026-04-29",
+      83.55
+    ],
+    [
+      "2026-04-30",
+      83.63
     ]
   ],
   "historico_pvp": [
@@ -24158,6 +24174,18 @@
     [
       "2026-04-28",
       0.90136709219
+    ],
+    [
+      "2026-04-29",
+      0.90082799704
+    ],
+    [
+      "2026-04-30",
+      0.90169054928
+    ],
+    [
+      "2026-05-01",
+      0.90169054928
     ]
   ],
   "historico_dy": [
@@ -32020,6 +32048,14 @@
     [
       "2026-04-28",
       10.0478
+    ],
+    [
+      "2026-04-29",
+      10.0539
+    ],
+    [
+      "2026-04-30",
+      10.0442
     ]
   ],
   "historico_dpc": [
@@ -32412,50 +32448,6 @@
         "tipo": "CRI/CRA",
         "emissor": "VERT COMPANHIA SECURITIZADORA",
         "nome": "",
-        "emissao": "134",
-        "serie": "5",
-        "vencimento": "",
-        "quantidade": 17146.0,
-        "valor": 10775493.83,
-        "nome_cri": "CRI Creditas"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "149",
-        "vencimento": "",
-        "quantidade": 8548.0,
-        "valor": 1615762.13,
-        "nome_cri": "CRI Creditas Sênior"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "379",
-        "vencimento": "",
-        "quantidade": 7227.0,
-        "valor": 8257242.21,
-        "nome_cri": "CRI Villa de Gaia"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "324",
-        "vencimento": "",
-        "quantidade": 7234.0,
-        "valor": 7928348.46,
-        "nome_cri": "CRI Rede Dor VI"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
         "emissao": "0",
         "serie": "1",
         "vencimento": "",
@@ -32464,253 +32456,14 @@
       },
       {
         "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 12839.0,
-        "valor": 12902359.24
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "127",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 12298.0,
-        "valor": 12663156.27,
-        "nome_cri": "CRI COMPANHIA BRASILEIRA DE DISTRIBUIÇÃO"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "360",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 17453.0,
-        "valor": 17463520.16,
-        "nome_cri": "CRI BTS Panorama"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "261",
-        "vencimento": "",
-        "quantidade": 7367.0,
-        "valor": 6565044.13,
-        "nome_cri": "CRI Ribeira"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "134",
-        "serie": "11",
-        "vencimento": "",
-        "quantidade": 10110.0,
-        "valor": 8344819.44,
-        "nome_cri": "CRI Creditas"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 17995.0,
-        "valor": 14654335.55
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "477",
-        "vencimento": "",
-        "quantidade": 77091.0,
-        "valor": 75539020.14,
-        "nome_cri": "CRI JFL Rebouças"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 7251.0,
-        "valor": 7189051.81
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "68",
-        "serie": "2",
-        "vencimento": "",
-        "quantidade": 119836.0,
-        "valor": 121391560.22,
-        "nome_cri": "CRI Arquiplan"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "71",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 1500000.0,
-        "valor": 4995169.31,
-        "nome_cri": "CRI Toex II"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "416",
-        "vencimento": "",
-        "quantidade": 18664.0,
-        "valor": 288633.31,
-        "nome_cri": "CRI Maiojama"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "4",
-        "serie": "329",
-        "vencimento": "",
-        "quantidade": 48389.0,
-        "valor": 44447662.45,
-        "nome_cri": "CRI ESTR BLUEMACAW CATUAI 3 PÁTIO MALZONI"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "92",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 12023.0,
-        "valor": 12075946.1,
-        "nome_cri": "CRI JK B"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "134",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 17744.0,
-        "valor": 11148925.82,
-        "nome_cri": "CRI Allos III"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "134",
-        "serie": "8",
-        "vencimento": "",
-        "quantidade": 8223.0,
-        "valor": 6989363.7,
-        "nome_cri": "CRI Creditas"
-      },
-      {
-        "tipo": "CRI/CRA",
         "emissor": "HABITASEC SECURITIZADORA S.A.",
         "nome": "",
-        "emissao": "1",
-        "serie": "148",
+        "emissao": "13",
+        "serie": "2",
         "vencimento": "",
-        "quantidade": 10668.0,
-        "valor": 5505439.4,
-        "nome_cri": "CRI HBR"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "7",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 59000.0,
-        "valor": 49798064.43,
-        "nome_cri": "CRI CORP NAGUMO"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "520",
-        "vencimento": "",
-        "quantidade": 3000.0,
-        "valor": 1742264.75,
-        "nome_cri": "CRI Creditu"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "518",
-        "vencimento": "",
-        "quantidade": 2708.0,
-        "valor": 1616369.89,
-        "nome_cri": "CRI Creditu"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "478",
-        "vencimento": "",
-        "quantidade": 11198.0,
-        "valor": 9175603.52,
-        "nome_cri": "CRI Covepi"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "515",
-        "vencimento": "",
-        "quantidade": 2864.0,
-        "valor": 1755044.46,
-        "nome_cri": "CRI Creditu"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "519",
-        "vencimento": "",
-        "quantidade": 2979.0,
-        "valor": 1758494.47,
-        "nome_cri": "CRI Creditu"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "134",
-        "serie": "6",
-        "vencimento": "",
-        "quantidade": 12002.0,
-        "valor": 7915813.36,
-        "nome_cri": "CRI Creditas"
+        "quantidade": 9618.0,
+        "valor": 9130988.16,
+        "nome_cri": "CRI BTS Varginha II"
       },
       {
         "tipo": "CRI/CRA",
@@ -32725,47 +32478,100 @@
       },
       {
         "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "517",
+        "vencimento": "",
+        "quantidade": 2765.0,
+        "valor": 1669734.56,
+        "nome_cri": "CRI Creditu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "TRUE SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "71",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 4244350.0,
+        "valor": 3371317.21,
+        "nome_cri": "CRI Crizao"
+      },
+      {
+        "tipo": "CRI/CRA",
         "emissor": "VERT COMPANHIA SECURITIZADORA",
         "nome": "",
-        "emissao": "9",
-        "serie": "2",
+        "emissao": "134",
+        "serie": "12",
         "vencimento": "",
-        "quantidade": 105749.0,
-        "valor": 73595917.85,
-        "nome_cri": "CRI Cortel II"
+        "quantidade": 7077.0,
+        "valor": 5879886.12,
+        "nome_cri": "CRI Creditas"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
         "emissao": "1",
-        "serie": "415",
+        "serie": "428",
         "vencimento": "",
-        "quantidade": 18664.0,
-        "valor": 245373.57,
-        "nome_cri": "CRI Maiojama"
+        "quantidade": 75651.0,
+        "valor": 65313929.87,
+        "nome_cri": "CRI JK Financial Center"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
         "nome": "",
-        "emissao": "177",
-        "serie": "2",
+        "emissao": "4",
+        "serie": "32",
         "vencimento": "",
-        "quantidade": 35424.0,
-        "valor": 29808098.68,
-        "nome_cri": "CRI ESTR Torre Corp GPA"
+        "quantidade": 3186.0,
+        "valor": 14352192.49,
+        "nome_cri": "CRI PATRIFARM (MultiLocaticio)"
       },
       {
         "tipo": "CRI/CRA",
-        "emissor": "TRUE SECURITIZADORA S.A.",
+        "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
-        "emissao": "161",
-        "serie": "2",
+        "emissao": "1",
+        "serie": "477",
         "vencimento": "",
-        "quantidade": 4670.0,
-        "valor": 3565262.51,
-        "nome_cri": "CRI GR Group"
+        "quantidade": 77091.0,
+        "valor": 75539020.14,
+        "nome_cri": "CRI JFL Rebouças"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12839.0,
+        "valor": 12902359.24
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5022.0,
+        "valor": 4339679.22
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "71",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 1500000.0,
+        "valor": 4995169.31,
+        "nome_cri": "CRI Toex II"
       },
       {
         "tipo": "CRI/CRA",
@@ -32780,110 +32586,36 @@
       },
       {
         "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "492",
-        "vencimento": "",
-        "quantidade": 43600.0,
-        "valor": 4348298.35,
-        "nome_cri": "CRI Lindenberg"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "HABITASEC SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "12",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 5045.0,
-        "valor": 4743591.48,
-        "nome_cri": "CRI BTS Varginha"
-      },
-      {
-        "tipo": "FII",
-        "emissor": "GUARDIAN MULTIESTRATEGIA IMOBILIARIA I FII DE RESPONS LTDA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 1231551.0,
-        "valor": 10394290.44
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "163",
-        "vencimento": "",
-        "quantidade": 318.0,
-        "valor": 9365035.54,
-        "nome_cri": "CRI BTG | Ed. Cidade Jardim II"
-      },
-      {
-        "tipo": "CRI/CRA",
         "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
         "nome": "",
         "emissao": "4",
-        "serie": "442",
+        "serie": "329",
         "vencimento": "",
-        "quantidade": 10210.0,
-        "valor": 11367200.41,
-        "nome_cri": "CRI RIO CLARO (RCP)"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "477",
-        "vencimento": "",
-        "quantidade": 4660.0,
-        "valor": 3818065.07,
-        "nome_cri": "CRI JFL Rebouças"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 13468.0,
-        "valor": 13534481.66
+        "quantidade": 48389.0,
+        "valor": 44447662.45,
+        "nome_cri": "CRI ESTR BLUEMACAW CATUAI 3 PÁTIO MALZONI"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "VERT COMPANHIA SECURITIZADORA",
         "nome": "",
         "emissao": "134",
-        "serie": "13",
+        "serie": "8",
         "vencimento": "",
-        "quantidade": 3033.0,
-        "valor": 2179597.7,
+        "quantidade": 8223.0,
+        "valor": 6989363.7,
         "nome_cri": "CRI Creditas"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
-        "emissao": "1",
-        "serie": "513",
+        "emissao": "161",
+        "serie": "3",
         "vencimento": "",
-        "quantidade": 2560.0,
-        "valor": 1571894.03,
-        "nome_cri": "CRI Creditu"
-      },
-      {
-        "tipo": "LCI/LCA",
-        "emissor": "CAIXA ECONOMICA FEDERAL",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "2026-01-29",
-        "quantidade": 0.0,
-        "valor": 0.0
+        "quantidade": 1078.0,
+        "valor": 899696.89,
+        "nome_cri": "CRI MRV XX (Flex)"
       },
       {
         "tipo": "CRI/CRA",
@@ -32901,6 +32633,643 @@
         "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
         "emissao": "1",
+        "serie": "376",
+        "vencimento": "",
+        "quantidade": 3415.0,
+        "valor": 1915827.78,
+        "nome_cri": "CRI Golani"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GUARDIAN MULTIESTRATEGIA IMOBILIARIA I FII DE RESPONS LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1231551.0,
+        "valor": 10394290.44
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "116",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 22000.0,
+        "valor": 19730653.3,
+        "nome_cri": "CRI Panorama Jandira II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "134",
+        "serie": "6",
+        "vencimento": "",
+        "quantidade": 12002.0,
+        "valor": 7915813.36,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "415",
+        "vencimento": "",
+        "quantidade": 18664.0,
+        "valor": 245373.57,
+        "nome_cri": "CRI Maiojama"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "200",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 24099.0,
+        "valor": 19127527.43,
+        "nome_cri": "CRI FGR"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "71",
+        "serie": "4",
+        "vencimento": "",
+        "quantidade": 3500.0,
+        "valor": 1742855.02,
+        "nome_cri": "CRI Crizao RBR"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "58",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 8798.0,
+        "valor": 6739578.15,
+        "nome_cri": "CRI SG Natal"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "268",
+        "vencimento": "",
+        "quantidade": 6878.0,
+        "valor": 6128539.72,
+        "nome_cri": "CRI Ribeira II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "515",
+        "vencimento": "",
+        "quantidade": 2864.0,
+        "valor": 1755044.46,
+        "nome_cri": "CRI Creditu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "9",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 105749.0,
+        "valor": 73595917.85,
+        "nome_cri": "CRI Cortel II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "7",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 59000.0,
+        "valor": 49798064.43,
+        "nome_cri": "CRI CORP NAGUMO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "12",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 5045.0,
+        "valor": 4743591.48,
+        "nome_cri": "CRI BTS Varginha"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "NAVI CREDITO IMOBILIARIO FII - RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 600000.0,
+        "valor": 5436000.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PREMIUM RECEBIVEIS IMOBILIARIOS FII RESPONS LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 259425.0,
+        "valor": 22305361.5
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "267",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 13048.0,
+        "valor": 9201770.73,
+        "nome_cri": "CRI Viverde II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "520",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1742264.75,
+        "nome_cri": "CRI Creditu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 16742.0,
+        "valor": 16304370.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "338",
+        "vencimento": "",
+        "quantidade": 15124.0,
+        "valor": 13543792.36,
+        "nome_cri": "CRI A-TOWN"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "513",
+        "vencimento": "",
+        "quantidade": 2560.0,
+        "valor": 1571894.03,
+        "nome_cri": "CRI Creditu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "158",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 14900.0,
+        "valor": 10176192.26,
+        "nome_cri": "CRI BTG Log Mauá II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "134",
+        "serie": "14",
+        "vencimento": "",
+        "quantidade": 20380.0,
+        "valor": 18499854.1,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "71",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 10000.0,
+        "valor": 3968306.79,
+        "nome_cri": "CRI Crizao RBR"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 13468.0,
+        "valor": 13534481.66
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 17995.0,
+        "valor": 14654335.55
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "136",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 21652.0,
+        "valor": 20245118.92,
+        "nome_cri": "CRI CSN"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "175",
+        "vencimento": "",
+        "quantidade": 6270.0,
+        "valor": 1608057.41,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "136",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 925.0,
+        "valor": 911964.91,
+        "nome_cri": "CRI MORUS ALBA PROPRIEDADES LTDA"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FARIA LIMA CAPITAL RECEBIVEIS IMOB I - FII RESPONS LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 15072.0,
+        "valor": 1446007.68
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 65260.0,
+        "valor": 63245627.27
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "64",
+        "vencimento": "",
+        "quantidade": 433.0,
+        "valor": 1102313.83,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "479",
+        "vencimento": "",
+        "quantidade": 10098.0,
+        "valor": 8273566.76,
+        "nome_cri": "CRI Amy Faria Lima"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "109",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 0.0,
+        "valor": 0.0,
+        "nome_cri": "CRI Helbor II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "416",
+        "vencimento": "",
+        "quantidade": 18664.0,
+        "valor": 288633.31,
+        "nome_cri": "CRI Maiojama"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "12",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 4000.0,
+        "valor": 3785968.7,
+        "nome_cri": "CRI BTS Varginha"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 2500.0,
+        "valor": 2555092.39
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "522",
+        "vencimento": "",
+        "quantidade": 2567.0,
+        "valor": 1484222.37,
+        "nome_cri": "CRI Creditu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "149",
+        "vencimento": "",
+        "quantidade": 8548.0,
+        "valor": 1615762.13,
+        "nome_cri": "CRI Creditas Sênior"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "360",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 17453.0,
+        "valor": 17463520.16,
+        "nome_cri": "CRI BTS Panorama"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "71",
+        "serie": "3",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1836998.72,
+        "nome_cri": "CRI Crizao RBR"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "134",
+        "serie": "15",
+        "vencimento": "",
+        "quantidade": 14266.0,
+        "valor": 13023191.46,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "134",
+        "serie": "13",
+        "vencimento": "",
+        "quantidade": 3033.0,
+        "valor": 2179597.7,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Banco BTG Pactual S.A.",
+        "nome": "Operações Compromissadas - Lastro: NTNB IPCA",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10011.0,
+        "valor": 43108040.18
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "134",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 17744.0,
+        "valor": 11148925.82,
+        "nome_cri": "CRI Allos III"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "478",
+        "vencimento": "",
+        "quantidade": 11198.0,
+        "valor": 9175603.52,
+        "nome_cri": "CRI Covepi"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "134",
+        "serie": "5",
+        "vencimento": "",
+        "quantidade": 17146.0,
+        "valor": 10775493.83,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "136",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 2373.0,
+        "valor": 2307777.79,
+        "nome_cri": "CRI MORUS ALBA PROPRIEDADES LTDA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "514",
+        "vencimento": "",
+        "quantidade": 2899.0,
+        "valor": 1781184.53,
+        "nome_cri": "CRI Creditu"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VALORA CRI INFRA FII DE  RESPONSABILIDADE LIMITADA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 100215.0,
+        "valor": 9640054.05
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "0",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 17761.0,
+        "valor": 17904161.46
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "283",
+        "vencimento": "",
+        "quantidade": 8000.0,
+        "valor": 3571389.5,
+        "nome_cri": "CRI LE BISCUIT"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "423",
+        "vencimento": "",
+        "quantidade": 46890.0,
+        "valor": 42776953.11,
+        "nome_cri": "CRI Leo Madeiras"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "177",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 52932.0,
+        "valor": 879.03,
+        "nome_cri": "CRI ESTR Torre Corp GPA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "324",
+        "vencimento": "",
+        "quantidade": 7234.0,
+        "valor": 7928348.46,
+        "nome_cri": "CRI Rede Dor VI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "148",
+        "vencimento": "",
+        "quantidade": 10668.0,
+        "valor": 5505439.4,
+        "nome_cri": "CRI HBR"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "92",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 12023.0,
+        "valor": 12075946.1,
+        "nome_cri": "CRI JK B"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "379",
+        "vencimento": "",
+        "quantidade": 7227.0,
+        "valor": 8257242.21,
+        "nome_cri": "CRI Villa de Gaia"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "163",
+        "vencimento": "",
+        "quantidade": 318.0,
+        "valor": 9365035.54,
+        "nome_cri": "CRI BTG | Ed. Cidade Jardim II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "201",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 41251.0,
+        "valor": 37776123.87,
+        "nome_cri": "CRI ESTR RBR CURY"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
         "serie": "403",
         "vencimento": "",
         "quantidade": 13825.0,
@@ -32908,15 +33277,123 @@
         "nome_cri": "CRI Yuca"
       },
       {
+        "tipo": "LCI/LCA",
+        "emissor": "CAIXA ECONOMICA FEDERAL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-01-29",
+        "quantidade": 0.0,
+        "valor": 0.0
+      },
+      {
+        "tipo": "LCI/LCA",
+        "emissor": "CAIXA ECONOMICA FEDERAL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "2026-04-06",
+        "quantidade": 0.0,
+        "valor": 0.0
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "519",
+        "vencimento": "",
+        "quantidade": 2979.0,
+        "valor": 1758494.47,
+        "nome_cri": "CRI Creditu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "252",
+        "vencimento": "",
+        "quantidade": 2499.0,
+        "valor": 889163.15,
+        "nome_cri": "CRI WIMO"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "466",
+        "vencimento": "",
+        "quantidade": 30856.0,
+        "valor": 24609686.5,
+        "nome_cri": "CRI BTG Log Mauá"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "177",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 35424.0,
+        "valor": 29808098.68,
+        "nome_cri": "CRI ESTR Torre Corp GPA"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "477",
+        "vencimento": "",
+        "quantidade": 4660.0,
+        "valor": 3818065.07,
+        "nome_cri": "CRI JFL Rebouças"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "516",
+        "vencimento": "",
+        "quantidade": 3000.0,
+        "valor": 1829286.82,
+        "nome_cri": "CRI Creditu"
+      },
+      {
         "tipo": "CRI/CRA",
         "emissor": "VERT COMPANHIA SECURITIZADORA",
         "nome": "",
-        "emissao": "134",
-        "serie": "12",
+        "emissao": "9",
+        "serie": "1",
         "vencimento": "",
-        "quantidade": 7077.0,
-        "valor": 5879886.12,
-        "nome_cri": "CRI Creditas"
+        "quantidade": 50000.0,
+        "valor": 52271679.55,
+        "nome_cri": "CRI Cortel II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "510",
+        "vencimento": "",
+        "quantidade": 7000.0,
+        "valor": 7726355.48,
+        "nome_cri": "CRI Correios Contagem"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "127",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 49298.0,
+        "valor": 50761366.89,
+        "nome_cri": "CRI COMPANHIA BRASILEIRA DE DISTRIBUIÇÃO"
       },
       {
         "tipo": "CRI/CRA",
@@ -32941,422 +33418,68 @@
       },
       {
         "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
-        "emissao": "136",
-        "serie": "2",
+        "emissao": "1",
+        "serie": "261",
         "vencimento": "",
-        "quantidade": 2373.0,
-        "valor": 2307777.79,
-        "nome_cri": "CRI MORUS ALBA PROPRIEDADES LTDA"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "201",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 41251.0,
-        "valor": 37776123.87,
-        "nome_cri": "CRI ESTR RBR CURY"
+        "quantidade": 7367.0,
+        "valor": 6565044.13,
+        "nome_cri": "CRI Ribeira"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
-        "emissao": "200",
-        "serie": "1",
+        "emissao": "1",
+        "serie": "521",
         "vencimento": "",
-        "quantidade": 24099.0,
-        "valor": 19127527.43,
-        "nome_cri": "CRI FGR"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 65260.0,
-        "valor": 63245627.27
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "4",
-        "serie": "283",
-        "vencimento": "",
-        "quantidade": 8000.0,
-        "valor": 3571389.5,
-        "nome_cri": "CRI LE BISCUIT"
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FARIA LIMA CAPITAL RECEBIVEIS IMOB I - FII RESPONS LTDA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 15072.0,
-        "valor": 1446007.68
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "HABITASEC SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "13",
-        "serie": "2",
-        "vencimento": "",
-        "quantidade": 9618.0,
-        "valor": 9130988.16,
-        "nome_cri": "CRI BTS Varginha II"
+        "quantidade": 2803.0,
+        "valor": 1938477.22,
+        "nome_cri": "CRI Creditu"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "TRUE SECURITIZADORA S.A.",
         "nome": "",
-        "emissao": "71",
-        "serie": "6",
-        "vencimento": "",
-        "quantidade": 4244350.0,
-        "valor": 3371317.21,
-        "nome_cri": "CRI Crizao"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "517",
-        "vencimento": "",
-        "quantidade": 2765.0,
-        "valor": 1669734.56,
-        "nome_cri": "CRI Creditu"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "514",
-        "vencimento": "",
-        "quantidade": 2899.0,
-        "valor": 1781184.53,
-        "nome_cri": "CRI Creditu"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "108",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 0.0,
-        "valor": 0.0,
-        "nome_cri": "CRI Marahu"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "479",
-        "vencimento": "",
-        "quantidade": 10098.0,
-        "valor": 8273566.76,
-        "nome_cri": "CRI Amy Faria Lima"
-      },
-      {
-        "tipo": "LCI/LCA",
-        "emissor": "CAIXA ECONOMICA FEDERAL",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "2026-04-06",
-        "quantidade": 0.0,
-        "valor": 0.0
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "9",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 50000.0,
-        "valor": 52271679.55,
-        "nome_cri": "CRI Cortel II"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "109",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 0.0,
-        "valor": 0.0,
-        "nome_cri": "CRI Helbor II"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "428",
-        "vencimento": "",
-        "quantidade": 75651.0,
-        "valor": 65313929.87,
-        "nome_cri": "CRI JK Financial Center"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "177",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 52932.0,
-        "valor": 879.03,
-        "nome_cri": "CRI ESTR Torre Corp GPA"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "4",
-        "serie": "338",
-        "vencimento": "",
-        "quantidade": 15124.0,
-        "valor": 13543792.36,
-        "nome_cri": "CRI A-TOWN"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "BARI SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "64",
-        "vencimento": "",
-        "quantidade": 433.0,
-        "valor": 1102313.83,
-        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "4",
-        "serie": "252",
-        "vencimento": "",
-        "quantidade": 2499.0,
-        "valor": 889163.15,
-        "nome_cri": "CRI WIMO"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 17761.0,
-        "valor": 17904161.46
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 11438.0,
-        "valor": 11190515.16
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 5022.0,
-        "valor": 4339679.22
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "71",
+        "emissao": "161",
         "serie": "2",
         "vencimento": "",
-        "quantidade": 10000.0,
-        "valor": 3968306.79,
-        "nome_cri": "CRI Crizao RBR"
+        "quantidade": 4670.0,
+        "valor": 3565262.51,
+        "nome_cri": "CRI GR Group"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
         "emissao": "1",
-        "serie": "516",
+        "serie": "518",
         "vencimento": "",
-        "quantidade": 3000.0,
-        "valor": 1829286.82,
+        "quantidade": 2708.0,
+        "valor": 1616369.89,
         "nome_cri": "CRI Creditu"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "239",
-        "vencimento": "",
-        "quantidade": 104347.0,
-        "valor": 120752310.73,
-        "nome_cri": "CRI Green Towers"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "136",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 21652.0,
-        "valor": 20245118.92,
-        "nome_cri": "CRI CSN"
-      },
-      {
-        "tipo": "FII",
-        "emissor": "VALORA CRI INFRA FII DE  RESPONSABILIDADE LIMITADA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 100215.0,
-        "valor": 9640054.05
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "4",
-        "serie": "32",
-        "vencimento": "",
-        "quantidade": 3186.0,
-        "valor": 14352192.49,
-        "nome_cri": "CRI PATRIFARM (MultiLocaticio)"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "267",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 13048.0,
-        "valor": 9201770.73,
-        "nome_cri": "CRI Viverde II"
-      },
-      {
-        "tipo": "FII",
-        "emissor": "RBR PREMIUM RECEBIVEIS IMOBILIARIOS FII RESPONS LTDA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 259425.0,
-        "valor": 22305361.5
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
         "nome": "",
         "emissao": "0",
         "serie": "1",
         "vencimento": "",
-        "quantidade": 2500.0,
-        "valor": 2555092.39
+        "quantidade": 7251.0,
+        "valor": 7189051.81
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
-        "emissao": "71",
-        "serie": "4",
+        "emissao": "92",
+        "serie": "2",
         "vencimento": "",
-        "quantidade": 3500.0,
-        "valor": 1742855.02,
-        "nome_cri": "CRI Crizao RBR"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
-        "nome": "",
-        "emissao": "4",
-        "serie": "175",
-        "vencimento": "",
-        "quantidade": 6270.0,
-        "valor": 1608057.41,
-        "nome_cri": "CRI RIO CLARO (RCP)"
-      },
-      {
-        "tipo": "FII",
-        "emissor": "NAVI CREDITO IMOBILIARIO FII - RESPONSABILIDADE LIMITADA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 600000.0,
-        "valor": 5436000.0
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "58",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 8798.0,
-        "valor": 6739578.15,
-        "nome_cri": "CRI SG Natal"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "423",
-        "vencimento": "",
-        "quantidade": 46890.0,
-        "valor": 42776953.11,
-        "nome_cri": "CRI Leo Madeiras"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "522",
-        "vencimento": "",
-        "quantidade": 2567.0,
-        "valor": 1484222.37,
-        "nome_cri": "CRI Creditu"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "134",
-        "serie": "14",
-        "vencimento": "",
-        "quantidade": 20380.0,
-        "valor": 18499854.1,
-        "nome_cri": "CRI Creditas"
+        "quantidade": 0.0,
+        "valor": 0.0,
+        "nome_cri": "CRI JK B"
       },
       {
         "tipo": "CRI/CRA",
@@ -33371,25 +33494,90 @@
       },
       {
         "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
         "nome": "",
-        "emissao": "161",
-        "serie": "3",
+        "emissao": "0",
+        "serie": "1",
         "vencimento": "",
-        "quantidade": 1078.0,
-        "valor": 899696.89,
-        "nome_cri": "CRI MRV XX (Flex)"
+        "quantidade": 11438.0,
+        "valor": 11190515.16
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
         "emissao": "1",
-        "serie": "376",
+        "serie": "238",
         "vencimento": "",
-        "quantidade": 3415.0,
-        "valor": 1915827.78,
-        "nome_cri": "CRI Golani"
+        "quantidade": 8444.0,
+        "valor": 7674568.56,
+        "nome_cri": "CRI FLBC"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "108",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 0.0,
+        "valor": 0.0,
+        "nome_cri": "CRI Marahu"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "134",
+        "serie": "16",
+        "vencimento": "",
+        "quantidade": 6114.0,
+        "valor": 4924988.27,
+        "nome_cri": "CRI Creditas"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VIRGO COMPANHIA DE SECURITIZACAO",
+        "nome": "",
+        "emissao": "4",
+        "serie": "442",
+        "vencimento": "",
+        "quantidade": 10210.0,
+        "valor": 11367200.41,
+        "nome_cri": "CRI RIO CLARO (RCP)"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "492",
+        "vencimento": "",
+        "quantidade": 43600.0,
+        "valor": 4348298.35,
+        "nome_cri": "CRI Lindenberg"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "68",
+        "serie": "2",
+        "vencimento": "",
+        "quantidade": 119836.0,
+        "valor": 121391560.22,
+        "nome_cri": "CRI Arquiplan"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "VERT COMPANHIA SECURITIZADORA",
+        "nome": "",
+        "emissao": "134",
+        "serie": "11",
+        "vencimento": "",
+        "quantidade": 10110.0,
+        "valor": 8344819.44,
+        "nome_cri": "CRI Creditas"
       },
       {
         "tipo": "CRI/CRA",
@@ -33406,188 +33594,36 @@
         "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
         "emissao": "1",
-        "serie": "238",
+        "serie": "239",
         "vencimento": "",
-        "quantidade": 8444.0,
-        "valor": 7674568.56,
-        "nome_cri": "CRI FLBC"
-      },
-      {
-        "tipo": "Outros Ativos Financeiros",
-        "emissor": "Banco BTG Pactual S.A.",
-        "nome": "Operações Compromissadas - Lastro: NTNB IPCA",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 10011.0,
-        "valor": 43108040.18
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "116",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 22000.0,
-        "valor": 19730653.3,
-        "nome_cri": "CRI Panorama Jandira II"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "466",
-        "vencimento": "",
-        "quantidade": 30856.0,
-        "valor": 24609686.5,
-        "nome_cri": "CRI BTG Log Mauá"
+        "quantidade": 104347.0,
+        "valor": 120752310.73,
+        "nome_cri": "CRI Green Towers"
       },
       {
         "tipo": "CRI/CRA",
         "emissor": "CANAL COMPANHIA DE SECURITIZACAO",
         "nome": "",
         "emissao": "127",
-        "serie": "2",
+        "serie": "1",
         "vencimento": "",
-        "quantidade": 49298.0,
-        "valor": 50761366.89,
+        "quantidade": 12298.0,
+        "valor": 12663156.27,
         "nome_cri": "CRI COMPANHIA BRASILEIRA DE DISTRIBUIÇÃO"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "0",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 16742.0,
-        "valor": 16304370.92
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "92",
-        "serie": "2",
-        "vencimento": "",
-        "quantidade": 0.0,
-        "valor": 0.0,
-        "nome_cri": "CRI JK B"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "HABITASEC SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "12",
-        "serie": "2",
-        "vencimento": "",
-        "quantidade": 4000.0,
-        "valor": 3785968.7,
-        "nome_cri": "CRI BTS Varginha"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "134",
-        "serie": "15",
-        "vencimento": "",
-        "quantidade": 14266.0,
-        "valor": 13023191.46,
-        "nome_cri": "CRI Creditas"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "268",
-        "vencimento": "",
-        "quantidade": 6878.0,
-        "valor": 6128539.72,
-        "nome_cri": "CRI Ribeira II"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "134",
-        "serie": "16",
-        "vencimento": "",
-        "quantidade": 6114.0,
-        "valor": 4924988.27,
-        "nome_cri": "CRI Creditas"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "158",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 14900.0,
-        "valor": 10176192.26,
-        "nome_cri": "CRI BTG Log Mauá II"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "71",
-        "serie": "3",
-        "vencimento": "",
-        "quantidade": 3000.0,
-        "valor": 1836998.72,
-        "nome_cri": "CRI Crizao RBR"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "510",
-        "vencimento": "",
-        "quantidade": 7000.0,
-        "valor": 7726355.48,
-        "nome_cri": "CRI Correios Contagem"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "VERT COMPANHIA SECURITIZADORA",
-        "nome": "",
-        "emissao": "136",
-        "serie": "3",
-        "vencimento": "",
-        "quantidade": 925.0,
-        "valor": 911964.91,
-        "nome_cri": "CRI MORUS ALBA PROPRIEDADES LTDA"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "521",
-        "vencimento": "",
-        "quantidade": 2803.0,
-        "valor": 1938477.22,
-        "nome_cri": "CRI Creditu"
       }
     ],
     "imoveis": [
       {
-        "nome": "Condominio Edificio Ana Luiza",
-        "endereco": "Rua Doutor Tomas Carvalhal, 880, Sem Complemento, Paraíso, São Paulo/SP, Brasil, 04006-003",
-        "area": 463177.0,
+        "nome": "Condominio Edificio Batatais",
+        "endereco": "Rua Batataes, 483, Sem Complemento, Jardim Paulista, São Paulo/SP, Brasil, 01423-010",
+        "area": 211.0,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "Condominio Edificio Batatais",
-        "endereco": "Rua Batataes, 483, Sem Complemento, Jardim Paulista, São Paulo/SP, Brasil, 01423-010",
-        "area": 211.0,
+        "nome": "Condominio Edificio Ana Luiza",
+        "endereco": "Rua Doutor Tomas Carvalhal, 880, Sem Complemento, Paraíso, São Paulo/SP, Brasil, 04006-003",
+        "area": 463177.0,
         "vacancia": 0.0,
         "pct_total": null
       },

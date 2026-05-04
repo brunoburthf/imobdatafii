@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dividendos Anunciados — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link ativo">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='noticias.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main data-card="dividendos">
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <p class="noticias-meta-topo">
+        Atualizado em <span id="atualizado-em">—</span> ·
+        Fonte: <a href="https://fnet.bmfbovespa.com.br" target="_blank" rel="noopener">fnet (B3)</a> ·
+        Janela: últimos <span id="janela-dias">30</span> dias
+        <button type="button" class="noticias-disclaimer"
+                title="FI-Infras (e FIP-IE) não publicam na fnet — são FIPs regulados pela CVM 175/578 e usam outras fontes (RAD/CVM, RIs das gestoras). Cobertura ainda não implementada.">
+          ⚠ Não inclui FI-Infras
+        </button>
+      </p>
+
+      <div class="setor-card setor-card-destaque">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Dividendos Anunciados</h2>
+          <span class="noticias-count" id="dividendos-count"></span>
+        </div>
+
+        <!-- Filtros -->
+        <div class="toolbar noticias-filtros">
+          <select id="filtro-setor" onchange="aplicarFiltros()">
+            <option value="">Todos os setores</option>
+          </select>
+          <input type="text" id="filtro-ticker" placeholder="Ticker (ex: KNCR)"
+                 oninput="aplicarFiltros()" />
+          <div class="filtro-data-grupo">
+            <label>Data com</label>
+            <input type="date" id="filtro-com-de"  onchange="aplicarFiltros()" />
+            <span class="filtro-sep">a</span>
+            <input type="date" id="filtro-com-ate" onchange="aplicarFiltros()" />
+          </div>
+          <div class="filtro-data-grupo">
+            <label>Pagamento</label>
+            <input type="date" id="filtro-pgto-de"  onchange="aplicarFiltros()" />
+            <span class="filtro-sep">a</span>
+            <input type="date" id="filtro-pgto-ate" onchange="aplicarFiltros()" />
+          </div>
+          <div class="filtro-data-grupo">
+            <label>Anúncio</label>
+            <input type="date" id="filtro-anun-de"  onchange="aplicarFiltros()" />
+            <span class="filtro-sep">a</span>
+            <input type="date" id="filtro-anun-ate" onchange="aplicarFiltros()" />
+            <button class="btn-filtro-hoje" onclick="filtrarAnuncioHoje()" title="Anúncios de hoje">Hoje</button>
+          </div>
+          <button class="btn-limpar-filtros" onclick="limparFiltros()">Limpar</button>
+          <button class="btn-baixar-planilha" onclick="baixarPlanilha()" title="Baixar a lista filtrada em CSV (abre no Excel)">⬇ Baixar planilha</button>
+        </div>
+
+        <!-- Tabela com scroll vertical e header sticky -->
+        <div class="setor-tabela-wrapper noticias-scroll">
+          <table id="tabela-dividendos">
+            <thead>
+              <tr>
+                <th class="sortable"     data-sort="ticker"             onclick="ordenar('ticker')">Ticker <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="nome_fundo"         onclick="ordenar('nome_fundo')">Fundo <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="setor"              onclick="ordenar('setor')">Setor <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="valor"              onclick="ordenar('valor')">Valor <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="variacao_pct"       onclick="ordenar('variacao_pct')">Δ vs anterior <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="data_com"           onclick="ordenar('data_com')">Data com <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="data_pagamento"     onclick="ordenar('data_pagamento')">Pagamento <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="data_anuncio"       onclick="ordenar('data_anuncio')">Data Anúncio <span class="sort-icon">↕</span></th>
+              </tr>
+            </thead>
+            <tbody id="tabela-dividendos-body">
+              <tr><td colspan="8" class="sim-vazio-msg">Carregando…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/noticias.js"></script>
+  <script src="js/local.js"></script>
+</body>
+</html>

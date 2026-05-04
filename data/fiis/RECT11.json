@@ -4,19 +4,19 @@
     "Ticker": "RECT11",
     "Nome": "FII Rec Renda Imobiliaria",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.0023,
-    "Retorno - 12M": 0.3452,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.3743,
     "P/VP": 0.43,
     "Último Dividendo Pago": 0.45,
-    "DY a.a.": 0.139,
+    "DY a.a.": 0.138,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis com exploração comercial, preferencialmente prontos, incluindo escritórios e outros ativos urbanos de renda. É gerido pela REC Gestão e atua com gestão ativa no segmento corporativo. A estratégia prioriza locação recorrente, reciclagem patrimonial e captura de valor em imóveis comerciais relevantes.",
     "Comentário": "Em março distribuiu R$ 0,4500/cota, gerando dividend yield de 1,14% mensal (13,72% a.a.), equivalente a 122% do CDI após impostos. Portfólio de 7 imóveis com 91,75% de ocupação apresenta valor patrimonial de R$ 89,76/cota. Fundo alienou 4 imóveis para gerenciar passivos estrategicamente.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 38.99,
-    "% Dias Acima CDI 1A": 0.6129,
-    "% Dias Acima CDI 3A": 0.2035,
+    "Preço Atual": 38.35,
+    "% Dias Acima CDI 1A": 0.6185,
+    "% Dias Acima CDI 3A": 0.2064,
     "% Dias Acima CDI 5A": 0.1237,
-    "% Dias Acima CDI MAX": 0.234
+    "% Dias Acima CDI MAX": 0.235
   },
   "historico_preco": [
     [
@@ -6986,6 +6986,14 @@
     [
       "2026-04-28",
       38.85
+    ],
+    [
+      "2026-04-29",
+      38.82
+    ],
+    [
+      "2026-04-30",
+      38.99
     ]
   ],
   "historico_preco_adj": [
@@ -13956,6 +13964,14 @@
     [
       "2026-04-28",
       38.85
+    ],
+    [
+      "2026-04-29",
+      38.82
+    ],
+    [
+      "2026-04-30",
+      38.99
     ]
   ],
   "historico_pvp": [
@@ -21262,6 +21278,18 @@
     [
       "2026-04-28",
       0.43283494259
+    ],
+    [
+      "2026-04-29",
+      0.43250070711
+    ],
+    [
+      "2026-04-30",
+      0.43439470815
+    ],
+    [
+      "2026-05-01",
+      0.43439470815
     ]
   ],
   "historico_dy": [
@@ -28136,6 +28164,14 @@
     [
       "2026-04-28",
       13.8996
+    ],
+    [
+      "2026-04-29",
+      13.9104
+    ],
+    [
+      "2026-04-30",
+      13.8497
     ]
   ],
   "historico_dpc": [
@@ -28482,17 +28518,6 @@
     "ativos": [
       {
         "tipo": "CRI/CRA",
-        "emissor": "CRI_24K1488063 - OPEASEC",
-        "nome": "",
-        "emissao": "340",
-        "serie": "1",
-        "vencimento": "",
-        "quantidade": 6400.0,
-        "valor": 6406044.95,
-        "nome_cri": "CRI Matarazzo IV"
-      },
-      {
-        "tipo": "CRI/CRA",
         "emissor": "CRI_22I1423539 - TRUE SEC",
         "nome": "",
         "emissao": "98",
@@ -28501,6 +28526,28 @@
         "quantidade": 1600.0,
         "valor": 777886.25,
         "nome_cri": "CRI Agua da Serra"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_19I0739560 - VIRGOSEC",
+        "nome": "",
+        "emissao": "4",
+        "serie": "47",
+        "vencimento": "",
+        "quantidade": 6891.0,
+        "valor": 1834328.17,
+        "nome_cri": "CRI VITACON II"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "CRI_24K1488063 - OPEASEC",
+        "nome": "",
+        "emissao": "340",
+        "serie": "1",
+        "vencimento": "",
+        "quantidade": 6400.0,
+        "valor": 6406044.95,
+        "nome_cri": "CRI Matarazzo IV"
       },
       {
         "tipo": "CRI/CRA",
@@ -28522,20 +28569,23 @@
         "vencimento": "",
         "quantidade": 42800.50107,
         "valor": 3496795.7
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "CRI_19I0739560 - VIRGOSEC",
-        "nome": "",
-        "emissao": "4",
-        "serie": "47",
-        "vencimento": "",
-        "quantidade": 6891.0,
-        "valor": 1834328.17,
-        "nome_cri": "CRI VITACON II"
       }
     ],
     "imoveis": [
+      {
+        "nome": "Condomínio Evolution Corporate",
+        "endereco": "Alameda Xingu, 512 - Alphaville - Barueri - SP",
+        "area": 14929.14,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Parque Cidade Corporate",
+        "endereco": "SHCS Q.6 BL A, 7º, 8º E 12º andares - Brasília - DF",
+        "area": 5294.01,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
       {
         "nome": "Corporate Emiliano",
         "endereco": "Corporate Emiliano, Rua Emiliano Perneta, 480, Curitiba, PR",
@@ -28551,16 +28601,9 @@
         "pct_total": null
       },
       {
-        "nome": "Complexo Madeira",
-        "endereco": "Complexo Madeira, Alameda Madeira, nº 328, na cidade de Barueri - SP",
-        "area": 4402.6,
-        "vacancia": 0.18785,
-        "pct_total": null
-      },
-      {
-        "nome": "Condomínio Evolution Corporate",
-        "endereco": "Alameda Xingu, 512 - Alphaville - Barueri - SP",
-        "area": 14929.14,
+        "nome": "Av. Europa, 884",
+        "endereco": "Av. Europa, nº 884, Jardim América, São Paulo - SP",
+        "area": 1962.6,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -28572,10 +28615,10 @@
         "pct_total": null
       },
       {
-        "nome": "Parque Cidade Corporate",
-        "endereco": "SHCS Q.6 BL A, 7º, 8º E 12º andares - Brasília - DF",
-        "area": 5294.01,
-        "vacancia": 0.0,
+        "nome": "Edificio Barra da Tijuca",
+        "endereco": "Av. Ayrton Senna, 2200 - Barra da Tijuca - Rio de Janeiro - RJ",
+        "area": 23209.7,
+        "vacancia": 0.05585,
         "pct_total": null
       },
       {
@@ -28586,17 +28629,10 @@
         "pct_total": null
       },
       {
-        "nome": "Edificio Barra da Tijuca",
-        "endereco": "Av. Ayrton Senna, 2200 - Barra da Tijuca - Rio de Janeiro - RJ",
-        "area": 23209.7,
-        "vacancia": 0.05585,
-        "pct_total": null
-      },
-      {
-        "nome": "Av. Europa, 884",
-        "endereco": "Av. Europa, nº 884, Jardim América, São Paulo - SP",
-        "area": 1962.6,
-        "vacancia": 0.0,
+        "nome": "Complexo Madeira",
+        "endereco": "Complexo Madeira, Alameda Madeira, nº 328, na cidade de Barueri - SP",
+        "area": 4402.6,
+        "vacancia": 0.18785,
         "pct_total": null
       }
     ],

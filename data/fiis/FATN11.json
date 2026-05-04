@@ -4,19 +4,19 @@
     "Ticker": "FATN11",
     "Nome": "Brc Renda Corporativa FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.0036,
-    "Retorno - 12M": 0.2575,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.2475,
     "P/VP": 0.9,
     "Último Dividendo Pago": 0.8,
-    "DY a.a.": 0.111,
+    "DY a.a.": 0.11,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis comerciais, com foco na aquisição e geração de renda a partir da locação. O fundo é o BRC Renda Corporativa Fundo de Investimento Imobiliário, com documentos públicos recentes na B3.",
     "Comentário": "Receita de locação cresceu 9,27% em fevereiro com início de exigibilidade de novos contratos nos edifícios Atrium I, Brasif e Monterey, compensando vacâncias por transições de locatários. Portfólio expandiu-se para 144 lajes em 43.318 m² de ABL com aquisição do Edifício Arco do Triunfo, gerando expectativa de R$ 662 mil em receita mensal após retrofit.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 87.06,
-    "% Dias Acima CDI 1A": 0.3952,
-    "% Dias Acima CDI 3A": 0.1834,
-    "% Dias Acima CDI 5A": 0.2573,
-    "% Dias Acima CDI MAX": 0.2573
+    "Preço Atual": 87.07,
+    "% Dias Acima CDI 1A": 0.4016,
+    "% Dias Acima CDI 3A": 0.1863,
+    "% Dias Acima CDI 5A": 0.2585,
+    "% Dias Acima CDI MAX": 0.2585
   },
   "historico_preco": [
     [
@@ -5330,6 +5330,14 @@
     [
       "2026-04-28",
       86.43
+    ],
+    [
+      "2026-04-29",
+      86.43
+    ],
+    [
+      "2026-04-30",
+      87.06
     ]
   ],
   "historico_preco_adj": [
@@ -10644,6 +10652,14 @@
     [
       "2026-04-28",
       86.43
+    ],
+    [
+      "2026-04-29",
+      86.43
+    ],
+    [
+      "2026-04-30",
+      87.06
     ]
   ],
   "historico_pvp": [
@@ -16650,6 +16666,18 @@
     [
       "2026-04-28",
       0.89576752076
+    ],
+    [
+      "2026-04-29",
+      0.89576752076
+    ],
+    [
+      "2026-04-30",
+      0.90229689179
+    ],
+    [
+      "2026-05-01",
+      0.90229689179
     ]
   ],
   "historico_dy": [
@@ -21960,6 +21988,14 @@
     [
       "2026-04-28",
       11.1073
+    ],
+    [
+      "2026-04-29",
+      11.1073
+    ],
+    [
+      "2026-04-30",
+      11.0269
     ]
   ],
   "historico_dpc": [
@@ -22281,16 +22317,9 @@
     ],
     "imoveis": [
       {
-        "nome": "MONTREAL",
-        "endereco": "Rua Funchal, 129",
-        "area": 214.1,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Arandu",
-        "endereco": "Rua Arizona, 1366",
-        "area": 253.65,
+        "nome": "Santa Filippa",
+        "endereco": "Avenida Paulista,  668",
+        "area": 187.12,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22309,13 +22338,6 @@
         "pct_total": null
       },
       {
-        "nome": "Santa Filippa",
-        "endereco": "Avenida Paulista,  668",
-        "area": 187.12,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "Brasílio Machado",
         "endereco": "Av. Dr. Cardoso De Melo, 1855",
         "area": 198.17715,
@@ -22323,9 +22345,177 @@
         "pct_total": null
       },
       {
-        "nome": "Veranda Berrini",
-        "endereco": "Rua Ribeiro do Vale, 152",
-        "area": 184.19,
+        "nome": "MAXIMUM OFFICE CENTER",
+        "endereco": "Av. Dr. Cardoso de Melo, 1608",
+        "area": 244.58,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "ATRIUM VII",
+        "endereco": "Rua Pequetita, 215",
+        "area": 208.03,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 307.848,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 193.790316,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Gold Center",
+        "endereco": "Rua Arizona, 1426",
+        "area": 152.92,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Francisco Lopes",
+        "endereco": "Rua Dr. Cardoso de Melo, 1855",
+        "area": 769.62,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium I",
+        "endereco": "Rua do Rócio, 220",
+        "area": 260.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium I",
+        "endereco": "Rua do Rócio, 220",
+        "area": 260.2,
+        "vacancia": 0.077778,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício HD 873 - CJ. 1706 A 1709",
+        "endereco": "Rua Henri Dunant, 873",
+        "area": 194.3,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "EDIFÍCIO IRACEMA",
+        "endereco": "Rua Doutor Renato Paes de Barros, 717",
+        "area": 200.78,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium I",
+        "endereco": "Rua do Rócio, 220",
+        "area": 260.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Setin Tower",
+        "endereco": "Rua Fidêncio Ramos, 100",
+        "area": 515.29,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edificio Gaudi",
+        "endereco": "Rua Princesa Isabel, 86 e 94",
+        "area": 159.969,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ronaldo Sampaio Ferreira",
+        "endereco": "Praça João Duran Alonso, 34",
+        "area": 380.785,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium II",
+        "endereco": "Rua Helena. 235",
+        "area": 411.07,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 221.342712,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Nações Unidas III",
+        "endereco": "Av. das Nações Unidas, 11857",
+        "area": 535.51,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Francisco Lopes",
+        "endereco": "Rua Dr. Cardoso de Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Gold Center",
+        "endereco": "Rua Arizona, 1426",
+        "area": 161.55,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Lafayette",
+        "endereco": "Rua Tabapuã, 500",
+        "area": 152.08,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.666667,
+        "pct_total": null
+      },
+      {
+        "nome": "Luxor Center",
+        "endereco": "Rua Arizona, nº 1349",
+        "area": 141.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Santa Filippa",
+        "endereco": "Avenida Paulista,  668",
+        "area": 280.68,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Gold Center",
+        "endereco": "Rua Arizona, 1426",
+        "area": 161.55,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22344,13 +22534,6 @@
         "pct_total": null
       },
       {
-        "nome": "Gold Center",
-        "endereco": "Rua Arizona, 1426",
-        "area": 161.55,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "Edifício Monterey - CJ. 151 A 155",
         "endereco": "Rua Álvaro Rodrigues, 182",
         "area": 341.8,
@@ -22358,9 +22541,9 @@
         "pct_total": null
       },
       {
-        "nome": "Spazio Centrale",
-        "endereco": "Alameda Itu, 852",
-        "area": 276.6,
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 221.342712,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22372,9 +22555,9 @@
         "pct_total": null
       },
       {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 221.342712,
+        "nome": "Spazio Centrale",
+        "endereco": "Alameda Itu, 852",
+        "area": 276.6,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22390,20 +22573,6 @@
         "endereco": "Av. Dr. Cardoso De Melo, 1855",
         "area": 206.796894,
         "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 384.81,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 186.63285,
-        "vacancia": 0.055556,
         "pct_total": null
       },
       {
@@ -22428,72 +22597,37 @@
         "pct_total": null
       },
       {
-        "nome": "Atrium II",
-        "endereco": "Rua Helena. 235",
-        "area": 661.63,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Business Center",
-        "endereco": "Rua Gomes de Carvalho, 1306",
-        "area": 470.0,
-        "vacancia": 1.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Flórida",
-        "endereco": "Rua Florida, 1738",
-        "area": 350.06,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Bolsa de Imóveis",
-        "endereco": "Av. das Nações Unidas, 11.541",
-        "area": 513.1,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Dr. Naur Martins",
-        "endereco": "Rua Professor Artur Ramos, 96",
-        "area": 199.06,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1856",
-        "area": 57.7215,
-        "vacancia": 1.0,
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 186.63285,
+        "vacancia": 0.055556,
         "pct_total": null
       },
       {
         "nome": "Brasílio Machado",
         "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 191.019684,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Francisco Lopes",
-        "endereco": "Rua Dr. Cardoso de Melo, 1855",
-        "area": 769.62,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "GC SQUARE CORPORATE",
-        "endereco": "Rua Gomes de Carvalho, 1108",
-        "area": 213.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Francisco Lopes",
-        "endereco": "Rua Dr. Cardoso de Melo, 1855",
         "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "The Taj Office Tower",
+        "endereco": "Rua Casa do Ator, 1117",
+        "area": 101.77,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Veranda Berrini",
+        "endereco": "Rua Ribeiro do Vale, 152",
+        "area": 184.19,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Plaza I",
+        "endereco": "Rua James Joule, 92",
+        "area": 306.35,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22505,23 +22639,23 @@
         "pct_total": null
       },
       {
-        "nome": "Santa Filippa",
-        "endereco": "Avenida Paulista,  668",
-        "area": 280.68,
+        "nome": "Edifício Brasif",
+        "endereco": "Rua Luigi Galvani, 146",
+        "area": 319.1,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "Luxor Center",
-        "endereco": "Rua Arizona, nº 1349",
-        "area": 141.0,
+        "nome": "EDIFÍCIO MANHATTAN",
+        "endereco": "Rua Tabapuã, 627",
+        "area": 149.86,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "Edifício Lafayette",
-        "endereco": "Rua Tabapuã, 500",
-        "area": 152.08,
+        "nome": "Avenida Paulista",
+        "endereco": "Av. Paulista, 2022",
+        "area": 227.89755,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22529,48 +22663,20 @@
         "nome": "Brasílio Machado",
         "endereco": "Av. Dr. Cardoso De Melo, 1855",
         "area": 384.81,
-        "vacancia": 0.666667,
+        "vacancia": 1.0,
         "pct_total": null
       },
       {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 221.342712,
+        "nome": "MAXIMUM OFFICE CENTER",
+        "endereco": "Avenida Doutor Cardoso de Melo, 1608",
+        "area": 493.68,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "Nações Unidas III",
-        "endereco": "Av. das Nações Unidas, 11857",
-        "area": 535.51,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Atrium II",
-        "endereco": "Rua Helena. 235",
-        "area": 411.07,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Setin Tower",
-        "endereco": "Rua Fidêncio Ramos, 100",
-        "area": 515.29,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Ronaldo Sampaio Ferreira",
-        "endereco": "Praça João Duran Alonso, 34",
-        "area": 380.785,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Edificio Gaudi",
-        "endereco": "Rua Princesa Isabel, 86 e 94",
-        "area": 159.969,
+        "nome": "Brasilinterpart",
+        "endereco": "Av. Nações Unidas, 11.633",
+        "area": 266.34,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22579,13 +22685,6 @@
         "endereco": "Av. Dr. Cardoso De Melo, 1855",
         "area": 327.0885,
         "vacancia": 1.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 198.061707,
-        "vacancia": 0.0,
         "pct_total": null
       },
       {
@@ -22624,9 +22723,16 @@
         "pct_total": null
       },
       {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 193.790316,
+        "nome": "Arandu",
+        "endereco": "Rua Arizona, 1366",
+        "area": 253.65,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "MONTREAL",
+        "endereco": "Rua Funchal, 129",
+        "area": 214.1,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22638,16 +22744,23 @@
         "pct_total": null
       },
       {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 384.81,
+        "nome": "Atrium I",
+        "endereco": "Rua do Rócio, 220",
+        "area": 260.2,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "Atrium I",
-        "endereco": "Rua do Rócio, 220",
-        "area": 260.2,
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 198.061707,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 384.81,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22659,282 +22772,23 @@
         "pct_total": null
       },
       {
-        "nome": "Brasilinterpart",
-        "endereco": "Av. Nações Unidas, 11.633",
-        "area": 266.34,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 307.848,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 384.81,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "ATRIUM VII",
-        "endereco": "Rua Pequetita, 215",
-        "area": 208.03,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 384.81,
-        "vacancia": 1.0,
-        "pct_total": null
-      },
-      {
-        "nome": "MAXIMUM OFFICE CENTER",
-        "endereco": "Avenida Doutor Cardoso de Melo, 1608",
-        "area": 493.68,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Edifício Brasif",
-        "endereco": "Rua Luigi Galvani, 146",
-        "area": 319.1,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Avenida Paulista",
-        "endereco": "Av. Paulista, 2022",
-        "area": 227.89755,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Gold Center",
-        "endereco": "Rua Arizona, 1426",
-        "area": 161.55,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Plaza I",
-        "endereco": "Rua James Joule, 92",
-        "area": 306.35,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "EDIFÍCIO MANHATTAN",
-        "endereco": "Rua Tabapuã, 627",
-        "area": 149.86,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Gold Center",
-        "endereco": "Rua Arizona, 1426",
-        "area": 152.92,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "The Taj Office Tower",
-        "endereco": "Rua Casa do Ator, 1117",
-        "area": 101.77,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "MAXIMUM OFFICE CENTER",
-        "endereco": "Av. Dr. Cardoso de Melo, 1608",
-        "area": 244.58,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Atrium IV",
-        "endereco": "Rua Helena, 260",
-        "area": 198.14,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Arandu",
-        "endereco": "Rua Arizona, 1366",
-        "area": 253.65,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Luxor Center",
-        "endereco": "Rua Arizona, nº 1349",
-        "area": 141.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "EDIFÍCIO IRACEMA",
-        "endereco": "Rua Doutor Renato Paes de Barros, 717",
-        "area": 200.78,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Vagas de garagem Edifício Plaza I",
-        "endereco": "Rua James Joule, 92",
-        "area": 88.83,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Trade Tower Service & Business",
-        "endereco": "Rua Helena, 218",
-        "area": 532.88,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 384.81,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 384.81,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Atrium I",
-        "endereco": "Rua do Rócio, 220",
-        "area": 260.2,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Atrium I",
-        "endereco": "Rua do Rócio, 220",
-        "area": 260.2,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Atrium I",
-        "endereco": "Rua do Rócio, 220",
-        "area": 260.2,
-        "vacancia": 0.077778,
-        "pct_total": null
-      },
-      {
-        "nome": "Edifício HD 873 - CJ. 1706 A 1709",
-        "endereco": "Rua Henri Dunant, 873",
-        "area": 194.3,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "THERA OFFICE",
-        "endereco": "Avenida Engenheiro Luís Carlos Berrini, 105",
-        "area": 184.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Network",
-        "endereco": "Avenida Doutor Cardoso de Melo, 1340",
-        "area": 412.6,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Atrium I",
-        "endereco": "Rua do Rócio, 220",
-        "area": 260.2,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Ronaldo Sampaio Ferreira",
-        "endereco": "Praça João Duran Alonso, 34",
-        "area": 380.785,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Conselheiro Paranaguá",
-        "endereco": "Avenida Brigadeiro Faria Lima, 1234",
-        "area": 166.9,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Olímpia Park",
-        "endereco": "Rua Gomes de Carvalho, 1329",
-        "area": 210.1,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Edifício Columbus",
-        "endereco": "AL. Campinas, 457",
-        "area": 203.3,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Setin Tower",
-        "endereco": "Rua Fidêncio Ramos, 100",
-        "area": 287.98,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Vagas de garagem Edifício Av. Paulista, cj 91 ao 96",
-        "endereco": "Av. Paulista, 2022",
-        "area": 110.6524,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Atrium I",
-        "endereco": "Rua do Rócio, 220",
-        "area": 260.2,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Arandu",
-        "endereco": "Rua Arizona, 1366",
-        "area": 253.65,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Wilson Mendes Caldeira",
-        "endereco": "Av. das Nações Unidas, 10.989",
-        "area": 559.89,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Edifício  Led Corporate - CJ. 1801 E 1804",
-        "endereco": "Rua Robert Bush, 45,67 e 235",
-        "area": 1965.07,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "Dr. Naur Martins",
         "endereco": "Rua Professor Artur Ramos, 96",
         "area": 199.06,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 191.019684,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GC SQUARE CORPORATE",
+        "endereco": "Rua Gomes de Carvalho, 1108",
+        "area": 213.0,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22974,16 +22828,184 @@
         "pct_total": null
       },
       {
+        "nome": "Wilson Mendes Caldeira",
+        "endereco": "Av. das Nações Unidas, 10.989",
+        "area": 559.89,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício  Led Corporate - CJ. 1801 E 1804",
+        "endereco": "Rua Robert Bush, 45,67 e 235",
+        "area": 1965.07,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Dr. Naur Martins",
+        "endereco": "Rua Professor Artur Ramos, 96",
+        "area": 199.06,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "THERA OFFICE",
+        "endereco": "Avenida Engenheiro Luís Carlos Berrini, 105",
+        "area": 184.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Network",
+        "endereco": "Avenida Doutor Cardoso de Melo, 1340",
+        "area": 412.6,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Business Center",
+        "endereco": "Rua Gomes de Carvalho, 1306",
+        "area": 470.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Ronaldo Sampaio Ferreira",
+        "endereco": "Praça João Duran Alonso, 34",
+        "area": 380.785,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium II",
+        "endereco": "Rua Helena. 235",
+        "area": 661.63,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Bolsa de Imóveis",
+        "endereco": "Av. das Nações Unidas, 11.541",
+        "area": 513.1,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Flórida",
+        "endereco": "Rua Florida, 1738",
+        "area": 350.06,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1856",
+        "area": 57.7215,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Vagas de garagem Edifício Plaza I",
+        "endereco": "Rua James Joule, 92",
+        "area": 88.83,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Trade Tower Service & Business",
+        "endereco": "Rua Helena, 218",
+        "area": 532.88,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
         "nome": "Brasílio Machado",
         "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 769.62,
+        "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Olímpia Park",
+        "endereco": "Rua Gomes de Carvalho, 1329",
+        "area": 210.1,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium I",
+        "endereco": "Rua do Rócio, 220",
+        "area": 260.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Setin Tower",
+        "endereco": "Rua Fidêncio Ramos, 100",
+        "area": 287.98,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Columbus",
+        "endereco": "AL. Campinas, 457",
+        "area": 203.3,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Arandu",
+        "endereco": "Rua Arizona, 1366",
+        "area": 253.65,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Luxor Center",
+        "endereco": "Rua Arizona, nº 1349",
+        "area": 141.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium IV",
+        "endereco": "Rua Helena, 260",
+        "area": 198.14,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Atrium I",
+        "endereco": "Rua do Rócio, 220",
+        "area": 260.2,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Vagas de garagem Edifício Av. Paulista, cj 91 ao 96",
+        "endereco": "Av. Paulista, 2022",
+        "area": 110.6524,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 384.81,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Arandu",
+        "endereco": "Rua Arizona, 1366",
+        "area": 253.65,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
         "nome": "Conselheiro Paranaguá",
-        "endereco": "Avenida Brigadeiro Faria Lima, nº 1.234",
-        "area": 351.8,
+        "endereco": "Avenida Brigadeiro Faria Lima, 1234",
+        "area": 166.9,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -22995,37 +23017,9 @@
         "pct_total": null
       },
       {
-        "nome": "Luxor Center",
-        "endereco": "Rua Arizona, nº 1349",
-        "area": 143.28,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Plaza I",
-        "endereco": "Rua James Joule, 92",
-        "area": 306.35,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Brasílio Machado",
-        "endereco": "Av. Dr. Cardoso De Melo, 1855",
-        "area": 191.019684,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "Edifício Lafayette",
         "endereco": "Rua Tabapuã, 500",
         "area": 151.2,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Gold Center",
-        "endereco": "Rua Arizona, 1426",
-        "area": 306.5,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -23037,23 +23031,9 @@
         "pct_total": null
       },
       {
-        "nome": "Monumento",
-        "endereco": "Av. Brigadeiro Faria Lima, nº 1478",
-        "area": 312.88,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "Setin Tower",
         "endereco": "Rua Fidêncio Ramos, 100",
         "area": 244.39,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Atrium VIII",
-        "endereco": "Rua Fidêncio Ramos, 213",
-        "area": 582.92,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -23065,16 +23045,37 @@
         "pct_total": null
       },
       {
-        "nome": "Luxor Center",
-        "endereco": "Rua Arizona, nº 1349",
-        "area": 143.28,
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 769.62,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "Edifício Fortaleza",
-        "endereco": "Av. Luiz Carlos Berrini, 1461",
-        "area": 278.92,
+        "nome": "Atrium VIII",
+        "endereco": "Rua Fidêncio Ramos, 213",
+        "area": 582.92,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Gold Center",
+        "endereco": "Rua Arizona, 1426",
+        "area": 306.5,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Monumento",
+        "endereco": "Av. Brigadeiro Faria Lima, nº 1478",
+        "area": 312.88,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Conselheiro Paranaguá",
+        "endereco": "Avenida Brigadeiro Faria Lima, nº 1.234",
+        "area": 351.8,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -23082,6 +23083,13 @@
         "nome": "Brasílio Machado",
         "endereco": "Av. Dr. Cardoso De Melo, 1855",
         "area": 163.47,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Edifício Fortaleza",
+        "endereco": "Av. Luiz Carlos Berrini, 1461",
+        "area": 278.92,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -23107,6 +23115,34 @@
         "pct_total": null
       },
       {
+        "nome": "Setin Tower",
+        "endereco": "Rua Fidêncio Ramos, 100",
+        "area": 277.65,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Gold Center",
+        "endereco": "Rua Arizona, 1426",
+        "area": 158.49,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Luxor Center",
+        "endereco": "Rua Arizona, nº 1349",
+        "area": 143.28,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GC SQUARE CORPORATE",
+        "endereco": "Rua Gomes de Carvalho, 1108",
+        "area": 204.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
         "nome": "Aeroporto II",
         "endereco": "Rua Funchal, 513",
         "area": 171.81,
@@ -23114,9 +23150,23 @@
         "pct_total": null
       },
       {
-        "nome": "Setin Tower",
-        "endereco": "Rua Fidêncio Ramos, 100",
-        "area": 277.65,
+        "nome": "Luxor Center",
+        "endereco": "Rua Arizona, nº 1349",
+        "area": 143.28,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Plaza I",
+        "endereco": "Rua James Joule, 92",
+        "area": 306.35,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Brasílio Machado",
+        "endereco": "Av. Dr. Cardoso De Melo, 1855",
+        "area": 191.019684,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -23132,20 +23182,6 @@
         "endereco": "Av. Dr. Cardoso De Melo, 1855",
         "area": 384.81,
         "vacancia": 0.055556,
-        "pct_total": null
-      },
-      {
-        "nome": "Gold Center",
-        "endereco": "Rua Arizona, 1426",
-        "area": 158.49,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "GC SQUARE CORPORATE",
-        "endereco": "Rua Gomes de Carvalho, 1108",
-        "area": 204.0,
-        "vacancia": 0.0,
         "pct_total": null
       }
     ],

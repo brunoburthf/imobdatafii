@@ -4,19 +4,19 @@
     "Ticker": "BTAL11",
     "Nome": "BTG Pactual Agro Logística Fundo de Investimento Nas Cadeias Produtivas do Agron",
     "Setor": "Agro",
-    "Retorno - MTD": 0.0082,
-    "Retorno - 12M": 0.3341,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.3301,
     "P/VP": 0.77,
     "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.135,
+    "DY a.a.": 0.134,
     "Visão Geral": "FII de agronegócio que investe em aquisição ou construção de unidades de armazenagem e ativos de logística distribuídos ao longo da cadeia agrícola. É gerido pelo BTG Pactual e atua próximo às principais rotas de escoamento. A estratégia prioriza renda recorrente e valorização com infraestrutura ligada ao agro.",
     "Comentário": "Fundo transformado em FIAGRO em janeiro, adotando regime contábil por competência. Distribuiu R$ 1,00/cota com dividend yield anualizado de 13,82%. Criou reserva de lucros de R$ 95 milhões, com distribuição de R$ 25 milhões (~R$ 4,18/cota) planejada para os próximos 18 meses. Caixa superou R$ 137 milhões, posicionando para desinvestimentos estratégicos.",
     "Mês Ref. Comentário": "jan/26",
-    "Preço Atual": 89.35,
-    "% Dias Acima CDI 1A": 0.9718,
-    "% Dias Acima CDI 3A": 0.3963,
-    "% Dias Acima CDI 5A": 0.3441,
-    "% Dias Acima CDI MAX": 0.3441
+    "Preço Atual": 89.61,
+    "% Dias Acima CDI 1A": 0.9719,
+    "% Dias Acima CDI 3A": 0.3995,
+    "% Dias Acima CDI 5A": 0.3453,
+    "% Dias Acima CDI MAX": 0.3453
   },
   "historico_preco": [
     [
@@ -5234,6 +5234,14 @@
     [
       "2026-04-28",
       88.8
+    ],
+    [
+      "2026-04-29",
+      88.85
+    ],
+    [
+      "2026-04-30",
+      89.35
     ]
   ],
   "historico_preco_adj": [
@@ -10452,6 +10460,14 @@
     [
       "2026-04-28",
       88.8
+    ],
+    [
+      "2026-04-29",
+      88.85
+    ],
+    [
+      "2026-04-30",
+      89.35
     ]
   ],
   "historico_pvp": [
@@ -15914,6 +15930,18 @@
     [
       "2026-04-28",
       0.76577362251
+    ],
+    [
+      "2026-04-29",
+      0.76620480135
+    ],
+    [
+      "2026-04-30",
+      0.77051658976
+    ],
+    [
+      "2026-05-01",
+      0.77051658976
     ]
   ],
   "historico_dy": [
@@ -21068,6 +21096,14 @@
     [
       "2026-04-28",
       13.5135
+    ],
+    [
+      "2026-04-29",
+      13.5059
+    ],
+    [
+      "2026-04-30",
+      13.4303
     ]
   ],
   "historico_dpc": [
@@ -21337,16 +21373,23 @@
     ],
     "imoveis": [
       {
-        "nome": "TERMINAL PORTUARIO DO ESPIRITO SANTO SA",
-        "endereco": "Rua Rio Verde, 101, Sem Complemento, Paul, Vila Velha/ES, Brasil, 29115-210",
-        "area": 4436.44,
+        "nome": "Imovel Ibema",
+        "endereco": "Br 277, Km 533, Centro De Recebimento De Grão I.riedi, Colonia Murillo, Ibema/PR, Brasil, 85478-000",
+        "area": 4897.48,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "Salete Palotina - PR",
-        "endereco": "Rodovia Pr 364, Km 579, Sem Complemento, , Palotina/PR, Brasil, 85950-000",
-        "area": 6996.44,
+        "nome": "Imovel Toledo",
+        "endereco": "Rodovia Br467, Br 163, Km 256.5, Jardim Europa, Toledo/PR, Brasil, 85907-060",
+        "area": 12861.92,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Armazem Graneleiro - nova Ubirata - MT",
+        "endereco": "Rodovia Br 242, Km 75, S/n, Sem Complemento, Zona Rural, Nova Ubirata/MT, Brasil, 78888-000",
+        "area": 25000.0,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -21372,23 +21415,9 @@
         "pct_total": null
       },
       {
-        "nome": "Imovel Ibema",
-        "endereco": "Br 277, Km 533, Centro De Recebimento De Grão I.riedi, Colonia Murillo, Ibema/PR, Brasil, 85478-000",
-        "area": 4897.48,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Imovel Toledo",
-        "endereco": "Rodovia Br467, Br 163, Km 256.5, Jardim Europa, Toledo/PR, Brasil, 85907-060",
-        "area": 12861.92,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "Armazem Graneleiro - nova Ubirata - MT",
-        "endereco": "Rodovia Br 242, Km 75, S/n, Sem Complemento, Zona Rural, Nova Ubirata/MT, Brasil, 78888-000",
-        "area": 25000.0,
+        "nome": "Salete Palotina - PR",
+        "endereco": "Rodovia Pr 364, Km 579, Sem Complemento, , Palotina/PR, Brasil, 85950-000",
+        "area": 6996.44,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -21396,6 +21425,13 @@
         "nome": "Perola - Maripa - PR",
         "endereco": "Rodovia Pr 182, Km 34 - Maripa/pr, Km 34, Sem Complemento, Perola Independente , Maripa/PR, Brasil, 85958-000",
         "area": 7126.93,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "TERMINAL PORTUARIO DO ESPIRITO SANTO SA",
+        "endereco": "Rua Rio Verde, 101, Sem Complemento, Paul, Vila Velha/ES, Brasil, 29115-210",
+        "area": 4436.44,
         "vacancia": 0.0,
         "pct_total": null
       }

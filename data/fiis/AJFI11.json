@@ -4,19 +4,19 @@
     "Ticker": "AJFI11",
     "Nome": "Aj Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0121,
-    "Retorno - 12M": 0.2298,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.2215,
     "P/VP": 0.75,
     "Último Dividendo Pago": 0.05,
     "DY a.a.": 0.072,
     "Visão Geral": "FII de shopping que investe em shopping centers originados e administrados pela Almeida Junior, podendo também participar de projetos greenfield do segmento. É gerido pela Capitânia e busca renda imobiliária e ganho de capital com exploração comercial dos ativos. A estratégia prioriza shoppings consolidados e gestão especializada no varejo regional.",
     "Comentário": "O portfólio de shoppings da Almeida Junior apresentou desempenho operacional robusto em dezembro, com NOI caixa crescendo entre 7,2% e 22,1% na comparação anual entre seus seis ativos. A vacância consolidada fechou em 7%, mantendo-se controlada, enquanto as vendas totais cresceram consistentemente. O fundo distribuiu R$0,047/cota, acompanhando a trajetória dos períodos anteriores.",
     "Mês Ref. Comentário": "dez/25",
-    "Preço Atual": 8.35,
-    "% Dias Acima CDI 1A": 0.5806,
-    "% Dias Acima CDI 3A": 0.3967,
-    "% Dias Acima CDI 5A": 0.3967,
-    "% Dias Acima CDI MAX": 0.3967
+    "Preço Atual": 8.34,
+    "% Dias Acima CDI 1A": 0.5863,
+    "% Dias Acima CDI 3A": 0.4,
+    "% Dias Acima CDI 5A": 0.4,
+    "% Dias Acima CDI MAX": 0.4
   },
   "historico_preco": [
     [
@@ -2478,6 +2478,14 @@
     [
       "2026-04-28",
       8.34
+    ],
+    [
+      "2026-04-29",
+      8.35
+    ],
+    [
+      "2026-04-30",
+      8.35
     ]
   ],
   "historico_preco_adj": [
@@ -4940,6 +4948,14 @@
     [
       "2026-04-28",
       8.34
+    ],
+    [
+      "2026-04-29",
+      8.35
+    ],
+    [
+      "2026-04-30",
+      8.35
     ]
   ],
   "historico_pvp": [
@@ -7458,6 +7474,18 @@
     [
       "2026-04-28",
       0.75346296349
+    ],
+    [
+      "2026-04-29",
+      0.7543663963
+    ],
+    [
+      "2026-04-30",
+      0.7543663963
+    ],
+    [
+      "2026-05-01",
+      0.7543663963
     ]
   ],
   "historico_dy": [
@@ -9856,6 +9884,14 @@
     [
       "2026-04-28",
       7.1942
+    ],
+    [
+      "2026-04-29",
+      7.1856
+    ],
+    [
+      "2026-04-30",
+      7.1856
     ]
   ],
   "historico_dpc": [
@@ -9993,20 +10029,6 @@
     ],
     "imoveis": [
       {
-        "nome": "Continente Shopping",
-        "endereco": "Esquina Rod. SC 281, Distrito Industrial - 88104-801, Grande Florianópolis - SC",
-        "area": 36032.7,
-        "vacancia": 0.0984,
-        "pct_total": null
-      },
-      {
-        "nome": "Garten Shopping",
-        "endereco": "Av. Rolf Wiest, n° 333 , Bom Retiro - 89223-005, Joinville - SC,",
-        "area": 41969.3299333191,
-        "vacancia": 0.0298,
-        "pct_total": null
-      },
-      {
         "nome": "Balneário Shopping",
         "endereco": "Av. Santa Catarina, nº 1, Estados - 88339-005, Balneário Camboriú - SC",
         "area": 35901.91,
@@ -10021,10 +10043,17 @@
         "pct_total": null
       },
       {
-        "nome": "Nações Shopping",
-        "endereco": "Av. Jorge Elias de Lucca, nº 765, Nossa Senhora da Salete - 88813-901, Criciúma - SC",
-        "area": 44574.9999482727,
-        "vacancia": 0.0989,
+        "nome": "Continente Shopping",
+        "endereco": "Esquina Rod. SC 281, Distrito Industrial - 88104-801, Grande Florianópolis - SC",
+        "area": 36032.7,
+        "vacancia": 0.0984,
+        "pct_total": null
+      },
+      {
+        "nome": "Garten Shopping",
+        "endereco": "Av. Rolf Wiest, n° 333 , Bom Retiro - 89223-005, Joinville - SC,",
+        "area": 41969.3299333191,
+        "vacancia": 0.0298,
         "pct_total": null
       },
       {
@@ -10032,6 +10061,13 @@
         "endereco": "R. Sete de Setembro, n° 1213 , Centro - 89010-911, Blumenau - SC,",
         "area": 30436.24,
         "vacancia": 0.0333,
+        "pct_total": null
+      },
+      {
+        "nome": "Nações Shopping",
+        "endereco": "Av. Jorge Elias de Lucca, nº 765, Nossa Senhora da Salete - 88813-901, Criciúma - SC",
+        "area": 44574.9999482727,
+        "vacancia": 0.0989,
         "pct_total": null
       }
     ],

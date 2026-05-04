@@ -4,19 +4,19 @@
     "Ticker": "GGRC11",
     "Nome": "Ggr Covepi Renda FII",
     "Setor": "Logística",
-    "Retorno - MTD": -0.0019,
-    "Retorno - 12M": 0.1564,
-    "P/VP": 0.91,
-    "Último Dividendo Pago": 0.1,
-    "DY a.a.": 0.118,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.1424,
+    "P/VP": 0.92,
+    "Último Dividendo Pago": 0.0,
+    "DY a.a.": 0.0,
     "Visão Geral": "FII de logística que investe em imóveis comerciais, prioritariamente nos segmentos industrial e logístico, com foco em locações atípicas, operações built to suit, sale and leaseback, retrofit ou venda. A distribuição de rendimentos é mensal. A estratégia concentra ativos operacionais e contratos estruturados para geração recorrente de renda imobiliária.",
     "Comentário": "Fundo distribuiu R$ 0,10/cota com dividend yield de 11,58% ao ano. Aprovada em AGE a troca de administradora para Vórtx, alteração da denominação para Zagros Renda Imobiliária e autorização para recompra de cotas. Aprovado programa Renova com avanço de 66% em benfeitorias, particularmente na cobertura do Galpão Renault e obras complementares.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 10.27,
-    "% Dias Acima CDI 1A": 0.3589,
-    "% Dias Acima CDI 3A": 0.336,
+    "Preço Atual": 10.2,
+    "% Dias Acima CDI 1A": 0.3655,
+    "% Dias Acima CDI 3A": 0.3351,
     "% Dias Acima CDI 5A": 0.2932,
-    "% Dias Acima CDI MAX": 0.4854
+    "% Dias Acima CDI MAX": 0.4859
   },
   "historico_preco": [
     [
@@ -8942,6 +8942,14 @@
     [
       "2026-04-28",
       10.19
+    ],
+    [
+      "2026-04-29",
+      10.18
+    ],
+    [
+      "2026-04-30",
+      10.27
     ]
   ],
   "historico_preco_adj": [
@@ -17868,6 +17876,14 @@
     [
       "2026-04-28",
       10.19
+    ],
+    [
+      "2026-04-29",
+      10.18
+    ],
+    [
+      "2026-04-30",
+      10.27
     ]
   ],
   "historico_pvp": [
@@ -27246,6 +27262,18 @@
     [
       "2026-04-28",
       0.91328231911
+    ],
+    [
+      "2026-04-29",
+      0.91238606561
+    ],
+    [
+      "2026-04-30",
+      0.92045234713
+    ],
+    [
+      "2026-05-01",
+      0.92045234713
     ]
   ],
   "historico_dy": [
@@ -36092,6 +36120,14 @@
     [
       "2026-04-28",
       11.7763
+    ],
+    [
+      "2026-04-29",
+      11.7878
+    ],
+    [
+      "2026-04-30",
+      11.6845
     ]
   ],
   "historico_dpc": [
@@ -36530,16 +36566,6 @@
     "ativos": [
       {
         "tipo": "Outras Cotas de FI",
-        "emissor": "OCM FIM - OCM FIM B",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 670.0,
-        "valor": 67000000.0
-      },
-      {
-        "tipo": "Outras Cotas de FI",
         "emissor": "OCM FIM - OCM FIM A",
         "nome": "",
         "emissao": "",
@@ -36549,14 +36575,14 @@
         "valor": 20000000.0
       },
       {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "BTGMASTER - BTG PACTUAL TESOURO SELIC FI RF",
+        "tipo": "FII",
+        "emissor": "ARKAN FII - ARKAN ALPHA MULT FI",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 144542.785632,
-        "valor": 748746.28
+        "quantidade": 419047.2,
+        "valor": 41140945.3
       },
       {
         "tipo": "FII",
@@ -36570,13 +36596,13 @@
       },
       {
         "tipo": "FII",
-        "emissor": "LAZIO FII2 - LAZIO II FUNDO DE INVESTIMENTO IMOB",
+        "emissor": "TRIPLEA - TRIPLE A FUNDO DE INVESTIMENTO IMOBI",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 2137413.839573,
-        "valor": 202017096.9
+        "quantidade": 2249544.0,
+        "valor": 254232865.28
       },
       {
         "tipo": "Outras Cotas de FI",
@@ -36589,31 +36615,41 @@
         "valor": 775368.63
       },
       {
-        "tipo": "FII",
-        "emissor": "TRIPLEA - TRIPLE A FUNDO DE INVESTIMENTO IMOBI",
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTGMASTER - BTG PACTUAL TESOURO SELIC FI RF",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 2249544.0,
-        "valor": 254232865.28
+        "quantidade": 144542.785632,
+        "valor": 748746.28
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "OCM FIM - OCM FIM B",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 670.0,
+        "valor": 67000000.0
       },
       {
         "tipo": "FII",
-        "emissor": "ARKAN FII - ARKAN ALPHA MULT FI",
+        "emissor": "LAZIO FII2 - LAZIO II FUNDO DE INVESTIMENTO IMOB",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 419047.2,
-        "valor": 41140945.3
+        "quantidade": 2137413.839573,
+        "valor": 202017096.9
       }
     ],
     "imoveis": [
       {
-        "nome": "AIRLIQUIDE",
-        "endereco": "CAMPINAS/SP",
-        "area": 0.0,
+        "nome": "REQUEIMAD8",
+        "endereco": "Rua Irmãos Guinle, nº 1000, Galpão 07 - Queimados/RJ",
+        "area": 2172.93,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -36632,30 +36668,23 @@
         "pct_total": null
       },
       {
-        "nome": "AETHRA",
-        "endereco": "LOTE C123",
-        "area": 130860.57,
+        "nome": "REQUEIMAD2",
+        "endereco": "Rua Irmãos Guinle, nº 1000, Galpão 01A - Queimados/RJ",
+        "area": 1632.0,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "RECCONTAGE",
-        "endereco": "Rua Maria do Carmo Diniz, nº 187 - Contagem / MG",
-        "area": 31671.08,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "CERATTI",
-        "endereco": "VINHEDO/SP",
+        "nome": "APTIV",
+        "endereco": "ESPIRITO SANTO DO PINHAL/SP",
         "area": 0.0,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "REQUEIMAD7",
-        "endereco": "Rua Irmãos Guinle, nº 1000, Galpão 06 - Queimados/RJ",
-        "area": 2172.96,
+        "nome": "AMBEV/STAL",
+        "endereco": "Av. Beira-Rio, 5777 - Córrego Frio, Santa Luzia - MG, 33937-130",
+        "area": 8532.0,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -36681,20 +36710,6 @@
         "pct_total": null
       },
       {
-        "nome": "BENTELER - IGUARASSU",
-        "endereco": "Loteamento Polo Empresarial VTO Igarassu 1 - Igarassu - PE",
-        "area": 33582.25,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "MAGNA",
-        "endereco": "VINHEDO/SP",
-        "area": 0.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "COND CABRE - TERRENO CONDOMÍNIO CABREÚVA",
         "endereco": "Jacaré, CabreúvaAvenida Adolpho Joao Traldi, Jacaré, Cabreúva",
         "area": 0.0,
@@ -36702,22 +36717,36 @@
         "pct_total": null
       },
       {
-        "nome": "AMBEV/STAL",
-        "endereco": "Av. Beira-Rio, 5777 - Córrego Frio, Santa Luzia - MG, 33937-130",
-        "area": 8532.0,
+        "nome": "CEPALGO EMBALAGENS FLEXÍVEIS LTDA",
+        "endereco": "Rodovia BR 153, s/n, quadra AREA, lote 00C, anexo A, Jd. Paraíso I, Aparecida de Goiânia - GO",
+        "area": 27957.98,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "COPOBRÁS II",
-        "endereco": "Rua Maria Rufino dos Santos Medeiros, 201 Distrito Industrial - João Pessoa - PB",
-        "area": 22360.06,
+        "nome": "AMBEV PELOTAS",
+        "endereco": "Guabirova, Pelotas - RS",
+        "area": 41300.0,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
         "nome": "VALINHOS - EAGLEBURGMANN",
         "endereco": "Rua Antônio Felamingo, 990 - Bairro Macuco",
+        "area": 0.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "GREENHOUSE - GREEN HOUSE",
+        "endereco": "SAO PAULO/SP",
+        "area": 0.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "QUATRO BAR - QUATRO BARRAS/ PR",
+        "endereco": "Av. Dom Pedro II, nº 1900, Centro",
         "area": 0.0,
         "vacancia": 0.0,
         "pct_total": null
@@ -36737,23 +36766,9 @@
         "pct_total": null
       },
       {
-        "nome": "GREENHOUSE - GREEN HOUSE",
-        "endereco": "SAO PAULO/SP",
-        "area": 0.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "HERINGSTAC",
         "endereco": "ANAPOLIS - GO",
         "area": 0.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "CEPALGO EMBALAGENS FLEXÍVEIS LTDA",
-        "endereco": "Rodovia BR 153, s/n, quadra AREA, lote 00C, anexo A, Jd. Paraíso I, Aparecida de Goiânia - GO",
-        "area": 27957.98,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -36765,30 +36780,16 @@
         "pct_total": null
       },
       {
-        "nome": "AMBEV PELOTAS",
-        "endereco": "Guabirova, Pelotas - RS",
-        "area": 41300.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "QUATRO BAR - QUATRO BARRAS/ PR",
-        "endereco": "Av. Dom Pedro II, nº 1900, Centro",
-        "area": 0.0,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "REEXTREMA1",
-        "endereco": "Rua Josepha Gomes de Souza, Galpão 01 N° 306A - Extrema/MG",
-        "area": 16926.06,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "MOINHO IGUAÇU AGROINDUSTRIAL",
         "endereco": "Rodovia Federal BR 277, S/N KM 600+400, São Miguel do Iguaçu - PR",
         "area": 7164.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "COPOBRÁS II",
+        "endereco": "Rua Maria Rufino dos Santos Medeiros, 201 Distrito Industrial - João Pessoa - PB",
+        "area": 22360.06,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -36800,16 +36801,51 @@
         "pct_total": null
       },
       {
-        "nome": "APTIV",
-        "endereco": "ESPIRITO SANTO DO PINHAL/SP",
+        "nome": "REEXTREMA1",
+        "endereco": "Rua Josepha Gomes de Souza, Galpão 01 N° 306A - Extrema/MG",
+        "area": 16926.06,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "RECCONTAGE",
+        "endereco": "Rua Maria do Carmo Diniz, nº 187 - Contagem / MG",
+        "area": 31671.08,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "AETHRA",
+        "endereco": "LOTE C123",
+        "area": 130860.57,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "BENTELER - IGUARASSU",
+        "endereco": "Loteamento Polo Empresarial VTO Igarassu 1 - Igarassu - PE",
+        "area": 33582.25,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "MAGNA",
+        "endereco": "VINHEDO/SP",
         "area": 0.0,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "REQUEIMAD2",
-        "endereco": "Rua Irmãos Guinle, nº 1000, Galpão 01A - Queimados/RJ",
-        "area": 1632.0,
+        "nome": "CERATTI",
+        "endereco": "VINHEDO/SP",
+        "area": 0.0,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "REQUEIMAD7",
+        "endereco": "Rua Irmãos Guinle, nº 1000, Galpão 06 - Queimados/RJ",
+        "area": 2172.96,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -36842,13 +36878,6 @@
         "pct_total": null
       },
       {
-        "nome": "REQUEIMAD6",
-        "endereco": "Rua Irmãos Guinle, nº 1000, Galpão 05 - Queimados/RJ",
-        "area": 2172.93,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "SUPERMARKET",
         "endereco": "RIO DE JANEIRO/RJ",
         "area": 0.0,
@@ -36856,9 +36885,23 @@
         "pct_total": null
       },
       {
-        "nome": "COVOLAN",
-        "endereco": "Rua dos Portugueses",
-        "area": 38372.0,
+        "nome": "REQUEIMAD6",
+        "endereco": "Rua Irmãos Guinle, nº 1000, Galpão 05 - Queimados/RJ",
+        "area": 2172.93,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "REEXTREMA2",
+        "endereco": "Rua Josepha Gomes de Souza, Galpão 02 N° 306B - Extrema/MG",
+        "area": 18804.17,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
+      {
+        "nome": "AIRLIQUIDE",
+        "endereco": "CAMPINAS/SP",
+        "area": 0.0,
         "vacancia": 0.0,
         "pct_total": null
       },
@@ -36870,16 +36913,9 @@
         "pct_total": null
       },
       {
-        "nome": "REQUEIMAD8",
-        "endereco": "Rua Irmãos Guinle, nº 1000, Galpão 07 - Queimados/RJ",
-        "area": 2172.93,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
-        "nome": "REEXTREMA2",
-        "endereco": "Rua Josepha Gomes de Souza, Galpão 02 N° 306B - Extrema/MG",
-        "area": 18804.17,
+        "nome": "COVOLAN",
+        "endereco": "Rua dos Portugueses",
+        "area": 38372.0,
         "vacancia": 0.0,
         "pct_total": null
       },

@@ -4,19 +4,19 @@
     "Ticker": "BTRA11",
     "Nome": "BTG Pactual Terras Agrícolas Fundo de Investimento Nas Cadeias Produtivas do Agr",
     "Setor": "Agro",
-    "Retorno - MTD": 0.001,
-    "Retorno - 12M": 0.263,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.2269,
     "P/VP": 0.58,
     "Último Dividendo Pago": 0.9,
-    "DY a.a.": 0.164,
+    "DY a.a.": 0.165,
     "Visão Geral": "FII de agronegócio que investe em terras agrícolas, com foco em aquisição de propriedades rurais para exploração econômica e valorização patrimonial. É o BTG Pactual Terras Agrícolas e iniciou atividades em junho de 2021. A estratégia prioriza renda recorrente e apreciação de longo prazo por meio de fazendas produtivas.",
     "Comentário": "Distribuiu R$ 0,80/cota com dividend yield anualizado de 15,7%. Divulgou venda integral da Fazenda do Grupo Hendges (R$ 48 MM) em dezembro/2025. Criou reserva de lucros de R$ 56 milhões a distribuir de forma controlada ao longo do ano. Caixa encerrou em R$ 102 milhões, com gestão avaliando alternativas para rentabilização eficiente preservando valor aos cotistas.",
     "Mês Ref. Comentário": "dez/25",
-    "Preço Atual": 65.5,
-    "% Dias Acima CDI 1A": 0.8548,
-    "% Dias Acima CDI 3A": 0.3039,
-    "% Dias Acima CDI 5A": 0.2628,
-    "% Dias Acima CDI MAX": 0.2628
+    "Preço Atual": 63.6,
+    "% Dias Acima CDI 1A": 0.8554,
+    "% Dias Acima CDI 3A": 0.307,
+    "% Dias Acima CDI 5A": 0.2644,
+    "% Dias Acima CDI MAX": 0.2644
   },
   "historico_preco": [
     [
@@ -4762,6 +4762,14 @@
     [
       "2026-04-28",
       66.47
+    ],
+    [
+      "2026-04-29",
+      65.99
+    ],
+    [
+      "2026-04-30",
+      65.5
     ]
   ],
   "historico_preco_adj": [
@@ -9508,6 +9516,14 @@
     [
       "2026-04-28",
       66.47
+    ],
+    [
+      "2026-04-29",
+      65.99
+    ],
+    [
+      "2026-04-30",
+      65.5
     ]
   ],
   "historico_pvp": [
@@ -14474,6 +14490,18 @@
     [
       "2026-04-28",
       0.58640441727
+    ],
+    [
+      "2026-04-29",
+      0.58216981339
+    ],
+    [
+      "2026-04-30",
+      0.57784698859
+    ],
+    [
+      "2026-05-01",
+      0.57784698859
     ]
   ],
   "historico_dy": [
@@ -19204,6 +19232,14 @@
     [
       "2026-04-28",
       16.2479
+    ],
+    [
+      "2026-04-29",
+      16.3661
+    ],
+    [
+      "2026-04-30",
+      16.4885
     ]
   ],
   "historico_dpc": [
@@ -19463,13 +19499,6 @@
     ],
     "imoveis": [
       {
-        "nome": "Fazenda JR",
-        "endereco": "Zona Rural, S/n, Sem Complemento, Zona Rural, Campo Verde/MT, Brasil, 78840-000",
-        "area": 16730.0,
-        "vacancia": 1.0,
-        "pct_total": null
-      },
-      {
         "nome": "Fazenda Vianmancel - Milton Cella",
         "endereco": "Area Rural, Sn, Sem Complemento, N/a, Nova Maringa/MT, Brasil, 78445-000",
         "area": 31480000.0,
@@ -19480,6 +19509,13 @@
         "nome": "Fazenda Colibri - Bergamasco",
         "endereco": "Zona Rural, S/n, Sem Complemento, Zona Rural, Nova Mutum/MT, Brasil, 78450-000",
         "area": 4000000.0,
+        "vacancia": 1.0,
+        "pct_total": null
+      },
+      {
+        "nome": "Fazenda JR",
+        "endereco": "Zona Rural, S/n, Sem Complemento, Zona Rural, Campo Verde/MT, Brasil, 78840-000",
+        "area": 16730.0,
         "vacancia": 1.0,
         "pct_total": null
       },

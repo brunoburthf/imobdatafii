@@ -4,19 +4,19 @@
     "Ticker": "RZAT11",
     "Nome": "Riza Arctium Real Estate FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.081,
-    "Retorno - 12M": 0.2557,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.267,
     "P/VP": 0.96,
     "Último Dividendo Pago": 1.4,
     "DY a.a.": 0.172,
     "Visão Geral": "FII de agronegócio que investe em imóveis rurais e ativos ligados à produção agrícola, com foco em aquisição, arrendamento e eventual alienação de propriedades. Tem gestão da Riza e atuação direcionada a terras produtivas. A estratégia prioriza renda recorrente e valorização patrimonial no ciclo de longo prazo do agro brasileiro.",
     "Comentário": "Em fevereiro distribuiu R$ 1,00/cota mantendo R$ 0,70/cota em caixa para futuras distribuições. Portfólio de 10 imóveis adquiridos por R$ 405 milhões avaliados em R$ 1,04 bilhão, gerando spread médio de IPCA+10,0% a.a. Completou negociação com Aliança Agrícola para reestruturação de operação em Porto dos Gaúchos.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 97.95,
-    "% Dias Acima CDI 1A": 0.4879,
-    "% Dias Acima CDI 3A": 0.4766,
+    "Preço Atual": 98.06,
+    "% Dias Acima CDI 1A": 0.494,
+    "% Dias Acima CDI 3A": 0.4799,
     "% Dias Acima CDI 5A": 0.5815,
-    "% Dias Acima CDI MAX": 0.6265
+    "% Dias Acima CDI MAX": 0.627
   },
   "historico_preco": [
     [
@@ -6186,6 +6186,14 @@
     [
       "2026-04-28",
       96.98
+    ],
+    [
+      "2026-04-29",
+      97.45
+    ],
+    [
+      "2026-04-30",
+      97.95
     ]
   ],
   "historico_preco_adj": [
@@ -12356,6 +12364,14 @@
     [
       "2026-04-28",
       96.98
+    ],
+    [
+      "2026-04-29",
+      97.45
+    ],
+    [
+      "2026-04-30",
+      97.95
     ]
   ],
   "historico_pvp": [
@@ -19286,6 +19302,18 @@
     [
       "2026-04-28",
       0.95364088659
+    ],
+    [
+      "2026-04-29",
+      0.95826257371
+    ],
+    [
+      "2026-04-30",
+      0.96317926213
+    ],
+    [
+      "2026-05-01",
+      0.96317926213
     ]
   ],
   "historico_dy": [
@@ -25336,6 +25364,14 @@
     [
       "2026-04-28",
       17.3232
+    ],
+    [
+      "2026-04-29",
+      17.2396
+    ],
+    [
+      "2026-04-30",
+      17.1516
     ]
   ],
   "historico_dpc": [
@@ -25661,14 +25697,14 @@
     "data_ref": "2025-12-31",
     "ativos": [
       {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
-        "nome": "",
+        "tipo": "Outros Ativos Financeiros",
+        "emissor": "Banco BTG Pactual S.A.",
+        "nome": "Operações Compromissadas - Lastro: LFT REF",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 38782.6,
-        "valor": 2067640.53
+        "quantidade": 857.0,
+        "valor": 15464667.77
       },
       {
         "tipo": "FII",
@@ -25681,16 +25717,6 @@
         "valor": 15686467.79
       },
       {
-        "tipo": "Outros Ativos Financeiros",
-        "emissor": "Banco BTG Pactual S.A.",
-        "nome": "Operações Compromissadas - Lastro: LFT REF",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 857.0,
-        "valor": 15464667.77
-      },
-      {
         "tipo": "LCI/LCA",
         "emissor": "CAIXA ECONOMICA FEDERAL",
         "nome": "",
@@ -25699,9 +25725,26 @@
         "vencimento": "2027-01-18",
         "quantidade": 17.0,
         "valor": 19434185.27
+      },
+      {
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 38782.6,
+        "valor": 2067640.53
       }
     ],
     "imoveis": [
+      {
+        "nome": "Total Ville Planaltina",
+        "endereco": "Brasilia, Quadra 24, Módulo 1, Setor Habitacional Mestre D'armas (planaltina), Brasília/DF, Brasil, 00073-405",
+        "area": 7510.47,
+        "vacancia": 0.0,
+        "pct_total": null
+      },
       {
         "nome": "Imovel Porto dos Gauchos MT",
         "endereco": "Lote 47 A, Sn, Sem Complemento, Porto Dos Gaúchos, Porto Dos Gaúchos/MT, Brasil, 78560-000",
@@ -25731,13 +25774,6 @@
         "pct_total": null
       },
       {
-        "nome": "Total Ville Planaltina",
-        "endereco": "Brasilia, Quadra 24, Módulo 1, Setor Habitacional Mestre D'armas (planaltina), Brasília/DF, Brasil, 00073-405",
-        "area": 7510.47,
-        "vacancia": 0.0,
-        "pct_total": null
-      },
-      {
         "nome": "Galpao Caucaia - Stock Teck",
         "endereco": "Rodovia Br020, 527, Sem Complemento, Campo Grande, Caucaia/CE, Brasil, 61663-015",
         "area": 5606.0,
@@ -25745,16 +25781,16 @@
         "pct_total": null
       },
       {
-        "nome": "Imovel Andorinha - Campo Grande",
-        "endereco": "Avenida Costa E Silva, 1275, Sem Complemento, Vila Progresso, Campo Grande/MS, Brasil, 79050-410",
-        "area": 10541.98,
+        "nome": "Imovel Mirassol - Posto Monte Carlo",
+        "endereco": "Avenida Santos Dumont, 4235, Loteamento Jardim Marilu, Vila Aeroporto, Mirassol/SP, Brasil, 15135-160",
+        "area": 0.0,
         "vacancia": 0.0,
         "pct_total": null
       },
       {
-        "nome": "Imovel Mirassol - Posto Monte Carlo",
-        "endereco": "Avenida Santos Dumont, 4235, Loteamento Jardim Marilu, Vila Aeroporto, Mirassol/SP, Brasil, 15135-160",
-        "area": 0.0,
+        "nome": "Imovel Andorinha - Campo Grande",
+        "endereco": "Avenida Costa E Silva, 1275, Sem Complemento, Vila Progresso, Campo Grande/MS, Brasil, 79050-410",
+        "area": 10541.98,
         "vacancia": 0.0,
         "pct_total": null
       },

@@ -4,19 +4,19 @@
     "Ticker": "CPTS11",
     "Nome": "Capitânia Securities II FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.0011,
-    "Retorno - 12M": 0.2001,
+    "Retorno - MTD": null,
+    "Retorno - 12M": 0.2062,
     "P/VP": 0.88,
     "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.137,
+    "DY a.a.": 0.136,
     "Visão Geral": "FII de papel que investe em CRIs, cotas de FII, cotas de FIDC, debêntures, LCI, LIG e outros valores mobiliários de origem imobiliária. Tem gestão da Capitânia e mandato amplo, podendo ainda alocar parte do patrimônio em ações imobiliárias. A estratégia busca rentabilidade com diversificação de crédito e instrumentos listados.",
     "Comentário": "Distribuiu R$ 0,090/cota com dividend yield mensal de 1,11%, equivalente a 13,02% ao ano em 12 meses. TIR média dos FIIs investidos de 20,0% a.a. superou IFIX em 4 p.p. Carteira com 85 FIIs representa 68,8% dos ativos com potencial de valorização de 10,4% sobre PL considerando marcação patrimonial. Desde 2014, distribuição anualizada foi de 12,3% contra 8,9% do CDI líquido.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 7.93,
-    "% Dias Acima CDI 1A": 0.5282,
-    "% Dias Acima CDI 3A": 0.34,
+    "Preço Atual": 7.86,
+    "% Dias Acima CDI 1A": 0.5341,
+    "% Dias Acima CDI 3A": 0.3432,
     "% Dias Acima CDI 5A": 0.3944,
-    "% Dias Acima CDI MAX": 0.541
+    "% Dias Acima CDI MAX": 0.5408
   },
   "historico_preco": [
     [
@@ -11146,6 +11146,14 @@
     [
       "2026-04-28",
       7.94
+    ],
+    [
+      "2026-04-29",
+      7.9
+    ],
+    [
+      "2026-04-30",
+      7.93
     ]
   ],
   "historico_preco_adj": [
@@ -21308,6 +21316,14 @@
     [
       "2026-04-28",
       7.94
+    ],
+    [
+      "2026-04-29",
+      7.9
+    ],
+    [
+      "2026-04-30",
+      7.93
     ]
   ],
   "historico_pvp": [
@@ -33478,6 +33494,18 @@
     [
       "2026-04-28",
       0.88086190797
+    ],
+    [
+      "2026-04-29",
+      0.87642431649
+    ],
+    [
+      "2026-04-30",
+      0.8797525101
+    ],
+    [
+      "2026-05-01",
+      0.8797525101
     ]
   ],
   "historico_dy": [
@@ -43640,6 +43668,14 @@
     [
       "2026-04-28",
       13.602
+    ],
+    [
+      "2026-04-29",
+      13.6709
+    ],
+    [
+      "2026-04-30",
+      13.6192
     ]
   ],
   "historico_dpc": [
@@ -44146,184 +44182,73 @@
     "ativos": [
       {
         "tipo": "FII",
-        "emissor": "VINCI IMOVEIS URBANOS FUNDO DE INVE",
+        "emissor": "FII SPX SYN MULTIESTRATEGIA",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 1309114.0,
-        "valor": 8090324.52
+        "quantidade": 9420.0,
+        "valor": 86852.4
       },
       {
         "tipo": "FII",
-        "emissor": "AD SHOPPING FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+        "emissor": "PATRIA RENDA RESIDENCIAL FDO. INV. IMOB. RESP",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 11500000.0,
-        "valor": 115000000.0
+        "quantidade": 71.0,
+        "valor": 4809.54
       },
       {
         "tipo": "FII",
-        "emissor": "RBR LOG - FUNDO DE INVESTIMENTO IMO",
+        "emissor": "HEDGE BRASIL LOGISTICO INDUSTRIAL F",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 7299.0,
-        "valor": 675084.51
+        "quantidade": 5966.0,
+        "valor": 56319.04
       },
       {
         "tipo": "FII",
-        "emissor": "GENERAL SHOPPING E OUTLETS DO BRASI",
+        "emissor": "PATRIA EDIFICIOS CORPORATIVOS FUNDO",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 16091197.0,
-        "valor": 177003167.0
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "BARI SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "83",
-        "vencimento": "",
-        "quantidade": 285.0,
-        "valor": 244628.19,
-        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
+        "quantidade": 226983.0,
+        "valor": 9517397.19
       },
       {
         "tipo": "FII",
-        "emissor": "CAPITANIA OFFICE FII - FI IMOBILIAR",
+        "emissor": "PLURAL LOGISTICA FUNDO DE INVESTIME",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 1429100.0,
-        "valor": 113973540.83
+        "quantidade": 69508.0,
+        "valor": 4575016.56
       },
       {
         "tipo": "FII",
-        "emissor": "BRIO CREDITO ESTRUTURADO - FUNDO DE",
+        "emissor": "HSI LOGISTICA FUNDO DE INVESTIMENTO",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 5395.0,
-        "valor": 4792270.6
+        "quantidade": 336.0,
+        "valor": 30996.0
       },
       {
         "tipo": "FII",
-        "emissor": "XP LOG PRIME Y FII",
+        "emissor": "FI IMOBILIARIO - FII MAX RETAIL",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 355707.9992,
-        "valor": 4036787.09
-      },
-      {
-        "tipo": "FII",
-        "emissor": "BB PREMIUM MALLS FUNDO DE INVESTIME",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 30000.0,
-        "valor": 218100.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "RBR PLUS MULTIESTRATEGIA REAL ESTAT",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 967630.0,
-        "valor": 8079710.5
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CAPITANIA HBC RENDA URBANA FUNDO DE",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 7356528.0,
-        "valor": 80112589.92
-      },
-      {
-        "tipo": "FII",
-        "emissor": "V2 EDIFICIOS CORP FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 5321366.0,
-        "valor": 79767276.34
-      },
-      {
-        "tipo": "FII",
-        "emissor": "TRX HEDGE FUNDO DE INVESTIMENTO IMO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 3606250.0,
-        "valor": 34980625.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "KRONOLOG I FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 328922.1151,
-        "valor": 33853004.85
-      },
-      {
-        "tipo": "FII",
-        "emissor": "V2 RECEBIVEIS IMOBILIARIOS FUNDO DE",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 11359.0,
-        "valor": 105297.93
-      },
-      {
-        "tipo": "FII",
-        "emissor": "PARAMIS HEDGE FUND",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 63966.0,
-        "valor": 563540.46
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CANUMA CAPITAL MULTIESTRATEGIA FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 63764.0,
-        "valor": 577701.84
-      },
-      {
-        "tipo": "FII",
-        "emissor": "HECTARE RECEBIVEIS HIGH GRADE FUNDO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 4923.0,
-        "valor": 394430.76
+        "quantidade": 11062.0,
+        "valor": 702326.38
       },
       {
         "tipo": "FII",
@@ -44337,93 +44262,83 @@
       },
       {
         "tipo": "FII",
-        "emissor": "FUNDO DE INVESTIMENTO IMOBILIARIO15",
+        "emissor": "VINCI IMOVEIS URBANOS FUNDO DE INVE",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 114465.0,
-        "valor": 9627651.15
+        "quantidade": 1309114.0,
+        "valor": 8090324.52
       },
       {
         "tipo": "FII",
-        "emissor": "FII SPX SYN MULTIESTRATEGIA",
+        "emissor": "CASTELLO BRANCO OFFICE PARK FDO INV",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 9420.0,
-        "valor": 86852.4
+        "quantidade": 278.0,
+        "valor": 9221.26
       },
       {
         "tipo": "FII",
-        "emissor": "RIO BRAVO FOR YOU FUNDO DE INVESTIM",
+        "emissor": "PANORAMA DESENVOLVIMENTO LOGISTICO",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 109504.0,
-        "valor": 7774784.0
+        "quantidade": 44089.0,
+        "valor": 52906800.0
       },
       {
         "tipo": "FII",
-        "emissor": "RBR DESEN COM I FII",
+        "emissor": "FI IMOB BTG PACT CORP OFF",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 16858.4117,
-        "valor": 1390685.84
+        "quantidade": 55844.0,
+        "valor": 2566031.8
       },
       {
         "tipo": "FII",
-        "emissor": "NEWPORT LOGISTICA FUNDO DE INVESTIM",
+        "emissor": "RB CAPITAL DESENVOLVIMENTO RESIDEN1",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 480598.0,
-        "valor": 55244740.1
+        "quantidade": 1481.0,
+        "valor": 1298837.0
       },
       {
         "tipo": "FII",
-        "emissor": "JS RECEBIVEIS IMOBILIARIOS FUNDO DE",
+        "emissor": "GUARDIAN MULTI IMOBI I FII RL",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 228108.0,
-        "valor": 1891015.32
+        "quantidade": 85333.0,
+        "valor": 756903.71
       },
       {
         "tipo": "FII",
-        "emissor": "SEQUOIA III RENDA IMOBILIARIA - FUN",
+        "emissor": "RBR LOG - FUNDO DE INVESTIMENTO IMO",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 11982.0,
-        "valor": 625460.4
+        "quantidade": 7299.0,
+        "valor": 675084.51
       },
       {
         "tipo": "FII",
-        "emissor": "LOGCP INTER FII (EXT-INTER)",
+        "emissor": "JHSF CAP SUB B FII",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 5715.0,
-        "valor": 448627.5
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CAPITÂNIA AGRO CARTEIRA FI NAS CADE",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 2534804.0,
-        "valor": 12344593.83
+        "quantidade": 715282.0,
+        "valor": 130646808.14
       },
       {
         "tipo": "CRI/CRA",
@@ -44438,64 +44353,134 @@
       },
       {
         "tipo": "FII",
-        "emissor": "PATRIA EDIFICIOS CORPORATIVOS FUNDO",
+        "emissor": "PANORAMA PROPERTIES FUNDO DE INVEST",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 226983.0,
-        "valor": 9517397.19
+        "quantidade": 780922.0,
+        "valor": 37484256.0
       },
       {
         "tipo": "FII",
-        "emissor": "XP INDUSTRIAL FUNDO DE INVESTIMENTO",
+        "emissor": "FDO INV IMOB VOTORANTIM SHOPPING",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 144707.0,
-        "valor": 11978845.46
+        "quantidade": 20354.0,
+        "valor": 1558709.32
       },
       {
         "tipo": "FII",
-        "emissor": "FII GUARDIAN LOGISTICA",
+        "emissor": "CAPITÂNIA AGRO CARTEIRA FI NAS CADE",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 10543840.0,
-        "valor": 94922306.95
+        "quantidade": 2534804.0,
+        "valor": 12344593.83
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FI IMOBILIARIO FII PARQUE D. PEDRO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9.0,
+        "valor": 21141.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BRIO CREDITO ESTRUTURADO - FUNDO DE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5395.0,
+        "valor": 4792270.6
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AJ MALLS FUNDO DE INVESTIMENTO IMOB",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5270996.0,
+        "valor": 42484227.76
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR TOP OFFICES FII RL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 91943.0,
+        "valor": 7069497.27
       },
       {
         "tipo": "CRI/CRA",
-        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
         "emissao": "1",
-        "serie": "242",
+        "serie": "331",
         "vencimento": "",
-        "quantidade": 124696.0,
-        "valor": 100694190.84,
-        "nome_cri": "CRI HBR Comvem"
+        "quantidade": 44755.0,
+        "valor": 41459089.76,
+        "nome_cri": "CRI Core Metropolis FII"
       },
       {
-        "tipo": "FII",
-        "emissor": "JHSF CAP SUB B FII",
+        "tipo": "Outras Cotas de FI",
+        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 715282.0,
-        "valor": 130646808.14
+        "quantidade": 107415.29,
+        "valor": 5744490.44
       },
       {
         "tipo": "FII",
-        "emissor": "PLURAL LOGISTICA FUNDO DE INVESTIME",
+        "emissor": "KRONOLOG I FII",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 69508.0,
-        "valor": 4575016.56
+        "quantidade": 328922.1151,
+        "valor": 33853004.85
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BTG PACTUAL LOGISTICA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 378036.0,
+        "valor": 38805395.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FDO INV IMOB GENERAL SHOPPING ATIVO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 13071.0,
+        "valor": 614598.42
+      },
+      {
+        "tipo": "FII",
+        "emissor": "LOGCP INTER FII (EXT-INTER)",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 5715.0,
+        "valor": 448627.5
       },
       {
         "tipo": "FII",
@@ -44508,75 +44493,164 @@
         "valor": 38140473.15
       },
       {
-        "tipo": "CRI/CRA",
-        "emissor": "BARI SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "93",
-        "vencimento": "",
-        "quantidade": 157304.0,
-        "valor": 161223247.7,
-        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
-      },
-      {
         "tipo": "FII",
-        "emissor": "CASTELLO BRANCO OFFICE PARK FDO INV",
+        "emissor": "GENESIS MULTIESTRATEGIA FUNDO DE IN",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 278.0,
-        "valor": 9221.26
+        "quantidade": 272479.0,
+        "valor": 196184880.0
       },
       {
         "tipo": "FII",
-        "emissor": "JFL LIVING FUNDO DE INVESTIMENTO IM",
+        "emissor": "FII CAIXA TRX LOGISTICA RENDA",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 2544.0,
-        "valor": 172992.0
+        "quantidade": 248.0,
+        "valor": 85594.72
       },
       {
         "tipo": "FII",
-        "emissor": "PERMUTA LT 5 FII SR",
+        "emissor": "MAUA CAPITAL LOGISTICA FII RL",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 100000.0,
-        "valor": 10769266.21
+        "quantidade": 3605311.0,
+        "valor": 35872844.45
       },
       {
         "tipo": "FII",
-        "emissor": "FUNDO DE INVESTIMENTO IMOBILIARIO13",
+        "emissor": "TRX HEDGE FUNDO DE INVESTIMENTO IMO",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 1176724.0,
-        "valor": 100009772.76
+        "quantidade": 3606250.0,
+        "valor": 34980625.0
       },
       {
         "tipo": "FII",
-        "emissor": "EMET MULTIESTR FI IMOB RESP LTDA",
+        "emissor": "LEGATUS SHOPPINGS FUNDO DE INVESTIM",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 2161020.0,
-        "valor": 24419526.0
+        "quantidade": 922424.0,
+        "valor": 100544216.0
       },
       {
         "tipo": "FII",
-        "emissor": "HEDGE BRASIL LOGISTICO INDUSTRIAL F",
+        "emissor": "CAPITANIA OFFICE FII - FI IMOBILIAR",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 5966.0,
-        "valor": 56319.04
+        "quantidade": 1429100.0,
+        "valor": 113973540.83
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AZ QUEST PANORAMA LOGISTICA FUNDO D",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 163897.0,
+        "valor": 1266923.81
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GENERAL SHOPPING E OUTLETS DO BRASI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16091197.0,
+        "valor": 177003167.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HECTARE RECEBIVEIS HIGH GRADE FUNDO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 4923.0,
+        "valor": 394430.76
+      },
+      {
+        "tipo": "FII",
+        "emissor": "AMERICAS 700 FUNDO DE INVESTIMENTO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 549216.0,
+        "valor": 57799491.84
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP LOG PRIME Y FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 355707.9992,
+        "valor": 4036787.09
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR PLUS MULTIESTRATEGIA REAL ESTAT",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 967630.0,
+        "valor": 8079710.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "MAG MULTIESTRATEGIA CLASSE DE INVES",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 20.0,
+        "valor": 200.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JS RECEBIVEIS IMOBILIARIOS FUNDO DE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 228108.0,
+        "valor": 1891015.32
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VBI OFFICE FUND II - FDII RL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 664.0,
+        "valor": 59760.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE SHOPPING PARQUE DOM PEDRO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2111.0,
+        "valor": 195267.5
       },
       {
         "tipo": "CRI/CRA",
@@ -44591,76 +44665,6 @@
       },
       {
         "tipo": "FII",
-        "emissor": "FII SUCCESPAR VAREJO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 527925.0,
-        "valor": 12861708.27
-      },
-      {
-        "tipo": "FII",
-        "emissor": "MAG MULTIESTRATEGIA CLASSE DE INVES",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 20.0,
-        "valor": 200.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FII MULTI SHOPPINGS",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 300280.0,
-        "valor": 9497517.68
-      },
-      {
-        "tipo": "FII",
-        "emissor": "PANORAMA DESENVOLVIMENTO LOGISTICO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 44089.0,
-        "valor": 52906800.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "HSI LOGISTICA FUNDO DE INVESTIMENTO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 336.0,
-        "valor": 30996.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CAIXA RIO BRAVO FII - FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 10195.0,
-        "valor": 748720.8
-      },
-      {
-        "tipo": "FII",
-        "emissor": "RBR PROPERTIES FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 27813.0,
-        "valor": 1553356.05
-      },
-      {
-        "tipo": "FII",
         "emissor": "VOTORANTIM SECURITIES MASTER FUNDO",
         "nome": "",
         "emissao": "",
@@ -44671,83 +44675,23 @@
       },
       {
         "tipo": "FII",
-        "emissor": "GUARDIAN MULTI IMOBI I FII RL",
+        "emissor": "V2 EDIFICIOS CORP FII",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 85333.0,
-        "valor": 756903.71
+        "quantidade": 5321366.0,
+        "valor": 79767276.34
       },
       {
         "tipo": "FII",
-        "emissor": "HEDGE RECEBIVEIS FUNDO DE INVESTIM",
+        "emissor": "SEQUOIA III RENDA IMOBILIARIA - FUN",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 929826.0,
-        "valor": 7615274.94
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FDO INV IMOB GENERAL SHOPPING ATIVO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 13071.0,
-        "valor": 614598.42
-      },
-      {
-        "tipo": "FII",
-        "emissor": "VBI AGRO - FUNDO DE INVESTIMENTO IMOBILIARIO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 185089.0,
-        "valor": 9532083.5
-      },
-      {
-        "tipo": "FII",
-        "emissor": "MIDWAY MALL FUNDO DE INVESTIMENTO IMOBILIÁRIO.",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 6900000.0,
-        "valor": 69000000.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "GENESIS MULTIESTRATEGIA FUNDO DE IN",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 272479.0,
-        "valor": 196184880.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FI IMOBILIARIO BM BRASCAN LAJES COR",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 21535.0,
-        "valor": 2091909.9
-      },
-      {
-        "tipo": "FII",
-        "emissor": "HEDGE SHOPPING PARQUE DOM PEDRO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 2111.0,
-        "valor": 195267.5
+        "quantidade": 11982.0,
+        "valor": 625460.4
       },
       {
         "tipo": "FII",
@@ -44761,34 +44705,13 @@
       },
       {
         "tipo": "FII",
-        "emissor": "AMERICAS 700 FUNDO DE INVESTIMENTO",
+        "emissor": "AUTONOMY EDIFICIOS CORPORATIVOS FU",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 549216.0,
-        "valor": 57799491.84
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CAPITÂNIA AGRO STRATEGIES FIAGRO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 7407.0,
-        "valor": 59848.56
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "RIZA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "4",
-        "serie": "329",
-        "vencimento": "",
-        "quantidade": 8.0,
-        "valor": 7459.29,
-        "nome_cri": "CRI ESTR BLUEMACAW CATUAI 3 PÁTIO MALZONI"
+        "quantidade": 164967.0,
+        "valor": 8741601.33
       },
       {
         "tipo": "FII",
@@ -44802,84 +44725,135 @@
       },
       {
         "tipo": "FII",
-        "emissor": "RB CAPITAL DESENVOLVIMENTO RESIDEN1",
+        "emissor": "AD SHOPPING FUNDO DE INVESTIMENTO IMOBILIÁRIO",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 1481.0,
-        "valor": 1298837.0
+        "quantidade": 11500000.0,
+        "valor": 115000000.0
       },
       {
         "tipo": "FII",
-        "emissor": "HEDGE SHOPPING P FII",
+        "emissor": "RBR PROPERTIES FII",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 62119.0,
-        "valor": 5199981.49
+        "quantidade": 27813.0,
+        "valor": 1553356.05
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO DE INVESTIMENTO IMOBILIARIO13",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1176724.0,
+        "valor": 100009772.76
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CYRELA DESENVOLVIMENTO LOGISTICO FI",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1.0,
+        "valor": 138.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RBR DESEN COM I FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 16858.4117,
+        "valor": 1390685.84
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIO BRAVO CREDITO IMOBILIARIO IV FU",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2000.0,
+        "valor": 132760.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIO BRAVO FOR YOU FUNDO DE INVESTIM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 109504.0,
+        "valor": 7774784.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "NEWPORT LOGISTICA FUNDO DE INVESTIM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 480598.0,
+        "valor": 55244740.1
+      },
+      {
+        "tipo": "FII",
+        "emissor": "V2 RECEBIVEIS IMOBILIARIOS FUNDO DE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 11359.0,
+        "valor": 105297.93
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HSI RENDA IMOBILIARIA FUNDO DE INVE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1096259.0,
+        "valor": 116751583.5
       },
       {
         "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
+        "emissor": "RIZA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "4",
+        "serie": "329",
+        "vencimento": "",
+        "quantidade": 8.0,
+        "valor": 7459.29,
+        "nome_cri": "CRI ESTR BLUEMACAW CATUAI 3 PÁTIO MALZONI"
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARI SECURITIZADORA S.A.",
         "nome": "",
         "emissao": "1",
-        "serie": "340",
+        "serie": "83",
         "vencimento": "",
-        "quantidade": 115048.0,
-        "valor": 121179236.84,
-        "nome_cri": "CRI Fashion Mall"
+        "quantidade": 285.0,
+        "valor": 244628.19,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
       },
       {
         "tipo": "FII",
-        "emissor": "PATRIA RENDA RESIDENCIAL FDO. INV. IMOB. RESP",
+        "emissor": "PÁTRIA LOG - FDO INV IMOB - RESPONSABILIDADE LTDA",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 71.0,
-        "valor": 4809.54
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FDO INV IMOB VOTORANTIM SHOPPING",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 20354.0,
-        "valor": 1558709.32
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FII RBC II FUNDO DE FUNDOS",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 74385.0,
-        "valor": 5218562.67
-      },
-      {
-        "tipo": "FII",
-        "emissor": "AUTONOMY EDIFICIOS CORPORATIVOS FU",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 164967.0,
-        "valor": 8741601.33
-      },
-      {
-        "tipo": "FII",
-        "emissor": "AJ MALLS FUNDO DE INVESTIMENTO IMOB",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 5270996.0,
-        "valor": 42484227.76
+        "quantidade": 61645.0,
+        "valor": 9712169.75
       },
       {
         "tipo": "CRI/CRA",
@@ -44894,66 +44868,6 @@
       },
       {
         "tipo": "FII",
-        "emissor": "RIO BRAVO CREDITO IMOBILIARIO IV FU",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 2000.0,
-        "valor": 132760.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "RBR TOP OFFICES FII RL",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 91943.0,
-        "valor": 7069497.27
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FII CAIXA TRX LOGISTICA RENDA",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 248.0,
-        "valor": 85594.72
-      },
-      {
-        "tipo": "FII",
-        "emissor": "KRONOLOG II FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 99937.6459,
-        "valor": 10448848.05
-      },
-      {
-        "tipo": "FII",
-        "emissor": "MAUA CAPITAL LOGISTICA FII RL",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 3605311.0,
-        "valor": 35872844.45
-      },
-      {
-        "tipo": "FII",
-        "emissor": "EQI RECEBIVEIS IMOBILIARIOS FI FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 316293.0,
-        "valor": 2609417.25
-      },
-      {
-        "tipo": "FII",
         "emissor": "FII XP IDEA!ZARVOS",
         "nome": "",
         "emissao": "",
@@ -44964,175 +44878,23 @@
       },
       {
         "tipo": "FII",
-        "emissor": "PÁTRIA LOG - FDO INV IMOB - RESPONSABILIDADE LTDA",
+        "emissor": "HEDGE SHOPPING P FII",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 61645.0,
-        "valor": 9712169.75
+        "quantidade": 62119.0,
+        "valor": 5199981.49
       },
       {
         "tipo": "FII",
-        "emissor": "BTG PACTUAL LOGISTICA FII",
+        "emissor": "MIDWAY MALL FUNDO DE INVESTIMENTO IMOBILIÁRIO.",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 378036.0,
-        "valor": 38805395.4
-      },
-      {
-        "tipo": "FII",
-        "emissor": "NEWPORT RENDA URBANA FII - FIIFII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 35.0,
-        "valor": 3675.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "OPORT IMOB I FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 3585887.9997,
-        "valor": 411023831.26
-      },
-      {
-        "tipo": "FII",
-        "emissor": "SHOPPING PATIO PAULISTA FII RL",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 501.0,
-        "valor": 5260.5
-      },
-      {
-        "tipo": "FII",
-        "emissor": "PANORAMA PROPERTIES FUNDO DE INVEST",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 780922.0,
-        "valor": 37484256.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CAPITANIA LOG FII FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 9958538.0,
-        "valor": 130954774.7
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FI IMOBILIARIO - FII HOSP. NOSSA SR",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 1379.0,
-        "valor": 297864.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FI IMOBILIARIO FII PARQUE D. PEDRO",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 9.0,
-        "valor": 21141.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "HSI RENDA IMOBILIARIA FUNDO DE INVE",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 1096259.0,
-        "valor": 116751583.5
-      },
-      {
-        "tipo": "FII",
-        "emissor": "RIO BRAVO RENDA RESIDENCIAL FUNDO D",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 41776.0,
-        "valor": 1520646.4
-      },
-      {
-        "tipo": "FII",
-        "emissor": "SUNO LOG FUNDO DE INVESTIMENTO IMOB",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 10760.0,
-        "valor": 17000.8
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CYRELA DESENVOLVIMENTO LOGISTICO FI",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 1.0,
-        "valor": 138.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "VBI OFFICE FUND II - FDII RL",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 664.0,
-        "valor": 59760.0
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "236",
-        "vencimento": "",
-        "quantidade": 268139934.0,
-        "valor": 227511129.89,
-        "nome_cri": "CRI Lavvi"
-      },
-      {
-        "tipo": "CRI/CRA",
-        "emissor": "OPEA SECURITIZADORA S.A.",
-        "nome": "",
-        "emissao": "1",
-        "serie": "331",
-        "vencimento": "",
-        "quantidade": 44755.0,
-        "valor": 41459089.76,
-        "nome_cri": "CRI Core Metropolis FII"
-      },
-      {
-        "tipo": "FII",
-        "emissor": "FI IMOB BTG PACT CORP OFF",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 55844.0,
-        "valor": 2566031.8
+        "quantidade": 6900000.0,
+        "valor": 69000000.0
       },
       {
         "tipo": "FII",
@@ -45146,6 +44908,16 @@
       },
       {
         "tipo": "FII",
+        "emissor": "EMET MULTIESTR FI IMOB RESP LTDA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2161020.0,
+        "valor": 24419526.0
+      },
+      {
+        "tipo": "FII",
         "emissor": "MULTI SHOPPINGS FDO INV IMOB - FII",
         "nome": "",
         "emissao": "",
@@ -45155,74 +44927,15 @@
         "valor": 3015602.1
       },
       {
-        "tipo": "Outras Cotas de FI",
-        "emissor": "BTG PACTUAL YIELD DI FI RF REF CP",
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
         "nome": "",
-        "emissao": "",
-        "serie": "",
+        "emissao": "1",
+        "serie": "340",
         "vencimento": "",
-        "quantidade": 107415.29,
-        "valor": 5744490.44
-      },
-      {
-        "tipo": "FII",
-        "emissor": "TRX REAL ESTATE FII - FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 873963.0,
-        "valor": 85622155.11
-      },
-      {
-        "tipo": "FII",
-        "emissor": "GAZIT MALLS FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 1516.0,
-        "valor": 70448.52
-      },
-      {
-        "tipo": "FII",
-        "emissor": "AZ QUEST PANORAMA LOGISTICA FUNDO D",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 163897.0,
-        "valor": 1266923.81
-      },
-      {
-        "tipo": "FII",
-        "emissor": "LABINA MULTI ATIVOS IMOBILIARIOS -",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 227115.0,
-        "valor": 10052109.9
-      },
-      {
-        "tipo": "FII",
-        "emissor": "LEGATUS SHOPPINGS FUNDO DE INVESTIM",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 922424.0,
-        "valor": 100544216.0
-      },
-      {
-        "tipo": "FII",
-        "emissor": "CAPITANIA SHOPPINGS FII",
-        "nome": "",
-        "emissao": "",
-        "serie": "",
-        "vencimento": "",
-        "quantidade": 6988113.0,
-        "valor": 77428292.04
+        "quantidade": 115048.0,
+        "valor": 121179236.84,
+        "nome_cri": "CRI Fashion Mall"
       },
       {
         "tipo": "CRI/CRA",
@@ -45237,13 +44950,193 @@
       },
       {
         "tipo": "FII",
-        "emissor": "FI IMOBILIARIO - FII MAX RETAIL",
+        "emissor": "CAPITANIA SHOPPINGS FII",
         "nome": "",
         "emissao": "",
         "serie": "",
         "vencimento": "",
-        "quantidade": 11062.0,
-        "valor": 702326.38
+        "quantidade": 6988113.0,
+        "valor": 77428292.04
+      },
+      {
+        "tipo": "FII",
+        "emissor": "BB PREMIUM MALLS FUNDO DE INVESTIME",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 30000.0,
+        "valor": 218100.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAIXA RIO BRAVO FII - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10195.0,
+        "valor": 748720.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "RIO BRAVO RENDA RESIDENCIAL FUNDO D",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 41776.0,
+        "valor": 1520646.4
+      },
+      {
+        "tipo": "FII",
+        "emissor": "KRONOLOG II FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 99937.6459,
+        "valor": 10448848.05
+      },
+      {
+        "tipo": "FII",
+        "emissor": "NEWPORT RENDA URBANA FII - FIIFII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 35.0,
+        "valor": 3675.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FI IMOBILIARIO - FII HOSP. NOSSA SR",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1379.0,
+        "valor": 297864.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "VBI AGRO - FUNDO DE INVESTIMENTO IMOBILIARIO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 185089.0,
+        "valor": 9532083.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FI IMOBILIARIO BM BRASCAN LAJES COR",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 21535.0,
+        "valor": 2091909.9
+      },
+      {
+        "tipo": "FII",
+        "emissor": "HEDGE RECEBIVEIS FUNDO DE INVESTIM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 929826.0,
+        "valor": 7615274.94
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FUNDO DE INVESTIMENTO IMOBILIARIO15",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 114465.0,
+        "valor": 9627651.15
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII MULTI SHOPPINGS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 300280.0,
+        "valor": 9497517.68
+      },
+      {
+        "tipo": "FII",
+        "emissor": "XP INDUSTRIAL FUNDO DE INVESTIMENTO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 144707.0,
+        "valor": 11978845.46
+      },
+      {
+        "tipo": "FII",
+        "emissor": "OPORT IMOB I FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 3585887.9997,
+        "valor": 411023831.26
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII SUCCESPAR VAREJO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 527925.0,
+        "valor": 12861708.27
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PARAMIS HEDGE FUND",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 63966.0,
+        "valor": 563540.46
+      },
+      {
+        "tipo": "FII",
+        "emissor": "JFL LIVING FUNDO DE INVESTIMENTO IM",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 2544.0,
+        "valor": 172992.0
+      },
+      {
+        "tipo": "FII",
+        "emissor": "EQI RECEBIVEIS IMOBILIARIOS FI FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 316293.0,
+        "valor": 2609417.25
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CANUMA CAPITAL MULTIESTRATEGIA FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 63764.0,
+        "valor": 577701.84
       },
       {
         "tipo": "FII",
@@ -45254,6 +45147,149 @@
         "vencimento": "",
         "quantidade": 128619.0,
         "valor": 1183294.8
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "OPEA SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "236",
+        "vencimento": "",
+        "quantidade": 268139934.0,
+        "valor": 227511129.89,
+        "nome_cri": "CRI Lavvi"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SHOPPING PATIO PAULISTA FII RL",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 501.0,
+        "valor": 5260.5
+      },
+      {
+        "tipo": "FII",
+        "emissor": "TRX REAL ESTATE FII - FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 873963.0,
+        "valor": 85622155.11
+      },
+      {
+        "tipo": "FII",
+        "emissor": "LABINA MULTI ATIVOS IMOBILIARIOS -",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 227115.0,
+        "valor": 10052109.9
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "HABITASEC SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "242",
+        "vencimento": "",
+        "quantidade": 124696.0,
+        "valor": 100694190.84,
+        "nome_cri": "CRI HBR Comvem"
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII RBC II FUNDO DE FUNDOS",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 74385.0,
+        "valor": 5218562.67
+      },
+      {
+        "tipo": "FII",
+        "emissor": "FII GUARDIAN LOGISTICA",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10543840.0,
+        "valor": 94922306.95
+      },
+      {
+        "tipo": "FII",
+        "emissor": "SUNO LOG FUNDO DE INVESTIMENTO IMOB",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 10760.0,
+        "valor": 17000.8
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITANIA LOG FII FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 9958538.0,
+        "valor": 130954774.7
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITÂNIA AGRO STRATEGIES FIAGRO",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7407.0,
+        "valor": 59848.56
+      },
+      {
+        "tipo": "FII",
+        "emissor": "GAZIT MALLS FII",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 1516.0,
+        "valor": 70448.52
+      },
+      {
+        "tipo": "FII",
+        "emissor": "PERMUTA LT 5 FII SR",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 100000.0,
+        "valor": 10769266.21
+      },
+      {
+        "tipo": "FII",
+        "emissor": "CAPITANIA HBC RENDA URBANA FUNDO DE",
+        "nome": "",
+        "emissao": "",
+        "serie": "",
+        "vencimento": "",
+        "quantidade": 7356528.0,
+        "valor": 80112589.92
+      },
+      {
+        "tipo": "CRI/CRA",
+        "emissor": "BARI SECURITIZADORA S.A.",
+        "nome": "",
+        "emissao": "1",
+        "serie": "93",
+        "vencimento": "",
+        "quantidade": 157304.0,
+        "valor": 161223247.7,
+        "nome_cri": "CRI 1ª Série da 71ª Emissão | Comunicado ao Mercado 04.03.2026"
       }
     ],
     "imoveis": [],

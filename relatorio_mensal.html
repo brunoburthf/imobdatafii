@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relatório Mensal — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito ativo">Ferramentas de Valuation</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='valuation.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="menu-hero-titulo">Relatório Mensal</h1>
+
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <div class="setor-card setor-card-destaque">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">IFIX vs CDI — Últimos 12 meses</h2>
+          <span class="rm-resumo" id="rm-resumo">—</span>
+        </div>
+        <div class="rm-grafico-wrapper">
+          <canvas id="grafico-ifix-cdi"></canvas>
+        </div>
+      </div>
+
+      <div class="setor-card setor-card-destaque" style="margin-top:24px">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Visão setorial</h2>
+          <span class="rm-resumo" id="rm-setorial-meta">—</span>
+        </div>
+
+        <div class="toolbar rm-setorial-filtros">
+          <div class="filtro-data-grupo">
+            <label>Retorno de</label>
+            <input type="date" id="rm-data-de"  onchange="renderTabelaSetorial()" />
+            <span class="filtro-sep">a</span>
+            <input type="date" id="rm-data-ate" onchange="renderTabelaSetorial()" />
+          </div>
+          <div class="rm-presets">
+            <button class="btn-rm-preset" data-meses="1"  onclick="aplicarPresetSetorial(1)">1M</button>
+            <button class="btn-rm-preset" data-meses="3"  onclick="aplicarPresetSetorial(3)">3M</button>
+            <button class="btn-rm-preset" data-meses="6"  onclick="aplicarPresetSetorial(6)">6M</button>
+            <button class="btn-rm-preset ativo" data-meses="12" onclick="aplicarPresetSetorial(12)">12M</button>
+            <button class="btn-rm-preset" data-meses="36" onclick="aplicarPresetSetorial(36)">3A</button>
+            <button class="btn-rm-preset" data-meses="60" onclick="aplicarPresetSetorial(60)">5A</button>
+          </div>
+        </div>
+
+        <div class="setor-tabela-wrapper noticias-scroll rm-setorial-scroll">
+          <table id="tabela-setorial">
+            <thead>
+              <tr>
+                <th>Setor</th>
+                <th class="num">Retorno período</th>
+                <th class="num">P/VP atual</th>
+                <th class="num">DY atual</th>
+                <th class="num">Spread atual</th>
+                <th class="num">Spread médio</th>
+                <th class="num">Δ vs média</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-setorial-body">
+              <tr><td colspan="7" class="sim-vazio-msg">Carregando…</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="rm-tabela-rodape">
+          Spread = DY do setor − NTN-B duration constante de 5 anos. Média histórica usa toda a série disponível por setor.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/ntnb-utils.js"></script>
+  <script src="js/relatorio_mensal.js"></script>
+  <script src="js/local.js"></script>
+</body>
+</html>
