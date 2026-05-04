@@ -6,9 +6,26 @@ async function carregarDados() {
   const card = document.querySelector("main[data-card]")?.dataset.card;
   if (!card) return;
   try {
-    const resp = await fetch("data/noticias.json");
+    // Em paralelo: noticias.json (obrigatório) + noticias_resumos.json (opcional —
+    // só existe se gerar_resumos_noticias.py já rodou ao menos uma vez).
+    const [resp, respResumos] = await Promise.all([
+      fetch("data/noticias.json"),
+      fetch("data/noticias_resumos.json").catch(() => null),
+    ]);
     if (!resp.ok) throw new Error("Dados não encontrados. Rode scripts/coletar_noticias_fnet.py primeiro.");
     const data = await resp.json();
+    const resumos = (respResumos && respResumos.ok) ? await respResumos.json() : {};
+
+    // Anexa titulo_curto a cada fato relevante via lookup por fnet_id.
+    // Faltas (resumo ainda nao gerado) viram string vazia.
+    // _resumosMap fica global pro modal acessar o resumo completo no clique.
+    _resumosMap = resumos;
+    if (Array.isArray(data.fatos_relevantes)) {
+      for (const f of data.fatos_relevantes) {
+        const r = resumos[String(f.fnet_id)];
+        f.titulo_curto = (r && r.titulo_curto) || "";
+      }
+    }
 
     document.getElementById("atualizado-em").textContent = data.atualizado_em || "—";
     document.getElementById("janela-dias").textContent   = data.janela_dias || 30;
@@ -218,6 +235,7 @@ function atualizarIconesSort() {
 let _todosFatos = [];
 let _filtradosFatosAtuais = [];
 let _ordemFatos = { campo: "data_anuncio", direcao: "desc" };
+let _resumosMap = {};  // fnet_id -> resumo completo (preenchido em carregarDados)
 
 function renderFatos(lista) {
   _todosFatos = lista.slice();
@@ -259,11 +277,14 @@ function aplicarFiltrosFatos() {
 
   const tbody = document.getElementById("tabela-fatos-body");
   if (!filtrados.length) {
-    tbody.innerHTML = '<tr><td colspan="5" class="sim-vazio-msg">Nenhum resultado para os filtros aplicados.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6" class="sim-vazio-msg">Nenhum resultado para os filtros aplicados.</td></tr>';
     return;
   }
-  tbody.innerHTML = filtrados.map(a => `
-    <tr>
+  tbody.innerHTML = filtrados.map(a => {
+    const temResumo = !!_resumosMap[String(a.fnet_id)];
+    return `
+    <tr class="${temResumo ? "noticias-linha-clicavel" : ""}"
+        ${temResumo ? `data-fnet-id="${a.fnet_id}" onclick="abrirModalResumo(event, ${a.fnet_id})"` : ""}>
       <td><a href="fii.html?ticker=${a.ticker}" class="ticker-cell">${a.ticker}</a></td>
       <td class="noticias-nome" title="${a.nome_fundo || ""}">${a.nome_fundo || "—"}</td>
       <td>${a.setor || "—"}</td>
@@ -271,13 +292,69 @@ function aplicarFiltrosFatos() {
         <span class="noticias-badge ${badgeClasse(a.categoria)}">${a.categoria || "—"}</span>
         ${a.especie ? `<span class="noticias-especie">${a.especie}</span>` : ""}
       </td>
+      <td class="noticias-assunto" title="${(a.titulo_curto || "").replace(/"/g, "&quot;")}">${a.titulo_curto || "—"}</td>
       <td class="num">
         <a href="${a.url_fnet}" target="_blank" rel="noopener" class="noticias-link">
           ${formatarDataHora(a.data_anuncio)}
         </a>
       </td>
-    </tr>
-  `).join("");
+    </tr>`;
+  }).join("");
+}
+
+// ─── Modal de resumo dos fatos relevantes ────────────────────────────────
+
+function abrirModalResumo(ev, fnetId) {
+  // Se o clique foi num link da linha, deixa o link funcionar (não abre modal)
+  if (ev && ev.target && ev.target.closest("a")) return;
+  const r = _resumosMap[String(fnetId)];
+  if (!r) return;
+
+  const escapar = s => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  const fato = _todosFatos.find(f => String(f.fnet_id) === String(fnetId)) || {};
+  const critClasse = `crit-${(r.criticidade || "baixa").toLowerCase()}`;
+
+  const pontos = Array.isArray(r.pontos_chave) && r.pontos_chave.length
+    ? `<ul class="modal-resumo-pontos">${r.pontos_chave.map(p => `<li>${escapar(p)}</li>`).join("")}</ul>`
+    : "";
+
+  const valor = r.valor_envolvido && r.valor_envolvido !== "null"
+    ? `<span class="modal-resumo-meta-item"><strong>Valor:</strong> ${escapar(r.valor_envolvido)}</span>` : "";
+  const data  = r.data && r.data !== "null"
+    ? `<span class="modal-resumo-meta-item"><strong>Data:</strong> ${escapar(r.data)}</span>` : "";
+
+  document.getElementById("modal-resumo-conteudo").innerHTML = `
+    <div class="modal-resumo-header">
+      <span class="modal-resumo-criticidade ${critClasse}">${escapar(r.criticidade || "—")}</span>
+      <span class="noticias-badge ${badgeClasse(fato.categoria)}">${escapar(fato.categoria || "—")}</span>
+      <span class="modal-resumo-categoria">${escapar(r.categoria || "")}</span>
+    </div>
+    <div class="modal-resumo-ticker">
+      <strong>${escapar(r.ticker || fato.ticker || "—")}</strong>
+      <span class="modal-resumo-fundo">${escapar(fato.nome_fundo || "")}</span>
+    </div>
+    <h2 class="modal-resumo-titulo">${escapar(r.titulo_curto || "")}</h2>
+    <p class="modal-resumo-corpo">${escapar(r.resumo || "")}</p>
+    ${pontos ? `<div class="modal-resumo-pontos-titulo">Pontos-chave</div>${pontos}` : ""}
+    <div class="modal-resumo-meta">${data}${valor}</div>
+    <div class="modal-resumo-acoes">
+      <a href="${escapar(fato.url_fnet || r.url_fnet || "#")}" target="_blank" rel="noopener" class="modal-resumo-link-pdf">Abrir PDF original ↗</a>
+    </div>
+    <div class="modal-resumo-rodape">Resumo gerado por ${escapar(r.modelo || "Claude")} em ${escapar((r.gerado_em || "").replace("T", " ").slice(0, 16))}</div>
+  `;
+  document.getElementById("modal-resumo").style.display = "flex";
+  document.addEventListener("keydown", _modalResumoEscHandler);
+}
+
+function fecharModalResumo(ev) {
+  // Se foi chamado por click, só fecha quando clicou no overlay (não no .modal-box)
+  if (ev && ev.target && !ev.target.classList.contains("modal-resumo")) return;
+  document.getElementById("modal-resumo").style.display = "none";
+  document.removeEventListener("keydown", _modalResumoEscHandler);
+}
+
+function _modalResumoEscHandler(e) {
+  if (e.key === "Escape") fecharModalResumo();
 }
 
 function limparFiltrosFatos() {
@@ -378,6 +455,7 @@ function baixarPlanilhaFatos() {
     ["Setor",        a => a.setor || ""],
     ["Categoria",    a => a.categoria || ""],
     ["Espécie",      a => a.especie || ""],
+    ["Assunto",      a => a.titulo_curto || ""],
     ["Anúncio",      a => (a.data_anuncio || "").replace("T", " ").slice(0, 16)],
     ["URL fnet",     a => a.url_fnet || ""],
   ];

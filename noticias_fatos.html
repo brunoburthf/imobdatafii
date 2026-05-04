@@ -88,11 +88,12 @@
                 <th class="sortable"     data-sort="nome_fundo"   onclick="ordenarFatos('nome_fundo')">Fundo <span class="sort-icon">↕</span></th>
                 <th class="sortable"     data-sort="setor"        onclick="ordenarFatos('setor')">Setor <span class="sort-icon">↕</span></th>
                 <th class="sortable"     data-sort="categoria"    onclick="ordenarFatos('categoria')">Categoria <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="titulo_curto" onclick="ordenarFatos('titulo_curto')">Assunto <span class="sort-icon">↕</span></th>
                 <th class="sortable num" data-sort="data_anuncio" onclick="ordenarFatos('data_anuncio')">Data Anúncio <span class="sort-icon">↕</span></th>
               </tr>
             </thead>
             <tbody id="tabela-fatos-body">
-              <tr><td colspan="5" class="sim-vazio-msg">Carregando…</td></tr>
+              <tr><td colspan="6" class="sim-vazio-msg">Carregando…</td></tr>
             </tbody>
           </table>
         </div>
@@ -100,6 +101,14 @@
 
     </div>
   </main>
+
+  <!-- Modal de resumo (preenchido em JS quando o usuario clica numa linha) -->
+  <div id="modal-resumo" class="modal modal-resumo" style="display:none" onclick="fecharModalResumo(event)">
+    <div class="modal-box modal-resumo-box" onclick="event.stopPropagation()">
+      <button class="modal-resumo-fechar" type="button" onclick="fecharModalResumo()" aria-label="Fechar">×</button>
+      <div id="modal-resumo-conteudo"></div>
+    </div>
+  </div>
 
   <script src="js/noticias.js"></script>
   <script src="js/local.js"></script>
