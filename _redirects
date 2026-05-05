@@ -1,0 +1,13 @@
+# Manutencao temporaria — todas as rotas servem manutencao.html (status 200, URL preservada)
+# Pra reverter: apague este arquivo + manutencao.html
+
+# Manter assets acessiveis caso a propria pagina de manutencao precise (atualmente nao usa)
+/css/*           /css/:splat              200
+/js/*            /js/:splat               200
+/img/*           /img/:splat              200
+
+# A propria pagina de manutencao
+/manutencao.html /manutencao.html         200
+
+# Tudo o resto -> manutencao
+/*               /manutencao.html         200
