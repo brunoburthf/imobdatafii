@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "04/05/2026 14:52",
+  "atualizado_em": "05/05/2026 11:41",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "GGRC11",
+      "nome_fundo": "Ggr Covepi Renda FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-05-04T17:21:00",
+      "data_com": "2026-05-04",
+      "data_pagamento": "2026-05-11",
+      "valor": 0.1,
+      "valor_anterior": 0.1,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "04-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1179267,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179267"
+    },
     {
       "ticker": "VISC11",
       "nome_fundo": "Vinci Shopping Centers FII",
@@ -2487,6 +2504,39 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "PATL11",
+      "nome_fundo": "Pátria Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-05-04T21:37:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1179592,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179592"
+    },
+    {
+      "ticker": "HGLG11",
+      "nome_fundo": "Pátria Log FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-05-04T20:41:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1179548,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179548"
+    },
+    {
+      "ticker": "XPML11",
+      "nome_fundo": "Xp Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-05-04T18:23:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1179371,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179371"
+    },
+    {
       "ticker": "RBVA11",
       "nome_fundo": "Rio Bravo Renda Varejo FII",
       "setor": "Tijolo Multissetorial",
@@ -2928,6 +2978,86 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "BTHF11",
+      "nome_fundo": "BTG Pactual Real Estate Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-04T21:57:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1179605,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179605"
+    },
+    {
+      "ticker": "BPML11",
+      "nome_fundo": "BTG Pactual Shoppings FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-05-04T21:54:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1179602,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179602"
+    },
+    {
+      "ticker": "RBRX11",
+      "nome_fundo": "Rbr Plus Multiestratégia Real Estate FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-04T20:10:00",
+      "data_referencia": "31/03/2026",
+      "fnet_id": 1179491,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179491"
+    },
+    {
+      "ticker": "BRCR11",
+      "nome_fundo": "BTG Pactual Corporate Office Fund FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-05-04T19:44:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1179465,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179465"
+    },
+    {
+      "ticker": "XPSF11",
+      "nome_fundo": "Xp Selection Fundo de FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-04T19:09:00",
+      "data_referencia": "31/03/2026",
+      "fnet_id": 1179428,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179428"
+    },
+    {
+      "ticker": "CLIN11",
+      "nome_fundo": "Clave Índices de Preços FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-04T18:09:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1179345,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179345"
+    },
+    {
+      "ticker": "BTCI11",
+      "nome_fundo": "BTG Pactual Crédito Imobiliário FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-04T18:08:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1179344,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179344"
+    },
+    {
+      "ticker": "BTCI11",
+      "nome_fundo": "BTG Pactual Crédito Imobiliário FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-04T18:07:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1179342,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179342"
+    },
     {
       "ticker": "GZIT11",
       "nome_fundo": "Gazit Malls FII",

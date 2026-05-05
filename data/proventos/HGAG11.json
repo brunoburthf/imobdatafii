@@ -1,6 +1,6 @@
 {
   "ticker": "HGAG11",
-  "ultima_atualizacao": "2026-04-28T14:36:01",
+  "ultima_atualizacao": "2026-05-05T10:50:05",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -278,6 +278,14 @@
       "data_pagamento": "2026-04-08",
       "valor": 0.14,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-08",
+      "valor": 0.14,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

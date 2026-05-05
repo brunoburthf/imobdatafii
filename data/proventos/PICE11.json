@@ -1,6 +1,6 @@
 {
   "ticker": "PICE11",
-  "ultima_atualizacao": "2026-04-28T14:43:07",
+  "ultima_atualizacao": "2026-05-05T10:50:17",
   "fonte": "yahoo+economatica",
   "proventos": [
     {
@@ -221,9 +221,11 @@
     },
     {
       "data_com": "2025-08-29",
+      "data_pagamento": "2025-09-05",
       "valor": 0.5,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

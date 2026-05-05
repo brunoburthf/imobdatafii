@@ -1,6 +1,6 @@
 {
   "ticker": "XPIE11",
-  "ultima_atualizacao": "2026-04-28T14:43:08",
+  "ultima_atualizacao": "2026-05-05T10:56:40",
   "fonte": "yahoo+economatica",
   "proventos": [
     {
@@ -227,45 +227,101 @@
     },
     {
       "data_com": "2025-05-30",
+      "data_pagamento": "2025-06-09",
       "valor": 1.0,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-06-30",
+      "data_pagamento": "2025-07-08",
       "valor": 1.0,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-07-31",
+      "data_pagamento": "2025-08-08",
+      "valor": 0.45,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-07-31",
+      "data_pagamento": "2025-08-08",
       "valor": 0.55,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-08-29",
+      "data_pagamento": "2025-09-08",
+      "valor": 0.78,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-08-29",
+      "data_pagamento": "2025-09-08",
       "valor": 0.22,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-09-30",
+      "data_pagamento": "2025-10-08",
+      "valor": 0.95,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-09-30",
+      "data_pagamento": "2025-10-08",
       "valor": 0.05,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-10-31",
+      "data_pagamento": "2025-11-10",
+      "valor": 0.93,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-10-31",
+      "data_pagamento": "2025-11-10",
       "valor": 0.07,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-11-28",
+      "data_pagamento": "2025-12-08",
+      "valor": 0.75,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-11-28",
+      "data_pagamento": "2025-12-08",
       "valor": 0.25,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-12-30",
+      "data_pagamento": "2026-01-09",
+      "valor": 0.97,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-12-30",
+      "data_pagamento": "2026-01-09",
+      "valor": 0.03,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     },
     {
       "data_com": "2026-01-01",
@@ -275,21 +331,32 @@
     },
     {
       "data_com": "2026-01-30",
+      "data_pagamento": "2026-02-09",
       "valor": 1.0,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2026-02-27",
+      "data_pagamento": "2026-03-09",
       "valor": 1.0,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2026-03-31",
+      "data_pagamento": "2026-04-09",
       "valor": 1.0,
       "tipo": "Rendimento",
-      "fonte": "economatica"
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-11",
+      "valor": 1.0,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

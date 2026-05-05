@@ -1,6 +1,6 @@
 {
   "ticker": "KNUQ11",
-  "ultima_atualizacao": "2026-04-28T14:32:50",
+  "ultima_atualizacao": "2026-05-05T10:49:25",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -206,6 +206,14 @@
       "data_pagamento": "2026-04-13",
       "valor": 1.2,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-13",
+      "valor": 1.15,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

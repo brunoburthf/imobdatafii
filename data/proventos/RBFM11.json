@@ -1,6 +1,6 @@
 {
   "ticker": "RBFM11",
-  "ultima_atualizacao": "2026-04-28T14:34:55",
+  "ultima_atualizacao": "2026-05-05T10:49:57",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -728,6 +728,14 @@
       "data_pagamento": "2026-04-15",
       "valor": 0.108,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-15",
+      "valor": 0.108,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

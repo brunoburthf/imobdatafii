@@ -3894,6 +3894,10 @@ tr.noticias-linha-clicavel:hover { background: #f5f7fa; }
   margin-left: 8px;
   align-self: center;
 }
+.atualizar-noticias-status.status-aviso {
+  color: #b86b00;
+  font-weight: 600;
+}
 
 /* ── Tabela com scroll e header sticky ──────────────────────────────────── */
 .noticias-scroll {

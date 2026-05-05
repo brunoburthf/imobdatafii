@@ -1,6 +1,6 @@
 {
   "ticker": "XPLG11",
-  "ultima_atualizacao": "2026-04-28T14:32:41",
+  "ultima_atualizacao": "2026-05-05T10:49:21",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -572,6 +572,14 @@
       "data_pagamento": "2026-04-15",
       "valor": 0.82,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-15",
+      "valor": 0.82,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "RBIF11",
-  "ultima_atualizacao": "2026-04-28T14:43:06",
+  "ultima_atualizacao": "2026-05-05T10:50:16",
   "fonte": "yahoo+economatica",
   "proventos": [
     {
@@ -203,45 +203,59 @@
     },
     {
       "data_com": "2025-05-30",
+      "data_pagamento": "2025-06-23",
       "valor": 0.92,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-06-30",
+      "data_pagamento": "2025-07-21",
       "valor": 0.96,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-08-04",
+      "data_pagamento": "2025-08-21",
       "valor": 0.95,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-08-29",
+      "data_pagamento": "2025-09-19",
       "valor": 0.95,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-09-30",
+      "data_pagamento": "2025-10-21",
       "valor": 0.97,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-10-31",
+      "data_pagamento": "2025-11-24",
       "valor": 0.95,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-11-28",
+      "data_pagamento": "2025-12-19",
       "valor": 0.95,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-12-30",
+      "data_pagamento": "2026-01-22",
+      "valor": 1.8,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     },
     {
       "data_com": "2026-01-01",
@@ -251,21 +265,32 @@
     },
     {
       "data_com": "2026-01-30",
+      "data_pagamento": "2026-02-24",
       "valor": 0.95,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2026-02-27",
+      "data_pagamento": "2026-03-20",
       "valor": 0.95,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2026-03-31",
+      "data_pagamento": "2026-04-23",
       "valor": 0.95,
       "tipo": "Rendimento",
-      "fonte": "economatica"
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-22",
+      "valor": 0.93,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

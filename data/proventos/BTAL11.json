@@ -1,6 +1,6 @@
 {
   "ticker": "BTAL11",
-  "ultima_atualizacao": "2026-04-28T14:34:03",
+  "ultima_atualizacao": "2026-05-05T10:49:44",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -368,6 +368,14 @@
       "data_pagamento": "2026-03-25",
       "valor": 1.0,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-20",
+      "data_pagamento": "2026-04-28",
+      "valor": 1.0,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

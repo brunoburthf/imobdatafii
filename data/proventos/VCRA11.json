@@ -1,6 +1,6 @@
 {
   "ticker": "VCRA11",
-  "ultima_atualizacao": "2026-04-28T14:36:21",
+  "ultima_atualizacao": "2026-05-05T10:50:10",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -278,6 +278,14 @@
       "data_pagamento": "2026-04-14",
       "valor": 1.07,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-14",
+      "valor": 1.0,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

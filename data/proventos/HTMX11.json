@@ -1,6 +1,6 @@
 {
   "ticker": "HTMX11",
-  "ultima_atualizacao": "2026-04-28T14:34:17",
+  "ultima_atualizacao": "2026-05-05T10:49:47",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -536,6 +536,14 @@
       "data_pagamento": "2026-04-08",
       "valor": 1.2,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-08",
+      "valor": 1.2,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

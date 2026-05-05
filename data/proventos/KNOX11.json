@@ -1,6 +1,6 @@
 {
   "ticker": "KNOX11",
-  "ultima_atualizacao": "2026-04-28T14:43:08",
+  "ultima_atualizacao": "2026-05-05T10:56:41",
   "fonte": "yahoo+economatica",
   "proventos": [
     {
@@ -53,15 +53,32 @@
     },
     {
       "data_com": "2025-05-23",
+      "data_pagamento": "2025-05-30",
+      "valor": 2.638968,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-05-23",
+      "data_pagamento": "2025-05-30",
       "valor": 2.711909,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-11-21",
+      "data_pagamento": "2025-11-28",
+      "valor": 2.671351,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-11-21",
+      "data_pagamento": "2025-11-28",
       "valor": 2.991477,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

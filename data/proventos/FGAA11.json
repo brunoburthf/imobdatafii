@@ -1,6 +1,6 @@
 {
   "ticker": "FGAA11",
-  "ultima_atualizacao": "2026-04-28T14:35:53",
+  "ultima_atualizacao": "2026-05-05T10:56:25",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -227,21 +227,9 @@
     },
     {
       "data_com": "2025-03-11",
-      "data_pagamento": "2025-03-18",
-      "valor": 0.115,
-      "tipo": "Rendimento"
-    },
-    {
-      "data_com": "2025-03-11",
       "data_pagamento": "2025-04-14",
       "valor": 0.06,
       "tipo": "Amortização"
-    },
-    {
-      "data_com": "2025-04-07",
-      "data_pagamento": "2025-04-14",
-      "valor": 0.11,
-      "tipo": "Rendimento"
     },
     {
       "data_com": "2025-04-07",
@@ -253,25 +241,29 @@
       "data_com": "2025-05-08",
       "data_pagamento": "2025-06-13",
       "valor": 0.06,
-      "tipo": "Amortização"
+      "tipo": "Amortização",
+      "fonte": "b3"
     },
     {
       "data_com": "2025-05-08",
       "data_pagamento": "2025-05-15",
       "valor": 0.115,
-      "tipo": "Rendimento"
-    },
-    {
-      "data_com": "2025-06-06",
-      "data_pagamento": "2025-06-13",
-      "valor": 0.12,
-      "tipo": "Rendimento"
+      "tipo": "Rendimento",
+      "fonte": "b3"
     },
     {
       "data_com": "2025-06-06",
       "data_pagamento": "2025-07-14",
       "valor": 0.06,
-      "tipo": "Amortização"
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-06-06",
+      "data_pagamento": "2025-06-13",
+      "valor": 0.12,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     },
     {
       "data_com": "2025-07-07",
@@ -333,5 +325,6 @@
       "valor": 0.115,
       "tipo": "Rendimento"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

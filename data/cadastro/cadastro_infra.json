@@ -1,0 +1,231 @@
+{
+  "atualizado_em": "2026-05-05T11:43:49",
+  "fonte": "Base_dados .xlsx (snapshot via seed_cadastro_json.py)",
+  "fundos": [
+    {
+      "ticker": "BDIF11",
+      "nome": "FIC Infr BTG",
+      "tipo": "FI-Infra",
+      "cnpj": "40502607000194",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "BODB11",
+      "nome": "FICFI Bcna",
+      "tipo": "FI-Infra",
+      "cnpj": "41771670000199",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "BODI11",
+      "nome": "FICFI Bodi",
+      "tipo": "FI-Infra",
+      "cnpj": "64026723000142",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "CDII11",
+      "nome": "Sparta Cdii",
+      "tipo": "FI-Infra",
+      "cnpj": "48973783000116",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "CPTI11",
+      "nome": "FIC Ie Cap",
+      "tipo": "FI-Infra",
+      "cnpj": "38065012000177",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "DIVS11",
+      "nome": "Sparta Divs",
+      "tipo": "FI-Infra",
+      "cnpj": "58390457000130",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "IFRA11",
+      "nome": "Fdc Itau Ie",
+      "tipo": "FI-Infra",
+      "cnpj": "34633510000118",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "IFRI11",
+      "nome": "FI Itau Ifri",
+      "tipo": "FI-Infra",
+      "cnpj": "53556099000179",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "JURO11",
+      "nome": "Sparta Infra",
+      "tipo": "FI-Infra",
+      "cnpj": "42730834000100",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "KDIF11",
+      "nome": "Fdc Kineainf",
+      "tipo": "FI-Infra",
+      "cnpj": "26324298000189",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "NUIF11",
+      "nome": "Nu Infra FIC",
+      "tipo": "FI-Infra",
+      "cnpj": "40963403000150",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "PRIF11",
+      "nome": "Infra Prif",
+      "tipo": "FI-Infra",
+      "cnpj": "58005595000158",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "RBIF11",
+      "nome": "FICFI Rb Es",
+      "tipo": "FI-Infra",
+      "cnpj": "38314962000198",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "SUIN11",
+      "nome": "Infra Suin",
+      "tipo": "FI-Infra",
+      "cnpj": "58288004000105",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "VINF11",
+      "nome": "Infra Vinf",
+      "tipo": "FI-Infra",
+      "cnpj": "62253563000149",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "AZIN11",
+      "nome": "FIP Ie Azin",
+      "tipo": "FIP-IE",
+      "cnpj": "51484496000157",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "KNDI11",
+      "nome": "Kinea II Real Estate Equity Ref FICFI",
+      "tipo": "FIP-IE",
+      "cnpj": "57473619000130",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "PICE11",
+      "nome": "FIP Patr Inf",
+      "tipo": "FIP-IE",
+      "cnpj": "34027597000180",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "PPEI11",
+      "nome": "FIP Prisma",
+      "tipo": "FIP-IE",
+      "cnpj": "35640942000119",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "PFIN11",
+      "nome": "FIP Perfin",
+      "tipo": "FIP-IE",
+      "cnpj": "34218291000100",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "VIGT11",
+      "nome": "FIP Vinci Ie",
+      "tipo": "FIP-IE",
+      "cnpj": "33601138000103",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "XPIE11",
+      "nome": "FIP Xp Infra",
+      "tipo": "FIP-IE",
+      "cnpj": "30317464000197",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "BDIV11",
+      "nome": "FIP Btgdv Ie",
+      "tipo": "FIP-IE",
+      "cnpj": "35640741000111",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "ENDD11",
+      "nome": "FIP End Debt",
+      "tipo": "FIP-IE",
+      "cnpj": "35641061000112",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "KNOX11",
+      "nome": "FIP Ie Knox",
+      "tipo": "FIP-IE",
+      "cnpj": "36642570000122",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    }
+  ]
+}

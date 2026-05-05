@@ -1,13 +1,22 @@
 {
   "ticker": "BODI11",
-  "ultima_atualizacao": "2026-04-28T14:43:04",
+  "ultima_atualizacao": "2026-05-05T10:50:12",
   "fonte": "yahoo+economatica",
   "proventos": [
     {
       "data_com": "2026-03-31",
+      "data_pagamento": "2026-04-08",
       "valor": 0.1,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-08",
+      "valor": 0.12,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

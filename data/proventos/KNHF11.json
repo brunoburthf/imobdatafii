@@ -1,6 +1,6 @@
 {
   "ticker": "KNHF11",
-  "ultima_atualizacao": "2026-04-28T14:32:59",
+  "ultima_atualizacao": "2026-05-05T10:49:27",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -194,6 +194,14 @@
       "data_pagamento": "2026-04-13",
       "valor": 1.0,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-13",
+      "valor": 1.0,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

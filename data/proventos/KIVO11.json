@@ -1,6 +1,6 @@
 {
   "ticker": "KIVO11",
-  "ultima_atualizacao": "2026-04-28T14:35:02",
+  "ultima_atualizacao": "2026-05-05T10:49:59",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -296,6 +296,14 @@
       "data_pagamento": "2026-04-15",
       "valor": 0.88,
       "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-15",
+      "valor": 0.85,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

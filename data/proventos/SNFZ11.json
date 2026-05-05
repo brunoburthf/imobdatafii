@@ -1,6 +1,6 @@
 {
   "ticker": "SNFZ11",
-  "ultima_atualizacao": "2026-04-28T14:36:19",
+  "ultima_atualizacao": "2026-05-05T10:50:10",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -95,9 +95,10 @@
     },
     {
       "data_com": "2025-12-15",
-      "data_pagamento": "2025-12-25",
+      "data_pagamento": "2025-12-23",
       "valor": 0.1,
-      "tipo": "Rendimento"
+      "tipo": "Rendimento",
+      "fonte": "b3"
     },
     {
       "data_com": "2026-01-15",
@@ -123,5 +124,6 @@
       "valor": 0.1,
       "tipo": "Rendimento"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

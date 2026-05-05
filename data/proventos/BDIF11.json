@@ -1,6 +1,6 @@
 {
   "ticker": "BDIF11",
-  "ultima_atualizacao": "2026-04-28T14:43:03",
+  "ultima_atualizacao": "2026-05-05T10:50:12",
   "fonte": "yahoo+economatica",
   "proventos": [
     {
@@ -287,57 +287,73 @@
     },
     {
       "data_com": "2025-05-15",
+      "data_pagamento": "2025-05-22",
       "valor": 0.95,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-06-13",
+      "data_pagamento": "2025-06-23",
       "valor": 0.9,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-07-14",
+      "data_pagamento": "2025-07-21",
       "valor": 0.8,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-08-14",
+      "data_pagamento": "2025-08-21",
       "valor": 0.9,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-09-12",
+      "data_pagamento": "2025-09-19",
       "valor": 0.6,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-10-14",
+      "data_pagamento": "2025-10-21",
       "valor": 0.7,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-11-14",
+      "data_pagamento": "2025-11-24",
       "valor": 0.9,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-12-12",
+      "data_pagamento": "2025-12-19",
       "valor": 0.6,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2026-01-15",
+      "data_pagamento": "2026-01-22",
       "valor": 0.8,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2026-02-13",
+      "data_pagamento": "2026-02-24",
+      "valor": 0.85,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     },
     {
       "data_com": "2026-02-17",
@@ -347,15 +363,18 @@
     },
     {
       "data_com": "2026-03-13",
+      "data_pagamento": "2026-03-20",
       "valor": 0.85,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2026-04-15",
+      "data_pagamento": "2026-04-23",
       "valor": 0.85,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

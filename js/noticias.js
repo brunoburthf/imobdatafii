@@ -427,15 +427,37 @@ async function atualizarNoticiasManual() {
     const r = await resp.json();
     if (!r.ok) throw new Error(r.erro || "Falha desconhecida");
 
-    // Recarrega o JSON e re-renderiza só os fatos (estamos na tela deles)
-    const jsonResp = await fetch("data/noticias.json?v=" + Date.now());
+    // Recarrega ambos JSONs em paralelo (resumos pode ter sido atualizado pelo
+    // resumidor encadeado). Cache-bust com timestamp.
+    const v = Date.now();
+    const [jsonResp, resumosResp] = await Promise.all([
+      fetch("data/noticias.json?v=" + v),
+      fetch("data/noticias_resumos.json?v=" + v).catch(() => null),
+    ]);
     const data = await jsonResp.json();
+    _resumosMap = (resumosResp && resumosResp.ok) ? await resumosResp.json() : {};
+    if (Array.isArray(data.fatos_relevantes)) {
+      for (const f of data.fatos_relevantes) {
+        f.titulo_curto = (_resumosMap[String(f.fnet_id)] || {}).titulo_curto || "";
+      }
+    }
     document.getElementById("atualizado-em").textContent = data.atualizado_em || "—";
     renderFatos(data.fatos_relevantes || []);
 
     const c = r.contagem || {};
-    if (status) status.textContent =
-      `OK em ${r.duracao_s}s — ${c.dividendos} dividendos · ${c.fatos_relevantes} fatos · ${c.relatorios_gerenciais} relatórios`;
+    const res = r.resumos || {};
+    let pendMsg = "";
+    if (res.pendentes > 0) {
+      pendMsg = ` · ⚠ ${res.pendentes} resumo(s) pendente(s)`;
+    } else if (res.total > 0) {
+      pendMsg = ` · ✓ resumos OK`;
+    }
+    if (status) {
+      status.textContent =
+        `OK em ${r.duracao_s}s — ${c.dividendos} dividendos · ${c.fatos_relevantes} fatos · ${c.relatorios_gerenciais} relatórios${pendMsg}`;
+      status.className = "atualizar-noticias-status val-restrito" +
+        (res.pendentes > 0 ? " status-aviso" : "");
+    }
   } catch (e) {
     if (status) status.textContent = "Erro: " + e.message;
   } finally {

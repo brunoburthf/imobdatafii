@@ -1,0 +1,339 @@
+{
+  "atualizado_em": "2026-05-05T11:43:49",
+  "fonte": "Base_dados .xlsx (snapshot via seed_cadastro_json.py)",
+  "fundos": [
+    {
+      "ticker": "AAGR11",
+      "nome": "AAGR11",
+      "setor": "FIAgro",
+      "cnpj": "52670402000105",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "AAZQ11",
+      "nome": "AAZQ11",
+      "setor": "FIAgro",
+      "cnpj": "44625826000111",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "AGRX11",
+      "nome": "AGRX11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "BBGO11",
+      "nome": "BBGO11",
+      "setor": "FIAgro",
+      "cnpj": "42592257000120",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "BRFT11",
+      "nome": "BRFT11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "BTAG11",
+      "nome": "BTAG11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "BTAL11",
+      "nome": "BTAL11",
+      "setor": "FIAgro",
+      "cnpj": "36642244000115",
+      "visao_geral": "FII de agronegócio que investe em aquisição ou construção de unidades de armazenagem e ativos de logística distribuídos ao longo da cadeia agrícola. É gerido pelo BTG Pactual e atua próximo às principais rotas de escoamento. A estratégia prioriza renda recorrente e valorização com infraestrutura ligada ao agro.",
+      "comentario": "Fundo transformado em FIAGRO em janeiro, adotando regime contábil por competência. Distribuiu R$ 1,00/cota com dividend yield anualizado de 13,82%. Criou reserva de lucros de R$ 95 milhões, com distribuição de R$ 25 milhões (~R$ 4,18/cota) planejada para os próximos 18 meses. Caixa superou R$ 137 milhões, posicionando para desinvestimentos estratégicos.",
+      "mes_ref_comentario": "jan/26"
+    },
+    {
+      "ticker": "BTRA11",
+      "nome": "BTRA11",
+      "setor": "FIAgro",
+      "cnpj": "41076607000132",
+      "visao_geral": "FII de agronegócio que investe em terras agrícolas, com foco em aquisição de propriedades rurais para exploração econômica e valorização patrimonial. É o BTG Pactual Terras Agrícolas e iniciou atividades em junho de 2021. A estratégia prioriza renda recorrente e apreciação de longo prazo por meio de fazendas produtivas.",
+      "comentario": "Distribuiu R$ 0,80/cota com dividend yield anualizado de 15,7%. Divulgou venda integral da Fazenda do Grupo Hendges (R$ 48 MM) em dezembro/2025. Criou reserva de lucros de R$ 56 milhões a distribuir de forma controlada ao longo do ano. Caixa encerrou em R$ 102 milhões, com gestão avaliando alternativas para rentabilização eficiente preservando valor aos cotistas.",
+      "mes_ref_comentario": "dez/25"
+    },
+    {
+      "ticker": "CPTR11",
+      "nome": "CPTR11",
+      "setor": "FIAgro",
+      "cnpj": "42537579000176",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "CRAA11",
+      "nome": "CRAA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "CTEM11",
+      "nome": "CTEM11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "DCRA11",
+      "nome": "DCRA11",
+      "setor": "FIAgro",
+      "cnpj": "42888360000111",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "EGAF11",
+      "nome": "EGAF11",
+      "setor": "FIAgro",
+      "cnpj": "41224330000148",
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "FGAA11",
+      "nome": "FGAA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "FTCA11",
+      "nome": "FTCA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "FZDA11",
+      "nome": "FZDA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "GCRA11",
+      "nome": "GCRA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "GRWA11",
+      "nome": "GRWA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "HGAG11",
+      "nome": "HGAG11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "IAAG11",
+      "nome": "IAAG11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "IAGR11",
+      "nome": "IAGR11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "JGPX11",
+      "nome": "JGPX11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "KDOL11",
+      "nome": "KDOL11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "KNCA11",
+      "nome": "KNCA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "KOPA11",
+      "nome": "KOPA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "LSAG11",
+      "nome": "LSAG11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "NEXG11",
+      "nome": "NEXG11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "OIAG11",
+      "nome": "OIAG11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "PLCA11",
+      "nome": "PLCA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "RURA11",
+      "nome": "RURA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "RZAG11",
+      "nome": "RZAG11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "SNAG11",
+      "nome": "SNAG11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "SNFZ11",
+      "nome": "SNFZ11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "VCRA11",
+      "nome": "VCRA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "VGIA11",
+      "nome": "VGIA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "VHFA11",
+      "nome": "VHFA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    },
+    {
+      "ticker": "XPCA11",
+      "nome": "XPCA11",
+      "setor": "FIAgro",
+      "cnpj": null,
+      "visao_geral": null,
+      "comentario": null,
+      "mes_ref_comentario": null
+    }
+  ]
+}

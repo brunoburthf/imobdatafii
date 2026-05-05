@@ -878,5 +878,71 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1158463",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-04T17:50:40"
+  },
+  "1179371": {
+    "ticker": "XPML11",
+    "tipo": "FII",
+    "data": "04/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "XPML11 vende participação no Shops Jardins",
+    "resumo": "XPML11 alienou 30% de participação no Shops Jardins (4.600 m² ABL, São Paulo-SP) para JCCJ11 por R$ 20 mi, recebendo cotas na 3ª emissão do comprador. Ganho de capital estimado em R$ 1,7 mi (R$ 0,03/cota). Ativo representava menos de 1% do NOI do portfólio.",
+    "valor_envolvido": "R$ 20 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Alienação total de 30% da SPE Cidade Jardim Shops S.A. para JHSF Capital Malls (JCCJ11) por R$ 20 mi",
+      "Pagamento via compensação de créditos com subscrição de cotas na 3ª emissão do JCCJ11",
+      "Ganho de capital estimado em R$ 1,7 mi equivalente a R$ 0,03/cota"
+    ],
+    "fnet_id": 1179371,
+    "ticker_fonte": "XPML11",
+    "data_anuncio": "2026-05-04T18:23:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179371",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-05T09:11:54"
+  },
+  "1179548": {
+    "ticker": "HGLG11",
+    "tipo": "FII",
+    "data": "04/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "HGLG11 adquire portfólio logístico do PATL11",
+    "resumo": "HGLG11 concluiu a aquisição de 4 ativos logísticos do PATL11 (Jundiaí 1, Jundiaí 2, Ribeirão das Neves e Itatiaia) por R$ 354,9 mi, cap rate médio de 10,73%. Pagamento via compensação de créditos da 11ª emissão (2.130.508 cotas a R$ 166,58/cota). RMG de R$ 3,17 mi/mês por 6 meses.",
+    "valor_envolvido": "R$ 354,9 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Aquisição de 151.130m² de ABL total em SP, MG e RJ ao cap rate médio de 10,73%",
+      "Pagamento integralmente compensado com créditos da 11ª emissão de cotas do Fundo",
+      "Renda Mínima Garantida pelo PATL11 de R$ 3,17 mi/mês por 6 meses, com cláusula de tail em eventual alienação"
+    ],
+    "fnet_id": 1179548,
+    "ticker_fonte": "HGLG11",
+    "data_anuncio": "2026-05-04T20:41:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179548",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-05T09:15:05"
+  },
+  "1179592": {
+    "ticker": "PATL11",
+    "tipo": "FII",
+    "data": "04/05/2026",
+    "categoria": "evento_macro",
+    "titulo_curto": "Conclusão da venda de imóveis e início de liquidação",
+    "resumo": "PATL11 concluiu alienação da totalidade do portfólio imobiliário ao HGLG11 por R$ 354,9 mi, pago via compensação em 2.130.508 cotas HGLG11 a R$ 166,58/cota. Fundo inicia amortização parcial mista (cotas HGLG11 + caixa) e processo de liquidação. Negociação na B3 encerrada em 11/05/2026.",
+    "valor_envolvido": "R$ 354,9 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Venda total do portfólio ao HGLG11 por R$ 354,9 mi, liquidada via compensação de créditos em 2.130.508 cotas a R$ 166,58/cota",
+      "Amortização parcial mista prevista: entrega de cotas HGLG11 em 03/07/2026 e parcela em dinheiro em 07/07/2026; IRRF potencial de até R$ 33,1 mi (alíquota 20%)",
+      "RMG de R$ 3,17 mi/mês garantida pelo PATL ao HGLG11 por 6 meses; cotistas devem informar custo médio de aquisição até 11/06/2026 para cálculo do IRRF"
+    ],
+    "fnet_id": 1179592,
+    "ticker_fonte": "PATL11",
+    "data_anuncio": "2026-05-04T21:37:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179592",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-05T09:17:34"
   }
 }

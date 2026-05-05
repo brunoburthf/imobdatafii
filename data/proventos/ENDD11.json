@@ -1,6 +1,6 @@
 {
   "ticker": "ENDD11",
-  "ultima_atualizacao": "2026-04-28T14:43:08",
+  "ultima_atualizacao": "2026-05-05T10:56:41",
   "fonte": "yahoo+economatica",
   "proventos": [
     {
@@ -53,15 +53,32 @@
     },
     {
       "data_com": "2025-06-23",
+      "data_pagamento": "2025-06-30",
+      "valor": 0.163458,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-06-23",
+      "data_pagamento": "2025-06-30",
       "valor": 4.957395,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-12-19",
+      "data_pagamento": "2025-12-30",
+      "valor": 0.165253,
+      "tipo": "Amortização",
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2025-12-19",
+      "data_pagamento": "2025-12-30",
       "valor": 5.418861,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

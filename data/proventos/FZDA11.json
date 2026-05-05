@@ -1,6 +1,6 @@
 {
   "ticker": "FZDA11",
-  "ultima_atualizacao": "2026-04-28T14:35:56",
+  "ultima_atualizacao": "2026-05-05T10:50:04",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -18,14 +18,16 @@
     {
       "data_com": "2025-04-30",
       "data_pagamento": "2025-05-08",
-      "valor": 4.24362,
+      "valor": 4.106753,
       "tipo": "Rendimento"
     },
     {
-      "data_com": "2025-04-30",
-      "data_pagamento": "2025-05-08",
-      "valor": 4.106753,
-      "tipo": "Rendimento"
+      "data_com": "2026-04-30",
+      "data_pagamento": "2026-05-08",
+      "valor": 4.319579,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }

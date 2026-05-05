@@ -1,6 +1,6 @@
 {
   "ticker": "PFIN11",
-  "ultima_atualizacao": "2026-04-28T14:43:07",
+  "ultima_atualizacao": "2026-05-05T10:50:18",
   "fonte": "yahoo+economatica",
   "proventos": [
     {
@@ -113,33 +113,46 @@
     },
     {
       "data_com": "2025-07-08",
+      "data_pagamento": "2025-07-15",
       "valor": 0.75,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-08-08",
+      "data_pagamento": "2025-08-15",
       "valor": 0.75,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-11-21",
+      "data_pagamento": "2025-11-28",
       "valor": 0.3,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2025-12-18",
+      "data_pagamento": "2025-12-29",
       "valor": 0.8,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
     },
     {
       "data_com": "2026-01-21",
+      "data_pagamento": "2026-01-28",
       "valor": 0.9,
       "tipo": "Rendimento",
-      "fonte": "yahoo"
+      "fonte": "b3"
+    },
+    {
+      "data_com": "2026-05-04",
+      "data_pagamento": "2026-05-11",
+      "valor": 28.14,
+      "tipo": "Rendimento",
+      "fonte": "b3"
     }
-  ]
+  ],
+  "fonte_primaria": "b3"
 }
