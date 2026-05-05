@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-05T11:43:49",
+  "atualizado_em": "2026-05-05T16:46:34",
   "fonte": "Base_dados .xlsx (snapshot via seed_cadastro_json.py)",
   "fundos": [
     {
@@ -21,28 +21,10 @@
       "mes_ref_comentario": null
     },
     {
-      "ticker": "AGRX11",
-      "nome": "AGRX11",
-      "setor": "FIAgro",
-      "cnpj": null,
-      "visao_geral": null,
-      "comentario": null,
-      "mes_ref_comentario": null
-    },
-    {
       "ticker": "BBGO11",
       "nome": "BBGO11",
       "setor": "FIAgro",
       "cnpj": "42592257000120",
-      "visao_geral": null,
-      "comentario": null,
-      "mes_ref_comentario": null
-    },
-    {
-      "ticker": "BRFT11",
-      "nome": "BRFT11",
-      "setor": "FIAgro",
-      "cnpj": null,
       "visao_geral": null,
       "comentario": null,
       "mes_ref_comentario": null
@@ -86,15 +68,6 @@
     {
       "ticker": "CRAA11",
       "nome": "CRAA11",
-      "setor": "FIAgro",
-      "cnpj": null,
-      "visao_geral": null,
-      "comentario": null,
-      "mes_ref_comentario": null
-    },
-    {
-      "ticker": "CTEM11",
-      "nome": "CTEM11",
       "setor": "FIAgro",
       "cnpj": null,
       "visao_geral": null,
