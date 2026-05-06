@@ -753,12 +753,42 @@ function renderizarCarteiraCvm() {
 
     const isCRI = tipo.includes("CRI") || tipo.includes("CRA") || tipo.includes("LCI") || tipo.includes("LIG");
 
+    // Consolida CRIs com mesma (nome_cri, serie, emissao): soma valor e
+    // quantidade, mantem demais campos da primeira ocorrencia.
+    // Conservador: so consolida quando nome_cri esta preenchido. Sem nome
+    // confiavel (CVM as vezes traz emissao=0 sem devedor), mantem linhas
+    // separadas pra evitar somar CRIs distintos por engano.
+    let listaRender = lista;
+    if (isCRI) {
+      const grupos = new Map();
+      const semChave = [];
+      lista.forEach(a => {
+        if (!a.nome_cri) {
+          semChave.push(a);
+          return;
+        }
+        const k = `${a.nome_cri}|${a.serie || ""}|${a.emissao || ""}`;
+        if (grupos.has(k)) {
+          const g = grupos.get(k);
+          g.valor = (g.valor || 0) + (a.valor || 0);
+          if (a.quantidade != null) g.quantidade = (g.quantidade || 0) + a.quantidade;
+        } else {
+          grupos.set(k, { ...a });
+        }
+      });
+      listaRender = [...Array.from(grupos.values()), ...semChave]
+        .sort((a, b) => (b.valor || 0) - (a.valor || 0));
+    }
+    const countLabel = isCRI && listaRender.length !== lista.length
+      ? `${listaRender.length} ativos / ${lista.length} linhas`
+      : `${lista.length} ativos`;
+
     html += `<div class="carteira-accordion">
       <div class="carteira-accordion-header" onclick="toggleAccordion('${id}')">
         <div class="carteira-accordion-left">
           <span class="carteira-accordion-seta">&#9654;</span>
           <span class="carteira-accordion-tipo">${tipo}</span>
-          <span class="carteira-accordion-count">(${lista.length} ativos)</span>
+          <span class="carteira-accordion-count">(${countLabel})</span>
         </div>
         <div class="carteira-accordion-right">
           <span class="carteira-accordion-valor">${fmtR(totalTipo)}</span>
@@ -774,7 +804,7 @@ function renderizarCarteiraCvm() {
           </tr></thead>
           <tbody>`;
     const limpaSec = s => (s||"").replace(/^CRI_\S+\s*-\s*/, "").replace(/\s*-\s*\d{2}[A-Z]\d{5,}$/, "").replace(/\s+\d{2}[A-Z]\d{5,}$/, "").trim() || s;
-    lista.forEach(a => {
+    listaRender.forEach(a => {
       html += `<tr>
         ${isCRI
           ? `<td style="font-weight:600;color:var(--navy)">${a.nome_cri || "—"}</td><td>${limpaSec(a.emissor)}</td><td>${a.serie || "—"}</td><td>${a.emissao || "—"}</td><td style="white-space:nowrap">${a.taxa || "—"}</td>`
