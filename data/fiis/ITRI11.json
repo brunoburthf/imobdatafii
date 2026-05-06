@@ -4,17 +4,17 @@
     "Ticker": "ITRI11",
     "Nome": "Itaú Total Return FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.014453,
-    "Retorno - 12M": 0.246999,
-    "P/VP": 0.896434,
-    "Último Dividendo Pago": 0.85,
-    "DY a.a.": 0.118,
     "Visão Geral": "FII híbrido que investe em múltiplas classes de ativos imobiliários, com foco em geração de renda complementada por ganho de capital. É gerido pelo Itaú Asset e atua com alocação diversificada no setor. A estratégia prioriza ativos resilientes e flexibilidade para navegar diferentes ciclos do mercado imobiliário.",
     "Comentário": "Fevereiro foi positivo com Ibovespa subindo 4% e recebimento de parcela adicional do ganho do RDLI11 elevando receita acima do recorrente para R$1,02/cota. Distribuição mantida em R$0,85/cota no topo do guidance do semestre, representando dividend yield de 12,5% sobre cota de mercado. Cota patrimonial valorizou 2,37% versus alta de 1,32% do IFIX, acumulando desconto de 12,5% em relação ao preço de mercado.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 85.91,
+    "Preço Atual": 86.24,
     "VP/cota": 95.835237,
-    "% Dias Acima CDI 1A": 0.4016,
+    "P/VP": 0.899878,
+    "Retorno - MTD": 0.014453,
+    "Retorno - 12M": 0.246999,
+    "DY a.a.": 0.121637,
+    "Último Dividendo Pago": 0.85,
+    "% Dias Acima CDI 1A": 0.4032,
     "% Dias Acima CDI 3A": 0.3717,
     "% Dias Acima CDI 5A": 0.3717,
     "% Dias Acima CDI MAX": 0.3717
@@ -8461,7 +8461,11 @@
       0.85
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 486345976.56,
+    "CRI/CRA": 59576546.09
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

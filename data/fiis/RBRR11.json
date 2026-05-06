@@ -4,19 +4,19 @@
     "Ticker": "RBRR11",
     "Nome": "FII RBR Rendimento High Grade",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.013516,
-    "Retorno - 12M": 0.106336,
-    "P/VP": 0.882391,
-    "Último Dividendo Pago": 0.7,
-    "DY a.a.": 0.101,
     "Visão Geral": "FII de papel que investe em CRIs de risco high grade, majoritariamente indexados ao IPCA, com foco em rendimentos e ganho de capital. É gerido pela RBR, iniciou em maio de 2018 e busca geração recorrente de renda via crédito imobiliário. A estratégia concentra operações com perfil mais conservador dentro do segmento.",
     "Comentário": "Sob nova gestão Patria desde fevereiro, o fundo apresentou resultado distribuível de R$ 0,59/cota com distribuição de R$ 0,70/cota. Carteira de CRI com rentabilidade ponderada de 14,9% a.a. (IPCA+9,2%), prazo médio de 4,1 anos e spread de 1,1% a.a. em 110 operações estruturadas.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 81.84,
+    "Preço Atual": 83.73,
     "VP/cota": 92.748005,
-    "% Dias Acima CDI 1A": 0.4177,
+    "P/VP": 0.902769,
+    "Retorno - MTD": -0.013516,
+    "Retorno - 12M": 0.106336,
+    "DY a.a.": 0.119432,
+    "Último Dividendo Pago": 0.7,
+    "% Dias Acima CDI 1A": 0.4194,
     "% Dias Acima CDI 3A": 0.3503,
-    "% Dias Acima CDI 5A": 0.492,
+    "% Dias Acima CDI 5A": 0.4916,
     "% Dias Acima CDI MAX": 0.51
   },
   "historico_preco": [
@@ -32445,7 +32445,12 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "30/09/2025",
+    "CRI/CRA": 1434955376.2100003,
+    "Cotas de FIIs": 67288646.09,
+    "Outros": 43108040.18
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

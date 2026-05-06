@@ -4,19 +4,19 @@
     "Ticker": "BRCR11",
     "Nome": "BTG Pactual Corporate Office Fund FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.020021,
-    "Retorno - 12M": 0.237004,
-    "P/VP": 0.545644,
-    "Último Dividendo Pago": 0.41,
-    "DY a.a.": 0.106,
     "Visão Geral": "FII de lajes corporativas que investe em escritórios AAA, com portfólio diversificado em São Paulo e Rio de Janeiro. É o BC Office Fund, listado pela BTG, e figura entre os maiores fundos do segmento, com patrimônio superior a R$ 2 bilhões. A estratégia prioriza renda locatícia recorrente e gestão ativa.",
     "Comentário": "O BC Fund registrou movimento comercial expressivo em março com locação de 5.800 m² consolidados entre São Paulo e Rio, destaque para dois andares no Torre Almirante totalizando 2.500 m². Pela primeira vez desde pandemia, Rio de Janeiro apresentou maior volume de procura que São Paulo no trimestre, evidenciando resiliência de ativos prime. A vacância financeira fechou em 9,4%, reduzindo de 10,6% anterior.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 46.76,
+    "Preço Atual": 46.82,
     "VP/cota": 85.696844,
-    "% Dias Acima CDI 1A": 0.4016,
+    "P/VP": 0.546345,
+    "Retorno - MTD": 0.020021,
+    "Retorno - 12M": 0.237004,
+    "DY a.a.": 0.105938,
+    "Último Dividendo Pago": 0.41,
+    "% Dias Acima CDI 1A": 0.4032,
     "% Dias Acima CDI 3A": 0.2953,
-    "% Dias Acima CDI 5A": 0.1793,
+    "% Dias Acima CDI 5A": 0.1794,
     "% Dias Acima CDI MAX": 0.2973
   },
   "historico_preco": [
@@ -50213,7 +50213,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 368229419.23,
+    "Outros": 77272.53
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

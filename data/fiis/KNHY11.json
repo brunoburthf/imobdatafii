@@ -4,19 +4,19 @@
     "Ticker": "KNHY11",
     "Nome": "Kinea High Yield Cri FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.02723,
-    "Retorno - 12M": 0.134377,
-    "P/VP": 1.007059,
-    "Último Dividendo Pago": 1.15,
-    "DY a.a.": 0.138,
     "Visão Geral": "FII de papel que investe em CRIs de perfil high yield, buscando retorno superior dentro do crédito imobiliário. Tem gestão da Kinea, início em 2018 e patrimônio líquido de cerca de R$ 3,1 bilhões. A carteira concentra operações com predominância de indexação ao IPCA e estratégia de renda recorrente em crédito privado.",
     "Comentário": "O fundo distribuiu R$1,10/cota em março, 127% superior ao gerado no mês anterior. Novos investimentos de R$74,8 milhões em CRI Home Equity de plataformas como Galleria Bank refletiram a mudança tática para capturar retornos prefixados elevados em ambiente de ciclo de cortes previsto, aproveitando estruturas de subordinação com risco de crédito adequado.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 99.88,
+    "Preço Atual": 99.89,
     "VP/cota": 99.179919,
-    "% Dias Acima CDI 1A": 0.2811,
+    "P/VP": 1.00716,
+    "Retorno - MTD": 0.02723,
+    "Retorno - 12M": 0.134377,
+    "DY a.a.": 0.133447,
+    "Último Dividendo Pago": 1.15,
+    "% Dias Acima CDI 1A": 0.2823,
     "% Dias Acima CDI 3A": 0.5624,
-    "% Dias Acima CDI 5A": 0.508,
+    "% Dias Acima CDI 5A": 0.5076,
     "% Dias Acima CDI MAX": 0.5263
   },
   "historico_preco": [
@@ -31429,7 +31429,11 @@
       1.15
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 3066018871.720002,
+    "Cotas de FIIs": 47758943.11
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

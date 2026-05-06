@@ -4,16 +4,16 @@
     "Ticker": "AZPL11",
     "Nome": "Az Quest Panorama Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": -0.00712,
-    "Retorno - 12M": 0.180857,
-    "P/VP": 0.892352,
-    "Último Dividendo Pago": 0.075,
-    "DY a.a.": 0.117,
     "Visão Geral": "FII de logística que investe em galpões logísticos de alta qualidade, com foco em ativos last-mile na região metropolitana de São Paulo. É gerido pela AZ Quest Panorama, tinha ABL de 46.561 m² e dois imóveis nas informações consultadas. A estratégia prioriza gestão ativa e renda locatícia recorrente.",
     "Comentário": "O portfólio do AZPL11 manteve ocupação de 100% nos galpões próprios, com importante revisional negociado no Jandira representando leasing spread de 22,4%. A carteira de crédito, que representa 49,4% do patrimônio, segue contribuindo para resultados com rentabilidade de CDI+2,88% e IPCA+10,87%. Dividendos distribuídos de R$0,075/cota refletem desempenho estável e resultados consistentes.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 7.67,
+    "Preço Atual": 7.72,
     "VP/cota": 8.595261,
+    "P/VP": 0.898169,
+    "Retorno - MTD": -0.00712,
+    "Retorno - 12M": 0.180857,
+    "DY a.a.": 0.120466,
+    "Último Dividendo Pago": 0.075,
     "% Dias Acima CDI 1A": 0.8528,
     "% Dias Acima CDI 3A": 0.8528,
     "% Dias Acima CDI 5A": 0.8528,
@@ -6709,7 +6709,11 @@
       0.075
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 74810384.85,
+    "Cotas de FIIs": 184301175.1
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

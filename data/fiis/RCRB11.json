@@ -4,19 +4,19 @@
     "Ticker": "RCRB11",
     "Nome": "Rio Bravo Renda Corporativa FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.003115,
-    "Retorno - 12M": 0.169365,
-    "P/VP": 0.707209,
-    "Último Dividendo Pago": 1.07,
-    "DY a.a.": 0.091,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis comerciais, com foco em aquisição e gestão patrimonial de ativos em São Paulo e Rio de Janeiro. Iniciado em 2000, tinha patrimônio líquido de cerca de R$ 736 milhões em janeiro de 2026. A estratégia prioriza renda locatícia recorrente em escritórios urbanos relevantes.",
     "Comentário": "Em março, receita imobiliária de R$ 5,3 milhões (R$ 1,43/cota) gerou resultado de R$ 1,12/cota com distribuição de R$ 1,07/cota (dividend yield 9,0%). Revisionais em negociações avançadas com conclusão prevista para abril. Alienação de imóvel em diligência final com potencial ganho de R$ 10 milhões (R$ 2,90/cota).",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 140.95,
+    "Preço Atual": 141.08,
     "VP/cota": 199.304621,
-    "% Dias Acima CDI 1A": 0.3936,
+    "P/VP": 0.707861,
+    "Retorno - MTD": 0.003115,
+    "Retorno - 12M": 0.169365,
+    "DY a.a.": 0.076411,
+    "Último Dividendo Pago": 1.07,
+    "% Dias Acima CDI 1A": 0.3952,
     "% Dias Acima CDI 3A": 0.455,
-    "% Dias Acima CDI 5A": 0.2725,
+    "% Dias Acima CDI 5A": 0.2727,
     "% Dias Acima CDI MAX": 0.3883
   },
   "historico_preco": [
@@ -50213,7 +50213,10 @@
       1.07
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 13862483.530000001
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

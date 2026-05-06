@@ -4,17 +4,17 @@
     "Ticker": "BROF11",
     "Nome": "Brpr Corporate Offices FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.050906,
-    "Retorno - 12M": 0.399002,
-    "P/VP": 0.55786,
-    "Último Dividendo Pago": 0.58,
-    "DY a.a.": 0.112,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis de escritórios, com foco em gestão ativa e geração de renda por aluguel. Foi constituído em janeiro de 2023 e busca resultados por locação, renegociação contratual e reciclagem de ativos. A estratégia prioriza renda recorrente em portfólio corporativo com atuação ativa da gestão.",
     "Comentário": "O fundo distribuiu R$ 0,56/cota com dividend yield anualizado de 10,7%, em linha com projeções. A cota rendeu 5,16% em fevereiro, superando IFIX (1,32%) e CDI (1,00%). Notificado sobre rescisão antecipada de 1.176,73 m² pela Biogen no E-Tower, com detalhes a definir. Encerrou com 89,2% de ocupação, mantendo resiliência operacional apesar do desafio.",
     "Mês Ref. Comentário": "fev/26",
     "Preço Atual": 61.4,
     "VP/cota": 110.063402,
-    "% Dias Acima CDI 1A": 0.8594,
+    "P/VP": 0.55786,
+    "Retorno - MTD": 0.050906,
+    "Retorno - 12M": 0.399002,
+    "DY a.a.": 0.105537,
+    "Último Dividendo Pago": 0.58,
+    "% Dias Acima CDI 1A": 0.8629,
     "% Dias Acima CDI 3A": 0.4208,
     "% Dias Acima CDI 5A": 0.4208,
     "% Dias Acima CDI MAX": 0.4208
@@ -12505,7 +12505,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 241420061.60000002,
+    "Outros": 48437632.64
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

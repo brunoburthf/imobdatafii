@@ -4,19 +4,19 @@
     "Ticker": "ARRI11",
     "Nome": "FII Atrio Reit Recebiveis Imobiliarios",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.098529,
-    "Retorno - 12M": -0.042089,
-    "P/VP": 0.688725,
-    "Último Dividendo Pago": 0.07,
-    "DY a.a.": 0.142,
     "Visão Geral": "FII de papel que investe em CRIs, LCIs, LHs e outros ativos financeiros imobiliários, com foco em crédito e renda recorrente. É gerido pela Atrio e iniciou atividades em outubro de 2019. A estratégia prioriza originação própria, gestão ativa e carteira voltada ao mercado de recebíveis imobiliários.",
     "Comentário": "O ARRI11 distribuiu R$0,09/cota em fevereiro, mantendo consistência em rendimentos, com dividend yield mensal de 1,28% e anualizado de 16,47%. A carteira de crédito imobiliário permaneceu estável com taxa média de IPCA+11,64% e CDI+5,02%, diversificada entre 20 ativos em 8 estados. O gestor prosseguiu com foco em operações high-yield com garantias estruturadas, preservando o padrão de risco.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 5.77,
+    "Preço Atual": 5.7,
     "VP/cota": 8.377801,
+    "P/VP": 0.680369,
+    "Retorno - MTD": -0.098529,
+    "Retorno - 12M": -0.042089,
+    "DY a.a.": 0.182456,
+    "Último Dividendo Pago": 0.07,
     "% Dias Acima CDI 1A": 0.0,
     "% Dias Acima CDI 3A": 0.3302,
-    "% Dias Acima CDI 5A": 0.4799,
+    "% Dias Acima CDI 5A": 0.4795,
     "% Dias Acima CDI MAX": 0.4835
   },
   "historico_preco": [
@@ -26281,7 +26281,12 @@
       0.07
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 138244455.72,
+    "Cotas de FIIs": 26144526.64,
+    "FIDCs": 5980104.79
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

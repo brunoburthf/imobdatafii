@@ -4,16 +4,16 @@
     "Ticker": "JSCR11",
     "Nome": "Js Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.007855,
-    "Retorno - 12M": 0.143997,
-    "P/VP": 0.887233,
-    "Último Dividendo Pago": 0.1,
-    "DY a.a.": 0.14,
     "Visão Geral": "FII de papel que investe em CRIs, cotas de FIIs de CRI e outros ativos de crédito do mercado imobiliário. É gerido pelo Safra com gestão ativa e foco em rendimentos ou ganhos de capital. A estratégia prioriza geração frequente de renda por meio de carteira voltada a crédito imobiliário.",
     "Comentário": "Em fevereiro, JSCR11 permaneceu rigorosamente em linha com guidance, distribuindo R$0,095/cota com dividend yield mensal de 1,10% ou 13,24% a.a. Resultado apurado foi R$0,0895/cota, acumulando saldo positivo de R$0,028/cota. CRI Rochaverá foi pré-pago gerando prêmio de 2%, enquanto CRI Alfa Realty avançou nas obras mas com ritmo de vendas abaixo do esperado impactando fluxo de repasses.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 8.41,
+    "Preço Atual": 8.38,
     "VP/cota": 9.478912,
+    "P/VP": 0.884068,
+    "Retorno - MTD": 0.007855,
+    "Retorno - 12M": 0.143997,
+    "DY a.a.": 0.136635,
+    "Último Dividendo Pago": 0.1,
     "% Dias Acima CDI 1A": 0.427,
     "% Dias Acima CDI 3A": 0.427,
     "% Dias Acima CDI 5A": 0.427,
@@ -7041,7 +7041,12 @@
       0.1
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 165054756.24,
+    "Cotas de FIIs": 29415819.88,
+    "Outros": 17242811.91
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

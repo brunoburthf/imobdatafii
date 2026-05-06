@@ -4,19 +4,19 @@
     "Ticker": "XPSF11",
     "Nome": "Xp Selection Fundo de FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.007429,
-    "Retorno - 12M": 0.214353,
-    "P/VP": 0.826243,
-    "Último Dividendo Pago": 0.07,
-    "DY a.a.": 0.126,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, além de LCIs, CRIs e outros títulos do mercado imobiliário. Lançado em 2019, tem gestão da XP Asset e mandato de alocação diversificada no mercado listado. A estratégia busca renda recorrente e ganho de capital com gestão ativa de portfólio.",
     "Comentário": "Distribuição R$0,07/cota (15,25% DY anualizado, 12,61% patrimonial). Alienação parcial TEPP com ganho de capital e alocação em BBIG (shopping descontado). Carteira de CRI ampliada para 12,5% do PL incluindo novos CDI+. P/VP em 0,83x e desconto adicional ao patrimonial FII: oportunidade de arbitragem em FoF defensivo diversificado.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 6.65,
+    "Preço Atual": 6.66,
     "VP/cota": 8.048484,
-    "% Dias Acima CDI 1A": 0.3936,
+    "P/VP": 0.827485,
+    "Retorno - MTD": 0.007429,
+    "Retorno - 12M": 0.214353,
+    "DY a.a.": 0.12012,
+    "Último Dividendo Pago": 0.07,
+    "% Dias Acima CDI 1A": 0.3952,
     "% Dias Acima CDI 3A": 0.4966,
-    "% Dias Acima CDI 5A": 0.3746,
+    "% Dias Acima CDI 5A": 0.3741,
     "% Dias Acima CDI MAX": 0.4006
   },
   "historico_preco": [
@@ -25317,7 +25317,11 @@
       0.07
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 332456689.89000005,
+    "CRI/CRA": 19460843.518501
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

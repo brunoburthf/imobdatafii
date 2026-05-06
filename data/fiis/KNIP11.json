@@ -4,19 +4,19 @@
     "Ticker": "KNIP11",
     "Nome": "Kinea Indices de Preços FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.046358,
-    "Retorno - 12M": 0.156576,
-    "P/VP": 0.993446,
-    "Último Dividendo Pago": 1.1,
-    "DY a.a.": 0.142,
     "Visão Geral": "FII de papel que investe em CRIs e LCIs imobiliárias, com remuneração atrelada a juros reais de longo prazo. Tem gestão da Kinea e patrimônio líquido de cerca de R$ 7,6 bilhões. A carteira é diversificada em crédito privado imobiliário e a estratégia prioriza geração de renda indexada à inflação.",
     "Comentário": "O fundo alocou R$234,9 milhões em novos CRI durante março, incluindo operações em BH Shopping, Home Equity e ativos logísticos, elevando significativamente o patamar de investimentos. A mudança reflete uma aceleração na absorção de recursos captados, com novas alocações estruturadas em índices inflacionários mantendo duration média de 6,4 anos na carteira inflacionária.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 92.83,
+    "Preço Atual": 92.96,
     "VP/cota": 93.442445,
-    "% Dias Acima CDI 1A": 0.253,
+    "P/VP": 0.994837,
+    "Retorno - MTD": 0.046358,
+    "Retorno - 12M": 0.156576,
+    "DY a.a.": 0.101979,
+    "Último Dividendo Pago": 1.1,
+    "% Dias Acima CDI 1A": 0.254,
     "% Dias Acima CDI 3A": 0.3584,
-    "% Dias Acima CDI 5A": 0.3706,
+    "% Dias Acima CDI 5A": 0.3701,
     "% Dias Acima CDI MAX": 0.5035
   },
   "historico_preco": [
@@ -39009,7 +39009,11 @@
       1.1
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 7543135804.7,
+    "Cotas de FIIs": 4988263.06
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

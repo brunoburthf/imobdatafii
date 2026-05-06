@@ -4,19 +4,19 @@
     "Ticker": "JSRE11",
     "Nome": "Js Real Estate Multigestão FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.027611,
-    "Retorno - 12M": 0.117982,
-    "P/VP": 0.603947,
-    "Último Dividendo Pago": 0.48,
-    "DY a.a.": 0.091,
     "Visão Geral": "FII híbrido que investe em imóveis, cotas de FIIs, CRIs e outros ativos imobiliários, com gestão ativa e mandato amplo. É gerido pelo Safra Asset e busca distribuir renda mensal por meio de aluguéis, rendimentos e ganho de capital. A estratégia combina exposição a ativos reais e financeiros do setor.",
     "Comentário": "Fevereiro registrou resultado de R$0,86/cota com dividend yield de 0,72% no mês ou 8,60% a.a. Equipe de gestão realizou locação de 6.660 m² no WT Morumbi para Novartis e entrada do TRT no Ed. Paulista com ganho real de 50% versus contrato anterior. Pré-pagamento do CRI Rochaverá abateu R$135 milhões do passivo do fundo, gerando resultado adicional para o fundo.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 61.66,
+    "Preço Atual": 62.48,
     "VP/cota": 102.095023,
-    "% Dias Acima CDI 1A": 0.4699,
+    "P/VP": 0.611979,
+    "Retorno - MTD": -0.027611,
+    "Retorno - 12M": 0.117982,
+    "DY a.a.": 0.09219,
+    "Último Dividendo Pago": 0.48,
+    "% Dias Acima CDI 1A": 0.4718,
     "% Dias Acima CDI 3A": 0.298,
-    "% Dias Acima CDI 5A": 0.2315,
+    "% Dias Acima CDI 5A": 0.2317,
     "% Dias Acima CDI MAX": 0.3834
   },
   "historico_preco": [
@@ -49681,7 +49681,11 @@
       0.48
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 447971390.8,
+    "Outros": 15987288.99
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,16 +4,16 @@
     "Ticker": "TOPP11",
     "Nome": "Rbr Top Offices FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.062844,
-    "Retorno - 12M": 0.048941,
-    "P/VP": 0.632411,
-    "Último Dividendo Pago": 0.84,
-    "DY a.a.": 0.149,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em renda locatícia e valorização patrimonial. É gerido pela RBR e integra sua vertical de renda e properties. Foco em ativos AAA em regiões premium.",
     "Comentário": "O Patria Real Estate passou a controlar a RBR Gestão desde 3 de fevereiro, assumindo gestão do TOPP11. O fundo distribuiu R$ 0,84/cota com dividend yield de 9,5% ao ano sobre valor patrimonial. Com apenas 2 ativos (Metropolitan e Platinum), mantém vacância zerada, mas enfrenta desafio de pagamento de R$ 273,8MM em abril, estruturando captação de CRI como alternativa financeira.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 67.2,
+    "Preço Atual": 66.05,
     "VP/cota": 106.260086,
+    "P/VP": 0.621588,
+    "Retorno - MTD": -0.062844,
+    "Retorno - 12M": 0.048941,
+    "DY a.a.": 0.152612,
+    "Último Dividendo Pago": 0.84,
     "% Dias Acima CDI 1A": 0.5214,
     "% Dias Acima CDI 3A": 0.5214,
     "% Dias Acima CDI 5A": 0.5214,
@@ -6337,7 +6337,12 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 3032248.58,
+    "CRI/CRA": 68426727.92,
+    "Outros": 1725889.97
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

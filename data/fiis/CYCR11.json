@@ -4,17 +4,17 @@
     "Ticker": "CYCR11",
     "Nome": "Cyrela Crédito FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.00845,
-    "Retorno - 12M": 0.203814,
-    "P/VP": 0.955571,
-    "Último Dividendo Pago": 0.106,
-    "DY a.a.": 0.141,
     "Visão Geral": "FII de papel que investe em CRIs, debêntures e outros ativos financeiros com lastro imobiliário, buscando renda recorrente e valorização patrimonial. É gerido pela Cy Capital e atua no segmento de recebíveis imobiliários.",
     "Comentário": "Distribuiu R$ 0,11/cota com dividend yield anualizado de 14,86% em fevereiro. Taxa média ponderada da carteira de IPCA+10,45% (indexação IPCA) e CDI+4,20% (indexação CDI). Desde início da negociação em novembro/2021, distribuição média atingiu R$ 1,08/cota com yield anualizado de 15,16%. Portfólio 100% adimplente com 29 CRIs, período sem operações estressadas.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 8.98,
+    "Preço Atual": 8.99,
     "VP/cota": 9.397525,
-    "% Dias Acima CDI 1A": 0.4498,
+    "P/VP": 0.956635,
+    "Retorno - MTD": 0.00845,
+    "Retorno - 12M": 0.203814,
+    "DY a.a.": 0.143604,
+    "Último Dividendo Pago": 0.106,
+    "% Dias Acima CDI 1A": 0.4516,
     "% Dias Acima CDI 3A": 0.5436,
     "% Dias Acima CDI 5A": 0.4726,
     "% Dias Acima CDI MAX": 0.4726
@@ -18117,7 +18117,10 @@
       0.106
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 45645193.47
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

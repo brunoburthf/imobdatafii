@@ -4,19 +4,19 @@
     "Ticker": "HGRU11",
     "Nome": "Pátria Renda Urbana FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.027046,
-    "Retorno - 12M": 0.198547,
-    "P/VP": 1.008243,
-    "Último Dividendo Pago": 0.95,
-    "DY a.a.": 0.087,
     "Visão Geral": "FII de renda urbana que investe em imóveis voltados a varejo, educação e serviços, com contratos de locação e foco em renda recorrente. Iniciado em 2018, é gerido pelo Pátria e reúne ativos como Pernambucanas, Ibmec, Assaí e Sam’s Club. A estratégia prioriza imóveis operacionais em regiões urbanas relevantes.",
     "Comentário": "Em fevereiro, o fundo manteve trajetória de valorização com o IFIX avançando 1,3%, renovando máxima histórica em cenário de expectativa de flexibilização monetária. A distribuição manteve-se em R$0,95/cota, com resultado distribuível impactado por alteração não recorrente na data de repasse de CRI. A vacância física permaneceu estável em 0,8% e a alavancagem financeira em 5,7%, com time de gestão executando vendas do portfólio de Pernambucanas acima do valor patrimonial.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 129.97,
+    "Preço Atual": 131.41,
     "VP/cota": 128.90744,
-    "% Dias Acima CDI 1A": 0.5984,
+    "P/VP": 1.019414,
+    "Retorno - MTD": 0.027046,
+    "Retorno - 12M": 0.198547,
+    "DY a.a.": 0.094742,
+    "Último Dividendo Pago": 0.95,
+    "% Dias Acima CDI 1A": 0.6008,
     "% Dias Acima CDI 3A": 0.5436,
-    "% Dias Acima CDI 5A": 0.4735,
+    "% Dias Acima CDI 5A": 0.473,
     "% Dias Acima CDI MAX": 0.601
   },
   "historico_preco": [
@@ -31537,7 +31537,11 @@
       0.95
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 101252163.00999999,
+    "Cotas de FIIs": 286208913.84
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

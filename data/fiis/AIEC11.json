@@ -4,17 +4,17 @@
     "Ticker": "AIEC11",
     "Nome": "Arch Edifícios Corporativos FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.035279,
-    "Retorno - 12M": 0.474444,
-    "P/VP": 0.805981,
-    "Último Dividendo Pago": 0.34,
-    "DY a.a.": 0.065,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com foco em locação e geração de renda mensal. O fundo atua no segmento corporativo e mantém gestão voltada à comercialização e ocupação dos ativos.",
     "Comentário": "O AIEC11 avançou significativamente em ocupação com a conclusão de locação 100% do Standard Building para Rede D'Or, gerando receita 13,3% superior ao laudo de avaliação e adicionando R$3,94/cota de valor. No Rochaverá Torre D, negociações avançadas com volume 3x superior à área vaga sinalizaram caminho para ocupação plena. A liquidez do fundo disparou 425,6% em março, refletindo maior confiança dos investidores.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 61.18,
+    "Preço Atual": 61.0,
     "VP/cota": 75.907459,
-    "% Dias Acima CDI 1A": 0.5502,
+    "P/VP": 0.80361,
+    "Retorno - MTD": 0.035279,
+    "Retorno - 12M": 0.474444,
+    "DY a.a.": 0.06623,
+    "Último Dividendo Pago": 0.34,
+    "% Dias Acima CDI 1A": 0.5524,
     "% Dias Acima CDI 3A": 0.1839,
     "% Dias Acima CDI 5A": 0.1767,
     "% Dias Acima CDI MAX": 0.1767
@@ -22585,7 +22585,10 @@
       0.34
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 25573482.81
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

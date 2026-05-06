@@ -4,19 +4,19 @@
     "Ticker": "HFOF11",
     "Nome": "Hedge Top Fofii 3 FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.008824,
-    "Retorno - 12M": 0.291531,
-    "P/VP": 0.844579,
-    "Último Dividendo Pago": 0.06,
-    "DY a.a.": 0.107,
     "Visão Geral": "FII de fundo de fundos que investe preponderantemente em cotas de outros FIIs, com foco em rendimentos e ganho de capital. Iniciado em fevereiro de 2018, é gerido pela Hedge Investments. A estratégia combina alocação ativa entre fundos imobiliários listados e desinvestimentos oportunísticos para geração recorrente de resultados.",
     "Comentário": "Distribuição mantida em R$ 0,060/cota refletindo FFO sustentável da carteira de fundos imobiliários. Fundo recomprou e cancelou 331 mil cotas com desconto médio de -14,7%, investindo R$ 2,2 milhões com retorno de R$ 2,6 milhões. Desde início do programa, 5 milhões de cotas canceladas com desconto médio de -18,8%, gerando valor aos cotistas remanescentes.",
     "Mês Ref. Comentário": "fev/26",
     "Preço Atual": 6.69,
     "VP/cota": 7.921103,
-    "% Dias Acima CDI 1A": 0.4378,
+    "P/VP": 0.844579,
+    "Retorno - MTD": 0.008824,
+    "Retorno - 12M": 0.291531,
+    "DY a.a.": 0.10284,
+    "Último Dividendo Pago": 0.06,
+    "% Dias Acima CDI 1A": 0.4395,
     "% Dias Acima CDI 3A": 0.4188,
-    "% Dias Acima CDI 5A": 0.2588,
+    "% Dias Acima CDI 5A": 0.2582,
     "% Dias Acima CDI MAX": 0.4462
   },
   "historico_preco": [
@@ -33241,7 +33241,10 @@
       0.06
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 1753216924.7500007
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

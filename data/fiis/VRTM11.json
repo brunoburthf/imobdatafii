@@ -4,17 +4,17 @@
     "Ticker": "VRTM11",
     "Nome": "Fator Veritá Multiestratégia FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.012312,
-    "Retorno - 12M": 0.205271,
-    "P/VP": 0.766695,
-    "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.149,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de FIIs e, complementarmente, pode alocar em CRIs, LCIs, LHs e debêntures imobiliárias. É o Fator Verità Multiestratégia, com mandato amplo no mercado imobiliário listado. A estratégia combina diversificação entre fundos e crédito para geração recorrente de renda e valor.",
     "Comentário": "Distribuição mantida em R$0,09/cota com reserva de R$0,031/cota. Recompra de 10 unidades (You Inc. Madalena R$6 mi, Tumiaru R$3,5 mi) e aquisição R$3,6 mi CRI Terrassa (IPCA+12,25% a.a.). Caixa final R$23,2 mi para alocações e pagamentos. Carteira equilibrada: 23,7% imóveis diretos, 28% FII, 45,9% CRI com DY mensal 1,21% (143% CDI).",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 7.27,
+    "Preço Atual": 7.28,
     "VP/cota": 9.482258,
-    "% Dias Acima CDI 1A": 0.3936,
+    "P/VP": 0.76775,
+    "Retorno - MTD": 0.012312,
+    "Retorno - 12M": 0.205271,
+    "DY a.a.": 0.148352,
+    "Último Dividendo Pago": 0.09,
+    "% Dias Acima CDI 1A": 0.3952,
     "% Dias Acima CDI 3A": 0.2745,
     "% Dias Acima CDI 5A": 0.2745,
     "% Dias Acima CDI MAX": 0.2745
@@ -9837,7 +9837,11 @@
       0.09
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 101065771.72000001,
+    "Cotas de FIIs": 121962346.81
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

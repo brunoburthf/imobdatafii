@@ -4,17 +4,17 @@
     "Ticker": "BBIG11",
     "Nome": "BB Premium Malls FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.0,
-    "Retorno - 12M": 0.109155,
-    "P/VP": 0.725721,
-    "Último Dividendo Pago": 0.07,
-    "DY a.a.": 0.121,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers de alto padrão, com foco em públicos das classes A e B. É gerido pela BB Asset em parceria com a Iguatemi e busca renda recorrente e ganho de capital. A estratégia prioriza ativos consolidados, com relevância regional e geração operacional estável.",
     "Comentário": "O BB Premium Malls realizou duas operações estratégicas de venda parcial em seus shopping centers em fevereiro, gerando ganho total de R$0,10/cota aos cotistas. A redução de participação no Pátio Higienópolis de 14,65% para 5,65% foi estruturada com recebimento em dinheiro, cotas XPML11 e parcelamentos corrigidos por CDI. Distribuição mantida em R$0,07/cota reflete posição de fortalecimento da estrutura de capital.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 6.93,
+    "Preço Atual": 6.92,
     "VP/cota": 9.54912,
-    "% Dias Acima CDI 1A": 0.2892,
+    "P/VP": 0.724674,
+    "Retorno - MTD": 0.0,
+    "Retorno - 12M": 0.109155,
+    "DY a.a.": 0.135838,
+    "Último Dividendo Pago": 0.07,
+    "% Dias Acima CDI 1A": 0.2903,
     "% Dias Acima CDI 3A": 0.288,
     "% Dias Acima CDI 5A": 0.288,
     "% Dias Acima CDI MAX": 0.288
@@ -8117,7 +8117,10 @@
       0.07
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 1119212.19
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,17 +4,17 @@
     "Ticker": "KIVO11",
     "Nome": "Kilima Volkano Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.017236,
-    "Retorno - 12M": 0.176361,
-    "P/VP": 0.739098,
-    "Último Dividendo Pago": 0.85,
-    "DY a.a.": 0.159,
     "Visão Geral": "FII de papel que investe em CRIs e outros títulos de crédito imobiliário, com foco em renda mensal recorrente. É gerido pela Kilima, tem perfil de gestão ativa e se posiciona no segmento de recebíveis imobiliários.",
     "Comentário": "O fundo anunciou divisor de R$0,86/cota em fevereiro, impactado pela liquidação antecipada do CRI Costa Hirota e integralização da posição em CRI Braspark no recém-criado FII Alianza Renda Mais. A mudança reflete uma realocação estratégica para operações de crédito imobiliário com potencial de IPC-A+13% a.a., reposicionando a carteira em direção a ativos com melhor relação risco-retorno.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 63.25,
+    "Preço Atual": 63.17,
     "VP/cota": 85.577339,
-    "% Dias Acima CDI 1A": 0.3373,
+    "P/VP": 0.738163,
+    "Retorno - MTD": 0.017236,
+    "Retorno - 12M": 0.176361,
+    "DY a.a.": 0.178249,
+    "Último Dividendo Pago": 0.85,
+    "% Dias Acima CDI 1A": 0.3387,
     "% Dias Acima CDI 3A": 0.3101,
     "% Dias Acima CDI 5A": 0.2954,
     "% Dias Acima CDI MAX": 0.2954
@@ -16289,7 +16289,11 @@
       0.85
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 104813730.94999999,
+    "Cotas de FIIs": 84900877.28000003
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

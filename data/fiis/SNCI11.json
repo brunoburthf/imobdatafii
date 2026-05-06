@@ -4,17 +4,17 @@
     "Ticker": "SNCI11",
     "Nome": "Suno Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.021784,
-    "Retorno - 12M": 0.17884,
-    "P/VP": 0.920199,
-    "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.133,
     "Visão Geral": "FII de papel que investe em diferentes tipos de dívidas imobiliárias, majoritariamente CRIs, com gestão ativa e foco em renda recorrente. É gerido pela Suno Asset e atua no segmento de recebíveis imobiliários. A estratégia prioriza crédito diversificado com geração mensal de caixa por meio de instrumentos financeiros do setor.",
     "Comentário": "O fundo distribuiu R$ 1,00/cota, alinhado ao guidance de R$ 1,00-R$ 1,10 para o trimestre. O spread de crédito recuperou para 3,73%, impulsionado por novas alocações e ações de recuperação de crédito. A alavancagem líquida recuou para 8,09% após quitação de R$ 20MM em operações compromissadas, com expectativa de redução adicional no trimestre.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 89.7,
+    "Preço Atual": 90.3,
     "VP/cota": 97.478871,
-    "% Dias Acima CDI 1A": 0.3293,
+    "P/VP": 0.926355,
+    "Retorno - MTD": 0.021784,
+    "Retorno - 12M": 0.17884,
+    "DY a.a.": 0.13289,
+    "Último Dividendo Pago": 1.0,
+    "% Dias Acima CDI 1A": 0.3306,
     "% Dias Acima CDI 3A": 0.2658,
     "% Dias Acima CDI 5A": 0.2911,
     "% Dias Acima CDI MAX": 0.2911
@@ -18545,7 +18545,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 334298435.28999996,
+    "Cotas de FIIs": 125314602.28999999
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

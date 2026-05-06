@@ -4,17 +4,17 @@
     "Ticker": "LIFE11",
     "Nome": "Life Capital Partners FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.010262,
-    "Retorno - 12M": 0.155209,
-    "P/VP": 0.907331,
-    "Último Dividendo Pago": 0.12,
-    "DY a.a.": 0.17,
     "Visão Geral": "FII de papel que investe em recebíveis do setor de desenvolvimento urbano, balanceando valorização de carteira e geração de renda mensal recorrente. É gerido pela Life Capital Partners e tinha patrimônio líquido de cerca de R$ 396 milhões na página oficial consultada. A estratégia prioriza crédito imobiliário com foco em retorno de longo prazo.",
     "Comentário": "O fundo distribuiu R$0,12/cota em fevereiro com dividend yield mensal de 1,26%, mantendo constância após 12 meses neste patamar. Houve um distrato em contrato inadimplente vendido em outubro anterior com necessidade de realocação, enquanto portfólio de loteamentos no Sul registrou 5 vendas e diversos distratos, demonstrando dinamismo comercial e reavaliacação de premissas no FIDC Residence.",
     "Mês Ref. Comentário": "fev/26",
     "Preço Atual": 8.4,
     "VP/cota": 9.257924,
-    "% Dias Acima CDI 1A": 0.3293,
+    "P/VP": 0.907331,
+    "Retorno - MTD": -0.010262,
+    "Retorno - 12M": 0.155209,
+    "DY a.a.": 0.171429,
+    "Último Dividendo Pago": 0.12,
+    "% Dias Acima CDI 1A": 0.3306,
     "% Dias Acima CDI 3A": 0.5,
     "% Dias Acima CDI 5A": 0.5,
     "% Dias Acima CDI MAX": 0.5
@@ -14393,7 +14393,12 @@
       0.12
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 126982536.82000001,
+    "FIDCs": 54130675.2,
+    "Cotas de FIIs": 2285879.25
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

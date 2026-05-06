@@ -4,17 +4,17 @@
     "Ticker": "ICRI11",
     "Nome": "Itaú Crédito Imobiliário IPCA FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.039049,
-    "Retorno - 12M": 0.185686,
-    "P/VP": 0.970104,
-    "Último Dividendo Pago": 1.1,
-    "DY a.a.": 0.133,
     "Visão Geral": "FII de papel que investe em CRIs e outros títulos e valores mobiliários lastreados em recebíveis imobiliários, com foco em distribuição de rendimentos. É gerido pelo Itaú Asset e busca diversificação entre segmentos com boas garantias. A estratégia prioriza crédito indexado à inflação e geração recorrente de renda imobiliária.",
     "Comentário": "Fevereiro foi positivo para FIIs com Ibovespa subindo 4% e fluxo estrangeiro acumulando R$41,8 bilhões em dois meses do ano. ICRI11 distribuiu R$0,95/cota com dividend yield de 12,38% sobre cota de mercado. Conclusão de alocação de 3,8% em CRI XPLG a IPCA+ 8,96% mantém carteira bem estruturada. Fundo encerrou com reserva de R$2,17 por cota em contexto de expectativa de cortes de juros.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 99.19,
+    "Preço Atual": 99.9,
     "VP/cota": 102.246816,
-    "% Dias Acima CDI 1A": 0.5823,
+    "P/VP": 0.977048,
+    "Retorno - MTD": 0.039049,
+    "Retorno - 12M": 0.185686,
+    "DY a.a.": 0.119119,
+    "Último Dividendo Pago": 1.1,
+    "% Dias Acima CDI 1A": 0.5847,
     "% Dias Acima CDI 3A": 0.5217,
     "% Dias Acima CDI 5A": 0.5217,
     "% Dias Acima CDI MAX": 0.5217
@@ -9013,7 +9013,11 @@
       1.1
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 342997258.58,
+    "Cotas de FIIs": 20550835.81
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

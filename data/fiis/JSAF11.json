@@ -4,17 +4,17 @@
     "Ticker": "JSAF11",
     "Nome": "Js Ativos Financeiros FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.019355,
-    "Retorno - 12M": 0.12038,
-    "P/VP": 0.821518,
-    "Último Dividendo Pago": 0.08,
-    "DY a.a.": 0.124,
     "Visão Geral": "FII híbrido que investe em cotas de FIIs, CRIs e ações de empresas do segmento imobiliário, com mandato amplo e gestão ativa. É gerido pelo Safra Asset. A estratégia busca aproveitar oportunidades ao longo dos ciclos do setor, combinando ativos listados e crédito para gerar renda recorrente e ganho de capital.",
     "Comentário": "Em fevereiro, JSAF11 registrou valorização consolidada de 1,04%, superando índice IFIX em 0,32 p.p. Distribuição anunciada de R$0,080/cota corresponde a yield mensal de 0,99% ou 11,84% a.a., mantendo patamar iniciado em novembro. Resultado auferido foi superior ao distribuído, impulsionado por destravas de valor, permitindo recomposição de reservas para positiva em R$0,022/cota.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 7.69,
+    "Preço Atual": 7.72,
     "VP/cota": 9.360715,
-    "% Dias Acima CDI 1A": 0.3614,
+    "P/VP": 0.824723,
+    "Retorno - MTD": 0.019355,
+    "Retorno - 12M": 0.12038,
+    "DY a.a.": 0.13057,
+    "Último Dividendo Pago": 0.08,
+    "% Dias Acima CDI 1A": 0.3629,
     "% Dias Acima CDI 3A": 0.5517,
     "% Dias Acima CDI 5A": 0.5,
     "% Dias Acima CDI MAX": 0.5
@@ -18129,7 +18129,12 @@
       0.08
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 639774793.0799998,
+    "Outros": 50693935.20999999,
+    "CRI/CRA": 28360466.830000002
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

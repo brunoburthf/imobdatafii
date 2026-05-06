@@ -4,17 +4,17 @@
     "Ticker": "SNEL11",
     "Nome": "Suno Energias Limpas FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.013018,
-    "Retorno - 12M": 0.134966,
-    "P/VP": 1.052049,
-    "Último Dividendo Pago": 0.1,
-    "DY a.a.": 0.141,
     "Visão Geral": "FII de infraestrutura que investe em projetos de energias limpas e renováveis, especialmente usinas solares de geração distribuída. É gerido pela Suno Asset e se apresenta como o primeiro FII listado voltado a essa tese no mercado geral. A estratégia combina venda de energia, renda recorrente e eventual ganho de capital.",
     "Comentário": "A ANEEL manteve bandeira verde pelo segundo mês, sinalizando sem custos adicionais na energia. Encerrou a carência da UFV Petrolina com início do faturamento dos novos contratos de 50% do projeto junto à Setta. O portfólio em ramp-up apresentou ocupação ponderada de 28,6%, com os ativos São Bento Abade e Malbec avançando 5,1 e 19,5 p.p. respectivamente em ocupação comercial.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 8.55,
+    "Preço Atual": 8.54,
     "VP/cota": 8.126997,
-    "% Dias Acima CDI 1A": 0.2088,
+    "P/VP": 1.050819,
+    "Retorno - MTD": 0.013018,
+    "Retorno - 12M": 0.134966,
+    "DY a.a.": 0.140515,
+    "Último Dividendo Pago": 0.1,
+    "% Dias Acima CDI 1A": 0.2056,
     "% Dias Acima CDI 3A": 0.3703,
     "% Dias Acima CDI 5A": 0.3703,
     "% Dias Acima CDI MAX": 0.3703
@@ -9721,7 +9721,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 20803567.5,
+    "Cotas de FIIs": 444376995.36
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

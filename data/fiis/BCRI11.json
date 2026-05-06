@@ -4,19 +4,19 @@
     "Ticker": "BCRI11",
     "Nome": "Banestes Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.005692,
-    "Retorno - 12M": 0.080316,
-    "P/VP": 0.723088,
-    "Último Dividendo Pago": 0.7,
-    "DY a.a.": 0.135,
     "Visão Geral": "FII de papel que investe em CRIs e outros ativos de crédito imobiliário, com foco em geração de renda recorrente. Iniciado em 2015, conta com mais de 44 mil cotistas segundo divulgações do Banestes. A estratégia prioriza recebíveis imobiliários e carteira financeira.",
     "Comentário": "O BCRI11 distribuiu R$0,66/cota em fevereiro, com dividend yield de 0,99% líquido, refletindo composição de carteira ponderada por CRIs em IPCA e fundos financeiros. A duration média da carteira permaneceu em 3,22 anos com LTV médio de 56,73%, demonstrando exposição equilibrada. Rendimentos acumulados de R$10,01/cota em 12 meses totalizaram 14,94% de dividend yield anualizado no período.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 61.65,
+    "Preço Atual": 61.93,
     "VP/cota": 85.25935,
-    "% Dias Acima CDI 1A": 0.5984,
+    "P/VP": 0.726372,
+    "Retorno - MTD": 0.005692,
+    "Retorno - 12M": 0.080316,
+    "DY a.a.": 0.159535,
+    "Último Dividendo Pago": 0.7,
+    "% Dias Acima CDI 1A": 0.6008,
     "% Dias Acima CDI 3A": 0.2443,
-    "% Dias Acima CDI 5A": 0.3915,
+    "% Dias Acima CDI 5A": 0.391,
     "% Dias Acima CDI MAX": 0.5004
   },
   "historico_preco": [
@@ -42701,7 +42701,11 @@
       0.7
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 43387578.349999994,
+    "CRI/CRA": 490183161.8800003
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

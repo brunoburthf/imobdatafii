@@ -4,19 +4,19 @@
     "Ticker": "RZAT11",
     "Nome": "Riza Arctium Real Estate FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.086558,
-    "Retorno - 12M": 0.26219,
-    "P/VP": 0.975274,
-    "Último Dividendo Pago": 1.4,
-    "DY a.a.": 0.171,
     "Visão Geral": "FII de agronegócio que investe em imóveis rurais e ativos ligados à produção agrícola, com foco em aquisição, arrendamento e eventual alienação de propriedades. Tem gestão da Riza e atuação direcionada a terras produtivas. A estratégia prioriza renda recorrente e valorização patrimonial no ciclo de longo prazo do agro brasileiro.",
     "Comentário": "Em fevereiro distribuiu R$ 1,00/cota mantendo R$ 0,70/cota em caixa para futuras distribuições. Portfólio de 10 imóveis adquiridos por R$ 405 milhões avaliados em R$ 1,04 bilhão, gerando spread médio de IPCA+10,0% a.a. Completou negociação com Aliança Agrícola para reestruturação de operação em Porto dos Gaúchos.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 99.18,
+    "Preço Atual": 97.7,
     "VP/cota": 101.694465,
-    "% Dias Acima CDI 1A": 0.494,
+    "P/VP": 0.960721,
+    "Retorno - MTD": 0.086558,
+    "Retorno - 12M": 0.26219,
+    "DY a.a.": 0.125896,
+    "Último Dividendo Pago": 1.4,
+    "% Dias Acima CDI 1A": 0.496,
     "% Dias Acima CDI 3A": 0.4805,
-    "% Dias Acima CDI 5A": 0.5812,
+    "% Dias Acima CDI 5A": 0.5809,
     "% Dias Acima CDI MAX": 0.627
   },
   "historico_preco": [
@@ -25697,7 +25697,12 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Outros": 15464667.77,
+    "Cotas de FIIs": 17754108.32,
+    "CRI/CRA": 19434185.27
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

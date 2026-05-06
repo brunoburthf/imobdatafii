@@ -4,19 +4,19 @@
     "Ticker": "RBRP11",
     "Nome": "FII Rbr Properties",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.010499,
-    "Retorno - 12M": 0.162975,
-    "P/VP": 0.637878,
-    "Último Dividendo Pago": 0.4,
-    "DY a.a.": 0.092,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com gestão ativa e foco em renda locatícia e valorização patrimonial. É gerido pela RBR e integra sua estratégia de renda e properties. O portfólio é concentrado em imóveis corporativos, com atuação voltada à locação, reciclagem de ativos e geração recorrente.",
     "Comentário": "A Patria assumiu gestão em fevereiro, apresentando resultado de R$ 0,46/cota com distribuição de R$ 0,40/cota. Vacância permaneceu em 23,8%, com esforços em negociações para Venezuela e Jacks Rabinovich. Reajustes contratuais foram realizados em 9.751 m² de ABL do portfólio corporativo.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 52.08,
+    "Preço Atual": 51.75,
     "VP/cota": 81.645758,
-    "% Dias Acima CDI 1A": 0.4137,
+    "P/VP": 0.633836,
+    "Retorno - MTD": 0.010499,
+    "Retorno - 12M": 0.162975,
+    "DY a.a.": 0.092754,
+    "Último Dividendo Pago": 0.4,
+    "% Dias Acima CDI 1A": 0.4153,
     "% Dias Acima CDI 3A": 0.3624,
-    "% Dias Acima CDI 5A": 0.25,
+    "% Dias Acima CDI 5A": 0.2494,
     "% Dias Acima CDI MAX": 0.3787
   },
   "historico_preco": [
@@ -28249,7 +28249,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 203940233.82999998,
+    "CRI/CRA": 55390514.230000004
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

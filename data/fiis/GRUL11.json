@@ -4,16 +4,16 @@
     "Ticker": "GRUL11",
     "Nome": "Icatu Vanguarda Gru Logístico FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.039427,
-    "Retorno - 12M": 0.149523,
-    "P/VP": 0.915825,
-    "Último Dividendo Pago": 0.08,
-    "DY a.a.": 0.113,
     "Visão Geral": "FII de logística que investe em direitos de exploração de galpões logísticos localizados dentro do Aeroporto Internacional de Guarulhos. O fundo detém três galpões com 43.274 m² de ABL e concessão válida até fevereiro de 2062. A estratégia prioriza renda de locação e potencial de ganho de capital em renovações.",
     "Comentário": "Em março, GRUL11 formalizou novo contrato de subcessão para Módulo 17 (1.988 m²) no Parque Logístico Aero I, mantendo portfólio sem vacância com ocupação 100% consolidada. Distribuição estável em R$ 0,08/cota reflete operação sólida com certificação LEED em todos os galpões, embora negociação ocorra a desconto significativo frente aos pares do setor logístico.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 8.83,
+    "Preço Atual": 8.77,
     "VP/cota": 9.641585,
+    "P/VP": 0.909601,
+    "Retorno - MTD": 0.039427,
+    "Retorno - 12M": 0.149523,
+    "DY a.a.": 0.119726,
+    "Último Dividendo Pago": 0.08,
     "% Dias Acima CDI 1A": 0.75,
     "% Dias Acima CDI 3A": 0.75,
     "% Dias Acima CDI 5A": 0.75,
@@ -6289,7 +6289,12 @@
       0.08
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 3674061.24,
+    "CRI/CRA": 4189915.46,
+    "Outros": 339720.82
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

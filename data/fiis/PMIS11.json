@@ -4,17 +4,17 @@
     "Ticker": "PMIS11",
     "Nome": "Paramis Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.019005,
-    "Retorno - 12M": 0.187207,
-    "P/VP": 0.85018,
-    "Último Dividendo Pago": 0.092,
-    "DY a.a.": 0.137,
     "Visão Geral": "FII híbrido que investe em CRI, debêntures, LCI, LH e cotas de FII, com mandato multiestratégia voltado à renda mensal. É gerido pela Paramis e tinha 83,5% do patrimônio alocado em ativos-alvo no relatório de outubro de 2025. A estratégia combina crédito e fundos imobiliários com gestão ativa.",
     "Comentário": "Resultado de R$ 0,097/cota com distribuição de R$ 0,092/cota em março, gerando yield mensal de 1,13% (129,03% do CDI). Fundo mantém 79% alocado em ativos alvo com 51,4% em CRI carrego IPCA (taxa MtM 10,1% a.a.) e 10% em FII carrego.",
     "Mês Ref. Comentário": "mar/26",
     "Preço Atual": 8.0,
     "VP/cota": 9.409777,
-    "% Dias Acima CDI 1A": 0.3936,
+    "P/VP": 0.85018,
+    "Retorno - MTD": 0.019005,
+    "Retorno - 12M": 0.187207,
+    "DY a.a.": 0.142875,
+    "Último Dividendo Pago": 0.092,
+    "% Dias Acima CDI 1A": 0.3952,
     "% Dias Acima CDI 3A": 0.3172,
     "% Dias Acima CDI 5A": 0.3172,
     "% Dias Acima CDI MAX": 0.3172
@@ -9117,7 +9117,12 @@
       0.092
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 101001131.12706691,
+    "Cotas de FIIs": 36648518.24999999,
+    "Outros": 3172233.77
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

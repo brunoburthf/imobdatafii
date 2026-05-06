@@ -4,16 +4,16 @@
     "Ticker": "URPR11",
     "Nome": "Urca Prime Renda FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.101898,
-    "Retorno - 12M": -0.383436,
-    "P/VP": 0.326404,
-    "Último Dividendo Pago": 0.3,
-    "DY a.a.": 0.124,
     "Visão Geral": "FII de papel que investe em CRIs pulverizados de empreendimentos imobiliários, com foco em geração de renda recorrente por meio de crédito imobiliário. Constituído em dezembro de 2019, é negociado na B3 sob gestão da Urca. A estratégia prioriza carteira pulverizada e exposição a recebíveis do setor imobiliário.",
     "Comentário": "O fundo distribuiu R$ 0,35/cota com dividend yield mensal de 0,34% ou anual de 4,07%, equivalendo a 32,69% do CDI. Mantém aproximadamente R$ 5MM em reserva de caixa para aportes em obras em andamento, com foco em recuperação de ativos de desenvolvimento. A gestão segue acompanhando Maravista, Barbosa e Riacho Doce conforme cronogramas planejados, buscando maximizar rentabilidade em ambiente de juros elevados.",
     "Mês Ref. Comentário": "dez/25",
-    "Preço Atual": 29.33,
+    "Preço Atual": 29.46,
     "VP/cota": 89.85793,
+    "P/VP": 0.327851,
+    "Retorno - MTD": -0.101898,
+    "Retorno - 12M": -0.383436,
+    "DY a.a.": 0.152749,
+    "Último Dividendo Pago": 0.3,
     "% Dias Acima CDI 1A": 0.0,
     "% Dias Acima CDI 3A": 0.0067,
     "% Dias Acima CDI 5A": 0.2196,
@@ -23177,7 +23177,13 @@
       0.3
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 441456562.4999999,
+    "FIDCs": 188680220.39,
+    "Outros": 14243000.0,
+    "Cotas de FIIs": 2123663.86
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

@@ -4,19 +4,19 @@
     "Ticker": "MCCI11",
     "Nome": "FII Mauá Capital Recebíveis Imobiliários",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.041366,
-    "Retorno - 12M": 0.296411,
-    "P/VP": 0.983654,
-    "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.127,
     "Visão Geral": "FII de papel que investe em CRIs e outros valores mobiliários de natureza imobiliária, com foco em rendimento e ganho de capital. Iniciado em dezembro de 2019, é gerido pela Mauá Capital Real Estate. A estratégia prioriza crédito imobiliário como principal fonte de renda recorrente, com gestão ativa da carteira.",
     "Comentário": "Distribuição mantida em R$ 1,00/cota com dividend yield de 13,3% a.a. Não houve movimentações relevantes em fevereiro, mantendo carteira diversificada em ativos resilientes com 100% dos CRIs adimplentes. Gestão projeta distribuição entre R$ 0,90 e R$ 1,00/cota para o primeiro semestre 2026.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 93.58,
+    "Preço Atual": 95.52,
     "VP/cota": 95.13506,
-    "% Dias Acima CDI 1A": 0.6506,
+    "P/VP": 1.004046,
+    "Retorno - MTD": 0.041366,
+    "Retorno - 12M": 0.296411,
+    "DY a.a.": 0.122487,
+    "Último Dividendo Pago": 1.0,
+    "% Dias Acima CDI 1A": 0.6532,
     "% Dias Acima CDI 3A": 0.3839,
-    "% Dias Acima CDI 5A": 0.4453,
+    "% Dias Acima CDI 5A": 0.4449,
     "% Dias Acima CDI MAX": 0.4672
   },
   "historico_preco": [
@@ -26041,7 +26041,12 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 392063867.6499999,
+    "CRI/CRA": 1183707788.31,
+    "Outros": 37138956.47
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

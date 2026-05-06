@@ -4,19 +4,19 @@
     "Ticker": "MXRF11",
     "Nome": "Maxi Renda FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.009669,
-    "Retorno - 12M": 0.210837,
-    "P/VP": 1.044923,
-    "Último Dividendo Pago": 0.1,
-    "DY a.a.": 0.123,
     "Visão Geral": "FII de papel que investe em CRIs e operações de desenvolvimento residencial via permutas financeiras. Lançado em 2012, tem gestão ativa da XP Asset e atuação em diversos segmentos do mercado imobiliário. A estratégia combina renda de crédito com exposição estruturada ao desenvolvimento, buscando distribuição recorrente e diversificação da carteira.",
     "Comentário": "Distribuição de R$ 0,10/cota em fevereiro com yield mensal de 1,04% (118,12% do CDI com gross-up 15% de IR). Gestão adquiriu novo CRI JK Square (R$ 20 milhões, IPCA + 9,04% a.a.) e CRI Amy (R$ 7 milhões), mantendo estratégia de reciclagem de carteira.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 9.8,
+    "Preço Atual": 9.92,
     "VP/cota": 9.37868,
-    "% Dias Acima CDI 1A": 0.4819,
+    "P/VP": 1.057718,
+    "Retorno - MTD": 0.009669,
+    "Retorno - 12M": 0.210837,
+    "DY a.a.": 0.120464,
+    "Último Dividendo Pago": 0.1,
+    "% Dias Acima CDI 1A": 0.4839,
     "% Dias Acima CDI 3A": 0.4966,
-    "% Dias Acima CDI 5A": 0.5756,
+    "% Dias Acima CDI 5A": 0.5752,
     "% Dias Acima CDI MAX": 0.7175
   },
   "historico_preco": [
@@ -49445,7 +49445,11 @@
       0.1
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 562844015.03,
+    "CRI/CRA": 3354012542.0099998
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

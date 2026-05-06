@@ -4,19 +4,19 @@
     "Ticker": "KFOF11",
     "Nome": "Fundo de Fundos de Investimento Imobiliário Kinea FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.010507,
-    "Retorno - 12M": 0.161489,
-    "P/VP": 0.88226,
-    "Último Dividendo Pago": 0.8,
-    "DY a.a.": 0.116,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de outros FIIs, com gestão ativa e objetivo de capturar renda e valorização no mercado imobiliário listado. É gerido pela Kinea e teve início em março de 2018. A estratégia combina diversificação entre fundos e reciclagem tática de portfólio.",
     "Comentário": "Em março, cota patrimonial do KFOF caiu 0,14%, desempenho 0,92% superior à queda de 1,06% do IFIX, refletindo conflito geopolítico elevando expectativas de inflação e reduzindo espaço para cortes de juros. Distribuição anunciada de R$0,80/cota mantém patamar de R$0,75 a R$0,85 para primeiro semestre. Gestão reduziu posições em CRI e Multiestratégia, encerrando posições short em Shoppings com lucro.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 82.27,
+    "Preço Atual": 82.8,
     "VP/cota": 93.249134,
-    "% Dias Acima CDI 1A": 0.5221,
+    "P/VP": 0.887944,
+    "Retorno - MTD": 0.010507,
+    "Retorno - 12M": 0.161489,
+    "DY a.a.": 0.11413,
+    "Último Dividendo Pago": 0.8,
+    "% Dias Acima CDI 1A": 0.5242,
     "% Dias Acima CDI 3A": 0.5557,
-    "% Dias Acima CDI 5A": 0.4309,
+    "% Dias Acima CDI 5A": 0.4304,
     "% Dias Acima CDI MAX": 0.423
   },
   "historico_preco": [
@@ -29297,7 +29297,11 @@
       0.8
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 565482506.8199999,
+    "CRI/CRA": 30191373.88
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

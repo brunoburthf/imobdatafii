@@ -4,19 +4,19 @@
     "Ticker": "RECT11",
     "Nome": "FII Rec Renda Imobiliaria",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.002021,
-    "Retorno - 12M": 0.351089,
-    "P/VP": 0.426484,
-    "Último Dividendo Pago": 0.45,
-    "DY a.a.": 0.141,
     "Visão Geral": "FII de lajes corporativas que investe em imóveis com exploração comercial, preferencialmente prontos, incluindo escritórios e outros ativos urbanos de renda. É gerido pela REC Gestão e atua com gestão ativa no segmento corporativo. A estratégia prioriza locação recorrente, reciclagem patrimonial e captura de valor em imóveis comerciais relevantes.",
     "Comentário": "Em março distribuiu R$ 0,4500/cota, gerando dividend yield de 1,14% mensal (13,72% a.a.), equivalente a 122% do CDI após impostos. Portfólio de 7 imóveis com 91,75% de ocupação apresenta valor patrimonial de R$ 89,76/cota. Fundo alienou 4 imóveis para gerenciar passivos estrategicamente.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 38.28,
+    "Preço Atual": 38.47,
     "VP/cota": 89.757079,
-    "% Dias Acima CDI 1A": 0.6185,
+    "P/VP": 0.428601,
+    "Retorno - MTD": 0.002021,
+    "Retorno - 12M": 0.351089,
+    "DY a.a.": 0.127892,
+    "Último Dividendo Pago": 0.45,
+    "% Dias Acima CDI 1A": 0.621,
     "% Dias Acima CDI 3A": 0.2067,
-    "% Dias Acima CDI 5A": 0.1238,
+    "% Dias Acima CDI 5A": 0.1239,
     "% Dias Acima CDI MAX": 0.235
   },
   "historico_preco": [
@@ -28517,7 +28517,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 10999128.580000002,
+    "Cotas de FIIs": 3496795.7
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

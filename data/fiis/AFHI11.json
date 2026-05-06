@@ -4,17 +4,17 @@
     "Ticker": "AFHI11",
     "Nome": "Af Invest Cri FII Recebíveis Imobiliários",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.036688,
-    "Retorno - 12M": 0.193159,
-    "P/VP": 1.016887,
-    "Último Dividendo Pago": 0.98,
-    "DY a.a.": 0.121,
     "Visão Geral": "FII de papel que investe em CRIs como principal ativo, podendo alocar também em instrumentos imobiliários complementares e cotas de FIIs. É gerido pela AF Invest e tinha patrimônio líquido de R$ 456,2 milhões na página oficial consultada. A estratégia prioriza renda recorrente com foco em crédito imobiliário.",
     "Comentário": "O fundo encerrou fevereiro com distribuição estável de R$0,97/cota, apesar de ter recebido resultado total de R$1,25/cota. A equipe de gestão manteve posição conservadora, acumulando reserva de R$0,28/cota para próximos períodos. A cota patrimonial valorizou 0,18% em relação a janeiro, refletindo marcação a mercado positiva dos CRIs. Destaca-se o pré-pagamento extraordinário do CRI Rochaverá, que gerou prêmio de R$0,07/cota.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 96.71,
+    "Preço Atual": 97.4,
     "VP/cota": 95.104022,
-    "% Dias Acima CDI 1A": 0.502,
+    "P/VP": 1.024142,
+    "Retorno - MTD": 0.036688,
+    "Retorno - 12M": 0.193159,
+    "DY a.a.": 0.124025,
+    "Último Dividendo Pago": 0.98,
+    "% Dias Acima CDI 1A": 0.504,
     "% Dias Acima CDI 3A": 0.5356,
     "% Dias Acima CDI 5A": 0.5904,
     "% Dias Acima CDI MAX": 0.5904
@@ -20705,7 +20705,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 415573182.40999985,
+    "Cotas de FIIs": 37704718.04
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

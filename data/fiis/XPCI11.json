@@ -4,19 +4,19 @@
     "Ticker": "XPCI11",
     "Nome": "Xp Crédito Imobiliário FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.003316,
-    "Retorno - 12M": 0.21442,
-    "P/VP": 0.926574,
-    "Último Dividendo Pago": 0.9,
-    "DY a.a.": 0.131,
     "Visão Geral": "FII de papel que investe em CRIs, debêntures, LCIs, LHs e cotas de FIIs, com foco em ativos financeiros com lastro imobiliário. Lançado em 2019, é gerido pela XP Asset e busca carteira com CRIs de boa qualidade de crédito. A estratégia prioriza renda recorrente com diversificação de instrumentos.",
     "Comentário": "Distribuição de R$0,85/cota (12,89% a.a., 15,32% com grossup). Receitas totais R$7,6 mi com R$6,8 mi de CRI. Aquisição de R$10 mi CRI Amy II (CDI+2,35%, IPCA+) e redução R$2 mi Arena MRV. Carteira 88,2% IPCA+, 11,8% CDI+, LTV médio 50%, yield médio 10,27% (IPCA+5,58%), posicionando-se defensivamente.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 82.14,
+    "Preço Atual": 82.64,
     "VP/cota": 88.649193,
-    "% Dias Acima CDI 1A": 0.5663,
+    "P/VP": 0.932214,
+    "Retorno - MTD": 0.003316,
+    "Retorno - 12M": 0.21442,
+    "DY a.a.": 0.132381,
+    "Último Dividendo Pago": 0.9,
+    "% Dias Acima CDI 1A": 0.5685,
     "% Dias Acima CDI 3A": 0.4792,
-    "% Dias Acima CDI 5A": 0.5,
+    "% Dias Acima CDI 5A": 0.4996,
     "% Dias Acima CDI MAX": 0.4996
   },
   "historico_preco": [
@@ -25981,7 +25981,12 @@
       0.9
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 79873603.30000001,
+    "CRI/CRA": 700473778.5565062,
+    "Outros": 3455082.29
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

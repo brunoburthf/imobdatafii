@@ -4,19 +4,19 @@
     "Ticker": "HABT11",
     "Nome": "Habitat Recebíveis Pulverizados FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.028346,
-    "Retorno - 12M": 0.101909,
-    "P/VP": 0.786104,
-    "Último Dividendo Pago": 0.95,
-    "DY a.a.": 0.152,
     "Visão Geral": "FII de papel que investe em títulos de dívida imobiliária e outros valores mobiliários com lastro em devedores pulverizados, buscando renda e ganho de capital. É gerido pela XP Asset e adota estratégia de crédito imobiliário pulverizado. A carteira prioriza diversificação entre operações para geração recorrente de rendimentos.",
     "Comentário": "Distribuição de R$ 0,95/cota resultou em dividend yield de 15,79% ao ano ou 18,80% com gross-up de impostos. Carteira realocada com aquisição de R$ 10 MM em CRI Setai (CDI+4%), resgate antecipado de CRI Copacabana e venda de CRI Gran Paradiso. Inflação mais baixa impactou negativamente rendimentos, mantendo histórico de R$ 12,25/cota em 12 meses.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 75.17,
+    "Preço Atual": 75.36,
     "VP/cota": 95.623506,
-    "% Dias Acima CDI 1A": 0.2731,
+    "P/VP": 0.788091,
+    "Retorno - MTD": 0.028346,
+    "Retorno - 12M": 0.101909,
+    "DY a.a.": 0.159236,
+    "Último Dividendo Pago": 0.95,
+    "% Dias Acima CDI 1A": 0.2742,
     "% Dias Acima CDI 3A": 0.3154,
-    "% Dias Acima CDI 5A": 0.3633,
+    "% Dias Acima CDI 5A": 0.3628,
     "% Dias Acima CDI MAX": 0.4462
   },
   "historico_preco": [
@@ -27377,7 +27377,11 @@
       0.95
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 716410125.5199996,
+    "Cotas de FIIs": 89527134.9
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

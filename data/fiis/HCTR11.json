@@ -4,19 +4,19 @@
     "Ticker": "HCTR11",
     "Nome": "Hectare Ce FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.093451,
-    "Retorno - 12M": 0.017148,
-    "P/VP": 0.169097,
-    "Último Dividendo Pago": 0.23,
-    "DY a.a.": 0.155,
     "Visão Geral": "FII de papel que investe em CRIs e outros valores mobiliários de natureza imobiliária, com foco em geração de renda e valorização no longo prazo. Iniciado em 2018, é gerido pela Hectare Capital.",
     "Comentário": "Fundo distribuiu R$ 0,40/cota com dividend yield de 1,90% ao mês, refletindo resultado do semestre com alavancagem adequada. Portfolio composto por 42 CRIs pulverizados com exposição de 87,38% do PL, complementado por 10,08% em FIIs e 2,37% em caixa. Gestão focada na cobrança de inadimplentes e no monitoramento de operações com waivers.",
     "Mês Ref. Comentário": "dez/25",
-    "Preço Atual": 17.89,
+    "Preço Atual": 17.2,
     "VP/cota": 105.797289,
-    "% Dias Acima CDI 1A": 0.3092,
+    "P/VP": 0.162575,
+    "Retorno - MTD": -0.093451,
+    "Retorno - 12M": 0.017148,
+    "DY a.a.": 0.209645,
+    "Último Dividendo Pago": 0.23,
+    "% Dias Acima CDI 1A": 0.3105,
     "% Dias Acima CDI 3A": 0.1154,
-    "% Dias Acima CDI 5A": 0.2291,
+    "% Dias Acima CDI 5A": 0.2285,
     "% Dias Acima CDI MAX": 0.3368
   },
   "historico_preco": [
@@ -27649,7 +27649,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 2069754549.829999,
+    "Cotas de FIIs": 184424058.76999998
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

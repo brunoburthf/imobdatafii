@@ -4,17 +4,17 @@
     "Ticker": "VGHF11",
     "Nome": "Valora Hedge Fund FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.028571,
-    "Retorno - 12M": 0.004232,
-    "P/VP": 0.723832,
-    "Último Dividendo Pago": 0.07,
-    "DY a.a.": 0.132,
     "Visão Geral": "FII híbrido que investe em ações imobiliárias, debêntures, SPEs, FIPs, FIAs, FIIs, CRIs, FIDCs e outros títulos imobiliários. É gerido pela Valora e adota mandato multiestratégia. A estratégia combina crédito, ativos listados e participações para diversificar a carteira e gerar renda recorrente com flexibilidade de alocação setorial e regional imobiliária.",
     "Comentário": "O fundo atingiu 103,2% de alocação em Ativos-Alvo, distribuindo R$ 0,07/cota mensalmente, equivalente a IPCA+6,8% anualizados sobre cota patrimonial. Na carteira VALOR houve vendas líquidas de R$ 2,9MM em ações e fundos imobiliários. Na carteira RENDA, compras de R$ 421 mil em CRIs mantiveram alocação balanceada entre as estratégias de valor (52,7%) e renda (47,3%).",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 6.26,
+    "Preço Atual": 6.15,
     "VP/cota": 8.648421,
-    "% Dias Acima CDI 1A": 0.1566,
+    "P/VP": 0.711112,
+    "Retorno - MTD": -0.028571,
+    "Retorno - 12M": 0.004232,
+    "DY a.a.": 0.152846,
+    "Último Dividendo Pago": 0.07,
+    "% Dias Acima CDI 1A": 0.1573,
     "% Dias Acima CDI 3A": 0.2564,
     "% Dias Acima CDI 5A": 0.3562,
     "% Dias Acima CDI MAX": 0.3562
@@ -21005,7 +21005,13 @@
       0.07
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 824133862.3399999,
+    "CRI/CRA": 398896661.84999985,
+    "Outros": 66504897.34,
+    "FIDCs": 15008965.41
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

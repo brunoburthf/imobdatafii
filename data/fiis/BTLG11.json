@@ -4,19 +4,19 @@
     "Ticker": "BTLG11",
     "Nome": "BTG Pactual Logística FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.012679,
-    "Retorno - 12M": 0.128359,
-    "P/VP": 1.005756,
-    "Último Dividendo Pago": 0.81,
-    "DY a.a.": 0.094,
     "Visão Geral": "FII de logística que investe em galpões logísticos, com portfólio relevante em São Paulo e outros estados. O fundo reúne ativos em polos como Cajamar, Louveira, Campinas, Jundiaí e Extrema, locados a inquilinos como Amazon, Mercado Livre, DHL e Nestlé. A estratégia combina renda locatícia recorrente e gestão ativa setorial.",
     "Comentário": "Distribuiu R$ 0,80/cota com dividend yield de 9,3% a.a. Vacância consolidada em 2,9% reforça resiliência. Concluiu locação em Ribeirão Preto com 43% de ganho real; renovação em Mauá gerou 25% de aumento com extensão até 2027. Revisão em Louveira IV produziu 17% de ganho. Portfólio com 34 imóveis e 1,4 mm m² mantém qualidade através de renegociações ativas.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 103.1,
+    "Preço Atual": 103.54,
     "VP/cota": 102.509955,
-    "% Dias Acima CDI 1A": 0.5944,
+    "P/VP": 1.010048,
+    "Retorno - MTD": 0.012679,
+    "Retorno - 12M": 0.128359,
+    "DY a.a.": 0.09156,
+    "Último Dividendo Pago": 0.81,
+    "% Dias Acima CDI 1A": 0.5968,
     "% Dias Acima CDI 3A": 0.3973,
-    "% Dias Acima CDI 5A": 0.3537,
+    "% Dias Acima CDI 5A": 0.3532,
     "% Dias Acima CDI MAX": 0.5785
   },
   "historico_preco": [
@@ -50197,7 +50197,12 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 882087194.5000001,
+    "Outros": 101756983.14999999,
+    "CRI/CRA": 987384.89
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

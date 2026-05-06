@@ -4,19 +4,19 @@
     "Ticker": "BPML11",
     "Nome": "BTG Pactual Shoppings FII",
     "Setor": "Shoppings",
-    "Retorno - MTD": 0.02715,
-    "Retorno - 12M": 0.382351,
-    "P/VP": 0.749044,
-    "Último Dividendo Pago": 0.92,
-    "DY a.a.": 0.119,
     "Visão Geral": "FII de shopping que investe em participações em shopping centers no Brasil, buscando renda imobiliária e ganho de capital com gestão ativa. Foi lançado em julho de 2019 e figura no segmento de shopping centers da plataforma BTG. A estratégia combina exploração dos ativos, reciclagem de portfólio e geração recorrente de caixa.",
     "Comentário": "O BTG Pactual Shoppings avançou comercialmente em março com reinauguração de âncora de esportes no Ilha Plaza e assinatura de novo restaurante no Capim Dourado, qualificando o mix de lojistas. As vendas seguiram em expansão no consolidado versus ano anterior, com Plaza Macaé registrando crescimento consistente de fluxo desde segundo semestre 2025. Distribuição mantida em R$0,92/cota com dividend yield de 12,08%.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 92.86,
+    "Preço Atual": 92.98,
     "VP/cota": 123.971406,
-    "% Dias Acima CDI 1A": 0.5703,
+    "P/VP": 0.750012,
+    "Retorno - MTD": 0.02715,
+    "Retorno - 12M": 0.382351,
+    "DY a.a.": 0.154549,
+    "Último Dividendo Pago": 0.92,
+    "% Dias Acima CDI 1A": 0.5726,
     "% Dias Acima CDI 3A": 0.5678,
-    "% Dias Acima CDI 5A": 0.3403,
+    "% Dias Acima CDI 5A": 0.3406,
     "% Dias Acima CDI MAX": 0.3104
   },
   "historico_preco": [
@@ -24221,7 +24221,10 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 182533760.07
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

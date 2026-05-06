@@ -4,19 +4,19 @@
     "Ticker": "PORD11",
     "Nome": "Polo Crédito Imobiliário FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.020163,
-    "Retorno - 12M": 0.169547,
-    "P/VP": 0.877592,
-    "Último Dividendo Pago": 0.098,
-    "DY a.a.": 0.14,
     "Visão Geral": "FII de papel que investe em CRIs e outros ativos financeiros de natureza imobiliária, com foco em geração de renda recorrente. É gerido pela Polo Capital, iniciou em 4 de janeiro de 2013 e tinha 46.634 cotistas nas informações consultadas. A estratégia prioriza crédito imobiliário com carteira financeira dedicada.",
     "Comentário": "Distribuição de R$ 0,10/cota em fevereiro com dividend yield de 13,72% a.a. (IPCA + 9,07%). Fundo realizou aquisição oportunística no mercado secundário, aumentando exposição ao CRI Patrimar (CDI + 2,9%), totalizando 1,15% do patrimônio.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 8.37,
+    "Preço Atual": 8.35,
     "VP/cota": 9.537467,
-    "% Dias Acima CDI 1A": 0.498,
+    "P/VP": 0.875495,
+    "Retorno - MTD": 0.020163,
+    "Retorno - 12M": 0.169547,
+    "DY a.a.": 0.140719,
+    "Último Dividendo Pago": 0.098,
+    "% Dias Acima CDI 1A": 0.5,
     "% Dias Acima CDI 3A": 0.3987,
-    "% Dias Acima CDI 5A": 0.463,
+    "% Dias Acima CDI 5A": 0.4626,
     "% Dias Acima CDI MAX": 0.5342
   },
   "historico_preco": [
@@ -42165,7 +42165,12 @@
       0.098
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 211203541.49999994,
+    "Outros": 11934036.96,
+    "Cotas de FIIs": 33465212.369999997
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

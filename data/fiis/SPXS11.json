@@ -4,17 +4,17 @@
     "Ticker": "SPXS11",
     "Nome": "Spx Real Estate Multiestratégia FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": -0.000456,
-    "Retorno - 12M": 0.126948,
-    "P/VP": 0.889487,
-    "Último Dividendo Pago": 0.095,
-    "DY a.a.": 0.135,
     "Visão Geral": "FII multiestratégia que investe em ativos imobiliários de renda, crédito, ações, desenvolvimento e outras frentes do setor. É gerido pela SPX Real Estate e busca geração de valor ancorada em ativos geradores de renda, complementada por ganho de capital. A estratégia combina gestão ativa, mandato flexível e diversificação setorial.",
     "Comentário": "O fundo distribuiu R$ 0,092/cota, refletindo 13,2% de dividend yield anualizado. Alocou R$ 2,6MM no CRI Caprem, R$ 3,0MM no CRI Zarin e R$ 1,7MM no CRI Tríplice, com prazos variando entre CDI+4,9% e CDI+5,5%. Atingiu 91% de alocação no final do período, mantendo exposição diversificada entre CRIs, fundos imobiliários e ações.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 8.4,
+    "Preço Atual": 8.43,
     "VP/cota": 9.443646,
-    "% Dias Acima CDI 1A": 0.3735,
+    "P/VP": 0.892664,
+    "Retorno - MTD": -0.000456,
+    "Retorno - 12M": 0.126948,
+    "DY a.a.": 0.145077,
+    "Último Dividendo Pago": 0.095,
+    "% Dias Acima CDI 1A": 0.375,
     "% Dias Acima CDI 3A": 0.4206,
     "% Dias Acima CDI 5A": 0.4206,
     "% Dias Acima CDI MAX": 0.4206
@@ -15129,7 +15129,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 54500646.72,
+    "CRI/CRA": 133571618.27
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

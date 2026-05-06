@@ -4,19 +4,19 @@
     "Ticker": "XPLG11",
     "Nome": "Xp Log FII",
     "Setor": "Logística",
-    "Retorno - MTD": 0.009823,
-    "Retorno - 12M": 0.087396,
-    "P/VP": 0.939899,
-    "Último Dividendo Pago": 0.82,
-    "DY a.a.": 0.098,
     "Visão Geral": "FII de logística que investe em imóveis logísticos, com gestão ativa focada em locação e reciclagem de portfólio. Lançado em 2018 pela XP Asset, obtém renda dos aluguéis e de lucros imobiliários com vendas oportunísticas. A carteira busca diversificação operacional e presença em ativos relevantes do segmento logístico brasileiro.",
     "Comentário": "Rendimento de R$0,82/cota (9,78% DY) com receitas R$33,2 mi e vacância subindo para 8,7% físico e 4,3% financeira após devoluções CD Piracicaba. Pipeline de 9ª emissão (R$1 bi) previsto encerrar abril. Caixa operacional saudável com WAULT 4,9 anos e receita Mercado Livre concentrada em 52% do portfólio logístico.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 99.78,
+    "Preço Atual": 100.09,
     "VP/cota": 106.160366,
-    "% Dias Acima CDI 1A": 0.498,
+    "P/VP": 0.942819,
+    "Retorno - MTD": 0.009823,
+    "Retorno - 12M": 0.087396,
+    "DY a.a.": 0.098312,
+    "Último Dividendo Pago": 0.82,
+    "% Dias Acima CDI 1A": 0.5,
     "% Dias Acima CDI 3A": 0.4644,
-    "% Dias Acima CDI 5A": 0.3625,
+    "% Dias Acima CDI 5A": 0.362,
     "% Dias Acima CDI MAX": 0.5029
   },
   "historico_preco": [
@@ -32085,7 +32085,11 @@
       0.82
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 502901304.84999996,
+    "Outros": 5533.0
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

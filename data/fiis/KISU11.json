@@ -4,17 +4,17 @@
     "Ticker": "KISU11",
     "Nome": "Kilima Fundo de Investimento em Cotas de FII Suno 30",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.022825,
-    "Retorno - 12M": 0.131824,
-    "P/VP": 0.835137,
-    "Último Dividendo Pago": 0.07,
-    "DY a.a.": 0.122,
     "Visão Geral": "FII de fundo de fundos que investe em cotas de FIIs, com objetivo de seguir a carteira teórica do índice SUNO 30 FII. A estratégia prioriza diversificação entre fundos listados e geração de renda recorrente no longo prazo.",
     "Comentário": "O fundo manteve divisor de R$0,07/cota em fevereiro, refletindo uma mudança na estratégia de distribuição. Com a desaceleração das oportunidades de ganho de capital no mercado de FIIs, a gestão adotou um modelo de distribuição mais conservador focado no carrego, alinhado aos fundamentos estruturais do índice SUNO 30 diante do cenário de abertura da curva de juros.",
     "Mês Ref. Comentário": "fev/26",
     "Preço Atual": 6.92,
     "VP/cota": 8.28607,
-    "% Dias Acima CDI 1A": 0.2329,
+    "P/VP": 0.835137,
+    "Retorno - MTD": 0.022825,
+    "Retorno - 12M": 0.131824,
+    "DY a.a.": 0.121387,
+    "Último Dividendo Pago": 0.07,
+    "% Dias Acima CDI 1A": 0.2339,
     "% Dias Acima CDI 3A": 0.4094,
     "% Dias Acima CDI 5A": 0.3828,
     "% Dias Acima CDI MAX": 0.3828
@@ -21597,7 +21597,10 @@
       0.07
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 363005592.97
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

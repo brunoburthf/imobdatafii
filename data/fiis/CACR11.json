@@ -4,19 +4,19 @@
     "Ticker": "CACR11",
     "Nome": "Cartesia Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.012197,
-    "Retorno - 12M": 0.010546,
-    "P/VP": 0.438666,
-    "Último Dividendo Pago": 1.2,
-    "DY a.a.": 0.380918,
     "Visão Geral": "FII de papel que investe em CRIs, LHs, LCIs, LIGs e FIIs, com foco em retornos consistentes por meio de carteira diversificada de investimentos imobiliários. O fundo prioriza a aquisição de ativos financeiros de natureza imobiliária, especialmente CRIs. A estratégia combina diversificação de crédito e geração recorrente de renda.",
     "Comentário": "Distribuiu R$ 1,21/cota equivalente a 19,40% de dividend yield anualizado nos últimos 12 meses. Mantém posição vendida de 4,82% das cotas. Portfólio permanece 100% adimplente com TIR média dos CRIs de 12,3% a.a. versus 7,6% do IMA-B. Realizou amortizações em Helvetia, Station e operações estruturadas, consolidando performance consistente desde aquisições.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 41.61,
+    "Preço Atual": 38.48,
     "VP/cota": 94.855715,
-    "% Dias Acima CDI 1A": 0.2008,
+    "P/VP": 0.405669,
+    "Retorno - MTD": 0.012197,
+    "Retorno - 12M": 0.010546,
+    "DY a.a.": 0.411902,
+    "Último Dividendo Pago": 1.2,
+    "% Dias Acima CDI 1A": 0.2016,
     "% Dias Acima CDI 3A": 0.5946,
-    "% Dias Acima CDI 5A": 0.7186,
+    "% Dias Acima CDI 5A": 0.7184,
     "% Dias Acima CDI MAX": 0.7332
   },
   "historico_preco": [
@@ -24621,7 +24621,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 379009968.3199999,
+    "Cotas de FIIs": 10855082.14
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

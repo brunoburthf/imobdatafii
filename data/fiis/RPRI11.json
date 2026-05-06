@@ -4,17 +4,17 @@
     "Ticker": "RPRI11",
     "Nome": "Rbr Premium Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.014761,
-    "Retorno - 12M": 0.092784,
-    "P/VP": 0.814265,
-    "Último Dividendo Pago": 0.9,
-    "DY a.a.": 0.13,
     "Visão Geral": "FII de papel que investe em CRIs, com objetivo de auferir rendimentos e ganhos de capital no crédito imobiliário. É gerido pela RBR e se posiciona no segmento de recebíveis imobiliários do setor de incorporação, com foco em papéis atrelados ao IPCA.",
     "Comentário": "Patria assume gestão em fevereiro com resultado distribuível de R$ 1,10/cota e distribuição de R$ 0,86/cota. Carteira de 35 CRIs com rentabilidade de 16,4% a.a. (IPCA+10,9%), prazo médio de 3,3 anos e spread de 2,7% a.a. Sem alavancagem estruturada ao final do período.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 82.13,
+    "Preço Atual": 82.58,
     "VP/cota": 100.86399,
-    "% Dias Acima CDI 1A": 0.3213,
+    "P/VP": 0.818726,
+    "Retorno - MTD": 0.014761,
+    "Retorno - 12M": 0.092784,
+    "DY a.a.": 0.143437,
+    "Último Dividendo Pago": 0.9,
+    "% Dias Acima CDI 1A": 0.3226,
     "% Dias Acima CDI 3A": 0.3921,
     "% Dias Acima CDI 5A": 0.3921,
     "% Dias Acima CDI MAX": 0.3921
@@ -15353,7 +15353,11 @@
       0.9
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 317569243.73,
+    "Cotas de FIIs": 25005637.67
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

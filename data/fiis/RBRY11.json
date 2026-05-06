@@ -4,19 +4,19 @@
     "Ticker": "RBRY11",
     "Nome": "FII Rbr Crédito Imobiliário Estruturado",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": -0.042438,
-    "Retorno - 12M": 0.15335,
-    "P/VP": 0.907184,
-    "Último Dividendo Pago": 1.06,
-    "DY a.a.": 0.14,
     "Visão Geral": "FII de papel que investe em CRIs estruturados, com foco em operações high yield e geração de renda recorrente. É gerido pela RBR e atua no segmento de crédito imobiliário com carteira diversificada. A estratégia combina originação própria, estruturação de operações e gestão ativa para capturar retorno em diferentes ciclos do mercado.",
     "Comentário": "Sob gestão Patria desde fevereiro, o fundo registrou resultado distribuível de R$ 0,59/cota com distribuição de R$ 1,09/cota utilizando reserva acumulada. Carteira de 56 CRIs com rentabilidade de 16,2% a.a. (CDI+2,8%), prazo médio de 2,1 anos. Alavancagem em redução conforme estratégia.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 90.54,
+    "Preço Atual": 91.42,
     "VP/cota": 99.803329,
-    "% Dias Acima CDI 1A": 0.6345,
+    "P/VP": 0.916002,
+    "Retorno - MTD": -0.042438,
+    "Retorno - 12M": 0.15335,
+    "DY a.a.": 0.15396,
+    "Último Dividendo Pago": 1.06,
+    "% Dias Acima CDI 1A": 0.6371,
     "% Dias Acima CDI 3A": 0.498,
-    "% Dias Acima CDI 5A": 0.5973,
+    "% Dias Acima CDI 5A": 0.5969,
     "% Dias Acima CDI MAX": 0.5541
   },
   "historico_preco": [
@@ -27189,7 +27189,12 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "30/09/2025",
+    "Cotas de FIIs": 202590680.17999995,
+    "CRI/CRA": 1044400172.1900002,
+    "Outros": 24625561.52
+  },
   "carteira_trimestral": {
     "data_ref": "2025-09-30",
     "ativos": [

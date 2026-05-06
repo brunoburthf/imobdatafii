@@ -4,19 +4,19 @@
     "Ticker": "RBVA11",
     "Nome": "Rio Bravo Renda Varejo FII",
     "Setor": "Tijolo Multissetorial",
-    "Retorno - MTD": 0.014271,
-    "Retorno - 12M": 0.267131,
-    "P/VP": 0.917136,
-    "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.11,
     "Visão Geral": "FII de renda urbana que investe em lojas de rua e imóveis voltados ao varejo, com gestão ativa e foco em renda recorrente. Tem 13 anos de histórico segundo a Rio Bravo e tese centrada em varejo AAA, com portfólio diversificado e estratégia de reciclagem de ativos para capturar locação e valorização imobiliária.",
     "Comentário": "Em março, resultado de R$ 0,10/cota com distribuição linear de R$ 0,09/cota. Fundo vendeu imóvel Via Anchieta por R$ 7,3 milhões gerando lucro de R$ 3,86 milhões (TIR 18,3% ao ano). Assinada locação com Grupo Panvel em Curitiba por 10 anos, reduzindo vacância física e diversificando portfólio.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 9.8,
+    "Preço Atual": 9.76,
     "VP/cota": 10.685434,
-    "% Dias Acima CDI 1A": 0.4538,
+    "P/VP": 0.913393,
+    "Retorno - MTD": 0.014271,
+    "Retorno - 12M": 0.267131,
+    "DY a.a.": 0.110656,
+    "Último Dividendo Pago": 0.09,
+    "% Dias Acima CDI 1A": 0.4556,
     "% Dias Acima CDI 3A": 0.5369,
-    "% Dias Acima CDI 5A": 0.3368,
+    "% Dias Acima CDI 5A": 0.3371,
     "% Dias Acima CDI MAX": 0.3812
   },
   "historico_preco": [
@@ -48381,7 +48381,10 @@
       0.09
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 92031852.54000002
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

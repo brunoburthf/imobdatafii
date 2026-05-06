@@ -4,17 +4,17 @@
     "Ticker": "HSAF11",
     "Nome": "Hsi Ativos Financeiros FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.005747,
-    "Retorno - 12M": 0.155948,
-    "P/VP": 0.897962,
-    "Último Dividendo Pago": 0.95,
-    "DY a.a.": 0.143,
     "Visão Geral": "FII multiestratégia que investe em CRIs, cotas de FIIs, letras hipotecárias, LCIs, LIGs e outros valores mobiliários imobiliários. É gerido pela HSI e enquadrado pela ANBIMA como multiestratégia de gestão ativa. A estratégia busca renda e ganho de capital com mandato flexível e diversificação entre crédito e fundos.",
     "Comentário": "Em março, HSAF11 manteve distribuição em R$0,95/cota (15º mês consecutivo), atingindo dividend yield de 15,02% a.a. na cota de mercado. Concluída integralização de R$6 milhões em CRI Salto com spreads competitivos. Gestão concorda duas novas alocações em CRI shopping e residencial, reduzindo caixa de 14% para aproximadamente 4% do patrimônio. Carteira permanece 100% adimplente com spread ponderado de 8,64% em IPCA+ e 4,66% em CDI+.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 79.98,
+    "Preço Atual": 80.01,
     "VP/cota": 89.068379,
-    "% Dias Acima CDI 1A": 0.4779,
+    "P/VP": 0.898299,
+    "Retorno - MTD": 0.005747,
+    "Retorno - 12M": 0.155948,
+    "DY a.a.": 0.142482,
+    "Último Dividendo Pago": 0.95,
+    "% Dias Acima CDI 1A": 0.4798,
     "% Dias Acima CDI 3A": 0.4282,
     "% Dias Acima CDI 5A": 0.4414,
     "% Dias Acima CDI MAX": 0.4414
@@ -22869,7 +22869,11 @@
       0.95
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 81933186.76999997,
+    "CRI/CRA": 145186678.31
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

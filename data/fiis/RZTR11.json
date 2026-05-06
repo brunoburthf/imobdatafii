@@ -4,17 +4,17 @@
     "Ticker": "RZTR11",
     "Nome": "FII Riza Terrax",
     "Setor": "Terras agrícolas",
-    "Retorno - MTD": -0.041498,
-    "Retorno - 12M": 0.122931,
-    "P/VP": 0.98188,
-    "Último Dividendo Pago": 1.0,
-    "DY a.a.": 0.136,
     "Visão Geral": "FII de agronegócio que investe em imóveis rurais, com foco em aquisição, arrendamento e eventual alienação de propriedades agrícolas. A estratégia busca retorno de longo prazo por meio da exploração econômica das fazendas e da valorização dos ativos. O fundo atua no segmento agro com mandato direcionado a terras produtivas.",
     "Comentário": "Em janeiro distribuiu R$ 1,00/cota com dividend yield de 1,01% mensal (12,88% a.a.). Portfólio de 24 ativos em 84.075 hectares com prazo médio de 10 anos. Completou recebimento das duas primeiras parcelas da venda de Fazenda Clarão da Lua (R$ 43,2 milhões), reconhecendo R$ 23,1 milhões em ganhos.",
     "Mês Ref. Comentário": "jan/26",
-    "Preço Atual": 90.08,
+    "Preço Atual": 90.84,
     "VP/cota": 91.742373,
-    "% Dias Acima CDI 1A": 0.739,
+    "P/VP": 0.990164,
+    "Retorno - MTD": -0.041498,
+    "Retorno - 12M": 0.122931,
+    "DY a.a.": 0.133201,
+    "Último Dividendo Pago": 1.0,
+    "% Dias Acima CDI 1A": 0.7419,
     "% Dias Acima CDI 3A": 0.4792,
     "% Dias Acima CDI 5A": 0.5758,
     "% Dias Acima CDI MAX": 0.5758
@@ -22477,7 +22477,11 @@
       1.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 69901000.66,
+    "Cotas de FIIs": 11542217.65
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

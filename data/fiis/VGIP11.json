@@ -4,19 +4,19 @@
     "Ticker": "VGIP11",
     "Nome": "Valora Cri Índice de Preço FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.035309,
-    "Retorno - 12M": 0.125806,
-    "P/VP": 0.900815,
-    "Último Dividendo Pago": 0.73,
-    "DY a.a.": 0.107,
     "Visão Geral": "FII de papel que investe em CRIs, com carteira preponderantemente indexada a índices de inflação e foco em renda recorrente. É gerido pela Valora, iniciou em março de 2020 e se enquadra como FII de títulos e valores mobiliários de gestão ativa. A estratégia prioriza crédito imobiliário indexado ao IPCA.",
     "Comentário": "O fundo distribuiu R$0,74/cota (IPCA+7,1% ao ano), acumulando R$11,06 nos últimos 12 meses. Patrimônio líquido de R$1.070 milhões em 49 operações de CRI, com amortizações de R$9,4 mi no período. Cota patrimonial variou positivamente em R$0,48, refletindo a saúde contínua da carteira totalmente adimplente e 88.702 cotistas acompanhando o desempenho.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 82.14,
+    "Preço Atual": 82.1,
     "VP/cota": 91.184083,
-    "% Dias Acima CDI 1A": 0.3293,
+    "P/VP": 0.900376,
+    "Retorno - MTD": 0.035309,
+    "Retorno - 12M": 0.125806,
+    "DY a.a.": 0.134836,
+    "Último Dividendo Pago": 0.73,
+    "% Dias Acima CDI 1A": 0.3306,
     "% Dias Acima CDI 3A": 0.3047,
-    "% Dias Acima CDI 5A": 0.4277,
+    "% Dias Acima CDI 5A": 0.4272,
     "% Dias Acima CDI MAX": 0.442
   },
   "historico_preco": [
@@ -24841,7 +24841,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 1046830073.7799999,
+    "Cotas de FIIs": 18824193.279999997
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

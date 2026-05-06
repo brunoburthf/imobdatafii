@@ -4,17 +4,17 @@
     "Ticker": "WHGR11",
     "Nome": "Whg Real Estate FII FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.02452,
-    "Retorno - 12M": 0.280593,
-    "P/VP": 0.953801,
-    "Último Dividendo Pago": 0.1,
-    "DY a.a.": 0.126,
     "Visão Geral": "FII híbrido que investe em portfólio diversificado de ativos imobiliários, buscando distribuir rendimentos por meio de estratégias de renda e ganho de capital. Iniciado em dezembro de 2021, é gerido pela WHG. A estratégia combina aproveitamento dos ciclos econômico-imobiliários com mandato flexível e foco em diversificação de carteira.",
     "Comentário": "Distribuição de R$0,10/cota (1,07% a.m., 12,17% a.a. acumulado). Receitas CRI de R$2,6 mi e FII/ações de R$0,96 mi gerando resultado operacional de R$3,47 mi. Ganho de capital de R$0,52 mi no book de FII/ações refletindo gestão ativa e realização de arbitragens. Portfolio 70% CRI, 16% FII, redução em Arena MRV finalizando posição.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 9.46,
+    "Preço Atual": 9.48,
     "VP/cota": 9.918216,
-    "% Dias Acima CDI 1A": 0.4578,
+    "P/VP": 0.955817,
+    "Retorno - MTD": 0.02452,
+    "Retorno - 12M": 0.280593,
+    "DY a.a.": 0.130274,
+    "Último Dividendo Pago": 0.1,
+    "% Dias Acima CDI 1A": 0.4597,
     "% Dias Acima CDI 3A": 0.5268,
     "% Dias Acima CDI 5A": 0.5268,
     "% Dias Acima CDI MAX": 0.5268
@@ -15949,7 +15949,11 @@
       0.1
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 51995285.199999996,
+    "CRI/CRA": 218358221.97879294
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

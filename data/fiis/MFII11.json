@@ -4,19 +4,19 @@
     "Ticker": "MFII11",
     "Nome": "Mérito Desenvolvimento Imobiliário I FII",
     "Setor": "Desenvolvimento",
-    "Retorno - MTD": -0.073613,
-    "Retorno - 12M": -0.107128,
-    "P/VP": 0.636203,
-    "Último Dividendo Pago": 0.91,
-    "DY a.a.": 0.178,
     "Visão Geral": "FII de desenvolvimento que investe em ativos imobiliários, com foco preponderante em incorporação residencial e posterior alienação dos empreendimentos beneficiados. Constituído em 2012, tinha patrimônio líquido de cerca de R$ 560,7 milhões em outubro de 2024. A estratégia combina desenvolvimento imobiliário e captura de valor no ciclo dos projetos.",
     "Comentário": "Primeiro trimestre 2026 distribuiu R$ 3,16/cota (R$ 1,05, R$ 1,05 e R$ 1,06 nos meses). Fundo lançou quatro projetos com mais de R$ 300 milhões em VGV focados em Minha Casa Minha Vida, sendo 61% das unidades residenciais enquadradas no programa.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 60.49,
+    "Preço Atual": 60.0,
     "VP/cota": 95.079716,
-    "% Dias Acima CDI 1A": 0.0522,
+    "P/VP": 0.631049,
+    "Retorno - MTD": -0.073613,
+    "Retorno - 12M": -0.107128,
+    "DY a.a.": 0.211333,
+    "Último Dividendo Pago": 0.91,
+    "% Dias Acima CDI 1A": 0.0524,
     "% Dias Acima CDI 3A": 0.3906,
-    "% Dias Acima CDI 5A": 0.3183,
+    "% Dias Acima CDI 5A": 0.3178,
     "% Dias Acima CDI MAX": 0.5303
   },
   "historico_preco": [
@@ -44817,7 +44817,10 @@
       0.91
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 149896554.4
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

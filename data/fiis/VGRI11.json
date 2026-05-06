@@ -4,17 +4,17 @@
     "Ticker": "VGRI11",
     "Nome": "Valora Renda Imobiliária FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": -0.187988,
-    "Retorno - 12M": -0.006151,
-    "P/VP": 0.741357,
-    "Último Dividendo Pago": 0.075,
-    "DY a.a.": 0.138,
     "Visão Geral": "FII de lajes corporativas que investe em edifícios de escritórios, com portfólio formado por ativos como BM336, Burity e Cidade Jardim. O fundo estreou em 2024 e tinha 25,7 mil investidores no relatório de fevereiro de 2026. A estratégia prioriza renda locatícia recorrente, gestão ativa e reciclagem patrimonial.",
     "Comentário": "Distribuição caiu para R$0,12/cota (20,91% ao ano), com 100% de ocupação mantida nos cinco imóveis. Patriônio líquido atingiu R$306 mi após distribuição extraordinária em janeiro. Guidance reduzido para R$0,075/cota até dezembro, alinhado com prospecto, refletindo normalização pós-receitas extraordinárias de venda do Cidade Jardim.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 6.49,
+    "Preço Atual": 6.53,
     "VP/cota": 8.754217,
-    "% Dias Acima CDI 1A": 0.6747,
+    "P/VP": 0.745926,
+    "Retorno - MTD": -0.187988,
+    "Retorno - 12M": -0.006151,
+    "DY a.a.": 0.206738,
+    "Último Dividendo Pago": 0.075,
+    "% Dias Acima CDI 1A": 0.6774,
     "% Dias Acima CDI 3A": 0.6512,
     "% Dias Acima CDI 5A": 0.6512,
     "% Dias Acima CDI MAX": 0.6512
@@ -8329,7 +8329,11 @@
       0.075
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Outros": 1879633.61,
+    "Cotas de FIIs": 126822227.78
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

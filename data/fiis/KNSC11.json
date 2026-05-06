@@ -4,17 +4,17 @@
     "Ticker": "KNSC11",
     "Nome": "Kinea Securities FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.034714,
-    "Retorno - 12M": 0.215261,
-    "P/VP": 1.029778,
-    "Último Dividendo Pago": 0.1,
-    "DY a.a.": 0.132,
     "Visão Geral": "FII de papel que investe em CRIs e outros valores mobiliários imobiliários, com foco em operações de financiamento e meta absoluta de retorno. Iniciado em agosto de 2020, é gerido pela Kinea. A estratégia prioriza crédito imobiliário diversificado e geração recorrente de renda por meio de uma carteira predominantemente financeira.",
     "Comentário": "O fundo distribuiu R$0,11/cota em março com alocação de 61,3% em CRI IPCA+10,31% e 38,2% em CRI CDI+3,14%, beneficiando-se do elevado patamar da Selic e maior número de dias úteis. A geração de resultado de R$0,11/cota manteve o alinhamento com a estratégia de alocação balanceada entre indexadores em contexto de volatilidade cambial e inflação persistente.",
     "Mês Ref. Comentário": "mar/26",
-    "Preço Atual": 9.05,
+    "Preço Atual": 9.06,
     "VP/cota": 8.788302,
-    "% Dias Acima CDI 1A": 0.4538,
+    "P/VP": 1.030916,
+    "Retorno - MTD": 0.034714,
+    "Retorno - 12M": 0.215261,
+    "DY a.a.": 0.124724,
+    "Último Dividendo Pago": 0.1,
+    "% Dias Acima CDI 1A": 0.4556,
     "% Dias Acima CDI 3A": 0.5544,
     "% Dias Acima CDI 5A": 0.4856,
     "% Dias Acima CDI MAX": 0.4856
@@ -22281,7 +22281,11 @@
       0.1
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 1846247897.74,
+    "Cotas de FIIs": 1918562.72
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

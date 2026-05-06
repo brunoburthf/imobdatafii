@@ -4,19 +4,19 @@
     "Ticker": "HGCR11",
     "Nome": "Pátria Recebíveis Imobiliários FII",
     "Setor": "Crédito Imobiliário",
-    "Retorno - MTD": 0.027523,
-    "Retorno - 12M": 0.171201,
-    "P/VP": 0.996332,
-    "Último Dividendo Pago": 0.95,
-    "DY a.a.": 0.117,
     "Visão Geral": "FII de papel que investe em CRIs, com carteira diversificada e garantia real como base da estratégia. É gerido pelo Patria e tinha patrimônio líquido de R$ 1,492 bilhão na base divulgada pela gestora. A alocação entre diferentes indexadores busca atuação anticíclica e geração recorrente de renda no crédito imobiliário.",
     "Comentário": "Fevereiro apresentou resultado distribuível de R$ 0,89/cota com distribuição anunciada de R$ 0,95/cota. Carteira sofreu realocação tática com venda de cotas GARE11 (prejuízo de R$ 14,6 mil) e alocações em CRI Union (R$ 32 MM a CDI+1,7%) e FII Core Residencial (R$ 15 MM a CDI+2,5%). Reserve acumulada cresceu para R$ 0,49/cota.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 98.29,
+    "Preço Atual": 98.66,
     "VP/cota": 98.651851,
-    "% Dias Acima CDI 1A": 0.3333,
+    "P/VP": 1.000083,
+    "Retorno - MTD": 0.027523,
+    "Retorno - 12M": 0.171201,
+    "DY a.a.": 0.122137,
+    "Último Dividendo Pago": 0.95,
+    "% Dias Acima CDI 1A": 0.3347,
     "% Dias Acima CDI 3A": 0.4792,
-    "% Dias Acima CDI 5A": 0.5932,
+    "% Dias Acima CDI 5A": 0.5929,
     "% Dias Acima CDI MAX": 0.6572
   },
   "historico_preco": [
@@ -49677,7 +49677,11 @@
       0.95
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "CRI/CRA": 1216800456.3300004,
+    "Cotas de FIIs": 166903840.98000002
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

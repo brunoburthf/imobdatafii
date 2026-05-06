@@ -4,19 +4,19 @@
     "Ticker": "HGRE11",
     "Nome": "Pátria Escritórios FII",
     "Setor": "Escritórios",
-    "Retorno - MTD": 0.090848,
-    "Retorno - 12M": 0.218559,
-    "P/VP": 0.871677,
-    "Último Dividendo Pago": 0.85,
-    "DY a.a.": 0.08,
     "Visão Geral": "FII de lajes corporativas que investe em empreendimentos de escritórios, prontos ou em construção, com potencial de geração de renda. É gerido pelo Patria, tem portfólio com mais de 10 imóveis e concentração na cidade de São Paulo. A estratégia prioriza renda locatícia recorrente em ativos corporativos com gestão ativa.",
     "Comentário": "Receita total de R$ 1,30/cota com resultado distribuível de R$ 1,06/cota em fevereiro, impactado por ganho extraordinário de R$ 0,33/cota na venda de Vivo Curitiba. Distribuição anunciada de R$ 0,85/cota mantém projeção para 1S26. Vacância caiu para 5,8% (física) e 4,0% (financeira) com entrada de restaurantes no Martiniano, ampliando WALE.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 128.64,
+    "Preço Atual": 130.23,
     "VP/cota": 147.577518,
-    "% Dias Acima CDI 1A": 0.6747,
+    "P/VP": 0.882451,
+    "Retorno - MTD": 0.090848,
+    "Retorno - 12M": 0.218559,
+    "DY a.a.": 0.096368,
+    "Último Dividendo Pago": 0.85,
+    "% Dias Acima CDI 1A": 0.6774,
     "% Dias Acima CDI 3A": 0.3852,
-    "% Dias Acima CDI 5A": 0.3175,
+    "% Dias Acima CDI 5A": 0.3178,
     "% Dias Acima CDI MAX": 0.4372
   },
   "historico_preco": [
@@ -50181,7 +50181,11 @@
       0.85
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 67387462.94,
+    "CRI/CRA": 106261624.69
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [

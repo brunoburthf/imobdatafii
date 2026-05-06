@@ -4,19 +4,19 @@
     "Ticker": "CPTS11",
     "Nome": "Capitânia Securities II FII",
     "Setor": "FOFs/Hedge Funds",
-    "Retorno - MTD": 0.004886,
-    "Retorno - 12M": 0.204617,
-    "P/VP": 0.873096,
-    "Último Dividendo Pago": 0.09,
-    "DY a.a.": 0.137,
     "Visão Geral": "FII de papel que investe em CRIs, cotas de FII, cotas de FIDC, debêntures, LCI, LIG e outros valores mobiliários de origem imobiliária. Tem gestão da Capitânia e mandato amplo, podendo ainda alocar parte do patrimônio em ações imobiliárias. A estratégia busca rentabilidade com diversificação de crédito e instrumentos listados.",
     "Comentário": "Distribuiu R$ 0,090/cota com dividend yield mensal de 1,11%, equivalente a 13,02% ao ano em 12 meses. TIR média dos FIIs investidos de 20,0% a.a. superou IFIX em 4 p.p. Carteira com 85 FIIs representa 68,8% dos ativos com potencial de valorização de 10,4% sobre PL considerando marcação patrimonial. Desde 2014, distribuição anualizada foi de 12,3% contra 8,9% do CDI líquido.",
     "Mês Ref. Comentário": "fev/26",
-    "Preço Atual": 7.87,
+    "Preço Atual": 7.89,
     "VP/cota": 9.013899,
-    "% Dias Acima CDI 1A": 0.5341,
+    "P/VP": 0.875315,
+    "Retorno - MTD": 0.004886,
+    "Retorno - 12M": 0.204617,
+    "DY a.a.": 0.134474,
+    "Último Dividendo Pago": 0.09,
+    "% Dias Acima CDI 1A": 0.5363,
     "% Dias Acima CDI 3A": 0.3436,
-    "% Dias Acima CDI 5A": 0.3939,
+    "% Dias Acima CDI 5A": 0.3934,
     "% Dias Acima CDI MAX": 0.5406
   },
   "historico_preco": [
@@ -44181,7 +44181,11 @@
       0.0
     ]
   ],
-  "portfolio": {},
+  "portfolio": {
+    "_data_ref": "31/12/2025",
+    "Cotas de FIIs": 2781605603.890001,
+    "CRI/CRA": 921956086.23
+  },
   "carteira_trimestral": {
     "data_ref": "2025-12-31",
     "ativos": [
