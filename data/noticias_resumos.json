@@ -944,5 +944,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1179592",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-05T09:17:34"
+  },
+  "1180680": {
+    "ticker": "CRTX11",
+    "tipo": "FII",
+    "data": "05/05/2026",
+    "categoria": "outros",
+    "titulo_curto": "Resposta B3 sobre oscilação atípica de cotas",
+    "resumo": "BRL Trust, administradora do Cartesia Recebíveis Imobiliários FII, respondeu ao Ofício B3 096/2026-SLE informando desconhecer fatos que justifiquem oscilação de -42,83% e volume de R$ 19,5 mi em 04/05/2026, com 391.182 cotas negociadas. Valor patrimonial permaneceu estável em ~R$ 96,10.",
+    "valor_envolvido": "R$ 19,5 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Queda de -42,83% no preço de mercado em 04/05/2026, de R$ 81 para mínima de R$ 40,70",
+      "Volume atípico: 391.182 cotas negociadas em um único pregão, 13.249 negócios",
+      "Administradora declara formalmente desconhecer fato relevante que justifique a oscilação; valor patrimonial estável em R$ 96,10"
+    ],
+    "fnet_id": 1180680,
+    "ticker_fonte": "CACR11",
+    "data_anuncio": "2026-05-05T19:29:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1180680",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-06T09:16:49"
+  },
+  "1180699": {
+    "ticker": "PMLL11",
+    "tipo": "FII",
+    "data": "05/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Aquisição de fração do Shopping Curitiba",
+    "resumo": "PMLL11 firmou intenção de compra de 13,328% do Shopping Curitiba (22,4 mil m² ABL, público A/B) por R$54,09 mi, com cap rate de 9,5% sobre NOI Caixa. Pagamento em espécie ou via subscrição de cotas. Fechamento sujeito à aprovação do CADE.",
+    "valor_envolvido": "R$ 54,09 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Fração ideal de 13,328% do Shopping Curitiba/PR adquirida por R$54,09 mi",
+      "Cap rate de 9,5% sobre NOI Caixa dos 12 meses anteriores ao fechamento",
+      "Fechamento condicionado à aprovação do CADE e condições precedentes usuais"
+    ],
+    "fnet_id": 1180699,
+    "ticker_fonte": "PMLL11",
+    "data_anuncio": "2026-05-05T19:58:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1180699",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-06T09:35:03"
   }
 }
