@@ -2,7 +2,7 @@ let todosFiis = [];
 let colunaOrdem = null;
 let ordemAsc = true;
 
-const COLUNAS_NUMERICAS = ["Preço Atual", "Variação Dia", "P/VP", "DY a.a.", "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"];
+const COLUNAS_NUMERICAS = ["Preço Atual", "VP/cota", "Variação Dia", "P/VP", "DY a.a.", "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"];
 // Cache-bust por minuto: novo URL a cada chamada de fetchPrecosLive (resolvido
 // via funcao em vez de constante pra que o polling pegue versoes novas).
 function urlPrecos() {
@@ -186,7 +186,7 @@ function formatarValor(coluna, valor) {
   const num = parseFloat(valor);
   if (isNaN(num)) return valor;
 
-  if (coluna === "Preço Atual") return "R$ " + num.toFixed(2);
+  if (coluna === "Preço Atual" || coluna === "VP/cota") return "R$ " + num.toFixed(2);
   if (coluna === "P/VP") return num.toFixed(2) + "x";
   if (coluna === "Variação Dia") {
     const sinal = num >= 0 ? "+" : "";
@@ -212,7 +212,7 @@ function renderizarTabela(lista) {
 
   const colunas = [
     "Ticker", "Setor",
-    "Preço Atual", "Variação Dia", "P/VP", "DY a.a.",
+    "Preço Atual", "VP/cota", "Variação Dia", "P/VP", "DY a.a.",
     "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"
   ];
 
