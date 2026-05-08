@@ -17,22 +17,95 @@ const SPREAD_NTNB_ANOS = 5;
 if (!ticker) window.location.href = "agro.html";
 document.title = ticker + " — ImobData";
 
+function urlPrecos() {
+  return "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json?t=" + Math.floor(Date.now() / 60000);
+}
+const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+let _dadosFundo = null;
+
+function aplicarPrecosLive(dados, precos) {
+  if (!precos || !precos.precos) return false;
+  if (precos.precos?.[ticker] != null) dados["Preço Atual"] = precos.precos[ticker];
+  if (precos.variacoes?.[ticker] != null) dados["Variação Dia"] = precos.variacoes[ticker];
+  const vp = dados["VP/cota"];
+  if (vp && vp > 0 && typeof dados["Preço Atual"] === "number") {
+    dados["P/VP"] = dados["Preço Atual"] / vp;
+  }
+  return true;
+}
+
+async function fetchPrecosLive() {
+  try {
+    const r = await fetch(urlPrecos());
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
 async function carregar() {
   try {
-    const resp = await fetch("data/agro/" + encodeURIComponent(ticker) + ".json?v=" + Date.now());
+    const [resp, precos] = await Promise.all([
+      fetch("data/agro/" + encodeURIComponent(ticker) + ".json?v=" + Date.now()),
+      fetchPrecosLive()
+    ]);
     if (!resp.ok) throw new Error("Dados não encontrados para " + ticker);
     const data = await resp.json();
+    _dadosFundo = data;
+
+    if (precos) aplicarPrecosLive(data.dados || {}, precos);
 
     renderizar(data);
 
     document.getElementById("loading").style.display = "none";
     document.getElementById("fii-main").style.display = "block";
+
+    iniciarPollingPrecos();
   } catch (e) {
     document.getElementById("loading").style.display = "none";
     const el = document.getElementById("erro");
     el.style.display = "block";
     el.textContent = e.message;
   }
+}
+
+function renderTopCards(d) {
+  document.getElementById("fii-preco").textContent = fmt(d["Preço Atual"], "preco");
+  const varEl = document.getElementById("fii-variacao");
+  const variacao = d["Variação Dia"];
+  if (varEl && variacao != null) {
+    const sinal = variacao >= 0 ? "+" : "";
+    varEl.textContent = sinal + variacao.toFixed(2) + "%";
+    varEl.className = "fii-variacao " + (variacao >= 0 ? "positivo" : "negativo");
+  }
+  document.getElementById("card-pvp").textContent = fmt(d["P/VP"], "pvp");
+  document.getElementById("card-dy").textContent  = fmt(d["DY a.a."], "pct");
+  document.getElementById("card-div").textContent = fmt(d["Último Dividendo Pago"], "div");
+  const mtdEl = document.getElementById("card-mtd");
+  if (mtdEl) {
+    mtdEl.textContent = fmt(d["Retorno - MTD"], "pct");
+    mtdEl.className = "card-value " + classeRet(d["Retorno - MTD"]);
+  }
+  const m12El = document.getElementById("card-12m");
+  if (m12El) {
+    m12El.textContent = fmt(d["Retorno - 12M"], "pct");
+    m12El.className = "card-value " + classeRet(d["Retorno - 12M"]);
+  }
+}
+
+let _pollingHandle = null;
+function iniciarPollingPrecos() {
+  if (_pollingHandle) return;
+  const refresh = async () => {
+    if (!_dadosFundo) return;
+    const precos = await fetchPrecosLive();
+    if (!precos) return;
+    aplicarPrecosLive(_dadosFundo.dados || {}, precos);
+    renderTopCards(_dadosFundo.dados || {});
+  };
+  _pollingHandle = setInterval(refresh, REFRESH_INTERVAL_MS);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") refresh();
+  });
 }
 
 function fmt(valor, tipo) {

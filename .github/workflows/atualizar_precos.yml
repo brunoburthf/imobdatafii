@@ -26,13 +26,25 @@ jobs:
           import json
           from datetime import datetime
 
-          with open('data/index.json', encoding='utf-8') as f:
-              data = json.load(f)
+          # Tickers de FIIs + Fiagros + Infras (todos vao pro mesmo prices.json)
+          tickers = set()
+          for path, key in [('data/index.json', 'fiis'),
+                            ('data/agro_index.json', 'fundos'),
+                            ('data/infra_index.json', 'fundos')]:
+              try:
+                  with open(path, encoding='utf-8') as f:
+                      doc = json.load(f)
+                  for item in doc.get(key, []):
+                      t = (item.get('Ticker') or '').strip()
+                      if t:
+                          tickers.add(t)
+              except FileNotFoundError:
+                  print(f'Aviso: {path} ausente, ignorando.')
 
-          tickers = [fii['Ticker'] for fii in data['fiis'] if fii.get('Ticker')]
+          tickers = sorted(tickers)
           symbols = [t + '.SA' for t in tickers]
 
-          print(f'Buscando {len(tickers)} FIIs...')
+          print(f'Buscando {len(tickers)} tickers (FIIs + Fiagros + Infras)...')
           dados = yf.download(symbols, period='5d', auto_adjust=True, progress=False)
           close = dados['Close']
 
