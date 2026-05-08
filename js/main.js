@@ -3,29 +3,52 @@ let colunaOrdem = null;
 let ordemAsc = true;
 
 const COLUNAS_NUMERICAS = ["Preço Atual", "Variação Dia", "P/VP", "DY a.a.", "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"];
-const PRICES_URL = "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json?t=" + Math.floor(Date.now() / 60000);
+// Cache-bust por minuto: novo URL a cada chamada de fetchPrecosLive (resolvido
+// via funcao em vez de constante pra que o polling pegue versoes novas).
+function urlPrecos() {
+  return "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json?t=" + Math.floor(Date.now() / 60000);
+}
+
+const REFRESH_INTERVAL_MS = 5 * 60 * 1000;  // 5 min — alinhado ao GH Action de precos
+
+// Aplica precos.json em-place sobre todosFiis: Preco, Variacao Dia e recalcula
+// P/VP usando VP/cota armazenado (mensal). Devolve true se algo mudou.
+function aplicarPrecosLive(precos) {
+  if (!precos || !precos.precos) return false;
+  todosFiis.forEach(fii => {
+    const ticker = fii["Ticker"];
+    if (precos.precos?.[ticker] != null) fii["Preço Atual"] = precos.precos[ticker];
+    if (precos.variacoes?.[ticker] != null) fii["Variação Dia"] = precos.variacoes[ticker];
+    const vp = fii["VP/cota"];
+    if (vp && vp > 0 && typeof fii["Preço Atual"] === "number") {
+      fii["P/VP"] = fii["Preço Atual"] / vp;
+    }
+  });
+  return true;
+}
+
+async function fetchPrecosLive() {
+  try {
+    const r = await fetch(urlPrecos());
+    if (!r.ok) return null;
+    return await r.json();
+  } catch {
+    return null;
+  }
+}
 
 async function carregarDados() {
   try {
-    const [respIndex, respPrecos] = await Promise.all([
+    const [respIndex, precos] = await Promise.all([
       fetch("data/index.json"),
-      fetch(PRICES_URL).catch(() => null)
+      fetchPrecosLive()
     ]);
 
     if (!respIndex.ok) throw new Error("Arquivo de dados não encontrado. Rode o script de atualização primeiro.");
     const data = await respIndex.json();
 
     todosFiis = data.fiis || [];
-
-    // Sobrescreve preço e variação com dados em tempo real do GitHub
-    if (respPrecos && respPrecos.ok) {
-      const precos = await respPrecos.json();
-      todosFiis.forEach(fii => {
-        const ticker = fii["Ticker"];
-        if (precos.precos?.[ticker] != null) fii["Preço Atual"] = precos.precos[ticker];
-        if (precos.variacoes?.[ticker] != null) fii["Variação Dia"] = precos.variacoes[ticker];
-      });
-    }
+    if (precos) aplicarPrecosLive(precos);
 
     if (data.atualizado_em) {
       document.getElementById("ultima-atualizacao").textContent = "Atualizado em " + data.atualizado_em;
@@ -36,12 +59,37 @@ async function carregarDados() {
 
     document.getElementById("loading").style.display = "none";
     document.getElementById("tabela-wrapper").style.display = "block";
+
+    iniciarPollingPrecos();
   } catch (e) {
     document.getElementById("loading").style.display = "none";
     const el = document.getElementById("erro");
     el.style.display = "block";
     el.textContent = e.message;
   }
+}
+
+// Refresh automatico a cada 5 min + ao voltar pra aba (visibilitychange).
+// Recalcula P/VP via aplicarPrecosLive, depois filtrarTabela() pra preservar
+// ordenacao/filtros do usuario.
+let _pollingHandle = null;
+function iniciarPollingPrecos() {
+  if (_pollingHandle) return;  // ja iniciado
+
+  const refresh = async () => {
+    const precos = await fetchPrecosLive();
+    if (!precos) return;
+    aplicarPrecosLive(precos);
+    if (typeof filtrarTabela === "function") filtrarTabela();
+    else renderizarTabela(todosFiis);
+  };
+
+  _pollingHandle = setInterval(refresh, REFRESH_INTERVAL_MS);
+  // Quando a aba volta a ficar visivel, dispara um refresh imediato
+  // (browsers throttle setInterval em background, entao pode estar atrasado)
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") refresh();
+  });
 }
 
 function popularFiltroSetor() {

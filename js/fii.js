@@ -19,7 +19,14 @@ let cdiMapa = {};
 
 const SPREAD_NTNB_ANOS = 5;
 
-const PRICES_URL = "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json";
+// Cache-bust por minuto via funcao (ao inves de constante) pra que o polling
+// pegue versoes novas do GH Action de precos (a cada 5 min).
+function urlPrecos() {
+  return "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json?t=" + Math.floor(Date.now() / 60000);
+}
+
+const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+let _dadosFii = null;  // referencia global pro polling
 
 if (!ticker) {
   window.location.href = "fiis.html";
@@ -27,33 +34,100 @@ if (!ticker) {
 
 document.title = ticker + " — ImobData";
 
+// Aplica precos.json em data.dados (mutacao in-place): Preco, Variacao, P/VP.
+function aplicarPrecosLive(dados, precos) {
+  if (!precos || !precos.precos) return false;
+  if (precos.precos?.[ticker] != null) dados["Preço Atual"] = precos.precos[ticker];
+  if (precos.variacoes?.[ticker] != null) dados["Variação Dia"] = precos.variacoes[ticker];
+  const vp = dados["VP/cota"];
+  if (vp && vp > 0 && typeof dados["Preço Atual"] === "number") {
+    dados["P/VP"] = dados["Preço Atual"] / vp;
+  }
+  return true;
+}
+
+async function fetchPrecosLive() {
+  try {
+    const r = await fetch(urlPrecos());
+    if (!r.ok) return null;
+    return await r.json();
+  } catch {
+    return null;
+  }
+}
+
 async function carregarFii() {
   try {
-    const [resp, respPrecos] = await Promise.all([
+    const [resp, precos] = await Promise.all([
       fetch("data/fiis/" + encodeURIComponent(ticker) + ".json?v=" + Date.now()),
-      fetch(PRICES_URL).catch(() => null)
+      fetchPrecosLive()
     ]);
 
     if (!resp.ok) throw new Error("Dados não encontrados para " + ticker);
     const data = await resp.json();
+    _dadosFii = data;
 
-    // Sobrescreve preço e variação com dados em tempo real
-    if (respPrecos && respPrecos.ok) {
-      const precos = await respPrecos.json();
-      if (precos.precos?.[ticker] != null) data.dados["Preço Atual"] = precos.precos[ticker];
-      if (precos.variacoes?.[ticker] != null) data.dados["Variação Dia"] = precos.variacoes[ticker];
-    }
+    if (precos) aplicarPrecosLive(data.dados || {}, precos);
 
     renderizarFii(data);
 
     document.getElementById("loading").style.display = "none";
     document.getElementById("fii-main").style.display = "block";
+
+    iniciarPollingPrecos();
   } catch (e) {
     document.getElementById("loading").style.display = "none";
     const el = document.getElementById("erro");
     el.style.display = "block";
     el.textContent = e.message;
   }
+}
+
+// Atualiza apenas os cards de topo (Preco, Variacao, P/VP, DY, Retornos, Div).
+// Nao re-renderiza graficos — eles ficam estaveis ate o user dar F5.
+function renderTopCards(d) {
+  document.getElementById("fii-preco").textContent = fmt(d["Preço Atual"], "preco");
+
+  const varEl = document.getElementById("fii-variacao");
+  const variacao = d["Variação Dia"];
+  if (varEl && variacao != null) {
+    const sinal = variacao >= 0 ? "+" : "";
+    varEl.textContent = sinal + variacao.toFixed(2) + "%";
+    varEl.className = "fii-variacao " + (variacao >= 0 ? "positivo" : "negativo");
+  }
+
+  document.getElementById("card-pvp").textContent = fmt(d["P/VP"], "pvp");
+  document.getElementById("card-dy").textContent = fmt(d["DY a.a."], "pct");
+  document.getElementById("card-div").textContent = fmt(d["Último Dividendo Pago"], "div");
+
+  const mtdEl = document.getElementById("card-mtd");
+  if (mtdEl) {
+    mtdEl.textContent = fmt(d["Retorno - MTD"], "pct");
+    mtdEl.className = "card-value " + classeRetorno(d["Retorno - MTD"]);
+  }
+  const m12El = document.getElementById("card-12m");
+  if (m12El) {
+    m12El.textContent = fmt(d["Retorno - 12M"], "pct");
+    m12El.className = "card-value " + classeRetorno(d["Retorno - 12M"]);
+  }
+}
+
+let _pollingHandle = null;
+function iniciarPollingPrecos() {
+  if (_pollingHandle) return;
+
+  const refresh = async () => {
+    if (!_dadosFii) return;
+    const precos = await fetchPrecosLive();
+    if (!precos) return;
+    aplicarPrecosLive(_dadosFii.dados || {}, precos);
+    renderTopCards(_dadosFii.dados || {});
+  };
+
+  _pollingHandle = setInterval(refresh, REFRESH_INTERVAL_MS);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") refresh();
+  });
 }
 
 function fmt(valor, tipo) {
