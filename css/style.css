@@ -3507,6 +3507,36 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 }
 .auth-msg a { color: #b34d00; font-weight: 700; text-decoration: underline; }
 
+/* ── Volatilidade (reusa .setor-card / .setor-grid da Análise Setorial) ────── */
+.vol-controles-row {
+  display: flex; gap: 14px; align-items: flex-end; flex-wrap: wrap;
+  margin-bottom: 20px; padding: 14px 18px;
+  background: var(--branco); border-radius: 10px; box-shadow: var(--sombra);
+}
+.vol-controles-row label {
+  display: flex; flex-direction: column; gap: 4px;
+  font-size: 11px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--texto-suave);
+}
+.vol-controles-row input[type="date"] {
+  padding: 7px 9px; border: 1.5px solid var(--cinza-borda); border-radius: 7px;
+  font-size: 14px; font-family: inherit; background: var(--cinza-fundo);
+  color: var(--texto);
+}
+.vol-controles-row input[type="date"]:focus { outline: none; border-color: var(--azul); }
+.vol-btn-aplicar {
+  padding: 8px 20px; background: var(--azul); color: #fff;
+  border: 0; border-radius: 7px; font-size: 13px; font-weight: 700;
+  letter-spacing: 0.02em; cursor: pointer; transition: filter 0.15s;
+}
+.vol-btn-aplicar:hover { filter: brightness(1.10); }
+.vol-info { margin-left: auto; font-size: 13px; color: var(--texto-suave); }
+
+.vol-dot {
+  display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+  margin-right: 8px; vertical-align: middle;
+}
+
 @media (max-width: 600px) {
   .auth-bar-msg { font-size:13px; }
   .auth-bar-inner { padding:8px 16px; gap:8px; flex-wrap:wrap; }
