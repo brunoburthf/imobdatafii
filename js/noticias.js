@@ -8,9 +8,12 @@ async function carregarDados() {
   try {
     // Em paralelo: noticias.json (obrigatório) + noticias_resumos.json (opcional —
     // só existe se gerar_resumos_noticias.py já rodou ao menos uma vez).
+    // Cache-bust por minuto: o servidor não manda Cache-Control, então sem isso
+    // o browser pode servir um snapshot antigo mesmo após nova coleta.
+    const v = Math.floor(Date.now() / 60000);
     const [resp, respResumos] = await Promise.all([
-      fetch("data/noticias.json"),
-      fetch("data/noticias_resumos.json").catch(() => null),
+      fetch("data/noticias.json?v=" + v),
+      fetch("data/noticias_resumos.json?v=" + v).catch(() => null),
     ]);
     if (!resp.ok) throw new Error("Dados não encontrados. Rode scripts/coletar_noticias_fnet.py primeiro.");
     const data = await resp.json();
