@@ -1,0 +1,37 @@
+{
+  "atualizado_em": "2026-05-08T15:03:31",
+  "metodologia": "total return reinvestment - amortizacao = dividendo",
+  "fontes": {
+    "fiis": "Excel Historico_preco (12y) + dpc_ifix (10y) + B3 proventos",
+    "infras": "Excel infra_preco (7y) + infra_dpc (7y) + B3 proventos",
+    "agros": "Yahoo Close period=5y + B3 proventos"
+  },
+  "metricas": {
+    "fiis": {
+      "total": 118,
+      "com_nominal": 118,
+      "com_eventos": 118,
+      "sem_b3": 0
+    },
+    "infras": {
+      "total": 25,
+      "com_nominal": 25,
+      "com_eventos": 25,
+      "sem_b3": 0
+    },
+    "agros": {
+      "total": 34,
+      "com_nominal": 34,
+      "com_eventos": 34,
+      "sem_b3": 0
+    }
+  },
+  "rebase_b3": {
+    "atualizado_em": "2026-05-11T13:11:41",
+    "anos": "2010-2026",
+    "tickers_rebaseados": 175,
+    "tickers_zero_preservados": [],
+    "perdas_significativas": [],
+    "total_pontos_depois": 237307
+  }
+}
