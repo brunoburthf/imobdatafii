@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "12/05/2026 10:27",
+  "atualizado_em": "12/05/2026 13:54",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -426,6 +426,23 @@
       "fnet_id": 1182381,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1182381"
+    },
+    {
+      "ticker": "CRAA11",
+      "nome_fundo": "CRAA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-05-08T09:05:00",
+      "data_com": "2026-05-08",
+      "data_pagamento": "2026-05-15",
+      "valor": 1.2,
+      "valor_anterior": 1.25,
+      "variacao_pct": -0.040000000000000036,
+      "periodo_referencia": "Abril-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1182373,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1182373"
     },
     {
       "ticker": "FATN11",
@@ -2449,6 +2466,23 @@
       "fnet_id": 1160298,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1160298"
+    },
+    {
+      "ticker": "VGIA11",
+      "nome_fundo": "VGIA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-04-13T17:03:00",
+      "data_com": "2026-04-13",
+      "data_pagamento": "2026-04-20",
+      "valor": 0.14,
+      "valor_anterior": 0.145,
+      "variacao_pct": -0.0344827586206895,
+      "periodo_referencia": "Março-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1160297,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1160297"
     }
   ],
   "fatos_relevantes": [
