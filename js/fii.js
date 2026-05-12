@@ -10,6 +10,7 @@ let chartDpc = null;
 let dadosPrecoCompleto = [];
 let dadosPvpCompleto = [];
 let dadosPrecoAdjCompleto = [];
+let dadosPrecoCorpCompleto = [];
 let dadosDyCompleto = [];
 let dadosSpreadCompleto = [];
 let dadosPortfolio = {};
@@ -202,12 +203,17 @@ function renderizarFii(data) {
   dadosPrecoAdjCompleto = (data.historico_preco_adj && data.historico_preco_adj.length)
     ? data.historico_preco_adj
     : (data.historico_preco || []);
+  // Preco nominal split + amort-ajustado (sem reinvestir dividendos). Mantem
+  // preco atual = mercado, sem degraus em split. Fallback pra nominal puro.
+  dadosPrecoCorpCompleto = (data.historico_preco_corp_adj && data.historico_preco_corp_adj.length)
+    ? data.historico_preco_corp_adj
+    : (data.historico_preco || []);
   dadosDyCompleto = data.historico_dy || [];
   dadosPortfolio = data.portfolio || {};
   dadosDpcCompleto = data.historico_dpc || [];
   dadosCarteiraCvm = data.carteira_trimestral || {};
 
-  renderizarGrafico("preco", dadosPrecoCompleto, "1A");
+  renderizarGrafico("preco", dadosPrecoCorpCompleto, "1A");
   renderizarGrafico("pvp", dadosPvpCompleto, "1A");
 
   // CDI: busca a partir de 5 anos atrás (janela máxima visualizada é 5A/MAX).
@@ -597,7 +603,7 @@ function filtrarGrafico(tipo, periodo) {
     renderizarGraficoSpread(periodo);
     return;
   }
-  const dados = tipo === "preco" ? dadosPrecoCompleto : dadosPvpCompleto;
+  const dados = tipo === "preco" ? dadosPrecoCorpCompleto : dadosPvpCompleto;
   renderizarGrafico(tipo, dados, periodo);
 }
 

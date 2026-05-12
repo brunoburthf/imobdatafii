@@ -8,6 +8,7 @@ let chartSpread = null;
 let dadosPrecoCompleto = [];
 let dadosPvpCompleto = [];
 let dadosPrecoAdjCompleto = [];
+let dadosPrecoCorpCompleto = [];
 let dadosDyCompleto = [];
 let dadosSpreadCompleto = [];
 let cdiMapa = {};
@@ -178,9 +179,12 @@ function renderizar(data) {
   dadosPrecoAdjCompleto = (data.historico_preco_adj && data.historico_preco_adj.length)
     ? data.historico_preco_adj
     : (data.historico_preco || []);
+  dadosPrecoCorpCompleto = (data.historico_preco_corp_adj && data.historico_preco_corp_adj.length)
+    ? data.historico_preco_corp_adj
+    : (data.historico_preco || []);
   dadosDyCompleto = data.historico_dy || [];
 
-  renderizarGrafico("preco", dadosPrecoCompleto, "1A");
+  renderizarGrafico("preco", dadosPrecoCorpCompleto, "1A");
   renderizarGrafico("pvp", dadosPvpCompleto, "1A");
 
   // CDI
@@ -467,7 +471,7 @@ function filtrarGrafico(tipo, periodo) {
   });
   if (tipo === "retorno") return renderizarGraficoRetorno(periodo);
   if (tipo === "spread")  return renderizarGraficoSpread(periodo);
-  const dados = tipo === "preco" ? dadosPrecoCompleto : dadosPvpCompleto;
+  const dados = tipo === "preco" ? dadosPrecoCorpCompleto : dadosPvpCompleto;
   renderizarGrafico(tipo, dados, periodo);
 }
 
