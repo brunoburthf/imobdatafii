@@ -259,11 +259,14 @@ async function scrAnalisar() {
 }
 
 let scrTabelaResultados = [];
-let scrOrdemCol = "MAX";
+let scrOrdemCol = "5A";
 let scrOrdemAsc = false;
 
 function renderizarTabelaPctCdi() {
-  const janelas = ["1A", "3A", "5A", "MAX"];
+  // Janelas sao agora o TAMANHO da janela movel de retorno (nao mais filtro
+  // de periodo). 1A = retorno movel 12m do FII vs CDI 12m, 3A = 36m, etc.
+  // % e calculado em TODO o historico do FII pra essa janela movel.
+  const janelas = ["1A", "3A", "5A"];
 
   scrTabelaResultados = ativosSelecionados
     .map(f => {
@@ -273,7 +276,7 @@ function renderizarTabelaPctCdi() {
     })
     .filter(r => janelas.some(j => r[j] != null));
 
-  scrOrdemCol = "MAX";
+  scrOrdemCol = "5A";
   scrOrdemAsc = false;
   scrRenderTabela();
 }
@@ -300,10 +303,9 @@ function scrRenderTabela() {
     <th onclick="scrOrdenarTabela('ticker')" style="cursor:pointer">Ticker ${seta}</th>
     <th onclick="scrOrdenarTabela('nome')" style="cursor:pointer">Nome ${seta}</th>
     <th onclick="scrOrdenarTabela('setor')" style="cursor:pointer">Setor ${seta}</th>
-    <th class="num" onclick="scrOrdenarTabela('1A')" style="cursor:pointer">1 Ano ${seta}</th>
-    <th class="num" onclick="scrOrdenarTabela('3A')" style="cursor:pointer">3 Anos ${seta}</th>
-    <th class="num" onclick="scrOrdenarTabela('5A')" style="cursor:pointer">5 Anos ${seta}</th>
-    <th class="num" onclick="scrOrdenarTabela('MAX')" style="cursor:pointer">Máximo ${seta}</th>
+    <th class="num" onclick="scrOrdenarTabela('1A')" style="cursor:pointer" title="Janela móvel de 12 meses">Rolling 1A ${seta}</th>
+    <th class="num" onclick="scrOrdenarTabela('3A')" style="cursor:pointer" title="Janela móvel de 36 meses">Rolling 3A ${seta}</th>
+    <th class="num" onclick="scrOrdenarTabela('5A')" style="cursor:pointer" title="Janela móvel de 60 meses">Rolling 5A ${seta}</th>
   </tr>`;
 
   const tbody = document.getElementById("scr-tbody");
@@ -325,7 +327,6 @@ function scrRenderTabela() {
       ${fmtCell(r["1A"])}
       ${fmtCell(r["3A"])}
       ${fmtCell(r["5A"])}
-      ${fmtCell(r["MAX"])}
     `;
     tbody.appendChild(tr);
   });

@@ -213,6 +213,9 @@ function renderizarFii(data) {
   dadosDpcCompleto = data.historico_dpc || [];
   dadosCarteiraCvm = data.carteira_trimestral || {};
 
+  // Grafico de preco usa serie corp_adj (nominal ajustado por splits e
+  // amortizacoes via back-adjust com razao observada). Mantem preco atual
+  // = mercado, ajusta retroativamente pra remover degraus em ex-days.
   renderizarGrafico("preco", dadosPrecoCorpCompleto, "1A");
   renderizarGrafico("pvp", dadosPvpCompleto, "1A");
 

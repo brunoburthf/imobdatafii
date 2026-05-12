@@ -25,7 +25,7 @@
           <a href="agro.html" class="nav-link">FI-Agros</a>
           <a href="setor.html" class="nav-link">Análise Setorial</a>
           <a href="noticias.html" class="nav-link">Notícias</a>
-          <a href="valuation.html" class="nav-link val-restrito">Ferramentas de Valuation</a>
+          <a href="valuation.html" class="nav-link val-restrito">Interno</a>
         </nav>
       </div>
       <div class="header-right">
@@ -83,7 +83,7 @@
       </a>
 
       <a class="menu-card val-restrito" href="valuation.html">
-        <div class="menu-card-titulo">Ferramentas de Valuation</div>
+        <div class="menu-card-titulo">Interno</div>
         <p class="menu-card-desc">Spread histórico sobre NTN-B com duration constante e calculadora DCF para estimativa de preço justo.</p>
       </a>
 
@@ -141,9 +141,9 @@
   if (msg) {
     const el = document.getElementById("auth-msg");
     if (msg === "login-needed") {
-      el.innerHTML = 'As Ferramentas de Valuation são restritas. Acesse o <a href="simulador.html">Simulador</a> pra fazer login.';
+      el.innerHTML = 'A área Interno é restrita. Acesse o <a href="simulador.html">Simulador</a> pra fazer login.';
     } else if (msg === "no-access") {
-      el.textContent = "Sua conta não tem acesso às Ferramentas de Valuation.";
+      el.textContent = "Sua conta não tem acesso à área Interno.";
     }
     if (el.textContent || el.innerHTML) el.style.display = "block";
   }

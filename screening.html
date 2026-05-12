@@ -20,7 +20,7 @@
           <a href="agro.html" class="nav-link">FI-Agros</a>
           <a href="setor.html" class="nav-link">Análise Setorial</a>
           <a href="noticias.html" class="nav-link">Notícias</a>
-          <a href="valuation.html" class="nav-link ativo">Ferramentas de Valuation</a>
+          <a href="valuation.html" class="nav-link ativo">Interno</a>
         </nav>
       </div>
       <div class="header-right">
@@ -63,19 +63,8 @@
       <div class="screening-filtro-grupo">
         <label class="screening-filtro-label">Critério de análise</label>
         <select id="scr-criterio" class="screening-select">
-          <option value="retorno">% Dias Retorno 12M acima do CDI</option>
+          <option value="retorno">% Dias com retorno acima do CDI (rolling)</option>
         </select>
-      </div>
-
-      <!-- Janela de tempo -->
-      <div class="screening-filtro-grupo">
-        <label class="screening-filtro-label">Janela de tempo</label>
-        <div class="screening-periodo-opcoes">
-          <button class="screening-periodo-btn ativo" data-periodo="1A" onclick="scrTrocarPeriodo('1A')">1A</button>
-          <button class="screening-periodo-btn" data-periodo="3A" onclick="scrTrocarPeriodo('3A')">3A</button>
-          <button class="screening-periodo-btn" data-periodo="5A" onclick="scrTrocarPeriodo('5A')">5A</button>
-          <button class="screening-periodo-btn" data-periodo="MAX" onclick="scrTrocarPeriodo('MAX')">MAX</button>
-        </div>
       </div>
 
       <!-- Botão analisar -->
@@ -120,7 +109,7 @@
     </div>
   </main>
 
-  <script src="js/screening.js?v=1"></script>
+  <script src="js/screening.js?v=2"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
