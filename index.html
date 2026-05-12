@@ -39,6 +39,8 @@
 
   <main class="menu-main">
 
+    <div id="auth-msg" class="auth-msg" style="display:none"></div>
+
     <h1 class="menu-hero-titulo">ImobData: Seu hub de informações de FIIs</h1>
 
     <img src="img/imagem_menu.png" class="menu-imagem" alt="" />
@@ -133,7 +135,23 @@
     const btn = document.getElementById("btn-atualizar");
     if (btn) btn.style.display = "none";
   }
+
+  // Mensagem amigavel quando guardValuation redireciona pra ca com ?msg=...
+  const msg = new URLSearchParams(location.search).get("msg");
+  if (msg) {
+    const el = document.getElementById("auth-msg");
+    if (msg === "login-needed") {
+      el.innerHTML = 'As Ferramentas de Valuation são restritas. Acesse o <a href="simulador.html">Simulador</a> pra fazer login.';
+    } else if (msg === "no-access") {
+      el.textContent = "Sua conta não tem acesso às Ferramentas de Valuation.";
+    }
+    if (el.textContent || el.innerHTML) el.style.display = "block";
+  }
   </script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
   <script src="js/local.js"></script>
 </body>
 </html>

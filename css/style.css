@@ -3498,6 +3498,15 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 }
 .auth-bar .auth-btn-login:hover { box-shadow:0 3px 10px rgba(239,99,0,0.32); }
 
+/* Banner mostrado no index.html quando guardValuation redireciona com motivo */
+.auth-msg {
+  margin: 0 auto 16px; padding: 12px 18px;
+  background: #fff4e6; border: 1px solid #ffd6a8; border-radius: 8px;
+  color: #7a4400; font-size: 14px; font-weight: 500;
+  max-width: 720px; text-align: center;
+}
+.auth-msg a { color: #b34d00; font-weight: 700; text-decoration: underline; }
+
 @media (max-width: 600px) {
   .auth-bar-msg { font-size:13px; }
   .auth-bar-inner { padding:8px 16px; gap:8px; flex-wrap:wrap; }
