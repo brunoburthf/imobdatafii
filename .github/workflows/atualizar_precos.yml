@@ -9,6 +9,9 @@ on:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
+    # GITHUB_TOKEN default vem com Contents: read — precisa write pro push.
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -26,7 +29,9 @@ jobs:
           import json
           from datetime import datetime
 
-          # Tickers de FIIs + Fiagros + Infras (todos vao pro mesmo prices.json)
+          # Tickers de FIIs + Fiagros + Infras (todos vao pro mesmo prices.json
+          # pra que o polling 5min funcione em fiis/agro/infra). Antes pegava
+          # so FIIs e quebrava as telas de agro/infra.
           tickers = set()
           for path, key in [('data/index.json', 'fiis'),
                             ('data/agro_index.json', 'fundos'),
