@@ -1164,5 +1164,203 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1184963",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-12T10:05:06"
+  },
+  "1187790": {
+    "ticker": "PMLL11",
+    "tipo": "FII",
+    "data": "12/05/2026",
+    "categoria": "emissao",
+    "titulo_curto": "PMLL11 aprova 7ª emissão de cotas R$ 1 bi",
+    "resumo": "PMLL11 aprova 7ª emissão de cotas com montante inicial de R$ 1 bi (até R$ 1,08 bi com lote adicional de 8%). Preço de emissão R$ 117,23/cota, baseado no VP de 31/03/2026. Oferta exclusiva a investidores profissionais, prazo de colocação de 180 dias. Recursos destinados à aquisição de ativos imobiliários.",
+    "valor_envolvido": "R$ 1.000 mi (até R$ 1.080 mi com lote adicional)",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de emissão R$ 117,23/cota (VP 31/03/2026); preço de subscrição R$ 117,28 com taxa de distribuição de R$ 0,05/cota",
+      "Lote adicional de até 8% (682.419 cotas, R$ 80 mi); montante mínimo da oferta R$ 300 mil (2.560 cotas)",
+      "Direito de preferência assegurado aos cotistas com fator de proporção 0,61008319712; cessão permitida a investidores profissionais"
+    ],
+    "fnet_id": 1187790,
+    "ticker_fonte": "PMLL11",
+    "data_anuncio": "2026-05-12T23:15:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187790",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:44:34"
+  },
+  "1187402": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "12/05/2026",
+    "categoria": "outros",
+    "titulo_curto": "Resposta B3 sobre oscilação atípica de cotas",
+    "resumo": "Banco Daycoval, administrador do Valora Hedge Fund FII, responde à B3 (Ofício 113/2026-SLE) informando desconhecer fato específico que justifique oscilações atípicas nas cotas. Entre 27/04 e 11/05/2026, cota recuou de R$6,94 para R$5,63 (-18,9%), com volume diário superior a R$14 mi.",
+    "valor_envolvido": null,
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Cota despencou ~18,9% em aproximadamente 10 pregões, de R$6,94 para R$5,63",
+      "Administrador declara não ter recebido informação de fato relevante não divulgado do gestor ou prestadores",
+      "Volume negociado elevou-se significativamente, atingindo R$14,2 mi em 11/05/2026 com 2,45 mi de cotas negociadas"
+    ],
+    "fnet_id": 1187402,
+    "ticker_fonte": "VGHF11",
+    "data_anuncio": "2026-05-12T19:36:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187402",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:44:44"
+  },
+  "1187239": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "11/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Atualização regulamento: divulgação via Ferramenta ANBIMA",
+    "resumo": "Hotel Maxinvest FII atualiza regulamento para substituir Sumário de Remuneração pela Ferramenta ANBIMA (Plataforma de Transparência de Taxas), conforme Ofício-Circular CVM nº 1/2025. Sem alteração nos valores pagos pelos cotistas. Vigência a partir de 11/05/2026.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Substituição do Sumário de Remuneração pela Ferramenta ANBIMA como meio de divulgação das taxas dos prestadores de serviços essenciais",
+      "Adequação ao Ofício-Circular Conjunto nº 1/2025/CVM/SIN/SSE, sem impacto financeiro para cotistas",
+      "Nova versão consolidada do regulamento com efeitos a partir do fechamento de 11/05/2026"
+    ],
+    "fnet_id": 1187239,
+    "ticker_fonte": "HTMX11",
+    "data_anuncio": "2026-05-12T18:44:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187239",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:44:52"
+  },
+  "1187136": {
+    "ticker": "CPTS11",
+    "tipo": "FII",
+    "data": "12/05/2026",
+    "categoria": "outros",
+    "titulo_curto": "Esclarecimento B3 sobre oscilação atípica cotas",
+    "resumo": "BTG Pactual, administradora do Capitânia Securities II FII, responde ofício B3 sobre oscilação atípica das cotas em 11/05/2026: queda de -2,57%, volume de R$ 72,4 mi e 9,5 mi de cotas negociadas. Administradora nega conhecimento de fato relevante não divulgado.",
+    "valor_envolvido": "R$ 72,4 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Cota recuou -2,57% em 11/05/2026, saindo de R$ 7,81 para R$ 7,58, com volume atípico de R$ 72,4 mi",
+      "Volume negociado em 11/05 foi cerca de 4x superior à média dos pregões anteriores, com 9,5 mi de cotas transacionadas",
+      "Administradora declara não ter conhecimento de fato relevante não divulgado que justifique a oscilação"
+    ],
+    "fnet_id": 1187136,
+    "ticker_fonte": "CPTS11",
+    "data_anuncio": "2026-05-12T18:15:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187136",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:45:01"
+  },
+  "1187099": {
+    "ticker": "BRCR11",
+    "tipo": "FII",
+    "data": "11/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Atualização regulamento transparência taxas ANBIMA",
+    "resumo": "BTG Pactual Corporate Office Fund atualiza regulamento para substituir Sumário de Remuneração pela Ferramenta ANBIMA (Plataforma de Transparência de Taxas), conforme Ofício-Circular CVM nº 1/2025. Sem alteração nos valores pagos pelos cotistas. Vigência a partir de 11/05/2026.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Substituição do Sumário de Remuneração pela Plataforma de Transparência de Taxas ANBIMA",
+      "Adequação ao Ofício-Circular CVM nº 1/2025 sem impacto financeiro aos cotistas",
+      "Novo regulamento consolidado com efeitos a partir do fechamento de 11/05/2026"
+    ],
+    "fnet_id": 1187099,
+    "ticker_fonte": "BRCR11",
+    "data_anuncio": "2026-05-12T18:02:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187099",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:45:07"
+  },
+  "1186711": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "06/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Aprovação de contas anuais em AGC",
+    "resumo": "AGC realizada em 04/05/2026 aprovou as contas anuais do Canuma Capital Multiestrategia FII (CNPJ 43.010.844/0001-26) referentes ao exercício encerrado em 31/12/2025. Administradora: BTG Pactual Serviços Financeiros S.A. DTVM.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Contas anuais do exercício 2025 aprovadas em AGC de 04/05/2026",
+      "Administradora: BTG Pactual Serviços Financeiros S.A. DTVM",
+      "Fundo sem ticker identificado publicamente no comunicado"
+    ],
+    "fnet_id": 1186711,
+    "ticker_fonte": "CCME11",
+    "data_anuncio": "2026-05-12T15:09:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186711",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:45:14"
+  },
+  "1186707": {
+    "ticker": "HGBS11",
+    "tipo": "FII",
+    "data": "12/05/2026",
+    "categoria": "outros",
+    "titulo_curto": "Esclarecimento B3 sobre oscilação de cotas",
+    "resumo": "Hedge Investments, administradora do HGBS11, responde ofício da B3 (115/2026-SCLE) sobre oscilações das cotas, negando conhecimento de fato relevante não divulgado. Em 11/05/2026, cotas registraram queda de -3,23%, mínima de R$ 19,70, com volume de R$ 17,07 mi.",
+    "valor_envolvido": "R$ 17,07 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Administradora nega existência de fato relevante não divulgado que justifique oscilações",
+      "Queda acentuada de -3,23% em 11/05/2026, com pico de volume em R$ 17,07 mi e 15.558 negócios",
+      "B3 abriu ofício de esclarecimento (115/2026-SCLE) em razão das variações registradas no período"
+    ],
+    "fnet_id": 1186707,
+    "ticker_fonte": "HGBS11",
+    "data_anuncio": "2026-05-12T15:07:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186707",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:45:24"
+  },
+  "1186634": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "11/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Aprovação contas anuais exercício 2025",
+    "resumo": "AGC realizada em 04/05/2026 aprovou as contas anuais do FII BTG Pactual Crédito Imobiliário referentes ao exercício encerrado em 31/12/2025. Administradora: BTG Pactual Serviços Financeiros S.A. DTVM, CNPJ 59.281.253/0001-23.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "AGC realizada em 04/05/2026 aprovou contas anuais do exercício 2025",
+      "Fundo: BTG Pactual Crédito Imobiliário, CNPJ 09.552.812/0001-14",
+      "Administradora: BTG Pactual Serviços Financeiros S.A. DTVM"
+    ],
+    "fnet_id": 1186634,
+    "ticker_fonte": "BTCI11",
+    "data_anuncio": "2026-05-12T14:22:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186634",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:45:32"
+  },
+  "1186618": {
+    "ticker": null,
+    "tipo": "Fiagro",
+    "data": "06/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Aprovação de contas anuais em assembleia",
+    "resumo": "Assembleia geral de cotistas do Sparta Fiagro, realizada em 04/05/2026, aprovou as contas anuais referentes ao exercício encerrado em 31/12/2025. Administrador: BTG Pactual Serviços Financeiros S.A. DTVM. Evento de caráter regulatório, sem impacto financeiro direto divulgado.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Assembleia realizada em 04/05/2026 aprovou contas anuais do exercício 2025",
+      "Administradora: BTG Pactual Serviços Financeiros S.A. DTVM (CNPJ 59.281.253/0001-23)",
+      "Fundo: Sparta Fiagro Imobiliário (CNPJ 48.903.610/0001-21)"
+    ],
+    "fnet_id": 1186618,
+    "ticker_fonte": "CRAA11",
+    "data_anuncio": "2026-05-12T14:10:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186618",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T05:45:42"
   }
 }

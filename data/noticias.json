@@ -1,7 +1,41 @@
 {
-  "atualizado_em": "12/05/2026 13:54",
+  "atualizado_em": "13/05/2026 05:44",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "RBRY11",
+      "nome_fundo": "FII Rbr Crédito Imobiliário Estruturado",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-12T17:44:00",
+      "data_com": "2026-05-12",
+      "data_pagamento": "2026-05-19",
+      "valor": 1.0,
+      "valor_anterior": 1.06,
+      "variacao_pct": -0.05660377358490576,
+      "periodo_referencia": "Abril-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1187042,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187042"
+    },
+    {
+      "ticker": "RBRR11",
+      "nome_fundo": "FII RBR Rendimento High Grade",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-12T17:01:00",
+      "data_com": "2026-05-12",
+      "data_pagamento": "2026-05-19",
+      "valor": 0.9,
+      "valor_anterior": 0.7,
+      "variacao_pct": 0.2857142857142858,
+      "periodo_referencia": "Abril-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1186918,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186918"
+    },
     {
       "ticker": "CCME11",
       "nome_fundo": "Canuma Capital Multiestratégia FII",
@@ -2487,6 +2521,105 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "PMLL11",
+      "nome_fundo": "Genial Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-05-12T23:15:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1187790,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187790"
+    },
+    {
+      "ticker": "VGHF11",
+      "nome_fundo": "Valora Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-12T19:36:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1187402,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187402"
+    },
+    {
+      "ticker": "HTMX11",
+      "nome_fundo": "Hotel Maxinvest FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-05-12T18:44:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1187239,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187239"
+    },
+    {
+      "ticker": "CPTS11",
+      "nome_fundo": "Capitânia Securities II FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-12T18:15:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1187136,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187136"
+    },
+    {
+      "ticker": "BRCR11",
+      "nome_fundo": "BTG Pactual Corporate Office Fund FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-05-12T18:02:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1187099,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187099"
+    },
+    {
+      "ticker": "CCME11",
+      "nome_fundo": "Canuma Capital Multiestratégia FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-12T15:09:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1186711,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186711"
+    },
+    {
+      "ticker": "HGBS11",
+      "nome_fundo": "Hedge Brasil Shopping FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-05-12T15:07:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1186707,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186707"
+    },
+    {
+      "ticker": "BTCI11",
+      "nome_fundo": "BTG Pactual Crédito Imobiliário FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-12T14:22:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1186634,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186634"
+    },
+    {
+      "ticker": "CRAA11",
+      "nome_fundo": "CRAA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-05-12T14:10:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1186618,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186618"
+    },
+    {
       "ticker": "MCRE11",
       "nome_fundo": "Mauá Capital Real Estate FII",
       "setor": "FOFs/Hedge Funds",
@@ -3071,6 +3204,36 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "GRUL11",
+      "nome_fundo": "Icatu Vanguarda Gru Logístico FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-05-12T20:01:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1187473,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187473"
+    },
+    {
+      "ticker": "RURA11",
+      "nome_fundo": "RURA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-05-12T19:47:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1187459,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187459"
+    },
+    {
+      "ticker": "HCTR11",
+      "nome_fundo": "Hectare Ce FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-12T18:27:00",
+      "data_referencia": "30/01/2026",
+      "fnet_id": 1187177,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187177"
+    },
     {
       "ticker": "RCRB11",
       "nome_fundo": "Rio Bravo Renda Corporativa FII",
