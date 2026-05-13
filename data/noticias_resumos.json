@@ -1362,5 +1362,93 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1186618",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-13T05:45:42"
+  },
+  "1188012": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "12/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "AGC aprova contas anuais exercício 2025",
+    "resumo": "Assembleia geral de cotistas realizada em 11/05/2026 aprovou as contas anuais do BTG Pactual Crédito Imobiliário CDI FII (CNPJ 60.027.987/0001-60) referentes ao exercício encerrado em 31/12/2025. Administradora: BTG Pactual Serviços Financeiros S.A. DTVM.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "AGC realizada em 11/05/2026 aprovou contas do exercício 2025",
+      "Fundo sem ticker identificado — BTG Pactual Crédito Imobiliário CDI FII",
+      "Evento de rotina regulatória, sem impacto financeiro imediato"
+    ],
+    "fnet_id": 1188012,
+    "ticker_fonte": "BTCI11",
+    "data_anuncio": "2026-05-13T10:59:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1188012",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T15:46:55"
+  },
+  "1187972": {
+    "ticker": "HFOF11",
+    "tipo": "FII",
+    "data": "13/05/2026",
+    "categoria": "outros",
+    "titulo_curto": "Administradora nega fato relevante não divulgado",
+    "resumo": "Em resposta ao Ofício 119/2026-SLE da B3, a Hedge Investments nega conhecimento de fato relevante não divulgado que justifique oscilações nas cotas do HFOF3. Em 12/05/2026, as cotas recuaram 3,13%, com volume atípico de R$ 7,3 mi e 1,1 mi de cotas negociadas.",
+    "valor_envolvido": "R$ 7,3 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Queda de 3,13% em 12/05/2026, maior oscilação negativa do período analisado",
+      "Volume negociado em 12/05 atingiu R$ 7,3 mi com 1,1 mi de cotas — volume atípico vs média do período",
+      "Administradora afirma não ter conhecimento de fato relevante não divulgado que explique as variações"
+    ],
+    "fnet_id": 1187972,
+    "ticker_fonte": "HFOF11",
+    "data_anuncio": "2026-05-13T10:32:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187972",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T15:47:07"
+  },
+  "1187891": {
+    "ticker": "BTLG11",
+    "tipo": "FII",
+    "data": "13/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "MoU para venda de três ativos logísticos",
+    "resumo": "BTLG11 firmou MoU não vinculante para alienação de 3 ativos logísticos (2 em SP, 1 em PE), totalizando 102.578 m² de ABL. Operação prevê lucro estimado de R$ 1,56/cota, ganho de capital de ~36% e TIR próxima de 17% a.a. Sujeita a condições precedentes.",
+    "valor_envolvido": "null",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Alienação de 3 ativos logísticos totalizando 102.578 m² de ABL",
+      "Lucro estimado de R$ 1,56/cota com ganho de capital de ~36% e TIR de ~17% a.a.",
+      "Operação sujeita a due diligence, aprovações internas e regulatórias"
+    ],
+    "fnet_id": 1187891,
+    "ticker_fonte": "BTLG11",
+    "data_anuncio": "2026-05-13T09:59:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187891",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T15:47:15"
+  },
+  "1187886": {
+    "ticker": "VILG11",
+    "tipo": "FII",
+    "data": "13/05/2026",
+    "categoria": "inadimplencia",
+    "titulo_curto": "Recuperação judicial Tok&Stok impacto limitado",
+    "resumo": "Grupo Toky (Tok&Stok/Mobly) pediu recuperação judicial. Locatário dos módulos G1 e G2 do Extrema Business Park representa apenas 4,5% da receita bruta (R$0,04/cota), ante 15% anteriores. Sem inadimplência até o momento; seguro fiança cobre 12 aluguéis. Guidance 1S26 mantido: R$0,80–R$0,87/cota.",
+    "valor_envolvido": "null",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Grupo Toky reduziu exposição de 15% para 4,5% da receita bruta após reposicionamento; 46.872 m² de ABL realocados para Supera Farma, DSV, Sierra Log e DHL",
+      "Garantia de seguro fiança vigente com cobertura equivalente a 12 aluguéis; sem descumprimento contratual até 13/05/2026",
+      "Novas locações firmadas acima do valor anterior, gerando alta de ~3,9% no aluguel médio do ativo; guidance 1S26 não impactado"
+    ],
+    "fnet_id": 1187886,
+    "ticker_fonte": "VILG11",
+    "data_anuncio": "2026-05-13T09:52:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187886",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-13T15:47:29"
   }
 }
