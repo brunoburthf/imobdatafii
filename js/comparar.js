@@ -13,7 +13,14 @@ const CORES = [
 
 async function carregarDados() {
   try {
-    const resp = await fetch("data/setores.json");
+    // setores.json continua sendo fonte da TABELA. Os historicos dos graficos
+    // vem da agregacao client-side em agregador_setor.js — refletem fix de
+    // outliers nos data/fiis/*.json sem precisar regerar setores.json.
+    const v = Math.floor(Date.now() / 60000);
+    const [resp] = await Promise.all([
+      fetch("data/setores.json?v=" + v),
+      carregarFontesSetor()
+    ]);
     if (!resp.ok) throw new Error("Dados de setores não encontrados.");
     dadosSetores = await resp.json();
 
@@ -131,7 +138,6 @@ function renderizarGraficos() {
 
 function renderizarGraficoComparar(tipo) {
   const isPvp    = tipo === "pvp";
-  const histAll  = isPvp ? dadosSetores.historico_pvp : dadosSetores.historico_dy;
   const canvasId = isPvp ? "grafico-comparar-pvp" : "grafico-comparar-dy";
   const periodo  = isPvp ? periodoPvp : periodoDy;
 
@@ -146,7 +152,7 @@ function renderizarGraficoComparar(tipo) {
   const datasets = [];
 
   setores.forEach((setor, i) => {
-    const serie = filtrarPorPeriodo(histAll?.[setor] || [], periodo);
+    const serie = filtrarPorPeriodo(agregarSerieSetor(setor, tipo), periodo);
     if (!serie.length) return;
 
     // Usa os labels do primeiro setor com dados

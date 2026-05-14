@@ -318,6 +318,141 @@ async function salvarCarteiraManual() {
   }
 }
 
+// SheetJS lazy-loaded (~700 KB) só na primeira chamada de baixarCarteiraExcel.
+let _sheetJsCarregando = null;
+async function _carregarSheetJs() {
+  if (window.XLSX) return;
+  if (_sheetJsCarregando) return _sheetJsCarregando;
+  _sheetJsCarregando = new Promise((res, rej) => {
+    const s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js";
+    s.onload = () => res();
+    s.onerror = () => rej(new Error("Falha ao carregar SheetJS"));
+    document.head.appendChild(s);
+  });
+  return _sheetJsCarregando;
+}
+
+async function baixarCarteiraExcel(btn) {
+  if (!carteira.length) {
+    alert("Adicione fundos antes de baixar.");
+    return;
+  }
+
+  const textoOriginal = btn?.textContent;
+  if (btn) { btn.disabled = true; btn.textContent = "Preparando..."; }
+
+  try {
+    await _carregarSheetJs();
+
+    const nome = (document.getElementById("carteira-nome")?.value || "").trim() || "Carteira";
+    const dataExp = new Date().toLocaleString("pt-BR");
+
+    const idx = {};
+    todosFiis.forEach(f => { idx[f["Ticker"]] = f; });
+
+    // Aba Simulação — coleta pesos do DOM, recalcula posição com base no valor total
+    const valorTotal = parseValorCarteira(document.getElementById("sim-valor-total")?.value) || 0;
+    const linhasSim = [];
+    document.querySelectorAll("#sim-tbody tr[data-ticker]").forEach(tr => {
+      const t = tr.dataset.ticker;
+      const f = idx[t] || {};
+      const peso = parseFloat(tr.querySelector(".sim-peso-input")?.value) || 0;
+      const dy = f["DY a.a."];
+      const ultDiv = f["Último Dividendo Pago"] ?? f["Ultimo Dividendo Pago"];
+      linhasSim.push({
+        Ticker: t,
+        Nome: f["Nome"] || "",
+        Setor: f["Setor"] || f["Tipo"] || "",
+        "Peso (%)": peso || null,
+        "Valor da Posição (R$)": valorTotal && peso ? +(valorTotal * peso / 100).toFixed(2) : null,
+        "P/VP": f["P/VP"] ?? null,
+        "DY a.a. (%)": dy != null ? +(dy * 100).toFixed(2) : null,
+        "Preço Atual (R$)": f["Preço Atual"] ?? null,
+        "Último Dividendo (R$)": ultDiv ?? null,
+      });
+    });
+
+    // Aba Acompanhamento — coleta PM/qtd/data do DOM
+    const linhasAcomp = [];
+    document.querySelectorAll("#acomp-tbody tr[data-ticker]").forEach(tr => {
+      const t = tr.dataset.ticker;
+      const f = idx[t] || {};
+      const pm = parseFloat(tr.querySelector(".acomp-pm-input")?.value) || 0;
+      const qtd = parseFloat(tr.querySelector(".acomp-qtd-input")?.value) || 0;
+      const data = tr.querySelector(".acomp-data-input")?.value || "";
+      const dy = f["DY a.a."];
+      linhasAcomp.push({
+        Ticker: t,
+        Nome: f["Nome"] || "",
+        Setor: f["Setor"] || f["Tipo"] || "",
+        "Preço Médio (R$)": pm || null,
+        Quantidade: qtd || null,
+        "Data de Compra": data || "",
+        "Custo (R$)": pm && qtd ? +(pm * qtd).toFixed(2) : null,
+        "P/VP": f["P/VP"] ?? null,
+        "DY a.a. (%)": dy != null ? +(dy * 100).toFixed(2) : null,
+        "Preço Atual (R$)": f["Preço Atual"] ?? null,
+      });
+    });
+    const custoTotal = linhasAcomp.reduce((s, r) => s + (r["Custo (R$)"] || 0), 0);
+
+    function montarAba(titulo, totalLinha, linhas) {
+      const cabecalho = Object.keys(linhas[0]);
+      const aoa = [
+        [titulo],
+        [`Carteira: ${nome}`],
+        [`Exportado em: ${dataExp}`],
+        [totalLinha],
+        [],
+        cabecalho,
+        ...linhas.map(r => cabecalho.map(c => r[c])),
+      ];
+      const ws = XLSX.utils.aoa_to_sheet(aoa);
+      // Larguras: ticker estreito, nome largo, setor médio, numéricos médios
+      const w = [10, 30, 22];
+      while (w.length < cabecalho.length) w.push(16);
+      ws["!cols"] = w.map(wch => ({ wch }));
+      // Mescla as 4 linhas de cabeçalho ao longo de todas as colunas
+      ws["!merges"] = [
+        { s: { r: 0, c: 0 }, e: { r: 0, c: cabecalho.length - 1 } },
+        { s: { r: 1, c: 0 }, e: { r: 1, c: cabecalho.length - 1 } },
+        { s: { r: 2, c: 0 }, e: { r: 2, c: cabecalho.length - 1 } },
+        { s: { r: 3, c: 0 }, e: { r: 3, c: cabecalho.length - 1 } },
+      ];
+      return ws;
+    }
+
+    const wb = XLSX.utils.book_new();
+    if (linhasSim.length) {
+      XLSX.utils.book_append_sheet(
+        wb,
+        montarAba("Simulação de Carteira", `Valor total: R$ ${formatarBRL(valorTotal)}`, linhasSim),
+        "Simulação"
+      );
+    }
+    if (linhasAcomp.length) {
+      XLSX.utils.book_append_sheet(
+        wb,
+        montarAba("Acompanhamento de Carteira", `Custo total: R$ ${formatarBRL(custoTotal)}`, linhasAcomp),
+        "Acompanhamento"
+      );
+    }
+    if (!wb.SheetNames.length) {
+      alert("Nenhum dado preenchido pra exportar.");
+      return;
+    }
+
+    const safeName = nome.replace(/[\\/:*?"<>|]+/g, "_");
+    const dt = new Date().toISOString().slice(0, 10);
+    XLSX.writeFile(wb, `${safeName}_${dt}.xlsx`);
+  } catch (e) {
+    alert("Erro ao gerar Excel: " + e.message);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = textoOriginal; }
+  }
+}
+
 async function atualizarContadorEscolha() {
   const el = document.getElementById("escolha-count");
   if (!el || !window.currentUser) return;

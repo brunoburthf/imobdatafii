@@ -260,6 +260,161 @@ function carregarImagem(img, src) {
   });
 }
 
+// SheetJS lazy-loaded só na 1a chamada de baixarResultadoExcel.
+let _sheetJsCarregandoRes = null;
+async function _carregarSheetJsRes() {
+  if (window.XLSX) return;
+  if (_sheetJsCarregandoRes) return _sheetJsCarregandoRes;
+  _sheetJsCarregandoRes = new Promise((res, rej) => {
+    const s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js";
+    s.onload = () => res();
+    s.onerror = () => rej(new Error("Falha ao carregar SheetJS"));
+    document.head.appendChild(s);
+  });
+  return _sheetJsCarregandoRes;
+}
+
+async function baixarResultadoExcel(btn) {
+  if (!carteira.length) { alert("Nada a exportar."); return; }
+  const textoOriginal = btn?.textContent;
+  if (btn) { btn.disabled = true; btn.textContent = "Preparando..."; }
+
+  try {
+    await _carregarSheetJsRes();
+
+    const nome = (document.getElementById("res-nome-carteira")?.value || "").trim() || "Carteira";
+    const dataExp = new Date().toLocaleString("pt-BR");
+    const idx = {};
+    todosFiis.forEach(f => { idx[f["Ticker"]] = f; });
+
+    function montarAba(titulo, totalLinha, linhas) {
+      const cabecalho = Object.keys(linhas[0]);
+      const aoa = [
+        [titulo],
+        [`Carteira: ${nome}`],
+        [`Exportado em: ${dataExp}`],
+        [totalLinha],
+        [],
+        cabecalho,
+        ...linhas.map(r => cabecalho.map(c => r[c])),
+      ];
+      const ws = XLSX.utils.aoa_to_sheet(aoa);
+      const w = [10, 30, 22];
+      while (w.length < cabecalho.length) w.push(16);
+      ws["!cols"] = w.map(wch => ({ wch }));
+      ws["!merges"] = [
+        { s: { r: 0, c: 0 }, e: { r: 0, c: cabecalho.length - 1 } },
+        { s: { r: 1, c: 0 }, e: { r: 1, c: cabecalho.length - 1 } },
+        { s: { r: 2, c: 0 }, e: { r: 2, c: cabecalho.length - 1 } },
+        { s: { r: 3, c: 0 }, e: { r: 3, c: cabecalho.length - 1 } },
+      ];
+      return ws;
+    }
+
+    const wb = XLSX.utils.book_new();
+
+    if (TIPO_CARTEIRA === "acompanhamento") {
+      // Aba 1: posicao consolidada (PM, qtd, custo + metricas atuais)
+      const consol = consolidarPorTicker(transacoes || []);
+      const linhasPos = [];
+      let custoTotal = 0;
+      let valorAtualTotal = 0;
+      carteira.forEach(f => {
+        const t = f.ticker;
+        const p = consol[t];
+        if (!p) return;
+        const meta = idx[t] || {};
+        const precoAtual = meta["Preço Atual"] ?? null;
+        const custo = +(p.pm * p.qtd_atual).toFixed(2);
+        const valorAtual = precoAtual ? +(precoAtual * p.qtd_atual).toFixed(2) : null;
+        const pl = (valorAtual != null) ? +(valorAtual - custo + p.ganho_realizado).toFixed(2) : null;
+        custoTotal += custo;
+        if (valorAtual) valorAtualTotal += valorAtual;
+        const dy = meta["DY a.a."];
+        linhasPos.push({
+          Ticker: t,
+          Nome: meta["Nome"] || f.nome || "",
+          Setor: meta["Setor"] || meta["Tipo"] || f.setor || "",
+          "Preço Médio (R$)": +p.pm.toFixed(4),
+          "Quantidade": p.qtd_atual,
+          "Custo (R$)": custo,
+          "Preço Atual (R$)": precoAtual,
+          "Valor Atual (R$)": valorAtual,
+          "Ganho Realizado (R$)": +p.ganho_realizado.toFixed(2),
+          "P&L Total (R$)": pl,
+          "P/VP": meta["P/VP"] ?? null,
+          "DY a.a. (%)": dy != null ? +(dy * 100).toFixed(2) : null,
+        });
+      });
+      if (linhasPos.length) {
+        XLSX.utils.book_append_sheet(
+          wb,
+          montarAba("Acompanhamento — Posições", `Custo total: R$ ${formatarBRL(custoTotal)}  •  Valor atual: R$ ${formatarBRL(valorAtualTotal)}`, linhasPos),
+          "Posições"
+        );
+      }
+
+      // Aba 2: transacoes (historico de operacoes)
+      if (transacoes && transacoes.length) {
+        const linhasTx = [...transacoes]
+          .sort((a, b) => (a.data === b.data ? 0 : a.data < b.data ? -1 : 1))
+          .map(t => ({
+            Data: t.data || "",
+            Ticker: t.ticker,
+            Tipo: t.tipo,
+            Quantidade: t.qtd,
+            "Preço (R$)": t.preco,
+            "Total (R$)": +(t.preco * t.qtd).toFixed(2),
+          }));
+        XLSX.utils.book_append_sheet(
+          wb,
+          montarAba("Histórico de Transações", `Total de operações: ${linhasTx.length}`, linhasTx),
+          "Transações"
+        );
+      }
+    } else {
+      // Modo simulacao: peso + valor de posicao + metricas atuais
+      const valorTotalCarteira = parseValorCarteira(document.getElementById("res-valor-total")?.value) || 0;
+      const linhasSim = [];
+      document.querySelectorAll("#res-tbody tr[data-ticker]").forEach(tr => {
+        const t = tr.dataset.ticker;
+        const meta = idx[t] || {};
+        const peso = parseFloat(tr.querySelector(".sim-peso-input")?.value) || 0;
+        const dy = meta["DY a.a."];
+        const ultDiv = meta["Último Dividendo Pago"] ?? meta["Ultimo Dividendo Pago"];
+        linhasSim.push({
+          Ticker: t,
+          Nome: meta["Nome"] || "",
+          Setor: meta["Setor"] || meta["Tipo"] || "",
+          "Peso (%)": peso || null,
+          "Valor da Posição (R$)": valorTotalCarteira && peso ? +(valorTotalCarteira * peso / 100).toFixed(2) : null,
+          "P/VP": meta["P/VP"] ?? null,
+          "DY a.a. (%)": dy != null ? +(dy * 100).toFixed(2) : null,
+          "Preço Atual (R$)": meta["Preço Atual"] ?? null,
+          "Último Dividendo (R$)": ultDiv ?? null,
+        });
+      });
+      if (linhasSim.length) {
+        XLSX.utils.book_append_sheet(
+          wb,
+          montarAba("Simulação de Carteira", `Valor total: R$ ${formatarBRL(valorTotalCarteira)}`, linhasSim),
+          "Simulação"
+        );
+      }
+    }
+
+    if (!wb.SheetNames.length) { alert("Nada a exportar."); return; }
+    const safeName = nome.replace(/[\\/:*?"<>|]+/g, "_");
+    const dt = new Date().toISOString().slice(0, 10);
+    XLSX.writeFile(wb, `${safeName}_${dt}.xlsx`);
+  } catch (e) {
+    alert("Erro ao gerar Excel: " + e.message);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = textoOriginal; }
+  }
+}
+
 async function gerarPDF() {
   const nome  = document.getElementById("res-nome-carteira")?.value.trim() || "Carteira";
   const vc    = parseValorCarteira(document.getElementById("res-valor-total")?.value);

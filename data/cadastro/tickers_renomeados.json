@@ -1,0 +1,15 @@
+{
+  "_doc": "Mapeamento ticker_atual -> [tickers_historicos]. Cadeia ordenada do mais recente pro mais antigo. Usado pelo rebase_v2_b3.py pra juntar historico no COTAHIST quando o ticker mudou de codigo.",
+  "_atualizado_em": "2026-05-11",
+  "renomeacoes": {
+    "PMLL11": ["MALL11"],
+    "GARE11": ["GALG11"],
+    "TRBL11": ["SDIL11"],
+    "TVRI11": ["BBPO11"],
+    "PCIP11": ["CVBI11"],
+    "MCRE11": ["MCHY11"],
+    "PSEC11": ["RVBI11"],
+    "BTHF11": ["BCFF11"],
+    "FTCA11": ["NCRA11", "EQIA11"]
+  }
+}

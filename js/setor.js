@@ -13,10 +13,17 @@ const PRICES_URL = "https://raw.githubusercontent.com/brunoburthf/imobdatafii/ma
 
 async function carregarDados() {
   try {
+    const v = Math.floor(Date.now() / 60000);
+    // setores.json continua sendo fonte da TABELA (P/VP atual, DY atual, % do IFIX).
+    // Os HISTORICOS dos graficos agora vem da agregacao client-side em
+    // agregador_setor.js, a partir de data/fii_series.json + pesos_ifix.json —
+    // assim refletem qualquer fix de outlier nos data/fiis/*.json sem precisar
+    // regerar setores.json.
     const [respSetores, respIndex, respPrecos] = await Promise.all([
-      fetch("data/setores.json"),
-      fetch("data/index.json"),
-      fetch(PRICES_URL).catch(() => null)
+      fetch("data/setores.json?v=" + v),
+      fetch("data/index.json?v=" + v),
+      fetch(PRICES_URL).catch(() => null),
+      carregarFontesSetor()
     ]);
 
     if (!respSetores.ok) throw new Error("Dados de setores não encontrados. Rode o script de atualização primeiro.");
@@ -210,9 +217,9 @@ function selecionarSetor(setor) {
   document.getElementById("tabela-fiis-setor-titulo").textContent = `FIIs — ${setor}`;
   document.getElementById("setor-detalhe").style.display = "block";
 
-  // Histórico
-  dadosPvpCompleto = dadosSetores.historico_pvp?.[setor] || [];
-  dadosDyCompleto  = dadosSetores.historico_dy?.[setor]  || [];
+  // Históricos agregados client-side a partir dos data/fiis/*.json corrigidos.
+  dadosPvpCompleto = agregarSerieSetor(setor, "pvp");
+  dadosDyCompleto  = agregarSerieSetor(setor, "dy");
 
   ["pvp", "dy"].forEach(tipo => {
     document.querySelectorAll(`[data-chart="${tipo}"]`).forEach(btn => {
