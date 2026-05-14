@@ -813,28 +813,6 @@
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-07T09:54:56"
   },
-  "1159530": {
-    "ticker": "RBVA11",
-    "tipo": "FII",
-    "data": "13/04/2026",
-    "categoria": "aquisicao",
-    "titulo_curto": "Venda do imóvel Senador Queiroz em SP",
-    "resumo": "RBVA11 alienou imóvel Senador Queiroz (SP), locado para Caixa (80%) e conveniência (20%), por R$ 10,5 mi (R$ 7.256,39/m²). Lucro líquido de R$ 3,6 mi (R$ 0,02/cota), 63% acima do custo de aquisição, TIR de 15,4% a.a. (IPCA+9%). Guidance de R$ 0,09/cota/mês mantido.",
-    "valor_envolvido": "R$ 10,5 mi",
-    "criticidade": "media",
-    "pontos_chave": [
-      "Venda 63% acima do custo de aquisição, em linha com laudo, TIR de 15,4% a.a. (IPCA+9% ou CDI+6%) ao longo de ~14 anos",
-      "Pagamento: R$ 5 mi na escritura + 5 parcelas mensais de R$ 1 mi + parcela final de R$ 500 mil; garantia via alienação fiduciária",
-      "Exposição ao setor bancário reduzida para 21% do ativo total; guidance de R$ 0,09/cota/mês inalterado"
-    ],
-    "fnet_id": 1159530,
-    "ticker_fonte": "RBVA11",
-    "data_anuncio": "2026-04-13T09:11:00",
-    "categoria_fnet": "Fato Relevante",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1159530",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-05-07T09:55:08"
-  },
   "1182241": {
     "ticker": "SNRI11",
     "tipo": "FII",
@@ -1450,5 +1428,159 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1187886",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-13T15:47:29"
+  },
+  "1190150": {
+    "ticker": "AFHI11",
+    "tipo": "FII",
+    "data": "13/05/2026",
+    "categoria": "emissao",
+    "titulo_curto": "AFHI11 aprova 8ª emissão de cotas",
+    "resumo": "AF Invest CRI FII aprova 8ª emissão de até 838.648 cotas a R$ 95,48/cota, totalizando R$ 80,07 mi, com lote adicional de 25%. Pipeline indicativo de 12 CRIs, mix 45,83% CDI+ e 54,17% IPCA+. Oferta exclusiva a investidores profissionais, custos arcados pela gestora.",
+    "valor_envolvido": "R$ 80,07 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de emissão R$ 95,48/cota, baseado no valor patrimonial de 30/04/2026",
+      "Pipeline indicativo de 12 CRIs: spreads entre CDI+2,00% e IPCA+11,00% a.a.",
+      "Montante mínimo de R$ 1,00 mi; lote adicional de até 25%; custos pagos pela gestora"
+    ],
+    "fnet_id": 1190150,
+    "ticker_fonte": "AFHI11",
+    "data_anuncio": "2026-05-13T22:01:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1190150",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-14T05:48:13"
+  },
+  "1189953": {
+    "ticker": "MXRF11",
+    "tipo": "FII",
+    "data": "13/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Aprovação de contas anuais exercício 2025",
+    "resumo": "AGC realizada em 11/05/2026 aprovou as contas anuais do MAXI RENDA FII referentes ao exercício encerrado em 31/12/2025. Administradora BTG Pactual Serviços Financeiros S.A. DTVM comunicou o resultado da assembleia sem indicação de ressalvas.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "AGC de 11/05/2026 aprovou contas do exercício 2025",
+      "Administradora: BTG Pactual Serviços Financeiros S.A. DTVM",
+      "Evento de rotina regulatória, sem impacto financeiro imediato divulgado"
+    ],
+    "fnet_id": 1189953,
+    "ticker_fonte": "MXRF11",
+    "data_anuncio": "2026-05-13T19:54:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1189953",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-14T05:48:19"
+  },
+  "1189817": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "11/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Adequação regulatória transparência taxas ANBIMA",
+    "resumo": "BTG Pactual Crédito Imobiliário FII atualiza forma de divulgação da remuneração de prestadores de serviços, substituindo o Sumário de Remuneração pela Ferramenta ANBIMA, conforme Ofício-Circular CVM nº 1/2025. Sem alteração nos valores cobrados dos cotistas. Vigência: 11/05/2026.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Substituição do Sumário de Remuneração pela Plataforma de Transparência de Taxas da ANBIMA",
+      "Adequação ao Ofício-Circular Conjunto nº 1/2025/CVM/SIN/SSE, sem impacto financeiro aos cotistas",
+      "Novo regulamento consolidado entra em vigor no fechamento de 11 de maio de 2026"
+    ],
+    "fnet_id": 1189817,
+    "ticker_fonte": "BTCI11",
+    "data_anuncio": "2026-05-13T19:02:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1189817",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-14T05:48:26"
+  },
+  "1189760": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "11/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Adequação regulamentar ao Ofício-Circular CVM 1/2025",
+    "resumo": "BTG Pactual Crédito Imobiliário FII atualiza forma de divulgação da remuneração de prestadores de serviços, substituindo o Sumário de Remuneração pela Ferramenta ANBIMA. Sem alteração de valores pagos pelos cotistas. Regulamento consolidado vigente a partir de 11/05/2026.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Substituição do Sumário de Remuneração pela Plataforma de Transparência de Taxas ANBIMA, conforme Ofício-Circular CVM nº 1/2025",
+      "Nenhuma alteração nos valores ou taxas cobradas dos cotistas",
+      "Novo regulamento consolidado com efeitos a partir do fechamento de 11/05/2026"
+    ],
+    "fnet_id": 1189760,
+    "ticker_fonte": "BTCI11",
+    "data_anuncio": "2026-05-13T18:58:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1189760",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-14T05:48:32"
+  },
+  "1189717": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "12/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Adequação regulamento transparência taxas ANBIMA",
+    "resumo": "Suno Fundo de Fundos FII atualiza regulamento para substituir Sumário de Remuneração pela Ferramenta ANBIMA (Plataforma de Transparência de Taxas), conforme Ofício-Circular CVM nº 1/2025. Sem alteração nos valores pagos pelos cotistas. Vigência a partir de 12/05/2026.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Substituição do Sumário de Remuneração pela Ferramenta ANBIMA como canal de divulgação de taxas",
+      "Adequação ao Ofício-Circular CVM nº 1/2025, sem impacto financeiro para cotistas",
+      "Novo regulamento consolidado com vigência a partir do fechamento de 12/05/2026"
+    ],
+    "fnet_id": 1189717,
+    "ticker_fonte": "SNFF11",
+    "data_anuncio": "2026-05-13T18:47:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1189717",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-14T05:48:40"
+  },
+  "1189716": {
+    "ticker": "BRCR11",
+    "tipo": "FII",
+    "data": "11/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Atualização regulamento transparência taxas ANBIMA",
+    "resumo": "BTG Pactual Corporate Office Fund adequa regulamento ao Ofício-Circular CVM nº 1/2025, substituindo o Sumário de Remuneração pela Ferramenta ANBIMA como canal de divulgação de taxas. Sem alteração nos valores cobrados dos cotistas. Vigência a partir de 11/05/2026.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Substituição do Sumário de Remuneração pela Plataforma de Transparência de Taxas da ANBIMA",
+      "Adequação ao Ofício-Circular Conjunto nº 1/2025/CVM/SIN/SSE",
+      "Nenhuma alteração nos valores pagos pelos cotistas; efeitos a partir de 11/05/2026"
+    ],
+    "fnet_id": 1189716,
+    "ticker_fonte": "BRCR11",
+    "data_anuncio": "2026-05-13T18:47:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1189716",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-14T05:48:47"
+  },
+  "1189702": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "12/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Adequação regulamentar à plataforma ANBIMA de transparência",
+    "resumo": "Suno Recebíveis Imobiliários FII atualiza forma de divulgação de remuneração de prestadores de serviços, substituindo Sumário de Remuneração pela Ferramenta ANBIMA, conforme Ofício-Circular CVM nº 1/2025. Sem alteração de valores pagos pelos cotistas. Vigência: 12/05/2026.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Substituição do Sumário de Remuneração pela Plataforma de Transparência de Taxas da ANBIMA",
+      "Adequação ao Ofício-Circular Conjunto CVM nº 1/2025, sem impacto financeiro aos cotistas",
+      "Novo regulamento consolidado entra em vigor no fechamento de 12 de maio de 2026"
+    ],
+    "fnet_id": 1189702,
+    "ticker_fonte": "SNCI11",
+    "data_anuncio": "2026-05-13T18:42:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1189702",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-14T05:48:55"
   }
 }
