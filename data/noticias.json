@@ -1,7 +1,58 @@
 {
-  "atualizado_em": "14/05/2026 09:25",
+  "atualizado_em": "15/05/2026 05:51",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "TOPP11",
+      "nome_fundo": "Rbr Top Offices FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-05-14T17:04:00",
+      "data_com": "2026-05-14",
+      "data_pagamento": "2026-05-21",
+      "valor": 0.84,
+      "valor_anterior": 0.84,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Abril-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1191998,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1191998"
+    },
+    {
+      "ticker": "SNFZ11",
+      "nome_fundo": "SNFZ11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-05-14T16:13:00",
+      "data_com": "2026-05-15",
+      "data_pagamento": "2026-05-25",
+      "valor": 0.1,
+      "valor_anterior": 0.1,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "ABRIL",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1191649,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1191649"
+    },
+    {
+      "ticker": "SNEL11",
+      "nome_fundo": "Suno Energias Limpas FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-14T09:39:00",
+      "data_com": "2026-05-15",
+      "data_pagamento": "2026-05-25",
+      "valor": 0.1,
+      "valor_anterior": 0.1,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "ABRIL",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1190255,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1190255"
+    },
     {
       "ticker": "CPTS11",
       "nome_fundo": "Capitânia Securities II FII",
@@ -2196,23 +2247,6 @@
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1166171"
     },
     {
-      "ticker": "FTCA11",
-      "nome_fundo": "FTCA11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-04-17T09:00:00",
-      "data_com": "2026-04-17",
-      "data_pagamento": "2026-04-27",
-      "valor": 0.11,
-      "valor_anterior": 0.12,
-      "variacao_pct": -0.08333333333333326,
-      "periodo_referencia": "Março-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1165810,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1165810"
-    },
-    {
       "ticker": "ALZR11",
       "nome_fundo": "Alianza Trust Renda Imobiliária FII",
       "setor": "Tijolo Multissetorial",
@@ -2432,94 +2466,31 @@
       "fnet_id": 1162295,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1162295"
-    },
-    {
-      "ticker": "SNEL11",
-      "nome_fundo": "Suno Energias Limpas FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-04-14T18:14:00",
-      "data_com": "2026-04-15",
-      "data_pagamento": "2026-04-24",
-      "valor": 0.1,
-      "valor_anterior": 0.1,
-      "variacao_pct": 0.0,
-      "periodo_referencia": "MARÇO",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1161854,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161854"
-    },
-    {
-      "ticker": "SNAG11",
-      "nome_fundo": "SNAG11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-04-14T18:04:00",
-      "data_com": "2026-04-15",
-      "data_pagamento": "2026-04-24",
-      "valor": 0.12,
-      "valor_anterior": 0.15,
-      "variacao_pct": -0.19999999999999996,
-      "periodo_referencia": "MARÇO",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1161832,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161832"
-    },
-    {
-      "ticker": "SNFZ11",
-      "nome_fundo": "SNFZ11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-04-14T17:59:00",
-      "data_com": "2026-04-15",
-      "data_pagamento": "2026-04-24",
-      "valor": 0.1,
-      "valor_anterior": 0.1,
-      "variacao_pct": 0.0,
-      "periodo_referencia": "MARÇO",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1161816,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161816"
-    },
-    {
-      "ticker": "TOPP11",
-      "nome_fundo": "Rbr Top Offices FII",
-      "setor": "Escritórios",
-      "data_anuncio": "2026-04-14T17:02:00",
-      "data_com": "2026-04-14",
-      "data_pagamento": "2026-04-22",
-      "valor": 0.84,
-      "valor_anterior": 0.84,
-      "variacao_pct": 0.0,
-      "periodo_referencia": "Março-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1161628,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161628"
-    },
-    {
-      "ticker": "KISU11",
-      "nome_fundo": "Kilima Fundo de Investimento em Cotas de FII Suno 30",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-04-14T09:23:00",
-      "data_com": "2026-04-14",
-      "data_pagamento": "2026-04-20",
-      "valor": 0.05870968,
-      "valor_anterior": 0.07,
-      "variacao_pct": -0.16129028571428583,
-      "periodo_referencia": "Março",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1160842,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1160842"
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "HGRU11",
+      "nome_fundo": "Pátria Renda Urbana FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-05-14T19:48:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1192735,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1192735"
+    },
+    {
+      "ticker": "IAAG11",
+      "nome_fundo": "IAAG11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-05-14T18:09:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1192289,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1192289"
+    },
     {
       "ticker": "AFHI11",
       "nome_fundo": "Af Invest Cri FII Recebíveis Imobiliários",
@@ -3278,42 +3249,29 @@
       "fnet_id": 1165107,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1165107"
-    },
-    {
-      "ticker": "TRXF11",
-      "nome_fundo": "Trx Real Estate FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-04-14T19:05:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1162035,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1162035"
-    },
-    {
-      "ticker": "ALZR11",
-      "nome_fundo": "Alianza Trust Renda Imobiliária FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-04-14T18:33:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1161951,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161951"
-    },
-    {
-      "ticker": "GARE11",
-      "nome_fundo": "Guardian Real Estate FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-04-14T18:03:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1161830,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161830"
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "KNHY11",
+      "nome_fundo": "Kinea High Yield Cri FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-14T18:06:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1192280,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1192280"
+    },
+    {
+      "ticker": "KNHF11",
+      "nome_fundo": "Kinea Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-14T17:48:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1192201,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1192201"
+    },
     {
       "ticker": "RBFM11",
       "nome_fundo": "Rio Bravo Multiestratégia FII",
@@ -4623,46 +4581,6 @@
       "fnet_id": 1164033,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1164033"
-    },
-    {
-      "ticker": "RBVA11",
-      "nome_fundo": "Rio Bravo Renda Varejo FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-04-14T23:42:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1162247,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1162247"
-    },
-    {
-      "ticker": "RCRB11",
-      "nome_fundo": "Rio Bravo Renda Corporativa FII",
-      "setor": "Escritórios",
-      "data_anuncio": "2026-04-14T23:41:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1162246,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1162246"
-    },
-    {
-      "ticker": "BCIA11",
-      "nome_fundo": "Bradesco Carteira Imobiliária Ativa FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-04-14T18:37:00",
-      "data_referencia": "14/04/2026",
-      "fnet_id": 1161971,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161971"
-    },
-    {
-      "ticker": "LIFE11",
-      "nome_fundo": "Life Capital Partners FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-04-14T16:24:00",
-      "data_referencia": "27/02/2026",
-      "fnet_id": 1161547,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161547"
     }
   ]
 }

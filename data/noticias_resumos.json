@@ -747,72 +747,6 @@
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-07T09:54:34"
   },
-  "1162035": {
-    "ticker": "TRXF11",
-    "tipo": "FII",
-    "data": "14/04/2026",
-    "categoria": "aquisicao",
-    "titulo_curto": "Início de obras de galpão locado à Shopee",
-    "resumo": "TRXF11 aprovou projeto e iniciará construção de galpão logístico em Londrina/PR locado à Shopee (SPX Logística) via contrato atípico de 120 meses. Preço total de R$ 135,5 mi, com R$ 25,2 mi já pagos e saldo corrigido pelo INCC/FGV. Entrega prevista para julho/2027. Renda mínima garantida de 9,5% a.a. sobre valores pagos até início da locação.",
-    "valor_envolvido": "R$ 135,5 mi",
-    "criticidade": "alta",
-    "pontos_chave": [
-      "Contrato atípico de locação com Shopee (SPX Logística) por 120 meses",
-      "Renda mínima garantida pela Vendedora de 9,5% a.a. sobre valores desembolsados até entrega do imóvel",
-      "Saldo de R$ 110,3 mi a ser pago em parcelas vinculadas à evolução das obras, corrigidas pelo INCC/FGV"
-    ],
-    "fnet_id": 1162035,
-    "ticker_fonte": "TRXF11",
-    "data_anuncio": "2026-04-14T19:05:00",
-    "categoria_fnet": "Fato Relevante",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1162035",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-05-07T09:54:44"
-  },
-  "1161951": {
-    "ticker": "ALZR11",
-    "tipo": "FII",
-    "data": "14/04/2026",
-    "categoria": "aquisicao",
-    "titulo_curto": "Aquisição do Edifício Oscar Freire Office",
-    "resumo": "TSER11, fundo no qual ALZR11 é cotista majoritário, adquiriu 100% do Edifício Corporativo Oscar Freire Office por R$ 132 mi (R$ 99 mi pagos na escritura). Imóvel 100% locado para BAT e Restaurante Arturito, contratos típicos de 10 anos com multas rescisórias de 18x e 16x o aluguel vigente.",
-    "valor_envolvido": "R$ 132 mi",
-    "criticidade": "alta",
-    "pontos_chave": [
-      "Preço de aquisição de R$ 132 mi, com R$ 99 mi pagos na assinatura da escritura em 13/04/2026",
-      "Imóvel 100% ocupado: BAT (contrato até 2032) e Restaurante Arturito (contrato até 2033), ambos com prazo de 10 anos",
-      "Multas rescisórias elevadas de 18x e 16x o aluguel vigente, respectivamente, conferindo proteção contratual robusta"
-    ],
-    "fnet_id": 1161951,
-    "ticker_fonte": "ALZR11",
-    "data_anuncio": "2026-04-14T18:33:00",
-    "categoria_fnet": "Fato Relevante",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161951",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-05-07T09:54:50"
-  },
-  "1161830": {
-    "ticker": null,
-    "tipo": "FII",
-    "data": "14/04/2026",
-    "categoria": "outros",
-    "titulo_curto": "Atraso na divulgação de demonstrações financeiras",
-    "resumo": "Guardian Real Estate FII, administrado pelo Banco Daycoval, informa atraso na divulgação das demonstrações financeiras do exercício findo em dezembro de 2025. Prazo estimado para conclusão: 31/05/2026. Causas: revisão de laudos de avaliação de imóveis e procedimentos adicionais em fundos investidos sem auditoria independente.",
-    "valor_envolvido": null,
-    "criticidade": "media",
-    "pontos_chave": [
-      "Demonstrações financeiras de dez/2025 com atraso; novo prazo: 31/05/2026",
-      "Causas: reavaliação de laudos de imóveis e análises em fundos investidos sem auditoria independente",
-      "Administrador: Banco Daycoval S.A.; fundo sem ticker identificado (CNPJ 37.295.919/0001-60)"
-    ],
-    "fnet_id": 1161830,
-    "ticker_fonte": "GARE11",
-    "data_anuncio": "2026-04-14T18:03:00",
-    "categoria_fnet": "Fato Relevante",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1161830",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-05-07T09:54:56"
-  },
   "1182241": {
     "ticker": "SNRI11",
     "tipo": "FII",
@@ -1582,5 +1516,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1189702",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-14T05:48:55"
+  },
+  "1192735": {
+    "ticker": "HGRU11",
+    "tipo": "FII",
+    "data": "14/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Venda de imóvel em Marechal Cândido Rondon PR",
+    "resumo": "HGRU11 vendeu imóvel de 874 m² em Marechal Cândido Rondon (PR) por R$ 5 mi, gerando lucro de R$ 1,51 mi (R$ 0,07/cota). Preço 43,3% acima do custo e 31,6% acima do laudo 2026. TIR de 16,6% a.a.",
+    "valor_envolvido": "R$ 5 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Venda por R$ 5 mi, custo histórico de R$ 3,49 mi; lucro de R$ 1,51 mi (R$ 0,07/cota)",
+      "TIR anualizada de 16,6% a.a.; preço 43,3% acima do investido e 31,6% acima do laudo 2026",
+      "Perda de receita mensal de R$ 27.194,38 (~R$ 0,001/cota) a partir de 14/05/2026"
+    ],
+    "fnet_id": 1192735,
+    "ticker_fonte": "HGRU11",
+    "data_anuncio": "2026-05-14T19:48:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1192735",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-15T05:52:20"
+  },
+  "1192289": {
+    "ticker": "IAAG11",
+    "tipo": "Fiagro",
+    "data": "14/05/2026",
+    "categoria": "outros",
+    "titulo_curto": "Resposta a ofício B3 sobre oscilação atípica",
+    "resumo": "Em resposta ao Ofício B3 120/2026-SLE, a administradora Inter DTVM declara desconhecer fato relevante que justifique oscilação atípica nas cotas do IAAG11. Em 13/05/2026, o ativo registrou queda de -3,89%, volume de R$ 765,8 mil e 2.528 negócios.",
+    "valor_envolvido": null,
+    "criticidade": "media",
+    "pontos_chave": [
+      "B3 questionou oscilação atípica em 13/05/2026: -3,89%, 2.528 negócios e volume de R$ 765,8 mil",
+      "Administradora declarou desconhecer qualquer fato relevante que justifique o movimento",
+      "Prazo de resposta ao ofício era 14/05/2026, cumprido dentro do prazo"
+    ],
+    "fnet_id": 1192289,
+    "ticker_fonte": "IAAG11",
+    "data_anuncio": "2026-05-14T18:09:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1192289",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-15T05:52:32"
   }
 }
