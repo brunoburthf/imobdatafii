@@ -421,7 +421,7 @@ function _renderTabOfertas(qual, lista, comStatusCol) {
   });
 
   const tbody = document.getElementById(`tabela-ofertas-body-${qual}`);
-  const colspan = comStatusCol ? 13 : 11;
+  const colspan = comStatusCol ? 12 : 10;
   if (!lista.length) {
     tbody.innerHTML = `<tr><td colspan="${colspan}" class="sim-vazio-msg">Nenhuma oferta ${qual === "ativas" ? "ativa no momento" : "no histórico"}.</td></tr>`;
     return;
@@ -462,7 +462,6 @@ function _renderTabOfertas(qual, lista, comStatusCol) {
         ${colVolume}
         ${colPctPf}
         <td class="num">${fmtPreco(o.preco_unitario)}</td>
-        <td class="num">${fmtData(o.data_registro)}</td>
         <td class="num">${fmtData(o.data_inicio)}</td>
         ${colEnce}
         <td class="num">${fmtConfirmFnet(o)}</td>
@@ -500,7 +499,7 @@ function fmtConfirmFnet(o) {
 }
 
 function renderSubscritores(o, colspanTotal) {
-  // colspanTotal = nº total de colunas da tabela hospedeira (11 ativas, 13 resto).
+  // colspanTotal = nº total de colunas da tabela hospedeira (10 ativas, 12 resto).
   // O sub-painel usa: 1 (toggle) + 2 (cat) + 3 (números) + restante (barra de %).
   const colspanBarra = Math.max(1, colspanTotal - 6);
   const subs = o.subscritores || {};
