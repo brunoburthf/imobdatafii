@@ -94,8 +94,8 @@ function aplicarFiltrosOfertas() {
   if (elCResto)  elCResto.textContent  = `${resto.length} de ${totalResto}`;
 
   if (document.getElementById("tabela-ofertas-body-bookbuilding")) _renderTabBookbuilding(bookb);
-  if (document.getElementById("tabela-ofertas-body-ativas"))       _renderTabOfertas("ativas", ativas, /*comStatusCol*/false);
-  if (document.getElementById("tabela-ofertas-body-resto"))        _renderTabOfertas("resto",  resto,  /*comStatusCol*/true);
+  if (document.getElementById("tabela-ofertas-body-ativas"))       _renderTabOfertas("ativas", ativas, /*comEnceCol*/false);
+  if (document.getElementById("tabela-ofertas-body-resto"))        _renderTabOfertas("resto",  resto,  /*comEnceCol*/true);
   if (document.getElementById("grafico-vol-ofertas"))              _renderGraficoVolMensal(resto);
   atualizarIconesOf();
 }
@@ -202,15 +202,6 @@ function _bucketLabel(key) {
 
 const COR_PF     = "#EF6300";
 const COR_OUTROS = "rgba(0,9,60,0.55)";
-
-function trocarModoGrafico(modo) {
-  if (modo === _modoGrafico) return;
-  _modoGrafico = modo;
-  document.querySelectorAll(".ofertas-grafico-tab").forEach(b => {
-    b.classList.toggle("ativo", b.dataset.modo === modo);
-  });
-  aplicarFiltrosOfertas();
-}
 
 function _pfDoOferta(o) {
   const subPf = (o.subscritores || {})["Pessoa Física / Natural"]
@@ -409,7 +400,7 @@ function _renderTabBookbuilding(lista) {
   }).join("");
 }
 
-function _renderTabOfertas(qual, lista, comStatusCol) {
+function _renderTabOfertas(qual, lista, comEnceCol) {
   const ord = _ordemPorTab[qual];
   const dir = ord.direcao === "asc" ? 1 : -1;
   lista = [...lista].sort((a, b) => {
@@ -421,7 +412,7 @@ function _renderTabOfertas(qual, lista, comStatusCol) {
   });
 
   const tbody = document.getElementById(`tabela-ofertas-body-${qual}`);
-  const colspan = comStatusCol ? 12 : 10;
+  const colspan = comEnceCol ? 11 : 10;
   if (!lista.length) {
     tbody.innerHTML = `<tr><td colspan="${colspan}" class="sim-vazio-msg">Nenhuma oferta ${qual === "ativas" ? "ativa no momento" : "no histórico"}.</td></tr>`;
     return;
@@ -432,10 +423,7 @@ function _renderTabOfertas(qual, lista, comStatusCol) {
     const expand = _expandidas.has(idLinha);
     const subs = Object.keys(o.subscritores || {});
     const podeExpandir = subs.length > 0;
-    const colStatus = comStatusCol
-      ? `<td><span class="of-status ${STATUS_CLASSE[o.status] || ""}">${o.status}</span></td>`
-      : "";
-    const colEnce = comStatusCol
+    const colEnce = comEnceCol
       ? `<td class="num">${fmtData(o.data_encerramento)}</td>`
       : "";
     // Volume: ativas mostram registrado; histórico mostra captado (com tooltip
@@ -455,7 +443,6 @@ function _renderTabOfertas(qual, lista, comStatusCol) {
             : ""}
         </td>
         <td><a href="fii.html?ticker=${o.ticker}" class="ticker-link" title="${o.nome_fundo || ""}">${o.ticker}</a></td>
-        ${colStatus}
         <td class="num">${o.emissao ?? "—"}${o.serie ? ` <small>(${o.serie})</small>` : ""}</td>
         <td>${o.rito || "—"}</td>
         <td class="of-lider" title="${o.lider || ""}">${truncar(o.lider || "—", 30)}</td>
@@ -499,7 +486,7 @@ function fmtConfirmFnet(o) {
 }
 
 function renderSubscritores(o, colspanTotal) {
-  // colspanTotal = nº total de colunas da tabela hospedeira (10 ativas, 12 resto).
+  // colspanTotal = nº total de colunas da tabela hospedeira (10 ativas, 11 resto).
   // O sub-painel usa: 1 (toggle) + 2 (cat) + 3 (números) + restante (barra de %).
   const colspanBarra = Math.max(1, colspanTotal - 6);
   const subs = o.subscritores || {};
