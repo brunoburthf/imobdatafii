@@ -1,6 +1,22 @@
 // Tela de Ofertas Públicas. Le data/ofertas_publicas.json (CVM Dados Abertos
-// filtrado pelos nossos 178 fundos) e renderiza tabela ordenavel + filtros.
+// filtrado pelo universo expandido — 178 curados + ~1300 cetipados/não listados).
 // Cada linha tem botão de expandir que mostra a quebra de subscritores.
+
+// Heuristica: fundo "curado" = setor que NAO termina com "(não-curado)".
+// Curados tem pagina fii.html; não-curados sao so listados sem link interno.
+function _ehCurado(o) {
+  const s = o.setor || "";
+  return !s.endsWith("(não-curado)");
+}
+function _renderTicker(o) {
+  const tk = o.ticker || "—";
+  const titulo = o.nome_fundo || "";
+  if (_ehCurado(o)) {
+    return `<a href="fii.html?ticker=${tk}" class="ticker-link" title="${titulo}">${tk}</a>`;
+  }
+  // Não-curado: só texto (ticker B3 quando existe, ou denom_social truncada)
+  return `<span class="ticker-nao-curado" title="${titulo}">${tk}</span>`;
+}
 
 let _todasOfertas = [];
 // Ordem independente por tabela
@@ -395,7 +411,7 @@ function _renderTabBookbuilding(lista) {
             ? `<button class="of-toggle" onclick="toggleOferta('${idLinha}')" title="Ver quebra dos subscritores">${expand ? "▼" : "▶"}</button>`
             : ""}
         </td>
-        <td><a href="fii.html?ticker=${o.ticker}" class="ticker-link" title="${o.nome_fundo || ""}">${o.ticker}</a></td>
+        <td>${_renderTicker(o)}</td>
         <td><span class="of-status ${STATUS_CLASSE[o.status] || ""}">${o.status}</span></td>
         <td class="num">${o.emissao ?? "—"}${o.serie ? ` <small>(${o.serie})</small>` : ""}</td>
         <td>${o.rito || "—"}</td>
@@ -453,7 +469,7 @@ function _renderTabOfertas(qual, lista, comEnceCol) {
             ? `<button class="of-toggle" onclick="toggleOferta('${idLinha}')" title="Ver quebra dos subscritores">${expand ? "▼" : "▶"}</button>`
             : ""}
         </td>
-        <td><a href="fii.html?ticker=${o.ticker}" class="ticker-link" title="${o.nome_fundo || ""}">${o.ticker}</a></td>
+        <td>${_renderTicker(o)}</td>
         <td class="num">${o.emissao ?? "—"}${o.serie ? ` <small>(${o.serie})</small>` : ""}</td>
         <td>${o.rito || "—"}</td>
         <td class="of-lider" title="${o.lider || ""}">${truncar(o.lider || "—", 30)}</td>

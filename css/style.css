@@ -3634,6 +3634,12 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
   letter-spacing: 0.02em;
 }
 .ticker-link:hover { text-decoration: underline; }
+/* Ticker de fundo nao-curado (universo expandido de ofertas — sem pagina interna) */
+.ticker-nao-curado {
+  color: var(--texto-suave);
+  font-weight: 500;
+  cursor: help;
+}
 
 /* ── ACCORDION — CARTEIRA CVM ── */
 .carteira-accordion {
