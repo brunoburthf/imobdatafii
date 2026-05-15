@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ofertas Públicas — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link ativo">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito">Interno</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='noticias.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main data-card="ofertas">
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <p class="noticias-meta-topo">
+        Atualizado em <span id="atualizado-em">—</span> ·
+        Fonte: <a href="https://dados.cvm.gov.br/dataset/oferta-distrib" target="_blank" rel="noopener">CVM Dados Abertos</a>
+        + <a href="https://fnet.bmfbovespa.com.br" target="_blank" rel="noopener">fnet (B3)</a> p/ cross-check ·
+        Janela: últimos <span id="janela-meses">24</span> meses
+        <button id="btn-atualizar-ofertas" class="btn-atualizar-ofertas" onclick="atualizarOfertas(this)" title="Roda fnet + CVM + cross-check (~3-5min)">↻ Atualizar agora</button>
+        <span id="atualizar-ofertas-status" class="atualizar-status"></span>
+      </p>
+
+      <div class="toolbar noticias-filtros" style="margin-bottom:14px">
+        <select id="filtro-setor" onchange="aplicarFiltrosOfertas()">
+          <option value="">Todos os setores</option>
+        </select>
+        <input type="text" id="filtro-ticker" placeholder="Ticker (ex: KNCR)"
+               oninput="aplicarFiltrosOfertas()" />
+        <button class="btn-limpar" onclick="limparFiltrosOfertas()">Limpar</button>
+      </div>
+
+      <!-- Tabela 1: Ofertas ATIVAS (Em distribuição) -->
+      <div class="setor-card setor-card-destaque">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Ofertas em Distribuição</h2>
+          <span class="noticias-count" id="ofertas-count-ativas"></span>
+        </div>
+        <div class="ofertas-tabela-wrapper">
+          <table class="ofertas-tabela">
+            <thead>
+              <tr>
+                <th></th>
+                <th data-sort="ticker"          onclick="ordenarOfertas('ticker','ativas')">Ticker <span class="sort-ic">↕</span></th>
+                <th data-sort="emissao"         onclick="ordenarOfertas('emissao','ativas')" class="num">Emissão <span class="sort-ic">↕</span></th>
+                <th data-sort="rito"            onclick="ordenarOfertas('rito','ativas')">Rito <span class="sort-ic">↕</span></th>
+                <th data-sort="lider"           onclick="ordenarOfertas('lider','ativas')">Líder <span class="sort-ic">↕</span></th>
+                <th data-sort="valor_total"     onclick="ordenarOfertas('valor_total','ativas')" class="num">Volume <span class="sort-ic">↕</span></th>
+                <th data-sort="preco_unitario"  onclick="ordenarOfertas('preco_unitario','ativas')" class="num">Preço/cota <span class="sort-ic">↕</span></th>
+                <th data-sort="data_registro"   onclick="ordenarOfertas('data_registro','ativas')" class="num">Registro <span class="sort-ic">↕</span></th>
+                <th data-sort="data_inicio"     onclick="ordenarOfertas('data_inicio','ativas')" class="num">Início <span class="sort-ic">↕</span></th>
+                <th title="Confirmação cruzada com anúncio na fnet (B3)">fnet</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-ofertas-body-ativas"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tabela 2: Histórico (encerradas, canceladas, em análise, etc) -->
+      <div class="setor-card setor-card-destaque" style="margin-top:18px">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Histórico de Ofertas</h2>
+          <span class="noticias-count" id="ofertas-count-resto"></span>
+        </div>
+        <div class="ofertas-tabela-wrapper">
+          <table class="ofertas-tabela">
+            <thead>
+              <tr>
+                <th></th>
+                <th data-sort="ticker"          onclick="ordenarOfertas('ticker','resto')">Ticker <span class="sort-ic">↕</span></th>
+                <th data-sort="status"          onclick="ordenarOfertas('status','resto')">Status <span class="sort-ic">↕</span></th>
+                <th data-sort="emissao"         onclick="ordenarOfertas('emissao','resto')" class="num">Emissão <span class="sort-ic">↕</span></th>
+                <th data-sort="rito"            onclick="ordenarOfertas('rito','resto')">Rito <span class="sort-ic">↕</span></th>
+                <th data-sort="lider"           onclick="ordenarOfertas('lider','resto')">Líder <span class="sort-ic">↕</span></th>
+                <th data-sort="valor_captado"   onclick="ordenarOfertas('valor_captado','resto')" class="num" title="Valor efetivamente captado (soma das subscrições). Subtítulo mostra % do registrado">Captado <span class="sort-ic">↕</span></th>
+                <th data-sort="pct_pf"          onclick="ordenarOfertas('pct_pf','resto')" class="num" title="Percentual do captado que veio de Pessoas Físicas">% PF <span class="sort-ic">↕</span></th>
+                <th data-sort="preco_unitario"  onclick="ordenarOfertas('preco_unitario','resto')" class="num">Preço/cota <span class="sort-ic">↕</span></th>
+                <th data-sort="data_registro"   onclick="ordenarOfertas('data_registro','resto')" class="num">Registro <span class="sort-ic">↕</span></th>
+                <th data-sort="data_inicio"     onclick="ordenarOfertas('data_inicio','resto')" class="num">Início <span class="sort-ic">↕</span></th>
+                <th data-sort="data_encerramento" onclick="ordenarOfertas('data_encerramento','resto')" class="num">Encerramento <span class="sort-ic">↕</span></th>
+                <th title="Confirmação cruzada com anúncio na fnet (B3)">fnet</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-ofertas-body-resto"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/noticias_ofertas.js?v=9"></script>
+</body>
+</html>

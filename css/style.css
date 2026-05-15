@@ -2965,6 +2965,476 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
   color: #fff;
 }
 
+/* ── KPIs OPERACIONAIS (topo da aba "Informações Operacionais") ── */
+.kpis-operacionais {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-bottom: 22px;
+}
+.kpi-card {
+  --kpi-cor: var(--azul);
+  --kpi-cor-bg: rgba(28, 107, 189, 0.08);
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 18px 20px;
+  cursor: help;
+  overflow: hidden;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+/* Faixa colorida vertical à esquerda */
+.kpi-card::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: var(--kpi-cor);
+}
+.kpi-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--kpi-cor);
+  box-shadow: 0 6px 18px rgba(0, 9, 60, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+/* Ícone com fundo circular suave da cor do tema */
+.kpi-icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: var(--kpi-cor-bg);
+  font-size: 20px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.kpi-conteudo {
+  flex: 1;
+  min-width: 0;  /* permite ellipsis em filhos */
+}
+
+.kpi-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  color: var(--texto-suave);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.kpi-valor {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.kpi-sub {
+  font-size: 11px;
+  color: var(--texto-suave);
+  margin-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Variantes de cor por tipo de KPI */
+.kpi-azul    { --kpi-cor: #1c6bbd; --kpi-cor-bg: rgba(28, 107, 189, .10); }
+.kpi-navy    { --kpi-cor: #00093C; --kpi-cor-bg: rgba(0, 9, 60, .08); }
+.kpi-laranja { --kpi-cor: #EF6300; --kpi-cor-bg: rgba(239, 99, 0, .10); }
+.kpi-roxo    { --kpi-cor: #7c3aed; --kpi-cor-bg: rgba(124, 58, 237, .10); }
+.kpi-verde   { --kpi-cor: #0e9f6e; --kpi-cor-bg: rgba(14, 159, 110, .10); }
+.kpi-vermelho{ --kpi-cor: #dc2626; --kpi-cor-bg: rgba(220, 38, 38, .10); }
+
+/* ── HEADER da seção carteira CVM (com botão de download) ── */
+.carteira-cvm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.carteira-cvm-header h2 { margin: 0; }
+.btn-baixar-carteira {
+  background: #0e9f6e;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  transition: background .15s, opacity .15s;
+}
+.btn-baixar-carteira:hover { background: #0a7d56; }
+.btn-baixar-carteira:disabled { opacity: .6; cursor: wait; }
+
+/* ── BUSCA + ORDENAÇÃO nas tabelas dos accordions ── */
+.tabela-toolbar {
+  padding: 10px 12px 0;
+}
+.tabela-busca {
+  width: 100%;
+  max-width: 320px;
+  padding: 7px 10px;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+}
+.tabela-busca:focus { outline: none; border-color: var(--azul); }
+.carteira-accordion-body th[data-col] {
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+.carteira-accordion-body th[data-col]:hover { background: rgba(28,107,189,.08); }
+.carteira-accordion-body .sort-icon {
+  font-size: 10px;
+  margin-left: 4px;
+  color: var(--texto-suave);
+}
+
+/* "Anúncio" sem link na tabela de dividendos (FI-Infra — sem fnet) */
+.noticias-data-sem-link {
+  color: var(--texto-suave);
+  font-style: italic;
+  cursor: help;
+}
+
+/* ── DASHBOARD INTERNO ── */
+.dashboard-sub {
+  color: var(--texto-suave);
+  margin: 0 0 16px;
+  font-size: 13px;
+}
+.dashboard-nota {
+  color: #b45309;
+  font-style: italic;
+}
+.dashboard-controles {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+.dashboard-label {
+  font-weight: 600;
+  color: var(--navy);
+  font-size: 13px;
+}
+.dashboard-select {
+  padding: 7px 12px;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: inherit;
+  background: #fff;
+  min-width: 220px;
+}
+.dashboard-info {
+  color: var(--texto-suave);
+  font-size: 12px;
+  margin-left: auto;
+}
+.dashboard-tabela-wrapper {
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+.dashboard-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.dashboard-tabela th, .dashboard-tabela td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #f1f5f9;
+}
+.dashboard-tabela th {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  white-space: nowrap;
+  position: sticky;
+  top: 0;
+}
+.dashboard-tabela th.num, .dashboard-tabela td.num { text-align: right; }
+.dashboard-tabela tbody tr:hover { background: #f9fafb; }
+.dashboard-tabela th.th-clicavel { cursor: pointer; user-select: none; }
+.dashboard-tabela th.th-clicavel:hover { background: #1a2470; }
+.dashboard-tabela .sort-icon { font-size: 10px; opacity: .7; margin-left: 4px; }
+.dash-na { color: #cbd5e1; font-size: 11px; font-style: italic; }
+
+/* Barra horizontal de % captado na tabela Histórico de Ofertas */
+.of-cap-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  cursor: help;
+  min-width: 110px;
+}
+.of-cap-bar {
+  flex: 1;
+  height: 7px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+  min-width: 60px;
+}
+.of-cap-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width .3s;
+}
+.of-cap-bar-pct {
+  font-size: 10px;
+  font-weight: 600;
+  min-width: 32px;
+  text-align: right;
+}
+/* Cores por nível de captação (texto do %) e barra (background) */
+.of-cap-cheia.of-cap-bar-fill { background: #059669; }
+.of-cap-media.of-cap-bar-fill { background: #ca8a04; }
+.of-cap-baixa.of-cap-bar-fill { background: #dc2626; }
+.of-cap-cheia.of-cap-bar-pct  { color: #059669; }
+.of-cap-media.of-cap-bar-pct  { color: #ca8a04; }
+.of-cap-baixa.of-cap-bar-pct  { color: #dc2626; }
+/* % PF (Pessoa Fisica) — barra azul marinho */
+.of-pf-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: var(--navy);
+  transition: width .3s;
+}
+.of-pf-bar-pct {
+  font-size: 10px;
+  font-weight: 600;
+  min-width: 32px;
+  text-align: right;
+  color: var(--navy);
+}
+.of-pf-zero-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* Botao Atualizar agora (Ofertas) */
+.btn-atualizar-ofertas {
+  margin-left: 12px;
+  background: var(--azul);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-atualizar-ofertas:hover { background: #155a99; }
+.btn-atualizar-ofertas:disabled { opacity: .6; cursor: wait; }
+.atualizar-status {
+  margin-left: 8px;
+  font-size: 11px;
+  font-style: italic;
+}
+.atualizar-status-rodando { color: var(--texto-suave); }
+.atualizar-status-ok      { color: #059669; }
+.atualizar-status-erro    { color: #dc2626; }
+
+/* ── ALERTA Cross-check fnet ↔ CVM ── */
+.alerta-fnet {
+  background: #fff7ed;
+  border: 1px solid #fdba74;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin: 14px 0;
+}
+.alerta-fnet-titulo {
+  font-weight: 700;
+  color: #9a3412;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+.alerta-fnet-sub {
+  color: #7c2d12;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.alerta-fnet-item {
+  display: flex;
+  gap: 10px;
+  padding: 4px 0;
+  font-size: 13px;
+  align-items: center;
+  border-top: 1px dashed #fed7aa;
+}
+.alerta-fnet-data { font-weight: 600; color: var(--navy); min-width: 90px; }
+.alerta-fnet-tipo { color: #7c2d12; font-style: italic; flex: 1; }
+
+/* Confirmação fnet na coluna da tabela */
+.of-fnet-ok       { color: #059669; font-weight: 700; }
+.of-fnet-parcial  { color: #ca8a04; font-weight: 700; }
+.of-fnet-pendente { color: var(--texto-suave); font-style: italic; }
+.of-fnet-na       { color: #cbd5e1; font-size: 11px; }
+.of-fnet-link {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 10px;
+  color: var(--azul);
+  text-decoration: none;
+  border: 1px solid var(--azul);
+  border-radius: 3px;
+  padding: 1px 4px;
+}
+.of-fnet-link:hover { background: var(--azul); color: #fff; }
+
+/* ── OFERTAS PÚBLICAS ── */
+.ofertas-tabela-wrapper {
+  overflow-x: auto;
+  margin-top: 12px;
+}
+.ofertas-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.ofertas-tabela th, .ofertas-tabela td {
+  padding: 9px 10px;
+  text-align: left;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: middle;
+}
+.ofertas-tabela th {
+  background: var(--navy);
+  color: #fff;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+.ofertas-tabela th:hover { background: #1a2470; }
+.ofertas-tabela th.num, .ofertas-tabela td.num { text-align: right; }
+.ofertas-tabela .sort-ic { font-size: 10px; opacity: .7; margin-left: 4px; }
+.ofertas-tabela tbody tr.of-row:hover { background: #f9fafb; }
+.ofertas-tabela tbody tr.of-row-aberta { background: #fff7ed; }
+
+.of-toggle {
+  background: none;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 4px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  font-size: 10px;
+  color: var(--navy);
+  padding: 0;
+}
+.of-toggle:hover { background: var(--azul); color: #fff; border-color: var(--azul); }
+
+.of-nome, .of-lider {
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.of-status {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.of-status-aberta      { background: #d1fae5; color: #065f46; }
+.of-status-analise     { background: #fef3c7; color: #92400e; }
+.of-status-registrada  { background: #dbeafe; color: #1e40af; }
+.of-status-encerrada   { background: #f3f4f6; color: #4b5563; }
+.of-status-cancelada   { background: #fee2e2; color: #991b1b; }
+.of-status-suspensa    { background: #fed7aa; color: #9a3412; }
+
+/* Sub-linhas com a quebra dos subscritores */
+.of-sub-cabec td {
+  background: #fef3c7;
+  font-size: 11px;
+  color: #92400e;
+  padding: 6px 10px;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  border-bottom: 1px solid #fcd34d;
+}
+.of-sub-cabec td small { font-weight: 400; text-transform: none; opacity: .8; margin-left: 8px; }
+
+.of-sub-linha td {
+  background: #fffbeb;
+  font-size: 12px;
+  border-bottom: 1px dashed #fef3c7;
+  padding: 7px 10px;
+}
+.of-sub-cat { font-weight: 600; color: var(--navy); padding-left: 28px !important; }
+
+.of-sub-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 180px;
+}
+.of-sub-bar {
+  flex: 1;
+  height: 8px;
+  background: #fef3c7;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #fde68a;
+}
+.of-sub-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--laranja), #f59e0b);
+  transition: width .3s;
+}
+.of-sub-pct {
+  font-weight: 600;
+  color: var(--laranja);
+  font-size: 11px;
+  min-width: 42px;
+  text-align: right;
+}
+
+/* Link de ticker dentro de tabela (carteira detalhada) */
+.ticker-link {
+  font-weight: 700;
+  color: var(--azul);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.ticker-link:hover { text-decoration: underline; }
+
 /* ── ACCORDION — CARTEIRA CVM ── */
 .carteira-accordion {
   border: 1px solid #e5e7eb;
