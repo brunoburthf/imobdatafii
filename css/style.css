@@ -3380,10 +3380,66 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 .of-status-cancelada    { background: #fee2e2; color: #991b1b; }
 .of-status-suspensa     { background: #fed7aa; color: #9a3412; }
 /* Grafico de volume mensal de ofertas (tela noticias_ofertas_encerradas) */
+.grafico-vol-split {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+  align-items: start;
+  margin-top: 8px;
+}
+@media (max-width: 900px) {
+  .grafico-vol-split { grid-template-columns: 1fr; }
+}
+.grafico-vol-coluna-tabela {
+  background: #fafbfd;
+  border: 1px solid var(--cinza-borda);
+  border-radius: 8px;
+  padding: 14px;
+}
+.grafico-vol-tabela-titulo {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--texto);
+  margin: 0 0 10px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--cinza-borda);
+}
+.grafico-vol-tabela-wrap {
+  max-height: 250px;
+  overflow-y: auto;
+}
+.grafico-vol-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+.grafico-vol-tabela th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--texto-suave);
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--cinza-borda);
+  position: sticky;
+  top: 0;
+  background: #fafbfd;
+}
+.grafico-vol-tabela th.num,
+.grafico-vol-tabela td.num { text-align: right; }
+.grafico-vol-tabela td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #eef1f7;
+  color: var(--texto);
+}
+.grafico-vol-tabela tr:hover td { background: #f0f3f8; }
+.grafico-vol-tabela-total td {
+  border-top: 2px solid var(--navy);
+  border-bottom: none;
+  padding-top: 10px;
+  background: #f0f3f8;
+}
 .grafico-vol-ofertas-wrap {
   position: relative;
   height: 280px;
-  margin-top: 8px;
 }
 .grafico-vol-legenda {
   display: flex;

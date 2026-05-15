@@ -149,6 +149,9 @@ function _renderGraficoVolMensal(ofertasFiltradas) {
   document.getElementById("grafico-vol-meta").textContent =
     `${ofertasFiltradas.filter(o => o.data_encerramento && o.valor_captado).length} ofertas · ${fmtR(totalGeral)} captado · ${pctPf.toFixed(1)}% PF`;
 
+  // Tabela anual ao lado do grafico
+  _renderTabelaAnual(por_mes, totalGeral, pfGeral);
+
   const ctx = document.getElementById("grafico-vol-ofertas").getContext("2d");
   if (_graficoVol) _graficoVol.destroy();
   _graficoVol = new Chart(ctx, {
@@ -202,6 +205,45 @@ function _ymLabel(ym) {
   const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
   const [y, m] = ym.split("-");
   return `${meses[+m - 1]}/${y.slice(2)}`;
+}
+
+function _renderTabelaAnual(por_mes, totalGeral, pfGeral) {
+  const tbody = document.getElementById("grafico-vol-tabela-anual");
+  if (!tbody) return;
+  // Agrega por ano
+  const por_ano = new Map();
+  for (const [ym, ag] of por_mes.entries()) {
+    const ano = ym.slice(0, 4);
+    const acc = por_ano.get(ano) || { total: 0, pf: 0 };
+    acc.total += ag.total;
+    acc.pf    += ag.pf;
+    por_ano.set(ano, acc);
+  }
+  const anos = [...por_ano.keys()].sort().reverse();  // mais recente primeiro
+  if (!anos.length) {
+    tbody.innerHTML = `<tr><td colspan="4" class="sim-vazio-msg">—</td></tr>`;
+    return;
+  }
+  let html = "";
+  for (const ano of anos) {
+    const v = por_ano.get(ano);
+    const pct = v.total > 0 ? (v.pf / v.total * 100) : 0;
+    html += `<tr>
+      <td><strong>${ano}</strong></td>
+      <td class="num">${fmtR(v.total)}</td>
+      <td class="num">${fmtR(v.pf)}</td>
+      <td class="num"><strong>${pct.toFixed(1)}%</strong></td>
+    </tr>`;
+  }
+  // Linha total
+  const pctTotal = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
+  html += `<tr class="grafico-vol-tabela-total">
+    <td><strong>Total</strong></td>
+    <td class="num"><strong>${fmtR(totalGeral)}</strong></td>
+    <td class="num"><strong>${fmtR(pfGeral)}</strong></td>
+    <td class="num"><strong>${pctTotal.toFixed(1)}%</strong></td>
+  </tr>`;
+  tbody.innerHTML = html;
 }
 
 function _renderTabBookbuilding(lista) {
