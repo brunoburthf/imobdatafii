@@ -43,7 +43,14 @@
         Janela: últimos <span id="janela-meses">24</span> meses
       </p>
 
-      <!-- Gráfico mensal + tabela anual: 2 cards lado a lado -->
+      <!-- Tabs de modo do gráfico/tabela -->
+      <div class="ofertas-grafico-tabs">
+        <button class="ofertas-grafico-tab ativo" data-modo="pf"      onclick="trocarModoGrafico('pf')">Volume total × Pessoa Física</button>
+        <button class="ofertas-grafico-tab"       data-modo="setor"   onclick="trocarModoGrafico('setor')">Por Setor</button>
+        <button class="ofertas-grafico-tab"       data-modo="gestora" onclick="trocarModoGrafico('gestora')">Por Gestora</button>
+      </div>
+
+      <!-- Gráfico mensal + tabela: 2 cards lado a lado -->
       <div class="ofertas-grafico-tabela-row">
         <div class="setor-card setor-card-destaque ofertas-card-grafico">
           <div class="setor-card-header">
@@ -53,25 +60,15 @@
           <div class="grafico-vol-ofertas-wrap">
             <canvas id="grafico-vol-ofertas"></canvas>
           </div>
-          <div class="grafico-vol-legenda">
-            <span class="grafico-vol-legenda-item"><span class="grafico-vol-legenda-cor cor-total"></span> Volume total captado</span>
-            <span class="grafico-vol-legenda-item"><span class="grafico-vol-legenda-cor cor-pf"></span> Subscrito por Pessoas Físicas</span>
-          </div>
+          <div class="grafico-vol-legenda" id="grafico-vol-legenda"></div>
         </div>
         <div class="setor-card setor-card-destaque ofertas-card-tabela">
           <div class="setor-card-header">
-            <h2 class="setor-card-titulo">Histórico anual</h2>
+            <h2 class="setor-card-titulo" id="grafico-vol-tabela-titulo">Histórico anual</h2>
           </div>
           <div class="grafico-vol-tabela-wrap">
             <table class="grafico-vol-tabela">
-              <thead>
-                <tr>
-                  <th>Ano</th>
-                  <th class="num">Total</th>
-                  <th class="num">PFs</th>
-                  <th class="num">% PF</th>
-                </tr>
-              </thead>
+              <thead id="grafico-vol-tabela-thead"></thead>
               <tbody id="grafico-vol-tabela-anual"></tbody>
             </table>
           </div>
@@ -119,6 +116,6 @@
     </div>
   </main>
 
-  <script src="js/noticias_ofertas.js?v=16"></script>
+  <script src="js/noticias_ofertas.js?v=17"></script>
 </body>
 </html>

@@ -101,79 +101,215 @@ function aplicarFiltrosOfertas() {
 }
 
 let _graficoVol = null;
+let _modoGrafico = "pf";  // "pf" | "setor" | "gestora"
+
+// Paleta de cores pras categorias dinamicas (setor/gestora). Indice = ordem
+// pelo total (maior primeiro). Cor 0 sempre reservada pra "Pessoas Físicas"
+// no modo pf.
+const PALETA_CATEGORIAS = [
+  "#1c6bbd", "#EF6300", "#059669", "#7c3aed", "#dc2626",
+  "#ca8a04", "#0891b2", "#be185d", "#65a30d", "#475569",
+  "#f59e0b",
+];
+const COR_PF      = "#EF6300";
+const COR_OUTROS  = "rgba(0,9,60,0.55)";
+const COR_RESTO   = "rgba(107,114,128,0.45)";  // "Outros" no modo setor/gestora
+
+function trocarModoGrafico(modo) {
+  if (modo === _modoGrafico) return;
+  _modoGrafico = modo;
+  document.querySelectorAll(".ofertas-grafico-tab").forEach(b => {
+    b.classList.toggle("ativo", b.dataset.modo === modo);
+  });
+  aplicarFiltrosOfertas();
+}
+
+function _gestoraDoOferta(o) {
+  // Usa administrador (mais consistente), fallback gestor; trunca pra display
+  const g = (o.administrador || o.gestor || "").trim();
+  if (!g) return "—";
+  // Limpa sufixos comuns (S.A., LTDA, DTVM, etc.) pra agrupar melhor
+  return g.replace(/\s+(S\.?A\.?|LTDA\.?|DTVM\.?|S\.?A\.? DTVM|DISTRIBUIDORA.*)$/i, "")
+          .replace(/\s+/g, " ")
+          .trim();
+}
+
+function _pfDoOferta(o) {
+  const subPf = (o.subscritores || {})["Pessoa Física / Natural"]
+             || (o.subscritores || {})["Pessoa Física"]
+             || {};
+  return subPf.valor_r || 0;
+}
+
 function _renderGraficoVolMensal(ofertasFiltradas) {
-  // Agrega por mes da data_encerramento. Soma valor_captado e a porcao de PFs.
-  // Cada barra: altura = total captado, segmento de baixo = PF, restante = outros.
-  const por_mes = new Map();  // "YYYY-MM" -> {total, pf}
-  for (const o of ofertasFiltradas) {
-    const enc = o.data_encerramento;
-    if (!enc || !o.valor_captado) continue;
-    const ym = enc.slice(0, 7);
-    const ag = por_mes.get(ym) || { total: 0, pf: 0 };
-    ag.total += o.valor_captado;
-    const subPf = (o.subscritores || {})["Pessoa Física / Natural"]
-               || (o.subscritores || {})["Pessoa Física"]
-               || {};
-    ag.pf += (subPf.valor_r || 0);
-    por_mes.set(ym, ag);
-  }
-  // Preenche meses faltantes pra continuidade visual
-  const chaves = [...por_mes.keys()].sort();
-  if (!chaves.length) {
+  // Filtra ofertas com data_encerramento e valor_captado
+  const ofs = ofertasFiltradas.filter(o => o.data_encerramento && o.valor_captado);
+  if (!ofs.length) {
     document.getElementById("grafico-vol-meta").textContent = "Sem ofertas no filtro atual";
     if (_graficoVol) { _graficoVol.destroy(); _graficoVol = null; }
+    document.getElementById("grafico-vol-tabela-anual").innerHTML =
+      `<tr><td colspan="4" class="sim-vazio-msg">—</td></tr>`;
+    document.getElementById("grafico-vol-legenda").innerHTML = "";
     return;
   }
-  const labels = [];
-  const dadosPF = [];
-  const dadosOutros = [];
-  const [yIni, mIni] = chaves[0].split("-").map(Number);
-  const [yFim, mFim] = chaves[chaves.length - 1].split("-").map(Number);
-  let y = yIni, m = mIni;
-  while (y < yFim || (y === yFim && m <= mFim)) {
-    const ym = `${y}-${String(m).padStart(2, "0")}`;
-    labels.push(ym);
-    const ag = por_mes.get(ym) || { total: 0, pf: 0 };
-    dadosPF.push(ag.pf);
-    dadosOutros.push(Math.max(0, ag.total - ag.pf));
-    m++; if (m > 12) { m = 1; y++; }
-  }
-  // Converte pra milhoes pra ficar mais legivel
-  const pfMi     = dadosPF.map(v => +(v / 1e6).toFixed(2));
-  const outrosMi = dadosOutros.map(v => +(v / 1e6).toFixed(2));
-
-  // Meta info no header
-  const totalGeral = dadosPF.reduce((s,v)=>s+v,0) + dadosOutros.reduce((s,v)=>s+v,0);
-  const pfGeral    = dadosPF.reduce((s,v)=>s+v,0);
+  // Sumario geral (independente de modo)
+  const totalGeral = ofs.reduce((s, o) => s + (o.valor_captado || 0), 0);
+  const pfGeral    = ofs.reduce((s, o) => s + _pfDoOferta(o), 0);
   const pctPf = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
   document.getElementById("grafico-vol-meta").textContent =
-    `${ofertasFiltradas.filter(o => o.data_encerramento && o.valor_captado).length} ofertas · ${fmtR(totalGeral)} captado · ${pctPf.toFixed(1)}% PF`;
+    `${ofs.length} ofertas · ${fmtR(totalGeral)} captado · ${pctPf.toFixed(1)}% PF`;
 
-  // Tabela anual ao lado do grafico
-  _renderTabelaAnual(por_mes, totalGeral, pfGeral);
+  // Desenha grafico + tabela conforme modo
+  if (_modoGrafico === "pf") {
+    _renderModoPf(ofs, totalGeral, pfGeral);
+  } else if (_modoGrafico === "setor") {
+    _renderModoCategoria(ofs, "setor", "Setor");
+  } else if (_modoGrafico === "gestora") {
+    _renderModoCategoria(ofs, "gestora", "Gestora");
+  }
+}
 
+function _renderModoPf(ofs, totalGeral, pfGeral) {
+  // Agrega por mes -> {total, pf}
+  const por_mes = new Map();
+  for (const o of ofs) {
+    const ym = o.data_encerramento.slice(0, 7);
+    const ag = por_mes.get(ym) || { total: 0, pf: 0 };
+    ag.total += o.valor_captado;
+    ag.pf    += _pfDoOferta(o);
+    por_mes.set(ym, ag);
+  }
+  const labels = _intervaloDeMeses(por_mes);
+  const dadosPF     = labels.map(ym => (por_mes.get(ym) || {pf:0}).pf);
+  const dadosOutros = labels.map(ym => {
+    const ag = por_mes.get(ym) || { total: 0, pf: 0 };
+    return Math.max(0, ag.total - ag.pf);
+  });
+  _desenhaGrafico(labels, [
+    { label: "Pessoas Físicas",                       data: dadosPF,     color: COR_PF },
+    { label: "Outros (PJ, fundos, estrangeiros)",     data: dadosOutros, color: COR_OUTROS },
+  ]);
+
+  // Tabela anual: Ano | Total | PFs | %PF
+  _setTabelaHead(["Ano", "Total", "PFs", "% PF"], "Histórico anual");
+  const por_ano = new Map();
+  for (const [ym, ag] of por_mes.entries()) {
+    const ano = ym.slice(0, 4);
+    const acc = por_ano.get(ano) || { total: 0, pf: 0 };
+    acc.total += ag.total; acc.pf += ag.pf;
+    por_ano.set(ano, acc);
+  }
+  const anos = [...por_ano.keys()].sort().reverse();
+  const linhas = anos.map(ano => {
+    const v = por_ano.get(ano);
+    const pct = v.total > 0 ? (v.pf / v.total * 100) : 0;
+    return [`<strong>${ano}</strong>`, fmtR(v.total), fmtR(v.pf), `<strong>${pct.toFixed(1)}%</strong>`];
+  });
+  const pctTotal = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
+  _setTabelaBody(linhas, ["<strong>Total</strong>", `<strong>${fmtR(totalGeral)}</strong>`,
+                          `<strong>${fmtR(pfGeral)}</strong>`, `<strong>${pctTotal.toFixed(1)}%</strong>`]);
+}
+
+function _renderModoCategoria(ofs, campo, label1) {
+  // Define categoria de cada oferta. Pra setor usa o campo direto; pra gestora,
+  // _gestoraDoOferta. Agrega por mes x categoria. Top N categorias viram
+  // datasets; resto vai pra "Outros".
+  const getCat = (o) => campo === "setor" ? (o.setor || "—") : _gestoraDoOferta(o);
+  // Totais agregados por categoria (pra ranking)
+  const totaisCat = new Map();  // cat -> {total, pf}
+  for (const o of ofs) {
+    const cat = getCat(o);
+    const acc = totaisCat.get(cat) || { total: 0, pf: 0 };
+    acc.total += o.valor_captado; acc.pf += _pfDoOferta(o);
+    totaisCat.set(cat, acc);
+  }
+  const TOP_N = 7;
+  const ranking = [...totaisCat.entries()].sort((a, b) => b[1].total - a[1].total);
+  const topCats = ranking.slice(0, TOP_N).map(x => x[0]);
+  const outrosFlag = ranking.length > TOP_N;
+
+  // Agrega por mes x categoria
+  const por_mes_cat = new Map();  // ym -> Map(cat -> {total, pf})
+  for (const o of ofs) {
+    const ym = o.data_encerramento.slice(0, 7);
+    const cat = getCat(o);
+    const catKey = topCats.includes(cat) ? cat : (outrosFlag ? "Outros" : cat);
+    let mp = por_mes_cat.get(ym);
+    if (!mp) { mp = new Map(); por_mes_cat.set(ym, mp); }
+    const acc = mp.get(catKey) || { total: 0, pf: 0 };
+    acc.total += o.valor_captado; acc.pf += _pfDoOferta(o);
+    mp.set(catKey, acc);
+  }
+  // Range de meses (precisamos do helper). _intervaloDeMeses aceita map de
+  // qualquer estrutura — só usa as chaves.
+  const labels = _intervaloDeMeses(por_mes_cat);
+
+  // Monta categorias em ordem: top N primeiro, Outros por ultimo
+  const cats = [...topCats];
+  if (outrosFlag) cats.push("Outros");
+
+  // 1 dataset por categoria
+  const datasets = cats.map((c, i) => ({
+    label: c,
+    color: c === "Outros" ? COR_RESTO : PALETA_CATEGORIAS[i % PALETA_CATEGORIAS.length],
+    data: labels.map(ym => {
+      const mp = por_mes_cat.get(ym);
+      const acc = mp && mp.get(c);
+      return acc ? acc.total : 0;
+    }),
+  }));
+  _desenhaGrafico(labels, datasets);
+
+  // Tabela: Categoria | Total | PFs | %PF, ordenada por Total desc
+  _setTabelaHead([label1, "Total", "PFs", "% PF"], `Por ${label1.toLowerCase()}`);
+  const linhas = cats.map(c => {
+    // Total no periodo: pega de totaisCat (top N) ou soma do bucket Outros
+    let total, pf;
+    if (c === "Outros") {
+      total = ranking.slice(TOP_N).reduce((s, x) => s + x[1].total, 0);
+      pf    = ranking.slice(TOP_N).reduce((s, x) => s + x[1].pf, 0);
+    } else {
+      const v = totaisCat.get(c);
+      total = v.total; pf = v.pf;
+    }
+    const pct = total > 0 ? (pf / total * 100) : 0;
+    return [`<strong>${c}</strong>`, fmtR(total), fmtR(pf), `<strong>${pct.toFixed(1)}%</strong>`];
+  });
+  const totalGeral = ranking.reduce((s, x) => s + x[1].total, 0);
+  const pfGeral    = ranking.reduce((s, x) => s + x[1].pf, 0);
+  const pctTotal = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
+  _setTabelaBody(linhas, ["<strong>Total</strong>", `<strong>${fmtR(totalGeral)}</strong>`,
+                          `<strong>${fmtR(pfGeral)}</strong>`, `<strong>${pctTotal.toFixed(1)}%</strong>`]);
+}
+
+function _intervaloDeMeses(mapaPorYm) {
+  const chaves = [...mapaPorYm.keys()].sort();
+  if (!chaves.length) return [];
+  const [yIni, mIni] = chaves[0].split("-").map(Number);
+  const [yFim, mFim] = chaves[chaves.length - 1].split("-").map(Number);
+  const out = [];
+  let y = yIni, m = mIni;
+  while (y < yFim || (y === yFim && m <= mFim)) {
+    out.push(`${y}-${String(m).padStart(2, "0")}`);
+    m++; if (m > 12) { m = 1; y++; }
+  }
+  return out;
+}
+
+function _desenhaGrafico(ymLabels, datasets) {
   const ctx = document.getElementById("grafico-vol-ofertas").getContext("2d");
   if (_graficoVol) _graficoVol.destroy();
   _graficoVol = new Chart(ctx, {
     type: "bar",
     data: {
-      labels: labels.map(_ymLabel),
-      datasets: [
-        {
-          label: "Pessoas Físicas",
-          data: pfMi,
-          backgroundColor: "#EF6300",
-          stack: "total",
-          borderWidth: 0,
-        },
-        {
-          label: "Outros (PJ, fundos, estrangeiros)",
-          data: outrosMi,
-          backgroundColor: "rgba(0,9,60,0.55)",
-          stack: "total",
-          borderWidth: 0,
-        },
-      ],
+      labels: ymLabels.map(_ymLabel),
+      datasets: datasets.map(d => ({
+        label: d.label,
+        data: d.data.map(v => +(v / 1e6).toFixed(2)),
+        backgroundColor: d.color,
+        stack: "total",
+        borderWidth: 0,
+      })),
     },
     options: {
       responsive: true,
@@ -199,51 +335,55 @@ function _renderGraficoVolMensal(ofertasFiltradas) {
       },
     },
   });
+  // Legenda customizada
+  const legenda = document.getElementById("grafico-vol-legenda");
+  legenda.innerHTML = datasets.map(d => `
+    <span class="grafico-vol-legenda-item">
+      <span class="grafico-vol-legenda-cor" style="background:${d.color}"></span> ${d.label}
+    </span>`).join("");
+}
+
+function _setTabelaHead(cols, titulo) {
+  const tt = document.getElementById("grafico-vol-tabela-titulo");
+  if (tt) tt.textContent = titulo;
+  const thead = document.getElementById("grafico-vol-tabela-thead");
+  if (!thead) return;
+  thead.innerHTML = `<tr>
+    <th>${cols[0]}</th>
+    <th class="num">${cols[1]}</th>
+    <th class="num">${cols[2]}</th>
+    <th class="num">${cols[3]}</th>
+  </tr>`;
+}
+
+function _setTabelaBody(linhas, totalRow) {
+  const tbody = document.getElementById("grafico-vol-tabela-anual");
+  if (!tbody) return;
+  if (!linhas.length) {
+    tbody.innerHTML = `<tr><td colspan="4" class="sim-vazio-msg">—</td></tr>`;
+    return;
+  }
+  let html = linhas.map(l => `<tr>
+    <td>${l[0]}</td>
+    <td class="num">${l[1]}</td>
+    <td class="num">${l[2]}</td>
+    <td class="num">${l[3]}</td>
+  </tr>`).join("");
+  if (totalRow) {
+    html += `<tr class="grafico-vol-tabela-total">
+      <td>${totalRow[0]}</td>
+      <td class="num">${totalRow[1]}</td>
+      <td class="num">${totalRow[2]}</td>
+      <td class="num">${totalRow[3]}</td>
+    </tr>`;
+  }
+  tbody.innerHTML = html;
 }
 
 function _ymLabel(ym) {
   const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
   const [y, m] = ym.split("-");
   return `${meses[+m - 1]}/${y.slice(2)}`;
-}
-
-function _renderTabelaAnual(por_mes, totalGeral, pfGeral) {
-  const tbody = document.getElementById("grafico-vol-tabela-anual");
-  if (!tbody) return;
-  // Agrega por ano
-  const por_ano = new Map();
-  for (const [ym, ag] of por_mes.entries()) {
-    const ano = ym.slice(0, 4);
-    const acc = por_ano.get(ano) || { total: 0, pf: 0 };
-    acc.total += ag.total;
-    acc.pf    += ag.pf;
-    por_ano.set(ano, acc);
-  }
-  const anos = [...por_ano.keys()].sort().reverse();  // mais recente primeiro
-  if (!anos.length) {
-    tbody.innerHTML = `<tr><td colspan="4" class="sim-vazio-msg">—</td></tr>`;
-    return;
-  }
-  let html = "";
-  for (const ano of anos) {
-    const v = por_ano.get(ano);
-    const pct = v.total > 0 ? (v.pf / v.total * 100) : 0;
-    html += `<tr>
-      <td><strong>${ano}</strong></td>
-      <td class="num">${fmtR(v.total)}</td>
-      <td class="num">${fmtR(v.pf)}</td>
-      <td class="num"><strong>${pct.toFixed(1)}%</strong></td>
-    </tr>`;
-  }
-  // Linha total
-  const pctTotal = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
-  html += `<tr class="grafico-vol-tabela-total">
-    <td><strong>Total</strong></td>
-    <td class="num"><strong>${fmtR(totalGeral)}</strong></td>
-    <td class="num"><strong>${fmtR(pfGeral)}</strong></td>
-    <td class="num"><strong>${pctTotal.toFixed(1)}%</strong></td>
-  </tr>`;
-  tbody.innerHTML = html;
 }
 
 function _renderTabBookbuilding(lista) {
