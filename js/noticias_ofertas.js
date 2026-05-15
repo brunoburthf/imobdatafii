@@ -96,7 +96,112 @@ function aplicarFiltrosOfertas() {
   if (document.getElementById("tabela-ofertas-body-bookbuilding")) _renderTabBookbuilding(bookb);
   if (document.getElementById("tabela-ofertas-body-ativas"))       _renderTabOfertas("ativas", ativas, /*comStatusCol*/false);
   if (document.getElementById("tabela-ofertas-body-resto"))        _renderTabOfertas("resto",  resto,  /*comStatusCol*/true);
+  if (document.getElementById("grafico-vol-ofertas"))              _renderGraficoVolMensal(resto);
   atualizarIconesOf();
+}
+
+let _graficoVol = null;
+function _renderGraficoVolMensal(ofertasFiltradas) {
+  // Agrega por mes da data_encerramento. Soma valor_captado e a porcao de PFs.
+  // Cada barra: altura = total captado, segmento de baixo = PF, restante = outros.
+  const por_mes = new Map();  // "YYYY-MM" -> {total, pf}
+  for (const o of ofertasFiltradas) {
+    const enc = o.data_encerramento;
+    if (!enc || !o.valor_captado) continue;
+    const ym = enc.slice(0, 7);
+    const ag = por_mes.get(ym) || { total: 0, pf: 0 };
+    ag.total += o.valor_captado;
+    const subPf = (o.subscritores || {})["Pessoa Física / Natural"]
+               || (o.subscritores || {})["Pessoa Física"]
+               || {};
+    ag.pf += (subPf.valor_r || 0);
+    por_mes.set(ym, ag);
+  }
+  // Preenche meses faltantes pra continuidade visual
+  const chaves = [...por_mes.keys()].sort();
+  if (!chaves.length) {
+    document.getElementById("grafico-vol-meta").textContent = "Sem ofertas no filtro atual";
+    if (_graficoVol) { _graficoVol.destroy(); _graficoVol = null; }
+    return;
+  }
+  const labels = [];
+  const dadosPF = [];
+  const dadosOutros = [];
+  const [yIni, mIni] = chaves[0].split("-").map(Number);
+  const [yFim, mFim] = chaves[chaves.length - 1].split("-").map(Number);
+  let y = yIni, m = mIni;
+  while (y < yFim || (y === yFim && m <= mFim)) {
+    const ym = `${y}-${String(m).padStart(2, "0")}`;
+    labels.push(ym);
+    const ag = por_mes.get(ym) || { total: 0, pf: 0 };
+    dadosPF.push(ag.pf);
+    dadosOutros.push(Math.max(0, ag.total - ag.pf));
+    m++; if (m > 12) { m = 1; y++; }
+  }
+  // Converte pra milhoes pra ficar mais legivel
+  const pfMi     = dadosPF.map(v => +(v / 1e6).toFixed(2));
+  const outrosMi = dadosOutros.map(v => +(v / 1e6).toFixed(2));
+
+  // Meta info no header
+  const totalGeral = dadosPF.reduce((s,v)=>s+v,0) + dadosOutros.reduce((s,v)=>s+v,0);
+  const pfGeral    = dadosPF.reduce((s,v)=>s+v,0);
+  const pctPf = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
+  document.getElementById("grafico-vol-meta").textContent =
+    `${ofertasFiltradas.filter(o => o.data_encerramento && o.valor_captado).length} ofertas · ${fmtR(totalGeral)} captado · ${pctPf.toFixed(1)}% PF`;
+
+  const ctx = document.getElementById("grafico-vol-ofertas").getContext("2d");
+  if (_graficoVol) _graficoVol.destroy();
+  _graficoVol = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: labels.map(_ymLabel),
+      datasets: [
+        {
+          label: "Pessoas Físicas",
+          data: pfMi,
+          backgroundColor: "#EF6300",
+          stack: "total",
+          borderWidth: 0,
+        },
+        {
+          label: "Outros (PJ, fundos, estrangeiros)",
+          data: outrosMi,
+          backgroundColor: "rgba(0,9,60,0.55)",
+          stack: "total",
+          borderWidth: 0,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title: (items) => items[0].label,
+            label: (ctx) => `${ctx.dataset.label}: R$ ${ctx.parsed.y.toLocaleString("pt-BR", {minimumFractionDigits:1, maximumFractionDigits:1})} mi`,
+            footer: (items) => {
+              const tot = items.reduce((s, it) => s + it.parsed.y, 0);
+              return `Total: R$ ${tot.toLocaleString("pt-BR", {minimumFractionDigits:1, maximumFractionDigits:1})} mi`;
+            },
+          },
+        },
+      },
+      scales: {
+        x: { stacked: true, grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true } },
+        y: { stacked: true, beginAtZero: true,
+             title: { display: true, text: "R$ milhões" },
+             grid: { color: "rgba(0,0,0,0.05)" } },
+      },
+    },
+  });
+}
+
+function _ymLabel(ym) {
+  const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+  const [y, m] = ym.split("-");
+  return `${meses[+m - 1]}/${y.slice(2)}`;
 }
 
 function _renderTabBookbuilding(lista) {

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ofertas Encerradas — ImobData</title>
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
@@ -41,6 +42,21 @@
         + <a href="https://fnet.bmfbovespa.com.br" target="_blank" rel="noopener">fnet (B3)</a> p/ cross-check ·
         Janela: últimos <span id="janela-meses">24</span> meses
       </p>
+
+      <!-- Gráfico de volume mensal de ofertas (barras stacked: total + porção PF) -->
+      <div class="setor-card setor-card-destaque" style="margin-bottom:18px">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Volume mensal captado</h2>
+          <span class="noticias-count" id="grafico-vol-meta"></span>
+        </div>
+        <div class="grafico-vol-ofertas-wrap">
+          <canvas id="grafico-vol-ofertas"></canvas>
+        </div>
+        <div class="grafico-vol-legenda">
+          <span class="grafico-vol-legenda-item"><span class="grafico-vol-legenda-cor cor-total"></span> Volume total captado</span>
+          <span class="grafico-vol-legenda-item"><span class="grafico-vol-legenda-cor cor-pf"></span> Subscrito por Pessoas Físicas</span>
+        </div>
+      </div>
 
       <div class="toolbar noticias-filtros" style="margin-bottom:14px">
         <select id="filtro-setor" onchange="aplicarFiltrosOfertas()">
@@ -83,6 +99,6 @@
     </div>
   </main>
 
-  <script src="js/noticias_ofertas.js?v=13"></script>
+  <script src="js/noticias_ofertas.js?v=14"></script>
 </body>
 </html>

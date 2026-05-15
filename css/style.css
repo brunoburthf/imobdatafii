@@ -3379,6 +3379,34 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 .of-status-encerrada    { background: #f3f4f6; color: #4b5563; }
 .of-status-cancelada    { background: #fee2e2; color: #991b1b; }
 .of-status-suspensa     { background: #fed7aa; color: #9a3412; }
+/* Grafico de volume mensal de ofertas (tela noticias_ofertas_encerradas) */
+.grafico-vol-ofertas-wrap {
+  position: relative;
+  height: 280px;
+  margin-top: 8px;
+}
+.grafico-vol-legenda {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--texto-suave);
+}
+.grafico-vol-legenda-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.grafico-vol-legenda-cor {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+}
+.grafico-vol-legenda-cor.cor-pf    { background: #EF6300; }
+.grafico-vol-legenda-cor.cor-total { background: rgba(0,9,60,0.55); }
+
 /* CTA chamativo "Ver Ofertas Encerradas" abaixo do header */
 .ofertas-cta-encerradas-wrap {
   display: flex;
