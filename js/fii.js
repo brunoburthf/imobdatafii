@@ -13,6 +13,7 @@ let dadosPrecoAdjCompleto = [];
 let dadosPrecoCorpCompleto = [];
 let dadosDyCompleto = [];
 let dadosSpreadCompleto = [];
+let dadosFiiNome = "";
 let dadosPortfolio = {};
 let dadosDpcCompleto = [];
 let dadosCarteiraCvm = {};
@@ -212,6 +213,7 @@ function renderizarFii(data) {
   dadosPortfolio = data.portfolio || {};
   dadosDpcCompleto = data.historico_dpc || [];
   dadosCarteiraCvm = data.carteira_trimestral || {};
+  dadosFiiNome = (data.dados && data.dados["Nome"]) || "";
 
   // Grafico de preco usa serie corp_adj (nominal ajustado por splits e
   // amortizacoes via back-adjust com razao observada). Mantem preco atual
@@ -620,10 +622,203 @@ function trocarAba(aba) {
   document.getElementById("aba-operacional").style.display  = aba === "operacional" ? "block" : "none";
 
   if (aba === "operacional") {
+    renderizarKpisOperacionais();
     if (!chartPortfolio) renderizarPortfolio();
     if (!chartDpc) renderizarDpc();
-    renderizarCarteiraCvm();
+    // Garante lookup nome→ticker antes de renderizar carteira (pra exibir
+    // ticker dos FIIs investidos em FOFs/FIIs com participação cruzada).
+    _carregarTickerPorNome().then(() => renderizarCarteiraCvm());
   }
+}
+
+// ─── LOOKUP nome → ticker (pra exibir ticker dos FIIs investidos na carteira)
+let _tickerPorNomeCache = null;
+function _normNomeFii(s) {
+  return (s || "")
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")  // remove acentos
+    .toUpperCase()
+    // remove sufixos comuns mesmo truncados ("FUNDO DE INVESTIMENTO IMOBI...")
+    .replace(/F(?:UNDO?)?S?\.?\s+(?:DE\s+)?INV(?:EST(?:IMENTOS?)?)?\.?\s+IMOBIL?(?:I[AÁ]?(?:RIOS?)?)?\.?/gi, "")
+    .replace(/\bFII\b/g, "")
+    .replace(/[^A-Z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+async function _carregarTickerPorNome() {
+  if (_tickerPorNomeCache) return _tickerPorNomeCache;
+  const fontes = await Promise.all([
+    fetch("data/index.json").then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch("data/infra_index.json").then(r => r.ok ? r.json() : null).catch(() => null),
+    fetch("data/agro_index.json").then(r => r.ok ? r.json() : null).catch(() => null),
+  ]);
+  const map = {};
+  for (const f of fontes) {
+    if (!f) continue;
+    const lista = f.fiis || f.fundos || [];
+    for (const x of lista) {
+      const t = x.Ticker || x.ticker;
+      const n = x.Nome || x.nome;
+      if (t && n) {
+        const key = _normNomeFii(n);
+        if (key) map[key] = t;
+      }
+    }
+  }
+  _tickerPorNomeCache = map;
+  return map;
+}
+function _acharTickerInv(emissor) {
+  if (!emissor) return null;
+  // 1) Emissor já vem com ticker no início ("XXXX11 - blah")
+  const m = emissor.match(/\b([A-Z]{4}1[12])\b/);
+  if (m) return m[1];
+  // 2) Match por nome normalizado (ou substring forte)
+  if (!_tickerPorNomeCache) return null;
+  const norm = _normNomeFii(emissor);
+  if (!norm) return null;
+  if (_tickerPorNomeCache[norm]) return _tickerPorNomeCache[norm];
+  // Substring (fundos com nome truncado pelo CVM)
+  for (const k in _tickerPorNomeCache) {
+    if (k.length >= 8 && (k.startsWith(norm) || norm.startsWith(k))) {
+      return _tickerPorNomeCache[k];
+    }
+  }
+  return null;
+}
+function _ehTipoFii(tipo) {
+  return /\bFII\b|Cotas? de FI|FIP\b/i.test(tipo || "");
+}
+
+// ─── KPIs OPERACIONAIS (TOPO DA ABA) ─────────────────────────────────────────
+
+const UFS_BR = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"];
+function _detectarUF(endereco) {
+  const e = (endereco || "").toUpperCase();
+  return UFS_BR.find(u => new RegExp("\\b" + u + "\\b").test(e)) || null;
+}
+
+function _fmtR(v, decimais = 0) {
+  if (v == null || isNaN(v)) return "—";
+  if (Math.abs(v) >= 1e9) return "R$ " + (v / 1e9).toFixed(2) + " bi";
+  if (Math.abs(v) >= 1e6) return "R$ " + (v / 1e6).toFixed(1) + " mi";
+  return "R$ " + v.toLocaleString("pt-BR", { minimumFractionDigits: decimais, maximumFractionDigits: decimais });
+}
+function _fmtPct(v, dec = 1) {
+  return v != null && !isNaN(v) ? (v * 100).toFixed(dec) + "%" : "—";
+}
+
+function renderizarKpisOperacionais() {
+  const container = document.getElementById("kpis-operacionais");
+  if (!container) return;
+
+  const ativos = (dadosCarteiraCvm.ativos || []);
+  const imoveis = (dadosCarteiraCvm.imoveis || []);
+  // PL total = soma do portfolio (categorias agregadas) + caixa
+  const portEntries = Object.entries(dadosPortfolio).filter(([k, v]) => k !== "_data_ref" && v > 0);
+  const plTotal = portEntries.reduce((s, [, v]) => s + v, 0);
+
+  const cris = ativos.filter(a => /CRI|CRA|LCI|LIG/.test(a.tipo || ""));
+
+  const kpis = [];
+
+  if (plTotal > 0) {
+    kpis.push({
+      label: "PL Total", valor: _fmtR(plTotal),
+      icone: "💰", cor: "azul",
+      help: "Patrimônio total do fundo (soma dos ativos da carteira)"
+    });
+  }
+
+  // KPIs específicos pra FII de papel (CRI/CRA dominante)
+  const valorCris = cris.reduce((s, a) => s + (a.valor || 0), 0);
+  if (cris.length >= 5 && valorCris > 0.3 * plTotal) {
+    kpis.push({
+      label: "Nº de CRIs", valor: cris.length,
+      icone: "📄", cor: "navy",
+      help: `Quantidade de CRIs/CRAs distintos na carteira (valor total: ${_fmtR(valorCris)})`
+    });
+    const porDevedor = {};
+    cris.forEach(a => {
+      const k = a.nome_cri || a.emissor || "—";
+      porDevedor[k] = (porDevedor[k] || 0) + (a.valor || 0);
+    });
+    const ranking = Object.entries(porDevedor).sort((a, b) => b[1] - a[1]);
+    if (ranking.length) {
+      const [topNome, topVal] = ranking[0];
+      const top5 = ranking.slice(0, 5).reduce((s, [, v]) => s + v, 0);
+      kpis.push({
+        label: "Top devedor",
+        valor: topNome.length > 22 ? topNome.slice(0, 20) + "…" : topNome,
+        sub: _fmtPct(topVal / valorCris) + " da carteira de CRI",
+        icone: "🏛️", cor: "laranja",
+        help: `Maior exposição: ${topNome} (${_fmtR(topVal)})`
+      });
+      kpis.push({
+        label: "Top 5 devedores",
+        valor: _fmtPct(top5 / valorCris),
+        sub: "concentração",
+        icone: "📊", cor: "roxo",
+        help: "Soma das 5 maiores exposições por devedor (sobre a carteira de CRI)"
+      });
+    }
+  }
+
+  // KPIs específicos pra FII de tijolo (imóveis)
+  if (imoveis.length) {
+    kpis.push({
+      label: "Nº de imóveis", valor: imoveis.length,
+      icone: "🏢", cor: "navy",
+      help: "Quantidade de imóveis físicos no portfolio"
+    });
+    const ablTotal = imoveis.reduce((s, i) => s + (i.area || 0), 0);
+    if (ablTotal > 0) {
+      kpis.push({
+        label: "ABL total",
+        valor: ablTotal.toLocaleString("pt-BR", { maximumFractionDigits: 0 }),
+        sub: "m² locáveis",
+        icone: "📐", cor: "azul",
+        help: "Área Bruta Locável somada de todos os imóveis"
+      });
+      const ablOcupado = imoveis.reduce((s, i) =>
+        s + (i.area || 0) * (1 - (i.vacancia || 0)), 0);
+      const vacanciaPond = 1 - ablOcupado / ablTotal;
+      kpis.push({
+        label: "Vacância média",
+        valor: _fmtPct(vacanciaPond),
+        sub: "ponderada por ABL",
+        icone: vacanciaPond > 0.10 ? "⚠️" : "✓",
+        cor: vacanciaPond > 0.10 ? "vermelho" : "verde",
+        help: "Vacância média ponderada pela área de cada imóvel"
+      });
+    }
+    const ufs = new Set(imoveis.map(i => _detectarUF(i.endereco)).filter(Boolean));
+    if (ufs.size) {
+      kpis.push({
+        label: "Estados (UF)",
+        valor: ufs.size,
+        sub: [...ufs].sort().slice(0, 4).join(", ") + (ufs.size > 4 ? "…" : ""),
+        icone: "🗺️", cor: "verde",
+        help: "Quantidade de UFs onde o fundo tem imóveis"
+      });
+    }
+  }
+
+  if (!kpis.length) {
+    container.style.display = "none";
+    return;
+  }
+
+  container.style.display = "grid";
+  container.innerHTML = kpis.map(k => `
+    <div class="kpi-card kpi-${k.cor || "azul"}" ${k.help ? `title="${k.help.replace(/"/g, "&quot;")}"` : ""}>
+      <div class="kpi-icone">${k.icone || ""}</div>
+      <div class="kpi-conteudo">
+        <div class="kpi-label">${k.label}</div>
+        <div class="kpi-valor">${k.valor}</div>
+        ${k.sub ? `<div class="kpi-sub">${k.sub}</div>` : ""}
+      </div>
+    </div>
+  `).join("");
 }
 
 // ─── GRÁFICO DE PIZZA — COMPOSIÇÃO DO PORTFOLIO ──────────────────────────────
@@ -835,6 +1030,7 @@ function renderizarCarteiraCvm() {
     const id = "acc-" + tipo.replace(/[^\w]/g, "");
 
     const isCRI = tipo.includes("CRI") || tipo.includes("CRA") || tipo.includes("LCI") || tipo.includes("LIG");
+    const isFii = !isCRI && _ehTipoFii(tipo);
 
     // Consolida CRIs com mesma (nome_cri, serie, emissao): soma valor e
     // quantidade, mantem demais campos da primeira ocorrencia.
@@ -879,24 +1075,33 @@ function renderizarCarteiraCvm() {
         </div>
       </div>
       <div class="carteira-accordion-body" id="${id}">
-        <table>
+        <div class="tabela-toolbar">
+          <input type="text" class="tabela-busca" placeholder="🔍 Filtrar nesta tabela..." oninput="filtrarTabelaAccordion('${id}', this.value)" />
+        </div>
+        <table data-acc-id="${id}">
           <thead><tr>
-            ${isCRI ? '<th>Nome</th><th>Emissor</th><th>Série</th><th>Emissão</th><th>Taxa</th>' : '<th>Emissor</th><th>Nome</th>'}
-            <th>Vencimento</th>
-            <th class="num">Valor (R$)</th>
+            ${isCRI
+              ? `<th data-col="nome_cri" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'nome_cri', 'str')" title="Devedor / nome do CRI">Nome <span class="sort-icon">↕</span></th><th data-col="emissor" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'emissor', 'str')" title="Securitizadora — companhia que emitiu o CRI">Emissor <span class="sort-icon">↕</span></th><th data-col="serie" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'serie', 'str')" title="Série da emissão (cada emissão pode ter várias séries com perfis diferentes)">Série <span class="sort-icon">↕</span></th><th data-col="emissao" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'emissao', 'str')" title="Número da emissão">Emissão <span class="sort-icon">↕</span></th><th data-col="taxa" data-tipo="str" title="Indexador e spread (ex: CDI+1,5%, IPCA+6%)">Taxa</th>`
+              : isFii
+                ? `<th data-col="ticker_inv" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'ticker_inv', 'str')" title="Ticker B3 do FII investido">Ticker <span class="sort-icon">↕</span></th><th data-col="emissor" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'emissor', 'str')" title="Nome do FII investido">Nome <span class="sort-icon">↕</span></th>`
+                : `<th data-col="emissor" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'emissor', 'str')">Emissor <span class="sort-icon">↕</span></th><th data-col="nome" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'nome', 'str')">Nome <span class="sort-icon">↕</span></th>`}
+            <th data-col="vencimento" data-tipo="data" onclick="ordenarTabelaAccordion('${id}', 'vencimento', 'data')" title="Data de vencimento do título">Vencimento <span class="sort-icon">↕</span></th>
+            <th class="num" data-col="valor" data-tipo="num" onclick="ordenarTabelaAccordion('${id}', 'valor', 'num')" title="Valor de mercado em R$">Valor (R$) <span class="sort-icon">↕</span></th>
           </tr></thead>
-          <tbody>`;
-    const limpaSec = s => (s||"").replace(/^CRI_\S+\s*-\s*/, "").replace(/\s*-\s*\d{2}[A-Z]\d{5,}$/, "").replace(/\s+\d{2}[A-Z]\d{5,}$/, "").trim() || s;
-    listaRender.forEach(a => {
-      html += `<tr>
-        ${isCRI
-          ? `<td style="font-weight:600;color:var(--navy)">${a.nome_cri || "—"}</td><td>${limpaSec(a.emissor)}</td><td>${a.serie || "—"}</td><td>${a.emissao || "—"}</td><td style="white-space:nowrap">${a.taxa || "—"}</td>`
-          : `<td>${a.emissor || "—"}</td><td>${a.nome || a.emissor || "—"}</td>`}
-        <td>${fmtData(a.vencimento_cri || a.vencimento)}</td>
-        <td class="num">${fmtR(a.valor)}</td>
-      </tr>`;
-    });
-    html += `</tbody></table></div></div>`;
+          <tbody></tbody>
+        </table>
+      </div></div>`;
+    // Anota ticker_inv pros accordions de FII (lookup nome→ticker)
+    if (isFii) {
+      listaRender = listaRender.map(a => ({ ...a, ticker_inv: _acharTickerInv(a.emissor) || "" }));
+    }
+    _accordionState[id] = {
+      lista: listaRender,
+      isCRI, isFii,
+      busca: "",
+      sortCol: "valor",
+      sortDir: "desc",
+    };
   }
 
   // Accordion para imóveis
@@ -919,31 +1124,145 @@ function renderizarCarteiraCvm() {
         </div>
       </div>
       <div class="carteira-accordion-body" id="${id}">
-        <table>
+        <div class="tabela-toolbar">
+          <input type="text" class="tabela-busca" placeholder="🔍 Filtrar nesta tabela..." oninput="filtrarTabelaAccordion('${id}', this.value)" />
+        </div>
+        <table data-acc-id="${id}">
           <thead><tr>
-            <th>Nome</th>
-            <th>UF</th>
-            <th class="num">Participação</th>
-            <th class="num">ABL (m²)</th>
-            <th class="num">Vacância</th>
+            <th data-col="nome" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'nome', 'str')">Nome <span class="sort-icon">↕</span></th>
+            <th data-col="uf" data-tipo="str" onclick="ordenarTabelaAccordion('${id}', 'uf', 'str')">UF <span class="sort-icon">↕</span></th>
+            <th class="num" data-col="pct_total" data-tipo="num" onclick="ordenarTabelaAccordion('${id}', 'pct_total', 'num')" title="Participação do imóvel sobre a carteira total">Participação <span class="sort-icon">↕</span></th>
+            <th class="num" data-col="area" data-tipo="num" onclick="ordenarTabelaAccordion('${id}', 'area', 'num')" title="ABL = Área Bruta Locável (área disponível para locação)">ABL (m²) <span class="sort-icon">↕</span></th>
+            <th class="num" data-col="vacancia" data-tipo="num" onclick="ordenarTabelaAccordion('${id}', 'vacancia', 'num')" title="Percentual da área não locada nesse imóvel">Vacância <span class="sort-icon">↕</span></th>
           </tr></thead>
-          <tbody>`;
-    const UFS = ["AC","AL","AP","AM","BA","CE","DF","ES","GO","MA","MT","MS","MG","PA","PB","PR","PE","PI","RJ","RN","RS","RO","RR","SC","SP","SE","TO"];
-    imoveis.forEach(im => {
-      const end = (im.endereco || "").toUpperCase();
-      const uf = UFS.find(u => new RegExp("\\b" + u + "\\b").test(end)) || "—";
-      html += `<tr>
-        <td>${im.nome || "—"}</td>
-        <td>${uf}</td>
-        <td class="num">${fmtPct(im.pct_total)}</td>
-        <td class="num">${im.area != null ? im.area.toLocaleString("pt-BR") : "—"}</td>
-        <td class="num">${fmtPct(im.vacancia)}</td>
-      </tr>`;
-    });
-    html += `</tbody></table></div></div>`;
+          <tbody></tbody>
+        </table>
+      </div></div>`;
+    // Pré-anota UF em cada imóvel pra ordenar/buscar por essa coluna
+    const imoveisAnot = imoveis.map(im => ({ ...im, uf: _detectarUF(im.endereco) || "—" }));
+    _accordionState[id] = {
+      lista: imoveisAnot,
+      isImovel: true,
+      busca: "",
+      sortCol: "pct_total",
+      sortDir: "desc",
+    };
   }
 
   container.innerHTML = html;
+  // Renderiza tbody de cada accordion já filtrado/ordenado
+  Object.keys(_accordionState).forEach(id => _renderAccordionTbody(id));
+}
+
+// Estado por accordion: { lista, isCRI?, isImovel?, busca, sortCol, sortDir }
+const _accordionState = {};
+
+function _renderAccordionTbody(id) {
+  const st = _accordionState[id];
+  if (!st) return;
+  const tbody = document.querySelector(`table[data-acc-id="${id}"] tbody`);
+  if (!tbody) return;
+
+  const fmtR = v => v != null ? "R$ " + v.toLocaleString("pt-BR", { minimumFractionDigits: 0, maximumFractionDigits: 0 }) : "—";
+  const fmtPct = v => v != null ? (v * 100).toFixed(1) + "%" : "—";
+  const fmtData = d => {
+    if (!d) return "";
+    const [a, m, dd] = d.split("-");
+    return `${dd}/${m}/${a}`;
+  };
+  const limpaSec = s => (s || "").replace(/^CRI_\S+\s*-\s*/, "").replace(/\s*-\s*\d{2}[A-Z]\d{5,}$/, "").replace(/\s+\d{2}[A-Z]\d{5,}$/, "").trim() || s;
+
+  // Filtro
+  let lista = st.lista;
+  if (st.busca) {
+    const q = st.busca.toLowerCase();
+    lista = lista.filter(a => Object.values(a).some(v =>
+      v != null && String(v).toLowerCase().includes(q)
+    ));
+  }
+
+  // Ordenação
+  const dir = st.sortDir === "asc" ? 1 : -1;
+  lista = [...lista].sort((a, b) => {
+    let va = a[st.sortCol], vb = b[st.sortCol];
+    // pra "vencimento" usar vencimento_cri se disponivel
+    if (st.sortCol === "vencimento") { va = a.vencimento_cri || a.vencimento; vb = b.vencimento_cri || b.vencimento; }
+    if (va == null || va === "") return 1;   // vazios sempre no fim
+    if (vb == null || vb === "") return -1;
+    if (typeof va === "number" && typeof vb === "number") return (va - vb) * dir;
+    return String(va).localeCompare(String(vb), "pt-BR", { numeric: true }) * dir;
+  });
+
+  // Atualiza ícones das colunas
+  const thead = document.querySelector(`table[data-acc-id="${id}"] thead`);
+  thead?.querySelectorAll("th").forEach(th => {
+    const ic = th.querySelector(".sort-icon");
+    if (!ic) return;
+    if (th.dataset.col === st.sortCol) ic.textContent = st.sortDir === "asc" ? "↑" : "↓";
+    else ic.textContent = "↕";
+  });
+
+  // Render
+  if (st.isImovel) {
+    tbody.innerHTML = lista.map(im => `
+      <tr>
+        <td>${im.nome || "—"}</td>
+        <td>${im.uf || "—"}</td>
+        <td class="num">${fmtPct(im.pct_total)}</td>
+        <td class="num">${im.area != null ? im.area.toLocaleString("pt-BR") : "—"}</td>
+        <td class="num">${fmtPct(im.vacancia)}</td>
+      </tr>`).join("") || `<tr><td colspan="5" style="text-align:center;color:var(--texto-suave)">Nenhum item.</td></tr>`;
+  } else if (st.isCRI) {
+    tbody.innerHTML = lista.map(a => `
+      <tr>
+        <td style="font-weight:600;color:var(--navy)">${a.nome_cri || "—"}</td>
+        <td>${limpaSec(a.emissor)}</td>
+        <td>${a.serie || "—"}</td>
+        <td>${a.emissao || "—"}</td>
+        <td style="white-space:nowrap">${a.taxa || "—"}</td>
+        <td>${fmtData(a.vencimento_cri || a.vencimento)}</td>
+        <td class="num">${fmtR(a.valor)}</td>
+      </tr>`).join("") || `<tr><td colspan="7" style="text-align:center;color:var(--texto-suave)">Nenhum item.</td></tr>`;
+  } else if (st.isFii) {
+    tbody.innerHTML = lista.map(a => {
+      // Tira o "TICKER -" do nome quando ja temos o ticker em coluna propria
+      const nomeLimpo = a.ticker_inv
+        ? (a.emissor || "").replace(new RegExp(`^${a.ticker_inv}\\s*-\\s*`, "i"), "")
+        : (a.emissor || "—");
+      return `<tr>
+        <td>${a.ticker_inv ? `<a href="fii.html?ticker=${a.ticker_inv}" class="ticker-link">${a.ticker_inv}</a>` : '<span style="color:var(--texto-suave)">—</span>'}</td>
+        <td>${nomeLimpo || "—"}</td>
+        <td>${fmtData(a.vencimento_cri || a.vencimento)}</td>
+        <td class="num">${fmtR(a.valor)}</td>
+      </tr>`;
+    }).join("") || `<tr><td colspan="4" style="text-align:center;color:var(--texto-suave)">Nenhum item.</td></tr>`;
+  } else {
+    tbody.innerHTML = lista.map(a => `
+      <tr>
+        <td>${a.emissor || "—"}</td>
+        <td>${a.nome || a.emissor || "—"}</td>
+        <td>${fmtData(a.vencimento_cri || a.vencimento)}</td>
+        <td class="num">${fmtR(a.valor)}</td>
+      </tr>`).join("") || `<tr><td colspan="4" style="text-align:center;color:var(--texto-suave)">Nenhum item.</td></tr>`;
+  }
+}
+
+function filtrarTabelaAccordion(id, valor) {
+  if (!_accordionState[id]) return;
+  _accordionState[id].busca = valor || "";
+  _renderAccordionTbody(id);
+}
+
+function ordenarTabelaAccordion(id, col, tipo) {
+  const st = _accordionState[id];
+  if (!st) return;
+  if (st.sortCol === col) {
+    st.sortDir = st.sortDir === "asc" ? "desc" : "asc";
+  } else {
+    st.sortCol = col;
+    st.sortDir = (tipo === "num" || tipo === "data") ? "desc" : "asc";
+  }
+  _renderAccordionTbody(id);
 }
 
 function toggleAccordion(id) {
@@ -952,6 +1271,99 @@ function toggleAccordion(id) {
   if (!body) return;
   const aberto = body.classList.toggle("aberto");
   if (header) header.classList.toggle("aberto", aberto);
+}
+
+// ─── DOWNLOAD DA CARTEIRA EM EXCEL ───────────────────────────────────────────
+let _sheetJsCarregandoFii = null;
+async function _carregarSheetJsFii() {
+  if (window.XLSX) return;
+  if (_sheetJsCarregandoFii) return _sheetJsCarregandoFii;
+  _sheetJsCarregandoFii = new Promise((res, rej) => {
+    const s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js";
+    s.onload = () => res();
+    s.onerror = () => rej(new Error("Falha ao carregar SheetJS"));
+    document.head.appendChild(s);
+  });
+  return _sheetJsCarregandoFii;
+}
+
+async function baixarCarteiraFiiExcel(btn) {
+  const ativos = (dadosCarteiraCvm.ativos || []);
+  const imoveis = (dadosCarteiraCvm.imoveis || []);
+  if (!ativos.length && !imoveis.length) { alert("Nada a exportar."); return; }
+  const textoOriginal = btn?.textContent;
+  if (btn) { btn.disabled = true; btn.textContent = "..."; }
+
+  try {
+    await _carregarSheetJsFii();
+
+    const tk = (ticker || "").toUpperCase();
+    const nome = dadosFiiNome || tk;
+    const dataRef = dadosCarteiraCvm.data_ref_ativos || dadosCarteiraCvm.data_ref || "";
+
+    const wb = XLSX.utils.book_new();
+
+    // Aba 1: Ativos financeiros
+    if (ativos.length) {
+      const linhas = ativos.map(a => ({
+        Tipo: a.tipo || "",
+        "Nome do CRI / Ativo": a.nome_cri || a.nome || "",
+        Emissor: a.emissor || "",
+        Série: a.serie || "",
+        Emissão: a.emissao || "",
+        Taxa: a.taxa || "",
+        Vencimento: a.vencimento_cri || a.vencimento || "",
+        Quantidade: a.quantidade ?? null,
+        "Valor (R$)": a.valor != null ? +a.valor.toFixed(2) : null,
+      }));
+      const cab = Object.keys(linhas[0]);
+      const aoa = [
+        [`Carteira Detalhada — ${tk} (${nome})`],
+        [`Data de referência: ${dataRef}`],
+        [`Total de ativos financeiros: ${ativos.length}`],
+        [],
+        cab,
+        ...linhas.map(r => cab.map(c => r[c])),
+      ];
+      const ws = XLSX.utils.aoa_to_sheet(aoa);
+      ws["!cols"] = [{wch:18},{wch:32},{wch:32},{wch:8},{wch:10},{wch:18},{wch:14},{wch:14},{wch:18}];
+      ws["!merges"] = [0,1,2].map(r => ({ s: { r, c: 0 }, e: { r, c: cab.length - 1 } }));
+      XLSX.utils.book_append_sheet(wb, ws, "Ativos Financeiros");
+    }
+
+    // Aba 2: Imóveis
+    if (imoveis.length) {
+      const linhas = imoveis.map(im => ({
+        Nome: im.nome || "",
+        Endereço: im.endereco || "",
+        UF: _detectarUF(im.endereco) || "",
+        "ABL (m²)": im.area ?? null,
+        "Vacância (%)": im.vacancia != null ? +(im.vacancia * 100).toFixed(2) : null,
+        "Participação no portfolio (%)": im.pct_total != null ? +(im.pct_total * 100).toFixed(2) : null,
+      }));
+      const cab = Object.keys(linhas[0]);
+      const aoa = [
+        [`Imóveis — ${tk} (${nome})`],
+        [`Data de referência: ${dadosCarteiraCvm.data_ref_imoveis || dataRef}`],
+        [`Total de imóveis: ${imoveis.length}`],
+        [],
+        cab,
+        ...linhas.map(r => cab.map(c => r[c])),
+      ];
+      const ws = XLSX.utils.aoa_to_sheet(aoa);
+      ws["!cols"] = [{wch:35},{wch:50},{wch:6},{wch:14},{wch:14},{wch:18}];
+      ws["!merges"] = [0,1,2].map(r => ({ s: { r, c: 0 }, e: { r, c: cab.length - 1 } }));
+      XLSX.utils.book_append_sheet(wb, ws, "Imóveis");
+    }
+
+    const dt = new Date().toISOString().slice(0, 10);
+    XLSX.writeFile(wb, `carteira_${tk}_${dt}.xlsx`);
+  } catch (e) {
+    alert("Erro ao gerar Excel: " + e.message);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = textoOriginal; }
+  }
 }
 
 carregarFii();

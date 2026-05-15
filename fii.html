@@ -141,6 +141,10 @@
 
     <!-- Aba: Informações Operacionais -->
     <div id="aba-operacional" class="aba-conteudo" style="display:none">
+
+      <!-- KPIs operacionais (variam por tipo de fundo) -->
+      <div id="kpis-operacionais" class="kpis-operacionais" style="display:none"></div>
+
       <div class="graficos">
         <div class="grafico-box">
           <h2>Composição do Portfolio</h2>
@@ -163,7 +167,12 @@
       <!-- Carteira trimestral CVM — abas expansíveis -->
       <div id="carteira-cvm-section" style="display:none">
         <div id="carteira-cvm-container" class="grafico-box" style="padding:20px 24px">
-          <h2 id="carteira-cvm-titulo"></h2>
+          <div class="carteira-cvm-header">
+            <h2 id="carteira-cvm-titulo"></h2>
+            <button class="btn-baixar-carteira" onclick="baixarCarteiraFiiExcel(this)" title="Baixar carteira em Excel">
+              ↓ Excel
+            </button>
+          </div>
           <div id="carteira-cvm-accordions"></div>
         </div>
       </div>
@@ -175,7 +184,7 @@
   <div id="erro" class="erro" style="display:none"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
-  <script src="js/fii.js?v=3"></script>
+  <script src="js/fii.js?v=7"></script>
   <script src="js/local.js"></script>
 </body>
 </html>

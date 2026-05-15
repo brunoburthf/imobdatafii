@@ -119,9 +119,9 @@ function aplicarFiltros() {
       <td class="num">${formatarData(a.data_com)}</td>
       <td class="num">${formatarData(a.data_pagamento)}</td>
       <td class="num">
-        <a href="${a.url_fnet}" target="_blank" rel="noopener" class="noticias-link">
-          ${formatarDataHora(a.data_anuncio)}
-        </a>
+        ${a.url_fnet
+          ? `<a href="${a.url_fnet}" target="_blank" rel="noopener" class="noticias-link">${formatarDataHora(a.data_anuncio)}</a>`
+          : `<span class="noticias-data-sem-link" title="FI-Infras não publicam na fnet — dado da B3/Yahoo">${formatarDataHora(a.data_anuncio)}</span>`}
       </td>
     </tr>
   `).join("");
