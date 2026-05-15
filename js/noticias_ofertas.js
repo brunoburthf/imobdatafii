@@ -11,7 +11,8 @@ const _ordemPorTab = {
 };
 const _expandidas = new Set();
 const STATUS_ATIVO        = "Em distribuição";  // oferta liberada e captando do publico
-const STATUS_BOOKBUILDING = "Em bookbuilding";  // protocolada, coletando ordens, sem preco/qtd ainda
+// "Em preparacao" = qualquer oferta protocolada que ainda nao iniciou distribuicao
+const STATUS_PREPARACAO   = new Set(["Em bookbuilding", "Em análise", "Registrada"]);
 
 const STATUS_CLASSE = {
   "Em distribuição":  "of-status-aberta",
@@ -76,13 +77,13 @@ function aplicarFiltrosOfertas() {
     return true;
   };
 
-  const bookb  = _todasOfertas.filter(o => o.status === STATUS_BOOKBUILDING && filtroComum(o));
+  const bookb  = _todasOfertas.filter(o => STATUS_PREPARACAO.has(o.status) && filtroComum(o));
   const ativas = _todasOfertas.filter(o => o.status === STATUS_ATIVO && filtroComum(o));
-  const resto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO && o.status !== STATUS_BOOKBUILDING && filtroComum(o));
+  const resto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO && !STATUS_PREPARACAO.has(o.status) && filtroComum(o));
 
-  const totalBookb  = _todasOfertas.filter(o => o.status === STATUS_BOOKBUILDING).length;
+  const totalBookb  = _todasOfertas.filter(o => STATUS_PREPARACAO.has(o.status)).length;
   const totalAtivas = _todasOfertas.filter(o => o.status === STATUS_ATIVO).length;
-  const totalResto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO && o.status !== STATUS_BOOKBUILDING).length;
+  const totalResto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO && !STATUS_PREPARACAO.has(o.status)).length;
   document.getElementById("ofertas-count-bookbuilding").textContent =
     `${bookb.length} de ${totalBookb} oferta${totalBookb !== 1 ? "s" : ""}`;
   document.getElementById("ofertas-count-ativas").textContent =
@@ -108,14 +109,14 @@ function _renderTabBookbuilding(lista) {
   });
   const tbody = document.getElementById("tabela-ofertas-body-bookbuilding");
   if (!lista.length) {
-    tbody.innerHTML = `<tr><td colspan="8" class="sim-vazio-msg">Nenhuma oferta em bookbuilding no momento.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="10" class="sim-vazio-msg">Nenhuma oferta em preparação no momento.</td></tr>`;
     return;
   }
   tbody.innerHTML = lista.map((o, i) => {
     const idLinha = `of-bb-${o.ticker}-${o.numero_processo || o.numero_registro || i}`.replace(/[^\w-]/g, "_");
     const expand = _expandidas.has(idLinha);
     const subs = Object.keys(o.subscritores || {});
-    const podeExpandir = subs.length > 0;  // raro nessa fase mas mantem consistencia
+    const podeExpandir = subs.length > 0;
     return `
       <tr class="of-row${expand ? " of-row-aberta" : ""}">
         <td>
@@ -124,14 +125,16 @@ function _renderTabBookbuilding(lista) {
             : ""}
         </td>
         <td><a href="fii.html?ticker=${o.ticker}" class="ticker-link" title="${o.nome_fundo || ""}">${o.ticker}</a></td>
+        <td><span class="of-status ${STATUS_CLASSE[o.status] || ""}">${o.status}</span></td>
         <td class="num">${o.emissao ?? "—"}${o.serie ? ` <small>(${o.serie})</small>` : ""}</td>
         <td>${o.rito || "—"}</td>
         <td class="of-lider" title="${o.lider || ""}">${truncar(o.lider || "—", 30)}</td>
         <td class="num">${fmtData(o.data_protocolo)}</td>
-        <td><span class="of-bb-comunicado">${o.ultimo_comunicado || "—"}</span>${o.data_comunicado ? ` <small>(${fmtData(o.data_comunicado)})</small>` : ""}</td>
+        <td class="num">${fmtData(o.data_registro)}</td>
+        <td>${o.ultimo_comunicado ? `<span class="of-bb-comunicado">${o.ultimo_comunicado}</span>` : "—"}${o.data_comunicado ? ` <small>(${fmtData(o.data_comunicado)})</small>` : ""}</td>
         <td class="num">${fmtConfirmFnet(o)}</td>
       </tr>
-      ${expand && podeExpandir ? renderSubscritores(o, 8) : ""}
+      ${expand && podeExpandir ? renderSubscritores(o, 10) : ""}
     `;
   }).join("");
 }
