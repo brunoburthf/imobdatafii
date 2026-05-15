@@ -111,7 +111,10 @@ function aplicarFiltrosOfertas() {
 
   if (document.getElementById("tabela-ofertas-body-bookbuilding")) _renderTabBookbuilding(bookb);
   if (document.getElementById("tabela-ofertas-body-ativas"))       _renderTabOfertas("ativas", ativas, /*comEnceCol*/false);
-  if (document.getElementById("tabela-ofertas-body-resto"))        _renderTabOfertas("resto",  resto,  /*comEnceCol*/true);
+  // Tabela de encerrados: omite fundos NAO-curados (universo expandido) por
+  // pedido do usuario. Mas o GRAFICO continua usando todas as ofertas (inclui
+  // os nao-curados pra bater com o volume total do mercado).
+  if (document.getElementById("tabela-ofertas-body-resto"))        _renderTabOfertas("resto",  resto.filter(_ehCurado), /*comEnceCol*/true);
   if (document.getElementById("grafico-vol-ofertas"))              _renderGraficoVolMensal(resto);
   atualizarIconesOf();
 }
