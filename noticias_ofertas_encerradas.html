@@ -43,37 +43,37 @@
         Janela: últimos <span id="janela-meses">24</span> meses
       </p>
 
-      <!-- Gráfico mensal + tabela anual lado a lado -->
-      <div class="setor-card setor-card-destaque" style="margin-bottom:18px">
-        <div class="setor-card-header">
-          <h2 class="setor-card-titulo">Volume captado</h2>
-          <span class="noticias-count" id="grafico-vol-meta"></span>
-        </div>
-        <div class="grafico-vol-split">
-          <div class="grafico-vol-coluna-grafico">
-            <div class="grafico-vol-ofertas-wrap">
-              <canvas id="grafico-vol-ofertas"></canvas>
-            </div>
-            <div class="grafico-vol-legenda">
-              <span class="grafico-vol-legenda-item"><span class="grafico-vol-legenda-cor cor-total"></span> Volume total captado</span>
-              <span class="grafico-vol-legenda-item"><span class="grafico-vol-legenda-cor cor-pf"></span> Subscrito por Pessoas Físicas</span>
-            </div>
+      <!-- Gráfico mensal + tabela anual: 2 cards lado a lado -->
+      <div class="ofertas-grafico-tabela-row">
+        <div class="setor-card setor-card-destaque ofertas-card-grafico">
+          <div class="setor-card-header">
+            <h2 class="setor-card-titulo">Volume captado</h2>
+            <span class="noticias-count" id="grafico-vol-meta"></span>
           </div>
-          <div class="grafico-vol-coluna-tabela">
-            <h3 class="grafico-vol-tabela-titulo">Histórico anual</h3>
-            <div class="grafico-vol-tabela-wrap">
-              <table class="grafico-vol-tabela">
-                <thead>
-                  <tr>
-                    <th>Ano</th>
-                    <th class="num">Total</th>
-                    <th class="num">PFs</th>
-                    <th class="num">% PF</th>
-                  </tr>
-                </thead>
-                <tbody id="grafico-vol-tabela-anual"></tbody>
-              </table>
-            </div>
+          <div class="grafico-vol-ofertas-wrap">
+            <canvas id="grafico-vol-ofertas"></canvas>
+          </div>
+          <div class="grafico-vol-legenda">
+            <span class="grafico-vol-legenda-item"><span class="grafico-vol-legenda-cor cor-total"></span> Volume total captado</span>
+            <span class="grafico-vol-legenda-item"><span class="grafico-vol-legenda-cor cor-pf"></span> Subscrito por Pessoas Físicas</span>
+          </div>
+        </div>
+        <div class="setor-card setor-card-destaque ofertas-card-tabela">
+          <div class="setor-card-header">
+            <h2 class="setor-card-titulo">Histórico anual</h2>
+          </div>
+          <div class="grafico-vol-tabela-wrap">
+            <table class="grafico-vol-tabela">
+              <thead>
+                <tr>
+                  <th>Ano</th>
+                  <th class="num">Total</th>
+                  <th class="num">PFs</th>
+                  <th class="num">% PF</th>
+                </tr>
+              </thead>
+              <tbody id="grafico-vol-tabela-anual"></tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -119,6 +119,6 @@
     </div>
   </main>
 
-  <script src="js/noticias_ofertas.js?v=15"></script>
+  <script src="js/noticias_ofertas.js?v=16"></script>
 </body>
 </html>

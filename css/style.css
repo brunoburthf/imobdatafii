@@ -3380,30 +3380,18 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 .of-status-cancelada    { background: #fee2e2; color: #991b1b; }
 .of-status-suspensa     { background: #fed7aa; color: #9a3412; }
 /* Grafico de volume mensal de ofertas (tela noticias_ofertas_encerradas) */
-.grafico-vol-split {
+.ofertas-grafico-tabela-row {
   display: grid;
-  grid-template-columns: 1fr 320px;
-  gap: 24px;
+  grid-template-columns: 1fr 360px;
+  gap: 18px;
+  margin-bottom: 18px;
   align-items: start;
-  margin-top: 8px;
 }
-@media (max-width: 900px) {
-  .grafico-vol-split { grid-template-columns: 1fr; }
+@media (max-width: 1000px) {
+  .ofertas-grafico-tabela-row { grid-template-columns: 1fr; }
 }
-.grafico-vol-coluna-tabela {
-  background: #fafbfd;
-  border: 1px solid var(--cinza-borda);
-  border-radius: 8px;
-  padding: 14px;
-}
-.grafico-vol-tabela-titulo {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--texto);
-  margin: 0 0 10px 0;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--cinza-borda);
-}
+.ofertas-card-grafico,
+.ofertas-card-tabela { margin: 0; }
 .grafico-vol-tabela-wrap {
   max-height: 250px;
   overflow-y: auto;
