@@ -3,21 +3,24 @@
 // Cada linha tem botão de expandir que mostra a quebra de subscritores.
 
 let _todasOfertas = [];
-// Ordem independente por tabela (ativas e resto)
+// Ordem independente por tabela
 const _ordemPorTab = {
-  ativas: { campo: "data_registro", direcao: "desc" },
-  resto:  { campo: "data_registro", direcao: "desc" },
+  bookbuilding: { campo: "data_protocolo", direcao: "desc" },
+  ativas:       { campo: "data_registro",  direcao: "desc" },
+  resto:        { campo: "data_registro",  direcao: "desc" },
 };
 const _expandidas = new Set();
-const STATUS_ATIVO = "Em distribuição";  // unica categoria considerada "ativa"
+const STATUS_ATIVO        = "Em distribuição";  // oferta liberada e captando do publico
+const STATUS_BOOKBUILDING = "Em bookbuilding";  // protocolada, coletando ordens, sem preco/qtd ainda
 
 const STATUS_CLASSE = {
-  "Em distribuição": "of-status-aberta",
-  "Em análise":      "of-status-analise",
-  "Registrada":      "of-status-registrada",
-  "Encerrada":       "of-status-encerrada",
-  "Cancelada":       "of-status-cancelada",
-  "Suspensa":        "of-status-suspensa",
+  "Em distribuição":  "of-status-aberta",
+  "Em bookbuilding":  "of-status-bookbuilding",
+  "Em análise":       "of-status-analise",
+  "Registrada":       "of-status-registrada",
+  "Encerrada":        "of-status-encerrada",
+  "Cancelada":        "of-status-cancelada",
+  "Suspensa":         "of-status-suspensa",
 };
 
 async function carregarOfertas() {
@@ -73,19 +76,64 @@ function aplicarFiltrosOfertas() {
     return true;
   };
 
+  const bookb  = _todasOfertas.filter(o => o.status === STATUS_BOOKBUILDING && filtroComum(o));
   const ativas = _todasOfertas.filter(o => o.status === STATUS_ATIVO && filtroComum(o));
-  const resto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO && filtroComum(o));
+  const resto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO && o.status !== STATUS_BOOKBUILDING && filtroComum(o));
 
+  const totalBookb  = _todasOfertas.filter(o => o.status === STATUS_BOOKBUILDING).length;
   const totalAtivas = _todasOfertas.filter(o => o.status === STATUS_ATIVO).length;
-  const totalResto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO).length;
+  const totalResto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO && o.status !== STATUS_BOOKBUILDING).length;
+  document.getElementById("ofertas-count-bookbuilding").textContent =
+    `${bookb.length} de ${totalBookb} oferta${totalBookb !== 1 ? "s" : ""}`;
   document.getElementById("ofertas-count-ativas").textContent =
     `${ativas.length} de ${totalAtivas} oferta${totalAtivas !== 1 ? "s" : ""} ativa${totalAtivas !== 1 ? "s" : ""}`;
   document.getElementById("ofertas-count-resto").textContent =
     `${resto.length} de ${totalResto}`;
 
+  _renderTabBookbuilding(bookb);
   _renderTabOfertas("ativas", ativas, /*comStatusCol*/false);
   _renderTabOfertas("resto",  resto,  /*comStatusCol*/true);
   atualizarIconesOf();
+}
+
+function _renderTabBookbuilding(lista) {
+  const ord = _ordemPorTab.bookbuilding;
+  const dir = ord.direcao === "asc" ? 1 : -1;
+  lista = [...lista].sort((a, b) => {
+    const va = a[ord.campo], vb = b[ord.campo];
+    if (va == null || va === "") return 1;
+    if (vb == null || vb === "") return -1;
+    if (typeof va === "number") return (va - vb) * dir;
+    return String(va).localeCompare(String(vb), "pt-BR", { numeric: true }) * dir;
+  });
+  const tbody = document.getElementById("tabela-ofertas-body-bookbuilding");
+  if (!lista.length) {
+    tbody.innerHTML = `<tr><td colspan="8" class="sim-vazio-msg">Nenhuma oferta em bookbuilding no momento.</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = lista.map((o, i) => {
+    const idLinha = `of-bb-${o.ticker}-${o.numero_processo || o.numero_registro || i}`.replace(/[^\w-]/g, "_");
+    const expand = _expandidas.has(idLinha);
+    const subs = Object.keys(o.subscritores || {});
+    const podeExpandir = subs.length > 0;  // raro nessa fase mas mantem consistencia
+    return `
+      <tr class="of-row${expand ? " of-row-aberta" : ""}">
+        <td>
+          ${podeExpandir
+            ? `<button class="of-toggle" onclick="toggleOferta('${idLinha}')" title="Ver quebra dos subscritores">${expand ? "▼" : "▶"}</button>`
+            : ""}
+        </td>
+        <td><a href="fii.html?ticker=${o.ticker}" class="ticker-link" title="${o.nome_fundo || ""}">${o.ticker}</a></td>
+        <td class="num">${o.emissao ?? "—"}${o.serie ? ` <small>(${o.serie})</small>` : ""}</td>
+        <td>${o.rito || "—"}</td>
+        <td class="of-lider" title="${o.lider || ""}">${truncar(o.lider || "—", 30)}</td>
+        <td class="num">${fmtData(o.data_protocolo)}</td>
+        <td><span class="of-bb-comunicado">${o.ultimo_comunicado || "—"}</span>${o.data_comunicado ? ` <small>(${fmtData(o.data_comunicado)})</small>` : ""}</td>
+        <td class="num">${fmtConfirmFnet(o)}</td>
+      </tr>
+      ${expand && podeExpandir ? renderSubscritores(o, 8) : ""}
+    `;
+  }).join("");
 }
 
 function _renderTabOfertas(qual, lista, comStatusCol) {
@@ -237,7 +285,7 @@ function ordenarOfertas(campo, qual) {
 function atualizarIconesOf() {
   // Cada tabela tem suas proprias setas, marcadas pelo handler onclick que
   // referencia 'ativas' ou 'resto'. Itera pelas duas <tbody> hospedeiras.
-  for (const qual of ["ativas", "resto"]) {
+  for (const qual of ["bookbuilding", "ativas", "resto"]) {
     const ord = _ordemPorTab[qual];
     const tbody = document.getElementById(`tabela-ofertas-body-${qual}`);
     const tabela = tbody?.closest("table");

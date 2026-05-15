@@ -3372,12 +3372,24 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
   font-weight: 600;
   white-space: nowrap;
 }
-.of-status-aberta      { background: #d1fae5; color: #065f46; }
-.of-status-analise     { background: #fef3c7; color: #92400e; }
-.of-status-registrada  { background: #dbeafe; color: #1e40af; }
-.of-status-encerrada   { background: #f3f4f6; color: #4b5563; }
-.of-status-cancelada   { background: #fee2e2; color: #991b1b; }
-.of-status-suspensa    { background: #fed7aa; color: #9a3412; }
+.of-status-aberta       { background: #d1fae5; color: #065f46; }
+.of-status-bookbuilding { background: #ede9fe; color: #5b21b6; }
+.of-status-analise      { background: #fef3c7; color: #92400e; }
+.of-status-registrada   { background: #dbeafe; color: #1e40af; }
+.of-status-encerrada    { background: #f3f4f6; color: #4b5563; }
+.of-status-cancelada    { background: #fee2e2; color: #991b1b; }
+.of-status-suspensa     { background: #fed7aa; color: #9a3412; }
+/* Nota explicativa abaixo do header da tabela bookbuilding */
+.ofertas-tabela-nota {
+  font-size: 12px;
+  color: #6b7280;
+  margin: -6px 0 10px 0;
+  font-style: italic;
+}
+.of-bb-comunicado {
+  font-weight: 600;
+  color: #5b21b6;
+}
 
 /* Sub-linhas com a quebra dos subscritores */
 .of-sub-cabec td {
