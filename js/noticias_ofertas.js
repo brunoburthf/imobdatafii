@@ -84,16 +84,18 @@ function aplicarFiltrosOfertas() {
   const totalBookb  = _todasOfertas.filter(o => STATUS_PREPARACAO.has(o.status)).length;
   const totalAtivas = _todasOfertas.filter(o => o.status === STATUS_ATIVO).length;
   const totalResto  = _todasOfertas.filter(o => o.status !== STATUS_ATIVO && !STATUS_PREPARACAO.has(o.status)).length;
-  document.getElementById("ofertas-count-bookbuilding").textContent =
-    `${bookb.length} de ${totalBookb} oferta${totalBookb !== 1 ? "s" : ""}`;
-  document.getElementById("ofertas-count-ativas").textContent =
-    `${ativas.length} de ${totalAtivas} oferta${totalAtivas !== 1 ? "s" : ""} ativa${totalAtivas !== 1 ? "s" : ""}`;
-  document.getElementById("ofertas-count-resto").textContent =
-    `${resto.length} de ${totalResto}`;
+  // Guard: cada pagina hospeda so um subset das tabelas. Atualiza counts e renderiza
+  // apenas os blocos que existem no DOM da pagina atual.
+  const elCBookb  = document.getElementById("ofertas-count-bookbuilding");
+  const elCAtivas = document.getElementById("ofertas-count-ativas");
+  const elCResto  = document.getElementById("ofertas-count-resto");
+  if (elCBookb)  elCBookb.textContent  = `${bookb.length} de ${totalBookb} oferta${totalBookb !== 1 ? "s" : ""}`;
+  if (elCAtivas) elCAtivas.textContent = `${ativas.length} de ${totalAtivas} oferta${totalAtivas !== 1 ? "s" : ""} ativa${totalAtivas !== 1 ? "s" : ""}`;
+  if (elCResto)  elCResto.textContent  = `${resto.length} de ${totalResto}`;
 
-  _renderTabBookbuilding(bookb);
-  _renderTabOfertas("ativas", ativas, /*comStatusCol*/false);
-  _renderTabOfertas("resto",  resto,  /*comStatusCol*/true);
+  if (document.getElementById("tabela-ofertas-body-bookbuilding")) _renderTabBookbuilding(bookb);
+  if (document.getElementById("tabela-ofertas-body-ativas"))       _renderTabOfertas("ativas", ativas, /*comStatusCol*/false);
+  if (document.getElementById("tabela-ofertas-body-resto"))        _renderTabOfertas("resto",  resto,  /*comStatusCol*/true);
   atualizarIconesOf();
 }
 
