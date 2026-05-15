@@ -101,7 +101,6 @@ function aplicarFiltrosOfertas() {
 }
 
 let _graficoVol = null;
-let _modoGrafico = "pf";        // "pf" | "setor" | "gestora"
 let _granularidadeGraf = "mensal";  // "mensal" | "trimestral" | "semestral" | "anual"
 
 function trocarGranularidade(gr) {
@@ -201,17 +200,8 @@ function _bucketLabel(key) {
   return key;
 }
 
-// Paleta de cores pras categorias dinamicas (setor/gestora). Indice = ordem
-// pelo total (maior primeiro). Cor 0 sempre reservada pra "Pessoas Físicas"
-// no modo pf.
-const PALETA_CATEGORIAS = [
-  "#1c6bbd", "#EF6300", "#059669", "#7c3aed", "#dc2626",
-  "#ca8a04", "#0891b2", "#be185d", "#65a30d", "#475569",
-  "#f59e0b",
-];
-const COR_PF      = "#EF6300";
-const COR_OUTROS  = "rgba(0,9,60,0.55)";
-const COR_RESTO   = "rgba(107,114,128,0.45)";  // "Outros" no modo setor/gestora
+const COR_PF     = "#EF6300";
+const COR_OUTROS = "rgba(0,9,60,0.55)";
 
 function trocarModoGrafico(modo) {
   if (modo === _modoGrafico) return;
@@ -220,16 +210,6 @@ function trocarModoGrafico(modo) {
     b.classList.toggle("ativo", b.dataset.modo === modo);
   });
   aplicarFiltrosOfertas();
-}
-
-function _gestoraDoOferta(o) {
-  // Usa administrador (mais consistente), fallback gestor; trunca pra display
-  const g = (o.administrador || o.gestor || "").trim();
-  if (!g) return "—";
-  // Limpa sufixos comuns (S.A., LTDA, DTVM, etc.) pra agrupar melhor
-  return g.replace(/\s+(S\.?A\.?|LTDA\.?|DTVM\.?|S\.?A\.? DTVM|DISTRIBUIDORA.*)$/i, "")
-          .replace(/\s+/g, " ")
-          .trim();
 }
 
 function _pfDoOferta(o) {
@@ -257,14 +237,7 @@ function _renderGraficoVolMensal(ofertasFiltradas) {
   document.getElementById("grafico-vol-meta").textContent =
     `${ofs.length} ofertas · ${fmtR(totalGeral)} captado · ${pctPf.toFixed(1)}% PF`;
 
-  // Desenha grafico + tabela conforme modo
-  if (_modoGrafico === "pf") {
-    _renderModoPf(ofs, totalGeral, pfGeral);
-  } else if (_modoGrafico === "setor") {
-    _renderModoCategoria(ofs, "setor", "Setor");
-  } else if (_modoGrafico === "gestora") {
-    _renderModoCategoria(ofs, "gestora", "Gestora");
-  }
+  _renderModoPf(ofs, totalGeral, pfGeral);
 }
 
 function _renderModoPf(ofs, totalGeral, pfGeral) {
@@ -305,77 +278,6 @@ function _renderModoPf(ofs, totalGeral, pfGeral) {
     const pct = v.total > 0 ? (v.pf / v.total * 100) : 0;
     return [ano, fmtR(v.total), fmtR(v.pf), `${pct.toFixed(1)}%`];
   });
-  const pctTotal = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
-  _setTabelaBody(linhas, ["Total", fmtR(totalGeral), fmtR(pfGeral), `${pctTotal.toFixed(1)}%`]);
-}
-
-function _renderModoCategoria(ofs, campo, label1) {
-  // Define categoria de cada oferta. Pra setor usa o campo direto; pra gestora,
-  // _gestoraDoOferta. Agrega por mes x categoria. Top N categorias viram
-  // datasets; resto vai pra "Outros".
-  const getCat = (o) => campo === "setor" ? (o.setor || "—") : _gestoraDoOferta(o);
-  // Totais agregados por categoria (pra ranking)
-  const totaisCat = new Map();  // cat -> {total, pf}
-  for (const o of ofs) {
-    const cat = getCat(o);
-    const acc = totaisCat.get(cat) || { total: 0, pf: 0 };
-    acc.total += o.valor_captado; acc.pf += _pfDoOferta(o);
-    totaisCat.set(cat, acc);
-  }
-  const TOP_N = 7;
-  const ranking = [...totaisCat.entries()].sort((a, b) => b[1].total - a[1].total);
-  const topCats = ranking.slice(0, TOP_N).map(x => x[0]);
-  const outrosFlag = ranking.length > TOP_N;
-
-  // Agrega por bucket x categoria
-  const por_bucket_cat = new Map();  // key -> Map(cat -> {total, pf})
-  for (const o of ofs) {
-    const { key } = _bucketDe(o.data_encerramento);
-    const cat = getCat(o);
-    const catKey = topCats.includes(cat) ? cat : (outrosFlag ? "Outros" : cat);
-    let mp = por_bucket_cat.get(key);
-    if (!mp) { mp = new Map(); por_bucket_cat.set(key, mp); }
-    const acc = mp.get(catKey) || { total: 0, pf: 0 };
-    acc.total += o.valor_captado; acc.pf += _pfDoOferta(o);
-    mp.set(catKey, acc);
-  }
-  const chaves = [...por_bucket_cat.keys()].sort();
-  const labels = _bucketsDoIntervalo(chaves);
-
-  // Monta categorias em ordem: top N primeiro, Outros por ultimo
-  const cats = [...topCats];
-  if (outrosFlag) cats.push("Outros");
-
-  // 1 dataset por categoria
-  const datasets = cats.map((c, i) => ({
-    label: c,
-    color: c === "Outros" ? COR_RESTO : PALETA_CATEGORIAS[i % PALETA_CATEGORIAS.length],
-    data: labels.map(k => {
-      const mp = por_bucket_cat.get(k);
-      const acc = mp && mp.get(c);
-      return acc ? acc.total : 0;
-    }),
-  }));
-  _desenhaGrafico(labels, datasets);
-
-  // Tabela: Categoria | Total | PFs | %PF, ordenada por Total desc
-  _setTabelaHead([label1, "Total", "PFs", "% PF"], `Por ${label1.toLowerCase()}`);
-  const linhas = cats.map(c => {
-    // Total no periodo: pega de totaisCat (top N) ou soma do bucket Outros
-    let total, pf;
-    if (c === "Outros") {
-      total = ranking.slice(TOP_N).reduce((s, x) => s + x[1].total, 0);
-      pf    = ranking.slice(TOP_N).reduce((s, x) => s + x[1].pf, 0);
-    } else {
-      const v = totaisCat.get(c);
-      total = v.total; pf = v.pf;
-    }
-    const pct = total > 0 ? (pf / total * 100) : 0;
-    // Marca celula da 1a coluna com title pra tooltip ao passar o mouse
-    return [`<span title="${c}">${c}</span>`, fmtR(total), fmtR(pf), `${pct.toFixed(1)}%`];
-  });
-  const totalGeral = ranking.reduce((s, x) => s + x[1].total, 0);
-  const pfGeral    = ranking.reduce((s, x) => s + x[1].pf, 0);
   const pctTotal = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
   _setTabelaBody(linhas, ["Total", fmtR(totalGeral), fmtR(pfGeral), `${pctTotal.toFixed(1)}%`]);
 }

@@ -3379,43 +3379,26 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 .of-status-encerrada    { background: #f3f4f6; color: #4b5563; }
 .of-status-cancelada    { background: #fee2e2; color: #991b1b; }
 .of-status-suspensa     { background: #fed7aa; color: #9a3412; }
-/* Tabs do filtro de modo do grafico (Ofertas Encerradas) */
-.ofertas-grafico-tabs {
-  display: flex;
-  gap: 6px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid var(--cinza-borda);
-}
-.ofertas-grafico-tab {
-  background: transparent;
-  border: none;
-  padding: 10px 18px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--texto-suave);
-  cursor: pointer;
-  border-bottom: 3px solid transparent;
-  transition: color .15s, border-color .15s;
-}
-.ofertas-grafico-tab:hover { color: var(--texto); }
-.ofertas-grafico-tab.ativo {
-  color: var(--navy);
-  border-bottom-color: #EF6300;
-}
-
 /* Grafico de volume mensal de ofertas (tela noticias_ofertas_encerradas) */
 .ofertas-grafico-tabela-row {
   display: grid;
   grid-template-columns: 1fr 360px;
   gap: 18px;
   margin-bottom: 18px;
-  align-items: start;
+  align-items: stretch;  /* cards equalizam altura */
 }
 @media (max-width: 1000px) {
   .ofertas-grafico-tabela-row { grid-template-columns: 1fr; }
 }
 .ofertas-card-grafico,
-.ofertas-card-tabela { margin: 0; }
+.ofertas-card-tabela {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.ofertas-card-tabela .grafico-vol-tabela-wrap {
+  flex: 1 1 auto;  /* tabela ocupa altura restante do card */
+}
 .grafico-vol-granularidade {
   display: flex;
   align-items: center;
@@ -3449,25 +3432,23 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
   color: #fff;
 }
 .grafico-vol-tabela-wrap {
-  max-height: 250px;
   overflow-y: auto;
 }
 .grafico-vol-tabela {
   width: 100%;
   border-collapse: collapse;
-  font-size: 12px;
+  font-size: 12.5px;
   table-layout: fixed;
 }
-/* Larguras fixas: 1a coluna (nome) flexivel, demais minimas */
-.grafico-vol-tabela colgroup col:nth-child(1) { width: auto; }
+/* Larguras: Ano estreito (4 chars), colunas numericas espacadas */
 .grafico-vol-tabela th:nth-child(1),
-.grafico-vol-tabela td:nth-child(1) { width: 42%; }
+.grafico-vol-tabela td:nth-child(1) { width: 18%; }
 .grafico-vol-tabela th:nth-child(2),
-.grafico-vol-tabela td:nth-child(2) { width: 22%; }
+.grafico-vol-tabela td:nth-child(2) { width: 32%; }
 .grafico-vol-tabela th:nth-child(3),
-.grafico-vol-tabela td:nth-child(3) { width: 22%; }
+.grafico-vol-tabela td:nth-child(3) { width: 32%; }
 .grafico-vol-tabela th:nth-child(4),
-.grafico-vol-tabela td:nth-child(4) { width: 14%; }
+.grafico-vol-tabela td:nth-child(4) { width: 18%; }
 
 .grafico-vol-tabela th {
   text-align: left;
