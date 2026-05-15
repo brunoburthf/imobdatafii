@@ -101,7 +101,105 @@ function aplicarFiltrosOfertas() {
 }
 
 let _graficoVol = null;
-let _modoGrafico = "pf";  // "pf" | "setor" | "gestora"
+let _modoGrafico = "pf";        // "pf" | "setor" | "gestora"
+let _granularidadeGraf = "mensal";  // "mensal" | "trimestral" | "semestral" | "anual"
+
+function trocarGranularidade(gr) {
+  if (gr === _granularidadeGraf) return;
+  _granularidadeGraf = gr;
+  document.querySelectorAll(".grafico-vol-gr-btn").forEach(b => {
+    b.classList.toggle("ativo", b.dataset.gr === gr);
+  });
+  aplicarFiltrosOfertas();
+}
+
+// Converte data ISO YYYY-MM-DD pra chave do bucket temporal e label legivel
+function _bucketDe(dataIso) {
+  if (!dataIso) return { key: "", label: "" };
+  const [yStr, mStr] = dataIso.split("-");
+  const y = +yStr, m = +mStr;
+  switch (_granularidadeGraf) {
+    case "mensal": {
+      const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+      return { key: `${y}-${String(m).padStart(2,"0")}`, label: `${meses[m-1]}/${String(y).slice(2)}` };
+    }
+    case "trimestral": {
+      const t = Math.ceil(m / 3);
+      return { key: `${y}-T${t}`, label: `${t}T${String(y).slice(2)}` };
+    }
+    case "semestral": {
+      const s = m <= 6 ? 1 : 2;
+      return { key: `${y}-S${s}`, label: `${s}S${String(y).slice(2)}` };
+    }
+    case "anual":
+      return { key: `${y}`, label: `${y}` };
+  }
+}
+
+// Gera intervalo de chaves do bucket entre 1a e ultima data, preenchendo gaps
+function _bucketsDoIntervalo(chavesOrdenadas) {
+  if (!chavesOrdenadas.length) return [];
+  const ini = chavesOrdenadas[0];
+  const fim = chavesOrdenadas[chavesOrdenadas.length - 1];
+  const out = [];
+  switch (_granularidadeGraf) {
+    case "mensal": {
+      let [y, m] = ini.split("-").map(Number);
+      const [yF, mF] = fim.split("-").map(Number);
+      while (y < yF || (y === yF && m <= mF)) {
+        out.push(`${y}-${String(m).padStart(2,"0")}`);
+        m++; if (m > 12) { m = 1; y++; }
+      }
+      return out;
+    }
+    case "trimestral": {
+      let [yS, tS] = ini.split("-T"); let y = +yS, t = +tS;
+      const [yFS, tFS] = fim.split("-T"); const yF = +yFS, tF = +tFS;
+      while (y < yF || (y === yF && t <= tF)) {
+        out.push(`${y}-T${t}`);
+        t++; if (t > 4) { t = 1; y++; }
+      }
+      return out;
+    }
+    case "semestral": {
+      let [yS, sS] = ini.split("-S"); let y = +yS, s = +sS;
+      const [yFS, sFS] = fim.split("-S"); const yF = +yFS, sF = +sFS;
+      while (y < yF || (y === yF && s <= sF)) {
+        out.push(`${y}-S${s}`);
+        s++; if (s > 2) { s = 1; y++; }
+      }
+      return out;
+    }
+    case "anual": {
+      const yI = +ini, yF = +fim;
+      for (let y = yI; y <= yF; y++) out.push(`${y}`);
+      return out;
+    }
+  }
+  return [];
+}
+
+function _bucketLabel(key) {
+  // Mantido pra compat — usa _bucketDe pra extrair label
+  switch (_granularidadeGraf) {
+    case "mensal": {
+      const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+      const [y, m] = key.split("-").map(Number);
+      return `${meses[m-1]}/${String(y).slice(2)}`;
+    }
+    case "trimestral": {
+      const [y, t] = key.split("-T");
+      return `${t}T${y.slice(2)}`;
+    }
+    case "semestral": {
+      const [y, s] = key.split("-S");
+      return `${s}S${y.slice(2)}`;
+    }
+    case "anual":
+      return key;
+  }
+  return key;
+}
 
 // Paleta de cores pras categorias dinamicas (setor/gestora). Indice = ordem
 // pelo total (maior primeiro). Cor 0 sempre reservada pra "Pessoas Físicas"
@@ -170,19 +268,20 @@ function _renderGraficoVolMensal(ofertasFiltradas) {
 }
 
 function _renderModoPf(ofs, totalGeral, pfGeral) {
-  // Agrega por mes -> {total, pf}
-  const por_mes = new Map();
+  // Agrega por bucket (granularidade do grafico) -> {total, pf}
+  const por_bucket = new Map();
   for (const o of ofs) {
-    const ym = o.data_encerramento.slice(0, 7);
-    const ag = por_mes.get(ym) || { total: 0, pf: 0 };
+    const { key } = _bucketDe(o.data_encerramento);
+    const ag = por_bucket.get(key) || { total: 0, pf: 0 };
     ag.total += o.valor_captado;
     ag.pf    += _pfDoOferta(o);
-    por_mes.set(ym, ag);
+    por_bucket.set(key, ag);
   }
-  const labels = _intervaloDeMeses(por_mes);
-  const dadosPF     = labels.map(ym => (por_mes.get(ym) || {pf:0}).pf);
-  const dadosOutros = labels.map(ym => {
-    const ag = por_mes.get(ym) || { total: 0, pf: 0 };
+  const chaves = [...por_bucket.keys()].sort();
+  const labels = _bucketsDoIntervalo(chaves);
+  const dadosPF     = labels.map(k => (por_bucket.get(k) || {pf:0}).pf);
+  const dadosOutros = labels.map(k => {
+    const ag = por_bucket.get(k) || { total: 0, pf: 0 };
     return Math.max(0, ag.total - ag.pf);
   });
   _desenhaGrafico(labels, [
@@ -190,24 +289,24 @@ function _renderModoPf(ofs, totalGeral, pfGeral) {
     { label: "Outros (PJ, fundos, estrangeiros)",     data: dadosOutros, color: COR_OUTROS },
   ]);
 
-  // Tabela anual: Ano | Total | PFs | %PF
+  // Tabela anual continua sempre por ano (independente da granularidade do grafico)
   _setTabelaHead(["Ano", "Total", "PFs", "% PF"], "Histórico anual");
   const por_ano = new Map();
-  for (const [ym, ag] of por_mes.entries()) {
-    const ano = ym.slice(0, 4);
+  for (const o of ofs) {
+    const ano = o.data_encerramento.slice(0, 4);
     const acc = por_ano.get(ano) || { total: 0, pf: 0 };
-    acc.total += ag.total; acc.pf += ag.pf;
+    acc.total += o.valor_captado;
+    acc.pf    += _pfDoOferta(o);
     por_ano.set(ano, acc);
   }
   const anos = [...por_ano.keys()].sort().reverse();
   const linhas = anos.map(ano => {
     const v = por_ano.get(ano);
     const pct = v.total > 0 ? (v.pf / v.total * 100) : 0;
-    return [`<strong>${ano}</strong>`, fmtR(v.total), fmtR(v.pf), `<strong>${pct.toFixed(1)}%</strong>`];
+    return [ano, fmtR(v.total), fmtR(v.pf), `${pct.toFixed(1)}%`];
   });
   const pctTotal = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
-  _setTabelaBody(linhas, ["<strong>Total</strong>", `<strong>${fmtR(totalGeral)}</strong>`,
-                          `<strong>${fmtR(pfGeral)}</strong>`, `<strong>${pctTotal.toFixed(1)}%</strong>`]);
+  _setTabelaBody(linhas, ["Total", fmtR(totalGeral), fmtR(pfGeral), `${pctTotal.toFixed(1)}%`]);
 }
 
 function _renderModoCategoria(ofs, campo, label1) {
@@ -228,21 +327,20 @@ function _renderModoCategoria(ofs, campo, label1) {
   const topCats = ranking.slice(0, TOP_N).map(x => x[0]);
   const outrosFlag = ranking.length > TOP_N;
 
-  // Agrega por mes x categoria
-  const por_mes_cat = new Map();  // ym -> Map(cat -> {total, pf})
+  // Agrega por bucket x categoria
+  const por_bucket_cat = new Map();  // key -> Map(cat -> {total, pf})
   for (const o of ofs) {
-    const ym = o.data_encerramento.slice(0, 7);
+    const { key } = _bucketDe(o.data_encerramento);
     const cat = getCat(o);
     const catKey = topCats.includes(cat) ? cat : (outrosFlag ? "Outros" : cat);
-    let mp = por_mes_cat.get(ym);
-    if (!mp) { mp = new Map(); por_mes_cat.set(ym, mp); }
+    let mp = por_bucket_cat.get(key);
+    if (!mp) { mp = new Map(); por_bucket_cat.set(key, mp); }
     const acc = mp.get(catKey) || { total: 0, pf: 0 };
     acc.total += o.valor_captado; acc.pf += _pfDoOferta(o);
     mp.set(catKey, acc);
   }
-  // Range de meses (precisamos do helper). _intervaloDeMeses aceita map de
-  // qualquer estrutura — só usa as chaves.
-  const labels = _intervaloDeMeses(por_mes_cat);
+  const chaves = [...por_bucket_cat.keys()].sort();
+  const labels = _bucketsDoIntervalo(chaves);
 
   // Monta categorias em ordem: top N primeiro, Outros por ultimo
   const cats = [...topCats];
@@ -252,8 +350,8 @@ function _renderModoCategoria(ofs, campo, label1) {
   const datasets = cats.map((c, i) => ({
     label: c,
     color: c === "Outros" ? COR_RESTO : PALETA_CATEGORIAS[i % PALETA_CATEGORIAS.length],
-    data: labels.map(ym => {
-      const mp = por_mes_cat.get(ym);
+    data: labels.map(k => {
+      const mp = por_bucket_cat.get(k);
       const acc = mp && mp.get(c);
       return acc ? acc.total : 0;
     }),
@@ -273,36 +371,22 @@ function _renderModoCategoria(ofs, campo, label1) {
       total = v.total; pf = v.pf;
     }
     const pct = total > 0 ? (pf / total * 100) : 0;
-    return [`<strong>${c}</strong>`, fmtR(total), fmtR(pf), `<strong>${pct.toFixed(1)}%</strong>`];
+    // Marca celula da 1a coluna com title pra tooltip ao passar o mouse
+    return [`<span title="${c}">${c}</span>`, fmtR(total), fmtR(pf), `${pct.toFixed(1)}%`];
   });
   const totalGeral = ranking.reduce((s, x) => s + x[1].total, 0);
   const pfGeral    = ranking.reduce((s, x) => s + x[1].pf, 0);
   const pctTotal = totalGeral > 0 ? (pfGeral / totalGeral * 100) : 0;
-  _setTabelaBody(linhas, ["<strong>Total</strong>", `<strong>${fmtR(totalGeral)}</strong>`,
-                          `<strong>${fmtR(pfGeral)}</strong>`, `<strong>${pctTotal.toFixed(1)}%</strong>`]);
+  _setTabelaBody(linhas, ["Total", fmtR(totalGeral), fmtR(pfGeral), `${pctTotal.toFixed(1)}%`]);
 }
 
-function _intervaloDeMeses(mapaPorYm) {
-  const chaves = [...mapaPorYm.keys()].sort();
-  if (!chaves.length) return [];
-  const [yIni, mIni] = chaves[0].split("-").map(Number);
-  const [yFim, mFim] = chaves[chaves.length - 1].split("-").map(Number);
-  const out = [];
-  let y = yIni, m = mIni;
-  while (y < yFim || (y === yFim && m <= mFim)) {
-    out.push(`${y}-${String(m).padStart(2, "0")}`);
-    m++; if (m > 12) { m = 1; y++; }
-  }
-  return out;
-}
-
-function _desenhaGrafico(ymLabels, datasets) {
+function _desenhaGrafico(bucketKeys, datasets) {
   const ctx = document.getElementById("grafico-vol-ofertas").getContext("2d");
   if (_graficoVol) _graficoVol.destroy();
   _graficoVol = new Chart(ctx, {
     type: "bar",
     data: {
-      labels: ymLabels.map(_ymLabel),
+      labels: bucketKeys.map(_bucketLabel),
       datasets: datasets.map(d => ({
         label: d.label,
         data: d.data.map(v => +(v / 1e6).toFixed(2)),
@@ -380,11 +464,6 @@ function _setTabelaBody(linhas, totalRow) {
   tbody.innerHTML = html;
 }
 
-function _ymLabel(ym) {
-  const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
-  const [y, m] = ym.split("-");
-  return `${meses[+m - 1]}/${y.slice(2)}`;
-}
 
 function _renderTabBookbuilding(lista) {
   const ord = _ordemPorTab.bookbuilding;

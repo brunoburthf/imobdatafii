@@ -57,6 +57,13 @@
             <h2 class="setor-card-titulo">Volume captado</h2>
             <span class="noticias-count" id="grafico-vol-meta"></span>
           </div>
+          <div class="grafico-vol-granularidade">
+            <span class="grafico-vol-granularidade-label">Período:</span>
+            <button class="grafico-vol-gr-btn ativo" data-gr="mensal"     onclick="trocarGranularidade('mensal')">Mensal</button>
+            <button class="grafico-vol-gr-btn"       data-gr="trimestral" onclick="trocarGranularidade('trimestral')">Trimestral</button>
+            <button class="grafico-vol-gr-btn"       data-gr="semestral"  onclick="trocarGranularidade('semestral')">Semestral</button>
+            <button class="grafico-vol-gr-btn"       data-gr="anual"      onclick="trocarGranularidade('anual')">Anual</button>
+          </div>
           <div class="grafico-vol-ofertas-wrap">
             <canvas id="grafico-vol-ofertas"></canvas>
           </div>
@@ -116,6 +123,6 @@
     </div>
   </main>
 
-  <script src="js/noticias_ofertas.js?v=17"></script>
+  <script src="js/noticias_ofertas.js?v=19"></script>
 </body>
 </html>

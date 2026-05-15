@@ -3416,6 +3416,38 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 }
 .ofertas-card-grafico,
 .ofertas-card-tabela { margin: 0; }
+.grafico-vol-granularidade {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 6px 0 12px 0;
+  font-size: 12px;
+}
+.grafico-vol-granularidade-label {
+  color: var(--texto-suave);
+  font-weight: 600;
+  margin-right: 6px;
+}
+.grafico-vol-gr-btn {
+  background: transparent;
+  border: 1px solid var(--cinza-borda);
+  color: var(--texto-suave);
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .15s;
+}
+.grafico-vol-gr-btn:hover {
+  border-color: #EF6300;
+  color: var(--texto);
+}
+.grafico-vol-gr-btn.ativo {
+  background: #EF6300;
+  border-color: #EF6300;
+  color: #fff;
+}
 .grafico-vol-tabela-wrap {
   max-height: 250px;
   overflow-y: auto;
@@ -3423,30 +3455,52 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 .grafico-vol-tabela {
   width: 100%;
   border-collapse: collapse;
-  font-size: 13px;
+  font-size: 12px;
+  table-layout: fixed;
 }
+/* Larguras fixas: 1a coluna (nome) flexivel, demais minimas */
+.grafico-vol-tabela colgroup col:nth-child(1) { width: auto; }
+.grafico-vol-tabela th:nth-child(1),
+.grafico-vol-tabela td:nth-child(1) { width: 42%; }
+.grafico-vol-tabela th:nth-child(2),
+.grafico-vol-tabela td:nth-child(2) { width: 22%; }
+.grafico-vol-tabela th:nth-child(3),
+.grafico-vol-tabela td:nth-child(3) { width: 22%; }
+.grafico-vol-tabela th:nth-child(4),
+.grafico-vol-tabela td:nth-child(4) { width: 14%; }
+
 .grafico-vol-tabela th {
   text-align: left;
   font-weight: 600;
   color: var(--texto-suave);
-  padding: 6px 8px;
+  padding: 8px 6px;
   border-bottom: 1px solid var(--cinza-borda);
   position: sticky;
   top: 0;
   background: #fafbfd;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 .grafico-vol-tabela th.num,
-.grafico-vol-tabela td.num { text-align: right; }
+.grafico-vol-tabela td.num { text-align: right; font-variant-numeric: tabular-nums; }
 .grafico-vol-tabela td {
-  padding: 6px 8px;
+  padding: 7px 6px;
   border-bottom: 1px solid #eef1f7;
   color: var(--texto);
+  /* Trunca nomes longos com ellipsis (gestoras costumam ser nomes grandes) */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.grafico-vol-tabela td:nth-child(1) {
+  font-weight: 600;
 }
 .grafico-vol-tabela tr:hover td { background: #f0f3f8; }
 .grafico-vol-tabela-total td {
   border-top: 2px solid var(--navy);
   border-bottom: none;
-  padding-top: 10px;
+  padding-top: 9px;
   background: #f0f3f8;
 }
 .grafico-vol-ofertas-wrap {
