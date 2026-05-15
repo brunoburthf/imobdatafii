@@ -312,12 +312,22 @@ function _desenhaGrafico(bucketKeys, datasets) {
       },
     },
   });
-  // Legenda customizada
+  // Legenda customizada — clique alterna visibilidade do dataset (igual Chart.js)
   const legenda = document.getElementById("grafico-vol-legenda");
-  legenda.innerHTML = datasets.map(d => `
-    <span class="grafico-vol-legenda-item">
+  legenda.innerHTML = datasets.map((d, i) => `
+    <span class="grafico-vol-legenda-item" data-idx="${i}" onclick="_toggleSerieGrafico(${i})" title="Clique para ocultar/exibir esta série">
       <span class="grafico-vol-legenda-cor" style="background:${d.color}"></span> ${d.label}
     </span>`).join("");
+}
+
+function _toggleSerieGrafico(idx) {
+  if (!_graficoVol) return;
+  const meta = _graficoVol.getDatasetMeta(idx);
+  meta.hidden = meta.hidden === null ? !_graficoVol.data.datasets[idx].hidden : !meta.hidden;
+  _graficoVol.update();
+  // Reflete visualmente na legenda
+  const item = document.querySelector(`.grafico-vol-legenda-item[data-idx="${idx}"]`);
+  if (item) item.classList.toggle("oculto", meta.hidden === true);
 }
 
 function _setTabelaHead(cols, titulo) {

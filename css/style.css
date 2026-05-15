@@ -3510,6 +3510,19 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  user-select: none;
+  transition: background .15s, opacity .15s;
+}
+.grafico-vol-legenda-item:hover { background: rgba(239,99,0,0.08); }
+.grafico-vol-legenda-item.oculto {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+.grafico-vol-legenda-item.oculto .grafico-vol-legenda-cor {
+  filter: grayscale(1);
 }
 .grafico-vol-legenda-cor {
   display: inline-block;
