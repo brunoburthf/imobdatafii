@@ -24,13 +24,18 @@
       </div>
       <div class="header-right">
         <span class="uso-interno">USO INTERNO</span>
-        <button onclick="location.href='noticias_ofertas_encerradas.html'" class="btn-voltar btn-ofertas-encerradas" title="Ver histórico de ofertas encerradas">Ofertas Encerradas &#8594;</button>
         <button onclick="location.href='noticias.html'" class="btn-voltar">&#8592; Voltar</button>
       </div>
     </div>
   </header>
 
   <main data-card="ofertas">
+    <div class="ofertas-cta-encerradas-wrap">
+      <a href="noticias_ofertas_encerradas.html" class="ofertas-cta-encerradas">
+        Ver Ofertas Encerradas <span class="ofertas-cta-encerradas-arrow">&#8594;</span>
+      </a>
+    </div>
+
     <div id="loading" class="loading">Carregando dados...</div>
     <div id="erro" class="erro" style="display:none"></div>
 
@@ -81,36 +86,9 @@
         </div>
       </div>
 
-      <!-- Tabela 2: Ofertas PROTOCOLADAS (em preparação — bookbuilding/em análise/registradas sem início) -->
-      <div class="setor-card setor-card-destaque" style="margin-top:18px">
-        <div class="setor-card-header">
-          <h2 class="setor-card-titulo">Ofertas Protocoladas</h2>
-          <span class="noticias-count" id="ofertas-count-bookbuilding"></span>
-        </div>
-        <p class="ofertas-tabela-nota">Ofertas protocoladas que ainda não iniciaram a distribuição pública (em bookbuilding, em análise pela CVM, ou já registradas aguardando início).</p>
-        <div class="ofertas-tabela-wrapper">
-          <table class="ofertas-tabela">
-            <thead>
-              <tr>
-                <th></th>
-                <th data-sort="ticker"            onclick="ordenarOfertas('ticker','bookbuilding')">Ticker <span class="sort-ic">↕</span></th>
-                <th data-sort="status"            onclick="ordenarOfertas('status','bookbuilding')">Status <span class="sort-ic">↕</span></th>
-                <th data-sort="emissao"           onclick="ordenarOfertas('emissao','bookbuilding')" class="num">Emissão <span class="sort-ic">↕</span></th>
-                <th data-sort="rito"              onclick="ordenarOfertas('rito','bookbuilding')">Rito <span class="sort-ic">↕</span></th>
-                <th data-sort="lider"             onclick="ordenarOfertas('lider','bookbuilding')">Líder <span class="sort-ic">↕</span></th>
-                <th data-sort="data_protocolo"    onclick="ordenarOfertas('data_protocolo','bookbuilding')" class="num">Protocolo <span class="sort-ic">↕</span></th>
-                <th data-sort="data_registro"     onclick="ordenarOfertas('data_registro','bookbuilding')" class="num">Registro <span class="sort-ic">↕</span></th>
-                <th data-sort="ultimo_comunicado" onclick="ordenarOfertas('ultimo_comunicado','bookbuilding')">Último comunicado</th>
-                <th title="Confirmação cruzada com anúncio na fnet (B3)">fnet</th>
-              </tr>
-            </thead>
-            <tbody id="tabela-ofertas-body-bookbuilding"></tbody>
-          </table>
-        </div>
-      </div>
     </div>
   </main>
 
-  <script src="js/noticias_ofertas.js?v=12"></script>
+  <script src="js/noticias_ofertas.js?v=13"></script>
 </body>
 </html>

@@ -3379,6 +3379,40 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 .of-status-encerrada    { background: #f3f4f6; color: #4b5563; }
 .of-status-cancelada    { background: #fee2e2; color: #991b1b; }
 .of-status-suspensa     { background: #fed7aa; color: #9a3412; }
+/* CTA chamativo "Ver Ofertas Encerradas" abaixo do header */
+.ofertas-cta-encerradas-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin: 18px 0 6px 0;
+}
+.ofertas-cta-encerradas {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #EF6300;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  box-shadow: 0 4px 12px rgba(239,99,0,0.35);
+  transition: transform .15s, box-shadow .15s, background .15s;
+}
+.ofertas-cta-encerradas:hover {
+  background: #d75800;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(239,99,0,0.5);
+}
+.ofertas-cta-encerradas-arrow {
+  font-size: 18px;
+  transition: transform .15s;
+}
+.ofertas-cta-encerradas:hover .ofertas-cta-encerradas-arrow {
+  transform: translateX(3px);
+}
+
 /* Nota explicativa abaixo do header da tabela bookbuilding */
 .ofertas-tabela-nota {
   font-size: 12px;
