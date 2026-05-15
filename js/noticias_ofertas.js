@@ -412,7 +412,7 @@ function _renderTabOfertas(qual, lista, comEnceCol) {
   });
 
   const tbody = document.getElementById(`tabela-ofertas-body-${qual}`);
-  const colspan = comEnceCol ? 11 : 10;
+  const colspan = comEnceCol ? 12 : 10;
   if (!lista.length) {
     tbody.innerHTML = `<tr><td colspan="${colspan}" class="sim-vazio-msg">Nenhuma oferta ${qual === "ativas" ? "ativa no momento" : "no histórico"}.</td></tr>`;
     return;
@@ -426,13 +426,14 @@ function _renderTabOfertas(qual, lista, comEnceCol) {
     const colEnce = comEnceCol
       ? `<td class="num">${fmtData(o.data_encerramento)}</td>`
       : "";
-    // Volume: ativas mostram registrado; histórico mostra captado (com tooltip
-    // do registrado + % captacao se ambos existirem).
+    // Volume: ativas mostram so o registrado (1 col); histórico mostra base +
+    // captado em 2 colunas separadas, com cor no captado por % de captacao.
     let colVolume;
     if (qual === "ativas") {
       colVolume = `<td class="num">${fmtR(o.valor_total)}</td>`;
     } else {
-      colVolume = `<td class="num">${fmtVolumeHist(o)}</td>`;
+      colVolume = `<td class="num">${fmtR(o.valor_total)}</td>` +
+                  `<td class="num">${fmtVolumeCaptado(o)}</td>`;
     }
     const colPctPf = qual === "resto" ? `<td class="num">${fmtPctPf(o)}</td>` : "";
     return `
@@ -486,7 +487,7 @@ function fmtConfirmFnet(o) {
 }
 
 function renderSubscritores(o, colspanTotal) {
-  // colspanTotal = nº total de colunas da tabela hospedeira (10 ativas, 11 resto).
+  // colspanTotal = nº total de colunas da tabela hospedeira (10 ativas, 12 resto).
   // O sub-painel usa: 1 (toggle) + 2 (cat) + 3 (números) + restante (barra de %).
   const colspanBarra = Math.max(1, colspanTotal - 6);
   const subs = o.subscritores || {};
@@ -566,27 +567,21 @@ function limparFiltrosOfertas() {
   aplicarFiltrosOfertas();
 }
 
-// Formato de volume na tabela Histórico: mostra captado em destaque + barra
-// horizontal com % do registrado (cor por threshold).
-function fmtVolumeHist(o) {
+// Volume captado com cor por % de captacao em relacao ao volume base
+// (verde >= 95%, amarelo 50-95%, vermelho < 50%). Mostra valor captado em
+// destaque e %, sem barra (volume base agora vai em coluna propria ao lado).
+function fmtVolumeCaptado(o) {
   const reg = o.valor_total;
   const cap = o.valor_captado;
-  if (cap == null && reg == null) return "—";
-  if (cap == null) return `<span title="Valor registrado (sem captação preenchida)">${fmtR(reg)}</span>`;
+  if (cap == null) return `<span class="dash-na">—</span>`;
   if (reg == null || reg <= 0) return `<strong>${fmtR(cap)}</strong>`;
   const pctNum = cap / reg * 100;
   const pct = pctNum.toFixed(0);
-  // mesma paleta verde/amarelo/vermelho usada antes
   const classe = pctNum >= 95 ? "of-cap-cheia"
                 : pctNum >= 50 ? "of-cap-media"
                 : "of-cap-baixa";
-  // largura da barra capada em 100% pra evitar overflow se captado>registrado (raro)
-  const barW = Math.min(100, Math.max(0, pctNum)).toFixed(1);
-  return `<strong>${fmtR(cap)}</strong>` +
-    `<div class="of-cap-bar-wrap" title="Registrado: ${fmtR(reg)} | Captado: ${pct}%">
-       <div class="of-cap-bar"><div class="of-cap-bar-fill ${classe}" style="width:${barW}%"></div></div>
-       <span class="of-cap-bar-pct ${classe}">${pct}%</span>
-     </div>`;
+  return `<strong class="${classe}-text" title="${pct}% do volume base (${fmtR(reg)})">${fmtR(cap)}</strong>` +
+         ` <span class="of-cap-inline-pct ${classe}-text">${pct}%</span>`;
 }
 
 // % PF (Pessoa Física) na tabela Histórico — barra horizontal navy + valor R$ acima

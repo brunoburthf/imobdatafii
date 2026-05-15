@@ -3219,6 +3219,16 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 .of-cap-cheia.of-cap-bar-pct  { color: #059669; }
 .of-cap-media.of-cap-bar-pct  { color: #ca8a04; }
 .of-cap-baixa.of-cap-bar-pct  { color: #dc2626; }
+/* Variantes "-text" usadas na coluna Volume captado (sem barra) */
+.of-cap-cheia-text { color: #059669; }
+.of-cap-media-text { color: #ca8a04; }
+.of-cap-baixa-text { color: #dc2626; }
+.of-cap-inline-pct {
+  font-size: 11px;
+  font-weight: 600;
+  margin-left: 4px;
+  opacity: 0.85;
+}
 /* % PF (Pessoa Fisica) — barra azul marinho */
 .of-pf-bar-fill {
   height: 100%;
