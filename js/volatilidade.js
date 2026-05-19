@@ -313,8 +313,8 @@ const quadrantesPlugin = {
     ctx.fillStyle = "rgba(224, 36, 36, 0.12)";
     ctx.fillRect(xL, yL, chartArea.right - xL, chartArea.bottom - yL);
 
-    // LARANJA — bottom-left (vol baixa, retorno baixo)
-    ctx.fillStyle = "rgba(239, 99, 0, 0.12)";
+    // CINZA — bottom-left (vol baixa, retorno baixo)
+    ctx.fillStyle = "rgba(148, 163, 184, 0.18)";
     ctx.fillRect(chartArea.left, yL, xL - chartArea.left, chartArea.bottom - yL);
 
     // Linhas tracejadas nas medianas
