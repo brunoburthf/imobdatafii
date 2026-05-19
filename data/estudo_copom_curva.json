@@ -1,0 +1,1763 @@
+{
+  "atualizado_em": "2026-05-19T13:19:30",
+  "fontes": [
+    "data/selic/ciclos.json",
+    "data/ntnb/curva_diaria.json"
+  ],
+  "janelas": {
+    "T_pre_offset_dias": -90,
+    "T_pos_offset_dias": 90,
+    "T_inicio": "1o corte do ciclo",
+    "T_fim": "ultimo corte do ciclo"
+  },
+  "metricas_curva": [
+    "ytm_2a",
+    "ytm_5a",
+    "ytm_10a",
+    "ytm_12a",
+    "slope_12a_2a",
+    "curvature"
+  ],
+  "deltas_calculados": [
+    "pre_inicio   = T_inicio - T_pre   (precificacao antecipada do mercado)",
+    "inicio_fim   = T_fim - T_inicio   (movimento durante o ciclo)",
+    "pre_fim      = T_fim - T_pre      (movimento total c/ antecipacao)",
+    "fim_pos      = T_pos - T_fim      (correcao apos o ciclo)",
+    "transmissao  = pre_fim / delta_selic_pp   (sensibilidade da curva)"
+  ],
+  "unidade_deltas": "pp (pontos percentuais)",
+  "n_ciclos_peak_to_trough": 9,
+  "n_ciclos_estritos": 11,
+  "resumo_medias_peak_to_trough": {
+    "ytm_2a": {
+      "pre_inicio": -1.0314,
+      "inicio_fim": -1.7993,
+      "pre_fim": -2.9927,
+      "fim_pos": 0.2185,
+      "transmissao": 0.8232
+    },
+    "ytm_5a": {
+      "pre_inicio": -0.8234,
+      "inicio_fim": -1.4328,
+      "pre_fim": -2.2562,
+      "fim_pos": 0.1529,
+      "transmissao": 0.347
+    },
+    "ytm_10a": {
+      "pre_inicio": -0.5685,
+      "inicio_fim": -1.0238,
+      "pre_fim": -1.5922,
+      "fim_pos": 0.1142,
+      "transmissao": 0.2427
+    },
+    "ytm_12a": {
+      "pre_inicio": -0.6111,
+      "inicio_fim": -0.9997,
+      "pre_fim": -1.3294,
+      "fim_pos": 0.1137,
+      "transmissao": 0.223
+    },
+    "slope_12a_2a": {
+      "pre_inicio": 0.7304,
+      "inicio_fim": 1.0413,
+      "pre_fim": 1.6563,
+      "fim_pos": -0.1442,
+      "transmissao": -0.6778
+    },
+    "curvature": {
+      "pre_inicio": -0.0469,
+      "inicio_fim": 0.6685,
+      "pre_fim": 0.6212,
+      "fim_pos": -0.0959,
+      "transmissao": -0.374
+    }
+  },
+  "resumo_medias_estritos": {
+    "ytm_2a": {
+      "pre_inicio": -1.0014,
+      "inicio_fim": -2.0069,
+      "pre_fim": -3.0383,
+      "fim_pos": 0.3537,
+      "transmissao": 0.7562
+    },
+    "ytm_5a": {
+      "pre_inicio": -0.8735,
+      "inicio_fim": -1.0225,
+      "pre_fim": -1.896,
+      "fim_pos": 0.281,
+      "transmissao": 0.35
+    },
+    "ytm_10a": {
+      "pre_inicio": -0.6183,
+      "inicio_fim": -0.6658,
+      "pre_fim": -1.2842,
+      "fim_pos": 0.225,
+      "transmissao": 0.2322
+    },
+    "ytm_12a": {
+      "pre_inicio": -0.654,
+      "inicio_fim": -0.6473,
+      "pre_fim": -1.008,
+      "fim_pos": 0.2164,
+      "transmissao": 0.2075
+    },
+    "slope_12a_2a": {
+      "pre_inicio": 0.6008,
+      "inicio_fim": 1.2648,
+      "pre_fim": 1.7852,
+      "fim_pos": -0.1154,
+      "transmissao": -0.6016
+    },
+    "curvature": {
+      "pre_inicio": -0.1273,
+      "inicio_fim": 0.6854,
+      "pre_fim": 0.6385,
+      "fim_pos": 0.0045,
+      "transmissao": -0.3272
+    }
+  },
+  "estudo_peak_to_trough": [
+    {
+      "data_inicio": "1999-06-09",
+      "data_fim": "2001-01-18",
+      "duracao_dias": 589,
+      "delta_selic_pp": -8.25,
+      "n_cortes": 10,
+      "taxa_pico": 23.5,
+      "taxa_minimo": 15.25,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": null
+        },
+        "T_inicio": {
+          "data_efetiva": null
+        },
+        "T_fim": {
+          "data_efetiva": null
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_10a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2002-02-21",
+      "data_fim": "2002-07-18",
+      "duracao_dias": 147,
+      "delta_selic_pp": -1.0,
+      "n_cortes": 3,
+      "taxa_pico": 19.0,
+      "taxa_minimo": 18.0,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": null
+        },
+        "T_inicio": {
+          "data_efetiva": null
+        },
+        "T_fim": {
+          "data_efetiva": null
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_10a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2003-06-20",
+      "data_fim": "2004-04-15",
+      "duracao_dias": 300,
+      "delta_selic_pp": -10.5,
+      "n_cortes": 9,
+      "taxa_pico": 26.5,
+      "taxa_minimo": 16.0,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": null
+        },
+        "T_inicio": {
+          "data_efetiva": null
+        },
+        "T_fim": {
+          "data_efetiva": null
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_10a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2005-09-15",
+      "data_fim": "2007-09-06",
+      "duracao_dias": 721,
+      "delta_selic_pp": -8.5,
+      "n_cortes": 18,
+      "taxa_pico": 19.75,
+      "taxa_minimo": 11.25,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2005-06-17",
+          "ytm_2a": 11.1704,
+          "ytm_5a": 9.362,
+          "ytm_10a": 8.95,
+          "ytm_12a": null,
+          "slope_12a_2a": null,
+          "curvature": -1.3964
+        },
+        "T_inicio": {
+          "data_efetiva": "2005-09-15",
+          "ytm_2a": 11.6892,
+          "ytm_5a": 9.5232,
+          "ytm_10a": 8.8706,
+          "ytm_12a": 9.0793,
+          "slope_12a_2a": -2.6099,
+          "curvature": -1.5134
+        },
+        "T_fim": {
+          "data_efetiva": "2007-09-06",
+          "ytm_2a": 6.968,
+          "ytm_5a": 7.1902,
+          "ytm_10a": 6.8227,
+          "ytm_12a": 6.6724,
+          "slope_12a_2a": -0.2956,
+          "curvature": 0.5897
+        },
+        "T_pos": {
+          "data_efetiva": "2007-12-05",
+          "ytm_2a": 7.2115,
+          "ytm_5a": 7.5055,
+          "ytm_10a": 7.0709,
+          "ytm_12a": 6.8789,
+          "slope_12a_2a": -0.3326,
+          "curvature": 0.7286
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": 0.5188,
+          "inicio_fim": -4.7212,
+          "pre_fim": -4.2024,
+          "fim_pos": 0.2435,
+          "transmissao": 0.4944
+        },
+        "ytm_5a": {
+          "pre_inicio": 0.1612,
+          "inicio_fim": -2.333,
+          "pre_fim": -2.1718,
+          "fim_pos": 0.3153,
+          "transmissao": 0.2555
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.0794,
+          "inicio_fim": -2.0479,
+          "pre_fim": -2.1273,
+          "fim_pos": 0.2482,
+          "transmissao": 0.2503
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": -2.4069,
+          "pre_fim": null,
+          "fim_pos": 0.2065,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": 2.3143,
+          "pre_fim": null,
+          "fim_pos": -0.037,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": -0.117,
+          "inicio_fim": 2.1031,
+          "pre_fim": 1.9861,
+          "fim_pos": 0.1389,
+          "transmissao": -0.2337
+        }
+      }
+    },
+    {
+      "data_inicio": "2009-01-22",
+      "data_fim": "2009-07-23",
+      "duracao_dias": 182,
+      "delta_selic_pp": -5.0,
+      "n_cortes": 5,
+      "taxa_pico": 13.75,
+      "taxa_minimo": 8.75,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2008-10-24",
+          "ytm_2a": 10.8991,
+          "ytm_5a": 10.9818,
+          "ytm_10a": 8.9568,
+          "ytm_12a": 8.6831,
+          "slope_12a_2a": -2.216,
+          "curvature": 2.1077
+        },
+        "T_inicio": {
+          "data_efetiva": "2009-01-22",
+          "ytm_2a": 6.9378,
+          "ytm_5a": 7.4627,
+          "ytm_10a": 7.0031,
+          "ytm_12a": 6.9422,
+          "slope_12a_2a": 0.0044,
+          "curvature": 0.9845
+        },
+        "T_fim": {
+          "data_efetiva": "2009-07-23",
+          "ytm_2a": 5.6507,
+          "ytm_5a": 6.5161,
+          "ytm_10a": 6.43,
+          "ytm_12a": 6.43,
+          "slope_12a_2a": 0.7793,
+          "curvature": 0.9515
+        },
+        "T_pos": {
+          "data_efetiva": "2009-10-21",
+          "ytm_2a": 6.1417,
+          "ytm_5a": 6.7055,
+          "ytm_10a": 6.63,
+          "ytm_12a": 6.63,
+          "slope_12a_2a": 0.4883,
+          "curvature": 0.6393
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -3.9613,
+          "inicio_fim": -1.2871,
+          "pre_fim": -5.2484,
+          "fim_pos": 0.491,
+          "transmissao": 1.0497
+        },
+        "ytm_5a": {
+          "pre_inicio": -3.5191,
+          "inicio_fim": -0.9466,
+          "pre_fim": -4.4657,
+          "fim_pos": 0.1894,
+          "transmissao": 0.8931
+        },
+        "ytm_10a": {
+          "pre_inicio": -1.9537,
+          "inicio_fim": -0.5731,
+          "pre_fim": -2.5268,
+          "fim_pos": 0.2,
+          "transmissao": 0.5054
+        },
+        "ytm_12a": {
+          "pre_inicio": -1.7409,
+          "inicio_fim": -0.5122,
+          "pre_fim": -2.2531,
+          "fim_pos": 0.2,
+          "transmissao": 0.4506
+        },
+        "slope_12a_2a": {
+          "pre_inicio": 2.2204,
+          "inicio_fim": 0.7749,
+          "pre_fim": 2.9953,
+          "fim_pos": -0.291,
+          "transmissao": -0.5991
+        },
+        "curvature": {
+          "pre_inicio": -1.1232,
+          "inicio_fim": -0.033,
+          "pre_fim": -1.1562,
+          "fim_pos": -0.3122,
+          "transmissao": 0.2312
+        }
+      }
+    },
+    {
+      "data_inicio": "2011-09-01",
+      "data_fim": "2012-10-11",
+      "duracao_dias": 406,
+      "delta_selic_pp": -5.25,
+      "n_cortes": 10,
+      "taxa_pico": 12.5,
+      "taxa_minimo": 7.25,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2011-06-03",
+          "ytm_2a": 6.8175,
+          "ytm_5a": 6.3452,
+          "ytm_10a": 6.1047,
+          "ytm_12a": 6.003,
+          "slope_12a_2a": -0.8145,
+          "curvature": -0.2318
+        },
+        "T_inicio": {
+          "data_efetiva": "2011-09-01",
+          "ytm_2a": 5.1045,
+          "ytm_5a": 5.5105,
+          "ytm_10a": 5.6686,
+          "ytm_12a": 5.6905,
+          "slope_12a_2a": 0.586,
+          "curvature": 0.2479
+        },
+        "T_fim": {
+          "data_efetiva": "2012-10-11",
+          "ytm_2a": 1.9231,
+          "ytm_5a": 3.0952,
+          "ytm_10a": 3.7482,
+          "ytm_12a": 3.8677,
+          "slope_12a_2a": 1.9446,
+          "curvature": 0.5191
+        },
+        "T_pos": {
+          "data_efetiva": "2013-01-09",
+          "ytm_2a": null,
+          "ytm_5a": 2.7025,
+          "ytm_10a": 3.4736,
+          "ytm_12a": 3.6051,
+          "slope_12a_2a": null,
+          "curvature": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -1.713,
+          "inicio_fim": -3.1814,
+          "pre_fim": -4.8944,
+          "fim_pos": null,
+          "transmissao": 0.9323
+        },
+        "ytm_5a": {
+          "pre_inicio": -0.8347,
+          "inicio_fim": -2.4153,
+          "pre_fim": -3.25,
+          "fim_pos": -0.3927,
+          "transmissao": 0.619
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.4361,
+          "inicio_fim": -1.9204,
+          "pre_fim": -2.3565,
+          "fim_pos": -0.2746,
+          "transmissao": 0.4489
+        },
+        "ytm_12a": {
+          "pre_inicio": -0.3125,
+          "inicio_fim": -1.8228,
+          "pre_fim": -2.1353,
+          "fim_pos": -0.2626,
+          "transmissao": 0.4067
+        },
+        "slope_12a_2a": {
+          "pre_inicio": 1.4005,
+          "inicio_fim": 1.3586,
+          "pre_fim": 2.7591,
+          "fim_pos": null,
+          "transmissao": -0.5255
+        },
+        "curvature": {
+          "pre_inicio": 0.4797,
+          "inicio_fim": 0.2712,
+          "pre_fim": 0.7509,
+          "fim_pos": null,
+          "transmissao": -0.143
+        }
+      }
+    },
+    {
+      "data_inicio": "2016-10-20",
+      "data_fim": "2020-08-06",
+      "duracao_dias": 1386,
+      "delta_selic_pp": -12.25,
+      "n_cortes": 21,
+      "taxa_pico": 14.25,
+      "taxa_minimo": 2.0,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2016-07-22",
+          "ytm_2a": 6.4524,
+          "ytm_5a": 6.1559,
+          "ytm_10a": 5.9719,
+          "ytm_12a": 5.9278,
+          "slope_12a_2a": -0.5246,
+          "curvature": -0.1125
+        },
+        "T_inicio": {
+          "data_efetiva": "2016-10-20",
+          "ytm_2a": 6.231,
+          "ytm_5a": 5.8691,
+          "ytm_10a": 5.6646,
+          "ytm_12a": 5.625,
+          "slope_12a_2a": -0.606,
+          "curvature": -0.1574
+        },
+        "T_fim": {
+          "data_efetiva": "2020-08-06",
+          "ytm_2a": null,
+          "ytm_5a": 1.9058,
+          "ytm_10a": 3.1355,
+          "ytm_12a": 3.4168,
+          "slope_12a_2a": null,
+          "curvature": null
+        },
+        "T_pos": {
+          "data_efetiva": "2020-11-04",
+          "ytm_2a": null,
+          "ytm_5a": 2.8055,
+          "ytm_10a": 3.8342,
+          "ytm_12a": 4.0249,
+          "slope_12a_2a": null,
+          "curvature": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -0.2214,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": -0.2868,
+          "inicio_fim": -3.9633,
+          "pre_fim": -4.2501,
+          "fim_pos": 0.8997,
+          "transmissao": 0.3469
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.3073,
+          "inicio_fim": -2.5291,
+          "pre_fim": -2.8364,
+          "fim_pos": 0.6987,
+          "transmissao": 0.2315
+        },
+        "ytm_12a": {
+          "pre_inicio": -0.3028,
+          "inicio_fim": -2.2082,
+          "pre_fim": -2.511,
+          "fim_pos": 0.6081,
+          "transmissao": 0.205
+        },
+        "slope_12a_2a": {
+          "pre_inicio": -0.0814,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": -0.0449,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2023-08-03",
+      "data_fim": "2024-05-09",
+      "duracao_dias": 280,
+      "delta_selic_pp": -3.25,
+      "n_cortes": 7,
+      "taxa_pico": 13.75,
+      "taxa_minimo": 10.5,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2023-05-05",
+          "ytm_2a": 6.201,
+          "ytm_5a": 5.5873,
+          "ytm_10a": 5.9277,
+          "ytm_12a": 5.9536,
+          "slope_12a_2a": -0.2474,
+          "curvature": -0.9541
+        },
+        "T_inicio": {
+          "data_efetiva": "2023-08-03",
+          "ytm_2a": 5.899,
+          "ytm_5a": 5.0188,
+          "ytm_10a": 5.1908,
+          "ytm_12a": 5.194,
+          "slope_12a_2a": -0.705,
+          "curvature": -1.0522
+        },
+        "T_fim": {
+          "data_efetiva": "2024-05-09",
+          "ytm_2a": 6.4389,
+          "ytm_5a": 6.2774,
+          "ytm_10a": 6.2864,
+          "ytm_12a": 6.2834,
+          "slope_12a_2a": -0.1555,
+          "curvature": -0.1705
+        },
+        "T_pos": {
+          "data_efetiva": "2024-08-07",
+          "ytm_2a": 6.36,
+          "ytm_5a": 6.0302,
+          "ytm_10a": 5.9853,
+          "ytm_12a": 6.1,
+          "slope_12a_2a": -0.26,
+          "curvature": -0.2849
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -0.302,
+          "inicio_fim": 0.5399,
+          "pre_fim": 0.2379,
+          "fim_pos": -0.0789,
+          "transmissao": -0.0732
+        },
+        "ytm_5a": {
+          "pre_inicio": -0.5685,
+          "inicio_fim": 1.2586,
+          "pre_fim": 0.6901,
+          "fim_pos": -0.2472,
+          "transmissao": -0.2123
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.7369,
+          "inicio_fim": 1.0956,
+          "pre_fim": 0.3587,
+          "fim_pos": -0.3011,
+          "transmissao": -0.1104
+        },
+        "ytm_12a": {
+          "pre_inicio": -0.7596,
+          "inicio_fim": 1.0894,
+          "pre_fim": 0.3298,
+          "fim_pos": -0.1834,
+          "transmissao": -0.1015
+        },
+        "slope_12a_2a": {
+          "pre_inicio": -0.4576,
+          "inicio_fim": 0.5495,
+          "pre_fim": 0.0919,
+          "fim_pos": -0.1045,
+          "transmissao": -0.0283
+        },
+        "curvature": {
+          "pre_inicio": -0.0981,
+          "inicio_fim": 0.8817,
+          "pre_fim": 0.7836,
+          "fim_pos": -0.1144,
+          "transmissao": -0.2411
+        }
+      }
+    },
+    {
+      "data_inicio": "2026-03-19",
+      "data_fim": "2026-04-30",
+      "duracao_dias": 42,
+      "delta_selic_pp": -0.5,
+      "n_cortes": 2,
+      "taxa_pico": 15.0,
+      "taxa_minimo": 14.5,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2025-12-19",
+          "ytm_2a": 9.1435,
+          "ytm_5a": 7.7809,
+          "ytm_10a": 7.256,
+          "ytm_12a": 7.1834,
+          "slope_12a_2a": -1.9601,
+          "curvature": -0.8377
+        },
+        "T_inicio": {
+          "data_efetiva": "2026-03-19",
+          "ytm_2a": 8.6341,
+          "ytm_5a": 7.8884,
+          "ytm_10a": 7.3585,
+          "ytm_12a": 7.2439,
+          "slope_12a_2a": -1.3902,
+          "curvature": -0.2158
+        },
+        "T_fim": {
+          "data_efetiva": "2026-04-30",
+          "ytm_2a": 8.2872,
+          "ytm_5a": 7.691,
+          "ytm_10a": 7.1909,
+          "ytm_12a": 7.1062,
+          "slope_12a_2a": -1.181,
+          "curvature": -0.0961
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -0.5094,
+          "inicio_fim": -0.3469,
+          "pre_fim": -0.8563,
+          "fim_pos": null,
+          "transmissao": 1.7126
+        },
+        "ytm_5a": {
+          "pre_inicio": 0.1075,
+          "inicio_fim": -0.1974,
+          "pre_fim": -0.0899,
+          "fim_pos": null,
+          "transmissao": 0.1798
+        },
+        "ytm_10a": {
+          "pre_inicio": 0.1025,
+          "inicio_fim": -0.1676,
+          "pre_fim": -0.0651,
+          "fim_pos": null,
+          "transmissao": 0.1302
+        },
+        "ytm_12a": {
+          "pre_inicio": 0.0605,
+          "inicio_fim": -0.1377,
+          "pre_fim": -0.0772,
+          "fim_pos": null,
+          "transmissao": 0.1544
+        },
+        "slope_12a_2a": {
+          "pre_inicio": 0.5699,
+          "inicio_fim": 0.2092,
+          "pre_fim": 0.7791,
+          "fim_pos": null,
+          "transmissao": -1.5582
+        },
+        "curvature": {
+          "pre_inicio": 0.6219,
+          "inicio_fim": 0.1197,
+          "pre_fim": 0.7416,
+          "fim_pos": null,
+          "transmissao": -1.4832
+        }
+      }
+    }
+  ],
+  "estudo_estritos": [
+    {
+      "data_inicio": "1999-06-09",
+      "data_fim": "1999-09-23",
+      "duracao_dias": 106,
+      "delta_selic_pp": -4.5,
+      "n_cortes": 4,
+      "taxa_pico": 23.5,
+      "taxa_minimo": 19.0,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": null
+        },
+        "T_inicio": {
+          "data_efetiva": null
+        },
+        "T_fim": {
+          "data_efetiva": null
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_10a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2000-03-29",
+      "data_fim": "2001-01-18",
+      "duracao_dias": 295,
+      "delta_selic_pp": -3.75,
+      "n_cortes": 6,
+      "taxa_pico": 19.0,
+      "taxa_minimo": 15.25,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": null
+        },
+        "T_inicio": {
+          "data_efetiva": null
+        },
+        "T_fim": {
+          "data_efetiva": null
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_10a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2002-02-21",
+      "data_fim": "2002-07-18",
+      "duracao_dias": 147,
+      "delta_selic_pp": -1.0,
+      "n_cortes": 3,
+      "taxa_pico": 19.0,
+      "taxa_minimo": 18.0,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": null
+        },
+        "T_inicio": {
+          "data_efetiva": null
+        },
+        "T_fim": {
+          "data_efetiva": null
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_10a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2003-06-20",
+      "data_fim": "2004-04-15",
+      "duracao_dias": 300,
+      "delta_selic_pp": -10.5,
+      "n_cortes": 9,
+      "taxa_pico": 26.5,
+      "taxa_minimo": 16.0,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": null
+        },
+        "T_inicio": {
+          "data_efetiva": null
+        },
+        "T_fim": {
+          "data_efetiva": null
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_10a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": null,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2005-09-15",
+      "data_fim": "2007-09-06",
+      "duracao_dias": 721,
+      "delta_selic_pp": -8.5,
+      "n_cortes": 18,
+      "taxa_pico": 19.75,
+      "taxa_minimo": 11.25,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2005-06-17",
+          "ytm_2a": 11.1704,
+          "ytm_5a": 9.362,
+          "ytm_10a": 8.95,
+          "ytm_12a": null,
+          "slope_12a_2a": null,
+          "curvature": -1.3964
+        },
+        "T_inicio": {
+          "data_efetiva": "2005-09-15",
+          "ytm_2a": 11.6892,
+          "ytm_5a": 9.5232,
+          "ytm_10a": 8.8706,
+          "ytm_12a": 9.0793,
+          "slope_12a_2a": -2.6099,
+          "curvature": -1.5134
+        },
+        "T_fim": {
+          "data_efetiva": "2007-09-06",
+          "ytm_2a": 6.968,
+          "ytm_5a": 7.1902,
+          "ytm_10a": 6.8227,
+          "ytm_12a": 6.6724,
+          "slope_12a_2a": -0.2956,
+          "curvature": 0.5897
+        },
+        "T_pos": {
+          "data_efetiva": "2007-12-05",
+          "ytm_2a": 7.2115,
+          "ytm_5a": 7.5055,
+          "ytm_10a": 7.0709,
+          "ytm_12a": 6.8789,
+          "slope_12a_2a": -0.3326,
+          "curvature": 0.7286
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": 0.5188,
+          "inicio_fim": -4.7212,
+          "pre_fim": -4.2024,
+          "fim_pos": 0.2435,
+          "transmissao": 0.4944
+        },
+        "ytm_5a": {
+          "pre_inicio": 0.1612,
+          "inicio_fim": -2.333,
+          "pre_fim": -2.1718,
+          "fim_pos": 0.3153,
+          "transmissao": 0.2555
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.0794,
+          "inicio_fim": -2.0479,
+          "pre_fim": -2.1273,
+          "fim_pos": 0.2482,
+          "transmissao": 0.2503
+        },
+        "ytm_12a": {
+          "pre_inicio": null,
+          "inicio_fim": -2.4069,
+          "pre_fim": null,
+          "fim_pos": 0.2065,
+          "transmissao": null
+        },
+        "slope_12a_2a": {
+          "pre_inicio": null,
+          "inicio_fim": 2.3143,
+          "pre_fim": null,
+          "fim_pos": -0.037,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": -0.117,
+          "inicio_fim": 2.1031,
+          "pre_fim": 1.9861,
+          "fim_pos": 0.1389,
+          "transmissao": -0.2337
+        }
+      }
+    },
+    {
+      "data_inicio": "2009-01-22",
+      "data_fim": "2009-07-23",
+      "duracao_dias": 182,
+      "delta_selic_pp": -5.0,
+      "n_cortes": 5,
+      "taxa_pico": 13.75,
+      "taxa_minimo": 8.75,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2008-10-24",
+          "ytm_2a": 10.8991,
+          "ytm_5a": 10.9818,
+          "ytm_10a": 8.9568,
+          "ytm_12a": 8.6831,
+          "slope_12a_2a": -2.216,
+          "curvature": 2.1077
+        },
+        "T_inicio": {
+          "data_efetiva": "2009-01-22",
+          "ytm_2a": 6.9378,
+          "ytm_5a": 7.4627,
+          "ytm_10a": 7.0031,
+          "ytm_12a": 6.9422,
+          "slope_12a_2a": 0.0044,
+          "curvature": 0.9845
+        },
+        "T_fim": {
+          "data_efetiva": "2009-07-23",
+          "ytm_2a": 5.6507,
+          "ytm_5a": 6.5161,
+          "ytm_10a": 6.43,
+          "ytm_12a": 6.43,
+          "slope_12a_2a": 0.7793,
+          "curvature": 0.9515
+        },
+        "T_pos": {
+          "data_efetiva": "2009-10-21",
+          "ytm_2a": 6.1417,
+          "ytm_5a": 6.7055,
+          "ytm_10a": 6.63,
+          "ytm_12a": 6.63,
+          "slope_12a_2a": 0.4883,
+          "curvature": 0.6393
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -3.9613,
+          "inicio_fim": -1.2871,
+          "pre_fim": -5.2484,
+          "fim_pos": 0.491,
+          "transmissao": 1.0497
+        },
+        "ytm_5a": {
+          "pre_inicio": -3.5191,
+          "inicio_fim": -0.9466,
+          "pre_fim": -4.4657,
+          "fim_pos": 0.1894,
+          "transmissao": 0.8931
+        },
+        "ytm_10a": {
+          "pre_inicio": -1.9537,
+          "inicio_fim": -0.5731,
+          "pre_fim": -2.5268,
+          "fim_pos": 0.2,
+          "transmissao": 0.5054
+        },
+        "ytm_12a": {
+          "pre_inicio": -1.7409,
+          "inicio_fim": -0.5122,
+          "pre_fim": -2.2531,
+          "fim_pos": 0.2,
+          "transmissao": 0.4506
+        },
+        "slope_12a_2a": {
+          "pre_inicio": 2.2204,
+          "inicio_fim": 0.7749,
+          "pre_fim": 2.9953,
+          "fim_pos": -0.291,
+          "transmissao": -0.5991
+        },
+        "curvature": {
+          "pre_inicio": -1.1232,
+          "inicio_fim": -0.033,
+          "pre_fim": -1.1562,
+          "fim_pos": -0.3122,
+          "transmissao": 0.2312
+        }
+      }
+    },
+    {
+      "data_inicio": "2011-09-01",
+      "data_fim": "2012-10-11",
+      "duracao_dias": 406,
+      "delta_selic_pp": -5.25,
+      "n_cortes": 10,
+      "taxa_pico": 12.5,
+      "taxa_minimo": 7.25,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2011-06-03",
+          "ytm_2a": 6.8175,
+          "ytm_5a": 6.3452,
+          "ytm_10a": 6.1047,
+          "ytm_12a": 6.003,
+          "slope_12a_2a": -0.8145,
+          "curvature": -0.2318
+        },
+        "T_inicio": {
+          "data_efetiva": "2011-09-01",
+          "ytm_2a": 5.1045,
+          "ytm_5a": 5.5105,
+          "ytm_10a": 5.6686,
+          "ytm_12a": 5.6905,
+          "slope_12a_2a": 0.586,
+          "curvature": 0.2479
+        },
+        "T_fim": {
+          "data_efetiva": "2012-10-11",
+          "ytm_2a": 1.9231,
+          "ytm_5a": 3.0952,
+          "ytm_10a": 3.7482,
+          "ytm_12a": 3.8677,
+          "slope_12a_2a": 1.9446,
+          "curvature": 0.5191
+        },
+        "T_pos": {
+          "data_efetiva": "2013-01-09",
+          "ytm_2a": null,
+          "ytm_5a": 2.7025,
+          "ytm_10a": 3.4736,
+          "ytm_12a": 3.6051,
+          "slope_12a_2a": null,
+          "curvature": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -1.713,
+          "inicio_fim": -3.1814,
+          "pre_fim": -4.8944,
+          "fim_pos": null,
+          "transmissao": 0.9323
+        },
+        "ytm_5a": {
+          "pre_inicio": -0.8347,
+          "inicio_fim": -2.4153,
+          "pre_fim": -3.25,
+          "fim_pos": -0.3927,
+          "transmissao": 0.619
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.4361,
+          "inicio_fim": -1.9204,
+          "pre_fim": -2.3565,
+          "fim_pos": -0.2746,
+          "transmissao": 0.4489
+        },
+        "ytm_12a": {
+          "pre_inicio": -0.3125,
+          "inicio_fim": -1.8228,
+          "pre_fim": -2.1353,
+          "fim_pos": -0.2626,
+          "transmissao": 0.4067
+        },
+        "slope_12a_2a": {
+          "pre_inicio": 1.4005,
+          "inicio_fim": 1.3586,
+          "pre_fim": 2.7591,
+          "fim_pos": null,
+          "transmissao": -0.5255
+        },
+        "curvature": {
+          "pre_inicio": 0.4797,
+          "inicio_fim": 0.2712,
+          "pre_fim": 0.7509,
+          "fim_pos": null,
+          "transmissao": -0.143
+        }
+      }
+    },
+    {
+      "data_inicio": "2016-10-20",
+      "data_fim": "2018-03-22",
+      "duracao_dias": 518,
+      "delta_selic_pp": -7.75,
+      "n_cortes": 12,
+      "taxa_pico": 14.25,
+      "taxa_minimo": 6.5,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2016-07-22",
+          "ytm_2a": 6.4524,
+          "ytm_5a": 6.1559,
+          "ytm_10a": 5.9719,
+          "ytm_12a": 5.9278,
+          "slope_12a_2a": -0.5246,
+          "curvature": -0.1125
+        },
+        "T_inicio": {
+          "data_efetiva": "2016-10-20",
+          "ytm_2a": 6.231,
+          "ytm_5a": 5.8691,
+          "ytm_10a": 5.6646,
+          "ytm_12a": 5.625,
+          "slope_12a_2a": -0.606,
+          "curvature": -0.1574
+        },
+        "T_fim": {
+          "data_efetiva": "2018-03-22",
+          "ytm_2a": 3.1861,
+          "ytm_5a": 4.3286,
+          "ytm_10a": 4.8588,
+          "ytm_12a": 4.9621,
+          "slope_12a_2a": 1.776,
+          "curvature": 0.6123
+        },
+        "T_pos": {
+          "data_efetiva": "2018-06-20",
+          "ytm_2a": 3.9454,
+          "ytm_5a": 5.2504,
+          "ytm_10a": 5.6374,
+          "ytm_12a": 5.6921,
+          "slope_12a_2a": 1.7467,
+          "curvature": 0.918
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -0.2214,
+          "inicio_fim": -3.0449,
+          "pre_fim": -3.2663,
+          "fim_pos": 0.7593,
+          "transmissao": 0.4215
+        },
+        "ytm_5a": {
+          "pre_inicio": -0.2868,
+          "inicio_fim": -1.5405,
+          "pre_fim": -1.8273,
+          "fim_pos": 0.9218,
+          "transmissao": 0.2358
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.3073,
+          "inicio_fim": -0.8058,
+          "pre_fim": -1.1131,
+          "fim_pos": 0.7786,
+          "transmissao": 0.1436
+        },
+        "ytm_12a": {
+          "pre_inicio": -0.3028,
+          "inicio_fim": -0.6629,
+          "pre_fim": -0.9657,
+          "fim_pos": 0.73,
+          "transmissao": 0.1246
+        },
+        "slope_12a_2a": {
+          "pre_inicio": -0.0814,
+          "inicio_fim": 2.382,
+          "pre_fim": 2.3006,
+          "fim_pos": -0.0293,
+          "transmissao": -0.2969
+        },
+        "curvature": {
+          "pre_inicio": -0.0449,
+          "inicio_fim": 0.7697,
+          "pre_fim": 0.7248,
+          "fim_pos": 0.3057,
+          "transmissao": -0.0935
+        }
+      }
+    },
+    {
+      "data_inicio": "2019-08-01",
+      "data_fim": "2020-08-06",
+      "duracao_dias": 371,
+      "delta_selic_pp": -4.5,
+      "n_cortes": 9,
+      "taxa_pico": 6.5,
+      "taxa_minimo": 2.0,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2019-05-03",
+          "ytm_2a": 3.0133,
+          "ytm_5a": 4.0631,
+          "ytm_10a": 4.2946,
+          "ytm_12a": 4.3634,
+          "slope_12a_2a": 1.3501,
+          "curvature": 0.8183
+        },
+        "T_inicio": {
+          "data_efetiva": "2019-08-01",
+          "ytm_2a": 2.1918,
+          "ytm_5a": 2.8889,
+          "ytm_10a": 3.3772,
+          "ytm_12a": 3.4949,
+          "slope_12a_2a": 1.3031,
+          "curvature": 0.2088
+        },
+        "T_fim": {
+          "data_efetiva": "2020-08-06",
+          "ytm_2a": null,
+          "ytm_5a": 1.9058,
+          "ytm_10a": 3.1355,
+          "ytm_12a": 3.4168,
+          "slope_12a_2a": null,
+          "curvature": null
+        },
+        "T_pos": {
+          "data_efetiva": "2020-11-04",
+          "ytm_2a": null,
+          "ytm_5a": 2.8055,
+          "ytm_10a": 3.8342,
+          "ytm_12a": 4.0249,
+          "slope_12a_2a": null,
+          "curvature": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -0.8215,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "ytm_5a": {
+          "pre_inicio": -1.1742,
+          "inicio_fim": -0.9831,
+          "pre_fim": -2.1573,
+          "fim_pos": 0.8997,
+          "transmissao": 0.4794
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.9174,
+          "inicio_fim": -0.2417,
+          "pre_fim": -1.1591,
+          "fim_pos": 0.6987,
+          "transmissao": 0.2576
+        },
+        "ytm_12a": {
+          "pre_inicio": -0.8685,
+          "inicio_fim": -0.0781,
+          "pre_fim": -0.9466,
+          "fim_pos": 0.6081,
+          "transmissao": 0.2104
+        },
+        "slope_12a_2a": {
+          "pre_inicio": -0.047,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        },
+        "curvature": {
+          "pre_inicio": -0.6095,
+          "inicio_fim": null,
+          "pre_fim": null,
+          "fim_pos": null,
+          "transmissao": null
+        }
+      }
+    },
+    {
+      "data_inicio": "2023-08-03",
+      "data_fim": "2024-05-09",
+      "duracao_dias": 280,
+      "delta_selic_pp": -3.25,
+      "n_cortes": 7,
+      "taxa_pico": 13.75,
+      "taxa_minimo": 10.5,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2023-05-05",
+          "ytm_2a": 6.201,
+          "ytm_5a": 5.5873,
+          "ytm_10a": 5.9277,
+          "ytm_12a": 5.9536,
+          "slope_12a_2a": -0.2474,
+          "curvature": -0.9541
+        },
+        "T_inicio": {
+          "data_efetiva": "2023-08-03",
+          "ytm_2a": 5.899,
+          "ytm_5a": 5.0188,
+          "ytm_10a": 5.1908,
+          "ytm_12a": 5.194,
+          "slope_12a_2a": -0.705,
+          "curvature": -1.0522
+        },
+        "T_fim": {
+          "data_efetiva": "2024-05-09",
+          "ytm_2a": 6.4389,
+          "ytm_5a": 6.2774,
+          "ytm_10a": 6.2864,
+          "ytm_12a": 6.2834,
+          "slope_12a_2a": -0.1555,
+          "curvature": -0.1705
+        },
+        "T_pos": {
+          "data_efetiva": "2024-08-07",
+          "ytm_2a": 6.36,
+          "ytm_5a": 6.0302,
+          "ytm_10a": 5.9853,
+          "ytm_12a": 6.1,
+          "slope_12a_2a": -0.26,
+          "curvature": -0.2849
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -0.302,
+          "inicio_fim": 0.5399,
+          "pre_fim": 0.2379,
+          "fim_pos": -0.0789,
+          "transmissao": -0.0732
+        },
+        "ytm_5a": {
+          "pre_inicio": -0.5685,
+          "inicio_fim": 1.2586,
+          "pre_fim": 0.6901,
+          "fim_pos": -0.2472,
+          "transmissao": -0.2123
+        },
+        "ytm_10a": {
+          "pre_inicio": -0.7369,
+          "inicio_fim": 1.0956,
+          "pre_fim": 0.3587,
+          "fim_pos": -0.3011,
+          "transmissao": -0.1104
+        },
+        "ytm_12a": {
+          "pre_inicio": -0.7596,
+          "inicio_fim": 1.0894,
+          "pre_fim": 0.3298,
+          "fim_pos": -0.1834,
+          "transmissao": -0.1015
+        },
+        "slope_12a_2a": {
+          "pre_inicio": -0.4576,
+          "inicio_fim": 0.5495,
+          "pre_fim": 0.0919,
+          "fim_pos": -0.1045,
+          "transmissao": -0.0283
+        },
+        "curvature": {
+          "pre_inicio": -0.0981,
+          "inicio_fim": 0.8817,
+          "pre_fim": 0.7836,
+          "fim_pos": -0.1144,
+          "transmissao": -0.2411
+        }
+      }
+    },
+    {
+      "data_inicio": "2026-03-19",
+      "data_fim": "2026-04-30",
+      "duracao_dias": 42,
+      "delta_selic_pp": -0.5,
+      "n_cortes": 2,
+      "taxa_pico": 15.0,
+      "taxa_minimo": 14.5,
+      "snapshots_curva": {
+        "T_pre": {
+          "data_efetiva": "2025-12-19",
+          "ytm_2a": 9.1435,
+          "ytm_5a": 7.7809,
+          "ytm_10a": 7.256,
+          "ytm_12a": 7.1834,
+          "slope_12a_2a": -1.9601,
+          "curvature": -0.8377
+        },
+        "T_inicio": {
+          "data_efetiva": "2026-03-19",
+          "ytm_2a": 8.6341,
+          "ytm_5a": 7.8884,
+          "ytm_10a": 7.3585,
+          "ytm_12a": 7.2439,
+          "slope_12a_2a": -1.3902,
+          "curvature": -0.2158
+        },
+        "T_fim": {
+          "data_efetiva": "2026-04-30",
+          "ytm_2a": 8.2872,
+          "ytm_5a": 7.691,
+          "ytm_10a": 7.1909,
+          "ytm_12a": 7.1062,
+          "slope_12a_2a": -1.181,
+          "curvature": -0.0961
+        },
+        "T_pos": {
+          "data_efetiva": null
+        }
+      },
+      "deltas": {
+        "ytm_2a": {
+          "pre_inicio": -0.5094,
+          "inicio_fim": -0.3469,
+          "pre_fim": -0.8563,
+          "fim_pos": null,
+          "transmissao": 1.7126
+        },
+        "ytm_5a": {
+          "pre_inicio": 0.1075,
+          "inicio_fim": -0.1974,
+          "pre_fim": -0.0899,
+          "fim_pos": null,
+          "transmissao": 0.1798
+        },
+        "ytm_10a": {
+          "pre_inicio": 0.1025,
+          "inicio_fim": -0.1676,
+          "pre_fim": -0.0651,
+          "fim_pos": null,
+          "transmissao": 0.1302
+        },
+        "ytm_12a": {
+          "pre_inicio": 0.0605,
+          "inicio_fim": -0.1377,
+          "pre_fim": -0.0772,
+          "fim_pos": null,
+          "transmissao": 0.1544
+        },
+        "slope_12a_2a": {
+          "pre_inicio": 0.5699,
+          "inicio_fim": 0.2092,
+          "pre_fim": 0.7791,
+          "fim_pos": null,
+          "transmissao": -1.5582
+        },
+        "curvature": {
+          "pre_inicio": 0.6219,
+          "inicio_fim": 0.1197,
+          "pre_fim": 0.7416,
+          "fim_pos": null,
+          "transmissao": -1.4832
+        }
+      }
+    }
+  ]
+}

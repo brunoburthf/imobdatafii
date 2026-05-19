@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COPOM × Curva NTN-B — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    .cc-secao { margin: 24px 0; }
+    .cc-secao h2 {
+      font-size: 18px; font-weight: 600; margin: 0 0 12px 0;
+      color: #1a2332;
+    }
+    .cc-resumo-grid {
+      display: grid; gap: 12px;
+      grid-template-columns: repeat(3, 1fr);
+      margin-bottom: 16px;
+    }
+    .cc-resumo-card {
+      background: #fff; border: 1px solid #e6e8eb;
+      border-radius: 8px; padding: 16px;
+    }
+    .cc-resumo-card h3 {
+      font-size: 14px; font-weight: 600; margin: 0 0 8px 0;
+      color: #4a5568;
+    }
+    .cc-resumo-card p {
+      margin: 0; font-size: 13px; color: #2d3748; line-height: 1.5;
+    }
+    .cc-toggle {
+      display: flex; gap: 8px; margin-bottom: 12px;
+    }
+    .cc-toggle button {
+      padding: 6px 14px; border: 1px solid #d0d4d9;
+      background: #fff; border-radius: 6px; cursor: pointer;
+      font-size: 13px; color: #4a5568;
+    }
+    .cc-toggle button.ativo {
+      background: #2b6cb0; color: #fff; border-color: #2b6cb0;
+    }
+    .cc-tabela {
+      width: 100%; border-collapse: collapse;
+      background: #fff; border: 1px solid #e6e8eb; border-radius: 8px;
+      overflow: hidden; font-size: 13px;
+    }
+    .cc-tabela th {
+      background: #f5f7fa; padding: 10px 12px; text-align: right;
+      font-weight: 600; color: #4a5568; font-size: 12px;
+      border-bottom: 1px solid #e6e8eb;
+    }
+    .cc-tabela th:first-child, .cc-tabela th:nth-child(2) {
+      text-align: left;
+    }
+    .cc-tabela td {
+      padding: 8px 12px; text-align: right;
+      border-bottom: 1px solid #f0f2f5;
+      font-variant-numeric: tabular-nums;
+    }
+    .cc-tabela td:first-child, .cc-tabela td:nth-child(2) {
+      text-align: left; color: #2d3748;
+    }
+    .cc-tabela tr:hover td { background: #f9fafc; }
+    .cc-positivo { color: #c53030; }
+    .cc-negativo { color: #2f855a; }
+    .cc-neutro   { color: #718096; }
+    .cc-nulo     { color: #cbd5e0; }
+    .cc-medias-row td { font-weight: 600; background: #fafbfc; }
+    .cc-grafico-card {
+      background: #fff; border: 1px solid #e6e8eb;
+      border-radius: 8px; padding: 16px; margin-top: 12px;
+    }
+    .cc-grafico-wrapper { position: relative; height: 380px; }
+    .cc-nota { font-size: 12px; color: #718096; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link ativo">Interno</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <h1 class="menu-hero-titulo" style="margin-bottom:8px">Ciclos COPOM × Curva NTN-B</h1>
+      <p style="color:#718096; font-size:14px; margin-top:0; margin-bottom:24px">
+        Como a curva de juros reais reage aos ciclos de corte da Selic. Para cada ciclo, calcula
+        deltas em janelas de T<sub>−90d</sub>, T<sub>início</sub>, T<sub>fim</sub>, T<sub>+90d</sub>
+        nas durations 2a / 5a / 10a / 12a (Macaulay).
+      </p>
+
+      <!-- ─── Resumo executivo ─────────────────────────────────────── -->
+      <div class="cc-secao">
+        <h2>Padrões observados (médias de todos os ciclos)</h2>
+        <div class="cc-resumo-grid">
+          <div class="cc-resumo-card">
+            <h3>Transmissão decrescente com prazo</h3>
+            <p>Quanto mais longa a NTN-B, menos a curva real reage à Selic. A ponta curta (2a) responde a ~<b id="cc-resumo-trans-2a">—</b>pp por 1pp de corte na Selic, enquanto a 12a responde apenas ~<b id="cc-resumo-trans-12a">—</b>pp.</p>
+          </div>
+          <div class="cc-resumo-card">
+            <h3>Curva eleva (steeping)</h3>
+            <p>Em ciclos de corte, o slope 12a−2a tipicamente <b>aumenta</b> (curva fica mais íngreme). Média: <b id="cc-resumo-slope">—</b>pp por ciclo.</p>
+          </div>
+          <div class="cc-resumo-card">
+            <h3>Curvatura aumenta</h3>
+            <p>A "barriga" (2×5a − 2a − 10a) cresce em média <b id="cc-resumo-curv">—</b>pp por ciclo — o miolo da curva fica relativamente alto em relação às pontas.</p>
+          </div>
+        </div>
+
+        <!-- Bar chart: transmissao por prazo -->
+        <div class="cc-grafico-card">
+          <h2 style="margin-top:0">Transmissão média por prazo</h2>
+          <div class="cc-grafico-wrapper" style="height:240px">
+            <canvas id="cc-grafico-transmissao"></canvas>
+          </div>
+          <p class="cc-nota">
+            Transmissão = Δ YTM (T<sub>fim</sub> − T<sub>−90d</sub>) ÷ Δ Selic do ciclo.
+            Valores absolutos &lt; 1 significam que a NTN-B amorteceu o movimento da Selic.
+          </p>
+        </div>
+      </div>
+
+      <!-- ─── Tabela de ciclos ──────────────────────────────────────── -->
+      <div class="cc-secao">
+        <h2>Ciclos identificados</h2>
+        <div class="cc-toggle">
+          <button id="cc-btn-pt" class="ativo" onclick="selecionarDefinicao('pt')">Peak-to-trough</button>
+          <button id="cc-btn-es" onclick="selecionarDefinicao('es')">Sequência estrita</button>
+          <span style="margin-left:12px; font-size:12px; color:#718096; align-self:center"
+                id="cc-toggle-info">
+            9 ciclos. Cada linha mostra Δ YTM (T<sub>fim</sub> − T<sub>−90d</sub>) por maturidade.
+          </span>
+        </div>
+
+        <table class="cc-tabela">
+          <thead>
+            <tr>
+              <th>Início</th>
+              <th>Fim</th>
+              <th>Cortes</th>
+              <th>ΔSelic</th>
+              <th>Δ2a</th>
+              <th>Δ5a</th>
+              <th>Δ10a</th>
+              <th>Δ12a</th>
+              <th>Δ slope</th>
+              <th>Transm. 10a</th>
+            </tr>
+          </thead>
+          <tbody id="cc-tabela-body"></tbody>
+          <tfoot>
+            <tr class="cc-medias-row" id="cc-medias-row">
+              <td colspan="3">Média (ciclos com dado NTN-B)</td>
+            </tr>
+          </tfoot>
+        </table>
+        <p class="cc-nota">
+          Cores: <span class="cc-negativo">verde</span> = queda na taxa real (curva caiu);
+          <span class="cc-positivo">vermelho</span> = alta;
+          <span class="cc-nulo">cinza</span> = sem cobertura NTN-B na época (pré-2005).
+        </p>
+      </div>
+
+      <!-- ─── Timeline ──────────────────────────────────────────────── -->
+      <div class="cc-secao">
+        <h2>Timeline: Selic Meta + curva real (5a e 10a)</h2>
+        <div class="cc-grafico-card">
+          <div class="cc-grafico-wrapper">
+            <canvas id="cc-grafico-timeline"></canvas>
+          </div>
+          <p class="cc-nota">
+            Áreas sombreadas em verde marcam os ciclos de corte peak-to-trough.
+            Observe como nos ciclos a curva real geralmente acompanha a Selic em direção,
+            mas com amplitude menor (transmissão &lt; 1).
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/copom_curva.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/local.js"></script>
+  <script>guardValuation();</script>
+</body>
+</html>
