@@ -1522,16 +1522,6 @@
     "tipo": "FII",
     "data": "14/05/2026",
     "categoria": "aquisicao",
-<<<<<<< Updated upstream
-    "titulo_curto": "Venda de imóvel em Marechal Cândido Rondon PR",
-    "resumo": "HGRU11 vendeu imóvel de 874 m² em Marechal Cândido Rondon (PR) por R$ 5 mi, gerando lucro de R$ 1,51 mi (R$ 0,07/cota). Preço 43,3% acima do custo e 31,6% acima do laudo 2026. TIR de 16,6% a.a.",
-    "valor_envolvido": "R$ 5 mi",
-    "criticidade": "media",
-    "pontos_chave": [
-      "Venda por R$ 5 mi, custo histórico de R$ 3,49 mi; lucro de R$ 1,51 mi (R$ 0,07/cota)",
-      "TIR anualizada de 16,6% a.a.; preço 43,3% acima do investido e 31,6% acima do laudo 2026",
-      "Perda de receita mensal de R$ 27.194,38 (~R$ 0,001/cota) a partir de 14/05/2026"
-=======
     "titulo_curto": "Venda de imóvel em Marechal Cândido Rondon",
     "resumo": "HGRU11 vendeu imóvel de 874 m² em Marechal Cândido Rondon/PR por R$ 5,0 mi, ante custo total de R$ 3,49 mi. Lucro de caixa de R$ 1,51 mi (R$ 0,07/cota), preço 43,3% acima do investido e TIR de 16,6% a.a.",
     "valor_envolvido": "R$ 5,0 mi",
@@ -1540,7 +1530,6 @@
       "Preço de venda R$ 5,0 mi (R$ 5.721,87/m²), 43,3% acima do custo total de R$ 3,49 mi",
       "Lucro de caixa de R$ 1,51 mi equivalente a R$ 0,07/cota; TIR anualizada de 16,6% a.a.",
       "Fundo deixa de receber aluguel mensal de R$ 27.194,38 (R$ 0,001/cota) a partir de 14/05/2026"
->>>>>>> Stashed changes
     ],
     "fnet_id": 1192735,
     "ticker_fonte": "HGRU11",
@@ -1548,27 +1537,13 @@
     "categoria_fnet": "Fato Relevante",
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1192735",
     "modelo": "claude-sonnet-4-6",
-<<<<<<< Updated upstream
-    "gerado_em": "2026-05-15T05:52:20"
-=======
     "gerado_em": "2026-05-15T09:38:21"
->>>>>>> Stashed changes
   },
   "1192289": {
     "ticker": "IAAG11",
     "tipo": "Fiagro",
     "data": "14/05/2026",
     "categoria": "outros",
-<<<<<<< Updated upstream
-    "titulo_curto": "Resposta a ofício B3 sobre oscilação atípica",
-    "resumo": "Em resposta ao Ofício B3 120/2026-SLE, a administradora Inter DTVM declara desconhecer fato relevante que justifique oscilação atípica nas cotas do IAAG11. Em 13/05/2026, o ativo registrou queda de -3,89%, volume de R$ 765,8 mil e 2.528 negócios.",
-    "valor_envolvido": null,
-    "criticidade": "media",
-    "pontos_chave": [
-      "B3 questionou oscilação atípica em 13/05/2026: -3,89%, 2.528 negócios e volume de R$ 765,8 mil",
-      "Administradora declarou desconhecer qualquer fato relevante que justifique o movimento",
-      "Prazo de resposta ao ofício era 14/05/2026, cumprido dentro do prazo"
-=======
     "titulo_curto": "B3 questiona oscilação atípica de cotas",
     "resumo": "Em resposta ao Ofício B3 120/2026-SLE, a administradora Inter DTVM declarou desconhecer fatos que justifiquem a oscilação atípica das cotas. Em 13/05/2026, IAAG11 registrou queda de -3,89%, com volume de R$ 765 mil e 2.528 negócios.",
     "valor_envolvido": null,
@@ -1577,7 +1552,6 @@
       "B3 solicitou esclarecimentos via Ofício 120/2026-SLE sobre oscilação atípica e aumento de negócios",
       "Administradora declarou desconhecer qualquer fato relevante que justifique o movimento",
       "Em 13/05/2026, cota registrou -3,89% com volume de R$ 765.882 e 90.531 cotas negociadas"
->>>>>>> Stashed changes
     ],
     "fnet_id": 1192289,
     "ticker_fonte": "IAAG11",
@@ -1585,10 +1559,6 @@
     "categoria_fnet": "Comunicado ao Mercado",
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1192289",
     "modelo": "claude-sonnet-4-6",
-<<<<<<< Updated upstream
-    "gerado_em": "2026-05-15T05:52:32"
-=======
     "gerado_em": "2026-05-15T09:38:28"
->>>>>>> Stashed changes
   }
 }
