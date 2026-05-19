@@ -240,9 +240,9 @@ function renderScatterFiis(setor) {
       plugins: {
         legend: {
           display: true,
-          position: "right",
+          position: "bottom",
           labels: {
-            boxWidth: 8, boxHeight: 8, padding: 4,
+            boxWidth: 8, boxHeight: 8, padding: 6,
             font: { size: 10 },
             usePointStyle: true,
           },
@@ -261,8 +261,74 @@ function renderScatterFiis(setor) {
         y: { title: { display: true, text: "Retorno do período (%)" } },
       },
     },
+    plugins: [quadrantesPlugin],
   });
 }
+
+// Plugin que pinta 4 quadrantes coloridos no scatter, dividindo pela
+// MEDIANA de vol e retorno dos pontos. Tambem desenha linhas tracejadas
+// nas medianas pra evidenciar as divisorias.
+//   top-left  (vol baixa, retorno alto)  = VERDE
+//   top-right (vol alta, retorno alto)   = AMARELO
+//   bot-right (vol alta, retorno baixo)  = VERMELHO
+//   bot-left  (vol baixa, retorno baixo) = LARANJA
+const quadrantesPlugin = {
+  id: "quadrantes",
+  beforeDatasetsDraw(chart) {
+    const { ctx, chartArea, scales: { x, y } } = chart;
+    if (!chartArea) return;
+
+    // Coleta todos os pontos
+    const pts = chart.data.datasets.flatMap(ds => ds.data || []);
+    if (pts.length < 2) return;   // sem mediana significativa
+
+    const xs = pts.map(p => p.x).filter(v => Number.isFinite(v)).sort((a, b) => a - b);
+    const ys = pts.map(p => p.y).filter(v => Number.isFinite(v)).sort((a, b) => a - b);
+    if (xs.length < 2 || ys.length < 2) return;
+
+    const med = arr => {
+      const n = arr.length;
+      return n % 2 ? arr[(n - 1) / 2] : (arr[n/2 - 1] + arr[n/2]) / 2;
+    };
+    const xMed = med(xs);
+    const yMed = med(ys);
+    const xPx = x.getPixelForValue(xMed);
+    const yPx = y.getPixelForValue(yMed);
+
+    // Clipa ao chartArea pras pinturas
+    const xL = Math.max(chartArea.left, Math.min(chartArea.right, xPx));
+    const yL = Math.max(chartArea.top,  Math.min(chartArea.bottom, yPx));
+
+    ctx.save();
+
+    // VERDE  — top-left  (vol baixa, retorno alto)
+    ctx.fillStyle = "rgba(14, 159, 110, 0.12)";
+    ctx.fillRect(chartArea.left, chartArea.top, xL - chartArea.left, yL - chartArea.top);
+
+    // AMARELO — top-right (vol alta, retorno alto)
+    ctx.fillStyle = "rgba(234, 179, 8, 0.14)";
+    ctx.fillRect(xL, chartArea.top, chartArea.right - xL, yL - chartArea.top);
+
+    // VERMELHO — bottom-right (vol alta, retorno baixo)
+    ctx.fillStyle = "rgba(224, 36, 36, 0.12)";
+    ctx.fillRect(xL, yL, chartArea.right - xL, chartArea.bottom - yL);
+
+    // LARANJA — bottom-left (vol baixa, retorno baixo)
+    ctx.fillStyle = "rgba(239, 99, 0, 0.12)";
+    ctx.fillRect(chartArea.left, yL, xL - chartArea.left, chartArea.bottom - yL);
+
+    // Linhas tracejadas nas medianas
+    ctx.strokeStyle = "rgba(0,9,60,0.30)";
+    ctx.setLineDash([4, 4]);
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    ctx.moveTo(xL, chartArea.top);    ctx.lineTo(xL, chartArea.bottom);
+    ctx.moveTo(chartArea.left, yL);   ctx.lineTo(chartArea.right, yL);
+    ctx.stroke();
+
+    ctx.restore();
+  },
+};
 
 // Cores vivas e contrastantes pra N pontos. Estrategia:
 //   1) Hue distribuido com golden angle (137.508°) pra maximizar separacao
