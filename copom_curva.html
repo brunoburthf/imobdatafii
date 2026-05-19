@@ -84,9 +84,9 @@
     }
     .cc-tabela tfoot td:first-child { text-align: left; }
 
-    /* Cores semanticas de delta */
-    .cc-positivo { color: var(--vermelho); }
-    .cc-negativo { color: var(--verde); }
+    /* Cores semanticas de delta — convencao bolsa (positivo=verde, negativo=vermelho) */
+    .cc-positivo { color: var(--verde); }
+    .cc-negativo { color: var(--vermelho); }
     .cc-neutro   { color: var(--texto-suave); }
     .cc-nulo     { color: #cbd5e0; font-style: italic; }
     .cc-arrow    { font-size: 10px; margin-left: 2px; }
@@ -341,9 +341,10 @@
           </tfoot>
         </table>
         <p class="cc-nota">
-          <span class="cc-negativo">▼ verde</span> = queda na taxa real (curva caiu);
-          <span class="cc-positivo">▲ vermelho</span> = alta;
+          <span class="cc-positivo">▲ verde</span> = valor subiu;
+          <span class="cc-negativo">▼ vermelho</span> = valor caiu;
           <span class="cc-nulo">— cinza</span> = sem cobertura NTN-B na época (pré-2005).
+          Nas linhas de Δ YTM, "queda" significa que a curva real cedeu (bom para o preço de NTN-Bs).
         </p>
       </div>
 
