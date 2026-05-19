@@ -182,6 +182,61 @@
         </p>
       </div>
 
+      <!-- ─── Setores: hist + previsao ─────────────────────────────── -->
+      <div class="cc-secao">
+        <h2>Setores em ciclos de corte: histórico + previsão</h2>
+        <p style="font-size:13px; color:#4a5568; margin-top:0; margin-bottom:16px">
+          Para cada setor, calcula a variação média dos FIIs em ciclos de corte
+          (entre T<sub>−90d</sub> e T<sub>fim+90d</sub>) em 3 métricas:
+          <b>preço ajustado</b>, <b>P/VP</b>, <b>spread DY−NTN-B 5a</b>. A previsão
+          aplica a média histórica ao estado atual de cada setor (cenário "ciclo típico").
+        </p>
+
+        <h3 style="font-size:14px; margin-bottom:8px; color:#2d3748">Histórico médio em ciclos de corte</h3>
+        <table class="cc-tabela" style="margin-bottom:24px">
+          <thead>
+            <tr>
+              <th>Setor</th>
+              <th>FIIs atuais</th>
+              <th>Ciclos amostrados</th>
+              <th>Δ preço (%)</th>
+              <th>Δ P/VP (%)</th>
+              <th>Δ spread (pp)</th>
+            </tr>
+          </thead>
+          <tbody id="cc-setores-hist-body"></tbody>
+        </table>
+
+        <h3 style="font-size:14px; margin-bottom:8px; color:#2d3748">Previsão (aplica média histórica ao estado atual)</h3>
+        <table class="cc-tabela">
+          <thead>
+            <tr>
+              <th rowspan="2">Setor</th>
+              <th colspan="2">Preço médio</th>
+              <th colspan="2">P/VP médio</th>
+              <th colspan="2">Spread médio (pp)</th>
+            </tr>
+            <tr>
+              <th>atual</th>
+              <th>projetado</th>
+              <th>atual</th>
+              <th>projetado</th>
+              <th>atual</th>
+              <th>projetado</th>
+            </tr>
+          </thead>
+          <tbody id="cc-setores-prev-body"></tbody>
+        </table>
+        <p class="cc-nota">
+          Observação dos dados: spread <b>fechou</b> (variação negativa) em
+          todos os setores durante ciclos de corte. O efeito de queda da NTN-B
+          foi <b>reforçado</b> pelo fechamento de spread — não offsetado.
+          Setor mais sensível: Crédito Imobiliário (Δ spread −2,29pp).
+          Cobertura histórica curta: maioria dos FIIs tem dado só desde 2020-2021,
+          então ciclos pré-2020 contam apenas com FIIs antigos (amostra reduzida).
+        </p>
+      </div>
+
       <!-- ─── Timeline ──────────────────────────────────────────────── -->
       <div class="cc-secao">
         <h2>Timeline: Selic Meta + curva real (5a e 10a)</h2>

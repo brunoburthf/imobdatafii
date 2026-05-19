@@ -1,0 +1,625 @@
+{
+  "atualizado_em": "2026-05-19T13:36:27",
+  "metodo": "Para cada (ciclo peak-to-trough, setor), calcula variacao media dos FIIs do setor entre T_pre = inicio - 90d e T_pos = fim + 90d, em 3 metricas: preco (% adj), P/VP (%), spread = DY - NTN-B 5a (pp). Agrega entre ciclos com media simples. Previsao = estado atual aplicado o delta medio (cenario ciclo-tipico).",
+  "janelas": {
+    "T_pre_offset_dias": -90,
+    "T_pos_offset_dias": 90
+  },
+  "ntnb_5a_atual_pct": 7.8638,
+  "fontes": [
+    "data/index.json",
+    "data/fiis/{ticker}.json",
+    "data/selic/ciclos.json",
+    "data/ntnb/curva_diaria.json"
+  ],
+  "ciclos_analisados": [
+    {
+      "ciclo_id": "1999-06-09_2001-01-18",
+      "data_inicio": "1999-06-09",
+      "data_fim": "2001-01-18",
+      "delta_selic_pp": -8.25,
+      "T_pre": "1999-03-11",
+      "T_pos": "2001-04-18",
+      "ntnb_5a_pre": null,
+      "ntnb_5a_pos": null,
+      "fiis_por_setor": {}
+    },
+    {
+      "ciclo_id": "2002-02-21_2002-07-18",
+      "data_inicio": "2002-02-21",
+      "data_fim": "2002-07-18",
+      "delta_selic_pp": -1.0,
+      "T_pre": "2001-11-23",
+      "T_pos": "2002-10-16",
+      "ntnb_5a_pre": null,
+      "ntnb_5a_pos": null,
+      "fiis_por_setor": {}
+    },
+    {
+      "ciclo_id": "2003-06-20_2004-04-15",
+      "data_inicio": "2003-06-20",
+      "data_fim": "2004-04-15",
+      "delta_selic_pp": -10.5,
+      "T_pre": "2003-03-22",
+      "T_pos": "2004-07-14",
+      "ntnb_5a_pre": null,
+      "ntnb_5a_pos": null,
+      "fiis_por_setor": {}
+    },
+    {
+      "ciclo_id": "2005-09-15_2007-09-06",
+      "data_inicio": "2005-09-15",
+      "data_fim": "2007-09-06",
+      "delta_selic_pp": -8.5,
+      "T_pre": "2005-06-17",
+      "T_pos": "2007-12-05",
+      "ntnb_5a_pre": 9.362,
+      "ntnb_5a_pos": 7.5055,
+      "fiis_por_setor": {}
+    },
+    {
+      "ciclo_id": "2009-01-22_2009-07-23",
+      "data_inicio": "2009-01-22",
+      "data_fim": "2009-07-23",
+      "delta_selic_pp": -5.0,
+      "T_pre": "2008-10-24",
+      "T_pos": "2009-10-21",
+      "ntnb_5a_pre": 10.9818,
+      "ntnb_5a_pos": 6.7055,
+      "fiis_por_setor": {}
+    },
+    {
+      "ciclo_id": "2011-09-01_2012-10-11",
+      "data_inicio": "2011-09-01",
+      "data_fim": "2012-10-11",
+      "delta_selic_pp": -5.25,
+      "T_pre": "2011-06-03",
+      "T_pos": "2013-01-09",
+      "ntnb_5a_pre": 6.3452,
+      "ntnb_5a_pos": 2.7025,
+      "fiis_por_setor": {
+        "Crédito Imobiliário": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 5.9292,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": null
+        },
+        "Shoppings": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 62.064,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": 2.4528
+        },
+        "Logística": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 24.8077,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": null
+        },
+        "Tijolo Multissetorial": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 47.0736,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": null
+        },
+        "Escritórios": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 31.3653,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": null
+        }
+      }
+    },
+    {
+      "ciclo_id": "2016-10-20_2020-08-06",
+      "data_inicio": "2016-10-20",
+      "data_fim": "2020-08-06",
+      "delta_selic_pp": -12.25,
+      "T_pre": "2016-07-22",
+      "T_pos": "2020-11-04",
+      "ntnb_5a_pre": 6.1559,
+      "ntnb_5a_pos": 2.8055,
+      "fiis_por_setor": {
+        "Crédito Imobiliário": {
+          "n_fiis_com_dado": 6,
+          "delta_preco_pct": 46.6761,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -0.7978
+        },
+        "Shoppings": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 44.1994,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -2.0225
+        },
+        "Logística": {
+          "n_fiis_com_dado": 2,
+          "delta_preco_pct": 97.2307,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": 0.4462
+        },
+        "Tijolo Multissetorial": {
+          "n_fiis_com_dado": 2,
+          "delta_preco_pct": 59.6239,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": 2.0667
+        },
+        "FOFs/Hedge Funds": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 66.7788,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -0.591
+        },
+        "Escritórios": {
+          "n_fiis_com_dado": 3,
+          "delta_preco_pct": 41.2754,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -1.6821
+        },
+        "Desenvolvimento": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 109.1287,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -0.1461
+        }
+      }
+    },
+    {
+      "ciclo_id": "2023-08-03_2024-05-09",
+      "data_inicio": "2023-08-03",
+      "data_fim": "2024-05-09",
+      "delta_selic_pp": -3.25,
+      "T_pre": "2023-05-05",
+      "T_pos": "2024-08-07",
+      "ntnb_5a_pre": 5.5873,
+      "ntnb_5a_pos": 6.0302,
+      "fiis_por_setor": {
+        "Crédito Imobiliário": {
+          "n_fiis_com_dado": 34,
+          "delta_preco_pct": 17.5262,
+          "delta_pvp_pct": 2.2075,
+          "delta_spread_pp": -3.7836
+        },
+        "Shoppings": {
+          "n_fiis_com_dado": 6,
+          "delta_preco_pct": 27.9012,
+          "delta_pvp_pct": 5.0706,
+          "delta_spread_pp": -0.6048
+        },
+        "Logística": {
+          "n_fiis_com_dado": 12,
+          "delta_preco_pct": 9.8751,
+          "delta_pvp_pct": -1.9339,
+          "delta_spread_pp": -0.8254
+        },
+        "Tijolo Multissetorial": {
+          "n_fiis_com_dado": 10,
+          "delta_preco_pct": 26.8923,
+          "delta_pvp_pct": 10.0903,
+          "delta_spread_pp": -1.3497
+        },
+        "FOFs/Hedge Funds": {
+          "n_fiis_com_dado": 19,
+          "delta_preco_pct": 19.7037,
+          "delta_pvp_pct": 5.7579,
+          "delta_spread_pp": -1.8722
+        },
+        "Escritórios": {
+          "n_fiis_com_dado": 13,
+          "delta_preco_pct": 7.3568,
+          "delta_pvp_pct": -3.6359,
+          "delta_spread_pp": 0.5093
+        },
+        "Terras agrícolas": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 27.6161,
+          "delta_pvp_pct": 6.7808,
+          "delta_spread_pp": -0.8783
+        },
+        "Agro": {
+          "n_fiis_com_dado": 2,
+          "delta_preco_pct": -16.5066,
+          "delta_pvp_pct": -27.6789,
+          "delta_spread_pp": -1.5494
+        },
+        "Desenvolvimento": {
+          "n_fiis_com_dado": 1,
+          "delta_preco_pct": 34.487,
+          "delta_pvp_pct": 6.4601,
+          "delta_spread_pp": -1.1972
+        }
+      }
+    },
+    {
+      "ciclo_id": "2026-03-19_2026-04-30",
+      "data_inicio": "2026-03-19",
+      "data_fim": "2026-04-30",
+      "delta_selic_pp": -0.5,
+      "T_pre": "2025-12-19",
+      "T_pos": "2026-07-29",
+      "ntnb_5a_pre": 7.7809,
+      "ntnb_5a_pos": null,
+      "fiis_por_setor": {}
+    }
+  ],
+  "setores": {
+    "Crédito Imobiliário": {
+      "n_fiis_atuais": 39,
+      "estado_atual": {
+        "n_fiis": 39,
+        "n_com_preco": 39,
+        "preco_medio": 60.0387,
+        "pvp_medio": 0.8525,
+        "dy_medio_aa_pct": 15.115,
+        "spread_medio_pp": 7.2512
+      },
+      "n_ciclos_amostra": {
+        "preco": 3,
+        "pvp": 1,
+        "spread": 2
+      },
+      "delta_medio_historico": {
+        "preco_pct": 23.3772,
+        "pvp_pct": 2.2075,
+        "spread_pp": -2.2907
+      },
+      "previsao": {
+        "preco_medio_proj": 74.0741,
+        "pvp_medio_proj": 0.8713,
+        "spread_medio_proj_pp": 4.9605
+      },
+      "por_ciclo": {
+        "2011-09-01_2012-10-11": {
+          "delta_preco_pct": 5.9292,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": null,
+          "n_fiis": 1
+        },
+        "2016-10-20_2020-08-06": {
+          "delta_preco_pct": 46.6761,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -0.7978,
+          "n_fiis": 6
+        },
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": 17.5262,
+          "delta_pvp_pct": 2.2075,
+          "delta_spread_pp": -3.7836,
+          "n_fiis": 34
+        }
+      }
+    },
+    "Shoppings": {
+      "n_fiis_atuais": 10,
+      "estado_atual": {
+        "n_fiis": 10,
+        "n_com_preco": 10,
+        "preco_medio": 59.452,
+        "pvp_medio": 0.8381,
+        "dy_medio_aa_pct": 11.7012,
+        "spread_medio_pp": 3.8374
+      },
+      "n_ciclos_amostra": {
+        "preco": 3,
+        "pvp": 1,
+        "spread": 3
+      },
+      "delta_medio_historico": {
+        "preco_pct": 44.7215,
+        "pvp_pct": 5.0706,
+        "spread_pp": -0.0582
+      },
+      "previsao": {
+        "preco_medio_proj": 86.0398,
+        "pvp_medio_proj": 0.8806,
+        "spread_medio_proj_pp": 3.7792
+      },
+      "por_ciclo": {
+        "2011-09-01_2012-10-11": {
+          "delta_preco_pct": 62.064,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": 2.4528,
+          "n_fiis": 1
+        },
+        "2016-10-20_2020-08-06": {
+          "delta_preco_pct": 44.1994,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -2.0225,
+          "n_fiis": 1
+        },
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": 27.9012,
+          "delta_pvp_pct": 5.0706,
+          "delta_spread_pp": -0.6048,
+          "n_fiis": 6
+        }
+      }
+    },
+    "Logística": {
+      "n_fiis_atuais": 14,
+      "estado_atual": {
+        "n_fiis": 14,
+        "n_com_preco": 14,
+        "preco_medio": 75.065,
+        "pvp_medio": 0.8951,
+        "dy_medio_aa_pct": 10.4949,
+        "spread_medio_pp": 2.6311
+      },
+      "n_ciclos_amostra": {
+        "preco": 3,
+        "pvp": 1,
+        "spread": 2
+      },
+      "delta_medio_historico": {
+        "preco_pct": 43.9712,
+        "pvp_pct": -1.9339,
+        "spread_pp": -0.1896
+      },
+      "previsao": {
+        "preco_medio_proj": 108.0719,
+        "pvp_medio_proj": 0.8778,
+        "spread_medio_proj_pp": 2.4415
+      },
+      "por_ciclo": {
+        "2011-09-01_2012-10-11": {
+          "delta_preco_pct": 24.8077,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": null,
+          "n_fiis": 1
+        },
+        "2016-10-20_2020-08-06": {
+          "delta_preco_pct": 97.2307,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": 0.4462,
+          "n_fiis": 2
+        },
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": 9.8751,
+          "delta_pvp_pct": -1.9339,
+          "delta_spread_pp": -0.8254,
+          "n_fiis": 12
+        }
+      }
+    },
+    "Tijolo Multissetorial": {
+      "n_fiis_atuais": 11,
+      "estado_atual": {
+        "n_fiis": 11,
+        "n_com_preco": 11,
+        "preco_medio": 68.17,
+        "pvp_medio": 0.8834,
+        "dy_medio_aa_pct": 13.4361,
+        "spread_medio_pp": 5.5723
+      },
+      "n_ciclos_amostra": {
+        "preco": 3,
+        "pvp": 1,
+        "spread": 2
+      },
+      "delta_medio_historico": {
+        "preco_pct": 44.5299,
+        "pvp_pct": 10.0903,
+        "spread_pp": 0.3585
+      },
+      "previsao": {
+        "preco_medio_proj": 98.526,
+        "pvp_medio_proj": 0.9725,
+        "spread_medio_proj_pp": 5.9308
+      },
+      "por_ciclo": {
+        "2011-09-01_2012-10-11": {
+          "delta_preco_pct": 47.0736,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": null,
+          "n_fiis": 1
+        },
+        "2016-10-20_2020-08-06": {
+          "delta_preco_pct": 59.6239,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": 2.0667,
+          "n_fiis": 2
+        },
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": 26.8923,
+          "delta_pvp_pct": 10.0903,
+          "delta_spread_pp": -1.3497,
+          "n_fiis": 10
+        }
+      }
+    },
+    "FOFs/Hedge Funds": {
+      "n_fiis_atuais": 24,
+      "estado_atual": {
+        "n_fiis": 24,
+        "n_com_preco": 24,
+        "preco_medio": 29.5437,
+        "pvp_medio": 0.8748,
+        "dy_medio_aa_pct": 13.2986,
+        "spread_medio_pp": 5.4348
+      },
+      "n_ciclos_amostra": {
+        "preco": 2,
+        "pvp": 1,
+        "spread": 2
+      },
+      "delta_medio_historico": {
+        "preco_pct": 43.2413,
+        "pvp_pct": 5.7579,
+        "spread_pp": -1.2316
+      },
+      "previsao": {
+        "preco_medio_proj": 42.3188,
+        "pvp_medio_proj": 0.9252,
+        "spread_medio_proj_pp": 4.2032
+      },
+      "por_ciclo": {
+        "2016-10-20_2020-08-06": {
+          "delta_preco_pct": 66.7788,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -0.591,
+          "n_fiis": 1
+        },
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": 19.7037,
+          "delta_pvp_pct": 5.7579,
+          "delta_spread_pp": -1.8722,
+          "n_fiis": 19
+        }
+      }
+    },
+    "Escritórios": {
+      "n_fiis_atuais": 16,
+      "estado_atual": {
+        "n_fiis": 16,
+        "n_com_preco": 16,
+        "preco_medio": 61.7675,
+        "pvp_medio": 0.6937,
+        "dy_medio_aa_pct": 15.1124,
+        "spread_medio_pp": 7.2486
+      },
+      "n_ciclos_amostra": {
+        "preco": 3,
+        "pvp": 1,
+        "spread": 2
+      },
+      "delta_medio_historico": {
+        "preco_pct": 26.6658,
+        "pvp_pct": -3.6359,
+        "spread_pp": -0.5864
+      },
+      "previsao": {
+        "preco_medio_proj": 78.2383,
+        "pvp_medio_proj": 0.6685,
+        "spread_medio_proj_pp": 6.6622
+      },
+      "por_ciclo": {
+        "2011-09-01_2012-10-11": {
+          "delta_preco_pct": 31.3653,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": null,
+          "n_fiis": 1
+        },
+        "2016-10-20_2020-08-06": {
+          "delta_preco_pct": 41.2754,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -1.6821,
+          "n_fiis": 3
+        },
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": 7.3568,
+          "delta_pvp_pct": -3.6359,
+          "delta_spread_pp": 0.5093,
+          "n_fiis": 13
+        }
+      }
+    },
+    "Terras agrícolas": {
+      "n_fiis_atuais": 1,
+      "estado_atual": {
+        "n_fiis": 1,
+        "n_com_preco": 1,
+        "preco_medio": 88.5,
+        "pvp_medio": 1.0001,
+        "dy_medio_aa_pct": 13.6723,
+        "spread_medio_pp": 5.8085
+      },
+      "n_ciclos_amostra": {
+        "preco": 1,
+        "pvp": 1,
+        "spread": 1
+      },
+      "delta_medio_historico": {
+        "preco_pct": 27.6161,
+        "pvp_pct": 6.7808,
+        "spread_pp": -0.8783
+      },
+      "previsao": {
+        "preco_medio_proj": 112.9403,
+        "pvp_medio_proj": 1.0679,
+        "spread_medio_proj_pp": 4.9302
+      },
+      "por_ciclo": {
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": 27.6161,
+          "delta_pvp_pct": 6.7808,
+          "delta_spread_pp": -0.8783,
+          "n_fiis": 1
+        }
+      }
+    },
+    "Agro": {
+      "n_fiis_atuais": 2,
+      "estado_atual": {
+        "n_fiis": 2,
+        "n_com_preco": 2,
+        "preco_medio": 75.665,
+        "pvp_medio": 0.6666,
+        "dy_medio_aa_pct": 12.0029,
+        "spread_medio_pp": 4.1391
+      },
+      "n_ciclos_amostra": {
+        "preco": 1,
+        "pvp": 1,
+        "spread": 1
+      },
+      "delta_medio_historico": {
+        "preco_pct": -16.5066,
+        "pvp_pct": -27.6789,
+        "spread_pp": -1.5494
+      },
+      "previsao": {
+        "preco_medio_proj": 63.1753,
+        "pvp_medio_proj": 0.4821,
+        "spread_medio_proj_pp": 2.5897
+      },
+      "por_ciclo": {
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": -16.5066,
+          "delta_pvp_pct": -27.6789,
+          "delta_spread_pp": -1.5494,
+          "n_fiis": 2
+        }
+      }
+    },
+    "Desenvolvimento": {
+      "n_fiis_atuais": 1,
+      "estado_atual": {
+        "n_fiis": 1,
+        "n_com_preco": 1,
+        "preco_medio": 55.52,
+        "pvp_medio": 0.6256,
+        "dy_medio_aa_pct": 22.8386,
+        "spread_medio_pp": 14.9748
+      },
+      "n_ciclos_amostra": {
+        "preco": 2,
+        "pvp": 1,
+        "spread": 2
+      },
+      "delta_medio_historico": {
+        "preco_pct": 71.8078,
+        "pvp_pct": 6.4601,
+        "spread_pp": -0.6716
+      },
+      "previsao": {
+        "preco_medio_proj": 95.3877,
+        "pvp_medio_proj": 0.666,
+        "spread_medio_proj_pp": 14.3032
+      },
+      "por_ciclo": {
+        "2016-10-20_2020-08-06": {
+          "delta_preco_pct": 109.1287,
+          "delta_pvp_pct": null,
+          "delta_spread_pp": -0.1461,
+          "n_fiis": 1
+        },
+        "2023-08-03_2024-05-09": {
+          "delta_preco_pct": 34.487,
+          "delta_pvp_pct": 6.4601,
+          "delta_spread_pp": -1.1972,
+          "n_fiis": 1
+        }
+      }
+    }
+  }
+}

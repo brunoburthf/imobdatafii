@@ -5,24 +5,28 @@
 let _estudo = null;
 let _selic = null;
 let _curva = null;
+let _setores = null;
 let _definicaoAtiva = "pt";  // "pt" = peak-to-trough, "es" = estrito
 
 async function carregar() {
   try {
     const v = Math.floor(Date.now() / 60000);
-    const [estudo, selic, curva] = await Promise.all([
+    const [estudo, selic, curva, setores] = await Promise.all([
       fetch(`data/estudo_copom_curva.json?v=${v}`).then(r => r.ok ? r.json() : null),
       fetch(`data/selic/serie_diaria.json?v=${v}`).then(r => r.ok ? r.json() : null),
       fetch(`data/ntnb/curva_diaria.json?v=${v}`).then(r => r.ok ? r.json() : null),
+      fetch(`data/estudo_setores_copom.json?v=${v}`).then(r => r.ok ? r.json() : null),
     ]);
     if (!estudo) throw new Error("estudo_copom_curva.json não disponível.");
     _estudo = estudo;
     _selic = selic;
     _curva = curva;
+    _setores = setores;
 
     renderResumo();
     renderTransmissao();
     renderTabela();
+    if (_setores) renderSetores();
     renderTimeline();
 
     document.getElementById("loading").style.display = "none";
@@ -33,6 +37,69 @@ async function carregar() {
     el.style.display = "block";
     el.textContent = "Erro: " + e.message;
   }
+}
+
+// ── Setores: histórico + previsão ─────────────────────────────────────
+function renderSetores() {
+  const setores = Object.entries(_setores.setores)
+    .sort((a, b) => {
+      const dA = a[1].delta_medio_historico.preco_pct;
+      const dB = b[1].delta_medio_historico.preco_pct;
+      if (dA === null) return 1;
+      if (dB === null) return -1;
+      return dB - dA;
+    });
+
+  const histBody = document.getElementById("cc-setores-hist-body");
+  const prevBody = document.getElementById("cc-setores-prev-body");
+  histBody.innerHTML = "";
+  prevBody.innerHTML = "";
+
+  for (const [nome, info] of setores) {
+    const d = info.delta_medio_historico;
+    const e = info.estado_atual;
+    const p = info.previsao || {};
+    const n = info.n_ciclos_amostra.preco;
+
+    // Hist row
+    const trH = document.createElement("tr");
+    trH.innerHTML = `
+      <td>${nome}</td>
+      <td>${info.n_fiis_atuais}</td>
+      <td>${n}</td>
+      <td>${fmtDelta(d.preco_pct, 1)}</td>
+      <td>${fmtDelta(d.pvp_pct, 1)}</td>
+      <td>${fmtDelta(d.spread_pp, 2)}</td>
+    `;
+    histBody.appendChild(trH);
+
+    // Prev row
+    const trP = document.createElement("tr");
+    trP.innerHTML = `
+      <td>${nome}</td>
+      <td>${fmtNum(e.preco_medio, 2)}</td>
+      <td>${fmtComp(p.preco_medio_proj, e.preco_medio, 2)}</td>
+      <td>${fmtNum(e.pvp_medio, 2)}</td>
+      <td>${fmtComp(p.pvp_medio_proj, e.pvp_medio, 2)}</td>
+      <td>${fmtNum(e.spread_medio_pp, 2)}</td>
+      <td>${fmtComp(p.spread_medio_proj_pp, e.spread_medio_pp, 2, true)}</td>
+    `;
+    prevBody.appendChild(trP);
+  }
+}
+
+// Mostra valor projetado com seta indicando direção
+function fmtComp(proj, atual, dec, isAbsDelta) {
+  if (proj === null || proj === undefined) {
+    return `<span class="cc-nulo">—</span>`;
+  }
+  if (atual === null || atual === undefined) {
+    return proj.toFixed(dec);
+  }
+  const diff = isAbsDelta ? proj - atual : (proj/atual - 1) * 100;
+  const cls = diff > 0 ? "cc-positivo" : diff < 0 ? "cc-negativo" : "cc-neutro";
+  const arr = diff > 0 ? "↑" : diff < 0 ? "↓" : "·";
+  return `${proj.toFixed(dec)} <span class="${cls}" style="font-size:11px">${arr}</span>`;
 }
 
 // ── Resumo executivo (números nos cards de cima) ──────────────────────
@@ -275,11 +342,11 @@ function fmtNum(v, dec) {
   return v.toFixed(dec);
 }
 
-function fmtDelta(v) {
+function fmtDelta(v, dec = 2) {
   if (v === null || v === undefined) return `<span class="cc-nulo">—</span>`;
   const cls = v < 0 ? "cc-negativo" : v > 0 ? "cc-positivo" : "cc-neutro";
   const sinal = v > 0 ? "+" : "";
-  return `<span class="${cls}">${sinal}${v.toFixed(2)}</span>`;
+  return `<span class="${cls}">${sinal}${v.toFixed(dec)}</span>`;
 }
 
 document.addEventListener("DOMContentLoaded", carregar);
