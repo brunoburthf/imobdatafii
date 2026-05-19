@@ -269,13 +269,15 @@ function renderScatterFiis(setor) {
       responsive: true,
       maintainAspectRatio: false,
       // padding right = espaco pro ticker do ponto mais a direita;
-      // padding bottom compensa o Y axis title (vertical, ~40px) que tira
-      // espaco a esquerda — sem isso o plot area sai mais alto que largo
-      // mesmo com canvas quadrado.
-      layout: { padding: { right: 40, bottom: 40 } },
+      // padding bottom compensa o Y axis title (vertical) que tira espaco a
+      // esquerda — sem isso o plot area sai mais alto que largo.
+      layout: { padding: { right: 50, bottom: 40 } },
       plugins: {
         legend: { display: false },          // ticker ja aparece no ponto
         tooltip: {
+          titleFont: { size: 13, weight: "600" },
+          bodyFont:  { size: 13 },
+          padding: 10,
           callbacks: {
             label: (ctx) => {
               const p = ctx.raw;
@@ -285,8 +287,17 @@ function renderScatterFiis(setor) {
         },
       },
       scales: {
-        x: { title: { display: true, text: "Volatilidade anualizada (%)" }, beginAtZero: true },
-        y: { title: { display: true, text: "Retorno do período (%)" } },
+        x: {
+          title: { display: true, text: "Volatilidade anualizada (%)",
+                   font: { size: 14, weight: "600" }, color: "#1c2b3a" },
+          ticks: { font: { size: 13 }, color: "#6b7a8d" },
+          beginAtZero: true,
+        },
+        y: {
+          title: { display: true, text: "Retorno do período (%)",
+                   font: { size: 14, weight: "600" }, color: "#1c2b3a" },
+          ticks: { font: { size: 13 }, color: "#6b7a8d" },
+        },
       },
     },
     plugins: [quadrantesPlugin, tickerLabelsPlugin],
@@ -383,7 +394,7 @@ const tickerLabelsPlugin = {
   afterDatasetsDraw(chart) {
     const { ctx } = chart;
     ctx.save();
-    ctx.font = "600 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+    ctx.font = "600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
     ctx.fillStyle = "rgba(28, 43, 58, 0.92)";
     ctx.textBaseline = "middle";
     chart.data.datasets.forEach((ds, i) => {
@@ -439,6 +450,9 @@ function renderScatter() {
       plugins: {
         legend: { display: false },
         tooltip: {
+          titleFont: { size: 13, weight: "600" },
+          bodyFont:  { size: 13 },
+          padding: 10,
           callbacks: {
             label: (ctx) => {
               const p = ctx.raw;
@@ -449,11 +463,15 @@ function renderScatter() {
       },
       scales: {
         x: {
-          title: { display: true, text: "Volatilidade anualizada (%)" },
+          title: { display: true, text: "Volatilidade anualizada (%)",
+                   font: { size: 14, weight: "600" }, color: "#1c2b3a" },
+          ticks: { font: { size: 13 }, color: "#6b7a8d" },
           beginAtZero: true,
         },
         y: {
-          title: { display: true, text: "Retorno do período (%)" },
+          title: { display: true, text: "Retorno do período (%)",
+                   font: { size: 14, weight: "600" }, color: "#1c2b3a" },
+          ticks: { font: { size: 13 }, color: "#6b7a8d" },
         },
       },
     },
