@@ -348,6 +348,67 @@ function resetExcluidos() {
   if (_setorSelecionado) renderScatterFiis(_setorSelecionado);
 }
 
+// Copia a imagem do canvas para a area de transferencia como PNG.
+// O canvas do Chart.js e transparente — composita sobre fundo branco antes
+// de copiar pra a imagem ficar utilizavel em apresentacoes/e-mails.
+async function copiarGrafico(canvasId, btnEl) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+
+  // Cria canvas temp com fundo branco
+  const tmp = document.createElement("canvas");
+  tmp.width  = canvas.width;
+  tmp.height = canvas.height;
+  const ctx = tmp.getContext("2d");
+  ctx.fillStyle = "#ffffff";
+  ctx.fillRect(0, 0, tmp.width, tmp.height);
+  ctx.drawImage(canvas, 0, 0);
+
+  const labelOriginal = btnEl ? btnEl.innerHTML : null;
+  const marcarBtn = (cls, txt) => {
+    if (!btnEl) return;
+    btnEl.classList.remove("copiado", "erro");
+    if (cls) btnEl.classList.add(cls);
+    btnEl.innerHTML = txt;
+    clearTimeout(btnEl._timer);
+    btnEl._timer = setTimeout(() => {
+      btnEl.classList.remove("copiado", "erro");
+      if (labelOriginal) btnEl.innerHTML = labelOriginal;
+    }, 2200);
+  };
+
+  try {
+    if (!navigator.clipboard || !window.ClipboardItem) {
+      throw new Error("Clipboard API indisponível");
+    }
+    await new Promise((resolve, reject) => {
+      tmp.toBlob(async (blob) => {
+        if (!blob) return reject(new Error("toBlob falhou"));
+        try {
+          await navigator.clipboard.write([
+            new ClipboardItem({ "image/png": blob }),
+          ]);
+          resolve();
+        } catch (e) { reject(e); }
+      }, "image/png");
+    });
+    marcarBtn("copiado", "✓ Copiado");
+  } catch (e) {
+    console.warn("Falha ao copiar imagem:", e);
+    // Fallback: dispara download do PNG
+    try {
+      const url = tmp.toDataURL("image/png");
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${canvasId}-${new Date().toISOString().slice(0,10)}.png`;
+      a.click();
+      marcarBtn("copiado", "↓ Baixado");
+    } catch (e2) {
+      marcarBtn("erro", "✕ Falhou");
+    }
+  }
+}
+
 // Plugin que apenas desenha as linhas tracejadas das MEDIAS de vol e retorno
 // (divisorias dos 4 quadrantes — as cores dos pontos identificam o quadrante).
 const quadrantesPlugin = {

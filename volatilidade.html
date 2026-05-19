@@ -38,6 +38,40 @@
       border-radius: 50%; flex-shrink: 0;
     }
 
+    /* Header do card com botao de copiar a direita */
+    .vol-card-header {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; margin-bottom: 8px;
+    }
+    .vol-card-header .setor-card-titulo { margin: 0; }
+    .btn-copiar-grafico {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 5px 11px;
+      border: 1px solid var(--cinza-borda);
+      background: var(--branco);
+      color: var(--texto-suave);
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .15s;
+      flex-shrink: 0;
+    }
+    .btn-copiar-grafico svg { display: block; }
+    .btn-copiar-grafico:hover {
+      border-color: var(--azul);
+      color: var(--azul);
+    }
+    .btn-copiar-grafico.copiado {
+      border-color: var(--verde);
+      color: var(--verde);
+      background: rgba(14, 159, 110, 0.06);
+    }
+    .btn-copiar-grafico.erro {
+      border-color: var(--vermelho);
+      color: var(--vermelho);
+    }
+
     /* Tags pra incluir/excluir FIIs do calculo */
     .vol-tags-fiis-wrap {
       max-width: 720px; margin: 18px auto 0 auto;
@@ -166,7 +200,14 @@
         </div>
 
         <div class="setor-card">
-          <h2 class="setor-card-titulo">Retorno × Volatilidade</h2>
+          <div class="vol-card-header">
+            <h2 class="setor-card-titulo">Retorno × Volatilidade</h2>
+            <button type="button" class="btn-copiar-grafico"
+                    onclick="copiarGrafico('vol-scatter', this)">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              Copiar imagem
+            </button>
+          </div>
           <div style="position:relative">
             <canvas id="vol-scatter"></canvas>
           </div>
@@ -180,7 +221,14 @@
           <h2 id="vol-detalhe-titulo"></h2>
         </div>
         <div class="setor-card">
-          <h2 class="setor-card-titulo">FIIs do setor — Retorno × Volatilidade</h2>
+          <div class="vol-card-header">
+            <h2 class="setor-card-titulo">FIIs do setor — Retorno × Volatilidade</h2>
+            <button type="button" class="btn-copiar-grafico"
+                    onclick="copiarGrafico('vol-scatter-fiis', this)">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              Copiar imagem
+            </button>
+          </div>
           <div class="vol-scatter-wrapper">
             <canvas id="vol-scatter-fiis"></canvas>
           </div>
