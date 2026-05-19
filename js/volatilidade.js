@@ -242,8 +242,8 @@ function renderScatterFiis(setor) {
       data: [{ x: f.vol * 100, y: f.retorno * 100, ticker: f.ticker }],
       backgroundColor: cor,
       borderColor: cor,
-      pointRadius: 7,
-      pointHoverRadius: 10,
+      pointRadius: 9,
+      pointHoverRadius: 13,
     };
   });
 
@@ -268,10 +268,11 @@ function renderScatterFiis(setor) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      // padding right = espaco pro ticker do ponto mais a direita;
-      // padding bottom compensa o Y axis title (vertical) que tira espaco a
-      // esquerda — sem isso o plot area sai mais alto que largo.
-      layout: { padding: { right: 50, bottom: 40 } },
+      // devicePixelRatio fixo em 2 garante canvas em alta resolucao mesmo em
+      // telas low-DPI — png copiado fica nitido em PowerPoint
+      devicePixelRatio: 2,
+      // padding aumentado pra acomodar fontes maiores (slide-ready)
+      layout: { padding: { right: 80, bottom: 60 } },
       plugins: {
         legend: { display: false },          // ticker ja aparece no ponto
         tooltip: {
@@ -289,14 +290,16 @@ function renderScatterFiis(setor) {
       scales: {
         x: {
           title: { display: true, text: "Volatilidade anualizada (%)",
-                   font: { size: 14, weight: "600" }, color: "#1c2b3a" },
-          ticks: { font: { size: 13 }, color: "#6b7a8d" },
+                   font: { size: 22, weight: "700" }, color: "#1c2b3a",
+                   padding: { top: 12 } },
+          ticks: { font: { size: 18 }, color: "#1c2b3a", padding: 6 },
           beginAtZero: true,
         },
         y: {
           title: { display: true, text: "Retorno do período (%)",
-                   font: { size: 14, weight: "600" }, color: "#1c2b3a" },
-          ticks: { font: { size: 13 }, color: "#6b7a8d" },
+                   font: { size: 22, weight: "700" }, color: "#1c2b3a",
+                   padding: { bottom: 12 } },
+          ticks: { font: { size: 18 }, color: "#1c2b3a", padding: 6 },
         },
       },
     },
@@ -355,7 +358,9 @@ async function copiarGrafico(canvasId, btnEl) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
 
-  // Cria canvas temp com fundo branco
+  // Cria canvas temp com fundo branco. Usa a resolucao interna real do
+  // canvas (canvas.width ja inclui devicePixelRatio aplicado, que setamos
+  // em 2 nas options do Chart.js — texto sai nitido em PowerPoint).
   const tmp = document.createElement("canvas");
   tmp.width  = canvas.width;
   tmp.height = canvas.height;
@@ -455,7 +460,7 @@ const tickerLabelsPlugin = {
   afterDatasetsDraw(chart) {
     const { ctx } = chart;
     ctx.save();
-    ctx.font = "600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+    ctx.font = "600 18px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
     ctx.fillStyle = "rgba(28, 43, 58, 0.92)";
     ctx.textBaseline = "middle";
     chart.data.datasets.forEach((ds, i) => {
@@ -508,6 +513,8 @@ function renderScatter() {
     },
     options: {
       responsive: true,
+      devicePixelRatio: 2,            // PNG copiado em alta resolucao
+      layout: { padding: { right: 40, bottom: 40 } },
       plugins: {
         legend: { display: false },
         tooltip: {
@@ -525,14 +532,16 @@ function renderScatter() {
       scales: {
         x: {
           title: { display: true, text: "Volatilidade anualizada (%)",
-                   font: { size: 14, weight: "600" }, color: "#1c2b3a" },
-          ticks: { font: { size: 13 }, color: "#6b7a8d" },
+                   font: { size: 22, weight: "700" }, color: "#1c2b3a",
+                   padding: { top: 12 } },
+          ticks: { font: { size: 18 }, color: "#1c2b3a", padding: 6 },
           beginAtZero: true,
         },
         y: {
           title: { display: true, text: "Retorno do período (%)",
-                   font: { size: 14, weight: "600" }, color: "#1c2b3a" },
-          ticks: { font: { size: 13 }, color: "#6b7a8d" },
+                   font: { size: 22, weight: "700" }, color: "#1c2b3a",
+                   padding: { bottom: 12 } },
+          ticks: { font: { size: 18 }, color: "#1c2b3a", padding: 6 },
         },
       },
     },
