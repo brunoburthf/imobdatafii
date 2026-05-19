@@ -140,6 +140,76 @@
     }
     .cc-bullets li b { color: var(--texto); }
 
+    /* Controle de simulacao */
+    .cc-sim-controles {
+      background: var(--cinza-fundo);
+      border: 1px solid var(--cinza-borda);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin-bottom: 14px;
+      display: grid;
+      grid-template-columns: auto auto 1fr;
+      gap: 16px 18px;
+      align-items: center;
+    }
+    .cc-sim-label {
+      font-size: 12px; text-transform: uppercase;
+      letter-spacing: .04em; color: var(--texto-suave);
+      font-weight: 600;
+    }
+    .cc-sim-input-wrap {
+      display: inline-flex; align-items: stretch;
+      background: var(--branco);
+      border: 1px solid var(--cinza-borda);
+      border-radius: 8px; overflow: hidden;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .cc-sim-input-wrap:focus-within {
+      border-color: var(--azul);
+      box-shadow: 0 0 0 3px rgba(239,99,0,0.15);
+    }
+    .cc-sim-input {
+      width: 80px;
+      border: 0; padding: 8px 4px 8px 12px;
+      font-size: 18px; font-weight: 700; color: var(--navy);
+      font-variant-numeric: tabular-nums;
+      text-align: right; outline: none;
+      background: transparent;
+    }
+    .cc-sim-input::-webkit-outer-spin-button,
+    .cc-sim-input::-webkit-inner-spin-button {
+      -webkit-appearance: none; margin: 0;
+    }
+    .cc-sim-suffix {
+      display: flex; align-items: center;
+      padding: 0 12px 0 4px;
+      font-size: 13px; color: var(--texto-suave);
+      font-weight: 600;
+    }
+    .cc-sim-presets {
+      display: flex; gap: 6px; flex-wrap: wrap;
+    }
+    .cc-sim-presets button {
+      padding: 6px 12px;
+      border: 1px solid var(--cinza-borda);
+      background: var(--branco);
+      color: var(--texto);
+      border-radius: 6px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .cc-sim-presets button:hover {
+      border-color: var(--azul);
+      color: var(--azul);
+    }
+    .cc-sim-hint {
+      grid-column: 1 / -1;
+      font-size: 12px; color: var(--texto-suave);
+      line-height: 1.5;
+    }
+    .cc-sim-hint b { color: var(--texto); }
+
     /* Cobertura — badge inline com n_ciclos */
     .cc-badge-ciclos {
       display: inline-block;
@@ -302,22 +372,45 @@
           <tbody id="cc-setores-hist-body"></tbody>
         </table>
 
-        <h3>Previsão por setor</h3>
+        <h3>Simulação por setor</h3>
+        <div class="cc-sim-controles">
+          <label class="cc-sim-label" for="cc-sim-input">Queda esperada da Selic</label>
+          <div class="cc-sim-input-wrap">
+            <input type="number" id="cc-sim-input"
+              class="cc-sim-input"
+              min="0" max="20" step="0.25" value="6"
+              oninput="atualizarSimulacao()" />
+            <span class="cc-sim-suffix">pp</span>
+          </div>
+          <div class="cc-sim-presets">
+            <button type="button" onclick="setSim(3)">−3pp</button>
+            <button type="button" onclick="setSim(6)">−6pp (médio histórico)</button>
+            <button type="button" onclick="setSim(10)">−10pp</button>
+          </div>
+          <div class="cc-sim-hint">
+            Aplica linearmente a sensibilidade média histórica de cada setor.
+            <b>Sensibilidade</b> = (Δ médio observado) ÷ (Δ Selic médio dos ciclos amostrados).
+          </div>
+        </div>
+
         <table class="cc-tabela">
           <thead>
             <tr>
               <th class="cc-th-left" rowspan="2">Setor</th>
-              <th class="cc-th-group" colspan="2">Preço médio</th>
-              <th class="cc-th-group" colspan="2">P/VP médio</th>
-              <th class="cc-th-group" colspan="2">Spread médio (pp)</th>
+              <th class="cc-th-group" colspan="3">Preço médio</th>
+              <th class="cc-th-group" colspan="3">P/VP médio</th>
+              <th class="cc-th-group" colspan="3">Spread médio (pp)</th>
             </tr>
             <tr>
               <th>atual</th>
               <th>projetado</th>
+              <th>Δ</th>
               <th>atual</th>
               <th>projetado</th>
+              <th>Δ</th>
               <th>atual</th>
               <th>projetado</th>
+              <th>Δ</th>
             </tr>
           </thead>
           <tbody id="cc-setores-prev-body"></tbody>

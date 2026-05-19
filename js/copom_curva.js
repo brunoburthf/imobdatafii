@@ -39,29 +39,15 @@ async function carregar() {
   }
 }
 
-// ── Setores: histórico + previsão ─────────────────────────────────────
+// ── Setores: histórico (estático) ────────────────────────────────────
 function renderSetores() {
-  const setores = Object.entries(_setores.setores)
-    .sort((a, b) => {
-      const dA = a[1].delta_medio_historico.preco_pct;
-      const dB = b[1].delta_medio_historico.preco_pct;
-      if (dA === null) return 1;
-      if (dB === null) return -1;
-      return dB - dA;
-    });
-
+  const setores = setoresOrdenados();
   const histBody = document.getElementById("cc-setores-hist-body");
-  const prevBody = document.getElementById("cc-setores-prev-body");
   histBody.innerHTML = "";
-  prevBody.innerHTML = "";
 
   for (const [nome, info] of setores) {
     const d = info.delta_medio_historico;
-    const e = info.estado_atual;
-    const p = info.previsao || {};
     const n = info.n_ciclos_amostra.preco;
-
-    // Hist row
     const trH = document.createElement("tr");
     trH.innerHTML = `
       <td>${nome}</td>
@@ -72,34 +58,71 @@ function renderSetores() {
       <td>${fmtDelta(d.spread_pp, 2)}</td>
     `;
     histBody.appendChild(trH);
+  }
 
-    // Prev row
-    const trP = document.createElement("tr");
-    trP.innerHTML = `
+  // Render inicial da simulação
+  atualizarSimulacao();
+}
+
+function setoresOrdenados() {
+  return Object.entries(_setores.setores)
+    .sort((a, b) => {
+      const dA = a[1].delta_medio_historico.preco_pct;
+      const dB = b[1].delta_medio_historico.preco_pct;
+      if (dA === null) return 1;
+      if (dB === null) return -1;
+      return dB - dA;
+    });
+}
+
+// ── Simulação interativa por setor ────────────────────────────────────
+function atualizarSimulacao() {
+  if (!_setores) return;
+  const inp = document.getElementById("cc-sim-input");
+  let queda = parseFloat(inp.value);
+  if (isNaN(queda) || queda < 0) queda = 0;
+  if (queda > 20) queda = 20;
+
+  const setores = setoresOrdenados();
+  const tbody = document.getElementById("cc-setores-prev-body");
+  tbody.innerHTML = "";
+
+  for (const [nome, info] of setores) {
+    const e = info.estado_atual;
+    const s = info.sensibilidade_por_pp_queda;
+
+    // Δ projetado = sensibilidade × queda (queda em pp positivo)
+    const dPrecoPct  = (s.preco_pct  !== null) ? s.preco_pct  * queda : null;
+    const dPvpPct    = (s.pvp_pct    !== null) ? s.pvp_pct    * queda : null;
+    const dSpreadPp  = (s.spread_pp  !== null) ? s.spread_pp  * queda : null;
+
+    const precoProj  = (e.preco_medio    !== null && dPrecoPct  !== null)
+                        ? e.preco_medio    * (1 + dPrecoPct / 100) : null;
+    const pvpProj    = (e.pvp_medio      !== null && dPvpPct    !== null)
+                        ? e.pvp_medio      * (1 + dPvpPct   / 100) : null;
+    const spreadProj = (e.spread_medio_pp !== null && dSpreadPp !== null)
+                        ? e.spread_medio_pp + dSpreadPp : null;
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
       <td>${nome}</td>
-      <td>${fmtNum(e.preco_medio, 2)}</td>
-      <td>${fmtComp(p.preco_medio_proj, e.preco_medio, 2)}</td>
-      <td>${fmtNum(e.pvp_medio, 2)}</td>
-      <td>${fmtComp(p.pvp_medio_proj, e.pvp_medio, 2)}</td>
+      <td>${fmtNum(e.preco_medio,    2)}</td>
+      <td>${fmtNum(precoProj,        2)}</td>
+      <td>${fmtDelta(dPrecoPct,      1)}</td>
+      <td>${fmtNum(e.pvp_medio,      2)}</td>
+      <td>${fmtNum(pvpProj,          2)}</td>
+      <td>${fmtDelta(dPvpPct,        1)}</td>
       <td>${fmtNum(e.spread_medio_pp, 2)}</td>
-      <td>${fmtComp(p.spread_medio_proj_pp, e.spread_medio_pp, 2, true)}</td>
+      <td>${fmtNum(spreadProj,       2)}</td>
+      <td>${fmtDelta(dSpreadPp,      2)}</td>
     `;
-    prevBody.appendChild(trP);
+    tbody.appendChild(tr);
   }
 }
 
-// Mostra valor projetado com seta indicando direção
-function fmtComp(proj, atual, dec, isAbsDelta) {
-  if (proj === null || proj === undefined) {
-    return `<span class="cc-nulo">—</span>`;
-  }
-  if (atual === null || atual === undefined) {
-    return proj.toFixed(dec);
-  }
-  const diff = isAbsDelta ? proj - atual : (proj/atual - 1) * 100;
-  const cls = diff > 0 ? "cc-positivo" : diff < 0 ? "cc-negativo" : "cc-neutro";
-  const arr = diff > 0 ? "↑" : diff < 0 ? "↓" : "·";
-  return `${proj.toFixed(dec)} <span class="${cls}" style="font-size:11px">${arr}</span>`;
+function setSim(v) {
+  document.getElementById("cc-sim-input").value = v;
+  atualizarSimulacao();
 }
 
 // ── KPIs de resumo (4 cards) ──────────────────────────────────────────

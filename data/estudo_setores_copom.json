@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-19T13:36:27",
+  "atualizado_em": "2026-05-19T13:56:40",
   "metodo": "Para cada (ciclo peak-to-trough, setor), calcula variacao media dos FIIs do setor entre T_pre = inicio - 90d e T_pos = fim + 90d, em 3 metricas: preco (% adj), P/VP (%), spread = DY - NTN-B 5a (pp). Agrega entre ciclos com media simples. Previsao = estado atual aplicado o delta medio (cenario ciclo-tipico).",
   "janelas": {
     "T_pre_offset_dias": -90,
@@ -263,6 +263,16 @@
         "pvp_pct": 2.2075,
         "spread_pp": -2.2907
       },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -6.9167,
+        "pvp": -3.25,
+        "spread": -7.75
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": 3.3798,
+        "pvp_pct": 0.6792,
+        "spread_pp": -0.2956
+      },
       "previsao": {
         "preco_medio_proj": 74.0741,
         "pvp_medio_proj": 0.8713,
@@ -308,6 +318,16 @@
         "preco_pct": 44.7215,
         "pvp_pct": 5.0706,
         "spread_pp": -0.0582
+      },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -6.9167,
+        "pvp": -3.25,
+        "spread": -6.9167
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": 6.4658,
+        "pvp_pct": 1.5602,
+        "spread_pp": -0.0084
       },
       "previsao": {
         "preco_medio_proj": 86.0398,
@@ -355,6 +375,16 @@
         "pvp_pct": -1.9339,
         "spread_pp": -0.1896
       },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -6.9167,
+        "pvp": -3.25,
+        "spread": -7.75
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": 6.3573,
+        "pvp_pct": -0.595,
+        "spread_pp": -0.0245
+      },
       "previsao": {
         "preco_medio_proj": 108.0719,
         "pvp_medio_proj": 0.8778,
@@ -400,6 +430,16 @@
         "preco_pct": 44.5299,
         "pvp_pct": 10.0903,
         "spread_pp": 0.3585
+      },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -6.9167,
+        "pvp": -3.25,
+        "spread": -7.75
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": 6.4381,
+        "pvp_pct": 3.1047,
+        "spread_pp": 0.0463
       },
       "previsao": {
         "preco_medio_proj": 98.526,
@@ -447,6 +487,16 @@
         "pvp_pct": 5.7579,
         "spread_pp": -1.2316
       },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -7.75,
+        "pvp": -3.25,
+        "spread": -7.75
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": 5.5795,
+        "pvp_pct": 1.7717,
+        "spread_pp": -0.1589
+      },
       "previsao": {
         "preco_medio_proj": 42.3188,
         "pvp_medio_proj": 0.9252,
@@ -486,6 +536,16 @@
         "preco_pct": 26.6658,
         "pvp_pct": -3.6359,
         "spread_pp": -0.5864
+      },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -6.9167,
+        "pvp": -3.25,
+        "spread": -7.75
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": 3.8553,
+        "pvp_pct": -1.1187,
+        "spread_pp": -0.0757
       },
       "previsao": {
         "preco_medio_proj": 78.2383,
@@ -533,6 +593,16 @@
         "pvp_pct": 6.7808,
         "spread_pp": -0.8783
       },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -3.25,
+        "pvp": -3.25,
+        "spread": -3.25
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": 8.4973,
+        "pvp_pct": 2.0864,
+        "spread_pp": -0.2702
+      },
       "previsao": {
         "preco_medio_proj": 112.9403,
         "pvp_medio_proj": 1.0679,
@@ -567,6 +637,16 @@
         "pvp_pct": -27.6789,
         "spread_pp": -1.5494
       },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -3.25,
+        "pvp": -3.25,
+        "spread": -3.25
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": -5.079,
+        "pvp_pct": -8.5166,
+        "spread_pp": -0.4767
+      },
       "previsao": {
         "preco_medio_proj": 63.1753,
         "pvp_medio_proj": 0.4821,
@@ -600,6 +680,16 @@
         "preco_pct": 71.8078,
         "pvp_pct": 6.4601,
         "spread_pp": -0.6716
+      },
+      "delta_selic_medio_amostra_pp": {
+        "preco": -7.75,
+        "pvp": -3.25,
+        "spread": -7.75
+      },
+      "sensibilidade_por_pp_queda": {
+        "preco_pct": 9.2655,
+        "pvp_pct": 1.9877,
+        "spread_pp": -0.0867
       },
       "previsao": {
         "preco_medio_proj": 95.3877,
