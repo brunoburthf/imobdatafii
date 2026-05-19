@@ -7,6 +7,20 @@
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
+    /* Wrapper forcadamente quadrado via padding-bottom 100% (trick classico,
+       independente de aspect-ratio do browser) */
+    .vol-scatter-wrapper {
+      position: relative; width: 100%;
+      max-width: 640px; margin: 0 auto;
+    }
+    .vol-scatter-wrapper::before {
+      content: ""; display: block; padding-bottom: 100%;
+    }
+    .vol-scatter-wrapper > canvas {
+      position: absolute; top: 0; left: 0;
+      width: 100% !important; height: 100% !important;
+    }
+
     .vol-quad-legenda {
       display: flex; flex-wrap: wrap; gap: 8px 18px;
       margin-top: 12px; max-width: 640px;
@@ -22,6 +36,67 @@
     .vol-quad-dot {
       display: inline-block; width: 10px; height: 10px;
       border-radius: 50%; flex-shrink: 0;
+    }
+
+    /* Tags pra incluir/excluir FIIs do calculo */
+    .vol-tags-fiis-wrap {
+      max-width: 720px; margin: 18px auto 0 auto;
+      padding-top: 14px;
+      border-top: 1px solid var(--cinza-borda);
+    }
+    .vol-tags-fiis-titulo {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 12px; font-weight: 600;
+      color: var(--texto-suave);
+      text-transform: uppercase; letter-spacing: .04em;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .vol-tags-fiis-hint {
+      font-weight: 400; text-transform: none; letter-spacing: 0;
+      color: #94a3b8;
+    }
+    .vol-tags-reset {
+      margin-left: auto;
+      padding: 4px 10px;
+      border: 1px solid var(--cinza-borda);
+      background: var(--branco);
+      color: var(--texto);
+      border-radius: 6px;
+      font-size: 11px;
+      cursor: pointer;
+      text-transform: none; letter-spacing: 0;
+      font-weight: 500;
+      transition: all .15s;
+    }
+    .vol-tags-reset:hover {
+      border-color: var(--azul); color: var(--azul);
+    }
+    .vol-tags-fiis {
+      display: flex; flex-wrap: wrap; gap: 6px;
+    }
+    .vol-tag-fii {
+      --cor: rgb(100, 116, 139);
+      padding: 4px 10px;
+      font-size: 12px; font-weight: 600;
+      color: var(--cor);
+      background: color-mix(in srgb, var(--cor) 12%, white);
+      border: 1px solid color-mix(in srgb, var(--cor) 30%, white);
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all .12s;
+      font-variant-numeric: tabular-nums;
+    }
+    .vol-tag-fii:hover {
+      background: color-mix(in srgb, var(--cor) 18%, white);
+      transform: translateY(-1px);
+    }
+    .vol-tag-fii.excluida {
+      color: #94a3b8;
+      background: #f1f5f9;
+      border-color: #e2e8f0;
+      text-decoration: line-through;
+      text-decoration-thickness: 1px;
     }
   </style>
 </head>
@@ -106,7 +181,7 @@
         </div>
         <div class="setor-card">
           <h2 class="setor-card-titulo">FIIs do setor — Retorno × Volatilidade</h2>
-          <div style="position:relative; aspect-ratio:1/1; max-width:640px; margin:0 auto">
+          <div class="vol-scatter-wrapper">
             <canvas id="vol-scatter-fiis"></canvas>
           </div>
           <div class="vol-quad-legenda">
@@ -114,6 +189,17 @@
             <div><span class="vol-quad-dot" style="background:rgb(202,138,4)"></span> Retorno alto, vol alta</div>
             <div><span class="vol-quad-dot" style="background:rgb(100,116,139)"></span> Retorno baixo, vol baixa</div>
             <div><span class="vol-quad-dot" style="background:rgb(220,38,38)"></span> Retorno baixo, vol alta</div>
+          </div>
+
+          <div class="vol-tags-fiis-wrap">
+            <div class="vol-tags-fiis-titulo">
+              FIIs no cálculo
+              <span class="vol-tags-fiis-hint">— clique pra incluir/excluir das médias</span>
+              <button type="button" id="vol-tags-reset" class="vol-tags-reset" onclick="resetExcluidos()" style="display:none">
+                Mostrar todos
+              </button>
+            </div>
+            <div id="vol-tags-fiis" class="vol-tags-fiis"></div>
           </div>
         </div>
       </div>

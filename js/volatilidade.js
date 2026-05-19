@@ -26,6 +26,7 @@ let _ordem = { campo: "vol", direcao: "desc" };
 let _scatter = null;            // chart instance setores
 let _scatterFiis = null;        // chart instance FIIs do setor selecionado
 let _setorSelecionado = null;   // setor atualmente em foco no detalhe
+let _fiisExcluidos = new Set(); // tickers excluidos do calculo no setor atual
 
 async function carregar() {
   try {
@@ -188,6 +189,7 @@ function renderTabela() {
 }
 
 function selecionarSetor(setor) {
+  if (setor !== _setorSelecionado) _fiisExcluidos.clear();   // novo setor zera filtros
   _setorSelecionado = setor;
   // Re-render pra aplicar a classe .selecionado na linha clicada
   renderTabela();
@@ -195,28 +197,30 @@ function selecionarSetor(setor) {
 }
 
 // Scatter de TODOS os FIIs do setor selecionado: cada ponto = 1 fundo.
-// 1 dataset por FII pra que a legend do Chart.js mostre ticker + cor.
-// Cores vivas e contrastantes: rainbow HSL varrendo 360 graus + alternancia
-// de luminosidade (50% / 38%) pra dobrar a separacao visual entre vizinhos.
+// FIIs em _fiisExcluidos NAO entram nem no calculo da media nem no scatter.
 function renderScatterFiis(setor) {
   const ini = document.getElementById("vol-data-ini").value;
   const fim = document.getElementById("vol-data-fim").value;
   if (!ini || !fim) return;
 
-  const fundos = [];
+  // Lista COMPLETA do setor (pra tags); fundos "ativos" exclui os tickets
+  // que o usuario escolheu remover do calculo.
+  const fundosTodos = [];
   for (const f of _baseFundos) {
     if (f.setor !== setor) continue;
     const m = calcularFundo(f.serie, ini, fim);
     if (!m) continue;
-    fundos.push({ ticker: f.ticker, vol: m.vol, retorno: m.retorno, n: m.n_obs });
+    fundosTodos.push({ ticker: f.ticker, vol: m.vol, retorno: m.retorno, n: m.n_obs });
   }
-  fundos.sort((a, b) => a.ticker.localeCompare(b.ticker));
+  fundosTodos.sort((a, b) => a.ticker.localeCompare(b.ticker));
 
-  // Cor por quadrante. Cruzamento = MEDIA de vol e retorno dos FIIs do setor.
+  const fundos = fundosTodos.filter(f => !_fiisExcluidos.has(f.ticker));
+
+  // Cor por quadrante. Cruzamento = MEDIA de vol e retorno dos FIIs INCLUIDOS.
   const vols = fundos.map(f => f.vol);
   const rets = fundos.map(f => f.retorno);
-  const volMed = vols.reduce((s, v) => s + v, 0) / vols.length;
-  const retMed = rets.reduce((s, v) => s + v, 0) / rets.length;
+  const volMed = vols.length ? vols.reduce((s, v) => s + v, 0) / vols.length : 0;
+  const retMed = rets.length ? rets.reduce((s, v) => s + v, 0) / rets.length : 0;
 
   const COR = {
     verde:    "rgb(14, 159, 110)",   // retorno alto, vol baixa
@@ -243,8 +247,16 @@ function renderScatterFiis(setor) {
     };
   });
 
-  document.getElementById("vol-detalhe-titulo").textContent = `${setor} — ${fundos.length} FIIs`;
+  const nIncl = fundos.length;
+  const nTot  = fundosTodos.length;
+  const titulo = (nIncl === nTot)
+    ? `${setor} — ${nTot} FIIs`
+    : `${setor} — ${nIncl} de ${nTot} FIIs (${nTot - nIncl} excluído${nTot - nIncl > 1 ? "s" : ""})`;
+  document.getElementById("vol-detalhe-titulo").textContent = titulo;
   document.getElementById("vol-detalhe").style.display = "";
+
+  // Renderiza as tags pra o usuario alternar inclusao/exclusao
+  renderTagsFiis(fundosTodos, volMed, retMed);
 
   const canvas = document.getElementById("vol-scatter-fiis");
   const ctx = canvas.getContext("2d");
@@ -256,7 +268,11 @@ function renderScatterFiis(setor) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
-      layout: { padding: { right: 40 } },   // espaco pro ticker do ponto mais a direita
+      // padding right = espaco pro ticker do ponto mais a direita;
+      // padding bottom compensa o Y axis title (vertical, ~40px) que tira
+      // espaco a esquerda — sem isso o plot area sai mais alto que largo
+      // mesmo com canvas quadrado.
+      layout: { padding: { right: 40, bottom: 40 } },
       plugins: {
         legend: { display: false },          // ticker ja aparece no ponto
         tooltip: {
@@ -275,6 +291,50 @@ function renderScatterFiis(setor) {
     },
     plugins: [quadrantesPlugin, tickerLabelsPlugin],
   });
+}
+
+// Renderiza tags de tickers do setor. Clicar alterna inclusao/exclusao
+// no calculo das medias (recalcula tudo).
+function renderTagsFiis(fundosTodos, volMed, retMed) {
+  const cont = document.getElementById("vol-tags-fiis");
+  const btnReset = document.getElementById("vol-tags-reset");
+  if (!cont) return;
+  cont.innerHTML = "";
+
+  for (const f of fundosTodos) {
+    const excluido = _fiisExcluidos.has(f.ticker);
+    const cor = excluido ? "rgb(180, 188, 198)" : corQuadranteRgb(f.vol, f.retorno, volMed, retMed);
+    const span = document.createElement("button");
+    span.type = "button";
+    span.className = "vol-tag-fii" + (excluido ? " excluida" : "");
+    span.style.setProperty("--cor", cor);
+    span.textContent = f.ticker;
+    span.title = excluido ? "Clique para INCLUIR no cálculo" : "Clique para EXCLUIR do cálculo";
+    span.addEventListener("click", () => toggleFiiExcluido(f.ticker));
+    cont.appendChild(span);
+  }
+
+  if (btnReset) {
+    btnReset.style.display = _fiisExcluidos.size > 0 ? "" : "none";
+  }
+}
+
+function corQuadranteRgb(vol, ret, volMed, retMed) {
+  if (ret >= retMed && vol <  volMed) return "rgb(14, 159, 110)";
+  if (ret >= retMed && vol >= volMed) return "rgb(202, 138, 4)";
+  if (ret <  retMed && vol >= volMed) return "rgb(220, 38, 38)";
+  return "rgb(100, 116, 139)";
+}
+
+function toggleFiiExcluido(ticker) {
+  if (_fiisExcluidos.has(ticker)) _fiisExcluidos.delete(ticker);
+  else                            _fiisExcluidos.add(ticker);
+  if (_setorSelecionado) renderScatterFiis(_setorSelecionado);
+}
+
+function resetExcluidos() {
+  _fiisExcluidos.clear();
+  if (_setorSelecionado) renderScatterFiis(_setorSelecionado);
 }
 
 // Plugin que apenas desenha as linhas tracejadas das MEDIAS de vol e retorno
