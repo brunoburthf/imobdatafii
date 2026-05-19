@@ -7,71 +7,150 @@
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
-    .cc-secao { margin: 24px 0; }
-    .cc-secao h2 {
-      font-size: 18px; font-weight: 600; margin: 0 0 12px 0;
-      color: #1a2332;
+    /* ── ajustes pontuais da pagina (paleta do site, sem cores aleatorias) ── */
+    .cc-page-titulo {
+      font-size: 22px; font-weight: 700; color: var(--navy);
+      margin: 4px 0 6px 0; letter-spacing: -0.01em;
     }
-    .cc-resumo-grid {
-      display: grid; gap: 12px;
-      grid-template-columns: repeat(3, 1fr);
-      margin-bottom: 16px;
+    .cc-page-sub {
+      color: var(--texto-suave); font-size: 13px;
+      margin: 0 0 24px 0; line-height: 1.6; max-width: 900px;
     }
-    .cc-resumo-card {
-      background: #fff; border: 1px solid #e6e8eb;
-      border-radius: 8px; padding: 16px;
-    }
-    .cc-resumo-card h3 {
-      font-size: 14px; font-weight: 600; margin: 0 0 8px 0;
-      color: #4a5568;
-    }
-    .cc-resumo-card p {
-      margin: 0; font-size: 13px; color: #2d3748; line-height: 1.5;
-    }
+
+    /* Toggle de definicao */
     .cc-toggle {
-      display: flex; gap: 8px; margin-bottom: 12px;
+      display: inline-flex; gap: 0;
+      background: var(--cinza-fundo);
+      border: 1px solid var(--cinza-borda);
+      border-radius: 8px; padding: 3px;
     }
     .cc-toggle button {
-      padding: 6px 14px; border: 1px solid #d0d4d9;
-      background: #fff; border-radius: 6px; cursor: pointer;
-      font-size: 13px; color: #4a5568;
+      padding: 6px 14px; border: 0; background: transparent;
+      border-radius: 6px; cursor: pointer; font-size: 13px;
+      color: var(--texto-suave); font-weight: 500;
+      transition: background 0.15s, color 0.15s;
     }
+    .cc-toggle button:hover { color: var(--texto); }
     .cc-toggle button.ativo {
-      background: #2b6cb0; color: #fff; border-color: #2b6cb0;
+      background: var(--branco); color: var(--navy);
+      font-weight: 600;
+      box-shadow: 0 1px 3px rgba(0,9,60,0.10);
     }
+    .cc-toggle-info {
+      margin-left: 12px; font-size: 12px;
+      color: var(--texto-suave); align-self: center;
+    }
+    .cc-toggle-row {
+      display: flex; align-items: center;
+      flex-wrap: wrap; gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    /* Tabelas — herdam .tabela-mensal e ajustam pontualmente */
     .cc-tabela {
-      width: 100%; border-collapse: collapse;
-      background: #fff; border: 1px solid #e6e8eb; border-radius: 8px;
-      overflow: hidden; font-size: 13px;
+      width: 100%; border-collapse: collapse; font-size: 12.5px;
+      background: var(--branco);
+      border-radius: 10px; overflow: hidden;
+      box-shadow: 0 1px 2px rgba(0,9,60,0.04);
     }
-    .cc-tabela th {
-      background: #f5f7fa; padding: 10px 12px; text-align: right;
-      font-weight: 600; color: #4a5568; font-size: 12px;
-      border-bottom: 1px solid #e6e8eb;
+    .cc-tabela thead th {
+      background: var(--navy); color: #fff;
+      padding: 10px 12px; text-align: right;
+      font-size: 11px; text-transform: uppercase;
+      letter-spacing: .04em; font-weight: 600;
+      border-bottom: none;
     }
-    .cc-tabela th:first-child, .cc-tabela th:nth-child(2) {
-      text-align: left;
-    }
-    .cc-tabela td {
+    .cc-tabela thead th:first-child,
+    .cc-tabela thead th.cc-th-left { text-align: left; }
+    .cc-tabela tbody td {
       padding: 8px 12px; text-align: right;
       border-bottom: 1px solid #f0f2f5;
       font-variant-numeric: tabular-nums;
     }
-    .cc-tabela td:first-child, .cc-tabela td:nth-child(2) {
-      text-align: left; color: #2d3748;
+    .cc-tabela tbody td:first-child,
+    .cc-tabela tbody td.cc-td-left {
+      text-align: left; color: var(--texto); font-weight: 500;
     }
-    .cc-tabela tr:hover td { background: #f9fafc; }
-    .cc-positivo { color: #c53030; }
-    .cc-negativo { color: #2f855a; }
-    .cc-neutro   { color: #718096; }
-    .cc-nulo     { color: #cbd5e0; }
-    .cc-medias-row td { font-weight: 600; background: #fafbfc; }
-    .cc-grafico-card {
-      background: #fff; border: 1px solid #e6e8eb;
-      border-radius: 8px; padding: 16px; margin-top: 12px;
+    .cc-tabela tbody tr:hover td { background: #f9fafc; }
+    .cc-tabela tbody tr:last-child td { border-bottom: none; }
+    .cc-tabela tfoot td {
+      padding: 10px 12px;
+      background: #fafbfc;
+      font-weight: 700;
+      font-size: 12.5px;
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+      border-top: 2px solid var(--cinza-borda);
     }
-    .cc-grafico-wrapper { position: relative; height: 380px; }
-    .cc-nota { font-size: 12px; color: #718096; margin-top: 8px; }
+    .cc-tabela tfoot td:first-child { text-align: left; }
+
+    /* Cores semanticas de delta */
+    .cc-positivo { color: var(--vermelho); }
+    .cc-negativo { color: var(--verde); }
+    .cc-neutro   { color: var(--texto-suave); }
+    .cc-nulo     { color: #cbd5e0; font-style: italic; }
+    .cc-arrow    { font-size: 10px; margin-left: 2px; }
+
+    /* Sub-titulos das tabelas (h3 dentro de .secao) */
+    .secao h3 {
+      font-size: 13px; font-weight: 600;
+      color: var(--texto-suave);
+      text-transform: uppercase; letter-spacing: .04em;
+      margin: 20px 0 10px 0;
+    }
+    .secao h3:first-child { margin-top: 0; }
+
+    /* Wrapper de canvas */
+    .cc-canvas-wrap {
+      position: relative; height: 380px;
+      background: var(--branco);
+      border-radius: 8px;
+      padding: 4px;
+    }
+    .cc-canvas-wrap.cc-canvas-mid { height: 240px; }
+
+    /* Rodape explicativo de cada secao */
+    .cc-nota {
+      font-size: 12px; color: var(--texto-suave);
+      margin-top: 12px; line-height: 1.5;
+    }
+    .cc-nota b { color: var(--texto); }
+
+    /* Header dual da tabela de previsao */
+    .cc-tabela thead th.cc-th-group {
+      border-left: 1px solid rgba(255,255,255,0.18);
+      text-align: center;
+    }
+    .cc-tabela thead th.cc-th-group:first-child { border-left: 0; }
+
+    /* Bullets das observacoes */
+    .cc-bullets {
+      list-style: none; padding: 0; margin: 0;
+      display: grid; gap: 8px; margin-top: 8px;
+    }
+    .cc-bullets li {
+      font-size: 13px; color: var(--texto-suave);
+      padding-left: 18px; position: relative; line-height: 1.5;
+    }
+    .cc-bullets li::before {
+      content: ""; position: absolute;
+      left: 4px; top: 8px;
+      width: 5px; height: 5px;
+      background: var(--azul); border-radius: 50%;
+    }
+    .cc-bullets li b { color: var(--texto); }
+
+    /* Cobertura — badge inline com n_ciclos */
+    .cc-badge-ciclos {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 10px;
+      background: var(--cinza-fundo);
+      color: var(--texto-suave);
+      font-size: 11px;
+      font-weight: 600;
+      margin-left: 4px;
+    }
   </style>
 </head>
 <body>
@@ -103,102 +182,118 @@
 
     <div id="conteudo" style="display:none">
 
-      <h1 class="menu-hero-titulo" style="margin-bottom:8px">Ciclos COPOM × Curva NTN-B</h1>
-      <p style="color:#718096; font-size:14px; margin-top:0; margin-bottom:24px">
-        Como a curva de juros reais reage aos ciclos de corte da Selic. Para cada ciclo, calcula
+      <h1 class="cc-page-titulo">Ciclos COPOM × Curva NTN-B</h1>
+      <p class="cc-page-sub">
+        Como a curva real reage aos ciclos de corte da Selic. Para cada ciclo, calcula
         deltas em janelas de T<sub>−90d</sub>, T<sub>início</sub>, T<sub>fim</sub>, T<sub>+90d</sub>
-        nas durations 2a / 5a / 10a / 12a (Macaulay).
+        nas durations 2 / 5 / 10 / 12 anos (Macaulay).
       </p>
 
-      <!-- ─── Resumo executivo ─────────────────────────────────────── -->
-      <div class="cc-secao">
-        <h2>Padrões observados (médias de todos os ciclos)</h2>
-        <div class="cc-resumo-grid">
-          <div class="cc-resumo-card">
-            <h3>Transmissão decrescente com prazo</h3>
-            <p>Quanto mais longa a NTN-B, menos a curva real reage à Selic. A ponta curta (2a) responde a ~<b id="cc-resumo-trans-2a">—</b>pp por 1pp de corte na Selic, enquanto a 12a responde apenas ~<b id="cc-resumo-trans-12a">—</b>pp.</p>
-          </div>
-          <div class="cc-resumo-card">
-            <h3>Curva eleva (steeping)</h3>
-            <p>Em ciclos de corte, o slope 12a−2a tipicamente <b>aumenta</b> (curva fica mais íngreme). Média: <b id="cc-resumo-slope">—</b>pp por ciclo.</p>
-          </div>
-          <div class="cc-resumo-card">
-            <h3>Curvatura aumenta</h3>
-            <p>A "barriga" (2×5a − 2a − 10a) cresce em média <b id="cc-resumo-curv">—</b>pp por ciclo — o miolo da curva fica relativamente alto em relação às pontas.</p>
+      <!-- ─── KPIs de resumo ─────────────────────────────────────── -->
+      <div class="kpi-cards">
+        <div class="kpi-card kpi-laranja">
+          <div class="kpi-icone">📉</div>
+          <div class="kpi-conteudo">
+            <div class="kpi-label">Transmissão — ponta curta (2a)</div>
+            <div class="kpi-valor" id="cc-kpi-trans-2a">—</div>
+            <div class="kpi-sub">por 1pp de corte na Selic</div>
           </div>
         </div>
-
-        <!-- Bar chart: transmissao por prazo -->
-        <div class="cc-grafico-card">
-          <h2 style="margin-top:0">Transmissão média por prazo</h2>
-          <div class="cc-grafico-wrapper" style="height:240px">
-            <canvas id="cc-grafico-transmissao"></canvas>
+        <div class="kpi-card kpi-azul">
+          <div class="kpi-icone">📊</div>
+          <div class="kpi-conteudo">
+            <div class="kpi-label">Transmissão — ponta longa (12a)</div>
+            <div class="kpi-valor" id="cc-kpi-trans-12a">—</div>
+            <div class="kpi-sub">amortecimento maior em prazos longos</div>
           </div>
-          <p class="cc-nota">
-            Transmissão = Δ YTM (T<sub>fim</sub> − T<sub>−90d</sub>) ÷ Δ Selic do ciclo.
-            Valores absolutos &lt; 1 significam que a NTN-B amorteceu o movimento da Selic.
-          </p>
+        </div>
+        <div class="kpi-card kpi-verde">
+          <div class="kpi-icone">📈</div>
+          <div class="kpi-conteudo">
+            <div class="kpi-label">Steeping — slope 12a−2a</div>
+            <div class="kpi-valor" id="cc-kpi-slope">—</div>
+            <div class="kpi-sub">curva fica mais íngreme em ciclos de corte</div>
+          </div>
+        </div>
+        <div class="kpi-card kpi-roxo">
+          <div class="kpi-icone">🦋</div>
+          <div class="kpi-conteudo">
+            <div class="kpi-label">Curvatura — butterfly</div>
+            <div class="kpi-valor" id="cc-kpi-curv">—</div>
+            <div class="kpi-sub">barriga em 5a aumenta em relação às pontas</div>
+          </div>
         </div>
       </div>
 
+      <!-- ─── Bar chart: transmissao por prazo ────────────────────── -->
+      <div class="secao">
+        <h2>Transmissão média por prazo</h2>
+        <div class="cc-canvas-wrap cc-canvas-mid">
+          <canvas id="cc-grafico-transmissao"></canvas>
+        </div>
+        <p class="cc-nota">
+          <b>Transmissão</b> = Δ YTM (T<sub>fim</sub> − T<sub>−90d</sub>) ÷ Δ Selic do ciclo.
+          Valores absolutos &lt; 1 significam que a NTN-B amorteceu o movimento da Selic.
+        </p>
+      </div>
+
       <!-- ─── Tabela de ciclos ──────────────────────────────────────── -->
-      <div class="cc-secao">
+      <div class="secao">
         <h2>Ciclos identificados</h2>
-        <div class="cc-toggle">
-          <button id="cc-btn-pt" class="ativo" onclick="selecionarDefinicao('pt')">Peak-to-trough</button>
-          <button id="cc-btn-es" onclick="selecionarDefinicao('es')">Sequência estrita</button>
-          <span style="margin-left:12px; font-size:12px; color:#718096; align-self:center"
-                id="cc-toggle-info">
-            9 ciclos. Cada linha mostra Δ YTM (T<sub>fim</sub> − T<sub>−90d</sub>) por maturidade.
-          </span>
+        <div class="cc-toggle-row">
+          <div class="cc-toggle">
+            <button id="cc-btn-pt" class="ativo" onclick="selecionarDefinicao('pt')">Peak-to-trough</button>
+            <button id="cc-btn-es" onclick="selecionarDefinicao('es')">Sequência estrita</button>
+          </div>
+          <span class="cc-toggle-info" id="cc-toggle-info">9 ciclos.</span>
         </div>
 
         <table class="cc-tabela">
           <thead>
             <tr>
-              <th>Início</th>
-              <th>Fim</th>
+              <th class="cc-th-left">Início</th>
+              <th class="cc-th-left">Fim</th>
               <th>Cortes</th>
               <th>ΔSelic</th>
-              <th>Δ2a</th>
-              <th>Δ5a</th>
-              <th>Δ10a</th>
-              <th>Δ12a</th>
+              <th>Δ 2a</th>
+              <th>Δ 5a</th>
+              <th>Δ 10a</th>
+              <th>Δ 12a</th>
               <th>Δ slope</th>
               <th>Transm. 10a</th>
             </tr>
           </thead>
           <tbody id="cc-tabela-body"></tbody>
           <tfoot>
-            <tr class="cc-medias-row" id="cc-medias-row">
+            <tr id="cc-medias-row">
               <td colspan="3">Média (ciclos com dado NTN-B)</td>
             </tr>
           </tfoot>
         </table>
         <p class="cc-nota">
-          Cores: <span class="cc-negativo">verde</span> = queda na taxa real (curva caiu);
-          <span class="cc-positivo">vermelho</span> = alta;
-          <span class="cc-nulo">cinza</span> = sem cobertura NTN-B na época (pré-2005).
+          <span class="cc-negativo">▼ verde</span> = queda na taxa real (curva caiu);
+          <span class="cc-positivo">▲ vermelho</span> = alta;
+          <span class="cc-nulo">— cinza</span> = sem cobertura NTN-B na época (pré-2005).
         </p>
       </div>
 
       <!-- ─── Setores: hist + previsao ─────────────────────────────── -->
-      <div class="cc-secao">
+      <div class="secao">
         <h2>Setores em ciclos de corte: histórico + previsão</h2>
-        <p style="font-size:13px; color:#4a5568; margin-top:0; margin-bottom:16px">
+        <p class="cc-nota" style="margin-top:0; margin-bottom:16px">
           Para cada setor, calcula a variação média dos FIIs em ciclos de corte
           (entre T<sub>−90d</sub> e T<sub>fim+90d</sub>) em 3 métricas:
           <b>preço ajustado</b>, <b>P/VP</b>, <b>spread DY−NTN-B 5a</b>. A previsão
           aplica a média histórica ao estado atual de cada setor (cenário "ciclo típico").
         </p>
 
-        <h3 style="font-size:14px; margin-bottom:8px; color:#2d3748">Histórico médio em ciclos de corte</h3>
-        <table class="cc-tabela" style="margin-bottom:24px">
+        <h3>Histórico médio em ciclos de corte</h3>
+        <table class="cc-tabela">
           <thead>
             <tr>
-              <th>Setor</th>
-              <th>FIIs atuais</th>
-              <th>Ciclos amostrados</th>
+              <th class="cc-th-left">Setor</th>
+              <th>FIIs</th>
+              <th>Ciclos</th>
               <th>Δ preço (%)</th>
               <th>Δ P/VP (%)</th>
               <th>Δ spread (pp)</th>
@@ -207,14 +302,14 @@
           <tbody id="cc-setores-hist-body"></tbody>
         </table>
 
-        <h3 style="font-size:14px; margin-bottom:8px; color:#2d3748">Previsão (aplica média histórica ao estado atual)</h3>
+        <h3>Previsão por setor</h3>
         <table class="cc-tabela">
           <thead>
             <tr>
-              <th rowspan="2">Setor</th>
-              <th colspan="2">Preço médio</th>
-              <th colspan="2">P/VP médio</th>
-              <th colspan="2">Spread médio (pp)</th>
+              <th class="cc-th-left" rowspan="2">Setor</th>
+              <th class="cc-th-group" colspan="2">Preço médio</th>
+              <th class="cc-th-group" colspan="2">P/VP médio</th>
+              <th class="cc-th-group" colspan="2">Spread médio (pp)</th>
             </tr>
             <tr>
               <th>atual</th>
@@ -227,29 +322,25 @@
           </thead>
           <tbody id="cc-setores-prev-body"></tbody>
         </table>
-        <p class="cc-nota">
-          Observação dos dados: spread <b>fechou</b> (variação negativa) em
-          todos os setores durante ciclos de corte. O efeito de queda da NTN-B
-          foi <b>reforçado</b> pelo fechamento de spread — não offsetado.
-          Setor mais sensível: Crédito Imobiliário (Δ spread −2,29pp).
-          Cobertura histórica curta: maioria dos FIIs tem dado só desde 2020-2021,
-          então ciclos pré-2020 contam apenas com FIIs antigos (amostra reduzida).
-        </p>
+
+        <h3>Observações dos dados</h3>
+        <ul class="cc-bullets">
+          <li>Spread <b>fechou</b> (variação negativa) em todos os setores durante ciclos de corte — o efeito de queda da NTN-B foi <b>reforçado</b>, não offsetado.</li>
+          <li>Setor mais sensível: <b>Crédito Imobiliário</b> (Δ spread −2,29pp em média) — tinha o maior spread inicial e fecha mais quando juros caem.</li>
+          <li>Cobertura histórica curta: maioria dos FIIs tem dado a partir de 2020-2021; ciclos pré-2020 amostram apenas FIIs antigos.</li>
+        </ul>
       </div>
 
       <!-- ─── Timeline ──────────────────────────────────────────────── -->
-      <div class="cc-secao">
+      <div class="secao">
         <h2>Timeline: Selic Meta + curva real (5a e 10a)</h2>
-        <div class="cc-grafico-card">
-          <div class="cc-grafico-wrapper">
-            <canvas id="cc-grafico-timeline"></canvas>
-          </div>
-          <p class="cc-nota">
-            Áreas sombreadas em verde marcam os ciclos de corte peak-to-trough.
-            Observe como nos ciclos a curva real geralmente acompanha a Selic em direção,
-            mas com amplitude menor (transmissão &lt; 1).
-          </p>
+        <div class="cc-canvas-wrap">
+          <canvas id="cc-grafico-timeline"></canvas>
         </div>
+        <p class="cc-nota">
+          Áreas sombreadas marcam os 9 ciclos de corte peak-to-trough.
+          Observe como nos ciclos a curva real acompanha a Selic em direção, mas com amplitude menor (transmissão &lt; 1).
+        </p>
       </div>
 
     </div>

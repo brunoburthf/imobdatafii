@@ -102,13 +102,19 @@ function fmtComp(proj, atual, dec, isAbsDelta) {
   return `${proj.toFixed(dec)} <span class="${cls}" style="font-size:11px">${arr}</span>`;
 }
 
-// ── Resumo executivo (números nos cards de cima) ──────────────────────
+// ── KPIs de resumo (4 cards) ──────────────────────────────────────────
 function renderResumo() {
   const r = _estudo.resumo_medias_peak_to_trough;
-  document.getElementById("cc-resumo-trans-2a").textContent  = fmt(r.ytm_2a.transmissao,  2);
-  document.getElementById("cc-resumo-trans-12a").textContent = fmt(r.ytm_12a.transmissao, 2);
-  document.getElementById("cc-resumo-slope").textContent     = fmt(r.slope_12a_2a.pre_fim, 2, true);
-  document.getElementById("cc-resumo-curv").textContent      = fmt(r.curvature.pre_fim,    2, true);
+  document.getElementById("cc-kpi-trans-2a").textContent  = fmtKpi(r.ytm_2a.transmissao,  2, "pp");
+  document.getElementById("cc-kpi-trans-12a").textContent = fmtKpi(r.ytm_12a.transmissao, 2, "pp");
+  document.getElementById("cc-kpi-slope").textContent     = fmtKpi(r.slope_12a_2a.pre_fim, 2, "pp", true);
+  document.getElementById("cc-kpi-curv").textContent      = fmtKpi(r.curvature.pre_fim,    2, "pp", true);
+}
+
+function fmtKpi(v, dec, unit, comSinal) {
+  if (v === null || v === undefined) return "—";
+  const sinal = comSinal && v > 0 ? "+" : "";
+  return `${sinal}${v.toFixed(dec)}${unit ? " " + unit : ""}`;
 }
 
 // ── Bar chart de transmissao por prazo ────────────────────────────────
@@ -122,6 +128,14 @@ function renderTransmissao() {
     r.ytm_12a.transmissao,
   ];
 
+  // Gradiente laranja → azul claro (curto → longo) refletindo "transmissão cai com prazo"
+  const cores = [
+    "rgba(239, 99, 0, 0.85)",     // 2a — laranja forte
+    "rgba(239, 99, 0, 0.60)",     // 5a
+    "rgba(28, 107, 189, 0.65)",   // 10a — azul claro
+    "rgba(28, 107, 189, 0.50)",   // 12a
+  ];
+
   new Chart(document.getElementById("cc-grafico-transmissao"), {
     type: "bar",
     data: {
@@ -129,9 +143,10 @@ function renderTransmissao() {
       datasets: [{
         label: "Transmissão (Δ NTN-B / Δ Selic)",
         data,
-        backgroundColor: "rgba(43, 108, 176, 0.7)",
-        borderColor: "rgba(43, 108, 176, 1)",
+        backgroundColor: cores,
+        borderColor: cores.map(c => c.replace(/[\d.]+\)$/, "1)")),
         borderWidth: 1,
+        borderRadius: 4,
       }],
     },
     options: {
@@ -139,6 +154,10 @@ function renderTransmissao() {
       plugins: {
         legend: { display: false },
         tooltip: {
+          backgroundColor: "rgba(0,9,60,0.95)",
+          titleFont: { size: 12 },
+          bodyFont: { size: 12 },
+          padding: 10,
           callbacks: {
             label: (ctx) => `Transmissão: ${ctx.parsed.y?.toFixed(3)}`,
           },
@@ -147,8 +166,12 @@ function renderTransmissao() {
       scales: {
         y: {
           beginAtZero: true, max: 1,
-          ticks: { callback: (v) => v.toFixed(2) },
-          title: { display: true, text: "Δ NTN-B / Δ Selic" },
+          grid: { color: "#eef0f4" },
+          ticks: { callback: (v) => v.toFixed(2), color: "#6b7a8d", font: { size: 11 } },
+        },
+        x: {
+          grid: { display: false },
+          ticks: { color: "#1c2b3a", font: { size: 12, weight: "500" } },
         },
       },
     },
@@ -267,7 +290,7 @@ function renderTimeline() {
     beforeDraw(chart) {
       const { ctx, chartArea, scales: { x } } = chart;
       ctx.save();
-      ctx.fillStyle = "rgba(72, 187, 120, 0.10)";
+      ctx.fillStyle = "rgba(239, 99, 0, 0.07)";   // banda laranja sutil (cor do site)
       for (const b of bandas) {
         const x0 = x.getPixelForValue(b.inicio);
         const x1 = x.getPixelForValue(b.fim);
@@ -287,22 +310,22 @@ function renderTimeline() {
         {
           label: "Selic Meta",
           data: selicMeta,
-          borderColor: "rgba(45, 55, 72, 1)",
-          backgroundColor: "rgba(45, 55, 72, 1)",
+          borderColor: "rgb(0, 9, 60)",            // navy
+          backgroundColor: "rgb(0, 9, 60)",
           borderWidth: 2, pointRadius: 0, tension: 0.05,
         },
         {
           label: "NTN-B 5a",
           data: ytm5a,
-          borderColor: "rgba(43, 108, 176, 1)",
-          backgroundColor: "rgba(43, 108, 176, 1)",
+          borderColor: "rgb(239, 99, 0)",           // laranja
+          backgroundColor: "rgb(239, 99, 0)",
           borderWidth: 1.5, pointRadius: 0, tension: 0.05,
         },
         {
           label: "NTN-B 10a",
           data: ytm10a,
-          borderColor: "rgba(159, 122, 234, 1)",
-          backgroundColor: "rgba(159, 122, 234, 1)",
+          borderColor: "rgb(28, 107, 189)",         // azul claro
+          backgroundColor: "rgb(28, 107, 189)",
           borderWidth: 1.5, pointRadius: 0, tension: 0.05,
         },
       ],
@@ -311,18 +334,31 @@ function renderTimeline() {
       responsive: true, maintainAspectRatio: false,
       interaction: { mode: "index", intersect: false },
       plugins: {
-        legend: { position: "top", align: "end" },
+        legend: {
+          position: "top", align: "end",
+          labels: { boxWidth: 14, boxHeight: 4, font: { size: 12 }, color: "#1c2b3a" },
+        },
         tooltip: {
+          backgroundColor: "rgba(0,9,60,0.95)",
+          padding: 10,
+          titleFont: { size: 12 },
+          bodyFont: { size: 12 },
           callbacks: {
             label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y?.toFixed(2)}%`,
           },
         },
       },
       scales: {
-        x: { ticks: { maxTicksLimit: 10 } },
+        x: {
+          ticks: { maxTicksLimit: 10, color: "#6b7a8d", font: { size: 11 } },
+          grid: { color: "#eef0f4" },
+        },
         y: {
-          title: { display: true, text: "% a.a." },
-          ticks: { callback: (v) => v.toFixed(0) + "%" },
+          ticks: {
+            callback: (v) => v.toFixed(0) + "%",
+            color: "#6b7a8d", font: { size: 11 },
+          },
+          grid: { color: "#eef0f4" },
         },
       },
     },
