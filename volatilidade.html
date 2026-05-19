@@ -19,6 +19,10 @@
       display: inline-block; width: 12px; height: 12px;
       border-radius: 3px; border: 1px solid rgba(0,0,0,0.06);
     }
+    .vol-quad-dot {
+      display: inline-block; width: 10px; height: 10px;
+      border-radius: 50%; flex-shrink: 0;
+    }
   </style>
 </head>
 <body>
@@ -106,10 +110,10 @@
             <canvas id="vol-scatter-fiis"></canvas>
           </div>
           <div class="vol-quad-legenda">
-            <div><span class="vol-quad-sw" style="background:rgba(14,159,110,0.45)"></span> Retorno alto, vol baixa</div>
-            <div><span class="vol-quad-sw" style="background:rgba(234,179,8,0.45)"></span> Retorno alto, vol alta</div>
-            <div><span class="vol-quad-sw" style="background:rgba(148,163,184,0.55)"></span> Retorno baixo, vol baixa</div>
-            <div><span class="vol-quad-sw" style="background:rgba(224,36,36,0.45)"></span> Retorno baixo, vol alta</div>
+            <div><span class="vol-quad-dot" style="background:rgb(14,159,110)"></span> Retorno alto, vol baixa</div>
+            <div><span class="vol-quad-dot" style="background:rgb(202,138,4)"></span> Retorno alto, vol alta</div>
+            <div><span class="vol-quad-dot" style="background:rgb(100,116,139)"></span> Retorno baixo, vol baixa</div>
+            <div><span class="vol-quad-dot" style="background:rgb(220,38,38)"></span> Retorno baixo, vol alta</div>
           </div>
         </div>
       </div>

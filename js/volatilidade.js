@@ -212,14 +212,33 @@ function renderScatterFiis(setor) {
   }
   fundos.sort((a, b) => a.ticker.localeCompare(b.ticker));
 
-  const datasets = fundos.map((f, i) => {
-    const cor = corContrastante(i, fundos.length);
+  // Cor por quadrante. Cruzamento = MEDIA de vol e retorno dos FIIs do setor.
+  const vols = fundos.map(f => f.vol);
+  const rets = fundos.map(f => f.retorno);
+  const volMed = vols.reduce((s, v) => s + v, 0) / vols.length;
+  const retMed = rets.reduce((s, v) => s + v, 0) / rets.length;
+
+  const COR = {
+    verde:    "rgb(14, 159, 110)",   // retorno alto, vol baixa
+    amarelo:  "rgb(202, 138, 4)",    // retorno alto, vol alta
+    vermelho: "rgb(220, 38, 38)",    // retorno baixo, vol alta
+    cinza:    "rgb(100, 116, 139)",  // retorno baixo, vol baixa
+  };
+  const corQuadrante = (vol, ret) => {
+    if (ret >= retMed && vol <  volMed) return COR.verde;
+    if (ret >= retMed && vol >= volMed) return COR.amarelo;
+    if (ret <  retMed && vol >= volMed) return COR.vermelho;
+    return COR.cinza;
+  };
+
+  const datasets = fundos.map((f) => {
+    const cor = corQuadrante(f.vol, f.retorno);
     return {
       label: f.ticker,
       data: [{ x: f.vol * 100, y: f.retorno * 100, ticker: f.ticker }],
       backgroundColor: cor,
       borderColor: cor,
-      pointRadius: 6,
+      pointRadius: 7,
       pointHoverRadius: 10,
     };
   });
@@ -237,16 +256,9 @@ function renderScatterFiis(setor) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      layout: { padding: { right: 40 } },   // espaco pro ticker do ponto mais a direita
       plugins: {
-        legend: {
-          display: true,
-          position: "bottom",
-          labels: {
-            boxWidth: 8, boxHeight: 8, padding: 6,
-            font: { size: 10 },
-            usePointStyle: true,
-          },
-        },
+        legend: { display: false },          // ticker ja aparece no ponto
         tooltip: {
           callbacks: {
             label: (ctx) => {
@@ -261,71 +273,66 @@ function renderScatterFiis(setor) {
         y: { title: { display: true, text: "Retorno do período (%)" } },
       },
     },
-    plugins: [quadrantesPlugin],
+    plugins: [quadrantesPlugin, tickerLabelsPlugin],
   });
 }
 
-// Plugin que pinta 4 quadrantes coloridos no scatter, dividindo pela
-// MEDIANA de vol e retorno dos pontos. Tambem desenha linhas tracejadas
-// nas medianas pra evidenciar as divisorias.
-//   top-left  (vol baixa, retorno alto)  = VERDE
-//   top-right (vol alta, retorno alto)   = AMARELO
-//   bot-right (vol alta, retorno baixo)  = VERMELHO
-//   bot-left  (vol baixa, retorno baixo) = LARANJA
+// Plugin que apenas desenha as linhas tracejadas das MEDIAS de vol e retorno
+// (divisorias dos 4 quadrantes — as cores dos pontos identificam o quadrante).
 const quadrantesPlugin = {
   id: "quadrantes",
   beforeDatasetsDraw(chart) {
     const { ctx, chartArea, scales: { x, y } } = chart;
     if (!chartArea) return;
 
-    // Coleta todos os pontos
     const pts = chart.data.datasets.flatMap(ds => ds.data || []);
-    if (pts.length < 2) return;   // sem mediana significativa
+    if (pts.length < 2) return;
 
-    const xs = pts.map(p => p.x).filter(v => Number.isFinite(v)).sort((a, b) => a - b);
-    const ys = pts.map(p => p.y).filter(v => Number.isFinite(v)).sort((a, b) => a - b);
+    const xs = pts.map(p => p.x).filter(v => Number.isFinite(v));
+    const ys = pts.map(p => p.y).filter(v => Number.isFinite(v));
     if (xs.length < 2 || ys.length < 2) return;
 
-    const med = arr => {
-      const n = arr.length;
-      return n % 2 ? arr[(n - 1) / 2] : (arr[n/2 - 1] + arr[n/2]) / 2;
-    };
-    const xMed = med(xs);
-    const yMed = med(ys);
-    const xPx = x.getPixelForValue(xMed);
-    const yPx = y.getPixelForValue(yMed);
-
-    // Clipa ao chartArea pras pinturas
-    const xL = Math.max(chartArea.left, Math.min(chartArea.right, xPx));
-    const yL = Math.max(chartArea.top,  Math.min(chartArea.bottom, yPx));
+    const media = arr => arr.reduce((s, v) => s + v, 0) / arr.length;
+    const xC = media(xs);
+    const yC = media(ys);
+    const xPx = x.getPixelForValue(xC);
+    const yPx = y.getPixelForValue(yC);
 
     ctx.save();
-
-    // VERDE  — top-left  (vol baixa, retorno alto)
-    ctx.fillStyle = "rgba(14, 159, 110, 0.12)";
-    ctx.fillRect(chartArea.left, chartArea.top, xL - chartArea.left, yL - chartArea.top);
-
-    // AMARELO — top-right (vol alta, retorno alto)
-    ctx.fillStyle = "rgba(234, 179, 8, 0.14)";
-    ctx.fillRect(xL, chartArea.top, chartArea.right - xL, yL - chartArea.top);
-
-    // VERMELHO — bottom-right (vol alta, retorno baixo)
-    ctx.fillStyle = "rgba(224, 36, 36, 0.12)";
-    ctx.fillRect(xL, yL, chartArea.right - xL, chartArea.bottom - yL);
-
-    // CINZA — bottom-left (vol baixa, retorno baixo)
-    ctx.fillStyle = "rgba(148, 163, 184, 0.18)";
-    ctx.fillRect(chartArea.left, yL, xL - chartArea.left, chartArea.bottom - yL);
-
-    // Linhas tracejadas nas medianas
-    ctx.strokeStyle = "rgba(0,9,60,0.30)";
+    ctx.strokeStyle = "rgba(0, 9, 60, 0.25)";
     ctx.setLineDash([4, 4]);
     ctx.lineWidth = 1;
     ctx.beginPath();
-    ctx.moveTo(xL, chartArea.top);    ctx.lineTo(xL, chartArea.bottom);
-    ctx.moveTo(chartArea.left, yL);   ctx.lineTo(chartArea.right, yL);
+    if (xPx >= chartArea.left && xPx <= chartArea.right) {
+      ctx.moveTo(xPx, chartArea.top);
+      ctx.lineTo(xPx, chartArea.bottom);
+    }
+    if (yPx >= chartArea.top && yPx <= chartArea.bottom) {
+      ctx.moveTo(chartArea.left,  yPx);
+      ctx.lineTo(chartArea.right, yPx);
+    }
     ctx.stroke();
+    ctx.restore();
+  },
+};
 
+// Plugin que desenha o ticker ao lado de cada ponto (afterDatasetsDraw pra
+// ficar por cima do circle). Pequeno offset pra direita e leve cima.
+const tickerLabelsPlugin = {
+  id: "tickerLabels",
+  afterDatasetsDraw(chart) {
+    const { ctx } = chart;
+    ctx.save();
+    ctx.font = "600 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
+    ctx.fillStyle = "rgba(28, 43, 58, 0.92)";
+    ctx.textBaseline = "middle";
+    chart.data.datasets.forEach((ds, i) => {
+      const meta = chart.getDatasetMeta(i);
+      const pt = meta.data && meta.data[0];
+      if (!pt) return;
+      const ticker = ds.label || "";
+      ctx.fillText(ticker, pt.x + 10, pt.y);
+    });
     ctx.restore();
   },
 };
