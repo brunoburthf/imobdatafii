@@ -21,6 +21,8 @@ async function carregar() {
       "%", "#1c6bbd", true);
     construirGraficoMetrica(stage, fund, "ltv", "Alavancagem (LTV) por fundo",
       "%", "#EF6300", false);
+    if (fund.ltv_historico_ifix && fund.ltv_historico_ifix.length)
+      construirLtvHistorico(stage, fund);
 
     _slides = Array.from(stage.querySelectorAll(".ap-slide"));
     document.getElementById("loading").style.display = "none";
@@ -169,6 +171,58 @@ function construirGraficoMetrica(stage, fund, campo, titulo, unidade, cor, soPos
       scales: {
         x: { ticks: { color: "#1c2b3a", font: { size: 17, weight: "600" } }, grid: { display: false } },
         y: { beginAtZero: true, ticks: { color: "#6b7a8d", font: { size: 16 }, callback: v => v + unidade },
+             grid: { color: "#eef0f4" } },
+      },
+    },
+  }));
+}
+
+// ── LTV histórico do setor (ponderado por IFIX) ──
+function construirLtvHistorico(stage, fund) {
+  const serie = fund.ltv_historico_ifix;
+  const labels = serie.map(p => p.mes);
+  const ifix = serie.map(p => +(p.ltv_ifix * 100).toFixed(2));
+  const simples = serie.map(p => +(p.ltv_simples * 100).toFixed(2));
+  const atual = fund.agregado.ltv_ponderado_ifix;
+
+  const el = novoSlide(stage);
+  el.innerHTML = `
+    <div class="ap-shead">
+      <div class="ap-shead-left">
+        <span class="ap-shead-kicker">Renda Urbana</span>
+        <span class="ap-shead-titulo">Alavancagem histórica do setor</span>
+      </div>
+      <div class="ap-shead-badges">
+        <div class="ap-badge"><div class="ap-badge-num">${pct(atual, 1)}</div><div class="ap-badge-lbl">LTV atual (IFIX)</div></div>
+      </div>
+    </div>
+    <div class="ap-body">
+      <div class="ap-lower">
+        <div class="ap-chart-titulo">LTV do setor — ponderado por peso no IFIX (linha) vs média simples (tracejado)</div>
+        <div class="ap-chart-wrap"><canvas id="chart-ltvhist"></canvas></div>
+      </div>
+      <p class="ap-nota">LTV mensal de cada fundo (CVM informe) ponderado pelo peso no IFIX. Constituintes atuais do setor traçados para trás (current-constituents). Fundos de maior peso (ex.: TRXF) puxam a média ponderada. Desde ${labels[0]}.</p>
+    </div>`;
+  stage.appendChild(el);
+
+  const ctx = el.querySelector("#chart-ltvhist").getContext("2d");
+  _charts.push(new Chart(ctx, {
+    type: "line",
+    data: { labels, datasets: [
+      { label: "LTV ponderado IFIX", data: ifix, borderColor: "#EF6300",
+        backgroundColor: "#EF630022", borderWidth: 3, pointRadius: 0, tension: 0.15, fill: true },
+      { label: "LTV média simples", data: simples, borderColor: "#1c6bbd",
+        borderWidth: 2, borderDash: [6, 5], pointRadius: 0, tension: 0.15, fill: false },
+    ]},
+    options: {
+      responsive: true, maintainAspectRatio: false, devicePixelRatio: 2, animation: false,
+      plugins: { legend: { display: true, position: "top", align: "end",
+                   labels: { boxWidth: 18, boxHeight: 3, font: { size: 15 }, color: "#1c2b3a" } },
+                 tooltip: { callbacks: { label: c => ` ${c.dataset.label}: ${c.parsed.y.toFixed(1)}%` } } },
+      scales: {
+        x: { ticks: { maxTicksLimit: 8, color: "#6b7a8d", font: { size: 15 },
+             callback(v){ const s = this.getLabelForValue(v); return s || s; } }, grid: { display: false } },
+        y: { beginAtZero: true, ticks: { color: "#6b7a8d", font: { size: 16 }, callback: v => v + "%" },
              grid: { color: "#eef0f4" } },
       },
     },

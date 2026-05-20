@@ -1,16 +1,17 @@
 {
-  "atualizado_em": "2026-05-20T15:54:59",
+  "atualizado_em": "2026-05-20T17:43:07",
   "setor": "Tijolo Multissetorial",
   "rotulo": "Renda Urbana",
   "fontes": {
     "vacancia": "Estimativa ponderada por area — carteira_trimestral.imoveis (CVM carteira)",
-    "ltv": "CVM informe mensal (inf_mensal_fii_ativo_passivo): (Obrigacoes_Aquisicao_Imoveis + Obrigacoes_Securitizacao_Recebiveis) / Direitos_Bens_Imoveis"
+    "ltv": "CVM informe mensal (inf_mensal_fii_ativo_passivo): (Obrigacoes_Aquisicao_Imoveis + Obrigacoes_Securitizacao_Recebiveis) / Direitos_Bens_Imoveis",
+    "ltv_historico": "LTV mensal por fundo ponderado pelo peso IFIX (pesos_ifix_historico, forward-fill). Constituentes atuais tracados pra tras."
   },
   "data_ref_ltv": "2026-04-01",
   "agregado": {
     "vacancia_media": 0.020235,
-    "ltv_ponderado": 0.218548,
-    "ltv_medio_simples": 0.120494,
+    "ltv_ponderado_valor": 0.218548,
+    "ltv_ponderado_ifix": 0.206421,
     "n_fundos": 11
   },
   "fundos": [
@@ -156,6 +157,392 @@
       "divida_aquisicao": -7410448.95,
       "divida_securitizacao": 0.0,
       "valor_imoveis": 810650875.86
+    }
+  ],
+  "ltv_historico_ifix": [
+    {
+      "mes": "2021-01",
+      "ltv_ifix": 0.075438,
+      "ltv_simples": 0.188921,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-02",
+      "ltv_ifix": 0.07961,
+      "ltv_simples": 0.19335,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-03",
+      "ltv_ifix": 0.073142,
+      "ltv_simples": 0.178764,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-04",
+      "ltv_ifix": 0.090923,
+      "ltv_simples": 0.203914,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-05",
+      "ltv_ifix": 0.094991,
+      "ltv_simples": 0.202768,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-06",
+      "ltv_ifix": 0.099514,
+      "ltv_simples": 0.194288,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-07",
+      "ltv_ifix": 0.110474,
+      "ltv_simples": 0.193606,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-08",
+      "ltv_ifix": 0.108639,
+      "ltv_simples": 0.196624,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-09",
+      "ltv_ifix": 0.139221,
+      "ltv_simples": 0.224774,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2021-10",
+      "ltv_ifix": 0.082822,
+      "ltv_simples": 0.141407,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2021-11",
+      "ltv_ifix": 0.092034,
+      "ltv_simples": 0.152225,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2021-12",
+      "ltv_ifix": 0.120932,
+      "ltv_simples": 0.160623,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-01",
+      "ltv_ifix": 0.162936,
+      "ltv_simples": 0.256062,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-02",
+      "ltv_ifix": 0.165676,
+      "ltv_simples": 0.253448,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-03",
+      "ltv_ifix": 0.159951,
+      "ltv_simples": 0.247005,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-04",
+      "ltv_ifix": 0.162406,
+      "ltv_simples": 0.248267,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-05",
+      "ltv_ifix": 0.163952,
+      "ltv_simples": 0.250818,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-06",
+      "ltv_ifix": 0.167677,
+      "ltv_simples": 0.239404,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-07",
+      "ltv_ifix": 0.172648,
+      "ltv_simples": 0.23714,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-08",
+      "ltv_ifix": 0.185447,
+      "ltv_simples": 0.247349,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-09",
+      "ltv_ifix": 0.190569,
+      "ltv_simples": 0.255969,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2022-10",
+      "ltv_ifix": 0.192581,
+      "ltv_simples": 0.234555,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2022-11",
+      "ltv_ifix": 0.193099,
+      "ltv_simples": 0.237241,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2022-12",
+      "ltv_ifix": 0.192837,
+      "ltv_simples": 0.225599,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-01",
+      "ltv_ifix": 0.196653,
+      "ltv_simples": 0.229677,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-02",
+      "ltv_ifix": 0.199221,
+      "ltv_simples": 0.22983,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-03",
+      "ltv_ifix": 0.196208,
+      "ltv_simples": 0.229024,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-04",
+      "ltv_ifix": 0.200101,
+      "ltv_simples": 0.227384,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-05",
+      "ltv_ifix": 0.189155,
+      "ltv_simples": 0.218406,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-06",
+      "ltv_ifix": 0.185666,
+      "ltv_simples": 0.214215,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-07",
+      "ltv_ifix": 0.183258,
+      "ltv_simples": 0.210749,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-08",
+      "ltv_ifix": 0.182658,
+      "ltv_simples": 0.209858,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-09",
+      "ltv_ifix": 0.181274,
+      "ltv_simples": 0.204773,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-10",
+      "ltv_ifix": 0.207553,
+      "ltv_simples": 0.206805,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-11",
+      "ltv_ifix": 0.204423,
+      "ltv_simples": 0.204734,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-12",
+      "ltv_ifix": 0.197113,
+      "ltv_simples": 0.20174,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-01",
+      "ltv_ifix": 0.193992,
+      "ltv_simples": 0.19972,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-02",
+      "ltv_ifix": 0.163061,
+      "ltv_simples": 0.158737,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-03",
+      "ltv_ifix": 0.175343,
+      "ltv_simples": 0.169767,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-04",
+      "ltv_ifix": 0.188,
+      "ltv_simples": 0.181348,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-05",
+      "ltv_ifix": 0.187646,
+      "ltv_simples": 0.179756,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-06",
+      "ltv_ifix": 0.183155,
+      "ltv_simples": 0.178542,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-07",
+      "ltv_ifix": 0.191996,
+      "ltv_simples": 0.19369,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-08",
+      "ltv_ifix": 0.192458,
+      "ltv_simples": 0.186224,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-09",
+      "ltv_ifix": 0.195534,
+      "ltv_simples": 0.186237,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-10",
+      "ltv_ifix": 0.211551,
+      "ltv_simples": 0.200296,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-11",
+      "ltv_ifix": 0.192461,
+      "ltv_simples": 0.180393,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-12",
+      "ltv_ifix": 0.182535,
+      "ltv_simples": 0.17619,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-01",
+      "ltv_ifix": 0.190927,
+      "ltv_simples": 0.181174,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-02",
+      "ltv_ifix": 0.184054,
+      "ltv_simples": 0.176557,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-03",
+      "ltv_ifix": 0.183953,
+      "ltv_simples": 0.179331,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-04",
+      "ltv_ifix": 0.177222,
+      "ltv_simples": 0.175415,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-05",
+      "ltv_ifix": 0.201546,
+      "ltv_simples": 0.171681,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-06",
+      "ltv_ifix": 0.172445,
+      "ltv_simples": 0.155824,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-07",
+      "ltv_ifix": 0.16932,
+      "ltv_simples": 0.153958,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-08",
+      "ltv_ifix": 0.169413,
+      "ltv_simples": 0.152262,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-09",
+      "ltv_ifix": 0.162937,
+      "ltv_simples": 0.149218,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-10",
+      "ltv_ifix": 0.18406,
+      "ltv_simples": 0.163774,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-11",
+      "ltv_ifix": 0.179471,
+      "ltv_simples": 0.163252,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-12",
+      "ltv_ifix": 0.17149,
+      "ltv_simples": 0.132928,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-01",
+      "ltv_ifix": 0.173076,
+      "ltv_simples": 0.131991,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-02",
+      "ltv_ifix": 0.171563,
+      "ltv_simples": 0.131482,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-03",
+      "ltv_ifix": 0.099153,
+      "ltv_simples": 0.087163,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-04",
+      "ltv_ifix": 0.206421,
+      "ltv_simples": 0.133458,
+      "n_fundos": 10
     }
   ]
 }
