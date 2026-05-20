@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apresentação Setores — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link ativo">Interno</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="menu-hero-titulo" style="margin-bottom:8px">Apresentação Setores</h1>
+    <p style="color:#6b7a8d; font-size:14px; margin-top:0">
+      Visão de apresentação por setor — em construção.
+    </p>
+  </main>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/local.js"></script>
+  <script>guardValuation();</script>
+</body>
+</html>
