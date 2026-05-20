@@ -904,13 +904,17 @@ async function renderizarRendaMensal(pesosAtivos) {
 
   const vc = parseValorCarteira(document.getElementById("res-valor-total")?.value);
 
-  // Busca histórico via cache compartilhado e prefere a série AJUSTADA: como
-  // a fórmula compara preço_mês/preço_atual, qualquer split/grupamento entre
-  // as duas datas distorce o ratio se usar nominal.
+  // Usa a série corp_adj (nominal ajustado SO por splits, sem TRR de
+  // dividendos). E a escala certa pro ratio preço_mês/preço_atual: remove
+  // distorção de split E nao acumula dividendos reinvestidos. A série TRR/adj
+  // cresce ao longo do tempo, entao precoMes_adj/pAtual_nominal misturava
+  // escalas e inflava a renda (ex.: KNCR fator ~2,7 mesmo no mês atual).
   const resultados = await Promise.all(carteira.map(async f => {
     try {
       const cache = await carregarHistoricoPreco(f.ticker);
-      const fonte = (cache.adj && Object.keys(cache.adj).length) ? cache.adj : cache.nominal;
+      const fonte = (cache.corp && Object.keys(cache.corp).length) ? cache.corp
+                  : (cache.nominal && Object.keys(cache.nominal).length) ? cache.nominal
+                  : cache.adj;
       return { ticker: f.ticker, precos: fonte || {} };
     } catch { return { ticker: f.ticker, precos: {} }; }
   }));
@@ -919,17 +923,19 @@ async function renderizarRendaMensal(pesosAtivos) {
   for (const { ticker, precos } of resultados) precosPor[ticker] = precos;
 
   // Preço atual de cada fundo (última entrada do histórico ou dos dados)
+  // Preco atual = ultimo ponto da MESMA serie usada em precoMes (corp_adj),
+  // garantindo fatorPreco~1 no mes corrente e casamento com o card
+  // "Renda Mensal Atual". Fallback: "Preco Atual" nominal do indice.
   const precoAtual = {};
   for (const f of carteira) {
-    const fiiData = todosFiis.find(d => d["Ticker"] === f.ticker);
-    precoAtual[f.ticker] = fiiData?.["Preço Atual"] ?? fiiData?.["Pre\u00e7o Atual"] ?? null;
-    // fallback: último preço do histórico
-    if (!precoAtual[f.ticker]) {
-      const datas = Object.keys(precosPor[f.ticker] || {}).sort();
-      if (datas.length) precoAtual[f.ticker] = precosPor[f.ticker][datas.at(-1)];
+    const datas = Object.keys(precosPor[f.ticker] || {}).sort();
+    if (datas.length) {
+      precoAtual[f.ticker] = precosPor[f.ticker][datas.at(-1)];
+    } else {
+      const fiiData = todosFiis.find(d => d["Ticker"] === f.ticker);
+      precoAtual[f.ticker] = fiiData?.["Preço Atual"] ?? null;
     }
   }
-
   // Gera os 12 últimos meses (ano-mês)
   const meses = [];
   const MESES_PT = ["Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
@@ -1545,19 +1551,26 @@ async function carregarHistoricoPreco(ticker) {
     try {
       const dir = tickerDir[ticker] || "fiis";
       const r = await fetch(`data/${dir}/${ticker}.json`);
-      if (!r.ok) return { adj: {}, nominal: {} };
+      if (!r.ok) return { adj: {}, nominal: {}, corp: {} };
       const d = await r.json();
       const serieAdj = (d.historico_preco_adj && d.historico_preco_adj.length)
         ? d.historico_preco_adj
         : (d.historico_preco || []);
       const serieNom = d.historico_preco || serieAdj;  // fallback se só houver adj
-      const adj = {}, nominal = {};
+      // corp_adj = nominal ajustado SO por splits (sem TRR de dividendos).
+      // E a serie certa pra ratio de preco: termina no preco atual nominal e
+      // nao acumula dividendos. Fallback: nominal.
+      const serieCorp = (d.historico_preco_corp_adj && d.historico_preco_corp_adj.length)
+        ? d.historico_preco_corp_adj
+        : serieNom;
+      const adj = {}, nominal = {}, corp = {};
       for (const [data, p] of serieAdj) adj[data] = p;
       for (const [data, p] of serieNom) nominal[data] = p;
-      const result = { adj, nominal };
+      for (const [data, p] of serieCorp) corp[data] = p;
+      const result = { adj, nominal, corp };
       _historicoPrecoCache[ticker] = result;
       return result;
-    } catch { return { adj: {}, nominal: {} }; }
+    } catch { return { adj: {}, nominal: {}, corp: {} }; }
     finally { delete _historicoPrecoInflight[ticker]; }
   })();
   return _historicoPrecoInflight[ticker];
