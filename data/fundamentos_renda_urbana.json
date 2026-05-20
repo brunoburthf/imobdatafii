@@ -1,0 +1,161 @@
+{
+  "atualizado_em": "2026-05-20T15:54:59",
+  "setor": "Tijolo Multissetorial",
+  "rotulo": "Renda Urbana",
+  "fontes": {
+    "vacancia": "Estimativa ponderada por area — carteira_trimestral.imoveis (CVM carteira)",
+    "ltv": "CVM informe mensal (inf_mensal_fii_ativo_passivo): (Obrigacoes_Aquisicao_Imoveis + Obrigacoes_Securitizacao_Recebiveis) / Direitos_Bens_Imoveis"
+  },
+  "data_ref_ltv": "2026-04-01",
+  "agregado": {
+    "vacancia_media": 0.020235,
+    "ltv_ponderado": 0.218548,
+    "ltv_medio_simples": 0.120494,
+    "n_fundos": 11
+  },
+  "fundos": [
+    {
+      "ticker": "KNRI11",
+      "nome": "Kinea Renda Imobiliária FII",
+      "pvp": 0.964644,
+      "dy_aa": 0.078796,
+      "retorno_12m": 0.16249,
+      "vacancia": 0.000908,
+      "n_imoveis": 19,
+      "ltv": 0.065654,
+      "divida_aquisicao": 0.0,
+      "divida_securitizacao": 275293627.13,
+      "valor_imoveis": 4193116849.13
+    },
+    {
+      "ticker": "HGRU11",
+      "nome": "Pátria Renda Urbana FII",
+      "pvp": 0.997382,
+      "dy_aa": 0.096834,
+      "retorno_12m": 0.126265,
+      "vacancia": 0.008122,
+      "n_imoveis": 100,
+      "ltv": 0.10681,
+      "divida_aquisicao": 90479537.79,
+      "divida_securitizacao": 208979695.09,
+      "valor_imoveis": 2803655800.86
+    },
+    {
+      "ticker": "TRXF11",
+      "nome": "Trx Real Estate FII",
+      "pvp": 0.905173,
+      "dy_aa": 0.130497,
+      "retorno_12m": 0.001462,
+      "vacancia": 0.0,
+      "n_imoveis": 92,
+      "ltv": 0.500605,
+      "divida_aquisicao": 484806888.61,
+      "divida_securitizacao": 2411034028.07,
+      "valor_imoveis": 5784681105.87
+    },
+    {
+      "ticker": "ALZR11",
+      "nome": "Alianza Trust Renda Imobiliária FII",
+      "pvp": 0.978093,
+      "dy_aa": 0.097423,
+      "retorno_12m": 0.118568,
+      "vacancia": 0.118825,
+      "n_imoveis": 20,
+      "ltv": 0.29429,
+      "divida_aquisicao": 31632000.0,
+      "divida_securitizacao": 345003104.82,
+      "valor_imoveis": 1279808458.07
+    },
+    {
+      "ticker": "TVRI11",
+      "nome": "Tivio Renda Imobiliária FII",
+      "pvp": 0.873285,
+      "dy_aa": 0.138037,
+      "retorno_12m": 0.141659,
+      "vacancia": null,
+      "n_imoveis": 0,
+      "ltv": 0.008703,
+      "divida_aquisicao": 13446530.56,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 1545088670.47
+    },
+    {
+      "ticker": "RBVA11",
+      "nome": "Rio Bravo Renda Varejo FII",
+      "pvp": 0.898419,
+      "dy_aa": 0.1125,
+      "retorno_12m": 0.238683,
+      "vacancia": 0.059707,
+      "n_imoveis": 73,
+      "ltv": 0.173605,
+      "divida_aquisicao": 69186763.68,
+      "divida_securitizacao": 218105193.41,
+      "valor_imoveis": 1654862288.05
+    },
+    {
+      "ticker": "GARE11",
+      "nome": "Guardian Real Estate FII",
+      "pvp": 0.876288,
+      "dy_aa": 0.120435,
+      "retorno_12m": 0.043579,
+      "vacancia": 0.0,
+      "n_imoveis": 3,
+      "ltv": 0.065815,
+      "divida_aquisicao": 0.0,
+      "divida_securitizacao": 28241325.34,
+      "valor_imoveis": 429100000.0
+    },
+    {
+      "ticker": "HTMX11",
+      "nome": "Hotel Maxinvest FII",
+      "pvp": 0.895131,
+      "dy_aa": 0.119964,
+      "retorno_12m": 0.100572,
+      "vacancia": 0.0,
+      "n_imoveis": 20,
+      "ltv": 0.0,
+      "divida_aquisicao": 0.0,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 408902832.89
+    },
+    {
+      "ticker": "RZAT11",
+      "nome": "Riza Arctium Real Estate FII",
+      "pvp": 0.941448,
+      "dy_aa": 0.128473,
+      "retorno_12m": 0.196836,
+      "vacancia": 0.0,
+      "n_imoveis": 9,
+      "ltv": 0.058337,
+      "divida_aquisicao": 11000000.0,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 188558600.0
+    },
+    {
+      "ticker": "VIUR11",
+      "nome": "Vinci Imoveis Urbanos FII",
+      "pvp": 0.343602,
+      "dy_aa": 0.367186,
+      "retorno_12m": 0.484693,
+      "vacancia": 0.0,
+      "n_imoveis": 1,
+      "ltv": 0.060756,
+      "divida_aquisicao": 2264000.0,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 37264000.0
+    },
+    {
+      "ticker": "IBBP11",
+      "nome": "Invista Brazilian Business Park FII",
+      "pvp": 0.825828,
+      "dy_aa": 0.107002,
+      "retorno_12m": 0.12727,
+      "vacancia": 0.014791,
+      "n_imoveis": 12,
+      "ltv": -0.009141,
+      "divida_aquisicao": -7410448.95,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 810650875.86
+    }
+  ]
+}
