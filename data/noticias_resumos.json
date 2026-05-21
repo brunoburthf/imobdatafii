@@ -1868,5 +1868,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1199510",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-20T06:03:50"
+  },
+  "1200285": {
+    "ticker": "TRXB11",
+    "tipo": "FII",
+    "data": "20/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "TRXB11 vende dois imóveis Pão de Açúcar",
+    "resumo": "TRXB11 assinou MOU para venda de dois imóveis em Goiânia-GO, locados ao Pão de Açúcar em contrato atípico até jul/2035, por R$ 74 mi (cap rate 6,61%, 9,57% acima do laudo). Lucro estimado de R$ 24,5 mi (R$ 6,03/cota); TIR de 11,57% a.a. Quitação de CRI de R$ 36,2 mi prevista.",
+    "valor_envolvido": "R$ 74 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Venda por R$ 74 mi em três parcelas: sinal R$ 37 mi à vista, R$ 14,8 mi em 2 parcelas semestrais IPCA e R$ 22 mi em até 18 meses",
+      "Lucro líquido estimado de R$ 24,5 mi para TRXB11 (R$ 6,03/cota) e R$ 0,39/cota para TRXF11; TIR de 11,57% a.a.",
+      "Quitação de dívida CRI de R$ 36,2 mi e prazo de 90 dias para formalização dos instrumentos jurídicos"
+    ],
+    "fnet_id": 1200285,
+    "ticker_fonte": "TRXF11",
+    "data_anuncio": "2026-05-20T18:37:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1200285",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-21T06:06:27"
+  },
+  "1200284": {
+    "ticker": "TRXB11",
+    "tipo": "FII",
+    "data": "20/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "TRXB11 vende dois imóveis Pão de Açúcar Goiânia",
+    "resumo": "TRXB11 assinou MOU para venda de dois imóveis locados ao Pão de Açúcar em Goiânia-GO por R$ 74 mi, cap rate 6,61%, 9,57% acima do laudo. Lucro estimado de R$ 24,5 mi (R$ 6,03/cota TRXB11; R$ 0,39/cota TRXF11), TIR de 11,57% a.a. Quitação de CRI de R$ 36,2 mi prevista.",
+    "valor_envolvido": "R$ 74 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Venda por R$ 74 mi, 9,57% acima do laudo, cap rate 6,61%; pagamento em 3 parcelas (sinal R$ 37 mi + R$ 14,8 mi semestral + R$ 22 mi em 18 meses)",
+      "Lucro líquido estimado de R$ 24,5 mi para TRXB11 (R$ 6,03/cota), TIR 11,57% a.a.; impacto de R$ 0,39/cota no TRXF11",
+      "Quitação de CRI de R$ 36,2 mi reduz alavancagem do TRXB11; contratos atípicos com CBD (Pão de Açúcar) vigentes até julho/2035"
+    ],
+    "fnet_id": 1200284,
+    "ticker_fonte": "TRXF11",
+    "data_anuncio": "2026-05-20T18:35:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1200284",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-21T06:06:38"
   }
 }

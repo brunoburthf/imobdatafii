@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "20/05/2026 16:29",
+  "atualizado_em": "21/05/2026 06:05",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -545,23 +545,6 @@
       "fnet_id": 1185390,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1185390"
-    },
-    {
-      "ticker": "PSEC11",
-      "nome_fundo": "Vbi Reits Multiestrategia FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-05-11T17:01:00",
-      "data_com": "2026-05-11",
-      "data_pagamento": "2026-05-18",
-      "valor": 0.55,
-      "valor_anterior": 0.65,
-      "variacao_pct": -0.15384615384615385,
-      "periodo_referencia": "Abril",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1185389,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1185389"
     },
     {
       "ticker": "OIAG11",
@@ -2823,26 +2806,31 @@
       "fnet_id": null,
       "fnet_versao": null,
       "url_fnet": null
-    },
-    {
-      "ticker": "BTAL11",
-      "nome_fundo": "BTAL11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-04-20T09:00:00",
-      "data_com": "2026-04-20",
-      "data_pagamento": "2026-04-28",
-      "valor": 1.0,
-      "valor_anterior": 1.0,
-      "variacao_pct": 0.0,
-      "periodo_referencia": "Março-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1166435,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1166435"
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-05-20T18:37:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1200285,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1200285"
+    },
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-05-20T18:35:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1200284,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1200284"
+    },
     {
       "ticker": "BTLG11",
       "nome_fundo": "BTG Pactual Logística FII",
@@ -5119,36 +5107,6 @@
       "fnet_id": 1167038,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1167038"
-    },
-    {
-      "ticker": "ALZR11",
-      "nome_fundo": "Alianza Trust Renda Imobiliária FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-04-20T18:14:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1166905,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1166905"
-    },
-    {
-      "ticker": "XPCA11",
-      "nome_fundo": "XPCA11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-04-20T17:07:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1166833,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1166833"
-    },
-    {
-      "ticker": "WHGR11",
-      "nome_fundo": "Whg Real Estate FII FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-04-20T11:14:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1166482,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1166482"
     }
   ]
 }
