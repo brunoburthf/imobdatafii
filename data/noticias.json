@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "22/05/2026 15:51",
+  "atualizado_em": "23/05/2026 05:36",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "GZIT11",
+      "nome_fundo": "Gazit Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-05-22T17:06:00",
+      "data_com": "2026-05-22",
+      "data_pagamento": "2026-05-29",
+      "valor": 0.42,
+      "valor_anterior": 0.42,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Abril-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1201490,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201490"
+    },
     {
       "ticker": "BTRA11",
       "nome_fundo": "BTRA11",
@@ -2823,26 +2840,20 @@
       "fnet_id": null,
       "fnet_versao": null,
       "url_fnet": null
-    },
-    {
-      "ticker": "PPEI11",
-      "nome_fundo": "FIP Prisma",
-      "setor": "FI-Infra",
-      "data_anuncio": "2026-04-22T00:00:00",
-      "data_com": "2026-04-22",
-      "data_pagamento": "2026-04-29",
-      "valor": 1.0,
-      "valor_anterior": 1.0,
-      "variacao_pct": 0.0,
-      "periodo_referencia": "",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": null,
-      "fnet_versao": null,
-      "url_fnet": null
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "HGRU11",
+      "nome_fundo": "Pátria Renda Urbana FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-05-22T19:32:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1201741,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201741"
+    },
     {
       "ticker": "RZAK11",
       "nome_fundo": "Riza Akin FII",
@@ -3846,6 +3857,56 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "AFHI11",
+      "nome_fundo": "Af Invest Cri FII Recebíveis Imobiliários",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-22T18:59:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1201710,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201710"
+    },
+    {
+      "ticker": "RZAK11",
+      "nome_fundo": "Riza Akin FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-22T18:41:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1201690,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201690"
+    },
+    {
+      "ticker": "MANA11",
+      "nome_fundo": "Manatí Capital Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-22T18:18:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1201607,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201607"
+    },
+    {
+      "ticker": "SNEL11",
+      "nome_fundo": "Suno Energias Limpas FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-22T18:01:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1201595,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201595"
+    },
+    {
+      "ticker": "BRCO11",
+      "nome_fundo": "Bresco Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-05-22T18:01:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1201593,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201593"
+    },
     {
       "ticker": "PMLL11",
       "nome_fundo": "Genial Malls FII",
@@ -5265,36 +5326,6 @@
       "fnet_id": 1167714,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1167714"
-    },
-    {
-      "ticker": "AJFI11",
-      "nome_fundo": "Aj Malls FII",
-      "setor": "Shoppings",
-      "data_anuncio": "2026-04-22T21:00:00",
-      "data_referencia": "30/01/2026",
-      "fnet_id": 1167668,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1167668"
-    },
-    {
-      "ticker": "TEPP11",
-      "nome_fundo": "Tellus Properties FII",
-      "setor": "Escritórios",
-      "data_anuncio": "2026-04-22T19:43:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1167635,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1167635"
-    },
-    {
-      "ticker": "BBGO11",
-      "nome_fundo": "BBGO11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-04-22T13:00:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1167154,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1167154"
     }
   ]
 }
