@@ -1978,5 +1978,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201741",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-23T05:36:35"
+  },
+  "1202351": {
+    "ticker": "CPSH11",
+    "tipo": "FII",
+    "data": "25/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Aquisição adicional no I Fashion Outlet Novo Hamburgo",
+    "resumo": "CPSH11 concluiu aquisição de participação adicional de 18,375% no I Fashion Outlet Novo Hamburgo por R$ 63,4 mi, elevando stake total a 39%. Cap rate de 8,4% a.a., yield-on-cost de 9,8% a.a. e ativo passa a representar 14% do NOI do fundo. Pagamento parcelado até abril de 2027.",
+    "valor_envolvido": "R$ 63,4 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Participação elevada de 20,63% para 39%, tornando CPSH11 segundo maior sócio atrás da Iguatemi",
+      "Cap rate de 8,4% a.a. e yield-on-cost de 9,8% a.a.; ativo representa 14% do NOI pós-transação",
+      "Pagamento estruturado em 5 parcelas entre abril/2026 e abril/2027; funding via 5ª emissão de cotas e venda de HPDP11"
+    ],
+    "fnet_id": 1202351,
+    "ticker_fonte": "CPSH11",
+    "data_anuncio": "2026-05-25T18:52:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1202351",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-26T06:02:33"
+  },
+  "1202261": {
+    "ticker": "FATN11",
+    "tipo": "FII",
+    "data": "25/05/2026",
+    "categoria": "emissao",
+    "titulo_curto": "FATN11 anuncia 7ª emissão de cotas",
+    "resumo": "FATN11 aprova 7ª emissão de cotas com montante total de R$ 300 mi (3 milhões de cotas), preço de emissão de R$ 100,00 e custo unitário de R$ 0,80. Montante mínimo de R$ 30 mi. Direito de preferência com fator 0,4729. Prazo máximo de colocação até 19/11/2026.",
+    "valor_envolvido": "R$ 300 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de emissão R$ 100,00 por cota, custo de distribuição R$ 0,80/cota",
+      "Montante mínimo de R$ 30 mi (300 mil cotas) para manutenção da oferta",
+      "Direito de preferência com fator 0,4729; data de corte em 28/05/2026"
+    ],
+    "fnet_id": 1202261,
+    "ticker_fonte": "FATN11",
+    "data_anuncio": "2026-05-25T17:08:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1202261",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-26T06:02:43"
   }
 }
