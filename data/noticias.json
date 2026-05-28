@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/05/2026 16:41",
+  "atualizado_em": "28/05/2026 06:06",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -2793,6 +2793,39 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "TEPP11",
+      "nome_fundo": "Tellus Properties FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-05-27T20:48:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1205729,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205729"
+    },
+    {
+      "ticker": "TEPP11",
+      "nome_fundo": "Tellus Properties FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-05-27T20:40:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1205724,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205724"
+    },
+    {
+      "ticker": "CYCR11",
+      "nome_fundo": "Cyrela Crédito FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-27T18:20:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1205568,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205568"
+    },
+    {
       "ticker": "PMLL11",
       "nome_fundo": "Genial Malls FII",
       "setor": "Shoppings",
@@ -3792,108 +3825,59 @@
       "fnet_id": 1171929,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1171929"
-    },
-    {
-      "ticker": "XPLG11",
-      "nome_fundo": "Xp Log FII",
-      "setor": "Logística",
-      "data_anuncio": "2026-04-27T19:01:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1170703,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170703"
-    },
-    {
-      "ticker": "PMLL11",
-      "nome_fundo": "Genial Malls FII",
-      "setor": "Shoppings",
-      "data_anuncio": "2026-04-27T18:14:00",
-      "categoria": "Comunicado ao Mercado",
-      "especie": null,
-      "fnet_id": 1170653,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170653"
-    },
-    {
-      "ticker": "AIEC11",
-      "nome_fundo": "Arch Edifícios Corporativos FII",
-      "setor": "Escritórios",
-      "data_anuncio": "2026-04-27T18:10:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1170646,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170646"
-    },
-    {
-      "ticker": "XPSF11",
-      "nome_fundo": "Xp Selection Fundo de FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-04-27T18:03:00",
-      "categoria": "Comunicado ao Mercado",
-      "especie": null,
-      "fnet_id": 1170637,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170637"
-    },
-    {
-      "ticker": "XPML11",
-      "nome_fundo": "Xp Malls FII",
-      "setor": "Shoppings",
-      "data_anuncio": "2026-04-27T18:02:00",
-      "categoria": "Comunicado ao Mercado",
-      "especie": null,
-      "fnet_id": 1170636,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170636"
-    },
-    {
-      "ticker": "XPLG11",
-      "nome_fundo": "Xp Log FII",
-      "setor": "Logística",
-      "data_anuncio": "2026-04-27T18:01:00",
-      "categoria": "Comunicado ao Mercado",
-      "especie": null,
-      "fnet_id": 1170635,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170635"
-    },
-    {
-      "ticker": "XPCI11",
-      "nome_fundo": "Xp Crédito Imobiliário FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-04-27T17:57:00",
-      "categoria": "Comunicado ao Mercado",
-      "especie": null,
-      "fnet_id": 1170629,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170629"
-    },
-    {
-      "ticker": "XPCA11",
-      "nome_fundo": "XPCA11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-04-27T17:55:00",
-      "categoria": "Comunicado ao Mercado",
-      "especie": null,
-      "fnet_id": 1170626,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170626"
-    },
-    {
-      "ticker": "BTLG11",
-      "nome_fundo": "BTG Pactual Logística FII",
-      "setor": "Logística",
-      "data_anuncio": "2026-04-27T09:04:00",
-      "categoria": "Comunicado ao Mercado",
-      "especie": null,
-      "fnet_id": 1169461,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1169461"
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "JSCR11",
+      "nome_fundo": "Js Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-27T18:46:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1205657,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205657"
+    },
+    {
+      "ticker": "BCRI11",
+      "nome_fundo": "Banestes Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-27T18:32:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1205643,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205643"
+    },
+    {
+      "ticker": "SNCI11",
+      "nome_fundo": "Suno Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-27T18:16:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1205554,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205554"
+    },
+    {
+      "ticker": "VRTA11",
+      "nome_fundo": "Fator Verita FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-27T17:03:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1205439,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205439"
+    },
+    {
+      "ticker": "VRTM11",
+      "nome_fundo": "Fator Veritá Multiestratégia FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-05-27T17:00:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1205435,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205435"
+    },
     {
       "ticker": "SNFZ11",
       "nome_fundo": "SNFZ11",
@@ -5343,56 +5327,6 @@
       "fnet_id": 1170877,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170877"
-    },
-    {
-      "ticker": "VGIP11",
-      "nome_fundo": "Valora Cri Índice de Preço FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-04-27T19:45:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1170799,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170799"
-    },
-    {
-      "ticker": "VGIR11",
-      "nome_fundo": "Valora Cri CDI FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-04-27T19:40:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1170797,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170797"
-    },
-    {
-      "ticker": "SPXS11",
-      "nome_fundo": "Spx Real Estate Multiestratégia FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-04-27T19:37:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1170793,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170793"
-    },
-    {
-      "ticker": "AFHI11",
-      "nome_fundo": "Af Invest Cri FII Recebíveis Imobiliários",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-04-27T19:16:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1170777,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170777"
-    },
-    {
-      "ticker": "JSCR11",
-      "nome_fundo": "Js Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-04-27T17:11:00",
-      "data_referencia": "31/03/2026",
-      "fnet_id": 1170566,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1170566"
     }
   ]
 }
