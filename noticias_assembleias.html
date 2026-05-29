@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assembleias Extraordinárias — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link ativo">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito">Interno</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='noticias.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main data-card="assembleias">
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <p class="noticias-meta-topo">
+        Atualizado em <span id="atualizado-em">—</span> ·
+        Fonte: <a href="https://fnet.bmfbovespa.com.br" target="_blank" rel="noopener">fnet (B3)</a>,
+        categoria <em>Assembleia</em>, tipo <em>AGE</em> ·
+        Janela: últimos <span id="janela-dias">90</span> dias ·
+        Apenas fundos cobertos pelo site
+        <button id="btn-atualizar-assembleias" class="btn-atualizar-ofertas val-restrito"
+                onclick="atualizarAssembleias(this)"
+                title="Roda o coletor da fnet agora (~3min)">↻ Atualizar agora</button>
+        <span id="atualizar-assembleias-status" class="atualizar-status val-restrito"></span>
+      </p>
+
+      <div class="toolbar noticias-filtros">
+        <select id="filtro-setor" onchange="aplicarFiltrosAssembleias()">
+          <option value="">Todos os setores</option>
+        </select>
+        <input type="text" id="filtro-ticker" placeholder="Ticker (ex: KNCR)"
+               oninput="aplicarFiltrosAssembleias()" />
+        <button class="btn-limpar-filtros" onclick="limparFiltrosAssembleias()">Limpar</button>
+      </div>
+
+      <!-- Tabela 1: Próximas AGEs (data_assembleia > hoje) -->
+      <div class="setor-card setor-card-destaque">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Próximas AGEs</h2>
+          <span class="noticias-count" id="count-futuras"></span>
+        </div>
+
+        <div class="setor-tabela-wrapper noticias-scroll">
+          <table id="tabela-age-futuras">
+            <thead>
+              <tr>
+                <th class="sortable"     data-sort="ticker"          onclick="ordenarAGE('futuras','ticker')">Ticker <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="nome_fundo"      onclick="ordenarAGE('futuras','nome_fundo')">Fundo <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="setor"           onclick="ordenarAGE('futuras','setor')">Setor <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="data_assembleia" onclick="ordenarAGE('futuras','data_assembleia')">Data Assembleia <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="data_publicacao" onclick="ordenarAGE('futuras','data_publicacao')">Convocada em <span class="sort-icon">↕</span></th>
+                <th>Convocação</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-age-futuras-body">
+              <tr><td colspan="6" class="sim-vazio-msg">Carregando…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Tabela 2: AGEs Finalizadas (data_assembleia <= hoje) -->
+      <div class="setor-card setor-card-destaque" style="margin-top:18px">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">AGEs Finalizadas</h2>
+          <span class="noticias-count" id="count-passadas"></span>
+        </div>
+
+        <div class="setor-tabela-wrapper noticias-scroll">
+          <table id="tabela-age-passadas">
+            <thead>
+              <tr>
+                <th class="sortable"     data-sort="ticker"          onclick="ordenarAGE('passadas','ticker')">Ticker <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="nome_fundo"      onclick="ordenarAGE('passadas','nome_fundo')">Fundo <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="setor"           onclick="ordenarAGE('passadas','setor')">Setor <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="data_assembleia" onclick="ordenarAGE('passadas','data_assembleia')">Data Assembleia <span class="sort-icon">↕</span></th>
+                <th>Convocação</th>
+                <th>Ata</th>
+                <th title="Resultado das deliberações (extração automática via parsing de ata — em desenvolvimento)">Aprovação</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-age-passadas-body">
+              <tr><td colspan="7" class="sim-vazio-msg">Carregando…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Modal de ata (preenchido em JS ao clicar numa linha de AGE finalizada) -->
+  <div id="modal-ata" class="modal modal-resumo" style="display:none" onclick="fecharModalAta(event)">
+    <div class="modal-box modal-resumo-box" onclick="event.stopPropagation()">
+      <button class="modal-resumo-fechar" type="button" onclick="fecharModalAta()" aria-label="Fechar">×</button>
+      <div id="modal-ata-conteudo"></div>
+    </div>
+  </div>
+
+  <script src="js/noticias_assembleias.js?v=3"></script>
+  <script src="js/local.js"></script>
+</body>
+</html>

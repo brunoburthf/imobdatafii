@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link ativo">Interno</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <h1 class="menu-hero-titulo" style="margin-bottom:6px">Dashboard</h1>
+    <p class="dashboard-sub">Visão consolidada por setor — KPIs por fundo. <span class="dashboard-nota">Algumas colunas (Liquidez, % imóveis, % CRA Agro, % Debêntures Infra) ainda dependem de coleta nova.</span></p>
+
+    <div class="dashboard-controles">
+      <label for="filtro-setor" class="dashboard-label">Setor:</label>
+      <select id="filtro-setor" class="dashboard-select" onchange="renderizarDashboard()">
+        <option value="">— selecione —</option>
+      </select>
+      <span id="dashboard-info" class="dashboard-info"></span>
+    </div>
+
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="dashboard-tabela-wrapper" class="dashboard-tabela-wrapper" style="display:none">
+      <table id="dashboard-tabela" class="dashboard-tabela">
+        <thead>
+          <tr>
+            <th data-col="ticker"     onclick="ordenarDashboard('ticker')"     class="th-clicavel">Ticker <span class="sort-icon">↕</span></th>
+            <th data-col="nome"       onclick="ordenarDashboard('nome')"       class="th-clicavel">Nome <span class="sort-icon">↕</span></th>
+            <th data-col="pl"         onclick="ordenarDashboard('pl')"         class="num th-clicavel" title="Soma do valor dos ativos financeiros da carteira CVM (proxy de PL — exclui imóveis)">PL <span class="sort-icon">↕</span></th>
+            <th data-col="liquidez"   onclick="ordenarDashboard('liquidez')"   class="num th-clicavel" title="Volume médio diário (em coleta — ainda N/D)">Liquidez <span class="sort-icon">↕</span></th>
+            <th data-col="pct_tipo"   onclick="ordenarDashboard('pct_tipo')"   class="num th-clicavel" title="Concentração no tipo principal do setor (CRI/CRA/Debêntures/Imóveis)" id="th-pct-tipo">% no tipo <span class="sort-icon">↕</span></th>
+            <th data-col="spread"     onclick="ordenarDashboard('spread')"     class="num th-clicavel" title="DY a.a. atual − YTM da NTN-B com duration de 5 anos (interpolada)">Spread NTN-B <span class="sort-icon">↕</span></th>
+            <th data-col="spread_med" onclick="ordenarDashboard('spread_med')" class="num th-clicavel" title="Média histórica do spread NTN-B (todo o histórico do fundo)">Spread médio <span class="sort-icon">↕</span></th>
+            <th data-col="pvp"        onclick="ordenarDashboard('pvp')"        class="num th-clicavel">P/VP <span class="sort-icon">↕</span></th>
+            <th data-col="cagr5"      onclick="ordenarDashboard('cagr5')"      class="num th-clicavel" title="Crescimento anual composto da soma dos dividendos dos últimos 12 meses vs há 5 anos. Requer histórico ≥ 5 anos">CAGR DPC 5A <span class="sort-icon">↕</span></th>
+            <th data-col="cdi1"       onclick="ordenarDashboard('cdi1')"       class="num th-clicavel" title="% dos dias do histórico em que o retorno móvel 12M do FII bateu o CDI no mesmo período">vs CDI 1A <span class="sort-icon">↕</span></th>
+            <th data-col="cdi3"       onclick="ordenarDashboard('cdi3')"       class="num th-clicavel" title="% dos dias do histórico em que o retorno móvel 36M do FII bateu o CDI no mesmo período">vs CDI 3A <span class="sort-icon">↕</span></th>
+            <th data-col="cdi5"       onclick="ordenarDashboard('cdi5')"       class="num th-clicavel" title="% dos dias do histórico em que o retorno móvel 60M do FII bateu o CDI no mesmo período">vs CDI 5A <span class="sort-icon">↕</span></th>
+          </tr>
+        </thead>
+        <tbody id="dashboard-tbody"></tbody>
+      </table>
+    </div>
+
+  </main>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/local.js"></script>
+  <script>guardValuation();</script>
+  <script src="js/dashboard.js?v=2"></script>
+</body>
+</html>

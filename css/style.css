@@ -381,6 +381,41 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   padding: 12px 14px;
 }
 
+/* Sub-texto do card de Taxas (linha de performance abaixo do adm) */
+.card-sub {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 0 14px 12px;
+  color: #555;
+}
+.card-sub-perf    { color: #1b7a3a; }
+.card-sub-noperf  { color: #888; }
+.card-sub-unknown { color: #a76a00; font-style: italic; cursor: help; }
+
+/* Badge de confiança da extração (média/baixa/manual) */
+.taxas-conf-badge {
+  display: inline-block;
+  font-size: 9px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 4px;
+  margin-left: 6px;
+  vertical-align: middle;
+  letter-spacing: 0.3px;
+}
+.taxas-conf-badge.conf-media   { background: #fff7e0; color: #8a6500; }
+.taxas-conf-badge.conf-baixa   { background: #fce8e8; color: #b42a2a; }
+.taxas-conf-badge.conf-manual  { background: #e8f0fc; color: #2563b1; }
+
+/* Asterisco pra fundos onde o RG nao traz a taxa (valor de fonte secundaria) */
+.rg-omisso {
+  color: #c94c00;
+  font-weight: 700;
+  margin-left: 2px;
+  cursor: help;
+}
+
 /* SEÇÃO TEXTO */
 .secao {
   background: var(--branco);
@@ -4318,6 +4353,77 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
 .btn-carregar:hover { filter:brightness(1.1); }
 .btn-deletar { background:#e02424; color:#fff; }
 .btn-deletar:hover { filter:brightness(1.1); }
+.btn-carteira-acao {
+  height:32px; padding:0 12px; border:1px solid var(--cinza-borda);
+  background:#fff; border-radius:6px; font-size:12px; font-weight:600;
+  cursor:pointer; color:var(--navy);
+}
+.btn-carteira-acao:hover { background:#f5f5f5; }
+.btn-carteira-del { color:#c33; border-color:#f3c2c2; }
+.btn-carteira-del:hover { background:#fdecec; }
+.btn-tab-acao {
+  border:none; background:transparent; cursor:pointer;
+  padding:4px 6px; font-size:14px; color:var(--navy); border-radius:4px;
+}
+.btn-tab-acao:hover { background:#f0f0f0; }
+.btn-tab-del { color:#c33; }
+.btn-tab-del:hover { background:#fdecec; }
+
+/* ── SIMULADOR CP ─────────────────────────────────────────────────────────── */
+.cp-form-details {
+  border:1.5px solid var(--cinza-borda); border-radius:10px; padding:0;
+  background:#fafbfc; margin-top:12px;
+}
+.cp-form-details[open] { background:#fff; }
+.cp-form-summary {
+  padding:12px 16px; font-weight:600; color:var(--navy); cursor:pointer;
+  font-size:14px; user-select:none;
+}
+.cp-form-summary:hover { background:#f5f7fa; }
+.cp-form-grid {
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+  gap:12px; padding:16px;
+}
+.cp-form-grid label {
+  display:flex; flex-direction:column; gap:4px; font-size:12px;
+  color:#555; font-weight:500;
+}
+.cp-form-grid input, .cp-form-grid select {
+  padding:7px 10px; font-size:13px; border:1px solid var(--cinza-borda);
+  border-radius:6px; background:#fff; font-family:inherit;
+}
+.cp-form-grid input:focus, .cp-form-grid select:focus {
+  outline:none; border-color:var(--azul);
+}
+.cp-form-checkbox {
+  flex-direction:row !important; align-items:center; gap:6px !important;
+  font-size:13px !important; color:var(--navy) !important;
+}
+.cp-form-hint { color:#888; cursor:help; font-size:11px; }
+.cp-form-actions {
+  display:flex; align-items:center; gap:10px;
+  padding:0 16px 16px;
+}
+.cp-projecao-card {
+  border:1.5px solid var(--cinza-borda); border-radius:12px;
+  padding:20px; background:#fff;
+}
+.cp-projecao-titulo { margin:0 0 6px; font-size:18px; color:var(--navy); }
+.cp-projecao-meta { font-size:12px; color:#888; margin-bottom:18px; }
+.cp-resumo-grid {
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));
+  gap:12px; margin-bottom:24px;
+}
+.cp-resumo-item {
+  padding:14px 16px; background:#f5f7fa; border-radius:8px;
+}
+.cp-resumo-label { font-size:11px; color:#888; text-transform:uppercase; letter-spacing:0.3px; margin-bottom:4px; }
+.cp-resumo-valor { font-size:18px; font-weight:700; color:var(--navy); }
+.cp-chart-wrapper { position:relative; height:300px; margin-bottom:18px; }
+.cp-detalhe-details summary {
+  cursor:pointer; font-weight:600; color:var(--navy); padding:10px 0;
+}
+.cp-detalhe-details summary:hover { color:var(--azul); }
 
 /* ── PÁGINA NOTÍCIAS ──────────────────────────────────────────────────────── */
 .noticias-meta-topo {

@@ -1,0 +1,5 @@
+{
+  "_doc": "Overrides manuais aplicados em data/ofertas_publicas.json depois do cross-check. Use quando a CVM Dados Abertos não publicar a quebra de subscritores mas o anúncio de encerramento do fnet (B3) tiver os dados. Chave = `<TICKER>_<data_registro YYYY-MM-DD>`.",
+  "_atualizado_em": "2026-05-15",
+  "overrides": {}
+}

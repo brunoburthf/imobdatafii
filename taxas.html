@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taxas dos Fundos — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito ativo">Interno</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='valuation.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="loading" class="loading">Carregando...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <p class="noticias-meta-topo">
+        Atualizado em <span id="taxas-atualizado">—</span> ·
+        Fonte: <a href="https://fnet.bmfbovespa.com.br" target="_blank" rel="noopener">fnet (B3)</a> — Relatório Gerencial primário, Informe Anual cross-check, Regulamento fallback, overrides manuais.
+      </p>
+
+      <div class="setor-card setor-card-destaque">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Taxas dos Fundos</h2>
+          <span class="noticias-count" id="taxas-count"></span>
+        </div>
+
+        <div class="toolbar noticias-filtros">
+          <select id="filtro-setor" onchange="aplicarFiltrosTaxas()">
+            <option value="">Todos os setores</option>
+          </select>
+          <input type="text" id="filtro-ticker" placeholder="Ticker (ex: KNCR)" oninput="aplicarFiltrosTaxas()" />
+          <select id="filtro-perf" onchange="aplicarFiltrosTaxas()">
+            <option value="">Performance: todos</option>
+            <option value="sim">Com performance</option>
+            <option value="nao">Sem performance</option>
+            <option value="indef">Indeterminado</option>
+          </select>
+          <select id="filtro-conf" onchange="aplicarFiltrosTaxas()">
+            <option value="">Confiança: todas</option>
+            <option value="alta">Alta</option>
+            <option value="media">Média</option>
+            <option value="baixa">Baixa</option>
+            <option value="manual">Manual (override)</option>
+          </select>
+          <button class="btn-limpar-filtros" onclick="limparFiltrosTaxas()">Limpar</button>
+        </div>
+
+        <div class="setor-tabela-wrapper noticias-scroll">
+          <table id="tabela-taxas">
+            <thead>
+              <tr>
+                <th class="sortable"     data-sort="ticker"   onclick="ordenarTaxas('ticker')">Ticker <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="nome"     onclick="ordenarTaxas('nome')">Fundo <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="setor"    onclick="ordenarTaxas('setor')">Setor <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="adm_pct"  onclick="ordenarTaxas('adm_pct')">Adm % a.a. <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="adm_tipo" onclick="ordenarTaxas('adm_tipo')">Tipo <span class="sort-icon">↕</span></th>
+                <th class="sortable"     data-sort="perf"     onclick="ordenarTaxas('perf')">Performance <span class="sort-icon">↕</span></th>
+                <th>Detalhe perf.</th>
+                <th class="sortable"     data-sort="conf"     onclick="ordenarTaxas('conf')">Confiança <span class="sort-icon">↕</span></th>
+              </tr>
+            </thead>
+            <tbody id="tabela-taxas-body">
+              <tr><td colspan="8" class="sim-vazio-msg">Carregando…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/taxas.js?v=1"></script>
+  <script src="js/local.js"></script>
+  <script>guardValuation();</script>
+</body>
+</html>

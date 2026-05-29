@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador CP — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito ativo">Interno</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='valuation.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="auth-bar">
+    <div class="auth-bar-inner">
+      <span id="auth-header-user" class="auth-header-user" style="display:none"></span>
+      <span id="auth-header-login-msg" class="auth-bar-msg">Faça login para ver as suas carteiras de crédito privado.</span>
+      <button id="auth-header-login" class="auth-btn auth-btn-login" onclick="mostrarTela('tela-login')">Login</button>
+    </div>
+  </div>
+
+  <main>
+    <div id="loading" class="loading">Carregando...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <!-- TELA 1: Login -->
+      <div id="tela-login" class="tela-login">
+        <div class="login-card">
+          <h2 class="login-titulo">Simulador CP</h2>
+          <p class="login-subtitulo">Faça login para criar e salvar suas carteiras de crédito privado</p>
+          <div class="login-form">
+            <input type="email" id="auth-email" class="login-input" placeholder="Email" />
+            <input type="password" id="auth-senha" class="login-input" placeholder="Senha"
+              onkeydown="if(event.key==='Enter')document.getElementById('auth-btn-entrar').click()" />
+            <button id="auth-btn-entrar" class="login-btn login-btn-primary"
+              onclick="loginEmail(document.getElementById('auth-email').value, document.getElementById('auth-senha').value)">
+              Entrar
+            </button>
+            <button type="button" class="login-esqueci"
+              onclick="resetSenha(document.getElementById('auth-email').value)">Esqueci minha senha</button>
+            <button class="login-btn login-btn-google" onclick="loginGoogle()">Entrar com Google</button>
+            <div class="login-divider"><span>ou</span></div>
+            <button class="login-btn login-btn-signup"
+              onclick="signupEmail(document.getElementById('auth-email').value, document.getElementById('auth-senha').value)">Criar conta</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TELA 2: Escolha -->
+      <div id="tela-escolha" class="tela-escolha" style="display:none">
+        <div class="escolha-cards">
+          <div class="escolha-card" onclick="mostrarMinhasCarteirasCP()">
+            <div class="escolha-card-icon">&#128196;</div>
+            <div class="escolha-card-titulo">Minhas Carteiras CP</div>
+            <p class="escolha-card-desc">Visualize, carregue ou exclua suas carteiras salvas.</p>
+            <span class="escolha-card-count" id="escolha-count-cp"></span>
+          </div>
+          <div class="escolha-card" onclick="mostrarCriarNovaCP()">
+            <div class="escolha-card-icon">&#10010;</div>
+            <div class="escolha-card-titulo">Criar Nova Carteira CP</div>
+            <p class="escolha-card-desc">Adicione CRIs, CRAs, debêntures, LCI/LCAs e títulos públicos. O simulador projeta a renda mensal.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TELA 3: Lista de carteiras -->
+      <div id="tela-carteiras" class="sim-layout" style="display:none">
+        <div class="sim-card">
+          <div class="tela-header">
+            <h2 class="sim-titulo">Minhas Carteiras CP</h2>
+            <button class="btn-voltar-tela" onclick="voltarEscolhaCP()">&#8592; Voltar</button>
+          </div>
+          <div id="lista-carteiras-cp" class="lista-carteiras">
+            <p style="color:#888">Carregando...</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TELA 4: Editor da carteira -->
+      <div id="tela-simulador" class="sim-layout" style="display:none">
+        <div class="sim-card">
+          <div class="tela-header">
+            <h2 class="sim-titulo">
+              <input type="text" id="cp-carteira-nome" class="carteira-nome-inline"
+                placeholder="Nome da carteira" maxlength="60" />
+            </h2>
+            <button class="btn-voltar-tela" onclick="voltarEscolhaCP()">&#8592; Voltar</button>
+          </div>
+
+          <!-- Formulário pra adicionar/editar papel -->
+          <details id="cp-form-papel" class="cp-form-details" open>
+            <summary class="cp-form-summary">+ Adicionar título</summary>
+            <div class="cp-form-grid">
+              <label>Tipo
+                <select id="cp-tipo">
+                  <option value="CRI">CRI</option>
+                  <option value="CRA">CRA</option>
+                  <option value="LCI">LCI</option>
+                  <option value="LCA">LCA</option>
+                  <option value="DEB">Debênture</option>
+                  <option value="TPF">Tesouro Público</option>
+                </select>
+              </label>
+              <label>Código/Nome
+                <input type="text" id="cp-codigo" placeholder="ex: CRI22A123" maxlength="40" />
+              </label>
+              <label>Emissor (opcional)
+                <input type="text" id="cp-emissor" placeholder="ex: Opea Securitizadora" maxlength="60" />
+              </label>
+              <label>Indexador
+                <select id="cp-indexador" onchange="onChangeIndexador()">
+                  <option value="CDI+">CDI + spread</option>
+                  <option value="CDIp">% do CDI</option>
+                  <option value="IPCA+">IPCA + spread</option>
+                  <option value="PREFIX">Prefixada</option>
+                  <option value="SELIC+">Selic + spread</option>
+                </select>
+              </label>
+              <label><span id="cp-taxa-label">Spread (% a.a.)</span>
+                <input type="number" id="cp-taxa" step="0.01" placeholder="ex: 6.50" />
+              </label>
+              <label>Qtd. de títulos
+                <input type="number" id="cp-quantidade" step="1" min="1" placeholder="ex: 50" />
+              </label>
+              <label>PU de emissão (R$)
+                <input type="number" id="cp-pu-emissao" step="0.01" value="1000" />
+              </label>
+              <label>PU médio de aquisição (R$)
+                <input type="number" id="cp-pu-medio" step="0.01" placeholder="se diferente do emissão" />
+              </label>
+              <label>Data de emissão
+                <input type="date" id="cp-data-emissao" />
+              </label>
+              <label>Data de vencimento
+                <input type="date" id="cp-data-vencimento" />
+              </label>
+              <label>Periodicidade do cupom
+                <select id="cp-cupom-periodo">
+                  <option value="mensal">Mensal</option>
+                  <option value="semestral">Semestral</option>
+                  <option value="anual">Anual</option>
+                  <option value="zero">Sem cupom (zero coupon)</option>
+                </select>
+              </label>
+              <label>Amortização
+                <select id="cp-amortizacao">
+                  <option value="bullet">Bullet (principal no vcto)</option>
+                  <option value="price">Tabela Price</option>
+                </select>
+              </label>
+              <label class="cp-form-checkbox">
+                <input type="checkbox" id="cp-isento" />
+                Isento de IR
+                <span class="cp-form-hint" title="CRI/CRA/LCI/LCA e debêntures incentivadas (Lei 12.431) são isentas">ⓘ</span>
+              </label>
+            </div>
+            <div class="cp-form-actions">
+              <button class="btn-simular" onclick="adicionarPapel()" id="cp-btn-adicionar">Adicionar à carteira</button>
+              <button class="btn-voltar-tela" onclick="resetFormPapel()">Limpar</button>
+              <span id="cp-form-msg" class="sim-salvar-status"></span>
+            </div>
+          </details>
+
+          <!-- Tabela de papéis -->
+          <div class="sim-tabela-wrapper" style="margin-top:16px">
+            <table id="cp-tabela">
+              <thead>
+                <tr>
+                  <th>Tipo</th>
+                  <th>Código</th>
+                  <th>Indexador</th>
+                  <th class="num">Taxa</th>
+                  <th class="num">Qtd</th>
+                  <th class="num">PU médio</th>
+                  <th class="num">Custo</th>
+                  <th>Vencimento</th>
+                  <th>Cupom</th>
+                  <th>IR</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="cp-tbody">
+                <tr id="cp-vazio">
+                  <td colspan="11" class="sim-vazio-msg">Adicione títulos pelo formulário acima.</td>
+                </tr>
+              </tbody>
+              <tfoot id="cp-tfoot" style="display:none">
+                <tr>
+                  <td colspan="6" class="sim-total-label">Custo total</td>
+                  <td class="num" id="cp-total-custo">—</td>
+                  <td colspan="4"></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+
+          <!-- Ações da carteira -->
+          <div id="cp-salvar-wrapper" class="sim-salvar-wrapper" style="display:none">
+            <button class="btn-salvar-carteira" onclick="salvarCarteiraCP()">Salvar carteira</button>
+            <button class="btn-simular" onclick="projetarCarteiraUI()">Projetar Renda Mensal</button>
+            <span id="cp-salvar-status" class="sim-salvar-status"></span>
+          </div>
+
+          <!-- Resultado da projeção -->
+          <div id="cp-resultado" style="display:none; margin-top:24px">
+            <div class="cp-projecao-card">
+              <h3 class="cp-projecao-titulo">Projeção mensal</h3>
+              <div class="cp-projecao-meta">
+                <span><strong>Premissas:</strong> CDI <span id="cp-premissa-cdi">—</span>%, IPCA <span id="cp-premissa-ipca">4,5</span>%, valores líquidos de IR conforme tipo.</span>
+              </div>
+
+              <div class="cp-resumo-grid">
+                <div class="cp-resumo-item">
+                  <div class="cp-resumo-label">Renda média mensal (12m)</div>
+                  <div class="cp-resumo-valor" id="cp-resumo-renda-media">—</div>
+                </div>
+                <div class="cp-resumo-item">
+                  <div class="cp-resumo-label">Renda total recebida (12m)</div>
+                  <div class="cp-resumo-valor" id="cp-resumo-renda-12m">—</div>
+                </div>
+                <div class="cp-resumo-item">
+                  <div class="cp-resumo-label">Yield mensal (sobre custo)</div>
+                  <div class="cp-resumo-valor" id="cp-resumo-yield-mensal">—</div>
+                </div>
+                <div class="cp-resumo-item">
+                  <div class="cp-resumo-label">Próximo vencimento</div>
+                  <div class="cp-resumo-valor" id="cp-resumo-prox-vcto">—</div>
+                </div>
+              </div>
+
+              <div class="cp-chart-wrapper">
+                <canvas id="cp-chart"></canvas>
+              </div>
+
+              <details class="cp-detalhe-details">
+                <summary>Cronograma detalhado (mês a mês)</summary>
+                <div class="sim-tabela-wrapper">
+                  <table id="cp-cronograma">
+                    <thead>
+                      <tr>
+                        <th>Mês</th>
+                        <th class="num">Juros</th>
+                        <th class="num">Amortização</th>
+                        <th class="num">IR</th>
+                        <th class="num">Recebido (líq.)</th>
+                      </tr>
+                    </thead>
+                    <tbody id="cp-cronograma-body"></tbody>
+                  </table>
+                </div>
+              </details>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/calendario_du.js"></script>
+  <script src="js/simulador_cp.js?v=3"></script>
+  <script src="js/local.js"></script>
+  <script>guardValuation();</script>
+</body>
+</html>

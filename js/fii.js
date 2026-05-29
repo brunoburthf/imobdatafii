@@ -58,11 +58,79 @@ async function fetchPrecosLive() {
   }
 }
 
+// Le data/taxas.json (cache global por sessao) e devolve a entrada do ticker
+// pedido. Devolve null se nao houver dado.
+let _taxasCachePromise = null;
+async function fetchTaxasTicker(tk) {
+  if (!_taxasCachePromise) {
+    _taxasCachePromise = fetch("data/taxas.json")
+      .then(r => r.ok ? r.json() : null)
+      .catch(() => null);
+  }
+  const doc = await _taxasCachePromise;
+  if (!doc || !doc.taxas) return null;
+  return doc.taxas[tk] || null;
+}
+
+function renderTaxas(t) {
+  const elAdm   = document.getElementById("card-adm");
+  const elPerf  = document.getElementById("card-perf");
+  const elBadge = document.getElementById("taxas-conf-badge");
+  if (!elAdm) return;
+  if (!t) {
+    elAdm.textContent = "—";
+    elPerf.textContent = "Sem dado";
+    elPerf.title = "data/taxas.json não tem entrada pra esse ticker";
+    return;
+  }
+  // Admin
+  if (t.adm_pct != null) {
+    const tipo = t.adm_tipo === "efetiva" ? " (efetiva)" : "";
+    elAdm.textContent = fmtPctTaxa(t.adm_pct) + tipo;
+    elAdm.title = t.adm_obs || "";
+  } else {
+    elAdm.textContent = "—";
+    elAdm.title = "Admin não extraído na fnet (revisar overrides)";
+  }
+  // Performance
+  if (t.perf === true) {
+    let txt = "+ perf";
+    if (t.perf_pct != null) txt += " " + t.perf_pct + "%";
+    if (t.perf_bench)       txt += " " + t.perf_bench;
+    elPerf.textContent = txt;
+    elPerf.title = t.perf_txt || "";
+    elPerf.className = "card-sub card-sub-perf";
+  } else if (t.perf === false) {
+    elPerf.textContent = "Sem performance";
+    elPerf.title = "";
+    elPerf.className = "card-sub card-sub-noperf";
+  } else {
+    elPerf.textContent = "Performance ?";
+    elPerf.title = "Indeterminado — fnet não trouxe sinal claro";
+    elPerf.className = "card-sub card-sub-unknown";
+  }
+  // Badge de confianca
+  if (t.conf && t.conf !== "alta") {
+    elBadge.style.display = "";
+    elBadge.textContent = t.conf;
+    elBadge.className = "taxas-conf-badge conf-" + t.conf;
+    elBadge.title = "Confiança da extração (verde=alta, amarelo=média, etc)";
+  } else {
+    elBadge.style.display = "none";
+  }
+}
+
+function fmtPctTaxa(v) {
+  if (v == null) return "—";
+  return v.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "% a.a.";
+}
+
 async function carregarFii() {
   try {
-    const [resp, precos] = await Promise.all([
+    const [resp, precos, taxas] = await Promise.all([
       fetch("data/fiis/" + encodeURIComponent(ticker) + ".json?v=" + Date.now()),
-      fetchPrecosLive()
+      fetchPrecosLive(),
+      fetchTaxasTicker(ticker),
     ]);
 
     if (!resp.ok) throw new Error("Dados não encontrados para " + ticker);
@@ -72,6 +140,7 @@ async function carregarFii() {
     if (precos) aplicarPrecosLive(data.dados || {}, precos);
 
     renderizarFii(data);
+    renderTaxas(taxas);
 
     document.getElementById("loading").style.display = "none";
     document.getElementById("fii-main").style.display = "block";

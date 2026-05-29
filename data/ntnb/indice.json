@@ -1,0 +1,328 @@
+{
+  "fonte": "Tesouro Transparente (Tesouro Direto)",
+  "atualizado_em": "2026-05-19T11:20:59",
+  "url_fonte": "https://www.tesourotransparente.gov.br/ckan/dataset/df56aa42-484a-4a59-8184-7676580c81e3/resource/796d2059-14e9-44e3-80c9-2d9e30b405c1/download/PrecoTaxaTesouroDireto.csv",
+  "n_titulos": 32,
+  "titulos": [
+    {
+      "arquivo": "NTNB_2006-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2006-08-15",
+      "com_cupom": true,
+      "n_pontos": 407,
+      "data_inicio": "2004-12-31",
+      "data_fim": "2006-08-14"
+    },
+    {
+      "arquivo": "NTNB_2007-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2007-05-15",
+      "com_cupom": true,
+      "n_pontos": 466,
+      "data_inicio": "2005-07-01",
+      "data_fim": "2007-05-14"
+    },
+    {
+      "arquivo": "NTNB_2008-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2008-08-15",
+      "com_cupom": true,
+      "n_pontos": 719,
+      "data_inicio": "2005-09-27",
+      "data_fim": "2008-08-14"
+    },
+    {
+      "arquivo": "NTNB_2009-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2009-05-15",
+      "com_cupom": true,
+      "n_pontos": 1093,
+      "data_inicio": "2004-12-31",
+      "data_fim": "2009-05-14"
+    },
+    {
+      "arquivo": "NTNB_2010-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2010-08-15",
+      "com_cupom": true,
+      "n_pontos": 1143,
+      "data_inicio": "2006-01-18",
+      "data_fim": "2010-08-12"
+    },
+    {
+      "arquivo": "NTNB_2011-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2011-05-15",
+      "com_cupom": true,
+      "n_pontos": 1290,
+      "data_inicio": "2006-03-13",
+      "data_fim": "2011-05-12"
+    },
+    {
+      "arquivo": "NTNB_2012-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2012-08-15",
+      "com_cupom": true,
+      "n_pontos": 1313,
+      "data_inicio": "2007-05-21",
+      "data_fim": "2012-08-14"
+    },
+    {
+      "arquivo": "NTNB_2013-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2013-05-15",
+      "com_cupom": true,
+      "n_pontos": 1322,
+      "data_inicio": "2008-01-29",
+      "data_fim": "2013-05-14"
+    },
+    {
+      "arquivo": "NTNB_2015-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2015-05-15",
+      "com_cupom": true,
+      "n_pontos": 2594,
+      "data_inicio": "2004-12-31",
+      "data_fim": "2015-05-14"
+    },
+    {
+      "arquivo": "NTNB_2015-05-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2015-05-15",
+      "com_cupom": false,
+      "n_pontos": 2458,
+      "data_inicio": "2005-07-18",
+      "data_fim": "2015-05-14"
+    },
+    {
+      "arquivo": "NTNB_2017-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2017-05-15",
+      "com_cupom": true,
+      "n_pontos": 2498,
+      "data_inicio": "2007-05-21",
+      "data_fim": "2017-05-12"
+    },
+    {
+      "arquivo": "NTNB_2019-05-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2019-05-15",
+      "com_cupom": false,
+      "n_pontos": 1580,
+      "data_inicio": "2013-01-14",
+      "data_fim": "2019-05-14"
+    },
+    {
+      "arquivo": "NTNB_2020-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2020-08-15",
+      "com_cupom": true,
+      "n_pontos": 2861,
+      "data_inicio": "2009-03-02",
+      "data_fim": "2020-08-14"
+    },
+    {
+      "arquivo": "NTNB_2024-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2024-08-15",
+      "com_cupom": true,
+      "n_pontos": 4898,
+      "data_inicio": "2004-12-31",
+      "data_fim": "2024-08-14"
+    },
+    {
+      "arquivo": "NTNB_2024-08-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2024-08-15",
+      "com_cupom": false,
+      "n_pontos": 4762,
+      "data_inicio": "2005-07-18",
+      "data_fim": "2024-08-14"
+    },
+    {
+      "arquivo": "NTNB_2026-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2026-08-15",
+      "com_cupom": true,
+      "n_pontos": 2564,
+      "data_inicio": "2016-01-26",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2026-08-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2026-08-15",
+      "com_cupom": false,
+      "n_pontos": 1560,
+      "data_inicio": "2020-02-10",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2029-05-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2029-05-15",
+      "com_cupom": false,
+      "n_pontos": 836,
+      "data_inicio": "2023-01-09",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2030-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2030-08-15",
+      "com_cupom": true,
+      "n_pontos": 1560,
+      "data_inicio": "2020-02-10",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2032-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2032-08-15",
+      "com_cupom": true,
+      "n_pontos": 1056,
+      "data_inicio": "2022-02-21",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2032-08-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2032-08-15",
+      "com_cupom": false,
+      "n_pontos": 71,
+      "data_inicio": "2026-02-02",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2035-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2035-05-15",
+      "com_cupom": true,
+      "n_pontos": 5012,
+      "data_inicio": "2006-04-12",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2035-05-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2035-05-15",
+      "com_cupom": false,
+      "n_pontos": 4038,
+      "data_inicio": "2010-03-08",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2037-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2037-05-15",
+      "com_cupom": true,
+      "n_pontos": 71,
+      "data_inicio": "2026-02-02",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2040-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2040-08-15",
+      "com_cupom": true,
+      "n_pontos": 1560,
+      "data_inicio": "2020-02-10",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2040-08-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2040-08-15",
+      "com_cupom": false,
+      "n_pontos": 320,
+      "data_inicio": "2025-02-03",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2045-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2045-05-15",
+      "com_cupom": true,
+      "n_pontos": 5334,
+      "data_inicio": "2004-12-31",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2045-05-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2045-05-15",
+      "com_cupom": false,
+      "n_pontos": 2304,
+      "data_inicio": "2017-02-08",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2050-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2050-08-15",
+      "com_cupom": true,
+      "n_pontos": 3478,
+      "data_inicio": "2012-06-01",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2050-08-15_P.json",
+      "tipo": "Tesouro IPCA+",
+      "tipo_curto": "P",
+      "vencimento": "2050-08-15",
+      "com_cupom": false,
+      "n_pontos": 320,
+      "data_inicio": "2025-02-03",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2055-05-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2055-05-15",
+      "com_cupom": true,
+      "n_pontos": 1560,
+      "data_inicio": "2020-02-10",
+      "data_fim": "2026-05-18"
+    },
+    {
+      "arquivo": "NTNB_2060-08-15_JS.json",
+      "tipo": "Tesouro IPCA+ com Juros Semestrais",
+      "tipo_curto": "JS",
+      "vencimento": "2060-08-15",
+      "com_cupom": true,
+      "n_pontos": 320,
+      "data_inicio": "2025-02-03",
+      "data_fim": "2026-05-18"
+    }
+  ]
+}
