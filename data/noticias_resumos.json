@@ -2088,5 +2088,71 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205769",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-28T12:46:21"
+  },
+  "1206557": {
+    "ticker": "RCRB11",
+    "tipo": "FII",
+    "data": "28/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Venda do Edifício Parque Cultural Paulista",
+    "resumo": "RCRB11 assinou Compromisso de Venda e Compra da participação integral no Edifício Parque Cultural Paulista para TEPP11, totalizando R$ 77,08 mi por 5.033,58 m² BOMA. Pagamento parcelado em até 28 meses; primeira parcela prevista até 15/07/2026, sujeita a condições precedentes.",
+    "valor_envolvido": "R$ 77,08 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Comprador é o TEPP11 (Tellus Properties FII)",
+      "Pagamento parcelado em até 28 meses, com parte em dinheiro e parte via compensação de cotas do TEPP11",
+      "Consumação sujeita a condições precedentes; detalhes financeiros serão divulgados após cumprimento dessas condições"
+    ],
+    "fnet_id": 1206557,
+    "ticker_fonte": "RCRB11",
+    "data_anuncio": "2026-05-28T18:33:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1206557",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-29T06:10:58"
+  },
+  "1206497": {
+    "ticker": "TEPP11",
+    "tipo": "FII",
+    "data": "28/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Aquisição complementar no Edifício Parque Cultural Paulista",
+    "resumo": "TEPP11 assinou Compromisso de Compra e Venda para aquisição complementar dos conjuntos 41 e 42 do Edifício Parque Cultural Paulista, totalizando 1.118,56 m² BOMA, pelo valor de R$ 15,94 mi à vista, sujeito a condições precedentes.",
+    "valor_envolvido": "R$ 15,94 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Aquisição complementar ao fato relevante de 27/05/2026, conjuntos 41 e 42, 1.118,56 m² BOMA",
+      "Valor de R$ 15.939.114,06 a ser pago à vista, sujeito a condições precedentes",
+      "Detalhes financeiros (cap rate, impacto no PL) serão divulgados após conclusão da operação"
+    ],
+    "fnet_id": 1206497,
+    "ticker_fonte": "TEPP11",
+    "data_anuncio": "2026-05-28T18:08:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1206497",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-29T06:11:07"
+  },
+  "1206490": {
+    "ticker": "BRCO11",
+    "tipo": "FII",
+    "data": "28/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Contratação de formador de mercado Suno",
+    "resumo": "BRCO11 contratou a Suno Desenvolvimento Ltda. como formador de mercado. Contrato vigente a partir da assinatura, com prazo inicial de 6 meses e renovação automática por períodos iguais, salvo rescisão com 30 dias de antecedência.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Formador de mercado: Suno Desenvolvimento Ltda.",
+      "Prazo inicial de 6 meses com renovação automática",
+      "Rescisão requer aviso prévio de 30 dias"
+    ],
+    "fnet_id": 1206490,
+    "ticker_fonte": "BRCO11",
+    "data_anuncio": "2026-05-28T18:05:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1206490",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-29T06:11:14"
   }
 }
