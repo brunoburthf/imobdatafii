@@ -329,50 +329,6 @@
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-06T09:35:03"
   },
-  "1173338": {
-    "ticker": "HCTR11",
-    "tipo": "FII",
-    "data": "29/04/2026",
-    "categoria": "laudo",
-    "titulo_curto": "Remarcação de ativos gera queda de 6,54% no PL",
-    "resumo": "Hectare CE FII comunicou remarcação de ativos com base em revisão da metodologia de marcação a mercado pela administradora Vórtx, resultando em variação negativa de 6,54% no patrimônio líquido do fundo em 20/02/2026.",
-    "valor_envolvido": "null",
-    "criticidade": "alta",
-    "pontos_chave": [
-      "Variação negativa de 6,54% no PL apurada em 20/02/2026",
-      "Remarcação decorrente de revisão metodológica de marcação a mercado pela Vórtx",
-      "Comunicado emitido em cumprimento à Resolução CVM nº 175/2022"
-    ],
-    "fnet_id": 1173338,
-    "ticker_fonte": "HCTR11",
-    "data_anuncio": "2026-04-29T18:24:00",
-    "categoria_fnet": "Fato Relevante",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1173338",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-05-07T09:51:28"
-  },
-  "1171929": {
-    "ticker": "RCRB11",
-    "tipo": "FII",
-    "data": "23/04/2026",
-    "categoria": "vacancia",
-    "titulo_curto": "Nova locação no JK Financial Center",
-    "resumo": "RCRB11 assinou contrato de locação com Belliz Indústria no 11º andar do JK Financial Center, 972,74 m², prazo de 60 meses até 30/06/2031, reajuste IPCA. Aumento real de 26% no aluguel, vacância mantida em 0% e impacto positivo de R$ 0,05/cota.",
-    "valor_envolvido": "null",
-    "criticidade": "media",
-    "pontos_chave": [
-      "Contrato de 60 meses com Belliz Indústria, vigência até 30/06/2031, reajuste IPCA",
-      "Aumento real de 26% no valor de locação em relação ao contrato anterior",
-      "Vacância física mantida em 0%; impacto positivo de R$ 0,05/cota no resultado mensal"
-    ],
-    "fnet_id": 1171929,
-    "ticker_fonte": "RCRB11",
-    "data_anuncio": "2026-04-29T09:09:00",
-    "categoria_fnet": "Fato Relevante",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1171929",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-05-07T09:51:37"
-  },
   "1182241": {
     "ticker": "SNRI11",
     "tipo": "FII",
@@ -2154,5 +2110,115 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1206490",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-29T06:11:14"
+  },
+  "1208193": {
+    "ticker": "TRXF11",
+    "tipo": "FII",
+    "data": "29/05/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Aquisição de 18 imóveis Hospital Sírio Libanês BTS",
+    "resumo": "TRXF11 conclui aquisição de 18 imóveis (9 lajes, Torre Orvalho, SP) da Brookfield, locados ao Hospital Sírio Libanês em BTS. Preço total R$ 219,4 mi, pagamento parcelado. Capex adicional de R$ 109 mi para obras. Contrato até 2054, carência neutralizada por renda mínima garantida pelo vendedor.",
+    "valor_envolvido": "R$ 219,4 mi (+ R$ 109 mi capex)",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de aquisição R$ 219,4 mi: R$ 68,2 mi pagos à vista e saldo em 5 parcelas com correção IPCA+4,5% a.a.",
+      "Aporte Capex Obra de R$ 109 mi (podendo chegar a R$ 129 mi) para adaptação dos imóveis ao uso médico-hospitalar",
+      "Contrato BTS vigente até 2054 com carência até set/2026 e desconto até fev/2027, ambos neutralizados por renda mínima garantida pela vendedora"
+    ],
+    "fnet_id": 1208193,
+    "ticker_fonte": "TRXF11",
+    "data_anuncio": "2026-05-29T18:33:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208193",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-30T05:44:46"
+  },
+  "1208134": {
+    "ticker": "VILG11",
+    "tipo": "FII",
+    "data": "29/05/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Distribuição de rendimentos maio 2026",
+    "resumo": "Vinci Logística FII anuncia rendimento de R$ 0,82 por cota referente a maio de 2026. Pagamento em 15/06/2026 para detentores na data-base de 29/05/2026. Gestor: Vinci Real Estate; Administrador: BRL Trust.",
+    "valor_envolvido": "R$ 0,82 por cota",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Rendimento de R$ 0,82 por cota referente a maio de 2026",
+      "Data de pagamento: 15 de junho de 2026",
+      "Data-base (posição): 29 de maio de 2026"
+    ],
+    "fnet_id": 1208134,
+    "ticker_fonte": "VILG11",
+    "data_anuncio": "2026-05-29T18:17:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208134",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-30T05:44:54"
+  },
+  "1208133": {
+    "ticker": "VINO11",
+    "tipo": "FII",
+    "data": "29/05/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Distribuição de rendimentos maio 2026",
+    "resumo": "Vinci Offices FII anuncia rendimento de R$ 0,040 por cota referente a maio de 2026. Pagamento programado para 15 de junho de 2026 aos cotistas posicionados no fechamento de 29 de maio de 2026. Relatório mensal disponível em 08/06/2026.",
+    "valor_envolvido": "R$ 0,040 por cota",
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Rendimento de R$ 0,040 por cota referente a maio/2026",
+      "Pagamento em 15/06/2026 para cotistas na data-base de 29/05/2026",
+      "Relatório mensal de desempenho divulgado em 08/06/2026"
+    ],
+    "fnet_id": 1208133,
+    "ticker_fonte": "VINO11",
+    "data_anuncio": "2026-05-29T18:16:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208133",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-30T05:45:01"
+  },
+  "1208117": {
+    "ticker": "VISC11",
+    "tipo": "FII",
+    "data": "29/05/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "VISC11 anuncia rendimento de R$ 0,84 por cota",
+    "resumo": "Vinci Shopping Centers FII declara rendimento de R$ 0,84 por cota referente a maio de 2026. Pagamento em 15/06/2026 aos detentores de cotas na data-base de 29/05/2026. Relatório mensal disponível em 08/06/2026.",
+    "valor_envolvido": "R$ 0,84 por cota",
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Rendimento de R$ 0,84 por cota referente a maio/2026",
+      "Data-base: 29/05/2026; pagamento em 15/06/2026",
+      "Relatório mensal de desempenho disponível em 08/06/2026"
+    ],
+    "fnet_id": 1208117,
+    "ticker_fonte": "VISC11",
+    "data_anuncio": "2026-05-29T18:14:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208117",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-30T05:45:09"
+  },
+  "1208116": {
+    "ticker": null,
+    "tipo": "Fiagro",
+    "data": "29/05/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Aprovação contas anuais exercício 2025",
+    "resumo": "AGC realizada em 28/05/2026 aprovou as contas anuais do BTG Pactual Crédito Agrícola Fiagro Direitos Creditórios (CNPJ 40.771.109/0001-47) referentes ao exercício encerrado em 31/12/2025. Administradora: BTG Pactual Serviços Financeiros S.A. DTVM.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "AGC de 28/05/2026 aprovou contas anuais do exercício 2025",
+      "Administradora: BTG Pactual Serviços Financeiros S.A. DTVM",
+      "Fundo sem ticker identificado — CNPJ 40.771.109/0001-47"
+    ],
+    "fnet_id": 1208116,
+    "ticker_fonte": "BTAG11",
+    "data_anuncio": "2026-05-29T18:13:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208116",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-05-30T05:45:16"
   }
 }
