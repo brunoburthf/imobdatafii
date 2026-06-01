@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "31/05/2026 14:49",
+  "atualizado_em": "01/06/2026 06:49",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -1531,6 +1531,23 @@
       "fnet_id": 1199726,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1199726"
+    },
+    {
+      "ticker": "CPSH11",
+      "nome_fundo": "Capitânia Shoppings FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-05-19T17:09:00",
+      "data_com": "2026-05-19",
+      "data_pagamento": "2026-05-26",
+      "valor": 0.11,
+      "valor_anterior": 0.11,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Abril-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1199434,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1199434"
     },
     {
       "ticker": "BROF11",
@@ -3518,6 +3535,16 @@
   ],
   "relatorios_gerenciais": [
     {
+      "ticker": "FATN11",
+      "nome_fundo": "Brc Renda Corporativa FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-05-31T15:00:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1208971,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208971"
+    },
+    {
       "ticker": "BTCI11",
       "nome_fundo": "BTG Pactual Crédito Imobiliário FII",
       "setor": "Crédito Imobiliário",
@@ -4826,16 +4853,6 @@
       "fnet_id": 1178806,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1178806"
-    },
-    {
-      "ticker": "BTLG11",
-      "nome_fundo": "BTG Pactual Logística FII",
-      "setor": "Logística",
-      "data_anuncio": "2026-05-01T11:26:00",
-      "data_referencia": "30/04/2026",
-      "fnet_id": 1178667,
-      "fnet_versao": 2,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1178667"
     }
   ]
 }
