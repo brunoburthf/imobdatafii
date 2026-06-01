@@ -2022,5 +2022,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208116",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-05-30T05:45:16"
+  },
+  "1209075": {
+    "ticker": "TRXF11",
+    "tipo": "FII",
+    "data": "01/06/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Venda de 9 imóveis ao BTG Pactual concluída",
+    "resumo": "TRXF11 e TRXB11 concluíram venda de 9 imóveis (Carrefour, Grupo Mateus, Sendas) ao BTG Pactual por R$ 672 mi. Transação reduz alavancagem em ~R$ 288 mi (CRI). Guidance TRXF11 revisado para R$ 0,90–R$ 0,93/cota até dez/2026.",
+    "valor_envolvido": "R$ 672 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Venda de 9 imóveis por R$ 672 mi; R$ 291 mi destinados à liquidação de CRIs vinculados aos ativos",
+      "Redução de alavancagem: ~R$ 186 mi (TRXF11) e ~R$ 102 mi (TRXB11) em saldo devedor de CRI",
+      "Guidance de dividendos do TRXF11 postergado para R$ 0,90–R$ 0,93/cota até dezembro de 2026"
+    ],
+    "fnet_id": 1209075,
+    "ticker_fonte": "TRXF11",
+    "data_anuncio": "2026-06-01T09:48:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1209075",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-01T17:39:27"
+  },
+  "1209071": {
+    "ticker": "TRXF11",
+    "tipo": "FII",
+    "data": "01/06/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Venda de 9 imóveis para veículo BTG Pactual",
+    "resumo": "TRXF11 e TRXB11 concluíram venda de 9 imóveis (Carrefour, Grupo Mateus, Sendas) para veículo gerido por afiliada do BTG Pactual por R$ 672 mi. Redução de alavancagem de ~R$ 288 mi em CRIs. Guidance TRXF11 postergado para R$ 0,90–R$ 0,93/cota até dez/2026.",
+    "valor_envolvido": "R$ 672 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Venda de 9 imóveis por R$ 672 mi, sendo R$ 291 mi para liquidação de dívidas vinculadas e R$ 134,4 mi pagos em cronograma aos fundos",
+      "Redução de alavancagem: ~R$ 186 mi em CRIs do TRXF11 e ~R$ 102 mi em CRIs do TRXB11",
+      "Guidance de dividendos do TRXF11 revisado para R$ 0,90–R$ 0,93/cota até dezembro de 2026"
+    ],
+    "fnet_id": 1209071,
+    "ticker_fonte": "TRXF11",
+    "data_anuncio": "2026-06-01T09:44:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1209071",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-01T17:39:40"
   }
 }
