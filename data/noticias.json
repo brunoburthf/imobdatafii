@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "01/06/2026 18:42",
+  "atualizado_em": "02/06/2026 06:31",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "GGRC11",
+      "nome_fundo": "Ggr Covepi Renda FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-06-01T18:17:00",
+      "data_com": "2026-06-01",
+      "data_pagamento": "2026-06-09",
+      "valor": 0.1,
+      "valor_anterior": 0.1,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "05-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1209796,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1209796"
+    },
     {
       "ticker": "ARRI11",
       "nome_fundo": "FII Atrio Reit Recebiveis Imobiliarios",
@@ -528,6 +545,23 @@
       "fnet_id": 1207925,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207925"
+    },
+    {
+      "ticker": "KNCR11",
+      "nome_fundo": "Kinea Rendimentos Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-29T17:28:00",
+      "data_com": "2026-05-29",
+      "data_pagamento": "2026-06-12",
+      "valor": 1.1,
+      "valor_anterior": 1.1,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "MAIO 2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1207924,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207924"
     },
     {
       "ticker": "KNIP11",
@@ -2504,6 +2538,17 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "OUJP11",
+      "nome_fundo": "Ourinvest Jpp FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-01T19:12:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1210050,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1210050"
+    },
+    {
       "ticker": "TRXF11",
       "nome_fundo": "Trx Real Estate FII",
       "setor": "Tijolo Multissetorial",
@@ -3539,6 +3584,86 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "BTLG11",
+      "nome_fundo": "BTG Pactual Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-06-01T19:52:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1210123,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1210123"
+    },
+    {
+      "ticker": "HABT11",
+      "nome_fundo": "Habitat Recebíveis Pulverizados FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-01T19:41:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1210089,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1210089"
+    },
+    {
+      "ticker": "KNRI11",
+      "nome_fundo": "Kinea Renda Imobiliária FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-06-01T18:59:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1210027,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1210027"
+    },
+    {
+      "ticker": "KORE11",
+      "nome_fundo": "Kinea Oportunidades Real Estate FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-06-01T18:53:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1210017,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1210017"
+    },
+    {
+      "ticker": "XPCI11",
+      "nome_fundo": "Xp Crédito Imobiliário FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-01T18:49:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1210012,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1210012"
+    },
+    {
+      "ticker": "KIVO11",
+      "nome_fundo": "Kilima Volkano Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-01T18:43:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1210002,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1210002"
+    },
+    {
+      "ticker": "BRCR11",
+      "nome_fundo": "BTG Pactual Corporate Office Fund FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-06-01T18:03:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1209752,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1209752"
+    },
+    {
+      "ticker": "BPML11",
+      "nome_fundo": "BTG Pactual Shoppings FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-06-01T18:02:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1209747,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1209747"
+    },
     {
       "ticker": "CPSH11",
       "nome_fundo": "Capitânia Shoppings FII",
