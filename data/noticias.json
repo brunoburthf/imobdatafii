@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/06/2026 06:47",
+  "atualizado_em": "03/06/2026 16:45",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -52,23 +52,6 @@
       "fnet_id": 1208261,
       "fnet_versao": 2,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208261"
-    },
-    {
-      "ticker": "BRCO11",
-      "nome_fundo": "Bresco Logística FII",
-      "setor": "Logística",
-      "data_anuncio": "2026-05-29T19:03:00",
-      "data_com": "2026-05-29",
-      "data_pagamento": "2026-06-15",
-      "valor": 0.95,
-      "valor_anterior": 0.95,
-      "variacao_pct": 0.0,
-      "periodo_referencia": "MAIO",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1208258,
-      "fnet_versao": 2,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1208258"
     },
     {
       "ticker": "CACR11",
@@ -749,6 +732,23 @@
       "fnet_id": 1207894,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207894"
+    },
+    {
+      "ticker": "BRCO11",
+      "nome_fundo": "Bresco Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-05-29T17:20:00",
+      "data_com": "2026-05-29",
+      "data_pagamento": "2026-06-12",
+      "valor": 0.95,
+      "valor_anterior": 0.95,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "MAIO",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1207881,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207881"
     },
     {
       "ticker": "BBIG11",
