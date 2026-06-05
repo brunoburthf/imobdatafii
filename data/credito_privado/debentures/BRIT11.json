@@ -1,0 +1,184 @@
+{
+  "codigo": "BRIT11",
+  "nome": "BRISANET PARTICIPACOES S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2027-08-25",
+  "indexador": "CDI+",
+  "spread_contratual": 2.0,
+  "indexador_raw": "DI + 2%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.326,
+    "taxa_venda": 0.8077,
+    "taxa_indicativa": 1.0736,
+    "desvio_padrao": 0.1533,
+    "intervalo_min": 0.9203,
+    "intervalo_max": 1.227,
+    "pu": 698.433311,
+    "pct_pu_par": 100.6241,
+    "duration_du": 172.1,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRBRSTDBS019",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 2,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-08-30",
+    "data_emissao": "2022-08-25",
+    "data_vencimento": "2027-08-25",
+    "data_novo_vcto": "2027-08-25",
+    "inicio_rentabilidade": "2022-08-31",
+    "inicio_distribuicao": "2022-07-20",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 300000,
+    "qtd_mercado": 114201,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 666.667,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-08-25",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.0,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-02-25",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "04601397000128",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-08-25",
+  "primeiro_cupom": "2023-02-25",
+  "cnpj_emissor": "04601397000128",
+  "isin": "BRBRSTDBS019",
+  "snd_atualizado_em": "2026-06-02T15:11:12",
+  "eventos_passados": [
+    {
+      "data": "2023-02-27",
+      "tipo": "Juros",
+      "valor": 74.1532
+    },
+    {
+      "data": "2023-08-25",
+      "tipo": "Juros",
+      "valor": 75.743
+    },
+    {
+      "data": "2024-02-26",
+      "tipo": "Juros",
+      "valor": 67.8651
+    },
+    {
+      "data": "2024-08-26",
+      "tipo": "Juros",
+      "valor": 62.498
+    },
+    {
+      "data": "2025-02-25",
+      "tipo": "Juros",
+      "valor": 66.7232
+    },
+    {
+      "data": "2025-08-25",
+      "tipo": "Amortizacao",
+      "valor": 333.333
+    },
+    {
+      "data": "2025-08-25",
+      "tipo": "Juros",
+      "valor": 78.3731
+    },
+    {
+      "data": "2026-02-25",
+      "tipo": "Juros",
+      "valor": 55.5081
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-08-25",
+      "valor_estimado": 333.3335
+    },
+    {
+      "data": "2027-08-25",
+      "valor_estimado": 333.3335
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:24",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-25",
+        "data_pagamento": "2026-08-25",
+        "base": "DI",
+        "taxa_pct": 2.0
+      },
+      {
+        "data_evento": "2027-02-25",
+        "data_pagamento": "2027-02-25",
+        "base": "DI",
+        "taxa_pct": 2.0
+      },
+      {
+        "data_evento": "2027-08-25",
+        "data_pagamento": "2027-08-25",
+        "base": "DI",
+        "taxa_pct": 2.0
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-08-25",
+        "data_pagamento": "2026-08-25",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2027-08-25",
+      "data_pagamento": "2027-08-25"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-08-25",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-08-25",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

@@ -1,0 +1,223 @@
+{
+  "codigo": "AXIA28",
+  "nome": "CENTRAIS ELETRICAS BRASILEIRAS S/A ELETROBRAS",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2036-02-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.7116,
+  "indexador_raw": "IPCA + 6,7116%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.8894,
+    "taxa_venda": 7.683,
+    "taxa_indicativa": 7.7676,
+    "desvio_padrao": 0.0669,
+    "intervalo_min": 7.7007,
+    "intervalo_max": 7.8345,
+    "pu": 970.370398,
+    "pct_pu_par": 93.2344,
+    "duration_du": 1779.3,
+    "pct_reune": 5.0,
+    "referencia_ntnb": "15/05/2035"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRAXIADBS0D6",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 8,
+    "registro_cvm": "AUT/DEB/PRI/2026/098",
+    "data_registro_cvm": "2026-02-24",
+    "data_emissao": "2026-02-15",
+    "data_vencimento": "2036-02-15",
+    "data_novo_vcto": "2036-02-15",
+    "inicio_rentabilidade": "2026-02-25",
+    "inicio_distribuicao": "2026-02-24",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 368900,
+    "qtd_mercado": 368900,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1023.74725,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 6.7116,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-08-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "00001180000126",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2026-02-15",
+  "primeiro_cupom": "2026-08-15",
+  "cnpj_emissor": "00001180000126",
+  "isin": "BRAXIADBS0D6",
+  "snd_atualizado_em": "2026-06-02T15:11:10",
+  "eventos_passados": [],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:23",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-15",
+        "data_pagamento": "2026-08-17",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2027-02-15",
+        "data_pagamento": "2027-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2027-08-15",
+        "data_pagamento": "2027-08-16",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2028-02-15",
+        "data_pagamento": "2028-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2028-08-15",
+        "data_pagamento": "2028-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2029-02-15",
+        "data_pagamento": "2029-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2029-08-15",
+        "data_pagamento": "2029-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2030-02-15",
+        "data_pagamento": "2030-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2030-08-15",
+        "data_pagamento": "2030-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2031-02-15",
+        "data_pagamento": "2031-02-17",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2031-08-15",
+        "data_pagamento": "2031-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2032-02-15",
+        "data_pagamento": "2032-02-16",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2032-08-15",
+        "data_pagamento": "2032-08-16",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2033-02-15",
+        "data_pagamento": "2033-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2033-08-15",
+        "data_pagamento": "2033-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2034-02-15",
+        "data_pagamento": "2034-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2034-08-15",
+        "data_pagamento": "2034-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2035-02-15",
+        "data_pagamento": "2035-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2035-08-15",
+        "data_pagamento": "2035-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      },
+      {
+        "data_evento": "2036-02-15",
+        "data_pagamento": "2036-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7116
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2036-02-15",
+      "data_pagamento": "2036-02-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2036-02-15",
+      "valor_estimado": 1566.6917,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

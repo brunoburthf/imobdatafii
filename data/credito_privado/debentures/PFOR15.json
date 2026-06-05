@@ -1,0 +1,184 @@
+{
+  "codigo": "PFOR15",
+  "nome": "PRIO FORTE S.A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-02-20",
+  "indexador": "CDI+",
+  "spread_contratual": 1.2,
+  "indexador_raw": "DI + 1,2%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.5958,
+    "taxa_venda": 1.2474,
+    "taxa_indicativa": 1.4323,
+    "desvio_padrao": 0.0445,
+    "intervalo_min": 1.3878,
+    "intervalo_max": 1.4769,
+    "pu": 1034.851827,
+    "pct_pu_par": 99.4183,
+    "duration_du": 640.86,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRPFORDBS009",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 5,
+    "registro_cvm": "AUT/DEB/PRI/2025/195",
+    "data_registro_cvm": "2025-02-24",
+    "data_emissao": "2025-02-20",
+    "data_vencimento": "2030-02-20",
+    "data_novo_vcto": "2030-02-20",
+    "inicio_rentabilidade": "2025-02-28",
+    "inicio_distribuicao": "2025-02-24",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 800000,
+    "qtd_mercado": 800000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2029-02-20",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal de emissão em períodos uniformes",
+    "juros_taxa": 1.2,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-08-20",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "08926302000105",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-02-20",
+  "primeiro_cupom": "2025-08-20",
+  "cnpj_emissor": "08926302000105",
+  "isin": "BRPFORDBS009",
+  "snd_atualizado_em": "2026-06-02T15:12:15",
+  "eventos_passados": [
+    {
+      "data": "2025-08-20",
+      "tipo": "Juros",
+      "valor": 70.5815
+    },
+    {
+      "data": "2026-02-20",
+      "tipo": "Juros",
+      "valor": 78.972
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2029-02-20",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2030-02-20",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:31",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-20",
+        "data_pagamento": "2026-08-20",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2027-02-20",
+        "data_pagamento": "2027-02-22",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2027-08-20",
+        "data_pagamento": "2027-08-20",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2028-02-20",
+        "data_pagamento": "2028-02-21",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2028-08-20",
+        "data_pagamento": "2028-08-21",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2029-02-20",
+        "data_pagamento": "2029-02-20",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2029-08-20",
+        "data_pagamento": "2029-08-20",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2030-02-20",
+        "data_pagamento": "2030-02-20",
+        "base": "DI",
+        "taxa_pct": 1.2
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2029-02-20",
+        "data_pagamento": "2029-02-20",
+        "base_calc": "VNE FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2030-02-20",
+      "data_pagamento": "2030-02-20"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-02-20",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE FIX/UNIF"
+    },
+    {
+      "data": "2030-02-20",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

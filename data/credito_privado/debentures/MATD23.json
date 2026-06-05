@@ -1,0 +1,209 @@
+{
+  "codigo": "MATD23",
+  "nome": "HOSPITAL MATER DEI S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-07-18",
+  "indexador": "CDI+",
+  "spread_contratual": 1.1,
+  "indexador_raw": "DI + 1,1%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.0957,
+    "taxa_venda": 0.6327,
+    "taxa_indicativa": 0.8716,
+    "desvio_padrao": 0.0457,
+    "intervalo_min": 0.826,
+    "intervalo_max": 0.9174,
+    "pu": 1063.412404,
+    "pct_pu_par": 100.8614,
+    "duration_du": 956.83,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMATDDBS030",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 3,
+    "registro_cvm": "AUT/DEB/PRI/2025/531",
+    "data_registro_cvm": "2025-07-18",
+    "data_emissao": "2025-07-18",
+    "data_vencimento": "2032-07-18",
+    "data_novo_vcto": "2032-07-18",
+    "inicio_rentabilidade": "2025-07-23",
+    "inicio_distribuicao": "2025-07-18",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 200000,
+    "qtd_mercado": 200000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2031-07-18",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.1,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-01-18",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BTG PACTUAL SERV.FINANCEIROS S/A DTVM",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "16676520000159",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-07-18",
+  "primeiro_cupom": "2026-01-18",
+  "cnpj_emissor": "16676520000159",
+  "isin": "BRMATDDBS030",
+  "snd_atualizado_em": "2026-06-02T15:12:04",
+  "eventos_passados": [
+    {
+      "data": "2026-01-19",
+      "tipo": "Juros",
+      "valor": 77.1529
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2031-07-18",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2032-07-18",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:20",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-18",
+        "data_pagamento": "2026-07-20",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2027-01-18",
+        "data_pagamento": "2027-01-18",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2027-07-18",
+        "data_pagamento": "2027-07-19",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2028-01-18",
+        "data_pagamento": "2028-01-18",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2028-07-18",
+        "data_pagamento": "2028-07-18",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2029-01-18",
+        "data_pagamento": "2029-01-18",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2029-07-18",
+        "data_pagamento": "2029-07-18",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2030-01-18",
+        "data_pagamento": "2030-01-18",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2030-07-18",
+        "data_pagamento": "2030-07-18",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2031-01-18",
+        "data_pagamento": "2031-01-20",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2031-07-18",
+        "data_pagamento": "2031-07-18",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2032-01-18",
+        "data_pagamento": "2032-01-19",
+        "base": "DI",
+        "taxa_pct": 1.1
+      },
+      {
+        "data_evento": "2032-07-18",
+        "data_pagamento": "2032-07-19",
+        "base": "DI",
+        "taxa_pct": 1.1
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2031-07-18",
+        "data_pagamento": "2031-07-18",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-07-18",
+      "data_pagamento": "2032-07-19"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-07-18",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2032-07-19",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

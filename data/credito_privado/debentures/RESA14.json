@@ -1,0 +1,129 @@
+{
+  "codigo": "RESA14",
+  "nome": "RAIZEN ENERGIA S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2029-11-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 3.539,
+  "indexador_raw": "IPCA + 3,539%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": null,
+    "desvio_padrao": null,
+    "intervalo_min": null,
+    "intervalo_max": null,
+    "pu": 695.261861,
+    "pct_pu_par": 48.3069,
+    "duration_du": null,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRESADBS039",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 4,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2019-11-27",
+    "data_emissao": "2019-11-15",
+    "data_vencimento": "2029-11-15",
+    "data_novo_vcto": "2029-11-15",
+    "inicio_rentabilidade": "2019-11-28",
+    "inicio_distribuicao": "2019-11-28",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 900000,
+    "qtd_mercado": 0,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1427.4275,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2027-11-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 3.539,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2020-11-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "08070508000178",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-11-15",
+  "primeiro_cupom": "2020-11-15",
+  "cnpj_emissor": "08070508000178",
+  "isin": "BRRESADBS039",
+  "snd_atualizado_em": "2026-06-02T15:12:22",
+  "eventos_passados": [
+    {
+      "data": "2020-11-16",
+      "tipo": "Juros",
+      "valor": 35.0731
+    },
+    {
+      "data": "2021-11-16",
+      "tipo": "Juros",
+      "valor": 40.291
+    },
+    {
+      "data": "2022-11-16",
+      "tipo": "Juros",
+      "valor": 43.2472
+    },
+    {
+      "data": "2023-11-16",
+      "tipo": "Juros",
+      "valor": 45.1483
+    },
+    {
+      "data": "2024-11-18",
+      "tipo": "Juros",
+      "valor": 47.8718
+    },
+    {
+      "data": "2025-11-17",
+      "tipo": "Juros",
+      "valor": 49.5103
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-11-15",
+      "valor_estimado": 475.8092
+    },
+    {
+      "data": "2028-11-15",
+      "valor_estimado": 475.8092
+    },
+    {
+      "data": "2029-11-15",
+      "valor_estimado": 475.8092
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:41"
+}

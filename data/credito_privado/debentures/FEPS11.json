@@ -1,0 +1,198 @@
+{
+  "codigo": "FEPS11",
+  "nome": "FARO ENERGY PROJ. SOL. HOL. IV S.A",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2040-01-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 8.6895,
+  "indexador_raw": "IPCA + 8,6895%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.9565,
+    "taxa_venda": 8.6872,
+    "taxa_indicativa": 8.8522,
+    "desvio_padrao": 0.0406,
+    "intervalo_min": 8.8116,
+    "intervalo_max": 8.8929,
+    "pu": 1096.477548,
+    "pct_pu_par": 99.2611,
+    "duration_du": 1246.98,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2032"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRFEPSDBS008",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 1,
+    "registro_cvm": "AUT/DEB/PRI/2025/180",
+    "data_registro_cvm": "2025-02-05",
+    "data_emissao": "2025-01-15",
+    "data_vencimento": "2040-01-15",
+    "data_novo_vcto": "2040-01-15",
+    "inicio_rentabilidade": "2025-02-06",
+    "inicio_distribuicao": "2025-02-05",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 200000,
+    "qtd_mercado": 200000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1071.81001,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2026-07-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 8.6895,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-01-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "48904104000157",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-01-15",
+  "primeiro_cupom": "2026-01-15",
+  "cnpj_emissor": "48904104000157",
+  "isin": "BRFEPSDBS008",
+  "snd_atualizado_em": "2026-06-02T15:11:50",
+  "eventos_passados": [],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2027-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2027-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2028-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2028-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2029-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2029-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2030-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2030-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2031-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2031-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2032-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2032-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2033-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2033-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2034-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2034-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2035-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2035-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2036-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2036-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2037-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2037-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2038-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2038-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2039-01-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2039-07-15",
+      "valor_estimado": 38.2789
+    },
+    {
+      "data": "2040-01-15",
+      "valor_estimado": 38.2789
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:08"
+}

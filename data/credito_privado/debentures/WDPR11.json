@@ -1,0 +1,385 @@
+{
+  "codigo": "WDPR11",
+  "nome": "WINDEPAR HOLDING S. A.",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2028-12-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 7.6276,
+  "indexador_raw": "IPCA + 7,6276%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.9681,
+    "taxa_venda": 7.5053,
+    "taxa_indicativa": 7.7507,
+    "desvio_padrao": 0.1085,
+    "intervalo_min": 7.6422,
+    "intervalo_max": 7.8594,
+    "pu": 837.852575,
+    "pct_pu_par": 99.8554,
+    "duration_du": 318.92,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2027"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:24",
+  "snd": {
+    "isin": "BRWDPRDBS007",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 1,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2016-12-14",
+    "data_emissao": "2016-12-15",
+    "data_vencimento": "2028-12-15",
+    "data_novo_vcto": "2028-12-15",
+    "inicio_rentabilidade": "2016-12-15",
+    "inicio_distribuicao": "2016-12-15",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 67500,
+    "qtd_mercado": 67500,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 786.490168,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Não Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2018-06-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.0,
+    "juros_prazo_base": null,
+    "juros_cada": null,
+    "juros_unidade": null,
+    "primeiro_cupom": null,
+    "juros_criterio": null,
+    "juros_tipo": null,
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "23733733000130",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2016-12-15",
+  "cnpj_emissor": "23733733000130",
+  "isin": "BRWDPRDBS007",
+  "snd_atualizado_em": "2026-06-02T15:12:43",
+  "eventos_passados": [
+    {
+      "data": "2018-06-15",
+      "tipo": "Amortizacao",
+      "valor": 5.2313
+    },
+    {
+      "data": "2018-06-15",
+      "tipo": "Juros",
+      "valor": 120.5991
+    },
+    {
+      "data": "2018-12-17",
+      "tipo": "Amortizacao",
+      "valor": 5.348
+    },
+    {
+      "data": "2018-12-17",
+      "tipo": "Juros",
+      "valor": 40.166
+    },
+    {
+      "data": "2019-06-17",
+      "tipo": "Amortizacao",
+      "valor": 10.95
+    },
+    {
+      "data": "2019-06-17",
+      "tipo": "Juros",
+      "valor": 39.9279
+    },
+    {
+      "data": "2019-12-16",
+      "tipo": "Amortizacao",
+      "valor": 11.0465
+    },
+    {
+      "data": "2019-12-16",
+      "tipo": "Juros",
+      "valor": 41.1838
+    },
+    {
+      "data": "2020-06-15",
+      "tipo": "Amortizacao",
+      "valor": 19.522
+    },
+    {
+      "data": "2020-06-15",
+      "tipo": "Juros",
+      "valor": 39.2015
+    },
+    {
+      "data": "2020-12-15",
+      "tipo": "Amortizacao",
+      "valor": 20.1653
+    },
+    {
+      "data": "2020-12-15",
+      "tipo": "Juros",
+      "valor": 41.7538
+    },
+    {
+      "data": "2021-06-15",
+      "tipo": "Amortizacao",
+      "valor": 28.6289
+    },
+    {
+      "data": "2021-06-15",
+      "tipo": "Juros",
+      "valor": 41.1719
+    },
+    {
+      "data": "2021-12-15",
+      "tipo": "Amortizacao",
+      "valor": 30.3055
+    },
+    {
+      "data": "2021-12-15",
+      "tipo": "Juros",
+      "valor": 43.8831
+    },
+    {
+      "data": "2022-06-15",
+      "tipo": "Amortizacao",
+      "valor": 40.4055
+    },
+    {
+      "data": "2022-06-15",
+      "tipo": "Juros",
+      "valor": 44.7495
+    },
+    {
+      "data": "2022-12-15",
+      "tipo": "Amortizacao",
+      "valor": 40.5391
+    },
+    {
+      "data": "2022-12-15",
+      "tipo": "Juros",
+      "valor": 43.3806
+    },
+    {
+      "data": "2023-06-15",
+      "tipo": "Amortizacao",
+      "valor": 55.9936
+    },
+    {
+      "data": "2023-06-15",
+      "tipo": "Juros",
+      "valor": 42.6655
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Amortizacao",
+      "valor": 56.5847
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Juros",
+      "valor": 42.0541
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Amortizacao",
+      "valor": 80.0149
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Juros",
+      "valor": 40.0532
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Amortizacao",
+      "valor": 81.5947
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Juros",
+      "valor": 39.0832
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Amortizacao",
+      "valor": 99.5933
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 35.6815
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Amortizacao",
+      "valor": 100.7326
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 33.7523
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-06-15",
+      "valor_estimado": 131.0817
+    },
+    {
+      "data": "2026-12-15",
+      "valor_estimado": 131.0817
+    },
+    {
+      "data": "2027-06-15",
+      "valor_estimado": 131.0817
+    },
+    {
+      "data": "2027-12-15",
+      "valor_estimado": 131.0817
+    },
+    {
+      "data": "2028-06-15",
+      "valor_estimado": 131.0817
+    },
+    {
+      "data": "2028-12-15",
+      "valor_estimado": 131.0817
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:10",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6276
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6276
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6276
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6276
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "IPCA",
+        "taxa_pct": 7.6276
+      },
+      {
+        "data_evento": "2028-12-15",
+        "data_pagamento": "2028-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6276
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 14.2857
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 16.6667
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 23.4483
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 30.6306
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-12-15",
+      "data_pagamento": "2028-12-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-06-15",
+      "valor_estimado": 112.3556,
+      "percentual": 14.2857,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-12-15",
+      "valor_estimado": 114.8562,
+      "percentual": 16.6667,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-06-15",
+      "valor_estimado": 137.6553,
+      "percentual": 23.4483,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-12-15",
+      "valor_estimado": 140.7181,
+      "percentual": 30.6306,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-06-16",
+      "valor_estimado": 162.8885,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-12-15",
+      "valor_estimado": 166.5132,
+      "percentual": 18.9655,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

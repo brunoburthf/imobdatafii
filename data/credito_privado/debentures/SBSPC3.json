@@ -1,0 +1,201 @@
+{
+  "codigo": "SBSPC3",
+  "nome": "CIA. DE SANEAMENTO BÁSICO DO ESTADO DE SP - SABESP",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2027-05-10",
+  "indexador": "CDI+",
+  "spread_contratual": 0.63,
+  "indexador_raw": "DI + 0,63%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.621,
+    "taxa_venda": 0.2266,
+    "taxa_indicativa": 0.4143,
+    "desvio_padrao": 0.045,
+    "intervalo_min": 0.3692,
+    "intervalo_max": 0.4594,
+    "pu": 336.786384,
+    "pct_pu_par": 100.1924,
+    "duration_du": 225.74,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRSBSPDBS1B5",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 23,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2019-05-24",
+    "data_emissao": "2019-05-10",
+    "data_vencimento": "2027-05-10",
+    "data_novo_vcto": "2027-05-10",
+    "inicio_rentabilidade": "2019-05-27",
+    "inicio_distribuicao": "2019-05-27",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 375000,
+    "qtd_mercado": 375000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 333.334,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 333333.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-05-10",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal de emissão em períodos uniformes",
+    "juros_taxa": 0.63,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2019-11-10",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "TRUSTEE DTVM LTDA",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "43776517000180",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-05-10",
+  "primeiro_cupom": "2019-11-10",
+  "cnpj_emissor": "43776517000180",
+  "isin": "BRSBSPDBS1B5",
+  "snd_atualizado_em": "2026-06-02T15:12:26",
+  "eventos_passados": [
+    {
+      "data": "2019-11-11",
+      "tipo": "Juros",
+      "valor": 30.5446
+    },
+    {
+      "data": "2020-05-11",
+      "tipo": "Juros",
+      "valor": 23.2739
+    },
+    {
+      "data": "2020-11-10",
+      "tipo": "Juros",
+      "valor": 14.1362
+    },
+    {
+      "data": "2021-05-10",
+      "tipo": "Juros",
+      "valor": 13.4173
+    },
+    {
+      "data": "2021-11-10",
+      "tipo": "Juros",
+      "valor": 27.5936
+    },
+    {
+      "data": "2022-05-10",
+      "tipo": "Juros",
+      "valor": 51.1989
+    },
+    {
+      "data": "2022-11-10",
+      "tipo": "Juros",
+      "valor": 68.9107
+    },
+    {
+      "data": "2023-05-10",
+      "tipo": "Juros",
+      "valor": 67.7127
+    },
+    {
+      "data": "2023-11-10",
+      "tipo": "Juros",
+      "valor": 68.554
+    },
+    {
+      "data": "2024-05-10",
+      "tipo": "Juros",
+      "valor": 57.0161
+    },
+    {
+      "data": "2024-11-11",
+      "tipo": "Juros",
+      "valor": 56.1695
+    },
+    {
+      "data": "2025-05-12",
+      "tipo": "Amortizacao",
+      "valor": 333.333
+    },
+    {
+      "data": "2025-05-12",
+      "tipo": "Juros",
+      "valor": 62.8025
+    },
+    {
+      "data": "2025-11-10",
+      "tipo": "Juros",
+      "valor": 51.2564
+    },
+    {
+      "data": "2026-05-11",
+      "tipo": "Amortizacao",
+      "valor": 333.333
+    },
+    {
+      "data": "2026-05-11",
+      "tipo": "Juros",
+      "valor": 48.2929
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-05-10",
+      "valor_estimado": 333.334
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:50",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-10",
+        "data_pagamento": "2026-11-10",
+        "base": "DI",
+        "taxa_pct": 0.63
+      },
+      {
+        "data_evento": "2027-05-10",
+        "data_pagamento": "2027-05-10",
+        "base": "DI",
+        "taxa_pct": 0.63
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2027-05-10",
+      "data_pagamento": "2027-05-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-05-10",
+      "valor_estimado": 333.334,
+      "percentual": 33.3334,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

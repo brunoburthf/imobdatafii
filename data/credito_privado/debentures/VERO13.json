@@ -1,0 +1,227 @@
+{
+  "codigo": "VERO13",
+  "nome": "VERO S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-03-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 8.4041,
+  "indexador_raw": "IPCA + 8,4041%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": null,
+    "desvio_padrao": null,
+    "intervalo_min": null,
+    "intervalo_max": null,
+    "pu": 915.369058,
+    "pct_pu_par": 80.9906,
+    "duration_du": null,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRVERODBS026",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 3,
+    "registro_cvm": "AUT/DEB/PRI/2024/115",
+    "data_registro_cvm": "2024-03-21",
+    "data_emissao": "2024-03-15",
+    "data_vencimento": "2031-03-15",
+    "data_novo_vcto": "2031-03-15",
+    "inicio_rentabilidade": "2024-03-25",
+    "inicio_distribuicao": "2024-03-22",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 507365,
+    "qtd_mercado": 507365,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1110.38402,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2029-03-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 8.4041,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-09-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "31748174000160",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-03-15",
+  "primeiro_cupom": "2024-09-15",
+  "cnpj_emissor": "31748174000160",
+  "isin": "BRVERODBS026",
+  "snd_atualizado_em": "2026-06-02T15:12:40",
+  "eventos_passados": [
+    {
+      "data": "2024-03-25",
+      "tipo": "Juros",
+      "valor": 0.0
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 40.45
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 42.543
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 44.0051
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 44.5508
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2029-03-15",
+      "valor_estimado": 370.128
+    },
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 370.128
+    },
+    {
+      "data": "2031-03-15",
+      "valor_estimado": 370.128
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:08",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "IPCA",
+        "taxa_pct": 8.4041
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 0.0
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 0.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-03-15",
+      "data_pagamento": "2031-03-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-03-15",
+      "valor_estimado": 0.0,
+      "percentual": 0.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 0.0,
+      "percentual": 0.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-03-17",
+      "valor_estimado": 1368.597,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

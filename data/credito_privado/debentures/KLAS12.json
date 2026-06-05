@@ -1,0 +1,180 @@
+{
+  "codigo": "KLAS12",
+  "nome": "KALLAS INCORPORAÇÕES E CONSTRUÇÕES S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2026-08-16",
+  "indexador": "CDI+",
+  "spread_contratual": 2.8,
+  "indexador_raw": "DI + 2,8%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 3.6753,
+    "taxa_venda": 2.4595,
+    "taxa_indicativa": 3.3905,
+    "desvio_padrao": 0.1529,
+    "intervalo_min": 3.2376,
+    "intervalo_max": 3.5435,
+    "pu": 209.084203,
+    "pct_pu_par": 99.8773,
+    "duration_du": 54.0,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRKLASDBS005",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 2,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-09-01",
+    "data_emissao": "2021-08-16",
+    "data_vencimento": "2026-08-16",
+    "data_novo_vcto": "2026-08-16",
+    "inicio_rentabilidade": "2021-09-02",
+    "inicio_distribuicao": "2021-09-02",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 150000,
+    "qtd_mercado": 150000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 200.0001,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2024-08-16",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.8,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-02-16",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "INTER DTVM LTDA",
+    "cnpj_emissor": "09146451000106",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-08-16",
+  "primeiro_cupom": "2022-02-16",
+  "cnpj_emissor": "09146451000106",
+  "isin": "BRKLASDBS005",
+  "snd_atualizado_em": "2026-06-02T15:12:02",
+  "eventos_passados": [
+    {
+      "data": "2022-02-16",
+      "tipo": "Juros",
+      "valor": 47.8897
+    },
+    {
+      "data": "2022-08-16",
+      "tipo": "Juros",
+      "valor": 73.1094
+    },
+    {
+      "data": "2023-02-16",
+      "tipo": "Juros",
+      "valor": 82.2248
+    },
+    {
+      "data": "2023-08-16",
+      "tipo": "Juros",
+      "valor": 78.7195
+    },
+    {
+      "data": "2024-02-16",
+      "tipo": "Juros",
+      "valor": 73.0436
+    },
+    {
+      "data": "2024-08-16",
+      "tipo": "Amortizacao",
+      "valor": 200.0
+    },
+    {
+      "data": "2024-08-16",
+      "tipo": "Juros",
+      "valor": 66.8615
+    },
+    {
+      "data": "2025-02-17",
+      "tipo": "Amortizacao",
+      "valor": 200.0
+    },
+    {
+      "data": "2025-02-17",
+      "tipo": "Juros",
+      "valor": 56.2435
+    },
+    {
+      "data": "2025-08-18",
+      "tipo": "Amortizacao",
+      "valor": 199.9998
+    },
+    {
+      "data": "2025-08-18",
+      "tipo": "Juros",
+      "valor": 49.6876
+    },
+    {
+      "data": "2026-02-18",
+      "tipo": "Amortizacao",
+      "valor": 200.0001
+    },
+    {
+      "data": "2026-02-18",
+      "tipo": "Juros",
+      "valor": 35.0143
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-08-16",
+      "valor_estimado": 200.0001
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:18",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-16",
+        "data_pagamento": "2026-08-17",
+        "base": "DI",
+        "taxa_pct": 2.8
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2026-08-16",
+      "data_pagamento": "2026-08-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-08-17",
+      "valor_estimado": 200.0001,
+      "percentual": 20.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

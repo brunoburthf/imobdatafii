@@ -1,0 +1,184 @@
+{
+  "codigo": "CTGE15",
+  "nome": "COMPANHIA DE GERACAO E TRANSMISSAO DE ENERGIA ELETRICA DO SUL DO BRASIL ELETROSUL",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-04-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.3423,
+  "indexador_raw": "IPCA + 6,3423%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.9803,
+    "taxa_venda": 7.6876,
+    "taxa_indicativa": 7.8076,
+    "desvio_padrao": 0.0942,
+    "intervalo_min": 7.7135,
+    "intervalo_max": 7.9019,
+    "pu": 1052.732434,
+    "pct_pu_par": 94.4097,
+    "duration_du": 1056.48,
+    "pct_reune": 5.0,
+    "referencia_ntnb": "15/05/2031"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCTGEDBS044",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 5,
+    "registro_cvm": "AUT/DEB/PRI/2024/201",
+    "data_registro_cvm": "2024-04-29",
+    "data_emissao": "2024-04-15",
+    "data_vencimento": "2031-04-15",
+    "data_novo_vcto": "2031-04-15",
+    "inicio_rentabilidade": "2024-04-30",
+    "inicio_distribuicao": "2024-04-29",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 500000,
+    "qtd_mercado": 500000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 6.3423,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-10-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "02016507000169",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-04-15",
+  "primeiro_cupom": "2024-10-15",
+  "cnpj_emissor": "02016507000169",
+  "isin": "BRCTGEDBS044",
+  "snd_atualizado_em": "2026-06-02T15:11:32",
+  "eventos_passados": [
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 29.6982
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 32.3392
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 33.6537
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 33.6789
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:49",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2030-04-15",
+        "data_pagamento": "2030-04-15",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2030-10-15",
+        "data_pagamento": "2030-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      },
+      {
+        "data_evento": "2031-04-15",
+        "data_pagamento": "2031-04-15",
+        "base": "IPCA",
+        "taxa_pct": 6.3423
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2031-04-15",
+      "data_pagamento": "2031-04-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-04-15",
+      "valor_estimado": 1237.0732,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

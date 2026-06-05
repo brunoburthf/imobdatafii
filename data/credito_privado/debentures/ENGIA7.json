@@ -1,0 +1,179 @@
+{
+  "codigo": "ENGIA7",
+  "nome": "ENERGISA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2027-10-20",
+  "indexador": "CDI+",
+  "spread_contratual": 1.5,
+  "indexador_raw": "DI + 1,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.566,
+    "taxa_venda": 0.3375,
+    "taxa_indicativa": 0.4787,
+    "desvio_padrao": 0.0769,
+    "intervalo_min": 0.4017,
+    "intervalo_max": 0.5557,
+    "pu": 1025.419761,
+    "pct_pu_par": 100.8475,
+    "duration_du": 210.59,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRENGIDBS0X6",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 17,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-10-20",
+    "data_emissao": "2022-10-20",
+    "data_vencimento": "2027-10-20",
+    "data_novo_vcto": "2027-10-20",
+    "inicio_rentabilidade": "2022-10-20",
+    "inicio_distribuicao": "2022-10-03",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 550000,
+    "qtd_mercado": 18404,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2026-10-20",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-04-20",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "00864214000106",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-10-20",
+  "primeiro_cupom": "2023-04-20",
+  "cnpj_emissor": "00864214000106",
+  "isin": "BRENGIDBS0X6",
+  "snd_atualizado_em": "2026-06-02T15:11:42",
+  "eventos_passados": [
+    {
+      "data": "2023-04-20",
+      "tipo": "Juros",
+      "valor": 73.4246
+    },
+    {
+      "data": "2023-10-20",
+      "tipo": "Juros",
+      "valor": 72.6417
+    },
+    {
+      "data": "2024-04-22",
+      "tipo": "Juros",
+      "valor": 62.9289
+    },
+    {
+      "data": "2024-10-21",
+      "tipo": "Juros",
+      "valor": 59.8458
+    },
+    {
+      "data": "2025-04-22",
+      "tipo": "Juros",
+      "valor": 66.4748
+    },
+    {
+      "data": "2025-10-20",
+      "tipo": "Juros",
+      "valor": 79.9938
+    },
+    {
+      "data": "2026-04-20",
+      "tipo": "Juros",
+      "valor": 78.4105
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-10-20",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2027-10-20",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:01",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-20",
+        "data_pagamento": "2026-10-20",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2027-04-20",
+        "data_pagamento": "2027-04-20",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2027-10-20",
+        "data_pagamento": "2027-10-20",
+        "base": "DI",
+        "taxa_pct": 1.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-10-20",
+        "data_pagamento": "2026-10-20",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2027-10-20",
+      "data_pagamento": "2027-10-20"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-20",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2027-10-20",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

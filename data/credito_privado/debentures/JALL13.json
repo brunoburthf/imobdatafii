@@ -1,0 +1,271 @@
+{
+  "codigo": "JALL13",
+  "nome": "JALLES MACHADO S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2032-09-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.4876,
+  "indexador_raw": "IPCA + 6,4876%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.5481,
+    "taxa_venda": 8.3809,
+    "taxa_indicativa": 8.4613,
+    "desvio_padrao": 0.0851,
+    "intervalo_min": 8.3762,
+    "intervalo_max": 8.5466,
+    "pu": 1120.683536,
+    "pct_pu_par": 92.7882,
+    "duration_du": 1021.19,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2031"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRJALLDBS028",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 3,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-09-13",
+    "data_emissao": "2022-09-15",
+    "data_vencimento": "2032-09-15",
+    "data_novo_vcto": "2032-09-15",
+    "inicio_rentabilidade": "2022-09-15",
+    "inicio_distribuicao": "2022-08-17",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 350000,
+    "qtd_mercado": 350000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1188.95651,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2029-09-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.4876,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-03-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "02635522000195",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-09-15",
+  "primeiro_cupom": "2023-03-15",
+  "cnpj_emissor": "02635522000195",
+  "isin": "BRJALLDBS028",
+  "snd_atualizado_em": "2026-06-02T15:11:59",
+  "eventos_passados": [
+    {
+      "data": "2023-03-15",
+      "tipo": "Juros",
+      "valor": 32.2701
+    },
+    {
+      "data": "2023-09-15",
+      "tipo": "Juros",
+      "valor": 33.6689
+    },
+    {
+      "data": "2024-03-15",
+      "tipo": "Juros",
+      "valor": 33.445
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 35.3765
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 35.4266
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 36.6011
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 37.0784
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2029-09-15",
+      "valor_estimado": 297.2391
+    },
+    {
+      "data": "2030-09-15",
+      "valor_estimado": 297.2391
+    },
+    {
+      "data": "2031-09-15",
+      "valor_estimado": 297.2391
+    },
+    {
+      "data": "2032-09-15",
+      "valor_estimado": 297.2391
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:17",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2031-09-15",
+        "data_pagamento": "2031-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2032-03-15",
+        "data_pagamento": "2032-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      },
+      {
+        "data_evento": "2032-09-15",
+        "data_pagamento": "2032-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4876
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2031-09-15",
+        "data_pagamento": "2031-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-09-15",
+      "data_pagamento": "2032-09-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-09-17",
+      "valor_estimado": 342.9525,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-09-16",
+      "valor_estimado": 358.385,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-09-15",
+      "valor_estimado": 374.5128,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2032-09-15",
+      "valor_estimado": 391.3659,
+      "percentual": 25.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

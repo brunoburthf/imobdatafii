@@ -1,0 +1,183 @@
+{
+  "codigo": "TEPA23",
+  "nome": "BRASIL TECNOLOGIA E PARTICIPACAO S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-03-15",
+  "indexador": "PREFIX",
+  "spread_contratual": 18.5067,
+  "indexador_raw": "PREFIXADO 18,5067%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 19.3481,
+    "taxa_venda": null,
+    "taxa_indicativa": 17.7627,
+    "desvio_padrao": 1.35,
+    "intervalo_min": 16.4128,
+    "intervalo_max": 19.1128,
+    "pu": 1058.191474,
+    "pct_pu_par": 102.1757,
+    "duration_du": 863.3,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:24",
+  "snd": {
+    "isin": "BRTEPADBS049",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 3,
+    "registro_cvm": "AUT/DEB/PRI/2025/304",
+    "data_registro_cvm": "2025-04-11",
+    "data_emissao": "2025-03-15",
+    "data_vencimento": "2032-03-15",
+    "data_novo_vcto": "2032-03-15",
+    "inicio_rentabilidade": "2025-04-14",
+    "inicio_distribuicao": "2025-04-11",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 193800,
+    "qtd_mercado": 193800,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "PRÉ",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2030-03-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 18.5067,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-03-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BTG PACTUAL SERV.FINANCEIROS S/A DTVM",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "35764708000101",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-03-15",
+  "primeiro_cupom": "2026-03-15",
+  "cnpj_emissor": "35764708000101",
+  "isin": "BRTEPADBS049",
+  "snd_atualizado_em": "2026-06-02T15:12:33",
+  "eventos_passados": [
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 168.4164
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2031-03-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2032-03-15",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:57",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "PRÉ",
+        "taxa_pct": 18.5067
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "PRÉ",
+        "taxa_pct": 18.5067
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "PRÉ",
+        "taxa_pct": 18.5067
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "PRÉ",
+        "taxa_pct": 18.5067
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "PRÉ",
+        "taxa_pct": 18.5067
+      },
+      {
+        "data_evento": "2032-03-15",
+        "data_pagamento": "2032-03-15",
+        "base": "PRÉ",
+        "taxa_pct": 18.5067
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-03-15",
+      "data_pagamento": "2032-03-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-03-17",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2032-03-15",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

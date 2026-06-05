@@ -1,0 +1,252 @@
+{
+  "codigo": "ELPLA5",
+  "nome": "ELETROPAULO METROP. ELETRIC. DE S.P. S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-04-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 4.26,
+  "indexador_raw": "IPCA + 4,26%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 14.5271,
+    "taxa_venda": 12.6251,
+    "taxa_indicativa": 13.6021,
+    "desvio_padrao": 0.9373,
+    "intervalo_min": 12.6648,
+    "intervalo_max": 14.5395,
+    "pu": 997.253025,
+    "pct_pu_par": 74.0252,
+    "duration_du": 870.06,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2030"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRELPLDBS100",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 25,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-04-29",
+    "data_emissao": "2021-04-15",
+    "data_vencimento": "2031-04-15",
+    "data_novo_vcto": "2031-04-15",
+    "inicio_rentabilidade": "2021-04-30",
+    "inicio_distribuicao": "2021-04-30",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 720000,
+    "qtd_mercado": 720000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1341.97897,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2029-04-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 4.26,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-10-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "61695227000193",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-04-15",
+  "primeiro_cupom": "2021-10-15",
+  "cnpj_emissor": "61695227000193",
+  "isin": "BRELPLDBS100",
+  "snd_atualizado_em": "2026-06-02T15:11:39",
+  "eventos_passados": [
+    {
+      "data": "2021-10-15",
+      "tipo": "Juros",
+      "valor": 20.4563
+    },
+    {
+      "data": "2022-04-18",
+      "tipo": "Juros",
+      "valor": 23.425
+    },
+    {
+      "data": "2022-10-17",
+      "tipo": "Juros",
+      "valor": 23.6268
+    },
+    {
+      "data": "2023-04-17",
+      "tipo": "Juros",
+      "valor": 24.3178
+    },
+    {
+      "data": "2023-10-16",
+      "tipo": "Juros",
+      "valor": 24.6526
+    },
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 24.864
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 26.5761
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 26.4413
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 27.5127
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 27.5366
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2029-04-15",
+      "valor_estimado": 447.3263
+    },
+    {
+      "data": "2030-04-15",
+      "valor_estimado": 447.3263
+    },
+    {
+      "data": "2031-04-15",
+      "valor_estimado": 447.3263
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:57",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2030-04-15",
+        "data_pagamento": "2030-04-15",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2030-10-15",
+        "data_pagamento": "2030-10-15",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      },
+      {
+        "data_evento": "2031-04-15",
+        "data_pagamento": "2031-04-15",
+        "base": "IPCA",
+        "taxa_pct": 4.26
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.33
+      },
+      {
+        "data_evento": "2030-04-15",
+        "data_pagamento": "2030-04-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-04-15",
+      "data_pagamento": "2031-04-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-04-16",
+      "valor_estimado": 506.6918,
+      "percentual": 33.33,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-04-15",
+      "valor_estimado": 529.5723,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-04-15",
+      "valor_estimado": 553.4031,
+      "percentual": 33.335,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

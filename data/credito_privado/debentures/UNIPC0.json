@@ -1,0 +1,167 @@
+{
+  "codigo": "UNIPC0",
+  "nome": "UNIPAR CARBOCLORO S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-07-18",
+  "indexador": "CDI+",
+  "spread_contratual": 1.15,
+  "indexador_raw": "DI + 1,15%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.6861,
+    "taxa_venda": 1.2027,
+    "taxa_indicativa": 1.4333,
+    "desvio_padrao": 0.154,
+    "intervalo_min": 1.2793,
+    "intervalo_max": 1.5875,
+    "pu": 1126.700898,
+    "pct_pu_par": 98.9906,
+    "duration_du": 912.45,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRUNIPDBS0I6",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 10,
+    "registro_cvm": "AUT/DEB/PRI/2025/528",
+    "data_registro_cvm": "2025-07-17",
+    "data_emissao": "2025-07-18",
+    "data_vencimento": "2032-07-18",
+    "data_novo_vcto": "2032-07-18",
+    "inicio_rentabilidade": "2025-07-18",
+    "inicio_distribuicao": "2025-07-18",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 435838,
+    "qtd_mercado": 435838,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2031-07-18",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.15,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-07-18",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BTG PACTUAL SERV.FINANCEIROS S/A DTVM",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "33958695000178",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-07-18",
+  "primeiro_cupom": "2026-07-18",
+  "cnpj_emissor": "33958695000178",
+  "isin": "BRUNIPDBS0I6",
+  "snd_atualizado_em": "2026-06-02T15:12:37",
+  "eventos_passados": [],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2031-07-18",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2032-07-18",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:00",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-18",
+        "data_pagamento": "2026-07-20",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2027-07-18",
+        "data_pagamento": "2027-07-19",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2028-07-18",
+        "data_pagamento": "2028-07-18",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2029-07-18",
+        "data_pagamento": "2029-07-18",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2030-07-18",
+        "data_pagamento": "2030-07-18",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2031-07-18",
+        "data_pagamento": "2031-07-18",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2032-07-18",
+        "data_pagamento": "2032-07-19",
+        "base": "DI",
+        "taxa_pct": 1.15
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2031-07-18",
+        "data_pagamento": "2031-07-18",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-07-18",
+      "data_pagamento": "2032-07-19"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-07-18",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2032-07-19",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

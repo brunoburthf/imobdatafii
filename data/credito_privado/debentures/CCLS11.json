@@ -1,0 +1,204 @@
+{
+  "codigo": "CCLS11",
+  "nome": "CICLUS AMBIENTAL DO BRASIL S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-01-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.6739,
+  "indexador_raw": "IPCA + 6,6739%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 13.2883,
+    "taxa_venda": 10.9463,
+    "taxa_indicativa": 12.2108,
+    "desvio_padrao": 0.3311,
+    "intervalo_min": 11.8797,
+    "intervalo_max": 12.5421,
+    "pu": 1067.02762,
+    "pct_pu_par": 82.0879,
+    "duration_du": 971.47,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2030"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCCLSDBS008",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 1,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-12-27",
+    "data_emissao": "2021-12-15",
+    "data_vencimento": "2031-01-15",
+    "data_novo_vcto": "2031-01-15",
+    "inicio_rentabilidade": "2021-12-28",
+    "inicio_distribuicao": "2021-12-28",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 450000,
+    "qtd_mercado": 450000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1250.42612,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 6.6739,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-07-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "10319900000150",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-12-15",
+  "primeiro_cupom": "2022-07-15",
+  "cnpj_emissor": "10319900000150",
+  "isin": "BRCCLSDBS008",
+  "snd_atualizado_em": "2026-06-02T15:11:15",
+  "eventos_passados": [
+    {
+      "data": "2022-07-15",
+      "tipo": "Juros",
+      "valor": 38.1576
+    },
+    {
+      "data": "2023-01-16",
+      "tipo": "Juros",
+      "valor": 35.6374
+    },
+    {
+      "data": "2023-07-17",
+      "tipo": "Juros",
+      "valor": 35.8093
+    },
+    {
+      "data": "2024-01-15",
+      "tipo": "Juros",
+      "valor": 36.4186
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 37.1009
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Juros",
+      "valor": 39.4299
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 39.0061
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 41.4918
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:28",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2030-07-15",
+        "data_pagamento": "2030-07-15",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      },
+      {
+        "data_evento": "2031-01-15",
+        "data_pagamento": "2031-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.6739
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2031-01-15",
+      "data_pagamento": "2031-01-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-01-15",
+      "valor_estimado": 1529.9399,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

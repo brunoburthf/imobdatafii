@@ -1,0 +1,210 @@
+{
+  "codigo": "PETR26",
+  "nome": "PETRÓLEO BRASILEIRO S/A - PETROBRAS",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-01-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 4.2186,
+  "indexador_raw": "IPCA + 4,2186%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.4792,
+    "taxa_venda": 7.1888,
+    "taxa_indicativa": 7.3379,
+    "desvio_padrao": 0.1101,
+    "intervalo_min": 7.2278,
+    "intervalo_max": 7.4481,
+    "pu": 1406.313905,
+    "pct_pu_par": 93.0204,
+    "duration_du": 617.29,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2029"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRPETRDBS092",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 6,
+    "registro_cvm": "CVM/SRE/DEB/2019/002",
+    "data_registro_cvm": "2019-02-08",
+    "data_emissao": "2019-01-15",
+    "data_vencimento": "2029-01-15",
+    "data_novo_vcto": "2029-01-15",
+    "inicio_rentabilidade": "2019-02-12",
+    "inicio_distribuicao": "2019-02-12",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1694089,
+    "qtd_mercado": 1642639,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1491.08233,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 4.2186,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2019-07-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO CITIBANK S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO CITIBANK S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "33000167000101",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-01-15",
+  "primeiro_cupom": "2019-07-15",
+  "cnpj_emissor": "33000167000101",
+  "isin": "BRPETRDBS092",
+  "snd_atualizado_em": "2026-06-02T15:12:15",
+  "eventos_passados": [
+    {
+      "data": "2019-07-15",
+      "tipo": "Juros",
+      "valor": 17.5336
+    },
+    {
+      "data": "2020-01-15",
+      "tipo": "Juros",
+      "valor": 22.2361
+    },
+    {
+      "data": "2020-07-15",
+      "tipo": "Juros",
+      "valor": 21.3864
+    },
+    {
+      "data": "2021-01-15",
+      "tipo": "Juros",
+      "valor": 22.8765
+    },
+    {
+      "data": "2021-07-15",
+      "tipo": "Juros",
+      "valor": 23.1715
+    },
+    {
+      "data": "2022-01-17",
+      "tipo": "Juros",
+      "valor": 25.3785
+    },
+    {
+      "data": "2022-07-15",
+      "tipo": "Juros",
+      "valor": 25.9259
+    },
+    {
+      "data": "2023-01-16",
+      "tipo": "Juros",
+      "valor": 26.6347
+    },
+    {
+      "data": "2023-07-17",
+      "tipo": "Juros",
+      "valor": 26.7455
+    },
+    {
+      "data": "2024-01-15",
+      "tipo": "Juros",
+      "valor": 27.2006
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 28.1033
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Juros",
+      "valor": 29.4442
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 29.1287
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 30.9422
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:31",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "IPCA",
+        "taxa_pct": 4.2186
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "IPCA",
+        "taxa_pct": 4.2186
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "IPCA",
+        "taxa_pct": 4.2186
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "IPCA",
+        "taxa_pct": 4.2186
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "IPCA",
+        "taxa_pct": 4.2186
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "IPCA",
+        "taxa_pct": 4.2186
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-01-15",
+      "data_pagamento": "2029-01-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-01-15",
+      "valor_estimado": 1670.6496,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

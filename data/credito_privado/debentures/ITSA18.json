@@ -1,0 +1,217 @@
+{
+  "codigo": "ITSA18",
+  "nome": "ITAUSA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2035-09-12",
+  "indexador": "CDI+",
+  "spread_contratual": 0.6,
+  "indexador_raw": "DI + 0,6%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.6906,
+    "taxa_venda": 0.4295,
+    "taxa_indicativa": 0.5263,
+    "desvio_padrao": 0.0837,
+    "intervalo_min": 0.4426,
+    "intervalo_max": 0.6101,
+    "pu": 1110.819076,
+    "pct_pu_par": 100.3377,
+    "duration_du": 1160.06,
+    "pct_reune": 35.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRITSADBS0A8",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 8,
+    "registro_cvm": "AUT/DEB/PRI/2025/647",
+    "data_registro_cvm": "2025-09-11",
+    "data_emissao": "2025-09-12",
+    "data_vencimento": "2035-09-12",
+    "data_novo_vcto": "2035-09-12",
+    "inicio_rentabilidade": "2025-09-12",
+    "inicio_distribuicao": "2025-09-11",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1000000,
+    "qtd_mercado": 1000000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2032-09-12",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.6,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-09-12",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "61532644000115",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-09-12",
+  "primeiro_cupom": "2026-09-12",
+  "cnpj_emissor": "61532644000115",
+  "isin": "BRITSADBS0A8",
+  "snd_atualizado_em": "2026-06-02T15:11:59",
+  "eventos_passados": [],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2032-09-12",
+      "valor_estimado": 250.0
+    },
+    {
+      "data": "2033-09-12",
+      "valor_estimado": 250.0
+    },
+    {
+      "data": "2034-09-12",
+      "valor_estimado": 250.0
+    },
+    {
+      "data": "2035-09-12",
+      "valor_estimado": 250.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:16",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-12",
+        "data_pagamento": "2026-09-14",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2027-09-12",
+        "data_pagamento": "2027-09-13",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2028-09-12",
+        "data_pagamento": "2028-09-12",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2029-09-12",
+        "data_pagamento": "2029-09-12",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2030-09-12",
+        "data_pagamento": "2030-09-12",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2031-09-12",
+        "data_pagamento": "2031-09-12",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2032-09-12",
+        "data_pagamento": "2032-09-13",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2033-09-12",
+        "data_pagamento": "2033-09-12",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2034-09-12",
+        "data_pagamento": "2034-09-12",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2035-09-12",
+        "data_pagamento": "2035-09-12",
+        "base": "DI",
+        "taxa_pct": 0.6
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2032-09-12",
+        "data_pagamento": "2032-09-13",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2033-09-12",
+        "data_pagamento": "2033-09-12",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2034-09-12",
+        "data_pagamento": "2034-09-12",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2035-09-12",
+      "data_pagamento": "2035-09-12"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2032-09-13",
+      "valor_estimado": 250.0,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2033-09-12",
+      "valor_estimado": 249.9998,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2034-09-12",
+      "valor_estimado": 250.0001,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2035-09-12",
+      "valor_estimado": 250.0001,
+      "percentual": 25.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

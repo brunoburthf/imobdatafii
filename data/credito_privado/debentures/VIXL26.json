@@ -1,0 +1,337 @@
+{
+  "codigo": "VIXL26",
+  "nome": "VIX LOGÍSTICA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2028-09-29",
+  "indexador": "CDI+",
+  "spread_contratual": 2.8,
+  "indexador_raw": "DI + 2,8%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.3693,
+    "taxa_venda": 0.8,
+    "taxa_indicativa": 1.125,
+    "desvio_padrao": 0.0602,
+    "intervalo_min": 1.0648,
+    "intervalo_max": 1.1853,
+    "pu": 1050.919304,
+    "pct_pu_par": 102.2713,
+    "duration_du": 345.26,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRVIXLDBS0A4",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 6,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-09-29",
+    "data_emissao": "2022-09-29",
+    "data_vencimento": "2028-09-29",
+    "data_novo_vcto": "2028-09-29",
+    "inicio_rentabilidade": "2022-09-30",
+    "inicio_distribuicao": "2022-09-23",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 125000,
+    "qtd_mercado": 70412,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 3,
+    "amort_unidade": "MES",
+    "amort_carencia": "2027-03-29",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.8,
+    "juros_prazo_base": 252,
+    "juros_cada": 3,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-12-29",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "32681371000172",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-09-29",
+  "primeiro_cupom": "2022-12-29",
+  "cupom_periodo_meses": 3,
+  "cnpj_emissor": "32681371000172",
+  "isin": "BRVIXLDBS0A4",
+  "snd_atualizado_em": "2026-06-02T15:12:41",
+  "eventos_passados": [
+    {
+      "data": "2022-12-29",
+      "tipo": "Juros",
+      "valor": 38.3755
+    },
+    {
+      "data": "2023-03-29",
+      "tipo": "Juros",
+      "valor": 39.0167
+    },
+    {
+      "data": "2023-06-29",
+      "tipo": "Juros",
+      "valor": 39.0167
+    },
+    {
+      "data": "2023-09-29",
+      "tipo": "Juros",
+      "valor": 40.1046
+    },
+    {
+      "data": "2023-12-29",
+      "tipo": "Juros",
+      "valor": 35.2779
+    },
+    {
+      "data": "2024-04-01",
+      "tipo": "Juros",
+      "valor": 33.6585
+    },
+    {
+      "data": "2024-07-01",
+      "tipo": "Juros",
+      "valor": 32.3951
+    },
+    {
+      "data": "2024-09-30",
+      "tipo": "Juros",
+      "valor": 33.247
+    },
+    {
+      "data": "2024-12-30",
+      "tipo": "Juros",
+      "valor": 33.2326
+    },
+    {
+      "data": "2025-03-31",
+      "tipo": "Juros",
+      "valor": 37.3395
+    },
+    {
+      "data": "2025-06-30",
+      "tipo": "Juros",
+      "valor": 40.1826
+    },
+    {
+      "data": "2025-09-29",
+      "tipo": "Juros",
+      "valor": 43.8839
+    },
+    {
+      "data": "2025-12-29",
+      "tipo": "Juros",
+      "valor": 42.5053
+    },
+    {
+      "data": "2026-03-30",
+      "tipo": "Juros",
+      "valor": 41.7537
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-03-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2027-06-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2027-09-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2027-12-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2028-03-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2028-06-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2028-09-29",
+      "valor_estimado": 142.8571
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:09",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-29",
+        "data_pagamento": "2026-06-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2026-09-29",
+        "data_pagamento": "2026-09-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2026-12-29",
+        "data_pagamento": "2026-12-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2027-03-29",
+        "data_pagamento": "2027-03-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2027-06-29",
+        "data_pagamento": "2027-06-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2027-09-29",
+        "data_pagamento": "2027-09-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2027-12-29",
+        "data_pagamento": "2027-12-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2028-03-29",
+        "data_pagamento": "2028-03-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2028-06-29",
+        "data_pagamento": "2028-06-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      },
+      {
+        "data_evento": "2028-09-29",
+        "data_pagamento": "2028-09-29",
+        "base": "DI",
+        "taxa_pct": 2.8
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-03-29",
+        "data_pagamento": "2027-03-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 14.2857
+      },
+      {
+        "data_evento": "2027-06-29",
+        "data_pagamento": "2027-06-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 16.6667
+      },
+      {
+        "data_evento": "2027-09-29",
+        "data_pagamento": "2027-09-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 20.0
+      },
+      {
+        "data_evento": "2027-12-29",
+        "data_pagamento": "2027-12-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2028-03-29",
+        "data_pagamento": "2028-03-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2028-06-29",
+        "data_pagamento": "2028-06-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-09-29",
+      "data_pagamento": "2028-09-29"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-03-29",
+      "valor_estimado": 142.857,
+      "percentual": 14.2857,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-06-29",
+      "valor_estimado": 142.8575,
+      "percentual": 16.6667,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-09-29",
+      "valor_estimado": 142.8571,
+      "percentual": 20.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-12-29",
+      "valor_estimado": 142.8571,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-03-29",
+      "valor_estimado": 142.857,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-06-29",
+      "valor_estimado": 142.8572,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-09-29",
+      "valor_estimado": 142.8572,
+      "percentual": 14.2857,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

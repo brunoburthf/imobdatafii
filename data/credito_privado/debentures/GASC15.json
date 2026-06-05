@@ -1,0 +1,220 @@
+{
+  "codigo": "GASC15",
+  "nome": "RUMO MALHA PAULISTA S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2034-03-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 5.797,
+  "indexador_raw": "IPCA + 5,797%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.9202,
+    "taxa_venda": 8.6262,
+    "taxa_indicativa": 8.7154,
+    "desvio_padrao": 0.078,
+    "intervalo_min": 8.6374,
+    "intervalo_max": 8.7935,
+    "pu": 948.292966,
+    "pct_pu_par": 84.436,
+    "duration_du": 1546.33,
+    "pct_reune": 15.0,
+    "referencia_ntnb": "15/05/2033"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRGASCDBS069",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 5,
+    "registro_cvm": "AUT/DEB/PRI/2024/120",
+    "data_registro_cvm": "2024-03-22",
+    "data_emissao": "2024-03-15",
+    "data_vencimento": "2034-03-15",
+    "data_novo_vcto": "2034-03-15",
+    "inicio_rentabilidade": "2024-03-25",
+    "inicio_distribuicao": "2024-03-22",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 532243,
+    "qtd_mercado": 532243,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1111.51104,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 5.797,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-09-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "02502844000166",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-03-15",
+  "primeiro_cupom": "2024-09-15",
+  "cnpj_emissor": "02502844000166",
+  "isin": "BRGASCDBS069",
+  "snd_atualizado_em": "2026-06-02T15:11:52",
+  "eventos_passados": [
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 28.0805
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 29.5246
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 30.5027
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 30.9009
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:09",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2031-09-15",
+        "data_pagamento": "2031-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2032-03-15",
+        "data_pagamento": "2032-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2032-09-15",
+        "data_pagamento": "2032-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2033-03-15",
+        "data_pagamento": "2033-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2033-09-15",
+        "data_pagamento": "2033-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      },
+      {
+        "data_evento": "2034-03-15",
+        "data_pagamento": "2034-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.797
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2034-03-15",
+      "data_pagamento": "2034-03-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2034-03-15",
+      "valor_estimado": 1563.3817,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

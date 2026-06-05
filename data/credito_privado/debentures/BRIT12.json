@@ -1,0 +1,211 @@
+{
+  "codigo": "BRIT12",
+  "nome": "BRISANET PARTICIPACOES S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-07-10",
+  "indexador": "CDI+",
+  "spread_contratual": 1.6,
+  "indexador_raw": "DI + 1,6%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.5638,
+    "taxa_venda": 1.1078,
+    "taxa_indicativa": 1.3793,
+    "desvio_padrao": 0.0184,
+    "intervalo_min": 1.3609,
+    "intervalo_max": 1.3978,
+    "pu": 1064.983309,
+    "pct_pu_par": 100.5234,
+    "duration_du": 605.34,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRBRSTDBS027",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 3,
+    "registro_cvm": "AUT/DEB/PRI/2024/437",
+    "data_registro_cvm": "2024-07-12",
+    "data_emissao": "2024-07-10",
+    "data_vencimento": "2030-07-10",
+    "data_novo_vcto": "2030-07-10",
+    "inicio_rentabilidade": "2024-07-15",
+    "inicio_distribuicao": "2024-07-12",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 600000,
+    "qtd_mercado": 600000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-07-10",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.6,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-01-10",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "04601397000128",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-07-10",
+  "primeiro_cupom": "2025-01-10",
+  "cnpj_emissor": "04601397000128",
+  "isin": "BRBRSTDBS027",
+  "snd_atualizado_em": "2026-06-02T15:11:12",
+  "eventos_passados": [
+    {
+      "data": "2025-01-10",
+      "tipo": "Juros",
+      "valor": 60.8486
+    },
+    {
+      "data": "2025-07-10",
+      "tipo": "Juros",
+      "valor": 73.6815
+    },
+    {
+      "data": "2026-01-12",
+      "tipo": "Juros",
+      "valor": 82.4479
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-07-10",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2029-07-10",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2030-07-10",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:24",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-10",
+        "data_pagamento": "2026-07-10",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2027-01-10",
+        "data_pagamento": "2027-01-11",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2027-07-10",
+        "data_pagamento": "2027-07-12",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2028-01-10",
+        "data_pagamento": "2028-01-10",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2028-07-10",
+        "data_pagamento": "2028-07-10",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2029-01-10",
+        "data_pagamento": "2029-01-10",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2029-07-10",
+        "data_pagamento": "2029-07-10",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2030-01-10",
+        "data_pagamento": "2030-01-10",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2030-07-10",
+        "data_pagamento": "2030-07-10",
+        "base": "DI",
+        "taxa_pct": 1.6
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-07-10",
+        "data_pagamento": "2028-07-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2029-07-10",
+        "data_pagamento": "2029-07-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2030-07-10",
+      "data_pagamento": "2030-07-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-07-10",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-07-10",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-07-10",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

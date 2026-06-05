@@ -1,0 +1,230 @@
+{
+  "codigo": "EGIEB1",
+  "nome": "ENGIE BRASIL ENERGIA S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2038-11-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.0691,
+  "indexador_raw": "IPCA + 6,0691%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.7619,
+    "taxa_venda": 7.4929,
+    "taxa_indicativa": 7.6485,
+    "desvio_padrao": 0.1473,
+    "intervalo_min": 7.5012,
+    "intervalo_max": 7.7958,
+    "pu": 1034.558841,
+    "pct_pu_par": 88.6331,
+    "duration_du": 2027.6,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2037"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BREGIEDBS0D9",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 11,
+    "registro_cvm": "AUT/DEB/PRI/2023/369",
+    "data_registro_cvm": "2023-12-05",
+    "data_emissao": "2023-11-15",
+    "data_vencimento": "2038-11-15",
+    "data_novo_vcto": "2038-11-15",
+    "inicio_rentabilidade": "2023-12-07",
+    "inicio_distribuicao": "2023-12-05",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 96278,
+    "qtd_mercado": 96278,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1133.19383,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2036-11-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.0691,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-11-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "02474103000119",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-11-15",
+  "primeiro_cupom": "2024-11-15",
+  "cnpj_emissor": "02474103000119",
+  "isin": "BREGIEDBS0D9",
+  "snd_atualizado_em": "2026-06-02T15:11:37",
+  "eventos_passados": [
+    {
+      "data": "2024-11-18",
+      "tipo": "Juros",
+      "valor": 60.0863
+    },
+    {
+      "data": "2025-11-17",
+      "tipo": "Juros",
+      "valor": 66.1505
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2036-11-15",
+      "valor_estimado": 377.7313
+    },
+    {
+      "data": "2037-11-15",
+      "valor_estimado": 377.7313
+    },
+    {
+      "data": "2038-11-15",
+      "valor_estimado": 377.7313
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:54",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-15",
+        "data_pagamento": "2026-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2027-11-15",
+        "data_pagamento": "2027-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2028-11-15",
+        "data_pagamento": "2028-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2029-11-15",
+        "data_pagamento": "2029-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2030-11-15",
+        "data_pagamento": "2030-11-18",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2031-11-15",
+        "data_pagamento": "2031-11-17",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2032-11-15",
+        "data_pagamento": "2032-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2033-11-15",
+        "data_pagamento": "2033-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2034-11-15",
+        "data_pagamento": "2034-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2035-11-15",
+        "data_pagamento": "2035-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2036-11-15",
+        "data_pagamento": "2036-11-17",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2037-11-15",
+        "data_pagamento": "2037-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      },
+      {
+        "data_evento": "2038-11-15",
+        "data_pagamento": "2038-11-16",
+        "base": "IPCA",
+        "taxa_pct": 6.0691
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2036-11-15",
+        "data_pagamento": "2036-11-17",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2037-11-15",
+        "data_pagamento": "2037-11-16",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2038-11-15",
+      "data_pagamento": "2038-11-16"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2036-11-17",
+      "valor_estimado": 597.4623,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2037-11-16",
+      "valor_estimado": 624.3491,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2038-11-16",
+      "valor_estimado": 652.4448,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

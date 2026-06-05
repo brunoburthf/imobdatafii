@@ -1,0 +1,216 @@
+{
+  "codigo": "SMTO14",
+  "nome": "SAO MARTINHO S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2032-01-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 5.9741,
+  "indexador_raw": "IPCA + 5,9741%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.5526,
+    "taxa_venda": 8.2283,
+    "taxa_indicativa": 8.4105,
+    "desvio_padrao": 0.1199,
+    "intervalo_min": 8.2906,
+    "intervalo_max": 8.5304,
+    "pu": 1120.660185,
+    "pct_pu_par": 89.8396,
+    "duration_du": 1180.11,
+    "pct_reune": 5.0,
+    "referencia_ntnb": "15/05/2031"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRSMTODBS013",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 4,
+    "registro_cvm": "CVM/SRE/DEB/2022/003",
+    "data_registro_cvm": "2022-03-18",
+    "data_emissao": "2022-01-15",
+    "data_vencimento": "2032-01-15",
+    "data_novo_vcto": "2032-01-15",
+    "inicio_rentabilidade": "2022-03-22",
+    "inicio_distribuicao": "2022-03-21",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 648000,
+    "qtd_mercado": 605202,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1222.79894,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 5.9741,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-07-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "51466860000156",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-01-15",
+  "primeiro_cupom": "2022-07-15",
+  "cnpj_emissor": "51466860000156",
+  "isin": "BRSMTODBS013",
+  "snd_atualizado_em": "2026-06-02T15:12:28",
+  "eventos_passados": [
+    {
+      "data": "2022-07-15",
+      "tipo": "Juros",
+      "valor": 19.2436
+    },
+    {
+      "data": "2023-01-16",
+      "tipo": "Juros",
+      "valor": 30.8023
+    },
+    {
+      "data": "2023-07-17",
+      "tipo": "Juros",
+      "valor": 30.9274
+    },
+    {
+      "data": "2024-01-15",
+      "tipo": "Juros",
+      "valor": 31.4536
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 32.4986
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Juros",
+      "valor": 34.0526
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 33.6821
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 35.7862
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:52",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2030-07-15",
+        "data_pagamento": "2030-07-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2031-01-15",
+        "data_pagamento": "2031-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2031-07-15",
+        "data_pagamento": "2031-07-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      },
+      {
+        "data_evento": "2032-01-15",
+        "data_pagamento": "2032-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.9741
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2032-01-15",
+      "data_pagamento": "2032-01-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2032-01-15",
+      "valor_estimado": 1563.4632,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

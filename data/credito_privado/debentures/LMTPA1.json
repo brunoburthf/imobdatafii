@@ -1,0 +1,138 @@
+{
+  "codigo": "LMTPA1",
+  "nome": "LM TRANSPORTES INTERESTADUAIS SERVIÇOS E COMÉRCIOS S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-01-17",
+  "indexador": "CDI+",
+  "spread_contratual": 1.5,
+  "indexador_raw": "DI + 1,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.2168,
+    "taxa_venda": 0.874,
+    "taxa_indicativa": 1.6268,
+    "desvio_padrao": 0.1322,
+    "intervalo_min": 1.4946,
+    "intervalo_max": 1.7591,
+    "pu": 1053.946423,
+    "pct_pu_par": 99.8227,
+    "duration_du": 358.16,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRLMTPDBS0D6",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 11,
+    "registro_cvm": "AUT/DEB/PRI/2025/019",
+    "data_registro_cvm": "2025-01-16",
+    "data_emissao": "2025-01-17",
+    "data_vencimento": "2028-01-17",
+    "data_novo_vcto": "2028-01-17",
+    "inicio_rentabilidade": "2025-01-17",
+    "inicio_distribuicao": "2025-01-16",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 150000,
+    "qtd_mercado": 150000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-07-17",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "CAIXA ECONOMICA FEDERAL",
+    "cnpj_emissor": "00389481000179",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-01-17",
+  "primeiro_cupom": "2025-07-17",
+  "cnpj_emissor": "00389481000179",
+  "isin": "BRLMTPDBS0D6",
+  "snd_atualizado_em": "2026-06-02T15:12:04",
+  "eventos_passados": [
+    {
+      "data": "2025-07-17",
+      "tipo": "Juros",
+      "valor": 73.6815
+    },
+    {
+      "data": "2026-01-19",
+      "tipo": "Juros",
+      "valor": 81.9024
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:19",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-17",
+        "data_pagamento": "2026-07-17",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2027-01-17",
+        "data_pagamento": "2027-01-18",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2027-07-17",
+        "data_pagamento": "2027-07-19",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2028-01-17",
+        "data_pagamento": "2028-01-17",
+        "base": "DI",
+        "taxa_pct": 1.5
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2028-01-17",
+      "data_pagamento": "2028-01-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-01-17",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

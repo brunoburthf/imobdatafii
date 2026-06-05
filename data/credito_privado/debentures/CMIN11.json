@@ -1,0 +1,215 @@
+{
+  "codigo": "CMIN11",
+  "nome": "CSN MINERACAO S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-07-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 4.879,
+  "indexador_raw": "IPCA + 4,879%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 16.3027,
+    "taxa_venda": 13.03,
+    "taxa_indicativa": 14.6306,
+    "desvio_padrao": 0.4609,
+    "intervalo_min": 14.1696,
+    "intervalo_max": 15.0916,
+    "pu": 902.616569,
+    "pct_pu_par": 67.6058,
+    "duration_du": 1086.61,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2031"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCMINDBS004",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 1,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-08-03",
+    "data_emissao": "2021-07-15",
+    "data_vencimento": "2031-07-15",
+    "data_novo_vcto": "2031-07-15",
+    "inicio_rentabilidade": "2021-08-04",
+    "inicio_distribuicao": "2021-08-04",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 576448,
+    "qtd_mercado": 576448,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1312.42627,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 4.879,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-01-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "08902291000115",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-07-15",
+  "primeiro_cupom": "2022-01-15",
+  "cnpj_emissor": "08902291000115",
+  "isin": "BRCMINDBS004",
+  "snd_atualizado_em": "2026-06-02T15:11:24",
+  "eventos_passados": [
+    {
+      "data": "2022-01-17",
+      "tipo": "Juros",
+      "valor": 22.9656
+    },
+    {
+      "data": "2022-07-15",
+      "tipo": "Juros",
+      "valor": 26.3758
+    },
+    {
+      "data": "2023-01-16",
+      "tipo": "Juros",
+      "valor": 27.0979
+    },
+    {
+      "data": "2023-07-17",
+      "tipo": "Juros",
+      "valor": 27.2096
+    },
+    {
+      "data": "2024-01-15",
+      "tipo": "Juros",
+      "valor": 27.6726
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 28.5914
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Juros",
+      "valor": 29.9567
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 29.6338
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 31.4812
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:40",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2030-07-15",
+        "data_pagamento": "2030-07-15",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2031-01-15",
+        "data_pagamento": "2031-01-15",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      },
+      {
+        "data_evento": "2031-07-15",
+        "data_pagamento": "2031-07-15",
+        "base": "IPCA",
+        "taxa_pct": 4.879
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2031-07-15",
+      "data_pagamento": "2031-07-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-07-15",
+      "valor_estimado": 1641.5321,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

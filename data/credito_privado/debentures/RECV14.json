@@ -1,0 +1,209 @@
+{
+  "codigo": "RECV14",
+  "nome": "PETRORECONCAVO S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-12-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 7.4564,
+  "indexador_raw": "IPCA + 7,4564%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.264,
+    "taxa_venda": 7.7674,
+    "taxa_indicativa": 8.0354,
+    "desvio_padrao": 0.1046,
+    "intervalo_min": 7.9308,
+    "intervalo_max": 8.1402,
+    "pu": 1034.788762,
+    "pct_pu_par": 97.4514,
+    "duration_du": 1208.07,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2032"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRECVDBS047",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 4,
+    "registro_cvm": "AUT/DEB/PRI/2025/952",
+    "data_registro_cvm": "2025-12-26",
+    "data_emissao": "2025-12-15",
+    "data_vencimento": "2032-12-15",
+    "data_novo_vcto": "2032-12-15",
+    "inicio_rentabilidade": "2025-12-29",
+    "inicio_distribuicao": "2025-12-26",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 525000,
+    "qtd_mercado": 525000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1031.0567,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2031-12-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 7.4564,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-06-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "03342704000130",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-12-15",
+  "primeiro_cupom": "2026-06-15",
+  "cnpj_emissor": "03342704000130",
+  "isin": "BRRECVDBS047",
+  "snd_atualizado_em": "2026-06-02T15:12:20",
+  "eventos_passados": [],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2031-12-15",
+      "valor_estimado": 515.5284
+    },
+    {
+      "data": "2032-12-15",
+      "valor_estimado": 515.5284
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:38",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2028-12-15",
+        "data_pagamento": "2028-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2029-06-15",
+        "data_pagamento": "2029-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2029-12-15",
+        "data_pagamento": "2029-12-17",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2030-06-15",
+        "data_pagamento": "2030-06-17",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2030-12-15",
+        "data_pagamento": "2030-12-16",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2031-06-15",
+        "data_pagamento": "2031-06-16",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2031-12-15",
+        "data_pagamento": "2031-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2032-06-15",
+        "data_pagamento": "2032-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      },
+      {
+        "data_evento": "2032-12-15",
+        "data_pagamento": "2032-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.4564
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2031-12-15",
+        "data_pagamento": "2031-12-15",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-12-15",
+      "data_pagamento": "2032-12-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-12-15",
+      "valor_estimado": 656.738,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2032-12-15",
+      "valor_estimado": 686.2912,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

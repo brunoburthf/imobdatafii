@@ -1,0 +1,217 @@
+{
+  "codigo": "MEAL14",
+  "nome": "INTERNATIONAL MEAL COMPANY ALIMENTAÇÃO S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-10-11",
+  "indexador": "CDI+",
+  "spread_contratual": 4.2,
+  "indexador_raw": "DI + 4,2%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": 4.144,
+    "desvio_padrao": 0.0692,
+    "intervalo_min": 4.0748,
+    "intervalo_max": 4.2134,
+    "pu": 576.489452,
+    "pct_pu_par": 100.0643,
+    "duration_du": 301.22,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMEALDBS043",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 4,
+    "registro_cvm": "AUT/DEB/PRI/2023/287",
+    "data_registro_cvm": "2023-10-13",
+    "data_emissao": "2023-10-11",
+    "data_vencimento": "2028-10-11",
+    "data_novo_vcto": "2028-10-11",
+    "inicio_rentabilidade": "2023-10-16",
+    "inicio_distribuicao": "2023-10-13",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 200000,
+    "qtd_mercado": 200000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 562.958423,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-10-11",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 4.2,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-04-11",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "ABC BRASIL DTVM S/A",
+    "cnpj_emissor": "17314329000120",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-10-11",
+  "primeiro_cupom": "2024-04-11",
+  "cnpj_emissor": "17314329000120",
+  "isin": "BRMEALDBS043",
+  "snd_atualizado_em": "2026-06-02T15:12:15",
+  "eventos_passados": [
+    {
+      "data": "2024-04-11",
+      "tipo": "Juros",
+      "valor": 75.2318
+    },
+    {
+      "data": "2024-10-11",
+      "tipo": "Juros",
+      "valor": 74.6804
+    },
+    {
+      "data": "2025-04-07",
+      "tipo": "Amortizacao",
+      "valor": 222.7989
+    },
+    {
+      "data": "2025-04-07",
+      "tipo": "Juros",
+      "valor": 77.2011
+    },
+    {
+      "data": "2025-08-22",
+      "tipo": "Juros",
+      "valor": 53.932
+    },
+    {
+      "data": "2025-10-13",
+      "tipo": "Amortizacao",
+      "valor": 22.5987
+    },
+    {
+      "data": "2025-10-13",
+      "tipo": "Juros",
+      "valor": 17.0961
+    },
+    {
+      "data": "2026-03-27",
+      "tipo": "Juros",
+      "valor": 53.728
+    },
+    {
+      "data": "2026-04-13",
+      "tipo": "Juros",
+      "valor": 3.9873
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-10-13",
+      "valor_estimado": 187.6528
+    },
+    {
+      "data": "2027-10-13",
+      "valor_estimado": 187.6528
+    },
+    {
+      "data": "2028-10-11",
+      "valor_estimado": 187.6528
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:20",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-11",
+        "data_pagamento": "2026-10-13",
+        "base": "DI",
+        "taxa_pct": 4.2
+      },
+      {
+        "data_evento": "2027-04-11",
+        "data_pagamento": "2027-04-12",
+        "base": "DI",
+        "taxa_pct": 4.2
+      },
+      {
+        "data_evento": "2027-10-11",
+        "data_pagamento": "2027-10-11",
+        "base": "DI",
+        "taxa_pct": 4.2
+      },
+      {
+        "data_evento": "2028-04-11",
+        "data_pagamento": "2028-04-11",
+        "base": "DI",
+        "taxa_pct": 4.2
+      },
+      {
+        "data_evento": "2028-10-11",
+        "data_pagamento": "2028-10-11",
+        "base": "DI",
+        "taxa_pct": 4.2
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-10-11",
+        "data_pagamento": "2026-10-13",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2027-10-11",
+        "data_pagamento": "2027-10-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-10-11",
+      "data_pagamento": "2028-10-11"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-13",
+      "valor_estimado": 187.6526,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-10-11",
+      "valor_estimado": 187.6529,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-10-11",
+      "valor_estimado": 187.6529,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

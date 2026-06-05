@@ -1,0 +1,312 @@
+{
+  "codigo": "TAEEA2",
+  "nome": "TRANS. ALIANÇA DE ENERGIA ELÉTRICA S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2036-05-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 4.7605,
+  "indexador_raw": "IPCA + 4,7605%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.7567,
+    "taxa_venda": 7.4973,
+    "taxa_indicativa": 7.6189,
+    "desvio_padrao": 0.0681,
+    "intervalo_min": 7.5508,
+    "intervalo_max": 7.6872,
+    "pu": 1101.868438,
+    "pct_pu_par": 82.2799,
+    "duration_du": 1799.81,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2035"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRTAEEDBS0M3",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 10,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-05-19",
+    "data_emissao": "2021-05-15",
+    "data_vencimento": "2036-05-15",
+    "data_novo_vcto": "2036-05-15",
+    "inicio_rentabilidade": "2021-05-20",
+    "inicio_distribuicao": "2021-05-20",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 100000,
+    "qtd_mercado": 100000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1336.7881,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2034-05-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 4.7605,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-11-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "VX PAVARINI DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "07859971000130",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-05-15",
+  "primeiro_cupom": "2021-11-15",
+  "cnpj_emissor": "07859971000130",
+  "isin": "BRTAEEDBS0M3",
+  "snd_atualizado_em": "2026-06-02T15:12:31",
+  "eventos_passados": [
+    {
+      "data": "2021-11-16",
+      "tipo": "Juros",
+      "valor": 24.2449
+    },
+    {
+      "data": "2022-05-16",
+      "tipo": "Juros",
+      "valor": 26.1356
+    },
+    {
+      "data": "2022-11-16",
+      "tipo": "Juros",
+      "valor": 26.6629
+    },
+    {
+      "data": "2023-05-15",
+      "tipo": "Juros",
+      "valor": 26.7887
+    },
+    {
+      "data": "2023-11-16",
+      "tipo": "Juros",
+      "valor": 28.1705
+    },
+    {
+      "data": "2024-05-15",
+      "tipo": "Juros",
+      "valor": 27.7767
+    },
+    {
+      "data": "2024-11-18",
+      "tipo": "Juros",
+      "valor": 30.211
+    },
+    {
+      "data": "2025-05-15",
+      "tipo": "Juros",
+      "valor": 28.5898
+    },
+    {
+      "data": "2025-11-17",
+      "tipo": "Juros",
+      "valor": 31.6251
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Juros",
+      "valor": 30.0968
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2034-05-15",
+      "valor_estimado": 445.596
+    },
+    {
+      "data": "2035-05-15",
+      "valor_estimado": 445.596
+    },
+    {
+      "data": "2036-05-15",
+      "valor_estimado": 445.596
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:55",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-15",
+        "data_pagamento": "2026-11-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2027-05-15",
+        "data_pagamento": "2027-05-17",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2027-11-15",
+        "data_pagamento": "2027-11-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2028-05-15",
+        "data_pagamento": "2028-05-15",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2028-11-15",
+        "data_pagamento": "2028-11-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2029-05-15",
+        "data_pagamento": "2029-05-15",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2029-11-15",
+        "data_pagamento": "2029-11-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2030-05-15",
+        "data_pagamento": "2030-05-15",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2030-11-15",
+        "data_pagamento": "2030-11-18",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2031-05-15",
+        "data_pagamento": "2031-05-15",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2031-11-15",
+        "data_pagamento": "2031-11-17",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2032-05-15",
+        "data_pagamento": "2032-05-17",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2032-11-15",
+        "data_pagamento": "2032-11-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2033-05-15",
+        "data_pagamento": "2033-05-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2033-11-15",
+        "data_pagamento": "2033-11-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2034-05-15",
+        "data_pagamento": "2034-05-15",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2034-11-15",
+        "data_pagamento": "2034-11-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2035-05-15",
+        "data_pagamento": "2035-05-15",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2035-11-15",
+        "data_pagamento": "2035-11-16",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      },
+      {
+        "data_evento": "2036-05-15",
+        "data_pagamento": "2036-05-15",
+        "base": "IPCA",
+        "taxa_pct": 4.7605
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2034-05-15",
+        "data_pagamento": "2034-05-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.33
+      },
+      {
+        "data_evento": "2035-05-15",
+        "data_pagamento": "2035-05-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2036-05-15",
+      "data_pagamento": "2036-05-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2034-05-15",
+      "valor_estimado": 631.2991,
+      "percentual": 33.33,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2035-05-15",
+      "valor_estimado": 659.8065,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2036-05-15",
+      "valor_estimado": 689.4978,
+      "percentual": 33.335,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

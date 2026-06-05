@@ -1,0 +1,163 @@
+{
+  "codigo": "BRKPA4",
+  "nome": "BRK AMBIENTAL PARTICIPACOES S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-10-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.9,
+  "indexador_raw": "DI + 1,9%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.9778,
+    "taxa_venda": 2.6547,
+    "taxa_indicativa": 2.8066,
+    "desvio_padrao": 0.0543,
+    "intervalo_min": 2.7523,
+    "intervalo_max": 2.861,
+    "pu": 990.249266,
+    "pct_pu_par": 97.1659,
+    "duration_du": 815.65,
+    "pct_reune": 35.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRBRKPDBS0B6",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 14,
+    "registro_cvm": "AUT/DEB/PRI/2025/761",
+    "data_registro_cvm": "2025-10-27",
+    "data_emissao": "2025-10-15",
+    "data_vencimento": "2030-10-15",
+    "data_novo_vcto": "2030-10-15",
+    "inicio_rentabilidade": "2025-10-29",
+    "inicio_distribuicao": "2025-10-29",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1500000,
+    "qtd_mercado": 1500000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.9,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "24396489000120",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-10-15",
+  "primeiro_cupom": "2026-04-15",
+  "cnpj_emissor": "24396489000120",
+  "isin": "BRBRKPDBS0B6",
+  "snd_atualizado_em": "2026-06-02T15:11:12",
+  "eventos_passados": [
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 73.7863
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:25",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2030-04-15",
+        "data_pagamento": "2030-04-15",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2030-10-15",
+        "data_pagamento": "2030-10-15",
+        "base": "DI",
+        "taxa_pct": 1.9
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2030-10-15",
+      "data_pagamento": "2030-10-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-10-15",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

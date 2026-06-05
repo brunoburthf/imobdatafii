@@ -1,0 +1,155 @@
+{
+  "codigo": "CEEBA3",
+  "nome": "CIA DE ELETRICIDADE DO ESTADO DA BAHIA - COELBA",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2026-10-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.34,
+  "indexador_raw": "DI + 1,34%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.1486,
+    "taxa_venda": 0.4984,
+    "taxa_indicativa": 0.8956,
+    "desvio_padrao": 0.1175,
+    "intervalo_min": 0.7781,
+    "intervalo_max": 1.0131,
+    "pu": 1020.13034,
+    "pct_pu_par": 100.1658,
+    "duration_du": 95.0,
+    "pct_reune": 10.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCEEBDBS0G3",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 13,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-10-28",
+    "data_emissao": "2021-10-15",
+    "data_vencimento": "2026-10-15",
+    "data_novo_vcto": "2026-10-15",
+    "inicio_rentabilidade": "2021-10-29",
+    "inicio_distribuicao": "2021-10-29",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 160000,
+    "qtd_mercado": 160000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.34,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "15139629000194",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-10-15",
+  "primeiro_cupom": "2022-04-15",
+  "cnpj_emissor": "15139629000194",
+  "isin": "BRCEEBDBS0G3",
+  "snd_atualizado_em": "2026-06-02T15:11:17",
+  "eventos_passados": [
+    {
+      "data": "2022-04-18",
+      "tipo": "Juros",
+      "valor": 49.5384
+    },
+    {
+      "data": "2022-10-17",
+      "tipo": "Juros",
+      "valor": 70.5146
+    },
+    {
+      "data": "2023-04-17",
+      "tipo": "Juros",
+      "valor": 72.5849
+    },
+    {
+      "data": "2023-10-16",
+      "tipo": "Juros",
+      "valor": 71.3455
+    },
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 61.9234
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 59.4782
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 65.7432
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 79.0513
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 77.6016
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:30",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 1.34
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2026-10-15",
+      "data_pagamento": "2026-10-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-15",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

@@ -1,0 +1,335 @@
+{
+  "codigo": "LGEN11",
+  "nome": "LAGOA 1 ENERGIA RENOVAVEL S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2029-03-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 7.3287,
+  "indexador_raw": "IPCA + 7,3287%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.0429,
+    "taxa_venda": 7.815,
+    "taxa_indicativa": 7.9134,
+    "desvio_padrao": 0.0236,
+    "intervalo_min": 7.8898,
+    "intervalo_max": 7.9371,
+    "pu": 798.168651,
+    "pct_pu_par": 99.3483,
+    "duration_du": 302.82,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2027"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRLGERDBS007",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 1,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2017-09-28",
+    "data_emissao": "2017-09-15",
+    "data_vencimento": "2029-03-15",
+    "data_novo_vcto": "2029-03-15",
+    "inicio_rentabilidade": "2017-09-29",
+    "inicio_distribuicao": "2017-09-29",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 46210,
+    "qtd_mercado": 46210,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 553.75189,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2021-09-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal de emissão em períodos uniformes",
+    "juros_taxa": 7.3287,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2020-03-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "21540697000163",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2017-09-15",
+  "primeiro_cupom": "2020-03-15",
+  "cnpj_emissor": "21540697000163",
+  "isin": "BRLGERDBS007",
+  "snd_atualizado_em": "2026-06-02T15:12:03",
+  "eventos_passados": [
+    {
+      "data": "2020-03-16",
+      "tipo": "Juros",
+      "valor": 45.0835
+    },
+    {
+      "data": "2020-09-15",
+      "tipo": "Juros",
+      "valor": 45.5586
+    },
+    {
+      "data": "2021-03-15",
+      "tipo": "Juros",
+      "valor": 46.6537
+    },
+    {
+      "data": "2021-09-15",
+      "tipo": "Amortizacao",
+      "valor": 62.4683
+    },
+    {
+      "data": "2021-09-15",
+      "tipo": "Juros",
+      "valor": 50.7761
+    },
+    {
+      "data": "2022-03-15",
+      "tipo": "Amortizacao",
+      "valor": 66.0742
+    },
+    {
+      "data": "2022-03-15",
+      "tipo": "Juros",
+      "valor": 49.6594
+    },
+    {
+      "data": "2022-09-15",
+      "tipo": "Amortizacao",
+      "valor": 67.9201
+    },
+    {
+      "data": "2022-09-15",
+      "tipo": "Juros",
+      "valor": 50.2388
+    },
+    {
+      "data": "2023-03-15",
+      "tipo": "Amortizacao",
+      "valor": 93.0293
+    },
+    {
+      "data": "2023-03-15",
+      "tipo": "Juros",
+      "valor": 47.4967
+    },
+    {
+      "data": "2023-09-15",
+      "tipo": "Amortizacao",
+      "valor": 94.7332
+    },
+    {
+      "data": "2023-09-15",
+      "tipo": "Juros",
+      "valor": 46.1202
+    },
+    {
+      "data": "2024-03-15",
+      "tipo": "Amortizacao",
+      "valor": 81.0102
+    },
+    {
+      "data": "2024-03-15",
+      "tipo": "Juros",
+      "valor": 42.3962
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Amortizacao",
+      "valor": 74.0608
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 41.8382
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Amortizacao",
+      "valor": 110.6396
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 39.1822
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Amortizacao",
+      "valor": 103.8139
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 36.4343
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Amortizacao",
+      "valor": 150.1983
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 33.1233
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-09-16",
+      "valor_estimado": 92.292
+    },
+    {
+      "data": "2027-03-16",
+      "valor_estimado": 92.292
+    },
+    {
+      "data": "2027-09-16",
+      "valor_estimado": 92.292
+    },
+    {
+      "data": "2028-03-16",
+      "valor_estimado": 92.292
+    },
+    {
+      "data": "2028-09-16",
+      "valor_estimado": 92.292
+    },
+    {
+      "data": "2029-03-15",
+      "valor_estimado": 92.292
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:18",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 7.3287
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 7.3287
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 7.3287
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 7.3287
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 7.3287
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 7.3287
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base_calc": "VNE VAR/UNIF",
+        "percentual": 9.0
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base_calc": "VNE VAR/UNIF",
+        "percentual": 11.0
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base_calc": "VNE VAR/UNIF",
+        "percentual": 11.0
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base_calc": "VNE VAR/UNIF",
+        "percentual": 3.5
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base_calc": "VNE VAR/UNIF",
+        "percentual": 3.5
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-03-15",
+      "data_pagamento": "2029-03-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-09-15",
+      "valor_estimado": 142.9506,
+      "percentual": 9.0,
+      "base": "VNE VAR/UNIF"
+    },
+    {
+      "data": "2027-03-15",
+      "valor_estimado": 178.6053,
+      "percentual": 11.0,
+      "base": "VNE VAR/UNIF"
+    },
+    {
+      "data": "2027-09-15",
+      "valor_estimado": 182.5797,
+      "percentual": 11.0,
+      "base": "VNE VAR/UNIF"
+    },
+    {
+      "data": "2028-03-15",
+      "valor_estimado": 59.3863,
+      "percentual": 3.5,
+      "base": "VNE VAR/UNIF"
+    },
+    {
+      "data": "2028-09-15",
+      "valor_estimado": 60.7077,
+      "percentual": 3.5,
+      "base": "VNE VAR/UNIF"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

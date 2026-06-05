@@ -1,0 +1,181 @@
+{
+  "codigo": "TAEEB0",
+  "nome": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2040-12-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.4712,
+  "indexador_raw": "IPCA + 6,4712%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.5417,
+    "taxa_venda": 7.3021,
+    "taxa_indicativa": 7.3908,
+    "desvio_padrao": 0.0275,
+    "intervalo_min": 7.3633,
+    "intervalo_max": 7.4183,
+    "pu": 955.244054,
+    "pct_pu_par": 90.0833,
+    "duration_du": 3059.05,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2050"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRTAEEDBS159",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 20,
+    "registro_cvm": "AUT/DEB/PRI/2025/915",
+    "data_registro_cvm": "2025-12-16",
+    "data_emissao": "2025-12-15",
+    "data_vencimento": "2040-12-15",
+    "data_novo_vcto": "2040-12-15",
+    "inicio_rentabilidade": "2025-12-18",
+    "inicio_distribuicao": "2025-12-17",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 600000,
+    "qtd_mercado": 600000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1033.07516,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2037-12-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.4712,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2037-12-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "07859971000130",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-12-15",
+  "primeiro_cupom": "2037-12-15",
+  "cnpj_emissor": "07859971000130",
+  "isin": "BRTAEEDBS159",
+  "snd_atualizado_em": "2026-06-02T15:12:31",
+  "eventos_passados": [],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2037-12-15",
+      "valor_estimado": 258.2688
+    },
+    {
+      "data": "2038-12-15",
+      "valor_estimado": 258.2688
+    },
+    {
+      "data": "2039-12-15",
+      "valor_estimado": 258.2688
+    },
+    {
+      "data": "2040-12-15",
+      "valor_estimado": 258.2688
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:55",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2037-12-15",
+        "data_pagamento": "2037-12-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4712
+      },
+      {
+        "data_evento": "2038-12-15",
+        "data_pagamento": "2038-12-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4712
+      },
+      {
+        "data_evento": "2039-12-15",
+        "data_pagamento": "2039-12-15",
+        "base": "IPCA",
+        "taxa_pct": 6.4712
+      },
+      {
+        "data_evento": "2040-12-15",
+        "data_pagamento": "2040-12-17",
+        "base": "IPCA",
+        "taxa_pct": 6.4712
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2037-12-15",
+        "data_pagamento": "2037-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2038-12-15",
+        "data_pagamento": "2038-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2039-12-15",
+        "data_pagamento": "2039-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2040-12-15",
+      "data_pagamento": "2040-12-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2037-12-15",
+      "valor_estimado": 428.459,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2038-12-15",
+      "valor_estimado": 447.7392,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2039-12-15",
+      "valor_estimado": 467.8882,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2040-12-17",
+      "valor_estimado": 488.9431,
+      "percentual": 25.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

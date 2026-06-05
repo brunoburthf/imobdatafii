@@ -1,0 +1,209 @@
+{
+  "codigo": "DESK18",
+  "nome": "DESKTOP S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-06-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 7.9356,
+  "indexador_raw": "IPCA + 7,9356%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.4684,
+    "taxa_venda": 8.119,
+    "taxa_indicativa": 8.2761,
+    "desvio_padrao": 0.0678,
+    "intervalo_min": 8.2084,
+    "intervalo_max": 8.344,
+    "pu": 1064.51156,
+    "pct_pu_par": 98.6204,
+    "duration_du": 1110.21,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2031"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRDESKDBS061",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 8,
+    "registro_cvm": "AUT/DEB/PRI/2025/470",
+    "data_registro_cvm": "2025-06-26",
+    "data_emissao": "2025-06-15",
+    "data_vencimento": "2032-06-15",
+    "data_novo_vcto": "2032-06-15",
+    "inicio_rentabilidade": "2025-06-27",
+    "inicio_distribuicao": "2025-06-26",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 437500,
+    "qtd_mercado": 437500,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1044.3863,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2031-06-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 7.9356,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-12-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BCO VOTORANTIM S/A",
+    "cnpj_emissor": "08170849000115",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-06-15",
+  "primeiro_cupom": "2025-12-15",
+  "cnpj_emissor": "08170849000115",
+  "isin": "BRDESKDBS061",
+  "snd_atualizado_em": "2026-06-02T15:11:34",
+  "eventos_passados": [
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 37.4212
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2031-06-15",
+      "valor_estimado": 522.1931
+    },
+    {
+      "data": "2032-06-15",
+      "valor_estimado": 522.1931
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:51",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2028-12-15",
+        "data_pagamento": "2028-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2029-06-15",
+        "data_pagamento": "2029-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2029-12-15",
+        "data_pagamento": "2029-12-17",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2030-06-15",
+        "data_pagamento": "2030-06-17",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2030-12-15",
+        "data_pagamento": "2030-12-16",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2031-06-15",
+        "data_pagamento": "2031-06-16",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2031-12-15",
+        "data_pagamento": "2031-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      },
+      {
+        "data_evento": "2032-06-15",
+        "data_pagamento": "2032-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.9356
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2031-06-15",
+        "data_pagamento": "2031-06-16",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-06-15",
+      "data_pagamento": "2032-06-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-06-16",
+      "valor_estimado": 650.7477,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2032-06-15",
+      "valor_estimado": 680.0313,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

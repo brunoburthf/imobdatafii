@@ -1,0 +1,321 @@
+{
+  "codigo": "ENERC7",
+  "nome": "ENERGISA MATO GROSSO DO SUL - DISTRIBUIDORA DE ENERGIA S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2040-09-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.9467,
+  "indexador_raw": "IPCA + 6,9467%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.9767,
+    "taxa_venda": 7.6783,
+    "taxa_indicativa": 7.8191,
+    "desvio_padrao": 0.0538,
+    "intervalo_min": 7.7652,
+    "intervalo_max": 7.873,
+    "pu": 982.239881,
+    "pct_pu_par": 93.1858,
+    "duration_du": 2166.2,
+    "pct_reune": 5.0,
+    "referencia_ntnb": "15/08/2040"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRENERDBS107",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 27,
+    "registro_cvm": "AUT/DEB/PRI/2025/662",
+    "data_registro_cvm": "2025-09-16",
+    "data_emissao": "2025-09-15",
+    "data_vencimento": "2040-09-15",
+    "data_novo_vcto": "2040-09-15",
+    "inicio_rentabilidade": "2025-09-17",
+    "inicio_distribuicao": "2025-09-16",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 360000,
+    "qtd_mercado": 360000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1040.87425,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2038-09-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.9467,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-03-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BTG PACTUAL SERV.FINANCEIROS S/A DTVM",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "15413826000150",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-09-15",
+  "primeiro_cupom": "2026-03-15",
+  "cnpj_emissor": "15413826000150",
+  "isin": "BRENERDBS107",
+  "snd_atualizado_em": "2026-06-02T15:11:41",
+  "eventos_passados": [
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 34.018
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2038-09-15",
+      "valor_estimado": 346.9581
+    },
+    {
+      "data": "2039-09-15",
+      "valor_estimado": 346.9581
+    },
+    {
+      "data": "2040-09-15",
+      "valor_estimado": 346.9581
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:59",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2031-09-15",
+        "data_pagamento": "2031-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2032-03-15",
+        "data_pagamento": "2032-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2032-09-15",
+        "data_pagamento": "2032-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2033-03-15",
+        "data_pagamento": "2033-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2033-09-15",
+        "data_pagamento": "2033-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2034-03-15",
+        "data_pagamento": "2034-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2034-09-15",
+        "data_pagamento": "2034-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2035-03-15",
+        "data_pagamento": "2035-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2035-09-15",
+        "data_pagamento": "2035-09-17",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2036-03-15",
+        "data_pagamento": "2036-03-17",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2036-09-15",
+        "data_pagamento": "2036-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2037-03-15",
+        "data_pagamento": "2037-03-16",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2037-09-15",
+        "data_pagamento": "2037-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2038-03-15",
+        "data_pagamento": "2038-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2038-09-15",
+        "data_pagamento": "2038-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2039-03-15",
+        "data_pagamento": "2039-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2039-09-15",
+        "data_pagamento": "2039-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2040-03-15",
+        "data_pagamento": "2040-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      },
+      {
+        "data_evento": "2040-09-15",
+        "data_pagamento": "2040-09-17",
+        "base": "IPCA",
+        "taxa_pct": 6.9467
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2038-09-15",
+        "data_pagamento": "2038-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2039-09-15",
+        "data_pagamento": "2039-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2040-09-15",
+      "data_pagamento": "2040-09-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2038-09-15",
+      "valor_estimado": 594.9098,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2039-09-15",
+      "valor_estimado": 621.6817,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2040-09-17",
+      "valor_estimado": 649.6574,
+      "percentual": 33.3333,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

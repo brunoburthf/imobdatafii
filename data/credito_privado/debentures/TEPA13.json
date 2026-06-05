@@ -1,0 +1,240 @@
+{
+  "codigo": "TEPA13",
+  "nome": "BRASIL TECNOLOGIA E PARTICIPACAO S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-03-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 11.5593,
+  "indexador_raw": "IPCA + 11,5593%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 13.57,
+    "taxa_venda": 12.4336,
+    "taxa_indicativa": 13.0027,
+    "desvio_padrao": 0.2398,
+    "intervalo_min": 12.7629,
+    "intervalo_max": 13.2426,
+    "pu": 1030.066106,
+    "pct_pu_par": 95.7694,
+    "duration_du": 843.39,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2030"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRTEPADBS031",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 3,
+    "registro_cvm": "AUT/DEB/PRI/2025/303",
+    "data_registro_cvm": "2025-04-11",
+    "data_emissao": "2025-03-15",
+    "data_vencimento": "2032-03-15",
+    "data_novo_vcto": "2032-03-15",
+    "inicio_rentabilidade": "2025-04-14",
+    "inicio_distribuicao": "2025-04-11",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 506200,
+    "qtd_mercado": 506200,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1052.89391,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2029-03-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 11.5593,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-09-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BTG PACTUAL SERV.FINANCEIROS S/A DTVM",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "35764708000101",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-03-15",
+  "primeiro_cupom": "2025-09-15",
+  "cnpj_emissor": "35764708000101",
+  "isin": "BRTEPADBS031",
+  "snd_atualizado_em": "2026-06-02T15:12:33",
+  "eventos_passados": [
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 47.6096
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 57.5766
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2029-03-15",
+      "valor_estimado": 263.2235
+    },
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 263.2235
+    },
+    {
+      "data": "2031-03-15",
+      "valor_estimado": 263.2235
+    },
+    {
+      "data": "2032-03-15",
+      "valor_estimado": 263.2235
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:56",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2031-09-15",
+        "data_pagamento": "2031-09-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      },
+      {
+        "data_evento": "2032-03-15",
+        "data_pagamento": "2032-03-15",
+        "base": "IPCA",
+        "taxa_pct": 11.5593
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-03-15",
+      "data_pagamento": "2032-03-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-03-15",
+      "valor_estimado": 297.0944,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 310.4633,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-03-17",
+      "valor_estimado": 324.4346,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2032-03-15",
+      "valor_estimado": 339.0342,
+      "percentual": 25.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

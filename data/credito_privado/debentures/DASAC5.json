@@ -1,0 +1,215 @@
+{
+  "codigo": "DASAC5",
+  "nome": "DIAGNÓSTICOS DA AMÉRICA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-10-30",
+  "indexador": "CDI+",
+  "spread_contratual": 2.05,
+  "indexador_raw": "DI + 2,05%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 3.3714,
+    "taxa_venda": 2.6955,
+    "taxa_indicativa": 3.0214,
+    "desvio_padrao": 0.2209,
+    "intervalo_min": 2.8005,
+    "intervalo_max": 3.2424,
+    "pu": 977.52275,
+    "pct_pu_par": 96.4992,
+    "duration_du": 943.85,
+    "pct_reune": 5.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRDASADBS0M9",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 15,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-11-09",
+    "data_emissao": "2021-10-30",
+    "data_vencimento": "2031-10-30",
+    "data_novo_vcto": "2031-10-30",
+    "inicio_rentabilidade": "2021-11-10",
+    "inicio_distribuicao": "2021-11-10",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 714641,
+    "qtd_mercado": 714641,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 2.05,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-04-30",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "61486650000183",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-10-30",
+  "primeiro_cupom": "2022-04-30",
+  "cnpj_emissor": "61486650000183",
+  "isin": "BRDASADBS0M9",
+  "snd_atualizado_em": "2026-06-02T15:11:33",
+  "eventos_passados": [
+    {
+      "data": "2022-05-02",
+      "tipo": "Juros",
+      "valor": 54.1078
+    },
+    {
+      "data": "2022-10-31",
+      "tipo": "Juros",
+      "valor": 75.5721
+    },
+    {
+      "data": "2023-05-02",
+      "tipo": "Juros",
+      "valor": 75.6729
+    },
+    {
+      "data": "2023-10-30",
+      "tipo": "Juros",
+      "valor": 75.3176
+    },
+    {
+      "data": "2024-04-30",
+      "tipo": "Juros",
+      "valor": 65.3047
+    },
+    {
+      "data": "2024-10-30",
+      "tipo": "Juros",
+      "valor": 63.2715
+    },
+    {
+      "data": "2025-04-30",
+      "tipo": "Juros",
+      "valor": 69.5689
+    },
+    {
+      "data": "2025-10-30",
+      "tipo": "Juros",
+      "valor": 84.4772
+    },
+    {
+      "data": "2026-04-30",
+      "tipo": "Juros",
+      "valor": 80.5338
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:51",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-30",
+        "data_pagamento": "2026-10-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2027-04-30",
+        "data_pagamento": "2027-04-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2027-10-30",
+        "data_pagamento": "2027-11-01",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2028-04-30",
+        "data_pagamento": "2028-05-02",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2028-10-30",
+        "data_pagamento": "2028-10-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2029-04-30",
+        "data_pagamento": "2029-04-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2029-10-30",
+        "data_pagamento": "2029-10-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2030-04-30",
+        "data_pagamento": "2030-04-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2030-10-30",
+        "data_pagamento": "2030-10-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2031-04-30",
+        "data_pagamento": "2031-04-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2031-10-30",
+        "data_pagamento": "2031-10-30",
+        "base": "DI",
+        "taxa_pct": 2.05
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2031-10-30",
+      "data_pagamento": "2031-10-30"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-10-30",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

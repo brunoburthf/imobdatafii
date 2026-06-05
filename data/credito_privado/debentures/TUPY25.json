@@ -1,0 +1,207 @@
+{
+  "codigo": "TUPY25",
+  "nome": "TUPY S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-07-17",
+  "indexador": "CDI+",
+  "spread_contratual": 1.0,
+  "indexador_raw": "DI + 1%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 9.0114,
+    "taxa_venda": 4.0535,
+    "taxa_indicativa": 8.0731,
+    "desvio_padrao": 0.1007,
+    "intervalo_min": 7.9725,
+    "intervalo_max": 8.1739,
+    "pu": 847.520972,
+    "pct_pu_par": 80.4132,
+    "duration_du": 787.6,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRTUPYDBS029",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 5,
+    "registro_cvm": "AUT/DEB/PRI/2024/439",
+    "data_registro_cvm": "2024-07-12",
+    "data_emissao": "2024-07-17",
+    "data_vencimento": "2031-07-17",
+    "data_novo_vcto": "2031-07-17",
+    "inicio_rentabilidade": "2024-07-17",
+    "inicio_distribuicao": "2024-07-12",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 360230,
+    "qtd_mercado": 360230,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2030-07-17",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.0,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-01-17",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "84683374000300",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-07-17",
+  "primeiro_cupom": "2025-01-17",
+  "cnpj_emissor": "84683374000300",
+  "isin": "BRTUPYDBS029",
+  "snd_atualizado_em": "2026-06-02T15:12:36",
+  "eventos_passados": [
+    {
+      "data": "2025-01-17",
+      "tipo": "Juros",
+      "valor": 59.439
+    },
+    {
+      "data": "2025-07-17",
+      "tipo": "Juros",
+      "valor": 71.0967
+    },
+    {
+      "data": "2026-01-19",
+      "tipo": "Juros",
+      "valor": 79.1709
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2030-07-17",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2031-07-17",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:00",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-17",
+        "data_pagamento": "2026-07-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2027-01-17",
+        "data_pagamento": "2027-01-18",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2027-07-17",
+        "data_pagamento": "2027-07-19",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2028-01-17",
+        "data_pagamento": "2028-01-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2028-07-17",
+        "data_pagamento": "2028-07-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2029-01-17",
+        "data_pagamento": "2029-01-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2029-07-17",
+        "data_pagamento": "2029-07-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2030-01-17",
+        "data_pagamento": "2030-01-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2030-07-17",
+        "data_pagamento": "2030-07-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2031-01-17",
+        "data_pagamento": "2031-01-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2031-07-17",
+        "data_pagamento": "2031-07-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2030-07-17",
+        "data_pagamento": "2030-07-17",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-07-17",
+      "data_pagamento": "2031-07-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-07-17",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2031-07-17",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

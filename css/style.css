@@ -416,6 +416,21 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   cursor: help;
 }
 
+/* Tag "isenta IR" nas sugestoes do simulador CP (debentures incentivadas) */
+.cp-sug-tag-inc {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  background: #e6f4ea;
+  color: #1e7a3a;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  vertical-align: middle;
+}
+
 /* SEÇÃO TEXTO */
 .secao {
   background: var(--branco);

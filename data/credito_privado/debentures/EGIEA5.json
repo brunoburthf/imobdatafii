@@ -1,0 +1,195 @@
+{
+  "codigo": "EGIEA5",
+  "nome": "ENGIE BRASIL ENERGIA S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2035-06-15",
+  "indexador": "PREFIX",
+  "spread_contratual": 12.8775,
+  "indexador_raw": "PREFIXADO 12,8775%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 14.0448,
+    "taxa_venda": 13.2021,
+    "taxa_indicativa": 13.7104,
+    "desvio_padrao": 0.0919,
+    "intervalo_min": 13.6185,
+    "intervalo_max": 13.8024,
+    "pu": 1072.879879,
+    "pct_pu_par": 96.4287,
+    "duration_du": 1238.84,
+    "pct_reune": 35.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:24",
+  "snd": {
+    "isin": "BREGIEDBS0O6",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 15,
+    "registro_cvm": "AUT/DEB/PRI/2025/505",
+    "data_registro_cvm": "2025-07-11",
+    "data_emissao": "2025-06-20",
+    "data_vencimento": "2035-06-15",
+    "data_novo_vcto": "2035-06-15",
+    "inicio_rentabilidade": "2025-07-14",
+    "inicio_distribuicao": "2025-07-11",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 750000,
+    "qtd_mercado": 750000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "PRÉ",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2033-06-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 12.8775,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2027-06-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "02474103000119",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-06-20",
+  "primeiro_cupom": "2027-06-15",
+  "cnpj_emissor": "02474103000119",
+  "isin": "BREGIEDBS0O6",
+  "snd_atualizado_em": "2026-06-02T15:11:37",
+  "eventos_passados": [],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2033-06-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2034-06-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2035-06-15",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:54",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      },
+      {
+        "data_evento": "2029-06-15",
+        "data_pagamento": "2029-06-15",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      },
+      {
+        "data_evento": "2030-06-15",
+        "data_pagamento": "2030-06-17",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      },
+      {
+        "data_evento": "2031-06-15",
+        "data_pagamento": "2031-06-16",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      },
+      {
+        "data_evento": "2032-06-15",
+        "data_pagamento": "2032-06-15",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      },
+      {
+        "data_evento": "2033-06-15",
+        "data_pagamento": "2033-06-15",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      },
+      {
+        "data_evento": "2034-06-15",
+        "data_pagamento": "2034-06-15",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      },
+      {
+        "data_evento": "2035-06-15",
+        "data_pagamento": "2035-06-15",
+        "base": "PRÉ",
+        "taxa_pct": 12.8775
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2033-06-15",
+        "data_pagamento": "2033-06-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2034-06-15",
+        "data_pagamento": "2034-06-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2035-06-15",
+      "data_pagamento": "2035-06-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2033-06-15",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2034-06-15",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2035-06-15",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

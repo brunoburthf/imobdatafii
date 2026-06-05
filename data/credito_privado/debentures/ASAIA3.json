@@ -1,0 +1,151 @@
+{
+  "codigo": "ASAIA3",
+  "nome": "SENDAS DISTRIBUIDORA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-06-05",
+  "indexador": "CDI+",
+  "spread_contratual": 1.2,
+  "indexador_raw": "DI + 1,2%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.0811,
+    "taxa_venda": 1.7,
+    "taxa_indicativa": 1.8862,
+    "desvio_padrao": 0.0438,
+    "intervalo_min": 1.8424,
+    "intervalo_max": 1.9301,
+    "pu": 1056.325521,
+    "pct_pu_par": 98.4305,
+    "duration_du": 589.02,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRASAIDBS0C5",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 13,
+    "registro_cvm": "AUT/DEB/PRI/2025/423",
+    "data_registro_cvm": "2025-06-11",
+    "data_emissao": "2025-06-05",
+    "data_vencimento": "2029-06-05",
+    "data_novo_vcto": "2029-06-05",
+    "inicio_rentabilidade": "2025-06-13",
+    "inicio_distribuicao": "2025-06-11",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1500000,
+    "qtd_mercado": 1496152,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.2,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-12-05",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "06057223000171",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-06-05",
+  "primeiro_cupom": "2025-12-05",
+  "cnpj_emissor": "06057223000171",
+  "isin": "BRASAIDBS0C5",
+  "snd_atualizado_em": "2026-06-02T15:11:10",
+  "eventos_passados": [
+    {
+      "data": "2025-12-05",
+      "tipo": "Juros",
+      "valor": 76.3548
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:22",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-05",
+        "data_pagamento": "2026-06-05",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2026-12-05",
+        "data_pagamento": "2026-12-07",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2027-06-05",
+        "data_pagamento": "2027-06-07",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2027-12-05",
+        "data_pagamento": "2027-12-06",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2028-06-05",
+        "data_pagamento": "2028-06-05",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2028-12-05",
+        "data_pagamento": "2028-12-05",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2029-06-05",
+        "data_pagamento": "2029-06-05",
+        "base": "DI",
+        "taxa_pct": 1.2
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-06-05",
+      "data_pagamento": "2029-06-05"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-06-05",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

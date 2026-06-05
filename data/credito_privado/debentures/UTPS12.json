@@ -1,0 +1,282 @@
+{
+  "codigo": "UTPS12",
+  "nome": "USINA TERMELETRICA PAMPA SUL S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2028-04-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 4.5,
+  "indexador_raw": "IPCA + 4,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.8882,
+    "taxa_venda": 8.5664,
+    "taxa_indicativa": 8.7217,
+    "desvio_padrao": 0.2729,
+    "intervalo_min": 8.4489,
+    "intervalo_max": 8.9947,
+    "pu": 601.008031,
+    "pct_pu_par": 95.0314,
+    "duration_du": 322.52,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2027"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRUTPSDBS021",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 2,
+    "registro_cvm": "CVM/SRE/DEB/2020/003",
+    "data_registro_cvm": "2020-11-11",
+    "data_emissao": "2020-10-15",
+    "data_vencimento": "2028-04-15",
+    "data_novo_vcto": "2028-04-15",
+    "inicio_rentabilidade": "2020-11-16",
+    "inicio_distribuicao": "2020-11-16",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 150000,
+    "qtd_mercado": 150000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 629.426701,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2021-10-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 4.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-10-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "VX PAVARINI DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "04739720000124",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2020-10-15",
+  "primeiro_cupom": "2021-10-15",
+  "cnpj_emissor": "04739720000124",
+  "isin": "BRUTPSDBS021",
+  "snd_atualizado_em": "2026-06-02T15:12:38",
+  "eventos_passados": [
+    {
+      "data": "2021-10-15",
+      "tipo": "Amortizacao",
+      "valor": 27.3266
+    },
+    {
+      "data": "2021-10-15",
+      "tipo": "Juros",
+      "valor": 44.8069
+    },
+    {
+      "data": "2022-04-18",
+      "tipo": "Amortizacao",
+      "valor": 31.8369
+    },
+    {
+      "data": "2022-04-18",
+      "tipo": "Juros",
+      "valor": 25.1982
+    },
+    {
+      "data": "2022-10-17",
+      "tipo": "Amortizacao",
+      "valor": 32.1108
+    },
+    {
+      "data": "2022-10-17",
+      "tipo": "Juros",
+      "valor": 24.7008
+    },
+    {
+      "data": "2023-04-17",
+      "tipo": "Amortizacao",
+      "valor": 48.7818
+    },
+    {
+      "data": "2023-04-17",
+      "tipo": "Juros",
+      "valor": 24.6877
+    },
+    {
+      "data": "2023-10-16",
+      "tipo": "Amortizacao",
+      "valor": 49.4531
+    },
+    {
+      "data": "2023-10-16",
+      "tipo": "Juros",
+      "valor": 23.9359
+    },
+    {
+      "data": "2024-04-15",
+      "tipo": "Amortizacao",
+      "valor": 98.0643
+    },
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 23.0399
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Amortizacao",
+      "valor": 99.8908
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 22.3507
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Amortizacao",
+      "valor": 102.4367
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 19.9721
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Amortizacao",
+      "valor": 104.044
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 18.4479
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Amortizacao",
+      "valor": 113.4723
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 16.1279
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-10-15",
+      "valor_estimado": 157.3567
+    },
+    {
+      "data": "2027-04-15",
+      "valor_estimado": 157.3567
+    },
+    {
+      "data": "2027-10-15",
+      "valor_estimado": 157.3567
+    },
+    {
+      "data": "2028-04-15",
+      "valor_estimado": 157.3567
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:02",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 18.2105
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 21.664
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 27.6552
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-04-15",
+      "data_pagamento": "2028-04-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-15",
+      "valor_estimado": 116.3159,
+      "percentual": 18.2105,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-04-15",
+      "valor_estimado": 115.6942,
+      "percentual": 21.664,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-10-15",
+      "valor_estimado": 118.2686,
+      "percentual": 27.6552,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-04-17",
+      "valor_estimado": 316.27,
+      "percentual": 46.3518,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

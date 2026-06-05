@@ -1,0 +1,254 @@
+{
+  "codigo": "ALGAC2",
+  "nome": "ALGAR TELECOM S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-01-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 5.8806,
+  "indexador_raw": "IPCA + 5,8806%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 9.1486,
+    "taxa_venda": 8.8039,
+    "taxa_indicativa": 8.9959,
+    "desvio_padrao": 0.0476,
+    "intervalo_min": 8.9483,
+    "intervalo_max": 9.0436,
+    "pu": 1128.04457,
+    "pct_pu_par": 89.1295,
+    "duration_du": 992.5,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2030"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRALGTDBS0I0",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 12,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-02-07",
+    "data_emissao": "2022-01-15",
+    "data_vencimento": "2032-01-15",
+    "data_novo_vcto": "2032-01-15",
+    "inicio_rentabilidade": "2022-02-08",
+    "inicio_distribuicao": "2022-01-14",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 315000,
+    "qtd_mercado": 315000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1239.8047,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2030-01-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 5.8806,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-07-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "TRUSTEE DTVM LTDA",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "71208516000174",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-01-15",
+  "primeiro_cupom": "2022-07-15",
+  "cnpj_emissor": "71208516000174",
+  "isin": "BRALGTDBS0I0",
+  "snd_atualizado_em": "2026-06-02T15:11:06",
+  "eventos_passados": [
+    {
+      "data": "2022-07-15",
+      "tipo": "Juros",
+      "valor": 26.0449
+    },
+    {
+      "data": "2023-01-16",
+      "tipo": "Juros",
+      "valor": 30.78
+    },
+    {
+      "data": "2023-07-17",
+      "tipo": "Juros",
+      "valor": 30.9051
+    },
+    {
+      "data": "2024-01-15",
+      "tipo": "Juros",
+      "valor": 31.4309
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 32.4751
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Juros",
+      "valor": 33.7581
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 33.6579
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 35.7601
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2030-01-15",
+      "valor_estimado": 413.2682
+    },
+    {
+      "data": "2031-01-15",
+      "valor_estimado": 413.2682
+    },
+    {
+      "data": "2032-01-15",
+      "valor_estimado": 413.2682
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:19",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2030-07-15",
+        "data_pagamento": "2030-07-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2031-01-15",
+        "data_pagamento": "2031-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2031-07-15",
+        "data_pagamento": "2031-07-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      },
+      {
+        "data_evento": "2032-01-15",
+        "data_pagamento": "2032-01-15",
+        "base": "IPCA",
+        "taxa_pct": 5.8806
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.33
+      },
+      {
+        "data_evento": "2031-01-15",
+        "data_pagamento": "2031-01-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-01-15",
+      "data_pagamento": "2032-01-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-01-15",
+      "valor_estimado": 483.8254,
+      "percentual": 33.33,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-01-15",
+      "valor_estimado": 505.6734,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2032-01-15",
+      "valor_estimado": 528.4287,
+      "percentual": 33.335,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

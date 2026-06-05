@@ -1,0 +1,154 @@
+{
+  "codigo": "RESA15",
+  "nome": "RAIZEN ENERGIA S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2030-06-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 5.8,
+  "indexador_raw": "IPCA + 5,8%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": null,
+    "desvio_padrao": null,
+    "intervalo_min": null,
+    "intervalo_max": null,
+    "pu": 687.904868,
+    "pct_pu_par": 48.3012,
+    "duration_du": null,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRESADBS054",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 5,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2020-06-12",
+    "data_emissao": "2020-06-15",
+    "data_vencimento": "2030-06-15",
+    "data_novo_vcto": "2030-06-15",
+    "inicio_rentabilidade": "2020-06-15",
+    "inicio_distribuicao": "2020-06-15",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 169518,
+    "qtd_mercado": 0,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1408.1703,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-06-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 5.8,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2020-12-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "08070508000178",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2020-06-15",
+  "primeiro_cupom": "2020-12-15",
+  "cnpj_emissor": "08070508000178",
+  "isin": "BRRESADBS054",
+  "snd_atualizado_em": "2026-06-02T15:12:22",
+  "eventos_passados": [
+    {
+      "data": "2020-12-15",
+      "tipo": "Juros",
+      "valor": 30.0081
+    },
+    {
+      "data": "2021-06-15",
+      "tipo": "Juros",
+      "valor": 30.1488
+    },
+    {
+      "data": "2021-12-15",
+      "tipo": "Juros",
+      "valor": 32.9672
+    },
+    {
+      "data": "2022-06-15",
+      "tipo": "Juros",
+      "valor": 34.5189
+    },
+    {
+      "data": "2022-12-15",
+      "tipo": "Juros",
+      "valor": 34.6337
+    },
+    {
+      "data": "2023-06-15",
+      "tipo": "Juros",
+      "valor": 35.3001
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Juros",
+      "valor": 36.5476
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Juros",
+      "valor": 36.686
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Juros",
+      "valor": 38.6347
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 38.3217
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 40.3585
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-06-15",
+      "valor_estimado": 469.3901
+    },
+    {
+      "data": "2029-06-15",
+      "valor_estimado": 469.3901
+    },
+    {
+      "data": "2030-06-15",
+      "valor_estimado": 469.3901
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:41"
+}

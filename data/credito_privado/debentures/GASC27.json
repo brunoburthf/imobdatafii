@@ -1,0 +1,267 @@
+{
+  "codigo": "GASC27",
+  "nome": "RUMO MALHA PAULISTA S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2036-08-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.047,
+  "indexador_raw": "IPCA + 6,047%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.9614,
+    "taxa_venda": 8.5851,
+    "taxa_indicativa": 8.7487,
+    "desvio_padrao": 0.3007,
+    "intervalo_min": 8.4479,
+    "intervalo_max": 9.0495,
+    "pu": 926.709308,
+    "pct_pu_par": 83.3952,
+    "duration_du": 1784.47,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2035"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRGASCDBS0A9",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 7,
+    "registro_cvm": "AUT/DEB/PRI/2024/509",
+    "data_registro_cvm": "2024-08-28",
+    "data_emissao": "2024-08-15",
+    "data_vencimento": "2036-08-15",
+    "data_novo_vcto": "2036-08-15",
+    "inicio_rentabilidade": "2024-08-29",
+    "inicio_distribuicao": "2024-08-28",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 300000,
+    "qtd_mercado": 300000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1094.63259,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2035-08-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.047,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-02-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "02502844000166",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-08-15",
+  "primeiro_cupom": "2025-02-15",
+  "cnpj_emissor": "02502844000166",
+  "isin": "BRGASCDBS0A9",
+  "snd_atualizado_em": "2026-06-02T15:11:53",
+  "eventos_passados": [
+    {
+      "data": "2025-02-17",
+      "tipo": "Juros",
+      "valor": 28.4521
+    },
+    {
+      "data": "2025-08-15",
+      "tipo": "Juros",
+      "valor": 30.5936
+    },
+    {
+      "data": "2026-02-18",
+      "tipo": "Juros",
+      "valor": 32.2718
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2035-08-15",
+      "valor_estimado": 547.3163
+    },
+    {
+      "data": "2036-08-15",
+      "valor_estimado": 547.3163
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:10",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-15",
+        "data_pagamento": "2026-08-17",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2027-02-15",
+        "data_pagamento": "2027-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2027-08-15",
+        "data_pagamento": "2027-08-16",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2028-02-15",
+        "data_pagamento": "2028-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2028-08-15",
+        "data_pagamento": "2028-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2029-02-15",
+        "data_pagamento": "2029-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2029-08-15",
+        "data_pagamento": "2029-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2030-02-15",
+        "data_pagamento": "2030-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2030-08-15",
+        "data_pagamento": "2030-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2031-02-15",
+        "data_pagamento": "2031-02-17",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2031-08-15",
+        "data_pagamento": "2031-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2032-02-15",
+        "data_pagamento": "2032-02-16",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2032-08-15",
+        "data_pagamento": "2032-08-16",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2033-02-15",
+        "data_pagamento": "2033-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2033-08-15",
+        "data_pagamento": "2033-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2034-02-15",
+        "data_pagamento": "2034-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2034-08-15",
+        "data_pagamento": "2034-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2035-02-15",
+        "data_pagamento": "2035-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2035-08-15",
+        "data_pagamento": "2035-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2036-02-15",
+        "data_pagamento": "2036-02-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      },
+      {
+        "data_evento": "2036-08-15",
+        "data_pagamento": "2036-08-15",
+        "base": "IPCA",
+        "taxa_pct": 6.047
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2035-08-15",
+        "data_pagamento": "2035-08-15",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2036-08-15",
+      "data_pagamento": "2036-08-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2035-08-15",
+      "valor_estimado": 819.353,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2036-08-15",
+      "valor_estimado": 856.2239,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

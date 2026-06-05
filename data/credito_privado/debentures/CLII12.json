@@ -1,0 +1,306 @@
+{
+  "codigo": "CLII12",
+  "nome": "CORREDOR LOGISTICA E INFRAESTRUTURA S.A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-10-10",
+  "indexador": "CDI+",
+  "spread_contratual": 3.5,
+  "indexador_raw": "DI + 3,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.0968,
+    "taxa_venda": 1.6711,
+    "taxa_indicativa": 1.8744,
+    "desvio_padrao": 0.0421,
+    "intervalo_min": 1.8323,
+    "intervalo_max": 1.9166,
+    "pu": 991.517467,
+    "pct_pu_par": 104.2005,
+    "duration_du": 660.1,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCLIIDBS014",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 2,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-11-11",
+    "data_emissao": "2022-10-10",
+    "data_vencimento": "2031-10-10",
+    "data_novo_vcto": "2031-10-10",
+    "inicio_rentabilidade": "2022-11-14",
+    "inicio_distribuicao": "2022-09-20",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 420000,
+    "qtd_mercado": 420000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 930.000409,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2023-10-10",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 3.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-04-10",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "15114494000102",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-10-10",
+  "primeiro_cupom": "2023-04-10",
+  "cnpj_emissor": "15114494000102",
+  "isin": "BRCLIIDBS014",
+  "snd_atualizado_em": "2026-06-02T15:11:23",
+  "eventos_passados": [
+    {
+      "data": "2023-04-10",
+      "tipo": "Juros",
+      "valor": 67.2345
+    },
+    {
+      "data": "2023-10-10",
+      "tipo": "Amortizacao",
+      "valor": 10.0
+    },
+    {
+      "data": "2023-10-10",
+      "tipo": "Juros",
+      "valor": 84.1222
+    },
+    {
+      "data": "2024-04-10",
+      "tipo": "Juros",
+      "valor": 72.4089
+    },
+    {
+      "data": "2024-10-10",
+      "tipo": "Amortizacao",
+      "valor": 10.0
+    },
+    {
+      "data": "2024-10-10",
+      "tipo": "Juros",
+      "valor": 70.2688
+    },
+    {
+      "data": "2025-04-10",
+      "tipo": "Juros",
+      "valor": 74.9325
+    },
+    {
+      "data": "2025-10-10",
+      "tipo": "Amortizacao",
+      "valor": 49.9996
+    },
+    {
+      "data": "2025-10-10",
+      "tipo": "Juros",
+      "valor": 88.6867
+    },
+    {
+      "data": "2026-04-10",
+      "tipo": "Juros",
+      "valor": 82.6503
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-10-10",
+      "valor_estimado": 155.0001
+    },
+    {
+      "data": "2027-10-10",
+      "valor_estimado": 155.0001
+    },
+    {
+      "data": "2028-10-10",
+      "valor_estimado": 155.0001
+    },
+    {
+      "data": "2029-10-10",
+      "valor_estimado": 155.0001
+    },
+    {
+      "data": "2030-10-10",
+      "valor_estimado": 155.0001
+    },
+    {
+      "data": "2031-10-10",
+      "valor_estimado": 155.0001
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:38",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-10",
+        "data_pagamento": "2026-10-13",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-04-10",
+        "data_pagamento": "2027-04-12",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-10-10",
+        "data_pagamento": "2027-10-11",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-04-10",
+        "data_pagamento": "2028-04-10",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-10-10",
+        "data_pagamento": "2028-10-10",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-04-10",
+        "data_pagamento": "2029-04-10",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-10-10",
+        "data_pagamento": "2029-10-10",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-04-10",
+        "data_pagamento": "2030-04-10",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-10-10",
+        "data_pagamento": "2030-10-10",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-04-10",
+        "data_pagamento": "2031-04-10",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-10-10",
+        "data_pagamento": "2031-10-10",
+        "base": "DI",
+        "taxa_pct": 3.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-10-10",
+        "data_pagamento": "2026-10-13",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 6.9892
+      },
+      {
+        "data_evento": "2027-10-10",
+        "data_pagamento": "2027-10-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 12.1387
+      },
+      {
+        "data_evento": "2028-10-10",
+        "data_pagamento": "2028-10-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 19.0789
+      },
+      {
+        "data_evento": "2029-10-10",
+        "data_pagamento": "2029-10-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 26.8293
+      },
+      {
+        "data_evento": "2030-10-10",
+        "data_pagamento": "2030-10-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 48.8889
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-10-10",
+      "data_pagamento": "2031-10-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-13",
+      "valor_estimado": 64.9996,
+      "percentual": 6.9892,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-10-11",
+      "valor_estimado": 104.9999,
+      "percentual": 12.1387,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-10-10",
+      "valor_estimado": 144.9998,
+      "percentual": 19.0789,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-10-10",
+      "valor_estimado": 165.0005,
+      "percentual": 26.8293,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-10-10",
+      "valor_estimado": 220.0004,
+      "percentual": 48.8889,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-10-10",
+      "valor_estimado": 230.0003,
+      "percentual": 24.7312,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

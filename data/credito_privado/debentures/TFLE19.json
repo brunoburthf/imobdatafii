@@ -1,0 +1,202 @@
+{
+  "codigo": "TFLE19",
+  "nome": "LOCALIZA FLEET S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-05-28",
+  "indexador": "CDI+",
+  "spread_contratual": 1.3,
+  "indexador_raw": "DI + 1,3%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.3376,
+    "taxa_venda": 1.0442,
+    "taxa_indicativa": 1.1845,
+    "desvio_padrao": 0.053,
+    "intervalo_min": 1.1315,
+    "intervalo_max": 1.2375,
+    "pu": 1004.74081,
+    "pct_pu_par": 100.3566,
+    "duration_du": 786.44,
+    "pct_reune": 5.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRTFLEDBS088",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 9,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-10-07",
+    "data_emissao": "2021-10-05",
+    "data_vencimento": "2030-05-28",
+    "data_novo_vcto": "2030-05-28",
+    "inicio_rentabilidade": "2021-10-08",
+    "inicio_distribuicao": "2021-10-08",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 500000,
+    "qtd_mercado": 500000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.3,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-11-28",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "02286479000108",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-10-05",
+  "primeiro_cupom": "2025-11-28",
+  "cnpj_emissor": "02286479000108",
+  "isin": "BRTFLEDBS088",
+  "snd_atualizado_em": "2026-06-02T15:12:33",
+  "eventos_passados": [
+    {
+      "data": "2022-04-05",
+      "tipo": "Juros",
+      "valor": 49.5372
+    },
+    {
+      "data": "2022-10-05",
+      "tipo": "Juros",
+      "valor": 70.2983
+    },
+    {
+      "data": "2023-04-05",
+      "tipo": "Juros",
+      "valor": 72.3749
+    },
+    {
+      "data": "2023-10-05",
+      "tipo": "Juros",
+      "valor": 71.9602
+    },
+    {
+      "data": "2024-04-05",
+      "tipo": "Juros",
+      "valor": 62.1717
+    },
+    {
+      "data": "2024-10-07",
+      "tipo": "Juros",
+      "valor": 59.2641
+    },
+    {
+      "data": "2025-04-07",
+      "tipo": "Juros",
+      "valor": 64.7464
+    },
+    {
+      "data": "2025-06-02",
+      "tipo": "Juros",
+      "valor": 21.8581
+    },
+    {
+      "data": "2025-11-28",
+      "tipo": "Juros",
+      "valor": 79.3878
+    },
+    {
+      "data": "2026-05-28",
+      "tipo": "Juros",
+      "valor": 75.6484
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:57",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-28",
+        "data_pagamento": "2026-11-30",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2027-05-28",
+        "data_pagamento": "2027-05-28",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2027-11-28",
+        "data_pagamento": "2027-11-29",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2028-05-28",
+        "data_pagamento": "2028-05-29",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2028-11-28",
+        "data_pagamento": "2028-11-28",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2029-05-28",
+        "data_pagamento": "2029-05-28",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2029-11-28",
+        "data_pagamento": "2029-11-28",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2030-05-28",
+        "data_pagamento": "2030-05-28",
+        "base": "DI",
+        "taxa_pct": 1.3
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2030-05-28",
+      "data_pagamento": "2030-05-28"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-05-28",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

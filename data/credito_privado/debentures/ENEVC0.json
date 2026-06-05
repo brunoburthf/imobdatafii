@@ -1,0 +1,160 @@
+{
+  "codigo": "ENEVC0",
+  "nome": "ENEVA S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-04-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.0,
+  "indexador_raw": "DI + 1%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.7,
+    "taxa_venda": 0.5881,
+    "taxa_indicativa": 0.6425,
+    "desvio_padrao": 0.0574,
+    "intervalo_min": 0.5851,
+    "intervalo_max": 0.6999,
+    "pu": 1026.683833,
+    "pct_pu_par": 100.851,
+    "duration_du": 602.51,
+    "pct_reune": 5.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRENEVDBS0P7",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 10,
+    "registro_cvm": "AUT/DEB/PRI/2024/234",
+    "data_registro_cvm": "2024-05-07",
+    "data_emissao": "2024-04-15",
+    "data_vencimento": "2029-04-15",
+    "data_novo_vcto": "2029-04-15",
+    "inicio_rentabilidade": "2024-05-09",
+    "inicio_distribuicao": "2024-05-07",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 692449,
+    "qtd_mercado": 692449,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.0,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-10-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "04423567000121",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-04-15",
+  "primeiro_cupom": "2024-10-15",
+  "cnpj_emissor": "04423567000121",
+  "isin": "BRENEVDBS0P7",
+  "snd_atualizado_em": "2026-06-02T15:11:42",
+  "eventos_passados": [
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 49.7559
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 63.9822
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 77.2253
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 75.8211
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:00",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "DI",
+        "taxa_pct": 1.0
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "DI",
+        "taxa_pct": 1.0
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-04-15",
+      "data_pagamento": "2029-04-16"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-04-16",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

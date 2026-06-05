@@ -1,0 +1,203 @@
+{
+  "codigo": "RNDNB0",
+  "nome": "RANDON S.A. IMPLEMENTOS E PARTICIPACOES",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-11-09",
+  "indexador": "CDI+",
+  "spread_contratual": 1.69,
+  "indexador_raw": "DI + 1,69%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.2441,
+    "taxa_venda": 1.8284,
+    "taxa_indicativa": 1.9911,
+    "desvio_padrao": 0.1169,
+    "intervalo_min": 1.8742,
+    "intervalo_max": 2.108,
+    "pu": 1001.82281,
+    "pct_pu_par": 99.2841,
+    "duration_du": 612.02,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRNDNDBS068",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 10,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-11-04",
+    "data_emissao": "2022-11-09",
+    "data_vencimento": "2029-11-09",
+    "data_novo_vcto": "2029-11-09",
+    "inicio_rentabilidade": "2022-11-09",
+    "inicio_distribuicao": "2022-10-21",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 271000,
+    "qtd_mercado": 271000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-11-09",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.69,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-05-09",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "89086144001198",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-11-09",
+  "primeiro_cupom": "2023-05-09",
+  "cnpj_emissor": "89086144001198",
+  "isin": "BRRNDNDBS068",
+  "snd_atualizado_em": "2026-06-02T15:12:23",
+  "eventos_passados": [
+    {
+      "data": "2023-05-09",
+      "tipo": "Juros",
+      "valor": 73.1876
+    },
+    {
+      "data": "2023-11-09",
+      "tipo": "Juros",
+      "valor": 74.3131
+    },
+    {
+      "data": "2024-05-09",
+      "tipo": "Juros",
+      "valor": 62.5024
+    },
+    {
+      "data": "2024-11-11",
+      "tipo": "Juros",
+      "valor": 62.3818
+    },
+    {
+      "data": "2025-05-09",
+      "tipo": "Juros",
+      "valor": 67.513
+    },
+    {
+      "data": "2025-11-10",
+      "tipo": "Juros",
+      "valor": 83.3361
+    },
+    {
+      "data": "2026-05-11",
+      "tipo": "Juros",
+      "valor": 77.8936
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-11-09",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-11-09",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:45",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-09",
+        "data_pagamento": "2026-11-09",
+        "base": "DI",
+        "taxa_pct": 1.69
+      },
+      {
+        "data_evento": "2027-05-09",
+        "data_pagamento": "2027-05-10",
+        "base": "DI",
+        "taxa_pct": 1.69
+      },
+      {
+        "data_evento": "2027-11-09",
+        "data_pagamento": "2027-11-09",
+        "base": "DI",
+        "taxa_pct": 1.69
+      },
+      {
+        "data_evento": "2028-05-09",
+        "data_pagamento": "2028-05-09",
+        "base": "DI",
+        "taxa_pct": 1.69
+      },
+      {
+        "data_evento": "2028-11-09",
+        "data_pagamento": "2028-11-09",
+        "base": "DI",
+        "taxa_pct": 1.69
+      },
+      {
+        "data_evento": "2029-05-09",
+        "data_pagamento": "2029-05-09",
+        "base": "DI",
+        "taxa_pct": 1.69
+      },
+      {
+        "data_evento": "2029-11-09",
+        "data_pagamento": "2029-11-09",
+        "base": "DI",
+        "taxa_pct": 1.69
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-11-09",
+        "data_pagamento": "2028-11-09",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-11-09",
+      "data_pagamento": "2029-11-09"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-11-09",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-11-09",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

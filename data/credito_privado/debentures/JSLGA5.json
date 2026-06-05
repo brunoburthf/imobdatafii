@@ -1,0 +1,217 @@
+{
+  "codigo": "JSLGA5",
+  "nome": "JSL S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-10-20",
+  "indexador": "CDI+",
+  "spread_contratual": 2.7,
+  "indexador_raw": "DI + 2,7%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 3.2545,
+    "taxa_venda": 2.3275,
+    "taxa_indicativa": 2.915,
+    "desvio_padrao": 0.0705,
+    "intervalo_min": 2.8446,
+    "intervalo_max": 2.9856,
+    "pu": 1015.518089,
+    "pct_pu_par": 99.7433,
+    "duration_du": 309.5,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRJSLGDBS0M4",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 15,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-10-26",
+    "data_emissao": "2021-10-20",
+    "data_vencimento": "2028-10-20",
+    "data_novo_vcto": "2028-10-20",
+    "inicio_rentabilidade": "2021-11-05",
+    "inicio_distribuicao": "2021-11-05",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 700000,
+    "qtd_mercado": 700000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2026-10-20",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.7,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-04-20",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "52548435000179",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-10-20",
+  "primeiro_cupom": "2022-04-20",
+  "cnpj_emissor": "52548435000179",
+  "isin": "BRJSLGDBS0M4",
+  "snd_atualizado_em": "2026-06-02T15:12:01",
+  "eventos_passados": [
+    {
+      "data": "2022-04-20",
+      "tipo": "Juros",
+      "valor": 55.4634
+    },
+    {
+      "data": "2022-10-20",
+      "tipo": "Juros",
+      "valor": 78.4872
+    },
+    {
+      "data": "2023-04-20",
+      "tipo": "Juros",
+      "valor": 79.701
+    },
+    {
+      "data": "2023-10-20",
+      "tipo": "Juros",
+      "valor": 78.9638
+    },
+    {
+      "data": "2024-04-22",
+      "tipo": "Juros",
+      "valor": 69.094
+    },
+    {
+      "data": "2024-10-21",
+      "tipo": "Juros",
+      "valor": 66.1919
+    },
+    {
+      "data": "2025-04-22",
+      "tipo": "Juros",
+      "valor": 72.6105
+    },
+    {
+      "data": "2025-10-20",
+      "tipo": "Juros",
+      "valor": 86.4099
+    },
+    {
+      "data": "2026-04-20",
+      "tipo": "Juros",
+      "valor": 84.6654
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-10-20",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2027-10-20",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2028-10-20",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:18",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-20",
+        "data_pagamento": "2026-10-20",
+        "base": "DI",
+        "taxa_pct": 2.7
+      },
+      {
+        "data_evento": "2027-04-20",
+        "data_pagamento": "2027-04-20",
+        "base": "DI",
+        "taxa_pct": 2.7
+      },
+      {
+        "data_evento": "2027-10-20",
+        "data_pagamento": "2027-10-20",
+        "base": "DI",
+        "taxa_pct": 2.7
+      },
+      {
+        "data_evento": "2028-04-20",
+        "data_pagamento": "2028-04-20",
+        "base": "DI",
+        "taxa_pct": 2.7
+      },
+      {
+        "data_evento": "2028-10-20",
+        "data_pagamento": "2028-10-20",
+        "base": "DI",
+        "taxa_pct": 2.7
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-10-20",
+        "data_pagamento": "2026-10-20",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2027-10-20",
+        "data_pagamento": "2027-10-20",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-10-20",
+      "data_pagamento": "2028-10-20"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-20",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-10-20",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-10-20",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

@@ -1,0 +1,247 @@
+{
+  "codigo": "JSMLA5",
+  "nome": "SIMPAR S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-01-15",
+  "indexador": "CDI+",
+  "spread_contratual": 3.5,
+  "indexador_raw": "DI + 3,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 5.1309,
+    "taxa_venda": 4.1331,
+    "taxa_indicativa": 4.6186,
+    "desvio_padrao": 0.1954,
+    "intervalo_min": 4.4231,
+    "intervalo_max": 4.8141,
+    "pu": 1035.155158,
+    "pct_pu_par": 97.2282,
+    "duration_du": 656.41,
+    "pct_reune": 5.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRSIMHDBS036",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 3,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-09-28",
+    "data_emissao": "2021-09-15",
+    "data_vencimento": "2031-01-15",
+    "data_novo_vcto": "2031-01-15",
+    "inicio_rentabilidade": "2021-09-30",
+    "inicio_distribuicao": "2021-09-30",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1245000,
+    "qtd_mercado": 1245000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2029-01-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 3.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-01-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "52548435000179",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-09-15",
+  "primeiro_cupom": "2022-01-15",
+  "cnpj_emissor": "52548435000179",
+  "isin": "BRSIMHDBS036",
+  "snd_atualizado_em": "2026-06-02T15:12:01",
+  "eventos_passados": [
+    {
+      "data": "2022-01-17",
+      "tipo": "Juros",
+      "valor": 32.6962
+    },
+    {
+      "data": "2022-07-15",
+      "tipo": "Juros",
+      "valor": 73.6941
+    },
+    {
+      "data": "2023-01-16",
+      "tipo": "Juros",
+      "valor": 84.9963
+    },
+    {
+      "data": "2023-07-17",
+      "tipo": "Juros",
+      "valor": 83.1666
+    },
+    {
+      "data": "2024-01-15",
+      "tipo": "Juros",
+      "valor": 78.3059
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 70.264
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Juros",
+      "valor": 72.5449
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 83.7479
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 92.7633
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2029-01-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2030-01-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2031-01-15",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:18",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-07-15",
+        "data_pagamento": "2030-07-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-01-15",
+        "data_pagamento": "2031-01-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-01-15",
+      "data_pagamento": "2031-01-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-01-15",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-01-15",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-01-15",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

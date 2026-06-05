@@ -1,0 +1,161 @@
+{
+  "codigo": "GRRB16",
+  "nome": "AGUAS GUARIROBA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-08-12",
+  "indexador": "CDI+",
+  "spread_contratual": 0.95,
+  "indexador_raw": "DI + 0,95%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 3.9512,
+    "taxa_venda": 1.4768,
+    "taxa_indicativa": 2.273,
+    "desvio_padrao": 0.0457,
+    "intervalo_min": 2.2274,
+    "intervalo_max": 2.3188,
+    "pu": 1008.717612,
+    "pct_pu_par": 96.7442,
+    "duration_du": 638.94,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRGRRBDBS067",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 6,
+    "registro_cvm": "AUT/DEB/PRI/2024/494",
+    "data_registro_cvm": "2024-08-14",
+    "data_emissao": "2024-08-12",
+    "data_vencimento": "2029-08-12",
+    "data_novo_vcto": "2029-08-12",
+    "inicio_rentabilidade": "2024-08-16",
+    "inicio_distribuicao": "2024-08-14",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 437500,
+    "qtd_mercado": 437500,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 0.95,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-02-12",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "04089570000150",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-08-12",
+  "primeiro_cupom": "2025-02-12",
+  "cnpj_emissor": "04089570000150",
+  "isin": "BRGRRBDBS067",
+  "snd_atualizado_em": "2026-06-02T15:11:54",
+  "eventos_passados": [
+    {
+      "data": "2025-02-12",
+      "tipo": "Juros",
+      "valor": 58.8757
+    },
+    {
+      "data": "2025-08-12",
+      "tipo": "Juros",
+      "valor": 72.3524
+    },
+    {
+      "data": "2026-02-12",
+      "tipo": "Juros",
+      "valor": 78.8973
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:10",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-12",
+        "data_pagamento": "2026-08-12",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2027-02-12",
+        "data_pagamento": "2027-02-12",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2027-08-12",
+        "data_pagamento": "2027-08-12",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2028-02-12",
+        "data_pagamento": "2028-02-14",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2028-08-12",
+        "data_pagamento": "2028-08-14",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2029-02-12",
+        "data_pagamento": "2029-02-14",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2029-08-12",
+        "data_pagamento": "2029-08-13",
+        "base": "DI",
+        "taxa_pct": 0.95
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-08-12",
+      "data_pagamento": "2029-08-13"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-08-13",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

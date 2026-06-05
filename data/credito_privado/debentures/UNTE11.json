@@ -1,0 +1,220 @@
+{
+  "codigo": "UNTE11",
+  "nome": "UNIFIQUE TELECOMUNICACOES S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-03-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 5.3418,
+  "indexador_raw": "IPCA + 5,3418%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": 8.7355,
+    "desvio_padrao": 0.246,
+    "intervalo_min": 8.4895,
+    "intervalo_max": 8.9816,
+    "pu": 436.759854,
+    "pct_pu_par": 96.1692,
+    "duration_du": 309.38,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2027"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRUNTEDBS000",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 1,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-03-30",
+    "data_emissao": "2021-03-15",
+    "data_vencimento": "2028-03-15",
+    "data_novo_vcto": "2028-03-15",
+    "inicio_rentabilidade": "2021-03-31",
+    "inicio_distribuicao": "2021-03-31",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 100000,
+    "qtd_mercado": 100000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 449.418861,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2023-03-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 5.3418,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-09-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": null,
+    "cnpj_emissor": "02255187000108",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-03-15",
+  "primeiro_cupom": "2021-09-15",
+  "cnpj_emissor": "02255187000108",
+  "isin": "BRUNTEDBS000",
+  "snd_atualizado_em": "2026-06-02T15:12:37",
+  "eventos_passados": [
+    {
+      "data": "2021-09-15",
+      "tipo": "Juros",
+      "valor": 25.2102
+    },
+    {
+      "data": "2022-03-15",
+      "tipo": "Juros",
+      "valor": 28.5281
+    },
+    {
+      "data": "2022-09-15",
+      "tipo": "Juros",
+      "valor": 30.2836
+    },
+    {
+      "data": "2023-03-15",
+      "tipo": "Amortizacao",
+      "valor": 193.5707
+    },
+    {
+      "data": "2023-03-15",
+      "tipo": "Juros",
+      "valor": 30.1246
+    },
+    {
+      "data": "2023-09-15",
+      "tipo": "Juros",
+      "valor": 26.1903
+    },
+    {
+      "data": "2024-03-15",
+      "tipo": "Amortizacao",
+      "valor": 26.0184
+    },
+    {
+      "data": "2024-03-15",
+      "tipo": "Juros",
+      "valor": 202.2738
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 22.0144
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Amortizacao",
+      "valor": 212.504
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 22.0475
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 17.0831
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Amortizacao",
+      "valor": 220.6052
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 17.3062
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-03-16",
+      "valor_estimado": 224.7094
+    },
+    {
+      "data": "2028-03-15",
+      "valor_estimado": 224.7094
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:01",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.3418
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.3418
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.3418
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.3418
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-03-15",
+      "data_pagamento": "2028-03-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-03-15",
+      "valor_estimado": 232.2515,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-03-15",
+      "valor_estimado": 242.7028,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

@@ -1,0 +1,235 @@
+{
+  "codigo": "VALE48",
+  "nome": "VALE S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2029-01-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.78,
+  "indexador_raw": "IPCA + 6,78%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.5298,
+    "taxa_venda": 7.3007,
+    "taxa_indicativa": 7.4072,
+    "desvio_padrao": 0.0621,
+    "intervalo_min": 7.3451,
+    "intervalo_max": 7.4694,
+    "pu": 1008.341081,
+    "pct_pu_par": 99.106,
+    "duration_du": 385.94,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2028"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRVALEDBS085",
+    "situacao": "Registrado",
+    "serie": "004",
+    "emissao_seq": 8,
+    "registro_cvm": "CVM/SRE/DEB/2014/004",
+    "data_registro_cvm": "2014-02-05",
+    "data_emissao": "2014-01-15",
+    "data_vencimento": "2029-01-15",
+    "data_novo_vcto": "2029-01-15",
+    "inicio_rentabilidade": "2014-02-14",
+    "inicio_distribuicao": "2014-02-10",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 150000,
+    "qtd_mercado": 149680,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 515.287047,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": 1666.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2024-01-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal de emissão em períodos uniformes",
+    "juros_taxa": 6.78,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2015-01-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "33592510000154",
+    "incentivada_snd": true,
+    "escritura_padronizada": false,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2014-01-15",
+  "primeiro_cupom": "2015-01-15",
+  "cnpj_emissor": "33592510000154",
+  "isin": "BRVALEDBS085",
+  "snd_atualizado_em": "2026-06-02T15:12:37",
+  "eventos_passados": [
+    {
+      "data": "2015-01-15",
+      "tipo": "Juros",
+      "valor": 65.6047
+    },
+    {
+      "data": "2016-01-15",
+      "tipo": "Juros",
+      "valor": 78.7752
+    },
+    {
+      "data": "2017-01-16",
+      "tipo": "Juros",
+      "valor": 84.4206
+    },
+    {
+      "data": "2018-01-15",
+      "tipo": "Juros",
+      "valor": 85.4844
+    },
+    {
+      "data": "2019-01-15",
+      "tipo": "Juros",
+      "valor": 89.425
+    },
+    {
+      "data": "2020-01-15",
+      "tipo": "Juros",
+      "valor": 94.4326
+    },
+    {
+      "data": "2021-01-15",
+      "tipo": "Juros",
+      "valor": 97.8923
+    },
+    {
+      "data": "2022-01-17",
+      "tipo": "Juros",
+      "valor": 108.1847
+    },
+    {
+      "data": "2023-01-16",
+      "tipo": "Juros",
+      "valor": 113.9742
+    },
+    {
+      "data": "2024-01-15",
+      "tipo": "Amortizacao",
+      "valor": 294.2086
+    },
+    {
+      "data": "2024-01-15",
+      "tipo": "Juros",
+      "valor": 117.7694
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Amortizacao",
+      "valor": 308.4224
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Juros",
+      "valor": 105.0343
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Amortizacao",
+      "valor": 321.5746
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 87.2634
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-01-15",
+      "valor_estimado": 171.7623
+    },
+    {
+      "data": "2028-01-15",
+      "valor_estimado": 171.7623
+    },
+    {
+      "data": "2029-01-15",
+      "valor_estimado": 171.7623
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:01",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.78
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "IPCA",
+        "taxa_pct": 6.78
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.78
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base_calc": "VNE FIX/UNIF",
+        "percentual": 16.66
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base_calc": "VNE FIX/UNIF",
+        "percentual": 16.66
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-01-15",
+      "data_pagamento": "2029-01-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-01-15",
+      "valor_estimado": 339.6948,
+      "percentual": 16.66,
+      "base": "VNE FIX/UNIF"
+    },
+    {
+      "data": "2028-01-17",
+      "valor_estimado": 354.9811,
+      "percentual": 16.66,
+      "base": "VNE FIX/UNIF"
+    },
+    {
+      "data": "2029-01-15",
+      "valor_estimado": 371.8459,
+      "percentual": 16.7,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

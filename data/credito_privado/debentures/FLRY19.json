@@ -1,0 +1,182 @@
+{
+  "codigo": "FLRY19",
+  "nome": "FLEURY S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-05-17",
+  "indexador": "CDI+",
+  "spread_contratual": 0.55,
+  "indexador_raw": "DI + 0,55%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.5609,
+    "taxa_venda": 0.35,
+    "taxa_indicativa": 0.4617,
+    "desvio_padrao": 0.0731,
+    "intervalo_min": 0.3886,
+    "intervalo_max": 0.5349,
+    "pu": 1007.45029,
+    "pct_pu_par": 100.1868,
+    "duration_du": 535.42,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRFLRYDBS0F1",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 9,
+    "registro_cvm": "AUT/DEB/PRI/2024/273",
+    "data_registro_cvm": "2024-05-24",
+    "data_emissao": "2024-05-17",
+    "data_vencimento": "2029-05-17",
+    "data_novo_vcto": "2029-05-17",
+    "inicio_rentabilidade": "2024-05-28",
+    "inicio_distribuicao": "2024-05-24",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 500000,
+    "qtd_mercado": 500000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-05-17",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal de emissão em períodos uniformes",
+    "juros_taxa": 0.55,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-11-17",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "60840055000131",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-05-17",
+  "primeiro_cupom": "2024-11-17",
+  "cnpj_emissor": "60840055000131",
+  "isin": "BRFLRYDBS0F1",
+  "snd_atualizado_em": "2026-06-02T15:11:51",
+  "eventos_passados": [
+    {
+      "data": "2024-11-18",
+      "tipo": "Juros",
+      "valor": 52.3552
+    },
+    {
+      "data": "2025-05-19",
+      "tipo": "Juros",
+      "valor": 63.5196
+    },
+    {
+      "data": "2025-11-17",
+      "tipo": "Juros",
+      "valor": 76.4928
+    },
+    {
+      "data": "2026-05-18",
+      "tipo": "Juros",
+      "valor": 71.9338
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-05-17",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-05-17",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:08",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-17",
+        "data_pagamento": "2026-11-17",
+        "base": "DI",
+        "taxa_pct": 0.55
+      },
+      {
+        "data_evento": "2027-05-17",
+        "data_pagamento": "2027-05-17",
+        "base": "DI",
+        "taxa_pct": 0.55
+      },
+      {
+        "data_evento": "2027-11-17",
+        "data_pagamento": "2027-11-17",
+        "base": "DI",
+        "taxa_pct": 0.55
+      },
+      {
+        "data_evento": "2028-05-17",
+        "data_pagamento": "2028-05-17",
+        "base": "DI",
+        "taxa_pct": 0.55
+      },
+      {
+        "data_evento": "2028-11-17",
+        "data_pagamento": "2028-11-17",
+        "base": "DI",
+        "taxa_pct": 0.55
+      },
+      {
+        "data_evento": "2029-05-17",
+        "data_pagamento": "2029-05-17",
+        "base": "DI",
+        "taxa_pct": 0.55
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-05-17",
+        "data_pagamento": "2028-05-17",
+        "base_calc": "VNE FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-05-17",
+      "data_pagamento": "2029-05-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-05-17",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE FIX/UNIF"
+    },
+    {
+      "data": "2029-05-17",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

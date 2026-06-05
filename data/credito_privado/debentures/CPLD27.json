@@ -1,0 +1,166 @@
+{
+  "codigo": "CPLD27",
+  "nome": "COPEL DISTRIBUICAO S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-05-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.36,
+  "indexador_raw": "DI + 1,36%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.0841,
+    "taxa_venda": 0.6221,
+    "taxa_indicativa": 0.8739,
+    "desvio_padrao": 0.1254,
+    "intervalo_min": 0.7485,
+    "intervalo_max": 0.9994,
+    "pu": 505.456929,
+    "pct_pu_par": 100.4402,
+    "duration_du": 230.27,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCPLDDBS093",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 7,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-06-09",
+    "data_emissao": "2022-05-15",
+    "data_vencimento": "2027-05-15",
+    "data_novo_vcto": "2027-05-15",
+    "inicio_rentabilidade": "2022-06-15",
+    "inicio_distribuicao": "2022-05-23",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 901450,
+    "qtd_mercado": 901450,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 500.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2026-05-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.36,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-11-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "04368898000106",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-05-15",
+  "primeiro_cupom": "2022-11-15",
+  "cnpj_emissor": "04368898000106",
+  "isin": "BRCPLDDBS093",
+  "snd_atualizado_em": "2026-06-02T15:11:28",
+  "eventos_passados": [
+    {
+      "data": "2022-11-16",
+      "tipo": "Juros",
+      "valor": 60.0459
+    },
+    {
+      "data": "2023-05-15",
+      "tipo": "Juros",
+      "valor": 71.4863
+    },
+    {
+      "data": "2023-11-16",
+      "tipo": "Juros",
+      "valor": 72.3147
+    },
+    {
+      "data": "2024-05-15",
+      "tipo": "Juros",
+      "valor": 60.5533
+    },
+    {
+      "data": "2024-11-18",
+      "tipo": "Juros",
+      "valor": 60.7022
+    },
+    {
+      "data": "2025-05-15",
+      "tipo": "Juros",
+      "valor": 66.3866
+    },
+    {
+      "data": "2025-11-17",
+      "tipo": "Juros",
+      "valor": 82.2127
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Amortizacao",
+      "valor": 500.0
+    },
+    {
+      "data": "2026-05-15",
+      "tipo": "Juros",
+      "valor": 75.4737
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-05-15",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:43",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-15",
+        "data_pagamento": "2026-11-16",
+        "base": "DI",
+        "taxa_pct": 1.36
+      },
+      {
+        "data_evento": "2027-05-15",
+        "data_pagamento": "2027-05-17",
+        "base": "DI",
+        "taxa_pct": 1.36
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2027-05-15",
+      "data_pagamento": "2027-05-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-05-17",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

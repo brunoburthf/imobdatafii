@@ -1,0 +1,289 @@
+{
+  "codigo": "AESLA8",
+  "nome": "RGE SUL DISTRIBUIDORA DE ENERGIA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-09-10",
+  "indexador": "CDI+",
+  "spread_contratual": 0.49,
+  "indexador_raw": "DI + 0,49%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.6487,
+    "taxa_venda": 0.3462,
+    "taxa_indicativa": 0.4776,
+    "desvio_padrao": 0.0533,
+    "intervalo_min": 0.4243,
+    "intervalo_max": 0.531,
+    "pu": 1032.130034,
+    "pct_pu_par": 100.0279,
+    "duration_du": 569.7,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRAESLDBS0T0",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 18,
+    "registro_cvm": "AUT/DEB/PRI/2024/645",
+    "data_registro_cvm": "2024-10-14",
+    "data_emissao": "2024-09-10",
+    "data_vencimento": "2029-09-10",
+    "data_novo_vcto": "2029-09-10",
+    "inicio_rentabilidade": "2024-10-16",
+    "inicio_distribuicao": "2024-09-26",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 603000,
+    "qtd_mercado": 603000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 3,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-09-10",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.49,
+    "juros_prazo_base": 252,
+    "juros_cada": 3,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-12-10",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "02016440000162",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-09-10",
+  "primeiro_cupom": "2024-12-10",
+  "cupom_periodo_meses": 3,
+  "cnpj_emissor": "02016440000162",
+  "isin": "BRAESLDBS0T0",
+  "snd_atualizado_em": "2026-06-02T15:11:05",
+  "eventos_passados": [
+    {
+      "data": "2024-12-10",
+      "tipo": "Juros",
+      "valor": 16.0803
+    },
+    {
+      "data": "2025-03-10",
+      "tipo": "Juros",
+      "valor": 29.7076
+    },
+    {
+      "data": "2025-06-10",
+      "tipo": "Juros",
+      "valor": 35.0268
+    },
+    {
+      "data": "2025-09-10",
+      "tipo": "Juros",
+      "valor": 37.7195
+    },
+    {
+      "data": "2025-12-10",
+      "tipo": "Juros",
+      "valor": 37.1904
+    },
+    {
+      "data": "2026-03-10",
+      "tipo": "Juros",
+      "valor": 34.826
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-09-10",
+      "valor_estimado": 200.0
+    },
+    {
+      "data": "2028-12-10",
+      "valor_estimado": 200.0
+    },
+    {
+      "data": "2029-03-10",
+      "valor_estimado": 200.0
+    },
+    {
+      "data": "2029-06-10",
+      "valor_estimado": 200.0
+    },
+    {
+      "data": "2029-09-10",
+      "valor_estimado": 200.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:17",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-10",
+        "data_pagamento": "2026-06-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2026-09-10",
+        "data_pagamento": "2026-09-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2026-12-10",
+        "data_pagamento": "2026-12-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2027-03-10",
+        "data_pagamento": "2027-03-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2027-06-10",
+        "data_pagamento": "2027-06-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2027-09-10",
+        "data_pagamento": "2027-09-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2027-12-10",
+        "data_pagamento": "2027-12-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2028-03-10",
+        "data_pagamento": "2028-03-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2028-06-10",
+        "data_pagamento": "2028-06-12",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2028-09-10",
+        "data_pagamento": "2028-09-11",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2028-12-10",
+        "data_pagamento": "2028-12-11",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2029-03-10",
+        "data_pagamento": "2029-03-12",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2029-06-10",
+        "data_pagamento": "2029-06-11",
+        "base": "DI",
+        "taxa_pct": 0.49
+      },
+      {
+        "data_evento": "2029-09-10",
+        "data_pagamento": "2029-09-10",
+        "base": "DI",
+        "taxa_pct": 0.49
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-09-10",
+        "data_pagamento": "2028-09-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 20.0
+      },
+      {
+        "data_evento": "2028-12-10",
+        "data_pagamento": "2028-12-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2029-03-10",
+        "data_pagamento": "2029-03-12",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2029-06-10",
+        "data_pagamento": "2029-06-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-09-10",
+      "data_pagamento": "2029-09-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-09-11",
+      "valor_estimado": 200.0,
+      "percentual": 20.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-12-11",
+      "valor_estimado": 200.0,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-03-12",
+      "valor_estimado": 199.9998,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-06-11",
+      "valor_estimado": 200.0001,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-09-10",
+      "valor_estimado": 200.0001,
+      "percentual": 20.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

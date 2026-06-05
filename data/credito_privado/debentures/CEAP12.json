@@ -1,0 +1,205 @@
+{
+  "codigo": "CEAP12",
+  "nome": "COMPANHIA DE ELETRICIDADE DO AMAPA - CEA",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-07-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.5,
+  "indexador_raw": "IPCA + 6,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.2749,
+    "taxa_venda": 8.0178,
+    "taxa_indicativa": 8.1207,
+    "desvio_padrao": 0.0789,
+    "intervalo_min": 8.0418,
+    "intervalo_max": 8.1997,
+    "pu": 1114.497205,
+    "pct_pu_par": 95.3138,
+    "duration_du": 798.82,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2029"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCEAPDBS011",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 2,
+    "registro_cvm": "AUT/DEB/PRI/2023/197",
+    "data_registro_cvm": "2023-08-04",
+    "data_emissao": "2023-07-15",
+    "data_vencimento": "2030-07-15",
+    "data_novo_vcto": "2030-07-15",
+    "inicio_rentabilidade": "2023-08-07",
+    "inicio_distribuicao": "2023-08-04",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 195000,
+    "qtd_mercado": 195000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1144.16153,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2029-07-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-01-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "05965546000109",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-07-15",
+  "primeiro_cupom": "2024-01-15",
+  "cnpj_emissor": "05965546000109",
+  "isin": "BRCEAPDBS011",
+  "snd_atualizado_em": "2026-06-02T15:11:16",
+  "eventos_passados": [
+    {
+      "data": "2024-01-15",
+      "tipo": "Juros",
+      "valor": 28.0593
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 33.0437
+    },
+    {
+      "data": "2025-01-15",
+      "tipo": "Juros",
+      "valor": 34.6247
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 34.2463
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 36.3879
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2029-07-15",
+      "valor_estimado": 572.0808
+    },
+    {
+      "data": "2030-07-15",
+      "valor_estimado": 572.0808
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:29",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      },
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      },
+      {
+        "data_evento": "2030-07-15",
+        "data_pagamento": "2030-07-15",
+        "base": "IPCA",
+        "taxa_pct": 6.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2030-07-15",
+      "data_pagamento": "2030-07-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-07-16",
+      "valor_estimado": 655.2382,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2030-07-15",
+      "valor_estimado": 684.724,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

@@ -1,0 +1,156 @@
+{
+  "codigo": "ENGIC6",
+  "nome": "ENERGISA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2027-04-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.5,
+  "indexador_raw": "DI + 1,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.565,
+    "taxa_venda": 0.328,
+    "taxa_indicativa": 0.4737,
+    "desvio_padrao": 0.0785,
+    "intervalo_min": 0.3952,
+    "intervalo_max": 0.5524,
+    "pu": 1027.270893,
+    "pct_pu_par": 100.8474,
+    "duration_du": 209.25,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRENGIDBS0W8",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 16,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-05-09",
+    "data_emissao": "2022-04-15",
+    "data_vencimento": "2027-04-15",
+    "data_novo_vcto": "2027-04-15",
+    "inicio_rentabilidade": "2022-05-10",
+    "inicio_distribuicao": "2022-04-13",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 250000,
+    "qtd_mercado": 66197,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-10-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "00864214000106",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-04-15",
+  "primeiro_cupom": "2022-10-15",
+  "cnpj_emissor": "00864214000106",
+  "isin": "BRENGIDBS0W8",
+  "snd_atualizado_em": "2026-06-02T15:11:44",
+  "eventos_passados": [
+    {
+      "data": "2022-10-17",
+      "tipo": "Juros",
+      "valor": 63.2991
+    },
+    {
+      "data": "2023-04-17",
+      "tipo": "Juros",
+      "valor": 73.4246
+    },
+    {
+      "data": "2023-10-16",
+      "tipo": "Juros",
+      "valor": 72.1842
+    },
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 62.7414
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 60.3341
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 66.5708
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 79.9096
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 78.4385
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:02",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 1.5
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2027-04-15",
+      "data_pagamento": "2027-04-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-04-15",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

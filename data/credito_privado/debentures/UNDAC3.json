@@ -1,0 +1,232 @@
+{
+  "codigo": "UNDAC3",
+  "nome": "UNIDAS S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-04-10",
+  "indexador": "CDIp",
+  "spread_contratual": 112.0,
+  "indexador_raw": "112% do DI",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 110.312,
+    "taxa_venda": 105.6272,
+    "taxa_indicativa": 108.4739,
+    "desvio_padrao": 0.0944,
+    "intervalo_min": 108.3795,
+    "intervalo_max": 108.5684,
+    "pu": 1030.162343,
+    "pct_pu_par": 100.9305,
+    "duration_du": 505.65,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRENTDBS105",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 31,
+    "registro_cvm": "Dispensa ICVM 476/09",
+    "data_registro_cvm": "2019-04-10",
+    "data_emissao": "2019-04-10",
+    "data_vencimento": "2029-04-10",
+    "data_novo_vcto": "2029-04-10",
+    "inicio_rentabilidade": "2019-04-10",
+    "inicio_distribuicao": "2019-04-10",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 100000,
+    "qtd_mercado": 100000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 112.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-04-10",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": null,
+    "juros_prazo_base": null,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2019-10-10",
+    "juros_criterio": null,
+    "juros_tipo": null,
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "16670085000155",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-04-10",
+  "primeiro_cupom": "2019-10-10",
+  "cnpj_emissor": "16670085000155",
+  "isin": "BRRENTDBS105",
+  "snd_atualizado_em": "2026-06-02T15:12:36",
+  "eventos_passados": [
+    {
+      "data": "2019-10-10",
+      "tipo": "Juros",
+      "valor": 34.5105
+    },
+    {
+      "data": "2020-04-13",
+      "tipo": "Juros",
+      "valor": 24.8574
+    },
+    {
+      "data": "2020-10-13",
+      "tipo": "Juros",
+      "valor": 13.4809
+    },
+    {
+      "data": "2021-04-12",
+      "tipo": "Juros",
+      "valor": 10.8689
+    },
+    {
+      "data": "2021-10-11",
+      "tipo": "Juros",
+      "valor": 23.6578
+    },
+    {
+      "data": "2022-04-11",
+      "tipo": "Juros",
+      "valor": 50.0529
+    },
+    {
+      "data": "2022-10-10",
+      "tipo": "Juros",
+      "valor": 70.9481
+    },
+    {
+      "data": "2023-04-10",
+      "tipo": "Juros",
+      "valor": 73.0599
+    },
+    {
+      "data": "2023-10-10",
+      "tipo": "Juros",
+      "valor": 73.6277
+    },
+    {
+      "data": "2024-04-10",
+      "tipo": "Juros",
+      "valor": 62.1044
+    },
+    {
+      "data": "2024-10-10",
+      "tipo": "Juros",
+      "valor": 58.737
+    },
+    {
+      "data": "2025-04-10",
+      "tipo": "Juros",
+      "valor": 65.6237
+    },
+    {
+      "data": "2025-10-10",
+      "tipo": "Juros",
+      "valor": 80.7
+    },
+    {
+      "data": "2026-04-10",
+      "tipo": "Juros",
+      "valor": 79.3911
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-04-10",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-04-10",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:00",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-10",
+        "data_pagamento": "2026-10-13",
+        "base": "DI",
+        "taxa_pct": 0.0
+      },
+      {
+        "data_evento": "2027-04-10",
+        "data_pagamento": "2027-04-12",
+        "base": "DI",
+        "taxa_pct": 0.0
+      },
+      {
+        "data_evento": "2027-10-10",
+        "data_pagamento": "2027-10-11",
+        "base": "DI",
+        "taxa_pct": 0.0
+      },
+      {
+        "data_evento": "2028-04-10",
+        "data_pagamento": "2028-04-10",
+        "base": "DI",
+        "taxa_pct": 0.0
+      },
+      {
+        "data_evento": "2028-10-10",
+        "data_pagamento": "2028-10-10",
+        "base": "DI",
+        "taxa_pct": 0.0
+      },
+      {
+        "data_evento": "2029-04-10",
+        "data_pagamento": "2029-04-10",
+        "base": "DI",
+        "taxa_pct": 0.0
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-04-10",
+        "data_pagamento": "2028-04-10",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-04-10",
+      "data_pagamento": "2029-04-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-04-10",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-04-10",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

@@ -1,0 +1,162 @@
+{
+  "codigo": "ENMTC3",
+  "nome": "ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2030-03-25",
+  "indexador": "CDI+",
+  "spread_contratual": 0.75,
+  "indexador_raw": "DI + 0,75%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.7711,
+    "taxa_venda": 0.5185,
+    "taxa_indicativa": 0.6298,
+    "desvio_padrao": 0.016,
+    "intervalo_min": 0.6137,
+    "intervalo_max": 0.6459,
+    "pu": 1029.540091,
+    "pct_pu_par": 100.3553,
+    "duration_du": 748.88,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRENMTDBS0U1",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 23,
+    "registro_cvm": "AUT/DEB/PRI/2025/262",
+    "data_registro_cvm": "2025-03-25",
+    "data_emissao": "2025-03-25",
+    "data_vencimento": "2030-03-25",
+    "data_novo_vcto": "2030-03-25",
+    "inicio_rentabilidade": "2025-03-26",
+    "inicio_distribuicao": "2025-03-25",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 800000,
+    "qtd_mercado": 800000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 0.75,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-09-25",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "03467321000199",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-03-25",
+  "primeiro_cupom": "2025-09-25",
+  "cnpj_emissor": "03467321000199",
+  "isin": "BRENMTDBS0U1",
+  "snd_atualizado_em": "2026-06-02T15:11:45",
+  "eventos_passados": [
+    {
+      "data": "2025-09-25",
+      "tipo": "Juros",
+      "valor": 75.4893
+    },
+    {
+      "data": "2026-03-25",
+      "tipo": "Juros",
+      "valor": 74.64
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:03",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-25",
+        "data_pagamento": "2026-09-25",
+        "base": "DI",
+        "taxa_pct": 0.75
+      },
+      {
+        "data_evento": "2027-03-25",
+        "data_pagamento": "2027-03-25",
+        "base": "DI",
+        "taxa_pct": 0.75
+      },
+      {
+        "data_evento": "2027-09-25",
+        "data_pagamento": "2027-09-27",
+        "base": "DI",
+        "taxa_pct": 0.75
+      },
+      {
+        "data_evento": "2028-03-25",
+        "data_pagamento": "2028-03-27",
+        "base": "DI",
+        "taxa_pct": 0.75
+      },
+      {
+        "data_evento": "2028-09-25",
+        "data_pagamento": "2028-09-25",
+        "base": "DI",
+        "taxa_pct": 0.75
+      },
+      {
+        "data_evento": "2029-03-25",
+        "data_pagamento": "2029-03-26",
+        "base": "DI",
+        "taxa_pct": 0.75
+      },
+      {
+        "data_evento": "2029-09-25",
+        "data_pagamento": "2029-09-25",
+        "base": "DI",
+        "taxa_pct": 0.75
+      },
+      {
+        "data_evento": "2030-03-25",
+        "data_pagamento": "2030-03-25",
+        "base": "DI",
+        "taxa_pct": 0.75
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2030-03-25",
+      "data_pagamento": "2030-03-25"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-03-25",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

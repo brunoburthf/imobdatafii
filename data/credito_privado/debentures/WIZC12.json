@@ -1,0 +1,264 @@
+{
+  "codigo": "WIZC12",
+  "nome": "WIZ SOLUCOES E CORRETAGEM DE SEGUROS S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-01-29",
+  "indexador": "CDI+",
+  "spread_contratual": 1.95,
+  "indexador_raw": "DI + 1,95%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.114,
+    "taxa_venda": 1.6946,
+    "taxa_indicativa": 1.8986,
+    "desvio_padrao": 0.0627,
+    "intervalo_min": 1.8358,
+    "intervalo_max": 1.9614,
+    "pu": 1053.125725,
+    "pct_pu_par": 100.0889,
+    "duration_du": 444.24,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRWIZCDBS015",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 2,
+    "registro_cvm": "AUT/DEB/PRI/2025/163",
+    "data_registro_cvm": "2025-01-29",
+    "data_emissao": "2025-01-29",
+    "data_vencimento": "2030-01-29",
+    "data_novo_vcto": "2030-01-29",
+    "inicio_rentabilidade": "2025-01-30",
+    "inicio_distribuicao": "2025-01-29",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 300000,
+    "qtd_mercado": 300000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2027-01-29",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.95,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-07-29",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "42278473000103",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-01-29",
+  "primeiro_cupom": "2025-07-29",
+  "cnpj_emissor": "42278473000103",
+  "isin": "BRWIZCDBS015",
+  "snd_atualizado_em": "2026-06-02T15:12:43",
+  "eventos_passados": [
+    {
+      "data": "2025-07-29",
+      "tipo": "Juros",
+      "valor": 76.2578
+    },
+    {
+      "data": "2026-01-29",
+      "tipo": "Juros",
+      "valor": 84.3551
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-01-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2027-07-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2028-01-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2028-07-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2029-01-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2029-07-29",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2030-01-29",
+      "valor_estimado": 142.8571
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:10",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-29",
+        "data_pagamento": "2026-07-29",
+        "base": "DI",
+        "taxa_pct": 1.95
+      },
+      {
+        "data_evento": "2027-01-29",
+        "data_pagamento": "2027-01-29",
+        "base": "DI",
+        "taxa_pct": 1.95
+      },
+      {
+        "data_evento": "2027-07-29",
+        "data_pagamento": "2027-07-29",
+        "base": "DI",
+        "taxa_pct": 1.95
+      },
+      {
+        "data_evento": "2028-01-29",
+        "data_pagamento": "2028-01-31",
+        "base": "DI",
+        "taxa_pct": 1.95
+      },
+      {
+        "data_evento": "2028-07-29",
+        "data_pagamento": "2028-07-31",
+        "base": "DI",
+        "taxa_pct": 1.95
+      },
+      {
+        "data_evento": "2029-01-29",
+        "data_pagamento": "2029-01-29",
+        "base": "DI",
+        "taxa_pct": 1.95
+      },
+      {
+        "data_evento": "2029-07-29",
+        "data_pagamento": "2029-07-30",
+        "base": "DI",
+        "taxa_pct": 1.95
+      },
+      {
+        "data_evento": "2030-01-29",
+        "data_pagamento": "2030-01-29",
+        "base": "DI",
+        "taxa_pct": 1.95
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-01-29",
+        "data_pagamento": "2027-01-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 14.2857
+      },
+      {
+        "data_evento": "2027-07-29",
+        "data_pagamento": "2027-07-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 16.6667
+      },
+      {
+        "data_evento": "2028-01-29",
+        "data_pagamento": "2028-01-31",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 20.0
+      },
+      {
+        "data_evento": "2028-07-29",
+        "data_pagamento": "2028-07-31",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2029-01-29",
+        "data_pagamento": "2029-01-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2029-07-29",
+        "data_pagamento": "2029-07-30",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2030-01-29",
+      "data_pagamento": "2030-01-29"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-01-29",
+      "valor_estimado": 142.857,
+      "percentual": 14.2857,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-07-29",
+      "valor_estimado": 142.8575,
+      "percentual": 16.6667,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-01-31",
+      "valor_estimado": 142.8571,
+      "percentual": 20.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-07-31",
+      "valor_estimado": 142.8571,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-01-29",
+      "valor_estimado": 142.857,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-07-30",
+      "valor_estimado": 142.8572,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-01-29",
+      "valor_estimado": 142.8572,
+      "percentual": 14.2857,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

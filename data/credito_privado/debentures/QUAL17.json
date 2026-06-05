@@ -1,0 +1,212 @@
+{
+  "codigo": "QUAL17",
+  "nome": "QUALICORP S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-03-15",
+  "indexador": "CDI+",
+  "spread_contratual": 3.5,
+  "indexador_raw": "DI + 3,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 3.9928,
+    "taxa_venda": 3.3451,
+    "taxa_indicativa": 3.6726,
+    "desvio_padrao": 0.0591,
+    "intervalo_min": 3.6135,
+    "intervalo_max": 3.7317,
+    "pu": 689.439163,
+    "pct_pu_par": 99.8436,
+    "duration_du": 236.6,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRQUALDBS040",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 7,
+    "registro_cvm": "AUT/DEB/PRI/2024/156",
+    "data_registro_cvm": "2024-04-04",
+    "data_emissao": "2024-03-15",
+    "data_vencimento": "2028-03-15",
+    "data_novo_vcto": "2028-03-15",
+    "inicio_rentabilidade": "2024-04-05",
+    "inicio_distribuicao": "2024-04-04",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 200000,
+    "qtd_mercado": 200000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 666.6664,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-09-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 3.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-09-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "11992680000193",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-03-15",
+  "primeiro_cupom": "2024-09-15",
+  "cnpj_emissor": "11992680000193",
+  "isin": "BRQUALDBS040",
+  "snd_atualizado_em": "2026-06-02T15:12:17",
+  "eventos_passados": [
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 62.3974
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 74.1536
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Amortizacao",
+      "valor": 166.667
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 89.1232
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Amortizacao",
+      "valor": 166.6666
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 74.8013
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-09-16",
+      "valor_estimado": 166.6666
+    },
+    {
+      "data": "2027-03-16",
+      "valor_estimado": 166.6666
+    },
+    {
+      "data": "2027-09-16",
+      "valor_estimado": 166.6666
+    },
+    {
+      "data": "2028-03-15",
+      "valor_estimado": 166.6666
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:34",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "DI",
+        "taxa_pct": 3.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-03-15",
+      "data_pagamento": "2028-03-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-09-15",
+      "valor_estimado": 166.6666,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-03-15",
+      "valor_estimado": 166.6664,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-09-15",
+      "valor_estimado": 166.6667,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-03-15",
+      "valor_estimado": 166.6667,
+      "percentual": 25.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

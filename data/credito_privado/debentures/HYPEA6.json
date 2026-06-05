@@ -1,0 +1,181 @@
+{
+  "codigo": "HYPEA6",
+  "nome": "HYPERA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-10-10",
+  "indexador": "CDI+",
+  "spread_contratual": 1.35,
+  "indexador_raw": "DI + 1,35%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.9514,
+    "taxa_venda": 0.538,
+    "taxa_indicativa": 0.7556,
+    "desvio_padrao": 0.0661,
+    "intervalo_min": 0.6895,
+    "intervalo_max": 0.8218,
+    "pu": 1030.183634,
+    "pct_pu_par": 100.9711,
+    "duration_du": 414.31,
+    "pct_reune": 10.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRHYPEDBS0L8",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 16,
+    "registro_cvm": "AUT/DEB/PRI/2023/289",
+    "data_registro_cvm": "2023-10-16",
+    "data_emissao": "2023-10-10",
+    "data_vencimento": "2028-10-10",
+    "data_novo_vcto": "2028-10-10",
+    "inicio_rentabilidade": "2023-10-17",
+    "inicio_distribuicao": "2023-10-16",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 750000,
+    "qtd_mercado": 750000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2027-10-10",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.35,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-04-10",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "02932074000191",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-10-10",
+  "primeiro_cupom": "2024-04-10",
+  "cnpj_emissor": "02932074000191",
+  "isin": "BRHYPEDBS0L8",
+  "snd_atualizado_em": "2026-06-02T15:11:55",
+  "eventos_passados": [
+    {
+      "data": "2024-04-10",
+      "tipo": "Juros",
+      "valor": 59.969
+    },
+    {
+      "data": "2024-10-10",
+      "tipo": "Juros",
+      "valor": 59.5317
+    },
+    {
+      "data": "2025-04-10",
+      "tipo": "Juros",
+      "valor": 65.3999
+    },
+    {
+      "data": "2025-10-10",
+      "tipo": "Juros",
+      "valor": 79.0208
+    },
+    {
+      "data": "2026-04-10",
+      "tipo": "Juros",
+      "valor": 77.6819
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-10-10",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2028-10-10",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:14",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-10",
+        "data_pagamento": "2026-10-13",
+        "base": "DI",
+        "taxa_pct": 1.35
+      },
+      {
+        "data_evento": "2027-04-10",
+        "data_pagamento": "2027-04-12",
+        "base": "DI",
+        "taxa_pct": 1.35
+      },
+      {
+        "data_evento": "2027-10-10",
+        "data_pagamento": "2027-10-11",
+        "base": "DI",
+        "taxa_pct": 1.35
+      },
+      {
+        "data_evento": "2028-04-10",
+        "data_pagamento": "2028-04-10",
+        "base": "DI",
+        "taxa_pct": 1.35
+      },
+      {
+        "data_evento": "2028-10-10",
+        "data_pagamento": "2028-10-10",
+        "base": "DI",
+        "taxa_pct": 1.35
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-10-10",
+        "data_pagamento": "2027-10-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-10-10",
+      "data_pagamento": "2028-10-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-10-11",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-10-10",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

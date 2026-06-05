@@ -1,0 +1,317 @@
+{
+  "codigo": "TAEEC4",
+  "nome": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2038-09-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.2709,
+  "indexador_raw": "IPCA + 6,2709%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.7313,
+    "taxa_venda": 7.4477,
+    "taxa_indicativa": 7.5761,
+    "desvio_padrao": 0.1103,
+    "intervalo_min": 7.4658,
+    "intervalo_max": 7.6865,
+    "pu": 1044.963209,
+    "pct_pu_par": 90.6379,
+    "duration_du": 2005.74,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2037"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRTAEEDBS0V4",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 14,
+    "registro_cvm": "AUT/DEB/PRI/2023/255",
+    "data_registro_cvm": "2023-09-26",
+    "data_emissao": "2023-09-15",
+    "data_vencimento": "2038-09-15",
+    "data_novo_vcto": "2038-09-15",
+    "inicio_rentabilidade": "2023-09-27",
+    "inicio_distribuicao": "2023-09-26",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 385904,
+    "qtd_mercado": 385904,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1139.95952,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2036-09-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.2709,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-03-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "07859971000130",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-09-15",
+  "primeiro_cupom": "2024-03-15",
+  "cnpj_emissor": "07859971000130",
+  "isin": "BRTAEEDBS0V4",
+  "snd_atualizado_em": "2026-06-02T15:12:32",
+  "eventos_passados": [
+    {
+      "data": "2024-03-15",
+      "tipo": "Juros",
+      "valor": 28.851
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 32.6712
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 32.718
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 33.8024
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 34.2434
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2036-09-15",
+      "valor_estimado": 379.9865
+    },
+    {
+      "data": "2037-09-15",
+      "valor_estimado": 379.9865
+    },
+    {
+      "data": "2038-09-15",
+      "valor_estimado": 379.9865
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:56",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2031-09-15",
+        "data_pagamento": "2031-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2032-03-15",
+        "data_pagamento": "2032-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2032-09-15",
+        "data_pagamento": "2032-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2033-03-15",
+        "data_pagamento": "2033-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2033-09-15",
+        "data_pagamento": "2033-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2034-03-15",
+        "data_pagamento": "2034-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2034-09-15",
+        "data_pagamento": "2034-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2035-03-15",
+        "data_pagamento": "2035-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2035-09-15",
+        "data_pagamento": "2035-09-17",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2036-03-15",
+        "data_pagamento": "2036-03-17",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2036-09-15",
+        "data_pagamento": "2036-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2037-03-15",
+        "data_pagamento": "2037-03-16",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2037-09-15",
+        "data_pagamento": "2037-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2038-03-15",
+        "data_pagamento": "2038-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      },
+      {
+        "data_evento": "2038-09-15",
+        "data_pagamento": "2038-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2709
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2036-09-15",
+        "data_pagamento": "2036-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2037-09-15",
+        "data_pagamento": "2037-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2038-09-15",
+      "data_pagamento": "2038-09-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2036-09-15",
+      "valor_estimado": 596.6364,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2037-09-15",
+      "valor_estimado": 623.4859,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2038-09-15",
+      "valor_estimado": 651.5428,
+      "percentual": 33.3333,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

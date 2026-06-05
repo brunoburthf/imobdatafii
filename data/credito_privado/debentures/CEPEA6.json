@@ -1,0 +1,186 @@
+{
+  "codigo": "CEPEA6",
+  "nome": "COMPANHIA ENERGÉTICA DE PERNAMBUCO - CELPE",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-04-25",
+  "indexador": "PREFIX",
+  "spread_contratual": 13.5966,
+  "indexador_raw": "PREFIXADO 13,5966%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 14.2599,
+    "taxa_venda": 13.6126,
+    "taxa_indicativa": 13.789,
+    "desvio_padrao": 0.108,
+    "intervalo_min": 13.681,
+    "intervalo_max": 13.8971,
+    "pu": 1005.032454,
+    "pct_pu_par": 99.2904,
+    "duration_du": 1059.62,
+    "pct_reune": 15.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:24",
+  "snd": {
+    "isin": "BRCEPEDBS0R4",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 16,
+    "registro_cvm": "AUT/DEB/PRI/2025/324",
+    "data_registro_cvm": "2025-04-24",
+    "data_emissao": "2025-04-25",
+    "data_vencimento": "2032-04-25",
+    "data_novo_vcto": "2032-04-25",
+    "inicio_rentabilidade": "2025-04-25",
+    "inicio_distribuicao": "2025-04-24",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 700000,
+    "qtd_mercado": 700000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "PRÉ",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 13.5966,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-10-25",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "10835932000108",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-04-25",
+  "primeiro_cupom": "2025-10-25",
+  "cnpj_emissor": "10835932000108",
+  "isin": "BRCEPEDBS0R4",
+  "snd_atualizado_em": "2026-06-02T15:11:19",
+  "eventos_passados": [
+    {
+      "data": "2025-10-27",
+      "tipo": "Juros",
+      "valor": 67.4358
+    },
+    {
+      "data": "2026-04-27",
+      "tipo": "Juros",
+      "valor": 64.2007
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:31",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-25",
+        "data_pagamento": "2026-10-26",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2027-04-25",
+        "data_pagamento": "2027-04-26",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2027-10-25",
+        "data_pagamento": "2027-10-25",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2028-04-25",
+        "data_pagamento": "2028-04-25",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2028-10-25",
+        "data_pagamento": "2028-10-25",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2029-04-25",
+        "data_pagamento": "2029-04-25",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2029-10-25",
+        "data_pagamento": "2029-10-25",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2030-04-25",
+        "data_pagamento": "2030-04-25",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2030-10-25",
+        "data_pagamento": "2030-10-25",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2031-04-25",
+        "data_pagamento": "2031-04-25",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2031-10-25",
+        "data_pagamento": "2031-10-27",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      },
+      {
+        "data_evento": "2032-04-25",
+        "data_pagamento": "2032-04-26",
+        "base": "PRÉ",
+        "taxa_pct": 13.5966
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2032-04-25",
+      "data_pagamento": "2032-04-26"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2032-04-26",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

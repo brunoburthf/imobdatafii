@@ -1,0 +1,162 @@
+{
+  "codigo": "ENERB5",
+  "nome": "ENERGISA MATO GROSSO DO SUL - DISTRIBUIDORA DE ENERGIA S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2029-12-15",
+  "indexador": "CDI+",
+  "spread_contratual": 0.8,
+  "indexador_raw": "DI + 0,8%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.85,
+    "taxa_venda": 0.4656,
+    "taxa_indicativa": 0.6779,
+    "desvio_padrao": 0.0417,
+    "intervalo_min": 0.6362,
+    "intervalo_max": 0.7197,
+    "pu": 1070.920366,
+    "pct_pu_par": 100.3275,
+    "duration_du": 680.08,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRENERDBS0U3",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 25,
+    "registro_cvm": "AUT/DEB/PRI/2024/939",
+    "data_registro_cvm": "2024-12-19",
+    "data_emissao": "2024-12-15",
+    "data_vencimento": "2029-12-15",
+    "data_novo_vcto": "2029-12-15",
+    "inicio_rentabilidade": "2024-12-20",
+    "inicio_distribuicao": "2024-12-19",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 190000,
+    "qtd_mercado": 190000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 0.8,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-06-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "15413826000150",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-12-15",
+  "primeiro_cupom": "2025-06-15",
+  "cnpj_emissor": "15413826000150",
+  "isin": "BRENERDBS0U3",
+  "snd_atualizado_em": "2026-06-02T15:11:41",
+  "eventos_passados": [
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 65.7514
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 77.4204
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:59",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2028-12-15",
+        "data_pagamento": "2028-12-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2029-06-15",
+        "data_pagamento": "2029-06-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2029-12-15",
+        "data_pagamento": "2029-12-17",
+        "base": "DI",
+        "taxa_pct": 0.8
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-12-15",
+      "data_pagamento": "2029-12-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-12-17",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

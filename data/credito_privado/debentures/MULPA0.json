@@ -1,0 +1,217 @@
+{
+  "codigo": "MULPA0",
+  "nome": "MULTIPLAN EMPREENDIMENTOS IMOBILIÁRIOS S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-10-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.3,
+  "indexador_raw": "DI + 1,3%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.7957,
+    "taxa_venda": 0.5805,
+    "taxa_indicativa": 0.6896,
+    "desvio_padrao": 0.0171,
+    "intervalo_min": 0.6724,
+    "intervalo_max": 0.7068,
+    "pu": 1025.994191,
+    "pct_pu_par": 100.7465,
+    "duration_du": 310.55,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMULTDBS080",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 10,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-10-19",
+    "data_emissao": "2021-10-15",
+    "data_vencimento": "2028-10-15",
+    "data_novo_vcto": "2028-10-15",
+    "inicio_rentabilidade": "2021-10-20",
+    "inicio_distribuicao": "2021-10-20",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 450000,
+    "qtd_mercado": 450000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2026-10-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.3,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "07816890000153",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-10-15",
+  "primeiro_cupom": "2022-04-15",
+  "cnpj_emissor": "07816890000153",
+  "isin": "BRMULTDBS080",
+  "snd_atualizado_em": "2026-06-02T15:12:08",
+  "eventos_passados": [
+    {
+      "data": "2022-04-18",
+      "tipo": "Juros",
+      "valor": 51.5245
+    },
+    {
+      "data": "2022-10-17",
+      "tipo": "Juros",
+      "valor": 70.3033
+    },
+    {
+      "data": "2023-04-17",
+      "tipo": "Juros",
+      "valor": 72.3749
+    },
+    {
+      "data": "2023-10-16",
+      "tipo": "Juros",
+      "valor": 71.1357
+    },
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 61.7188
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 59.2641
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 65.5361
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 78.8366
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 77.3923
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-10-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2027-10-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2028-10-15",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:23",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "DI",
+        "taxa_pct": 1.3
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "DI",
+        "taxa_pct": 1.3
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-10-15",
+      "data_pagamento": "2028-10-16"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-15",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-10-15",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-10-16",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

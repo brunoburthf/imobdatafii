@@ -1,0 +1,225 @@
+{
+  "codigo": "AEGPB3",
+  "nome": "AEGEA SANEAMENTO E PARTICIPAÇÕES S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-08-22",
+  "indexador": "CDI+",
+  "spread_contratual": 1.8,
+  "indexador_raw": "DI + 1,8%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 4.1749,
+    "taxa_venda": 3.4457,
+    "taxa_indicativa": 3.8108,
+    "desvio_padrao": 0.132,
+    "intervalo_min": 3.6788,
+    "intervalo_max": 3.9429,
+    "pu": 972.059493,
+    "pct_pu_par": 93.295,
+    "duration_du": 885.27,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRAEGPDBS0J1",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 23,
+    "registro_cvm": "AUT/DEB/PRI/2025/611",
+    "data_registro_cvm": "2025-08-27",
+    "data_emissao": "2025-08-22",
+    "data_vencimento": "2032-08-22",
+    "data_novo_vcto": "2032-08-22",
+    "inicio_rentabilidade": "2025-08-28",
+    "inicio_distribuicao": "2025-08-27",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 2273029,
+    "qtd_mercado": 2273029,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2030-08-22",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.8,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-02-22",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "08827501000158",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-08-22",
+  "primeiro_cupom": "2026-02-22",
+  "cnpj_emissor": "08827501000158",
+  "isin": "BRAEGPDBS0J1",
+  "snd_atualizado_em": "2026-06-02T15:11:05",
+  "eventos_passados": [
+    {
+      "data": "2026-02-23",
+      "tipo": "Juros",
+      "valor": 78.831
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2030-08-22",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2031-08-22",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2032-08-22",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:17",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-22",
+        "data_pagamento": "2026-08-24",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2027-02-22",
+        "data_pagamento": "2027-02-22",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2027-08-22",
+        "data_pagamento": "2027-08-23",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2028-02-22",
+        "data_pagamento": "2028-02-22",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2028-08-22",
+        "data_pagamento": "2028-08-22",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2029-02-22",
+        "data_pagamento": "2029-02-22",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2029-08-22",
+        "data_pagamento": "2029-08-22",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2030-02-22",
+        "data_pagamento": "2030-02-22",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2030-08-22",
+        "data_pagamento": "2030-08-22",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2031-02-22",
+        "data_pagamento": "2031-02-26",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2031-08-22",
+        "data_pagamento": "2031-08-22",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2032-02-22",
+        "data_pagamento": "2032-02-23",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2032-08-22",
+        "data_pagamento": "2032-08-23",
+        "base": "DI",
+        "taxa_pct": 1.7
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2030-08-22",
+        "data_pagamento": "2030-08-22",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2031-08-22",
+        "data_pagamento": "2031-08-22",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-08-22",
+      "data_pagamento": "2032-08-23"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-08-22",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-08-22",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2032-08-23",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

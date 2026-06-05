@@ -1,0 +1,176 @@
+{
+  "codigo": "YDUQ17",
+  "nome": "YDUQS PARTICIPACOES S.A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-11-29",
+  "indexador": "CDI+",
+  "spread_contratual": 0.78,
+  "indexador_raw": "DI + 0,78%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.7678,
+    "taxa_venda": 0.5063,
+    "taxa_indicativa": 0.616,
+    "desvio_padrao": 0.0735,
+    "intervalo_min": 0.5425,
+    "intervalo_max": 0.6896,
+    "pu": 1002.826667,
+    "pct_pu_par": 100.2261,
+    "duration_du": 349.39,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRYDUQDBS054",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 7,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-11-29",
+    "data_emissao": "2021-11-29",
+    "data_vencimento": "2027-11-29",
+    "data_novo_vcto": "2027-11-29",
+    "inicio_rentabilidade": "2021-11-30",
+    "inicio_distribuicao": "2021-11-30",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 300000,
+    "qtd_mercado": 300000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2024-11-29",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.78,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-11-29",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO CITIBANK S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO CITIBANK S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "08807432000110",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-11-29",
+  "primeiro_cupom": "2024-11-29",
+  "cnpj_emissor": "08807432000110",
+  "isin": "BRYDUQDBS054",
+  "snd_atualizado_em": "2026-06-02T15:12:43",
+  "eventos_passados": [
+    {
+      "data": "2022-05-30",
+      "tipo": "Juros",
+      "valor": 59.4751
+    },
+    {
+      "data": "2022-11-29",
+      "tipo": "Juros",
+      "valor": 73.6975
+    },
+    {
+      "data": "2023-05-29",
+      "tipo": "Juros",
+      "valor": 73.5962
+    },
+    {
+      "data": "2023-11-29",
+      "tipo": "Juros",
+      "valor": 72.748
+    },
+    {
+      "data": "2024-05-29",
+      "tipo": "Juros",
+      "valor": 61.9228
+    },
+    {
+      "data": "2024-11-29",
+      "tipo": "Juros",
+      "valor": 61.5351
+    },
+    {
+      "data": "2025-05-29",
+      "tipo": "Juros",
+      "valor": 65.7451
+    },
+    {
+      "data": "2025-12-01",
+      "tipo": "Juros",
+      "valor": 78.4546
+    },
+    {
+      "data": "2026-05-29",
+      "tipo": "Juros",
+      "valor": 72.9531
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-11-29",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2027-11-29",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:10",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-29",
+        "data_pagamento": "2026-11-30",
+        "base": "DI",
+        "taxa_pct": 0.78
+      },
+      {
+        "data_evento": "2027-05-29",
+        "data_pagamento": "2027-05-31",
+        "base": "DI",
+        "taxa_pct": 0.78
+      },
+      {
+        "data_evento": "2027-11-29",
+        "data_pagamento": "2027-11-29",
+        "base": "DI",
+        "taxa_pct": 0.78
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2027-11-29",
+      "data_pagamento": "2027-11-29"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-11-29",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

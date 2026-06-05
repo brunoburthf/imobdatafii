@@ -1,0 +1,187 @@
+{
+  "codigo": "ELTN17",
+  "nome": "CENTRAIS ELETRICAS DO NORTE DO BRASIL S/A - ELETRONORTE",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-07-15",
+  "indexador": "PREFIX",
+  "spread_contratual": 13.2474,
+  "indexador_raw": "PREFIXADO 13,2474%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 13.9391,
+    "taxa_venda": 13.2671,
+    "taxa_indicativa": 13.5969,
+    "desvio_padrao": 0.0587,
+    "intervalo_min": 13.5382,
+    "intervalo_max": 13.6558,
+    "pu": 1033.001877,
+    "pct_pu_par": 98.7135,
+    "duration_du": 1057.1,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:24",
+  "snd": {
+    "isin": "BRELTNDBS066",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 7,
+    "registro_cvm": "AUT/DEB/PRI/2025/518",
+    "data_registro_cvm": "2025-07-16",
+    "data_emissao": "2025-07-15",
+    "data_vencimento": "2032-07-15",
+    "data_novo_vcto": "2032-07-15",
+    "inicio_rentabilidade": "2025-07-17",
+    "inicio_distribuicao": "2025-07-16",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 338451,
+    "qtd_mercado": 338451,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "PRÉ",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 13.2474,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-01-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "00357038000116",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-07-15",
+  "primeiro_cupom": "2026-01-15",
+  "cnpj_emissor": "00357038000116",
+  "isin": "BRELTNDBS066",
+  "snd_atualizado_em": "2026-06-02T15:11:39",
+  "eventos_passados": [
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 64.7031
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:57",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2030-07-15",
+        "data_pagamento": "2030-07-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2031-01-15",
+        "data_pagamento": "2031-01-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2031-07-15",
+        "data_pagamento": "2031-07-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2032-01-15",
+        "data_pagamento": "2032-01-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      },
+      {
+        "data_evento": "2032-07-15",
+        "data_pagamento": "2032-07-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.2474
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2032-07-15",
+      "data_pagamento": "2032-07-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2032-07-15",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

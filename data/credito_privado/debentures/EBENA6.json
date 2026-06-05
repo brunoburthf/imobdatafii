@@ -1,0 +1,170 @@
+{
+  "codigo": "EBENA6",
+  "nome": "EDP SÃO PAULO DISTRIBUIÇÃO DE ENERGIA S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-03-04",
+  "indexador": "CDI+",
+  "spread_contratual": 0.89,
+  "indexador_raw": "DI + 0,89%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.893,
+    "taxa_venda": 0.3707,
+    "taxa_indicativa": 0.6542,
+    "desvio_padrao": 0.1149,
+    "intervalo_min": 0.5394,
+    "intervalo_max": 0.7692,
+    "pu": 1037.938449,
+    "pct_pu_par": 100.2666,
+    "duration_du": 286.84,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BREBENDBS0E5",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 16,
+    "registro_cvm": "AUT/DEB/SEC/2024/003",
+    "data_registro_cvm": "2024-03-14",
+    "data_emissao": "2024-03-04",
+    "data_vencimento": "2028-03-04",
+    "data_novo_vcto": "2028-03-04",
+    "inicio_rentabilidade": "2024-03-15",
+    "inicio_distribuicao": "2024-03-14",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 350000,
+    "qtd_mercado": 350000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2027-03-04",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.89,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-09-04",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "02302100000106",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-03-04",
+  "primeiro_cupom": "2024-09-04",
+  "cnpj_emissor": "02302100000106",
+  "isin": "BREBENDBS0E5",
+  "snd_atualizado_em": "2026-06-02T15:11:34",
+  "eventos_passados": [
+    {
+      "data": "2024-09-04",
+      "tipo": "Juros",
+      "valor": 53.0995
+    },
+    {
+      "data": "2025-03-05",
+      "tipo": "Juros",
+      "valor": 59.9103
+    },
+    {
+      "data": "2025-09-04",
+      "tipo": "Juros",
+      "valor": 75.4096
+    },
+    {
+      "data": "2026-03-04",
+      "tipo": "Juros",
+      "valor": 75.4117
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-03-04",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2028-03-04",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:52",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-04",
+        "data_pagamento": "2026-09-04",
+        "base": "DI",
+        "taxa_pct": 0.89
+      },
+      {
+        "data_evento": "2027-03-04",
+        "data_pagamento": "2027-03-04",
+        "base": "DI",
+        "taxa_pct": 0.89
+      },
+      {
+        "data_evento": "2027-09-04",
+        "data_pagamento": "2027-09-06",
+        "base": "DI",
+        "taxa_pct": 0.89
+      },
+      {
+        "data_evento": "2028-03-04",
+        "data_pagamento": "2028-03-06",
+        "base": "DI",
+        "taxa_pct": 0.89
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-03-04",
+        "data_pagamento": "2027-03-04",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-03-04",
+      "data_pagamento": "2028-03-06"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-03-04",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2028-03-06",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

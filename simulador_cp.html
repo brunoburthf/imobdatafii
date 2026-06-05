@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Forca o browser a sempre revalidar o HTML. Garante que script tags
+       com query string ?v=N novo sejam pegos sem necessidade de hard refresh.
+       Fallback caso o _headers do Netlify nao seja efetivo. -->
+  <meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
   <title>Simulador CP — ImobData</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -111,6 +115,7 @@
           <!-- Formulário pra adicionar/editar papel -->
           <details id="cp-form-papel" class="cp-form-details" open>
             <summary class="cp-form-summary">+ Adicionar título</summary>
+            <!-- Campos compactos (sempre visíveis) -->
             <div class="cp-form-grid">
               <label>Tipo
                 <select id="cp-tipo">
@@ -123,9 +128,39 @@
                 </select>
               </label>
               <label>Código/Nome
-                <input type="text" id="cp-codigo" placeholder="ex: CRI22A123" maxlength="40" />
+                <div class="sim-busca-container cp-codigo-wrapper" style="min-width:0">
+                  <input type="text" id="cp-codigo" class="sim-busca-input"
+                         placeholder="ex: CRI22A123" maxlength="80"
+                         autocomplete="off"
+                         oninput="filtrarSugestoesCp()"
+                         onfocus="filtrarSugestoesCp()"
+                         onkeydown="navegarSugestoesCp(event)" />
+                  <div id="cp-sugestoes" class="sim-sugestoes" style="display:none"></div>
+                </div>
               </label>
-              <label>Emissor (opcional)
+              <label>PU de entrada (R$)
+                <input type="number" id="cp-pu-medio" step="0.01" placeholder="ex: 1000.00"
+                       onchange="_sincTaxaDoPuMedioSync()" />
+              </label>
+              <label><span id="cp-taxa-entrada-label">Taxa de entrada (% a.a.)</span>
+                <input type="number" id="cp-taxa-entrada" step="0.01" placeholder="ex: 7.50"
+                       onchange="_marcarTaxaManual()"
+                       title="Auto-preenchida pelo PU. Editar marca como override - a YTM no resumo passa a ser essa taxa." />
+              </label>
+              <label>Qtd. de títulos
+                <input type="number" id="cp-quantidade" step="1" min="1" placeholder="ex: 50" />
+              </label>
+            </div>
+
+            <!-- Toggle pra detalhes (taxa, datas, cupom, etc) -->
+            <div class="cp-form-actions" style="margin-top:8px">
+              <button type="button" class="btn-voltar-tela" id="cp-btn-detalhes"
+                      onclick="toggleDetalhes()">+ Criar ativo</button>
+            </div>
+
+            <!-- Campos detalhados (escondidos até clicar em "Criar ativo") -->
+            <div id="cp-form-detalhes" class="cp-form-grid" style="display:none; margin-top:8px">
+              <label id="cp-emissor-label">Emissor (opcional)
                 <input type="text" id="cp-emissor" placeholder="ex: Opea Securitizadora" maxlength="60" />
               </label>
               <label>Indexador
@@ -140,14 +175,8 @@
               <label><span id="cp-taxa-label">Spread (% a.a.)</span>
                 <input type="number" id="cp-taxa" step="0.01" placeholder="ex: 6.50" />
               </label>
-              <label>Qtd. de títulos
-                <input type="number" id="cp-quantidade" step="1" min="1" placeholder="ex: 50" />
-              </label>
               <label>PU de emissão (R$)
                 <input type="number" id="cp-pu-emissao" step="0.01" value="1000" />
-              </label>
-              <label>PU médio de aquisição (R$)
-                <input type="number" id="cp-pu-medio" step="0.01" placeholder="se diferente do emissão" />
               </label>
               <label>Data de emissão
                 <input type="date" id="cp-data-emissao" />
@@ -167,6 +196,7 @@
                 <select id="cp-amortizacao">
                   <option value="bullet">Bullet (principal no vcto)</option>
                   <option value="price">Tabela Price</option>
+                  <option value="anuidade">Anuidade (RendA+/Educa+ — pagamentos mensais por 240m após vcto)</option>
                 </select>
               </label>
               <label class="cp-form-checkbox">
@@ -227,7 +257,13 @@
             <div class="cp-projecao-card">
               <h3 class="cp-projecao-titulo">Projeção mensal</h3>
               <div class="cp-projecao-meta">
-                <span><strong>Premissas:</strong> CDI <span id="cp-premissa-cdi">—</span>%, IPCA <span id="cp-premissa-ipca">4,5</span>%, valores líquidos de IR conforme tipo.</span>
+                <span><strong>Premissas:</strong>
+                  CDI <input type="number" id="cp-premissa-cdi" step="0.01"
+                             style="width:60px" onchange="_aplicarPremissasUI()" />%,
+                  IPCA <input type="number" id="cp-premissa-ipca" step="0.01"
+                              style="width:60px" onchange="_aplicarPremissasUI()" />%
+                  &nbsp;<small style="color:#666">valores líquidos de IR conforme tipo. Edite as premissas pra ver impacto.</small>
+                </span>
               </div>
 
               <div class="cp-resumo-grid">
@@ -240,12 +276,20 @@
                   <div class="cp-resumo-valor" id="cp-resumo-renda-12m">—</div>
                 </div>
                 <div class="cp-resumo-item">
-                  <div class="cp-resumo-label">Yield mensal (sobre custo)</div>
-                  <div class="cp-resumo-valor" id="cp-resumo-yield-mensal">—</div>
+                  <div class="cp-resumo-label">Yield 12m (sobre custo)</div>
+                  <div class="cp-resumo-valor" id="cp-resumo-yield-12m-pct">—</div>
                 </div>
                 <div class="cp-resumo-item">
                   <div class="cp-resumo-label">Próximo vencimento</div>
                   <div class="cp-resumo-valor" id="cp-resumo-prox-vcto">—</div>
+                </div>
+                <div class="cp-resumo-item" title="YTM nominal (R$ correntes): rentabilidade total que o investidor recebe, incluindo correção por IPCA pros IPCA+">
+                  <div class="cp-resumo-label">YTM nominal</div>
+                  <div class="cp-resumo-valor" id="cp-resumo-ytm">—</div>
+                </div>
+                <div class="cp-resumo-item" title="YTM real (R$ base 2000-07): equivalente à taxa de mercado do Tesouro Direto. Pra PREFIX/SELIC, igual à nominal.">
+                  <div class="cp-resumo-label">YTM real</div>
+                  <div class="cp-resumo-valor" id="cp-resumo-ytm-real">—</div>
                 </div>
               </div>
 
@@ -285,7 +329,7 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="js/firebase-auth.js"></script>
   <script src="js/calendario_du.js"></script>
-  <script src="js/simulador_cp.js?v=3"></script>
+  <script src="js/simulador_cp.js?v=37"></script>
   <script src="js/local.js"></script>
   <script>guardValuation();</script>
 </body>

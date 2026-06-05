@@ -1,0 +1,179 @@
+{
+  "codigo": "MVLV26",
+  "nome": "MOVIDA PARTICIPACOES S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-06-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 7.2413,
+  "indexador_raw": "IPCA + 7,2413%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": 12.6079,
+    "desvio_padrao": 0.3839,
+    "intervalo_min": 12.224,
+    "intervalo_max": 12.9918,
+    "pu": 1246.001109,
+    "pct_pu_par": 90.2204,
+    "duration_du": 471.28,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2028"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMOVIDBS0Y4",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 17,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-04-15",
+    "data_emissao": "2021-04-15",
+    "data_vencimento": "2028-06-15",
+    "data_novo_vcto": "2028-06-15",
+    "inicio_rentabilidade": "2021-04-16",
+    "inicio_distribuicao": "2021-04-16",
+    "forma": "Escritural",
+    "garantia_especie": "Flutuante",
+    "classe": "Simples",
+    "qtd_emitida": 300000,
+    "qtd_mercado": 300000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1342.39763,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 7.2413,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-12-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": null,
+    "cnpj_emissor": "21314559000166",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-04-15",
+  "primeiro_cupom": "2021-12-15",
+  "cnpj_emissor": "21314559000166",
+  "isin": "BRMOVIDBS0Y4",
+  "snd_atualizado_em": "2026-06-02T15:12:09",
+  "eventos_passados": [
+    {
+      "data": "2021-12-15",
+      "tipo": "Juros",
+      "valor": 50.7632
+    },
+    {
+      "data": "2022-06-15",
+      "tipo": "Juros",
+      "valor": 40.1952
+    },
+    {
+      "data": "2022-12-15",
+      "tipo": "Juros",
+      "valor": 40.3288
+    },
+    {
+      "data": "2023-06-15",
+      "tipo": "Juros",
+      "valor": 41.1026
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Juros",
+      "valor": 42.5587
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Juros",
+      "valor": 42.7163
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Juros",
+      "valor": 44.9902
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 44.6197
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 46.9976
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:24",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.2413
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.2413
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.2413
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.2413
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "IPCA",
+        "taxa_pct": 7.2413
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2028-06-15",
+      "data_pagamento": "2028-06-16"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-06-16",
+      "valor_estimado": 1465.9318,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

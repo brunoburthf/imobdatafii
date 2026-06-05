@@ -1,0 +1,185 @@
+{
+  "codigo": "CMTR19",
+  "nome": "CEMIG GERAÇÃO E TRANSMISSÃO S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-12-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.33,
+  "indexador_raw": "DI + 1,33%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.8558,
+    "taxa_venda": 0.5283,
+    "taxa_indicativa": 0.6867,
+    "desvio_padrao": 0.1367,
+    "intervalo_min": 0.5501,
+    "intervalo_max": 0.8235,
+    "pu": 717.478059,
+    "pct_pu_par": 100.5869,
+    "duration_du": 231.76,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCMGTDBS0F3",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 9,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-12-19",
+    "data_emissao": "2022-12-15",
+    "data_vencimento": "2027-12-15",
+    "data_novo_vcto": "2027-12-15",
+    "inicio_rentabilidade": "2022-12-20",
+    "inicio_distribuicao": "2022-11-16",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 700000,
+    "qtd_mercado": 700000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 666.667,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-12-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.33,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-06-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "06981176000158",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-12-15",
+  "primeiro_cupom": "2023-06-15",
+  "cnpj_emissor": "06981176000158",
+  "isin": "BRCMGTDBS0F3",
+  "snd_atualizado_em": "2026-06-02T15:11:25",
+  "eventos_passados": [
+    {
+      "data": "2023-06-15",
+      "tipo": "Juros",
+      "valor": 70.1319
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Juros",
+      "valor": 70.3483
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Juros",
+      "valor": 59.5016
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Juros",
+      "valor": 59.7399
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 70.5647
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Amortizacao",
+      "valor": 333.333
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 80.2941
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-12-15",
+      "valor_estimado": 333.3335
+    },
+    {
+      "data": "2027-12-15",
+      "valor_estimado": 333.3335
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:40",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "DI",
+        "taxa_pct": 1.33
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "DI",
+        "taxa_pct": 1.33
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "DI",
+        "taxa_pct": 1.33
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "DI",
+        "taxa_pct": 1.33
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2027-12-15",
+      "data_pagamento": "2027-12-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-12-15",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-12-15",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

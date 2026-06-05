@@ -1,0 +1,184 @@
+{
+  "codigo": "HYPEA9",
+  "nome": "HYPERA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-01-15",
+  "indexador": "CDI+",
+  "spread_contratual": 0.9,
+  "indexador_raw": "DI + 0,9%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.2526,
+    "taxa_venda": 0.7352,
+    "taxa_indicativa": 1.0019,
+    "desvio_padrao": 0.0539,
+    "intervalo_min": 0.948,
+    "intervalo_max": 1.0559,
+    "pu": 1052.209265,
+    "pct_pu_par": 99.7523,
+    "duration_du": 619.03,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRHYPEDBS0O2",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 19,
+    "registro_cvm": "AUT/DEB/PRI/2025/158",
+    "data_registro_cvm": "2025-01-29",
+    "data_emissao": "2025-01-15",
+    "data_vencimento": "2030-01-15",
+    "data_novo_vcto": "2030-01-15",
+    "inicio_rentabilidade": "2025-01-29",
+    "inicio_distribuicao": "2025-01-28",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 530000,
+    "qtd_mercado": 530000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2029-01-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.9,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-07-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "02932074000191",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-01-15",
+  "primeiro_cupom": "2025-07-15",
+  "cnpj_emissor": "02932074000191",
+  "isin": "BRHYPEDBS0O2",
+  "snd_atualizado_em": "2026-06-02T15:11:56",
+  "eventos_passados": [
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 65.135
+    },
+    {
+      "data": "2026-01-15",
+      "tipo": "Juros",
+      "valor": 78.6238
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2029-01-15",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2030-01-15",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:12",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "DI",
+        "taxa_pct": 0.9
+      },
+      {
+        "data_evento": "2027-01-15",
+        "data_pagamento": "2027-01-15",
+        "base": "DI",
+        "taxa_pct": 0.9
+      },
+      {
+        "data_evento": "2027-07-15",
+        "data_pagamento": "2027-07-15",
+        "base": "DI",
+        "taxa_pct": 0.9
+      },
+      {
+        "data_evento": "2028-01-15",
+        "data_pagamento": "2028-01-17",
+        "base": "DI",
+        "taxa_pct": 0.9
+      },
+      {
+        "data_evento": "2028-07-15",
+        "data_pagamento": "2028-07-17",
+        "base": "DI",
+        "taxa_pct": 0.9
+      },
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base": "DI",
+        "taxa_pct": 0.9
+      },
+      {
+        "data_evento": "2029-07-15",
+        "data_pagamento": "2029-07-16",
+        "base": "DI",
+        "taxa_pct": 0.9
+      },
+      {
+        "data_evento": "2030-01-15",
+        "data_pagamento": "2030-01-15",
+        "base": "DI",
+        "taxa_pct": 0.9
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2029-01-15",
+        "data_pagamento": "2029-01-15",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2030-01-15",
+      "data_pagamento": "2030-01-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-01-15",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2030-01-15",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

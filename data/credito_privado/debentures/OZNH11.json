@@ -1,0 +1,1671 @@
+{
+  "codigo": "OZNH11",
+  "nome": "OZN HEALTH SPE S.A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-11-26",
+  "indexador": "CDI+",
+  "spread_contratual": 3.5,
+  "indexador_raw": "DI + 3,5%",
+  "cupom_periodo": "mensal",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.1959,
+    "taxa_venda": 1.7047,
+    "taxa_indicativa": 1.9586,
+    "desvio_padrao": 0.0614,
+    "intervalo_min": 1.8972,
+    "intervalo_max": 2.02,
+    "pu": 965.068146,
+    "pct_pu_par": 103.4927,
+    "duration_du": 580.82,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BROZNHDBS003",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 1,
+    "registro_cvm": "AUT/DEB/PRI/2024/937",
+    "data_registro_cvm": "2024-12-19",
+    "data_emissao": "2024-11-26",
+    "data_vencimento": "2031-11-26",
+    "data_novo_vcto": "2031-11-26",
+    "inicio_rentabilidade": "2024-12-20",
+    "inicio_distribuicao": "2024-12-19",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 420000,
+    "qtd_mercado": 420000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 930.001551,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 1,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-11-26",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 3.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 1,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-12-26",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "BTG PACTUAL SERV.FINANCEIROS S/A DTVM",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "18080368000172",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-11-26",
+  "primeiro_cupom": "2024-12-26",
+  "cnpj_emissor": "18080368000172",
+  "isin": "BROZNHDBS003",
+  "snd_atualizado_em": "2026-06-02T15:12:13",
+  "eventos_passados": [
+    {
+      "data": "2024-12-26",
+      "tipo": "Juros",
+      "valor": 1.7762
+    },
+    {
+      "data": "2025-01-27",
+      "tipo": "Juros",
+      "valor": 12.4998
+    },
+    {
+      "data": "2025-02-26",
+      "tipo": "Juros",
+      "valor": 13.7772
+    },
+    {
+      "data": "2025-03-26",
+      "tipo": "Juros",
+      "valor": 11.4869
+    },
+    {
+      "data": "2025-04-28",
+      "tipo": "Juros",
+      "valor": 13.9924
+    },
+    {
+      "data": "2025-05-26",
+      "tipo": "Juros",
+      "valor": 12.8621
+    },
+    {
+      "data": "2025-06-26",
+      "tipo": "Juros",
+      "valor": 15.0858
+    },
+    {
+      "data": "2025-07-28",
+      "tipo": "Juros",
+      "valor": 15.2438
+    },
+    {
+      "data": "2025-08-26",
+      "tipo": "Juros",
+      "valor": 14.5459
+    },
+    {
+      "data": "2025-09-26",
+      "tipo": "Juros",
+      "valor": 15.9422
+    },
+    {
+      "data": "2025-10-27",
+      "tipo": "Juros",
+      "valor": 14.5459
+    },
+    {
+      "data": "2025-11-26",
+      "tipo": "Amortizacao",
+      "valor": 10.0
+    },
+    {
+      "data": "2025-11-26",
+      "tipo": "Juros",
+      "valor": 14.5459
+    },
+    {
+      "data": "2025-12-26",
+      "tipo": "Amortizacao",
+      "valor": 10.0
+    },
+    {
+      "data": "2025-12-26",
+      "tipo": "Juros",
+      "valor": 14.4004
+    },
+    {
+      "data": "2026-01-26",
+      "tipo": "Amortizacao",
+      "valor": 9.9999
+    },
+    {
+      "data": "2026-01-26",
+      "tipo": "Juros",
+      "valor": 13.5715
+    },
+    {
+      "data": "2026-02-26",
+      "tipo": "Amortizacao",
+      "valor": 9.9997
+    },
+    {
+      "data": "2026-02-26",
+      "tipo": "Juros",
+      "valor": 14.1095
+    },
+    {
+      "data": "2026-03-26",
+      "tipo": "Amortizacao",
+      "valor": 9.9994
+    },
+    {
+      "data": "2026-03-26",
+      "tipo": "Juros",
+      "valor": 13.2524
+    },
+    {
+      "data": "2026-04-27",
+      "tipo": "Amortizacao",
+      "valor": 9.9997
+    },
+    {
+      "data": "2026-04-27",
+      "tipo": "Juros",
+      "valor": 12.9895
+    },
+    {
+      "data": "2026-05-26",
+      "tipo": "Amortizacao",
+      "valor": 9.9997
+    },
+    {
+      "data": "2026-05-26",
+      "tipo": "Juros",
+      "valor": 12.7126
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-06-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2026-07-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2026-08-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2026-09-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2026-10-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2026-11-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2026-12-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-01-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-02-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-03-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-04-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-05-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-06-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-07-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-08-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-09-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-10-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-11-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2027-12-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-01-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-02-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-03-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-04-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-05-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-06-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-07-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-08-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-09-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-10-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-11-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2028-12-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-01-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-02-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-03-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-04-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-05-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-06-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-07-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-08-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-09-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-10-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-11-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2029-12-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-01-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-02-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-03-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-04-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-05-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-06-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-07-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-08-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-09-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-10-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-11-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2030-12-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-01-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-02-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-03-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-04-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-05-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-06-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-07-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-08-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-09-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-10-26",
+      "valor_estimado": 14.0909
+    },
+    {
+      "data": "2031-11-26",
+      "valor_estimado": 14.0909
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:28",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-26",
+        "data_pagamento": "2026-06-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2026-07-27",
+        "data_pagamento": "2026-07-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2026-08-26",
+        "data_pagamento": "2026-08-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2026-09-28",
+        "data_pagamento": "2026-09-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2026-10-26",
+        "data_pagamento": "2026-10-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2026-11-26",
+        "data_pagamento": "2026-11-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2026-12-28",
+        "data_pagamento": "2026-12-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-01-26",
+        "data_pagamento": "2027-01-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-02-26",
+        "data_pagamento": "2027-02-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-03-29",
+        "data_pagamento": "2027-03-29",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-04-26",
+        "data_pagamento": "2027-04-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-05-26",
+        "data_pagamento": "2027-05-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-06-28",
+        "data_pagamento": "2027-06-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-07-26",
+        "data_pagamento": "2027-07-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-08-26",
+        "data_pagamento": "2027-08-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-09-27",
+        "data_pagamento": "2027-09-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-10-26",
+        "data_pagamento": "2027-10-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-11-26",
+        "data_pagamento": "2027-11-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2027-12-27",
+        "data_pagamento": "2027-12-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-01-26",
+        "data_pagamento": "2028-01-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-03-01",
+        "data_pagamento": "2028-03-01",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-03-27",
+        "data_pagamento": "2028-03-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-04-26",
+        "data_pagamento": "2028-04-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-05-26",
+        "data_pagamento": "2028-05-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-06-26",
+        "data_pagamento": "2028-06-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-07-26",
+        "data_pagamento": "2028-07-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-08-28",
+        "data_pagamento": "2028-08-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-09-26",
+        "data_pagamento": "2028-09-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-10-26",
+        "data_pagamento": "2028-10-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-11-27",
+        "data_pagamento": "2028-11-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2028-12-26",
+        "data_pagamento": "2028-12-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-01-26",
+        "data_pagamento": "2029-01-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-02-26",
+        "data_pagamento": "2029-02-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-03-26",
+        "data_pagamento": "2029-03-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-04-26",
+        "data_pagamento": "2029-04-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-05-28",
+        "data_pagamento": "2029-05-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-06-26",
+        "data_pagamento": "2029-06-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-07-26",
+        "data_pagamento": "2029-07-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-08-27",
+        "data_pagamento": "2029-08-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-09-26",
+        "data_pagamento": "2029-09-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-10-26",
+        "data_pagamento": "2029-10-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-11-26",
+        "data_pagamento": "2029-11-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2029-12-26",
+        "data_pagamento": "2029-12-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-01-28",
+        "data_pagamento": "2030-01-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-02-26",
+        "data_pagamento": "2030-02-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-03-26",
+        "data_pagamento": "2030-03-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-04-26",
+        "data_pagamento": "2030-04-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-05-27",
+        "data_pagamento": "2030-05-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-06-26",
+        "data_pagamento": "2030-06-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-07-26",
+        "data_pagamento": "2030-07-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-08-26",
+        "data_pagamento": "2030-08-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-09-26",
+        "data_pagamento": "2030-09-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-10-28",
+        "data_pagamento": "2030-10-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-11-26",
+        "data_pagamento": "2030-11-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2030-12-26",
+        "data_pagamento": "2030-12-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-01-27",
+        "data_pagamento": "2031-01-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-02-26",
+        "data_pagamento": "2031-02-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-03-26",
+        "data_pagamento": "2031-03-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-04-28",
+        "data_pagamento": "2031-04-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-05-26",
+        "data_pagamento": "2031-05-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-06-26",
+        "data_pagamento": "2031-06-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-07-28",
+        "data_pagamento": "2031-07-28",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-08-26",
+        "data_pagamento": "2031-08-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-09-26",
+        "data_pagamento": "2031-09-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-10-27",
+        "data_pagamento": "2031-10-27",
+        "base": "DI",
+        "taxa_pct": 3.5
+      },
+      {
+        "data_evento": "2031-11-26",
+        "data_pagamento": "2031-11-26",
+        "base": "DI",
+        "taxa_pct": 3.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-06-26",
+        "data_pagamento": "2026-06-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.0752
+      },
+      {
+        "data_evento": "2026-07-27",
+        "data_pagamento": "2026-07-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.0869
+      },
+      {
+        "data_evento": "2026-08-26",
+        "data_pagamento": "2026-08-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.0989
+      },
+      {
+        "data_evento": "2026-09-28",
+        "data_pagamento": "2026-09-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.1111
+      },
+      {
+        "data_evento": "2026-10-26",
+        "data_pagamento": "2026-10-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.1235
+      },
+      {
+        "data_evento": "2026-11-26",
+        "data_pagamento": "2026-11-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.1363
+      },
+      {
+        "data_evento": "2026-12-28",
+        "data_pagamento": "2026-12-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.1494
+      },
+      {
+        "data_evento": "2027-01-26",
+        "data_pagamento": "2027-01-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.2596
+      },
+      {
+        "data_evento": "2027-02-26",
+        "data_pagamento": "2027-02-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.2757
+      },
+      {
+        "data_evento": "2027-03-29",
+        "data_pagamento": "2027-03-29",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.2922
+      },
+      {
+        "data_evento": "2027-04-26",
+        "data_pagamento": "2027-04-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.3091
+      },
+      {
+        "data_evento": "2027-05-26",
+        "data_pagamento": "2027-05-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.3265
+      },
+      {
+        "data_evento": "2027-06-28",
+        "data_pagamento": "2027-06-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.3443
+      },
+      {
+        "data_evento": "2027-07-26",
+        "data_pagamento": "2027-07-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.3626
+      },
+      {
+        "data_evento": "2027-08-26",
+        "data_pagamento": "2027-08-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.3815
+      },
+      {
+        "data_evento": "2027-09-27",
+        "data_pagamento": "2027-09-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.4008
+      },
+      {
+        "data_evento": "2027-10-26",
+        "data_pagamento": "2027-10-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.4207
+      },
+      {
+        "data_evento": "2027-11-26",
+        "data_pagamento": "2027-11-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.4412
+      },
+      {
+        "data_evento": "2027-12-27",
+        "data_pagamento": "2027-12-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.4623
+      },
+      {
+        "data_evento": "2028-01-26",
+        "data_pagamento": "2028-01-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.7123
+      },
+      {
+        "data_evento": "2028-03-01",
+        "data_pagamento": "2028-03-01",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.7421
+      },
+      {
+        "data_evento": "2028-03-27",
+        "data_pagamento": "2028-03-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.773
+      },
+      {
+        "data_evento": "2028-04-26",
+        "data_pagamento": "2028-04-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.805
+      },
+      {
+        "data_evento": "2028-05-26",
+        "data_pagamento": "2028-05-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.8382
+      },
+      {
+        "data_evento": "2028-06-26",
+        "data_pagamento": "2028-06-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.8726
+      },
+      {
+        "data_evento": "2028-07-26",
+        "data_pagamento": "2028-07-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.9083
+      },
+      {
+        "data_evento": "2028-08-28",
+        "data_pagamento": "2028-08-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.9455
+      },
+      {
+        "data_evento": "2028-09-26",
+        "data_pagamento": "2028-09-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 1.9841
+      },
+      {
+        "data_evento": "2028-10-26",
+        "data_pagamento": "2028-10-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 2.0242
+      },
+      {
+        "data_evento": "2028-11-27",
+        "data_pagamento": "2028-11-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 2.0661
+      },
+      {
+        "data_evento": "2028-12-26",
+        "data_pagamento": "2028-12-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 2.1097
+      },
+      {
+        "data_evento": "2029-01-26",
+        "data_pagamento": "2029-01-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 2.8735
+      },
+      {
+        "data_evento": "2029-02-26",
+        "data_pagamento": "2029-02-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 2.9585
+      },
+      {
+        "data_evento": "2029-03-26",
+        "data_pagamento": "2029-03-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.0487
+      },
+      {
+        "data_evento": "2029-04-26",
+        "data_pagamento": "2029-04-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.1446
+      },
+      {
+        "data_evento": "2029-05-28",
+        "data_pagamento": "2029-05-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.2467
+      },
+      {
+        "data_evento": "2029-06-26",
+        "data_pagamento": "2029-06-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.3557
+      },
+      {
+        "data_evento": "2029-07-26",
+        "data_pagamento": "2029-07-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.4722
+      },
+      {
+        "data_evento": "2029-08-27",
+        "data_pagamento": "2029-08-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.5971
+      },
+      {
+        "data_evento": "2029-09-26",
+        "data_pagamento": "2029-09-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.7313
+      },
+      {
+        "data_evento": "2029-10-26",
+        "data_pagamento": "2029-10-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.8759
+      },
+      {
+        "data_evento": "2029-11-26",
+        "data_pagamento": "2029-11-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 4.0322
+      },
+      {
+        "data_evento": "2029-12-26",
+        "data_pagamento": "2029-12-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 4.2016
+      },
+      {
+        "data_evento": "2030-01-28",
+        "data_pagamento": "2030-01-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 4.6052
+      },
+      {
+        "data_evento": "2030-02-26",
+        "data_pagamento": "2030-02-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 4.8275
+      },
+      {
+        "data_evento": "2030-03-26",
+        "data_pagamento": "2030-03-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 5.0724
+      },
+      {
+        "data_evento": "2030-04-26",
+        "data_pagamento": "2030-04-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 5.3435
+      },
+      {
+        "data_evento": "2030-05-27",
+        "data_pagamento": "2030-05-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 5.6451
+      },
+      {
+        "data_evento": "2030-06-26",
+        "data_pagamento": "2030-06-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 5.9829
+      },
+      {
+        "data_evento": "2030-07-26",
+        "data_pagamento": "2030-07-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 6.3636
+      },
+      {
+        "data_evento": "2030-08-26",
+        "data_pagamento": "2030-08-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 6.7961
+      },
+      {
+        "data_evento": "2030-09-26",
+        "data_pagamento": "2030-09-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 7.2916
+      },
+      {
+        "data_evento": "2030-10-28",
+        "data_pagamento": "2030-10-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 7.8651
+      },
+      {
+        "data_evento": "2030-11-26",
+        "data_pagamento": "2030-11-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 8.5365
+      },
+      {
+        "data_evento": "2030-12-26",
+        "data_pagamento": "2030-12-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 9.3333
+      },
+      {
+        "data_evento": "2031-01-27",
+        "data_pagamento": "2031-01-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 9.0909
+      },
+      {
+        "data_evento": "2031-02-26",
+        "data_pagamento": "2031-02-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 10.0
+      },
+      {
+        "data_evento": "2031-03-26",
+        "data_pagamento": "2031-03-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 11.1111
+      },
+      {
+        "data_evento": "2031-04-28",
+        "data_pagamento": "2031-04-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 12.5
+      },
+      {
+        "data_evento": "2031-05-26",
+        "data_pagamento": "2031-05-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 14.2857
+      },
+      {
+        "data_evento": "2031-06-26",
+        "data_pagamento": "2031-06-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 16.6666
+      },
+      {
+        "data_evento": "2031-07-28",
+        "data_pagamento": "2031-07-28",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 20.0
+      },
+      {
+        "data_evento": "2031-08-26",
+        "data_pagamento": "2031-08-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2031-09-26",
+        "data_pagamento": "2031-09-26",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2031-10-27",
+        "data_pagamento": "2031-10-27",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-11-26",
+      "data_pagamento": "2031-11-26"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-06-26",
+      "valor_estimado": 9.9994,
+      "percentual": 1.0752,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-07-27",
+      "valor_estimado": 9.9995,
+      "percentual": 1.0869,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-08-26",
+      "valor_estimado": 10.0,
+      "percentual": 1.0989,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-09-28",
+      "valor_estimado": 9.9999,
+      "percentual": 1.1111,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-10-26",
+      "valor_estimado": 9.9992,
+      "percentual": 1.1235,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-11-26",
+      "valor_estimado": 9.9995,
+      "percentual": 1.1363,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-12-28",
+      "valor_estimado": 9.9998,
+      "percentual": 1.1494,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-01-26",
+      "valor_estimado": 10.8326,
+      "percentual": 1.2596,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-02-26",
+      "valor_estimado": 10.8329,
+      "percentual": 1.2757,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-03-29",
+      "valor_estimado": 10.833,
+      "percentual": 1.2922,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-04-26",
+      "valor_estimado": 10.8329,
+      "percentual": 1.3091,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-05-26",
+      "valor_estimado": 10.8332,
+      "percentual": 1.3265,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-06-28",
+      "valor_estimado": 10.8329,
+      "percentual": 1.3443,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-07-26",
+      "valor_estimado": 10.8328,
+      "percentual": 1.3626,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-08-26",
+      "valor_estimado": 10.8334,
+      "percentual": 1.3815,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-09-27",
+      "valor_estimado": 10.833,
+      "percentual": 1.4008,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-10-26",
+      "valor_estimado": 10.8329,
+      "percentual": 1.4207,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-11-26",
+      "valor_estimado": 10.8331,
+      "percentual": 1.4412,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-12-27",
+      "valor_estimado": 10.8333,
+      "percentual": 1.4623,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-01-26",
+      "valor_estimado": 12.4999,
+      "percentual": 1.7123,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-03-01",
+      "valor_estimado": 12.4997,
+      "percentual": 1.7421,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-03-27",
+      "valor_estimado": 12.4998,
+      "percentual": 1.773,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-04-26",
+      "valor_estimado": 12.4998,
+      "percentual": 1.805,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-05-26",
+      "valor_estimado": 12.4999,
+      "percentual": 1.8382,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-06-26",
+      "valor_estimado": 12.4998,
+      "percentual": 1.8726,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-07-26",
+      "valor_estimado": 12.4995,
+      "percentual": 1.9083,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-08-28",
+      "valor_estimado": 12.5,
+      "percentual": 1.9455,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-09-26",
+      "valor_estimado": 12.5,
+      "percentual": 1.9841,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-10-26",
+      "valor_estimado": 12.4996,
+      "percentual": 2.0242,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-11-27",
+      "valor_estimado": 12.5001,
+      "percentual": 2.0661,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-12-26",
+      "valor_estimado": 12.5002,
+      "percentual": 2.1097,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-01-26",
+      "valor_estimado": 16.6666,
+      "percentual": 2.8735,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-02-26",
+      "valor_estimado": 16.6665,
+      "percentual": 2.9585,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-03-26",
+      "valor_estimado": 16.6665,
+      "percentual": 3.0487,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-04-26",
+      "valor_estimado": 16.6667,
+      "percentual": 3.1446,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-05-28",
+      "valor_estimado": 16.6667,
+      "percentual": 3.2467,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-06-26",
+      "valor_estimado": 16.667,
+      "percentual": 3.3557,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-07-26",
+      "valor_estimado": 16.6669,
+      "percentual": 3.4722,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-08-27",
+      "valor_estimado": 16.6669,
+      "percentual": 3.5971,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-09-26",
+      "valor_estimado": 16.6668,
+      "percentual": 3.7313,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-10-26",
+      "valor_estimado": 16.6667,
+      "percentual": 3.8759,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-11-26",
+      "valor_estimado": 16.6668,
+      "percentual": 4.0322,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-12-26",
+      "valor_estimado": 16.6667,
+      "percentual": 4.2016,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-01-28",
+      "valor_estimado": 17.5002,
+      "percentual": 4.6052,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-02-26",
+      "valor_estimado": 17.5001,
+      "percentual": 4.8275,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-03-26",
+      "valor_estimado": 17.5002,
+      "percentual": 5.0724,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-04-26",
+      "valor_estimado": 17.5004,
+      "percentual": 5.3435,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-05-27",
+      "valor_estimado": 17.5003,
+      "percentual": 5.6451,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-06-26",
+      "valor_estimado": 17.5004,
+      "percentual": 5.9829,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-07-26",
+      "valor_estimado": 17.5004,
+      "percentual": 6.3636,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-08-26",
+      "valor_estimado": 17.5004,
+      "percentual": 6.7961,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-09-26",
+      "valor_estimado": 17.5003,
+      "percentual": 7.2916,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-10-28",
+      "valor_estimado": 17.5003,
+      "percentual": 7.8651,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-11-26",
+      "valor_estimado": 17.5003,
+      "percentual": 8.5365,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-12-26",
+      "valor_estimado": 17.5005,
+      "percentual": 9.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-01-27",
+      "valor_estimado": 15.455,
+      "percentual": 9.0909,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-02-26",
+      "valor_estimado": 15.455,
+      "percentual": 10.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-03-26",
+      "valor_estimado": 15.455,
+      "percentual": 11.1111,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-04-28",
+      "valor_estimado": 15.455,
+      "percentual": 12.5,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-05-26",
+      "valor_estimado": 15.455,
+      "percentual": 14.2857,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-06-26",
+      "valor_estimado": 15.455,
+      "percentual": 16.6666,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-07-28",
+      "valor_estimado": 15.455,
+      "percentual": 20.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-08-26",
+      "valor_estimado": 15.455,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-09-26",
+      "valor_estimado": 15.455,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-10-27",
+      "valor_estimado": 15.455,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-11-26",
+      "valor_estimado": 15.455,
+      "percentual": 1.6618,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

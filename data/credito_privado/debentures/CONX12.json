@@ -1,0 +1,235 @@
+{
+  "codigo": "CONX12",
+  "nome": "TRIPLE PLAY BRASIL PARTICIPACOES S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-08-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 7.684,
+  "indexador_raw": "IPCA + 7,684%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 12.09,
+    "taxa_venda": 11.4361,
+    "taxa_indicativa": 11.824,
+    "desvio_padrao": 0.1682,
+    "intervalo_min": 11.6558,
+    "intervalo_max": 11.9923,
+    "pu": 1146.497426,
+    "pct_pu_par": 94.3774,
+    "duration_du": 380.96,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2028"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCONXDBS009",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 2,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-08-26",
+    "data_emissao": "2022-08-15",
+    "data_vencimento": "2029-08-15",
+    "data_novo_vcto": "2029-08-15",
+    "inicio_rentabilidade": "2022-08-30",
+    "inicio_distribuicao": "2022-08-10",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 550000,
+    "qtd_mercado": 550000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1191.57982,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2026-08-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 7.684,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-02-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "23438929000100",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-08-15",
+  "primeiro_cupom": "2023-02-15",
+  "cnpj_emissor": "23438929000100",
+  "isin": "BRCONXDBS009",
+  "snd_atualizado_em": "2026-06-02T15:11:26",
+  "eventos_passados": [
+    {
+      "data": "2023-02-15",
+      "tipo": "Juros",
+      "valor": 35.559
+    },
+    {
+      "data": "2023-08-15",
+      "tipo": "Juros",
+      "valor": 38.3329
+    },
+    {
+      "data": "2024-02-15",
+      "tipo": "Juros",
+      "valor": 39.4257
+    },
+    {
+      "data": "2024-08-15",
+      "tipo": "Juros",
+      "valor": 41.3844
+    },
+    {
+      "data": "2025-02-17",
+      "tipo": "Juros",
+      "valor": 42.5784
+    },
+    {
+      "data": "2025-08-15",
+      "tipo": "Juros",
+      "valor": 42.1504
+    },
+    {
+      "data": "2026-02-18",
+      "tipo": "Juros",
+      "valor": 44.4694
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-08-15",
+      "valor_estimado": 297.895
+    },
+    {
+      "data": "2027-08-15",
+      "valor_estimado": 297.895
+    },
+    {
+      "data": "2028-08-15",
+      "valor_estimado": 297.895
+    },
+    {
+      "data": "2029-08-15",
+      "valor_estimado": 297.895
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:41",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-15",
+        "data_pagamento": "2026-08-17",
+        "base": "IPCA",
+        "taxa_pct": 7.684
+      },
+      {
+        "data_evento": "2027-02-15",
+        "data_pagamento": "2027-02-15",
+        "base": "IPCA",
+        "taxa_pct": 7.684
+      },
+      {
+        "data_evento": "2027-08-15",
+        "data_pagamento": "2027-08-16",
+        "base": "IPCA",
+        "taxa_pct": 7.684
+      },
+      {
+        "data_evento": "2028-02-15",
+        "data_pagamento": "2028-02-15",
+        "base": "IPCA",
+        "taxa_pct": 7.684
+      },
+      {
+        "data_evento": "2028-08-15",
+        "data_pagamento": "2028-08-15",
+        "base": "IPCA",
+        "taxa_pct": 7.684
+      },
+      {
+        "data_evento": "2029-02-15",
+        "data_pagamento": "2029-02-15",
+        "base": "IPCA",
+        "taxa_pct": 7.684
+      },
+      {
+        "data_evento": "2029-08-15",
+        "data_pagamento": "2029-08-15",
+        "base": "IPCA",
+        "taxa_pct": 7.684
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-08-15",
+        "data_pagamento": "2026-08-17",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2027-08-15",
+        "data_pagamento": "2027-08-16",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2028-08-15",
+        "data_pagamento": "2028-08-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-08-15",
+      "data_pagamento": "2029-08-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-08-17",
+      "valor_estimado": 300.0884,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-08-16",
+      "valor_estimado": 313.5921,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-08-15",
+      "valor_estimado": 327.7042,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-08-15",
+      "valor_estimado": 342.4509,
+      "percentual": 25.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

@@ -1,0 +1,166 @@
+{
+  "codigo": "DASAA6",
+  "nome": "DIAGNÓSTICOS DA AMÉRICA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-04-20",
+  "indexador": "CDI+",
+  "spread_contratual": 1.6,
+  "indexador_raw": "DI + 1,6%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.3636,
+    "taxa_venda": 1.6186,
+    "taxa_indicativa": 1.8969,
+    "desvio_padrao": 0.5171,
+    "intervalo_min": 1.3797,
+    "intervalo_max": 2.4141,
+    "pu": 507.20933,
+    "pct_pu_par": 99.7546,
+    "duration_du": 212.14,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRDASADBS0N7",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 16,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-04-26",
+    "data_emissao": "2022-04-20",
+    "data_vencimento": "2027-04-20",
+    "data_novo_vcto": "2027-04-20",
+    "inicio_rentabilidade": "2022-04-27",
+    "inicio_distribuicao": "2022-04-22",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 2000000,
+    "qtd_mercado": 1359510,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 500.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2026-04-20",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.6,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-10-20",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "61486650000183",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-04-20",
+  "primeiro_cupom": "2022-10-20",
+  "cnpj_emissor": "61486650000183",
+  "isin": "BRDASADBS0N7",
+  "snd_atualizado_em": "2026-06-02T15:11:33",
+  "eventos_passados": [
+    {
+      "data": "2022-10-20",
+      "tipo": "Juros",
+      "valor": 70.5057
+    },
+    {
+      "data": "2023-04-20",
+      "tipo": "Juros",
+      "valor": 73.9491
+    },
+    {
+      "data": "2023-10-20",
+      "tipo": "Juros",
+      "valor": 73.1699
+    },
+    {
+      "data": "2024-04-22",
+      "tipo": "Juros",
+      "valor": 63.4441
+    },
+    {
+      "data": "2024-10-21",
+      "tipo": "Juros",
+      "valor": 60.376
+    },
+    {
+      "data": "2025-04-22",
+      "tipo": "Juros",
+      "valor": 66.9876
+    },
+    {
+      "data": "2025-10-20",
+      "tipo": "Juros",
+      "valor": 80.5299
+    },
+    {
+      "data": "2026-04-20",
+      "tipo": "Amortizacao",
+      "valor": 500.0
+    },
+    {
+      "data": "2026-04-20",
+      "tipo": "Juros",
+      "valor": 78.9332
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-04-20",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:50",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-20",
+        "data_pagamento": "2026-10-20",
+        "base": "DI",
+        "taxa_pct": 1.6
+      },
+      {
+        "data_evento": "2027-04-20",
+        "data_pagamento": "2027-04-20",
+        "base": "DI",
+        "taxa_pct": 1.6
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2027-04-20",
+      "data_pagamento": "2027-04-20"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-04-20",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

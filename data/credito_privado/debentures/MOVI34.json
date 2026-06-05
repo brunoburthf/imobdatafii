@@ -1,0 +1,214 @@
+{
+  "codigo": "MOVI34",
+  "nome": "MOVIDA PARTICIPACOES S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-07-27",
+  "indexador": "CDI+",
+  "spread_contratual": 2.05,
+  "indexador_raw": "DI + 2,05%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.5587,
+    "taxa_venda": 0.999,
+    "taxa_indicativa": 1.6936,
+    "desvio_padrao": 0.408,
+    "intervalo_min": 1.2857,
+    "intervalo_max": 2.1017,
+    "pu": 704.04276,
+    "pct_pu_par": 100.2094,
+    "duration_du": 150.81,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMOVIDBS0B2",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 4,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2019-06-26",
+    "data_emissao": "2019-06-27",
+    "data_vencimento": "2027-07-27",
+    "data_novo_vcto": "2027-07-27",
+    "inicio_rentabilidade": "2019-06-27",
+    "inicio_distribuicao": "2019-06-27",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 283550,
+    "qtd_mercado": 283550,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 666.667,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 333333.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-07-27",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal de emissão em períodos uniformes",
+    "juros_taxa": 2.05,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2020-01-27",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "21314559000166",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-06-27",
+  "primeiro_cupom": "2020-01-27",
+  "cnpj_emissor": "21314559000166",
+  "isin": "BRMOVIDBS0B2",
+  "snd_atualizado_em": "2026-06-02T15:12:06",
+  "eventos_passados": [
+    {
+      "data": "2020-01-27",
+      "tipo": "Juros",
+      "valor": 43.9452
+    },
+    {
+      "data": "2020-07-27",
+      "tipo": "Juros",
+      "valor": 26.3325
+    },
+    {
+      "data": "2021-01-27",
+      "tipo": "Juros",
+      "valor": 19.9871
+    },
+    {
+      "data": "2021-07-27",
+      "tipo": "Juros",
+      "valor": 24.6133
+    },
+    {
+      "data": "2022-01-27",
+      "tipo": "Juros",
+      "valor": 45.2407
+    },
+    {
+      "data": "2022-07-27",
+      "tipo": "Juros",
+      "valor": 67.4849
+    },
+    {
+      "data": "2023-01-27",
+      "tipo": "Juros",
+      "valor": 78.0939
+    },
+    {
+      "data": "2023-07-27",
+      "tipo": "Juros",
+      "valor": 75.0403
+    },
+    {
+      "data": "2024-01-29",
+      "tipo": "Juros",
+      "valor": 71.3514
+    },
+    {
+      "data": "2024-07-29",
+      "tipo": "Juros",
+      "valor": 62.3254
+    },
+    {
+      "data": "2025-01-27",
+      "tipo": "Juros",
+      "valor": 64.4102
+    },
+    {
+      "data": "2025-07-28",
+      "tipo": "Amortizacao",
+      "valor": 333.333
+    },
+    {
+      "data": "2025-07-28",
+      "tipo": "Juros",
+      "valor": 77.8191
+    },
+    {
+      "data": "2026-01-27",
+      "tipo": "Juros",
+      "valor": 56.1429
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-07-28",
+      "valor_estimado": 333.3335
+    },
+    {
+      "data": "2027-07-27",
+      "valor_estimado": 333.3335
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:21",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-27",
+        "data_pagamento": "2026-07-27",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2027-01-27",
+        "data_pagamento": "2027-01-27",
+        "base": "DI",
+        "taxa_pct": 2.05
+      },
+      {
+        "data_evento": "2027-07-27",
+        "data_pagamento": "2027-07-27",
+        "base": "DI",
+        "taxa_pct": 2.05
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-07-27",
+        "data_pagamento": "2026-07-27",
+        "base_calc": "VNE FIX/UNIF",
+        "percentual": 33.3333
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2027-07-27",
+      "data_pagamento": "2027-07-27"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-07-27",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNE FIX/UNIF"
+    },
+    {
+      "data": "2027-07-27",
+      "valor_estimado": 333.334,
+      "percentual": 33.3334,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

@@ -1,0 +1,203 @@
+{
+  "codigo": "ONCO29",
+  "nome": "ONCOCLINICAS DO BRASIL SERVICOS MEDICOS S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-11-25",
+  "indexador": "CDI+",
+  "spread_contratual": 1.8,
+  "indexador_raw": "DI + 1,8%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": null,
+    "desvio_padrao": null,
+    "intervalo_min": null,
+    "intervalo_max": null,
+    "pu": 683.097186,
+    "pct_pu_par": 64.4,
+    "duration_du": null,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRONCODBS040",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 9,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-12-05",
+    "data_emissao": "2022-11-25",
+    "data_vencimento": "2029-11-25",
+    "data_novo_vcto": "2029-11-25",
+    "inicio_rentabilidade": "2022-12-06",
+    "inicio_distribuicao": "2022-10-31",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 120000,
+    "qtd_mercado": 53641,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-11-25",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.8,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-05-25",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "12104241000402",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-11-25",
+  "primeiro_cupom": "2023-05-25",
+  "cnpj_emissor": "12104241000402",
+  "isin": "BRONCODBS040",
+  "snd_atualizado_em": "2026-06-02T15:12:11",
+  "eventos_passados": [
+    {
+      "data": "2023-05-25",
+      "tipo": "Juros",
+      "valor": 70.0332
+    },
+    {
+      "data": "2023-11-27",
+      "tipo": "Juros",
+      "valor": 73.6586
+    },
+    {
+      "data": "2024-05-27",
+      "tipo": "Juros",
+      "valor": 62.8262
+    },
+    {
+      "data": "2024-11-25",
+      "tipo": "Juros",
+      "valor": 61.2385
+    },
+    {
+      "data": "2025-05-26",
+      "tipo": "Juros",
+      "valor": 71.0834
+    },
+    {
+      "data": "2025-11-25",
+      "tipo": "Juros",
+      "valor": 83.3695
+    },
+    {
+      "data": "2026-06-01",
+      "tipo": "Juros",
+      "valor": 81.5362
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-11-25",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-11-25",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:26",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-25",
+        "data_pagamento": "2026-11-25",
+        "base": "DI",
+        "taxa_pct": 1.8
+      },
+      {
+        "data_evento": "2027-05-25",
+        "data_pagamento": "2027-05-25",
+        "base": "DI",
+        "taxa_pct": 1.8
+      },
+      {
+        "data_evento": "2027-11-25",
+        "data_pagamento": "2027-11-25",
+        "base": "DI",
+        "taxa_pct": 1.8
+      },
+      {
+        "data_evento": "2028-05-25",
+        "data_pagamento": "2028-05-25",
+        "base": "DI",
+        "taxa_pct": 1.8
+      },
+      {
+        "data_evento": "2028-11-25",
+        "data_pagamento": "2028-11-27",
+        "base": "DI",
+        "taxa_pct": 1.8
+      },
+      {
+        "data_evento": "2029-05-25",
+        "data_pagamento": "2029-05-25",
+        "base": "DI",
+        "taxa_pct": 1.8
+      },
+      {
+        "data_evento": "2029-11-25",
+        "data_pagamento": "2029-11-26",
+        "base": "DI",
+        "taxa_pct": 1.8
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-11-25",
+        "data_pagamento": "2028-11-27",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-11-25",
+      "data_pagamento": "2029-11-26"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-11-27",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-11-26",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

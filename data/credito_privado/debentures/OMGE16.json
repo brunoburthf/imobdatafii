@@ -1,0 +1,162 @@
+{
+  "codigo": "OMGE16",
+  "nome": "OMEGA GERAÇÃO S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-03-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.15,
+  "indexador_raw": "DI + 1,15%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.3233,
+    "taxa_venda": 1.0742,
+    "taxa_indicativa": 1.1957,
+    "desvio_padrao": 0.0618,
+    "intervalo_min": 1.1339,
+    "intervalo_max": 1.2575,
+    "pu": 1029.520604,
+    "pct_pu_par": 99.868,
+    "duration_du": 736.91,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BROMGEDBS085",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 6,
+    "registro_cvm": "AUT/DEB/PRI/2025/246",
+    "data_registro_cvm": "2025-03-18",
+    "data_emissao": "2025-02-15",
+    "data_vencimento": "2030-03-15",
+    "data_novo_vcto": "2030-03-15",
+    "inicio_rentabilidade": "2025-03-19",
+    "inicio_distribuicao": "2025-03-18",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 215000,
+    "qtd_mercado": 215000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.15,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-09-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "09149503000106",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-02-15",
+  "primeiro_cupom": "2025-09-15",
+  "cnpj_emissor": "09149503000106",
+  "isin": "BROMGEDBS085",
+  "snd_atualizado_em": "2026-06-02T15:12:11",
+  "eventos_passados": [
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 75.535
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 77.4171
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:26",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2030-03-15",
+      "data_pagamento": "2030-03-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

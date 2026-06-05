@@ -1,0 +1,206 @@
+{
+  "codigo": "RADL19",
+  "nome": "RAIA DROGASIL S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-04-22",
+  "indexador": "CDI+",
+  "spread_contratual": 0.65,
+  "indexador_raw": "DI + 0,65%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.8067,
+    "taxa_venda": 0.4318,
+    "taxa_indicativa": 0.5872,
+    "desvio_padrao": 0.0732,
+    "intervalo_min": 0.514,
+    "intervalo_max": 0.6606,
+    "pu": 1017.388322,
+    "pct_pu_par": 100.2081,
+    "duration_du": 839.42,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRADLDBS0C8",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 9,
+    "registro_cvm": "AUT/DEB/PRI/2024/208",
+    "data_registro_cvm": "2024-05-02",
+    "data_emissao": "2024-04-22",
+    "data_vencimento": "2031-04-22",
+    "data_novo_vcto": "2031-04-22",
+    "inicio_rentabilidade": "2024-05-03",
+    "inicio_distribuicao": "2024-05-02",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 600000,
+    "qtd_mercado": 600000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2030-04-22",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.65,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-10-22",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "61585865000151",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-04-22",
+  "primeiro_cupom": "2024-10-22",
+  "cnpj_emissor": "61585865000151",
+  "isin": "BRRADLDBS0C8",
+  "snd_atualizado_em": "2026-06-02T15:12:19",
+  "eventos_passados": [
+    {
+      "data": "2024-10-22",
+      "tipo": "Juros",
+      "valor": 52.1763
+    },
+    {
+      "data": "2025-04-22",
+      "tipo": "Juros",
+      "valor": 61.6525
+    },
+    {
+      "data": "2025-10-22",
+      "tipo": "Juros",
+      "valor": 76.6677
+    },
+    {
+      "data": "2026-04-22",
+      "tipo": "Juros",
+      "valor": 73.3285
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2030-04-22",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2031-04-22",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:35",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-22",
+        "data_pagamento": "2026-10-22",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2027-04-22",
+        "data_pagamento": "2027-04-22",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2027-10-22",
+        "data_pagamento": "2027-10-22",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2028-04-22",
+        "data_pagamento": "2028-04-24",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2028-10-22",
+        "data_pagamento": "2028-10-23",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2029-04-22",
+        "data_pagamento": "2029-04-23",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2029-10-22",
+        "data_pagamento": "2029-10-22",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2030-04-22",
+        "data_pagamento": "2030-04-22",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2030-10-22",
+        "data_pagamento": "2030-10-22",
+        "base": "DI",
+        "taxa_pct": 0.65
+      },
+      {
+        "data_evento": "2031-04-22",
+        "data_pagamento": "2031-04-22",
+        "base": "DI",
+        "taxa_pct": 0.65
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2030-04-22",
+        "data_pagamento": "2030-04-22",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-04-22",
+      "data_pagamento": "2031-04-22"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-04-22",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2031-04-22",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

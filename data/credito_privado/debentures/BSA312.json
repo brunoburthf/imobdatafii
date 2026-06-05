@@ -1,0 +1,398 @@
+{
+  "codigo": "BSA312",
+  "nome": "B3 S/A - BRASIL, BOLSA, BALCÃO",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-11-05",
+  "indexador": "CDI+",
+  "spread_contratual": 0.58,
+  "indexador_raw": "DI + 0,58%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.6139,
+    "taxa_venda": 0.3,
+    "taxa_indicativa": 0.4668,
+    "desvio_padrao": 0.0949,
+    "intervalo_min": 0.3719,
+    "intervalo_max": 0.5618,
+    "pu": 10143.763443,
+    "pct_pu_par": 100.3143,
+    "duration_du": 702.33,
+    "pct_reune": 5.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRB3SADBS024",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 2,
+    "registro_cvm": "ICVM 476/09",
+    "data_registro_cvm": "2019-05-07",
+    "data_emissao": "2019-05-03",
+    "data_vencimento": "2049-05-03",
+    "data_novo_vcto": "2049-05-03",
+    "inicio_rentabilidade": "2019-05-08",
+    "inicio_distribuicao": "2019-05-08",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 120000,
+    "qtd_mercado": 120000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 10000.0,
+    "vna_atual": 10000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 0.58,
+    "juros_prazo_base": null,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-05-05",
+    "juros_criterio": null,
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "VX PAVARINI DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "09346601000125",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-05-03",
+  "primeiro_cupom": "2025-05-05",
+  "cnpj_emissor": "09346601000125",
+  "isin": "BRB3SADBS024",
+  "snd_atualizado_em": "2026-06-02T15:11:13",
+  "eventos_passados": [
+    {
+      "data": "2019-11-04",
+      "tipo": "Juros",
+      "valor": 306.5557
+    },
+    {
+      "data": "2020-05-04",
+      "tipo": "Juros",
+      "valor": 210.48
+    },
+    {
+      "data": "2020-11-03",
+      "tipo": "Juros",
+      "valor": 115.3068
+    },
+    {
+      "data": "2021-05-03",
+      "tipo": "Juros",
+      "valor": 103.9476
+    },
+    {
+      "data": "2021-11-03",
+      "tipo": "Juros",
+      "valor": 240.7714
+    },
+    {
+      "data": "2022-05-03",
+      "tipo": "Juros",
+      "valor": 484.3553
+    },
+    {
+      "data": "2022-11-03",
+      "tipo": "Juros",
+      "valor": 709.1082
+    },
+    {
+      "data": "2023-05-03",
+      "tipo": "Juros",
+      "valor": 698.8554
+    },
+    {
+      "data": "2023-11-03",
+      "tipo": "Juros",
+      "valor": 710.9931
+    },
+    {
+      "data": "2024-05-03",
+      "tipo": "Juros",
+      "valor": 594.5966
+    },
+    {
+      "data": "2024-11-04",
+      "tipo": "Juros",
+      "valor": 583.9389
+    },
+    {
+      "data": "2025-05-05",
+      "tipo": "Juros",
+      "valor": 642.7346
+    },
+    {
+      "data": "2025-11-03",
+      "tipo": "Juros",
+      "valor": 765.0809
+    },
+    {
+      "data": "2026-05-04",
+      "tipo": "Juros",
+      "valor": 722.7412
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:25",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-03",
+        "data_pagamento": "2026-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2027-05-03",
+        "data_pagamento": "2027-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2027-11-03",
+        "data_pagamento": "2027-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2028-05-03",
+        "data_pagamento": "2028-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2028-11-03",
+        "data_pagamento": "2028-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2029-05-03",
+        "data_pagamento": "2029-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2029-11-03",
+        "data_pagamento": "2029-11-05",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2030-05-03",
+        "data_pagamento": "2030-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2030-11-03",
+        "data_pagamento": "2030-11-04",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2031-05-03",
+        "data_pagamento": "2031-05-05",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2031-11-03",
+        "data_pagamento": "2031-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2032-05-03",
+        "data_pagamento": "2032-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2032-11-03",
+        "data_pagamento": "2032-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2033-05-03",
+        "data_pagamento": "2033-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2033-11-03",
+        "data_pagamento": "2033-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2034-05-03",
+        "data_pagamento": "2034-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2034-11-03",
+        "data_pagamento": "2034-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2035-05-03",
+        "data_pagamento": "2035-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2035-11-03",
+        "data_pagamento": "2035-11-05",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2036-05-03",
+        "data_pagamento": "2036-05-05",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2036-11-03",
+        "data_pagamento": "2036-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2037-05-03",
+        "data_pagamento": "2037-05-04",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2037-11-03",
+        "data_pagamento": "2037-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2038-05-03",
+        "data_pagamento": "2038-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2038-11-03",
+        "data_pagamento": "2038-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2039-05-03",
+        "data_pagamento": "2039-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2039-11-03",
+        "data_pagamento": "2039-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2040-05-03",
+        "data_pagamento": "2040-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2040-11-03",
+        "data_pagamento": "2040-11-05",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2041-05-03",
+        "data_pagamento": "2041-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2041-11-03",
+        "data_pagamento": "2041-11-04",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2042-05-03",
+        "data_pagamento": "2042-05-05",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2042-11-03",
+        "data_pagamento": "2042-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2043-05-03",
+        "data_pagamento": "2043-05-04",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2043-11-03",
+        "data_pagamento": "2043-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2044-05-03",
+        "data_pagamento": "2044-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2044-11-03",
+        "data_pagamento": "2044-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2045-05-03",
+        "data_pagamento": "2045-05-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      },
+      {
+        "data_evento": "2045-11-03",
+        "data_pagamento": "2045-11-03",
+        "base": "DI",
+        "taxa_pct": 0.58
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": null
+  },
+  "cronograma_amort_futuro": [],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

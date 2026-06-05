@@ -1,0 +1,165 @@
+{
+  "codigo": "MGLUA0",
+  "nome": "MAGAZINE LUIZA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2026-10-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.25,
+  "indexador_raw": "DI + 1,25%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.1065,
+    "taxa_venda": 1.456,
+    "taxa_indicativa": 1.8277,
+    "desvio_padrao": 0.6017,
+    "intervalo_min": 1.226,
+    "intervalo_max": 2.4295,
+    "pu": 508.074233,
+    "pct_pu_par": 99.7857,
+    "duration_du": 95.0,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMGLUDBS0A0",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 10,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-10-14",
+    "data_emissao": "2021-09-14",
+    "data_vencimento": "2026-10-15",
+    "data_novo_vcto": "2026-10-15",
+    "inicio_rentabilidade": "2021-10-15",
+    "inicio_distribuicao": "2021-10-15",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 2000000,
+    "qtd_mercado": 1723094,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 500.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-10-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.25,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "47960950000121",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-09-14",
+  "primeiro_cupom": "2022-04-15",
+  "cnpj_emissor": "47960950000121",
+  "isin": "BRMGLUDBS0A0",
+  "snd_atualizado_em": "2026-06-02T15:12:05",
+  "eventos_passados": [
+    {
+      "data": "2022-04-18",
+      "tipo": "Juros",
+      "valor": 52.174
+    },
+    {
+      "data": "2022-10-17",
+      "tipo": "Juros",
+      "valor": 70.0391
+    },
+    {
+      "data": "2023-04-17",
+      "tipo": "Juros",
+      "valor": 72.1123
+    },
+    {
+      "data": "2023-10-16",
+      "tipo": "Juros",
+      "valor": 70.8735
+    },
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 61.463
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 58.9964
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 65.2773
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Amortizacao",
+      "valor": 500.0
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 78.5683
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 38.5653
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-10-15",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:20",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 1.25
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2026-10-15",
+      "data_pagamento": "2026-10-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-15",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

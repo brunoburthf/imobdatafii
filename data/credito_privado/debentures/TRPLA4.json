@@ -1,0 +1,241 @@
+{
+  "codigo": "TRPLA4",
+  "nome": "ISA ENERGIA BRASIL S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2033-10-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.2607,
+  "indexador_raw": "IPCA + 6,2607%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.9282,
+    "taxa_venda": 7.6293,
+    "taxa_indicativa": 7.7677,
+    "desvio_padrao": 0.1505,
+    "intervalo_min": 7.6171,
+    "intervalo_max": 7.9183,
+    "pu": 1057.475332,
+    "pct_pu_par": 92.4079,
+    "duration_du": 1405.16,
+    "pct_reune": 15.0,
+    "referencia_ntnb": "15/05/2033"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRISAEDBS046",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 14,
+    "registro_cvm": "AUT/DEB/PRI/2023/304",
+    "data_registro_cvm": "2023-10-23",
+    "data_emissao": "2023-10-15",
+    "data_vencimento": "2033-10-15",
+    "data_novo_vcto": "2033-10-15",
+    "inicio_rentabilidade": "2023-10-25",
+    "inicio_distribuicao": "2023-10-23",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 783786,
+    "qtd_mercado": 783786,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1137.27551,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2032-10-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.2607,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "02998611000104",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-10-15",
+  "primeiro_cupom": "2024-04-15",
+  "cnpj_emissor": "02998611000104",
+  "isin": "BRISAEDBS046",
+  "snd_atualizado_em": "2026-06-02T15:12:35",
+  "eventos_passados": [
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 29.0368
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 32.9445
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 32.7712
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 34.103
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 34.1288
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2032-10-15",
+      "valor_estimado": 568.6378
+    },
+    {
+      "data": "2033-10-15",
+      "valor_estimado": 568.6378
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:58",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2030-04-15",
+        "data_pagamento": "2030-04-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2030-10-15",
+        "data_pagamento": "2030-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2031-04-15",
+        "data_pagamento": "2031-04-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2031-10-15",
+        "data_pagamento": "2031-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2032-04-15",
+        "data_pagamento": "2032-04-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2032-10-15",
+        "data_pagamento": "2032-10-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2033-04-15",
+        "data_pagamento": "2033-04-18",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      },
+      {
+        "data_evento": "2033-10-15",
+        "data_pagamento": "2033-10-17",
+        "base": "IPCA",
+        "taxa_pct": 6.2607
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2032-10-15",
+        "data_pagamento": "2032-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2033-10-15",
+      "data_pagamento": "2033-10-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2032-10-15",
+      "valor_estimado": 751.4594,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2033-10-17",
+      "valor_estimado": 785.2751,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

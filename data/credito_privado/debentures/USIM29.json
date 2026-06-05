@@ -1,0 +1,204 @@
+{
+  "codigo": "USIM29",
+  "nome": "USINAS SIDERURGICAS DE MINAS GERAIS S/A - USIMINAS",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-12-09",
+  "indexador": "CDI+",
+  "spread_contratual": 1.65,
+  "indexador_raw": "DI + 1,65%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.7858,
+    "taxa_venda": 1.479,
+    "taxa_indicativa": 1.6373,
+    "desvio_padrao": 0.1103,
+    "intervalo_min": 1.5269,
+    "intervalo_max": 1.7477,
+    "pu": 1074.407912,
+    "pct_pu_par": 100.0291,
+    "duration_du": 587.77,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRUSIMDBS0A1",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 9,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-12-11",
+    "data_emissao": "2022-12-09",
+    "data_vencimento": "2029-12-09",
+    "data_novo_vcto": "2029-12-09",
+    "inicio_rentabilidade": "2022-12-12",
+    "inicio_distribuicao": "2022-11-09",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 966060,
+    "qtd_mercado": 966060,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-12-09",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.65,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-06-09",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "60894730000105",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-12-09",
+  "primeiro_cupom": "2023-06-09",
+  "cnpj_emissor": "60894730000105",
+  "isin": "BRUSIMDBS0A1",
+  "snd_atualizado_em": "2026-06-02T15:12:38",
+  "eventos_passados": [
+    {
+      "data": "2023-06-09",
+      "tipo": "Juros",
+      "valor": 72.9815
+    },
+    {
+      "data": "2023-12-11",
+      "tipo": "Juros",
+      "valor": 72.2956
+    },
+    {
+      "data": "2024-06-10",
+      "tipo": "Juros",
+      "valor": 60.9072
+    },
+    {
+      "data": "2024-12-09",
+      "tipo": "Juros",
+      "valor": 61.2205
+    },
+    {
+      "data": "2025-06-09",
+      "tipo": "Juros",
+      "valor": 71.6304
+    },
+    {
+      "data": "2025-12-09",
+      "tipo": "Juros",
+      "valor": 82.6457
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-12-09",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-12-09",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:01",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-09",
+        "data_pagamento": "2026-06-09",
+        "base": "DI",
+        "taxa_pct": 1.65
+      },
+      {
+        "data_evento": "2026-12-09",
+        "data_pagamento": "2026-12-09",
+        "base": "DI",
+        "taxa_pct": 1.65
+      },
+      {
+        "data_evento": "2027-06-09",
+        "data_pagamento": "2027-06-09",
+        "base": "DI",
+        "taxa_pct": 1.65
+      },
+      {
+        "data_evento": "2027-12-09",
+        "data_pagamento": "2027-12-09",
+        "base": "DI",
+        "taxa_pct": 1.65
+      },
+      {
+        "data_evento": "2028-06-09",
+        "data_pagamento": "2028-06-09",
+        "base": "DI",
+        "taxa_pct": 1.65
+      },
+      {
+        "data_evento": "2028-12-09",
+        "data_pagamento": "2028-12-11",
+        "base": "DI",
+        "taxa_pct": 1.65
+      },
+      {
+        "data_evento": "2029-06-09",
+        "data_pagamento": "2029-06-11",
+        "base": "DI",
+        "taxa_pct": 1.65
+      },
+      {
+        "data_evento": "2029-12-09",
+        "data_pagamento": "2029-12-10",
+        "base": "DI",
+        "taxa_pct": 1.65
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-12-09",
+        "data_pagamento": "2028-12-11",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-12-09",
+      "data_pagamento": "2029-12-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-12-11",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-12-10",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

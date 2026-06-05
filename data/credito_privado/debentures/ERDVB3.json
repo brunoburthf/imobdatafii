@@ -1,0 +1,221 @@
+{
+  "codigo": "ERDVB3",
+  "nome": "ECORODOVIAS CONCESSÕES E SERVIÇOS S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-10-15",
+  "indexador": "CDI+",
+  "spread_contratual": 2.35,
+  "indexador_raw": "DI + 2,35%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.4746,
+    "taxa_venda": 1.126,
+    "taxa_indicativa": 1.324,
+    "desvio_padrao": 0.0563,
+    "intervalo_min": 1.2677,
+    "intervalo_max": 1.3804,
+    "pu": 1047.237998,
+    "pct_pu_par": 102.7021,
+    "duration_du": 668.69,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRERDVDBS0N9",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 13,
+    "registro_cvm": "AUT/DEB/PRI/2023/319",
+    "data_registro_cvm": "2023-11-01",
+    "data_emissao": "2023-10-15",
+    "data_vencimento": "2030-10-15",
+    "data_novo_vcto": "2030-10-15",
+    "inicio_rentabilidade": "2023-11-06",
+    "inicio_distribuicao": "2023-11-01",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 600000,
+    "qtd_mercado": 600000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-10-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.35,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "08873873000110",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-10-15",
+  "primeiro_cupom": "2024-04-15",
+  "cnpj_emissor": "08873873000110",
+  "isin": "BRERDVDBS0N9",
+  "snd_atualizado_em": "2026-06-02T15:11:48",
+  "eventos_passados": [
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 58.6897
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 64.8704
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 70.9565
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 84.4578
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 82.873
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-10-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2029-10-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2030-10-15",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:06",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 2.35
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 2.35
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "DI",
+        "taxa_pct": 2.35
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "DI",
+        "taxa_pct": 2.35
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "DI",
+        "taxa_pct": 2.35
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "DI",
+        "taxa_pct": 2.35
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base": "DI",
+        "taxa_pct": 2.35
+      },
+      {
+        "data_evento": "2030-04-15",
+        "data_pagamento": "2030-04-15",
+        "base": "DI",
+        "taxa_pct": 2.35
+      },
+      {
+        "data_evento": "2030-10-15",
+        "data_pagamento": "2030-10-15",
+        "base": "DI",
+        "taxa_pct": 2.35
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2030-10-15",
+      "data_pagamento": "2030-10-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-10-16",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-10-15",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-10-15",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

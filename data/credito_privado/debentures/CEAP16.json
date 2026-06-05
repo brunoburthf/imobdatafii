@@ -1,0 +1,183 @@
+{
+  "codigo": "CEAP16",
+  "nome": "COMPANHIA DE ELETRICIDADE DO AMAPA - CEA",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-09-09",
+  "indexador": "CDI+",
+  "spread_contratual": 1.2,
+  "indexador_raw": "DI + 1,2%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.9184,
+    "taxa_venda": 0.6706,
+    "taxa_indicativa": 0.7944,
+    "desvio_padrao": 0.0591,
+    "intervalo_min": 0.7353,
+    "intervalo_max": 0.8536,
+    "pu": 1043.586997,
+    "pct_pu_par": 100.9197,
+    "duration_du": 574.89,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCEAPDBS052",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 6,
+    "registro_cvm": "AUT/DEB/PRI/2024/527",
+    "data_registro_cvm": "2024-09-04",
+    "data_emissao": "2024-09-09",
+    "data_vencimento": "2029-09-09",
+    "data_novo_vcto": "2029-09-09",
+    "inicio_rentabilidade": "2024-09-11",
+    "inicio_distribuicao": "2024-09-04",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 275000,
+    "qtd_mercado": 275000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-09-09",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.2,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-03-09",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO BOCOM BBM S.A.",
+    "cnpj_emissor": "05965546000109",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-09-09",
+  "primeiro_cupom": "2025-03-09",
+  "cnpj_emissor": "05965546000109",
+  "isin": "BRCEAPDBS052",
+  "snd_atualizado_em": "2026-06-02T15:11:16",
+  "eventos_passados": [
+    {
+      "data": "2025-03-10",
+      "tipo": "Juros",
+      "valor": 60.8886
+    },
+    {
+      "data": "2025-09-09",
+      "tipo": "Juros",
+      "valor": 77.2705
+    },
+    {
+      "data": "2026-03-09",
+      "tipo": "Juros",
+      "valor": 77.0364
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-09-09",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-09-09",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:29",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-09",
+        "data_pagamento": "2026-09-09",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2027-03-09",
+        "data_pagamento": "2027-03-09",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2027-09-09",
+        "data_pagamento": "2027-09-09",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2028-03-09",
+        "data_pagamento": "2028-03-09",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2028-09-09",
+        "data_pagamento": "2028-09-11",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2029-03-09",
+        "data_pagamento": "2029-03-09",
+        "base": "DI",
+        "taxa_pct": 1.2
+      },
+      {
+        "data_evento": "2029-09-09",
+        "data_pagamento": "2029-09-10",
+        "base": "DI",
+        "taxa_pct": 1.2
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-09-09",
+        "data_pagamento": "2028-09-11",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-09-09",
+      "data_pagamento": "2029-09-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-09-11",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-09-10",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

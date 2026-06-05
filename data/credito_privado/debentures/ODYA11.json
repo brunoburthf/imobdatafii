@@ -1,0 +1,481 @@
+{
+  "codigo": "ODYA11",
+  "nome": "ODOYA TRANSMISSORA DE ENERGIA S.A..",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2031-09-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.7968,
+  "indexador_raw": "IPCA + 6,7968%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.3852,
+    "taxa_venda": 8.1495,
+    "taxa_indicativa": 8.2419,
+    "desvio_padrao": 0.023,
+    "intervalo_min": 8.2189,
+    "intervalo_max": 8.265,
+    "pu": 803.08275,
+    "pct_pu_par": 96.8374,
+    "duration_du": 598.13,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2028"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRODYADBS002",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 1,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2017-12-11",
+    "data_emissao": "2017-11-15",
+    "data_vencimento": "2031-09-15",
+    "data_novo_vcto": "2031-09-15",
+    "inicio_rentabilidade": "2017-12-12",
+    "inicio_distribuicao": "2017-12-12",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 74000,
+    "qtd_mercado": 74000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 818.337394,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2019-09-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 6.7968,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2018-09-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "20514590000188",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2017-11-15",
+  "primeiro_cupom": "2018-09-15",
+  "cnpj_emissor": "20514590000188",
+  "isin": "BRODYADBS002",
+  "snd_atualizado_em": "2026-06-02T15:12:10",
+  "eventos_passados": [
+    {
+      "data": "2019-03-15",
+      "tipo": "Juros",
+      "valor": 35.7095
+    },
+    {
+      "data": "2019-09-16",
+      "tipo": "Amortizacao",
+      "valor": 42.1309
+    },
+    {
+      "data": "2019-09-16",
+      "tipo": "Juros",
+      "valor": 38.1591
+    },
+    {
+      "data": "2020-03-16",
+      "tipo": "Amortizacao",
+      "valor": 14.3519
+    },
+    {
+      "data": "2020-03-16",
+      "tipo": "Juros",
+      "valor": 36.6404
+    },
+    {
+      "data": "2020-09-15",
+      "tipo": "Amortizacao",
+      "valor": 14.3862
+    },
+    {
+      "data": "2020-09-15",
+      "tipo": "Juros",
+      "valor": 36.5453
+    },
+    {
+      "data": "2021-03-15",
+      "tipo": "Amortizacao",
+      "valor": 21.137
+    },
+    {
+      "data": "2021-03-15",
+      "tipo": "Juros",
+      "valor": 36.9325
+    },
+    {
+      "data": "2021-09-15",
+      "tipo": "Amortizacao",
+      "valor": 22.0903
+    },
+    {
+      "data": "2021-09-15",
+      "tipo": "Juros",
+      "valor": 39.4435
+    },
+    {
+      "data": "2022-03-15",
+      "tipo": "Amortizacao",
+      "valor": 40.0546
+    },
+    {
+      "data": "2022-03-15",
+      "tipo": "Juros",
+      "valor": 39.627
+    },
+    {
+      "data": "2022-09-15",
+      "tipo": "Amortizacao",
+      "valor": 41.1736
+    },
+    {
+      "data": "2022-09-15",
+      "tipo": "Juros",
+      "valor": 40.6717
+    },
+    {
+      "data": "2023-03-15",
+      "tipo": "Amortizacao",
+      "valor": 56.3952
+    },
+    {
+      "data": "2023-03-15",
+      "tipo": "Juros",
+      "valor": 39.0628
+    },
+    {
+      "data": "2023-09-15",
+      "tipo": "Amortizacao",
+      "valor": 57.4275
+    },
+    {
+      "data": "2023-09-15",
+      "tipo": "Juros",
+      "valor": 38.8216
+    },
+    {
+      "data": "2024-03-15",
+      "tipo": "Amortizacao",
+      "valor": 73.6635
+    },
+    {
+      "data": "2024-03-15",
+      "tipo": "Juros",
+      "valor": 36.6404
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Amortizacao",
+      "valor": 71.0858
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 36.2161
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Amortizacao",
+      "valor": 81.2579
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 33.8488
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Amortizacao",
+      "valor": 82.5987
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 32.2105
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Amortizacao",
+      "valor": 96.4072
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 29.8335
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-09-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2027-03-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2027-09-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2028-03-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2028-09-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2029-03-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2029-09-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2030-03-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2030-09-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2031-03-16",
+      "valor_estimado": 74.3943
+    },
+    {
+      "data": "2031-09-15",
+      "valor_estimado": 74.3943
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:26",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      },
+      {
+        "data_evento": "2031-09-15",
+        "data_pagamento": "2031-09-15",
+        "base": "IPCA",
+        "taxa_pct": 6.7968
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 12.0
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 11.3636
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 12.8205
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 11.7647
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 13.3333
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 14.4231
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 16.8539
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 22.973
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 29.8246
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-09-15",
+      "data_pagamento": "2031-09-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-09-15",
+      "valor_estimado": 99.2871,
+      "percentual": 12.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-03-15",
+      "valor_estimado": 84.5801,
+      "percentual": 11.3636,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-09-15",
+      "valor_estimado": 86.4624,
+      "percentual": 12.8205,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-03-15",
+      "valor_estimado": 70.7092,
+      "percentual": 11.7647,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-09-15",
+      "valor_estimado": 72.2825,
+      "percentual": 13.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-03-15",
+      "valor_estimado": 69.2731,
+      "percentual": 14.4231,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-09-17",
+      "valor_estimado": 70.8143,
+      "percentual": 16.8539,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 82.0424,
+      "percentual": 22.973,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-09-16",
+      "valor_estimado": 83.868,
+      "percentual": 29.8246,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-03-17",
+      "valor_estimado": 100.8637,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-09-15",
+      "valor_estimado": 103.1082,
+      "percentual": 10.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

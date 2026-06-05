@@ -1,0 +1,183 @@
+{
+  "codigo": "RECV12",
+  "nome": "PETRORECONCAVO S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-10-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.15,
+  "indexador_raw": "DI + 1,15%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": 0.9775,
+    "desvio_padrao": 0.0764,
+    "intervalo_min": 0.9011,
+    "intervalo_max": 1.054,
+    "pu": 1022.349498,
+    "pct_pu_par": 100.4069,
+    "duration_du": 599.69,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRECVDBS021",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 2,
+    "registro_cvm": "AUT/DEB/PRI/2024/656",
+    "data_registro_cvm": "2024-10-18",
+    "data_emissao": "2024-10-15",
+    "data_vencimento": "2029-10-15",
+    "data_novo_vcto": "2029-10-15",
+    "inicio_rentabilidade": "2024-10-21",
+    "inicio_distribuicao": "2024-10-18",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 650000,
+    "qtd_mercado": 650000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-10-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.15,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "03342704000130",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-10-15",
+  "primeiro_cupom": "2025-04-15",
+  "cnpj_emissor": "03342704000130",
+  "isin": "BRRECVDBS021",
+  "snd_atualizado_em": "2026-06-02T15:12:20",
+  "eventos_passados": [
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 62.8575
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 78.0313
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 76.607
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-10-15",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-10-15",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:38",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "DI",
+        "taxa_pct": 1.15
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base": "DI",
+        "taxa_pct": 1.15
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-10-15",
+      "data_pagamento": "2029-10-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-10-16",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-10-15",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

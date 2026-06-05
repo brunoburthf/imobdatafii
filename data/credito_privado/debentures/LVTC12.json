@@ -1,0 +1,205 @@
+{
+  "codigo": "LVTC12",
+  "nome": "LIVETECH DA BAHIA INDUSTRIA E COMERCIO S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-06-15",
+  "indexador": "CDI+",
+  "spread_contratual": 2.3,
+  "indexador_raw": "DI + 2,3%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": 1.1831,
+    "taxa_indicativa": 2.285,
+    "desvio_padrao": 0.1327,
+    "intervalo_min": 2.1523,
+    "intervalo_max": 2.4179,
+    "pu": 644.756717,
+    "pct_pu_par": 100.0071,
+    "duration_du": 122.44,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRLVTCDBS022",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 2,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-06-17",
+    "data_emissao": "2022-06-15",
+    "data_vencimento": "2027-06-15",
+    "data_novo_vcto": "2027-06-15",
+    "inicio_rentabilidade": "2022-06-20",
+    "inicio_distribuicao": "2022-05-16",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 247113,
+    "qtd_mercado": 247113,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 600.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-06-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.3,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-12-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "05917486000140",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-06-15",
+  "primeiro_cupom": "2022-12-15",
+  "cnpj_emissor": "05917486000140",
+  "isin": "BRLVTCDBS022",
+  "snd_atualizado_em": "2026-06-02T15:12:04",
+  "eventos_passados": [
+    {
+      "data": "2022-12-15",
+      "tipo": "Juros",
+      "valor": 76.347
+    },
+    {
+      "data": "2023-06-15",
+      "tipo": "Juros",
+      "valor": 76.9688
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Juros",
+      "valor": 75.4998
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Juros",
+      "valor": 64.4802
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Juros",
+      "valor": 64.8806
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Amortizacao",
+      "valor": 200.0
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 75.5546
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Amortizacao",
+      "valor": 200.0
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 68.4276
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-06-15",
+      "valor_estimado": 200.0
+    },
+    {
+      "data": "2026-12-15",
+      "valor_estimado": 200.0
+    },
+    {
+      "data": "2027-06-15",
+      "valor_estimado": 200.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:19",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "DI",
+        "taxa_pct": 2.3
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "DI",
+        "taxa_pct": 2.3
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "DI",
+        "taxa_pct": 2.3
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2027-06-15",
+      "data_pagamento": "2027-06-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-06-15",
+      "valor_estimado": 199.9998,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-12-15",
+      "valor_estimado": 200.0001,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-06-15",
+      "valor_estimado": 200.0001,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

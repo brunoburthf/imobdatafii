@@ -1,0 +1,198 @@
+{
+  "codigo": "ARTRA5",
+  "nome": "ARTERIS S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-04-12",
+  "indexador": "CDI+",
+  "spread_contratual": 2.4,
+  "indexador_raw": "DI + 2,4%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.3653,
+    "taxa_venda": 1.9319,
+    "taxa_indicativa": 2.1466,
+    "desvio_padrao": 0.0458,
+    "intervalo_min": 2.1007,
+    "intervalo_max": 2.1925,
+    "pu": 1025.108817,
+    "pct_pu_par": 100.398,
+    "duration_du": 404.18,
+    "pct_reune": 45.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRARTRDBS0B6",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 15,
+    "registro_cvm": "AUT/DEB/PRI/2024/167",
+    "data_registro_cvm": "2024-04-11",
+    "data_emissao": "2024-04-12",
+    "data_vencimento": "2029-04-12",
+    "data_novo_vcto": "2029-04-12",
+    "inicio_rentabilidade": "2024-04-12",
+    "inicio_distribuicao": "2024-04-11",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1000000,
+    "qtd_mercado": 1000000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2027-04-12",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.4,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-10-12",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "02919555000167",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-04-12",
+  "primeiro_cupom": "2024-10-12",
+  "cnpj_emissor": "02919555000167",
+  "isin": "BRARTRDBS0B6",
+  "snd_atualizado_em": "2026-06-02T15:11:09",
+  "eventos_passados": [
+    {
+      "data": "2024-10-14",
+      "tipo": "Juros",
+      "valor": 65.1367
+    },
+    {
+      "data": "2025-04-14",
+      "tipo": "Juros",
+      "valor": 71.0816
+    },
+    {
+      "data": "2025-10-13",
+      "tipo": "Juros",
+      "valor": 83.9969
+    },
+    {
+      "data": "2026-04-13",
+      "tipo": "Juros",
+      "valor": 83.152
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-04-12",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2028-04-12",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2029-04-12",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:21",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-12",
+        "data_pagamento": "2026-10-13",
+        "base": "DI",
+        "taxa_pct": 2.4
+      },
+      {
+        "data_evento": "2027-04-12",
+        "data_pagamento": "2027-04-12",
+        "base": "DI",
+        "taxa_pct": 2.4
+      },
+      {
+        "data_evento": "2027-10-12",
+        "data_pagamento": "2027-10-13",
+        "base": "DI",
+        "taxa_pct": 2.4
+      },
+      {
+        "data_evento": "2028-04-12",
+        "data_pagamento": "2028-04-12",
+        "base": "DI",
+        "taxa_pct": 2.4
+      },
+      {
+        "data_evento": "2028-10-12",
+        "data_pagamento": "2028-10-13",
+        "base": "DI",
+        "taxa_pct": 2.4
+      },
+      {
+        "data_evento": "2029-04-12",
+        "data_pagamento": "2029-04-12",
+        "base": "DI",
+        "taxa_pct": 2.4
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-04-12",
+        "data_pagamento": "2027-04-12",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2028-04-12",
+        "data_pagamento": "2028-04-12",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-04-12",
+      "data_pagamento": "2029-04-12"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-04-12",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-04-12",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-04-12",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

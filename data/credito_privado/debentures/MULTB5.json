@@ -1,0 +1,259 @@
+{
+  "codigo": "MULTB5",
+  "nome": "MULTIPLAN EMPREENDIMENTOS IMOBILIÁRIOS S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2034-10-15",
+  "indexador": "CDI+",
+  "spread_contratual": 0.8,
+  "indexador_raw": "DI + 0,8%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.7914,
+    "taxa_venda": 0.5279,
+    "taxa_indicativa": 0.6347,
+    "desvio_padrao": 0.0697,
+    "intervalo_min": 0.5649,
+    "intervalo_max": 0.7045,
+    "pu": 1025.60383,
+    "pct_pu_par": 100.7695,
+    "duration_du": 1178.36,
+    "pct_reune": 45.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMULTDBS0D9",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 15,
+    "registro_cvm": "AUT/DEB/PRI/2024/660",
+    "data_registro_cvm": "2024-10-21",
+    "data_emissao": "2024-10-15",
+    "data_vencimento": "2034-10-15",
+    "data_novo_vcto": "2034-10-15",
+    "inicio_rentabilidade": "2024-10-22",
+    "inicio_distribuicao": "2024-10-21",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1200000,
+    "qtd_mercado": 1200000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2032-10-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.8,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "07816890000153",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-10-15",
+  "primeiro_cupom": "2025-04-15",
+  "cnpj_emissor": "07816890000153",
+  "isin": "BRMULTDBS0D9",
+  "snd_atualizado_em": "2026-06-02T15:12:08",
+  "eventos_passados": [
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 60.645
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 76.1497
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 74.7723
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2032-10-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2033-10-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2034-10-15",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:24",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2030-04-15",
+        "data_pagamento": "2030-04-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2030-10-15",
+        "data_pagamento": "2030-10-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2031-04-15",
+        "data_pagamento": "2031-04-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2031-10-15",
+        "data_pagamento": "2031-10-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2032-04-15",
+        "data_pagamento": "2032-04-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2032-10-15",
+        "data_pagamento": "2032-10-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2033-04-15",
+        "data_pagamento": "2033-04-18",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2033-10-15",
+        "data_pagamento": "2033-10-17",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2034-04-15",
+        "data_pagamento": "2034-04-17",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2034-10-15",
+        "data_pagamento": "2034-10-16",
+        "base": "DI",
+        "taxa_pct": 0.8
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2032-10-15",
+        "data_pagamento": "2032-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2033-10-15",
+        "data_pagamento": "2033-10-17",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2034-10-15",
+      "data_pagamento": "2034-10-16"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2032-10-15",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2033-10-17",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2034-10-16",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

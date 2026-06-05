@@ -1,0 +1,154 @@
+{
+  "codigo": "EUFA18",
+  "nome": "EUROFARMA LABORATÓRIOS S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-09-11",
+  "indexador": "CDI+",
+  "spread_contratual": 0.93,
+  "indexador_raw": "DI + 0,93%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.2103,
+    "taxa_venda": 0.9204,
+    "taxa_indicativa": 1.006,
+    "desvio_padrao": 0.1359,
+    "intervalo_min": 0.8701,
+    "intervalo_max": 1.142,
+    "pu": 1030.72121,
+    "pct_pu_par": 99.8531,
+    "duration_du": 492.08,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BREUFADBS071",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 8,
+    "registro_cvm": "AUT/DEB/PRI/2024/539",
+    "data_registro_cvm": "2024-09-10",
+    "data_emissao": "2024-09-11",
+    "data_vencimento": "2028-09-11",
+    "data_novo_vcto": "2028-09-11",
+    "inicio_rentabilidade": "2024-09-11",
+    "inicio_distribuicao": "2024-09-10",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1450000,
+    "qtd_mercado": 1450000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 0.93,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-03-11",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "61190096000192",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-09-11",
+  "primeiro_cupom": "2025-03-11",
+  "cnpj_emissor": "61190096000192",
+  "isin": "BREUFADBS071",
+  "snd_atualizado_em": "2026-06-02T15:11:50",
+  "eventos_passados": [
+    {
+      "data": "2024-06-26",
+      "tipo": "Juros",
+      "valor": 0.0
+    },
+    {
+      "data": "2025-03-11",
+      "tipo": "Juros",
+      "valor": 60.0759
+    },
+    {
+      "data": "2025-09-11",
+      "tipo": "Juros",
+      "valor": 76.5193
+    },
+    {
+      "data": "2026-03-11",
+      "tipo": "Juros",
+      "valor": 75.6215
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:07",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-11",
+        "data_pagamento": "2026-09-11",
+        "base": "DI",
+        "taxa_pct": 0.93
+      },
+      {
+        "data_evento": "2027-03-11",
+        "data_pagamento": "2027-03-11",
+        "base": "DI",
+        "taxa_pct": 0.93
+      },
+      {
+        "data_evento": "2027-09-11",
+        "data_pagamento": "2027-09-13",
+        "base": "DI",
+        "taxa_pct": 0.93
+      },
+      {
+        "data_evento": "2028-03-11",
+        "data_pagamento": "2028-03-13",
+        "base": "DI",
+        "taxa_pct": 0.93
+      },
+      {
+        "data_evento": "2028-09-11",
+        "data_pagamento": "2028-09-11",
+        "base": "DI",
+        "taxa_pct": 0.93
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2028-09-11",
+      "data_pagamento": "2028-09-11"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-09-11",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

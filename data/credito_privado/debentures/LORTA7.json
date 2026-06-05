@@ -1,0 +1,236 @@
+{
+  "codigo": "LORTA7",
+  "nome": "LOCALIZA RENT A CAR",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2031-03-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 5.4702,
+  "indexador_raw": "IPCA + 5,4702%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 10.0361,
+    "taxa_venda": 9.632,
+    "taxa_indicativa": 9.817,
+    "desvio_padrao": 0.0756,
+    "intervalo_min": 9.7414,
+    "intervalo_max": 9.8926,
+    "pu": 1167.656159,
+    "pct_pu_par": 85.824,
+    "duration_du": 947.17,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2030"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRENTDBS0K7",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 17,
+    "registro_cvm": "CVM/SRE/DEB/2021/005",
+    "data_registro_cvm": "2021-04-06",
+    "data_emissao": "2021-02-15",
+    "data_vencimento": "2031-03-15",
+    "data_novo_vcto": "2031-03-15",
+    "inicio_rentabilidade": "2021-04-07",
+    "inicio_distribuicao": "2021-04-07",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1200000,
+    "qtd_mercado": 1200000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1345.98942,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2030-03-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 5.4702,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-09-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": null,
+    "cnpj_emissor": "16670085000155",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-02-15",
+  "primeiro_cupom": "2021-09-15",
+  "cnpj_emissor": "16670085000155",
+  "isin": "BRRENTDBS0K7",
+  "snd_atualizado_em": "2026-06-02T15:12:04",
+  "eventos_passados": [
+    {
+      "data": "2021-09-15",
+      "tipo": "Juros",
+      "valor": 24.8652
+    },
+    {
+      "data": "2022-03-15",
+      "tipo": "Juros",
+      "valor": 29.1555
+    },
+    {
+      "data": "2022-09-15",
+      "tipo": "Juros",
+      "valor": 30.9499
+    },
+    {
+      "data": "2023-03-15",
+      "tipo": "Juros",
+      "valor": 30.7872
+    },
+    {
+      "data": "2023-09-15",
+      "tipo": "Juros",
+      "valor": 32.1198
+    },
+    {
+      "data": "2024-03-15",
+      "tipo": "Juros",
+      "valor": 31.9087
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 33.7482
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 33.7986
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 34.9178
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 35.3738
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 672.9947
+    },
+    {
+      "data": "2031-03-15",
+      "valor_estimado": 672.9947
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:19",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2029-09-15",
+        "data_pagamento": "2029-09-17",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2030-09-15",
+        "data_pagamento": "2030-09-16",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      },
+      {
+        "data_evento": "2031-03-15",
+        "data_pagamento": "2031-03-17",
+        "base": "IPCA",
+        "taxa_pct": 5.4702
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2030-03-15",
+        "data_pagamento": "2030-03-15",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2031-03-15",
+      "data_pagamento": "2031-03-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-03-15",
+      "valor_estimado": 793.7756,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2031-03-17",
+      "valor_estimado": 829.4955,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

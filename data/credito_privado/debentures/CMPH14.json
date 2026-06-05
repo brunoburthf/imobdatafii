@@ -1,0 +1,222 @@
+{
+  "codigo": "CMPH14",
+  "nome": "CM HOSPITALAR S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2028-11-05",
+  "indexador": "CDI+",
+  "spread_contratual": 1.7,
+  "indexador_raw": "DI + 1,7%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": null,
+    "desvio_padrao": null,
+    "intervalo_min": null,
+    "intervalo_max": null,
+    "pu": 410.123391,
+    "pct_pu_par": 54.0625,
+    "duration_du": null,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRVVEODBS036",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 4,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-11-04",
+    "data_emissao": "2021-11-05",
+    "data_vencimento": "2028-11-05",
+    "data_novo_vcto": "2028-11-05",
+    "inicio_rentabilidade": "2021-11-05",
+    "inicio_distribuicao": "2021-11-05",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 530000,
+    "qtd_mercado": 530000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 750.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-11-05",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.7,
+    "juros_prazo_base": null,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-05-05",
+    "juros_criterio": null,
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "12420164000157",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-11-05",
+  "primeiro_cupom": "2022-05-05",
+  "cnpj_emissor": "12420164000157",
+  "isin": "BRVVEODBS036",
+  "snd_atualizado_em": "2026-06-02T15:11:25",
+  "eventos_passados": [
+    {
+      "data": "2022-05-05",
+      "tipo": "Juros",
+      "valor": 56.1132
+    },
+    {
+      "data": "2022-11-07",
+      "tipo": "Juros",
+      "valor": 74.5557
+    },
+    {
+      "data": "2023-05-05",
+      "tipo": "Juros",
+      "valor": 73.2391
+    },
+    {
+      "data": "2023-11-06",
+      "tipo": "Juros",
+      "valor": 73.9194
+    },
+    {
+      "data": "2024-05-06",
+      "tipo": "Juros",
+      "valor": 62.7238
+    },
+    {
+      "data": "2024-11-05",
+      "tipo": "Juros",
+      "valor": 61.9005
+    },
+    {
+      "data": "2025-05-05",
+      "tipo": "Juros",
+      "valor": 67.0551
+    },
+    {
+      "data": "2025-11-05",
+      "tipo": "Amortizacao",
+      "valor": 250.0
+    },
+    {
+      "data": "2025-11-05",
+      "tipo": "Juros",
+      "valor": 83.967
+    },
+    {
+      "data": "2026-05-05",
+      "tipo": "Juros",
+      "valor": 58.0151
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-11-05",
+      "valor_estimado": 250.0
+    },
+    {
+      "data": "2027-11-05",
+      "valor_estimado": 250.0
+    },
+    {
+      "data": "2028-11-05",
+      "valor_estimado": 250.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:40",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-05",
+        "data_pagamento": "2026-11-05",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2027-05-05",
+        "data_pagamento": "2027-05-05",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2027-11-05",
+        "data_pagamento": "2027-11-05",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2028-05-05",
+        "data_pagamento": "2028-05-05",
+        "base": "DI",
+        "taxa_pct": 1.7
+      },
+      {
+        "data_evento": "2028-11-05",
+        "data_pagamento": "2028-11-06",
+        "base": "DI",
+        "taxa_pct": 1.7
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-11-05",
+        "data_pagamento": "2026-11-05",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2027-11-05",
+        "data_pagamento": "2027-11-05",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-11-05",
+      "data_pagamento": "2028-11-06"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-11-05",
+      "valor_estimado": 249.9998,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-11-05",
+      "valor_estimado": 250.0001,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-11-06",
+      "valor_estimado": 250.0001,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

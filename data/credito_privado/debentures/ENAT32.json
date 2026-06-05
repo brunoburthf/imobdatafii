@@ -1,0 +1,171 @@
+{
+  "codigo": "ENAT32",
+  "nome": "3R PETROLEUM OLEO E GAS S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-09-17",
+  "indexador": "PREFIX",
+  "spread_contratual": 13.9662,
+  "indexador_raw": "PREFIXADO 13,9662%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": 14.6231,
+    "taxa_indicativa": 14.648,
+    "desvio_padrao": 0.4849,
+    "intervalo_min": 14.1631,
+    "intervalo_max": 15.1329,
+    "pu": 1011.059775,
+    "pct_pu_par": 98.415,
+    "duration_du": 674.29,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:24",
+  "snd": {
+    "isin": "BRENATDBS044",
+    "situacao": "Registrado",
+    "serie": "003",
+    "emissao_seq": 2,
+    "registro_cvm": "AUT/DEB/PRI/2023/266",
+    "data_registro_cvm": "2023-09-28",
+    "data_emissao": "2023-09-15",
+    "data_vencimento": "2029-09-17",
+    "data_novo_vcto": "2029-09-17",
+    "inicio_rentabilidade": "2023-09-29",
+    "inicio_distribuicao": "2023-09-28",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 996504,
+    "qtd_mercado": 996504,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "PRÉ",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 13.9662,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-03-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "12091809000155",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-09-15",
+  "primeiro_cupom": "2024-03-15",
+  "cnpj_emissor": "12091809000155",
+  "isin": "BRENATDBS044",
+  "snd_atualizado_em": "2026-06-02T15:11:40",
+  "eventos_passados": [
+    {
+      "data": "2024-03-15",
+      "tipo": "Juros",
+      "valor": 60.3741
+    },
+    {
+      "data": "2024-09-16",
+      "tipo": "Juros",
+      "valor": 68.6577
+    },
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 66.4425
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 67.5495
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 66.9959
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:58",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.9662
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.9662
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.9662
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.9662
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.9662
+      },
+      {
+        "data_evento": "2029-03-15",
+        "data_pagamento": "2029-03-15",
+        "base": "PRÉ",
+        "taxa_pct": 13.9662
+      },
+      {
+        "data_evento": "2029-09-17",
+        "data_pagamento": "2029-09-17",
+        "base": "PRÉ",
+        "taxa_pct": 13.9662
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-09-17",
+      "data_pagamento": "2029-09-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-09-17",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

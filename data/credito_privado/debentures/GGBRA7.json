@@ -1,0 +1,160 @@
+{
+  "codigo": "GGBRA7",
+  "nome": "GERDAU S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-05-29",
+  "indexador": "CDI+",
+  "spread_contratual": 0.6,
+  "indexador_raw": "DI + 0,6%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.5593,
+    "taxa_venda": 0.298,
+    "taxa_indicativa": 0.4305,
+    "desvio_padrao": 0.0971,
+    "intervalo_min": 0.3335,
+    "intervalo_max": 0.5277,
+    "pu": 1004.820114,
+    "pct_pu_par": 100.426,
+    "duration_du": 635.38,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRGGBRDBS060",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 17,
+    "registro_cvm": "AUT/DEB/PRI/2024/282",
+    "data_registro_cvm": "2024-05-28",
+    "data_emissao": "2024-05-29",
+    "data_vencimento": "2029-05-29",
+    "data_novo_vcto": "2029-05-29",
+    "inicio_rentabilidade": "2024-05-29",
+    "inicio_distribuicao": "2024-05-28",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1500000,
+    "qtd_mercado": 1500000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 0.6,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-11-29",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "33611500000119",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-05-29",
+  "primeiro_cupom": "2024-11-29",
+  "cnpj_emissor": "33611500000119",
+  "isin": "BRGGBRDBS060",
+  "snd_atualizado_em": "2026-06-02T15:11:53",
+  "eventos_passados": [
+    {
+      "data": "2024-11-29",
+      "tipo": "Juros",
+      "valor": 55.9077
+    },
+    {
+      "data": "2025-05-29",
+      "tipo": "Juros",
+      "valor": 64.8232
+    },
+    {
+      "data": "2025-12-01",
+      "tipo": "Juros",
+      "valor": 77.4605
+    },
+    {
+      "data": "2026-05-29",
+      "tipo": "Juros",
+      "valor": 72.0249
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:10",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-29",
+        "data_pagamento": "2026-11-30",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2027-05-29",
+        "data_pagamento": "2027-05-31",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2027-11-29",
+        "data_pagamento": "2027-11-29",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2028-05-29",
+        "data_pagamento": "2028-05-29",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2028-11-29",
+        "data_pagamento": "2028-11-29",
+        "base": "DI",
+        "taxa_pct": 0.6
+      },
+      {
+        "data_evento": "2029-05-29",
+        "data_pagamento": "2029-05-29",
+        "base": "DI",
+        "taxa_pct": 0.6
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-05-29",
+      "data_pagamento": "2029-05-29"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-05-29",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

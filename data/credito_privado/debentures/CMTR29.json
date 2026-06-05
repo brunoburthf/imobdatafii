@@ -1,0 +1,182 @@
+{
+  "codigo": "CMTR29",
+  "nome": "CEMIG GERAÇÃO E TRANSMISSÃO S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-12-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 7.6245,
+  "indexador_raw": "IPCA + 7,6245%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.964,
+    "taxa_venda": 7.6709,
+    "taxa_indicativa": 7.7838,
+    "desvio_padrao": 0.0855,
+    "intervalo_min": 7.6984,
+    "intervalo_max": 7.8694,
+    "pu": 1216.939736,
+    "pct_pu_par": 99.5495,
+    "duration_du": 769.17,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2029"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCMGTDBS0G1",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 9,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-12-19",
+    "data_emissao": "2022-12-15",
+    "data_vencimento": "2029-12-15",
+    "data_novo_vcto": "2029-12-15",
+    "inicio_rentabilidade": "2022-12-20",
+    "inicio_distribuicao": "2022-11-16",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 300000,
+    "qtd_mercado": 300000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1183.12077,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 7.6245,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-06-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "06981176000158",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-12-15",
+  "primeiro_cupom": "2023-06-15",
+  "cnpj_emissor": "06981176000158",
+  "isin": "BRCMGTDBS0G1",
+  "snd_atualizado_em": "2026-06-02T15:11:25",
+  "eventos_passados": [
+    {
+      "data": "2023-06-15",
+      "tipo": "Juros",
+      "valor": 37.1693
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Juros",
+      "valor": 39.4584
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Juros",
+      "valor": 39.6037
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Juros",
+      "valor": 41.7132
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 41.3681
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 43.5743
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:40",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6245
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6245
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6245
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6245
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "IPCA",
+        "taxa_pct": 7.6245
+      },
+      {
+        "data_evento": "2028-12-15",
+        "data_pagamento": "2028-12-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6245
+      },
+      {
+        "data_evento": "2029-06-15",
+        "data_pagamento": "2029-06-15",
+        "base": "IPCA",
+        "taxa_pct": 7.6245
+      },
+      {
+        "data_evento": "2029-12-15",
+        "data_pagamento": "2029-12-17",
+        "base": "IPCA",
+        "taxa_pct": 7.6245
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-12-15",
+      "data_pagamento": "2029-12-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-12-17",
+      "valor_estimado": 1380.1812,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

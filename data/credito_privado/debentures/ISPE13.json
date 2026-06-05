@@ -1,0 +1,145 @@
+{
+  "codigo": "ISPE13",
+  "nome": "IGUA SERGIPE S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-06-01",
+  "indexador": "CDI+",
+  "spread_contratual": 2.5,
+  "indexador_raw": "DI + 2,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.75,
+    "taxa_venda": 2.2711,
+    "taxa_indicativa": 2.5014,
+    "desvio_padrao": 0.0239,
+    "intervalo_min": 2.4774,
+    "intervalo_max": 2.5254,
+    "pu": 999.966205,
+    "pct_pu_par": 99.9966,
+    "duration_du": 623.45,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRISPEDBS010",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 3,
+    "registro_cvm": "AUT/DEB/PRI/2025/312",
+    "data_registro_cvm": "2025-04-16",
+    "data_emissao": "2025-03-21",
+    "data_vencimento": "2029-06-01",
+    "data_novo_vcto": "2029-06-01",
+    "inicio_rentabilidade": "2025-04-29",
+    "inicio_distribuicao": "2025-04-16",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 800000,
+    "qtd_mercado": 800000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 2.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-06-01",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "58070452000120",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-03-21",
+  "primeiro_cupom": "2026-06-01",
+  "cnpj_emissor": "58070452000120",
+  "isin": "BRISPEDBS010",
+  "snd_atualizado_em": "2026-06-02T15:11:59",
+  "eventos_passados": [
+    {
+      "data": "2026-06-01",
+      "tipo": "Juros",
+      "valor": 193.4461
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:16",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-12-01",
+        "data_pagamento": "2026-12-01",
+        "base": "DI",
+        "taxa_pct": 2.5
+      },
+      {
+        "data_evento": "2027-06-01",
+        "data_pagamento": "2027-06-01",
+        "base": "DI",
+        "taxa_pct": 2.5
+      },
+      {
+        "data_evento": "2027-12-01",
+        "data_pagamento": "2027-12-01",
+        "base": "DI",
+        "taxa_pct": 2.5
+      },
+      {
+        "data_evento": "2028-06-01",
+        "data_pagamento": "2028-06-01",
+        "base": "DI",
+        "taxa_pct": 2.5
+      },
+      {
+        "data_evento": "2028-12-01",
+        "data_pagamento": "2028-12-01",
+        "base": "DI",
+        "taxa_pct": 2.5
+      },
+      {
+        "data_evento": "2029-06-01",
+        "data_pagamento": "2029-06-01",
+        "base": "DI",
+        "taxa_pct": 2.5
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-06-01",
+      "data_pagamento": "2029-06-01"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-06-01",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

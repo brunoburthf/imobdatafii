@@ -1,0 +1,610 @@
+{
+  "codigo": "SNGO19",
+  "nome": "SANEAMENTO DE GOIÁS - SANEAGO",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2026-08-11",
+  "indexador": "CDI+",
+  "spread_contratual": 1.9,
+  "indexador_raw": "DI + 1,9%",
+  "cupom_periodo": "mensal",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.4379,
+    "taxa_venda": 0.1741,
+    "taxa_indicativa": 0.2993,
+    "desvio_padrao": 0.109,
+    "intervalo_min": 0.1904,
+    "intervalo_max": 0.4084,
+    "pu": 84.246969,
+    "pct_pu_par": 100.1779,
+    "duration_du": 28.3,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRSNGODBS0K9",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 9,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-08-11",
+    "data_emissao": "2021-08-11",
+    "data_vencimento": "2026-08-11",
+    "data_novo_vcto": "2026-08-11",
+    "inicio_rentabilidade": "2021-08-25",
+    "inicio_distribuicao": "2021-08-25",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 250000,
+    "qtd_mercado": 250000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 83.333143,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 1,
+    "amort_unidade": "MES",
+    "amort_carencia": "2023-09-11",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.9,
+    "juros_prazo_base": 252,
+    "juros_cada": 1,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-09-11",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "01616929000102",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-08-11",
+  "primeiro_cupom": "2021-09-11",
+  "cnpj_emissor": "01616929000102",
+  "isin": "BRSNGODBS0K9",
+  "snd_atualizado_em": "2026-06-02T15:12:28",
+  "eventos_passados": [
+    {
+      "data": "2021-09-13",
+      "tipo": "Juros",
+      "valor": 3.293
+    },
+    {
+      "data": "2021-10-11",
+      "tipo": "Juros",
+      "valor": 5.9478
+    },
+    {
+      "data": "2021-11-11",
+      "tipo": "Juros",
+      "valor": 7.0681
+    },
+    {
+      "data": "2021-12-13",
+      "tipo": "Juros",
+      "valor": 7.8518
+    },
+    {
+      "data": "2022-01-11",
+      "tipo": "Juros",
+      "valor": 8.9039
+    },
+    {
+      "data": "2022-02-11",
+      "tipo": "Juros",
+      "valor": 10.0843
+    },
+    {
+      "data": "2022-03-11",
+      "tipo": "Juros",
+      "valor": 8.6101
+    },
+    {
+      "data": "2022-04-11",
+      "tipo": "Juros",
+      "valor": 10.6654
+    },
+    {
+      "data": "2022-05-11",
+      "tipo": "Juros",
+      "valor": 10.4353
+    },
+    {
+      "data": "2022-06-13",
+      "tipo": "Juros",
+      "valor": 12.669
+    },
+    {
+      "data": "2022-07-11",
+      "tipo": "Juros",
+      "valor": 10.7384
+    },
+    {
+      "data": "2022-08-11",
+      "tipo": "Juros",
+      "valor": 13.167
+    },
+    {
+      "data": "2022-09-12",
+      "tipo": "Juros",
+      "valor": 12.3064
+    },
+    {
+      "data": "2022-10-11",
+      "tipo": "Juros",
+      "valor": 12.3064
+    },
+    {
+      "data": "2022-11-11",
+      "tipo": "Juros",
+      "valor": 12.3064
+    },
+    {
+      "data": "2022-12-12",
+      "tipo": "Juros",
+      "valor": 11.7169
+    },
+    {
+      "data": "2023-01-11",
+      "tipo": "Juros",
+      "valor": 12.8961
+    },
+    {
+      "data": "2023-02-13",
+      "tipo": "Juros",
+      "valor": 13.4863
+    },
+    {
+      "data": "2023-03-13",
+      "tipo": "Juros",
+      "valor": 10.5391
+    },
+    {
+      "data": "2023-04-11",
+      "tipo": "Juros",
+      "valor": 11.7169
+    },
+    {
+      "data": "2023-05-11",
+      "tipo": "Juros",
+      "valor": 11.7169
+    },
+    {
+      "data": "2023-06-12",
+      "tipo": "Juros",
+      "valor": 12.3064
+    },
+    {
+      "data": "2023-07-11",
+      "tipo": "Juros",
+      "valor": 12.3064
+    },
+    {
+      "data": "2023-08-11",
+      "tipo": "Juros",
+      "valor": 13.3798
+    },
+    {
+      "data": "2023-09-11",
+      "tipo": "Amortizacao",
+      "valor": 27.778
+    },
+    {
+      "data": "2023-09-11",
+      "tipo": "Juros",
+      "valor": 11.3629
+    },
+    {
+      "data": "2023-10-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7774
+    },
+    {
+      "data": "2023-10-11",
+      "tipo": "Juros",
+      "valor": 11.9167
+    },
+    {
+      "data": "2023-11-13",
+      "tipo": "Amortizacao",
+      "valor": 27.778
+    },
+    {
+      "data": "2023-11-13",
+      "tipo": "Juros",
+      "valor": 10.8176
+    },
+    {
+      "data": "2023-12-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2023-12-11",
+      "tipo": "Juros",
+      "valor": 9.2725
+    },
+    {
+      "data": "2024-01-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7778
+    },
+    {
+      "data": "2024-01-11",
+      "tipo": "Juros",
+      "valor": 9.6564
+    },
+    {
+      "data": "2024-02-14",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2024-02-14",
+      "tipo": "Juros",
+      "valor": 9.6455
+    },
+    {
+      "data": "2024-03-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7775
+    },
+    {
+      "data": "2024-03-11",
+      "tipo": "Juros",
+      "valor": 7.4456
+    },
+    {
+      "data": "2024-04-11",
+      "tipo": "Amortizacao",
+      "valor": 27.778
+    },
+    {
+      "data": "2024-04-11",
+      "tipo": "Juros",
+      "valor": 8.6017
+    },
+    {
+      "data": "2024-05-13",
+      "tipo": "Amortizacao",
+      "valor": 27.7776
+    },
+    {
+      "data": "2024-05-13",
+      "tipo": "Juros",
+      "valor": 7.8043
+    },
+    {
+      "data": "2024-06-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7778
+    },
+    {
+      "data": "2024-06-11",
+      "tipo": "Juros",
+      "valor": 7.0425
+    },
+    {
+      "data": "2024-07-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7781
+    },
+    {
+      "data": "2024-07-11",
+      "tipo": "Juros",
+      "valor": 7.4634
+    },
+    {
+      "data": "2024-08-12",
+      "tipo": "Amortizacao",
+      "valor": 27.7778
+    },
+    {
+      "data": "2024-08-12",
+      "tipo": "Juros",
+      "valor": 7.1763
+    },
+    {
+      "data": "2024-09-11",
+      "tipo": "Amortizacao",
+      "valor": 27.778
+    },
+    {
+      "data": "2024-09-11",
+      "tipo": "Juros",
+      "valor": 6.8893
+    },
+    {
+      "data": "2024-10-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7776
+    },
+    {
+      "data": "2024-10-11",
+      "tipo": "Juros",
+      "valor": 6.6949
+    },
+    {
+      "data": "2024-11-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7781
+    },
+    {
+      "data": "2024-11-11",
+      "tipo": "Juros",
+      "valor": 6.1651
+    },
+    {
+      "data": "2024-12-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2024-12-11",
+      "tipo": "Juros",
+      "valor": 5.7939
+    },
+    {
+      "data": "2025-01-13",
+      "tipo": "Amortizacao",
+      "valor": 27.7778
+    },
+    {
+      "data": "2025-01-13",
+      "tipo": "Juros",
+      "valor": 6.1945
+    },
+    {
+      "data": "2025-02-11",
+      "tipo": "Amortizacao",
+      "valor": 27.778
+    },
+    {
+      "data": "2025-02-11",
+      "tipo": "Juros",
+      "valor": 6.0542
+    },
+    {
+      "data": "2025-03-11",
+      "tipo": "Amortizacao",
+      "valor": 27.778
+    },
+    {
+      "data": "2025-03-11",
+      "tipo": "Juros",
+      "valor": 5.1104
+    },
+    {
+      "data": "2025-04-11",
+      "tipo": "Amortizacao",
+      "valor": 27.778
+    },
+    {
+      "data": "2025-04-11",
+      "tipo": "Juros",
+      "valor": 6.4433
+    },
+    {
+      "data": "2025-05-12",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2025-05-12",
+      "tipo": "Juros",
+      "valor": 4.8405
+    },
+    {
+      "data": "2025-06-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7779
+    },
+    {
+      "data": "2025-06-11",
+      "tipo": "Juros",
+      "valor": 5.6963
+    },
+    {
+      "data": "2025-07-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7779
+    },
+    {
+      "data": "2025-07-11",
+      "tipo": "Juros",
+      "valor": 5.1244
+    },
+    {
+      "data": "2025-08-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2025-08-11",
+      "tipo": "Juros",
+      "valor": 4.7773
+    },
+    {
+      "data": "2025-09-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7776
+    },
+    {
+      "data": "2025-09-11",
+      "tipo": "Juros",
+      "valor": 4.8329
+    },
+    {
+      "data": "2025-10-13",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2025-10-13",
+      "tipo": "Juros",
+      "valor": 4.2362
+    },
+    {
+      "data": "2025-11-11",
+      "tipo": "Amortizacao",
+      "valor": 3.6749
+    },
+    {
+      "data": "2025-11-11",
+      "tipo": "Juros",
+      "valor": 27.7777
+    },
+    {
+      "data": "2025-12-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2025-12-11",
+      "tipo": "Juros",
+      "valor": 3.3074
+    },
+    {
+      "data": "2026-01-12",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2026-01-12",
+      "tipo": "Juros",
+      "valor": 2.799
+    },
+    {
+      "data": "2026-02-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2026-02-11",
+      "tipo": "Juros",
+      "valor": 2.6957
+    },
+    {
+      "data": "2026-03-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7778
+    },
+    {
+      "data": "2026-03-11",
+      "tipo": "Juros",
+      "valor": 1.8882
+    },
+    {
+      "data": "2026-04-13",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2026-04-13",
+      "tipo": "Juros",
+      "valor": 1.9061
+    },
+    {
+      "data": "2026-05-11",
+      "tipo": "Amortizacao",
+      "valor": 27.7777
+    },
+    {
+      "data": "2026-05-11",
+      "tipo": "Juros",
+      "valor": 1.2354
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-06-11",
+      "valor_estimado": 27.7777
+    },
+    {
+      "data": "2026-07-11",
+      "valor_estimado": 27.7777
+    },
+    {
+      "data": "2026-08-11",
+      "valor_estimado": 27.7777
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:53",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-11",
+        "data_pagamento": "2026-06-11",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2026-07-11",
+        "data_pagamento": "2026-07-13",
+        "base": "DI",
+        "taxa_pct": 1.9
+      },
+      {
+        "data_evento": "2026-08-11",
+        "data_pagamento": "2026-08-11",
+        "base": "DI",
+        "taxa_pct": 1.9
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-06-11",
+        "data_pagamento": "2026-06-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2026-07-11",
+        "data_pagamento": "2026-07-13",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2026-08-11",
+      "data_pagamento": "2026-08-11"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-06-11",
+      "valor_estimado": 27.7777,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-07-13",
+      "valor_estimado": 27.7777,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2026-08-11",
+      "valor_estimado": 27.7777,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

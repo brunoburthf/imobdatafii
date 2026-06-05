@@ -1,0 +1,322 @@
+{
+  "codigo": "AEGE16",
+  "nome": "EQUIPAV SANEAMENTO S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2034-03-11",
+  "indexador": "CDI+",
+  "spread_contratual": 3.9,
+  "indexador_raw": "DI + 3,9%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 6.7178,
+    "taxa_venda": 4.7731,
+    "taxa_indicativa": 5.6924,
+    "desvio_padrao": 0.5798,
+    "intervalo_min": 5.1127,
+    "intervalo_max": 6.2723,
+    "pu": 979.003546,
+    "pct_pu_par": 94.2444,
+    "duration_du": 863.49,
+    "pct_reune": 5.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRAEGEDBS057",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 6,
+    "registro_cvm": "AUT/DEB/PRI/2024/103",
+    "data_registro_cvm": "2024-03-18",
+    "data_emissao": "2024-03-11",
+    "data_vencimento": "2034-03-11",
+    "data_novo_vcto": "2034-03-11",
+    "inicio_rentabilidade": "2024-03-20",
+    "inicio_distribuicao": "2024-03-18",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1000000,
+    "qtd_mercado": 1000000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-03-11",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 3.9,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-09-11",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "BTG PACTUAL INVESTMENT BANKING LTDA.",
+    "cnpj_emissor": "15385166000140",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-03-11",
+  "primeiro_cupom": "2024-09-11",
+  "cnpj_emissor": "15385166000140",
+  "isin": "BRAEGEDBS057",
+  "snd_atualizado_em": "2026-06-02T15:11:05",
+  "eventos_passados": [
+    {
+      "data": "2024-09-11",
+      "tipo": "Juros",
+      "valor": 69.023
+    },
+    {
+      "data": "2025-03-11",
+      "tipo": "Juros",
+      "valor": 75.1886
+    },
+    {
+      "data": "2025-09-11",
+      "tipo": "Juros",
+      "valor": 92.4949
+    },
+    {
+      "data": "2026-03-11",
+      "tipo": "Juros",
+      "valor": 91.0814
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-03-11",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2029-03-11",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2030-03-11",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2031-03-11",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2032-03-11",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2033-03-11",
+      "valor_estimado": 142.8571
+    },
+    {
+      "data": "2034-03-11",
+      "valor_estimado": 142.8571
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:17",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-11",
+        "data_pagamento": "2026-09-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2027-03-11",
+        "data_pagamento": "2027-03-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2027-09-11",
+        "data_pagamento": "2027-09-13",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2028-03-11",
+        "data_pagamento": "2028-03-13",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2028-09-11",
+        "data_pagamento": "2028-09-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2029-03-11",
+        "data_pagamento": "2029-03-12",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2029-09-11",
+        "data_pagamento": "2029-09-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2030-03-11",
+        "data_pagamento": "2030-03-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2030-09-11",
+        "data_pagamento": "2030-09-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2031-03-11",
+        "data_pagamento": "2031-03-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2031-09-11",
+        "data_pagamento": "2031-09-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2032-03-11",
+        "data_pagamento": "2032-03-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2032-09-11",
+        "data_pagamento": "2032-09-13",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2033-03-11",
+        "data_pagamento": "2033-03-11",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2033-09-11",
+        "data_pagamento": "2033-09-12",
+        "base": "DI",
+        "taxa_pct": 3.9
+      },
+      {
+        "data_evento": "2034-03-11",
+        "data_pagamento": "2034-03-13",
+        "base": "DI",
+        "taxa_pct": 3.9
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-03-11",
+        "data_pagamento": "2028-03-13",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.2
+      },
+      {
+        "data_evento": "2029-03-11",
+        "data_pagamento": "2029-03-12",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 4.0289
+      },
+      {
+        "data_evento": "2030-03-11",
+        "data_pagamento": "2030-03-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 19.9139
+      },
+      {
+        "data_evento": "2031-03-11",
+        "data_pagamento": "2031-03-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 25.0
+      },
+      {
+        "data_evento": "2032-03-11",
+        "data_pagamento": "2032-03-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2033-03-11",
+        "data_pagamento": "2033-03-11",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2034-03-11",
+      "data_pagamento": "2034-03-13"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-03-13",
+      "valor_estimado": 32.0,
+      "percentual": 3.2,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-03-12",
+      "valor_estimado": 38.9998,
+      "percentual": 4.0289,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-03-11",
+      "valor_estimado": 185.0002,
+      "percentual": 19.9139,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-03-11",
+      "valor_estimado": 186.0,
+      "percentual": 25.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2032-03-11",
+      "valor_estimado": 185.9998,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2033-03-11",
+      "valor_estimado": 186.0001,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2034-03-13",
+      "valor_estimado": 186.0001,
+      "percentual": 18.6,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

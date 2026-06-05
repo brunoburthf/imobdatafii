@@ -1,0 +1,136 @@
+{
+  "codigo": "MOVIA3",
+  "nome": "MOVIDA PARTICIPACOES S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-03-05",
+  "indexador": "CDI+",
+  "spread_contratual": 2.5,
+  "indexador_raw": "DI + 2,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.6463,
+    "taxa_venda": 2.1389,
+    "taxa_indicativa": 2.387,
+    "desvio_padrao": 0.1476,
+    "intervalo_min": 2.2394,
+    "intervalo_max": 2.5347,
+    "pu": 1039.234816,
+    "pct_pu_par": 100.0791,
+    "duration_du": 180.6,
+    "pct_reune": 10.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMOVIDBS0M9",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 13,
+    "registro_cvm": "AUT/DEB/PRI/2024/079",
+    "data_registro_cvm": "2024-03-13",
+    "data_emissao": "2024-03-05",
+    "data_vencimento": "2027-03-05",
+    "data_novo_vcto": "2027-03-05",
+    "inicio_rentabilidade": "2024-03-15",
+    "inicio_distribuicao": "2024-03-13",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 800000,
+    "qtd_mercado": 622018,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 2.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-09-05",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "21314559000166",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-03-05",
+  "primeiro_cupom": "2024-09-05",
+  "cnpj_emissor": "21314559000166",
+  "isin": "BRMOVIDBS0M9",
+  "snd_atualizado_em": "2026-06-02T15:12:08",
+  "eventos_passados": [
+    {
+      "data": "2024-09-05",
+      "tipo": "Juros",
+      "valor": 61.5896
+    },
+    {
+      "data": "2025-03-05",
+      "tipo": "Juros",
+      "valor": 67.6757
+    },
+    {
+      "data": "2025-09-05",
+      "tipo": "Juros",
+      "valor": 84.7284
+    },
+    {
+      "data": "2026-03-05",
+      "tipo": "Juros",
+      "valor": 83.8223
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:21",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-05",
+        "data_pagamento": "2026-09-08",
+        "base": "DI",
+        "taxa_pct": 2.5
+      },
+      {
+        "data_evento": "2027-03-05",
+        "data_pagamento": "2027-03-05",
+        "base": "DI",
+        "taxa_pct": 2.5
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2027-03-05",
+      "data_pagamento": "2027-03-05"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-03-05",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

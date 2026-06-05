@@ -1,0 +1,257 @@
+{
+  "codigo": "JALL24",
+  "nome": "JALLES MACHADO S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2033-10-17",
+  "indexador": "IPCA+",
+  "spread_contratual": 7.234,
+  "indexador_raw": "IPCA + 7,234%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.5573,
+    "taxa_venda": 8.3846,
+    "taxa_indicativa": 8.484,
+    "desvio_padrao": 0.0437,
+    "intervalo_min": 8.4402,
+    "intervalo_max": 8.5278,
+    "pu": 1078.63814,
+    "pct_pu_par": 94.2268,
+    "duration_du": 1287.02,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2032"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRJALLDBS044",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 4,
+    "registro_cvm": "CVM/SRE/DEB/2023/002",
+    "data_registro_cvm": "2023-11-01",
+    "data_emissao": "2023-10-16",
+    "data_vencimento": "2033-10-17",
+    "data_novo_vcto": "2033-10-17",
+    "inicio_rentabilidade": "2023-11-06",
+    "inicio_distribuicao": "2023-11-06",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 121901,
+    "qtd_mercado": 121901,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1135.21502,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2031-10-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 7.234,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-04-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "02635522000195",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-10-16",
+  "primeiro_cupom": "2024-04-15",
+  "cnpj_emissor": "02635522000195",
+  "isin": "BRJALLDBS044",
+  "snd_atualizado_em": "2026-06-02T15:12:00",
+  "eventos_passados": [
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 31.3919
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 37.9498
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 37.7467
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 39.2829
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 39.3104
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2031-10-15",
+      "valor_estimado": 378.405
+    },
+    {
+      "data": "2032-10-15",
+      "valor_estimado": 378.405
+    },
+    {
+      "data": "2033-10-15",
+      "valor_estimado": 378.405
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:17",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2028-04-17",
+        "data_pagamento": "2028-04-17",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2028-10-16",
+        "data_pagamento": "2028-10-16",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2029-04-16",
+        "data_pagamento": "2029-04-16",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2029-10-15",
+        "data_pagamento": "2029-10-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2030-04-15",
+        "data_pagamento": "2030-04-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2030-10-15",
+        "data_pagamento": "2030-10-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2031-04-15",
+        "data_pagamento": "2031-04-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2031-10-15",
+        "data_pagamento": "2031-10-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2032-04-15",
+        "data_pagamento": "2032-04-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2032-10-15",
+        "data_pagamento": "2032-10-15",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2033-04-18",
+        "data_pagamento": "2033-04-18",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      },
+      {
+        "data_evento": "2033-10-17",
+        "data_pagamento": "2033-10-17",
+        "base": "IPCA",
+        "taxa_pct": 7.234
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2031-10-15",
+        "data_pagamento": "2031-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2032-10-15",
+        "data_pagamento": "2032-10-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2033-10-17",
+      "data_pagamento": "2033-10-17"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2031-10-15",
+      "valor_estimado": 478.5309,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2032-10-15",
+      "valor_estimado": 500.0655,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2033-10-17",
+      "valor_estimado": 522.5685,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

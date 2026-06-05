@@ -1,0 +1,202 @@
+{
+  "codigo": "CEEBB4",
+  "nome": "CIA DE ELETRICIDADE DO ESTADO DA BAHIA - COELBA",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-04-15",
+  "indexador": "CDI+",
+  "spread_contratual": 1.68,
+  "indexador_raw": "DI + 1,68%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.1335,
+    "taxa_venda": 0.63,
+    "taxa_indicativa": 0.9245,
+    "desvio_padrao": 0.0251,
+    "intervalo_min": 0.8994,
+    "intervalo_max": 0.9497,
+    "pu": 1034.32195,
+    "pct_pu_par": 101.5174,
+    "duration_du": 509.41,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCEEBDBS0L3",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 14,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-04-18",
+    "data_emissao": "2022-04-15",
+    "data_vencimento": "2029-04-15",
+    "data_novo_vcto": "2029-04-15",
+    "inicio_rentabilidade": "2022-04-20",
+    "inicio_distribuicao": "2022-03-30",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 330000,
+    "qtd_mercado": 330000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-04-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.68,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-10-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "15139629000194",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-04-15",
+  "primeiro_cupom": "2022-10-15",
+  "cnpj_emissor": "15139629000194",
+  "isin": "BRCEEBDBS0L3",
+  "snd_atualizado_em": "2026-06-02T15:11:17",
+  "eventos_passados": [
+    {
+      "data": "2022-10-17",
+      "tipo": "Juros",
+      "valor": 71.2298
+    },
+    {
+      "data": "2023-04-17",
+      "tipo": "Juros",
+      "valor": 74.3684
+    },
+    {
+      "data": "2023-10-16",
+      "tipo": "Juros",
+      "valor": 73.127
+    },
+    {
+      "data": "2024-04-15",
+      "tipo": "Juros",
+      "valor": 63.6609
+    },
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 61.2963
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 67.5011
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 80.8743
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 79.3791
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-04-15",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-04-15",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:30",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 1.68
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 1.68
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "DI",
+        "taxa_pct": 1.68
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "DI",
+        "taxa_pct": 1.68
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "DI",
+        "taxa_pct": 1.68
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "DI",
+        "taxa_pct": 1.68
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-04-15",
+      "data_pagamento": "2029-04-16"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-04-17",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-04-16",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

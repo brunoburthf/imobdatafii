@@ -1,0 +1,180 @@
+{
+  "codigo": "JALL11",
+  "nome": "JALLES MACHADO S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2028-12-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 5.5923,
+  "indexador_raw": "IPCA + 5,5923%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 8.635,
+    "taxa_venda": 8.3562,
+    "taxa_indicativa": 8.4862,
+    "desvio_padrao": 0.061,
+    "intervalo_min": 8.4252,
+    "intervalo_max": 8.5473,
+    "pu": 1200.431881,
+    "pct_pu_par": 93.889,
+    "duration_du": 586.6,
+    "pct_reune": null,
+    "referencia_ntnb": "15/08/2028"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRJALLDBS002",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 1,
+    "registro_cvm": "CVM/SER/DEB/2022/001",
+    "data_registro_cvm": "2022-01-03",
+    "data_emissao": "2021-12-15",
+    "data_vencimento": "2028-12-15",
+    "data_novo_vcto": "2028-12-15",
+    "inicio_rentabilidade": "2022-01-05",
+    "inicio_distribuicao": "2022-01-05",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 309569,
+    "qtd_mercado": 309569,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1249.32266,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 5.5923,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-06-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "02635522000195",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-12-15",
+  "primeiro_cupom": "2022-06-15",
+  "cnpj_emissor": "02635522000195",
+  "isin": "BRJALLDBS002",
+  "snd_atualizado_em": "2026-06-02T15:12:03",
+  "eventos_passados": [
+    {
+      "data": "2022-06-15",
+      "tipo": "Juros",
+      "valor": 25.4833
+    },
+    {
+      "data": "2022-12-15",
+      "tipo": "Juros",
+      "valor": 29.0704
+    },
+    {
+      "data": "2023-06-15",
+      "tipo": "Juros",
+      "valor": 29.63
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Juros",
+      "valor": 30.6768
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Juros",
+      "valor": 30.7933
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Juros",
+      "valor": 32.4285
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 32.1664
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 33.8754
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:17",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "IPCA",
+        "taxa_pct": 5.5923
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "IPCA",
+        "taxa_pct": 5.5923
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "IPCA",
+        "taxa_pct": 5.5923
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "IPCA",
+        "taxa_pct": 5.5923
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "IPCA",
+        "taxa_pct": 5.5923
+      },
+      {
+        "data_evento": "2028-12-15",
+        "data_pagamento": "2028-12-15",
+        "base": "IPCA",
+        "taxa_pct": 5.5923
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2028-12-15",
+      "data_pagamento": "2028-12-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-12-15",
+      "valor_estimado": 1394.6504,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

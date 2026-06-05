@@ -1,0 +1,248 @@
+{
+  "codigo": "RUMOA2",
+  "nome": "RUMO S/A",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2029-02-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 4.5,
+  "indexador_raw": "IPCA + 4,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 9.0652,
+    "taxa_venda": null,
+    "taxa_indicativa": 8.8149,
+    "desvio_padrao": 0.1531,
+    "intervalo_min": 8.6618,
+    "intervalo_max": 8.9681,
+    "pu": 1404.973971,
+    "pct_pu_par": 93.7041,
+    "duration_du": 401.55,
+    "pct_reune": 35.0,
+    "referencia_ntnb": "15/08/2028"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRAILDBS019",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 12,
+    "registro_cvm": "CVM/SRE/DEB/2019/004",
+    "data_registro_cvm": "2019-03-18",
+    "data_emissao": "2019-02-15",
+    "data_vencimento": "2029-02-15",
+    "data_novo_vcto": "2029-02-15",
+    "inicio_rentabilidade": "2019-03-19",
+    "inicio_distribuicao": "2019-03-19",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 600000,
+    "qtd_mercado": 600000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1483.02476,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2027-02-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 4.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2019-08-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "VX PAVARINI DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "02387241000160",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-02-15",
+  "primeiro_cupom": "2019-08-15",
+  "cnpj_emissor": "02387241000160",
+  "isin": "BRRAILDBS019",
+  "snd_atualizado_em": "2026-06-02T15:12:24",
+  "eventos_passados": [
+    {
+      "data": "2019-08-15",
+      "tipo": "Juros",
+      "valor": 18.6225
+    },
+    {
+      "data": "2020-02-17",
+      "tipo": "Juros",
+      "valor": 23.625
+    },
+    {
+      "data": "2020-08-17",
+      "tipo": "Juros",
+      "valor": 22.7556
+    },
+    {
+      "data": "2021-02-17",
+      "tipo": "Juros",
+      "valor": 23.9278
+    },
+    {
+      "data": "2021-08-16",
+      "tipo": "Juros",
+      "valor": 25.0046
+    },
+    {
+      "data": "2022-02-15",
+      "tipo": "Juros",
+      "valor": 26.8386
+    },
+    {
+      "data": "2022-08-15",
+      "tipo": "Juros",
+      "valor": 27.2999
+    },
+    {
+      "data": "2023-02-15",
+      "tipo": "Juros",
+      "valor": 28.6144
+    },
+    {
+      "data": "2023-08-15",
+      "tipo": "Juros",
+      "valor": 28.1584
+    },
+    {
+      "data": "2024-02-15",
+      "tipo": "Juros",
+      "valor": 28.9594
+    },
+    {
+      "data": "2024-08-15",
+      "tipo": "Juros",
+      "valor": 30.3926
+    },
+    {
+      "data": "2025-02-17",
+      "tipo": "Juros",
+      "valor": 31.2676
+    },
+    {
+      "data": "2025-08-15",
+      "tipo": "Juros",
+      "valor": 30.9626
+    },
+    {
+      "data": "2026-02-18",
+      "tipo": "Juros",
+      "valor": 32.6562
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-02-15",
+      "valor_estimado": 494.3416
+    },
+    {
+      "data": "2028-02-15",
+      "valor_estimado": 494.3416
+    },
+    {
+      "data": "2029-02-15",
+      "valor_estimado": 494.3416
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:48",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-15",
+        "data_pagamento": "2026-08-17",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      },
+      {
+        "data_evento": "2027-02-15",
+        "data_pagamento": "2027-02-15",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      },
+      {
+        "data_evento": "2027-08-15",
+        "data_pagamento": "2027-08-16",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      },
+      {
+        "data_evento": "2028-02-15",
+        "data_pagamento": "2028-02-15",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      },
+      {
+        "data_evento": "2028-08-15",
+        "data_pagamento": "2028-08-15",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      },
+      {
+        "data_evento": "2029-02-15",
+        "data_pagamento": "2029-02-15",
+        "base": "IPCA",
+        "taxa_pct": 4.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-02-15",
+        "data_pagamento": "2027-02-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2028-02-15",
+        "data_pagamento": "2028-02-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-02-15",
+      "data_pagamento": "2029-02-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-02-15",
+      "valor_estimado": 509.0623,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-02-15",
+      "valor_estimado": 531.9709,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-02-15",
+      "valor_estimado": 555.9096,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

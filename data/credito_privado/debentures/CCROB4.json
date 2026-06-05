@@ -1,0 +1,238 @@
+{
+  "codigo": "CCROB4",
+  "nome": "MOTIVA INFRAESTRUTURA DE MOBILIDADE S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-12-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 4.25,
+  "indexador_raw": "IPCA + 4,25%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 7.837,
+    "taxa_venda": 7.5408,
+    "taxa_indicativa": 7.726,
+    "desvio_padrao": 0.1104,
+    "intervalo_min": 7.6156,
+    "intervalo_max": 7.8365,
+    "pu": 808.241045,
+    "pct_pu_par": 95.3574,
+    "duration_du": 362.44,
+    "pct_reune": null,
+    "referencia_ntnb": "15/05/2027"
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCCRODBS0K7",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 14,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2020-12-16",
+    "data_emissao": "2020-12-15",
+    "data_vencimento": "2028-12-15",
+    "data_novo_vcto": "2028-12-15",
+    "inicio_rentabilidade": "2020-12-17",
+    "inicio_distribuicao": "2020-12-17",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 480000,
+    "qtd_mercado": 480000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 832.126053,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2024-12-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 4.25,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-06-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": null,
+    "cnpj_emissor": "02846056000197",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2020-12-15",
+  "primeiro_cupom": "2021-06-15",
+  "cnpj_emissor": "02846056000197",
+  "isin": "BRCCRODBS0K7",
+  "snd_atualizado_em": "2026-06-02T15:11:15",
+  "eventos_passados": [
+    {
+      "data": "2021-06-15",
+      "tipo": "Juros",
+      "valor": 21.0901
+    },
+    {
+      "data": "2021-12-15",
+      "tipo": "Juros",
+      "valor": 23.4439
+    },
+    {
+      "data": "2022-06-15",
+      "tipo": "Juros",
+      "valor": 24.5481
+    },
+    {
+      "data": "2022-12-15",
+      "tipo": "Juros",
+      "valor": 24.6297
+    },
+    {
+      "data": "2023-06-15",
+      "tipo": "Juros",
+      "valor": 25.1051
+    },
+    {
+      "data": "2023-12-15",
+      "tipo": "Juros",
+      "valor": 25.99
+    },
+    {
+      "data": "2024-06-17",
+      "tipo": "Juros",
+      "valor": 26.0907
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Amortizacao",
+      "valor": 257.1667
+    },
+    {
+      "data": "2024-12-16",
+      "tipo": "Juros",
+      "valor": 27.4734
+    },
+    {
+      "data": "2025-06-16",
+      "tipo": "Juros",
+      "valor": 21.8039
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Amortizacao",
+      "valor": 268.6409
+    },
+    {
+      "data": "2025-12-15",
+      "tipo": "Juros",
+      "valor": 22.9594
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-12-15",
+      "valor_estimado": 277.3754
+    },
+    {
+      "data": "2027-12-15",
+      "valor_estimado": 277.3754
+    },
+    {
+      "data": "2028-12-15",
+      "valor_estimado": 277.3754
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:28",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-15",
+        "data_pagamento": "2026-06-15",
+        "base": "IPCA",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base": "IPCA",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2027-06-15",
+        "data_pagamento": "2027-06-15",
+        "base": "IPCA",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base": "IPCA",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2028-06-15",
+        "data_pagamento": "2028-06-16",
+        "base": "IPCA",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2028-12-15",
+        "data_pagamento": "2028-12-15",
+        "base": "IPCA",
+        "taxa_pct": 4.25
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-12-15",
+        "data_pagamento": "2026-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2027-12-15",
+        "data_pagamento": "2027-12-15",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-12-15",
+      "data_pagamento": "2028-12-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-12-15",
+      "valor_estimado": 283.5473,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-12-15",
+      "valor_estimado": 296.3074,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-12-15",
+      "valor_estimado": 309.6412,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

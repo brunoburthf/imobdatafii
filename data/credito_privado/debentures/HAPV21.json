@@ -1,0 +1,185 @@
+{
+  "codigo": "HAPV21",
+  "nome": "HAPVIDA PARTICIPACOES E INVESTIMENTOS S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2026-07-10",
+  "indexador": "CDIp",
+  "spread_contratual": 110.55,
+  "indexador_raw": "110,55% do DI",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 145.3272,
+    "taxa_venda": 120.0,
+    "taxa_indicativa": 133.7651,
+    "desvio_padrao": 2.0977,
+    "intervalo_min": 131.6675,
+    "intervalo_max": 135.8629,
+    "pu": 527.619254,
+    "pct_pu_par": 99.656,
+    "duration_du": 28.0,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRHAPVDBS014",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 1,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2019-07-29",
+    "data_emissao": "2019-07-10",
+    "data_vencimento": "2026-07-10",
+    "data_novo_vcto": "2026-07-10",
+    "inicio_rentabilidade": "2019-07-30",
+    "inicio_distribuicao": "2019-07-30",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 235112,
+    "qtd_mercado": 235112,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 500.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 11055.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-07-10",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": null,
+    "juros_prazo_base": null,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2020-01-10",
+    "juros_criterio": null,
+    "juros_tipo": null,
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "05197443000138",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-07-10",
+  "primeiro_cupom": "2020-01-10",
+  "cnpj_emissor": "05197443000138",
+  "isin": "BRHAPVDBS014",
+  "snd_atualizado_em": "2026-06-02T15:11:55",
+  "eventos_passados": [
+    {
+      "data": "2020-01-10",
+      "tipo": "Juros",
+      "valor": 26.2819
+    },
+    {
+      "data": "2020-07-10",
+      "tipo": "Juros",
+      "valor": 18.9232
+    },
+    {
+      "data": "2021-01-11",
+      "tipo": "Juros",
+      "valor": 10.6642
+    },
+    {
+      "data": "2021-07-12",
+      "tipo": "Juros",
+      "valor": 14.9815
+    },
+    {
+      "data": "2022-01-10",
+      "tipo": "Juros",
+      "valor": 35.0906
+    },
+    {
+      "data": "2022-07-11",
+      "tipo": "Juros",
+      "valor": 61.4589
+    },
+    {
+      "data": "2023-01-10",
+      "tipo": "Juros",
+      "valor": 73.514
+    },
+    {
+      "data": "2023-07-10",
+      "tipo": "Juros",
+      "valor": 71.4795
+    },
+    {
+      "data": "2024-01-10",
+      "tipo": "Juros",
+      "valor": 68.2119
+    },
+    {
+      "data": "2024-07-10",
+      "tipo": "Juros",
+      "valor": 57.9699
+    },
+    {
+      "data": "2025-01-10",
+      "tipo": "Juros",
+      "valor": 59.6063
+    },
+    {
+      "data": "2025-07-10",
+      "tipo": "Amortizacao",
+      "valor": 500.0
+    },
+    {
+      "data": "2025-07-10",
+      "tipo": "Juros",
+      "valor": 72.5369
+    },
+    {
+      "data": "2026-01-12",
+      "tipo": "Juros",
+      "valor": 40.8847
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-07-10",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:13",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-10",
+        "data_pagamento": "2026-07-10",
+        "base": "DI",
+        "taxa_pct": 0.0
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2026-07-10",
+      "data_pagamento": "2026-07-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-07-10",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

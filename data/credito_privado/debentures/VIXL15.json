@@ -1,0 +1,165 @@
+{
+  "codigo": "VIXL15",
+  "nome": "VIX LOGÍSTICA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2026-10-26",
+  "indexador": "CDI+",
+  "spread_contratual": 2.15,
+  "indexador_raw": "DI + 2,15%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.3729,
+    "taxa_venda": 0.7555,
+    "taxa_indicativa": 1.0473,
+    "desvio_padrao": 0.0827,
+    "intervalo_min": 0.9646,
+    "intervalo_max": 1.1301,
+    "pu": 509.722102,
+    "pct_pu_par": 100.4403,
+    "duration_du": 102.0,
+    "pct_reune": 45.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRVIXLDBS054",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 5,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2021-11-04",
+    "data_emissao": "2021-10-26",
+    "data_vencimento": "2026-10-26",
+    "data_novo_vcto": "2026-10-26",
+    "inicio_rentabilidade": "2021-11-05",
+    "inicio_distribuicao": "2021-11-05",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 203140,
+    "qtd_mercado": 112326,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 500.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-10-26",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.15,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-04-26",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "32681371000172",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-10-26",
+  "primeiro_cupom": "2022-04-26",
+  "cnpj_emissor": "32681371000172",
+  "isin": "BRVIXLDBS054",
+  "snd_atualizado_em": "2026-06-02T15:12:41",
+  "eventos_passados": [
+    {
+      "data": "2022-04-26",
+      "tipo": "Juros",
+      "valor": 54.5518
+    },
+    {
+      "data": "2022-10-26",
+      "tipo": "Juros",
+      "valor": 76.4371
+    },
+    {
+      "data": "2023-04-26",
+      "tipo": "Juros",
+      "valor": 76.1915
+    },
+    {
+      "data": "2023-10-26",
+      "tipo": "Juros",
+      "valor": 76.5571
+    },
+    {
+      "data": "2024-04-26",
+      "tipo": "Juros",
+      "valor": 65.9698
+    },
+    {
+      "data": "2024-10-28",
+      "tipo": "Juros",
+      "valor": 63.8047
+    },
+    {
+      "data": "2025-04-28",
+      "tipo": "Juros",
+      "valor": 69.8118
+    },
+    {
+      "data": "2025-10-27",
+      "tipo": "Amortizacao",
+      "valor": 500.0
+    },
+    {
+      "data": "2025-10-27",
+      "tipo": "Juros",
+      "valor": 84.2753
+    },
+    {
+      "data": "2026-04-27",
+      "tipo": "Juros",
+      "valor": 40.5392
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-10-26",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:35:08",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-26",
+        "data_pagamento": "2026-10-26",
+        "base": "DI",
+        "taxa_pct": 2.15
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2026-10-26",
+      "data_pagamento": "2026-10-26"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-10-26",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

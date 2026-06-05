@@ -1,0 +1,203 @@
+{
+  "codigo": "ARML13",
+  "nome": "ARMAC LOCACAO LOGISTICA E SERVICOS S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-11-04",
+  "indexador": "CDI+",
+  "spread_contratual": 2.25,
+  "indexador_raw": "DI + 2,25%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.5174,
+    "taxa_venda": 2.1039,
+    "taxa_indicativa": 2.3335,
+    "desvio_padrao": 0.0599,
+    "intervalo_min": 2.2736,
+    "intervalo_max": 2.3934,
+    "pu": 1010.539724,
+    "pct_pu_par": 99.8043,
+    "duration_du": 604.52,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRARMLDBS029",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 3,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-11-04",
+    "data_emissao": "2022-11-04",
+    "data_vencimento": "2029-11-04",
+    "data_novo_vcto": "2029-11-04",
+    "inicio_rentabilidade": "2022-11-10",
+    "inicio_distribuicao": "2022-10-24",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 300000,
+    "qtd_mercado": 300000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-11-04",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.25,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-05-04",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "00242184000104",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-11-04",
+  "primeiro_cupom": "2023-05-04",
+  "cnpj_emissor": "00242184000104",
+  "isin": "BRARMLDBS029",
+  "snd_atualizado_em": "2026-06-02T15:11:08",
+  "eventos_passados": [
+    {
+      "data": "2023-05-04",
+      "tipo": "Juros",
+      "valor": 73.5057
+    },
+    {
+      "data": "2023-11-06",
+      "tipo": "Juros",
+      "valor": 77.4845
+    },
+    {
+      "data": "2024-05-06",
+      "tipo": "Juros",
+      "valor": 65.5251
+    },
+    {
+      "data": "2024-11-04",
+      "tipo": "Juros",
+      "valor": 64.3377
+    },
+    {
+      "data": "2025-05-05",
+      "tipo": "Juros",
+      "valor": 70.3234
+    },
+    {
+      "data": "2025-11-04",
+      "tipo": "Juros",
+      "valor": 86.3155
+    },
+    {
+      "data": "2026-05-04",
+      "tipo": "Juros",
+      "valor": 80.1658
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-11-04",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-11-04",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:20",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-04",
+        "data_pagamento": "2026-11-04",
+        "base": "DI",
+        "taxa_pct": 2.25
+      },
+      {
+        "data_evento": "2027-05-04",
+        "data_pagamento": "2027-05-04",
+        "base": "DI",
+        "taxa_pct": 2.25
+      },
+      {
+        "data_evento": "2027-11-04",
+        "data_pagamento": "2027-11-04",
+        "base": "DI",
+        "taxa_pct": 2.25
+      },
+      {
+        "data_evento": "2028-05-04",
+        "data_pagamento": "2028-05-04",
+        "base": "DI",
+        "taxa_pct": 2.25
+      },
+      {
+        "data_evento": "2028-11-04",
+        "data_pagamento": "2028-11-06",
+        "base": "DI",
+        "taxa_pct": 2.25
+      },
+      {
+        "data_evento": "2029-05-04",
+        "data_pagamento": "2029-05-04",
+        "base": "DI",
+        "taxa_pct": 2.25
+      },
+      {
+        "data_evento": "2029-11-04",
+        "data_pagamento": "2029-11-05",
+        "base": "DI",
+        "taxa_pct": 2.25
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-11-04",
+        "data_pagamento": "2028-11-06",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-11-04",
+      "data_pagamento": "2029-11-05"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-11-06",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-11-05",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

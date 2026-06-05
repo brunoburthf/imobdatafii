@@ -1,0 +1,160 @@
+{
+  "codigo": "ELET15",
+  "nome": "CENTRAIS ELETRICAS BRASILEIRAS S/A ELETROBRAS",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-04-15",
+  "indexador": "CDI+",
+  "spread_contratual": 0.85,
+  "indexador_raw": "DI + 0,85%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.6789,
+    "taxa_venda": 0.479,
+    "taxa_indicativa": 0.5573,
+    "desvio_padrao": 0.0621,
+    "intervalo_min": 0.4951,
+    "intervalo_max": 0.6195,
+    "pu": 1024.941023,
+    "pct_pu_par": 100.6982,
+    "duration_du": 603.47,
+    "pct_reune": 10.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRELETDBS081",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 5,
+    "registro_cvm": "AUT/DEB/PRI/2024/185",
+    "data_registro_cvm": "2024-04-18",
+    "data_emissao": "2024-04-15",
+    "data_vencimento": "2029-04-15",
+    "data_novo_vcto": "2029-04-15",
+    "inicio_rentabilidade": "2024-04-19",
+    "inicio_distribuicao": "2024-04-18",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1988895,
+    "qtd_mercado": 1988895,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 0.85,
+    "juros_prazo_base": null,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-10-15",
+    "juros_criterio": null,
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "VORTX DTVM LTDA.",
+    "instituicao_depositaria": null,
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "00001180000126",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-04-15",
+  "primeiro_cupom": "2024-10-15",
+  "cnpj_emissor": "00001180000126",
+  "isin": "BRELETDBS081",
+  "snd_atualizado_em": "2026-06-02T15:11:38",
+  "eventos_passados": [
+    {
+      "data": "2024-10-15",
+      "tipo": "Juros",
+      "valor": 55.0146
+    },
+    {
+      "data": "2025-04-15",
+      "tipo": "Juros",
+      "valor": 63.2044
+    },
+    {
+      "data": "2025-10-15",
+      "tipo": "Juros",
+      "valor": 76.4187
+    },
+    {
+      "data": "2026-04-15",
+      "tipo": "Juros",
+      "valor": 75.0346
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:56",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-10-15",
+        "data_pagamento": "2026-10-15",
+        "base": "DI",
+        "taxa_pct": 0.85
+      },
+      {
+        "data_evento": "2027-04-15",
+        "data_pagamento": "2027-04-15",
+        "base": "DI",
+        "taxa_pct": 0.85
+      },
+      {
+        "data_evento": "2027-10-15",
+        "data_pagamento": "2027-10-15",
+        "base": "DI",
+        "taxa_pct": 0.85
+      },
+      {
+        "data_evento": "2028-04-15",
+        "data_pagamento": "2028-04-17",
+        "base": "DI",
+        "taxa_pct": 0.85
+      },
+      {
+        "data_evento": "2028-10-15",
+        "data_pagamento": "2028-10-16",
+        "base": "DI",
+        "taxa_pct": 0.85
+      },
+      {
+        "data_evento": "2029-04-15",
+        "data_pagamento": "2029-04-16",
+        "base": "DI",
+        "taxa_pct": 0.85
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2029-04-15",
+      "data_pagamento": "2029-04-16"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2029-04-16",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}

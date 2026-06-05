@@ -1,0 +1,29 @@
+# Netlify cache headers
+# Doc: https://docs.netlify.com/routing/headers/
+
+# HTML pages: must always revalidate so users always pick up new script
+# version tags (?v=N). Without no-cache, an old HTML served from CDN/
+# browser cache points to old JS, even though the JS itself was updated.
+/*.html
+  Cache-Control: public, no-cache, must-revalidate
+
+# Same for the bare path (homepage etc.)
+/
+  Cache-Control: public, no-cache, must-revalidate
+
+# Static assets: short cache (5 min) so query string version bumps
+# pick up within a few minutes even on stale caches. With query strings,
+# this is safe because /js/foo.js?v=23 is a different URL than ?v=22.
+/js/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+/css/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Data JSON: short cache + revalidate (data updates daily via workflows)
+/data/*
+  Cache-Control: public, max-age=300, must-revalidate
+
+# Images can cache longer (rarely change in place)
+/img/*
+  Cache-Control: public, max-age=86400

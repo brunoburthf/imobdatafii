@@ -1,0 +1,148 @@
+{
+  "codigo": "ASAI18",
+  "nome": "SENDAS DISTRIBUIDORA S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-12-22",
+  "indexador": "CDI+",
+  "spread_contratual": 1.85,
+  "indexador_raw": "DI + 1,85%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.7,
+    "taxa_venda": 0.9257,
+    "taxa_indicativa": 1.34,
+    "desvio_padrao": 0.1932,
+    "intervalo_min": 1.1467,
+    "intervalo_max": 1.5333,
+    "pu": 1076.302131,
+    "pct_pu_par": 100.6778,
+    "duration_du": 339.24,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRASAIDBS069",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 8,
+    "registro_cvm": "AUT/DEB/PRI/2023/413",
+    "data_registro_cvm": "2023-12-19",
+    "data_emissao": "2023-12-22",
+    "data_vencimento": "2027-12-22",
+    "data_novo_vcto": "2027-12-22",
+    "inicio_rentabilidade": "2023-12-22",
+    "inicio_distribuicao": "2023-12-19",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 400000,
+    "qtd_mercado": 400000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 1.85,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2024-06-22",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "06057223000171",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2023-12-22",
+  "primeiro_cupom": "2024-06-22",
+  "cnpj_emissor": "06057223000171",
+  "isin": "BRASAIDBS069",
+  "snd_atualizado_em": "2026-06-02T15:11:09",
+  "eventos_passados": [
+    {
+      "data": "2024-06-24",
+      "tipo": "Juros",
+      "valor": 61.9363
+    },
+    {
+      "data": "2024-12-23",
+      "tipo": "Juros",
+      "valor": 62.8303
+    },
+    {
+      "data": "2025-06-23",
+      "tipo": "Juros",
+      "valor": 73.0612
+    },
+    {
+      "data": "2025-12-22",
+      "tipo": "Juros",
+      "valor": 83.8105
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:21",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-22",
+        "data_pagamento": "2026-06-22",
+        "base": "DI",
+        "taxa_pct": 1.85
+      },
+      {
+        "data_evento": "2026-12-22",
+        "data_pagamento": "2026-12-22",
+        "base": "DI",
+        "taxa_pct": 1.85
+      },
+      {
+        "data_evento": "2027-06-22",
+        "data_pagamento": "2027-06-22",
+        "base": "DI",
+        "taxa_pct": 1.85
+      },
+      {
+        "data_evento": "2027-12-22",
+        "data_pagamento": "2027-12-22",
+        "base": "DI",
+        "taxa_pct": 1.85
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2027-12-22",
+      "data_pagamento": "2027-12-22"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-12-22",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

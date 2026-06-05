@@ -1,0 +1,187 @@
+{
+  "codigo": "CEEBD1",
+  "nome": "CIA DE ELETRICIDADE DO ESTADO DA BAHIA - COELBA",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2032-11-15",
+  "indexador": "PREFIX",
+  "spread_contratual": 11.6692,
+  "indexador_raw": "PREFIXADO 11,6692%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 14.2215,
+    "taxa_venda": 13.2074,
+    "taxa_indicativa": 13.8656,
+    "desvio_padrao": 0.0815,
+    "intervalo_min": 13.784,
+    "intervalo_max": 13.9472,
+    "pu": 917.623951,
+    "pct_pu_par": 91.3214,
+    "duration_du": 1163.16,
+    "pct_reune": 50.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:24",
+  "snd": {
+    "isin": "BRCEEBDBS120",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 22,
+    "registro_cvm": "AUT/DEB/PRI/2025/856",
+    "data_registro_cvm": "2025-11-27",
+    "data_emissao": "2025-11-15",
+    "data_vencimento": "2032-11-15",
+    "data_novo_vcto": "2032-11-15",
+    "inicio_rentabilidade": "2025-11-28",
+    "inicio_distribuicao": "2025-11-27",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 2100000,
+    "qtd_mercado": 2100000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "PRÉ",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 11.6692,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-05-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "15139629000194",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-11-15",
+  "primeiro_cupom": "2026-05-15",
+  "cnpj_emissor": "15139629000194",
+  "isin": "BRCEEBDBS120",
+  "snd_atualizado_em": "2026-06-02T15:11:18",
+  "eventos_passados": [
+    {
+      "data": "2026-05-15",
+      "tipo": "Juros",
+      "valor": 50.7309
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:30",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-15",
+        "data_pagamento": "2026-11-16",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2027-05-15",
+        "data_pagamento": "2027-05-17",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2027-11-15",
+        "data_pagamento": "2027-11-16",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2028-05-15",
+        "data_pagamento": "2028-05-15",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2028-11-15",
+        "data_pagamento": "2028-11-16",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2029-05-15",
+        "data_pagamento": "2029-05-15",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2029-11-15",
+        "data_pagamento": "2029-11-16",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2030-05-15",
+        "data_pagamento": "2030-05-15",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2030-11-15",
+        "data_pagamento": "2030-11-18",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2031-05-15",
+        "data_pagamento": "2031-05-15",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2031-11-15",
+        "data_pagamento": "2031-11-17",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2032-05-15",
+        "data_pagamento": "2032-05-17",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      },
+      {
+        "data_evento": "2032-11-15",
+        "data_pagamento": "2032-11-16",
+        "base": "PRÉ",
+        "taxa_pct": 11.6692
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2032-11-15",
+      "data_pagamento": "2032-11-16"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2032-11-16",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

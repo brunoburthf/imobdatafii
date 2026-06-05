@@ -1,0 +1,170 @@
+{
+  "codigo": "TBLE26",
+  "nome": "ENGIE BRASIL ENERGIA S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2026-07-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.2515,
+  "indexador_raw": "IPCA + 6,2515%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 10.313,
+    "taxa_venda": 9.3397,
+    "taxa_indicativa": 9.6894,
+    "desvio_padrao": 0.299,
+    "intervalo_min": 9.3904,
+    "intervalo_max": 9.9886,
+    "pu": 567.382964,
+    "pct_pu_par": 99.609,
+    "duration_du": 31.0,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BREGIEDBS027",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 6,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2016-07-26",
+    "data_emissao": "2016-07-15",
+    "data_vencimento": "2026-07-15",
+    "data_novo_vcto": "2026-07-15",
+    "inicio_rentabilidade": "2016-07-27",
+    "inicio_distribuicao": "2016-07-27",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 353400,
+    "qtd_mercado": 353400,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 540.793716,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": 333333.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2024-07-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal de emissão em períodos uniformes",
+    "juros_taxa": 6.2515,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2017-07-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO CITIBANK S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO CITIBANK S/A",
+    "coordenador_lider": "BANCO J. SAFRA S/A",
+    "cnpj_emissor": "02474103000119",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2016-07-15",
+  "primeiro_cupom": "2017-07-15",
+  "cnpj_emissor": "02474103000119",
+  "isin": "BREGIEDBS027",
+  "snd_atualizado_em": "2026-06-02T15:12:32",
+  "eventos_passados": [
+    {
+      "data": "2017-07-17",
+      "tipo": "Juros",
+      "valor": 61.8996
+    },
+    {
+      "data": "2018-07-16",
+      "tipo": "Juros",
+      "valor": 66.2615
+    },
+    {
+      "data": "2019-07-15",
+      "tipo": "Juros",
+      "valor": 68.492
+    },
+    {
+      "data": "2020-07-15",
+      "tipo": "Juros",
+      "valor": 71.1108
+    },
+    {
+      "data": "2021-07-15",
+      "tipo": "Juros",
+      "valor": 76.4189
+    },
+    {
+      "data": "2022-07-15",
+      "tipo": "Juros",
+      "valor": 85.8538
+    },
+    {
+      "data": "2023-07-17",
+      "tipo": "Juros",
+      "valor": 88.2058
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Amortizacao",
+      "valor": 492.214
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 91.1802
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Amortizacao",
+      "valor": 518.5538
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 64.5698
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-07-15",
+      "valor_estimado": 540.7937
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:56",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "IPCA",
+        "taxa_pct": 6.2515
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2026-07-15",
+      "data_pagamento": "2026-07-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-07-15",
+      "valor_estimado": 542.781,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

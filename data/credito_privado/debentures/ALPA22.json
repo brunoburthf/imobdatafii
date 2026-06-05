@@ -1,0 +1,204 @@
+{
+  "codigo": "ALPA22",
+  "nome": "ALPARGATAS S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-12-12",
+  "indexador": "CDI+",
+  "spread_contratual": 1.5,
+  "indexador_raw": "DI + 1,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.9246,
+    "taxa_venda": 0.4848,
+    "taxa_indicativa": 0.7287,
+    "desvio_padrao": 0.165,
+    "intervalo_min": 0.5636,
+    "intervalo_max": 0.8938,
+    "pu": 1090.778286,
+    "pct_pu_par": 101.8091,
+    "duration_du": 593.43,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRALPADBS044",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 2,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-12-12",
+    "data_emissao": "2022-12-12",
+    "data_vencimento": "2029-12-12",
+    "data_novo_vcto": "2029-12-12",
+    "inicio_rentabilidade": "2022-12-13",
+    "inicio_distribuicao": "2022-12-05",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 250000,
+    "qtd_mercado": 250000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2028-12-12",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 1.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-06-12",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "61079117000105",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-12-12",
+  "primeiro_cupom": "2023-06-12",
+  "cnpj_emissor": "61079117000105",
+  "isin": "BRALPADBS044",
+  "snd_atualizado_em": "2026-06-02T15:11:07",
+  "eventos_passados": [
+    {
+      "data": "2023-06-12",
+      "tipo": "Juros",
+      "valor": 72.2084
+    },
+    {
+      "data": "2023-12-12",
+      "tipo": "Juros",
+      "valor": 71.4413
+    },
+    {
+      "data": "2024-06-12",
+      "tipo": "Juros",
+      "valor": 60.5556
+    },
+    {
+      "data": "2024-12-12",
+      "tipo": "Juros",
+      "valor": 60.9894
+    },
+    {
+      "data": "2025-06-12",
+      "tipo": "Juros",
+      "valor": 71.2535
+    },
+    {
+      "data": "2025-12-12",
+      "tipo": "Juros",
+      "valor": 81.8556
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2028-12-12",
+      "valor_estimado": 500.0
+    },
+    {
+      "data": "2029-12-12",
+      "valor_estimado": 500.0
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:19",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-12",
+        "data_pagamento": "2026-06-12",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2026-12-12",
+        "data_pagamento": "2026-12-14",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2027-06-12",
+        "data_pagamento": "2027-06-14",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2027-12-12",
+        "data_pagamento": "2027-12-13",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2028-06-12",
+        "data_pagamento": "2028-06-12",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2028-12-12",
+        "data_pagamento": "2028-12-12",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2029-06-12",
+        "data_pagamento": "2029-06-12",
+        "base": "DI",
+        "taxa_pct": 1.5
+      },
+      {
+        "data_evento": "2029-12-12",
+        "data_pagamento": "2029-12-12",
+        "base": "DI",
+        "taxa_pct": 1.5
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2028-12-12",
+        "data_pagamento": "2028-12-12",
+        "base_calc": "VNA FIX/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2029-12-12",
+      "data_pagamento": "2029-12-12"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-12-12",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA FIX/UNIF"
+    },
+    {
+      "data": "2029-12-12",
+      "valor_estimado": 500.0,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

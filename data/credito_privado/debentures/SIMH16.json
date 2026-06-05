@@ -1,0 +1,243 @@
+{
+  "codigo": "SIMH16",
+  "nome": "SIMPAR S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2029-12-20",
+  "indexador": "CDI+",
+  "spread_contratual": 3.2,
+  "indexador_raw": "DI + 3,2%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 5.078,
+    "taxa_venda": 3.8414,
+    "taxa_indicativa": 4.384,
+    "desvio_padrao": 0.2586,
+    "intervalo_min": 4.1255,
+    "intervalo_max": 4.6427,
+    "pu": 1043.785999,
+    "pct_pu_par": 97.0868,
+    "duration_du": 650.85,
+    "pct_reune": 15.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRSIMHDBS077",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 6,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-12-30",
+    "data_emissao": "2022-12-20",
+    "data_vencimento": "2032-12-20",
+    "data_novo_vcto": "2032-12-20",
+    "inicio_rentabilidade": "2023-01-02",
+    "inicio_distribuicao": "2022-12-02",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 850000,
+    "qtd_mercado": 850000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2030-12-20",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 3.2,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-06-20",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BCO BTG PACTUAL S/A",
+    "cnpj_emissor": "07415333000120",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-12-20",
+  "primeiro_cupom": "2023-06-20",
+  "cnpj_emissor": "07415333000120",
+  "isin": "BRSIMHDBS077",
+  "snd_atualizado_em": "2026-06-02T15:12:28",
+  "eventos_passados": [
+    {
+      "data": "2023-06-20",
+      "tipo": "Juros",
+      "valor": 75.4786
+    },
+    {
+      "data": "2023-12-20",
+      "tipo": "Juros",
+      "valor": 80.0296
+    },
+    {
+      "data": "2024-06-20",
+      "tipo": "Juros",
+      "valor": 68.9348
+    },
+    {
+      "data": "2024-12-20",
+      "tipo": "Juros",
+      "valor": 70.4499
+    },
+    {
+      "data": "2025-06-20",
+      "tipo": "Juros",
+      "valor": 79.8198
+    },
+    {
+      "data": "2025-12-22",
+      "tipo": "Juros",
+      "valor": 91.8788
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:52",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-06-20",
+        "data_pagamento": "2026-06-22",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2026-12-20",
+        "data_pagamento": "2026-12-21",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2027-06-20",
+        "data_pagamento": "2027-06-21",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2027-12-20",
+        "data_pagamento": "2027-12-20",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2028-06-20",
+        "data_pagamento": "2028-06-20",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2028-12-20",
+        "data_pagamento": "2028-12-20",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2029-06-20",
+        "data_pagamento": "2029-06-20",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2029-12-20",
+        "data_pagamento": "2029-12-20",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2030-06-20",
+        "data_pagamento": "2030-06-21",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2030-12-20",
+        "data_pagamento": "2030-12-20",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2031-06-20",
+        "data_pagamento": "2031-06-20",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2031-12-20",
+        "data_pagamento": "2031-12-22",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2032-06-20",
+        "data_pagamento": "2032-06-21",
+        "base": "DI",
+        "taxa_pct": 3.2
+      },
+      {
+        "data_evento": "2032-12-20",
+        "data_pagamento": "2032-12-20",
+        "base": "DI",
+        "taxa_pct": 3.2
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2030-12-20",
+        "data_pagamento": "2030-12-20",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2031-12-20",
+        "data_pagamento": "2031-12-22",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2032-12-20",
+      "data_pagamento": "2032-12-20"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2030-12-20",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2031-12-22",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2032-12-20",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:03"
+}

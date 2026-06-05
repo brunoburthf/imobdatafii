@@ -1,0 +1,113 @@
+{
+  "codigo": "RAIZ23",
+  "nome": "RAIZEN S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2039-09-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 6.4794,
+  "indexador_raw": "IPCA + 6,4794%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": null,
+    "taxa_venda": null,
+    "taxa_indicativa": null,
+    "desvio_padrao": null,
+    "intervalo_min": null,
+    "intervalo_max": null,
+    "pu": 517.490465,
+    "pct_pu_par": 46.99,
+    "duration_du": null,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRAIZDBS027",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 3,
+    "registro_cvm": "AUT/DEB/PRI/2024/626",
+    "data_registro_cvm": "2024-10-07",
+    "data_emissao": "2024-09-15",
+    "data_vencimento": "2039-09-15",
+    "data_novo_vcto": "2039-09-15",
+    "inicio_rentabilidade": "2024-10-08",
+    "inicio_distribuicao": "2024-10-07",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 629000,
+    "qtd_mercado": 0,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Não Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": null,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2037-09-15",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.0,
+    "juros_prazo_base": null,
+    "juros_cada": null,
+    "juros_unidade": null,
+    "primeiro_cupom": null,
+    "juros_criterio": null,
+    "juros_tipo": null,
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "ITAU UNIBANCO HOLDING S.A",
+    "cnpj_emissor": "33453598000123",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-09-15",
+  "cnpj_emissor": "33453598000123",
+  "isin": "BRRAIZDBS027",
+  "snd_atualizado_em": "2026-06-02T15:12:18",
+  "eventos_passados": [
+    {
+      "data": "2025-03-17",
+      "tipo": "Juros",
+      "valor": 28.1111
+    },
+    {
+      "data": "2025-09-15",
+      "tipo": "Juros",
+      "valor": 33.4126
+    },
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 33.5603
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2037-09-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2038-09-15",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2039-09-15",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:35"
+}

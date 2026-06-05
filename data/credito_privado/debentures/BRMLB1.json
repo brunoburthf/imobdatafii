@@ -1,0 +1,259 @@
+{
+  "codigo": "BRMLB1",
+  "nome": "BR MALLS PARTICIPAÇÕES S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2034-08-20",
+  "indexador": "CDI+",
+  "spread_contratual": 0.95,
+  "indexador_raw": "DI + 0,95%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 0.7601,
+    "taxa_venda": 0.4303,
+    "taxa_indicativa": 0.6046,
+    "desvio_padrao": 0.1113,
+    "intervalo_min": 0.4933,
+    "intervalo_max": 0.716,
+    "pu": 1056.393486,
+    "pct_pu_par": 101.5556,
+    "duration_du": 1137.9,
+    "pct_reune": 50.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRBRMLDBS0C6",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 11,
+    "registro_cvm": "AUT/DEB/PRI/2024/507",
+    "data_registro_cvm": "2024-08-26",
+    "data_emissao": "2024-08-20",
+    "data_vencimento": "2034-08-20",
+    "data_novo_vcto": "2034-08-20",
+    "inicio_rentabilidade": "2024-08-28",
+    "inicio_distribuicao": "2024-08-26",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 1858166,
+    "qtd_mercado": 1858166,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2032-08-20",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 0.95,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-02-20",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "ITAU UNIBANCO S.A.",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "ITAU CV S/A",
+    "coordenador_lider": "XP INVESTIMENTOS CCTVM S/A",
+    "cnpj_emissor": "06977745000191",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-08-20",
+  "primeiro_cupom": "2025-02-20",
+  "cnpj_emissor": "06977745000191",
+  "isin": "BRBRMLDBS0C6",
+  "snd_atualizado_em": "2026-06-02T15:11:12",
+  "eventos_passados": [
+    {
+      "data": "2025-02-20",
+      "tipo": "Juros",
+      "valor": 58.585
+    },
+    {
+      "data": "2025-08-20",
+      "tipo": "Juros",
+      "valor": 72.7444
+    },
+    {
+      "data": "2026-02-20",
+      "tipo": "Juros",
+      "valor": 77.6278
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2032-08-20",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2033-08-20",
+      "valor_estimado": 333.3333
+    },
+    {
+      "data": "2034-08-20",
+      "valor_estimado": 333.3333
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:25",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-20",
+        "data_pagamento": "2026-08-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2027-02-20",
+        "data_pagamento": "2027-02-22",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2027-08-20",
+        "data_pagamento": "2027-08-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2028-02-20",
+        "data_pagamento": "2028-02-21",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2028-08-20",
+        "data_pagamento": "2028-08-21",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2029-02-20",
+        "data_pagamento": "2029-02-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2029-08-20",
+        "data_pagamento": "2029-08-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2030-02-20",
+        "data_pagamento": "2030-02-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2030-08-20",
+        "data_pagamento": "2030-08-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2031-02-20",
+        "data_pagamento": "2031-02-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2031-08-20",
+        "data_pagamento": "2031-08-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2032-02-20",
+        "data_pagamento": "2032-02-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2032-08-20",
+        "data_pagamento": "2032-08-20",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2033-02-20",
+        "data_pagamento": "2033-02-21",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2033-08-20",
+        "data_pagamento": "2033-08-22",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2034-02-20",
+        "data_pagamento": "2034-02-22",
+        "base": "DI",
+        "taxa_pct": 0.95
+      },
+      {
+        "data_evento": "2034-08-20",
+        "data_pagamento": "2034-08-21",
+        "base": "DI",
+        "taxa_pct": 0.95
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2032-08-20",
+        "data_pagamento": "2032-08-20",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 33.3333
+      },
+      {
+        "data_evento": "2033-08-20",
+        "data_pagamento": "2033-08-22",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2034-08-20",
+      "data_pagamento": "2034-08-21"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2032-08-20",
+      "valor_estimado": 333.333,
+      "percentual": 33.3333,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2033-08-22",
+      "valor_estimado": 333.3335,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2034-08-21",
+      "valor_estimado": 333.3335,
+      "percentual": 33.3334,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:43:59"
+}

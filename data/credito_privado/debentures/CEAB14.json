@@ -1,0 +1,139 @@
+{
+  "codigo": "CEAB14",
+  "nome": "C E A MODAS S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2028-09-15",
+  "indexador": "CDI+",
+  "spread_contratual": 0.8,
+  "indexador_raw": "DI + 0,8%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.2285,
+    "taxa_venda": 0.7177,
+    "taxa_indicativa": 0.9727,
+    "desvio_padrao": 0.0866,
+    "intervalo_min": 0.8861,
+    "intervalo_max": 1.0594,
+    "pu": 1026.675907,
+    "pct_pu_par": 99.6633,
+    "duration_du": 496.42,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCEABDBS086",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 4,
+    "registro_cvm": "AUT/DEB/PRI/2025/746",
+    "data_registro_cvm": "2025-10-22",
+    "data_emissao": "2025-09-15",
+    "data_vencimento": "2028-09-15",
+    "data_novo_vcto": "2028-09-15",
+    "inicio_rentabilidade": "2025-10-23",
+    "inicio_distribuicao": "2025-10-22",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 200000,
+    "qtd_mercado": 200000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 0.8,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2026-03-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "UBS BB CCTVM S/A",
+    "cnpj_emissor": "45242914000105",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2025-09-15",
+  "primeiro_cupom": "2026-03-15",
+  "cnpj_emissor": "45242914000105",
+  "isin": "BRCEABDBS086",
+  "snd_atualizado_em": "2026-06-02T15:11:16",
+  "eventos_passados": [
+    {
+      "data": "2026-03-16",
+      "tipo": "Juros",
+      "valor": 58.1578
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:33:29",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-09-15",
+        "data_pagamento": "2026-09-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2027-03-15",
+        "data_pagamento": "2027-03-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2027-09-15",
+        "data_pagamento": "2027-09-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2028-03-15",
+        "data_pagamento": "2028-03-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      },
+      {
+        "data_evento": "2028-09-15",
+        "data_pagamento": "2028-09-15",
+        "base": "DI",
+        "taxa_pct": 0.8
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2028-09-15",
+      "data_pagamento": "2028-09-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2028-09-15",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

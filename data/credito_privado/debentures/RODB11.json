@@ -1,0 +1,310 @@
+{
+  "codigo": "RODB11",
+  "nome": "RODOVIAS DO BRASIL HOLDING S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2030-05-10",
+  "indexador": "CDI+",
+  "spread_contratual": 4.25,
+  "indexador_raw": "DI + 4,25%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.7091,
+    "taxa_venda": 2.271,
+    "taxa_indicativa": 2.4817,
+    "desvio_padrao": 0.0576,
+    "intervalo_min": 2.4242,
+    "intervalo_max": 2.5394,
+    "pu": 1426.908277,
+    "pct_pu_par": 104.4507,
+    "duration_du": 644.93,
+    "pct_reune": 35.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRRODBDBS004",
+    "situacao": "Registrado",
+    "serie": "UNI",
+    "emissao_seq": 1,
+    "registro_cvm": "DISPENSA ICVM 476'09",
+    "data_registro_cvm": "2021-05-18",
+    "data_emissao": "2021-05-11",
+    "data_vencimento": "2030-05-10",
+    "data_novo_vcto": "2030-05-10",
+    "inicio_rentabilidade": "2021-05-19",
+    "inicio_distribuicao": "2021-05-19",
+    "forma": "Escritural",
+    "garantia_especie": "Real",
+    "classe": "Simples",
+    "qtd_emitida": 600000,
+    "qtd_mercado": 600000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1351.857057,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 6,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-05-10",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 4.25,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2023-11-10",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": null,
+    "cnpj_emissor": "41508382000146",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2021-05-11",
+  "primeiro_cupom": "2023-11-10",
+  "cnpj_emissor": "41508382000146",
+  "isin": "BRRODBDBS004",
+  "snd_atualizado_em": "2026-06-02T15:12:23",
+  "eventos_passados": [
+    {
+      "data": "2024-05-10",
+      "tipo": "Juros",
+      "valor": 108.3034
+    },
+    {
+      "data": "2024-11-11",
+      "tipo": "Juros",
+      "valor": 108.582
+    },
+    {
+      "data": "2025-05-12",
+      "tipo": "Amortizacao",
+      "valor": 17.9529
+    },
+    {
+      "data": "2025-05-12",
+      "tipo": "Juros",
+      "valor": 116.323
+    },
+    {
+      "data": "2025-11-10",
+      "tipo": "Amortizacao",
+      "valor": 17.9526
+    },
+    {
+      "data": "2025-11-10",
+      "tipo": "Juros",
+      "valor": 136.927
+    },
+    {
+      "data": "2026-05-11",
+      "tipo": "Amortizacao",
+      "valor": 48.4724
+    },
+    {
+      "data": "2026-05-11",
+      "tipo": "Juros",
+      "valor": 127.3549
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-11-11",
+      "valor_estimado": 168.9821
+    },
+    {
+      "data": "2027-05-11",
+      "valor_estimado": 168.9821
+    },
+    {
+      "data": "2027-11-11",
+      "valor_estimado": 168.9821
+    },
+    {
+      "data": "2028-05-11",
+      "valor_estimado": 168.9821
+    },
+    {
+      "data": "2028-11-11",
+      "valor_estimado": 168.9821
+    },
+    {
+      "data": "2029-05-11",
+      "valor_estimado": 168.9821
+    },
+    {
+      "data": "2029-11-11",
+      "valor_estimado": 168.9821
+    },
+    {
+      "data": "2030-05-10",
+      "valor_estimado": 168.9821
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:34:46",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-10",
+        "data_pagamento": "2026-11-10",
+        "base": "DI",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2027-05-10",
+        "data_pagamento": "2027-05-10",
+        "base": "DI",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2027-11-10",
+        "data_pagamento": "2027-11-10",
+        "base": "DI",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2028-05-10",
+        "data_pagamento": "2028-05-10",
+        "base": "DI",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2028-11-10",
+        "data_pagamento": "2028-11-10",
+        "base": "DI",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2029-05-10",
+        "data_pagamento": "2029-05-10",
+        "base": "DI",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2029-11-10",
+        "data_pagamento": "2029-11-12",
+        "base": "DI",
+        "taxa_pct": 4.25
+      },
+      {
+        "data_evento": "2030-05-10",
+        "data_pagamento": "2030-05-10",
+        "base": "DI",
+        "taxa_pct": 4.25
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2026-11-10",
+        "data_pagamento": "2026-11-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.5857
+      },
+      {
+        "data_evento": "2027-05-10",
+        "data_pagamento": "2027-05-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.4435
+      },
+      {
+        "data_evento": "2027-11-10",
+        "data_pagamento": "2027-11-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 3.5663
+      },
+      {
+        "data_evento": "2028-05-10",
+        "data_pagamento": "2028-05-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 6.8047
+      },
+      {
+        "data_evento": "2028-11-10",
+        "data_pagamento": "2028-11-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 7.3016
+      },
+      {
+        "data_evento": "2029-05-10",
+        "data_pagamento": "2029-05-10",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 9.7603
+      },
+      {
+        "data_evento": "2029-11-10",
+        "data_pagamento": "2029-11-12",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 10.8159
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2030-05-10",
+      "data_pagamento": "2030-05-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-11-10",
+      "valor_estimado": 48.4735,
+      "percentual": 3.5857,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-05-10",
+      "valor_estimado": 44.882,
+      "percentual": 3.4435,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2027-11-10",
+      "valor_estimado": 44.8819,
+      "percentual": 3.5663,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-05-10",
+      "valor_estimado": 82.5832,
+      "percentual": 6.8047,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-11-10",
+      "valor_estimado": 82.5838,
+      "percentual": 7.3016,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-05-10",
+      "valor_estimado": 102.3321,
+      "percentual": 9.7603,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2029-11-12",
+      "valor_estimado": 102.3314,
+      "percentual": 10.8159,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2030-05-10",
+      "valor_estimado": 843.7891,
+      "percentual": 62.417,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

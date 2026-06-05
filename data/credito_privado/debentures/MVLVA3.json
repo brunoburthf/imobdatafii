@@ -1,0 +1,137 @@
+{
+  "codigo": "MVLVA3",
+  "nome": "MOVIDA PARTICIPACOES S/A",
+  "incentivada": false,
+  "tipo_curto": "DEB-Inc",
+  "data_vencimento": "2027-08-10",
+  "indexador": "CDI+",
+  "spread_contratual": 2.5,
+  "indexador_raw": "DI + 2,5%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "bullet",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 2.6214,
+    "taxa_venda": 2.2,
+    "taxa_indicativa": 2.4422,
+    "desvio_padrao": 0.0591,
+    "intervalo_min": 2.3831,
+    "intervalo_max": 2.5015,
+    "pu": 1049.211735,
+    "pct_pu_par": 100.0608,
+    "duration_du": 271.55,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRMOVIDBS0U2",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 21,
+    "registro_cvm": "AUT/DEB/PRI/2024/510",
+    "data_registro_cvm": "2024-08-28",
+    "data_emissao": "2024-08-10",
+    "data_vencimento": "2027-08-10",
+    "data_novo_vcto": "2027-08-10",
+    "inicio_rentabilidade": "2024-08-29",
+    "inicio_distribuicao": "2024-08-28",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 260000,
+    "qtd_mercado": 260000,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 1000.0,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": null,
+    "amort_unidade": null,
+    "amort_carencia": null,
+    "tipo_amortizacao": null,
+    "juros_taxa": 2.5,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2025-02-10",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "PENTAGONO S/A DTVM",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO BRADESCO BBI S/A",
+    "cnpj_emissor": "21314559000166",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2024-08-10",
+  "primeiro_cupom": "2025-02-10",
+  "cnpj_emissor": "21314559000166",
+  "isin": "BRMOVIDBS0U2",
+  "snd_atualizado_em": "2026-06-02T15:12:09",
+  "eventos_passados": [
+    {
+      "data": "2025-02-10",
+      "tipo": "Juros",
+      "valor": 60.8957
+    },
+    {
+      "data": "2025-08-11",
+      "tipo": "Juros",
+      "valor": 80.9274
+    },
+    {
+      "data": "2026-02-10",
+      "tipo": "Juros",
+      "valor": 86.6402
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [],
+  "cronograma_atualizado_em": "2026-06-02T15:34:24",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-08-10",
+        "data_pagamento": "2026-08-10",
+        "base": "DI",
+        "taxa_pct": 2.5
+      },
+      {
+        "data_evento": "2027-02-10",
+        "data_pagamento": "2027-02-10",
+        "base": "DI",
+        "taxa_pct": 2.5
+      },
+      {
+        "data_evento": "2027-08-10",
+        "data_pagamento": "2027-08-10",
+        "base": "DI",
+        "taxa_pct": 2.5
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2027-08-10",
+      "data_pagamento": "2027-08-10"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-08-10",
+      "valor_estimado": 1000.0,
+      "percentual": 100.0,
+      "base": "VNE (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:02"
+}

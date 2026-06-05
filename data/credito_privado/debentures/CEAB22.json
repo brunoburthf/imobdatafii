@@ -1,0 +1,200 @@
+{
+  "codigo": "CEAB22",
+  "nome": "C E A MODAS S.A.",
+  "incentivada": false,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2028-05-13",
+  "indexador": "CDI+",
+  "spread_contratual": 2.4,
+  "indexador_raw": "DI + 2,4%",
+  "cupom_periodo": "semestral",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": false,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 1.0477,
+    "taxa_venda": 0.6999,
+    "taxa_indicativa": 0.8593,
+    "desvio_padrao": 0.0696,
+    "intervalo_min": 0.7897,
+    "intervalo_max": 0.9291,
+    "pu": 514.272511,
+    "pct_pu_par": 102.0182,
+    "duration_du": 332.67,
+    "pct_reune": null,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BRCEABDBS037",
+    "situacao": "Registrado",
+    "serie": "002",
+    "emissao_seq": 2,
+    "registro_cvm": "DISPENSA ICVM 476/09",
+    "data_registro_cvm": "2022-05-18",
+    "data_emissao": "2022-05-13",
+    "data_vencimento": "2028-05-13",
+    "data_novo_vcto": "2028-05-13",
+    "inicio_rentabilidade": "2022-05-19",
+    "inicio_distribuicao": "2022-04-12",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 352500,
+    "qtd_mercado": 54809,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 500.00025,
+    "data_vna": "2026-06-02",
+    "indice_snd": "DI",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": null,
+    "multiplicador": 100.0,
+    "amort_taxa": null,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-05-13",
+    "tipo_amortizacao": "Percentual variável sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 2.4,
+    "juros_prazo_base": 252,
+    "juros_cada": 6,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2022-11-13",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": null,
+    "agente_fiduciario": "OLIVEIRA TRUST DTVM S/A",
+    "instituicao_depositaria": "OLIVEIRA TRUST DTVM  S/A",
+    "coordenador_lider": "BANCO ITAU-BBA S/A",
+    "cnpj_emissor": "45242914000105",
+    "incentivada_snd": false,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2022-05-13",
+  "primeiro_cupom": "2022-11-13",
+  "cnpj_emissor": "45242914000105",
+  "isin": "BRCEABDBS037",
+  "snd_atualizado_em": "2026-06-02T15:11:16",
+  "eventos_passados": [
+    {
+      "data": "2022-11-14",
+      "tipo": "Juros",
+      "valor": 75.4431
+    },
+    {
+      "data": "2023-05-15",
+      "tipo": "Juros",
+      "valor": 77.4867
+    },
+    {
+      "data": "2023-11-13",
+      "tipo": "Juros",
+      "valor": 76.706
+    },
+    {
+      "data": "2024-05-13",
+      "tipo": "Juros",
+      "valor": 65.9838
+    },
+    {
+      "data": "2024-11-13",
+      "tipo": "Juros",
+      "valor": 66.2886
+    },
+    {
+      "data": "2025-05-13",
+      "tipo": "Amortizacao",
+      "valor": 250.0
+    },
+    {
+      "data": "2025-05-13",
+      "tipo": "Juros",
+      "valor": 71.3193
+    },
+    {
+      "data": "2025-11-13",
+      "tipo": "Juros",
+      "valor": 65.9641
+    },
+    {
+      "data": "2026-05-13",
+      "tipo": "Amortizacao",
+      "valor": 249.9998
+    },
+    {
+      "data": "2026-05-13",
+      "tipo": "Juros",
+      "valor": 60.5966
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2027-05-13",
+      "valor_estimado": 250.0001
+    },
+    {
+      "data": "2028-05-13",
+      "valor_estimado": 250.0001
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:29",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-11-13",
+        "data_pagamento": "2026-11-13",
+        "base": "DI",
+        "taxa_pct": 2.4
+      },
+      {
+        "data_evento": "2027-05-13",
+        "data_pagamento": "2027-05-13",
+        "base": "DI",
+        "taxa_pct": 2.4
+      },
+      {
+        "data_evento": "2027-11-13",
+        "data_pagamento": "2027-11-16",
+        "base": "DI",
+        "taxa_pct": 2.4
+      },
+      {
+        "data_evento": "2028-05-13",
+        "data_pagamento": "2028-05-15",
+        "base": "DI",
+        "taxa_pct": 2.4
+      }
+    ],
+    "amortizacoes": [
+      {
+        "data_evento": "2027-05-13",
+        "data_pagamento": "2027-05-13",
+        "base_calc": "VNA VAR/UNIF",
+        "percentual": 50.0
+      }
+    ],
+    "vencimento": {
+      "data_evento": "2028-05-13",
+      "data_pagamento": "2028-05-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2027-05-13",
+      "valor_estimado": 250.0001,
+      "percentual": 50.0,
+      "base": "VNA VAR/UNIF"
+    },
+    {
+      "data": "2028-05-15",
+      "valor_estimado": 250.0001,
+      "percentual": 50.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:00"
+}

@@ -1,0 +1,145 @@
+{
+  "codigo": "EGIE19",
+  "nome": "ENGIE BRASIL ENERGIA S.A.",
+  "incentivada": true,
+  "tipo_curto": "DEB",
+  "data_vencimento": "2026-07-15",
+  "indexador": "IPCA+",
+  "spread_contratual": 3.7,
+  "indexador_raw": "IPCA + 3,7%",
+  "cupom_periodo": "anual",
+  "amortizacao": "percentual_fixo",
+  "isento_ir": true,
+  "pu_emissao": 1000,
+  "snapshot": {
+    "data_base": "2026-06-01",
+    "taxa_compra": 10.2279,
+    "taxa_venda": 9.4988,
+    "taxa_indicativa": 9.8051,
+    "desvio_padrao": 0.196,
+    "intervalo_min": 9.609,
+    "intervalo_max": 10.0012,
+    "pu": 747.704173,
+    "pct_pu_par": 99.2988,
+    "duration_du": 31.0,
+    "pct_reune": 5.0,
+    "referencia_ntnb": null
+  },
+  "fonte": "Anbima precos indicativos (mercado secundario)",
+  "atualizado_em": "2026-06-02T14:39:23",
+  "snd": {
+    "isin": "BREGIEDBS076",
+    "situacao": "Registrado",
+    "serie": "001",
+    "emissao_seq": 9,
+    "registro_cvm": "354/2019/CVM/SRE/GER",
+    "data_registro_cvm": "2019-08-05",
+    "data_emissao": "2019-07-15",
+    "data_vencimento": "2026-07-15",
+    "data_novo_vcto": "2026-07-15",
+    "inicio_rentabilidade": "2019-08-07",
+    "inicio_distribuicao": "2019-08-07",
+    "forma": "Escritural",
+    "garantia_especie": "Quirografária",
+    "classe": "Simples",
+    "qtd_emitida": 576095,
+    "qtd_mercado": 576095,
+    "qtd_tesouraria": 0,
+    "vn_emissao": 1000.0,
+    "vna_atual": 730.292999,
+    "data_vna": "2026-06-02",
+    "indice_snd": "IPCA",
+    "tipo_correcao": null,
+    "criterio_calculo": "Padrão - SND",
+    "dia_referencia": 15.0,
+    "multiplicador": null,
+    "amort_taxa": 50.0,
+    "amort_cada": 12,
+    "amort_unidade": "MES",
+    "amort_carencia": "2025-07-15",
+    "tipo_amortizacao": "Percentual fixo sobre o valor nominal atualizado em períodos uniformes",
+    "juros_taxa": 3.7,
+    "juros_prazo_base": 252,
+    "juros_cada": 12,
+    "juros_unidade": "MES",
+    "primeiro_cupom": "2021-07-15",
+    "juros_criterio": "Útil",
+    "juros_tipo": "Exponencial",
+    "banco_mandatario": "BANCO BRADESCO S/A",
+    "agente_fiduciario": "VX PAVARINI DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+    "instituicao_depositaria": "BANCO BRADESCO S/A",
+    "coordenador_lider": "BANCO SANTANDER (BRASIL) S/A",
+    "cnpj_emissor": "02474103000119",
+    "incentivada_snd": true,
+    "escritura_padronizada": null,
+    "resgate_antecipado": null
+  },
+  "data_emissao": "2019-07-15",
+  "primeiro_cupom": "2021-07-15",
+  "cnpj_emissor": "02474103000119",
+  "isin": "BREGIEDBS076",
+  "snd_atualizado_em": "2026-06-02T15:11:36",
+  "eventos_passados": [
+    {
+      "data": "2021-07-15",
+      "tipo": "Juros",
+      "valor": 80.3755
+    },
+    {
+      "data": "2022-07-15",
+      "tipo": "Juros",
+      "valor": 45.7459
+    },
+    {
+      "data": "2023-07-17",
+      "tipo": "Juros",
+      "valor": 47.0014
+    },
+    {
+      "data": "2024-07-15",
+      "tipo": "Juros",
+      "valor": 48.5911
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Amortizacao",
+      "valor": 700.2621
+    },
+    {
+      "data": "2025-07-15",
+      "tipo": "Juros",
+      "valor": 51.61
+    }
+  ],
+  "cronograma_amort_futuro_estimado": [
+    {
+      "data": "2026-07-15",
+      "valor_estimado": 730.293
+    }
+  ],
+  "cronograma_atualizado_em": "2026-06-02T15:33:53",
+  "cronograma_anbima": {
+    "juros": [
+      {
+        "data_evento": "2026-07-15",
+        "data_pagamento": "2026-07-15",
+        "base": "IPCA",
+        "taxa_pct": 3.7
+      }
+    ],
+    "amortizacoes": [],
+    "vencimento": {
+      "data_evento": "2026-07-15",
+      "data_pagamento": "2026-07-15"
+    }
+  },
+  "cronograma_amort_futuro": [
+    {
+      "data": "2026-07-15",
+      "valor_estimado": 732.9767,
+      "percentual": 100.0,
+      "base": "VNA (vcto)"
+    }
+  ],
+  "cronograma_anbima_atualizado_em": "2026-06-03T10:44:01"
+}
