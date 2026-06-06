@@ -1,8 +1,18 @@
 {
-  "atualizado_em": "03/06/2026 08:48",
+  "atualizado_em": "06/06/2026 06:47",
   "fonte": "fnet (B3) — Oferta Pública de Distribuição de Cotas",
   "janela_dias": 90,
   "anuncios": [
+    {
+      "ticker": "VGIR11",
+      "nome_pregao": "",
+      "tipo": "Encerramento",
+      "tipo_completo": "Anúncio de Encerramento",
+      "data_anuncio": "2026-06-03T15:39:00",
+      "fnet_id": 1211901,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1211901"
+    },
     {
       "ticker": "RBVA11",
       "nome_pregao": "FII RIOB VA",
@@ -312,26 +322,6 @@
       "fnet_id": 1139060,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1139060"
-    },
-    {
-      "ticker": "HGBS11",
-      "nome_pregao": "FII HEDGEBS",
-      "tipo": "Inicio",
-      "tipo_completo": "Anúncio de Início",
-      "data_anuncio": "2026-03-05T23:04:00",
-      "fnet_id": 1129730,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1129730"
-    },
-    {
-      "ticker": "XPLG11",
-      "nome_pregao": "",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-03-05T21:14:00",
-      "fnet_id": 1129716,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1129716"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/06/2026 08:48",
+  "atualizado_em": "06/06/2026 06:47",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -8266,11 +8266,7 @@
           "valor_r": 13459576.52
         }
       },
-      "fnet_inicio": {
-        "data": "2026-03-05",
-        "fnet_id": 1129730,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1129730"
-      },
+      "fnet_inicio": null,
       "fnet_encerramento": {
         "data": "2026-04-29",
         "fnet_id": 1173632,
@@ -11522,7 +11518,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 155d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 158d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -28120,7 +28116,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 187d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 190d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -48621,7 +48617,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 796d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 799d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -66598,7 +66594,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1372d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1375d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -68333,7 +68329,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1799d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1802d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -120317,6 +120313,16 @@
   ],
   "_anuncios_fnet_sem_cvm": [
     {
+      "ticker": "VGIR11",
+      "nome_pregao": "",
+      "tipo": "Encerramento",
+      "tipo_completo": "Anúncio de Encerramento",
+      "data_anuncio": "2026-06-03T15:39:00",
+      "fnet_id": 1211901,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1211901"
+    },
+    {
       "ticker": "HGLG11",
       "nome_pregao": "FII HGLG PAX",
       "tipo": "Encerramento",
@@ -120385,16 +120391,6 @@
       "fnet_id": 1168418,
       "fnet_versao": 2,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1168418"
-    },
-    {
-      "ticker": "XPLG11",
-      "nome_pregao": "",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-03-05T21:14:00",
-      "fnet_id": 1129716,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1129716"
     }
   ]
 }
