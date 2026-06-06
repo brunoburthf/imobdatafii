@@ -2044,5 +2044,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1212299",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-05T06:19:41"
+  },
+  "1213096": {
+    "ticker": "CPTS11",
+    "tipo": "FII",
+    "data": "05/06/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Padronização do calendário de distribuição de rendimentos",
+    "resumo": "A partir da competência maio/2026, CPTS11 padroniza calendário de distribuição: aviso e data-com no 10º dia útil do mês subsequente, cotas ex-rendimento a partir do 11º dia útil. Periodicidade mensal e política de distribuição mínima de 95% mantidas inalteradas.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Novo cronograma vigente a partir da competência maio/2026",
+      "Data-com fixada no 10º dia útil do mês subsequente ao de competência",
+      "Periodicidade mensal e política de distribuição mínima de 95% dos resultados permanecem inalteradas"
+    ],
+    "fnet_id": 1213096,
+    "ticker_fonte": "CPTS11",
+    "data_anuncio": "2026-06-05T19:11:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213096",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-06T05:50:38"
+  },
+  "1213092": {
+    "ticker": "CPSH11",
+    "tipo": "FII",
+    "data": "05/06/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Padronização do calendário de distribuição de rendimentos",
+    "resumo": "Capitânia padroniza calendário de distribuição do CPSH11 a partir da competência maio/2026: aviso e data-com no 10º dia útil do mês subsequente, ex-rendimento no 11º. Periodicidade mensal e política de distribuição mínima de 95% dos resultados permanecem inalteradas.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Vigência a partir da competência maio/2026",
+      "Data-com fixada no 10º dia útil do mês subsequente à competência",
+      "Sem alteração na periodicidade mensal nem na política de distribuição mínima de 95%"
+    ],
+    "fnet_id": 1213092,
+    "ticker_fonte": "CPSH11",
+    "data_anuncio": "2026-06-05T19:06:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213092",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-06T05:50:45"
   }
 }
