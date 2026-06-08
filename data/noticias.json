@@ -1,7 +1,58 @@
 {
-  "atualizado_em": "08/06/2026 06:38",
+  "atualizado_em": "08/06/2026 15:45",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "RECT11",
+      "nome_fundo": "FII Rec Renda Imobiliaria",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-06-08T12:31:00",
+      "data_com": "2026-06-08",
+      "data_pagamento": "2026-06-15",
+      "valor": 0.45,
+      "valor_anterior": 0.45,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "MAIO/2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1213732,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213732"
+    },
+    {
+      "ticker": "CRAA11",
+      "nome_fundo": "CRAA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-06-08T09:21:00",
+      "data_com": "2026-06-08",
+      "data_pagamento": "2026-06-15",
+      "valor": 1.15,
+      "valor_anterior": 1.25,
+      "variacao_pct": -0.08000000000000007,
+      "periodo_referencia": "Maio-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1213499,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213499"
+    },
+    {
+      "ticker": "BTAG11",
+      "nome_fundo": "BTAG11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-06-08T09:02:00",
+      "data_com": "2026-06-08",
+      "data_pagamento": "2026-06-15",
+      "valor": 1.3,
+      "valor_anterior": 1.3,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Maio-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1213488,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213488"
+    },
     {
       "ticker": "FATN11",
       "nome_fundo": "Brc Renda Corporativa FII",
@@ -3099,6 +3150,26 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "BTAG11",
+      "nome_fundo": "BTAG11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-06-08T10:58:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1213606,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213606"
+    },
+    {
+      "ticker": "BTHF11",
+      "nome_fundo": "BTG Pactual Real Estate Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-06-08T10:49:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1213598,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213598"
+    },
     {
       "ticker": "GARE11",
       "nome_fundo": "Guardian Real Estate FII",
