@@ -1,16 +1,18 @@
 {
-  "atualizado_em": "2026-05-20T17:43:07",
+  "atualizado_em": "2026-06-09T14:28:07",
   "setor": "Tijolo Multissetorial",
   "rotulo": "Renda Urbana",
   "fontes": {
     "vacancia": "Estimativa ponderada por area — carteira_trimestral.imoveis (CVM carteira)",
     "ltv": "CVM informe mensal (inf_mensal_fii_ativo_passivo): (Obrigacoes_Aquisicao_Imoveis + Obrigacoes_Securitizacao_Recebiveis) / Direitos_Bens_Imoveis",
-    "ltv_historico": "LTV mensal por fundo ponderado pelo peso IFIX (pesos_ifix_historico, forward-fill). Constituentes atuais tracados pra tras."
+    "ltv_historico": "LTV mensal por fundo ponderado pelo peso IFIX (pesos_ifix_historico, forward-fill). Constituentes atuais tracados pra tras.",
+    "vacancia_historico": "Vacancia fisica por imovel (CVM informe trimestral, Percentual_Vacancia) ponderada por area dentro do fundo e pelo peso IFIX entre fundos (current-constituents)."
   },
   "data_ref_ltv": "2026-04-01",
   "agregado": {
     "vacancia_media": 0.020235,
-    "ltv_ponderado_valor": 0.218548,
+    "vacancia_ponderada_ifix": 0.020736,
+    "ltv_ponderado_valor": 0.219729,
     "ltv_ponderado_ifix": 0.206421,
     "n_fundos": 11
   },
@@ -153,8 +155,8 @@
       "retorno_12m": 0.12727,
       "vacancia": 0.014791,
       "n_imoveis": 12,
-      "ltv": -0.009141,
-      "divida_aquisicao": -7410448.95,
+      "ltv": 0.018732,
+      "divida_aquisicao": 15184989.3,
       "divida_securitizacao": 0.0,
       "valor_imoveis": 810650875.86
     }
@@ -216,20 +218,20 @@
     },
     {
       "mes": "2021-10",
-      "ltv_ifix": 0.082822,
-      "ltv_simples": 0.141407,
+      "ltv_ifix": 0.148601,
+      "ltv_simples": 0.239869,
       "n_fundos": 9
     },
     {
       "mes": "2021-11",
-      "ltv_ifix": 0.092034,
-      "ltv_simples": 0.152225,
+      "ltv_ifix": 0.150477,
+      "ltv_simples": 0.239815,
       "n_fundos": 9
     },
     {
       "mes": "2021-12",
-      "ltv_ifix": 0.120932,
-      "ltv_simples": 0.160623,
+      "ltv_ifix": 0.167537,
+      "ltv_simples": 0.251166,
       "n_fundos": 9
     },
     {
@@ -534,8 +536,8 @@
     },
     {
       "mes": "2026-03",
-      "ltv_ifix": 0.099153,
-      "ltv_simples": 0.087163,
+      "ltv_ifix": 0.168203,
+      "ltv_simples": 0.128677,
       "n_fundos": 10
     },
     {
@@ -543,6 +545,134 @@
       "ltv_ifix": 0.206421,
       "ltv_simples": 0.133458,
       "n_fundos": 10
+    }
+  ],
+  "vacancia_historico_ifix": [
+    {
+      "trimestre": "2021-Q1",
+      "vac_ifix": 0.002066,
+      "vac_simples": 0.001294,
+      "n_fundos": 9
+    },
+    {
+      "trimestre": "2021-Q2",
+      "vac_ifix": 0.002097,
+      "vac_simples": 0.000632,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2021-Q3",
+      "vac_ifix": 0.001056,
+      "vac_simples": 0.00062,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2021-Q4",
+      "vac_ifix": 0.00123,
+      "vac_simples": 0.000609,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2022-Q1",
+      "vac_ifix": 0.000901,
+      "vac_simples": 0.00061,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2022-Q2",
+      "vac_ifix": 0.000231,
+      "vac_simples": 7.5e-05,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2022-Q3",
+      "vac_ifix": 0.000216,
+      "vac_simples": 6.9e-05,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2022-Q4",
+      "vac_ifix": 0.006944,
+      "vac_simples": 0.0071,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2023-Q1",
+      "vac_ifix": 0.009659,
+      "vac_simples": 0.008372,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2023-Q2",
+      "vac_ifix": 0.009615,
+      "vac_simples": 0.010876,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2023-Q3",
+      "vac_ifix": 0.011893,
+      "vac_simples": 0.012578,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2023-Q4",
+      "vac_ifix": 0.015874,
+      "vac_simples": 0.019828,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2024-Q1",
+      "vac_ifix": 0.016692,
+      "vac_simples": 0.021418,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2024-Q2",
+      "vac_ifix": 0.014204,
+      "vac_simples": 0.01776,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2024-Q3",
+      "vac_ifix": 0.010892,
+      "vac_simples": 0.012109,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2024-Q4",
+      "vac_ifix": 0.008581,
+      "vac_simples": 0.012102,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2025-Q1",
+      "vac_ifix": 0.012154,
+      "vac_simples": 0.015285,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2025-Q2",
+      "vac_ifix": 0.036529,
+      "vac_simples": 0.105492,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2025-Q3",
+      "vac_ifix": 0.010302,
+      "vac_simples": 0.013806,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2025-Q4",
+      "vac_ifix": 0.018976,
+      "vac_simples": 0.021005,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2026-Q1",
+      "vac_ifix": 0.020736,
+      "vac_simples": 0.051364,
+      "n_fundos": 11
     }
   ]
 }
