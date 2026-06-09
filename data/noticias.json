@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/06/2026 06:04",
+  "atualizado_em": "09/06/2026 10:01",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -1038,6 +1038,23 @@
       "fnet_id": 1207920,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207920"
+    },
+    {
+      "ticker": "KNCA11",
+      "nome_fundo": "KNCA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-05-29T17:28:00",
+      "data_com": "2026-05-29",
+      "data_pagamento": "2026-06-12",
+      "valor": 1.1,
+      "valor_anterior": 1.1,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "MAIO 2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1207941,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207941"
     },
     {
       "ticker": "KDOL11",
@@ -2487,6 +2504,17 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "VILG11",
+      "nome_fundo": "Vinci Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-06-09T09:06:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1214511,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1214511"
+    },
+    {
       "ticker": "ALZR11",
       "nome_fundo": "Alianza Trust Renda Imobiliária FII",
       "setor": "Tijolo Multissetorial",
@@ -3467,6 +3495,16 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "TVRI11",
+      "nome_fundo": "Tivio Renda Imobiliária FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-06-09T09:50:00",
+      "data_referencia": "09/06/2026",
+      "fnet_id": 1214562,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1214562"
+    },
     {
       "ticker": "LIFE11",
       "nome_fundo": "Life Capital Partners FII",
