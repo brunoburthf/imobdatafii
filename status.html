@@ -108,12 +108,17 @@
     function parseDate(s) {
       if (!s) return null;
       if (typeof s !== "string") return null;
-      // ISO: 2026-05-19T13:18:31
+      // ISO: 2026-05-19T13:18:31 — gerado pelos workflows GHA, que rodam em UTC
+      // e usam datetime.now().isoformat() (sem tz info). Tratamos como UTC.
       if (/^\d{4}-\d{2}-\d{2}/.test(s)) {
-        const d = new Date(s);
+        // Detecta sufixo de timezone no FINAL: Z, +03:00, -03:00, +0300 etc.
+        // Sem isso, hifen da data ("2026-06-09") confundia a deteccao.
+        const temTz = /(Z|[+\-]\d{2}:?\d{2})$/.test(s);
+        const iso = temTz ? s : s + "Z";
+        const d = new Date(iso);
         return isNaN(d) ? null : d.getTime();
       }
-      // BR: 09/06/2026 10:01 ou 09/06/2026
+      // BR: 09/06/2026 10:01 ou 09/06/2026 — gerado por scripts locais (BRT).
       let m = s.match(/^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/);
       if (m) return new Date(+m[3], +m[2]-1, +m[1], +m[4], +m[5]).getTime();
       m = s.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
