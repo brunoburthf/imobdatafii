@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <title>ImobData — Status dos datasets</title>
+  <style>
+    :root {
+      --ok:    #1b7a3a;
+      --warn:  #b78700;
+      --bad:   #b42a2a;
+      --unk:   #888;
+      --bg:    #fafbfc;
+      --bg-row:#fff;
+      --br:    #e4e6ea;
+      --fg:    #1a1d22;
+      --muted: #6b727a;
+    }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--fg); margin: 0; padding: 24px 32px; }
+    h1 { font-size: 22px; margin: 0 0 4px; }
+    .sub { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+    .legend { display: flex; gap: 16px; font-size: 12px; color: var(--muted); margin-bottom: 14px; flex-wrap: wrap; }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+    .dot.ok   { background: var(--ok); }
+    .dot.warn { background: var(--warn); }
+    .dot.bad  { background: var(--bad); }
+    .dot.unk  { background: var(--unk); }
+    table { width: 100%; border-collapse: collapse; background: var(--bg-row); border: 1px solid var(--br); border-radius: 6px; overflow: hidden; }
+    th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--br); font-size: 13px; }
+    th { background: #f0f2f5; font-weight: 600; color: var(--muted); text-transform: uppercase; font-size: 11px; letter-spacing: 0.04em; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f7f8fa; }
+    .status-cell { white-space: nowrap; font-weight: 600; }
+    .status-cell.ok   { color: var(--ok); }
+    .status-cell.warn { color: var(--warn); }
+    .status-cell.bad  { color: var(--bad); }
+    .status-cell.unk  { color: var(--unk); }
+    .path { font-family: ui-monospace, "Consolas", monospace; font-size: 12px; color: var(--muted); }
+    .age  { font-family: ui-monospace, "Consolas", monospace; font-size: 12px; white-space: nowrap; }
+    .owner { font-size: 11px; padding: 2px 8px; border-radius: 4px; background: #eef0f4; color: var(--muted); }
+    .owner.gha    { background: #e8f0fc; color: #2c5491; }
+    .owner.local  { background: #fff7e0; color: #8a6500; }
+    .owner.manual { background: #f0e8fc; color: #6b4296; }
+    .actions { margin-top: 16px; display: flex; gap: 12px; align-items: center; }
+    button { padding: 7px 14px; border: 1px solid var(--br); background: white; border-radius: 5px; cursor: pointer; font-size: 13px; }
+    button:hover { background: #f0f2f5; }
+    .updated { color: var(--muted); font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Status dos datasets</h1>
+  <div class="sub">Última atualização efetiva de cada base. Lê o campo <code>atualizado_em</code> direto do JSON.</div>
+
+  <div class="legend">
+    <span><span class="dot ok"></span> dentro da frequência</span>
+    <span><span class="dot warn"></span> 1–3× além</span>
+    <span><span class="dot bad"></span> mais de 3× além</span>
+    <span><span class="dot unk"></span> sem dado / erro</span>
+  </div>
+
+  <table id="t">
+    <thead>
+      <tr>
+        <th>Dataset</th>
+        <th>Origem</th>
+        <th>Esperado</th>
+        <th>Última atualização</th>
+        <th>Idade</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="rows"><tr><td colspan="6" style="color: var(--muted);">Carregando…</td></tr></tbody>
+  </table>
+
+  <div class="actions">
+    <button onclick="carregar()">Recarregar</button>
+    <span class="updated" id="updated"></span>
+  </div>
+
+  <script>
+    // owner: gha = workflow GitHub Actions; local = bat/local script; manual = ad-hoc
+    const DATASETS = [
+      { label: "Notícias (fnet)",            path: "data/noticias.json",                       owner: "gha",    workflow: "noticias-daily",     freq: "daily"  },
+      { label: "Resumos notícias (LLM)",     path: "data/noticias_resumos.json",               owner: "gha",    workflow: "noticias-daily",     freq: "daily",  derived: true },
+      { label: "Assembleias",                path: "data/assembleias_fnet.json",               owner: "gha",    workflow: "assembleias-daily",  freq: "daily"  },
+      { label: "Ofertas públicas",           path: "data/ofertas_publicas.json",               owner: "gha",    workflow: "ofertas-daily",      freq: "daily"  },
+      { label: "IFIX — pesos histórico",     path: "data/pesos_ifix_historico.json",           owner: "gha",    workflow: "ifix-daily",         freq: "daily"  },
+      { label: "IFIX — retorno por setor",   path: "data/setores_retorno.json",                owner: "gha",    workflow: "noticias-daily",     freq: "daily"  },
+      { label: "IFIX — série (gráfico)",     path: "data/ifix.json",                           owner: "local",  workflow: "gerar_dados.py",     freq: "daily"  },
+      { label: "NTN-B — formato site",       path: "data/ntnb.json",                           owner: "gha",    workflow: "ntnb-daily",         freq: "daily"  },
+      { label: "NTN-B — YTM histórico",      path: "data/ntnb_ytm_historico.json",             owner: "gha",    workflow: "ntnb-daily",         freq: "daily"  },
+      { label: "NTN-B — curva diária",       path: "data/ntnb/curva_diaria.json",              owner: "manual", workflow: "estudo (ad-hoc)",    freq: "weekly" },
+      { label: "Selic — série diária",       path: "data/selic/serie_diaria.json",             owner: "gha",    workflow: "selic-daily",        freq: "daily"  },
+      { label: "Selic — decisões COPOM",     path: "data/selic/copom.json",                    owner: "gha",    workflow: "selic-daily",        freq: "daily"  },
+      { label: "Selic — ciclos derivados",   path: "data/selic/ciclos.json",                   owner: "manual", workflow: "estudo (ad-hoc)",    freq: "weekly" },
+      { label: "v2 (COTAHIST ajustado)",     path: "data/historico_precos_v2/bootstrap.json",  owner: "gha",    workflow: "v2-daily",           freq: "daily"  },
+      { label: "Fundamentos Renda Urbana",   path: "data/fundamentos_renda_urbana.json",       owner: "gha",    workflow: "fundamentos-daily",  freq: "weekly" },
+      { label: "Taxas adm/perf",             path: "data/taxas.json",                          owner: "manual", workflow: "atualizar_taxas.py", freq: "monthly" },
+      { label: "Estudo COPOM × curva",       path: "data/estudo_copom_curva.json",             owner: "manual", workflow: "estudo (ad-hoc)",    freq: "weekly" },
+    ];
+
+    // Frequencia -> janela "ok" em horas. Acima de 3x da janela = bad.
+    const JANELA_OK_H = { daily: 30, weekly: 24*8, monthly: 24*35 };
+
+    function parseDate(s) {
+      if (!s) return null;
+      if (typeof s !== "string") return null;
+      // ISO: 2026-05-19T13:18:31
+      if (/^\d{4}-\d{2}-\d{2}/.test(s)) {
+        const d = new Date(s);
+        return isNaN(d) ? null : d.getTime();
+      }
+      // BR: 09/06/2026 10:01 ou 09/06/2026
+      let m = s.match(/^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/);
+      if (m) return new Date(+m[3], +m[2]-1, +m[1], +m[4], +m[5]).getTime();
+      m = s.match(/^(\d{2})\/(\d{2})\/(\d{4})/);
+      if (m) return new Date(+m[3], +m[2]-1, +m[1]).getTime();
+      return null;
+    }
+
+    function ageStr(h) {
+      if (h == null) return "—";
+      if (h < 1) return Math.round(h*60) + " min";
+      if (h < 48) return h.toFixed(1) + " h";
+      return (h/24).toFixed(1) + " d";
+    }
+
+    function classify(ageH, freq) {
+      if (ageH == null) return "unk";
+      const ok = JANELA_OK_H[freq] || 30;
+      if (ageH <= ok)       return "ok";
+      if (ageH <= ok * 3)   return "warn";
+      return "bad";
+    }
+
+    function fmtDate(ts) {
+      if (ts == null) return "—";
+      const d = new Date(ts);
+      const pad = n => String(n).padStart(2, "0");
+      return `${pad(d.getDate())}/${pad(d.getMonth()+1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+    }
+
+    async function checkOne(d) {
+      try {
+        const r = await fetch(d.path + "?v=" + Date.now(), { cache: "no-store" });
+        if (!r.ok) return { ...d, status: "unk", erro: "HTTP " + r.status };
+        const json = await r.json();
+        const raw = json.atualizado_em || json.data_atualizacao || json.updated_at || json.gerado_em;
+        const ts  = parseDate(raw);
+        const ageH = ts ? (Date.now() - ts) / 3600000 : null;
+        return { ...d, status: classify(ageH, d.freq), ts, ageH, raw };
+      } catch (e) {
+        return { ...d, status: "unk", erro: String(e).slice(0, 60) };
+      }
+    }
+
+    function statusLabel(s) {
+      return { ok: "OK", warn: "atrasado", bad: "muito atrasado", unk: "?" }[s];
+    }
+
+    async function carregar() {
+      const tb = document.getElementById("rows");
+      tb.innerHTML = '<tr><td colspan="6" style="color:#6b727a;">Carregando…</td></tr>';
+      const results = await Promise.all(DATASETS.map(checkOne));
+      // ordem: bad/warn primeiro, depois ok, depois unk
+      const ord = { bad: 0, warn: 1, unk: 2, ok: 3 };
+      results.sort((a, b) => ord[a.status] - ord[b.status]);
+      tb.innerHTML = results.map(r => {
+        const erroSuffix = r.erro ? ` <span style="color:var(--muted);">(${r.erro})</span>` : "";
+        return `<tr>
+          <td>${r.label}${r.derived ? ' <span style="color:var(--muted);font-size:11px;">(derivado)</span>' : ''}<div class="path">${r.path}</div></td>
+          <td><span class="owner ${r.owner}">${r.workflow}</span></td>
+          <td>${r.freq}</td>
+          <td>${fmtDate(r.ts)}${erroSuffix}</td>
+          <td class="age">${ageStr(r.ageH)}</td>
+          <td class="status-cell ${r.status}"><span class="dot ${r.status}"></span> ${statusLabel(r.status)}</td>
+        </tr>`;
+      }).join("");
+      document.getElementById("updated").textContent = "Verificado em " + fmtDate(Date.now());
+    }
+
+    carregar();
+  </script>
+</body>
+</html>
