@@ -1934,5 +1934,27 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213092",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-06T05:50:45"
+  },
+  "1214348": {
+    "ticker": "ALZR11",
+    "tipo": "FII",
+    "data": "08/06/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Início do 1º Programa de Recompra de Cotas",
+    "resumo": "ALZR11 anuncia 1º Programa de Recompra de Cotas, com vigência de 22/06/2026 a 21/06/2027. Volume máximo de 16.451.225 cotas (10% do total). Recompras realizadas abaixo do valor patrimonial, com cancelamento posterior das cotas adquiridas.",
+    "valor_envolvido": null,
+    "criticidade": "media",
+    "pontos_chave": [
+      "Recompra de até 10% do total de cotas (16.451.225 cotas) em 12 meses",
+      "Preço de recompra obrigatoriamente inferior ao valor patrimonial da cota",
+      "Cotas recompradas serão canceladas, reduzindo o total circulante"
+    ],
+    "fnet_id": 1214348,
+    "ticker_fonte": "ALZR11",
+    "data_anuncio": "2026-06-08T19:20:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1214348",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-09T06:05:40"
   }
 }
