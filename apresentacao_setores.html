@@ -32,40 +32,53 @@
 
   <main class="menu-main">
     <h1 class="menu-hero-titulo">Apresentação Setores</h1>
+    <p style="text-align:center; color:#6b727a; margin-top:-12px; margin-bottom:24px; font-size:13px;">
+      Decks PowerPoint "FIIs em Foco" — 1 fundo por slide com cota, DY, P/VP, gráfico de retorno 12m vs setor, operacional e cards de atualização/positivos/riscos.<br>
+      Campos numéricos auto-populados; campos qualitativos (update, positivos, riscos, guidance) marcados <code>[TODO]</code> para revisão antes do uso.
+    </p>
 
     <div class="menu-cards">
 
-      <a class="menu-card" href="apresentacao_renda_urbana.html">
-        <div class="menu-card-titulo">Renda Urbana</div>
-        <p class="menu-card-desc">Tijolo Multissetorial — deck com vacância estimada, alavancagem (LTV via CVM), DY, P/VP e retorno por fundo. Pronto pra PowerPoint.</p>
-      </a>
-
-      <a class="menu-card" href="apresentacao_panorama.html">
-        <div class="menu-card-titulo">Panorama Geral</div>
-        <p class="menu-card-desc">Visão de todos os setores com ≥10 FIIs — DY, P/VP, retorno 12M e gráfico histórico por segmento.</p>
-      </a>
-
-      <a class="menu-card em-breve">
-        <div class="menu-card-titulo">Crédito Imobiliário</div>
-        <p class="menu-card-desc">Em breve.</p>
-      </a>
-
-      <a class="menu-card em-breve">
+      <a class="menu-card" href="apresentacoes/FIIs_em_Foco_Logistica.pptx" download>
         <div class="menu-card-titulo">Logística</div>
-        <p class="menu-card-desc">Em breve.</p>
+        <p class="menu-card-desc">Top 8 FIIs do setor por peso IFIX — BTLG, HGLG, XPLG, GGRC, BRCO, LVBI, VILG, HSLG.</p>
       </a>
 
-      <a class="menu-card em-breve">
+      <a class="menu-card" href="apresentacoes/FIIs_em_Foco_Shoppings.pptx" download>
         <div class="menu-card-titulo">Shoppings</div>
-        <p class="menu-card-desc">Em breve.</p>
+        <p class="menu-card-desc">Top 8 FIIs do setor por peso IFIX — XPML, VISC, HGBS, HSML, PMLL, GZIT, CPSH, BPML.</p>
       </a>
 
-      <a class="menu-card em-breve">
-        <div class="menu-card-titulo">FOFs / Escritórios</div>
-        <p class="menu-card-desc">Em breve.</p>
+      <a class="menu-card" href="apresentacoes/FIIs_em_Foco_Credito_Imobiliario.pptx" download>
+        <div class="menu-card-titulo">Crédito Imobiliário</div>
+        <p class="menu-card-desc">Top 8 FIIs de papel por peso IFIX — KNCR, KNIP, MXRF, KNHY, KNUQ, RECR, KNSC, MCCI.</p>
+      </a>
+
+      <a class="menu-card" href="apresentacoes/FIIs_em_Foco_Escritorios.pptx" download>
+        <div class="menu-card-titulo">Escritórios</div>
+        <p class="menu-card-desc">Top 8 FIIs de lajes por peso IFIX — PVBI, HGRE, JSRE, BRCR, GTWR, BROF, KORE, RBRP.</p>
+      </a>
+
+      <a class="menu-card" href="apresentacoes/FIIs_em_Foco_Tijolo_Multi.pptx" download>
+        <div class="menu-card-titulo">Tijolo Multissetorial</div>
+        <p class="menu-card-desc">Top 8 FIIs híbridos por peso IFIX — TRXF, HGRU, KNRI, GARE, ALZR, RBVA, TVRI, RZAT.</p>
+      </a>
+
+      <a class="menu-card" href="apresentacoes/FIIs_em_Foco_FOFs_Hedge.pptx" download>
+        <div class="menu-card-titulo">FOFs / Hedge Funds</div>
+        <p class="menu-card-desc">Top 8 FOFs por peso IFIX — CPTS, KNHF, BTHF, HFOF, RBRX, PSEC, MCRE, VGHF.</p>
+      </a>
+
+      <a class="menu-card" href="apresentacoes/FIIs_em_Foco_Agro.pptx" download>
+        <div class="menu-card-titulo">Agro</div>
+        <p class="menu-card-desc">FI-Agro do IFIX — BTAL, BTRA.</p>
       </a>
 
     </div>
+
+    <p style="text-align:center; color:#9aa7b5; margin-top:32px; font-size:11px;">
+      Regenerar tudo: <code>node scripts/gerar_apresentacoes_setoriais.js</code>
+    </p>
   </main>
 
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
