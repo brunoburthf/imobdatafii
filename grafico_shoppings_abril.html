@@ -4,26 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="Cache-Control" content="no-store" />
-  <title>Retorno nominal — Shoppings (desde 30/04/2026) — ImobData</title>
+  <title>HSML11 vs Shoppings — Retorno nominal desde 30/04/2026 — ImobData</title>
   <link rel="stylesheet" href="css/style.css" />
   <style>
     .gr-main { padding: 24px 32px 48px; max-width: 1400px; margin: 0 auto; }
     .gr-main h1 { font-size: 22px; color: #1a1d22; margin: 0 0 4px; }
-    .gr-main .sub { color: #6b727a; font-size: 13px; margin-bottom: 20px; }
+    .gr-main .sub { color: #6b727a; font-size: 13px; margin-bottom: 20px; line-height: 1.5; }
     .gr-card { background: white; border: 1px solid #e4e6ea; border-radius: 8px; padding: 18px; margin-bottom: 16px; }
     .chart-wrap { position: relative; height: 460px; }
-    table.tabela-ret {
-      width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 12px;
-    }
+    table.tabela-ret { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 12px; }
     table.tabela-ret th, table.tabela-ret td {
-      padding: 7px 12px; text-align: right; border-bottom: 1px solid #eef0f4;
+      padding: 9px 14px; text-align: right; border-bottom: 1px solid #eef0f4;
     }
     table.tabela-ret th { background: #f4f6f9; color: #5e7080; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
-    table.tabela-ret td.ticker { text-align: left; font-weight: 700; color: #1a1d22; font-family: ui-monospace, monospace; }
-    table.tabela-ret td.nome { text-align: left; color: #5e7080; font-size: 12px; }
+    table.tabela-ret td.lbl { text-align: left; font-weight: 700; font-family: ui-monospace, monospace; color: #1a1d22; }
+    table.tabela-ret td.lbl .sub-lbl { display: block; font-weight: 400; font-family: -apple-system, sans-serif; color: #6b727a; font-size: 11px; }
     table.tabela-ret tr.pos td.ret { color: #1b7a3a; font-weight: 700; }
     table.tabela-ret tr.neg td.ret { color: #b42a2a; font-weight: 700; }
     .meta-info { color: #9aa7b5; font-size: 11px; margin-top: 8px; font-style: italic; }
+    .pesos-box { font-size: 11.5px; color: #5e7080; margin-top: 10px; line-height: 1.5; }
+    .pesos-box code { background: #f4f6f9; padding: 1px 5px; border-radius: 3px; }
   </style>
 </head>
 <body>
@@ -49,8 +49,12 @@
   </header>
 
   <main class="gr-main">
-    <h1>Retorno nominal — Shoppings</h1>
-    <div class="sub">Acumulado desde o último dia útil de abril (30/04/2026). Base 0 = preço de fechamento naquela data. Série nominal de <code>data/historico_precos_v2/nominal/</code> (COTAHIST B3, sem ajuste por proventos).</div>
+    <h1>HSML11 vs Shoppings</h1>
+    <div class="sub">
+      Retorno nominal acumulado desde o último dia útil de abril (30/04/2026). Base 0 = preço de fechamento naquela data.<br>
+      <strong>Média do setor</strong> = média diária ponderada pelo peso no IFIX dos 10 Shoppings cobertos, com peso forward-filled do último mês disponível.
+      Série nominal de <code>data/historico_precos_v2/nominal/</code> (COTAHIST B3, sem ajuste por proventos).
+    </div>
 
     <div class="gr-card">
       <div class="chart-wrap"><canvas id="chartRetorno"></canvas></div>
@@ -58,12 +62,11 @@
     </div>
 
     <div class="gr-card">
-      <h2 style="font-size: 15px; margin: 0 0 8px;">Retorno acumulado por fundo</h2>
+      <h2 style="font-size: 15px; margin: 0 0 8px;">Resumo</h2>
       <table class="tabela-ret">
         <thead>
           <tr>
-            <th style="text-align:left;">Ticker</th>
-            <th style="text-align:left;">Nome</th>
+            <th style="text-align:left;">Série</th>
             <th>Preço 30/04</th>
             <th>Preço atual</th>
             <th>Retorno</th>
@@ -71,6 +74,7 @@
         </thead>
         <tbody id="tabela-body"></tbody>
       </table>
+      <div class="pesos-box" id="pesos-box"></div>
     </div>
   </main>
 
@@ -78,83 +82,117 @@
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
   <script>
     const BASE_DATE = "2026-04-30";
-
-    // Paleta com cores distinguíveis para 10 séries
-    const PALETTE = [
-      "#EC7000", "#1E5A8C", "#12876B", "#C0492F", "#8A4FBE",
-      "#C85A00", "#0FA3B3", "#B07D2D", "#5E7080", "#D14F8F",
-    ];
+    const FOCUS_TICKER = "HSML11";
 
     async function carregar() {
-      const idxResp = await fetch("data/index.json");
+      const v = Date.now();
+      const [idxResp, pesosResp] = await Promise.all([
+        fetch("data/index.json?v=" + v),
+        fetch("data/pesos_ifix_historico.json?v=" + v),
+      ]);
       const idx = await idxResp.json();
-      const tickers = idx.fiis.filter(f => f.Setor === "Shoppings").map(f => f.Ticker);
+      const pesos = await pesosResp.json();
       const nomes = Object.fromEntries(idx.fiis.map(f => [f.Ticker, f.Nome]));
+      const tickers = idx.fiis.filter(f => f.Setor === "Shoppings").map(f => f.Ticker);
 
-      const series = await Promise.all(tickers.map(async t => {
-        const r = await fetch(`data/historico_precos_v2/nominal/${t}.json?v=${Date.now()}`);
-        if (!r.ok) return { t, serie: [], base: null, atualizadoEm: null };
+      // Carrega series nominais
+      const seriesPorT = {};
+      await Promise.all(tickers.map(async t => {
+        const r = await fetch(`data/historico_precos_v2/nominal/${t}.json?v=${v}`);
+        if (!r.ok) return;
         const d = await r.json();
-        return { t, serie: d.serie || [], atualizadoEm: d.atualizado_em };
+        seriesPorT[t] = d.serie || [];
       }));
 
-      // Calcula retorno acumulado a partir do último ponto <= BASE_DATE
-      // Para cada FII, pegar preços de cada data >= BASE_DATE
-      const allDates = new Set();
-      const dataSets = [];
-      const tabelaRows = [];
-
-      series.forEach((s, idx2) => {
-        if (!s.serie.length) return;
-        // base price
-        let baseI = -1;
-        for (let i = s.serie.length - 1; i >= 0; i--) {
-          if (s.serie[i][0] <= BASE_DATE) { baseI = i; break; }
+      // Para cada ticker: indexa por data e calcula retorno acumulado desde BASE_DATE.
+      // basePrice = ultimo preco em data <= BASE_DATE.
+      const retPorT = {};   // ticker -> {data: retorno_acumulado_pct}
+      const basePriceT = {};
+      const lastPriceT = {};
+      const lastDateT  = {};
+      for (const t of tickers) {
+        const s = seriesPorT[t] || [];
+        if (!s.length) continue;
+        let bi = -1;
+        for (let i = s.length - 1; i >= 0; i--) { if (s[i][0] <= BASE_DATE) { bi = i; break; } }
+        if (bi < 0) continue;
+        const base = s[bi][1];
+        basePriceT[t] = base;
+        const map = {};
+        for (let i = bi; i < s.length; i++) {
+          map[s[i][0]] = ((s[i][1] / base) - 1) * 100;
         }
-        if (baseI < 0) return;
-        const basePrice = s.serie[baseI][1];
-        const baseDateUsed = s.serie[baseI][0];
+        retPorT[t] = map;
+        lastPriceT[t] = s[s.length - 1][1];
+        lastDateT[t]  = s[s.length - 1][0];
+      }
 
-        // pontos desde a base; usa Date object pra Chart.js + time scale
-        const pts = s.serie.slice(baseI).map(p => ({
-          x: new Date(p[0] + "T12:00:00").getTime(),
-          y: ((p[1] / basePrice) - 1) * 100,
-        }));
-        dataSets.push({
-          label: s.t,
-          data: pts,
-          borderColor: PALETTE[idx2 % PALETTE.length],
-          backgroundColor: PALETTE[idx2 % PALETTE.length] + "22",
-          borderWidth: 2,
-          tension: 0.25,
-          pointRadius: 0,
-          pointHoverRadius: 4,
-        });
+      // Peso mais recente por ticker (no pesos_ifix_historico)
+      const pesoUltimo = {};
+      for (const t of tickers) {
+        const lista = (pesos.tickers && pesos.tickers[t]) || [];
+        if (!lista.length) { pesoUltimo[t] = 0; continue; }
+        const ord = lista.slice().sort((a, b) => (a[0] < b[0] ? 1 : -1));
+        pesoUltimo[t] = ord[0][1] || 0;
+      }
+      const pesoTotal = tickers.reduce((s, t) => s + (pesoUltimo[t] || 0), 0);
 
-        const ultimo = s.serie[s.serie.length - 1];
-        const retPct = ((ultimo[1] / basePrice) - 1) * 100;
-        tabelaRows.push({
-          ticker: s.t,
-          nome: nomes[s.t] || s.t,
-          baseDate: baseDateUsed,
-          basePrice,
-          lastDate: ultimo[0],
-          lastPrice: ultimo[1],
-          retPct,
-        });
+      // Reune todas as datas
+      const allDates = new Set();
+      for (const t of tickers) {
+        for (const d in (retPorT[t] || {})) allDates.add(d);
+      }
+      const datas = Array.from(allDates).sort();
+
+      // Calcula media ponderada do setor por dia. Pra dias em que algum ticker
+      // nao tem dado, ignora ele e renormaliza o peso total dos presentes.
+      const setorSerie = datas.map(d => {
+        let soma = 0, somaPesos = 0;
+        for (const t of tickers) {
+          const v = retPorT[t] && retPorT[t][d];
+          const p = pesoUltimo[t] || 0;
+          if (v == null || p <= 0) continue;
+          soma += p * v;
+          somaPesos += p;
+        }
+        return somaPesos > 0 ? soma / somaPesos : null;
       });
 
-      // chart
-      const labels = Array.from(allDates).sort();
-      const ctx = document.getElementById("chartRetorno");
-      new Chart(ctx, {
+      // Serie HSML
+      const hsmlMap = retPorT[FOCUS_TICKER] || {};
+      const hsmlSerie = datas.map(d => hsmlMap[d] ?? null);
+
+      // ChartJS datasets
+      const dsHSML = {
+        label: FOCUS_TICKER,
+        data: datas.map((d, i) => ({ x: new Date(d + "T12:00:00").getTime(), y: hsmlSerie[i] })),
+        borderColor: "#EC7000",
+        backgroundColor: "#EC700022",
+        borderWidth: 2.5,
+        tension: 0.25,
+        pointRadius: 0, pointHoverRadius: 4,
+        spanGaps: true,
+      };
+      const dsSetor = {
+        label: "Média ponderada Shoppings",
+        data: datas.map((d, i) => ({ x: new Date(d + "T12:00:00").getTime(), y: setorSerie[i] })),
+        borderColor: "#5E7080",
+        backgroundColor: "#5E708022",
+        borderWidth: 2.5,
+        borderDash: [4, 4],
+        tension: 0.25,
+        pointRadius: 0, pointHoverRadius: 4,
+        spanGaps: true,
+      };
+
+      new Chart(document.getElementById("chartRetorno"), {
         type: "line",
-        data: { datasets: dataSets },
+        data: { datasets: [dsHSML, dsSetor] },
         options: {
           responsive: true, maintainAspectRatio: false,
           interaction: { mode: "nearest", axis: "x", intersect: false },
           plugins: {
-            legend: { position: "right", labels: { boxWidth: 16, font: { size: 11 } } },
+            legend: { position: "top", labels: { boxWidth: 18, font: { size: 12 }, padding: 12 } },
             tooltip: {
               callbacks: {
                 label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}%`,
@@ -169,33 +207,47 @@
               grid: { display: false },
             },
             y: {
-              ticks: {
-                callback: v => v.toFixed(1) + "%",
-                font: { size: 11 }, color: "#8A97A8",
-              },
+              ticks: { callback: v => v.toFixed(1) + "%", font: { size: 11 }, color: "#8A97A8" },
               grid: { color: "#EAEEF2" },
             },
           },
         },
       });
 
-      // tabela
-      tabelaRows.sort((a, b) => b.retPct - a.retPct);
+      // Tabela resumo: HSML + setor
+      const hsmlBase = basePriceT[FOCUS_TICKER];
+      const hsmlLast = lastPriceT[FOCUS_TICKER];
+      const hsmlRet  = hsmlSerie[hsmlSerie.length - 1];
+      const setorRet = setorSerie[setorSerie.length - 1];
       const tb = document.getElementById("tabela-body");
-      tb.innerHTML = tabelaRows.map(r => `
-        <tr class="${r.retPct >= 0 ? "pos" : "neg"}">
-          <td class="ticker">${r.ticker}</td>
-          <td class="nome">${escapeHtml(r.nome)}</td>
-          <td>R$ ${r.basePrice.toFixed(2).replace(".", ",")}</td>
-          <td>R$ ${r.lastPrice.toFixed(2).replace(".", ",")}</td>
-          <td class="ret">${(r.retPct >= 0 ? "+" : "") + r.retPct.toFixed(2)}%</td>
+      tb.innerHTML = `
+        <tr class="${hsmlRet >= 0 ? "pos" : "neg"}">
+          <td class="lbl">${FOCUS_TICKER}<span class="sub-lbl">${escapeHtml(nomes[FOCUS_TICKER] || "")}</span></td>
+          <td>R$ ${hsmlBase.toFixed(2).replace(".", ",")}</td>
+          <td>R$ ${hsmlLast.toFixed(2).replace(".", ",")}</td>
+          <td class="ret">${(hsmlRet >= 0 ? "+" : "") + hsmlRet.toFixed(2)}%</td>
         </tr>
-      `).join("");
+        <tr class="${setorRet >= 0 ? "pos" : "neg"}">
+          <td class="lbl">Setor (ponderado IFIX)<span class="sub-lbl">média dos 10 Shoppings</span></td>
+          <td>—</td>
+          <td>—</td>
+          <td class="ret">${(setorRet >= 0 ? "+" : "") + setorRet.toFixed(2)}%</td>
+        </tr>
+      `;
 
-      const atualizadoEm = series[0] && series[0].atualizadoEm;
-      const ultimaData = tabelaRows[0] && tabelaRows[0].lastDate;
+      // Pesos usados
+      const pesosTxt = tickers
+        .map(t => ({ t, p: pesoUltimo[t], wPct: pesoTotal > 0 ? (pesoUltimo[t] / pesoTotal) * 100 : 0 }))
+        .filter(x => x.p > 0)
+        .sort((a, b) => b.p - a.p)
+        .map(x => `<code>${x.t}</code> ${x.wPct.toFixed(1)}%`)
+        .join(" · ");
+      document.getElementById("pesos-box").innerHTML =
+        `<strong>Pesos relativos no setor (renormalizados):</strong> ${pesosTxt}`;
+
+      const atualizadoEm = (await (await fetch("data/historico_precos_v2/nominal/HSML11.json?v=" + v)).json()).atualizado_em;
       document.getElementById("meta-info").textContent =
-        `Período: ${BASE_DATE} → ${ultimaData}. Dados COTAHIST B3 (atualizado_em: ${atualizadoEm || "-"}).`;
+        `Período: ${BASE_DATE} → ${datas[datas.length - 1]}. ${datas.length} pontos. Dados COTAHIST B3 (atualizado_em: ${atualizadoEm || "-"}).`;
     }
 
     function escapeHtml(s) {
