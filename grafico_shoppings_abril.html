@@ -211,13 +211,21 @@
             x: {
               type: "time",
               time: { unit: "day", tooltipFormat: "dd/MM/yyyy", displayFormats: { day: "dd/MM" } },
-              ticks: { font: { size: 14, weight: "500" }, color: "#5e7080" },
+              ticks: {
+                autoSkip: true,
+                maxTicksLimit: 6,
+                maxRotation: 0, minRotation: 0,
+                font: { size: 18, weight: "600" }, color: "#1a1d22",
+                padding: 6,
+              },
               grid: { display: false },
             },
             y: {
               ticks: {
                 callback: v => v.toFixed(1) + "%",
-                font: { size: 15, weight: "500" }, color: "#5e7080",
+                maxTicksLimit: 7,
+                font: { size: 18, weight: "600" }, color: "#1a1d22",
+                padding: 8,
               },
               grid: { color: "#EAEEF2" },
             },
