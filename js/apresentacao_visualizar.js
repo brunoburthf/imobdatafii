@@ -278,12 +278,13 @@
       last,
       icon: setor === "Crédito Imobiliário" ? "coins" : setor === "Escritórios" ? "city" : "layer",
       // Editaveis (override defaults)
-      update:    ["", ""],
-      pos:       ["", "", ""],
-      risk:      ["", "", ""],
+      update:    [],
+      pos:       [],
+      risk:      [],
       guide:     guideDefault,
       dyproj:    dyprojDefault,
       guidedir:  "flat",  // up / down / flat
+      extras:    [],      // {id, type:"image"|"icon", data?, iconKey?, x,y,w,h} — x/y/w/h 0..1
       _hasOverride: false,
     };
   }
@@ -308,6 +309,7 @@
         if (typeof d.guide === "string" && d.guide.trim())   f.guide   = d.guide;
         if (typeof d.dyproj === "string" && d.dyproj.trim()) f.dyproj  = d.dyproj;
         if (["up", "down", "flat"].includes(d.guidedir))     f.guidedir = d.guidedir;
+        if (Array.isArray(d.extras))  f.extras = d.extras;
         f._hasOverride = true;
       }
     });
@@ -337,6 +339,7 @@
             guide:  f.guide || "",
             dyproj: f.dyproj || "",
             guidedir: f.guidedir,
+            extras: (f.extras || []),
             updated_at: firebase.firestore.Timestamp.now(),
             updated_by: window.currentUser.email || window.currentUser.uid,
           }, { merge: true });
@@ -459,6 +462,13 @@
         <div class="ticker-meta">${f.ticker} <span style="font-weight:400;color:#6b727a;">— ${escapeHtml(f.name || "")}</span></div>
         <div class="sync-badge ${f._hasOverride ? "saved" : ""}" data-badge>${f._hasOverride ? "Salvo no Firestore" : "Padrão (sem edição)"}</div>
       </div>
+      <div class="slide-toolbar">
+        <span class="tb-label">Extras:</span>
+        <button class="tb-btn" data-tb="add-image">🖼️ + Imagem</button>
+        <button class="tb-btn" data-tb="add-icon">⭐ + Ícone</button>
+        <button class="tb-btn danger" data-tb="clear-extras">Limpar extras</button>
+        <span class="tb-count" data-extras-count>${(f.extras || []).length} extra(s)</span>
+      </div>
       <div class="slide" data-slide>
         <!-- Painel esquerdo (identidade) -->
         <aside class="slide-left">
@@ -548,6 +558,9 @@
 
           <div class="footer-hint">Dados de proventos/operacional ilustrativos — confirmar com o último relatório gerencial.</div>
         </section>
+
+        <!-- Camada de extras (imagens/icones livremente posicionados) -->
+        <div class="extras-layer" data-extras-layer></div>
       </div>
     `;
 
@@ -591,7 +604,230 @@
       });
     }
 
+    // Toolbar de extras
+    card.querySelectorAll("[data-tb]").forEach(btn => {
+      const act = btn.dataset.tb;
+      btn.addEventListener("click", () => {
+        const fii = state.fiis.find(x => x.ticker === f.ticker);
+        if (!fii) return;
+        if (act === "add-image") pedirImagem(fii, card);
+        else if (act === "add-icon") abrirModalIcones(fii, card);
+        else if (act === "clear-extras") {
+          if (!fii.extras || !fii.extras.length) return;
+          if (confirm(`Remover todas as ${fii.extras.length} imagens/icones deste slide?`)) {
+            fii.extras = [];
+            renderExtras(card, fii);
+            marcarDirty(f.ticker, card);
+          }
+        }
+      });
+    });
+
+    // Renderiza extras iniciais
+    renderExtras(card, f);
+
     return card;
+  }
+
+  // ============== Extras: render + drag + resize + delete ==============
+
+  function renderExtras(card, fii) {
+    const layer = card.querySelector("[data-extras-layer]");
+    const slide = card.querySelector("[data-slide]");
+    if (!layer || !slide) return;
+    layer.innerHTML = "";
+    (fii.extras || []).forEach(ext => {
+      const el = document.createElement("div");
+      el.className = "extra";
+      el.dataset.id = ext.id;
+      el.style.left   = (ext.x * 100).toFixed(2) + "%";
+      el.style.top    = (ext.y * 100).toFixed(2) + "%";
+      el.style.width  = (ext.w * 100).toFixed(2) + "%";
+      el.style.height = (ext.h * 100).toFixed(2) + "%";
+      const imgSrc = ext.type === "image" ? ext.data
+                  : (window.APRESENTACAO_ICON_LIB && window.APRESENTACAO_ICON_LIB[ext.iconKey]
+                     ? window.APRESENTACAO_ICON_LIB[ext.iconKey].data : null);
+      if (imgSrc) {
+        const img = document.createElement("img");
+        img.src = "data:" + imgSrc;
+        el.appendChild(img);
+      }
+      const hr = document.createElement("div"); hr.className = "extra-handle resize"; el.appendChild(hr);
+      const hd = document.createElement("div"); hd.className = "extra-handle del";    el.appendChild(hd);
+      layer.appendChild(el);
+
+      // selecao
+      el.addEventListener("mousedown", (e) => {
+        if (e.target.classList.contains("del")) {
+          fii.extras = fii.extras.filter(x => x.id !== ext.id);
+          renderExtras(card, fii);
+          marcarDirty(fii.ticker, card);
+          updateExtrasCount(card, fii);
+          return;
+        }
+        // deseleciona todos os outros do slide
+        layer.querySelectorAll(".extra.selected").forEach(x => x.classList.remove("selected"));
+        el.classList.add("selected");
+        e.preventDefault();
+        if (e.target.classList.contains("resize")) {
+          iniciarResize(e, el, slide, ext, fii, card);
+        } else {
+          iniciarDrag(e, el, slide, ext, fii, card);
+        }
+      });
+    });
+
+    // Click fora dos extras: desseleciona
+    slide.addEventListener("mousedown", (e) => {
+      if (e.target.closest(".extra")) return;
+      layer.querySelectorAll(".extra.selected").forEach(x => x.classList.remove("selected"));
+    });
+
+    updateExtrasCount(card, fii);
+  }
+
+  function updateExtrasCount(card, fii) {
+    const c = card.querySelector("[data-extras-count]");
+    if (c) c.textContent = `${(fii.extras || []).length} extra(s)`;
+  }
+
+  function iniciarDrag(e, el, slide, ext, fii, card) {
+    const slideRect = slide.getBoundingClientRect();
+    const startX = e.clientX, startY = e.clientY;
+    const startLeft = ext.x, startTop = ext.y;
+    function onMove(ev) {
+      const dx = (ev.clientX - startX) / slideRect.width;
+      const dy = (ev.clientY - startY) / slideRect.height;
+      ext.x = Math.max(0, Math.min(1 - ext.w, startLeft + dx));
+      ext.y = Math.max(0, Math.min(1 - ext.h, startTop + dy));
+      el.style.left = (ext.x * 100).toFixed(2) + "%";
+      el.style.top  = (ext.y * 100).toFixed(2) + "%";
+    }
+    function onUp() {
+      document.removeEventListener("mousemove", onMove);
+      document.removeEventListener("mouseup", onUp);
+      marcarDirty(fii.ticker, card);
+    }
+    document.addEventListener("mousemove", onMove);
+    document.addEventListener("mouseup", onUp);
+  }
+
+  function iniciarResize(e, el, slide, ext, fii, card) {
+    const slideRect = slide.getBoundingClientRect();
+    const startX = e.clientX, startY = e.clientY;
+    const startW = ext.w, startH = ext.h;
+    function onMove(ev) {
+      const dx = (ev.clientX - startX) / slideRect.width;
+      const dy = (ev.clientY - startY) / slideRect.height;
+      ext.w = Math.max(0.02, Math.min(1 - ext.x, startW + dx));
+      ext.h = Math.max(0.02, Math.min(1 - ext.y, startH + dy));
+      el.style.width  = (ext.w * 100).toFixed(2) + "%";
+      el.style.height = (ext.h * 100).toFixed(2) + "%";
+    }
+    function onUp() {
+      document.removeEventListener("mousemove", onMove);
+      document.removeEventListener("mouseup", onUp);
+      marcarDirty(fii.ticker, card);
+    }
+    document.addEventListener("mousemove", onMove);
+    document.addEventListener("mouseup", onUp);
+  }
+
+  // ============== Upload de imagem ==============
+
+  function pedirImagem(fii, card) {
+    const inp = document.createElement("input");
+    inp.type = "file";
+    inp.accept = "image/png,image/jpeg,image/jpg,image/webp,image/gif";
+    inp.addEventListener("change", async () => {
+      const file = inp.files && inp.files[0];
+      if (!file) return;
+      try {
+        const data = await comprimirImagem(file, 1024, 0.85);
+        const ext = {
+          id: "ext_" + Date.now() + "_" + Math.random().toString(36).slice(2, 7),
+          type: "image",
+          data, // ex: "image/jpeg;base64,..."
+          x: 0.4, y: 0.4, w: 0.2, h: 0.2,
+        };
+        fii.extras = fii.extras || [];
+        fii.extras.push(ext);
+        renderExtras(card, fii);
+        marcarDirty(fii.ticker, card);
+      } catch (e) {
+        alert("Falha ao processar imagem: " + (e.message || e));
+      }
+    });
+    inp.click();
+  }
+
+  function comprimirImagem(file, maxWidth, quality) {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onerror = () => reject(new Error("read error"));
+      reader.onload = () => {
+        const img = new Image();
+        img.onload = () => {
+          const scale = Math.min(1, maxWidth / img.naturalWidth);
+          const w = Math.round(img.naturalWidth * scale);
+          const h = Math.round(img.naturalHeight * scale);
+          const canvas = document.createElement("canvas");
+          canvas.width = w; canvas.height = h;
+          const ctx = canvas.getContext("2d");
+          ctx.drawImage(img, 0, 0, w, h);
+          // jpeg pra ficar leve; png pra transparencia
+          const useJpeg = !file.type.includes("png") && !file.type.includes("gif") && !file.type.includes("webp");
+          const mime = useJpeg ? "image/jpeg" : "image/png";
+          const dataUrl = canvas.toDataURL(mime, quality);
+          // dataUrl = "data:image/jpeg;base64,..."; resta "image/jpeg;base64,..."
+          resolve(dataUrl.replace(/^data:/, ""));
+        };
+        img.onerror = () => reject(new Error("invalid image"));
+        img.src = reader.result;
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  // ============== Modal de icones ==============
+
+  function abrirModalIcones(fii, card) {
+    const lib = window.APRESENTACAO_ICON_LIB || {};
+    const overlay = document.createElement("div");
+    overlay.className = "modal-overlay";
+    const content = document.createElement("div");
+    content.className = "modal-content";
+    content.style.position = "relative";
+    content.innerHTML = `
+      <h2>Escolher ícone</h2>
+      <button class="close-x" data-close>×</button>
+      <div class="icon-grid"></div>
+    `;
+    const grid = content.querySelector(".icon-grid");
+    Object.entries(lib).forEach(([key, info]) => {
+      const btn = document.createElement("button");
+      btn.className = "ico-btn";
+      btn.innerHTML = `<img src="data:${info.data}" alt=""><span class="lbl">${escapeHtml(info.label)}</span>`;
+      btn.addEventListener("click", () => {
+        const ext = {
+          id: "ext_" + Date.now() + "_" + Math.random().toString(36).slice(2, 7),
+          type: "icon",
+          iconKey: key,
+          color: info.color,
+          x: 0.45, y: 0.45, w: 0.06, h: 0.06,
+        };
+        fii.extras = fii.extras || [];
+        fii.extras.push(ext);
+        renderExtras(card, fii);
+        marcarDirty(fii.ticker, card);
+        document.body.removeChild(overlay);
+      });
+      grid.appendChild(btn);
+    });
+    overlay.appendChild(content);
+    content.querySelector("[data-close]").addEventListener("click", () => document.body.removeChild(overlay));
+    overlay.addEventListener("click", e => { if (e.target === overlay) document.body.removeChild(overlay); });
+    document.body.appendChild(overlay);
   }
 
   function escapeHtml(s) {
@@ -828,6 +1064,19 @@
       card(s, RX2, r3Y, colW, r3H, P.CARDNEG);
       cardHeader(s, RX2, r3Y, colW, P.NEG, ic.risk, "Principais riscos");
       bullets(s, RX2 + 0.28, r3Y + 0.84, colW - 0.55, r3H - 0.98, f.risk);
+
+      // ----- Extras (imagens e icones posicionados livremente) -----
+      const lib = window.APRESENTACAO_ICON_LIB || {};
+      for (const ext of (f.extras || [])) {
+        const data = ext.type === "image" ? ext.data
+                   : (lib[ext.iconKey] && lib[ext.iconKey].data) || null;
+        if (!data) continue;
+        s.addImage({
+          data,
+          x: ext.x * W, y: ext.y * H,
+          w: ext.w * W, h: ext.h * H,
+        });
+      }
 
       s.addText(FOOTER, { x: RX, y: 7.14, w: RW, h: 0.25, fontSize: 8.5, italic: true, color: P.MUTED, fontFace: "Calibri", margin: 0 });
     }

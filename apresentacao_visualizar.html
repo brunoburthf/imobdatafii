@@ -222,6 +222,69 @@
       font-size: 12.5px; margin-bottom: 16px; line-height: 1.5;
     }
     .edit-hint b { color: #1a1d22; }
+
+    /* ============ Extras toolbar ============ */
+    .slide-toolbar {
+      display: flex; gap: 8px; align-items: center;
+      padding: 8px 14px; background: #fafbfc; border-bottom: 1px solid #dde3ed;
+      font-size: 12px;
+    }
+    .slide-toolbar .tb-label { color: #6b727a; font-weight: 600; margin-right: 4px; }
+    .slide-toolbar .tb-btn {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 4px 10px; border-radius: 4px; cursor: pointer;
+      border: 1px solid #e4e6ea; background: white; font-size: 12px; color: #1a1d22;
+    }
+    .slide-toolbar .tb-btn:hover { background: #f0f2f5; border-color: #c9cfd9; }
+    .slide-toolbar .tb-btn.danger:hover { background: #fbeeea; color: #b42a2a; border-color: #e0a795; }
+    .slide-toolbar .tb-count { color: #5e7080; margin-left: auto; font-size: 11px; }
+
+    /* ============ Extras overlay no slide ============ */
+    .slide .extra {
+      position: absolute; cursor: move; user-select: none;
+      border: 2px solid transparent; box-sizing: border-box;
+      transition: border-color 0.1s;
+    }
+    .slide .extra img { width: 100%; height: 100%; display: block; pointer-events: none; }
+    .slide .extra:hover { border-color: rgba(236,112,0,0.4); }
+    .slide .extra.selected { border-color: #EC7000; z-index: 100; }
+    .slide .extra-handle {
+      position: absolute; width: 1.0cqw; height: 1.0cqw; background: #EC7000;
+      border: 1px solid white; border-radius: 50%; display: none;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+    .slide .extra.selected .extra-handle { display: block; }
+    .slide .extra-handle.resize { right: -0.5cqw; bottom: -0.5cqw; cursor: se-resize; }
+    .slide .extra-handle.del    { right: -0.5cqw; top: -0.5cqw;    cursor: pointer; background: #C0492F; }
+    .slide .extra-handle.del::before { content: "×"; color: white; font-size: 0.8cqw; font-weight: 700; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); line-height: 1; }
+
+    /* ============ Modal de icones ============ */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 100;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .modal-content {
+      background: white; border-radius: 10px; padding: 24px;
+      max-width: 720px; max-height: 80vh; overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .modal-content h2 { margin: 0 0 16px; font-size: 17px; }
+    .modal-content .close-x {
+      position: absolute; top: 16px; right: 20px; cursor: pointer;
+      font-size: 24px; color: #5e7080; background: none; border: none;
+    }
+    .icon-grid {
+      display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px;
+    }
+    .icon-grid .ico-btn {
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+      padding: 14px 8px; border: 1px solid #e4e6ea; border-radius: 8px;
+      background: white; cursor: pointer; font-size: 11px; color: #5e7080;
+      transition: all 0.1s;
+    }
+    .icon-grid .ico-btn:hover { background: #fff7e0; border-color: #EC7000; transform: translateY(-1px); }
+    .icon-grid .ico-btn img { width: 36px; height: 36px; }
+    .icon-grid .ico-btn .lbl { text-align: center; line-height: 1.2; }
   </style>
 </head>
 <body>
