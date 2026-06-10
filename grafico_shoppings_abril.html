@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <title>Retorno nominal — Shoppings (desde 30/04/2026) — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .gr-main { padding: 24px 32px 48px; max-width: 1400px; margin: 0 auto; }
+    .gr-main h1 { font-size: 22px; color: #1a1d22; margin: 0 0 4px; }
+    .gr-main .sub { color: #6b727a; font-size: 13px; margin-bottom: 20px; }
+    .gr-card { background: white; border: 1px solid #e4e6ea; border-radius: 8px; padding: 18px; margin-bottom: 16px; }
+    .chart-wrap { position: relative; height: 460px; }
+    table.tabela-ret {
+      width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 12px;
+    }
+    table.tabela-ret th, table.tabela-ret td {
+      padding: 7px 12px; text-align: right; border-bottom: 1px solid #eef0f4;
+    }
+    table.tabela-ret th { background: #f4f6f9; color: #5e7080; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; }
+    table.tabela-ret td.ticker { text-align: left; font-weight: 700; color: #1a1d22; font-family: ui-monospace, monospace; }
+    table.tabela-ret td.nome { text-align: left; color: #5e7080; font-size: 12px; }
+    table.tabela-ret tr.pos td.ret { color: #1b7a3a; font-weight: 700; }
+    table.tabela-ret tr.neg td.ret { color: #b42a2a; font-weight: 700; }
+    .meta-info { color: #9aa7b5; font-size: 11px; margin-top: 8px; font-style: italic; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link ativo">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link">Interno</a>
+          <a href="outras_informacoes.html" class="nav-link">Outras Informações</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <button onclick="history.back()" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="gr-main">
+    <h1>Retorno nominal — Shoppings</h1>
+    <div class="sub">Acumulado desde o último dia útil de abril (30/04/2026). Base 0 = preço de fechamento naquela data. Série nominal de <code>data/historico_precos_v2/nominal/</code> (COTAHIST B3, sem ajuste por proventos).</div>
+
+    <div class="gr-card">
+      <div class="chart-wrap"><canvas id="chartRetorno"></canvas></div>
+      <div class="meta-info" id="meta-info">Carregando…</div>
+    </div>
+
+    <div class="gr-card">
+      <h2 style="font-size: 15px; margin: 0 0 8px;">Retorno acumulado por fundo</h2>
+      <table class="tabela-ret">
+        <thead>
+          <tr>
+            <th style="text-align:left;">Ticker</th>
+            <th style="text-align:left;">Nome</th>
+            <th>Preço 30/04</th>
+            <th>Preço atual</th>
+            <th>Retorno</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-body"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+  <script>
+    const BASE_DATE = "2026-04-30";
+
+    // Paleta com cores distinguíveis para 10 séries
+    const PALETTE = [
+      "#EC7000", "#1E5A8C", "#12876B", "#C0492F", "#8A4FBE",
+      "#C85A00", "#0FA3B3", "#B07D2D", "#5E7080", "#D14F8F",
+    ];
+
+    async function carregar() {
+      const idxResp = await fetch("data/index.json");
+      const idx = await idxResp.json();
+      const tickers = idx.fiis.filter(f => f.Setor === "Shoppings").map(f => f.Ticker);
+      const nomes = Object.fromEntries(idx.fiis.map(f => [f.Ticker, f.Nome]));
+
+      const series = await Promise.all(tickers.map(async t => {
+        const r = await fetch(`data/historico_precos_v2/nominal/${t}.json?v=${Date.now()}`);
+        if (!r.ok) return { t, serie: [], base: null, atualizadoEm: null };
+        const d = await r.json();
+        return { t, serie: d.serie || [], atualizadoEm: d.atualizado_em };
+      }));
+
+      // Calcula retorno acumulado a partir do último ponto <= BASE_DATE
+      // Para cada FII, pegar preços de cada data >= BASE_DATE
+      const allDates = new Set();
+      const dataSets = [];
+      const tabelaRows = [];
+
+      series.forEach((s, idx2) => {
+        if (!s.serie.length) return;
+        // base price
+        let baseI = -1;
+        for (let i = s.serie.length - 1; i >= 0; i--) {
+          if (s.serie[i][0] <= BASE_DATE) { baseI = i; break; }
+        }
+        if (baseI < 0) return;
+        const basePrice = s.serie[baseI][1];
+        const baseDateUsed = s.serie[baseI][0];
+
+        // pontos desde a base; usa Date object pra Chart.js + time scale
+        const pts = s.serie.slice(baseI).map(p => ({
+          x: new Date(p[0] + "T12:00:00").getTime(),
+          y: ((p[1] / basePrice) - 1) * 100,
+        }));
+        dataSets.push({
+          label: s.t,
+          data: pts,
+          borderColor: PALETTE[idx2 % PALETTE.length],
+          backgroundColor: PALETTE[idx2 % PALETTE.length] + "22",
+          borderWidth: 2,
+          tension: 0.25,
+          pointRadius: 0,
+          pointHoverRadius: 4,
+        });
+
+        const ultimo = s.serie[s.serie.length - 1];
+        const retPct = ((ultimo[1] / basePrice) - 1) * 100;
+        tabelaRows.push({
+          ticker: s.t,
+          nome: nomes[s.t] || s.t,
+          baseDate: baseDateUsed,
+          basePrice,
+          lastDate: ultimo[0],
+          lastPrice: ultimo[1],
+          retPct,
+        });
+      });
+
+      // chart
+      const labels = Array.from(allDates).sort();
+      const ctx = document.getElementById("chartRetorno");
+      new Chart(ctx, {
+        type: "line",
+        data: { datasets: dataSets },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          interaction: { mode: "nearest", axis: "x", intersect: false },
+          plugins: {
+            legend: { position: "right", labels: { boxWidth: 16, font: { size: 11 } } },
+            tooltip: {
+              callbacks: {
+                label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y.toFixed(2)}%`,
+              },
+            },
+          },
+          scales: {
+            x: {
+              type: "time",
+              time: { unit: "day", tooltipFormat: "dd/MM/yyyy", displayFormats: { day: "dd/MM" } },
+              ticks: { font: { size: 10 }, color: "#8A97A8" },
+              grid: { display: false },
+            },
+            y: {
+              ticks: {
+                callback: v => v.toFixed(1) + "%",
+                font: { size: 11 }, color: "#8A97A8",
+              },
+              grid: { color: "#EAEEF2" },
+            },
+          },
+        },
+      });
+
+      // tabela
+      tabelaRows.sort((a, b) => b.retPct - a.retPct);
+      const tb = document.getElementById("tabela-body");
+      tb.innerHTML = tabelaRows.map(r => `
+        <tr class="${r.retPct >= 0 ? "pos" : "neg"}">
+          <td class="ticker">${r.ticker}</td>
+          <td class="nome">${escapeHtml(r.nome)}</td>
+          <td>R$ ${r.basePrice.toFixed(2).replace(".", ",")}</td>
+          <td>R$ ${r.lastPrice.toFixed(2).replace(".", ",")}</td>
+          <td class="ret">${(r.retPct >= 0 ? "+" : "") + r.retPct.toFixed(2)}%</td>
+        </tr>
+      `).join("");
+
+      const atualizadoEm = series[0] && series[0].atualizadoEm;
+      const ultimaData = tabelaRows[0] && tabelaRows[0].lastDate;
+      document.getElementById("meta-info").textContent =
+        `Período: ${BASE_DATE} → ${ultimaData}. Dados COTAHIST B3 (atualizado_em: ${atualizadoEm || "-"}).`;
+    }
+
+    function escapeHtml(s) {
+      return String(s || "").replace(/[&<>"']/g, c =>
+        ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+
+    carregar();
+  </script>
+</body>
+</html>
