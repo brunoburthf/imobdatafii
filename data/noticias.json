@@ -1,7 +1,75 @@
 {
-  "atualizado_em": "09/06/2026 15:58",
+  "atualizado_em": "10/06/2026 06:18",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "CLIN11",
+      "nome_fundo": "Clave Índices de Preços FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-09T17:14:00",
+      "data_com": "2026-06-09",
+      "data_pagamento": "2026-06-16",
+      "valor": 1.15,
+      "valor_anterior": 0.95,
+      "variacao_pct": 0.21052631578947367,
+      "periodo_referencia": "Maio-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1215185,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215185"
+    },
+    {
+      "ticker": "CCME11",
+      "nome_fundo": "Canuma Capital Multiestratégia FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-06-09T17:13:00",
+      "data_com": "2026-06-09",
+      "data_pagamento": "2026-06-16",
+      "valor": 0.086,
+      "valor_anterior": 0.086,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Maio-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1215184,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215184"
+    },
+    {
+      "ticker": "PCIP11",
+      "nome_fundo": "Patria Crédito Imobiliário Índice de Preços FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-09T16:59:00",
+      "data_com": "2026-06-09",
+      "data_pagamento": "2026-06-16",
+      "valor": 0.89,
+      "valor_anterior": 0.85,
+      "variacao_pct": 0.04705882352941182,
+      "periodo_referencia": "Maio",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1215149,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215149"
+    },
+    {
+      "ticker": "PSEC11",
+      "nome_fundo": "Vbi Reits Multiestrategia FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-06-09T16:58:00",
+      "data_com": "2026-06-09",
+      "data_pagamento": "2026-06-16",
+      "valor": 0.55,
+      "valor_anterior": 0.65,
+      "variacao_pct": -0.15384615384615385,
+      "periodo_referencia": "Maio",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1215148,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215148"
+    },
     {
       "ticker": "VHFA11",
       "nome_fundo": "VHFA11",
@@ -2504,6 +2572,17 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "CPSH11",
+      "nome_fundo": "Capitânia Shoppings FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-06-09T19:28:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1215361,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215361"
+    },
+    {
       "ticker": "VILG11",
       "nome_fundo": "Vinci Logística FII",
       "setor": "Logística",
@@ -3495,6 +3574,66 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "SPXS11",
+      "nome_fundo": "Spx Real Estate Multiestratégia FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-06-09T20:27:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1215404,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215404"
+    },
+    {
+      "ticker": "AIEC11",
+      "nome_fundo": "Arch Edifícios Corporativos FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-06-09T18:39:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1215320,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215320"
+    },
+    {
+      "ticker": "CRAA11",
+      "nome_fundo": "CRAA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-06-09T18:25:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1215290,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215290"
+    },
+    {
+      "ticker": "SNFF11",
+      "nome_fundo": "Suno Fundo de FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-06-09T18:21:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1215282,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215282"
+    },
+    {
+      "ticker": "MXRF11",
+      "nome_fundo": "Maxi Renda FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-09T18:12:00",
+      "data_referencia": "30/04/2026",
+      "fnet_id": 1215268,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215268"
+    },
+    {
+      "ticker": "KDOL11",
+      "nome_fundo": "KDOL11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-06-09T18:08:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1215262,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1215262"
+    },
     {
       "ticker": "TVRI11",
       "nome_fundo": "Tivio Renda Imobiliária FII",
