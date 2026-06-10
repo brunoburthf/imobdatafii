@@ -367,9 +367,13 @@
     }
   }
 
-  function marcarDirty(ticker) {
+  function marcarDirty(ticker, card) {
     state.dirtyTickers.add(ticker);
     atualizarSaveState("dirty");
+    if (card) {
+      const badge = card.querySelector("[data-badge]");
+      if (badge) { badge.textContent = "Edição não salva"; badge.className = "sync-badge dirty"; }
+    }
   }
   function atualizarSaveState(s) {
     const el = document.getElementById("save-state");
@@ -388,69 +392,205 @@
     }
   }
 
+  // Helper: lista <ul><li> a partir de array de strings
+  function ulHTML(items) {
+    const arr = (items || []).filter(s => s && String(s).trim());
+    if (!arr.length) return "";
+    return "<ul>" + arr.map(s => `<li>${escapeHtml(s)}</li>`).join("") + "</ul>";
+  }
+
+  // Helper: gera SVG do gráfico de retorno 12m (FII + setor)
+  function chartSvgRetorno(serieFii, serieSetor) {
+    const w = 100, h = 40, pl = 8, pr = 4, pt = 4, pb = 10;
+    const all = (serieFii || []).concat(serieSetor || []);
+    if (!all.length) return "";
+    const mn = Math.min(0, ...all), mx = Math.max(0, ...all);
+    const range = (mx - mn) || 1;
+    const n = (serieFii || []).length;
+    function pts(arr) {
+      return arr.map((v, i) => {
+        const x = pl + ((w - pl - pr) * i) / (n - 1 || 1);
+        const y = h - pb - ((v - mn) / range) * (h - pt - pb);
+        return `${x.toFixed(2)},${y.toFixed(2)}`;
+      }).join(" ");
+    }
+    // y=0 gridline
+    const y0 = h - pb - ((0 - mn) / range) * (h - pt - pb);
+    return `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="${pl}" x2="${w - pr}" y1="${y0.toFixed(2)}" y2="${y0.toFixed(2)}" stroke="#EAEEF2" stroke-width="0.4"/>
+      <polyline fill="none" stroke="#9AA7B5" stroke-width="0.9" points="${pts(serieSetor)}"/>
+      <polyline fill="none" stroke="#EC7000" stroke-width="1.2" points="${pts(serieFii)}"/>
+    </svg>`;
+  }
+
   function cardFII(f) {
     const card = document.createElement("section");
-    card.className = "fii-card";
+    card.className = "slide-card";
     card.dataset.ticker = f.ticker;
-    card.innerHTML = `
-      <header class="fii-head">
+
+    const ret = state.ret[f.ticker] || { fii: [], setor: [] };
+    const opData = state.op[f.ticker] || [];
+    const dirSym = { up: "↑", down: "↓", flat: "=" };
+    const dirLabel = { up: "Em alta", down: "Em queda", flat: "Estável" };
+    const dir = f.guidedir || "flat";
+
+    const opRowsHtml = opData.map(row => {
+      if (row.fv === null) {
+        return `<div class="op-row"><div>${escapeHtml(row.p)}</div><div class="op-na">n/a</div><div></div></div>`;
+      }
+      const mv = Math.max(row.fv, row.sv) || 1;
+      const fW = Math.max(3, (row.fv / mv) * 100);
+      const sW = Math.max(3, (row.sv / mv) * 100);
+      return `<div class="op-row">
+        <div>${escapeHtml(row.p)}</div>
+        <div class="op-bar-wrap">
+          <div class="op-bar fundo" style="width:${fW.toFixed(1)}%"></div>
+          <div class="op-bar setor" style="width:${sW.toFixed(1)}%"></div>
+        </div>
         <div>
-          <span class="seg">${escapeHtml(f.segment || "—")}</span>
+          <div class="op-val-fundo">${escapeHtml(row.f)}</div>
+          <div class="op-val-setor">${escapeHtml(row.s)}</div>
+        </div>
+      </div>`;
+    }).join("");
+
+    card.innerHTML = `
+      <div class="slide-meta">
+        <div class="ticker-meta">${f.ticker} <span style="font-weight:400;color:#6b727a;">— ${escapeHtml(f.name || "")}</span></div>
+        <div class="sync-badge ${f._hasOverride ? "saved" : ""}" data-badge>${f._hasOverride ? "Salvo no Firestore" : "Padrão (sem edição)"}</div>
+      </div>
+      <div class="slide" data-slide>
+        <!-- Painel esquerdo (identidade) -->
+        <aside class="slide-left">
           <div class="ticker">${f.ticker}</div>
-          <div class="nome">${escapeHtml(f.name || "")}</div>
-        </div>
-        <div class="stats">
-          <div><div class="stat-v">${f.cota}</div><div class="stat-l">COTA</div></div>
-          <div><div class="stat-v">${f.dy}</div><div class="stat-l">DY 12M</div></div>
-          <div><div class="stat-v">${f.pvp}</div><div class="stat-l">P/VP</div></div>
-          <div><div class="stat-v">${f.vpcota}</div><div class="stat-l">VP/COTA</div></div>
-          <div><div class="stat-v">${f.extra}</div><div class="stat-l">${f.extraLabel.toUpperCase()}</div></div>
-        </div>
-        <div style="text-align:right;">
-          <span class="sync-badge" style="font-size:11px;color:#8FA6B8;">${f._hasOverride ? "Salvo" : "Padrão"}</span>
-        </div>
-      </header>
-      <div class="fii-body">
-        <div class="field-group">
-          <h3>Atualização do mês <span class="hint">(1 bullet por linha)</span></h3>
-          <textarea class="viz" data-field="update" rows="3" placeholder="• Renovação do contrato com âncora.\n• Nova aquisição anunciada.">${(f.update || []).join("\n")}</textarea>
-        </div>
-        <div class="field-group">
-          <h3>Guidance Proventos</h3>
-          <div class="guide-row">
-            <input class="viz" data-field="guide" value="${escapeAttr(f.guide || "")}" placeholder="R$ 0,95 – 1,05">
-            <input class="viz" data-field="dyproj" value="${escapeAttr(f.dyproj || "")}" placeholder="9,5% – 10,3% a.a.">
-            <select class="viz" data-field="guidedir">
-              <option value="up"   ${f.guidedir === "up"   ? "selected" : ""}>↑ Em alta</option>
-              <option value="flat" ${f.guidedir === "flat" ? "selected" : ""}>= Estável</option>
-              <option value="down" ${f.guidedir === "down" ? "selected" : ""}>↓ Em queda</option>
-            </select>
+          <div class="seg-pill">${escapeHtml(f.segment || "—")}</div>
+          <div class="fund-name">${escapeHtml(f.name || "")}</div>
+
+          <div class="stat"><div class="v">${f.cota}</div><div class="l">COTA (FECHAMENTO)</div></div>
+          <div class="stat"><div class="v">${f.dy}</div><div class="l">DIVIDEND YIELD 12M</div></div>
+          <div class="stat"><div class="v">${f.pvp}</div><div class="l">P / VP</div></div>
+          <div class="stat"><div class="v">${f.vpcota}</div><div class="l">VP / COTA</div></div>
+          <div class="stat"><div class="v">${f.extra}</div><div class="l">${(f.extraLabel || "").toUpperCase()}</div></div>
+        </aside>
+
+        <!-- Conteudo direito -->
+        <section class="slide-right">
+          <!-- Linha 1: update + guidance -->
+          <div class="slide-row r1">
+            <div class="slide-card-block update">
+              <div class="head">
+                <span class="circ" style="background:#EC7000;">⚡</span>
+                <span class="head-title">Atualização do mês</span>
+              </div>
+              <div class="editable" data-field="update" contenteditable="true"
+                   data-placeholder="• Renovação do contrato com âncora.">${ulHTML(f.update)}</div>
+            </div>
+
+            <div class="slide-card-block guide">
+              <select class="dir-select" data-field="guidedir">
+                <option value="up"   ${dir==="up"   ? "selected" : ""}>↑</option>
+                <option value="flat" ${dir==="flat" ? "selected" : ""}>=</option>
+                <option value="down" ${dir==="down" ? "selected" : ""}>↓</option>
+              </select>
+              <div class="g-title">Guidance Proventos</div>
+              <div class="g-range editable" data-field="guide" contenteditable="true"
+                   data-placeholder="R$ 0,77 – 0,85">${escapeHtml(f.guide || "")}</div>
+              <div class="g-dyproj editable" data-field="dyproj" contenteditable="true"
+                   data-placeholder="9,0% – 9,9% a.a.">${escapeHtml(f.dyproj || "")}</div>
+              <div class="g-arrow ${dir}" data-arrow>${dirSym[dir]}</div>
+              <div class="g-label ${dir}" data-arrow-label>${dirLabel[dir]}</div>
+            </div>
           </div>
-        </div>
-        <div class="field-group">
-          <h3>Pontos positivos <span class="hint">(1 bullet por linha)</span></h3>
-          <textarea class="viz" data-field="pos" rows="4" placeholder="• Gestão consistente.\n• Inquilinos de credito forte.">${(f.pos || []).join("\n")}</textarea>
-        </div>
-        <div class="field-group">
-          <h3>Principais riscos <span class="hint">(1 bullet por linha)</span></h3>
-          <textarea class="viz" data-field="risk" rows="4" placeholder="• Exposição a vacância em SP.\n• Sensibilidade ao IPCA.">${(f.risk || []).join("\n")}</textarea>
-        </div>
+
+          <!-- Linha 2: chart retorno + operacional -->
+          <div class="slide-row r2">
+            <div class="slide-card-block chart">
+              <div class="head">
+                <span class="circ" style="background:#010D3D;">📈</span>
+                <span class="head-title">Retorno 12m vs setor</span>
+              </div>
+              ${chartSvgRetorno(ret.fii, ret.setor)}
+            </div>
+
+            <div class="slide-card-block op">
+              <div class="head">
+                <span class="circ" style="background:#1E5A8C;">🏢</span>
+                <span class="head-title">Operacional</span>
+              </div>
+              <div class="op-legend">
+                <span><span class="dot fundo"></span>Fundo</span>
+                <span><span class="dot setor"></span>Setor</span>
+              </div>
+              <div class="op-rows">${opRowsHtml}</div>
+            </div>
+          </div>
+
+          <!-- Linha 3: positivos + riscos -->
+          <div class="slide-row r3">
+            <div class="slide-card-block pos">
+              <div class="head">
+                <span class="circ" style="background:#12876B;">↗</span>
+                <span class="head-title">Pontos positivos</span>
+              </div>
+              <div class="editable" data-field="pos" contenteditable="true"
+                   data-placeholder="• Gestão consistente.">${ulHTML(f.pos)}</div>
+            </div>
+
+            <div class="slide-card-block risk">
+              <div class="head">
+                <span class="circ" style="background:#C0492F;">⚠</span>
+                <span class="head-title">Principais riscos</span>
+              </div>
+              <div class="editable" data-field="risk" contenteditable="true"
+                   data-placeholder="• Vacância em SP elevada.">${ulHTML(f.risk)}</div>
+            </div>
+          </div>
+
+          <div class="footer-hint">Dados de proventos/operacional ilustrativos — confirmar com o último relatório gerencial.</div>
+        </section>
       </div>
     `;
-    // listeners
-    card.querySelectorAll("[data-field]").forEach(el => {
+
+    // Edicao inline
+    card.querySelectorAll(".editable[contenteditable=true]").forEach(el => {
       const field = el.dataset.field;
       el.addEventListener("input", () => {
         const fii = state.fiis.find(x => x.ticker === f.ticker);
         if (!fii) return;
         if (field === "update" || field === "pos" || field === "risk") {
-          fii[field] = el.value.split("\n").map(s => s.trim()).filter(Boolean);
+          // Le texto puro e separa por quebras
+          // Suporta tanto <ul><li> quanto plain text com \n
+          const text = el.innerText || "";
+          fii[field] = text.split(/\n/).map(s => s.trim()).filter(Boolean);
         } else {
-          fii[field] = el.value;
+          fii[field] = (el.innerText || "").trim();
         }
-        marcarDirty(f.ticker);
+        marcarDirty(f.ticker, card);
+      });
+      // Quando perde foco, normaliza visualmente listas
+      el.addEventListener("blur", () => {
+        if (field === "update" || field === "pos" || field === "risk") {
+          const fii = state.fiis.find(x => x.ticker === f.ticker);
+          if (fii) el.innerHTML = ulHTML(fii[field]);
+        }
       });
     });
+
+    // Guidance direction select
+    const dirSel = card.querySelector("select[data-field='guidedir']");
+    if (dirSel) {
+      dirSel.addEventListener("change", () => {
+        const fii = state.fiis.find(x => x.ticker === f.ticker);
+        if (!fii) return;
+        fii.guidedir = dirSel.value;
+        const arrEl = card.querySelector("[data-arrow]");
+        const lblEl = card.querySelector("[data-arrow-label]");
+        if (arrEl) { arrEl.textContent = dirSym[dirSel.value]; arrEl.className = "g-arrow " + dirSel.value; }
+        if (lblEl) { lblEl.textContent = dirLabel[dirSel.value]; lblEl.className = "g-label " + dirSel.value; }
+        marcarDirty(f.ticker, card);
+      });
+    }
+
     return card;
   }
 
