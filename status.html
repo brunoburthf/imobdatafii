@@ -88,18 +88,18 @@
       { label: "Assembleias",                path: "data/assembleias_fnet.json",               owner: "gha",    workflow: "assembleias-daily",  freq: "daily"  },
       { label: "Ofertas públicas",           path: "data/ofertas_publicas.json",               owner: "gha",    workflow: "ofertas-daily",      freq: "daily"  },
       { label: "IFIX — pesos histórico",     path: "data/pesos_ifix_historico.json",           owner: "gha",    workflow: "ifix-daily",         freq: "daily"  },
-      { label: "IFIX — retorno por setor",   path: "data/setores_retorno.json",                owner: "gha",    workflow: "noticias-daily",     freq: "daily"  },
-      { label: "IFIX — série (gráfico)",     path: "data/ifix.json",                           owner: "local",  workflow: "gerar_dados.py",     freq: "daily"  },
+      { label: "IFIX — retorno por setor",   path: "data/setores_retorno.json",                owner: "gha",    workflow: "ifix-daily",         freq: "daily"  },
+      { label: "IFIX — série (gráfico)",     path: "data/ifix.json",                           owner: "gha",    workflow: "ifix-daily",         freq: "daily"  },
       { label: "NTN-B — formato site",       path: "data/ntnb.json",                           owner: "gha",    workflow: "ntnb-daily",         freq: "daily"  },
       { label: "NTN-B — YTM histórico",      path: "data/ntnb_ytm_historico.json",             owner: "gha",    workflow: "ntnb-daily",         freq: "daily"  },
-      { label: "NTN-B — curva diária",       path: "data/ntnb/curva_diaria.json",              owner: "manual", workflow: "estudo (ad-hoc)",    freq: "weekly" },
+      { label: "NTN-B — curva diária",       path: "data/ntnb/curva_diaria.json",              owner: "gha",    workflow: "selic-daily",        freq: "daily"  },
       { label: "Selic — série diária",       path: "data/selic/serie_diaria.json",             owner: "gha",    workflow: "selic-daily",        freq: "daily"  },
       { label: "Selic — decisões COPOM",     path: "data/selic/copom.json",                    owner: "gha",    workflow: "selic-daily",        freq: "daily"  },
-      { label: "Selic — ciclos derivados",   path: "data/selic/ciclos.json",                   owner: "manual", workflow: "estudo (ad-hoc)",    freq: "weekly" },
+      { label: "Selic — ciclos derivados",   path: "data/selic/ciclos.json",                   owner: "gha",    workflow: "selic-daily",        freq: "daily"  },
       { label: "v2 (COTAHIST ajustado)",     path: "data/historico_precos_v2/bootstrap.json",  owner: "gha",    workflow: "v2-daily",           freq: "daily"  },
       { label: "Fundamentos Renda Urbana",   path: "data/fundamentos_renda_urbana.json",       owner: "gha",    workflow: "fundamentos-daily",  freq: "weekly" },
       { label: "Taxas adm/perf",             path: "data/taxas.json",                          owner: "manual", workflow: "atualizar_taxas.py", freq: "monthly" },
-      { label: "Estudo COPOM × curva",       path: "data/estudo_copom_curva.json",             owner: "manual", workflow: "estudo (ad-hoc)",    freq: "weekly" },
+      { label: "Estudo COPOM × curva",       path: "data/estudo_copom_curva.json",             owner: "gha",    workflow: "selic-daily",        freq: "daily"  },
     ];
 
     // Frequencia -> janela "ok" em horas. Acima de 3x da janela = bad.
