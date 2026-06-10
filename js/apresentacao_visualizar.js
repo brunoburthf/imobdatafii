@@ -59,12 +59,24 @@
 
     try {
       const top = await carregarDadosBase(cfg);
-      // Espera Firebase auth resolver antes de tentar ler do Firestore
       await aguardarAuth();
       if (!window.currentUser) {
         document.getElementById("auth-warn").style.display = "block";
+        document.getElementById("auth-warn").innerHTML =
+          'Faça login no <a href="simulador.html">Simulador de Carteira</a> primeiro pra carregar seus textos salvos e salvar novas edições. O editor abre normalmente — você pode editar e baixar o .pptx sem login.';
+      } else {
+        // Carrega overrides — se falhar (rules nao configuradas), apenas avisa
+        // e segue com defaults
+        try {
+          await carregarOverrides(top);
+        } catch (e) {
+          if (e && (e.code === "permission-denied" || /permission/i.test(e.message))) {
+            mostrarWarnRules();
+          } else {
+            console.warn("carregarOverrides falhou:", e);
+          }
+        }
       }
-      await carregarOverrides(top);
       state.fiis = top;
       renderizar();
       atualizarSaveState("saved");
@@ -73,6 +85,24 @@
     } finally {
       state.booting = false;
     }
+  }
+
+  function mostrarWarnRules() {
+    const warn = document.getElementById("auth-warn");
+    warn.style.display = "block";
+    warn.style.background = "#fbeeea";
+    warn.style.borderColor = "#e0a795";
+    warn.style.color = "#7a2415";
+    warn.innerHTML = `
+      <strong>Firestore: regras de seguranca nao permitem acesso a "apresentacoes_overrides".</strong><br>
+      O editor abre normalmente e voce pode baixar o .pptx, mas Salvar nao funcionara
+      ate adicionar as regras no Firebase Console.<br><br>
+      Adicione em <code>Firestore Rules</code>:<br>
+      <pre style="background:#fff; border:1px solid #ddd; padding:8px; border-radius:4px; font-size:12px; margin-top:8px; overflow-x:auto;">match /apresentacoes_overrides/{docId} {
+  allow read, write: if request.auth != null;
+}</pre>
+      <small>Cole esse bloco dentro do <code>match /databases/{database}/documents</code> ja existente.</small>
+    `;
   }
 
   function aguardarAuth() {
@@ -299,17 +329,25 @@
       for (const tk of dirty) {
         const f = state.fiis.find(x => x.ticker === tk);
         if (!f) continue;
-        await docRef(tk).set({
-          update: f.update.filter(x => x.trim()),
-          pos:    f.pos.filter(x => x.trim()),
-          risk:   f.risk.filter(x => x.trim()),
-          guide:  f.guide || "",
-          dyproj: f.dyproj || "",
-          guidedir: f.guidedir,
-          updated_at: firebase.firestore.Timestamp.now(),
-          updated_by: window.currentUser.email || window.currentUser.uid,
-        }, { merge: true });
-        f._hasOverride = true;
+        try {
+          await docRef(tk).set({
+            update: f.update.filter(x => x.trim()),
+            pos:    f.pos.filter(x => x.trim()),
+            risk:   f.risk.filter(x => x.trim()),
+            guide:  f.guide || "",
+            dyproj: f.dyproj || "",
+            guidedir: f.guidedir,
+            updated_at: firebase.firestore.Timestamp.now(),
+            updated_by: window.currentUser.email || window.currentUser.uid,
+          }, { merge: true });
+          f._hasOverride = true;
+        } catch (e) {
+          if (e && (e.code === "permission-denied" || /permission/i.test(e.message))) {
+            mostrarWarnRules();
+            throw new Error("Firestore bloqueou o salvamento — veja o aviso acima sobre as regras.");
+          }
+          throw e;
+        }
       }
       state.dirtyTickers.clear();
       atualizarSaveState("saved");
