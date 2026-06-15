@@ -1340,5 +1340,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1219467",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-13T06:14:06"
+  },
+  "1219936": {
+    "ticker": "TRXF11",
+    "tipo": "FII",
+    "data": "15/06/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "TRXF11 adquire imóvel corporativo locado ao IBMEC",
+    "resumo": "TRXF11 assinou CVC para aquisição do Dynamic Faria Lima (Pinheiros/SP), locado integralmente ao IBMEC (Grupo YDUQS). Valor: R$ 130 mi (50% em cash em 6 parcelas, 50% via subscrição de cotas). ABL: 8.258 m², YoC 10,42%, contrato típico até dez/2033, reajuste IPCA, garantia fiança YDUQS (AAA S&P).",
+    "valor_envolvido": "R$ 130 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de R$ 130 mi dividido em R$ 65 mi em 6 parcelas mensais e R$ 65 mi preferencialmente via subscrição de cotas pelo vendedor em até 180 dias",
+      "Contrato típico com vencimento em dezembro de 2033, reajuste IPCA e fiança do controlador YDUQS (rating AAA bra pela S&P)",
+      "Fechamento previsto para até 19/06/2026, sujeito a condições precedentes; YoC de 10,42% nos primeiros 12 meses"
+    ],
+    "fnet_id": 1219936,
+    "ticker_fonte": "TRXF11",
+    "data_anuncio": "2026-06-15T10:07:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1219936",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-15T17:13:10"
+  },
+  "1219930": {
+    "ticker": "TRXF11",
+    "tipo": "FII",
+    "data": "15/06/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "TRXF11 adquire edifício corporativo locado ao IBMEC",
+    "resumo": "TRXF11 assinou CVC para aquisição do Dynamic Faria Lima, edifício corporativo em Pinheiros/SP, locado integralmente ao IBMEC (Grupo YDUQS). Valor: R$ 130 mi, sendo R$ 65 mi em parcelas e R$ 65 mi via subscrição de cotas. YoC de 10,42%, ABL de 8.258 m², contrato típico até dez/2033, garantia fiança YDUQS (AAA S&P). Fechamento previsto até 19/06/2026.",
+    "valor_envolvido": "R$ 130 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de R$ 130 mi estruturado em duas parcelas iguais de R$ 65 mi: metade em cash em 6 prestações mensais e metade preferencialmente via subscrição de cotas do TRXF11 em até 180 dias",
+      "YoC 12 meses de 10,42%; contrato típico reajustado por IPCA com vencimento em dezembro de 2033 e fiança do controlador YDUQS (rating AAA bra pela S&P)",
+      "Portfólio pós-aquisição: 107 imóveis, ABL de 1.217.105 m² e valor investido em imóveis de R$ 7,45 bi; estimativa de distribuição mantida entre R$ 0,90 e R$ 0,93/cota até dez/2026"
+    ],
+    "fnet_id": 1219930,
+    "ticker_fonte": "TRXF11",
+    "data_anuncio": "2026-06-15T09:58:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1219930",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-15T17:13:26"
   }
 }
