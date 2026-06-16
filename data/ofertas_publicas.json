@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/06/2026 08:08",
+  "atualizado_em": "16/06/2026 09:16",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -10370,11 +10370,7 @@
         }
       },
       "fnet_inicio": null,
-      "fnet_encerramento": {
-        "data": "2026-03-16",
-        "fnet_id": 1139060,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1139060"
-      }
+      "fnet_encerramento": null
     },
     {
       "ticker": "PBLV11",
@@ -11496,7 +11492,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 166d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 168d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -28677,7 +28673,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 198d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 200d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -49230,7 +49226,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 807d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 809d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -67207,7 +67203,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1383d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1385d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -68942,7 +68938,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1810d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1812d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
