@@ -1406,5 +1406,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1222217",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-16T07:25:08"
+  },
+  "1223118": {
+    "ticker": "SNEL11",
+    "tipo": "FII",
+    "data": "16/06/2026",
+    "categoria": "emissao",
+    "titulo_curto": "5ª emissão de cotas SNEL11 aprovada",
+    "resumo": "Aprovada a 5ª emissão de cotas do SNEL11, com 221.320.140 novas cotas a R$ 8,32/cota (preço de subscrição R$ 8,65 com taxa de distribuição de 3,97%). Montante total de até R$ 1,84 bi, com lote adicional de 25% (R$ 460 mi). Mínimo de R$ 8,32 mi. Prazo de colocação: 180 dias.",
+    "valor_envolvido": "R$ 1.841 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de emissão R$ 8,32/cota; preço de subscrição R$ 8,65 (taxa distribuição 3,97%)",
+      "Lote adicional de até 25% eleva montante máximo a R$ 2,30 bi; montante mínimo R$ 8,32 mi",
+      "Direito de preferência com fator de proporção 2,0x sobre posição na data-base"
+    ],
+    "fnet_id": 1223118,
+    "ticker_fonte": "SNEL11",
+    "data_anuncio": "2026-06-16T22:20:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1223118",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-17T07:03:29"
+  },
+  "1222994": {
+    "ticker": "RBRX11",
+    "tipo": "FII",
+    "data": "16/06/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Alienação de cotas RBR Malls para PMLL",
+    "resumo": "RBRX11 alienou a totalidade das cotas do RBR Malls para o Patria Malls (PMLL) por R$ 385 mi ao valor patrimonial. Pagamento via compensação com subscrição de 3.282.741 novas cotas do PMLL a R$ 117,28 cada, convertendo posição ilíquida em ativo negociável em bolsa.",
+    "valor_envolvido": "R$ 385 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Alienação total das cotas do RBR Malls pelo valor patrimonial de R$ 384.999.765,49",
+      "Pagamento via compensação com subscrição de 3.282.741 cotas do PMLL a R$ 117,28",
+      "Objetivo: converter posição ilíquida em cotas negociadas em bolsa e melhorar carrego do Fundo"
+    ],
+    "fnet_id": 1222994,
+    "ticker_fonte": "RBRX11",
+    "data_anuncio": "2026-06-16T19:09:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1222994",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-17T07:03:37"
   }
 }

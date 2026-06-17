@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "16/06/2026 18:06",
+  "atualizado_em": "17/06/2026 07:03",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "MCRE11",
+      "nome_fundo": "Mauá Capital Real Estate FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-06-16T17:06:00",
+      "data_com": "2026-06-16",
+      "data_pagamento": "2026-06-23",
+      "valor": 0.11,
+      "valor_anterior": 0.11,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Maio-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1222826,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1222826"
+    },
     {
       "ticker": "AJFI11",
       "nome_fundo": "Aj Malls FII",
@@ -2555,6 +2572,28 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "SNEL11",
+      "nome_fundo": "Suno Energias Limpas FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-16T22:20:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1223118,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1223118"
+    },
+    {
+      "ticker": "RBRX11",
+      "nome_fundo": "Rbr Plus Multiestratégia Real Estate FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-06-16T19:09:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1222994,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1222994"
+    },
+    {
       "ticker": "PMLL11",
       "nome_fundo": "Genial Malls FII",
       "setor": "Shoppings",
@@ -3260,6 +3299,36 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "HCTR11",
+      "nome_fundo": "Hectare Ce FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-16T18:24:00",
+      "data_referencia": "31/03/2026",
+      "fnet_id": 1222907,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1222907"
+    },
+    {
+      "ticker": "HFOF11",
+      "nome_fundo": "Hedge Top Fofii 3 FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-06-16T17:34:00",
+      "data_referencia": "31/05/2026",
+      "fnet_id": 1222851,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1222851"
+    },
+    {
+      "ticker": "JSCR11",
+      "nome_fundo": "Js Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-16T16:03:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1222781,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1222781"
+    },
     {
       "ticker": "KNHF11",
       "nome_fundo": "Kinea Hedge Fund FII",
