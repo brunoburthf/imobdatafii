@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-17T16:58:05",
+  "atualizado_em": "2026-06-18T17:19:03",
   "fonte": "data/selic/copom.json",
   "definicoes": {
     "peak_to_trough": "Sequencia de cortes do 1o após um topo até o ultimo antes da proxima alta. Gaps temporais nao quebram o ciclo.",
@@ -687,12 +687,12 @@
     },
     {
       "data_inicio": "2026-03-19",
-      "data_fim": "2026-04-30",
+      "data_fim": "2026-06-18",
       "taxa_pico": 15.0,
-      "taxa_minimo": 14.5,
-      "delta_total_pp": -0.5,
-      "n_cortes": 2,
-      "duracao_dias": 42,
+      "taxa_minimo": 14.25,
+      "delta_total_pp": -0.75,
+      "n_cortes": 3,
+      "duracao_dias": 91,
       "definicao": "peak_to_trough",
       "decisoes": [
         {
@@ -706,6 +706,13 @@
           "data": "2026-04-30",
           "taxa_anterior": 14.75,
           "taxa_nova": 14.5,
+          "delta_pp": -0.25,
+          "direcao": "baixa"
+        },
+        {
+          "data": "2026-06-18",
+          "taxa_anterior": 14.5,
+          "taxa_nova": 14.25,
           "delta_pp": -0.25,
           "direcao": "baixa"
         }
@@ -1416,12 +1423,12 @@
     },
     {
       "data_inicio": "2026-03-19",
-      "data_fim": "2026-04-30",
+      "data_fim": "2026-06-18",
       "taxa_pico": 15.0,
-      "taxa_minimo": 14.5,
-      "delta_total_pp": -0.5,
-      "n_cortes": 2,
-      "duracao_dias": 42,
+      "taxa_minimo": 14.25,
+      "delta_total_pp": -0.75,
+      "n_cortes": 3,
+      "duracao_dias": 91,
       "definicao": "estrito",
       "decisoes": [
         {
@@ -1435,6 +1442,13 @@
           "data": "2026-04-30",
           "taxa_anterior": 14.75,
           "taxa_nova": 14.5,
+          "delta_pp": -0.25,
+          "direcao": "baixa"
+        },
+        {
+          "data": "2026-06-18",
+          "taxa_anterior": 14.5,
+          "taxa_nova": 14.25,
           "delta_pp": -0.25,
           "direcao": "baixa"
         }

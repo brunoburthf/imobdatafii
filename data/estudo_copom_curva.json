@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-17T16:58:05",
+  "atualizado_em": "2026-06-18T17:19:03",
   "fontes": [
     "data/selic/ciclos.json",
     "data/ntnb/curva_diaria.json"
@@ -31,89 +31,89 @@
   "resumo_medias_peak_to_trough": {
     "ytm_2a": {
       "pre_inicio": -1.0314,
-      "inicio_fim": -1.7993,
-      "pre_fim": -2.9927,
+      "inicio_fim": -1.6039,
+      "pre_fim": -2.7973,
       "fim_pos": 0.2185,
-      "transmissao": 0.8232
+      "transmissao": 0.4485
     },
     "ytm_5a": {
       "pre_inicio": -0.8234,
-      "inicio_fim": -1.4328,
-      "pre_fim": -2.2562,
+      "inicio_fim": -1.3401,
+      "pre_fim": -2.1635,
       "fim_pos": 0.1529,
-      "transmissao": 0.347
+      "transmissao": 0.2134
     },
     "ytm_10a": {
       "pre_inicio": -0.5685,
-      "inicio_fim": -1.0238,
-      "pre_fim": -1.5922,
+      "inicio_fim": -0.9628,
+      "pre_fim": -1.5313,
       "fim_pos": 0.1142,
-      "transmissao": 0.2427
+      "transmissao": 0.1542
     },
     "ytm_12a": {
       "pre_inicio": -0.6111,
-      "inicio_fim": -0.9997,
-      "pre_fim": -1.3294,
+      "inicio_fim": -0.9522,
+      "pre_fim": -1.2724,
       "fim_pos": 0.1137,
-      "transmissao": 0.223
+      "transmissao": 0.1367
     },
     "slope_12a_2a": {
       "pre_inicio": 0.7304,
-      "inicio_fim": 1.0413,
-      "pre_fim": 1.6563,
+      "inicio_fim": 0.9029,
+      "pre_fim": 1.4834,
       "fim_pos": -0.1442,
-      "transmissao": -0.6778
+      "transmissao": -0.3173
     },
     "curvature": {
       "pre_inicio": -0.0469,
-      "inicio_fim": 0.6685,
-      "pre_fim": 0.6212,
+      "inicio_fim": 0.6226,
+      "pre_fim": 0.5753,
       "fim_pos": -0.0959,
-      "transmissao": -0.374
+      "transmissao": -0.2139
     }
   },
   "resumo_medias_estritos": {
     "ytm_2a": {
       "pre_inicio": -1.0014,
-      "inicio_fim": -2.0069,
-      "pre_fim": -3.0383,
+      "inicio_fim": -1.8441,
+      "pre_fim": -2.8755,
       "fim_pos": 0.3537,
-      "transmissao": 0.7562
+      "transmissao": 0.444
     },
     "ytm_5a": {
       "pre_inicio": -0.8735,
-      "inicio_fim": -1.0225,
-      "pre_fim": -1.896,
+      "inicio_fim": -0.943,
+      "pre_fim": -1.8165,
       "fim_pos": 0.281,
-      "transmissao": 0.35
+      "transmissao": 0.2355
     },
     "ytm_10a": {
       "pre_inicio": -0.6183,
-      "inicio_fim": -0.6658,
-      "pre_fim": -1.2842,
+      "inicio_fim": -0.6136,
+      "pre_fim": -1.2319,
       "fim_pos": 0.225,
-      "transmissao": 0.2322
+      "transmissao": 0.1564
     },
     "ytm_12a": {
       "pre_inicio": -0.654,
-      "inicio_fim": -0.6473,
-      "pre_fim": -1.008,
+      "inicio_fim": -0.6066,
+      "pre_fim": -0.9605,
       "fim_pos": 0.2164,
-      "transmissao": 0.2075
+      "transmissao": 0.1356
     },
     "slope_12a_2a": {
       "pre_inicio": 0.6008,
-      "inicio_fim": 1.2648,
-      "pre_fim": 1.7852,
+      "inicio_fim": 1.1494,
+      "pre_fim": 1.6468,
       "fim_pos": -0.1154,
-      "transmissao": -0.6016
+      "transmissao": -0.3132
     },
     "curvature": {
       "pre_inicio": -0.1273,
-      "inicio_fim": 0.6854,
-      "pre_fim": 0.6385,
+      "inicio_fim": 0.6471,
+      "pre_fim": 0.6002,
       "fim_pos": 0.0045,
-      "transmissao": -0.3272
+      "transmissao": -0.1938
     }
   },
   "estudo_peak_to_trough": [
@@ -775,12 +775,12 @@
     },
     {
       "data_inicio": "2026-03-19",
-      "data_fim": "2026-04-30",
-      "duracao_dias": 42,
-      "delta_selic_pp": -0.5,
-      "n_cortes": 2,
+      "data_fim": "2026-06-18",
+      "duracao_dias": 91,
+      "delta_selic_pp": -0.75,
+      "n_cortes": 3,
       "taxa_pico": 15.0,
-      "taxa_minimo": 14.5,
+      "taxa_minimo": 14.25,
       "snapshots_curva": {
         "T_pre": {
           "data_efetiva": "2025-12-19",
@@ -801,13 +801,13 @@
           "curvature": -0.2158
         },
         "T_fim": {
-          "data_efetiva": "2026-04-30",
-          "ytm_2a": 8.2872,
-          "ytm_5a": 7.691,
-          "ytm_10a": 7.1909,
-          "ytm_12a": 7.1062,
-          "slope_12a_2a": -1.181,
-          "curvature": -0.0961
+          "data_efetiva": "2026-06-17",
+          "ytm_2a": 9.2642,
+          "ytm_5a": 8.2475,
+          "ytm_10a": 7.5565,
+          "ytm_12a": 7.3912,
+          "slope_12a_2a": -1.873,
+          "curvature": -0.3257
         },
         "T_pos": {
           "data_efetiva": null
@@ -816,45 +816,45 @@
       "deltas": {
         "ytm_2a": {
           "pre_inicio": -0.5094,
-          "inicio_fim": -0.3469,
-          "pre_fim": -0.8563,
+          "inicio_fim": 0.6301,
+          "pre_fim": 0.1207,
           "fim_pos": null,
-          "transmissao": 1.7126
+          "transmissao": -0.1609
         },
         "ytm_5a": {
           "pre_inicio": 0.1075,
-          "inicio_fim": -0.1974,
-          "pre_fim": -0.0899,
+          "inicio_fim": 0.3591,
+          "pre_fim": 0.4666,
           "fim_pos": null,
-          "transmissao": 0.1798
+          "transmissao": -0.6221
         },
         "ytm_10a": {
           "pre_inicio": 0.1025,
-          "inicio_fim": -0.1676,
-          "pre_fim": -0.0651,
+          "inicio_fim": 0.198,
+          "pre_fim": 0.3005,
           "fim_pos": null,
-          "transmissao": 0.1302
+          "transmissao": -0.4007
         },
         "ytm_12a": {
           "pre_inicio": 0.0605,
-          "inicio_fim": -0.1377,
-          "pre_fim": -0.0772,
+          "inicio_fim": 0.1473,
+          "pre_fim": 0.2078,
           "fim_pos": null,
-          "transmissao": 0.1544
+          "transmissao": -0.2771
         },
         "slope_12a_2a": {
           "pre_inicio": 0.5699,
-          "inicio_fim": 0.2092,
-          "pre_fim": 0.7791,
+          "inicio_fim": -0.4828,
+          "pre_fim": 0.0871,
           "fim_pos": null,
-          "transmissao": -1.5582
+          "transmissao": -0.1161
         },
         "curvature": {
           "pre_inicio": 0.6219,
-          "inicio_fim": 0.1197,
-          "pre_fim": 0.7416,
+          "inicio_fim": -0.1099,
+          "pre_fim": 0.512,
           "fim_pos": null,
-          "transmissao": -1.4832
+          "transmissao": -0.6827
         }
       }
     }
@@ -1676,12 +1676,12 @@
     },
     {
       "data_inicio": "2026-03-19",
-      "data_fim": "2026-04-30",
-      "duracao_dias": 42,
-      "delta_selic_pp": -0.5,
-      "n_cortes": 2,
+      "data_fim": "2026-06-18",
+      "duracao_dias": 91,
+      "delta_selic_pp": -0.75,
+      "n_cortes": 3,
       "taxa_pico": 15.0,
-      "taxa_minimo": 14.5,
+      "taxa_minimo": 14.25,
       "snapshots_curva": {
         "T_pre": {
           "data_efetiva": "2025-12-19",
@@ -1702,13 +1702,13 @@
           "curvature": -0.2158
         },
         "T_fim": {
-          "data_efetiva": "2026-04-30",
-          "ytm_2a": 8.2872,
-          "ytm_5a": 7.691,
-          "ytm_10a": 7.1909,
-          "ytm_12a": 7.1062,
-          "slope_12a_2a": -1.181,
-          "curvature": -0.0961
+          "data_efetiva": "2026-06-17",
+          "ytm_2a": 9.2642,
+          "ytm_5a": 8.2475,
+          "ytm_10a": 7.5565,
+          "ytm_12a": 7.3912,
+          "slope_12a_2a": -1.873,
+          "curvature": -0.3257
         },
         "T_pos": {
           "data_efetiva": null
@@ -1717,45 +1717,45 @@
       "deltas": {
         "ytm_2a": {
           "pre_inicio": -0.5094,
-          "inicio_fim": -0.3469,
-          "pre_fim": -0.8563,
+          "inicio_fim": 0.6301,
+          "pre_fim": 0.1207,
           "fim_pos": null,
-          "transmissao": 1.7126
+          "transmissao": -0.1609
         },
         "ytm_5a": {
           "pre_inicio": 0.1075,
-          "inicio_fim": -0.1974,
-          "pre_fim": -0.0899,
+          "inicio_fim": 0.3591,
+          "pre_fim": 0.4666,
           "fim_pos": null,
-          "transmissao": 0.1798
+          "transmissao": -0.6221
         },
         "ytm_10a": {
           "pre_inicio": 0.1025,
-          "inicio_fim": -0.1676,
-          "pre_fim": -0.0651,
+          "inicio_fim": 0.198,
+          "pre_fim": 0.3005,
           "fim_pos": null,
-          "transmissao": 0.1302
+          "transmissao": -0.4007
         },
         "ytm_12a": {
           "pre_inicio": 0.0605,
-          "inicio_fim": -0.1377,
-          "pre_fim": -0.0772,
+          "inicio_fim": 0.1473,
+          "pre_fim": 0.2078,
           "fim_pos": null,
-          "transmissao": 0.1544
+          "transmissao": -0.2771
         },
         "slope_12a_2a": {
           "pre_inicio": 0.5699,
-          "inicio_fim": 0.2092,
-          "pre_fim": 0.7791,
+          "inicio_fim": -0.4828,
+          "pre_fim": 0.0871,
           "fim_pos": null,
-          "transmissao": -1.5582
+          "transmissao": -0.1161
         },
         "curvature": {
           "pre_inicio": 0.6219,
-          "inicio_fim": 0.1197,
-          "pre_fim": 0.7416,
+          "inicio_fim": -0.1099,
+          "pre_fim": 0.512,
           "fim_pos": null,
-          "transmissao": -1.4832
+          "transmissao": -0.6827
         }
       }
     }
