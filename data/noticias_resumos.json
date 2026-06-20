@@ -1,48 +1,4 @@
 {
-  "1200285": {
-    "ticker": "TRXB11",
-    "tipo": "FII",
-    "data": "20/05/2026",
-    "categoria": "aquisicao",
-    "titulo_curto": "TRXB11 vende dois imóveis Pão de Açúcar",
-    "resumo": "TRXB11 assinou MOU para venda de dois imóveis em Goiânia-GO, locados ao Pão de Açúcar em contrato atípico até jul/2035, por R$ 74 mi (cap rate 6,61%, 9,57% acima do laudo). Lucro estimado de R$ 24,5 mi (R$ 6,03/cota); TIR de 11,57% a.a. Quitação de CRI de R$ 36,2 mi prevista.",
-    "valor_envolvido": "R$ 74 mi",
-    "criticidade": "alta",
-    "pontos_chave": [
-      "Venda por R$ 74 mi em três parcelas: sinal R$ 37 mi à vista, R$ 14,8 mi em 2 parcelas semestrais IPCA e R$ 22 mi em até 18 meses",
-      "Lucro líquido estimado de R$ 24,5 mi para TRXB11 (R$ 6,03/cota) e R$ 0,39/cota para TRXF11; TIR de 11,57% a.a.",
-      "Quitação de dívida CRI de R$ 36,2 mi e prazo de 90 dias para formalização dos instrumentos jurídicos"
-    ],
-    "fnet_id": 1200285,
-    "ticker_fonte": "TRXF11",
-    "data_anuncio": "2026-05-20T18:37:00",
-    "categoria_fnet": "Comunicado ao Mercado",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1200285",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-05-21T06:06:27"
-  },
-  "1200284": {
-    "ticker": "TRXB11",
-    "tipo": "FII",
-    "data": "20/05/2026",
-    "categoria": "aquisicao",
-    "titulo_curto": "TRXB11 vende dois imóveis Pão de Açúcar Goiânia",
-    "resumo": "TRXB11 assinou MOU para venda de dois imóveis locados ao Pão de Açúcar em Goiânia-GO por R$ 74 mi, cap rate 6,61%, 9,57% acima do laudo. Lucro estimado de R$ 24,5 mi (R$ 6,03/cota TRXB11; R$ 0,39/cota TRXF11), TIR de 11,57% a.a. Quitação de CRI de R$ 36,2 mi prevista.",
-    "valor_envolvido": "R$ 74 mi",
-    "criticidade": "alta",
-    "pontos_chave": [
-      "Venda por R$ 74 mi, 9,57% acima do laudo, cap rate 6,61%; pagamento em 3 parcelas (sinal R$ 37 mi + R$ 14,8 mi semestral + R$ 22 mi em 18 meses)",
-      "Lucro líquido estimado de R$ 24,5 mi para TRXB11 (R$ 6,03/cota), TIR 11,57% a.a.; impacto de R$ 0,39/cota no TRXF11",
-      "Quitação de CRI de R$ 36,2 mi reduz alavancagem do TRXB11; contratos atípicos com CBD (Pão de Açúcar) vigentes até julho/2035"
-    ],
-    "fnet_id": 1200284,
-    "ticker_fonte": "TRXF11",
-    "data_anuncio": "2026-05-20T18:35:00",
-    "categoria_fnet": "Comunicado ao Mercado",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1200284",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-05-21T06:06:38"
-  },
   "1201017": {
     "ticker": null,
     "tipo": "FII",
@@ -1296,5 +1252,137 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1224501",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-19T15:02:03"
+  },
+  "1225096": {
+    "ticker": "SNEL11",
+    "tipo": "FII",
+    "data": "19/06/2026",
+    "categoria": "emissao",
+    "titulo_curto": "Atualização de prospecto da 5ª emissão SNEL11",
+    "resumo": "SNEL11 divulga segunda versão do prospecto da 5ª emissão de cotas, registrada na CVM em 16/06/2026 sob rito automático. Atualização inclui histórico de cotações mínima, média e máxima por ano (5 anos), trimestre (2 anos) e mês (6 meses). Coordenador líder: QI Tech. Gestora: Suno Asset.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "5ª emissão registrada na CVM em 16/06/2026 sob nº CVM/SRE/AUT/FII/PRI/2026/203",
+      "Atualização do prospecto inclui histórico de cotações por período (página 32)",
+      "Coordenador líder QI Tech; gestora Suno Asset; assessor legal Stocche Forbes"
+    ],
+    "fnet_id": 1225096,
+    "ticker_fonte": "SNEL11",
+    "data_anuncio": "2026-06-19T20:05:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1225096",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-20T06:17:11"
+  },
+  "1225020": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "19/06/2026",
+    "categoria": "emissao",
+    "titulo_curto": "Retratação de cotas na 8ª emissão AF Invest CRI",
+    "resumo": "Distribuição parcial da 8ª emissão resultou em retratação de 391 cotas (231 do direito de preferência a R$95,99/cota e 160 de sobras a R$95,48/cota), totalizando R$37,45 mil devolvidos. Cotas efetivamente subscritas: 499.621, perfazendo R$47,70 mi. Pagamento em 25/06/2026.",
+    "valor_envolvido": "R$ 47,70 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "499.621 novas cotas subscritas e integralizadas, totalizando R$47.703.813,08",
+      "Retratação de 391 cotas condicionadas (231 direito de preferência + 160 sobras), com pagamento em 25/06/2026",
+      "Administrador: BTG Pactual; Gestora: AF Invest Real Estate; Coordenador Líder: Araújo Fontes"
+    ],
+    "fnet_id": 1225020,
+    "ticker_fonte": "AFHI11",
+    "data_anuncio": "2026-06-19T19:16:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1225020",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-20T06:17:23"
+  },
+  "1224950": {
+    "ticker": null,
+    "tipo": "FII",
+    "data": "19/06/2026",
+    "categoria": "emissao",
+    "titulo_curto": "Encerramento subscrição sobras e montante adicional",
+    "resumo": "Liquidação em 18/06/2026 das novas cotas da oferta restrita do AF Invest CRI FII. Total captado: R$ 47,74 mi (500.012 cotas), sendo R$ 10,82 mi via direito de preferência, R$ 15,58 mi via sobras e R$ 21,34 mi via montante adicional. Todos os cotistas foram integralmente atendidos.",
+    "valor_envolvido": "R$ 47,74 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "500.012 novas cotas emitidas totalizando R$ 47,74 mi",
+      "Sobras (163.196 cotas / R$ 15,58 mi) e montante adicional (223.475 cotas / R$ 21,34 mi) integralmente alocados",
+      "Cotas em recibo até emissão do Comunicado de Encerramento e autorização B3; rendimentos pro rata a partir da integralização"
+    ],
+    "fnet_id": 1224950,
+    "ticker_fonte": "AFHI11",
+    "data_anuncio": "2026-06-19T18:20:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1224950",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-20T06:17:34"
+  },
+  "1224877": {
+    "ticker": "HFOF11",
+    "tipo": "FII",
+    "data": "19/06/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Encerramento programa recompra cotas HFOF11",
+    "resumo": "HFOF11 encerra programa de recompra iniciado em agosto/2025, com aquisição e cancelamento de 11.523.000 cotas (5% do total). Estoque de cotas passa a 218.937.000. Operações intermediadas por Ativa Investimentos e XP a preço de mercado.",
+    "valor_envolvido": null,
+    "criticidade": "media",
+    "pontos_chave": [
+      "11.523.000 cotas recompradas e canceladas, equivalentes a 5% do total emitido na data de início",
+      "Programa encerrado em 19/06/2026 por atingimento do limite quantitativo estabelecido",
+      "Total de cotas em circulação reduzido para 218.937.000 cotas de Classe Única"
+    ],
+    "fnet_id": 1224877,
+    "ticker_fonte": "HFOF11",
+    "data_anuncio": "2026-06-19T17:25:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1224877",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-20T06:17:43"
+  },
+  "1224753": {
+    "ticker": "URCA11",
+    "tipo": "FII",
+    "data": "19/06/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Reapresentação de demonstrações financeiras sem ressalvas",
+    "resumo": "URCA Prime Renda FII reapresenta demonstrações financeiras de 31/12/2025 sem ressalvas, após conclusão de auditoria adicional pela NEXT Auditores. Pontos sanados: acesso às SPEs, defasagem do FIDC Residence Club e adequação da rubrica 'Outros créditos'. Administradora: Vórtx.",
+    "valor_envolvido": null,
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Demonstrações financeiras de 2025 reapresentadas sem ressalvas pela NEXT Auditores Independentes SS.",
+      "Qualificação anterior originada por limitação de escopo em SPEs, defasagem do FIDC Residence Club e saldo duvidoso em 'Outros créditos'",
+      "Todos os pontos de qualificação foram integralmente saneados após medidas de governança adotadas"
+    ],
+    "fnet_id": 1224753,
+    "ticker_fonte": "URPR11",
+    "data_anuncio": "2026-06-19T15:14:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1224753",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-20T06:18:00"
+  },
+  "1224749": {
+    "ticker": "SNFZ11",
+    "tipo": "Fiagro",
+    "data": "19/06/2026",
+    "categoria": "emissao",
+    "titulo_curto": "Encerramento direito preferência 3ª emissão SNFZ11",
+    "resumo": "Encerrado o período de direito de preferência da 3ª emissão de cotas do SNFZ11 (R$ 120,3 mi). Apenas 8.991 cotas subscritas (R$ 91,7 mil), representando adesão mínima. Remanescem 12.080.916 cotas (R$ 123,2 mi) disponíveis para o Período de Subscrição por investidores profissionais.",
+    "valor_envolvido": "R$ 120,3 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Adesão no direito de preferência foi irrisória: apenas 8.991 cotas de 12.089.907 ofertadas (~0,07% do total)",
+      "Saldo remanescente de 12.080.916 cotas (R$ 123,2 mi com taxa) segue para Período de Subscrição",
+      "Oferta restrita a investidores profissionais, dispensada de prospecto, coordenada pela QI Tech e gerida pela Suno Asset"
+    ],
+    "fnet_id": 1224749,
+    "ticker_fonte": "SNFZ11",
+    "data_anuncio": "2026-06-19T15:09:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1224749",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-20T06:18:10"
   }
 }
