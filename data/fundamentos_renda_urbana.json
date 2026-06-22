@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-06-19T16:14:56",
+  "atualizado_em": "2026-06-22T17:16:02",
   "setor": "Tijolo Multissetorial",
   "rotulo": "Renda Urbana",
   "fontes": {
@@ -8,12 +8,12 @@
     "ltv_historico": "LTV mensal por fundo ponderado pelo peso IFIX (pesos_ifix_historico, forward-fill). Constituentes atuais tracados pra tras.",
     "vacancia_historico": "Vacancia fisica por imovel (CVM informe trimestral, Percentual_Vacancia) ponderada por area dentro do fundo e pelo peso IFIX entre fundos (current-constituents)."
   },
-  "data_ref_ltv": null,
+  "data_ref_ltv": "2026-05-01",
   "agregado": {
     "vacancia_media": 0.020235,
-    "vacancia_ponderada_ifix": null,
-    "ltv_ponderado_valor": null,
-    "ltv_ponderado_ifix": null,
+    "vacancia_ponderada_ifix": 0.020736,
+    "ltv_ponderado_valor": 0.233799,
+    "ltv_ponderado_ifix": 0.218664,
     "n_fundos": 11
   },
   "fundos": [
@@ -25,10 +25,10 @@
       "retorno_12m": 0.16249,
       "vacancia": 0.000908,
       "n_imoveis": 19,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.065609,
+      "divida_aquisicao": 0.0,
+      "divida_securitizacao": 275196773.08,
+      "valor_imoveis": 4194467617.23
     },
     {
       "ticker": "HGRU11",
@@ -38,10 +38,10 @@
       "retorno_12m": 0.126265,
       "vacancia": 0.008122,
       "n_imoveis": 100,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.106415,
+      "divida_aquisicao": 90590686.65,
+      "divida_securitizacao": 206965592.1,
+      "valor_imoveis": 2796175829.22
     },
     {
       "ticker": "TRXF11",
@@ -51,10 +51,10 @@
       "retorno_12m": 0.001462,
       "vacancia": 0.0,
       "n_imoveis": 92,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.527101,
+      "divida_aquisicao": 600661071.14,
+      "divida_securitizacao": 2616022749.3,
+      "valor_imoveis": 6102596941.33
     },
     {
       "ticker": "ALZR11",
@@ -64,10 +64,10 @@
       "retorno_12m": 0.118568,
       "vacancia": 0.118825,
       "n_imoveis": 20,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.292911,
+      "divida_aquisicao": 31632000.0,
+      "divida_securitizacao": 343256333.51,
+      "valor_imoveis": 1279870557.25
     },
     {
       "ticker": "TVRI11",
@@ -77,10 +77,10 @@
       "retorno_12m": 0.141659,
       "vacancia": null,
       "n_imoveis": 0,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.008738,
+      "divida_aquisicao": 13512643.37,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 1546449746.2
     },
     {
       "ticker": "RBVA11",
@@ -90,10 +90,10 @@
       "retorno_12m": 0.238683,
       "vacancia": 0.059707,
       "n_imoveis": 73,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.18131,
+      "divida_aquisicao": 97333909.68,
+      "divida_securitizacao": 217755029.23,
+      "valor_imoveis": 1737846876.01
     },
     {
       "ticker": "GARE11",
@@ -103,10 +103,10 @@
       "retorno_12m": 0.043579,
       "vacancia": 0.0,
       "n_imoveis": 3,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.105111,
+      "divida_aquisicao": 0.0,
+      "divida_securitizacao": 45103277.03,
+      "valor_imoveis": 429100000.0
     },
     {
       "ticker": "HTMX11",
@@ -116,10 +116,10 @@
       "retorno_12m": 0.100572,
       "vacancia": 0.0,
       "n_imoveis": 20,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.0,
+      "divida_aquisicao": 0.0,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 408479091.79
     },
     {
       "ticker": "RZAT11",
@@ -129,10 +129,10 @@
       "retorno_12m": 0.196836,
       "vacancia": 0.0,
       "n_imoveis": 9,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.058337,
+      "divida_aquisicao": 11000000.0,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 188558600.0
     },
     {
       "ticker": "VIUR11",
@@ -142,10 +142,10 @@
       "retorno_12m": 0.484693,
       "vacancia": 0.0,
       "n_imoveis": 1,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.060756,
+      "divida_aquisicao": 2264000.0,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 37264000.0
     },
     {
       "ticker": "IBBP11",
@@ -155,12 +155,530 @@
       "retorno_12m": 0.12727,
       "vacancia": 0.014791,
       "n_imoveis": 12,
-      "ltv": null,
-      "divida_aquisicao": null,
-      "divida_securitizacao": null,
-      "valor_imoveis": null
+      "ltv": 0.018727,
+      "divida_aquisicao": 15184989.3,
+      "divida_securitizacao": 0.0,
+      "valor_imoveis": 810872478.49
     }
   ],
-  "ltv_historico_ifix": [],
-  "vacancia_historico_ifix": []
+  "ltv_historico_ifix": [
+    {
+      "mes": "2021-01",
+      "ltv_ifix": 0.075438,
+      "ltv_simples": 0.188921,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-02",
+      "ltv_ifix": 0.07961,
+      "ltv_simples": 0.19335,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-03",
+      "ltv_ifix": 0.073142,
+      "ltv_simples": 0.178764,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-04",
+      "ltv_ifix": 0.090923,
+      "ltv_simples": 0.203914,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-05",
+      "ltv_ifix": 0.094991,
+      "ltv_simples": 0.202768,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-06",
+      "ltv_ifix": 0.099514,
+      "ltv_simples": 0.194288,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-07",
+      "ltv_ifix": 0.110474,
+      "ltv_simples": 0.193606,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-08",
+      "ltv_ifix": 0.108639,
+      "ltv_simples": 0.196624,
+      "n_fundos": 7
+    },
+    {
+      "mes": "2021-09",
+      "ltv_ifix": 0.139221,
+      "ltv_simples": 0.224774,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2021-10",
+      "ltv_ifix": 0.148601,
+      "ltv_simples": 0.239869,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2021-11",
+      "ltv_ifix": 0.150477,
+      "ltv_simples": 0.239815,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2021-12",
+      "ltv_ifix": 0.167537,
+      "ltv_simples": 0.251166,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-01",
+      "ltv_ifix": 0.162936,
+      "ltv_simples": 0.256062,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-02",
+      "ltv_ifix": 0.165676,
+      "ltv_simples": 0.253448,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-03",
+      "ltv_ifix": 0.159951,
+      "ltv_simples": 0.247005,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-04",
+      "ltv_ifix": 0.162406,
+      "ltv_simples": 0.248267,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-05",
+      "ltv_ifix": 0.163952,
+      "ltv_simples": 0.250818,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-06",
+      "ltv_ifix": 0.167677,
+      "ltv_simples": 0.239404,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-07",
+      "ltv_ifix": 0.172648,
+      "ltv_simples": 0.23714,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-08",
+      "ltv_ifix": 0.185447,
+      "ltv_simples": 0.247349,
+      "n_fundos": 9
+    },
+    {
+      "mes": "2022-09",
+      "ltv_ifix": 0.190569,
+      "ltv_simples": 0.255969,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2022-10",
+      "ltv_ifix": 0.192581,
+      "ltv_simples": 0.234555,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2022-11",
+      "ltv_ifix": 0.193099,
+      "ltv_simples": 0.237241,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2022-12",
+      "ltv_ifix": 0.192837,
+      "ltv_simples": 0.225599,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-01",
+      "ltv_ifix": 0.196653,
+      "ltv_simples": 0.229677,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-02",
+      "ltv_ifix": 0.199221,
+      "ltv_simples": 0.22983,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-03",
+      "ltv_ifix": 0.196208,
+      "ltv_simples": 0.229024,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-04",
+      "ltv_ifix": 0.200101,
+      "ltv_simples": 0.227384,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-05",
+      "ltv_ifix": 0.189155,
+      "ltv_simples": 0.218406,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-06",
+      "ltv_ifix": 0.185666,
+      "ltv_simples": 0.214215,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-07",
+      "ltv_ifix": 0.183258,
+      "ltv_simples": 0.210749,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-08",
+      "ltv_ifix": 0.182658,
+      "ltv_simples": 0.209858,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-09",
+      "ltv_ifix": 0.181274,
+      "ltv_simples": 0.204773,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-10",
+      "ltv_ifix": 0.207553,
+      "ltv_simples": 0.206805,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-11",
+      "ltv_ifix": 0.204423,
+      "ltv_simples": 0.204734,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2023-12",
+      "ltv_ifix": 0.197113,
+      "ltv_simples": 0.20174,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-01",
+      "ltv_ifix": 0.193992,
+      "ltv_simples": 0.19972,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-02",
+      "ltv_ifix": 0.163061,
+      "ltv_simples": 0.158737,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-03",
+      "ltv_ifix": 0.175343,
+      "ltv_simples": 0.169767,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-04",
+      "ltv_ifix": 0.188,
+      "ltv_simples": 0.181348,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-05",
+      "ltv_ifix": 0.187646,
+      "ltv_simples": 0.179756,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-06",
+      "ltv_ifix": 0.183155,
+      "ltv_simples": 0.178542,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-07",
+      "ltv_ifix": 0.191996,
+      "ltv_simples": 0.19369,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-08",
+      "ltv_ifix": 0.192458,
+      "ltv_simples": 0.186224,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-09",
+      "ltv_ifix": 0.195534,
+      "ltv_simples": 0.186237,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-10",
+      "ltv_ifix": 0.211551,
+      "ltv_simples": 0.200296,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-11",
+      "ltv_ifix": 0.192461,
+      "ltv_simples": 0.180393,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2024-12",
+      "ltv_ifix": 0.182535,
+      "ltv_simples": 0.17619,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-01",
+      "ltv_ifix": 0.190927,
+      "ltv_simples": 0.181174,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-02",
+      "ltv_ifix": 0.184054,
+      "ltv_simples": 0.176557,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-03",
+      "ltv_ifix": 0.183953,
+      "ltv_simples": 0.179331,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-04",
+      "ltv_ifix": 0.177222,
+      "ltv_simples": 0.175415,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-05",
+      "ltv_ifix": 0.201546,
+      "ltv_simples": 0.171681,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-06",
+      "ltv_ifix": 0.172445,
+      "ltv_simples": 0.155824,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-07",
+      "ltv_ifix": 0.16932,
+      "ltv_simples": 0.153958,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-08",
+      "ltv_ifix": 0.169413,
+      "ltv_simples": 0.152262,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-09",
+      "ltv_ifix": 0.162937,
+      "ltv_simples": 0.149218,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-10",
+      "ltv_ifix": 0.18406,
+      "ltv_simples": 0.163774,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-11",
+      "ltv_ifix": 0.179471,
+      "ltv_simples": 0.163252,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2025-12",
+      "ltv_ifix": 0.17149,
+      "ltv_simples": 0.132928,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-01",
+      "ltv_ifix": 0.173076,
+      "ltv_simples": 0.131991,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-02",
+      "ltv_ifix": 0.171563,
+      "ltv_simples": 0.131482,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-03",
+      "ltv_ifix": 0.168203,
+      "ltv_simples": 0.128677,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-04",
+      "ltv_ifix": 0.206421,
+      "ltv_simples": 0.133458,
+      "n_fundos": 10
+    },
+    {
+      "mes": "2026-05",
+      "ltv_ifix": 0.218664,
+      "ltv_simples": 0.140629,
+      "n_fundos": 10
+    }
+  ],
+  "vacancia_historico_ifix": [
+    {
+      "trimestre": "2021-Q1",
+      "vac_ifix": 0.002066,
+      "vac_simples": 0.001294,
+      "n_fundos": 9
+    },
+    {
+      "trimestre": "2021-Q2",
+      "vac_ifix": 0.002097,
+      "vac_simples": 0.000632,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2021-Q3",
+      "vac_ifix": 0.001056,
+      "vac_simples": 0.00062,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2021-Q4",
+      "vac_ifix": 0.00123,
+      "vac_simples": 0.000609,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2022-Q1",
+      "vac_ifix": 0.000901,
+      "vac_simples": 0.00061,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2022-Q2",
+      "vac_ifix": 0.000231,
+      "vac_simples": 7.5e-05,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2022-Q3",
+      "vac_ifix": 0.000216,
+      "vac_simples": 6.9e-05,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2022-Q4",
+      "vac_ifix": 0.006944,
+      "vac_simples": 0.0071,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2023-Q1",
+      "vac_ifix": 0.009659,
+      "vac_simples": 0.008372,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2023-Q2",
+      "vac_ifix": 0.009615,
+      "vac_simples": 0.010876,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2023-Q3",
+      "vac_ifix": 0.011893,
+      "vac_simples": 0.012578,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2023-Q4",
+      "vac_ifix": 0.015874,
+      "vac_simples": 0.019828,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2024-Q1",
+      "vac_ifix": 0.016692,
+      "vac_simples": 0.021418,
+      "n_fundos": 10
+    },
+    {
+      "trimestre": "2024-Q2",
+      "vac_ifix": 0.014204,
+      "vac_simples": 0.01776,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2024-Q3",
+      "vac_ifix": 0.010892,
+      "vac_simples": 0.012109,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2024-Q4",
+      "vac_ifix": 0.008581,
+      "vac_simples": 0.012102,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2025-Q1",
+      "vac_ifix": 0.012154,
+      "vac_simples": 0.015285,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2025-Q2",
+      "vac_ifix": 0.036529,
+      "vac_simples": 0.105492,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2025-Q3",
+      "vac_ifix": 0.010302,
+      "vac_simples": 0.013806,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2025-Q4",
+      "vac_ifix": 0.018976,
+      "vac_simples": 0.021005,
+      "n_fundos": 11
+    },
+    {
+      "trimestre": "2026-Q1",
+      "vac_ifix": 0.020736,
+      "vac_simples": 0.051364,
+      "n_fundos": 11
+    }
+  ]
 }
