@@ -1296,5 +1296,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1225180",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-22T16:53:12"
+  },
+  "1226898": {
+    "ticker": "XPLG11",
+    "tipo": "FII",
+    "data": "23/06/2026",
+    "categoria": "outros",
+    "titulo_curto": "Esclarecimento à B3 sobre oscilação atípica",
+    "resumo": "XP responde ao Ofício B3 168/2026-SLE negando conhecimento de fatos que justifiquem oscilação atípica nas cotas do XPLG11. Administradora atribui variação de volume a rebalanceamentos periódicos de fundos de índice globais, sem fatos internos relacionados.",
+    "valor_envolvido": null,
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Administradora nega conhecimento de fato relevante que justifique oscilação",
+      "Variação atribuída a rebalanceamento de ETFs/fundos de índice globais",
+      "Comportamento similar já registrado anteriormente no histórico do fundo"
+    ],
+    "fnet_id": 1226898,
+    "ticker_fonte": "XPLG11",
+    "data_anuncio": "2026-06-23T23:19:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1226898",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-24T06:02:43"
+  },
+  "1226658": {
+    "ticker": "ALZR11",
+    "tipo": "FII",
+    "data": "23/06/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Contratação de formadores de mercado ALZR11",
+    "resumo": "ALZR11 contratou XP Investimentos e Suno como formadores de mercado, com início em 24/06/2026. Objetivo é fomentar liquidez das 164.512.251 cotas negociadas na B3. Contratos com vigência mínima de 12 meses, renováveis automaticamente.",
+    "valor_envolvido": null,
+    "criticidade": "media",
+    "pontos_chave": [
+      "Duas instituições contratadas: XP Investimentos e Suno",
+      "Vigência a partir de 24/06/2026, mínimo 12 meses renováveis",
+      "164.512.251 cotas elegíveis para formação de mercado"
+    ],
+    "fnet_id": 1226658,
+    "ticker_fonte": "ALZR11",
+    "data_anuncio": "2026-06-23T18:14:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1226658",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-24T06:02:50"
   }
 }
