@@ -1,8 +1,18 @@
 {
-  "atualizado_em": "23/06/2026 07:39",
+  "atualizado_em": "24/06/2026 07:32",
   "fonte": "fnet (B3) — Oferta Pública de Distribuição de Cotas",
   "janela_dias": 90,
   "anuncios": [
+    {
+      "ticker": "AFHI11",
+      "nome_pregao": "FII AFHI CRI",
+      "tipo": "Encerramento",
+      "tipo_completo": "Anúncio de Encerramento",
+      "data_anuncio": "2026-06-23T20:10:00",
+      "fnet_id": 1226793,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1226793"
+    },
     {
       "ticker": "MXRF11",
       "nome_pregao": "FII MAXI REN",
@@ -312,26 +322,6 @@
       "fnet_id": 1155012,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1155012"
-    },
-    {
-      "ticker": "GZIT11",
-      "nome_pregao": "FII GAZIT",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-03-25T18:08:00",
-      "fnet_id": 1144299,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1144299"
-    },
-    {
-      "ticker": "CPTS11",
-      "nome_pregao": "FII CAPI SEC",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-03-25T09:19:00",
-      "fnet_id": 1143696,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1143696"
     }
   ]
 }
