@@ -110,7 +110,8 @@ async function getSerieNominal(ticker) {
 const _vir = (x, dec = 2) => x.toFixed(dec).replace(".", ",");
 function celVar(pct) {
   if (pct == null || !isFinite(pct)) return '<td class="num">—</td>';
-  return `<td class="num">${_vir(pct)}%</td>`;
+  const cls = pct >= 0 ? "pan-pos" : "pan-neg";  // verde / vermelho-laranja
+  return `<td class="num ${cls}">${_vir(pct)}%</td>`;
 }
 function celDinheiro(x) {  // "Dividendo R$" → número puro, ex: 1,00
   if (x == null || !isFinite(x)) return '<td class="num">—</td>';
