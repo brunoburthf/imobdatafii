@@ -416,41 +416,25 @@ function atualizarIconesSortFatos() {
   });
 }
 
-// Atualização manual (botão interno, só admin): dispara o workflow de coleta no
-// GitHub Actions. O site publicado é estático (sem backend), então em vez de
-// rodar o coletor aqui, pedimos ao GHA pra rodar o noticias-daily.yml. O PAT
-// fica só no localStorage deste navegador — nunca vai pro repositório.
-const _GH_REPO     = "brunoburthf/imobdata-pipeline";
-const _GH_WORKFLOW = "noticias-daily.yml";
-const _GH_REF      = "main";
-const _GH_PAT_KEY  = "imobdata_gh_pat";
-
-function _obterPat(forcar) {
-  let pat = localStorage.getItem(_GH_PAT_KEY);
-  if (!pat || forcar) {
-    pat = prompt(
-      "Cole um GitHub Personal Access Token (fine-grained) com permissão " +
-      "'Actions: Read and write' no repositório imobdata-pipeline.\n\n" +
-      "Ele fica salvo só neste navegador (localStorage) e nunca vai pro código."
-    );
-    if (pat) {
-      pat = pat.trim();
-      localStorage.setItem(_GH_PAT_KEY, pat);
-    }
-  }
-  return pat;
-}
+// Atualização manual (botão interno, só admin): chama a Netlify Function
+// /.netlify/functions/atualizar-noticias, que dispara o workflow
+// noticias-daily.yml no GitHub Actions. O token do GitHub fica numa env var
+// secreta no Netlify (server-side) — o cliente NUNCA vê nem digita token. A
+// função valida o ID token do Firebase e só dispara pra conta autorizada.
+const _FN_ATUALIZAR = "/.netlify/functions/atualizar-noticias";
 
 async function atualizarNoticiasManual() {
   const btn    = document.getElementById("btn-atualizar-noticias");
   const status = document.getElementById("atualizar-noticias-status");
   if (!btn) return;
 
-  const pat = _obterPat(false);
-  if (!pat) {
+  // Precisa de usuário logado pra obter o ID token que a função valida.
+  const user = window.currentUser ||
+    (typeof firebase !== "undefined" && firebase.auth ? firebase.auth().currentUser : null);
+  if (!user) {
     if (status) {
       status.className = "atualizar-noticias-status val-restrito status-aviso";
-      status.textContent = "Cancelado — token não informado.";
+      status.textContent = "Faça login com sua conta para atualizar.";
     }
     return;
   }
@@ -464,28 +448,15 @@ async function atualizarNoticiasManual() {
   }
 
   try {
-    const resp = await fetch(
-      `https://api.github.com/repos/${_GH_REPO}/actions/workflows/${_GH_WORKFLOW}/dispatches`,
-      {
-        method: "POST",
-        headers: {
-          "Authorization": "Bearer " + pat,
-          "Accept": "application/vnd.github+json",
-          "X-GitHub-Api-Version": "2022-11-28",
-        },
-        body: JSON.stringify({ ref: _GH_REF }),
-      }
-    );
-
-    if (resp.status === 401 || resp.status === 403) {
-      localStorage.removeItem(_GH_PAT_KEY);  // força novo prompt na próxima
-      throw new Error("token inválido ou sem permissão 'Actions: Read and write'. Clique de novo para informar outro.");
-    }
-    // workflow_dispatch responde 204 No Content quando aceita.
-    if (resp.status !== 204) {
-      let detalhe = "";
-      try { detalhe = (await resp.json()).message || ""; } catch (_) {}
-      throw new Error(`GitHub respondeu ${resp.status}${detalhe ? " — " + detalhe : ""}`);
+    const idToken = await user.getIdToken();
+    const resp = await fetch(_FN_ATUALIZAR, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ idToken }),
+    });
+    const r = await resp.json().catch(() => ({}));
+    if (!resp.ok || !r.ok) {
+      throw new Error(r.erro || `falha ao disparar (HTTP ${resp.status})`);
     }
 
     if (status) status.textContent = "✓ Workflow disparado — coletando e republicando (≈2-3min)…";
