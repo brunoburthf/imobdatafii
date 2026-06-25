@@ -4838,10 +4838,12 @@ main[data-card] th.sort-ativo .sort-icon {
 .pan-cab-svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
 .pan-cab-logo {
   position: absolute; left: 0; top: 0; bottom: 0; width: 27%;
-  display: flex; align-items: center; padding-left: 30px;
-  z-index: 2; color: #1c2b3a; font-size: 25px; letter-spacing: -.5px; line-height: 1;
+  display: flex; align-items: center; justify-content: center;  /* centraliza na área branca */
+  z-index: 2; color: #1c2b3a; line-height: 1;
+  font-family: "Oswald", "Arial Narrow", sans-serif;  /* condensada/alongada vertical */
+  font-weight: 400; font-size: 30px; letter-spacing: .5px;
 }
-.pan-cab-logo strong { font-weight: 800; }
+.pan-cab-logo strong { font-weight: 700; }
 .pan-cab-data {
   position: relative; z-index: 2; color: #fff; font-weight: 700;
   font-size: 21px; padding-right: 34px; letter-spacing: .5px; white-space: nowrap;
