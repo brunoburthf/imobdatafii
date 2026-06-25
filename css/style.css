@@ -4898,6 +4898,14 @@ main[data-card] th.sort-ativo .sort-icon {
   font-size: 11.5px; font-weight: 700; padding: 5px;
 }
 .pan-tabela-movers thead { display: none; }
+/* Heatmap: barra proporcional à |variação|. Coluna da barra ocupa o espaço livre. */
+.pan-bar-cell { width: 99%; padding-right: 8px !important; }
+.pan-bar {
+  display: block; height: 11px; min-width: 4px; border-radius: 3px;
+}
+.pan-bar-pos { background: rgb(166, 207, 46); }
+.pan-bar-neg { background: rgb(236, 12, 0); }
+.pan-tabela-movers td { vertical-align: middle; }
 
 /* Editor de fundos ofertados */
 .pan-btn-editar, .pan-editor-controles button {

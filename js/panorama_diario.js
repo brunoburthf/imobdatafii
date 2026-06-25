@@ -271,12 +271,20 @@ function preencherMovers(id, lista) {
     tbody.innerHTML = `<tr><td colspan="3" class="pan-vazio">—</td></tr>`;
     return;
   }
-  tbody.innerHTML = lista.map(x => `
-    <tr>
+  // Barra proporcional: largura ∝ |variação| relativo ao maior do grupo (top = cheio).
+  const maxAbs = Math.max(...lista.map(x => Math.abs(x.pct))) || 1;
+  tbody.innerHTML = lista.map(x => {
+    const pos = x.pct >= 0;
+    const w = Math.max(5, Math.round(Math.abs(x.pct) / maxAbs * 100));  // min 5% p/ visibilidade
+    const corCls = pos ? "pan-pos" : "pan-neg";
+    const barCls = pos ? "pan-bar-pos" : "pan-bar-neg";
+    return `
+    <tr title="${nomeCurto(x.t)}">
       <td class="pan-ticker">${x.t}</td>
-      <td class="pan-nome" title="${nomeCurto(x.t)}">${nomeCurto(x.t)}</td>
-      ${celVar(x.pct)}
-    </tr>`).join("");
+      <td class="pan-bar-cell"><span class="pan-bar ${barCls}" style="width:${w}%"></span></td>
+      <td class="num ${corCls}">${_vir(x.pct)}%</td>
+    </tr>`;
+  }).join("");
 }
 
 // ── Copiar tabelas como imagem ──────────────────────────────────────────────
