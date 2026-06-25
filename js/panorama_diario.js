@@ -293,7 +293,7 @@ async function copiarImagemTabelas() {
     if (typeof html2canvas === "undefined") throw new Error("biblioteca de captura não carregou");
     const canvas = await html2canvas(alvo, {
       backgroundColor: "#ffffff",
-      scale: 2,                 // nitidez (retina)
+      scale: 1.5,               // nitidez sem imagem gigante
       useCORS: true,
       logging: false,
     });

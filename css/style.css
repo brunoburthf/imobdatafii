@@ -4845,8 +4845,14 @@ main[data-card] th.sort-ativo .sort-icon {
   margin-bottom: 24px;
 }
 /* Blocos de cima ocupam ~60% à esquerda (como no slide-fonte). */
-.pan-top { max-width: 60%; }
-@media (max-width: 900px) { .pan-top { max-width: 100%; } }
+/* A área das tabelas (alvo do "Copiar imagem") ocupa ~60% à esquerda; o padding
+   vira a pequena margem branca em volta na imagem copiada. As tabelas internas
+   passam a 100% dessa área (antes o 60% ficava nelas e sobrava espaço à direita
+   que era capturado pelo html2canvas). */
+#panorama-tabelas { max-width: 60%; padding: 10px; }
+@media (max-width: 900px) { #panorama-tabelas { max-width: 100%; padding: 0; } }
+.pan-top { max-width: 100%; }
+.pan-grid-movers .pan-card { margin-bottom: 0; }
 
 .pan-card-header {
   display: flex; align-items: center; justify-content: space-between;
@@ -4882,8 +4888,7 @@ main[data-card] th.sort-ativo .sort-icon {
 
 /* Maiores variações: 2 colunas; cada bloco = moldura laranja com barra-título laranja.
    max-width 60% = mesma largura dos blocos de cima (.pan-top) → tudo alinhado. */
-.pan-grid-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 60%; }
-@media (max-width: 900px) { .pan-grid-movers { max-width: 100%; } }
+.pan-grid-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 @media (max-width: 760px) { .pan-grid-movers { grid-template-columns: 1fr; } }
 .pan-sub {
   background: #EF6300; color: #fff; text-align: center;
