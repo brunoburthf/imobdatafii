@@ -4825,7 +4825,14 @@ main[data-card] th.sort-ativo .sort-icon {
 .panorama { max-width: 1180px; margin: 0 auto; padding: 22px 22px 60px; background: #fff; }
 .panorama-meta { color: var(--texto-suave); font-size: 12.5px; margin: 0 0 18px; }
 
-.pan-card { background: #fff; border: none; padding: 0; margin-bottom: 26px; }
+/* Moldura decorativa POR card: retângulo bem arredondado laranja em volta de
+   todo o bloco — o TÍTULO fica dentro da moldura, junto com a tabela. */
+.pan-card {
+  background: #fff;
+  border: 1.5px solid #EF6300; border-radius: 18px;
+  padding: 14px 18px 16px;
+  margin-bottom: 24px;
+}
 /* Blocos de cima ocupam ~60% à esquerda (como no slide-fonte). */
 .pan-top { max-width: 60%; }
 @media (max-width: 900px) { .pan-top { max-width: 100%; } }
@@ -4838,12 +4845,8 @@ main[data-card] th.sort-ativo .sort-icon {
   color: #EF6300; font-size: 15px; font-weight: 700; margin: 0;
 }
 
-/* Moldura decorativa POR TABELA: retângulo arredondado laranja em volta, com
-   respiro (padding) — a tabela em si não tem borda, só linhas horizontais. */
-.pan-tabela-wrap {
-  border: 1.5px solid #EF6300; border-radius: 10px; padding: 8px 10px;
-  overflow-x: auto;
-}
+/* Tabela interna sem borda (a moldura está no .pan-card). Só rolagem no mobile. */
+.pan-tabela-wrap { overflow-x: auto; }
 .pan-grid-movers .pan-tabela-wrap + .pan-tabela-wrap { margin-top: 14px; }
 .pan-tabela {
   width: 100%; border-collapse: collapse; font-size: 12.5px; background: #fff;
