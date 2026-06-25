@@ -4829,7 +4829,7 @@ main[data-card] th.sort-ativo .sort-icon {
 .pan-cab-bloco { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
 .pan-cab {
   position: relative; width: 60%; height: 64px; box-sizing: border-box;
-  background: #EF6300; border: 3px solid #EF6300; border-radius: 32px;
+  background: #EF6300; border: 3px solid #EF6300; border-radius: 11px;
   overflow: hidden; display: flex; align-items: center; justify-content: flex-end;
 }
 /* Área branca à esquerda com borda direita diagonal (mais larga no topo). */
