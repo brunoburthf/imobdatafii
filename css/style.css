@@ -4838,8 +4838,12 @@ main[data-card] th.sort-ativo .sort-icon {
   color: #EF6300; font-size: 15px; font-weight: 700; margin: 0;
 }
 
-/* Tabela SEM borda/moldura — só linhas horizontais laranja separando as linhas. */
-.pan-tabela-wrap { overflow-x: auto; }
+/* Moldura decorativa POR TABELA: retângulo arredondado laranja em volta, com
+   respiro (padding) — a tabela em si não tem borda, só linhas horizontais. */
+.pan-tabela-wrap {
+  border: 1.5px solid #EF6300; border-radius: 10px; padding: 8px 10px;
+  overflow-x: auto;
+}
 .pan-grid-movers .pan-tabela-wrap + .pan-tabela-wrap { margin-top: 14px; }
 .pan-tabela {
   width: 100%; border-collapse: collapse; font-size: 12.5px; background: #fff;
