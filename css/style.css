@@ -4880,9 +4880,9 @@ main[data-card] th.sort-ativo .sort-icon {
   border-bottom: 1px solid #EF6300;
 }
 .pan-tabela tbody tr:last-child td { border-bottom: none; }
-/* Variações %: positivas verde, negativas vermelho-laranja (vence o laranja do corpo) */
-.pan-tabela tbody td.pan-pos { color: rgb(166, 207, 46); }
-.pan-tabela tbody td.pan-neg { color: rgb(236, 12, 0); }
+/* Variações %: positivas verde, negativas vermelho-laranja (vence o laranja do corpo), em negrito */
+.pan-tabela tbody td.pan-pos { color: rgb(166, 207, 46); font-weight: 700; }
+.pan-tabela tbody td.pan-neg { color: rgb(236, 12, 0); font-weight: 700; }
 .pan-ticker { font-weight: 700; color: #EF6300; }
 .pan-nome { color: #EF6300; max-width: 160px; overflow: hidden; text-overflow: ellipsis; }
 .pan-linha-indice td { font-weight: 700; }
