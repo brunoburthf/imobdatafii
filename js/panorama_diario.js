@@ -277,6 +277,54 @@ function preencherMovers(id, lista) {
     </tr>`).join("");
 }
 
+// ── Copiar tabelas como imagem ──────────────────────────────────────────────
+// Renderiza #panorama-tabelas via html2canvas e copia o PNG pro clipboard.
+// Usa ClipboardItem com Promise<Blob> para preservar o gesto do clique
+// (exigido por Safari; suportado no Chrome) e evitar erro de "no user gesture".
+async function copiarImagemTabelas() {
+  const btn = document.getElementById("btn-copiar-imagem");
+  const alvo = document.getElementById("panorama-tabelas");
+  if (!btn || !alvo) return;
+  const txt = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "⏳ Gerando…";
+
+  const gerarBlob = async () => {
+    if (typeof html2canvas === "undefined") throw new Error("biblioteca de captura não carregou");
+    const canvas = await html2canvas(alvo, {
+      backgroundColor: "#ffffff",
+      scale: 2,                 // nitidez (retina)
+      useCORS: true,
+      logging: false,
+    });
+    return await new Promise((res, rej) =>
+      canvas.toBlob(b => b ? res(b) : rej(new Error("falha ao gerar PNG")), "image/png"));
+  };
+
+  try {
+    if (navigator.clipboard && window.ClipboardItem) {
+      // Passa a Promise direto pro ClipboardItem (mantém o gesto do clique).
+      await navigator.clipboard.write([
+        new ClipboardItem({ "image/png": gerarBlob() }),
+      ]);
+      btn.textContent = "✓ Copiado!";
+    } else {
+      // Fallback: baixa o PNG se o clipboard de imagem não for suportado.
+      const blob = await gerarBlob();
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "panorama_diario.png";
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      URL.revokeObjectURL(a.href);
+      btn.textContent = "✓ Baixado (clipboard indisponível)";
+    }
+  } catch (e) {
+    btn.textContent = "Erro: " + (e.message || e);
+  } finally {
+    setTimeout(() => { btn.disabled = false; btn.textContent = txt; }, 2600);
+  }
+}
+
 // ── Boot ────────────────────────────────────────────────────────────────────
 
 async function iniciarPanorama() {

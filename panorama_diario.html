@@ -37,16 +37,24 @@
 
     <div id="panorama-conteudo" style="display:none">
 
-      <p class="panorama-meta">
-        Panorama de mercado · Atualizado em <span id="panorama-atualizado">—</span>
-        · variação do dia ao vivo (5min); mês/12m por fechamento diário
-      </p>
+      <div class="panorama-topbar" data-html2canvas-ignore="true">
+        <p class="panorama-meta">
+          Panorama de mercado · Atualizado em <span id="panorama-atualizado">—</span>
+          · variação do dia ao vivo (5min); mês/12m por fechamento diário
+        </p>
+        <button type="button" id="btn-copiar-imagem" class="pan-btn-copiar"
+                onclick="copiarImagemTabelas()">📋 Copiar imagem</button>
+      </div>
+
+      <!-- Área capturada pelo botão "Copiar imagem" (só as tabelas). -->
+      <div id="panorama-tabelas">
 
       <!-- ── Bloco 1: Fundos Ofertados ── -->
       <section class="pan-card pan-top">
         <div class="pan-card-header">
           <h2>Variações dos Fundos Ofertados</h2>
-          <button type="button" class="pan-btn-editar" onclick="document.getElementById('pan-editor').classList.toggle('aberto')">
+          <button type="button" class="pan-btn-editar" data-html2canvas-ignore="true"
+                  onclick="document.getElementById('pan-editor').classList.toggle('aberto')">
             ✎ Editar fundos
           </button>
         </div>
@@ -119,9 +127,12 @@
         </section>
       </div>
 
+      </div><!-- /#panorama-tabelas -->
+
     </div>
   </main>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>

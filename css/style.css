@@ -4823,7 +4823,18 @@ main[data-card] th.sort-ativo .sort-icon {
    moldura laranja arredondada em volta de cada tabela. SEM azul.
    Laranja da marca: #EF6300. */
 .panorama { max-width: 1180px; margin: 0 auto; padding: 22px 22px 60px; background: #fff; }
-.panorama-meta { color: var(--texto-suave); font-size: 12.5px; margin: 0 0 18px; }
+.panorama-meta { color: var(--texto-suave); font-size: 12.5px; margin: 0; }
+.panorama-topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; margin: 0 0 18px;
+}
+.pan-btn-copiar {
+  background: #EF6300; color: #fff; border: none; border-radius: 6px;
+  padding: 7px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
+  white-space: nowrap; flex-shrink: 0;
+}
+.pan-btn-copiar:hover:not(:disabled) { background: #ff7d1a; }
+.pan-btn-copiar:disabled { opacity: .8; cursor: default; }
 
 /* Moldura decorativa POR card: retângulo bem arredondado laranja em volta de
    todo o bloco — o TÍTULO fica dentro da moldura, junto com a tabela. */
