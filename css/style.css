@@ -4819,9 +4819,9 @@ main[data-card] th.sort-ativo .sort-icon {
 .rm-setorial-scroll { max-height: 320px; }
 
 /* ── Panorama Diário (aba interna) — réplica fiel do painel ──
-   Fundo BRANCO; cabeçalho navy (texto branco); 1ª coluna (ticker) laranja
-   (texto branco); valores em texto escuro; títulos e notas em laranja.
-   Monocromático (sem verde/vermelho por sinal). Cores da marca: #EF6300 / navy. */
+   Cabeçalho LARANJA + letras brancas; corpo BRANCO + letras laranjas;
+   moldura laranja arredondada em volta de cada tabela. SEM azul.
+   Laranja da marca: #EF6300. */
 .panorama { max-width: 1180px; margin: 0 auto; padding: 22px 22px 60px; background: #fff; }
 .panorama-meta { color: var(--texto-suave); font-size: 12.5px; margin: 0 0 18px; }
 
@@ -4838,34 +4838,38 @@ main[data-card] th.sort-ativo .sort-icon {
   color: #EF6300; font-size: 15px; font-weight: 700; margin: 0;
 }
 
-.pan-tabela-wrap { overflow-x: auto; }
-.pan-tabela {
-  width: 100%; border-collapse: collapse; font-size: 12.5px;
-  color: var(--texto); background: #fff;
+/* Moldura laranja arredondada em volta da tabela */
+.pan-tabela-wrap {
+  border: 1.5px solid #EF6300; border-radius: 8px; overflow: hidden;
 }
-/* Cabeçalho navy, texto branco */
+.pan-grid-movers .pan-tabela-wrap + .pan-tabela-wrap { margin-top: 14px; }
+.pan-tabela {
+  width: 100%; border-collapse: collapse; font-size: 12.5px; background: #fff;
+}
+/* Cabeçalho laranja, letras brancas */
 .pan-tabela thead th {
-  background: #00093c; color: #fff; text-align: left; font-weight: 600;
+  background: #EF6300; color: #fff; text-align: left; font-weight: 600;
   padding: 6px 10px; white-space: nowrap;
 }
 .pan-tabela th.num, .pan-tabela td.num { text-align: right; }
+/* Corpo branco, letras laranjas */
 .pan-tabela tbody td {
-  padding: 5px 10px; white-space: nowrap; background: #fff;
-  border-bottom: 1px solid #e6eaf0;
+  padding: 5px 10px; white-space: nowrap; background: #fff; color: #EF6300;
+  border-bottom: 1px solid #f5ddca;
 }
-/* 1ª coluna laranja, texto branco (vence a regra de td acima por especificidade) */
-.pan-tabela tbody td.pan-ticker { background: #EF6300; color: #fff; font-weight: 700; }
-.pan-nome { color: #3a4656; max-width: 160px; overflow: hidden; text-overflow: ellipsis; }
+.pan-tabela tbody tr:last-child td { border-bottom: none; }
+.pan-ticker { font-weight: 700; color: #EF6300; }
+.pan-nome { color: #EF6300; max-width: 160px; overflow: hidden; text-overflow: ellipsis; }
 .pan-linha-indice td { font-weight: 700; }
 .pan-vazio { text-align: center; color: var(--texto-suave); padding: 12px; }
 .pan-nota { color: #EF6300; font-size: 10.5px; font-style: italic; margin: 5px 0 0; }
 
-/* Maiores variações: 2 colunas; cada sub-tabela tem barra-título navy. */
+/* Maiores variações: 2 colunas; cada bloco = moldura laranja com barra-título laranja. */
 .pan-grid-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 @media (max-width: 760px) { .pan-grid-movers { grid-template-columns: 1fr; } }
 .pan-sub {
-  background: #00093c; color: #fff; text-align: center;
-  font-size: 11.5px; font-weight: 700; padding: 5px; margin: 10px 0 0;
+  background: #EF6300; color: #fff; text-align: center;
+  font-size: 11.5px; font-weight: 700; padding: 5px;
 }
 .pan-tabela-movers thead { display: none; }
 
