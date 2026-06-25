@@ -4842,7 +4842,7 @@ main[data-card] th.sort-ativo .sort-icon {
   background: #fff;
   border: 3px solid #EF6300; border-radius: 54px;
   padding: 14px 18px 16px;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 /* Blocos de cima ocupam ~60% à esquerda (como no slide-fonte). */
 /* A área das tabelas (alvo do "Copiar imagem") ocupa ~60% à esquerda; o padding
@@ -4871,12 +4871,12 @@ main[data-card] th.sort-ativo .sort-icon {
 /* Cabeçalho laranja, letras brancas */
 .pan-tabela thead th {
   background: #EF6300; color: #fff; text-align: left; font-weight: 600;
-  padding: 4px 10px; white-space: nowrap;
+  padding: 3px 10px; white-space: nowrap;
 }
 .pan-tabela th.num, .pan-tabela td.num { text-align: right; }
 /* Corpo branco, letras laranjas, separador horizontal laranja entre linhas */
 .pan-tabela tbody td {
-  padding: 3px 10px; white-space: nowrap; background: #fff; color: #EF6300;
+  padding: 2px 10px; white-space: nowrap; background: #fff; color: #EF6300;
   border-bottom: 1px solid #EF6300;
 }
 .pan-tabela tbody tr:last-child td { border-bottom: none; }
