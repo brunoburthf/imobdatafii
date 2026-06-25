@@ -4818,92 +4818,93 @@ main[data-card] th.sort-ativo .sort-icon {
 }
 .rm-setorial-scroll { max-height: 320px; }
 
-/* ── Panorama Diário (aba interna) — tema dark/laranja replicando o painel ── */
-.panorama {
-  max-width: 1180px; margin: 0 auto; padding: 24px 20px 60px;
-}
-.panorama-meta {
-  color: var(--texto-suave); font-size: 13px; margin: 0 0 20px;
-}
+/* ── Panorama Diário (aba interna) — réplica fiel do painel ──
+   Monocromático: creme sobre navy, cabeçalhos azul-ardósia, títulos/notas
+   rust. Sem verde/vermelho (a imagem-fonte não usa cor por sinal). */
+.panorama { max-width: 1180px; margin: 0 auto; padding: 22px 22px 60px; }
+.panorama-meta { color: var(--texto-suave); font-size: 12.5px; margin: 0 0 16px; }
+
 .pan-card {
-  background: var(--navy); border-radius: 10px; padding: 18px 20px 16px;
-  margin-bottom: 22px; box-shadow: var(--sombra);
-  border: 1px solid rgba(239, 99, 0, .35);
+  background: #0b1b3e;                 /* navy escuro do painel */
+  border: 1px solid #b5602f;           /* moldura rust */
+  border-radius: 3px;
+  padding: 14px 16px 12px;
+  margin-bottom: 18px;
 }
+/* Painéis de cima ocupam ~60% à esquerda (como no slide-fonte). */
+.pan-top { max-width: 62%; }
+@media (max-width: 900px) { .pan-top { max-width: 100%; } }
+
 .pan-card-header {
   display: flex; align-items: center; justify-content: space-between;
-  gap: 12px; margin-bottom: 12px;
+  gap: 12px; margin-bottom: 9px;
 }
 .pan-card-header h2 {
-  color: #ff7d1a; font-size: 16px; font-weight: 700; margin: 0;
-  letter-spacing: .2px;
+  color: #c2682f; font-size: 15px; font-weight: 700; margin: 0;
 }
-.pan-sub {
-  color: #d9a36b; font-size: 12px; font-weight: 700; text-transform: uppercase;
-  letter-spacing: .4px; margin: 14px 0 6px;
-}
-.pan-sub-alta  { color: #6fd99a; }
-.pan-sub-baixa { color: #ef8c84; }
 
 .pan-tabela-wrap { overflow-x: auto; }
 .pan-tabela {
-  width: 100%; border-collapse: collapse; font-size: 13px; color: #e8ecf3;
+  width: 100%; border-collapse: collapse; font-size: 12.5px; color: #dbe0d4;
 }
 .pan-tabela thead th {
-  background: rgba(239, 99, 0, .22); color: #ffd9b8; text-align: left;
-  font-weight: 600; padding: 7px 12px; white-space: nowrap;
-  border-bottom: 1px solid rgba(239, 99, 0, .4);
+  background: #3c4760;                 /* azul-ardósia */
+  color: #e7ebe0; text-align: left; font-weight: 600;
+  padding: 5px 10px; white-space: nowrap;
 }
 .pan-tabela th.num, .pan-tabela td.num { text-align: right; }
 .pan-tabela tbody td {
-  padding: 7px 12px; border-bottom: 1px solid rgba(255, 255, 255, .07);
-  white-space: nowrap;
+  padding: 4px 10px; white-space: nowrap;
+  border-bottom: 1px solid rgba(255, 255, 255, .06);
 }
-.pan-tabela tbody tr:hover { background: rgba(255, 255, 255, .04); }
-.pan-ticker { font-weight: 700; color: #fff; }
-.pan-nome { color: #9fb0c7; font-size: 12px; max-width: 160px;
-  overflow: hidden; text-overflow: ellipsis; }
-.pan-pos { color: #57d98a; font-weight: 600; }
-.pan-neg { color: #ff8278; font-weight: 600; }
-.pan-linha-indice td { font-weight: 700; border-top: 1px solid rgba(239,99,0,.4); }
-.pan-linha-indice .pan-ticker { color: #ff7d1a; }
-.pan-vazio { text-align: center; color: var(--texto-suave); padding: 14px; }
-.pan-nota { color: #8190a6; font-size: 11px; margin: 8px 0 0; }
+.pan-tabela tbody tr:hover { background: rgba(255, 255, 255, .035); }
+.pan-ticker { font-weight: 700; color: #eef1ea; }
+.pan-nome {
+  color: #c7ccbf; max-width: 150px; overflow: hidden; text-overflow: ellipsis;
+}
+.pan-linha-indice td { font-weight: 700; border-top: 1px solid rgba(181,96,47,.5); }
+.pan-linha-indice .pan-ticker { color: #c2682f; }
+.pan-vazio { text-align: center; color: #8a93a6; padding: 12px; }
+.pan-nota { color: #c2682f; font-size: 10.5px; font-style: italic; margin: 6px 0 0; }
 
-.pan-grid-movers {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 22px;
-}
+/* Maiores variações: 2 colunas; cada sub-tabela tem barra-título ardósia. */
+.pan-grid-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 @media (max-width: 760px) { .pan-grid-movers { grid-template-columns: 1fr; } }
+.pan-sub {
+  background: #3c4760; color: #e7ebe0; text-align: center;
+  font-size: 11.5px; font-weight: 700; padding: 5px; margin: 12px 0 0;
+}
 .pan-tabela-movers thead { display: none; }
 
 /* Editor de fundos ofertados */
 .pan-btn-editar, .pan-editor-controles button {
-  background: rgba(239, 99, 0, .9); color: #fff; border: none;
-  border-radius: 6px; padding: 6px 12px; font-size: 12px; font-weight: 600;
-  cursor: pointer;
+  background: #b5602f; color: #fff; border: none; border-radius: 4px;
+  padding: 5px 11px; font-size: 12px; font-weight: 600; cursor: pointer;
 }
-.pan-btn-editar:hover, .pan-editor-controles button:hover { background: #ff7d1a; }
+.pan-btn-editar:hover, .pan-editor-controles button:hover { background: #c2682f; }
 .pan-btn-secundario {
   background: transparent !important; border: 1px solid rgba(255,255,255,.3) !important;
 }
-.pan-editor { display: none; margin: 0 0 14px; padding: 12px;
-  background: rgba(255,255,255,.05); border-radius: 8px; }
+.pan-editor {
+  display: none; margin: 0 0 12px; padding: 10px;
+  background: rgba(255,255,255,.05); border-radius: 4px;
+}
 .pan-editor.aberto { display: block; }
-.pan-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.pan-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
 .pan-chip {
   display: inline-flex; align-items: center; gap: 5px;
-  background: rgba(239, 99, 0, .2); color: #ffd9b8; border: 1px solid rgba(239,99,0,.45);
-  border-radius: 14px; padding: 3px 6px 3px 10px; font-size: 12px; font-weight: 600;
+  background: rgba(181,96,47,.25); color: #f0d8c5; border: 1px solid #b5602f;
+  border-radius: 12px; padding: 2px 6px 2px 9px; font-size: 11.5px; font-weight: 600;
 }
 .pan-chip button {
-  background: none; border: none; color: #ffd9b8; cursor: pointer;
-  font-size: 15px; line-height: 1; padding: 0 2px;
+  background: none; border: none; color: #f0d8c5; cursor: pointer;
+  font-size: 14px; line-height: 1; padding: 0 2px;
 }
 .pan-chip button:hover { color: #fff; }
 .pan-editor-controles { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 .pan-editor-controles input {
   background: #fff; color: var(--texto); border: 1px solid var(--cinza-borda);
-  border-radius: 6px; padding: 6px 10px; font-size: 13px; width: 130px;
+  border-radius: 4px; padding: 5px 9px; font-size: 12.5px; width: 120px;
   text-transform: uppercase;
 }
 .pan-input-erro { border-color: var(--vermelho) !important; }

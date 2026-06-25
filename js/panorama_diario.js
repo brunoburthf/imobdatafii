@@ -106,23 +106,19 @@ async function getSerieNominal(ticker) {
 
 // ── Render: helpers de célula ──────────────────────────────────────────────
 
+// Formatação fiel à imagem: vírgula decimal, sem sinal "+", monocromático.
+const _vir = (x, dec = 2) => x.toFixed(dec).replace(".", ",");
 function celVar(pct) {
   if (pct == null || !isFinite(pct)) return '<td class="num">—</td>';
-  const cls = pct >= 0 ? "pan-pos" : "pan-neg";
-  const s = (pct >= 0 ? "+" : "") + pct.toFixed(2) + "%";
-  return `<td class="num ${cls}">${s}</td>`;
+  return `<td class="num">${_vir(pct)}%</td>`;
 }
-function celNum(x, dec = 2, sufixo = "") {
+function celDinheiro(x) {  // "Dividendo R$" → número puro, ex: 1,00
   if (x == null || !isFinite(x)) return '<td class="num">—</td>';
-  return `<td class="num">${x.toFixed(dec)}${sufixo}</td>`;
+  return `<td class="num">${_vir(x)}</td>`;
 }
-function celDinheiro(x) {
-  if (x == null || !isFinite(x)) return '<td class="num">—</td>';
-  return `<td class="num">R$ ${x.toFixed(2).replace(".", ",")}</td>`;
-}
-function celPct(dec) {
+function celPct(dec) {  // valor decimal → percentual, ex: 11,19%
   if (dec == null || !isFinite(dec)) return '<td class="num">—</td>';
-  return `<td class="num">${(dec * 100).toFixed(2)}%</td>`;
+  return `<td class="num">${_vir(dec * 100)}%</td>`;
 }
 
 // ── Bloco 1: Fundos Ofertados ───────────────────────────────────────────────
