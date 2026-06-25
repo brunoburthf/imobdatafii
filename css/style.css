@@ -4829,14 +4829,12 @@ main[data-card] th.sort-ativo .sort-icon {
 .pan-cab-bloco { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
 .pan-cab {
   position: relative; width: 75%; height: 64px; box-sizing: border-box;
-  background: #EF6300; border: 3px solid #EF6300; border-radius: 11px;
+  /* Divisão branco→laranja em DIAGONAL via gradient de corte duro. Antes era
+     clip-path, que o html2canvas NÃO captura (a imagem colada saía com corte
+     vertical). Gradient é renderizado corretamente na cópia. */
+  background: linear-gradient(108deg, #fff 0 27%, #EF6300 27% 100%);
+  border: 3px solid #EF6300; border-radius: 11px;
   overflow: hidden; display: flex; align-items: center; justify-content: flex-end;
-}
-/* Área branca à esquerda com borda direita diagonal (mais larga no topo). */
-.pan-cab::before {
-  content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 27%;
-  background: #fff;
-  clip-path: polygon(0 0, 100% 0, calc(100% - 22px) 100%, 0 100%);
 }
 .pan-cab-logo {
   position: absolute; left: 0; top: 0; bottom: 0; width: 27%;
