@@ -4864,8 +4864,10 @@ main[data-card] th.sort-ativo .sort-icon {
 .pan-vazio { text-align: center; color: var(--texto-suave); padding: 12px; }
 .pan-nota { color: #EF6300; font-size: 10.5px; font-style: italic; margin: 5px 0 0; }
 
-/* Maiores variações: 2 colunas; cada bloco = moldura laranja com barra-título laranja. */
-.pan-grid-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+/* Maiores variações: 2 colunas; cada bloco = moldura laranja com barra-título laranja.
+   max-width 60% = mesma largura dos blocos de cima (.pan-top) → tudo alinhado. */
+.pan-grid-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; max-width: 60%; }
+@media (max-width: 900px) { .pan-grid-movers { max-width: 100%; } }
 @media (max-width: 760px) { .pan-grid-movers { grid-template-columns: 1fr; } }
 .pan-sub {
   background: #EF6300; color: #fff; text-align: center;
