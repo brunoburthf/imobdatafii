@@ -416,57 +416,141 @@ function atualizarIconesSortFatos() {
   });
 }
 
+// Atualização manual (botão interno, só admin): dispara o workflow de coleta no
+// GitHub Actions. O site publicado é estático (sem backend), então em vez de
+// rodar o coletor aqui, pedimos ao GHA pra rodar o noticias-daily.yml. O PAT
+// fica só no localStorage deste navegador — nunca vai pro repositório.
+const _GH_REPO     = "brunoburthf/imobdata-pipeline";
+const _GH_WORKFLOW = "noticias-daily.yml";
+const _GH_REF      = "main";
+const _GH_PAT_KEY  = "imobdata_gh_pat";
+
+function _obterPat(forcar) {
+  let pat = localStorage.getItem(_GH_PAT_KEY);
+  if (!pat || forcar) {
+    pat = prompt(
+      "Cole um GitHub Personal Access Token (fine-grained) com permissão " +
+      "'Actions: Read and write' no repositório imobdata-pipeline.\n\n" +
+      "Ele fica salvo só neste navegador (localStorage) e nunca vai pro código."
+    );
+    if (pat) {
+      pat = pat.trim();
+      localStorage.setItem(_GH_PAT_KEY, pat);
+    }
+  }
+  return pat;
+}
+
 async function atualizarNoticiasManual() {
   const btn    = document.getElementById("btn-atualizar-noticias");
   const status = document.getElementById("atualizar-noticias-status");
   if (!btn) return;
+
+  const pat = _obterPat(false);
+  if (!pat) {
+    if (status) {
+      status.className = "atualizar-noticias-status val-restrito status-aviso";
+      status.textContent = "Cancelado — token não informado.";
+    }
+    return;
+  }
+
   btn.disabled = true;
   const textoOriginal = btn.textContent;
-  btn.textContent = "⏳ Coletando…";
-  if (status) status.textContent = "Rodando coletor da fnet (pode levar 10–30s)…";
+  btn.textContent = "⏳ Disparando…";
+  if (status) {
+    status.className = "atualizar-noticias-status val-restrito";
+    status.textContent = "Disparando o workflow no GitHub Actions…";
+  }
 
   try {
-    const resp = await fetch("/atualizar-noticias", { method: "POST" });
-    const r = await resp.json();
-    if (!r.ok) throw new Error(r.erro || "Falha desconhecida");
-
-    // Recarrega ambos JSONs em paralelo (resumos pode ter sido atualizado pelo
-    // resumidor encadeado). Cache-bust com timestamp.
-    const v = Date.now();
-    const [jsonResp, resumosResp] = await Promise.all([
-      fetch("data/noticias.json?v=" + v),
-      fetch("data/noticias_resumos.json?v=" + v).catch(() => null),
-    ]);
-    const data = await jsonResp.json();
-    _resumosMap = (resumosResp && resumosResp.ok) ? await resumosResp.json() : {};
-    if (Array.isArray(data.fatos_relevantes)) {
-      for (const f of data.fatos_relevantes) {
-        f.titulo_curto = (_resumosMap[String(f.fnet_id)] || {}).titulo_curto || "";
+    const resp = await fetch(
+      `https://api.github.com/repos/${_GH_REPO}/actions/workflows/${_GH_WORKFLOW}/dispatches`,
+      {
+        method: "POST",
+        headers: {
+          "Authorization": "Bearer " + pat,
+          "Accept": "application/vnd.github+json",
+          "X-GitHub-Api-Version": "2022-11-28",
+        },
+        body: JSON.stringify({ ref: _GH_REF }),
       }
-    }
-    document.getElementById("atualizado-em").textContent = data.atualizado_em || "—";
-    renderFatos(data.fatos_relevantes || []);
+    );
 
-    const c = r.contagem || {};
-    const res = r.resumos || {};
-    let pendMsg = "";
-    if (res.pendentes > 0) {
-      pendMsg = ` · ⚠ ${res.pendentes} resumo(s) pendente(s)`;
-    } else if (res.total > 0) {
-      pendMsg = ` · ✓ resumos OK`;
+    if (resp.status === 401 || resp.status === 403) {
+      localStorage.removeItem(_GH_PAT_KEY);  // força novo prompt na próxima
+      throw new Error("token inválido ou sem permissão 'Actions: Read and write'. Clique de novo para informar outro.");
     }
-    if (status) {
-      status.textContent =
-        `OK em ${r.duracao_s}s — ${c.dividendos} dividendos · ${c.fatos_relevantes} fatos · ${c.relatorios_gerenciais} relatórios${pendMsg}`;
-      status.className = "atualizar-noticias-status val-restrito" +
-        (res.pendentes > 0 ? " status-aviso" : "");
+    // workflow_dispatch responde 204 No Content quando aceita.
+    if (resp.status !== 204) {
+      let detalhe = "";
+      try { detalhe = (await resp.json()).message || ""; } catch (_) {}
+      throw new Error(`GitHub respondeu ${resp.status}${detalhe ? " — " + detalhe : ""}`);
     }
+
+    if (status) status.textContent = "✓ Workflow disparado — coletando e republicando (≈2-3min)…";
+
+    // Feedback real: o GHA coleta, dá push em imobdatafii e o Netlify republica.
+    // Fica monitorando atualizado_em do JSON publicado até mudar (ou timeout).
+    const refAntes = document.getElementById("atualizado-em")?.textContent || "";
+    _aguardarRepublicacao(refAntes, status, btn, textoOriginal);
+    return;  // o monitor reabilita o botão quando terminar
   } catch (e) {
-    if (status) status.textContent = "Erro: " + e.message;
-  } finally {
+    if (status) {
+      status.className = "atualizar-noticias-status val-restrito status-aviso";
+      status.textContent = "Erro: " + e.message;
+    }
     btn.disabled = false;
     btn.textContent = textoOriginal;
   }
+}
+
+// Aguarda o JSON publicado mudar de atualizado_em após o dispatch (poll leve).
+// Quando muda, re-renderiza a tabela in-place; se estourar o tempo, orienta
+// recarregar. Em localhost o JSON local não muda — só vai cair no timeout.
+function _aguardarRepublicacao(refAntes, status, btn, textoOriginal) {
+  const inicio    = Date.now();
+  const LIMITE_MS = 5 * 60 * 1000;
+  const INTERVALO = 15000;
+
+  function finalizar(msg) {
+    if (status) status.textContent = msg;
+    btn.disabled = false;
+    btn.textContent = textoOriginal;
+  }
+
+  async function tick() {
+    if (Date.now() - inicio > LIMITE_MS) {
+      finalizar("Workflow disparado. A republicação pode levar mais alguns minutos — recarregue a página para ver o resultado.");
+      return;
+    }
+    try {
+      const v = Date.now();
+      const [jsonResp, resumosResp] = await Promise.all([
+        fetch("data/noticias.json?v=" + v, { cache: "no-store" }),
+        fetch("data/noticias_resumos.json?v=" + v, { cache: "no-store" }).catch(() => null),
+      ]);
+      if (jsonResp.ok) {
+        const data = await jsonResp.json();
+        if ((data.atualizado_em || "") !== refAntes) {
+          _resumosMap = (resumosResp && resumosResp.ok) ? await resumosResp.json() : {};
+          if (Array.isArray(data.fatos_relevantes)) {
+            for (const f of data.fatos_relevantes) {
+              f.titulo_curto = (_resumosMap[String(f.fnet_id)] || {}).titulo_curto || "";
+            }
+          }
+          document.getElementById("atualizado-em").textContent = data.atualizado_em || "—";
+          renderFatos(data.fatos_relevantes || []);
+          finalizar(`✓ Atualizado — ${(data.fatos_relevantes || []).length} fatos · ${data.atualizado_em || "—"}`);
+          return;
+        }
+      }
+    } catch (_) { /* ignora e tenta de novo */ }
+    const seg = Math.round((Date.now() - inicio) / 1000);
+    if (status) status.textContent = `Workflow rodando… aguardando republicação (${seg}s)`;
+    setTimeout(tick, INTERVALO);
+  }
+  setTimeout(tick, INTERVALO);
 }
 
 function baixarPlanilhaFatos() {

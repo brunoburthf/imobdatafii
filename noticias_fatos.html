@@ -75,7 +75,7 @@
           <button class="btn-baixar-planilha" onclick="baixarPlanilhaFatos()" title="Baixar a lista filtrada em CSV (abre no Excel)">⬇ Baixar planilha</button>
           <button id="btn-atualizar-noticias" class="btn-atualizar-noticias val-restrito"
                   onclick="atualizarNoticiasManual()"
-                  title="Roda o coletor da fnet agora e republica o JSON. Não interfere com a coleta agendada.">
+                  title="Dispara o workflow de coleta no GitHub Actions agora. O site publicado atualiza em ~2-3min. Não interfere com a coleta agendada.">
             🔄 Atualizar agora
           </button>
           <span id="atualizar-noticias-status" class="atualizar-noticias-status val-restrito"></span>
@@ -112,6 +112,10 @@
   </div>
 
   <script src="js/noticias.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
   <script src="js/local.js"></script>
 </body>
 </html>
