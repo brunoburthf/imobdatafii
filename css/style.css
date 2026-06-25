@@ -4840,10 +4840,10 @@ main[data-card] th.sort-ativo .sort-icon {
   position: absolute; left: 0; top: 0; bottom: 0; width: 27%;
   display: flex; align-items: center; justify-content: center;  /* centraliza na área branca */
   z-index: 2; color: #1c2b3a; line-height: 1;
-  font-family: "Oswald", "Arial Narrow", sans-serif;  /* condensada/alongada vertical */
-  font-weight: 400; font-size: 30px; letter-spacing: .5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  /* grotesca como a imagem */
+  font-weight: 400; font-size: 26px; letter-spacing: -.5px;
 }
-.pan-cab-logo strong { font-weight: 700; }
+.pan-cab-logo strong { font-weight: 800; }
 .pan-cab-data {
   position: relative; z-index: 2; color: #fff; font-weight: 700;
   font-size: 21px; padding-right: 34px; letter-spacing: .5px; white-space: nowrap;
