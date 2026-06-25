@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panorama Diário — ImobData</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link ativo">Interno</a>
+          <a href="outras_informacoes.html" class="nav-link">Outras Informações</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='valuation.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="panorama">
+
+    <div id="panorama-loading" class="loading">Carregando dados…</div>
+    <div id="panorama-erro" class="erro" style="display:none"></div>
+
+    <div id="panorama-conteudo" style="display:none">
+
+      <p class="panorama-meta">
+        Panorama de mercado · Atualizado em <span id="panorama-atualizado">—</span>
+        · variação do dia ao vivo (5min); mês/12m por fechamento diário
+      </p>
+
+      <!-- ── Bloco 1: Fundos Ofertados ── -->
+      <section class="pan-card">
+        <div class="pan-card-header">
+          <h2>Variações dos Fundos Ofertados</h2>
+          <button type="button" class="pan-btn-editar" onclick="document.getElementById('pan-editor').classList.toggle('aberto')">
+            ✎ Editar fundos
+          </button>
+        </div>
+
+        <div id="pan-editor" class="pan-editor">
+          <div id="pan-ofertados-chips" class="pan-chips"></div>
+          <div class="pan-editor-controles">
+            <input type="text" id="pan-ofertados-input" placeholder="Ex: HGLG11"
+                   maxlength="7" onkeydown="if(event.key==='Enter')adicionarOfertado()" />
+            <button type="button" onclick="adicionarOfertado()">Adicionar</button>
+            <button type="button" class="pan-btn-secundario" onclick="resetarOfertados()">Restaurar padrão</button>
+          </div>
+        </div>
+
+        <div class="pan-tabela-wrap">
+          <table class="pan-tabela">
+            <thead>
+              <tr>
+                <th>Fundo</th><th class="num">Var. dia</th><th class="num">Mês</th>
+                <th class="num">12 meses</th><th class="num">Dividendo R$*</th><th class="num">DY**</th>
+              </tr>
+            </thead>
+            <tbody id="pan-ofertados-body"></tbody>
+          </table>
+        </div>
+        <p class="pan-nota">*Último dividendo pago por cota (R$). **Considerando o último dividendo anualizado.</p>
+      </section>
+
+      <!-- ── Bloco 2: Mercado por setor + IFIX ── -->
+      <section class="pan-card">
+        <div class="pan-card-header"><h2>Acompanhe o mercado de FIIs</h2></div>
+        <div class="pan-tabela-wrap">
+          <table class="pan-tabela">
+            <thead>
+              <tr>
+                <th>Setor</th><th class="num">Var. dia</th><th class="num">Mês</th>
+                <th class="num">12 meses</th><th class="num">DY LTM*</th>
+              </tr>
+            </thead>
+            <tbody id="pan-setores-body"></tbody>
+          </table>
+        </div>
+        <p class="pan-nota">*Dividend Yield dos últimos 12 meses, considerando os preços atuais. Índices ponderados pelo IFIX.</p>
+      </section>
+
+      <!-- ── Blocos 3 e 4: maiores variações do dia ── -->
+      <div class="pan-grid-movers">
+        <section class="pan-card">
+          <div class="pan-card-header"><h2>Maiores Variações FIIs</h2></div>
+          <h3 class="pan-sub pan-sub-alta">Maiores Altas do dia</h3>
+          <div class="pan-tabela-wrap"><table class="pan-tabela pan-tabela-movers">
+            <tbody id="pan-fii-altas"></tbody></table></div>
+          <h3 class="pan-sub pan-sub-baixa">Maiores Baixas do dia</h3>
+          <div class="pan-tabela-wrap"><table class="pan-tabela pan-tabela-movers">
+            <tbody id="pan-fii-baixas"></tbody></table></div>
+        </section>
+
+        <section class="pan-card">
+          <div class="pan-card-header"><h2>Maiores Variações FI-Infra</h2></div>
+          <h3 class="pan-sub pan-sub-alta">Maiores Altas do dia</h3>
+          <div class="pan-tabela-wrap"><table class="pan-tabela pan-tabela-movers">
+            <tbody id="pan-infra-altas"></tbody></table></div>
+          <h3 class="pan-sub pan-sub-baixa">Maiores Baixas do dia</h3>
+          <div class="pan-tabela-wrap"><table class="pan-tabela pan-tabela-movers">
+            <tbody id="pan-infra-baixas"></tbody></table></div>
+        </section>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/local.js"></script>
+  <script>guardValuation();</script>
+  <script src="js/panorama_diario.js"></script>
+</body>
+</html>
