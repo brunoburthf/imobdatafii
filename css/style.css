@@ -4871,12 +4871,12 @@ main[data-card] th.sort-ativo .sort-icon {
 /* Cabeçalho laranja, letras brancas */
 .pan-tabela thead th {
   background: #EF6300; color: #fff; text-align: left; font-weight: 600;
-  padding: 6px 10px; white-space: nowrap;
+  padding: 4px 10px; white-space: nowrap;
 }
 .pan-tabela th.num, .pan-tabela td.num { text-align: right; }
 /* Corpo branco, letras laranjas, separador horizontal laranja entre linhas */
 .pan-tabela tbody td {
-  padding: 5px 10px; white-space: nowrap; background: #fff; color: #EF6300;
+  padding: 3px 10px; white-space: nowrap; background: #fff; color: #EF6300;
   border-bottom: 1px solid #EF6300;
 }
 .pan-tabela tbody tr:last-child td { border-bottom: none; }
