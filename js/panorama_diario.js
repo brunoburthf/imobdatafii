@@ -30,7 +30,7 @@ const v = () => "?v=" + Math.floor(Date.now() / 60000);
 // Estado carregado (fontes que não mudam por ticker ficam em cache de módulo).
 let _prices = null, _indexFiis = null, _infraIndex = null, _setoresRet = null,
     _setoresTab = null, _ifix = null, _classifInfra = null;
-const _serieCache = {};  // ticker -> serie nominal
+const _serieCache = {};  // ticker -> serie ajustada (retorno total)
 
 // ── Helpers de cálculo ────────────────────────────────────────────────────
 
@@ -93,10 +93,11 @@ async function carregarBase() {
   if (el) el.textContent = prices.atualizado_em || setRet.atualizado_em || "—";
 }
 
-async function getSerieNominal(ticker) {
+async function getSerieAjustada(ticker) {
   if (_serieCache[ticker] !== undefined) return _serieCache[ticker];
   try {
-    const d = await getJSON(`data/historico_precos_v2/nominal/${ticker}.json` + v());
+    // Ajustada por proventos/splits/amortizações = retorno total (mês/12m).
+    const d = await getJSON(`data/historico_precos_v2/ajustado/${ticker}.json` + v());
     _serieCache[ticker] = d.serie || null;
   } catch (_) {
     _serieCache[ticker] = null;
@@ -144,7 +145,7 @@ async function renderOfertados() {
   _indexFiis.forEach(f => { idxByTicker[f.Ticker] = f; });
 
   const linhas = await Promise.all(lista.map(async (t) => {
-    const serie = await getSerieNominal(t);
+    const serie = await getSerieAjustada(t);
     const info = idxByTicker[t] || {};
     const preco = _prices.precos?.[t] ?? null;
     const varDia = _prices.variacoes?.[t] ?? varSerie(serie, "dia");  // % (live > série)
