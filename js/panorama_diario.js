@@ -287,13 +287,13 @@ function preencherMovers(id, lista) {
   }).join("");
 }
 
-// ── Copiar tabelas como imagem ──────────────────────────────────────────────
-// Renderiza #panorama-tabelas via html2canvas e copia o PNG pro clipboard.
-// Usa ClipboardItem com Promise<Blob> para preservar o gesto do clique
-// (exigido por Safari; suportado no Chrome) e evitar erro de "no user gesture".
-async function copiarImagemTabelas() {
-  const btn = document.getElementById("btn-copiar-imagem");
-  const alvo = document.getElementById("panorama-tabelas");
+// ── Copiar como imagem ──────────────────────────────────────────────────────
+// Renderiza um elemento via html2canvas e copia o PNG pro clipboard. Usa
+// ClipboardItem com Promise<Blob> para preservar o gesto do clique (exigido por
+// Safari; suportado no Chrome) e evitar erro de "no user gesture".
+async function _copiarComoImagem(alvoId, btnId, nomeArquivo) {
+  const btn = document.getElementById(btnId);
+  const alvo = document.getElementById(alvoId);
   if (!btn || !alvo) return;
   const txt = btn.textContent;
   btn.disabled = true;
@@ -303,7 +303,7 @@ async function copiarImagemTabelas() {
     if (typeof html2canvas === "undefined") throw new Error("biblioteca de captura não carregou");
     const canvas = await html2canvas(alvo, {
       backgroundColor: "#ffffff",
-      scale: 1.8,               // 20% maior que o anterior (1.5)
+      scale: 1.8,
       useCORS: true,
       logging: false,
     });
@@ -313,17 +313,13 @@ async function copiarImagemTabelas() {
 
   try {
     if (navigator.clipboard && window.ClipboardItem) {
-      // Passa a Promise direto pro ClipboardItem (mantém o gesto do clique).
-      await navigator.clipboard.write([
-        new ClipboardItem({ "image/png": gerarBlob() }),
-      ]);
+      await navigator.clipboard.write([new ClipboardItem({ "image/png": gerarBlob() })]);
       btn.textContent = "✓ Copiado!";
     } else {
-      // Fallback: baixa o PNG se o clipboard de imagem não for suportado.
       const blob = await gerarBlob();
       const a = document.createElement("a");
       a.href = URL.createObjectURL(blob);
-      a.download = "panorama_diario.png";
+      a.download = nomeArquivo;
       document.body.appendChild(a); a.click(); document.body.removeChild(a);
       URL.revokeObjectURL(a.href);
       btn.textContent = "✓ Baixado (clipboard indisponível)";
@@ -335,10 +331,27 @@ async function copiarImagemTabelas() {
   }
 }
 
+function copiarImagemTabelas() {
+  _copiarComoImagem("panorama-tabelas", "btn-copiar-imagem", "panorama_diario.png");
+}
+function copiarImagemCabecalho() {
+  _copiarComoImagem("panorama-cabecalho", "btn-copiar-cab", "cabecalho_imobnews.png");
+}
+
+// Data do cabeçalho no formato "25 jun 2026" (mês abreviado em pt-BR minúsculo).
+function renderCabecalhoData() {
+  const el = document.getElementById("pan-cab-data");
+  if (!el) return;
+  const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+  const d = new Date();
+  el.textContent = `${String(d.getDate()).padStart(2,"0")} ${meses[d.getMonth()]} ${d.getFullYear()}`;
+}
+
 // ── Boot ────────────────────────────────────────────────────────────────────
 
 async function iniciarPanorama() {
   try {
+    renderCabecalhoData();
     await carregarBase();
     renderSetores();
     renderMovers();

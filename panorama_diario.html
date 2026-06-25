@@ -43,10 +43,20 @@
           · Var. dia ao vivo (5min); mês/12m em retorno total (ajustado por proventos)
         </p>
         <button type="button" id="btn-copiar-imagem" class="pan-btn-copiar"
-                onclick="copiarImagemTabelas()">📋 Copiar imagem</button>
+                onclick="copiarImagemTabelas()">📋 Copiar tabelas</button>
       </div>
 
-      <!-- Área capturada pelo botão "Copiar imagem" (só as tabelas). -->
+      <!-- Cabeçalho ImobNews — imagem separada, com botão de cópia próprio. -->
+      <div class="pan-cab-bloco">
+        <div id="panorama-cabecalho" class="pan-cab">
+          <div class="pan-cab-logo"><strong>Imob</strong>News</div>
+          <div class="pan-cab-data" id="pan-cab-data">—</div>
+        </div>
+        <button type="button" id="btn-copiar-cab" class="pan-btn-copiar" data-html2canvas-ignore="true"
+                onclick="copiarImagemCabecalho()">📋 Copiar cabeçalho</button>
+      </div>
+
+      <!-- Área capturada pelo botão "Copiar tabelas" (só as tabelas). -->
       <div id="panorama-tabelas">
 
       <!-- ── Bloco 1: Fundos Ofertados ── -->
