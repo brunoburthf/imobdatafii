@@ -4838,10 +4838,8 @@ main[data-card] th.sort-ativo .sort-icon {
   color: #EF6300; font-size: 15px; font-weight: 700; margin: 0;
 }
 
-/* Moldura laranja arredondada em volta da tabela */
-.pan-tabela-wrap {
-  border: 1.5px solid #EF6300; border-radius: 8px; overflow: hidden;
-}
+/* Tabela SEM borda/moldura — só linhas horizontais laranja separando as linhas. */
+.pan-tabela-wrap { overflow-x: auto; }
 .pan-grid-movers .pan-tabela-wrap + .pan-tabela-wrap { margin-top: 14px; }
 .pan-tabela {
   width: 100%; border-collapse: collapse; font-size: 12.5px; background: #fff;
@@ -4852,10 +4850,10 @@ main[data-card] th.sort-ativo .sort-icon {
   padding: 6px 10px; white-space: nowrap;
 }
 .pan-tabela th.num, .pan-tabela td.num { text-align: right; }
-/* Corpo branco, letras laranjas */
+/* Corpo branco, letras laranjas, separador horizontal laranja entre linhas */
 .pan-tabela tbody td {
   padding: 5px 10px; white-space: nowrap; background: #fff; color: #EF6300;
-  border-bottom: 1px solid #f5ddca;
+  border-bottom: 1px solid #EF6300;
 }
 .pan-tabela tbody tr:last-child td { border-bottom: none; }
 .pan-ticker { font-weight: 700; color: #EF6300; }
