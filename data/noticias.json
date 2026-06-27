@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "27/06/2026 13:27",
+  "atualizado_em": "27/06/2026 14:13",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "GZIT11",
+      "nome_fundo": "Gazit Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-06-23T17:09:00",
+      "data_com": "2026-06-23",
+      "data_pagamento": "2026-06-30",
+      "valor": 0.42,
+      "valor_anterior": 0.42,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Maio-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1226565,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1226565"
+    },
     {
       "ticker": "BTRA11",
       "nome_fundo": "BTRA11",
@@ -1497,6 +1514,23 @@
       "fnet_id": 1207932,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207932"
+    },
+    {
+      "ticker": "RPRI11",
+      "nome_fundo": "Rbr Premium Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-05-29T17:28:00",
+      "data_com": "2026-05-29",
+      "data_pagamento": "2026-06-12",
+      "valor": 0.9,
+      "valor_anterior": 0.9,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "MAIO 2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1207930,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207930"
     },
     {
       "ticker": "KNRI11",
