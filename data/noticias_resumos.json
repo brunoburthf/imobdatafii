@@ -988,5 +988,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1231044",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-27T05:49:57"
+  },
+  "1232031": {
+    "ticker": "URCA11",
+    "tipo": "FII",
+    "data": "29/06/2026",
+    "categoria": "gestao",
+    "titulo_curto": "Ressalva em demonstrações financeiras 2025 sanada",
+    "resumo": "Vórtx, administradora do Urca Prime Renda FII, informa à B3 que as demonstrações financeiras de 31/12/2025, emitidas com ressalvas pela Next Auditores em 12/06/2026, foram reemitidas sem qualificações em 19/06/2026 após ajustes com o auditor.",
+    "valor_envolvido": null,
+    "criticidade": "media",
+    "pontos_chave": [
+      "Demonstrações financeiras 2025 inicialmente emitidas com ressalvas em 12/06/2026 pela Next Auditores",
+      "Vórtx trabalhou com auditor para sanar as pendências apontadas",
+      "Demonstrações reemitidas sem qualificações em 19/06/2026, encerrando a ressalva"
+    ],
+    "fnet_id": 1232031,
+    "ticker_fonte": "URPR11",
+    "data_anuncio": "2026-06-29T11:04:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1232031",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-29T15:41:59"
+  },
+  "1231782": {
+    "ticker": "RBVA11",
+    "tipo": "FII",
+    "data": "26/06/2026",
+    "categoria": "vacancia",
+    "titulo_curto": "Nova locação M3 Storage Santos e Bom Retiro",
+    "resumo": "RBVA11 assinou contrato com M3 Storage para locação de dois imóveis vagos: Santos (4.505 m²) e Bom Retiro (521 m²), prazo de 5 anos até jun/2031. Vacância física recua de 6,5% para 4,9%. Impacto positivo estimado em R$ 0,0018/cota/mês.",
+    "valor_envolvido": null,
+    "criticidade": "media",
+    "pontos_chave": [
+      "Locação de dois imóveis para inquilino já presente na carteira, M3 Storage, contrato de 5 anos com remuneração variável sobre receita bruta",
+      "Vacância física reduzida de 6,5% para 4,9%; nenhum locatário supera 25% da receita contratada",
+      "Impacto positivo projetado de R$ 0,0018/cota/mês; rescisão antecipada requer aviso mínimo de 6 meses"
+    ],
+    "fnet_id": 1231782,
+    "ticker_fonte": "RBVA11",
+    "data_anuncio": "2026-06-29T09:40:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1231782",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-29T15:42:10"
   }
 }

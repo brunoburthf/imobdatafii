@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "29/06/2026 06:39",
+  "atualizado_em": "29/06/2026 15:41",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -273,23 +273,6 @@
       "fnet_id": 1221185,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1221185"
-    },
-    {
-      "ticker": "RZAT11",
-      "nome_fundo": "Riza Arctium Real Estate FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-06-15T17:06:00",
-      "data_com": "2026-06-15",
-      "data_pagamento": "2026-06-22",
-      "valor": 1.7,
-      "valor_anterior": 1.4,
-      "variacao_pct": 0.2142857142857144,
-      "periodo_referencia": "Maio-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1221171,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1221171"
     },
     {
       "ticker": "RBRX11",
@@ -1059,6 +1042,28 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "URPR11",
+      "nome_fundo": "Urca Prime Renda FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-29T11:04:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1232031,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1232031"
+    },
+    {
+      "ticker": "RBVA11",
+      "nome_fundo": "Rio Bravo Renda Varejo FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-06-29T09:40:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1231782,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1231782"
+    },
+    {
       "ticker": "PMLL11",
       "nome_fundo": "Genial Malls FII",
       "setor": "Shoppings",
@@ -1555,6 +1560,16 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "JSRE11",
+      "nome_fundo": "Js Real Estate Multigestão FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-06-29T09:34:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1231773,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1231773"
+    },
     {
       "ticker": "CCME11",
       "nome_fundo": "Canuma Capital Multiestratégia FII",
