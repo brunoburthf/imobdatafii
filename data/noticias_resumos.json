@@ -1032,5 +1032,71 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1231782",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-29T15:42:10"
+  },
+  "1233113": {
+    "ticker": "SNFZ11",
+    "tipo": "Fiagro",
+    "data": "29/06/2026",
+    "categoria": "emissao",
+    "titulo_curto": "Extensão do período de subscrição da 3ª emissão",
+    "resumo": "SNFZ11 comunica modificação do cronograma da 3ª emissão de cotas, estendendo o período de subscrição até 29/07/2026, com liquidação em 31/07/2026. Montante total de R$ 120,29 mi, preço por cota de R$ 9,95 (subscrição R$ 10,20). Oferta restrita a investidores profissionais.",
+    "valor_envolvido": "R$ 120,29 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Período de subscrição prorrogado até 29/07/2026; liquidação em 31/07/2026",
+      "12.089.907 cotas ao preço de R$ 9,95 (R$ 10,20 com taxa de distribuição de R$ 0,2483/cota)",
+      "Período de desistência aberto entre 29/06/2026 e 07/07/2026 para cotistas já aderentes"
+    ],
+    "fnet_id": 1233113,
+    "ticker_fonte": "SNFZ11",
+    "data_anuncio": "2026-06-29T18:52:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1233113",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-30T06:05:43"
+  },
+  "1233058": {
+    "ticker": null,
+    "tipo": "Fiagro",
+    "data": "29/06/2026",
+    "categoria": "laudo",
+    "titulo_curto": "Reavaliação patrimonial positiva de fazenda",
+    "resumo": "Laudo de avaliação com data-base maio/2026 gerou impacto positivo de 2,17% no valor da cota em 23/06/2026. Fazenda passa a ser avaliada a R$ 298,04 mi. Administradora: XP Investimentos; Gestora: Tane Capital.",
+    "valor_envolvido": "R$ 298,04 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Reavaliação com data-base maio/2026 resultou em valorização de 2,17% na cota de fechamento de 23/06/2026",
+      "Valor de mercado da fazenda atualizado para R$ 298.037.000,00",
+      "Gestão compartilhada entre XP Investimentos (administradora) e Tane Capital (gestora)"
+    ],
+    "fnet_id": 1233058,
+    "ticker_fonte": "FZDA11",
+    "data_anuncio": "2026-06-29T18:29:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1233058",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-30T06:05:53"
+  },
+  "1233010": {
+    "ticker": "RCRB11",
+    "tipo": "FII",
+    "data": "29/06/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Inquilino exerce preferência no Parque Cultural Paulista",
+    "resumo": "Inquilino do imóvel Parque Cultural Paulista notificou o RCRB11 sobre exercício de direito de preferência na aquisição do ativo. Próximo passo é assinatura do Compromisso de Compra e Venda, quando serão divulgados os valores e demais detalhes da operação.",
+    "valor_envolvido": null,
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Inquilino exerceu direito de preferência na compra do Parque Cultural Paulista",
+      "Operação em continuidade ao Fato Relevante de 28/05/2026",
+      "Valores e detalhes serão divulgados na assinatura do Compromisso de Compra e Venda"
+    ],
+    "fnet_id": 1233010,
+    "ticker_fonte": "RCRB11",
+    "data_anuncio": "2026-06-29T18:19:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1233010",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-06-30T06:06:01"
   }
 }
