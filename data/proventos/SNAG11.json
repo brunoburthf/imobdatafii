@@ -1,6 +1,6 @@
 {
   "ticker": "SNAG11",
-  "ultima_atualizacao": "2026-04-28T14:36:18",
+  "ultima_atualizacao": "2026-07-01T11:14:50",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -264,6 +264,18 @@
     {
       "data_com": "2026-04-15",
       "data_pagamento": "2026-04-24",
+      "valor": 0.12,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-15",
+      "data_pagamento": "2026-05-25",
+      "valor": 0.12,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-15",
+      "data_pagamento": "2026-06-25",
       "valor": 0.12,
       "tipo": "Rendimento"
     }

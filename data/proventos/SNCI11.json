@@ -1,6 +1,6 @@
 {
   "ticker": "SNCI11",
-  "ultima_atualizacao": "2026-04-28T14:34:23",
+  "ultima_atualizacao": "2026-07-01T11:12:19",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -330,6 +330,18 @@
     {
       "data_com": "2026-04-15",
       "data_pagamento": "2026-04-24",
+      "valor": 1.0,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-15",
+      "data_pagamento": "2026-05-25",
+      "valor": 1.0,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-15",
+      "data_pagamento": "2026-06-25",
       "valor": 1.0,
       "tipo": "Rendimento"
     }

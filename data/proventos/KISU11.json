@@ -1,6 +1,6 @@
 {
   "ticker": "KISU11",
-  "ultima_atualizacao": "2026-05-05T10:49:54",
+  "ultima_atualizacao": "2026-07-01T11:12:43",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -352,13 +352,6 @@
       "tipo": "Rendimento"
     },
     {
-      "data_com": "2025-11-28",
-      "data_pagamento": "2025-12-15",
-      "valor": 0.07,
-      "tipo": "Rendimento",
-      "fonte": "b3"
-    },
-    {
       "data_com": "2025-11-30",
       "data_pagamento": "2025-12-15",
       "valor": 0.07,
@@ -392,9 +385,13 @@
       "data_com": "2026-04-30",
       "data_pagamento": "2026-05-15",
       "valor": 0.07,
-      "tipo": "Rendimento",
-      "fonte": "b3"
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-15",
+      "data_pagamento": "2026-06-25",
+      "valor": 0.07,
+      "tipo": "Rendimento"
     }
-  ],
-  "fonte_primaria": "b3"
+  ]
 }

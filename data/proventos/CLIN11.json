@@ -1,6 +1,6 @@
 {
   "ticker": "CLIN11",
-  "ultima_atualizacao": "2026-04-28T14:34:14",
+  "ultima_atualizacao": "2026-07-01T11:12:08",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -181,6 +181,18 @@
       "data_com": "2026-04-09",
       "data_pagamento": "2026-04-16",
       "valor": 0.95,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-11",
+      "data_pagamento": "2026-05-18",
+      "valor": 0.95,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-09",
+      "data_pagamento": "2026-06-16",
+      "valor": 1.15,
       "tipo": "Rendimento"
     }
   ]

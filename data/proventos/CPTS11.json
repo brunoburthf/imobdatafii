@@ -1,6 +1,6 @@
 {
   "ticker": "CPTS11",
-  "ultima_atualizacao": "2026-04-28T14:32:49",
+  "ultima_atualizacao": "2026-07-01T11:10:03",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -720,6 +720,18 @@
     {
       "data_com": "2026-04-13",
       "data_pagamento": "2026-04-20",
+      "valor": 0.09,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-13",
+      "data_pagamento": "2026-05-20",
+      "valor": 0.09,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-15",
+      "data_pagamento": "2026-06-22",
       "valor": 0.09,
       "tipo": "Rendimento"
     }

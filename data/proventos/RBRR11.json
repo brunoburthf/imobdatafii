@@ -1,6 +1,6 @@
 {
   "ticker": "RBRR11",
-  "ultima_atualizacao": "2026-04-28T14:33:21",
+  "ultima_atualizacao": "2026-07-01T11:10:44",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -571,6 +571,18 @@
       "data_com": "2026-04-10",
       "data_pagamento": "2026-04-17",
       "valor": 0.7,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-12",
+      "data_pagamento": "2026-05-19",
+      "valor": 0.9,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-10",
+      "data_pagamento": "2026-06-17",
+      "valor": 0.95,
       "tipo": "Rendimento"
     }
   ]

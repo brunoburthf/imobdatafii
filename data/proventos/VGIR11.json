@@ -1,6 +1,6 @@
 {
   "ticker": "VGIR11",
-  "ultima_atualizacao": "2026-04-28T14:33:18",
+  "ultima_atualizacao": "2026-07-01T11:10:41",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -553,6 +553,18 @@
       "data_com": "2026-04-13",
       "data_pagamento": "2026-04-20",
       "valor": 0.13,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-13",
+      "data_pagamento": "2026-05-20",
+      "valor": 0.12,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-11",
+      "data_pagamento": "2026-06-18",
+      "valor": 0.12,
       "tipo": "Rendimento"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "ticker": "MFII11",
-  "ultima_atualizacao": "2026-05-05T10:49:45",
+  "ultima_atualizacao": "2026-07-01T11:11:59",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -84,6 +84,12 @@
     {
       "data_com": "2017-07-31",
       "data_pagamento": "2017-08-14",
+      "valor": 1.17,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2017-08-31",
+      "data_pagamento": "2017-09-15",
       "valor": 1.17,
       "tipo": "Rendimento"
     },
@@ -703,9 +709,19 @@
       "data_com": "2026-04-30",
       "data_pagamento": "2026-05-15",
       "valor": 0.91,
-      "tipo": "Rendimento",
-      "fonte": "b3"
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-29",
+      "data_pagamento": "2026-06-15",
+      "valor": 0.91,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-30",
+      "data_pagamento": "2026-07-14",
+      "valor": 0.91,
+      "tipo": "Rendimento"
     }
-  ],
-  "fonte_primaria": "b3"
+  ]
 }

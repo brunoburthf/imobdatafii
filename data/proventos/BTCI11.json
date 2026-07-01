@@ -1,6 +1,6 @@
 {
   "ticker": "BTCI11",
-  "ultima_atualizacao": "2026-04-28T14:33:41",
+  "ultima_atualizacao": "2026-07-01T11:11:27",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -709,6 +709,18 @@
       "data_com": "2026-04-08",
       "data_pagamento": "2026-04-15",
       "valor": 0.093,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-08",
+      "data_pagamento": "2026-05-15",
+      "valor": 0.095,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-08",
+      "data_pagamento": "2026-06-15",
+      "valor": 0.105,
       "tipo": "Rendimento"
     }
   ]

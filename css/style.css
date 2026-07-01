@@ -654,14 +654,13 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 
 /* MENU PRINCIPAL */
 .menu-main {
-  height: calc(100vh - 56px);
+  min-height: calc(100vh - 56px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 2vh 4vw;
   gap: 2vh;
-  overflow: hidden;
 }
 
 .menu-hero-titulo {
@@ -4787,6 +4786,11 @@ main[data-card] th.sort-ativo .sort-icon {
   color: #555;
 }
 .rm-resumo b { color: var(--navy); font-weight: 700; }
+.rm-header-acoes {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
 
 .rm-setorial-filtros {
   flex-wrap: wrap;

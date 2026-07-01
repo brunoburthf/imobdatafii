@@ -1,6 +1,6 @@
 {
   "ticker": "VCJR11",
-  "ultima_atualizacao": "2026-05-05T10:49:36",
+  "ultima_atualizacao": "2026-07-01T11:11:16",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -450,6 +450,12 @@
     {
       "data_com": "2026-02-27",
       "data_pagamento": "2026-03-12",
+      "valor": 0.61,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-02-27",
+      "data_pagamento": "2026-03-12",
       "valor": 0.69,
       "tipo": "Rendimento"
     },
@@ -463,9 +469,19 @@
       "data_com": "2026-04-30",
       "data_pagamento": "2026-05-14",
       "valor": 1.0,
-      "tipo": "Rendimento",
-      "fonte": "b3"
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-29",
+      "data_pagamento": "2026-06-12",
+      "valor": 1.0,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-30",
+      "data_pagamento": "2026-07-13",
+      "valor": 1.25,
+      "tipo": "Rendimento"
     }
-  ],
-  "fonte_primaria": "b3"
+  ]
 }

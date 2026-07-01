@@ -1,6 +1,6 @@
 {
   "ticker": "VGIP11",
-  "ultima_atualizacao": "2026-04-28T14:33:40",
+  "ultima_atualizacao": "2026-07-01T11:11:25",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -433,6 +433,18 @@
       "data_com": "2026-04-13",
       "data_pagamento": "2026-04-20",
       "valor": 0.73,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-13",
+      "data_pagamento": "2026-05-20",
+      "valor": 1.08,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-11",
+      "data_pagamento": "2026-06-18",
+      "valor": 1.05,
       "tipo": "Rendimento"
     }
   ]

@@ -1,6 +1,6 @@
 {
   "ticker": "BTRA11",
-  "ultima_atualizacao": "2026-05-05T10:50:00",
+  "ultima_atualizacao": "2026-07-01T11:14:11",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -355,9 +355,19 @@
       "data_com": "2026-04-23",
       "data_pagamento": "2026-04-30",
       "valor": 0.9,
-      "tipo": "Rendimento",
-      "fonte": "b3"
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-22",
+      "data_pagamento": "2026-05-29",
+      "valor": 0.9,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-23",
+      "data_pagamento": "2026-06-30",
+      "valor": 0.9,
+      "tipo": "Rendimento"
     }
-  ],
-  "fonte_primaria": "b3"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "ticker": "PATL11",
-  "ultima_atualizacao": "2026-05-05T10:49:52",
+  "ultima_atualizacao": "2026-07-01T11:12:33",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -415,9 +415,13 @@
       "data_com": "2026-04-30",
       "data_pagamento": "2026-05-11",
       "valor": 0.57,
-      "tipo": "Rendimento",
-      "fonte": "b3"
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-30",
+      "data_pagamento": "2026-07-07",
+      "valor": 7.26,
+      "tipo": "Amortização"
     }
-  ],
-  "fonte_primaria": "b3"
+  ]
 }

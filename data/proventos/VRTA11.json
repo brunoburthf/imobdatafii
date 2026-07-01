@@ -1,6 +1,6 @@
 {
   "ticker": "VRTA11",
-  "ultima_atualizacao": "2026-05-05T10:49:35",
+  "ultima_atualizacao": "2026-07-01T11:11:11",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -721,9 +721,19 @@
       "data_com": "2026-04-30",
       "data_pagamento": "2026-05-15",
       "valor": 0.85,
-      "tipo": "Rendimento",
-      "fonte": "b3"
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-29",
+      "data_pagamento": "2026-06-15",
+      "valor": 0.85,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-30",
+      "data_pagamento": "2026-07-15",
+      "valor": 0.85,
+      "tipo": "Rendimento"
     }
-  ],
-  "fonte_primaria": "b3"
+  ]
 }

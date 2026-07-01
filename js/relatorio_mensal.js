@@ -305,6 +305,34 @@ function desenharGrafico(ifixSerie, cdiSerie) {
   });
 }
 
+// Copia o <canvas> do gráfico como PNG para a área de transferência. O Chart.js
+// não pinta fundo, então o PNG sai com fundo transparente — cola direto no
+// PowerPoint (Ctrl+V) sobre qualquer cor de slide. Requer contexto seguro
+// (https ou localhost), já atendido pelo Netlify e pelo servidor local.
+async function copiarGrafico(canvasId, btn) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  const textoOriginal = btn ? btn.textContent : "";
+  const restaurar = msg => {
+    if (!btn) return;
+    btn.textContent = msg;
+    setTimeout(() => { btn.textContent = textoOriginal; btn.disabled = false; }, 1800);
+  };
+  try {
+    if (btn) btn.disabled = true;
+    if (!navigator.clipboard || !window.ClipboardItem) {
+      throw new Error("Este navegador não permite copiar imagem para a área de transferência.");
+    }
+    const blob = await new Promise((resolve, reject) =>
+      canvas.toBlob(b => b ? resolve(b) : reject(new Error("falha ao gerar PNG")), "image/png"));
+    await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+    restaurar("✓ Copiado!");
+  } catch (e) {
+    console.error("copiarGrafico:", e);
+    restaurar("✕ Falhou");
+  }
+}
+
 function formatarPct(v) {
   const sinal = v >= 0 ? "+" : "";
   return `${sinal}${v.toFixed(2)}%`;

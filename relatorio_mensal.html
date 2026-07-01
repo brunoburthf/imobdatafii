@@ -42,7 +42,11 @@
       <div class="setor-card setor-card-destaque">
         <div class="setor-card-header">
           <h2 class="setor-card-titulo">IFIX vs CDI — Últimos 12 meses</h2>
-          <span class="rm-resumo" id="rm-resumo">—</span>
+          <div class="rm-header-acoes">
+            <span class="rm-resumo" id="rm-resumo">—</span>
+            <button class="btn-baixar-planilha" onclick="copiarGrafico('grafico-ifix-cdi', this)"
+                    title="Copia o gráfico como imagem PNG de fundo transparente — cole direto no PowerPoint (Ctrl+V)">📋 Copiar gráfico</button>
+          </div>
         </div>
         <div class="rm-grafico-wrapper">
           <canvas id="grafico-ifix-cdi"></canvas>

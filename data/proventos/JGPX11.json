@@ -1,6 +1,6 @@
 {
   "ticker": "JGPX11",
-  "ultima_atualizacao": "2026-04-28T14:36:05",
+  "ultima_atualizacao": "2026-07-01T11:14:34",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -301,6 +301,18 @@
       "data_com": "2026-03-31",
       "data_pagamento": "2026-04-15",
       "valor": 1.05,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-29",
+      "data_pagamento": "2026-06-15",
+      "valor": 0.5,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-30",
+      "data_pagamento": "2026-07-14",
+      "valor": 0.9,
       "tipo": "Rendimento"
     }
   ]

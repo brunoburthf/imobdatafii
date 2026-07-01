@@ -1,6 +1,6 @@
 {
   "ticker": "RZAK11",
-  "ultima_atualizacao": "2026-04-28T14:33:44",
+  "ultima_atualizacao": "2026-07-01T11:11:31",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -373,6 +373,18 @@
       "data_com": "2026-04-15",
       "data_pagamento": "2026-04-23",
       "valor": 1.1,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-15",
+      "data_pagamento": "2026-05-22",
+      "valor": 1.1,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-15",
+      "data_pagamento": "2026-06-22",
+      "valor": 1.05,
       "tipo": "Rendimento"
     }
   ]

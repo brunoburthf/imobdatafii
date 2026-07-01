@@ -1,6 +1,6 @@
 {
   "ticker": "PSEC11",
-  "ultima_atualizacao": "2026-04-28T14:33:35",
+  "ultima_atualizacao": "2026-07-01T11:11:18",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -439,6 +439,18 @@
       "data_com": "2026-04-09",
       "data_pagamento": "2026-04-16",
       "valor": 0.65,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-05-11",
+      "data_pagamento": "2026-05-18",
+      "valor": 0.55,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-06-09",
+      "data_pagamento": "2026-06-16",
+      "valor": 0.55,
       "tipo": "Rendimento"
     }
   ]
