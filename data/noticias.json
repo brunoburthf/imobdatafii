@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "01/07/2026 10:01",
+  "atualizado_em": "01/07/2026 15:46",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -1975,6 +1975,23 @@
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1217947"
     },
     {
+      "ticker": "VGIP11",
+      "nome_fundo": "Valora Cri Índice de Preço FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-06-11T17:08:00",
+      "data_com": "2026-06-11",
+      "data_pagamento": "2026-06-18",
+      "valor": 1.05,
+      "valor_anterior": 0.73,
+      "variacao_pct": 0.43835616438356184,
+      "periodo_referencia": "Maio-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1217943,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1217943"
+    },
+    {
       "ticker": "CPTR11",
       "nome_fundo": "CPTR11",
       "setor": "FI-Agro",
@@ -3199,6 +3216,16 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "BBIG11",
+      "nome_fundo": "BB Premium Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-07-01T11:15:00",
+      "data_referencia": "31/05/2026",
+      "fnet_id": 1236775,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1236775"
+    },
     {
       "ticker": "BTCI11",
       "nome_fundo": "BTG Pactual Crédito Imobiliário FII",
