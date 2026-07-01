@@ -1274,5 +1274,49 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1235311",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-07-01T06:21:44"
+  },
+  "1236651": {
+    "ticker": "TRXF11",
+    "tipo": "FII",
+    "data": "01/07/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "TRXF11 conclui aquisição Hotel Emiliano Rio",
+    "resumo": "TRXF11 concluiu aquisição indireta do Hotel Emiliano Rio de Janeiro (Av. Atlântica, Copacabana) via compra de 100% das ações da Forte Mar Empreendimentos por R$ 260 mi, com contrato de locação atípica de 10 anos e típica de 10 anos, totalizando 20 anos de vigência.",
+    "valor_envolvido": "R$ 260 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de R$ 260 mi estruturado em 3 parcelas: R$ 30,6 mi em cotas TRXF11, R$ 114,7 mi à vista e R$ 114,7 mi em até 6 meses, corrigidas por IPCA",
+      "Contrato de locação de 20 anos: 10 anos atípico (multa de 12 aluguéis sem redução proporcional) + 10 anos típico (multa proporcional ao prazo remanescente)",
+      "Aquisição indireta via totalidade das ações da Forte Mar Empreendimentos; assessoria financeira BTG Pactual e jurídica KLA Advogados"
+    ],
+    "fnet_id": 1236651,
+    "ticker_fonte": "TRXF11",
+    "data_anuncio": "2026-07-01T09:24:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1236651",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T10:04:22"
+  },
+  "1236643": {
+    "ticker": "MXRF11",
+    "tipo": "FII",
+    "data": "19/06/2026",
+    "categoria": "emissao",
+    "titulo_curto": "12ª emissão de cotas aprovada via consulta formal",
+    "resumo": "MXRF11 aprova 12ª emissão de cotas a R$ 9,37/cota (VP de 31/05/2026), sob rito automático CVM 160. Direito de preferência com fator 0,23187193114. Coordenador líder: XP Investimentos. Regime de melhores esforços.",
+    "valor_envolvido": null,
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Preço de emissão: R$ 9,37/cota, baseado no VP de 31/05/2026",
+      "Fator de direito de preferência: 0,23187193114 por cota detida",
+      "Coordenador líder: XP Investimentos; gestor: XP Vista Asset Management"
+    ],
+    "fnet_id": 1236643,
+    "ticker_fonte": "MXRF11",
+    "data_anuncio": "2026-07-01T09:11:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1236643",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T10:04:30"
   }
 }

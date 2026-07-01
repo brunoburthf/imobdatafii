@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "01/07/2026 06:20",
+  "atualizado_em": "01/07/2026 10:01",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -1975,23 +1975,6 @@
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1217947"
     },
     {
-      "ticker": "VGIP11",
-      "nome_fundo": "Valora Cri Índice de Preço FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-06-11T17:08:00",
-      "data_com": "2026-06-11",
-      "data_pagamento": "2026-06-18",
-      "valor": 1.05,
-      "valor_anterior": 0.73,
-      "variacao_pct": 0.43835616438356184,
-      "periodo_referencia": "Maio-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1217943,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1217943"
-    },
-    {
       "ticker": "CPTR11",
       "nome_fundo": "CPTR11",
       "setor": "FI-Agro",
@@ -2554,6 +2537,28 @@
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-07-01T09:24:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1236651,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1236651"
+    },
+    {
+      "ticker": "MXRF11",
+      "nome_fundo": "Maxi Renda FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-07-01T09:11:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1236643,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1236643"
+    },
     {
       "ticker": "CACR11",
       "nome_fundo": "Cartesia Recebíveis Imobiliários FII",
