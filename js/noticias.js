@@ -56,13 +56,53 @@ let _ordem = { campo: "data_anuncio", direcao: "desc" };
 // Campos numéricos ou de data: ao mudar pra eles, default é desc (mais
 // recente / maior primeiro). Strings começam asc.
 const _CAMPOS_DESC_DEFAULT = new Set([
-  "valor", "variacao_pct", "data_com", "data_pagamento", "data_anuncio",
+  "valor", "variacao_pct", "data_com", "preco_data_com", "data_pagamento", "data_anuncio",
 ]);
+
+// ticker -> serie de preços nominais [[YYYY-MM-DD, preco], ...] ascendente, ou
+// null se o fundo não tem histórico. Cache pra não re-buscar entre re-renders.
+let _precosNominais = {};
 
 function renderDividendos(lista) {
   _todosDividendos = lista.slice();  // ordem aplicada em aplicarFiltros
   popularSelectSetor(_todosDividendos);
-  aplicarFiltros();
+  aplicarFiltros();                       // render imediato (preço vem como "—")
+  carregarPrecosDataCom(_todosDividendos); // async: anota preco_data_com e re-renderiza
+}
+
+// Busca (em paralelo, uma vez por ticker) a série nominal COTAHIST B3 e anota
+// cada dividendo com o preço de fechamento na data com — ou no último pregão
+// anterior, se a data com não teve negociação (fim de semana/feriado). Re-renderiza
+// ao terminar. É puramente aditivo: se algo falhar, o preço fica "—".
+async function carregarPrecosDataCom(lista) {
+  const tickers = [...new Set(lista.map(a => a.ticker).filter(Boolean))];
+  const v = Math.floor(Date.now() / 60000);
+  await Promise.all(tickers.map(async t => {
+    if (t in _precosNominais) return;      // já carregado (ou já marcado como sem dado)
+    try {
+      const r = await fetch(`data/historico_precos_v2/nominal/${t}.json?v=${v}`);
+      _precosNominais[t] = r.ok ? ((await r.json()).serie || []) : null;
+    } catch {
+      _precosNominais[t] = null;
+    }
+  }));
+  for (const a of lista) a.preco_data_com = precoNominalNaData(a.ticker, a.data_com);
+  aplicarFiltros();                        // re-render agora com os preços
+}
+
+// Preço de fechamento nominal do ticker em `dataCom` (ISO), ou no último pregão
+// anterior disponível. Retorna null se não há série, se a data com é anterior ao
+// início da série, ou se é futura (ex-date ainda não ocorrido — preço inexistente).
+function precoNominalNaData(ticker, dataCom) {
+  const serie = _precosNominais[ticker];
+  if (!serie || !serie.length || !dataCom) return null;
+  const alvo = dataCom.slice(0, 10);
+  if (alvo > serie[serie.length - 1][0]) return null;  // data com futura
+  let achado = null;
+  for (const [d, p] of serie) {            // série ascendente por data
+    if (d <= alvo) achado = p; else break;
+  }
+  return achado;
 }
 
 function popularSelectSetor(lista) {
@@ -106,7 +146,7 @@ function aplicarFiltros() {
 
   const tbody = document.getElementById("tabela-dividendos-body");
   if (!filtrados.length) {
-    tbody.innerHTML = '<tr><td colspan="8" class="sim-vazio-msg">Nenhum resultado para os filtros aplicados.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="9" class="sim-vazio-msg">Nenhum resultado para os filtros aplicados.</td></tr>';
     return;
   }
   tbody.innerHTML = filtrados.map(a => `
@@ -117,6 +157,7 @@ function aplicarFiltros() {
       <td class="num">${formatarValor(a.valor)}</td>
       <td class="num">${formatarVariacao(a.variacao_pct, a.valor_anterior)}</td>
       <td class="num">${formatarData(a.data_com)}</td>
+      <td class="num">${formatarValor(a.preco_data_com)}</td>
       <td class="num">${formatarData(a.data_pagamento)}</td>
       <td class="num">
         ${a.url_fnet
@@ -152,6 +193,7 @@ function baixarPlanilha() {
     ["Anterior (R$)",  a => a.valor_anterior != null ? a.valor_anterior.toFixed(6).replace(".", ",") : ""],
     ["Variação",       a => a.variacao_pct != null ? (a.variacao_pct*100).toFixed(2).replace(".", ",") + "%" : ""],
     ["Data com",       a => a.data_com || ""],
+    ["Preço na data com (R$)", a => a.preco_data_com != null ? a.preco_data_com.toFixed(2).replace(".", ",") : ""],
     ["Pagamento",      a => a.data_pagamento || ""],
     ["Anúncio",        a => (a.data_anuncio || "").replace("T", " ").slice(0, 16)],
     ["Isento IR",      a => a.isento_ir ? "Sim" : "Não"],

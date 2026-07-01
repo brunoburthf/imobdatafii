@@ -89,12 +89,13 @@
                 <th class="sortable num" data-sort="valor"              onclick="ordenar('valor')">Valor <span class="sort-icon">↕</span></th>
                 <th class="sortable num" data-sort="variacao_pct"       onclick="ordenar('variacao_pct')">Δ vs anterior <span class="sort-icon">↕</span></th>
                 <th class="sortable num" data-sort="data_com"           onclick="ordenar('data_com')">Data com <span class="sort-icon">↕</span></th>
+                <th class="sortable num" data-sort="preco_data_com"     onclick="ordenar('preco_data_com')" title="Preço nominal de fechamento (COTAHIST B3) na data com — ou último pregão anterior se a data com não teve negociação">Preço na data com <span class="sort-icon">↕</span></th>
                 <th class="sortable num" data-sort="data_pagamento"     onclick="ordenar('data_pagamento')">Pagamento <span class="sort-icon">↕</span></th>
                 <th class="sortable num" data-sort="data_anuncio"       onclick="ordenar('data_anuncio')">Data Anúncio <span class="sort-icon">↕</span></th>
               </tr>
             </thead>
             <tbody id="tabela-dividendos-body">
-              <tr><td colspan="8" class="sim-vazio-msg">Carregando…</td></tr>
+              <tr><td colspan="9" class="sim-vazio-msg">Carregando…</td></tr>
             </tbody>
           </table>
         </div>
@@ -103,7 +104,7 @@
     </div>
   </main>
 
-  <script src="js/noticias.js"></script>
+  <script src="js/noticias.js?v=1"></script>
   <script src="js/local.js"></script>
 </body>
 </html>
