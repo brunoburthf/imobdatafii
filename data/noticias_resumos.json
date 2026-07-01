@@ -1098,5 +1098,181 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1233010",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-06-30T06:06:01"
+  },
+  "1236345": {
+    "ticker": "CACR11",
+    "tipo": "FII",
+    "data": "30/06/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Suspensão de distribuição de rendimentos junho/2026",
+    "resumo": "CACR11 comunica ausência de distribuição de resultados referente a junho/2026, justificada por problema de liquidez no fundo. Gestora Cartesia reafirma qualidade das garantias reais dos ativos e compromete-se a restabelecer liquidez no menor prazo possível.",
+    "valor_envolvido": null,
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Sem distribuição de rendimentos em junho/2026",
+      "Problema de liquidez identificado no fundo",
+      "Gestora reafirma estrutura de garantias reais dos ativos investidos"
+    ],
+    "fnet_id": 1236345,
+    "ticker_fonte": "CACR11",
+    "data_anuncio": "2026-06-30T21:00:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1236345",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T06:20:50"
+  },
+  "1236326": {
+    "ticker": "PATL11",
+    "tipo": "FII",
+    "data": "30/06/2026",
+    "categoria": "evento_macro",
+    "titulo_curto": "Amortização parcial PATL11 com cotas HGLG11",
+    "resumo": "PATL11 comunica amortização parcial de R$ 66,33/cota: Parcela A de R$ 59,07 em cotas HGLG11 (fator 0,38976146; preço-base R$ 151,55/cota em 29/06/2026) e Parcela B de R$ 7,26 em dinheiro líquido de IRRF (20% sobre ganho de capital), com liquidação até 07/07/2026.",
+    "valor_envolvido": "R$ 66,33/cota",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Parcela A: 0,38976146 cotas HGLG11 por cota PATL11, base R$ 151,55 (fechamento 29/06/2026), entrega em 03/07/2026",
+      "Parcela B: R$ 7,26/cota em dinheiro, líquido de IRRF de 20% sobre ganho de capital, pagamento em 07/07/2026",
+      "Frações de cotas HGLG11 serão leiloadas na B3; cotistas sem declaração de custo médio tiveram IR calculado sobre preço mínimo histórico de R$ 40,02"
+    ],
+    "fnet_id": 1236326,
+    "ticker_fonte": "PATL11",
+    "data_anuncio": "2026-06-30T20:41:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1236326",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T06:21:02"
+  },
+  "1236305": {
+    "ticker": "TEPP11",
+    "tipo": "FII",
+    "data": "30/06/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Rescisão de compromisso de compra de conjuntos",
+    "resumo": "Contrato de compra e venda dos conjuntos nº 82, 111, 112, 121, 122, 141, 142, 151 e 152 foi resolvido de pleno direito, sem multas, após inquilino exercer direito de preferência. Fundo não assumirá posse nem receitas de locação dos ativos. Sem impacto financeiro relevante.",
+    "valor_envolvido": null,
+    "criticidade": "media",
+    "pontos_chave": [
+      "Condição precedente do compromisso de compra e venda não foi superada devido ao exercício de direito de preferência por inquilino",
+      "Contrato rescindido sem penalidades para nenhuma das partes",
+      "Fundo não terá posse dos conjuntos nem receitas de locação associadas"
+    ],
+    "fnet_id": 1236305,
+    "ticker_fonte": "TEPP11",
+    "data_anuncio": "2026-06-30T20:24:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1236305",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T06:21:10"
+  },
+  "1235456": {
+    "ticker": "BBIG11",
+    "tipo": "FII",
+    "data": "30/06/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Redução de rendimento por despesas extraordinárias",
+    "resumo": "BBIG11 anuncia rendimento de R$ 0,02/cota referente a junho/2026, com pagamento em 15/07/2026. Queda expressiva frente a meses anteriores, justificada por despesas extraordinárias não recorrentes. Gestora reforça caráter pontual sem impacto na estratégia ou qualidade dos ativos.",
+    "valor_envolvido": "R$ 0,02 por cota",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Rendimento de R$ 0,02/cota para junho/2026, pagamento em 15/07/2026",
+      "Redução causada por despesas extraordinárias não recorrentes",
+      "Gestora afirma que não há mudança de estratégia nem impacto nos próximos exercícios"
+    ],
+    "fnet_id": 1235456,
+    "ticker_fonte": "BBIG11",
+    "data_anuncio": "2026-06-30T17:30:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1235456",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T06:21:16"
+  },
+  "1235370": {
+    "ticker": "VISC11",
+    "tipo": "FII",
+    "data": "30/06/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Distribuição de rendimentos junho 2026",
+    "resumo": "Vinci Shopping Centers FII anuncia rendimento de R$ 0,84 por cota referente a junho de 2026. Pagamento em 14/07/2026 para detentores de cotas na data-base de 30/06/2026. Relatório mensal disponível em 07/07/2026.",
+    "valor_envolvido": "R$ 0,84 por cota",
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Rendimento de R$ 0,84 por cota referente a junho de 2026",
+      "Data-base: 30/06/2026; pagamento em 14/07/2026",
+      "Relatório mensal de desempenho previsto para 07/07/2026"
+    ],
+    "fnet_id": 1235370,
+    "ticker_fonte": "VISC11",
+    "data_anuncio": "2026-06-30T17:19:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1235370",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T06:21:23"
+  },
+  "1235355": {
+    "ticker": "BBIG11",
+    "tipo": "FII",
+    "data": "30/06/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Redução de rendimento por despesas extraordinárias",
+    "resumo": "BBIG11 anuncia distribuição de R$ 0,02/cota referente a junho/2026, pagamento em 15/07/2026. Redução em relação a meses anteriores decorre de despesas extraordinárias não recorrentes. Gestor reafirma caráter pontual sem impacto em exercícios futuros.",
+    "valor_envolvido": "R$ 0,02 por cota",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Rendimento de R$ 0,02/cota para junho/2026, abaixo dos meses anteriores",
+      "Causa: despesas extraordinárias não recorrentes no período",
+      "Pagamento em 15/07/2026; gestora descarta impacto nos próximos exercícios"
+    ],
+    "fnet_id": 1235355,
+    "ticker_fonte": "BBIG11",
+    "data_anuncio": "2026-06-30T17:15:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1235355",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T06:21:31"
+  },
+  "1235331": {
+    "ticker": "VILG11",
+    "tipo": "FII",
+    "data": "30/06/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Distribuição de R$ 0,82 por cota junho/2026",
+    "resumo": "Vinci Logística FII anuncia rendimento de R$ 0,82 por cota referente a junho de 2026. Pagamento em 14/07/2026 aos detentores na posição de 30/06/2026. Relatório mensal de desempenho disponível em 07/07/2026.",
+    "valor_envolvido": "R$ 0,82 por cota",
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Rendimento de R$ 0,82 por cota referente a junho/2026",
+      "Data de pagamento: 14 de julho de 2026",
+      "Data-base (posição): 30 de junho de 2026"
+    ],
+    "fnet_id": 1235331,
+    "ticker_fonte": "VILG11",
+    "data_anuncio": "2026-06-30T17:12:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1235331",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T06:21:38"
+  },
+  "1235311": {
+    "ticker": "VNCI11",
+    "tipo": "FII",
+    "data": "30/06/2026",
+    "categoria": "rendimento",
+    "titulo_curto": "Vinci Offices anuncia rendimento de junho 2026",
+    "resumo": "Vinci Offices FII declara rendimento de R$ 0,042 por cota referente a junho de 2026. Pagamento previsto para 14 de julho de 2026 aos detentores de cotas na posição de fechamento em 30 de junho de 2026.",
+    "valor_envolvido": "R$ 0,042 por cota",
+    "criticidade": "baixa",
+    "pontos_chave": [
+      "Rendimento de R$ 0,042 por cota referente a junho/2026",
+      "Data de pagamento: 14 de julho de 2026",
+      "Data-base (posição): 30 de junho de 2026"
+    ],
+    "fnet_id": 1235311,
+    "ticker_fonte": "VINO11",
+    "data_anuncio": "2026-06-30T17:10:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1235311",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-01T06:21:44"
   }
 }
