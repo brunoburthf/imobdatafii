@@ -130,7 +130,7 @@ async function carregarFii() {
     const [resp, precos, taxas] = await Promise.all([
       fetch("data/fiis/" + encodeURIComponent(ticker) + ".json?v=" + Date.now()),
       fetchPrecosLive(),
-      fetchTaxasTicker(ticker),
+      fetchTaxasTicker(ticker)
     ]);
 
     if (!resp.ok) throw new Error("Dados não encontrados para " + ticker);
