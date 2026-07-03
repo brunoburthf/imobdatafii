@@ -1,26 +1,4 @@
 {
-  "1211440": {
-    "ticker": "TRXF11",
-    "tipo": "FII",
-    "data": "02/06/2026",
-    "categoria": "aquisicao",
-    "titulo_curto": "TRXF11 adquire 8 ativos self-storage indiretamente",
-    "resumo": "TRXF11 celebrou contrato de compra e venda de ações de SPEs proprietárias de 8 imóveis self-storage (ABL 30.346 m²) em RJ, DF, MG e SP, via FII Brio Renda Imobiliária, gerido pela Brio Investimentos e operado pela Urban Properties (Guarde Aqui). Cap rate médio de 13,4% e ocupação de ~76%. Fechamento previsto até 31/12/2026.",
-    "valor_envolvido": "R$ 135 mi",
-    "criticidade": "alta",
-    "pontos_chave": [
-      "Valor total de R$ 135 mi estruturado em 4 parcelas: R$ 13,5 mi inicial, R$ 115 mi via compensação com futura emissão de cotas, R$ 6,2 mi parcela caixa e R$ 300 mil contingente, todas corrigidas pelo IPCA",
-      "Aquisição indireta via FII Brio Renda Imobiliária (PL R$ 140 mi), com 8 imóveis multilocatários distribuídos em RJ (4), DF (2), BH (1) e Ribeirão Preto (1), totalizando 3.803 boxes e mais de 2.500 contratos ativos",
-      "Pós-aquisição: portfólio sobe para 121 imóveis, ABL +2,51% para 1.238.207 m² e valor investido +1,81% para R$ 7,49 bi; distribuição por cota mantida entre R$ 0,90 e R$ 0,93"
-    ],
-    "fnet_id": 1211440,
-    "ticker_fonte": "TRXF11",
-    "data_anuncio": "2026-06-02T18:45:00",
-    "categoria_fnet": "Fato Relevante",
-    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1211440",
-    "modelo": "claude-sonnet-4-6",
-    "gerado_em": "2026-06-03T06:48:00"
-  },
   "1212233": {
     "ticker": null,
     "tipo": "FII",
@@ -1318,5 +1296,71 @@
     "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1237493",
     "modelo": "claude-sonnet-4-6",
     "gerado_em": "2026-07-02T05:53:59"
+  },
+  "1238482": {
+    "ticker": "CPSH11",
+    "tipo": "FII",
+    "data": "02/07/2026",
+    "categoria": "aquisicao",
+    "titulo_curto": "Aquisição de participação no Shopping Curitiba",
+    "resumo": "CPSH11 assinou Compromisso de Compra e Venda para aquisição de 10,682% do Shopping Curitiba (Curitiba/PR) por R$ 45,2 mi, a cap rate de 9,25% a.a. sobre NOI LTM. Pagamento à vista em 26/06/2026 com recursos próprios. Ativo possui 136 lojas, ABL total de 22.537 m² e ocupação de 98,3%.",
+    "valor_envolvido": "R$ 45,2 mi",
+    "criticidade": "alta",
+    "pontos_chave": [
+      "Participação de 10,682% adquirida por R$ 45,2 mi a cap rate de 9,25% a.a.",
+      "Ativo maduro com 98,3% de ocupação, 136 lojas e NOI LTM de R$ 1.737/m²",
+      "Operação amplia diversificação geográfica do fundo com entrada na região Sul"
+    ],
+    "fnet_id": 1238482,
+    "ticker_fonte": "CPSH11",
+    "data_anuncio": "2026-07-02T18:38:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1238482",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-03T05:48:47"
+  },
+  "1238343": {
+    "ticker": "BBIG11",
+    "tipo": "FII",
+    "data": "02/07/2026",
+    "categoria": "laudo",
+    "titulo_curto": "Reavaliação positiva de imóveis em junho/2026",
+    "resumo": "BB Premium Malls divulga reavaliação a valor justo dos imóveis com data-base 30/06/2026. Impacto positivo de R$ 23,83 mi nos ativos, equivalente a variação de +1,91% frente à posição de 29/06/2026. Gestor: BB Asset.",
+    "valor_envolvido": "R$ 23,83 mi",
+    "criticidade": "media",
+    "pontos_chave": [
+      "Reavaliação a mercado com data-base 30/06/2026",
+      "Impacto positivo de R$ 23.834.753,30 nos imóveis do fundo",
+      "Variação de +1,91% em relação à posição anterior de 29/06/2026"
+    ],
+    "fnet_id": 1238343,
+    "ticker_fonte": "BBIG11",
+    "data_anuncio": "2026-07-02T18:08:00",
+    "categoria_fnet": "Fato Relevante",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1238343",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-03T05:48:53"
+  },
+  "1238293": {
+    "ticker": "HFOF11",
+    "tipo": "FII",
+    "data": "02/07/2026",
+    "categoria": "gestao",
+    "titulo_curto": "2º programa de recompra de cotas aprovado",
+    "resumo": "Hedge Investments aprova 2º programa de recompra do HFOF11, com até 10.946.850 cotas (5% do total), a preço de mercado inferior ao valor patrimonial. Início em 17/07/2026, prazo de 12 meses, com cancelamento imediato das cotas adquiridas.",
+    "valor_envolvido": null,
+    "criticidade": "media",
+    "pontos_chave": [
+      "Até 10.946.850 cotas elegíveis à recompra, equivalentes a 5% do total emitido",
+      "Aquisição exclusivamente abaixo do valor patrimonial da cota, com cancelamento imediato",
+      "Programa válido por 12 meses a partir de 17/07/2026, via Ativa Investimentos e XP"
+    ],
+    "fnet_id": 1238293,
+    "ticker_fonte": "HFOF11",
+    "data_anuncio": "2026-07-02T17:07:00",
+    "categoria_fnet": "Comunicado ao Mercado",
+    "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1238293",
+    "modelo": "claude-sonnet-4-6",
+    "gerado_em": "2026-07-03T05:49:04"
   }
 }
