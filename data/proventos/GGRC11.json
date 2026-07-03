@@ -1,7 +1,7 @@
 {
   "ticker": "GGRC11",
-  "ultima_atualizacao": "2026-07-01T11:10:07",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-07-03T04:34:37",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2017-06-01",
@@ -666,6 +666,12 @@
     {
       "data_com": "2026-06-01",
       "data_pagamento": "2026-06-09",
+      "valor": 0.1,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-07-01",
+      "data_pagamento": "2026-07-08",
       "valor": 0.1,
       "tipo": "Rendimento"
     }
