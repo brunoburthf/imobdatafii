@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/07/2026 15:14",
+  "atualizado_em": "04/07/2026 05:40",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -3213,31 +3213,49 @@
       "fnet_id": 1212299,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1212299"
+    }
+  ],
+  "relatorios_gerenciais": [
+    {
+      "ticker": "CPSH11",
+      "nome_fundo": "Capitânia Shoppings FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-07-03T21:04:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1239769,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239769"
     },
     {
-      "ticker": "RZAT11",
-      "nome_fundo": "Riza Arctium Real Estate FII",
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
       "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-06-03T20:26:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1212233,
+      "data_anuncio": "2026-07-03T18:52:00",
+      "data_referencia": "30/06/2026",
+      "fnet_id": 1239614,
       "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1212233"
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239614"
     },
     {
       "ticker": "LIFE11",
       "nome_fundo": "Life Capital Partners FII",
       "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-06-03T19:34:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1212203,
+      "data_anuncio": "2026-07-03T18:03:00",
+      "data_referencia": "29/05/2026",
+      "fnet_id": 1239556,
       "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1212203"
-    }
-  ],
-  "relatorios_gerenciais": [
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239556"
+    },
+    {
+      "ticker": "XPCA11",
+      "nome_fundo": "XPCA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-07-03T15:22:00",
+      "data_referencia": "31/05/2026",
+      "fnet_id": 1238892,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1238892"
+    },
     {
       "ticker": "BTHF11",
       "nome_fundo": "BTG Pactual Real Estate Hedge Fund FII",
@@ -4567,46 +4585,6 @@
       "fnet_id": 1213598,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1213598"
-    },
-    {
-      "ticker": "GARE11",
-      "nome_fundo": "Guardian Real Estate FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-06-03T19:16:00",
-      "data_referencia": "30/04/2026",
-      "fnet_id": 1212192,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1212192"
-    },
-    {
-      "ticker": "TRXF11",
-      "nome_fundo": "Trx Real Estate FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-06-03T18:52:00",
-      "data_referencia": "29/05/2026",
-      "fnet_id": 1212174,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1212174"
-    },
-    {
-      "ticker": "BBIG11",
-      "nome_fundo": "BB Premium Malls FII",
-      "setor": "Shoppings",
-      "data_anuncio": "2026-06-03T18:00:00",
-      "data_referencia": "30/04/2026",
-      "fnet_id": 1212129,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1212129"
-    },
-    {
-      "ticker": "KFOF11",
-      "nome_fundo": "Fundo de Fundos de Investimento Imobiliário Kinea FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-06-03T18:00:00",
-      "data_referencia": "29/05/2026",
-      "fnet_id": 1212127,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1212127"
     }
   ]
 }
