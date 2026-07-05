@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "04/07/2026 06:41",
+  "atualizado_em": "05/07/2026 07:00",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -4181,7 +4181,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3472 - MASSARO FII",
+      "ticker": "0RBW11",
       "nome_fundo": "FII PLANNER 3472 - MASSARO FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "63879307000124",
@@ -4222,7 +4222,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "ITAPURA FUNDO DE INVESTIMENTO ",
+      "ticker": "0RBV11",
       "nome_fundo": "ITAPURA FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRO",
       "setor": "FI-Agro (não-curado)",
       "cnpj_emissor": "63880143000155",
@@ -4263,7 +4263,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3474 - ZAMOR FII R",
+      "ticker": "0RBX11",
       "nome_fundo": "FII PLANNER 3474 - ZAMOR FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "63879740000160",
@@ -6453,6 +6453,53 @@
           "n_investidores": 1,
           "qtd_cotas": 1158000.0,
           "valor_r": 11580000.0
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
+      "ticker": "QUARTA VIA REAL ASSETS FUNDO D",
+      "nome_fundo": "QUARTA VIA REAL ASSETS FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "63393767000148",
+      "numero_processo": "SRE/1317/2026",
+      "numero_registro": "26104",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "lider": "BLOXS COORDENAÇÃO LTDA",
+      "ofertante": "QUARTA VIA REAL ASSETS FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "data_protocolo": "2026-04-28",
+      "data_registro": "2026-04-28",
+      "data_inicio": "2026-04-28",
+      "data_encerramento": "2026-06-28",
+      "ultimo_comunicado": "Registro Concedido",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 1,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 10000.0,
+      "quantidade_total": 2500.0,
+      "valor_total": 25000000.0,
+      "valor_captado": 10010000.0,
+      "oferta_inicial": true,
+      "publico_alvo": "Qualificado",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "BLOXS ASSET GESTÃO DE RECURSOS LTDA",
+      "administrador": "MONETAR DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA",
+      "destinacao_recursos": "Os recursos captados por meio da presente Oferta serão destinados à aquisição de ativos em conformidade com a Política de Investimento do Fundo, descrita no Capítulo III do Anexo I do Regulamento.",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Demais Pessoa Jurídica": {
+          "n_investidores": 1,
+          "qtd_cotas": 1001.0,
+          "valor_r": 10010000.0
         }
       },
       "fnet_inicio": null,
@@ -12898,7 +12945,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 186d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 187d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -27716,7 +27763,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3572 - NPP FII RL",
+      "ticker": "0ON311",
       "nome_fundo": "FII PLANNER 3572 - NPP FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "27882272000119",
@@ -29140,7 +29187,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3570 - NOVO CAMPO ",
+      "ticker": "0EL311",
       "nome_fundo": "FII PLANNER 3570 - NOVO CAMPO FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43790197000112",
@@ -29181,7 +29228,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3602 - CARFAN FII ",
+      "ticker": "0EL011",
       "nome_fundo": "FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48904259000193",
@@ -30765,7 +30812,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 218d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 219d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -36247,7 +36294,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3470 - MENESCAL FI",
+      "ticker": "0EL211",
       "nome_fundo": "FII PLANNER 3470 - MENESCAL FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48978797000122",
@@ -37005,7 +37052,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3570 - NOVO CAMPO ",
+      "ticker": "0EL311",
       "nome_fundo": "FII PLANNER 3570 - NOVO CAMPO FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43790197000112",
@@ -37093,7 +37140,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3602 - CARFAN FII ",
+      "ticker": "0EL011",
       "nome_fundo": "FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48904259000193",
@@ -38206,7 +38253,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3464 - LAGUNA FII",
+      "ticker": "0SUB11",
       "nome_fundo": "FII PLANNER 3464 - LAGUNA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43671250000166",
@@ -38419,7 +38466,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3478 - LUMINI FII",
+      "ticker": "0MQN11",
       "nome_fundo": "FII PLANNER 3478 - LUMINI FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "58054129000162",
@@ -47504,7 +47551,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3464 - LAGUNA FII",
+      "ticker": "0SUB11",
       "nome_fundo": "FII PLANNER 3464 - LAGUNA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43671250000166",
@@ -51432,7 +51479,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 827d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 828d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -69409,7 +69456,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1403d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1404d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -71144,7 +71191,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1830d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1831d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -88148,8 +88195,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2467 - FII JAPURÁ",
-      "nome_fundo": "FII PLANNER 2467 - FII JAPURÁ",
+      "ticker": "FII PLANNER 2467 - FII JAPURA",
+      "nome_fundo": "FII PLANNER 2467 - FII JAPURA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "34509007000155",
       "numero_processo": "",
@@ -107955,7 +108002,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3464 - LAGUNA FII",
+      "ticker": "0SUB11",
       "nome_fundo": "FII PLANNER 3464 - LAGUNA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43671250000166",
@@ -117748,7 +117795,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3570 - NOVO CAMPO ",
+      "ticker": "0EL311",
       "nome_fundo": "FII PLANNER 3570 - NOVO CAMPO FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43790197000112",
@@ -120513,7 +120560,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3602 - CARFAN FII ",
+      "ticker": "0EL011",
       "nome_fundo": "FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48904259000193",
@@ -120695,7 +120742,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3470 - MENESCAL FI",
+      "ticker": "0EL211",
       "nome_fundo": "FII PLANNER 3470 - MENESCAL FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48978797000122",
