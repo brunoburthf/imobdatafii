@@ -1,7 +1,7 @@
 {
   "ticker": "CRAA11",
-  "ultima_atualizacao": "2026-07-01T11:14:14",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-07-08T04:00:38",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2023-04-10",
@@ -235,6 +235,12 @@
       "data_com": "2026-06-08",
       "data_pagamento": "2026-06-15",
       "valor": 1.15,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-07-07",
+      "data_pagamento": "2026-07-14",
+      "valor": 1.0,
       "tipo": "Rendimento"
     }
   ]

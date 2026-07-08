@@ -1,7 +1,7 @@
 {
   "ticker": "FATN11",
-  "ultima_atualizacao": "2026-07-01T11:12:03",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-07-08T04:00:38",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2020-10-06",
@@ -414,6 +414,12 @@
     {
       "data_com": "2026-06-05",
       "data_pagamento": "2026-06-15",
+      "valor": 0.8,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-07-06",
+      "data_pagamento": "2026-07-15",
       "valor": 0.8,
       "tipo": "Rendimento"
     }
