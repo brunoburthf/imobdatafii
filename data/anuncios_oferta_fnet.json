@@ -1,8 +1,18 @@
 {
-  "atualizado_em": "16/07/2026 06:10",
+  "atualizado_em": "17/07/2026 06:09",
   "fonte": "fnet (B3) — Oferta Pública de Distribuição de Cotas",
   "janela_dias": 90,
   "anuncios": [
+    {
+      "ticker": "BTLG11",
+      "nome_pregao": "FII BTLG",
+      "tipo": "Encerramento",
+      "tipo_completo": "Anúncio de Encerramento",
+      "data_anuncio": "2026-07-16T22:09:00",
+      "fnet_id": 1251582,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1251582"
+    },
     {
       "ticker": "HGRU11",
       "nome_pregao": "FII HGRU PAX",
@@ -312,16 +322,6 @@
       "fnet_id": 1167292,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1167292"
-    },
-    {
-      "ticker": "XPLG11",
-      "nome_pregao": "FII XP LOG",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-04-17T11:30:00",
-      "fnet_id": 1165931,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1165931"
     }
   ]
 }
