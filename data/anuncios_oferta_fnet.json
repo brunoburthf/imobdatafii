@@ -1,8 +1,18 @@
 {
-  "atualizado_em": "25/07/2026 06:10",
+  "atualizado_em": "01/08/2026 06:20",
   "fonte": "fnet (B3) — Oferta Pública de Distribuição de Cotas",
   "janela_dias": 90,
   "anuncios": [
+    {
+      "ticker": "NEXG11",
+      "nome_pregao": "FIAGRO NEXG",
+      "tipo": "Inicio",
+      "tipo_completo": "Anúncio de Início",
+      "data_anuncio": "2026-07-27T21:19:00",
+      "fnet_id": 1265567,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1265567"
+    },
     {
       "ticker": "KNSC11",
       "nome_pregao": "FII KINEA SC",
@@ -272,36 +282,6 @@
       "fnet_id": 1180426,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1180426"
-    },
-    {
-      "ticker": "HGBS11",
-      "nome_pregao": "FII HEDGEBS",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-04-29T20:46:00",
-      "fnet_id": 1173632,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1173632"
-    },
-    {
-      "ticker": "CPSH11",
-      "nome_pregao": "FII CPSH",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-04-29T19:26:00",
-      "fnet_id": 1173541,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1173541"
-    },
-    {
-      "ticker": "IBBP11",
-      "nome_pregao": "FII IBBP",
-      "tipo": "Modificacao",
-      "tipo_completo": "Aviso de Modificação de Oferta",
-      "data_anuncio": "2026-04-28T17:52:00",
-      "fnet_id": 1171613,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1171613"
     }
   ]
 }
