@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-24T14:20:18",
+  "atualizado_em": "2026-08-03T15:25:02",
   "setor": "Tijolo Multissetorial",
   "rotulo": "Renda Urbana",
   "fontes": {
@@ -12,8 +12,8 @@
   "agregado": {
     "vacancia_media": 0.020235,
     "vacancia_ponderada_ifix": 0.020736,
-    "ltv_ponderado_valor": 0.228453,
-    "ltv_ponderado_ifix": 0.102834,
+    "ltv_ponderado_valor": 0.227042,
+    "ltv_ponderado_ifix": 0.211586,
     "n_fundos": 11
   },
   "fundos": [
@@ -51,10 +51,10 @@
       "retorno_12m": 0.001462,
       "vacancia": 0.0,
       "n_imoveis": 92,
-      "ltv": 0.527101,
-      "divida_aquisicao": 600661071.14,
-      "divida_securitizacao": 2616022749.3,
-      "valor_imoveis": 6102596941.33
+      "ltv": 0.53029,
+      "divida_aquisicao": 592994607.6,
+      "divida_securitizacao": 2560935943.18,
+      "valor_imoveis": 5947558951.13
     },
     {
       "ticker": "ALZR11",
@@ -554,9 +554,9 @@
     },
     {
       "mes": "2026-06",
-      "ltv_ifix": 0.102834,
-      "ltv_simples": 0.094287,
-      "n_fundos": 9
+      "ltv_ifix": 0.211586,
+      "ltv_simples": 0.137887,
+      "n_fundos": 10
     }
   ],
   "vacancia_historico_ifix": [
