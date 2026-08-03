@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "02/08/2026 14:46",
+  "atualizado_em": "03/08/2026 05:45",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -2457,6 +2457,26 @@
   ],
   "relatorios_gerenciais": [
     {
+      "ticker": "CPTR11",
+      "nome_fundo": "CPTR11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-08-02T18:09:00",
+      "data_referencia": "30/06/2026",
+      "fnet_id": 1273513,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1273513"
+    },
+    {
+      "ticker": "SNFF11",
+      "nome_fundo": "Suno Fundo de FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-08-02T18:08:00",
+      "data_referencia": "30/06/2026",
+      "fnet_id": 1273512,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1273512"
+    },
+    {
       "ticker": "CLIN11",
       "nome_fundo": "Clave Índices de Preços FII",
       "setor": "Crédito Imobiliário",
@@ -3655,46 +3675,6 @@
       "fnet_id": 1240669,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1240669"
-    },
-    {
-      "ticker": "CPSH11",
-      "nome_fundo": "Capitânia Shoppings FII",
-      "setor": "Shoppings",
-      "data_anuncio": "2026-07-03T21:04:00",
-      "data_referencia": "29/05/2026",
-      "fnet_id": 1239769,
-      "fnet_versao": 2,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239769"
-    },
-    {
-      "ticker": "TRXF11",
-      "nome_fundo": "Trx Real Estate FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-07-03T18:52:00",
-      "data_referencia": "30/06/2026",
-      "fnet_id": 1239614,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239614"
-    },
-    {
-      "ticker": "LIFE11",
-      "nome_fundo": "Life Capital Partners FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-07-03T18:03:00",
-      "data_referencia": "29/05/2026",
-      "fnet_id": 1239556,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1239556"
-    },
-    {
-      "ticker": "XPCA11",
-      "nome_fundo": "XPCA11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-07-03T15:22:00",
-      "data_referencia": "31/05/2026",
-      "fnet_id": 1238892,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1238892"
     }
   ]
 }
