@@ -9,6 +9,8 @@ const JANELA_CURTA_DIAS = 35;
 let _setoresAtuais = null;    // tabela: [{Setor, P/VP, DY, % do IFIX}]
 let _historicoDy = null;      // { Setor: [[data, dy_pct], ...] }
 let _ntnb5a = null;           // [{date, ytm}]
+let _ifixSerie = null;        // [[data, indice base 100], ...] — série do gráfico
+let _cdiSerie = null;         // [[data, indice base 100], ...] — série do gráfico
 let _spreadMedio = {};        // Setor → média histórica (pp)
 let _spreadAtual = {};        // Setor → spread atual (pp)
 
@@ -45,6 +47,8 @@ async function carregar() {
     document.getElementById("rm-resumo").innerHTML =
       `IFIX <b>${formatarPct(retIfix)}</b> · CDI <b>${formatarPct(retCDI)}</b>`;
 
+    _ifixSerie = ifixSerie;
+    _cdiSerie = cdiSerie;
     desenharGrafico(ifixSerie, cdiSerie);
 
     // ── Tabela setorial ─────────────────────────────────────────────────
@@ -330,6 +334,58 @@ async function copiarGrafico(canvasId, btn) {
   } catch (e) {
     console.error("copiarGrafico:", e);
     restaurar("✕ Falhou");
+  }
+}
+
+// SheetJS lazy-loaded só na 1a chamada de baixarSeriesExcel (mesmo padrão de
+// resultado.js/simulador.js). Evita carregar ~500KB no load da página.
+let _sheetJsCarregandoRM = null;
+async function _carregarSheetJsRM() {
+  if (window.XLSX) return;
+  if (_sheetJsCarregandoRM) return _sheetJsCarregandoRM;
+  _sheetJsCarregandoRM = new Promise((res, rej) => {
+    const s = document.createElement("script");
+    s.src = "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js";
+    s.onload = () => res();
+    s.onerror = () => rej(new Error("Falha ao carregar SheetJS"));
+    document.head.appendChild(s);
+  });
+  return _sheetJsCarregandoRM;
+}
+
+// Baixa as séries do gráfico IFIX vs CDI (base 100) em .xlsx.
+async function baixarSeriesExcel(btn) {
+  if (!_ifixSerie || !_ifixSerie.length) { alert("O gráfico ainda não carregou."); return; }
+  const textoOriginal = btn ? btn.textContent : "";
+  if (btn) { btn.disabled = true; btn.textContent = "Preparando..."; }
+  try {
+    await _carregarSheetJsRM();
+    const r4 = v => (v == null ? null : Math.round(v * 10000) / 10000);
+    const cdiPorData = {};
+    (_cdiSerie || []).forEach(([d, v]) => { cdiPorData[d] = v; });
+
+    const aoa = [
+      ["IFIX vs CDI — Últimos 12 meses"],
+      [`Exportado em: ${new Date().toLocaleString("pt-BR")}`],
+      ["Base 100 na data inicial"],
+      [],
+      ["Data", "IFIX (base 100)", "CDI (base 100)"],
+    ];
+    _ifixSerie.forEach(([d, v]) => {
+      aoa.push([formatarDataLabel(d), r4(v), r4(cdiPorData[d])]);
+    });
+
+    const wb = XLSX.utils.book_new();
+    const ws = XLSX.utils.aoa_to_sheet(aoa);
+    ws["!cols"] = [{ wch: 12 }, { wch: 16 }, { wch: 16 }];
+    XLSX.utils.book_append_sheet(wb, ws, "IFIX vs CDI");
+
+    const dt = new Date().toISOString().slice(0, 10);
+    XLSX.writeFile(wb, `ifix_vs_cdi_${dt}.xlsx`);
+  } catch (e) {
+    alert("Erro ao gerar Excel: " + e.message);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = textoOriginal; }
   }
 }
 
