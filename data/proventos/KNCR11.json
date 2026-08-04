@@ -1,7 +1,7 @@
 {
   "ticker": "KNCR11",
-  "ultima_atualizacao": "2026-07-01T11:09:34",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-04T03:56:38",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2016-06-30",
@@ -727,6 +727,12 @@
       "data_com": "2026-06-30",
       "data_pagamento": "2026-07-13",
       "valor": 1.1,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-07-31",
+      "data_pagamento": "2026-08-13",
+      "valor": 1.25,
       "tipo": "Rendimento"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "ticker": "OUJP11",
-  "ultima_atualizacao": "2026-07-01T11:12:54",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-04T03:56:38",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2017-06-30",
@@ -655,6 +655,12 @@
       "data_com": "2026-06-30",
       "data_pagamento": "2026-07-14",
       "valor": 1.58,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-07-31",
+      "data_pagamento": "2026-08-14",
+      "valor": 1.2,
       "tipo": "Rendimento"
     }
   ]

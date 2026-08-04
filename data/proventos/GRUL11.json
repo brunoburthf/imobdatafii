@@ -1,6 +1,6 @@
 {
   "ticker": "GRUL11",
-  "ultima_atualizacao": "2026-07-01T11:12:57",
+  "ultima_atualizacao": "2026-08-03T11:10:54",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -126,6 +126,12 @@
     {
       "data_com": "2026-06-30",
       "data_pagamento": "2026-07-10",
+      "valor": 0.08,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-07-31",
+      "data_pagamento": "2026-08-12",
       "valor": 0.08,
       "tipo": "Rendimento"
     }

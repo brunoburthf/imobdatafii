@@ -1,6 +1,6 @@
 {
   "ticker": "GARE11",
-  "ultima_atualizacao": "2026-07-01T11:11:07",
+  "ultima_atualizacao": "2026-08-03T11:09:22",
   "fonte": "statusinvest",
   "proventos": [
     {
@@ -402,6 +402,12 @@
     {
       "data_com": "2026-06-30",
       "data_pagamento": "2026-07-07",
+      "valor": 0.083,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-07-31",
+      "data_pagamento": "2026-08-07",
       "valor": 0.083,
       "tipo": "Rendimento"
     }
