@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/08/2026 06:52",
+  "atualizado_em": "04/08/2026 06:20",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -203,47 +203,6 @@
       "gestor": "GENIAL GESTÃO LTDA.",
       "administrador": "BANCO GENIAL S.A.",
       "destinacao_recursos": "Conforme descrito na politica de investimento no regulamento do fundo.",
-      "fonte_csv": "res_160",
-      "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "VNSS11",
-      "nome_fundo": "VENUS 11 FUNDO DE INVESTIMENTO EM COTAS",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "63952812000157",
-      "numero_processo": "SRE/2404/2026",
-      "numero_registro": "27294",
-      "tipo_oferta": "PRIMARIA",
-      "rito": "CVM 160 — Automático",
-      "modalidade": "OPD Aut Profissional - sem bookbuilding",
-      "lider": "INTER DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS",
-      "ofertante": "VENUS 11 FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITA",
-      "data_protocolo": "2026-07-28",
-      "data_registro": "2026-07-28",
-      "data_inicio": "2026-07-28",
-      "data_encerramento": "",
-      "ultimo_comunicado": "Registro Concedido",
-      "data_comunicado": "",
-      "status": "Em distribuição",
-      "emissao": 2,
-      "serie": "",
-      "tipo_ativo": "Cotas de FII",
-      "tipo_fundo": "",
-      "preco_unitario": 106.11999999999999,
-      "quantidade_total": 471165.0,
-      "valor_total": 50000029.8,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "publico_alvo": "Profissional",
-      "regime_distribuicao": "Melhores Esforços",
-      "bookbuilding": false,
-      "incentivado": false,
-      "sustentavel": false,
-      "gestor": "NUMBER ASSET BRASIL LTDA.",
-      "administrador": "INTER DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
-      "destinacao_recursos": "Os recursos líquidos captados pelo Fundo por meio da Oferta serão destinados conforme a política de investimentos do Fundo.",
       "fonte_csv": "res_160",
       "subscritores": {},
       "fnet_inicio": null,
@@ -1657,51 +1616,6 @@
       "fonte_csv": "res_160",
       "subscritores": {},
       "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "MXRF11",
-      "nome_fundo": "Maxi Renda FII",
-      "setor": "Crédito Imobiliário",
-      "cnpj_emissor": "97521225000125",
-      "numero_processo": "SRE/1961/2026",
-      "numero_registro": "26812",
-      "tipo_oferta": "PRIMARIA",
-      "rito": "CVM 160 — Automático",
-      "modalidade": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
-      "lider": "XP INVESTIMENTOS CCTVM S.A.",
-      "ofertante": "MAXI RENDA FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII - RESPONSABILIDADE LIMITADA",
-      "data_protocolo": "2026-06-19",
-      "data_registro": "2026-06-19",
-      "data_inicio": "2026-06-19",
-      "data_encerramento": "",
-      "ultimo_comunicado": "Registro Concedido",
-      "data_comunicado": "",
-      "status": "Em distribuição",
-      "emissao": 12,
-      "serie": "",
-      "tipo_ativo": "Cotas de FII",
-      "tipo_fundo": "",
-      "preco_unitario": 9.639999999999999,
-      "quantidade_total": 133404481.0,
-      "valor_total": 1286019196.84,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "publico_alvo": "Público Geral",
-      "regime_distribuicao": "Melhores Esforços",
-      "bookbuilding": false,
-      "incentivado": false,
-      "sustentavel": false,
-      "gestor": "XP Vista Asset Management Ltda.",
-      "administrador": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e Valores Mobiliários",
-      "destinacao_recursos": "Observada a Política de Investimentos do Fundo, estabelecida no Regulamento, os recursos líquidos da Oferta serão destinados à aquisição de Ativos-Alvo (conforme definido no Prospecto Definitivo), além do pagamento de encargos, como taxas de administração e escrituração e custos incorridos no âmbito das eventuais aquisições.",
-      "fonte_csv": "res_160",
-      "subscritores": {},
-      "fnet_inicio": {
-        "data": "2026-06-22",
-        "fnet_id": 1225194,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1225194"
-      },
       "fnet_encerramento": null
     },
     {
@@ -3441,47 +3355,6 @@
       "gestor": "SUNO GESTORA DE RECURSOS LTDA",
       "administrador": "ID CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS SA.",
       "destinacao_recursos": "Aplicação preponderante em empreendimentos imobiliários, que poderá ser realizada por meio da aquisição dos Ativos Imobiliários elegíveis conforme o regulamento do fundo.",
-      "fonte_csv": "res_160",
-      "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "0S2M11",
-      "nome_fundo": "FARIA LIMA PLAZA FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "66334070000194",
-      "numero_processo": "SRE/1290/2026",
-      "numero_registro": "26080",
-      "tipo_oferta": "PRIMARIA",
-      "rito": "CVM 160 — Automático",
-      "modalidade": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
-      "lider": "BTG PACTUAL SERVIÇOS FINANCEIROS S/A DTVM",
-      "ofertante": "FARIA LIMA PLAZA FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA",
-      "data_protocolo": "2026-04-24",
-      "data_registro": "2026-04-24",
-      "data_inicio": "2026-04-24",
-      "data_encerramento": "",
-      "ultimo_comunicado": "Registro Concedido",
-      "data_comunicado": "",
-      "status": "Em distribuição",
-      "emissao": 1,
-      "serie": "",
-      "tipo_ativo": "Cotas de FII",
-      "tipo_fundo": "",
-      "preco_unitario": 1000.0,
-      "quantidade_total": 325000.0,
-      "valor_total": 325000000.0,
-      "valor_captado": null,
-      "oferta_inicial": true,
-      "publico_alvo": "Qualificado",
-      "regime_distribuicao": "Melhores Esforços",
-      "bookbuilding": false,
-      "incentivado": false,
-      "sustentavel": false,
-      "gestor": "Euqueroinvestir Gestão de Recursos Ltda",
-      "administrador": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e ValoresMobiliários",
-      "destinacao_recursos": "A Classe tem por objetivo proporcionar aos cotistas a valorização e arentabilidade de suas cotas, conforme política de investimento definida no capitulo 1.1 do regulamento",
       "fonte_csv": "res_160",
       "subscritores": {},
       "fnet_inicio": null,
@@ -6891,6 +6764,53 @@
       "fnet_encerramento": null
     },
     {
+      "ticker": "VNSS11",
+      "nome_fundo": "VENUS 11 FUNDO DE INVESTIMENTO EM COTAS",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "63952812000157",
+      "numero_processo": "SRE/2404/2026",
+      "numero_registro": "27294",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Profissional - sem bookbuilding",
+      "lider": "INTER DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS",
+      "ofertante": "VENUS 11 FUNDO DE INVESTIMENTO EM COTAS DE FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITA",
+      "data_protocolo": "2026-07-28",
+      "data_registro": "2026-07-28",
+      "data_inicio": "2026-07-28",
+      "data_encerramento": "2026-08-03",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 2,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 106.11999999999999,
+      "quantidade_total": 471165.0,
+      "valor_total": 50000029.8,
+      "valor_captado": 50000029.8,
+      "oferta_inicial": false,
+      "publico_alvo": "Profissional",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "NUMBER ASSET BRASIL LTDA.",
+      "administrador": "INTER DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "destinacao_recursos": "Os recursos líquidos captados pelo Fundo por meio da Oferta serão destinados conforme a política de investimentos do Fundo.",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Fundos de Investimento": {
+          "n_investidores": 2,
+          "qtd_cotas": 471165.0,
+          "valor_r": 50000029.8
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
       "ticker": "DARP JIVE FUNDO DE INVEST. IMO",
       "nome_fundo": "DARP JIVE FUNDO DE INVEST. IMOBILIARIO",
       "setor": "FII (não-curado)",
@@ -7143,6 +7063,97 @@
         }
       },
       "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
+      "ticker": "MXRF11",
+      "nome_fundo": "Maxi Renda FII",
+      "setor": "Crédito Imobiliário",
+      "cnpj_emissor": "97521225000125",
+      "numero_processo": "SRE/1961/2026",
+      "numero_registro": "26812",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "lider": "XP INVESTIMENTOS CCTVM S.A.",
+      "ofertante": "MAXI RENDA FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII - RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-06-19",
+      "data_registro": "2026-06-19",
+      "data_inicio": "2026-06-19",
+      "data_encerramento": "2026-08-03",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 12,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 9.639999999999999,
+      "quantidade_total": 133404481.0,
+      "valor_total": 1286019196.84,
+      "valor_captado": 1030870192.8799999,
+      "oferta_inicial": false,
+      "publico_alvo": "Público Geral",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "XP Vista Asset Management Ltda.",
+      "administrador": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e Valores Mobiliários",
+      "destinacao_recursos": "Observada a Política de Investimentos do Fundo, estabelecida no Regulamento, os recursos líquidos da Oferta serão destinados à aquisição de Ativos-Alvo (conforme definido no Prospecto Definitivo), além do pagamento de encargos, como taxas de administração e escrituração e custos incorridos no âmbito das eventuais aquisições.",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Pessoa Física / Natural": {
+          "n_investidores": 37309,
+          "qtd_cotas": 21349767.0,
+          "valor_r": 205811753.87999997
+        },
+        "Fundos de Investimento": {
+          "n_investidores": 5,
+          "qtd_cotas": 23349988.0,
+          "valor_r": 225093884.31999996
+        },
+        "Entidade de Previdência": {
+          "n_investidores": 2,
+          "qtd_cotas": 250100.0,
+          "valor_r": 2410963.9999999995
+        },
+        "Investidor Estrangeiro": {
+          "n_investidores": 9,
+          "qtd_cotas": 4439347.0,
+          "valor_r": 42795305.08
+        },
+        "Instit. Financ. Emissora": {
+          "n_investidores": 1,
+          "qtd_cotas": 28350763.0,
+          "valor_r": 273301355.32
+        },
+        "Demais Instit. Financeiras": {
+          "n_investidores": 1,
+          "qtd_cotas": 28008299.0,
+          "valor_r": 270000002.35999995
+        },
+        "Demais PJ Emissora": {
+          "n_investidores": 1,
+          "qtd_cotas": 107.0,
+          "valor_r": 1031.4799999999998
+        },
+        "Demais Pessoa Jurídica": {
+          "n_investidores": 83,
+          "qtd_cotas": 882588.0,
+          "valor_r": 8508148.319999998
+        },
+        "Soc. Adm. Empr. Próp.": {
+          "n_investidores": 242,
+          "qtd_cotas": 305783.0,
+          "valor_r": 2947748.1199999996
+        }
+      },
+      "fnet_inicio": {
+        "data": "2026-06-22",
+        "fnet_id": 1225194,
+        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1225194"
+      },
       "fnet_encerramento": null
     },
     {
@@ -9196,6 +9207,53 @@
       "fnet_encerramento": null
     },
     {
+      "ticker": "0S2M11",
+      "nome_fundo": "FARIA LIMA PLAZA FII",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "66334070000194",
+      "numero_processo": "SRE/1290/2026",
+      "numero_registro": "26080",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Público em Geral ou Qualificado - sem bookbuilding",
+      "lider": "BTG PACTUAL SERVIÇOS FINANCEIROS S/A DTVM",
+      "ofertante": "FARIA LIMA PLAZA FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-04-24",
+      "data_registro": "2026-04-24",
+      "data_inicio": "2026-04-24",
+      "data_encerramento": "2026-08-03",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 1,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 1000.0,
+      "quantidade_total": 325000.0,
+      "valor_total": 325000000.0,
+      "valor_captado": 217770000.0,
+      "oferta_inicial": true,
+      "publico_alvo": "Qualificado",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "Euqueroinvestir Gestão de Recursos Ltda",
+      "administrador": "BTG Pactual Serviços Financeiros S.A. Distribuidora de Títulos e ValoresMobiliários",
+      "destinacao_recursos": "A Classe tem por objetivo proporcionar aos cotistas a valorização e arentabilidade de suas cotas, conforme política de investimento definida no capitulo 1.1 do regulamento",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Pessoa Física / Natural": {
+          "n_investidores": 6969,
+          "qtd_cotas": 217770.0,
+          "valor_r": 217770000.0
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
       "ticker": "FIP ÁRVORE GEOS FIAGRO -FII",
       "nome_fundo": "FIP ÁRVORE GEOS FIAGRO -FII",
       "setor": "FI-Agro (não-curado)",
@@ -9364,9 +9422,9 @@
       },
       "fnet_inicio": null,
       "fnet_encerramento": {
-        "data": "2026-05-05",
-        "fnet_id": 1180665,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1180665"
+        "data": "2026-05-08",
+        "fnet_id": 1183208,
+        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1183208"
       }
     },
     {
@@ -9855,11 +9913,7 @@
         }
       },
       "fnet_inicio": null,
-      "fnet_encerramento": {
-        "data": "2026-05-05",
-        "fnet_id": 1180664,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1180664"
-      }
+      "fnet_encerramento": null
     },
     {
       "ticker": "STRY11",
@@ -16128,7 +16182,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 216d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 217d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -34190,7 +34244,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 248d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 249d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -54857,7 +54911,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 857d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 858d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -72834,7 +72888,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1433d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1434d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -74569,7 +74623,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1860d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1861d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -126589,26 +126643,6 @@
       "fnet_id": 1198877,
       "fnet_versao": 2,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1198877"
-    },
-    {
-      "ticker": "IBBP11",
-      "nome_pregao": "FII IBBP",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-05-08T16:38:00",
-      "fnet_id": 1183208,
-      "fnet_versao": 2,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1183208"
-    },
-    {
-      "ticker": "VGIR11",
-      "nome_pregao": "",
-      "tipo": "Inicio",
-      "tipo_completo": "Anúncio de Início",
-      "data_anuncio": "2026-05-05T17:34:00",
-      "fnet_id": 1180426,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1180426"
     }
   ]
 }
