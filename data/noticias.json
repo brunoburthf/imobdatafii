@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "03/08/2026 17:52",
+  "atualizado_em": "04/08/2026 04:59",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "GGRC11",
+      "nome_fundo": "Ggr Covepi Renda FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-08-03T17:07:00",
+      "data_com": "2026-08-03",
+      "data_pagamento": "2026-08-10",
+      "valor": 0.1,
+      "valor_anterior": 0.1,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "07-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1275140,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1275140"
+    },
     {
       "ticker": "OUJP11",
       "nome_fundo": "Ourinvest Jpp FII",
@@ -2453,6 +2470,28 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "GARE11",
+      "nome_fundo": "Guardian Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-08-03T19:35:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1275387,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1275387"
+    },
+    {
+      "ticker": "RPRI11",
+      "nome_fundo": "Rbr Premium Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-03T17:40:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1275174,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1275174"
+    },
+    {
       "ticker": "BRCO11",
       "nome_fundo": "Bresco Logística FII",
       "setor": "Logística",
@@ -2960,6 +2999,36 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "KORE11",
+      "nome_fundo": "Kinea Oportunidades Real Estate FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-08-03T18:48:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1275276,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1275276"
+    },
+    {
+      "ticker": "GZIT11",
+      "nome_fundo": "Gazit Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-08-03T18:16:00",
+      "data_referencia": "03/08/2026",
+      "fnet_id": 1275242,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1275242"
+    },
+    {
+      "ticker": "GZIT11",
+      "nome_fundo": "Gazit Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-08-03T18:14:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1275240,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1275240"
+    },
     {
       "ticker": "HTMX11",
       "nome_fundo": "Hotel Maxinvest FII",
