@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "07/08/2026 14:14",
+  "atualizado_em": "07/08/2026 14:19",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "FGAA11",
+      "nome_fundo": "FGAA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-08-07T14:10:00",
+      "data_com": "2026-08-07",
+      "data_pagamento": "2026-08-14",
+      "valor": 0.11,
+      "valor_anterior": 0.11,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Julho",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1279998,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279998"
+    },
     {
       "ticker": "RECT11",
       "nome_fundo": "FII Rec Renda Imobiliaria",
