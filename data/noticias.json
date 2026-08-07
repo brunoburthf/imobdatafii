@@ -1,7 +1,58 @@
 {
-  "atualizado_em": "07/08/2026 04:22",
+  "atualizado_em": "07/08/2026 14:14",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "RECT11",
+      "nome_fundo": "FII Rec Renda Imobiliaria",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-08-07T09:25:00",
+      "data_com": "2026-08-07",
+      "data_pagamento": "2026-08-14",
+      "valor": 0.45,
+      "valor_anterior": 0.45,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Julho",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1279268,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279268"
+    },
+    {
+      "ticker": "BTAG11",
+      "nome_fundo": "BTAG11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-08-07T09:13:00",
+      "data_com": "2026-08-07",
+      "data_pagamento": "2026-08-14",
+      "valor": 1.3,
+      "valor_anterior": 1.3,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Julho-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1279263,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279263"
+    },
+    {
+      "ticker": "CRAA11",
+      "nome_fundo": "CRAA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-08-07T08:57:00",
+      "data_com": "2026-08-07",
+      "data_pagamento": "2026-08-14",
+      "valor": 1.25,
+      "valor_anterior": 1.0,
+      "variacao_pct": 0.25,
+      "periodo_referencia": "Julho-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1279257,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279257"
+    },
     {
       "ticker": "FATN11",
       "nome_fundo": "Brc Renda Corporativa FII",
@@ -2775,6 +2826,16 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "BTAG11",
+      "nome_fundo": "BTAG11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-08-07T10:14:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1279298,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279298"
+    },
     {
       "ticker": "VGRI11",
       "nome_fundo": "Valora Renda Imobiliária FII",
