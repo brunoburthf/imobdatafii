@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "07/08/2026 05:29",
+  "atualizado_em": "09/08/2026 04:57",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -1377,8 +1377,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "AC MS AGRO FUNDO DE INVESTIMEN",
-      "nome_fundo": "AC MS AGRO FUNDO DE INVESTIMENTO FIAGRO IMOBILIÁRIO",
+      "ticker": "AC RIHAB FII FIAGRO RESPONSABI",
+      "nome_fundo": "AC RIHAB FII FIAGRO RESPONSABILIDADE LIMITADA- SR",
       "setor": "FI-Agro (não-curado)",
       "cnpj_emissor": "64325562000198",
       "numero_processo": "SRE/2151/2026",
@@ -5378,7 +5378,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0RBV11",
+      "ticker": "ITAPURA FUNDO DE INVESTIMENTO ",
       "nome_fundo": "ITAPURA FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRO",
       "setor": "FI-Agro (não-curado)",
       "cnpj_emissor": "63880143000155",
@@ -7244,7 +7244,11 @@
         "fnet_id": 1225194,
         "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1225194"
       },
-      "fnet_encerramento": null
+      "fnet_encerramento": {
+        "data": "2026-08-07",
+        "fnet_id": 1280396,
+        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1280396"
+      }
     },
     {
       "ticker": "JCSC11",
@@ -16466,7 +16470,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 220d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 222d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -24015,8 +24019,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0J4Y11",
-      "nome_fundo": "FIAGRO SINAI MAXI FII",
+      "ticker": "5786 AMBIENTAL",
+      "nome_fundo": "5786 AMBIENTAL",
       "setor": "FI-Agro (não-curado)",
       "cnpj_emissor": "62839177000133",
       "numero_processo": "SRE/3319/2025",
@@ -34528,7 +34532,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 252d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 254d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -41095,8 +41099,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "ALEGRIA FUNDO DE INVESTIMENTO ",
-      "nome_fundo": "ALEGRIA FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESP ILIMITADA",
+      "ticker": "FII PLANNER 3893 - ALEGRIA FII",
+      "nome_fundo": "FII PLANNER 3893 - ALEGRIA FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "56028598000181",
       "numero_processo": "SRE/3989/2024",
@@ -42182,7 +42186,7 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0MQN11",
+      "ticker": "FII PLANNER 3478 - LUMINI FII",
       "nome_fundo": "FII PLANNER 3478 - LUMINI FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "58054129000162",
@@ -55195,7 +55199,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 861d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 863d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -73172,7 +73176,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1437d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1439d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -74907,7 +74911,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1864d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1866d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -80104,46 +80108,6 @@
           "n_investidores": 1,
           "qtd_cotas": 4.1308,
           "valor_r": 4199963.925876
-        }
-      },
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "045A11",
-      "nome_fundo": "FII NORTHWEST",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "23781211000104",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "RIO BRAVO INVESTIMENTOS - DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
-      "ofertante": "RIO BRAVO INVESTIMENTOS - DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-05-31",
-      "data_encerramento": "2016-07-15",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2016-07-18",
-      "status": "Encerrada",
-      "emissao": 2,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 100.0,
-      "quantidade_total": null,
-      "valor_total": 500000000.0,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 500000000.0,
-      "oferta_inicial": false,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Fundos de Investimento": {
-          "n_investidores": 1,
-          "qtd_cotas": 5000000.0,
-          "valor_r": 500000000.0
         }
       },
       "fnet_inicio": null,
@@ -109615,6 +109579,46 @@
       "fnet_encerramento": null
     },
     {
+      "ticker": "048511",
+      "nome_fundo": "PLATINIUM XXI FUNDO DE INVESTIMENTO IMOBILIÁRIO RESP LTDA",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "35940506000165",
+      "numero_processo": "",
+      "numero_registro": "",
+      "tipo_oferta": "Primária",
+      "rito": "ICVM 476",
+      "modalidade": "Dispensada de Registro",
+      "lider": "MASTER S/A CORRETORA DE CAMBIO, TITULOS E VALORES MOBILIARIOS",
+      "ofertante": "PLATINUM XXI FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "data_protocolo": "",
+      "data_registro": "",
+      "data_inicio": "2021-11-04",
+      "data_encerramento": "2024-10-22",
+      "ultimo_comunicado": "Comunicado de Encerramento",
+      "data_comunicado": "2024-10-25",
+      "status": "Encerrada",
+      "emissao": 1,
+      "serie": "Série Única",
+      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
+      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
+      "preco_unitario": 0.33,
+      "quantidade_total": null,
+      "valor_total": 1141207.9,
+      "quantidade_lote_suplementar": null,
+      "valor_captado": 1141207.8975,
+      "oferta_inicial": true,
+      "fonte_csv": "400_476",
+      "subscritores": {
+        "Fundos de Investimento": {
+          "n_investidores": 1,
+          "qtd_cotas": 3458205.75,
+          "valor_r": 1141207.8975
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
       "ticker": "VTPL11",
       "nome_fundo": "PLUS FII",
       "setor": "FII (não-curado)",
@@ -125463,8 +125467,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "ALEGRIA FUNDO DE INVESTIMENTO ",
-      "nome_fundo": "ALEGRIA FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESP ILIMITADA",
+      "ticker": "FII PLANNER 3893 - ALEGRIA FII",
+      "nome_fundo": "FII PLANNER 3893 - ALEGRIA FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "56028598000181",
       "numero_processo": "SRE/2217/2024",
