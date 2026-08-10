@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-07T13:48:58",
+  "atualizado_em": "2026-08-10T13:55:16",
   "setor": "Tijolo Multissetorial",
   "rotulo": "Renda Urbana",
   "fontes": {
@@ -11,7 +11,7 @@
   "data_ref_ltv": "2026-06-01",
   "agregado": {
     "vacancia_media": 0.020235,
-    "vacancia_ponderada_ifix": 0.020736,
+    "vacancia_ponderada_ifix": 0.029067,
     "ltv_ponderado_valor": 0.227042,
     "ltv_ponderado_ifix": 0.211586,
     "n_fundos": 11
@@ -685,6 +685,12 @@
       "vac_ifix": 0.020736,
       "vac_simples": 0.051364,
       "n_fundos": 11
+    },
+    {
+      "trimestre": "2026-Q2",
+      "vac_ifix": 0.029067,
+      "vac_simples": 0.029067,
+      "n_fundos": 1
     }
   ]
 }
