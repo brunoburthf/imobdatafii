@@ -1,7 +1,7 @@
 {
   "ticker": "BLMG11",
-  "ultima_atualizacao": "2026-08-03T11:11:01",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-11T02:58:27",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2021-03-05",
@@ -384,6 +384,12 @@
     {
       "data_com": "2026-07-07",
       "data_pagamento": "2026-07-14",
+      "valor": 0.39,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-07",
+      "data_pagamento": "2026-08-14",
       "valor": 0.39,
       "tipo": "Rendimento"
     }
