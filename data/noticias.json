@@ -1,7 +1,41 @@
 {
-  "atualizado_em": "11/08/2026 14:20",
+  "atualizado_em": "12/08/2026 03:58",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "RBRY11",
+      "nome_fundo": "FII Rbr Crédito Imobiliário Estruturado",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-11T17:06:00",
+      "data_com": "2026-08-11",
+      "data_pagamento": "2026-08-18",
+      "valor": 1.0,
+      "valor_anterior": 1.0,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Julho-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1283310,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283310"
+    },
+    {
+      "ticker": "RBRR11",
+      "nome_fundo": "FII RBR Rendimento High Grade",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-11T17:04:00",
+      "data_com": "2026-08-11",
+      "data_pagamento": "2026-08-18",
+      "valor": 0.9,
+      "valor_anterior": 0.98,
+      "variacao_pct": -0.08163265306122447,
+      "periodo_referencia": "Julho-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1283305,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283305"
+    },
     {
       "ticker": "CLIN11",
       "nome_fundo": "Clave Índices de Preços FII",
@@ -2385,6 +2419,39 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "IBBP11",
+      "nome_fundo": "Invista Brazilian Business Park FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-08-11T20:04:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1284161,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1284161"
+    },
+    {
+      "ticker": "RBRX11",
+      "nome_fundo": "Rbr Plus Multiestratégia Real Estate FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-08-11T19:24:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1283812,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283812"
+    },
+    {
+      "ticker": "HGRU11",
+      "nome_fundo": "Pátria Renda Urbana FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-08-11T17:46:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1283476,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283476"
+    },
+    {
       "ticker": "TRXF11",
       "nome_fundo": "Trx Real Estate FII",
       "setor": "Tijolo Multissetorial",
@@ -2991,6 +3058,96 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "DEVA11",
+      "nome_fundo": "Devant Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-11T18:45:00",
+      "data_referencia": "30/06/2026",
+      "fnet_id": 1283617,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283617"
+    },
+    {
+      "ticker": "IBBP11",
+      "nome_fundo": "Invista Brazilian Business Park FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-08-11T18:33:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1283592,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283592"
+    },
+    {
+      "ticker": "KNUQ11",
+      "nome_fundo": "Kinea Unique Hy CDI FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-11T18:27:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1283581,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283581"
+    },
+    {
+      "ticker": "KNSC11",
+      "nome_fundo": "Kinea Securities FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-11T18:26:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1283577,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283577"
+    },
+    {
+      "ticker": "KNHY11",
+      "nome_fundo": "Kinea High Yield Cri FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-11T18:23:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1283566,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283566"
+    },
+    {
+      "ticker": "KNCR11",
+      "nome_fundo": "Kinea Rendimentos Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-11T18:22:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1283565,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283565"
+    },
+    {
+      "ticker": "KCRE11",
+      "nome_fundo": "Kinea Creditas FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-11T18:16:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1283553,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283553"
+    },
+    {
+      "ticker": "TVRI11",
+      "nome_fundo": "Tivio Renda Imobiliária FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-08-11T18:13:00",
+      "data_referencia": "10/08/2026",
+      "fnet_id": 1283546,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1283546"
+    },
+    {
+      "ticker": "CRAA11",
+      "nome_fundo": "CRAA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-08-11T15:01:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1282930,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1282930"
+    },
     {
       "ticker": "DEVA11",
       "nome_fundo": "Devant Recebíveis Imobiliários FII",
