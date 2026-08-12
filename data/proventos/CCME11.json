@@ -1,7 +1,7 @@
 {
   "ticker": "CCME11",
-  "ultima_atualizacao": "2026-08-03T11:09:53",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-12T03:17:17",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2022-11-09",
@@ -271,6 +271,12 @@
       "data_com": "2026-07-08",
       "data_pagamento": "2026-07-15",
       "valor": 0.094,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-10",
+      "data_pagamento": "2026-08-17",
+      "valor": 0.086,
       "tipo": "Rendimento"
     }
   ]
