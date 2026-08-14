@@ -1,7 +1,7 @@
 {
   "ticker": "MCCI11",
-  "ultima_atualizacao": "2026-08-03T11:09:02",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-14T03:18:25",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2019-11-13",
@@ -492,6 +492,12 @@
     {
       "data_com": "2026-07-10",
       "data_pagamento": "2026-07-17",
+      "valor": 1.0,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-12",
+      "data_pagamento": "2026-08-19",
       "valor": 1.0,
       "tipo": "Rendimento"
     }
