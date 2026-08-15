@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "14/08/2026 05:24",
+  "atualizado_em": "15/08/2026 04:20",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -16659,7 +16659,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 227d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 228d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -34721,7 +34721,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 259d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 260d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -55388,7 +55388,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 868d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 869d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -73365,7 +73365,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1444d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1445d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -75100,7 +75100,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1871d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1872d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -80060,40 +80060,6 @@
       "preco_unitario": 97.08,
       "quantidade_total": 355377.0,
       "valor_total": 34499999.16,
-      "quantidade_lote_suplementar": 0.0,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "fonte_csv": "400_476",
-      "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "KNCR11",
-      "nome_fundo": "Kinea Rendimentos Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "cnpj_emissor": "16706958000132",
-      "numero_processo": "RJ-2016-5323",
-      "numero_registro": "CVM/SRE/RFI/2016/005",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 400 (com registro)",
-      "modalidade": "Registrada",
-      "lider": "BANCO ITAU BBA  S.A.",
-      "ofertante": "INTRAG DTVM LTDA.",
-      "data_protocolo": "2016-06-07",
-      "data_registro": "2016-07-12",
-      "data_inicio": "",
-      "data_encerramento": "2017-01-08",
-      "ultimo_comunicado": "",
-      "data_comunicado": "",
-      "status": "Encerrada",
-      "emissao": null,
-      "serie": "",
-      "tipo_ativo": "QUOTAS DE FUNDO IMOBILIÁRIO",
-      "tipo_fundo": "",
-      "preco_unitario": 104.3,
-      "quantidade_total": 6346501.0,
-      "valor_total": 661940054.3,
       "quantidade_lote_suplementar": 0.0,
       "valor_captado": null,
       "oferta_inicial": false,
@@ -127011,6 +126977,16 @@
     }
   ],
   "_anuncios_fnet_sem_cvm": [
+    {
+      "ticker": "MCRE11",
+      "nome_pregao": "FII MAUA RE",
+      "tipo": "Inicio",
+      "tipo_completo": "Anúncio de Início",
+      "data_anuncio": "2026-08-14T23:33:00",
+      "fnet_id": 1294673,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1294673"
+    },
     {
       "ticker": "BTAG11",
       "nome_pregao": "FIAGRO BTAG",
