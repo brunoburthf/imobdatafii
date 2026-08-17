@@ -70,9 +70,38 @@ async function getJSON(url) {
   return r.json();
 }
 
+// prices.json vem do GH Action (a cada 5 min). O raw.githubusercontent devolve
+// 429 (rate limit por IP) com alguma frequência — quando isso acontece a página
+// perdia, EM SILÊNCIO, o DY dos ofertados (precisa do preço atual) e os dois
+// blocos de maiores variações (vêm de `variacoes`). Fallback: a cópia
+// same-origin publicada junto com o site — mesma fonte, só congelada no último
+// deploy. Se as duas falharem, o aviso na topbar explica o vazio.
+async function carregarPrecos() {
+  try {
+    return { dados: await getJSON(PRICES_URL()), origem: "live" };
+  } catch (e1) {
+    try {
+      return { dados: await getJSON("prices.json" + v()), origem: "fallback", motivo: e1.message };
+    } catch (_) {
+      return { dados: { precos: {}, variacoes: {} }, origem: "falhou", motivo: e1.message };
+    }
+  }
+}
+
+function avisarOrigemPrecos(res) {
+  const el = document.getElementById("panorama-aviso");
+  if (!el) return;
+  if (res.origem === "live") { el.style.display = "none"; return; }
+  el.style.display = "block";
+  el.textContent = res.origem === "fallback"
+    ? `⚠ Preços ao vivo indisponíveis (${res.motivo}). Usando a cópia publicada com o site: `
+      + `var. dia, DY e maiores variações podem estar defasados.`
+    : `⚠ Falha ao carregar os preços (${res.motivo}). DY e maiores variações ficam vazios.`;
+}
+
 async function carregarBase() {
-  const [prices, idx, infra, setRet, setTab, ifix, classif] = await Promise.all([
-    getJSON(PRICES_URL()).catch(() => ({ precos: {}, variacoes: {} })),
+  const [precosRes, idx, infra, setRet, setTab, ifix, classif] = await Promise.all([
+    carregarPrecos(),
     getJSON("data/index.json" + v()),
     getJSON("data/infra_index.json" + v()).catch(() => ({ fiis: [] })),
     getJSON("data/setores_retorno.json" + v()),
@@ -80,7 +109,7 @@ async function carregarBase() {
     getJSON("data/ifix.json" + v()),
     getJSON("data/classificacao_infra.json" + v()).catch(() => []),
   ]);
-  _prices = prices;
+  _prices = precosRes.dados;
   _indexFiis = idx.fiis || [];
   _infraIndex = Array.isArray(infra) ? infra : (infra.fiis || []);
   _setoresRet = setRet.indices || {};
@@ -90,7 +119,8 @@ async function carregarBase() {
 
   // carimbo de atualização (usa a fonte de preço, mais fresca)
   const el = document.getElementById("panorama-atualizado");
-  if (el) el.textContent = prices.atualizado_em || setRet.atualizado_em || "—";
+  if (el) el.textContent = _prices.atualizado_em || setRet.atualizado_em || "—";
+  avisarOrigemPrecos(precosRes);
 }
 
 async function getSerieAjustada(ticker) {

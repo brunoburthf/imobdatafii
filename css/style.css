@@ -4857,6 +4857,11 @@ main[data-card] th.sort-ativo .sort-icon {
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px; margin: 0 0 18px;
 }
+/* Aviso de preços defasados/indisponíveis (raw.githubusercontent com 429). */
+.pan-aviso {
+  background: #fff4e8; border: 1px solid #EF6300; border-radius: 7px;
+  color: #a34400; font-size: 12.5px; padding: 9px 12px; margin: 0 0 14px;
+}
 .pan-btn-copiar {
   background: #EF6300; color: #fff; border: none; border-radius: 6px;
   padding: 7px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
