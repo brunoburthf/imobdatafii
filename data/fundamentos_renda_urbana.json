@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-14T13:52:10",
+  "atualizado_em": "2026-08-17T13:20:49",
   "setor": "Tijolo Multissetorial",
   "rotulo": "Renda Urbana",
   "fontes": {
@@ -8,12 +8,12 @@
     "ltv_historico": "LTV mensal por fundo ponderado pelo peso IFIX (pesos_ifix_historico, forward-fill). Constituentes atuais tracados pra tras.",
     "vacancia_historico": "Vacancia fisica por imovel (CVM informe trimestral, Percentual_Vacancia) ponderada por area dentro do fundo e pelo peso IFIX entre fundos (current-constituents)."
   },
-  "data_ref_ltv": "2026-06-01",
+  "data_ref_ltv": "2026-07-01",
   "agregado": {
     "vacancia_media": 0.020235,
-    "vacancia_ponderada_ifix": 0.029067,
-    "ltv_ponderado_valor": 0.227042,
-    "ltv_ponderado_ifix": 0.211586,
+    "vacancia_ponderada_ifix": 0.025703,
+    "ltv_ponderado_valor": 0.225775,
+    "ltv_ponderado_ifix": 0.21155,
     "n_fundos": 11
   },
   "fundos": [
@@ -25,10 +25,10 @@
       "retorno_12m": 0.16249,
       "vacancia": 0.000908,
       "n_imoveis": 19,
-      "ltv": 0.06506,
+      "ltv": 0.064751,
       "divida_aquisicao": 0.0,
-      "divida_securitizacao": 274496539.33,
-      "valor_imoveis": 4219119866.67
+      "divida_securitizacao": 273252230.24,
+      "valor_imoveis": 4220073197.75
     },
     {
       "ticker": "HGRU11",
@@ -38,10 +38,10 @@
       "retorno_12m": 0.126265,
       "vacancia": 0.008122,
       "n_imoveis": 100,
-      "ltv": 0.105715,
-      "divida_aquisicao": 90676066.27,
-      "divida_securitizacao": 204941331.51,
-      "valor_imoveis": 2796375067.13
+      "ltv": 0.099695,
+      "divida_aquisicao": 90750638.92,
+      "divida_securitizacao": 203061507.66,
+      "valor_imoveis": 2947095882.52
     },
     {
       "ticker": "TRXF11",
@@ -64,10 +64,10 @@
       "retorno_12m": 0.118568,
       "vacancia": 0.118825,
       "n_imoveis": 20,
-      "ltv": 0.288865,
+      "ltv": 0.285713,
       "divida_aquisicao": 31632000.0,
-      "divida_securitizacao": 341520415.64,
-      "valor_imoveis": 1291788554.99
+      "divida_securitizacao": 339899734.96,
+      "valor_imoveis": 1300365552.06
     },
     {
       "ticker": "TVRI11",
@@ -77,10 +77,10 @@
       "retorno_12m": 0.141659,
       "vacancia": null,
       "n_imoveis": 0,
-      "ltv": 0.005125,
-      "divida_aquisicao": 7466344.94,
+      "ltv": 0.005118,
+      "divida_aquisicao": 7461515.27,
       "divida_securitizacao": 0.0,
-      "valor_imoveis": 1456950275.0
+      "valor_imoveis": 1457908726.93
     },
     {
       "ticker": "RBVA11",
@@ -90,10 +90,10 @@
       "retorno_12m": 0.238683,
       "vacancia": 0.059707,
       "n_imoveis": 73,
-      "ltv": 0.122458,
+      "ltv": 0.120778,
       "divida_aquisicao": 1066755.86,
-      "divida_securitizacao": 211393715.23,
-      "valor_imoveis": 1734970657.47
+      "divida_securitizacao": 208395225.0,
+      "valor_imoveis": 1734272234.03
     },
     {
       "ticker": "GARE11",
@@ -103,9 +103,9 @@
       "retorno_12m": 0.043579,
       "vacancia": 0.0,
       "n_imoveis": 3,
-      "ltv": 0.09991,
+      "ltv": 0.094253,
       "divida_aquisicao": 0.0,
-      "divida_securitizacao": 42871331.81,
+      "divida_securitizacao": 40443910.12,
       "valor_imoveis": 429100000.0
     },
     {
@@ -119,7 +119,7 @@
       "ltv": 0.0,
       "divida_aquisicao": 0.0,
       "divida_securitizacao": 0.0,
-      "valor_imoveis": 406492791.79
+      "valor_imoveis": 403195991.79
     },
     {
       "ticker": "RZAT11",
@@ -129,10 +129,10 @@
       "retorno_12m": 0.196836,
       "vacancia": 0.0,
       "n_imoveis": 9,
-      "ltv": 0.100691,
-      "divida_aquisicao": 21000000.0,
+      "ltv": 0.2054,
+      "divida_aquisicao": 49000000.0,
       "divida_securitizacao": 0.0,
-      "valor_imoveis": 208558600.0
+      "valor_imoveis": 238558600.0
     },
     {
       "ticker": "VIUR11",
@@ -155,10 +155,10 @@
       "retorno_12m": 0.12727,
       "vacancia": 0.014791,
       "n_imoveis": 12,
-      "ltv": 0.017978,
+      "ltv": 0.017962,
       "divida_aquisicao": 15184989.3,
       "divida_securitizacao": 0.0,
-      "valor_imoveis": 844638656.2
+      "valor_imoveis": 845388059.75
     }
   ],
   "ltv_historico_ifix": [
@@ -557,6 +557,12 @@
       "ltv_ifix": 0.211586,
       "ltv_simples": 0.137887,
       "n_fundos": 10
+    },
+    {
+      "mes": "2026-07",
+      "ltv_ifix": 0.21155,
+      "ltv_simples": 0.146675,
+      "n_fundos": 10
     }
   ],
   "vacancia_historico_ifix": [
@@ -688,9 +694,9 @@
     },
     {
       "trimestre": "2026-Q2",
-      "vac_ifix": 0.029067,
-      "vac_simples": 0.029067,
-      "n_fundos": 1
+      "vac_ifix": 0.025703,
+      "vac_simples": 0.101072,
+      "n_fundos": 11
     }
   ]
 }
