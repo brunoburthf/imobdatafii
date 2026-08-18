@@ -1,7 +1,7 @@
 {
   "ticker": "AJFI11",
-  "ultima_atualizacao": "2026-08-03T11:11:08",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-18T02:08:21",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2023-12-07",
@@ -193,6 +193,12 @@
       "data_com": "2026-07-14",
       "data_pagamento": "2026-07-21",
       "valor": 0.055,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-14",
+      "data_pagamento": "2026-08-21",
+      "valor": 0.058,
       "tipo": "Rendimento"
     }
   ]

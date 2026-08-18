@@ -1,7 +1,7 @@
 {
   "ticker": "RZAT11",
-  "ultima_atualizacao": "2026-08-03T11:10:19",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-18T02:08:21",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2019-08-06",
@@ -493,6 +493,12 @@
       "data_com": "2026-07-14",
       "data_pagamento": "2026-07-21",
       "valor": 1.7,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-14",
+      "data_pagamento": "2026-08-21",
+      "valor": 1.05,
       "tipo": "Rendimento"
     }
   ]

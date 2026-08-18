@@ -1,7 +1,7 @@
 {
   "ticker": "RBRX11",
-  "ultima_atualizacao": "2026-08-03T11:09:19",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-18T02:08:21",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2022-06-15",
@@ -300,6 +300,12 @@
     {
       "data_com": "2026-07-14",
       "data_pagamento": "2026-07-22",
+      "valor": 0.09,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-14",
+      "data_pagamento": "2026-08-24",
       "valor": 0.09,
       "tipo": "Rendimento"
     }

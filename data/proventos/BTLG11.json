@@ -1,7 +1,7 @@
 {
   "ticker": "BTLG11",
-  "ultima_atualizacao": "2026-08-03T11:08:27",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-18T02:08:21",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2016-06-15",
@@ -732,6 +732,12 @@
     {
       "data_com": "2026-07-15",
       "data_pagamento": "2026-07-24",
+      "valor": 0.81,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-14",
+      "data_pagamento": "2026-08-25",
       "valor": 0.81,
       "tipo": "Rendimento"
     }
