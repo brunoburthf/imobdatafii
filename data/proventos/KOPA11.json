@@ -1,7 +1,7 @@
 {
   "ticker": "KOPA11",
-  "ultima_atualizacao": "2026-08-03T11:12:20",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-19T02:10:33",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2024-01-15",
@@ -96,12 +96,18 @@
     {
       "data_com": "2025-04-15",
       "data_pagamento": "2025-04-24",
-      "valor": 13.0,
-      "tipo": "Rendimento"
+      "valor": 19.73,
+      "tipo": "Amortização"
     },
     {
       "data_com": "2025-04-15",
       "data_pagamento": "2025-04-24",
+      "valor": 13.0,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2025-05-15",
+      "data_pagamento": "2025-05-22",
       "valor": 19.73,
       "tipo": "Amortização"
     },
@@ -112,8 +118,8 @@
       "tipo": "Rendimento"
     },
     {
-      "data_com": "2025-05-15",
-      "data_pagamento": "2025-05-22",
+      "data_com": "2025-06-16",
+      "data_pagamento": "2025-06-24",
       "valor": 19.73,
       "tipo": "Amortização"
     },
@@ -124,8 +130,8 @@
       "tipo": "Rendimento"
     },
     {
-      "data_com": "2025-06-16",
-      "data_pagamento": "2025-06-24",
+      "data_com": "2025-07-15",
+      "data_pagamento": "2025-07-22",
       "valor": 19.73,
       "tipo": "Amortização"
     },
@@ -136,9 +142,9 @@
       "tipo": "Rendimento"
     },
     {
-      "data_com": "2025-07-15",
-      "data_pagamento": "2025-07-22",
-      "valor": 19.73,
+      "data_com": "2025-08-15",
+      "data_pagamento": "2025-08-22",
+      "valor": 40.0,
       "tipo": "Amortização"
     },
     {
@@ -148,8 +154,8 @@
       "tipo": "Rendimento"
     },
     {
-      "data_com": "2025-08-15",
-      "data_pagamento": "2025-08-22",
+      "data_com": "2025-09-15",
+      "data_pagamento": "2025-09-22",
       "valor": 40.0,
       "tipo": "Amortização"
     },
@@ -158,12 +164,6 @@
       "data_pagamento": "2025-09-22",
       "valor": 6.0,
       "tipo": "Rendimento"
-    },
-    {
-      "data_com": "2025-09-15",
-      "data_pagamento": "2025-09-22",
-      "valor": 40.0,
-      "tipo": "Amortização"
     },
     {
       "data_com": "2025-10-15",
@@ -180,18 +180,12 @@
     {
       "data_com": "2025-11-17",
       "data_pagamento": "2025-11-25",
-      "valor": 12.0,
-      "tipo": "Rendimento"
-    },
-    {
-      "data_com": "2025-11-17",
-      "data_pagamento": "2025-11-25",
       "valor": 35.0,
       "tipo": "Amortização"
     },
     {
-      "data_com": "2025-12-15",
-      "data_pagamento": "2025-12-22",
+      "data_com": "2025-11-17",
+      "data_pagamento": "2025-11-25",
       "valor": 12.0,
       "tipo": "Rendimento"
     },
@@ -202,9 +196,9 @@
       "tipo": "Amortização"
     },
     {
-      "data_com": "2026-01-15",
-      "data_pagamento": "2026-01-22",
-      "valor": 9.0,
+      "data_com": "2025-12-15",
+      "data_pagamento": "2025-12-22",
+      "valor": 12.0,
       "tipo": "Rendimento"
     },
     {
@@ -214,9 +208,9 @@
       "tipo": "Amortização"
     },
     {
-      "data_com": "2026-02-18",
-      "data_pagamento": "2026-02-25",
-      "valor": 9.5,
+      "data_com": "2026-01-15",
+      "data_pagamento": "2026-01-22",
+      "valor": 9.0,
       "tipo": "Rendimento"
     },
     {
@@ -224,6 +218,12 @@
       "data_pagamento": "2026-02-25",
       "valor": 15.0,
       "tipo": "Amortização"
+    },
+    {
+      "data_com": "2026-02-18",
+      "data_pagamento": "2026-02-25",
+      "valor": 9.5,
+      "tipo": "Rendimento"
     },
     {
       "data_com": "2026-03-16",
@@ -240,19 +240,13 @@
     {
       "data_com": "2026-04-15",
       "data_pagamento": "2026-04-23",
-      "valor": 10.5,
-      "tipo": "Rendimento"
-    },
-    {
-      "data_com": "2026-04-15",
-      "data_pagamento": "2026-04-23",
       "valor": 50.0,
       "tipo": "Amortização"
     },
     {
-      "data_com": "2026-05-15",
-      "data_pagamento": "2026-05-22",
-      "valor": 8.0,
+      "data_com": "2026-04-15",
+      "data_pagamento": "2026-04-23",
+      "valor": 10.5,
       "tipo": "Rendimento"
     },
     {
@@ -262,9 +256,9 @@
       "tipo": "Amortização"
     },
     {
-      "data_com": "2026-06-15",
-      "data_pagamento": "2026-06-22",
-      "valor": 10.0,
+      "data_com": "2026-05-15",
+      "data_pagamento": "2026-05-22",
+      "valor": 8.0,
       "tipo": "Rendimento"
     },
     {
@@ -274,9 +268,9 @@
       "tipo": "Amortização"
     },
     {
-      "data_com": "2026-07-15",
-      "data_pagamento": "2026-07-22",
-      "valor": 5.15,
+      "data_com": "2026-06-15",
+      "data_pagamento": "2026-06-22",
+      "valor": 10.0,
       "tipo": "Rendimento"
     },
     {
@@ -284,6 +278,24 @@
       "data_pagamento": "2026-07-22",
       "valor": 40.0,
       "tipo": "Amortização"
+    },
+    {
+      "data_com": "2026-07-15",
+      "data_pagamento": "2026-07-22",
+      "valor": 5.15,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-17",
+      "data_pagamento": "2026-08-24",
+      "valor": 20.0,
+      "tipo": "Amortização"
+    },
+    {
+      "data_com": "2026-08-17",
+      "data_pagamento": "2026-08-24",
+      "valor": 4.0,
+      "tipo": "Rendimento"
     }
   ]
 }
