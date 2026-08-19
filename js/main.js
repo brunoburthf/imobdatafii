@@ -1,6 +1,10 @@
 let todosFiis = [];
 let colunaOrdem = null;
 let ordemAsc = true;
+// Última lista desenhada — é o que o botão de Excel exporta, pra planilha
+// sair igual à tela (busca + filtros + ordenação aplicados).
+let _listaVisivel = [];
+let _colunasVisiveis = [];
 
 const COLUNAS_NUMERICAS = ["Preço Atual", "VP/cota", "Variação Dia", "P/VP", "DY a.a.", "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"];
 // Cache-bust por minuto: novo URL a cada chamada de fetchPrecosLive (resolvido
@@ -215,6 +219,8 @@ function renderizarTabela(lista) {
     "Preço Atual", "VP/cota", "Variação Dia", "P/VP", "DY a.a.",
     "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"
   ];
+  _listaVisivel = lista;
+  _colunasVisiveis = colunas;
 
   lista.forEach(fii => {
     const tr = document.createElement("tr");
@@ -241,6 +247,17 @@ function renderizarTabela(lista) {
   });
 
   document.getElementById("contagem-fiis").textContent = lista.length + " FIIs exibidos";
+}
+
+function baixarExcel(btn) {
+  baixarTabelaExcel({
+    btn,
+    titulo: "ImobData — Fundos Imobiliários",
+    aba: "FIIs",
+    colunas: _colunasVisiveis,
+    linhas: _listaVisivel,
+    arquivo: "fiis",
+  });
 }
 
 // Modal de atualização

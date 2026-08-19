@@ -1,6 +1,10 @@
 let fundos = [];
 let colunaOrdem = null;
 let ordemAsc = true;
+// Última lista desenhada — é o que o botão de Excel exporta, pra planilha
+// sair igual à tela (busca + filtros + ordenação aplicados).
+let _listaVisivel = [];
+let _colunasVisiveis = [];
 
 const COLUNAS_NUMERICAS = ["Preço Atual", "VP/cota", "Variação Dia", "P/VP", "DY a.a.", "Retorno - MTD", "Retorno - 12M", "Último Dividendo Pago"];
 
@@ -182,6 +186,8 @@ function renderizarTabela(lista) {
   tbody.innerHTML = "";
 
   const colunas = ["Ticker","Nome","Preço Atual","VP/cota","Variação Dia","P/VP","DY a.a.","Retorno - MTD","Retorno - 12M","Último Dividendo Pago"];
+  _listaVisivel = lista;
+  _colunasVisiveis = colunas;
 
   lista.forEach(f => {
     const tr = document.createElement("tr");
@@ -201,6 +207,17 @@ function renderizarTabela(lista) {
   });
 
   document.getElementById("contagem").textContent = lista.length + " fundos exibidos";
+}
+
+function baixarExcel(btn) {
+  baixarTabelaExcel({
+    btn,
+    titulo: "ImobData — FI-Agros",
+    aba: "Fiagros",
+    colunas: _colunasVisiveis,
+    linhas: _listaVisivel,
+    arquivo: "fiagros",
+  });
 }
 
 carregarDados();

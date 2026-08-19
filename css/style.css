@@ -782,6 +782,23 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   border-color: var(--azul-escuro);
 }
 
+/* Baixar em Excel — mesma pílula do filtro avançado, sem o margin-left:auto
+   (quem empurra o par pra direita é o botão de filtro, que vem antes). */
+#btn-excel {
+  background: var(--branco);
+  color: var(--azul-escuro);
+  border: 1px solid var(--cinza-borda);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+#btn-excel:hover:not(:disabled) { background: #f0f2f5; }
+#btn-excel:disabled { opacity: .7; cursor: default; }
+
 .filtro-av-card {
   background: var(--branco);
   border-radius: 10px;
@@ -4111,6 +4128,7 @@ main[data-tipo="acompanhamento"] .modo-sim-only { display: none !important; }
   .toolbar input { width: 100%; }
   .toolbar select { width: 100%; min-width: 0; }
   #btn-filtro-avancado { width: 100%; text-align: center; margin-left: 0; }
+  #btn-excel { width: 100%; text-align: center; }
 
   /* Filtro avançado: empilha vertical */
   .filtro-av-card {

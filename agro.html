@@ -36,6 +36,9 @@
       <button id="btn-filtro-avancado" onclick="toggleFiltroAvancado()" title="Abrir filtros avançados">
         &#x2261; Filtro Avançado
       </button>
+      <button id="btn-excel" onclick="baixarExcel(this)" title="Baixar a tabela em Excel (.xlsx), como está na tela">
+        &#x2913; Excel
+      </button>
     </div>
 
     <div id="loading" class="loading">Carregando dados...</div>
@@ -89,7 +92,8 @@
     </div>
   </main>
 
-  <script src="js/agro.js?v=2"></script>
+  <script src="js/exportar_tabela.js?v=1"></script>
+  <script src="js/agro.js?v=3"></script>
   <script src="js/local.js"></script>
 </body>
 </html>
