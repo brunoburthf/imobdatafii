@@ -4829,30 +4829,6 @@ main[data-card] th.sort-ativo .sort-icon {
 .panorama { max-width: 1180px; margin: 0 auto; padding: 22px 22px 60px; background: #fff; }
 .panorama-meta { color: var(--texto-suave); font-size: 12.5px; margin: 0; }
 
-/* ── Cabeçalho ImobNews (imagem separada, copiável) ── */
-.pan-cab-bloco { display: flex; align-items: center; gap: 12px; margin: 0 0 16px; }
-.pan-cab {
-  position: relative; width: 75%; height: 64px; box-sizing: border-box;
-  background: #EF6300; border: 3px solid #EF6300; border-radius: 11px;
-  overflow: hidden; display: flex; align-items: center; justify-content: flex-end;
-}
-/* Divisão branco→laranja em diagonal desenhada como SVG (polígono vetorial):
-   aresta lisa em qualquer escala e capturada com antialiasing pelo html2canvas.
-   (clip-path não era capturado; gradient de corte duro serrilhava.) */
-.pan-cab-svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
-.pan-cab-logo {
-  position: absolute; left: 0; top: 0; bottom: 0; width: 27%;
-  display: flex; align-items: center; justify-content: center;  /* centraliza na área branca */
-  z-index: 2; color: #1c2b3a; line-height: 1;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  /* grotesca como a imagem */
-  font-weight: 400; font-size: 26px; letter-spacing: -.5px;
-}
-.pan-cab-logo strong { font-weight: 800; }
-.pan-cab-data {
-  position: relative; z-index: 2; color: #fff; font-weight: 700;
-  font-size: 21px; padding-right: 34px; letter-spacing: .5px; white-space: nowrap;
-}
-@media (max-width: 900px) { .pan-cab { width: 100%; } }
 .panorama-topbar {
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px; margin: 0 0 18px;
@@ -4870,13 +4846,12 @@ main[data-card] th.sort-ativo .sort-icon {
 .pan-btn-copiar:hover:not(:disabled) { background: #ff7d1a; }
 .pan-btn-copiar:disabled { opacity: .8; cursor: default; }
 
-/* Moldura decorativa POR card: retângulo bem arredondado laranja em volta de
-   todo o bloco — o TÍTULO fica dentro da moldura, junto com a tabela. */
+/* Sem moldura: cada card é só o título + a tabela, separados por espaço.
+   O padding lateral vira 0 pra tabela encostar na margem da área copiada. */
 .pan-card {
   background: #fff;
-  border: 3px solid #EF6300; border-radius: 54px;
-  padding: 14px 18px 16px;
-  margin-bottom: 14px;
+  padding: 0;
+  margin-bottom: 22px;
 }
 /* Blocos de cima ocupam ~60% à esquerda (como no slide-fonte). */
 /* A área das tabelas (alvo do "Copiar imagem") ocupa ~60% à esquerda; o padding
@@ -4923,7 +4898,7 @@ main[data-card] th.sort-ativo .sort-icon {
 .pan-vazio { text-align: center; color: var(--texto-suave); padding: 12px; }
 .pan-nota { color: #EF6300; font-size: 10.5px; font-style: italic; margin: 5px 0 0; }
 
-/* Maiores variações: 2 colunas; cada bloco = moldura laranja com barra-título laranja.
+/* Maiores variações: 2 colunas, cada bloco com barra-título laranja.
    max-width 60% = mesma largura dos blocos de cima (.pan-top) → tudo alinhado. */
 .pan-grid-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 @media (max-width: 760px) { .pan-grid-movers { grid-template-columns: 1fr; } }

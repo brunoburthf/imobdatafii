@@ -30,7 +30,9 @@ const v = () => "?v=" + Math.floor(Date.now() / 60000);
 // Estado carregado (fontes que não mudam por ticker ficam em cache de módulo).
 let _prices = null, _indexFiis = null, _infraIndex = null, _setoresRet = null,
     _setoresTab = null, _ifix = null, _classifInfra = null;
+let _exHoje = {};        // ticker -> R$/cota que saiu da cota hoje (ex-provento)
 const _serieCache = {};  // ticker -> serie ajustada (retorno total)
+const _nominalCache = {};  // ticker -> serie nominal (p/ detectar cotação parada)
 
 // ── Helpers de cálculo ────────────────────────────────────────────────────
 
@@ -54,6 +56,58 @@ function varSerie(serie, modo) {
   }
   if (!ref || !ref[1]) return null;
   return (lastPx / ref[1] - 1) * 100;
+}
+
+// ── Ajuste ex-provento da variação do dia ──────────────────────────────────
+// Um FII fica "ex" no pregão seguinte à data_com: a cota abre valendo o
+// provento a menos, sem que nada tenha acontecido com o fundo. A variação do
+// prices.json é nominal e não sabe disso, então num dia de pagamento o fundo
+// aparece como "maior baixa" sem ter caído. Caso real: KOPA11 em 18/08/2026
+// marcou -13,37%, mas R$ 24,00 dos R$ 34,75 eram amortização + rendimento —
+// queda real de -4,14%. No fim do mês ~86 fundos ficam ex no mesmo dia, o que
+// contamina a tabela inteira (e ela é copiada como imagem pra publicação).
+//
+// Fonte: data/noticias.json → dividendos (janela de 30d, cobertura conferida
+// contra data/proventos/ em 19/08/2026: 100% dos data_com, e mais fresca).
+
+// Último pregão ANTERIOR ao dia dos preços: é o data_com que deixa a cota ex
+// hoje. Usa a série do IFIX, que já está carregada e é o calendário de pregão.
+function pregaoAnterior(isoHoje) {
+  for (let i = _ifix.length - 1; i >= 0; i--) {
+    if (_ifix[i][0] < isoHoje) return _ifix[i][0];
+  }
+  return null;
+}
+
+// "18/08/2026 21:14 UTC" → "2026-08-18"
+function isoDoCarimbo(carimbo) {
+  const m = /^(\d{2})\/(\d{2})\/(\d{4})/.exec(carimbo || "");
+  return m ? `${m[3]}-${m[2]}-${m[1]}` : null;
+}
+
+function montarExHoje(noticias) {
+  const hoje = isoDoCarimbo(_prices.atualizado_em);
+  if (!hoje || !_ifix.length) return {};
+  const dataCom = pregaoAnterior(hoje);
+  if (!dataCom) return {};
+  const mapa = {};
+  (noticias.dividendos || []).forEach(d => {
+    if (d.data_com === dataCom && d.ticker && d.valor > 0) {
+      mapa[d.ticker] = (mapa[d.ticker] || 0) + d.valor;  // amortização + rendimento
+    }
+  });
+  return mapa;
+}
+
+// Variação do dia com o provento devolvido à cota (retorno total do dia).
+function varDiaTotal(ticker) {
+  const pct = _prices.variacoes?.[ticker];
+  if (pct == null || !isFinite(pct)) return null;
+  const prov = _exHoje[ticker];
+  const px = _prices.precos?.[ticker];
+  if (!prov || !px || pct <= -100) return pct;
+  const anterior = px / (1 + pct / 100);   // fechamento do pregão anterior
+  return anterior ? ((px + prov) / anterior - 1) * 100 : pct;
 }
 
 function isoMenosAno(iso) {
@@ -100,7 +154,7 @@ function avisarOrigemPrecos(res) {
 }
 
 async function carregarBase() {
-  const [precosRes, idx, infra, setRet, setTab, ifix, classif] = await Promise.all([
+  const [precosRes, idx, infra, setRet, setTab, ifix, classif, noticias] = await Promise.all([
     carregarPrecos(),
     getJSON("data/index.json" + v()),
     getJSON("data/infra_index.json" + v()).catch(() => ({ fiis: [] })),
@@ -108,6 +162,7 @@ async function carregarBase() {
     getJSON("data/setores.json" + v()).catch(() => ({ tabela: [] })),
     getJSON("data/ifix.json" + v()),
     getJSON("data/classificacao_infra.json" + v()).catch(() => []),
+    getJSON("data/noticias.json" + v()).catch(() => ({ dividendos: [] })),
   ]);
   _prices = precosRes.dados;
   _indexFiis = idx.fiis || [];
@@ -116,6 +171,7 @@ async function carregarBase() {
   _setoresTab = setTab.tabela || [];
   _ifix = ifix.historico || [];
   _classifInfra = Array.isArray(classif) ? classif : [];
+  _exHoje = montarExHoje(noticias);
 
   // carimbo de atualização (usa a fonte de preço, mais fresca)
   const el = document.getElementById("panorama-atualizado");
@@ -133,6 +189,47 @@ async function getSerieAjustada(ticker) {
     _serieCache[ticker] = null;
   }
   return _serieCache[ticker];
+}
+
+// ── Cotação parada (fundo não negociou hoje) ───────────────────────────────
+// O atualizar_precos.py compara os dois últimos fechamentos que o Yahoo
+// devolve. Se o fundo não negociou hoje, esses dois são ontem e anteontem —
+// e a variação de ONTEM é publicada como "do dia". Num FII ilíquido logo
+// depois de uma amortização isso vira um -13% fantasma no ranking.
+//
+// Detecção: se o preço do prices.json é exatamente o último fechamento da v2,
+// não houve negócio novo. Cotação viva praticamente nunca bate centavo a
+// centavo com o fechamento anterior — e se bater, a variação é ~0 e o fundo
+// não estaria no ranking de qualquer forma.
+async function getSerieNominal(ticker) {
+  if (_nominalCache[ticker] !== undefined) return _nominalCache[ticker];
+  try {
+    const d = await getJSON(`data/historico_precos_v2/nominal/${ticker}.json` + v());
+    _nominalCache[ticker] = d.serie || null;
+  } catch (_) {
+    _nominalCache[ticker] = null;
+  }
+  return _nominalCache[ticker];
+}
+
+async function cotacaoParada(ticker) {
+  const serie = await getSerieNominal(ticker);
+  if (!serie || !serie.length) return false;  // sem base: não descarta
+  const px = _prices.precos?.[ticker];
+  if (px == null) return false;
+  return Math.abs(serie[serie.length - 1][1] - px) < 0.005;
+}
+
+// Percorre a lista já ordenada e devolve os n primeiros com cotação viva,
+// buscando a série só de quem é candidato a aparecer (evita 175 fetches).
+async function primeirosFrescos(lista, n) {
+  const out = [];
+  for (const x of lista) {
+    if (out.length >= n) break;
+    if (await cotacaoParada(x.t)) continue;
+    out.push(x);
+  }
+  return out;
 }
 
 // ── Render: helpers de célula ──────────────────────────────────────────────
@@ -178,7 +275,7 @@ async function renderOfertados() {
     const serie = await getSerieAjustada(t);
     const info = idxByTicker[t] || {};
     const preco = _prices.precos?.[t] ?? null;
-    const varDia = _prices.variacoes?.[t] ?? varSerie(serie, "dia");  // % (live > série)
+    const varDia = varDiaTotal(t) ?? varSerie(serie, "dia");  // % (live > série)
     const div = info["Último Dividendo Pago"] ?? null;
     // DY** = último dividendo anualizado (×12) sobre o preço atual
     const dy = (div != null && preco) ? (div * 12 / preco) : null;
@@ -278,20 +375,26 @@ function nomeCurto(ticker) {
   return f.Nome.length > 22 ? f.Nome.slice(0, 21) + "…" : f.Nome;
 }
 
-function renderMovers() {
+async function renderMovers() {
   const infraSet = new Set(_classifInfra.map(c => c.ticker));
   const vars = _prices.variacoes || {};
   const todos = Object.keys(vars)
-    .filter(t => vars[t] != null && isFinite(vars[t]))
-    .map(t => ({ t, pct: vars[t], infra: infraSet.has(t) }));
+    .map(t => ({ t, pct: varDiaTotal(t), infra: infraSet.has(t), ex: _exHoje[t] || 0 }))
+    .filter(x => x.pct != null && isFinite(x.pct));
 
   const fiis  = todos.filter(x => !x.infra).sort((a, b) => b.pct - a.pct);
   const infra = todos.filter(x =>  x.infra).sort((a, b) => b.pct - a.pct);
 
-  preencherMovers("pan-fii-altas",   fiis.slice(0, 5));
-  preencherMovers("pan-fii-baixas",  fiis.slice(-5).reverse());
-  preencherMovers("pan-infra-altas", infra.slice(0, 5));
-  preencherMovers("pan-infra-baixas", infra.slice(-5).reverse());
+  const [fa, fb, ia, ib] = await Promise.all([
+    primeirosFrescos(fiis, 5),
+    primeirosFrescos([...fiis].reverse(), 5),
+    primeirosFrescos(infra, 5),
+    primeirosFrescos([...infra].reverse(), 5),
+  ]);
+  preencherMovers("pan-fii-altas", fa);
+  preencherMovers("pan-fii-baixas", fb);
+  preencherMovers("pan-infra-altas", ia);
+  preencherMovers("pan-infra-baixas", ib);
 }
 
 function preencherMovers(id, lista) {
@@ -308,8 +411,12 @@ function preencherMovers(id, lista) {
     const w = Math.max(5, Math.round(Math.abs(x.pct) / maxAbs * 100));  // min 5% p/ visibilidade
     const corCls = pos ? "pan-pos" : "pan-neg";
     const barCls = pos ? "pan-bar-pos" : "pan-bar-neg";
+    // Marca o ajuste no tooltip pra dar pra auditar de onde veio o número.
+    const dica = x.ex
+      ? `${nomeCurto(x.t)} — ex R$ ${_vir(x.ex)}/cota hoje; variação já ajustada`
+      : nomeCurto(x.t);
     return `
-    <tr title="${nomeCurto(x.t)}">
+    <tr title="${dica}">
       <td class="pan-ticker">${x.t}</td>
       <td class="pan-bar-cell"><span class="pan-bar ${barCls}" style="width:${w}%"></span></td>
       <td class="num ${corCls}">${_vir(x.pct)}%</td>
@@ -364,27 +471,13 @@ async function _copiarComoImagem(alvoId, btnId, nomeArquivo) {
 function copiarImagemTabelas() {
   _copiarComoImagem("panorama-tabelas", "btn-copiar-imagem", "panorama_diario.png");
 }
-function copiarImagemCabecalho() {
-  _copiarComoImagem("panorama-cabecalho", "btn-copiar-cab", "cabecalho_imobnews.png");
-}
-
-// Data do cabeçalho no formato "25 jun 2026" (mês abreviado em pt-BR minúsculo).
-function renderCabecalhoData() {
-  const el = document.getElementById("pan-cab-data");
-  if (!el) return;
-  const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
-  const d = new Date();
-  el.textContent = `${String(d.getDate()).padStart(2,"0")} ${meses[d.getMonth()]} ${d.getFullYear()}`;
-}
-
 // ── Boot ────────────────────────────────────────────────────────────────────
 
 async function iniciarPanorama() {
   try {
-    renderCabecalhoData();
     await carregarBase();
     renderSetores();
-    renderMovers();
+    await renderMovers();
     await renderOfertados();
     document.getElementById("panorama-loading").style.display = "none";
     document.getElementById("panorama-conteudo").style.display = "block";
