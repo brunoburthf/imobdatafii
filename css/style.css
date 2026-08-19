@@ -4822,10 +4822,10 @@ main[data-card] th.sort-ativo .sort-icon {
 }
 .rm-setorial-scroll { max-height: 320px; }
 
-/* ── Panorama Diário (aba interna) — réplica fiel do painel ──
-   Cabeçalho LARANJA + letras brancas; corpo BRANCO + letras laranjas;
-   moldura laranja arredondada em volta de cada tabela. SEM azul.
-   Laranja da marca: #EF6300. */
+/* ── Panorama Diário (aba interna) ──
+   Cabeçalho da tabela LARANJA + letras brancas; corpo BRANCO + letras PRETAS,
+   com verde/vermelho reservados aos números de variação. Sem moldura nos
+   cards e sem azul. Laranja da marca: #FF6200 = rgb(255, 98, 0). */
 .panorama { max-width: 1180px; margin: 0 auto; padding: 22px 22px 60px; background: #fff; }
 .panorama-meta { color: var(--texto-suave); font-size: 12.5px; margin: 0; }
 
@@ -4835,11 +4835,11 @@ main[data-card] th.sort-ativo .sort-icon {
 }
 /* Aviso de preços defasados/indisponíveis (raw.githubusercontent com 429). */
 .pan-aviso {
-  background: #fff4e8; border: 1px solid #EF6300; border-radius: 7px;
+  background: #fff4e8; border: 1px solid #FF6200; border-radius: 7px;
   color: #a34400; font-size: 12.5px; padding: 9px 12px; margin: 0 0 14px;
 }
 .pan-btn-copiar {
-  background: #EF6300; color: #fff; border: none; border-radius: 6px;
+  background: #FF6200; color: #fff; border: none; border-radius: 6px;
   padding: 7px 14px; font-size: 13px; font-weight: 600; cursor: pointer;
   white-space: nowrap; flex-shrink: 0;
 }
@@ -4868,7 +4868,7 @@ main[data-card] th.sort-ativo .sort-icon {
   gap: 12px; margin-bottom: 6px;
 }
 .pan-card-header h2 {
-  color: #EF6300; font-size: 15px; font-weight: 700; margin: 0;
+  color: #FF6200; font-size: 15px; font-weight: 700; margin: 0;
 }
 
 /* Tabela interna sem borda (a moldura está no .pan-card). Só rolagem no mobile. */
@@ -4879,31 +4879,33 @@ main[data-card] th.sort-ativo .sort-icon {
 }
 /* Cabeçalho laranja, letras brancas */
 .pan-tabela thead th {
-  background: #EF6300; color: #fff; text-align: left; font-weight: 600;
+  background: #FF6200; color: #fff; text-align: left; font-weight: 600;
   padding: 3px 10px; white-space: nowrap;
 }
 .pan-tabela th.num, .pan-tabela td.num { text-align: right; }
-/* Corpo branco, letras laranjas, separador horizontal laranja entre linhas */
+/* Corpo branco, letras PRETAS, separador horizontal laranja entre linhas.
+   Só o cabeçalho (branco no laranja) e os números de variação (verde/vermelho)
+   fogem do preto — o laranja no texto corrido competia com esses destaques. */
 .pan-tabela tbody td {
-  padding: 2px 10px; white-space: nowrap; background: #fff; color: #EF6300;
-  border-bottom: 1px solid #EF6300;
+  padding: 2px 10px; white-space: nowrap; background: #fff; color: #111;
+  border-bottom: 1px solid #FF6200;
 }
 .pan-tabela tbody tr:last-child td { border-bottom: none; }
-/* Variações %: positivas verde, negativas vermelho-laranja (vence o laranja do corpo), em negrito */
-.pan-tabela tbody td.pan-pos { color: rgb(166, 207, 46); font-weight: 700; }
+/* Variações %: positivas verde vivo, negativas vermelho (vencem o preto do corpo), em negrito */
+.pan-tabela tbody td.pan-pos { color: rgb(0, 176, 80); font-weight: 700; }
 .pan-tabela tbody td.pan-neg { color: rgb(236, 12, 0); font-weight: 700; }
-.pan-ticker { font-weight: 700; color: #EF6300; }
-.pan-nome { color: #EF6300; max-width: 160px; overflow: hidden; text-overflow: ellipsis; }
+.pan-ticker { font-weight: 700; color: #111; }
+.pan-nome { color: #111; max-width: 160px; overflow: hidden; text-overflow: ellipsis; }
 .pan-linha-indice td { font-weight: 700; }
 .pan-vazio { text-align: center; color: var(--texto-suave); padding: 12px; }
-.pan-nota { color: #EF6300; font-size: 10.5px; font-style: italic; margin: 5px 0 0; }
+.pan-nota { color: #FF6200; font-size: 10.5px; font-style: italic; margin: 5px 0 0; }
 
 /* Maiores variações: 2 colunas, cada bloco com barra-título laranja.
    max-width 60% = mesma largura dos blocos de cima (.pan-top) → tudo alinhado. */
 .pan-grid-movers { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
 @media (max-width: 760px) { .pan-grid-movers { grid-template-columns: 1fr; } }
 .pan-sub {
-  background: #EF6300; color: #fff; text-align: center;
+  background: #FF6200; color: #fff; text-align: center;
   font-size: 11.5px; font-weight: 700; padding: 5px;
 }
 .pan-tabela-movers thead { display: none; }
@@ -4912,13 +4914,13 @@ main[data-card] th.sort-ativo .sort-icon {
 .pan-bar {
   display: block; height: 11px; min-width: 4px; border-radius: 3px;
 }
-.pan-bar-pos { background: rgb(166, 207, 46); }
+.pan-bar-pos { background: rgb(0, 176, 80); }
 .pan-bar-neg { background: rgb(236, 12, 0); }
 .pan-tabela-movers td { vertical-align: middle; }
 
 /* Editor de fundos ofertados */
 .pan-btn-editar, .pan-editor-controles button {
-  background: #EF6300; color: #fff; border: none; border-radius: 4px;
+  background: #FF6200; color: #fff; border: none; border-radius: 4px;
   padding: 5px 11px; font-size: 12px; font-weight: 600; cursor: pointer;
 }
 .pan-btn-editar:hover, .pan-editor-controles button:hover { background: #ff7d1a; }
@@ -4934,7 +4936,7 @@ main[data-card] th.sort-ativo .sort-icon {
 .pan-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
 .pan-chip {
   display: inline-flex; align-items: center; gap: 5px;
-  background: #EF6300; color: #fff;
+  background: #FF6200; color: #fff;
   border-radius: 12px; padding: 2px 6px 2px 9px; font-size: 11.5px; font-weight: 600;
 }
 .pan-chip button {
