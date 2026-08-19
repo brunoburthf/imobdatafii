@@ -4867,8 +4867,9 @@ main[data-card] th.sort-ativo .sort-icon {
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px; margin-bottom: 6px;
 }
+/* Título do bloco (acima do cabeçalho laranja da tabela): preto. */
 .pan-card-header h2 {
-  color: #FF6200; font-size: 15px; font-weight: 700; margin: 0;
+  color: #111; font-size: 15px; font-weight: 700; margin: 0;
 }
 
 /* Tabela interna sem borda (a moldura está no .pan-card). Só rolagem no mobile. */
