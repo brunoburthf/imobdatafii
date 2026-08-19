@@ -1,8 +1,18 @@
 {
-  "atualizado_em": "18/08/2026 04:24",
+  "atualizado_em": "19/08/2026 04:26",
   "fonte": "fnet (B3) — Oferta Pública de Distribuição de Cotas",
   "janela_dias": 90,
   "anuncios": [
+    {
+      "ticker": "HGLG11",
+      "nome_pregao": "FII HGLG PAX",
+      "tipo": "Inicio",
+      "tipo_completo": "Anúncio de Início",
+      "data_anuncio": "2026-08-18T08:59:00",
+      "fnet_id": 1295655,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1295655"
+    },
     {
       "ticker": "MCRE11",
       "nome_pregao": "FII MAUA RE",
@@ -242,16 +252,6 @@
       "fnet_id": 1201802,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1201802"
-    },
-    {
-      "ticker": "ALZR11",
-      "nome_pregao": "FII ALIANZA",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-05-20T09:18:00",
-      "fnet_id": 1199717,
-      "fnet_versao": 3,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1199717"
     }
   ]
 }
