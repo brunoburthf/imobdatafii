@@ -4883,12 +4883,12 @@ main[data-card] th.sort-ativo .sort-icon {
   padding: 3px 10px; white-space: nowrap;
 }
 .pan-tabela th.num, .pan-tabela td.num { text-align: right; }
-/* Corpo branco, letras PRETAS, separador horizontal laranja entre linhas.
-   Só o cabeçalho (branco no laranja) e os números de variação (verde/vermelho)
-   fogem do preto — o laranja no texto corrido competia com esses destaques. */
+/* Corpo branco, letras e separador PRETOS. Só o cabeçalho (branco no laranja)
+   e os números de variação (verde/vermelho) fogem do preto — o laranja no
+   texto corrido e nas divisórias competia com esses destaques. */
 .pan-tabela tbody td {
   padding: 2px 10px; white-space: nowrap; background: #fff; color: #111;
-  border-bottom: 1px solid #FF6200;
+  border-bottom: 1px solid #111;
 }
 .pan-tabela tbody tr:last-child td { border-bottom: none; }
 /* Variações %: positivas verde vivo, negativas vermelho (vencem o preto do corpo), em negrito */
