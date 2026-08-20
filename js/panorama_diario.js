@@ -191,16 +191,23 @@ async function getSerieAjustada(ticker) {
   return _serieCache[ticker];
 }
 
-// ── Cotação parada (fundo não negociou hoje) ───────────────────────────────
+// ── Cotação parada (fundo não negociou no pregão em curso) ─────────────────
 // O atualizar_precos.py compara os dois últimos fechamentos que o Yahoo
 // devolve. Se o fundo não negociou hoje, esses dois são ontem e anteontem —
 // e a variação de ONTEM é publicada como "do dia". Num FII ilíquido logo
 // depois de uma amortização isso vira um -13% fantasma no ranking.
 //
-// Detecção: se o preço do prices.json é exatamente o último fechamento da v2,
-// não houve negócio novo. Cotação viva praticamente nunca bate centavo a
-// centavo com o fechamento anterior — e se bater, a variação é ~0 e o fundo
-// não estaria no ranking de qualquer forma.
+// Detecção: durante o pregão, o preço vivo difere do último fechamento da v2;
+// quem bate centavo a centavo com esse fechamento não negociou.
+//
+// MAS isso só vale ENQUANTO o pregão corre. Depois que a v2 fecha o dia (roda
+// 22h BRT), o preço do prices.json passa a ser exatamente esse fechamento
+// para TODO MUNDO — e aí não há nada parado: a variação publicada é a do
+// último pregão, legítima. Sem essa ressalva o filtro derrubava os 175
+// tickers e a tela ficava sem nenhuma variação (bug visto em 20/08/2026).
+// Mesma coisa em fim de semana, feriado e antes da abertura.
+const TICKER_REF = "KNCR11";  // líquido, negocia todo pregão — sonda do regime
+
 async function getSerieNominal(ticker) {
   if (_nominalCache[ticker] !== undefined) return _nominalCache[ticker];
   try {
@@ -220,16 +227,32 @@ async function cotacaoParada(ticker) {
   return Math.abs(serie[serie.length - 1][1] - px) < 0.005;
 }
 
-// Percorre a lista já ordenada e devolve os n primeiros com cotação viva,
-// buscando a série só de quem é candidato a aparecer (evita 175 fetches).
-async function primeirosFrescos(lista, n) {
-  const out = [];
-  for (const x of lista) {
-    if (out.length >= n) break;
-    if (await cotacaoParada(x.t)) continue;
-    out.push(x);
+// Conjunto de tickers a descartar do ranking do dia. Vazio quando o
+// prices.json não é de um pregão em curso — ver bloco acima.
+async function tickersDefasados(candidatos) {
+  const dataPrecos = isoDoCarimbo(_prices.atualizado_em);
+  const ref = await getSerieNominal(TICKER_REF);
+  const ultimoFechamento = ref && ref.length ? ref[ref.length - 1][0] : null;
+
+  // A v2 já fechou o pregão a que o prices.json se refere: nada está parado.
+  if (!dataPrecos || !ultimoFechamento || dataPrecos <= ultimoFechamento) {
+    return new Set();
   }
-  return out;
+
+  const paradas = new Set();
+  let checados = 0;
+  for (const t of candidatos) {
+    const serie = await getSerieNominal(t);
+    if (!serie || !serie.length) continue;
+    checados++;
+    if (await cotacaoParada(t)) paradas.add(t);
+  }
+
+  // Rede de segurança: se quase todo mundo bateu com o fechamento, o
+  // prices.json inteiro é do pregão anterior (fim de semana, feriado, antes
+  // da abertura) — filtrar esvaziaria a tela em vez de limpá-la.
+  if (checados && paradas.size / checados > 0.8) return new Set();
+  return paradas;
 }
 
 // ── Render: helpers de célula ──────────────────────────────────────────────
@@ -385,16 +408,19 @@ async function renderMovers() {
   const fiis  = todos.filter(x => !x.infra).sort((a, b) => b.pct - a.pct);
   const infra = todos.filter(x =>  x.infra).sort((a, b) => b.pct - a.pct);
 
-  const [fa, fb, ia, ib] = await Promise.all([
-    primeirosFrescos(fiis, 5),
-    primeirosFrescos([...fiis].reverse(), 5),
-    primeirosFrescos(infra, 5),
-    primeirosFrescos([...infra].reverse(), 5),
-  ]);
-  preencherMovers("pan-fii-altas", fa);
-  preencherMovers("pan-fii-baixas", fb);
-  preencherMovers("pan-infra-altas", ia);
-  preencherMovers("pan-infra-baixas", ib);
+  // Só os extremos podem aparecer, então basta sondar esses — evita 175 fetches.
+  const N = 15;
+  const candidatos = [...new Set(
+    [...fiis.slice(0, N), ...fiis.slice(-N), ...infra.slice(0, N), ...infra.slice(-N)]
+      .map(x => x.t)
+  )];
+  const fora = await tickersDefasados(candidatos);
+  const top = lista => lista.filter(x => !fora.has(x.t)).slice(0, 5);
+
+  preencherMovers("pan-fii-altas", top(fiis));
+  preencherMovers("pan-fii-baixas", top([...fiis].reverse()));
+  preencherMovers("pan-infra-altas", top(infra));
+  preencherMovers("pan-infra-baixas", top([...infra].reverse()));
 }
 
 function preencherMovers(id, lista) {
