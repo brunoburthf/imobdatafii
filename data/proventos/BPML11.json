@@ -1,7 +1,7 @@
 {
   "ticker": "BPML11",
-  "ultima_atualizacao": "2026-08-03T11:09:47",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-20T02:09:37",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2020-01-17",
@@ -348,6 +348,12 @@
     {
       "data_com": "2026-07-17",
       "data_pagamento": "2026-07-24",
+      "valor": 0.92,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-18",
+      "data_pagamento": "2026-08-25",
       "valor": 0.92,
       "tipo": "Rendimento"
     }

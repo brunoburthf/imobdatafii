@@ -1,7 +1,7 @@
 {
   "ticker": "BROF11",
-  "ultima_atualizacao": "2026-08-03T11:09:44",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-20T02:09:37",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2023-05-17",
@@ -235,6 +235,12 @@
       "data_com": "2026-07-16",
       "data_pagamento": "2026-07-23",
       "valor": 0.57,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-18",
+      "data_pagamento": "2026-08-25",
+      "valor": 0.56,
       "tipo": "Rendimento"
     }
   ]
