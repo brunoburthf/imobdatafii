@@ -22,17 +22,12 @@ const SETORES_ORDEM = [
   "Shoppings", "Logística", "Tijolo Multissetorial", "Agro",
 ];
 
-const PRICES_URL = () =>
-  "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json?t=" +
-  Math.floor(Date.now() / 60000);
 const v = () => "?v=" + Math.floor(Date.now() / 60000);
 
 // Estado carregado (fontes que não mudam por ticker ficam em cache de módulo).
-let _prices = null, _indexFiis = null, _infraIndex = null, _setoresRet = null,
+let _varDia = null, _indexFiis = null, _infraIndex = null, _setoresRet = null,
     _setoresTab = null, _ifix = null, _classifInfra = null;
-let _exHoje = {};        // ticker -> R$/cota que saiu da cota hoje (ex-provento)
 const _serieCache = {};  // ticker -> serie ajustada (retorno total)
-const _nominalCache = {};  // ticker -> serie nominal (p/ detectar cotação parada)
 
 // ── Helpers de cálculo ────────────────────────────────────────────────────
 
@@ -58,56 +53,45 @@ function varSerie(serie, modo) {
   return (lastPx / ref[1] - 1) * 100;
 }
 
-// ── Ajuste ex-provento da variação do dia ──────────────────────────────────
-// Um FII fica "ex" no pregão seguinte à data_com: a cota abre valendo o
-// provento a menos, sem que nada tenha acontecido com o fundo. A variação do
-// prices.json é nominal e não sabe disso, então num dia de pagamento o fundo
-// aparece como "maior baixa" sem ter caído. Caso real: KOPA11 em 18/08/2026
-// marcou -13,37%, mas R$ 24,00 dos R$ 34,75 eram amortização + rendimento —
-// queda real de -4,14%. No fim do mês ~86 fundos ficam ex no mesmo dia, o que
-// contamina a tabela inteira (e ela é copiada como imagem pra publicação).
+// ── Variação do dia = ÚLTIMO PREGÃO FECHADO ────────────────────────────────
+// O painel é um retrato do pregão que fechou, não do dia em curso. Fonte:
+// data/variacoes_dia.json, gerado pelo scripts/gerar_variacoes_dia.py a partir
+// da v2 (COTAHIST B3) no mesmo workflow que atualiza a base.
 //
-// Fonte: data/noticias.json → dividendos (janela de 30d, cobertura conferida
-// contra data/proventos/ em 19/08/2026: 100% dos data_com, e mais fresca).
-
-// Último pregão ANTERIOR ao dia dos preços: é o data_com que deixa a cota ex
-// hoje. Usa a série do IFIX, que já está carregada e é o calendário de pregão.
-function pregaoAnterior(isoHoje) {
-  for (let i = _ifix.length - 1; i >= 0; i--) {
-    if (_ifix[i][0] < isoHoje) return _ifix[i][0];
-  }
-  return null;
-}
-
-// "18/08/2026 21:14 UTC" → "2026-08-18"
-function isoDoCarimbo(carimbo) {
-  const m = /^(\d{2})\/(\d{2})\/(\d{4})/.exec(carimbo || "");
-  return m ? `${m[3]}-${m[2]}-${m[1]}` : null;
-}
-
-function montarExHoje(noticias) {
-  const hoje = isoDoCarimbo(_prices.atualizado_em);
-  if (!hoje || !_ifix.length) return {};
-  const dataCom = pregaoAnterior(hoje);
-  if (!dataCom) return {};
-  const mapa = {};
-  (noticias.dividendos || []).forEach(d => {
-    if (d.data_com === dataCom && d.ticker && d.valor > 0) {
-      mapa[d.ticker] = (mapa[d.ticker] || 0) + d.valor;  // amortização + rendimento
-    }
-  });
-  return mapa;
-}
-
-// Variação do dia com o provento devolvido à cota (retorno total do dia).
+// Isso substituiu o prices.json (Yahoo, 5 em 5 min), que servia ao propósito
+// oposto e trazia dois defeitos herdados:
+//   - durante o pregão mostrava o dia EM CURSO (IBBP11 marcando -7,4% às 10h
+//     de 20/08/2026 quando no pregão fechado, 19/08, tinha ficado de lado);
+//   - em fundo sem negócio no dia, repetia a variação da véspera como se fosse
+//     a de hoje (KOPA11 arrastando -13,37% por dias).
+// Como o agregado só inclui ticker que fechou no pregão de referência, o
+// segundo caso some por construção — sem heurística de "cotação parada".
+//
+// Cada ticker traz duas variações:
+//   p = preço puro    t = retorno total (ajustado por provento/amortização)
+// Usamos "t", igual às colunas de mês/12m, pra não repetir o caso KOPA11:
+// -13,37% nominal em 18/08 eram -4,5% reais, o resto era amortização.
 function varDiaTotal(ticker) {
-  const pct = _prices.variacoes?.[ticker];
-  if (pct == null || !isFinite(pct)) return null;
-  const prov = _exHoje[ticker];
-  const px = _prices.precos?.[ticker];
-  if (!prov || !px || pct <= -100) return pct;
-  const anterior = px / (1 + pct / 100);   // fechamento do pregão anterior
-  return anterior ? ((px + prov) / anterior - 1) * 100 : pct;
+  const r = _varDia?.variacoes?.[ticker];
+  if (!r) return null;
+  const pct = r.t ?? r.p;
+  return (pct == null || !isFinite(pct)) ? null : pct;
+}
+
+function varDiaPreco(ticker) {
+  const r = _varDia?.variacoes?.[ticker];
+  return (r && isFinite(r.p)) ? r.p : null;
+}
+
+function precoFechamento(ticker) {
+  const r = _varDia?.variacoes?.[ticker];
+  return (r && isFinite(r.px)) ? r.px : null;
+}
+
+// "2026-08-19" → "19/08/2026"
+function dataBR(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || "");
+  return m ? `${m[3]}/${m[2]}/${m[1]}` : (iso || "—");
 }
 
 function isoMenosAno(iso) {
@@ -124,59 +108,37 @@ async function getJSON(url) {
   return r.json();
 }
 
-// prices.json vem do GH Action (a cada 5 min). O raw.githubusercontent devolve
-// 429 (rate limit por IP) com alguma frequência — quando isso acontece a página
-// perdia, EM SILÊNCIO, o DY dos ofertados (precisa do preço atual) e os dois
-// blocos de maiores variações (vêm de `variacoes`). Fallback: a cópia
-// same-origin publicada junto com o site — mesma fonte, só congelada no último
-// deploy. Se as duas falharem, o aviso na topbar explica o vazio.
-async function carregarPrecos() {
-  try {
-    return { dados: await getJSON(PRICES_URL()), origem: "live" };
-  } catch (e1) {
-    try {
-      return { dados: await getJSON("prices.json" + v()), origem: "fallback", motivo: e1.message };
-    } catch (_) {
-      return { dados: { precos: {}, variacoes: {} }, origem: "falhou", motivo: e1.message };
-    }
-  }
-}
-
-function avisarOrigemPrecos(res) {
+function avisarSemVariacoes(motivo) {
   const el = document.getElementById("panorama-aviso");
   if (!el) return;
-  if (res.origem === "live") { el.style.display = "none"; return; }
+  if (!motivo) { el.style.display = "none"; return; }
   el.style.display = "block";
-  el.textContent = res.origem === "fallback"
-    ? `⚠ Preços ao vivo indisponíveis (${res.motivo}). Usando a cópia publicada com o site: `
-      + `var. dia, DY e maiores variações podem estar defasados.`
-    : `⚠ Falha ao carregar os preços (${res.motivo}). DY e maiores variações ficam vazios.`;
+  el.textContent = `⚠ Não foi possível carregar as variações do pregão `
+    + `(${motivo}). Var. dia, DY e maiores variações ficam vazios.`;
 }
 
 async function carregarBase() {
-  const [precosRes, idx, infra, setRet, setTab, ifix, classif, noticias] = await Promise.all([
-    carregarPrecos(),
+  const [varDia, idx, infra, setRet, setTab, ifix, classif] = await Promise.all([
+    getJSON("data/variacoes_dia.json" + v()).catch(e => ({ _erro: e.message })),
     getJSON("data/index.json" + v()),
     getJSON("data/infra_index.json" + v()).catch(() => ({ fiis: [] })),
     getJSON("data/setores_retorno.json" + v()),
     getJSON("data/setores.json" + v()).catch(() => ({ tabela: [] })),
     getJSON("data/ifix.json" + v()),
     getJSON("data/classificacao_infra.json" + v()).catch(() => []),
-    getJSON("data/noticias.json" + v()).catch(() => ({ dividendos: [] })),
   ]);
-  _prices = precosRes.dados;
+  _varDia = varDia._erro ? { variacoes: {} } : varDia;
   _indexFiis = idx.fiis || [];
   _infraIndex = Array.isArray(infra) ? infra : (infra.fiis || []);
   _setoresRet = setRet.indices || {};
   _setoresTab = setTab.tabela || [];
   _ifix = ifix.historico || [];
   _classifInfra = Array.isArray(classif) ? classif : [];
-  _exHoje = montarExHoje(noticias);
 
-  // carimbo de atualização (usa a fonte de preço, mais fresca)
+  // Carimbo = o pregão retratado, não a hora em que o arquivo foi gerado.
   const el = document.getElementById("panorama-atualizado");
-  if (el) el.textContent = _prices.atualizado_em || setRet.atualizado_em || "—";
-  avisarOrigemPrecos(precosRes);
+  if (el) el.textContent = dataBR(_varDia.data) + " (pregão fechado)";
+  avisarSemVariacoes(varDia._erro);
 }
 
 async function getSerieAjustada(ticker) {
@@ -189,70 +151,6 @@ async function getSerieAjustada(ticker) {
     _serieCache[ticker] = null;
   }
   return _serieCache[ticker];
-}
-
-// ── Cotação parada (fundo não negociou no pregão em curso) ─────────────────
-// O atualizar_precos.py compara os dois últimos fechamentos que o Yahoo
-// devolve. Se o fundo não negociou hoje, esses dois são ontem e anteontem —
-// e a variação de ONTEM é publicada como "do dia". Num FII ilíquido logo
-// depois de uma amortização isso vira um -13% fantasma no ranking.
-//
-// Detecção: durante o pregão, o preço vivo difere do último fechamento da v2;
-// quem bate centavo a centavo com esse fechamento não negociou.
-//
-// MAS isso só vale ENQUANTO o pregão corre. Depois que a v2 fecha o dia (roda
-// 22h BRT), o preço do prices.json passa a ser exatamente esse fechamento
-// para TODO MUNDO — e aí não há nada parado: a variação publicada é a do
-// último pregão, legítima. Sem essa ressalva o filtro derrubava os 175
-// tickers e a tela ficava sem nenhuma variação (bug visto em 20/08/2026).
-// Mesma coisa em fim de semana, feriado e antes da abertura.
-const TICKER_REF = "KNCR11";  // líquido, negocia todo pregão — sonda do regime
-
-async function getSerieNominal(ticker) {
-  if (_nominalCache[ticker] !== undefined) return _nominalCache[ticker];
-  try {
-    const d = await getJSON(`data/historico_precos_v2/nominal/${ticker}.json` + v());
-    _nominalCache[ticker] = d.serie || null;
-  } catch (_) {
-    _nominalCache[ticker] = null;
-  }
-  return _nominalCache[ticker];
-}
-
-async function cotacaoParada(ticker) {
-  const serie = await getSerieNominal(ticker);
-  if (!serie || !serie.length) return false;  // sem base: não descarta
-  const px = _prices.precos?.[ticker];
-  if (px == null) return false;
-  return Math.abs(serie[serie.length - 1][1] - px) < 0.005;
-}
-
-// Conjunto de tickers a descartar do ranking do dia. Vazio quando o
-// prices.json não é de um pregão em curso — ver bloco acima.
-async function tickersDefasados(candidatos) {
-  const dataPrecos = isoDoCarimbo(_prices.atualizado_em);
-  const ref = await getSerieNominal(TICKER_REF);
-  const ultimoFechamento = ref && ref.length ? ref[ref.length - 1][0] : null;
-
-  // A v2 já fechou o pregão a que o prices.json se refere: nada está parado.
-  if (!dataPrecos || !ultimoFechamento || dataPrecos <= ultimoFechamento) {
-    return new Set();
-  }
-
-  const paradas = new Set();
-  let checados = 0;
-  for (const t of candidatos) {
-    const serie = await getSerieNominal(t);
-    if (!serie || !serie.length) continue;
-    checados++;
-    if (await cotacaoParada(t)) paradas.add(t);
-  }
-
-  // Rede de segurança: se quase todo mundo bateu com o fechamento, o
-  // prices.json inteiro é do pregão anterior (fim de semana, feriado, antes
-  // da abertura) — filtrar esvaziaria a tela em vez de limpá-la.
-  if (checados && paradas.size / checados > 0.8) return new Set();
-  return paradas;
 }
 
 // ── Render: helpers de célula ──────────────────────────────────────────────
@@ -297,10 +195,11 @@ async function renderOfertados() {
   const linhas = await Promise.all(lista.map(async (t) => {
     const serie = await getSerieAjustada(t);
     const info = idxByTicker[t] || {};
-    const preco = _prices.precos?.[t] ?? null;
-    const varDia = varDiaTotal(t) ?? varSerie(serie, "dia");  // % (live > série)
+    // Fechamento do pregão retratado — mesma referência da variação do dia.
+    const preco = precoFechamento(t);
+    const varDia = varDiaTotal(t) ?? varSerie(serie, "dia");
     const div = info["Último Dividendo Pago"] ?? null;
-    // DY** = último dividendo anualizado (×12) sobre o preço atual
+    // DY** = último dividendo anualizado (×12) sobre o preço de fechamento
     const dy = (div != null && preco) ? (div * 12 / preco) : null;
     return { t,
       dia: varDia,
@@ -398,29 +297,21 @@ function nomeCurto(ticker) {
   return f.Nome.length > 22 ? f.Nome.slice(0, 21) + "…" : f.Nome;
 }
 
-async function renderMovers() {
+// O agregado já só contém quem fechou no pregão de referência, então não há
+// cotação parada pra filtrar aqui — quem não negociou simplesmente não entra.
+function renderMovers() {
   const infraSet = new Set(_classifInfra.map(c => c.ticker));
-  const vars = _prices.variacoes || {};
-  const todos = Object.keys(vars)
-    .map(t => ({ t, pct: varDiaTotal(t), infra: infraSet.has(t), ex: _exHoje[t] || 0 }))
+  const todos = Object.keys(_varDia?.variacoes || {})
+    .map(t => ({ t, pct: varDiaTotal(t), infra: infraSet.has(t) }))
     .filter(x => x.pct != null && isFinite(x.pct));
 
   const fiis  = todos.filter(x => !x.infra).sort((a, b) => b.pct - a.pct);
   const infra = todos.filter(x =>  x.infra).sort((a, b) => b.pct - a.pct);
 
-  // Só os extremos podem aparecer, então basta sondar esses — evita 175 fetches.
-  const N = 15;
-  const candidatos = [...new Set(
-    [...fiis.slice(0, N), ...fiis.slice(-N), ...infra.slice(0, N), ...infra.slice(-N)]
-      .map(x => x.t)
-  )];
-  const fora = await tickersDefasados(candidatos);
-  const top = lista => lista.filter(x => !fora.has(x.t)).slice(0, 5);
-
-  preencherMovers("pan-fii-altas", top(fiis));
-  preencherMovers("pan-fii-baixas", top([...fiis].reverse()));
-  preencherMovers("pan-infra-altas", top(infra));
-  preencherMovers("pan-infra-baixas", top([...infra].reverse()));
+  preencherMovers("pan-fii-altas",    fiis.slice(0, 5));
+  preencherMovers("pan-fii-baixas",   fiis.slice(-5).reverse());
+  preencherMovers("pan-infra-altas",  infra.slice(0, 5));
+  preencherMovers("pan-infra-baixas", infra.slice(-5).reverse());
 }
 
 function preencherMovers(id, lista) {
@@ -438,8 +329,11 @@ function preencherMovers(id, lista) {
     const corCls = pos ? "pan-pos" : "pan-neg";
     const barCls = pos ? "pan-bar-pos" : "pan-bar-neg";
     // Marca o ajuste no tooltip pra dar pra auditar de onde veio o número.
-    const dica = x.ex
-      ? `${nomeCurto(x.t)} — ex R$ ${_vir(x.ex)}/cota hoje; variação já ajustada`
+    // Quando o total difere do preço, houve provento no dia — mostra os dois
+    // no tooltip pra dar pra auditar de onde veio o número.
+    const vp = varDiaPreco(x.t);
+    const dica = (vp != null && Math.abs(vp - x.pct) > 0.01)
+      ? `${nomeCurto(x.t)} — preço ${_vir(vp)}%, com provento ${_vir(x.pct)}%`
       : nomeCurto(x.t);
     return `
     <tr title="${dica}">
@@ -503,7 +397,7 @@ async function iniciarPanorama() {
   try {
     await carregarBase();
     renderSetores();
-    await renderMovers();
+    renderMovers();
     await renderOfertados();
     document.getElementById("panorama-loading").style.display = "none";
     document.getElementById("panorama-conteudo").style.display = "block";
