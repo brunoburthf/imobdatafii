@@ -4799,6 +4799,13 @@ main[data-card] th.sort-ativo .sort-icon {
   height: 420px;
   width: 100%;
 }
+/* Nota de metodologia sob o gráfico (base, fonte). */
+.rm-nota-pares {
+  color: var(--texto-suave);
+  font-size: 11.5px;
+  font-style: italic;
+  margin: 8px 0 0;
+}
 .rm-resumo {
   font-size: 13px;
   color: #555;

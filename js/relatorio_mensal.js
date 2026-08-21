@@ -14,6 +14,16 @@ let _cdiSerie = null;         // [[data, indice base 100], ...] — série do gr
 let _spreadMedio = {};        // Setor → média histórica (pp)
 let _spreadAtual = {};        // Setor → spread atual (pp)
 
+// ── Gráfico VISC11 vs TRXF11 ────────────────────────────────────────────────
+// Série ajustada da v2 = preço corrigido por provento/amortização/split, ou
+// seja, retorno total. Os valores brutos são índice, não R$ (VISC11 marca 204
+// negociando a 101), então plotar cru não diria nada ao leitor — vai em base
+// 100 no fechamento da data de corte, mesma convenção do gráfico IFIX vs CDI.
+const PARES_TICKERS = ["VISC11", "TRXF11"];
+const PARES_DESDE = "2026-03-18";
+const PARES_CORES = { VISC11: "#FF6200", TRXF11: "#00093C" };
+let _paresSeries = null;      // { TICKER: [[data, indice base 100], ...] }
+
 async function carregar() {
   try {
     const hoje = new Date();
@@ -50,6 +60,15 @@ async function carregar() {
     _ifixSerie = ifixSerie;
     _cdiSerie = cdiSerie;
     desenharGrafico(ifixSerie, cdiSerie);
+
+    // ── VISC11 vs TRXF11 desde a data de corte ──────────────────────────
+    // Não derruba o resto da tela se a base v2 de algum ticker faltar.
+    try {
+      await montarGraficoPares();
+    } catch (e) {
+      const el = document.getElementById("rm-resumo-pares");
+      if (el) el.textContent = "indisponível: " + e.message;
+    }
 
     // ── Tabela setorial ─────────────────────────────────────────────────
     const ntnbOk = ntnb && ntnb.ytm && ntnb.duration
@@ -307,6 +326,132 @@ function desenharGrafico(ifixSerie, cdiSerie) {
       },
     },
   });
+}
+
+// ── VISC11 vs TRXF11 ────────────────────────────────────────────────────────
+
+async function montarGraficoPares() {
+  const series = await Promise.all(PARES_TICKERS.map(async t => {
+    const r = await fetch(`data/historico_precos_v2/ajustado/${t}.json`);
+    if (!r.ok) throw new Error(`série ajustada de ${t} não encontrada`);
+    const serie = (await r.json()).serie || [];
+    const desde = serie.filter(([d]) => d >= PARES_DESDE);
+    if (desde.length < 2) throw new Error(`${t} sem dados desde ${PARES_DESDE}`);
+    const base = desde[0][1];
+    if (!base) throw new Error(`${t} com fechamento zerado em ${desde[0][0]}`);
+    return [t, desde.map(([d, v]) => [d, (v / base) * 100])];
+  }));
+
+  _paresSeries = Object.fromEntries(series);
+
+  // Eixo X = união das datas (na prática as duas séries batem, mas se um
+  // ticker não negociar num dia a linha não pode escorregar de posição).
+  const datas = [...new Set(series.flatMap(([, s]) => s.map(([d]) => d)))].sort();
+
+  document.getElementById("rm-resumo-pares").innerHTML = series
+    .map(([t, s]) => `${t} <b>${formatarPct(s[s.length - 1][1] - 100)}</b>`)
+    .join(" · ");
+
+  desenharGraficoPares(datas, series);
+}
+
+function desenharGraficoPares(datas, series) {
+  const ctx = document.getElementById("grafico-pares");
+  if (!ctx) return;
+
+  new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: datas,
+      datasets: series.map(([t, s], i) => {
+        const porData = Object.fromEntries(s);
+        return {
+          label: t,
+          data: datas.map(d => porData[d] ?? null),
+          borderColor: PARES_CORES[t],
+          backgroundColor: "transparent",
+          borderWidth: 2,
+          pointRadius: 0,
+          tension: 0.15,
+          borderDash: i === 1 ? [6, 4] : undefined,
+          spanGaps: true,
+          fill: false,
+        };
+      }),
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { position: "top", labels: { boxWidth: 14, font: { size: 13 } } },
+        tooltip: {
+          callbacks: {
+            title: c => formatarDataLabel(c[0].label),
+            label: c => `${c.dataset.label}: ${formatarPct(c.parsed.y - 100)}`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: {
+            maxTicksLimit: 10,
+            // Janela de poucos meses: só "Mai/26" repetiria o mesmo rótulo em
+            // ticks vizinhos, então entra o dia.
+            callback: function(_, idx) {
+              const d = this.getLabelForValue(idx);
+              const [, m, dia] = d.split("-");
+              const meses = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+              return `${dia}/${meses[parseInt(m, 10) - 1]}`;
+            },
+          },
+          grid: { display: false },
+        },
+        y: {
+          ticks: { callback: v => formatarPct(v - 100) },
+          grid: { color: "rgba(0,0,0,0.05)" },
+        },
+      },
+    },
+  });
+}
+
+async function baixarParesExcel(btn) {
+  if (!_paresSeries) { alert("O gráfico ainda não carregou."); return; }
+  const textoOriginal = btn ? btn.textContent : "";
+  if (btn) { btn.disabled = true; btn.textContent = "Preparando..."; }
+  try {
+    await _carregarSheetJsRM();
+    const r4 = v => (v == null ? null : Math.round(v * 10000) / 10000);
+    const datas = [...new Set(
+      Object.values(_paresSeries).flatMap(s => s.map(([d]) => d))
+    )].sort();
+    const porTicker = Object.fromEntries(
+      Object.entries(_paresSeries).map(([t, s]) => [t, Object.fromEntries(s)])
+    );
+
+    const aoa = [
+      [`${PARES_TICKERS.join(" vs ")} — preço ajustado`],
+      [`Exportado em: ${new Date().toLocaleString("pt-BR")}`],
+      [`Base 100 no fechamento de ${formatarDataLabel(PARES_DESDE)} · retorno total (COTAHIST B3)`],
+      [],
+      ["Data", ...PARES_TICKERS.map(t => `${t} (base 100)`)],
+      ...datas.map(d => [
+        formatarDataLabel(d),
+        ...PARES_TICKERS.map(t => r4(porTicker[t]?.[d])),
+      ]),
+    ];
+
+    const wb = XLSX.utils.book_new();
+    const ws = XLSX.utils.aoa_to_sheet(aoa);
+    ws["!cols"] = [{ wch: 12 }, ...PARES_TICKERS.map(() => ({ wch: 18 }))];
+    XLSX.utils.book_append_sheet(wb, ws, PARES_TICKERS.join(" vs "));
+    XLSX.writeFile(wb, `${PARES_TICKERS.join("_").toLowerCase()}_${new Date().toISOString().slice(0, 10)}.xlsx`);
+  } catch (e) {
+    alert("Erro ao gerar Excel: " + e.message);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = textoOriginal; }
+  }
 }
 
 // Copia o <canvas> do gráfico como PNG para a área de transferência. O Chart.js

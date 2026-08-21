@@ -1,5 +1,18 @@
 [build]
-  ignore = "git diff --quiet HEAD^ HEAD -- . ':(exclude)prices.json'"
+  # Pula o build quando SÓ o prices.json mudou (o GH Action commita de 5 em 5
+  # min e o front lê esse arquivo direto do raw.githubusercontent, não do
+  # deploy). Mas a comparação tem que ser contra o último commit PUBLICADO
+  # ($CACHED_COMMIT_REF), não contra HEAD^.
+  #
+  # Com HEAD^..HEAD, bastava um commit de precos ficar no topo pra decisão
+  # ignorar tudo que tinha entrado abaixo: em 21/08/2026 o "v2: 2026-08-21"
+  # (mais notícias, setores, ifix, ntnb) não subiu porque o Netlify avaliou
+  # com "precos 14:18" na ponta. O site ficou servindo dados de véspera com o
+  # repo já atualizado.
+  #
+  # Falha em segurança: se $CACHED_COMMIT_REF vier vazio ou o ref não existir
+  # no clone, o git sai != 0 e o build acontece.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)prices.json'"
 
 [functions]
   directory = "netlify/functions"

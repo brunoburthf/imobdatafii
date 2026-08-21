@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Sem isto o HTML fica em cache e continua apontando pro js/css antigo,
+       anulando o ?v=N (o _headers do Netlify cobre em produção; o servidor
+       local não manda esses headers). -->
+  <meta http-equiv="Cache-Control" content="no-store">
   <title>Relatório Mensal — ImobData</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=2" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
@@ -57,6 +61,24 @@
 
       <div class="setor-card setor-card-destaque" style="margin-top:24px">
         <div class="setor-card-header">
+          <h2 class="setor-card-titulo">VISC11 vs TRXF11 — desde 18/03/2026</h2>
+          <div class="rm-header-acoes">
+            <span class="rm-resumo" id="rm-resumo-pares">—</span>
+            <button class="btn-baixar-planilha" onclick="copiarGrafico('grafico-pares', this)"
+                    title="Copia o gráfico como imagem PNG de fundo transparente — cole direto no PowerPoint (Ctrl+V)">📋 Copiar gráfico</button>
+            <button class="btn-baixar-planilha" onclick="baixarParesExcel(this)"
+                    title="Baixa as séries de preço ajustado (base 100 em 18/03/2026) em planilha Excel (.xlsx)">📥 Baixar Excel</button>
+          </div>
+        </div>
+        <div class="rm-grafico-wrapper">
+          <canvas id="grafico-pares"></canvas>
+        </div>
+        <p class="rm-nota-pares">Preço ajustado por proventos (retorno total), base 100 no
+          fechamento de 18/03/2026. Fonte: COTAHIST B3.</p>
+      </div>
+
+      <div class="setor-card setor-card-destaque" style="margin-top:24px">
+        <div class="setor-card-header">
           <h2 class="setor-card-titulo">Visão setorial</h2>
           <span class="rm-resumo" id="rm-setorial-meta">—</span>
         </div>
@@ -105,7 +127,7 @@
   </main>
 
   <script src="js/ntnb-utils.js"></script>
-  <script src="js/relatorio_mensal.js"></script>
+  <script src="js/relatorio_mensal.js?v=3"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
