@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "21/08/2026 11:24",
+  "atualizado_em": "22/08/2026 13:34",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "CACR11",
+      "nome_fundo": "Cartesia Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-21T17:03:00",
+      "data_com": "2026-08-21",
+      "data_pagamento": "2026-08-28",
+      "valor": 1.16,
+      "valor_anterior": 1.16,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Agosto",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1298389,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298389"
+    },
     {
       "ticker": "BTAL11",
       "nome_fundo": "BTAL11",
@@ -2521,6 +2538,72 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "RBRR11",
+      "nome_fundo": "FII RBR Rendimento High Grade",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-21T20:57:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1298668,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298668"
+    },
+    {
+      "ticker": "PCIP11",
+      "nome_fundo": "Patria Crédito Imobiliário Índice de Preços FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-21T19:40:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1298588,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298588"
+    },
+    {
+      "ticker": "VCJR11",
+      "nome_fundo": "Vectis Juros Real FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-21T19:03:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1298567,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298567"
+    },
+    {
+      "ticker": "RPRI11",
+      "nome_fundo": "Rbr Premium Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-21T18:57:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1298559,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298559"
+    },
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-08-21T18:55:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1298556,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298556"
+    },
+    {
+      "ticker": "CPSH11",
+      "nome_fundo": "Capitânia Shoppings FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-08-21T18:05:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1298481,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298481"
+    },
+    {
       "ticker": "KNRI11",
       "nome_fundo": "Kinea Renda Imobiliária FII",
       "setor": "Tijolo Multissetorial",
@@ -3171,6 +3254,56 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "MANA11",
+      "nome_fundo": "Manatí Capital Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-08-21T18:57:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1298560,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298560"
+    },
+    {
+      "ticker": "BRCO11",
+      "nome_fundo": "Bresco Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-08-21T18:54:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1298554,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298554"
+    },
+    {
+      "ticker": "JSAF11",
+      "nome_fundo": "Js Ativos Financeiros FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-08-21T18:41:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1298537,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298537"
+    },
+    {
+      "ticker": "TEPP11",
+      "nome_fundo": "Tellus Properties FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-08-21T18:17:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1298507,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298507"
+    },
+    {
+      "ticker": "HABT11",
+      "nome_fundo": "Habitat Recebíveis Pulverizados FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-08-21T17:37:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1298450,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298450"
+    },
     {
       "ticker": "RBRX11",
       "nome_fundo": "Rbr Plus Multiestratégia Real Estate FII",
@@ -4490,46 +4623,6 @@
       "fnet_id": 1262329,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1262329"
-    },
-    {
-      "ticker": "GARE11",
-      "nome_fundo": "Guardian Real Estate FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-07-22T19:53:00",
-      "data_referencia": "30/06/2026",
-      "fnet_id": 1262281,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1262281"
-    },
-    {
-      "ticker": "PVBI11",
-      "nome_fundo": "FII Vbi Prime Properties",
-      "setor": "Escritórios",
-      "data_anuncio": "2026-07-22T18:38:00",
-      "data_referencia": "30/06/2026",
-      "fnet_id": 1262131,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1262131"
-    },
-    {
-      "ticker": "CACR11",
-      "nome_fundo": "Cartesia Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-07-22T18:33:00",
-      "data_referencia": "30/06/2026",
-      "fnet_id": 1262126,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1262126"
-    },
-    {
-      "ticker": "RBVA11",
-      "nome_fundo": "Rio Bravo Renda Varejo FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-07-22T09:35:00",
-      "data_referencia": "30/06/2026",
-      "fnet_id": 1261677,
-      "fnet_versao": 2,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1261677"
     }
   ]
 }
