@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "21/08/2026 05:37",
+  "atualizado_em": "22/08/2026 05:34",
   "fonte": "fnet (B3) — Assembleia (AGE)",
   "janela_dias": 90,
-  "total": 778,
-  "curados": 41,
-  "nao_curados": 737,
+  "total": 802,
+  "curados": 52,
+  "nao_curados": 750,
   "assembleias": [
     {
       "ticker": null,
@@ -59,6 +59,45 @@
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1293864"
     },
     {
+      "ticker": "RBRR11",
+      "nome_fundo": "FII RBR Rendimento High Grade",
+      "nome_pregao": "FII RBRR PAX",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-25T18:00:00",
+      "data_publicacao": "2026-08-21T22:25:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298689,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298689"
+    },
+    {
+      "ticker": "RBRR11",
+      "nome_fundo": "FII RBR Rendimento High Grade",
+      "nome_pregao": "FII RBRR PAX",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-25T18:00:00",
+      "data_publicacao": "2026-08-21T20:56:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298667,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298667"
+    },
+    {
+      "ticker": "RBRR11",
+      "nome_fundo": "FII RBR Rendimento High Grade",
+      "nome_pregao": "FII RBRR PAX",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-25T18:00:00",
+      "data_publicacao": "2026-08-21T20:56:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298666,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298666"
+    },
+    {
       "ticker": "KNCR11",
       "nome_fundo": "Kinea Rendimentos Imobiliários FII",
       "nome_pregao": "FII KINEA RI",
@@ -83,6 +122,110 @@
       "fnet_id": 1294048,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1294048"
+    },
+    {
+      "ticker": "VCJR11",
+      "nome_fundo": "Vectis Juros Real FII",
+      "nome_pregao": "FII VECTIS",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-18T23:59:00",
+      "data_publicacao": "2026-08-21T19:11:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298572,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298572"
+    },
+    {
+      "ticker": "RPRI11",
+      "nome_fundo": "Rbr Premium Recebíveis Imobiliários FII",
+      "nome_pregao": "FII RBR PR",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-18T23:59:00",
+      "data_publicacao": "2026-08-21T19:08:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298570,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298570"
+    },
+    {
+      "ticker": "VCJR11",
+      "nome_fundo": "Vectis Juros Real FII",
+      "nome_pregao": "FII VECTIS",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-18T23:59:00",
+      "data_publicacao": "2026-08-21T19:02:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298564,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298564"
+    },
+    {
+      "ticker": "RPRI11",
+      "nome_fundo": "Rbr Premium Recebíveis Imobiliários FII",
+      "nome_pregao": "FII RBR PR",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-18T23:59:00",
+      "data_publicacao": "2026-08-21T18:52:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298551,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298551"
+    },
+    {
+      "ticker": "PCIP11",
+      "nome_fundo": "Patria Crédito Imobiliário Índice de Preços FII",
+      "nome_pregao": "FII PCIP PAX",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-18T10:00:00",
+      "data_publicacao": "2026-08-21T19:38:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298587,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298587"
+    },
+    {
+      "ticker": "PCIP11",
+      "nome_fundo": "Patria Crédito Imobiliário Índice de Preços FII",
+      "nome_pregao": "FII PCIP PAX",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-18T10:00:00",
+      "data_publicacao": "2026-08-21T19:37:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298586,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298586"
+    },
+    {
+      "ticker": "BBIG11",
+      "nome_fundo": "BB Premium Malls FII",
+      "nome_pregao": "FII BBIG",
+      "setor": "Shoppings",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-08T17:00:00",
+      "data_publicacao": "2026-08-21T18:09:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298492,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298492"
+    },
+    {
+      "ticker": "BBIG11",
+      "nome_fundo": "BB Premium Malls FII",
+      "nome_pregao": "FII BBIG",
+      "setor": "Shoppings",
+      "tipo": "AGE",
+      "data_assembleia": "2026-09-08T17:00:00",
+      "data_publicacao": "2026-08-21T18:07:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298486,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298486"
     },
     {
       "ticker": null,
@@ -187,6 +330,19 @@
       "fnet_id": 1284163,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1284163"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "PERMUTA LOTE 5 CAMPINAS FUNDO DE INVESTIMENTO IMOBILIÁRIO  RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-31T18:00:00",
+      "data_publicacao": "2026-08-21T17:48:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1298461,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298461"
     },
     {
       "ticker": null,
@@ -541,6 +697,45 @@
     },
     {
       "ticker": null,
+      "nome_fundo": "CAIXA FUNDO DE INVESTIMENTO IMOBILIARIO PORTO MARAVILHA RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-21T16:00:00",
+      "data_publicacao": "2026-08-21T17:10:00",
+      "classificacao": "ata",
+      "fnet_id": 1298416,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298416"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "JPR DS FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII JPRD",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-21T15:00:00",
+      "data_publicacao": "2026-08-21T17:30:00",
+      "classificacao": "ata",
+      "fnet_id": 1298447,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298447"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "JPR DS FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII JPRD",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-21T15:00:00",
+      "data_publicacao": "2026-08-21T17:30:00",
+      "classificacao": "ata",
+      "fnet_id": 1298446,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298446"
+    },
+    {
+      "ticker": null,
       "nome_fundo": "JPR DS FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA",
       "nome_pregao": "FII JPRD",
       "setor": "FII (não-curado)",
@@ -564,6 +759,58 @@
       "fnet_id": 1278795,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1278795"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "BE IN RIO FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII BINR",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-21T10:00:00",
+      "data_publicacao": "2026-08-21T19:43:00",
+      "classificacao": "ata",
+      "fnet_id": 1298590,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298590"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "JACARANDÁ 03 FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-21T10:00:00",
+      "data_publicacao": "2026-08-21T19:12:00",
+      "classificacao": "ata",
+      "fnet_id": 1298573,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298573"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "FRONTEIRA MULTI FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII FRONT",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-21T10:00:00",
+      "data_publicacao": "2026-08-21T18:42:00",
+      "classificacao": "ata",
+      "fnet_id": 1298538,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298538"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "ASA REAL ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO- FII",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-21T10:00:00",
+      "data_publicacao": "2026-08-21T18:11:00",
+      "classificacao": "ata",
+      "fnet_id": 1298497,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298497"
     },
     {
       "ticker": null,
@@ -616,6 +863,19 @@
       "fnet_id": 1297802,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1297802"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "RB LOGÍSTICA FUNDO DE INVESTIMENTO IMOBILIÁRIO DE RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-20T16:00:00",
+      "data_publicacao": "2026-08-21T18:31:00",
+      "classificacao": "ata",
+      "fnet_id": 1298531,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298531"
     },
     {
       "ticker": null,
@@ -723,6 +983,19 @@
     },
     {
       "ticker": null,
+      "nome_fundo": "LUMINI FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-19T16:00:00",
+      "data_publicacao": "2026-08-21T17:25:00",
+      "classificacao": "ata",
+      "fnet_id": 1298444,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298444"
+    },
+    {
+      "ticker": null,
       "nome_fundo": "VALORA FUNDO DE FUNDOS FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
       "nome_pregao": "",
       "setor": "FII (não-curado)",
@@ -772,6 +1045,19 @@
       "fnet_id": 1297074,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1297074"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "COXIM FUNDO DE INVESTIMENTO  IMOBILIÁRIO",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-19T09:00:00",
+      "data_publicacao": "2026-08-21T18:01:00",
+      "classificacao": "ata",
+      "fnet_id": 1298473,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298473"
     },
     {
       "ticker": null,
@@ -876,6 +1162,19 @@
       "fnet_id": 1296957,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1296957"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "MAV FI EM CADEIAS PRODUTIVAS DO AGRONEGÓCIO - DIREITOS CREDITÓRIOS - FIAGRO-DIREITOS CREDITÓRIOS",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-17T10:00:00",
+      "data_publicacao": "2026-08-21T18:43:00",
+      "classificacao": "ata",
+      "fnet_id": 1298539,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298539"
     },
     {
       "ticker": null,
@@ -1253,6 +1552,19 @@
       "fnet_id": 1289440,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1289440"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "RUMO YD FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-12T11:00:00",
+      "data_publicacao": "2026-08-21T09:43:00",
+      "classificacao": "ata",
+      "fnet_id": 1298017,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298017"
     },
     {
       "ticker": null,
