@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "24/08/2026 02:58",
+  "atualizado_em": "24/08/2026 13:54",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "BTRA11",
+      "nome_fundo": "BTRA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-08-24T09:25:00",
+      "data_com": "2026-08-24",
+      "data_pagamento": "2026-08-31",
+      "valor": 1.0,
+      "valor_anterior": 0.9,
+      "variacao_pct": 0.11111111111111116,
+      "periodo_referencia": "Julho-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1298711,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298711"
+    },
     {
       "ticker": "CACR11",
       "nome_fundo": "Cartesia Recebíveis Imobiliários FII",
