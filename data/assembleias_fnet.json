@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "24/08/2026 05:43",
+  "atualizado_em": "25/08/2026 05:38",
   "fonte": "fnet (B3) — Assembleia (AGE)",
   "janela_dias": 90,
-  "total": 790,
-  "curados": 52,
-  "nao_curados": 738,
+  "total": 782,
+  "curados": 50,
+  "nao_curados": 732,
   "assembleias": [
     {
       "ticker": null,
@@ -694,6 +694,19 @@
       "fnet_id": 1279033,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1279033"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "CAIXA FUNDO DE INVESTIMENTO IMOBILIARIO PORTO MARAVILHA RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-21T16:00:00",
+      "data_publicacao": "2026-08-24T15:43:00",
+      "classificacao": "ata",
+      "fnet_id": 1299025,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299025"
     },
     {
       "ticker": null,
@@ -1812,6 +1825,19 @@
       "fnet_id": 1282165,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1282165"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO TG EUROGARDEN FEEDER RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-08-10T10:00:00",
+      "data_publicacao": "2026-08-24T19:07:00",
+      "classificacao": "ata",
+      "fnet_id": 1299406,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299406"
     },
     {
       "ticker": null,
@@ -7716,32 +7742,6 @@
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1225625"
     },
     {
-      "ticker": "MXRF11",
-      "nome_fundo": "Maxi Renda FII",
-      "nome_pregao": "FII MAXI REN",
-      "setor": "Crédito Imobiliário",
-      "tipo": "AGE",
-      "data_assembleia": "2026-06-22T10:00:00",
-      "data_publicacao": "2026-05-26T18:08:00",
-      "classificacao": "convocacao",
-      "fnet_id": 1204074,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1204074"
-    },
-    {
-      "ticker": "MXRF11",
-      "nome_fundo": "Maxi Renda FII",
-      "nome_pregao": "FII MAXI REN",
-      "setor": "Crédito Imobiliário",
-      "tipo": "AGE",
-      "data_assembleia": "2026-06-22T10:00:00",
-      "data_publicacao": "2026-05-26T18:07:00",
-      "classificacao": "convocacao",
-      "fnet_id": 1204071,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1204071"
-    },
-    {
       "ticker": null,
       "nome_fundo": "THRÉPSI FIAGRO DE RESP LIMITADA",
       "nome_pregao": "",
@@ -8208,32 +8208,6 @@
       "fnet_id": 1223569,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1223569"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "RBR RENDA FIXA CDI+ FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-06-17T10:00:00",
-      "data_publicacao": "2026-05-26T21:29:00",
-      "classificacao": "convocacao",
-      "fnet_id": 1204317,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1204317"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "RBR RENDA FIXA CDI+ FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-06-17T10:00:00",
-      "data_publicacao": "2026-05-26T21:28:00",
-      "classificacao": "convocacao",
-      "fnet_id": 1204316,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1204316"
     },
     {
       "ticker": null,
@@ -8936,19 +8910,6 @@
       "fnet_id": 1214297,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1214297"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "MÉRITO CEMITÉRIOS FII - FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "FII MCEM",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-06-08T10:00:00",
-      "data_publicacao": "2026-05-26T18:14:00",
-      "classificacao": "convocacao",
-      "fnet_id": 1204082,
-      "fnet_versao": 2,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1204082"
     },
     {
       "ticker": null,
@@ -9706,19 +9667,6 @@
     },
     {
       "ticker": null,
-      "nome_fundo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO DO ESTADO DE SÃO PAULO",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-05-26T18:00:00",
-      "data_publicacao": "2026-05-26T20:00:00",
-      "classificacao": "ata",
-      "fnet_id": 1204265,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1204265"
-    },
-    {
-      "ticker": null,
       "nome_fundo": "FOCO FUNDO DE INVESTIMENTO IMOBILIARIO",
       "nome_pregao": "",
       "setor": "FII (não-curado)",
@@ -9757,45 +9705,6 @@
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205768"
     },
     {
-      "ticker": null,
-      "nome_fundo": "OXIGÊNIO 2 FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "FII OXRL",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-05-26T10:00:00",
-      "data_publicacao": "2026-05-26T17:31:00",
-      "classificacao": "ata",
-      "fnet_id": 1204023,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1204023"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "LWTC FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-05-25T15:00:00",
-      "data_publicacao": "2026-05-26T13:57:00",
-      "classificacao": "ata",
-      "fnet_id": 1203643,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1203643"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "IRRIGA BRASIL FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS AGROINDUSTRIAIS (FIAGRO) - RESPONSABILIDA",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-05-25T11:00:00",
-      "data_publicacao": "2026-05-26T11:36:00",
-      "classificacao": "ata",
-      "fnet_id": 1203447,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1203447"
-    },
-    {
       "ticker": "VGIR11",
       "nome_fundo": "Valora Cri CDI FII",
       "nome_pregao": "",
@@ -9820,19 +9729,6 @@
       "fnet_id": 1207962,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1207962"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "XLPR FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII - RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "FII XLPR RI",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-05-25T10:00:00",
-      "data_publicacao": "2026-05-26T09:22:00",
-      "classificacao": "ata",
-      "fnet_id": 1202545,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1202545"
     },
     {
       "ticker": null,
@@ -9963,19 +9859,6 @@
       "fnet_id": 1222510,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1222510"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "INTRA ESTATE FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-05-14T15:40:00",
-      "data_publicacao": "2026-05-26T21:40:00",
-      "classificacao": "ata",
-      "fnet_id": 1204318,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1204318"
     },
     {
       "ticker": null,
@@ -10148,6 +10031,32 @@
     },
     {
       "ticker": null,
+      "nome_fundo": "VALORA CRI PRÉ I MASTER FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2025-12-22T10:00:00",
+      "data_publicacao": "2026-08-24T13:59:00",
+      "classificacao": "ata",
+      "fnet_id": 1298905,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298905"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "VALORA CRI PRÉ I FEEDER FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2025-12-19T23:59:00",
+      "data_publicacao": "2026-08-24T14:05:00",
+      "classificacao": "ata",
+      "fnet_id": 1298907,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298907"
+    },
+    {
+      "ticker": null,
       "nome_fundo": "SATURNO FUNDO DE INVESTIMENTO IMOBILIÁRIO",
       "nome_pregao": "",
       "setor": "FII (não-curado)",
@@ -10158,19 +10067,6 @@
       "fnet_id": 1205379,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1205379"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "HECTARE RECEBÍVEIS HIGH GRADE FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII - RESP LIMITADA",
-      "nome_pregao": "FII HECT CRI",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2025-11-27T10:00:00",
-      "data_publicacao": "2026-05-26T15:45:00",
-      "classificacao": "ata",
-      "fnet_id": 1203826,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1203826"
     },
     {
       "ticker": null,
