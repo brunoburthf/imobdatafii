@@ -1,7 +1,7 @@
 {
   "ticker": "GZIT11",
-  "ultima_atualizacao": "2026-08-03T11:09:35",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-08-26T02:17:31",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2023-11-30",
@@ -193,6 +193,12 @@
       "data_com": "2026-07-24",
       "data_pagamento": "2026-07-31",
       "valor": 0.42,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-24",
+      "data_pagamento": "2026-08-31",
+      "valor": 0.36,
       "tipo": "Rendimento"
     }
   ]
