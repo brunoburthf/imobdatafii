@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Sem isto o HTML fica em cache e continua apontando pro js/css antigo,
+       anulando o ?v=N (o _headers do Netlify cobre em produção; o servidor
+       local não manda esses headers). -->
+  <meta http-equiv="Cache-Control" content="no-store">
+  <title>Setor Agro — ImobData</title>
+  <link rel="stylesheet" href="css/style.css?v=8" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    /* ── ajustes da página (paleta do site, prefixo sa-) ── */
+    .sa-page-titulo {
+      font-size: 22px; font-weight: 700; color: var(--navy);
+      margin: 4px 0 6px 0; letter-spacing: -0.01em;
+    }
+    .sa-page-sub {
+      color: var(--texto-suave); font-size: 13px;
+      margin: 0 0 20px 0; line-height: 1.6; max-width: 900px;
+    }
+    .sa-presets { display: flex; gap: 6px; flex-wrap: wrap; margin: 0 0 18px; }
+    .sa-presets button {
+      background: var(--branco); color: var(--azul-escuro);
+      border: 1px solid var(--cinza-borda); border-radius: 6px;
+      padding: 6px 13px; font-size: 12.5px; font-weight: 600; cursor: pointer;
+      transition: background .15s, border-color .15s;
+    }
+    .sa-presets button:hover { background: #f0f2f5; }
+    .sa-presets button.ativo {
+      background: var(--azul-escuro); color: var(--branco); border-color: var(--azul-escuro);
+    }
+    .sa-canvas-wrap { position: relative; height: 340px; width: 100%; }
+    /* Faixa de estatísticas no header do card */
+    .sa-stats { display: flex; gap: 18px; flex-wrap: wrap; font-size: 12.5px; }
+    .sa-stat-rot { color: var(--texto-suave); }
+    .sa-stat-val { font-weight: 700; color: var(--navy); }
+    .sa-acima { color: rgb(0, 176, 80); font-weight: 700; }
+    .sa-abaixo { color: rgb(236, 12, 0); font-weight: 700; }
+    .sa-nota {
+      color: var(--texto-suave); font-size: 11.5px; font-style: italic; margin: 8px 0 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link ativo">Interno</a>
+          <a href="outras_informacoes.html" class="nav-link">Outras Informações</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='valuation.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="sa-page-titulo">Setor Agro</h1>
+    <p class="sa-page-sub">
+      Evolução do Dividend Yield e do P/VP do setor, contra a média histórica de toda a
+      série. A faixa sombreada é a média ±1 desvio-padrão: fora dela, o setor está em
+      território atipicamente caro ou barato frente ao próprio histórico.
+    </p>
+
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <div class="sa-presets">
+        <button data-meses="12" onclick="aplicarPeriodo(12)">12M</button>
+        <button data-meses="24" onclick="aplicarPeriodo(24)">2A</button>
+        <button data-meses="36" onclick="aplicarPeriodo(36)">3A</button>
+        <button data-meses="0" class="ativo" onclick="aplicarPeriodo(0)">Tudo</button>
+      </div>
+
+      <div class="setor-card setor-card-destaque">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">Dividend Yield</h2>
+          <div class="rm-header-acoes">
+            <span class="sa-stats" id="sa-stats-dy">—</span>
+            <button class="btn-baixar-planilha" onclick="copiarGraficoAgro('sa-grafico-dy', this)"
+                    title="Copia o gráfico como imagem PNG de fundo transparente — cole direto no PowerPoint (Ctrl+V)">📋 Copiar gráfico</button>
+          </div>
+        </div>
+        <div class="sa-canvas-wrap">
+          <canvas id="sa-grafico-dy"></canvas>
+        </div>
+      </div>
+
+      <div class="setor-card setor-card-destaque" style="margin-top:24px">
+        <div class="setor-card-header">
+          <h2 class="setor-card-titulo">P/VP</h2>
+          <div class="rm-header-acoes">
+            <span class="sa-stats" id="sa-stats-pvp">—</span>
+            <button class="btn-baixar-planilha" onclick="copiarGraficoAgro('sa-grafico-pvp', this)"
+                    title="Copia o gráfico como imagem PNG de fundo transparente — cole direto no PowerPoint (Ctrl+V)">📋 Copiar gráfico</button>
+          </div>
+        </div>
+        <div class="sa-canvas-wrap">
+          <canvas id="sa-grafico-pvp"></canvas>
+        </div>
+        <p class="sa-nota" id="sa-nota">—</p>
+      </div>
+
+      <div style="margin-top:18px">
+        <button class="btn-baixar-planilha" onclick="baixarAgroExcel(this)"
+                title="Baixa as séries de DY e P/VP do setor em planilha Excel (.xlsx)">📥 Baixar séries em Excel</button>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="js/setor_agro.js?v=1"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/local.js"></script>
+  <script>guardValuation();</script>
+</body>
+</html>
