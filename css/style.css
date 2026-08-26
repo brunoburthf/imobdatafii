@@ -555,6 +555,23 @@ tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
   border-color: var(--azul);
 }
 
+/* Copiar gráfico — fica na mesma barra dos períodos, empurrado pra direita
+   pra não ser confundido com um filtro. */
+.btn-copiar-grafico {
+  margin-left: auto;
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: 1px solid var(--cinza-borda);
+  background: var(--branco);
+  color: var(--texto-suave);
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.btn-copiar-grafico:hover:not(:disabled) { background: var(--cinza-fundo); }
+.btn-copiar-grafico:disabled { opacity: .7; cursor: default; }
+
 /* PÁGINA DE SETORES */
 .setor-grid {
   display: grid;

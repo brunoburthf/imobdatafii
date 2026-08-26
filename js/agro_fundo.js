@@ -250,8 +250,8 @@ function renderizarGrafico(tipo, dados, periodo) {
   const valores = filtrado.map(([, v]) => v);
 
   const canvasId = tipo === "preco" ? "grafico-preco" : "grafico-pvp";
-  const cor = tipo === "preco" ? "rgb(0,9,60)" : "rgba(239,99,0,1)";
-  const corFundo = tipo === "preco" ? "rgba(0,9,60,0.15)" : "rgba(239,99,0,0.1)";
+  const cor = tipo === "preco" ? "rgb(0,0,0)" : "rgba(255,98,0,1)";
+  const corFundo = tipo === "preco" ? "rgba(0,0,0,0.15)" : "rgba(255,98,0,0.1)";
   const label = tipo === "preco" ? "Preço (R$)" : "P/VP";
 
   const ctx = document.getElementById(canvasId).getContext("2d");
@@ -333,7 +333,11 @@ function renderizarGraficoRetorno(periodo) {
     } else badge.style.display = "none";
   }
 
-  const corFii = valoresFii.at(-1) >= 0 ? "rgba(239,99,0,1)" : "#DC2626";
+  // Par explícito: o derivado antigo era corFii.replace("1)", "0.15)"), que não
+  // casava no "#DC2626" e deixava a área do retorno negativo vermelha sólida.
+  const positivoFii = valoresFii.at(-1) >= 0;
+  const corFii = positivoFii ? "rgba(255,98,0,1)" : "rgba(220,38,38,1)";
+  const corFiiFundo = positivoFii ? "rgba(255,98,0,0.15)" : "rgba(220,38,38,0.15)";
   const ctx = document.getElementById("grafico-retorno").getContext("2d");
   if (chartRetorno) chartRetorno.destroy();
 
@@ -343,8 +347,8 @@ function renderizarGraficoRetorno(periodo) {
       labels,
       datasets: [
         { label: ticker, data: valoresFii, borderColor: corFii,
-          backgroundColor: corFii.replace("1)", "0.15)"), borderWidth: 2, pointRadius: 0, fill: true, tension: 0.2 },
-        { label: "CDI", data: valoresCdi, borderColor: "rgb(0,9,60)", borderWidth: 1.5,
+          backgroundColor: corFiiFundo, borderWidth: 2, pointRadius: 0, fill: true, tension: 0.2 },
+        { label: "CDI", data: valoresCdi, borderColor: "rgb(0,0,0)", borderWidth: 1.5,
           borderDash: [5, 4], pointRadius: 0, fill: false, tension: 0.2 }
       ]
     },
@@ -440,7 +444,7 @@ function renderizarGraficoSpread(periodo) {
     data: {
       labels,
       datasets: [
-        { label: "Spread (pp)", data: valores, borderColor: "rgb(0,9,60)", backgroundColor: corArea,
+        { label: "Spread (pp)", data: valores, borderColor: "rgb(0,0,0)", backgroundColor: corArea,
           borderWidth: 1.5, pointRadius: 0, fill: true, tension: 0.2 },
         { label: `Média (${media >= 0 ? "+" : ""}${media.toFixed(2)}pp)`, data: mediaArr,
           borderColor: corLinhaMedia, borderWidth: 1.5, borderDash: [5, 4], pointRadius: 0, fill: false }
@@ -473,6 +477,47 @@ function filtrarGrafico(tipo, periodo) {
   if (tipo === "spread")  return renderizarGraficoSpread(periodo);
   const dados = tipo === "preco" ? dadosPrecoCorpCompleto : dadosPvpCompleto;
   renderizarGrafico(tipo, dados, periodo);
+}
+
+// ── Copiar gráfico como imagem ──────────────────────────────────────────────
+// O Chart.js não pinta fundo, então o canvas cru sai transparente. Aqui o PNG
+// vai com fundo branco: o destino desses gráficos é relatório/apresentação, e
+// transparente sobre slide escuro deixaria os eixos pretos ilegíveis.
+async function copiarGraficoAgroFundo(canvasId, btn) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  const txt = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "Copiando…";
+  try {
+    const composto = document.createElement("canvas");
+    composto.width = canvas.width;
+    composto.height = canvas.height;
+    const ctx = composto.getContext("2d");
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(0, 0, composto.width, composto.height);
+    ctx.drawImage(canvas, 0, 0);
+
+    const blob = await new Promise((res, rej) =>
+      composto.toBlob(b => b ? res(b) : rej(new Error("falha ao gerar PNG")), "image/png"));
+
+    if (navigator.clipboard && window.ClipboardItem) {
+      await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+      btn.textContent = "✓ Copiado!";
+    } else {
+      // Contexto sem clipboard de imagem (http, navegador antigo): baixa.
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = `${canvasId}.png`;
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+      URL.revokeObjectURL(a.href);
+      btn.textContent = "✓ Baixado";
+    }
+  } catch (e) {
+    btn.textContent = "Erro: " + (e.message || e);
+  } finally {
+    setTimeout(() => { btn.disabled = false; btn.textContent = txt; }, 2200);
+  }
 }
 
 carregar();

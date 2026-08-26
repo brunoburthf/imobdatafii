@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ImobData</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=9" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
@@ -90,6 +90,8 @@
           <button onclick="filtrarGrafico('preco', '3A')" class="btn-periodo" data-chart="preco" data-periodo="3A">3A</button>
           <button onclick="filtrarGrafico('preco', '5A')" class="btn-periodo" data-chart="preco" data-periodo="5A">5A</button>
           <button onclick="filtrarGrafico('preco', 'MAX')" class="btn-periodo" data-chart="preco" data-periodo="MAX">MAX</button>
+          <button type="button" class="btn-copiar-grafico" onclick="copiarGraficoAgroFundo('grafico-preco', this)"
+                  title="Copia o gráfico como imagem PNG — cole direto no PowerPoint (Ctrl+V)">📋 Copiar</button>
         </div>
         <canvas id="grafico-preco"></canvas>
       </div>
@@ -106,6 +108,8 @@
           <button onclick="filtrarGrafico('retorno', '3A')" class="btn-periodo" data-chart="retorno" data-periodo="3A">3A</button>
           <button onclick="filtrarGrafico('retorno', '5A')" class="btn-periodo" data-chart="retorno" data-periodo="5A">5A</button>
           <button onclick="filtrarGrafico('retorno', 'MAX')" class="btn-periodo" data-chart="retorno" data-periodo="MAX">MAX</button>
+          <button type="button" class="btn-copiar-grafico" onclick="copiarGraficoAgroFundo('grafico-retorno', this)"
+                  title="Copia o gráfico como imagem PNG — cole direto no PowerPoint (Ctrl+V)">📋 Copiar</button>
         </div>
         <canvas id="grafico-retorno"></canvas>
       </div>
@@ -116,6 +120,8 @@
           <button onclick="filtrarGrafico('pvp', '3A')" class="btn-periodo" data-chart="pvp" data-periodo="3A">3A</button>
           <button onclick="filtrarGrafico('pvp', '5A')" class="btn-periodo" data-chart="pvp" data-periodo="5A">5A</button>
           <button onclick="filtrarGrafico('pvp', 'MAX')" class="btn-periodo" data-chart="pvp" data-periodo="MAX">MAX</button>
+          <button type="button" class="btn-copiar-grafico" onclick="copiarGraficoAgroFundo('grafico-pvp', this)"
+                  title="Copia o gráfico como imagem PNG — cole direto no PowerPoint (Ctrl+V)">📋 Copiar</button>
         </div>
         <canvas id="grafico-pvp"></canvas>
       </div>
@@ -126,6 +132,8 @@
           <button onclick="filtrarGrafico('spread', '3A')" class="btn-periodo" data-chart="spread" data-periodo="3A">3A</button>
           <button onclick="filtrarGrafico('spread', '5A')" class="btn-periodo" data-chart="spread" data-periodo="5A">5A</button>
           <button onclick="filtrarGrafico('spread', 'MAX')" class="btn-periodo" data-chart="spread" data-periodo="MAX">MAX</button>
+          <button type="button" class="btn-copiar-grafico" onclick="copiarGraficoAgroFundo('grafico-spread', this)"
+                  title="Copia o gráfico como imagem PNG — cole direto no PowerPoint (Ctrl+V)">📋 Copiar</button>
         </div>
         <canvas id="grafico-spread"></canvas>
       </div>
@@ -136,7 +144,7 @@
   <div id="loading" class="loading">Carregando...</div>
   <div id="erro" class="erro" style="display:none"></div>
 
-  <script src="js/agro_fundo.js?v=2"></script>
+  <script src="js/agro_fundo.js?v=3"></script>
   <script src="js/local.js"></script>
 </body>
 </html>
