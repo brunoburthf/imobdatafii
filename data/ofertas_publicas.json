@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "28/08/2026 15:47",
+  "atualizado_em": "29/08/2026 10:34",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -18667,7 +18667,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 241d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 242d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -36729,7 +36729,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 273d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 274d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -57396,7 +57396,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 882d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 883d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -75373,7 +75373,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1458d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1459d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -77108,7 +77108,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1885d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1886d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -128945,6 +128945,16 @@
     }
   ],
   "_anuncios_fnet_sem_cvm": [
+    {
+      "ticker": "HGRE11",
+      "nome_pregao": "FII HGRE PAX",
+      "tipo": "Inicio",
+      "tipo_completo": "Anúncio de Início",
+      "data_anuncio": "2026-08-28T19:32:00",
+      "fnet_id": 1304074,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1304074"
+    },
     {
       "ticker": "SNFZ11",
       "nome_pregao": "FIAGRO SNFZ",
