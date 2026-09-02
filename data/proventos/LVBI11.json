@@ -1,7 +1,7 @@
 {
   "ticker": "LVBI11",
-  "ultima_atualizacao": "2026-08-03T11:08:59",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-09-02T05:12:51",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2018-12-28",
@@ -553,6 +553,12 @@
       "data_com": "2026-07-31",
       "data_pagamento": "2026-08-07",
       "valor": 0.75,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-31",
+      "data_pagamento": "2026-09-08",
+      "valor": 0.8,
       "tipo": "Rendimento"
     }
   ]

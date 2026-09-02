@@ -1,7 +1,7 @@
 {
   "ticker": "BCIA11",
-  "ultima_atualizacao": "2026-08-03T11:10:27",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-09-02T05:12:51",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2016-06-30",
@@ -738,6 +738,12 @@
     {
       "data_com": "2026-07-31",
       "data_pagamento": "2026-08-28",
+      "valor": 0.86,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-31",
+      "data_pagamento": "2026-09-29",
       "valor": 0.86,
       "tipo": "Rendimento"
     }

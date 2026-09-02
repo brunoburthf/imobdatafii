@@ -1,7 +1,7 @@
 {
   "ticker": "TRXF11",
-  "ultima_atualizacao": "2026-08-03T11:08:38",
-  "fonte": "statusinvest",
+  "ultima_atualizacao": "2026-09-02T05:12:51",
+  "fonte": "statusinvest+fnet",
   "proventos": [
     {
       "data_com": "2020-02-28",
@@ -468,6 +468,12 @@
     {
       "data_com": "2026-07-31",
       "data_pagamento": "2026-08-14",
+      "valor": 0.93,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-08-31",
+      "data_pagamento": "2026-09-15",
       "valor": 0.93,
       "tipo": "Rendimento"
     }
