@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "03/09/2026 16:58",
+  "atualizado_em": "04/09/2026 06:49",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -2551,26 +2551,20 @@
       "fnet_id": 1278769,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1278769"
-    },
-    {
-      "ticker": "EGAF11",
-      "nome_fundo": "EGAF11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-08-04T17:03:00",
-      "data_com": "2026-08-04",
-      "data_pagamento": "2026-08-11",
-      "valor": 1.4,
-      "valor_anterior": 1.35,
-      "variacao_pct": 0.03703703703703698,
-      "periodo_referencia": "07-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1276209,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276209"
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "BTLG11",
+      "nome_fundo": "BTG Pactual Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-09-03T21:08:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1309613,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309613"
+    },
     {
       "ticker": "MCRE11",
       "nome_fundo": "Mauá Capital Real Estate FII",
@@ -3362,20 +3356,59 @@
       "fnet_id": 1277002,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1277002"
-    },
-    {
-      "ticker": "PMLL11",
-      "nome_fundo": "Genial Malls FII",
-      "setor": "Shoppings",
-      "data_anuncio": "2026-08-04T21:49:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1276734,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276734"
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "BTHF11",
+      "nome_fundo": "BTG Pactual Real Estate Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-09-03T21:01:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1309609,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309609"
+    },
+    {
+      "ticker": "HGBS11",
+      "nome_fundo": "Hedge Brasil Shopping FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-09-03T19:50:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1309543,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309543"
+    },
+    {
+      "ticker": "KIVO11",
+      "nome_fundo": "Kilima Volkano Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-03T18:47:00",
+      "data_referencia": "31/07/2026",
+      "fnet_id": 1309376,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309376"
+    },
+    {
+      "ticker": "VCRA11",
+      "nome_fundo": "VCRA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-09-03T18:25:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1309352,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309352"
+    },
+    {
+      "ticker": "OUJP11",
+      "nome_fundo": "Ourinvest Jpp FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-03T17:05:00",
+      "data_referencia": "30/06/2026",
+      "fnet_id": 1309129,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1309129"
+    },
     {
       "ticker": "BPML11",
       "nome_fundo": "BTG Pactual Shoppings FII",
@@ -4775,76 +4808,6 @@
       "fnet_id": 1277921,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1277921"
-    },
-    {
-      "ticker": "BPML11",
-      "nome_fundo": "BTG Pactual Shoppings FII",
-      "setor": "Shoppings",
-      "data_anuncio": "2026-08-04T19:15:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1276492,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276492"
-    },
-    {
-      "ticker": "DEVA11",
-      "nome_fundo": "Devant Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-04T18:48:00",
-      "data_referencia": "29/05/2026",
-      "fnet_id": 1276436,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276436"
-    },
-    {
-      "ticker": "LIFE11",
-      "nome_fundo": "Life Capital Partners FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-08-04T18:38:00",
-      "data_referencia": "30/06/2026",
-      "fnet_id": 1276417,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276417"
-    },
-    {
-      "ticker": "KFOF11",
-      "nome_fundo": "Fundo de Fundos de Investimento Imobiliário Kinea FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-08-04T17:37:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1276293,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276293"
-    },
-    {
-      "ticker": "KNRI11",
-      "nome_fundo": "Kinea Renda Imobiliária FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-08-04T17:34:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1276289,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276289"
-    },
-    {
-      "ticker": "SNEL11",
-      "nome_fundo": "Suno Energias Limpas FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-04T15:56:00",
-      "data_referencia": "30/06/2026",
-      "fnet_id": 1276044,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276044"
-    },
-    {
-      "ticker": "WHGR11",
-      "nome_fundo": "Whg Real Estate FII FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-08-04T15:40:00",
-      "data_referencia": "30/06/2026",
-      "fnet_id": 1276014,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1276014"
     }
   ]
 }
