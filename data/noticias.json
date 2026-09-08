@@ -1,7 +1,41 @@
 {
-  "atualizado_em": "08/09/2026 10:00",
+  "atualizado_em": "08/09/2026 17:08",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "RECT11",
+      "nome_fundo": "FII Rec Renda Imobiliaria",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-09-08T13:11:00",
+      "data_com": "2026-09-08",
+      "data_pagamento": "2026-09-15",
+      "valor": 0.45,
+      "valor_anterior": 0.45,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Agosto",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1311144,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1311144"
+    },
+    {
+      "ticker": "RECR11",
+      "nome_fundo": "FII REC Recebíveis Imobiliários",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-08T10:21:00",
+      "data_com": "2026-09-08",
+      "data_pagamento": "2026-09-15",
+      "valor": 0.7373,
+      "valor_anterior": 1.0987,
+      "variacao_pct": -0.3289341949576773,
+      "periodo_referencia": "Agosto",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1310971,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1310971"
+    },
     {
       "ticker": "BTAG11",
       "nome_fundo": "BTAG11",
