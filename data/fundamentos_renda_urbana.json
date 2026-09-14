@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-11T16:40:47",
+  "atualizado_em": "2026-09-14T18:08:13",
   "setor": "Tijolo Multissetorial",
   "rotulo": "Renda Urbana",
   "fontes": {
@@ -8,12 +8,12 @@
     "ltv_historico": "LTV mensal por fundo ponderado pelo peso IFIX (pesos_ifix_historico, forward-fill). Constituentes atuais tracados pra tras.",
     "vacancia_historico": "Vacancia fisica por imovel (CVM informe trimestral, Percentual_Vacancia) ponderada por area dentro do fundo e pelo peso IFIX entre fundos (current-constituents)."
   },
-  "data_ref_ltv": "2026-07-01",
+  "data_ref_ltv": "2026-08-01",
   "agregado": {
     "vacancia_media": 0.020235,
     "vacancia_ponderada_ifix": 0.024754,
-    "ltv_ponderado_valor": 0.225775,
-    "ltv_ponderado_ifix": 0.21155,
+    "ltv_ponderado_valor": 0.225766,
+    "ltv_ponderado_ifix": 0.005112,
     "n_fundos": 11
   },
   "fundos": [
@@ -77,10 +77,10 @@
       "retorno_12m": 0.141659,
       "vacancia": null,
       "n_imoveis": 0,
-      "ltv": 0.005118,
-      "divida_aquisicao": 7461515.27,
+      "ltv": 0.005112,
+      "divida_aquisicao": 7457472.11,
       "divida_securitizacao": 0.0,
-      "valor_imoveis": 1457908726.93
+      "valor_imoveis": 1458711803.53
     },
     {
       "ticker": "RBVA11",
@@ -563,6 +563,12 @@
       "ltv_ifix": 0.21155,
       "ltv_simples": 0.146675,
       "n_fundos": 10
+    },
+    {
+      "mes": "2026-08",
+      "ltv_ifix": 0.005112,
+      "ltv_simples": 0.005112,
+      "n_fundos": 1
     }
   ],
   "vacancia_historico_ifix": [
