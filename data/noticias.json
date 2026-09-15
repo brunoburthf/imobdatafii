@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "14/09/2026 18:26",
+  "atualizado_em": "15/09/2026 07:01",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "TOPP11",
+      "nome_fundo": "Rbr Top Offices FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-09-14T17:28:00",
+      "data_com": "2026-09-14",
+      "data_pagamento": "2026-09-21",
+      "valor": 0.45,
+      "valor_anterior": 0.84,
+      "variacao_pct": -0.4642857142857143,
+      "periodo_referencia": "Agosto-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1318664,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1318664"
+    },
     {
       "ticker": "VGIP11",
       "nome_fundo": "Valora Cri Índice de Preço FII",
@@ -2283,6 +2300,39 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "XPML11",
+      "nome_fundo": "Xp Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-09-14T23:00:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1319388,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1319388"
+    },
+    {
+      "ticker": "BTCI11",
+      "nome_fundo": "BTG Pactual Crédito Imobiliário FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-14T19:14:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1319014,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1319014"
+    },
+    {
+      "ticker": "SNEL11",
+      "nome_fundo": "Suno Energias Limpas FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-14T18:25:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1318840,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1318840"
+    },
+    {
       "ticker": "RBVA11",
       "nome_fundo": "Rio Bravo Renda Varejo FII",
       "setor": "Tijolo Multissetorial",
@@ -2955,6 +3005,26 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "KNCR11",
+      "nome_fundo": "Kinea Rendimentos Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-14T20:19:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1319106,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1319106"
+    },
+    {
+      "ticker": "KNUQ11",
+      "nome_fundo": "Kinea Unique Hy CDI FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-14T20:17:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1319105,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1319105"
+    },
     {
       "ticker": "RURA11",
       "nome_fundo": "RURA11",
