@@ -1,7 +1,7 @@
 {
   "fonte": "BCB SGS 432 (Selic Meta) — mudancas de valor = decisao COPOM",
-  "atualizado_em": "2026-09-15T18:03:18",
-  "n_decisoes": 153,
+  "atualizado_em": "2026-09-17T18:04:37",
+  "n_decisoes": 154,
   "nota": "Detecta apenas reunioes que alteraram a Meta. Reunioes que mantiveram a taxa nao aparecem (necessitariam de calendario oficial COPOM).",
   "decisoes": [
     {
@@ -1072,6 +1072,13 @@
       "data": "2026-08-06",
       "taxa_anterior": 14.25,
       "taxa_nova": 14.0,
+      "delta_pp": -0.25,
+      "direcao": "baixa"
+    },
+    {
+      "data": "2026-09-17",
+      "taxa_anterior": 14.0,
+      "taxa_nova": 13.75,
       "delta_pp": -0.25,
       "direcao": "baixa"
     }
