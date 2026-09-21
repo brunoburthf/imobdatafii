@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-18T16:37:29",
+  "atualizado_em": "2026-09-21T18:16:10",
   "setor": "Tijolo Multissetorial",
   "rotulo": "Renda Urbana",
   "fontes": {
@@ -12,8 +12,8 @@
   "agregado": {
     "vacancia_media": 0.020235,
     "vacancia_ponderada_ifix": 0.024754,
-    "ltv_ponderado_valor": 0.225766,
-    "ltv_ponderado_ifix": 0.005112,
+    "ltv_ponderado_valor": 0.238131,
+    "ltv_ponderado_ifix": 0.20617,
     "n_fundos": 11
   },
   "fundos": [
@@ -25,10 +25,10 @@
       "retorno_12m": 0.16249,
       "vacancia": 0.000908,
       "n_imoveis": 19,
-      "ltv": 0.064751,
+      "ltv": 0.064434,
       "divida_aquisicao": 0.0,
-      "divida_securitizacao": 273252230.24,
-      "valor_imoveis": 4220073197.75
+      "divida_securitizacao": 271211936.07,
+      "valor_imoveis": 4209166016.36
     },
     {
       "ticker": "HGRU11",
@@ -38,10 +38,10 @@
       "retorno_12m": 0.126265,
       "vacancia": 0.008122,
       "n_imoveis": 100,
-      "ltv": 0.099695,
-      "divida_aquisicao": 90750638.92,
-      "divida_securitizacao": 203061507.66,
-      "valor_imoveis": 2947095882.52
+      "ltv": 0.098947,
+      "divida_aquisicao": 90771274.58,
+      "divida_securitizacao": 201045696.02,
+      "valor_imoveis": 2949217971.29
     },
     {
       "ticker": "TRXF11",
@@ -51,10 +51,10 @@
       "retorno_12m": 0.001462,
       "vacancia": 0.0,
       "n_imoveis": 92,
-      "ltv": 0.53029,
-      "divida_aquisicao": 592994607.6,
-      "divida_securitizacao": 2560935943.18,
-      "valor_imoveis": 5947558951.13
+      "ltv": 0.557599,
+      "divida_aquisicao": 663117637.38,
+      "divida_securitizacao": 2810461659.17,
+      "valor_imoveis": 6229523792.87
     },
     {
       "ticker": "ALZR11",
@@ -64,10 +64,10 @@
       "retorno_12m": 0.118568,
       "vacancia": 0.118825,
       "n_imoveis": 20,
-      "ltv": 0.285713,
+      "ltv": 0.289167,
       "divida_aquisicao": 31632000.0,
-      "divida_securitizacao": 339899734.96,
-      "valor_imoveis": 1300365552.06
+      "divida_securitizacao": 344467739.69,
+      "valor_imoveis": 1300630705.81
     },
     {
       "ticker": "TVRI11",
@@ -90,10 +90,10 @@
       "retorno_12m": 0.238683,
       "vacancia": 0.059707,
       "n_imoveis": 73,
-      "ltv": 0.120778,
+      "ltv": 0.118882,
       "divida_aquisicao": 1066755.86,
-      "divida_securitizacao": 208395225.0,
-      "valor_imoveis": 1734272234.03
+      "divida_securitizacao": 205026886.23,
+      "valor_imoveis": 1733597409.59
     },
     {
       "ticker": "GARE11",
@@ -103,9 +103,9 @@
       "retorno_12m": 0.043579,
       "vacancia": 0.0,
       "n_imoveis": 3,
-      "ltv": 0.094253,
+      "ltv": 0.089354,
       "divida_aquisicao": 0.0,
-      "divida_securitizacao": 40443910.12,
+      "divida_securitizacao": 38341912.27,
       "valor_imoveis": 429100000.0
     },
     {
@@ -119,7 +119,7 @@
       "ltv": 0.0,
       "divida_aquisicao": 0.0,
       "divida_securitizacao": 0.0,
-      "valor_imoveis": 403195991.79
+      "valor_imoveis": 402634443.09
     },
     {
       "ticker": "RZAT11",
@@ -129,8 +129,8 @@
       "retorno_12m": 0.196836,
       "vacancia": 0.0,
       "n_imoveis": 9,
-      "ltv": 0.2054,
-      "divida_aquisicao": 49000000.0,
+      "ltv": 0.171866,
+      "divida_aquisicao": 41000000.0,
       "divida_securitizacao": 0.0,
       "valor_imoveis": 238558600.0
     },
@@ -566,9 +566,9 @@
     },
     {
       "mes": "2026-08",
-      "ltv_ifix": 0.005112,
-      "ltv_simples": 0.005112,
-      "n_fundos": 1
+      "ltv_ifix": 0.20617,
+      "ltv_simples": 0.145612,
+      "n_fundos": 10
     }
   ],
   "vacancia_historico_ifix": [
