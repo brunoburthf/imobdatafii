@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "23/09/2026 07:06",
+  "atualizado_em": "23/09/2026 17:47",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "BTRA11",
+      "nome_fundo": "BTRA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-09-23T09:46:00",
+      "data_com": "2026-09-23",
+      "data_pagamento": "2026-09-30",
+      "valor": 1.0,
+      "valor_anterior": 1.0,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Agosto-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1326364,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1326364"
+    },
     {
       "ticker": "BPML11",
       "nome_fundo": "BTG Pactual Shoppings FII",
