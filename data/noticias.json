@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "23/09/2026 17:47",
+  "atualizado_em": "24/09/2026 07:01",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "GZIT11",
+      "nome_fundo": "Gazit Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-09-23T16:31:00",
+      "data_com": "2026-09-23",
+      "data_pagamento": "2026-09-30",
+      "valor": 0.36,
+      "valor_anterior": 0.36,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Agosto-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1326876,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1326876"
+    },
     {
       "ticker": "BTRA11",
       "nome_fundo": "BTRA11",
@@ -2483,43 +2500,64 @@
       "fnet_id": 1304968,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1304968"
-    },
-    {
-      "ticker": "GZIT11",
-      "nome_fundo": "Gazit Malls FII",
-      "setor": "Shoppings",
-      "data_anuncio": "2026-08-24T17:07:00",
-      "data_com": "2026-08-24",
-      "data_pagamento": "2026-08-31",
-      "valor": 0.36,
-      "valor_anterior": 0.42,
-      "variacao_pct": -0.1428571428571429,
-      "periodo_referencia": "Julho-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1299093,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299093"
-    },
-    {
-      "ticker": "BTRA11",
-      "nome_fundo": "BTRA11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-08-24T09:25:00",
-      "data_com": "2026-08-24",
-      "data_pagamento": "2026-08-31",
-      "valor": 1.0,
-      "valor_anterior": 0.9,
-      "variacao_pct": 0.11111111111111116,
-      "periodo_referencia": "Julho-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1298711,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298711"
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "HGRE11",
+      "nome_fundo": "Pátria Escritórios FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-09-23T21:49:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1327264,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327264"
+    },
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-09-23T18:59:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1327192,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327192"
+    },
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-09-23T18:30:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1327152,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327152"
+    },
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-09-23T18:29:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1327150,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327150"
+    },
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-09-23T18:27:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1327148,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327148"
+    },
     {
       "ticker": "JSCR11",
       "nome_fundo": "Js Recebíveis Imobiliários FII",
@@ -3190,20 +3228,39 @@
       "fnet_id": 1300068,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300068"
-    },
-    {
-      "ticker": "IBBP11",
-      "nome_fundo": "Invista Brazilian Business Park FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-08-24T18:16:00",
-      "categoria": "Comunicado ao Mercado",
-      "especie": null,
-      "fnet_id": 1299343,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299343"
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "HGLG11",
+      "nome_fundo": "Pátria Log FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-09-23T21:35:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1327262,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327262"
+    },
+    {
+      "ticker": "AZPL11",
+      "nome_fundo": "Az Quest Panorama Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-09-23T20:02:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1327232,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327232"
+    },
+    {
+      "ticker": "CPSH11",
+      "nome_fundo": "Capitânia Shoppings FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-09-23T18:10:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1327053,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327053"
+    },
     {
       "ticker": "XPSF11",
       "nome_fundo": "Xp Selection Fundo de FII",
@@ -4503,86 +4560,6 @@
       "fnet_id": 1300009,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300009"
-    },
-    {
-      "ticker": "RZAT11",
-      "nome_fundo": "Riza Arctium Real Estate FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-08-24T19:04:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1299404,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299404"
-    },
-    {
-      "ticker": "SNCI11",
-      "nome_fundo": "Suno Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-24T18:42:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1299374,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299374"
-    },
-    {
-      "ticker": "DEVA11",
-      "nome_fundo": "Devant Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-24T18:19:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1299346,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299346"
-    },
-    {
-      "ticker": "JSRE11",
-      "nome_fundo": "Js Real Estate Multigestão FII",
-      "setor": "Escritórios",
-      "data_anuncio": "2026-08-24T18:15:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1299341,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299341"
-    },
-    {
-      "ticker": "TRBL11",
-      "nome_fundo": "Tellus Rio Bravo Renda Logística FII",
-      "setor": "Logística",
-      "data_anuncio": "2026-08-24T17:27:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1299200,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299200"
-    },
-    {
-      "ticker": "XPCA11",
-      "nome_fundo": "XPCA11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-08-24T16:11:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1299040,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299040"
-    },
-    {
-      "ticker": "KOPA11",
-      "nome_fundo": "KOPA11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-08-24T14:28:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1298955,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298955"
-    },
-    {
-      "ticker": "VCJR11",
-      "nome_fundo": "Vectis Juros Real FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-24T12:33:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1298861,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298861"
     }
   ]
 }
