@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "24/09/2026 15:01",
+  "atualizado_em": "25/09/2026 06:56",
   "janela_dias": 30,
   "dividendos": [
     {
@@ -2504,6 +2504,17 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "TEPP11",
+      "nome_fundo": "Tellus Properties FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-09-24T20:34:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1328026,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1328026"
+    },
+    {
       "ticker": "TRXF11",
       "nome_fundo": "Trx Real Estate FII",
       "setor": "Tijolo Multissetorial",
@@ -3261,20 +3272,89 @@
       "fnet_id": 1301321,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1301321"
-    },
-    {
-      "ticker": "HGRU11",
-      "nome_fundo": "Pátria Renda Urbana FII",
-      "setor": "Tijolo Multissetorial",
-      "data_anuncio": "2026-08-25T18:32:00",
-      "categoria": "Fato Relevante",
-      "especie": null,
-      "fnet_id": 1300068,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300068"
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "TRBL11",
+      "nome_fundo": "Tellus Rio Bravo Renda Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-09-24T19:43:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1328003,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1328003"
+    },
+    {
+      "ticker": "BCRI11",
+      "nome_fundo": "Banestes Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-24T18:30:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1327856,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327856"
+    },
+    {
+      "ticker": "CCME11",
+      "nome_fundo": "Canuma Capital Multiestratégia FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-09-24T18:14:00",
+      "data_referencia": "24/09/2026",
+      "fnet_id": 1327826,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327826"
+    },
+    {
+      "ticker": "SPXS11",
+      "nome_fundo": "Spx Real Estate Multiestratégia FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-09-24T18:13:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1327824,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327824"
+    },
+    {
+      "ticker": "RZAK11",
+      "nome_fundo": "Riza Akin FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-24T18:11:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1327821,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327821"
+    },
+    {
+      "ticker": "MCRE11",
+      "nome_fundo": "Mauá Capital Real Estate FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-09-24T18:09:00",
+      "data_referencia": "24/09/2026",
+      "fnet_id": 1327817,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327817"
+    },
+    {
+      "ticker": "VRTM11",
+      "nome_fundo": "Fator Veritá Multiestratégia FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-09-24T17:05:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1327638,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327638"
+    },
+    {
+      "ticker": "VRTA11",
+      "nome_fundo": "Fator Verita FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-09-24T17:01:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1327631,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1327631"
+    },
     {
       "ticker": "HGLG11",
       "nome_fundo": "Pátria Log FII",
@@ -4544,66 +4624,6 @@
       "fnet_id": 1300495,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300495"
-    },
-    {
-      "ticker": "SNFZ11",
-      "nome_fundo": "SNFZ11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-08-25T22:49:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1300226,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300226"
-    },
-    {
-      "ticker": "RZAK11",
-      "nome_fundo": "Riza Akin FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-25T21:19:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1300215,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300215"
-    },
-    {
-      "ticker": "BCRI11",
-      "nome_fundo": "Banestes Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-25T18:30:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1300065,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300065"
-    },
-    {
-      "ticker": "DEVA11",
-      "nome_fundo": "Devant Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-25T18:30:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1300062,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300062"
-    },
-    {
-      "ticker": "AZPL11",
-      "nome_fundo": "Az Quest Panorama Logística FII",
-      "setor": "Logística",
-      "data_anuncio": "2026-08-25T18:27:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1300058,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300058"
-    },
-    {
-      "ticker": "RPRI11",
-      "nome_fundo": "Rbr Premium Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-08-25T17:32:00",
-      "data_referencia": "31/07/2026",
-      "fnet_id": 1300009,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1300009"
     }
   ]
 }
