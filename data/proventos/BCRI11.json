@@ -1,6 +1,6 @@
 {
   "ticker": "BCRI11",
-  "ultima_atualizacao": "2026-09-02T05:12:51",
+  "ultima_atualizacao": "2026-10-01T06:39:41",
   "fonte": "statusinvest+fnet",
   "proventos": [
     {
@@ -757,6 +757,12 @@
       "data_com": "2026-08-31",
       "data_pagamento": "2026-09-15",
       "valor": 0.75,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-09-30",
+      "data_pagamento": "2026-10-15",
+      "valor": 0.74,
       "tipo": "Rendimento"
     }
   ]
