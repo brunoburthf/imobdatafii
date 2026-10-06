@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "05/10/2026 10:58",
+  "atualizado_em": "06/10/2026 10:54",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -4876,47 +4876,6 @@
       "gestor": "Jive Investments Gestão de Recursos e Consultoria S.A.",
       "administrador": "MAF Distribuidora de Títulos e Valores Mobiliários S.A.",
       "destinacao_recursos": "Investimento em ativos imobiliários, com alocação residual em ativos financeiros.",
-      "fonte_csv": "res_160",
-      "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "0RWH11",
-      "nome_fundo": "KINEA CRÉDITO RESIDENCIAL PULVERIZADO FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "66038922000104",
-      "numero_processo": "SRE/1541/2026",
-      "numero_registro": "26351",
-      "tipo_oferta": "PRIMARIA",
-      "rito": "CVM 160 — Automático",
-      "modalidade": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
-      "lider": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
-      "ofertante": "KINEA CREDITO RESIDENCIAL PULVERIZADO FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA",
-      "data_protocolo": "2026-05-18",
-      "data_registro": "2026-05-26",
-      "data_inicio": "2026-05-26",
-      "data_encerramento": "",
-      "ultimo_comunicado": "Registro Concedido",
-      "data_comunicado": "",
-      "status": "Em distribuição",
-      "emissao": 1,
-      "serie": "",
-      "tipo_ativo": "Cotas de FII",
-      "tipo_fundo": "",
-      "preco_unitario": 100.0,
-      "quantidade_total": 5000000.0,
-      "valor_total": 500000000.0,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "publico_alvo": "Qualificado",
-      "regime_distribuicao": "Melhores Esforços",
-      "bookbuilding": true,
-      "incentivado": false,
-      "sustentavel": false,
-      "gestor": "KINEA INVESTIMENTOS LTDA.",
-      "administrador": "INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
-      "destinacao_recursos": "Neste sentido, os Ativos nos quais o Fundo poderá investir, conforme previsto em Regulamento são: (a) Certificados de Recebíveis Imobiliários (\"CRI\") (b) cotas de fundos de investimento imobiliário (\"FII\") (c) debêntures (\"Debêntures\") emitidas por emissores devidamente autorizados nos termos da regulamentação aplicável, e cujas atividades preponderantes sejam permitidas aos FII (d) cotas de fundos de investimento em direitos creditórios que tenham como política de investimento, exclusivamente, atividades preponderantes que sejam permitidas aos FII (\"FIDC\") e (e) Letras Imobiliárias",
       "fonte_csv": "res_160",
       "subscritores": {},
       "fnet_inicio": null,
@@ -12217,6 +12176,58 @@
       "fnet_encerramento": null
     },
     {
+      "ticker": "0RWH11",
+      "nome_fundo": "KINEA CRÉDITO RESIDENCIAL PULVERIZADO FII",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "66038922000104",
+      "numero_processo": "SRE/1541/2026",
+      "numero_registro": "26351",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Público em Geral ou Qualificado - com bookbuilding",
+      "lider": "ITAU BBA ASSESSORIA FINANCEIRA S.A",
+      "ofertante": "KINEA CREDITO RESIDENCIAL PULVERIZADO FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-05-18",
+      "data_registro": "2026-05-26",
+      "data_inicio": "2026-05-26",
+      "data_encerramento": "2026-10-05",
+      "ultimo_comunicado": "Registro Concedido",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 1,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 100.0,
+      "quantidade_total": 5000000.0,
+      "valor_total": 500000000.0,
+      "valor_captado": 249467300.0,
+      "oferta_inicial": false,
+      "publico_alvo": "Qualificado",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": true,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "KINEA INVESTIMENTOS LTDA.",
+      "administrador": "INTRAG DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "destinacao_recursos": "Neste sentido, os Ativos nos quais o Fundo poderá investir, conforme previsto em Regulamento são: (a) Certificados de Recebíveis Imobiliários (\"CRI\") (b) cotas de fundos de investimento imobiliário (\"FII\") (c) debêntures (\"Debêntures\") emitidas por emissores devidamente autorizados nos termos da regulamentação aplicável, e cujas atividades preponderantes sejam permitidas aos FII (d) cotas de fundos de investimento em direitos creditórios que tenham como política de investimento, exclusivamente, atividades preponderantes que sejam permitidas aos FII (\"FIDC\") e (e) Letras Imobiliárias",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Pessoa Física / Natural": {
+          "n_investidores": 2409,
+          "qtd_cotas": 2476936.0,
+          "valor_r": 247693600.0
+        },
+        "Soc. Adm. Empr. Próp.": {
+          "n_investidores": 36,
+          "qtd_cotas": 17737.0,
+          "valor_r": 1773700.0
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
       "ticker": "SNFZ11",
       "nome_fundo": "SNFZ11",
       "setor": "FI-Agro",
@@ -12492,11 +12503,7 @@
         }
       },
       "fnet_inicio": null,
-      "fnet_encerramento": {
-        "data": "2026-07-07",
-        "fnet_id": 1241703,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1241703"
-      }
+      "fnet_encerramento": null
     },
     {
       "ticker": "0LNI11",
@@ -22325,7 +22332,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 279d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 280d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -40439,7 +40446,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 311d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 312d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -61106,7 +61113,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 920d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 921d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -79083,7 +79090,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1496d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1497d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -80818,7 +80825,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1923d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1924d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -132544,16 +132551,6 @@
       "fnet_id": 1298009,
       "fnet_versao": 2,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298009"
-    },
-    {
-      "ticker": "BTAG11",
-      "nome_pregao": "FIAGRO BTAG",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-07-07T11:06:00",
-      "fnet_id": 1240850,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1240850"
     }
   ]
 }
