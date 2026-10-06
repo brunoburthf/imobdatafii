@@ -11,6 +11,16 @@ let _historicoDy = null;      // { Setor: [[data, dy_pct], ...] }
 let _ntnb5a = null;           // [{date, ytm}]
 let _ifixSerie = null;        // [[data, indice base 100], ...] — série do gráfico
 let _cdiSerie = null;         // [[data, indice base 100], ...] — série do gráfico
+// Níveis brutos guardados só pro Excel: o gráfico rebaseia tudo em 100 na janela
+// de 12m, mas a planilha leva também o nível original da série e a taxa CDI
+// diária que alimenta o acumulado.
+// ATENCAO: ifix.json NAO guarda os pontos oficiais do IFIX da B3 — e uma serie
+// de retorno total propria com base 100 em 04/01/2016 (Excel/Economatica ate
+// 19/05/2026, dai pra frente encadeada por atualizar_ifix_diario.py). Rotular
+// como "pontos" induz o leitor a comparar com o IFIX da B3, que esta na casa
+// dos milhares.
+let _ifixNominal = null;      // { data: nível do índice (base 100 em 04/01/2016) }
+let _cdiTaxaDia = null;       // { data: taxa CDI diária em decimal (SGS 12) }
 let _spreadMedio = {};        // Setor → média histórica (pp)
 let _spreadAtual = {};        // Setor → spread atual (pp)
 
@@ -59,6 +69,8 @@ async function carregar() {
 
     _ifixSerie = ifixSerie;
     _cdiSerie = cdiSerie;
+    _ifixNominal = Object.fromEntries(ifix12m);
+    _cdiTaxaDia = cdiMapa;
     desenharGrafico(ifixSerie, cdiSerie);
 
     // ── VISC11 vs TRXF11 desde a data de corte ──────────────────────────
@@ -506,23 +518,33 @@ async function baixarSeriesExcel(btn) {
   try {
     await _carregarSheetJsRM();
     const r4 = v => (v == null ? null : Math.round(v * 10000) / 10000);
+    const r6 = v => (v == null ? null : Math.round(v * 1e6) / 1e6);
     const cdiPorData = {};
     (_cdiSerie || []).forEach(([d, v]) => { cdiPorData[d] = v; });
 
     const aoa = [
       ["IFIX vs CDI — Últimos 12 meses"],
       [`Exportado em: ${new Date().toLocaleString("pt-BR")}`],
-      ["Base 100 na data inicial"],
+      ["Colunas 'base 100' = rebase na data inicial da janela de 12 meses"],
+      ["IFIX (índice) = nível da série de retorno total do ImobData, base 100 em 04/01/2016 — NÃO são os pontos oficiais do IFIX da B3"],
+      ["CDI (% a.d.) = taxa diária do BCB (SGS 12); em branco = sem taxa publicada na data (acumulado do dia = 0)"],
       [],
-      ["Data", "IFIX (base 100)", "CDI (base 100)"],
+      ["Data", "IFIX (índice base 2016)", "IFIX (base 100)", "CDI (% a.d.)", "CDI (base 100)"],
     ];
     _ifixSerie.forEach(([d, v]) => {
-      aoa.push([formatarDataLabel(d), r4(v), r4(cdiPorData[d])]);
+      const taxa = _cdiTaxaDia ? _cdiTaxaDia[d] : null;
+      aoa.push([
+        formatarDataLabel(d),
+        r4(_ifixNominal ? _ifixNominal[d] : null),
+        r4(v),
+        taxa == null ? null : r6(taxa * 100),
+        r4(cdiPorData[d]),
+      ]);
     });
 
     const wb = XLSX.utils.book_new();
     const ws = XLSX.utils.aoa_to_sheet(aoa);
-    ws["!cols"] = [{ wch: 12 }, { wch: 16 }, { wch: 16 }];
+    ws["!cols"] = [{ wch: 12 }, { wch: 22 }, { wch: 16 }, { wch: 14 }, { wch: 16 }];
     XLSX.utils.book_append_sheet(wb, ws, "IFIX vs CDI");
 
     const dt = new Date().toISOString().slice(0, 10);

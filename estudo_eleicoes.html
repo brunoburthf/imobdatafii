@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Sem isto o HTML fica em cache e continua apontando pro js antigo,
+       anulando o ?v=N (o _headers do Netlify cobre em produção; o servidor
+       local não manda esses headers). -->
+  <meta http-equiv="Cache-Control" content="no-store">
+  <title>Estudo Eleições — ImobData</title>
+  <link rel="stylesheet" href="css/style.css?v=2" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    /* Scatter quadrado: padding-bottom 100% (mesmo trick da tela de
+       volatilidade, independente do suporte a aspect-ratio). */
+    .ele-scatter-wrapper {
+      position: relative; width: 100%;
+      max-width: 660px; margin: 0 auto;
+    }
+    .ele-scatter-wrapper::before { content: ""; display: block; padding-bottom: 100%; }
+    .ele-scatter-wrapper > canvas {
+      position: absolute; top: 0; left: 0;
+      width: 100% !important; height: 100% !important;
+    }
+
+    .ele-legenda {
+      display: flex; flex-wrap: wrap; gap: 8px 18px;
+      margin: 12px auto 0; max-width: 660px;
+      font-size: 11.5px; color: var(--texto-suave);
+      justify-content: center;
+    }
+    .ele-legenda > button {
+      display: flex; align-items: center; gap: 6px;
+      background: none; border: none; padding: 2px 4px;
+      font-size: 11.5px; color: var(--texto-suave);
+      cursor: pointer; border-radius: 4px;
+    }
+    .ele-legenda > button.apagada { opacity: 0.35; }
+    .ele-legenda > button:hover { background: rgba(0,9,60,0.05); }
+    .ele-dot {
+      display: inline-block; width: 10px; height: 10px;
+      border-radius: 50%; flex-shrink: 0;
+    }
+
+    .ele-card-header {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; margin-bottom: 8px; flex-wrap: wrap;
+    }
+    .ele-nota {
+      font-size: 11.5px; color: var(--texto-suave);
+      margin: 10px 0 0; line-height: 1.5;
+    }
+    #tabela-fundos th { cursor: pointer; user-select: none; white-space: nowrap; }
+    #tabela-fundos th.ord-asc::after  { content: " ▲"; font-size: 9px; }
+    #tabela-fundos th.ord-desc::after { content: " ▼"; font-size: 9px; }
+    .ele-setor-tag {
+      display: inline-block; padding: 1px 7px; border-radius: 10px;
+      font-size: 10.5px; color: #fff; white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-left">
+        <a href="index.html" class="logo">ImobData</a>
+        <nav class="header-nav">
+          <a href="simulador.html" class="nav-link">Simulador de Carteira</a>
+          <a href="fiis.html" class="nav-link">Fundos Imobiliários</a>
+          <a href="infra.html" class="nav-link">Infraestrutura</a>
+          <a href="agro.html" class="nav-link">FI-Agros</a>
+          <a href="setor.html" class="nav-link">Análise Setorial</a>
+          <a href="noticias.html" class="nav-link">Notícias</a>
+          <a href="valuation.html" class="nav-link val-restrito ativo">Interno</a>
+          <a href="outras_informacoes.html" class="nav-link val-restrito">Outras Informações</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <span class="uso-interno">USO INTERNO</span>
+        <button onclick="location.href='valuation.html'" class="btn-voltar">&#8592; Voltar</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="menu-hero-titulo">Estudo Eleições</h1>
+
+    <div id="loading" class="loading">Carregando dados...</div>
+    <div id="erro" class="erro" style="display:none"></div>
+
+    <div id="conteudo" style="display:none">
+
+      <!-- Resumo setorial -->
+      <div class="setor-card setor-card-destaque">
+        <div class="ele-card-header">
+          <h2 class="setor-card-titulo">Resumo por setor</h2>
+          <span class="rm-resumo" id="ele-janela">—</span>
+        </div>
+        <div class="setor-tabela-wrapper">
+          <table id="tabela-setores">
+            <thead>
+              <tr>
+                <th>Setor</th>
+                <th class="num">Fundos</th>
+                <th class="num">Índice do setor</th>
+                <th class="num">Média dos fundos</th>
+                <th class="num">Acima do setor</th>
+                <th class="num">DY do setor</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-setores-body"></tbody>
+          </table>
+        </div>
+        <p class="ele-nota">
+          <b>Índice do setor</b> = índice ponderado pelo peso no IFIX de <i>todos</i> os FIIs do setor
+          (não só os desta lista), sobre retorno total. <b>Média dos fundos</b> = média simples
+          dos fundos selecionados abaixo. A divergência entre as duas colunas mostra se os
+          fundos da lista são representativos do setor.
+        </p>
+      </div>
+
+      <!-- Tabela por fundo -->
+      <div class="setor-card setor-card-destaque" style="margin-top:24px">
+        <div class="ele-card-header">
+          <h2 class="setor-card-titulo">Fundo × setor</h2>
+          <div class="rm-header-acoes">
+            <span class="rm-resumo" id="ele-resumo-fundos">—</span>
+            <button class="btn-baixar-planilha" onclick="baixarEstudoExcel(this)"
+                    title="Baixa a tabela completa em planilha Excel (.xlsx)">📥 Baixar Excel</button>
+          </div>
+        </div>
+        <div class="ele-legenda" id="ele-filtro-setores"></div>
+        <div class="setor-tabela-wrapper noticias-scroll" style="margin-top:12px">
+          <table id="tabela-fundos">
+            <thead>
+              <tr>
+                <th data-campo="ticker">Ticker</th>
+                <th data-campo="setor">Setor</th>
+                <th class="num" data-campo="retorno">Retorno</th>
+                <th class="num" data-campo="retorno_setor">Retorno setor</th>
+                <th class="num" data-campo="excesso">Excesso</th>
+                <th class="num" data-campo="dy">DY atual</th>
+                <th class="num" data-campo="dy_setor">DY setor</th>
+                <th class="num" data-campo="spread_dy">Spread DY</th>
+              </tr>
+            </thead>
+            <tbody id="tabela-fundos-body"></tbody>
+          </table>
+        </div>
+        <p class="ele-nota" id="ele-nota-dy"></p>
+      </div>
+
+      <!-- Scatter 1: fundo vs setor -->
+      <div class="setor-card setor-card-destaque" style="margin-top:24px">
+        <div class="ele-card-header">
+          <h2 class="setor-card-titulo">Retorno do fundo × retorno do setor</h2>
+          <button class="btn-baixar-planilha" onclick="copiarGrafico('scatter-fundo-setor', this)"
+                  title="Copia o gráfico como imagem PNG de fundo transparente — cole direto no PowerPoint (Ctrl+V)">📋 Copiar gráfico</button>
+        </div>
+        <div class="ele-scatter-wrapper"><canvas id="scatter-fundo-setor"></canvas></div>
+        <p class="ele-nota">
+          A diagonal é o desempenho igual ao do setor. Pontos <b>acima</b> da linha ficaram
+          atrás do próprio setor; <b>abaixo</b> dela, à frente.
+        </p>
+      </div>
+
+      <!-- Scatter 2: DY vs retorno -->
+      <div class="setor-card setor-card-destaque" style="margin-top:24px">
+        <div class="ele-card-header">
+          <h2 class="setor-card-titulo">DY atual × retorno do período</h2>
+          <button class="btn-baixar-planilha" onclick="copiarGrafico('scatter-dy-retorno', this)"
+                  title="Copia o gráfico como imagem PNG de fundo transparente — cole direto no PowerPoint (Ctrl+V)">📋 Copiar gráfico</button>
+        </div>
+        <div class="ele-scatter-wrapper"><canvas id="scatter-dy-retorno"></canvas></div>
+        <p class="ele-nota">
+          Linhas tracejadas = média da amostra em cada eixo. Testa se os fundos de DY mais
+          alto reagiram diferente no período.
+        </p>
+      </div>
+
+      <!-- Scatter 3: spread DY vs excesso -->
+      <div class="setor-card setor-card-destaque" style="margin-top:24px">
+        <div class="ele-card-header">
+          <h2 class="setor-card-titulo">Spread de DY × excesso de retorno</h2>
+          <button class="btn-baixar-planilha" onclick="copiarGrafico('scatter-spread-excesso', this)"
+                  title="Copia o gráfico como imagem PNG de fundo transparente — cole direto no PowerPoint (Ctrl+V)">📋 Copiar gráfico</button>
+        </div>
+        <div class="ele-scatter-wrapper"><canvas id="scatter-spread-excesso"></canvas></div>
+        <p class="ele-nota">
+          Eixo X: quanto o DY do fundo está acima (ou abaixo) do DY do próprio setor.
+          Eixo Y: quanto o fundo rendeu acima (ou abaixo) do índice do setor no período.
+        </p>
+      </div>
+
+      <p class="ele-nota" id="ele-fonte" style="margin-top:20px"></p>
+
+    </div>
+  </main>
+
+  <script src="js/estudo_eleicoes.js?v=2"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+  <script src="js/firebase-auth.js"></script>
+  <script src="js/local.js"></script>
+  <script>guardValuation();</script>
+</body>
+</html>
