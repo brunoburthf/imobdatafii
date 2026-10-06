@@ -57,6 +57,14 @@
       display: inline-block; padding: 1px 7px; border-radius: 10px;
       font-size: 10.5px; color: #fff; white-space: nowrap;
     }
+
+    /* Faixa do modo "preços de agora" — precisa ficar evidente que a tela
+       saiu do fechamento, já que o default é e continua sendo o fechamento. */
+    .ele-aviso-vivo {
+      background: #fff4e8; border-left: 3px solid #ef6300;
+      padding: 8px 12px; margin: 10px 0 0; border-radius: 4px;
+      font-size: 11.5px; color: #7a3c00; line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -95,8 +103,17 @@
       <div class="setor-card setor-card-destaque">
         <div class="ele-card-header">
           <h2 class="setor-card-titulo">Resumo por setor</h2>
-          <span class="rm-resumo" id="ele-janela">—</span>
+          <div class="rm-header-acoes">
+            <span class="rm-resumo" id="ele-janela">—</span>
+            <button class="btn-baixar-planilha" id="ele-btn-agora"
+                    title="Recalcula tudo com o último preço do prices.json (Yahoo), o mesmo feed das telas de FIIs. Não atualiza sozinho.">⚡ Preços de agora</button>
+            <button class="btn-baixar-planilha" id="ele-btn-brapi"
+                    title="Alternativa: cotação intradiária da brapi.dev (pede um token na primeira vez). Use quando o prices.json estiver velho.">⚡ brapi</button>
+            <button class="btn-baixar-planilha" id="ele-btn-fechamento" style="display:none"
+                    title="Volta aos números do último fechamento">↩ Voltar ao fechamento</button>
+          </div>
         </div>
+        <p class="ele-aviso-vivo" id="ele-aviso-vivo" style="display:none"></p>
         <div class="setor-tabela-wrapper">
           <table id="tabela-setores">
             <thead>
@@ -198,7 +215,7 @@
     </div>
   </main>
 
-  <script src="js/estudo_eleicoes.js?v=2"></script>
+  <script src="js/estudo_eleicoes.js?v=5"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>

@@ -22,10 +22,19 @@ const PALETA_SETORES = {
 };
 const COR_DEFAULT = "#6b7a8d";
 
-let _doc = null;                       // JSON completo
+let _doc = null;                       // JSON completo (sempre o fechamento)
 let _setoresOcultos = new Set();       // setores desmarcados na legenda
 let _ordem = { campo: "excesso", direcao: "desc" };
 const _charts = {};                    // id do canvas -> instância Chart
+
+// Modo "preço de agora": SÓ sob clique, nunca automático. O default é e
+// continua sendo o fechamento anterior — _vivo = null significa fechamento.
+const LS_TOKEN_BRAPI = "brapi_token";
+const BRAPI_LOTE = 20;                 // tickers por chamada
+// Mesmo feed que fii.js/agro.js/infra.js já consomem: yfinance -> prices.json,
+// lido do raw (não do deploy), com os 175 tickers do universo.
+const URL_PRICES = "https://raw.githubusercontent.com/brunoburthf/imobdatafii/master/prices.json";
+let _vivo = null;                      // { quando, fonte, precos: {T: preço}, faltando: [] }
 
 function cor(setor) { return PALETA_SETORES[setor] || COR_DEFAULT; }
 
@@ -47,6 +56,7 @@ async function carregar() {
       ? `DY sem dado para: ${semDy.join(", ")} — provento do mês ainda não publicado. Excesso e retorno seguem válidos.`
       : "";
 
+    renderEstadoPrecos();
     renderTabelaSetores();
     renderFiltroSetores();
     renderTabelaFundos();
@@ -54,6 +64,12 @@ async function carregar() {
     document.querySelectorAll("#tabela-fundos th[data-campo]").forEach(th => {
       th.addEventListener("click", () => ordenarPor(th.dataset.campo));
     });
+    document.getElementById("ele-btn-agora")
+      .addEventListener("click", ev => aplicarPrecosAgora(ev.currentTarget, "prices"));
+    document.getElementById("ele-btn-brapi")
+      .addEventListener("click", ev => aplicarPrecosAgora(ev.currentTarget, "brapi"));
+    document.getElementById("ele-btn-fechamento")
+      .addEventListener("click", voltarAoFechamento);
 
     document.getElementById("loading").style.display = "none";
     document.getElementById("conteudo").style.display = "block";
@@ -69,17 +85,244 @@ async function carregar() {
   }
 }
 
+// ─── Preços de agora (sob demanda) ───────────────────────────────────────
+//
+// A cotação intradiária vem NOMINAL; a série do estudo é ajustada por
+// provento. Comparar um com o outro erraria por todo dividendo pago desde a
+// base, então o retorno ao vivo encadeia o retorno do dia em cima do retorno
+// fechado:
+//     retorno = (ajustado[fim]/ajustado[base]) × (preço_agora/nominal[fim]) − 1
+// O índice setorial recebe o mesmo tratamento, ponderado por peso IFIX sobre
+// TODOS os FIIs do setor — senão o fundo andaria intradiário contra um setor
+// parado no fechamento.
+//
+// DY é inversamente proporcional ao preço (DY = provento×12/preço), então
+// escala por nominal[fim]/preço_agora nos dois lados.
+
+function tickersParaCotar() {
+  const s = new Set((_doc.fundos || []).map(f => f.ticker));
+  for (const membros of Object.values(_doc.universo_setorial || {})) {
+    for (const m of membros) s.add(m.ticker);
+  }
+  return [...s];
+}
+
+function tokenBrapi() {
+  let t = localStorage.getItem(LS_TOKEN_BRAPI);
+  if (!t) {
+    t = (prompt("Token da brapi.dev (guardado só neste navegador):") || "").trim();
+    if (!t) return null;
+    localStorage.setItem(LS_TOKEN_BRAPI, t);
+  }
+  return t;
+}
+
+// Fonte padrão: o prices.json que as outras telas já usam. Sem token, sem
+// dependência nova. A atualidade é a do arquivo — por isso o aviso mostra o
+// atualizado_em dele, e não a hora do clique: quem gera é o servidor local
+// (thread de 5 em 5 min) ou o workflow atualizar_precos, que o GitHub
+// estrangula. Se o arquivo estiver velho, o usuário vê na própria faixa.
+async function buscarPrecosPricesJson() {
+  const r = await fetch(URL_PRICES + "?t=" + Math.floor(Date.now() / 60000));
+  if (!r.ok) throw new Error(`prices.json respondeu ${r.status}`);
+  const doc = await r.json();
+  const precos = {};
+  for (const [t, p] of Object.entries(doc.precos || {})) {
+    if (typeof p === "number" && p > 0) precos[t] = p;
+  }
+  if (!Object.keys(precos).length) throw new Error("prices.json sem preços");
+  const tickers = tickersParaCotar();
+  return {
+    quando: doc.atualizado_em || "(sem carimbo de hora)",
+    fonte: "Yahoo via prices.json",
+    precos,
+    faltando: tickers.filter(t => precos[t] == null),
+  };
+}
+
+async function buscarPrecosBrapi() {
+  const token = tokenBrapi();
+  if (!token) throw new Error("sem token da brapi.dev");
+
+  const tickers = tickersParaCotar();
+  const precos = {};
+  for (let i = 0; i < tickers.length; i += BRAPI_LOTE) {
+    const lote = tickers.slice(i, i + BRAPI_LOTE);
+    const url = `https://brapi.dev/api/quote/${lote.join(",")}?token=${encodeURIComponent(token)}`;
+    const r = await fetch(url);
+    if (r.status === 401 || r.status === 403) {
+      localStorage.removeItem(LS_TOKEN_BRAPI);   // token ruim: pede de novo no próximo clique
+      throw new Error("token da brapi.dev recusado — clique de novo para informar outro");
+    }
+    if (!r.ok) throw new Error(`brapi.dev respondeu ${r.status}`);
+    const doc = await r.json();
+    for (const q of (doc.results || [])) {
+      const p = q.regularMarketPrice;
+      if (q.symbol && typeof p === "number" && p > 0) precos[q.symbol] = p;
+    }
+  }
+
+  if (Object.keys(precos).length === 0) throw new Error("nenhuma cotação retornada");
+  return {
+    quando: new Date().toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" }),
+    fonte: "brapi.dev (intradiário)",
+    precos,
+    faltando: tickers.filter(t => precos[t] == null),
+  };
+}
+
+// Retorno ponderado do dia para um setor, a partir das cotações de agora.
+// null se nenhum membro do setor tiver cotação.
+function retornoDiaSetor(setor) {
+  const membros = (_doc.universo_setorial || {})[setor] || [];
+  let num = 0, den = 0;
+  for (const m of membros) {
+    const p = _vivo.precos[m.ticker];
+    if (p == null || !m.nominal_fim) continue;
+    num += m.peso * (p / m.nominal_fim - 1);
+    den += m.peso;
+  }
+  return den > 0 ? num / den : null;
+}
+
+// Fundos com os números do modo atual. Sem _vivo devolve o fechamento intacto.
+function fundosCalculados() {
+  if (!_vivo) return _doc.fundos || [];
+
+  const retDiaSetor = {};
+  for (const s of Object.keys(_doc.universo_setorial || {})) retDiaSetor[s] = retornoDiaSetor(s);
+
+  return (_doc.fundos || []).map(f => {
+    const p = _vivo.precos[f.ticker];
+    const rd = retDiaSetor[f.setor];
+
+    // Setor: encadeia o dia em cima do índice fechado.
+    const retSetor = (rd != null && f.retorno_setor != null)
+      ? (1 + f.retorno_setor) * (1 + rd) - 1
+      : f.retorno_setor;
+    const dySetor = (rd != null && f.dy_setor != null)
+      ? f.dy_setor / (1 + rd)
+      : f.dy_setor;
+
+    // Fundo: sem cotação, fica no fechamento (mas o setor já andou).
+    if (p == null || !f.nominal_fim || f.preco_base == null || f.preco_fim == null) {
+      return { ...f, retorno_setor: retSetor, dy_setor: dySetor,
+               excesso: (f.retorno != null && retSetor != null) ? f.retorno - retSetor : null,
+               spread_dy: (f.dy != null && dySetor != null) ? f.dy - dySetor : null,
+               semCotacao: true };
+    }
+
+    const retorno = (f.preco_fim / f.preco_base) * (p / f.nominal_fim) - 1;
+    const dy = f.dy != null ? f.dy * (f.nominal_fim / p) : null;
+    return {
+      ...f,
+      retorno,
+      retorno_setor: retSetor,
+      excesso: retSetor != null ? retorno - retSetor : null,
+      dy,
+      dy_setor: dySetor,
+      spread_dy: (dy != null && dySetor != null) ? dy - dySetor : null,
+      preco_agora: p,
+      semCotacao: false,
+    };
+  });
+}
+
+// Resumo setorial recalculado em cima de fundosCalculados().
+function setoresCalculados() {
+  if (!_vivo) return _doc.setores || [];
+  const porSetor = {};
+  for (const f of fundosCalculados()) (porSetor[f.setor] ||= []).push(f);
+
+  return (_doc.setores || []).map(s => {
+    const lista = (porSetor[s.setor] || []).filter(f => f.retorno != null);
+    const rets = lista.map(f => f.retorno);
+    const rd = retornoDiaSetor(s.setor);
+    return {
+      ...s,
+      retorno_setor: (rd != null && s.retorno_setor != null)
+        ? (1 + s.retorno_setor) * (1 + rd) - 1 : s.retorno_setor,
+      retorno_medio_fundos: rets.length ? rets.reduce((a, b) => a + b, 0) / rets.length : null,
+      dy_setor: (rd != null && s.dy_setor != null) ? s.dy_setor / (1 + rd) : s.dy_setor,
+      acima_do_setor: lista.filter(f => (f.excesso ?? 0) > 0).length,
+      n_fundos: lista.length,
+    };
+  });
+}
+
+// fonte: "prices" (padrão, Yahoo) ou "brapi" (intradiário com token).
+// Só roda sob clique — não existe polling nesta tela.
+async function aplicarPrecosAgora(btn, fonte) {
+  const txt = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "Buscando...";
+  try {
+    _vivo = fonte === "brapi" ? await buscarPrecosBrapi() : await buscarPrecosPricesJson();
+  } catch (e) {
+    alert("Não foi possível buscar os preços: " + e.message);
+    _vivo = null;
+  } finally {
+    btn.disabled = false;
+    btn.textContent = txt;
+    atualizarTudo();
+  }
+}
+
+function voltarAoFechamento() {
+  _vivo = null;
+  atualizarTudo();
+}
+
+function renderEstadoPrecos() {
+  const aviso = document.getElementById("ele-aviso-vivo");
+  const btnVoltar = document.getElementById("ele-btn-fechamento");
+  if (!aviso || !btnVoltar) return;
+
+  btnVoltar.style.display = _vivo ? "" : "none";
+
+  // O rótulo da janela tem que acompanhar o modo: deixar "→ 05/10" no ar
+  // enquanto a tela mostra preço de hoje faz o leitor atribuir o movimento
+  // ao período errado.
+  const janela = document.getElementById("ele-janela");
+  if (janela) {
+    janela.innerHTML = _vivo
+      ? `${formatarData(_doc.data_base)} → <b>agora</b> (fechamento até ${formatarData(_doc.data_fim)} + preço do dia)`
+      : `${formatarData(_doc.data_base)} → ${formatarData(_doc.data_fim)} · <b>${_doc.dias_uteis}</b> ${_doc.dias_uteis === 1 ? "pregão" : "pregões"}`;
+  }
+
+  if (!_vivo) {
+    aviso.style.display = "none";
+    aviso.textContent = "";
+    return;
+  }
+  const falt = _vivo.faltando.length
+    ? ` · sem preço para ${_vivo.faltando.length} ticker(s): ${_vivo.faltando.slice(0, 6).join(", ")}${_vivo.faltando.length > 6 ? "…" : ""} (seguem no fechamento)`
+    : "";
+  aviso.style.display = "";
+  aviso.innerHTML =
+    `⚡ <b>Preços de ${_vivo.quando}</b> · fonte: ${_vivo.fonte} — retorno e DY recalculados ` +
+    `sobre esse preço, inclusive o índice setorial. Não atualiza sozinho: clique de novo ` +
+    `para rebuscar.${falt}`;
+}
+
+function atualizarTudo() {
+  renderEstadoPrecos();
+  renderTabelaSetores();
+  renderTabelaFundos();
+  desenharTodos();
+}
+
 // ─── Fundos visíveis (respeita o filtro da legenda) ──────────────────────
 
 function fundosVisiveis() {
-  return (_doc.fundos || []).filter(f => !_setoresOcultos.has(f.setor));
+  return fundosCalculados().filter(f => !_setoresOcultos.has(f.setor));
 }
 
 // ─── Tabelas ─────────────────────────────────────────────────────────────
 
 function renderTabelaSetores() {
   document.getElementById("tabela-setores-body").innerHTML =
-    (_doc.setores || []).map(s => `
+    setoresCalculados().map(s => `
       <tr>
         <td><span class="ele-setor-tag" style="background:${cor(s.setor)}">${s.setor}</span></td>
         <td class="num">${s.n_fundos}</td>
@@ -407,7 +650,9 @@ async function baixarEstudoExcel(btn) {
 
     const aoa = [
       ["Estudo Eleições — fundo × setor"],
-      [`Janela: ${formatarData(_doc.data_base)} a ${formatarData(_doc.data_fim)} (${_doc.dias_uteis} pregões)`],
+      [_vivo
+        ? `Janela: ${formatarData(_doc.data_base)} ate o PRECO DE ${_vivo.quando} (fechamento ate ${formatarData(_doc.data_fim)} + preco do dia, fonte ${_vivo.fonte})`
+        : `Janela: ${formatarData(_doc.data_base)} a ${formatarData(_doc.data_fim)} (${_doc.dias_uteis} pregões)`],
       [`Exportado em: ${new Date().toLocaleString("pt-BR")}`],
       [_doc.fonte],
       [],
