@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "06/10/2026 18:50",
+  "atualizado_em": "07/10/2026 08:01",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "FATN11",
+      "nome_fundo": "Brc Renda Corporativa FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-10-06T17:04:00",
+      "data_com": "2026-10-06",
+      "data_pagamento": "2026-10-15",
+      "valor": 0.8,
+      "valor_anterior": 0.8,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "setembro/2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1341223,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341223"
+    },
     {
       "ticker": "EGAF11",
       "nome_fundo": "EGAF11",
@@ -3219,6 +3236,56 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "VGIP11",
+      "nome_fundo": "Valora Cri Índice de Preço FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-10-06T19:57:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1341498,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341498"
+    },
+    {
+      "ticker": "VGIR11",
+      "nome_fundo": "Valora Cri CDI FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-10-06T19:55:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1341497,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341497"
+    },
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-10-06T19:16:00",
+      "data_referencia": "30/09/2026",
+      "fnet_id": 1341443,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341443"
+    },
+    {
+      "ticker": "VGHF11",
+      "nome_fundo": "Valora Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-10-06T18:50:00",
+      "data_referencia": "31/08/2026",
+      "fnet_id": 1341429,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341429"
+    },
+    {
+      "ticker": "BTHF11",
+      "nome_fundo": "BTG Pactual Real Estate Hedge Fund FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-10-06T15:56:00",
+      "data_referencia": "30/09/2026",
+      "fnet_id": 1341023,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1341023"
+    },
     {
       "ticker": "XPCI11",
       "nome_fundo": "Xp Crédito Imobiliário FII",
