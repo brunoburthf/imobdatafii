@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "09/10/2026 11:00",
+  "atualizado_em": "10/10/2026 10:13",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -9627,7 +9627,11 @@
         "fnet_id": 1263874,
         "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1263874"
       },
-      "fnet_encerramento": null
+      "fnet_encerramento": {
+        "data": "2026-10-09",
+        "fnet_id": 1344089,
+        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1344089"
+      }
     },
     {
       "ticker": "AC HIGHLAND AGRO FUNDO DE INVE",
@@ -22627,7 +22631,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 283d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 284d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -40741,7 +40745,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 315d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 316d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -61408,7 +61412,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 924d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 925d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -79385,7 +79389,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1500d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1501d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -81120,7 +81124,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1927d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1928d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
