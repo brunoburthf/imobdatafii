@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "10/10/2026 10:13",
+  "atualizado_em": "11/10/2026 10:25",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -1463,8 +1463,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2371 - S2 SMARTSAV",
-      "nome_fundo": "FII PLANNER 2371 - S2 SMARTSAVE REAL ESTATE FII",
+      "ticker": "CARTEIRA: FII PLANNER 2371 - S",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2371 - S2 SMARTSAVE REAL ESTATE FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "64636299000158",
       "numero_processo": "SRE/2763/2026",
@@ -5661,8 +5661,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3739 - GERIR FII R",
-      "nome_fundo": "FII PLANNER 3739 - GERIR FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 3739 - G",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3739 - GERIR FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "66286953000176",
       "numero_processo": "SRE/1279/2026",
@@ -5990,7 +5990,7 @@
     },
     {
       "ticker": "0RZ511",
-      "nome_fundo": "ESTOQUE CENTRO-OESTE FI IMOBILIÁRIO RESP LIMITADA",
+      "nome_fundo": "ESTOQUE CENTRO OESTE FII RESP LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "66285471000100",
       "numero_processo": "SRE/1207/2026",
@@ -6277,7 +6277,7 @@
     },
     {
       "ticker": "0QXN11",
-      "nome_fundo": "BRASIL INCORPORAÇÃO FI IMOBILIÁRIO RESP LIMITADA",
+      "nome_fundo": "BRASIL INCORPORAÇÃO FII RESP LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "64089566000114",
       "numero_processo": "SRE/4397/2025",
@@ -6359,7 +6359,7 @@
     },
     {
       "ticker": "0RBW11",
-      "nome_fundo": "FII PLANNER 3472 - MASSARO FII RP LM",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3472 - MASSARO FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "63879307000124",
       "numero_processo": "SRE/4085/2025",
@@ -6441,7 +6441,7 @@
     },
     {
       "ticker": "0RBX11",
-      "nome_fundo": "FII PLANNER 3474 - ZAMOR FII RP LM",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3474 - ZAMOR FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "63879740000160",
       "numero_processo": "SRE/4074/2025",
@@ -6768,8 +6768,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2553 - LABINA MULT",
-      "nome_fundo": "FII PLANNER 2553 - LABINA MULTI ATIVOS FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 2553 - L",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2553 - LABINA MULTI ATIVOS FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "17374696000119",
       "numero_processo": "SRE/1893/2025",
@@ -7871,6 +7871,53 @@
       "destinacao_recursos": "AQUISIÇÃO DE IMÓVEIS.",
       "fonte_csv": "res_160",
       "subscritores": {},
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
+      "ticker": "0TKP11",
+      "nome_fundo": "BRIO RENDA IMOBILIÁRIA FII RL",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "67863429000183",
+      "numero_processo": "SRE/3011/2026",
+      "numero_registro": "27965",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Profissional - sem bookbuilding",
+      "lider": "HEMERA DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
+      "ofertante": "BRIO RENDA IMOBILIÁRIA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-09-18",
+      "data_registro": "2026-09-18",
+      "data_inicio": "2026-09-18",
+      "data_encerramento": "2026-09-21",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 1,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 100.0,
+      "quantidade_total": 1530000.0,
+      "valor_total": 153000000.0,
+      "valor_captado": 153000000.0,
+      "oferta_inicial": true,
+      "publico_alvo": "Profissional",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "BRIO INVESTIMENTOS LTDA.",
+      "administrador": "HEMERA DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
+      "destinacao_recursos": "Aquisição de quaisquer direitos reais sobre bens imóveis (\"Direitos Reais\") relativos a terrenos, construções, edifícios e empreendimentos corporativos, comerciais, industriais, varejistas ou logísticos, construídos ou a serem construídos, para locação com contratos na modalidade atípica (built-to-suit) ou modalidade típica (\"Imóveis\" ou \"Empreendimentos Imobiliários\").",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Fundos de Investimento": {
+          "n_investidores": 1,
+          "qtd_cotas": 1530000.0,
+          "valor_r": 153000000.0
+        }
+      },
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -13430,8 +13477,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2371 - S2 SMARTSAV",
-      "nome_fundo": "FII PLANNER 2371 - S2 SMARTSAVE REAL ESTATE FII",
+      "ticker": "CARTEIRA: FII PLANNER 2371 - S",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2371 - S2 SMARTSAVE REAL ESTATE FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "64636299000158",
       "numero_processo": "SRE/1388/2026",
@@ -14240,7 +14287,7 @@
     },
     {
       "ticker": "GSFI11",
-      "nome_fundo": "FII PLANNER 2557 - GSFI FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2557 - GSFI FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "11769604000113",
       "numero_processo": "SRE/1176/2026",
@@ -15974,8 +16021,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3448 - CLEAR FII",
-      "nome_fundo": "FII PLANNER 3448 - CLEAR FII",
+      "ticker": "CARTEIRA: FII PLANNER 3448 - C",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3448 - CLEAR FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "65788132000175",
       "numero_processo": "SRE/0897/2026",
@@ -22631,7 +22678,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 284d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 285d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -37696,8 +37743,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3572 - NPP FII RL",
-      "nome_fundo": "FII PLANNER 3572 - NPP FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 3572 - N",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3572 - NPP FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "27882272000119",
       "numero_processo": "SRE/2034/2025",
@@ -39120,8 +39167,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0EL311",
-      "nome_fundo": "FII PLANNER 3570 - NOVO CAMPO FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 3570 - N",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3570 - NOVO CAMPO FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43790197000112",
       "numero_processo": "SRE/1626/2025",
@@ -39162,7 +39209,7 @@
     },
     {
       "ticker": "0EL011",
-      "nome_fundo": "FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48904259000193",
       "numero_processo": "SRE/1627/2025",
@@ -40745,7 +40792,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 316d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 317d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -46228,7 +46275,7 @@
     },
     {
       "ticker": "0EL211",
-      "nome_fundo": "FII PLANNER 3470 - MENESCAL FII RL",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3470 - MENESCAL FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48978797000122",
       "numero_processo": "SRE/0002/2025",
@@ -46985,8 +47032,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0EL311",
-      "nome_fundo": "FII PLANNER 3570 - NOVO CAMPO FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 3570 - N",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3570 - NOVO CAMPO FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43790197000112",
       "numero_processo": "SRE/4020/2024",
@@ -47027,7 +47074,7 @@
     },
     {
       "ticker": "0EL111",
-      "nome_fundo": "FII PLANNER 3468 - FRATIX FII RP LM",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3468 - FRATIX FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48978731000132",
       "numero_processo": "SRE/4022/2024",
@@ -47074,7 +47121,7 @@
     },
     {
       "ticker": "0EL011",
-      "nome_fundo": "FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48904259000193",
       "numero_processo": "SRE/4021/2024",
@@ -47312,8 +47359,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3893 - ALEGRIA FII",
-      "nome_fundo": "FII PLANNER 3893 - ALEGRIA FII RP LM",
+      "ticker": "CARTEIRA: FII PLANNER 3893 - A",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3893 - ALEGRIA FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "56028598000181",
       "numero_processo": "SRE/3989/2024",
@@ -48187,7 +48234,7 @@
     },
     {
       "ticker": "0SUB11",
-      "nome_fundo": "FII PLANNER 3464 - LAGUNA FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3464 - LAGUNA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43671250000166",
       "numero_processo": "SRE/3787/2024",
@@ -48399,8 +48446,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3478 - LUMINI FII",
-      "nome_fundo": "FII PLANNER 3478 - LUMINI FII",
+      "ticker": "CARTEIRA: FII PLANNER 3478 - L",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3478 - LUMINI FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "58054129000162",
       "numero_processo": "SRE/3763/2024",
@@ -54357,8 +54404,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0LC411",
-      "nome_fundo": "SUNXITT FII DE RESPONSABILIDADE LIMITADA",
+      "ticker": "CARTEIRA: 51463 - SUNXITT FII ",
+      "nome_fundo": "CARTEIRA: 51463 - SUNXITT FII RESP LTDA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "55969466000191",
       "numero_processo": "SRE/2329/2024",
@@ -56520,7 +56567,7 @@
     },
     {
       "ticker": "0IH511",
-      "nome_fundo": "FII PLANNER 2687 - SUNNY FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2687 - SUNNY FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "54045925000188",
       "numero_processo": "SRE/1735/2024",
@@ -57485,7 +57532,7 @@
     },
     {
       "ticker": "0SUB11",
-      "nome_fundo": "FII PLANNER 3464 - LAGUNA FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3464 - LAGUNA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43671250000166",
       "numero_processo": "SRE/1502/2024",
@@ -61412,7 +61459,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 925d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 926d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -61860,8 +61907,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0IHZ11",
-      "nome_fundo": "ARAGUAIA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "ticker": "CARTEIRA: 44773 - FII ARAGUAIA",
+      "nome_fundo": "CARTEIRA: 44773 - FII ARAGUAIA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "42517145000104",
       "numero_processo": "SRE/0558/2024",
@@ -63442,8 +63489,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0IHZ11",
-      "nome_fundo": "ARAGUAIA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "ticker": "CARTEIRA: 44773 - FII ARAGUAIA",
+      "nome_fundo": "CARTEIRA: 44773 - FII ARAGUAIA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "42517145000104",
       "numero_processo": "SRE/0323/2024",
@@ -63854,7 +63901,7 @@
     },
     {
       "ticker": "GSFI11",
-      "nome_fundo": "FII PLANNER 2557 - GSFI FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2557 - GSFI FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "11769604000113",
       "numero_processo": "SRE/0256/2024",
@@ -70250,7 +70297,7 @@
     },
     {
       "ticker": "CIXM11",
-      "nome_fundo": "CIX MUIRAQUITAN FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "nome_fundo": "CIX MUIRAQUITAN FII RESPONSABILIDADE LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48389780000130",
       "numero_processo": "SRE/2104/2023",
@@ -75341,8 +75388,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0HHJ11",
-      "nome_fundo": "AGILE INVESTE FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "ticker": "CARTEIRA: FII PLANNER 4482 - A",
+      "nome_fundo": "CARTEIRA: FII PLANNER 4482 - AGILE INVESTE DESENVOLVIMENTO F",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "49640601000158",
       "numero_processo": "SRE/1012/2023",
@@ -79389,7 +79436,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1501d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1502d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -81124,7 +81171,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1928d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1929d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -86059,285 +86106,6 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "BCRI11",
-      "nome_fundo": "Banestes Recebíveis Imobiliários FII",
-      "setor": "Crédito Imobiliário",
-      "cnpj_emissor": "22219335000138",
-      "numero_processo": "RJ-2016-6446",
-      "numero_registro": "CVM/SRE/RFI/2016/007",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 400 (com registro)",
-      "modalidade": "Registrada",
-      "lider": "BANCO FATOR S/A",
-      "ofertante": "BANCO FATOR S/A",
-      "data_protocolo": "2016-08-03",
-      "data_registro": "2016-09-05",
-      "data_inicio": "",
-      "data_encerramento": "2017-03-04",
-      "ultimo_comunicado": "",
-      "data_comunicado": "",
-      "status": "Encerrada",
-      "emissao": null,
-      "serie": "",
-      "tipo_ativo": "QUOTAS DE FUNDO IMOBILIÁRIO",
-      "tipo_fundo": "",
-      "preco_unitario": 97.08,
-      "quantidade_total": 355377.0,
-      "valor_total": 34499999.16,
-      "quantidade_lote_suplementar": 0.0,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "fonte_csv": "400_476",
-      "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "BRCO11",
-      "nome_fundo": "Bresco Logística FII",
-      "setor": "Logística",
-      "cnpj_emissor": "20748515000181",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "OLIVEIRA TRUST DTVM S.A.",
-      "ofertante": "ANTARES FUNDO DE INVESTIMENTO IMOBILIÁRIO FII",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-08-03",
-      "data_encerramento": "2018-02-05",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2018-08-01",
-      "status": "Encerrada",
-      "emissao": 1,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 1000.0,
-      "quantidade_total": null,
-      "valor_total": 500000000.0,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 500000000.0,
-      "oferta_inicial": true,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Fundos de Investimento": {
-          "n_investidores": 1,
-          "qtd_cotas": 402000.0,
-          "valor_r": 402000000.0
-        },
-        "Demais Pessoa Jurídica": {
-          "n_investidores": 1,
-          "qtd_cotas": 98000.0,
-          "valor_r": 98000000.0
-        }
-      },
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "FUNDO DE INVESTIMENTO IMOBILIÁ",
-      "nome_fundo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO CONTAGEM BTS - FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "23120006000106",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "TIVIO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
-      "ofertante": "FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM BII BTS-FII",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-08-03",
-      "data_encerramento": "2016-08-04",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2016-08-08",
-      "status": "Encerrada",
-      "emissao": 1,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 100.0,
-      "quantidade_total": null,
-      "valor_total": 83000000.0,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 83000000.0,
-      "oferta_inicial": true,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Fundos de Investimento": {
-          "n_investidores": 4,
-          "qtd_cotas": 830000.0,
-          "valor_r": 83000000.0
-        }
-      },
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "FUNDO DE INVESTIMENTO IMOBILIÁ",
-      "nome_fundo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO CONTAGEM BTS - FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "23120006000106",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "TIVIO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
-      "ofertante": "FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM BII BTS-FII",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-08-03",
-      "data_encerramento": "2016-08-04",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2018-02-16",
-      "status": "Encerrada",
-      "emissao": 1,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 34.91,
-      "quantidade_total": null,
-      "valor_total": 10211175.0,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 10211174.999999998,
-      "oferta_inicial": true,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Demais Pessoa Jurídica": {
-          "n_investidores": 1,
-          "qtd_cotas": 292500.0,
-          "valor_r": 10211174.999999998
-        }
-      },
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "FUNDO DE INVESTIMENTO IMOBILIÁ",
-      "nome_fundo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO CONTAGEM BTS - FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "23120006000106",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "TIVIO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
-      "ofertante": "FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM BII BTS-FII",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-08-03",
-      "data_encerramento": "2016-08-04",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2018-02-16",
-      "status": "Encerrada",
-      "emissao": 1,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 100.0,
-      "quantidade_total": null,
-      "valor_total": 19375000.0,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 19375000.0,
-      "oferta_inicial": true,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Demais Pessoa Jurídica": {
-          "n_investidores": 1,
-          "qtd_cotas": 193750.0,
-          "valor_r": 19375000.0
-        }
-      },
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "FUNDO DE INVESTIMENTO IMOBILIÁ",
-      "nome_fundo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO CONTAGEM BTS - FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "23120006000106",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "TIVIO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
-      "ofertante": "FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM BII BTS-FII",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-08-03",
-      "data_encerramento": "2016-08-03",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2016-08-08",
-      "status": "Encerrada",
-      "emissao": 1,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 100.0,
-      "quantidade_total": null,
-      "valor_total": 83000000.0,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 83000000.0,
-      "oferta_inicial": true,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Demais Pessoa Jurídica": {
-          "n_investidores": 1,
-          "qtd_cotas": 830000.0,
-          "valor_r": 83000000.0
-        }
-      },
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "FUNDO DE INVESTIMENTO IMOBILIÁ",
-      "nome_fundo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO CONTAGEM BTS - FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "23120006000106",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "TIVIO CAPITAL DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
-      "ofertante": "FUNDO DE INVESTIMENTO IMOBILIÁRIO VOTORANTIM BII BTS-FII",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-08-03",
-      "data_encerramento": "2016-08-04",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2018-02-16",
-      "status": "Encerrada",
-      "emissao": 1,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 100.0,
-      "quantidade_total": null,
-      "valor_total": 14625000.0,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 14625000.0,
-      "oferta_inicial": true,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Demais Pessoa Jurídica": {
-          "n_investidores": 1,
-          "qtd_cotas": 146250.0,
-          "valor_r": 14625000.0
-        }
-      },
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
       "ticker": "SPAF11",
       "nome_fundo": "SPA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
       "setor": "FII (não-curado)",
@@ -86919,7 +86687,7 @@
     },
     {
       "ticker": "TAGI11",
-      "nome_fundo": "FII PLANNER 2481 - FII OAR",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2481 - FII OAR",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "12811222000173",
       "numero_processo": "",
@@ -87623,8 +87391,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3731 - IRON CAPITA",
-      "nome_fundo": "FII PLANNER 3731 - IRON CAPITAL REAL ESTATE I FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 3731 - I",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3731 - IRON CAPITAL REAL ESTATE I FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "24976492000113",
       "numero_processo": "",
@@ -88407,8 +88175,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2553 - LABINA MULT",
-      "nome_fundo": "FII PLANNER 2553 - LABINA MULTI ATIVOS FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 2553 - L",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2553 - LABINA MULTI ATIVOS FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "17374696000119",
       "numero_processo": "",
@@ -88448,7 +88216,7 @@
     },
     {
       "ticker": "0DLW11",
-      "nome_fundo": "FII PLANNER 2405 - SABUGAL FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2405 - SABUGAL FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "28267530000110",
       "numero_processo": "",
@@ -90835,7 +90603,7 @@
     },
     {
       "ticker": "GSFI11",
-      "nome_fundo": "FII PLANNER 2557 - GSFI FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2557 - GSFI FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "11769604000113",
       "numero_processo": "",
@@ -92439,7 +92207,7 @@
     },
     {
       "ticker": "GSFI11",
-      "nome_fundo": "FII PLANNER 2557 - GSFI FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2557 - GSFI FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "11769604000113",
       "numero_processo": "",
@@ -93692,8 +93460,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3731 - IRON CAPITA",
-      "nome_fundo": "FII PLANNER 3731 - IRON CAPITAL REAL ESTATE I FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 3731 - I",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3731 - IRON CAPITAL REAL ESTATE I FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "24976492000113",
       "numero_processo": "",
@@ -94497,7 +94265,7 @@
     },
     {
       "ticker": "PRPY11",
-      "nome_fundo": "FII PLANNER 0418 - PROPERTY INVEST FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 0418 - PROPERTY INVEST FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "09276964000131",
       "numero_processo": "",
@@ -97729,8 +97497,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2467 - FII JAPURA",
-      "nome_fundo": "FII PLANNER 2467 - FII JAPURA",
+      "ticker": "CARTEIRA: FII PLANNER 2467 - F",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2467 - FII JAPURA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "34509007000155",
       "numero_processo": "",
@@ -101636,8 +101404,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2461 - FBV KEYDEV ",
-      "nome_fundo": "FII PLANNER 2461 - FBV KEYDEV FII",
+      "ticker": "CARTEIRA: FII PLANNER 2461 - F",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2461 - FBV KEYDEV FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "37295952000190",
       "numero_processo": "",
@@ -101681,8 +101449,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2461 - FBV KEYDEV ",
-      "nome_fundo": "FII PLANNER 2461 - FBV KEYDEV FII",
+      "ticker": "CARTEIRA: FII PLANNER 2461 - F",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2461 - FBV KEYDEV FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "37295952000190",
       "numero_processo": "",
@@ -111149,8 +110917,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "PCAS11",
-      "nome_fundo": "PRAIA DO CASTELO FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "ticker": "CARTEIRA: 40422 - FII PRAIA DO",
+      "nome_fundo": "CARTEIRA: 40422 - FII PRAIA DO CASTELO",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "24514406000150",
       "numero_processo": "",
@@ -117577,7 +117345,7 @@
     },
     {
       "ticker": "0SUB11",
-      "nome_fundo": "FII PLANNER 3464 - LAGUNA FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3464 - LAGUNA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43671250000166",
       "numero_processo": "",
@@ -119288,7 +119056,7 @@
     },
     {
       "ticker": "0DLD11",
-      "nome_fundo": "FII PLANNER 2837 - MEIRINGEN FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2837 - MEIRINGEN FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43101312000102",
       "numero_processo": "",
@@ -121447,8 +121215,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3731 - IRON CAPITA",
-      "nome_fundo": "FII PLANNER 3731 - IRON CAPITAL REAL ESTATE I FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 3731 - I",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3731 - IRON CAPITAL REAL ESTATE I FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "24976492000113",
       "numero_processo": "",
@@ -123880,8 +123648,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0ALP11",
-      "nome_fundo": "ANGRA FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "ticker": "CARTEIRA: FII PLANNER 4515 - A",
+      "nome_fundo": "CARTEIRA: FII PLANNER 4515 - ANGRA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "41969537000141",
       "numero_processo": "",
@@ -126332,8 +126100,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2461 - FBV KEYDEV ",
-      "nome_fundo": "FII PLANNER 2461 - FBV KEYDEV FII",
+      "ticker": "CARTEIRA: FII PLANNER 2461 - F",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2461 - FBV KEYDEV FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "37295952000190",
       "numero_processo": "",
@@ -126377,8 +126145,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 2461 - FBV KEYDEV ",
-      "nome_fundo": "FII PLANNER 2461 - FBV KEYDEV FII",
+      "ticker": "CARTEIRA: FII PLANNER 2461 - F",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2461 - FBV KEYDEV FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "37295952000190",
       "numero_processo": "",
@@ -127369,8 +127137,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0EL311",
-      "nome_fundo": "FII PLANNER 3570 - NOVO CAMPO FII RL",
+      "ticker": "CARTEIRA: FII PLANNER 3570 - N",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3570 - NOVO CAMPO FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "43790197000112",
       "numero_processo": "",
@@ -127628,8 +127396,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "ARTEIRA: FII PLANNER 4066 - FI",
-      "nome_fundo": "ARTEIRA: FII PLANNER 4066 - FII EM ATIVOS DE SAUDE - SAUD",
+      "ticker": "CARTEIRA: FII PLANNER 4066 - F",
+      "nome_fundo": "CARTEIRA: FII PLANNER 4066 - FII EM ATIVOS DE SAUDE - SAUD",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "47102860000108",
       "numero_processo": "",
@@ -128474,7 +128242,7 @@
     },
     {
       "ticker": "0E0S11",
-      "nome_fundo": "FII PLANNER 2412 - PEDRA ALTA FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2412 - PEDRA ALTA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "46965606000162",
       "numero_processo": "",
@@ -130135,7 +129903,7 @@
     },
     {
       "ticker": "0EL011",
-      "nome_fundo": "FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3602 - CARFAN FII RESP LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48904259000193",
       "numero_processo": "",
@@ -130243,7 +130011,7 @@
     },
     {
       "ticker": "CIXM11",
-      "nome_fundo": "CIX MUIRAQUITAN FUNDO DE INVESTIMENTO IMOBILIÁRIO",
+      "nome_fundo": "CIX MUIRAQUITAN FII RESPONSABILIDADE LIMITADA",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48389780000130",
       "numero_processo": "",
@@ -130317,7 +130085,7 @@
     },
     {
       "ticker": "0EL211",
-      "nome_fundo": "FII PLANNER 3470 - MENESCAL FII RL",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3470 - MENESCAL FII RL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48978797000122",
       "numero_processo": "",
@@ -130362,7 +130130,7 @@
     },
     {
       "ticker": "0EL111",
-      "nome_fundo": "FII PLANNER 3468 - FRATIX FII RP LM",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3468 - FRATIX FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "48978731000132",
       "numero_processo": "",
@@ -131280,7 +131048,7 @@
     },
     {
       "ticker": "GSFI11",
-      "nome_fundo": "FII PLANNER 2557 - GSFI FII",
+      "nome_fundo": "CARTEIRA: FII PLANNER 2557 - GSFI FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "11769604000113",
       "numero_processo": "SRE/2619/2024",
@@ -131361,8 +131129,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3893 - ALEGRIA FII",
-      "nome_fundo": "FII PLANNER 3893 - ALEGRIA FII RP LM",
+      "ticker": "CARTEIRA: FII PLANNER 3893 - A",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3893 - ALEGRIA FII RP LM",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "56028598000181",
       "numero_processo": "SRE/2217/2024",
