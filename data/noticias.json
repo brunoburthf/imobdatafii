@@ -1,7 +1,41 @@
 {
-  "atualizado_em": "15/10/2026 06:49",
+  "atualizado_em": "15/10/2026 17:40",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "AFHI11",
+      "nome_fundo": "Af Invest Cri FII Recebíveis Imobiliários",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-10-15T09:03:00",
+      "data_com": "2026-10-15",
+      "data_pagamento": "2026-10-22",
+      "valor": 1.0,
+      "valor_anterior": 1.0,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Setembro-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1350497,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1350497"
+    },
+    {
+      "ticker": "SNCI11",
+      "nome_fundo": "Suno Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-10-15T09:03:00",
+      "data_com": "2026-10-15",
+      "data_pagamento": "2026-10-23",
+      "valor": 1.0,
+      "valor_anterior": 1.0,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Setembro-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1350495,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1350495"
+    },
     {
       "ticker": "TOPP11",
       "nome_fundo": "Rbr Top Offices FII",
@@ -18,23 +52,6 @@
       "fnet_id": 1349519,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1349519"
-    },
-    {
-      "ticker": "AFHI11",
-      "nome_fundo": "Af Invest Cri FII Recebíveis Imobiliários",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-10-14T16:32:00",
-      "data_com": "2026-10-15",
-      "data_pagamento": "2026-10-22",
-      "valor": 1.0,
-      "valor_anterior": 1.0,
-      "variacao_pct": 0.0,
-      "periodo_referencia": "Setembro-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1349454,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1349454"
     },
     {
       "ticker": "VGIR11",
