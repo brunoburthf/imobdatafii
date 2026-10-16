@@ -1,6 +1,6 @@
 {
   "ticker": "TOPP11",
-  "ultima_atualizacao": "2026-09-16T05:26:05",
+  "ultima_atualizacao": "2026-10-16T05:14:47",
   "fonte": "statusinvest+fnet",
   "proventos": [
     {
@@ -144,6 +144,12 @@
     {
       "data_com": "2026-09-14",
       "data_pagamento": "2026-09-21",
+      "valor": 0.45,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-10-14",
+      "data_pagamento": "2026-10-21",
       "valor": 0.45,
       "tipo": "Rendimento"
     }
