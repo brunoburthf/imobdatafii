@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "15/10/2026 08:40",
+  "atualizado_em": "16/10/2026 08:35",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -22831,7 +22831,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 289d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 290d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -40945,7 +40945,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 321d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 322d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -61612,7 +61612,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 930d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 931d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -79589,7 +79589,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1506d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1507d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -81324,7 +81324,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1933d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1934d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -93477,7 +93477,7 @@
       "tipo_oferta": "Secundária",
       "rito": "ICVM 476",
       "modalidade": "Dispensada de Registro",
-      "lider": "SIMPAUL CORRETORA DE CÂMBIO E VALORES MOBILIÁRIOS S.A.",
+      "lider": "BINANCE BRASIL CORRETORA DE CÂMBIO E VALORES MOBILIÁRIOS S.A.",
       "ofertante": "BIRD FUNDO DE INVESTIMENTO IMOBILIARIO - FII",
       "data_protocolo": "",
       "data_registro": "",
@@ -132677,6 +132677,16 @@
     }
   ],
   "_anuncios_fnet_sem_cvm": [
+    {
+      "ticker": "HGRE11",
+      "nome_pregao": "FII HGRE PAX",
+      "tipo": "Encerramento",
+      "tipo_completo": "Anúncio de Encerramento",
+      "data_anuncio": "2026-10-15T19:30:00",
+      "fnet_id": 1352837,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1352837"
+    },
     {
       "ticker": "BTCI11",
       "nome_pregao": "",
