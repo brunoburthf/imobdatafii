@@ -1,6 +1,6 @@
 {
   "ticker": "KOPA11",
-  "ultima_atualizacao": "2026-09-17T05:34:19",
+  "ultima_atualizacao": "2026-10-17T05:10:05",
   "fonte": "statusinvest+fnet",
   "proventos": [
     {
@@ -307,6 +307,18 @@
       "data_com": "2026-09-15",
       "data_pagamento": "2026-09-22",
       "valor": 3.0,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-10-15",
+      "data_pagamento": "2026-10-22",
+      "valor": 9.5,
+      "tipo": "Amortização"
+    },
+    {
+      "data_com": "2026-10-15",
+      "data_pagamento": "2026-10-22",
+      "valor": 2.2,
       "tipo": "Rendimento"
     }
   ]
