@@ -1,6 +1,6 @@
 {
   "ticker": "FTCA11",
-  "ultima_atualizacao": "2026-09-18T05:22:08",
+  "ultima_atualizacao": "2026-10-20T05:29:12",
   "fonte": "statusinvest+fnet",
   "proventos": [
     {
@@ -337,6 +337,12 @@
       "data_com": "2026-09-17",
       "data_pagamento": "2026-09-24",
       "valor": 0.09,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-10-19",
+      "data_pagamento": "2026-10-26",
+      "valor": 0.08594,
       "tipo": "Rendimento"
     }
   ]
