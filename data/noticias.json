@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "23/10/2026 06:48",
+  "atualizado_em": "23/10/2026 17:46",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "BTRA11",
+      "nome_fundo": "BTRA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-10-23T09:21:00",
+      "data_com": "2026-10-23",
+      "data_pagamento": "2026-10-30",
+      "valor": 1.0,
+      "valor_anterior": 1.0,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Setembro-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1357048,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1357048"
+    },
     {
       "ticker": "BTAL11",
       "nome_fundo": "BTAL11",
@@ -2469,6 +2486,17 @@
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "HGLG11",
+      "nome_fundo": "Pátria Log FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-10-23T09:26:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1357049,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1357049"
+    },
     {
       "ticker": "HGLG11",
       "nome_fundo": "Pátria Log FII",
