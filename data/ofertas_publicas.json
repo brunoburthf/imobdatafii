@@ -1,11 +1,11 @@
 {
-  "atualizado_em": "24/10/2026 08:29",
+  "atualizado_em": "25/10/2026 08:48",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
     {
       "ticker": "0L8U11",
-      "nome_fundo": "FII PLANNER 0414 - SHOPPING TOTALBRAS E NEWMALL",
+      "nome_fundo": "CARTEIRA: FII PLANNER 0414 - SHOPPING TOTALBRAS E NEWMALL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "56174611000100",
       "numero_processo": "SRE/3440/2026",
@@ -9963,6 +9963,53 @@
       "fnet_encerramento": null
     },
     {
+      "ticker": "0T1P11",
+      "nome_fundo": "ALPHA ALLOCATION FII RESP LIMITADA",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "68176986000199",
+      "numero_processo": "SRE/2481/2026",
+      "numero_registro": "27393",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Profissional - sem bookbuilding",
+      "lider": "BRL TRUST DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A.",
+      "ofertante": "ALPHA ALLOCATION FUNDO DE INVESTIMENTO IMOBILIARIO RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-08-03",
+      "data_registro": "2026-08-03",
+      "data_inicio": "2026-08-03",
+      "data_encerramento": "2026-09-17",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 1,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 10.0,
+      "quantidade_total": 20000000.0,
+      "valor_total": 200000000.0,
+      "valor_captado": 147731450.0,
+      "oferta_inicial": true,
+      "publico_alvo": "Profissional",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "BRL TRUST DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS S.A",
+      "administrador": "BRL TRUST DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A",
+      "destinacao_recursos": "Adquirir os ativos previstos na política de investimentos do fundo",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Fundos de Investimento": {
+          "n_investidores": 1,
+          "qtd_cotas": 14773145.0,
+          "valor_r": 147731450.0
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
       "ticker": "0SWU11",
       "nome_fundo": "XP OFFICE PRIME FUNDO DE INVESTIMENTO IMOBILIÁRIO",
       "setor": "FII (não-curado)",
@@ -16722,8 +16769,8 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "FII PLANNER 3445 - OLIVIA FII",
-      "nome_fundo": "FII PLANNER 3445 - OLIVIA FII",
+      "ticker": "CARTEIRA: FII PLANNER 3445 - O",
+      "nome_fundo": "CARTEIRA: FII PLANNER 3445 - OLIVIA FII",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "65794655000124",
       "numero_processo": "SRE/1084/2026",
@@ -24511,7 +24558,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 298d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 299d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -42625,7 +42672,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 330d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 331d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -49505,7 +49552,7 @@
     },
     {
       "ticker": "0L8U11",
-      "nome_fundo": "FII PLANNER 0414 - SHOPPING TOTALBRAS E NEWMALL",
+      "nome_fundo": "CARTEIRA: FII PLANNER 0414 - SHOPPING TOTALBRAS E NEWMALL",
       "setor": "FII (não-curado)",
       "cnpj_emissor": "56174611000100",
       "numero_processo": "SRE/3919/2024",
@@ -63292,7 +63339,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 939d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 940d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -81269,7 +81316,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1515d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1516d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -83004,7 +83051,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1942d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1943d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
