@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "27/10/2026 09:26",
+  "atualizado_em": "28/10/2026 10:07",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -108,9 +108,9 @@
       "serie": "",
       "tipo_ativo": "Cotas de FII",
       "tipo_fundo": "",
-      "preco_unitario": 10.0,
+      "preco_unitario": 10.32,
       "quantidade_total": 5000000.0,
-      "valor_total": 50000000.0,
+      "valor_total": 51600000.0,
       "valor_captado": null,
       "oferta_inicial": false,
       "publico_alvo": "Profissional",
@@ -6358,47 +6358,6 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "0QJJ11",
-      "nome_fundo": "VALORA CRI PRÉ I FEEDER II FII - RL",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "59137587000128",
-      "numero_processo": "SRE/1349/2026",
-      "numero_registro": "26115",
-      "tipo_oferta": "PRIMARIA",
-      "rito": "CVM 160 — Automático",
-      "modalidade": "OPD Aut Profissional - sem bookbuilding",
-      "lider": "BANCO DAYCOVAL S.A.",
-      "ofertante": "VALORA CRI PRÉ I FEEDER II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "data_protocolo": "2026-04-30",
-      "data_registro": "2026-04-30",
-      "data_inicio": "2026-04-30",
-      "data_encerramento": "",
-      "ultimo_comunicado": "Registro Concedido",
-      "data_comunicado": "",
-      "status": "Em distribuição",
-      "emissao": 3,
-      "serie": "",
-      "tipo_ativo": "Cotas de FII",
-      "tipo_fundo": "",
-      "preco_unitario": 84.72,
-      "quantidade_total": 355000.0,
-      "valor_total": 30075600.0,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "publico_alvo": "Profissional",
-      "regime_distribuicao": "Melhores Esforços",
-      "bookbuilding": false,
-      "incentivado": false,
-      "sustentavel": false,
-      "gestor": "VALORA IMOBILIÁRIO E INFRAESTRUTURA LTDA.",
-      "administrador": "BANCO DAYCOVAL S.A.",
-      "destinacao_recursos": "Os recursos captados no âmbito da Oferta serão destinados à aquisição pelo Fundo de Ativos e de Ativos de Liquidez, de forma ativa e discricionária pelo Gestor, e ao pagamento dos Encargos do Fundo.",
-      "fonte_csv": "res_160",
-      "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
       "ticker": "IDGO11",
       "nome_fundo": "ID GOIANA FUNDO DE INVESTIMENTO FIAGRO IMOBILIARIO",
       "setor": "FII (não-curado)",
@@ -9039,7 +8998,11 @@
         "fnet_id": 1319387,
         "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1319387"
       },
-      "fnet_encerramento": null
+      "fnet_encerramento": {
+        "data": "2026-10-27",
+        "fnet_id": 1359127,
+        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359127"
+      }
     },
     {
       "ticker": "0PZ211",
@@ -15601,6 +15564,53 @@
           "n_investidores": 24,
           "qtd_cotas": 7839.0,
           "valor_r": 783900.0
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
+      "ticker": "0QJJ11",
+      "nome_fundo": "VALORA CRI PRÉ I FEEDER II FII - RL",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "59137587000128",
+      "numero_processo": "SRE/1349/2026",
+      "numero_registro": "26115",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Profissional - sem bookbuilding",
+      "lider": "BANCO DAYCOVAL S.A.",
+      "ofertante": "VALORA CRI PRÉ I FEEDER II FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-04-30",
+      "data_registro": "2026-04-30",
+      "data_inicio": "2026-04-30",
+      "data_encerramento": "2026-10-27",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 3,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 84.72,
+      "quantidade_total": 355000.0,
+      "valor_total": 30075600.0,
+      "valor_captado": 12772302.48,
+      "oferta_inicial": false,
+      "publico_alvo": "Profissional",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "VALORA IMOBILIÁRIO E INFRAESTRUTURA LTDA.",
+      "administrador": "BANCO DAYCOVAL S.A.",
+      "destinacao_recursos": "Os recursos captados no âmbito da Oferta serão destinados à aquisição pelo Fundo de Ativos e de Ativos de Liquidez, de forma ativa e discricionária pelo Gestor, e ao pagamento dos Encargos do Fundo.",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Fundos de Investimento": {
+          "n_investidores": 2,
+          "qtd_cotas": 150759.0,
+          "valor_r": 12772302.48
         }
       },
       "fnet_inicio": null,
@@ -24767,7 +24777,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 301d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 302d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -42881,7 +42891,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 333d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 334d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -63548,7 +63558,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 942d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 943d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -81525,7 +81535,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1518d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1519d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -83260,7 +83270,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1945d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1946d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
