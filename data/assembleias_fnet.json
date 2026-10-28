@@ -1,10 +1,10 @@
 {
-  "atualizado_em": "27/10/2026 10:18",
+  "atualizado_em": "28/10/2026 11:11",
   "fonte": "fnet (B3) — Assembleia (AGE)",
   "janela_dias": 90,
-  "total": 871,
-  "curados": 78,
-  "nao_curados": 793,
+  "total": 876,
+  "curados": 79,
+  "nao_curados": 797,
   "assembleias": [
     {
       "ticker": null,
@@ -70,6 +70,19 @@
       "fnet_id": 1343531,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1343531"
+    },
+    {
+      "ticker": "BTCI11",
+      "nome_fundo": "BTG Pactual Crédito Imobiliário FII",
+      "nome_pregao": "",
+      "setor": "Crédito Imobiliário",
+      "tipo": "AGE",
+      "data_assembleia": "2026-12-04T10:00:00",
+      "data_publicacao": "2026-10-27T19:53:00",
+      "classificacao": "convocacao",
+      "fnet_id": 1359898,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359898"
     },
     {
       "ticker": null,
@@ -749,6 +762,58 @@
     },
     {
       "ticker": null,
+      "nome_fundo": "FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII CAMPUS FARIA LIMA RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII CAMPUSFL",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-27T10:00:00",
+      "data_publicacao": "2026-10-27T20:30:00",
+      "classificacao": "ata",
+      "fnet_id": 1359909,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359909"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "FUNDO DE INVESTIMENTOS IMOBILIÁRIOS DE PERMUTA FINANCEIRA LOTE5 (SENIOR) RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII BSLT",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-27T10:00:00",
+      "data_publicacao": "2026-10-27T15:21:00",
+      "classificacao": "ata",
+      "fnet_id": 1359412,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359412"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "QUATRO GERAÇÕES FI NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO - RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-27T10:00:00",
+      "data_publicacao": "2026-10-27T17:13:00",
+      "classificacao": "ata",
+      "fnet_id": 1359627,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359627"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "FUNDO DE INVESTIMENTOS  IMOBILIÁRIOS DE PERMUTA FINANCEIRA LOTE5 MEZANINO RESPONSABILIDADE  LIMITADA",
+      "nome_pregao": "FII BMLT",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-27T09:00:00",
+      "data_publicacao": "2026-10-27T15:15:00",
+      "classificacao": "ata",
+      "fnet_id": 1359406,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359406"
+    },
+    {
+      "ticker": null,
       "nome_fundo": "BLUEMACAW FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
       "nome_pregao": "FII BLUE LOG",
       "setor": "FII (não-curado)",
@@ -759,6 +824,32 @@
       "fnet_id": 1344742,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1344742"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "FII DE DESENVOLVIMENTO DE ESCRITÓRIOS BOUTIQUE RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII EGDB",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-26T15:00:00",
+      "data_publicacao": "2026-10-27T15:06:00",
+      "classificacao": "ata",
+      "fnet_id": 1359397,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359397"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "BLUEMACAW FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII BLUE LOG",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-26T10:00:00",
+      "data_publicacao": "2026-10-27T14:46:00",
+      "classificacao": "ata",
+      "fnet_id": 1359389,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359389"
     },
     {
       "ticker": null,
@@ -931,6 +1022,19 @@
     },
     {
       "ticker": null,
+      "nome_fundo": "BAYER CROPCREDIT I FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGOCIO RESP LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-26T10:00:00",
+      "data_publicacao": "2026-10-27T10:10:00",
+      "classificacao": "ata",
+      "fnet_id": 1359141,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359141"
+    },
+    {
+      "ticker": null,
       "nome_fundo": "IMMOB III  FUNDO DE INVESTIMENTO IMOBILIÁRIO - FII",
       "nome_pregao": "FII IMOB III",
       "setor": "FII (não-curado)",
@@ -941,6 +1045,19 @@
       "fnet_id": 1358541,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1358541"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "GRPLRG FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-26T09:00:00",
+      "data_publicacao": "2026-10-27T10:28:00",
+      "classificacao": "ata",
+      "fnet_id": 1359156,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359156"
     },
     {
       "ticker": null,
@@ -1178,6 +1295,19 @@
     },
     {
       "ticker": null,
+      "nome_fundo": "FIAGRO OPEA BIOFINANCE - DIREITOS CREDITÓRIOS RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-22T10:00:00",
+      "data_publicacao": "2026-10-27T13:27:00",
+      "classificacao": "ata",
+      "fnet_id": 1359319,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359319"
+    },
+    {
+      "ticker": null,
       "nome_fundo": "AGRO GM FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO RESPONSABILIDADE LIMITADA",
       "nome_pregao": "",
       "setor": "FII (não-curado)",
@@ -1266,6 +1396,19 @@
       "fnet_id": 1358417,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1358417"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "GREEN ROCK FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "FII GREEN RO",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-21T10:00:00",
+      "data_publicacao": "2026-10-27T20:18:00",
+      "classificacao": "ata",
+      "fnet_id": 1359904,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359904"
     },
     {
       "ticker": null,
@@ -1708,6 +1851,19 @@
       "fnet_id": 1354656,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1354656"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "AUREA EXTREMA LOGÍSTICA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-19T10:00:00",
+      "data_publicacao": "2026-10-27T16:03:00",
+      "classificacao": "ata",
+      "fnet_id": 1359433,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359433"
     },
     {
       "ticker": null,
@@ -3281,6 +3437,19 @@
       "fnet_id": 1357135,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1357135"
+    },
+    {
+      "ticker": null,
+      "nome_fundo": "FIAGRO - FIAGRO ÂNIMA COCARI - DIREITOS CREDITÓRIOS DE RESPONSABILIDADE LIMITADA",
+      "nome_pregao": "",
+      "setor": "FII (não-curado)",
+      "tipo": "AGE",
+      "data_assembleia": "2026-10-06T10:00:00",
+      "data_publicacao": "2026-10-27T15:45:00",
+      "classificacao": "ata",
+      "fnet_id": 1359424,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1359424"
     },
     {
       "ticker": null,
@@ -9498,19 +9667,6 @@
     },
     {
       "ticker": null,
-      "nome_fundo": "BGR GALPÕES LOGÍSTICOS I MASTER FUNDO DE INVESTIMENTO IMOBILIÁRIO",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-08-13T10:00:00",
-      "data_publicacao": "2026-07-29T19:59:00",
-      "classificacao": "convocacao",
-      "fnet_id": 1268620,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1268620"
-    },
-    {
-      "ticker": null,
       "nome_fundo": "VISTAS INC FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
       "nome_pregao": "FII STYI",
       "setor": "FII (não-curado)",
@@ -10863,19 +11019,6 @@
     },
     {
       "ticker": null,
-      "nome_fundo": "POXIM FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-07-29T11:00:00",
-      "data_publicacao": "2026-07-29T16:10:00",
-      "classificacao": "ata",
-      "fnet_id": 1267735,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1267735"
-    },
-    {
-      "ticker": null,
       "nome_fundo": "ARQUIPEO FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
       "nome_pregao": "FII AQPA",
       "setor": "FII (não-curado)",
@@ -10889,19 +11032,6 @@
     },
     {
       "ticker": null,
-      "nome_fundo": "MOGNO PROPERTIES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "FII MGRI",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-07-29T10:00:00",
-      "data_publicacao": "2026-07-29T14:36:00",
-      "classificacao": "ata",
-      "fnet_id": 1267049,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1267049"
-    },
-    {
-      "ticker": null,
       "nome_fundo": "FIAGRO FIELD MÁQUINAS I - DIREITOS CREDITÓRIOS RESPONSABILIDADE LIMITADA",
       "nome_pregao": "",
       "setor": "FII (não-curado)",
@@ -10912,32 +11042,6 @@
       "fnet_id": 1270397,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1270397"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "VISTAS INC FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "FII STYI",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-07-29T07:00:00",
-      "data_publicacao": "2026-07-29T19:22:00",
-      "classificacao": "ata",
-      "fnet_id": 1268605,
-      "fnet_versao": 2,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1268605"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "VISTAS INC FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "FII STYI",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-07-29T07:00:00",
-      "data_publicacao": "2026-07-29T18:28:00",
-      "classificacao": "ata",
-      "fnet_id": 1268485,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1268485"
     },
     {
       "ticker": null,
@@ -11044,32 +11148,6 @@
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1275253"
     },
     {
-      "ticker": null,
-      "nome_fundo": "MOVE BRASIL FUNDO DE INVESTIMENTO NAS CADEIAS PRODUTIVAS DO AGRONEGÓCIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-07-27T10:00:00",
-      "data_publicacao": "2026-07-29T18:08:00",
-      "classificacao": "ata",
-      "fnet_id": 1268463,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1268463"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "AC RIHAB FUNDO DE INVESTIMENTO FIAGRO IMOBILIARIO RESPONSABILIDADE LIMITADA",
-      "nome_pregao": "",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-07-24T10:40:00",
-      "data_publicacao": "2026-07-29T13:52:00",
-      "classificacao": "ata",
-      "fnet_id": 1266969,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1266969"
-    },
-    {
       "ticker": "VGIA11",
       "nome_fundo": "VGIA11",
       "nome_pregao": "FIAGRO VGIA",
@@ -11094,19 +11172,6 @@
       "fnet_id": 1271276,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1271276"
-    },
-    {
-      "ticker": null,
-      "nome_fundo": "SHOPPING PÁTIO PAULISTA FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE  LIMITADA",
-      "nome_pregao": "FII SHPP",
-      "setor": "FII (não-curado)",
-      "tipo": "AGE",
-      "data_assembleia": "2026-07-22T10:00:00",
-      "data_publicacao": "2026-07-29T19:36:00",
-      "classificacao": "ata",
-      "fnet_id": 1268610,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1268610"
     },
     {
       "ticker": null,
