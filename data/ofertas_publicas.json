@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "30/10/2026 10:32",
+  "atualizado_em": "31/10/2026 10:01",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -24876,7 +24876,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 304d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 305d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -42990,7 +42990,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 336d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 337d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -63657,7 +63657,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 945d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 946d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -81634,7 +81634,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1521d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1522d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -83369,7 +83369,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1948d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1949d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -88300,96 +88300,6 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "JPPD11",
-      "nome_fundo": "JPP FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "11268335000101",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "BEM - DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA.",
-      "ofertante": "JPP FII - FII",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-08-23",
-      "data_encerramento": "2017-02-17",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2017-07-05",
-      "status": "Encerrada",
-      "emissao": 4,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 1267113.85,
-      "quantidade_total": null,
-      "valor_total": 99999991.49,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 99999991.48507501,
-      "oferta_inicial": false,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Fundos de Investimento": {
-          "n_investidores": 1,
-          "qtd_cotas": 78.9195,
-          "valor_r": 99999991.48507501
-        }
-      },
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "HTMX11",
-      "nome_fundo": "Hotel Maxinvest FII",
-      "setor": "Tijolo Multissetorial",
-      "cnpj_emissor": "08706065000169",
-      "numero_processo": "",
-      "numero_registro": "",
-      "tipo_oferta": "Primária",
-      "rito": "ICVM 476",
-      "modalidade": "Dispensada de Registro",
-      "lider": "RIO BRAVO INVESTIMENTOS - DISTRIBUIDORA DE TITULOS E VALORES MOBILIARIOS LTDA",
-      "ofertante": "FII HOTEL MAXINVEST",
-      "data_protocolo": "",
-      "data_registro": "",
-      "data_inicio": "2016-08-23",
-      "data_encerramento": "2016-08-30",
-      "ultimo_comunicado": "Comunicado de Encerramento",
-      "data_comunicado": "2016-08-30",
-      "status": "Encerrada",
-      "emissao": 13,
-      "serie": "Série Única",
-      "tipo_ativo": "COTAS DE FUNDOS DE INVESTIMENTO FECHADOS",
-      "tipo_fundo": "FII - Fundo de Investimento Imobiliário",
-      "preco_unitario": 94.37,
-      "quantidade_total": null,
-      "valor_total": 10468086.62,
-      "quantidade_lote_suplementar": null,
-      "valor_captado": 10468086.62,
-      "oferta_inicial": false,
-      "fonte_csv": "400_476",
-      "subscritores": {
-        "Pessoa Física / Natural": {
-          "n_investidores": 3,
-          "qtd_cotas": 31791.0,
-          "valor_r": 3000116.67
-        },
-        "Fundos de Investimento": {
-          "n_investidores": 3,
-          "qtd_cotas": 42048.0,
-          "valor_r": 3968069.7600000002
-        },
-        "Investidor Estrangeiro": {
-          "n_investidores": 1,
-          "qtd_cotas": 37087.0,
-          "valor_r": 3499900.19
-        }
-      },
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
