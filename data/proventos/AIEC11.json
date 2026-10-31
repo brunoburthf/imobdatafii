@@ -1,6 +1,6 @@
 {
   "ticker": "AIEC11",
-  "ultima_atualizacao": "2026-10-01T06:39:41",
+  "ultima_atualizacao": "2026-10-31T06:25:21",
   "fonte": "statusinvest+fnet",
   "proventos": [
     {
@@ -438,6 +438,12 @@
     {
       "data_com": "2026-09-30",
       "data_pagamento": "2026-10-08",
+      "valor": 0.38,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-10-30",
+      "data_pagamento": "2026-11-09",
       "valor": 0.38,
       "tipo": "Rendimento"
     }
