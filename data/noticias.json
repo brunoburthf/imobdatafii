@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "03/11/2026 20:00",
+  "atualizado_em": "03/11/2026 20:30",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "GGRC11",
+      "nome_fundo": "Ggr Covepi Renda FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-03T17:12:00",
+      "data_com": "2026-11-03",
+      "data_pagamento": "2026-11-10",
+      "valor": 0.1,
+      "valor_anterior": 0.1,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "10-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1367568,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367568"
+    },
     {
       "ticker": "VINO11",
       "nome_fundo": "Vinci Offices FII",
@@ -2419,6 +2436,94 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "XPSF11",
+      "nome_fundo": "Xp Selection Fundo de FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-11-03T20:04:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1367959,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367959"
+    },
+    {
+      "ticker": "XPML11",
+      "nome_fundo": "Xp Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-11-03T18:35:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1367708,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367708"
+    },
+    {
+      "ticker": "XPLG11",
+      "nome_fundo": "Xp Log FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-03T18:34:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1367706,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367706"
+    },
+    {
+      "ticker": "XPLG11",
+      "nome_fundo": "Xp Log FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-03T18:34:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1367705,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367705"
+    },
+    {
+      "ticker": "XPLG11",
+      "nome_fundo": "Xp Log FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-03T18:33:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1367703,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367703"
+    },
+    {
+      "ticker": "TRBL11",
+      "nome_fundo": "Tellus Rio Bravo Renda Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-03T18:21:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1367670,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367670"
+    },
+    {
+      "ticker": "XPCI11",
+      "nome_fundo": "Xp Crédito Imobiliário FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-03T18:20:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1367669,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367669"
+    },
+    {
+      "ticker": "XPCA11",
+      "nome_fundo": "XPCA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-11-03T18:15:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1367663,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367663"
+    },
+    {
       "ticker": "VISC11",
       "nome_fundo": "Vinci Shopping Centers FII",
       "setor": "Shoppings",
@@ -3047,6 +3152,26 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "AZPL11",
+      "nome_fundo": "Az Quest Panorama Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-03T18:32:00",
+      "data_referencia": "30/09/2026",
+      "fnet_id": 1367700,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367700"
+    },
+    {
+      "ticker": "MXRF11",
+      "nome_fundo": "Maxi Renda FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-03T18:04:00",
+      "data_referencia": "30/09/2026",
+      "fnet_id": 1367646,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1367646"
+    },
     {
       "ticker": "HTMX11",
       "nome_fundo": "Hotel Maxinvest FII",
