@@ -1,6 +1,6 @@
 {
   "ticker": "TGAR11",
-  "ultima_atualizacao": "2026-10-02T06:23:26",
+  "ultima_atualizacao": "2026-11-03T07:21:21",
   "fonte": "statusinvest+fnet",
   "proventos": [
     {
@@ -703,6 +703,12 @@
       "data_com": "2026-09-30",
       "data_pagamento": "2026-10-15",
       "valor": 0.7,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-10-30",
+      "data_pagamento": "2026-11-16",
+      "valor": 0.46,
       "tipo": "Rendimento"
     }
   ]
