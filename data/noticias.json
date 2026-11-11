@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "10/11/2026 20:19",
+  "atualizado_em": "11/11/2026 08:42",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "PCIP11",
+      "nome_fundo": "Patria Crédito Imobiliário Índice de Preços FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-10T19:21:00",
+      "data_com": "2026-11-10",
+      "data_pagamento": "2026-11-17",
+      "valor": 0.73,
+      "valor_anterior": 0.65,
+      "variacao_pct": 0.12307692307692308,
+      "periodo_referencia": "Outubro",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1375101,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1375101"
+    },
     {
       "ticker": "CLIN11",
       "nome_fundo": "Clave Índices de Preços FII",
@@ -18,23 +35,6 @@
       "fnet_id": 1374670,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1374670"
-    },
-    {
-      "ticker": "PCIP11",
-      "nome_fundo": "Patria Crédito Imobiliário Índice de Preços FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-11-10T17:04:00",
-      "data_com": "2026-11-10",
-      "data_pagamento": "2026-11-17",
-      "valor": 0.8,
-      "valor_anterior": 0.65,
-      "variacao_pct": 0.23076923076923084,
-      "periodo_referencia": "Outubro",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1374652,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1374652"
     },
     {
       "ticker": "PSEC11",
@@ -2402,6 +2402,17 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "TRBL11",
+      "nome_fundo": "Tellus Rio Bravo Renda Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-10T19:52:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1375221,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1375221"
+    },
+    {
       "ticker": "BTLG11",
       "nome_fundo": "BTG Pactual Logística FII",
       "setor": "Logística",
@@ -3250,6 +3261,26 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "BRCR11",
+      "nome_fundo": "BTG Pactual Corporate Office Fund FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-11-10T19:41:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1375210,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1375210"
+    },
+    {
+      "ticker": "GRUL11",
+      "nome_fundo": "Icatu Vanguarda Gru Logístico FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-10T18:33:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1374901,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1374901"
+    },
     {
       "ticker": "HSAF11",
       "nome_fundo": "Hsi Ativos Financeiros FII",
