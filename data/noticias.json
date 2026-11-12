@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "11/11/2026 20:02",
+  "atualizado_em": "12/11/2026 09:03",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "RBRY11",
+      "nome_fundo": "FII Rbr Crédito Imobiliário Estruturado",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-11T17:29:00",
+      "data_com": "2026-11-11",
+      "data_pagamento": "2026-11-18",
+      "valor": 1.0,
+      "valor_anterior": 1.0,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Outubro-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1377116,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377116"
+    },
     {
       "ticker": "RBRR11",
       "nome_fundo": "FII RBR Rendimento High Grade",
@@ -2418,6 +2435,28 @@
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "TRXF11",
+      "nome_fundo": "Trx Real Estate FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-11-11T19:27:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1377523,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377523"
+    },
+    {
+      "ticker": "PMLL11",
+      "nome_fundo": "Genial Malls FII",
+      "setor": "Shoppings",
+      "data_anuncio": "2026-11-11T19:15:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1377511,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1377511"
+    },
     {
       "ticker": "TRBL11",
       "nome_fundo": "Tellus Rio Bravo Renda Logística FII",
