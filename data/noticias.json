@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "13/11/2026 20:22",
+  "atualizado_em": "14/11/2026 08:24",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "OUJP11",
+      "nome_fundo": "Ourinvest Jpp FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-13T18:00:00",
+      "data_com": "2026-11-13",
+      "data_pagamento": "2026-11-24",
+      "valor": 0.85,
+      "valor_anterior": 1.5,
+      "variacao_pct": -0.43333333333333335,
+      "periodo_referencia": "Novembro",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1384373,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1384373"
+    },
     {
       "ticker": "TOPP11",
       "nome_fundo": "Rbr Top Offices FII",
@@ -2517,26 +2534,42 @@
       "fnet_id": 1350495,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1350495"
-    },
-    {
-      "ticker": "TOPP11",
-      "nome_fundo": "Rbr Top Offices FII",
-      "setor": "Escritórios",
-      "data_anuncio": "2026-10-14T17:02:00",
-      "data_com": "2026-10-14",
-      "data_pagamento": "2026-10-21",
-      "valor": 0.45,
-      "valor_anterior": 0.45,
-      "variacao_pct": 0.0,
-      "periodo_referencia": "Setembro-2026",
-      "isento_ir": true,
-      "tipo_provento": "Rendimento",
-      "fnet_id": 1349519,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1349519"
     }
   ],
   "fatos_relevantes": [
+    {
+      "ticker": "RPRI11",
+      "nome_fundo": "Rbr Premium Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-13T20:03:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1385479,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1385479"
+    },
+    {
+      "ticker": "VCJR11",
+      "nome_fundo": "Vectis Juros Real FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-13T20:01:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1385472,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1385472"
+    },
+    {
+      "ticker": "OUJP11",
+      "nome_fundo": "Ourinvest Jpp FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-13T18:01:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1384375,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1384375"
+    },
     {
       "ticker": "KORE11",
       "nome_fundo": "Kinea Oportunidades Real Estate FII",
@@ -3397,6 +3430,76 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "RURA11",
+      "nome_fundo": "RURA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-11-13T19:14:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1385016,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1385016"
+    },
+    {
+      "ticker": "ICRI11",
+      "nome_fundo": "Itaú Crédito Imobiliário IPCA FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-13T19:12:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1384997,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1384997"
+    },
+    {
+      "ticker": "ITRI11",
+      "nome_fundo": "Itaú Total Return FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-11-13T19:10:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1384972,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1384972"
+    },
+    {
+      "ticker": "RBRL11",
+      "nome_fundo": "Rbr Log FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-13T19:05:00",
+      "data_referencia": "31/10/2026",
+      "fnet_id": 1384934,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1384934"
+    },
+    {
+      "ticker": "HGRE11",
+      "nome_fundo": "Pátria Escritórios FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-11-13T18:40:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1384732,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1384732"
+    },
+    {
+      "ticker": "HGCR11",
+      "nome_fundo": "Pátria Recebíveis Imobiliários FII",
+      "setor": "Crédito Imobiliário",
+      "data_anuncio": "2026-11-13T18:39:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1384727,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1384727"
+    },
+    {
+      "ticker": "HGRU11",
+      "nome_fundo": "Pátria Renda Urbana FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-11-13T18:37:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1384714,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1384714"
+    },
     {
       "ticker": "RBFM11",
       "nome_fundo": "Rio Bravo Multiestratégia FII",
@@ -4626,36 +4729,6 @@
       "fnet_id": 1352531,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1352531"
-    },
-    {
-      "ticker": "ICRI11",
-      "nome_fundo": "Itaú Crédito Imobiliário IPCA FII",
-      "setor": "Crédito Imobiliário",
-      "data_anuncio": "2026-10-14T19:17:00",
-      "data_referencia": "30/09/2026",
-      "fnet_id": 1350033,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1350033"
-    },
-    {
-      "ticker": "ITRI11",
-      "nome_fundo": "Itaú Total Return FII",
-      "setor": "FOFs/Hedge Funds",
-      "data_anuncio": "2026-10-14T19:15:00",
-      "data_referencia": "30/09/2026",
-      "fnet_id": 1350031,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1350031"
-    },
-    {
-      "ticker": "RURA11",
-      "nome_fundo": "RURA11",
-      "setor": "FI-Agro",
-      "data_anuncio": "2026-10-14T19:14:00",
-      "data_referencia": "30/09/2026",
-      "fnet_id": 1350030,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1350030"
     }
   ]
 }
