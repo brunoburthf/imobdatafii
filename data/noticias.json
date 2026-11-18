@@ -1,7 +1,41 @@
 {
-  "atualizado_em": "17/11/2026 21:32",
+  "atualizado_em": "18/11/2026 09:34",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "SNFF11",
+      "nome_fundo": "Suno Fundo de FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-11-17T19:39:00",
+      "data_com": "2026-11-18",
+      "data_pagamento": "2026-11-27",
+      "valor": 3.023658126,
+      "valor_anterior": null,
+      "variacao_pct": null,
+      "periodo_referencia": "Novembro-2026",
+      "isento_ir": false,
+      "tipo_provento": "Amortização",
+      "fnet_id": 1388079,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388079"
+    },
+    {
+      "ticker": "KISU11",
+      "nome_fundo": "Kilima Fundo de Investimento em Cotas de FII Suno 30",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-11-17T19:37:00",
+      "data_com": "2026-11-18",
+      "data_pagamento": "2026-11-27",
+      "valor": 0.308363541,
+      "valor_anterior": null,
+      "variacao_pct": null,
+      "periodo_referencia": "Novembro-2026",
+      "isento_ir": false,
+      "tipo_provento": "Amortização",
+      "fnet_id": 1388077,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388077"
+    },
     {
       "ticker": "XPML11",
       "nome_fundo": "Xp Malls FII",
@@ -2436,6 +2470,28 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "SNFF11",
+      "nome_fundo": "Suno Fundo de FII",
+      "setor": "FOFs/Hedge Funds",
+      "data_anuncio": "2026-11-17T22:29:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1388145,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388145"
+    },
+    {
+      "ticker": "TVRI11",
+      "nome_fundo": "Tivio Renda Imobiliária FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-11-17T18:37:00",
+      "categoria": "Fato Relevante",
+      "especie": null,
+      "fnet_id": 1387957,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387957"
+    },
+    {
       "ticker": "TVRI11",
       "nome_fundo": "Tivio Renda Imobiliária FII",
       "setor": "Tijolo Multissetorial",
@@ -3328,6 +3384,16 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "ALZR11",
+      "nome_fundo": "Alianza Trust Renda Imobiliária FII",
+      "setor": "Tijolo Multissetorial",
+      "data_anuncio": "2026-11-17T20:51:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1388132,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388132"
+    },
     {
       "ticker": "CYCR11",
       "nome_fundo": "Cyrela Crédito FII",
