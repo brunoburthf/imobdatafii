@@ -1,7 +1,24 @@
 {
-  "atualizado_em": "19/11/2026 09:43",
+  "atualizado_em": "19/11/2026 21:13",
   "janela_dias": 30,
   "dividendos": [
+    {
+      "ticker": "BTAL11",
+      "nome_fundo": "BTAL11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-11-19T09:12:00",
+      "data_com": "2026-11-19",
+      "data_pagamento": "2026-11-27",
+      "valor": 1.0,
+      "valor_anterior": 1.0,
+      "variacao_pct": 0.0,
+      "periodo_referencia": "Outubro-2026",
+      "isento_ir": true,
+      "tipo_provento": "Rendimento",
+      "fnet_id": 1388908,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388908"
+    },
     {
       "ticker": "BROF11",
       "nome_fundo": "Brpr Corporate Offices FII",
@@ -2470,6 +2487,17 @@
   ],
   "fatos_relevantes": [
     {
+      "ticker": "RURA11",
+      "nome_fundo": "RURA11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-11-19T09:33:00",
+      "categoria": "Comunicado ao Mercado",
+      "especie": null,
+      "fnet_id": 1388915,
+      "fnet_versao": 2,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1388915"
+    },
+    {
       "ticker": "SNEL11",
       "nome_fundo": "Suno Energias Limpas FII",
       "setor": "Crédito Imobiliário",
@@ -3285,6 +3313,36 @@
     }
   ],
   "relatorios_gerenciais": [
+    {
+      "ticker": "BRCO11",
+      "nome_fundo": "Bresco Logística FII",
+      "setor": "Logística",
+      "data_anuncio": "2026-11-19T18:04:00",
+      "data_referencia": "31/10/2026",
+      "fnet_id": 1389391,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1389391"
+    },
+    {
+      "ticker": "JSRE11",
+      "nome_fundo": "Js Real Estate Multigestão FII",
+      "setor": "Escritórios",
+      "data_anuncio": "2026-11-19T17:45:00",
+      "data_referencia": "30/10/2026",
+      "fnet_id": 1389277,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1389277"
+    },
+    {
+      "ticker": "IAAG11",
+      "nome_fundo": "IAAG11",
+      "setor": "FI-Agro",
+      "data_anuncio": "2026-11-19T16:09:00",
+      "data_referencia": "31/10/2026",
+      "fnet_id": 1389155,
+      "fnet_versao": 1,
+      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1389155"
+    },
     {
       "ticker": "RBVA11",
       "nome_fundo": "Rio Bravo Renda Varejo FII",
