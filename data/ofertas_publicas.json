@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "19/11/2026 12:19",
+  "atualizado_em": "20/11/2026 12:19",
   "fonte": "CVM Dados Abertos (oferta_distribuicao.csv + oferta_resolucao_160.csv)",
   "janela_meses": 120,
   "ofertas": [
@@ -3181,51 +3181,6 @@
       "fnet_encerramento": null
     },
     {
-      "ticker": "PCIP11",
-      "nome_fundo": "Patria Crédito Imobiliário Índice de Preços FII",
-      "setor": "Crédito Imobiliário",
-      "cnpj_emissor": "28729197000113",
-      "numero_processo": "SRE/2752/2026",
-      "numero_registro": "27687",
-      "tipo_oferta": "PRIMARIA",
-      "rito": "CVM 160 — Automático",
-      "modalidade": "OPD Aut Profissional - sem bookbuilding",
-      "lider": "APEX GROUP DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
-      "ofertante": "PATRIA CRÉDITO IMOBILIÁRIO ÍNDICE DE PREÇOS FII - RESPONSABILIDADE LIMITADA",
-      "data_protocolo": "2026-08-27",
-      "data_registro": "2026-08-27",
-      "data_inicio": "2026-08-27",
-      "data_encerramento": "",
-      "ultimo_comunicado": "Registro Concedido",
-      "data_comunicado": "",
-      "status": "Em distribuição",
-      "emissao": 9,
-      "serie": "",
-      "tipo_ativo": "Cotas de FII",
-      "tipo_fundo": "",
-      "preco_unitario": 92.49,
-      "quantidade_total": 43266631.0,
-      "valor_total": 4001730701.19,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "publico_alvo": "Profissional",
-      "regime_distribuicao": "Melhores Esforços",
-      "bookbuilding": false,
-      "incentivado": false,
-      "sustentavel": false,
-      "gestor": "PÁTRIA VBI SECURITIES LTDA.",
-      "administrador": "APEX GROUP DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
-      "destinacao_recursos": "Adquirir ativos previstos na Política de Investimento do Regulamento do Fundo.",
-      "fonte_csv": "res_160",
-      "subscritores": {},
-      "fnet_inicio": {
-        "data": "2026-08-27",
-        "fnet_id": 1302775,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1302775"
-      },
-      "fnet_encerramento": null
-    },
-    {
       "ticker": "0T7H11",
       "nome_fundo": "BRZ RAYO MASTER FII RL - SUBORDINADA",
       "setor": "FII (não-curado)",
@@ -3509,11 +3464,7 @@
       "destinacao_recursos": "Os recursos líquidos provenientes da Oferta, após o pagamento das suas respectivas despesas, serão aplicados em ativos permitidos pela política de investimentos do Fundo estabelecida no Regulamento, observados os limites de concentração por emissor e por ativo constantes da regulamentação e do Regulamento, conforme aplicável, de forma ativa e discricionária pela Gestora, ou pela Administradora, neste caso, conforme recomendação/orientação da Gestora, conforme aplicável",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "fnet_inicio": {
-        "data": "2026-08-21",
-        "fnet_id": 1298694,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298694"
-      },
+      "fnet_inicio": null,
       "fnet_encerramento": null
     },
     {
@@ -4454,47 +4405,6 @@
       "gestor": "IGUANA INVESTIMENTOS LTDA.",
       "administrador": "MONETAR DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS LTDA.",
       "destinacao_recursos": "objetivando e priorizando auferir receitas com a locação de conjuntos comerciais a ser construídos",
-      "fonte_csv": "res_160",
-      "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "MGRI11",
-      "nome_fundo": "MOGNO PROPERTIES FII - RESPONSABILIDADE LIMITADA",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "41320997000144",
-      "numero_processo": "SRE/2420/2026",
-      "numero_registro": "27319",
-      "tipo_oferta": "PRIMARIA",
-      "rito": "CVM 160 — Automático",
-      "modalidade": "OPD Aut Profissional - sem bookbuilding",
-      "lider": "QI CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
-      "ofertante": "MOGNO PROPERTIES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
-      "data_protocolo": "2026-07-29",
-      "data_registro": "2026-07-29",
-      "data_inicio": "2026-07-29",
-      "data_encerramento": "",
-      "ultimo_comunicado": "Registro Concedido",
-      "data_comunicado": "",
-      "status": "Em distribuição",
-      "emissao": 3,
-      "serie": "",
-      "tipo_ativo": "Cotas de FII",
-      "tipo_fundo": "",
-      "preco_unitario": 7.84,
-      "quantidade_total": 13392858.0,
-      "valor_total": 105000006.72,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "publico_alvo": "Profissional",
-      "regime_distribuicao": "Melhores Esforços",
-      "bookbuilding": false,
-      "incentivado": false,
-      "sustentavel": false,
-      "gestor": "VALORA RENDA FIXA LTDA.",
-      "administrador": "QI CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
-      "destinacao_recursos": "Os recursos líquidos da Oferta serão aplicados, de forma ativa e discricionária pela Gestora, com o objetivo de obtenção de renda, por meio da aplicação preponderante em Ativos Imobiliários, observados a política de investimentos e os limites de composição e concentração previstos no Regulamento. Enquanto não forem alocados em Ativos Imobiliários, os recursos poderão ser aplicados temporariamente em Ativos de Liquidez.",
       "fonte_csv": "res_160",
       "subscritores": {},
       "fnet_inicio": null,
@@ -6094,47 +6004,6 @@
       "gestor": "Jive Investments Gestão de Recursos e Consultoria S.A.",
       "administrador": "MAF Distribuidora de Títulos e Valores Mobiliários S.A.",
       "destinacao_recursos": "Investimento em ativos imobiliários, com alocação residual em ativos financeiros.",
-      "fonte_csv": "res_160",
-      "subscritores": {},
-      "fnet_inicio": null,
-      "fnet_encerramento": null
-    },
-    {
-      "ticker": "0TSJ11",
-      "nome_fundo": "LWTC FII",
-      "setor": "FII (não-curado)",
-      "cnpj_emissor": "36501249000128",
-      "numero_processo": "SRE/1648/2026",
-      "numero_registro": "26469",
-      "tipo_oferta": "PRIMARIA",
-      "rito": "CVM 160 — Automático",
-      "modalidade": "OPD Aut Profissional - sem bookbuilding",
-      "lider": "GENIAL INVESTIMENTOS CORRETORA DE VALORES MOBILIÁRIOS S.A.",
-      "ofertante": "LWTC FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
-      "data_protocolo": "2026-05-26",
-      "data_registro": "2026-05-26",
-      "data_inicio": "2026-05-26",
-      "data_encerramento": "",
-      "ultimo_comunicado": "Registro Concedido",
-      "data_comunicado": "",
-      "status": "Em distribuição",
-      "emissao": 3,
-      "serie": "",
-      "tipo_ativo": "Cotas de FII",
-      "tipo_fundo": "",
-      "preco_unitario": 1000.0,
-      "quantidade_total": 450000.0,
-      "valor_total": 450000000.0,
-      "valor_captado": null,
-      "oferta_inicial": false,
-      "publico_alvo": "Profissional",
-      "regime_distribuicao": "Melhores Esforços",
-      "bookbuilding": false,
-      "incentivado": false,
-      "sustentavel": false,
-      "gestor": "LESTE FINANCIAL SERVICES GESTÃO DE RECURSOS LTDA.",
-      "administrador": "GENIAL INVESTIMENTOS CORRETORA DE VALORES MOBILIÁRIOS S.A.",
-      "destinacao_recursos": "Os recursos serão destinados conforme descrito na política de investimento do fundo.",
       "fonte_csv": "res_160",
       "subscritores": {},
       "fnet_inicio": null,
@@ -9706,6 +9575,71 @@
       "fnet_encerramento": null
     },
     {
+      "ticker": "PCIP11",
+      "nome_fundo": "Patria Crédito Imobiliário Índice de Preços FII",
+      "setor": "Crédito Imobiliário",
+      "cnpj_emissor": "28729197000113",
+      "numero_processo": "SRE/2752/2026",
+      "numero_registro": "27687",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Profissional - sem bookbuilding",
+      "lider": "APEX GROUP DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+      "ofertante": "PATRIA CRÉDITO IMOBILIÁRIO ÍNDICE DE PREÇOS FII - RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-08-27",
+      "data_registro": "2026-08-27",
+      "data_inicio": "2026-08-27",
+      "data_encerramento": "2026-11-16",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 9,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 92.49,
+      "quantidade_total": 43266631.0,
+      "valor_total": 4001730701.19,
+      "valor_captado": 3159906791.5199995,
+      "oferta_inicial": false,
+      "publico_alvo": "Profissional",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "PÁTRIA VBI SECURITIES LTDA.",
+      "administrador": "APEX GROUP DISTRIBUIDORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+      "destinacao_recursos": "Adquirir ativos previstos na Política de Investimento do Regulamento do Fundo.",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Pessoa Física / Natural": {
+          "n_investidores": 107,
+          "qtd_cotas": 2390.0,
+          "valor_r": 221051.09999999998
+        },
+        "Fundos de Investimento": {
+          "n_investidores": 3,
+          "qtd_cotas": 34162430.0,
+          "valor_r": 3159683150.7
+        },
+        "Demais Pessoa Jurídica": {
+          "n_investidores": 2,
+          "qtd_cotas": 28.0,
+          "valor_r": 2589.72
+        }
+      },
+      "fnet_inicio": {
+        "data": "2026-08-27",
+        "fnet_id": 1302775,
+        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1302775"
+      },
+      "fnet_encerramento": {
+        "data": "2026-11-16",
+        "fnet_id": 1387191,
+        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387191"
+      }
+    },
+    {
       "ticker": "0SQD11",
       "nome_fundo": "BRASPARK RENDA IMOBILIÁRIA FII RL",
       "setor": "FII (não-curado)",
@@ -10494,11 +10428,7 @@
           "valor_r": 1098702809.26
         }
       },
-      "fnet_inicio": {
-        "data": "2026-08-21",
-        "fnet_id": 1298591,
-        "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298591"
-      },
+      "fnet_inicio": null,
       "fnet_encerramento": {
         "data": "2026-10-01",
         "fnet_id": 1338087,
@@ -11176,6 +11106,53 @@
           "n_investidores": 2,
           "qtd_cotas": 413545.0,
           "valor_r": 41354500.0
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
+      "ticker": "MGRI11",
+      "nome_fundo": "MOGNO PROPERTIES FII - RESPONSABILIDADE LIMITADA",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "41320997000144",
+      "numero_processo": "SRE/2420/2026",
+      "numero_registro": "27319",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Profissional - sem bookbuilding",
+      "lider": "QI CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+      "ofertante": "MOGNO PROPERTIES FUNDO DE INVESTIMENTO IMOBILIÁRIO RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-07-29",
+      "data_registro": "2026-07-29",
+      "data_inicio": "2026-07-29",
+      "data_encerramento": "2026-11-12",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 3,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 7.84,
+      "quantidade_total": 13392858.0,
+      "valor_total": 105000006.72,
+      "valor_captado": 102952700.48,
+      "oferta_inicial": false,
+      "publico_alvo": "Profissional",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "VALORA RENDA FIXA LTDA.",
+      "administrador": "QI CORRETORA DE TÍTULOS E VALORES MOBILIÁRIOS S.A.",
+      "destinacao_recursos": "Os recursos líquidos da Oferta serão aplicados, de forma ativa e discricionária pela Gestora, com o objetivo de obtenção de renda, por meio da aplicação preponderante em Ativos Imobiliários, observados a política de investimentos e os limites de composição e concentração previstos no Regulamento. Enquanto não forem alocados em Ativos Imobiliários, os recursos poderão ser aplicados temporariamente em Ativos de Liquidez.",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Fundos de Investimento": {
+          "n_investidores": 3,
+          "qtd_cotas": 13131722.0,
+          "valor_r": 102952700.48
         }
       },
       "fnet_inicio": null,
@@ -14969,6 +14946,53 @@
       "fnet_encerramento": null
     },
     {
+      "ticker": "0TSJ11",
+      "nome_fundo": "LWTC FII",
+      "setor": "FII (não-curado)",
+      "cnpj_emissor": "36501249000128",
+      "numero_processo": "SRE/1648/2026",
+      "numero_registro": "26469",
+      "tipo_oferta": "PRIMARIA",
+      "rito": "CVM 160 — Automático",
+      "modalidade": "OPD Aut Profissional - sem bookbuilding",
+      "lider": "GENIAL INVESTIMENTOS CORRETORA DE VALORES MOBILIÁRIOS S.A.",
+      "ofertante": "LWTC FUNDO DE INVESTIMENTO IMOBILIÁRIO - RESPONSABILIDADE LIMITADA",
+      "data_protocolo": "2026-05-26",
+      "data_registro": "2026-05-26",
+      "data_inicio": "2026-05-26",
+      "data_encerramento": "2026-11-19",
+      "ultimo_comunicado": "Oferta Encerrada",
+      "data_comunicado": "",
+      "status": "Encerrada",
+      "emissao": 3,
+      "serie": "",
+      "tipo_ativo": "Cotas de FII",
+      "tipo_fundo": "",
+      "preco_unitario": 1000.0,
+      "quantidade_total": 450000.0,
+      "valor_total": 450000000.0,
+      "valor_captado": 442691000.0,
+      "oferta_inicial": false,
+      "publico_alvo": "Profissional",
+      "regime_distribuicao": "Melhores Esforços",
+      "bookbuilding": false,
+      "incentivado": false,
+      "sustentavel": false,
+      "gestor": "LESTE FINANCIAL SERVICES GESTÃO DE RECURSOS LTDA.",
+      "administrador": "GENIAL INVESTIMENTOS CORRETORA DE VALORES MOBILIÁRIOS S.A.",
+      "destinacao_recursos": "Os recursos serão destinados conforme descrito na política de investimento do fundo.",
+      "fonte_csv": "res_160",
+      "subscritores": {
+        "Demais Instit. Financeiras": {
+          "n_investidores": 1,
+          "qtd_cotas": 442691.0,
+          "valor_r": 442691000.0
+        }
+      },
+      "fnet_inicio": null,
+      "fnet_encerramento": null
+    },
+    {
       "ticker": "SNFZ11",
       "nome_fundo": "SNFZ11",
       "setor": "FI-Agro",
@@ -15114,7 +15138,7 @@
       "destinacao_recursos": "aquisição de ativos alvo",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2026-05-25 + paga proventos ha 167d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2026-05-25 + paga proventos ha 168d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -15263,7 +15287,7 @@
       "preco_unitario": 10.0,
       "quantidade_total": 5000000.0,
       "valor_total": 50000000.0,
-      "valor_captado": 47500000.0,
+      "valor_captado": 47250000.0,
       "oferta_inicial": true,
       "publico_alvo": "Profissional",
       "regime_distribuicao": "Melhores Esforços",
@@ -15277,8 +15301,8 @@
       "subscritores": {
         "Fundos de Investimento": {
           "n_investidores": 1,
-          "qtd_cotas": 4750000.0,
-          "valor_r": 47500000.0
+          "qtd_cotas": 4725000.0,
+          "valor_r": 47250000.0
         }
       },
       "fnet_inicio": null,
@@ -26452,7 +26476,7 @@
       "destinacao_recursos": "Preponderantemente a aquisição de empreendimentos imobiliários (nos termos descritos no Anexo ao regulamento), bem como, outros títulos e valores mobiliários, conforme definições e limites descritos no Anexo ao regulamento.",
       "fonte_csv": "res_160",
       "subscritores": {},
-      "_status_inferido": "registro 2025-12-19 + paga proventos ha 324d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-12-19 + paga proventos ha 325d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -44660,7 +44684,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2025-05-12 + paga proventos ha 356d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2025-05-12 + paga proventos ha 357d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -65327,7 +65351,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2024-03-08 + paga proventos ha 965d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2024-03-08 + paga proventos ha 966d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -83304,7 +83328,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1541d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2022-08-15 + paga proventos ha 1542d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -85039,7 +85063,7 @@
       "oferta_inicial": false,
       "fonte_csv": "400_476",
       "subscritores": {},
-      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1968d (>=150); CSV CVM nao atualizou Data_Encerramento",
+      "_status_inferido": "registro 2021-06-07 + paga proventos ha 1969d (>=150); CSV CVM nao atualizou Data_Encerramento",
       "fnet_inicio": null,
       "fnet_encerramento": null
     },
@@ -136259,16 +136283,6 @@
   ],
   "_anuncios_fnet_sem_cvm": [
     {
-      "ticker": "PCIP11",
-      "nome_pregao": "FII PCIP PAX",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-11-16T18:49:00",
-      "fnet_id": 1387191,
-      "fnet_versao": 1,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1387191"
-    },
-    {
       "ticker": "HGRE11",
       "nome_pregao": "FII HGRE PAX",
       "tipo": "Encerramento",
@@ -136317,16 +136331,6 @@
       "fnet_id": 1299531,
       "fnet_versao": 1,
       "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1299531"
-    },
-    {
-      "ticker": "HGRU11",
-      "nome_pregao": "FII HGRU PAX",
-      "tipo": "Encerramento",
-      "tipo_completo": "Anúncio de Encerramento",
-      "data_anuncio": "2026-08-21T09:16:00",
-      "fnet_id": 1298009,
-      "fnet_versao": 2,
-      "url_fnet": "https://fnet.bmfbovespa.com.br/fnet/publico/exibirDocumento?id=1298009"
     }
   ]
 }
