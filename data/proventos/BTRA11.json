@@ -1,6 +1,6 @@
 {
   "ticker": "BTRA11",
-  "ultima_atualizacao": "2026-10-24T05:10:50",
+  "ultima_atualizacao": "2026-11-24T10:31:22",
   "fonte": "statusinvest+fnet",
   "proventos": [
     {
@@ -390,6 +390,12 @@
     {
       "data_com": "2026-10-23",
       "data_pagamento": "2026-10-30",
+      "valor": 1.0,
+      "tipo": "Rendimento"
+    },
+    {
+      "data_com": "2026-11-23",
+      "data_pagamento": "2026-11-30",
       "valor": 1.0,
       "tipo": "Rendimento"
     }
